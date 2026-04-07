@@ -986,6 +986,22 @@ const caseSources = {
     { label: "Supreme Court SCOTUS Blog", url: "https://www.scotusblog.com/" },
     { label: "U.S. Copyright Office Guidance on AI Authorship", url: "https://www.copyright.gov/" },
   ],
+  113: [
+    { label: "Bird & Bird - Higher Regional Court Hamburg Confirms AI Training Permitted", url: "https://www.twobirds.com/en/insights/2025/germany/higher-regional-court-hamburg-confirms-ai-training-was-permitted-(kneschke-v,-d-,-laion)" },
+    { label: "DLA Piper - Kneschke v. LAION Judgment Analysis", url: "https://www.dlapiper.com/en/insights/blogs/mse-today/2025/robert-kneschke-v-laion" },
+    { label: "Norton Rose Fulbright - Machine-Readable Opt-Outs", url: "https://www.insidetechlaw.com/blog/2025/12/machine-readable-opt-outs-and-ai-training-hamburg-court-clarifies-copyright-exceptions" },
+    { label: "EUIPO Case Page", url: "https://www.euipo.europa.eu/en/law/recent-case-law/germany-hamburg-district-court-310-o-22723-laion-v-robert-kneschke" },
+  ],
+  114: [
+    { label: "Euronews - Danish Publishers Sue OpenAI", url: "https://www.euronews.com/next/2025/07/01/danish-publishers-sue-openai-after-failing-to-strike-rights-deal" },
+    { label: "IFRRO - DPCMO to Sue OpenAI", url: "https://ifrro.org/page/article-detail/dpcmo-to-sue-openai-over-unauthorised-use-of-danish-content/" },
+    { label: "Press Gazette - News Publisher AI Lawsuits", url: "https://pressgazette.co.uk/platforms/news-publisher-ai-deals-lawsuits-openai-google/" },
+  ],
+  115: [
+    { label: "Korea Herald - Korea's Top TV Networks Sue OpenAI", url: "https://www.koreaherald.com/article/10680650" },
+    { label: "Anadolu Agency - South Korea Broadcasters Sue OpenAI", url: "https://www.aa.com.tr/en/asia-pacific/south-koreas-3-terrestrial-broadcasters-sue-openai-over-copyright-infringement/3838091" },
+    { label: "MLex - OpenAI Sued in South Korea", url: "https://www.mlex.com/mlex/intellectual-property/articles/2445043" },
+  ],
 };
 
 const cases = [
@@ -2332,6 +2348,42 @@ const cases = [
     issues: `博士史蒂芬．瑟勒尋求對完全由其 AI 系統「創意機器」(Creativity Machine) 生成的藝術作品進行著作權登記，其中不涉及任何人類創意投入。本案提出根本問題：純 AI 生成的作品能否受著作權保護？著作權局、地方法院及聯邦巡迴法院均回答否——人類著作權是必要條件。\n\n人類著作權要件與 AI 生成作品：國際共識確認純 AI 生成作品不可著作權化，但人類有重大創意貢獻的 AI 輔助作品仍可受保護。`,
     progress: `2026 年 3 月 2 日，美國最高法院駁回上訴許可（certiorari petition）。最高法院的裁定確認了材料必須具有人類著作權才能受著作權保護的原則。值得注意的是，此裁定並未禁止人類有創意貢獻的 AI 輔助作品的著作權保護。瑟勒案明確聲明排除所有人類投入，因此不適用於混合創作的情形。`,
     taiwan: `台灣《著作權法》同樣要求人類著作權。瑟勒案確認了國際共識。台灣智慧財產局可在回應 AI 生成作品登記問題時參考本案。本案為全球共識奠定基礎：純 AI 生成作品不受著作權保護，但人類創意貢獻的混合作品仍受保護。`
+  },
+  {
+    id: 113,
+    name: "Kneschke v. LAION e.V.",
+    court: "德國漢堡地方法院 → 漢堡高等地區法院 (LG Hamburg → OLG Hamburg, Case No. 5 U 104/24)",
+    judge: "OLG Hamburg (Appellate Panel)",
+    status: "dismissed",
+    claims: ["EU TDM Exception (DSM Directive Art. 4)", "German Copyright Act §60d", "Machine-Readable Opt-Out"],
+    defendants: "LAION e.V. (Large-scale Artificial Intelligence Open Network)",
+    issues: `攝影師 Robert Kneschke 對非營利組織 LAION e.V. 提起訴訟，主張 LAION 未經同意將其攝影作品納入 LAION-5B 資料集（包含 50 億張網路爬取圖像，用於訓練 Stable Diffusion 等 AI 模型）。\n\n關鍵法律爭點：(1) 文本與資料探勘（TDM）例外之適用範圍——非營利研究機構是否可援引《德國著作權法》第60d條（科學研究例外）進行 AI 訓練資料集之建構；(2) 機器可讀退出（machine-readable opt-out）之定義——以自然語言表達的退出聲明是否構成有效的機器可讀權利保留；(3) AI 訓練資料集的「複製」性質——下載及處理圖像是否構成著作權法上的重製行為。`,
+    progress: `漢堡地方法院於 2024 年 9 月駁回原告請求，認定 LAION 可援引科學研究例外。漢堡高等地區法院於 2025 年 12 月 10 日駁回上訴，維持原判。法院認定：(1) LAION 作為非營利研究機構可援引 TDM 例外；(2) Kneschke 以純文字（自然語言）表達的 TDM 退出聲明不構成有效的「機器可讀」權利保留。法院允許向聯邦最高法院（BGH）上訴，該案尚未完結。本案為歐盟 TDM 例外適用於 AI 訓練的關鍵判例。`,
+    taiwan: `本案對台灣具有重大參考意義：(1) 台灣目前缺乏明確的 TDM 例外規定，本案凸顯立法上需要考慮是否引入類似歐盟的 TDM 例外；(2)「機器可讀退出」的定義直接影響著作權人的實際保護力度——台灣創作者如欲保留 AI 訓練排除權，須注意技術性退出機制（如 robots.txt、metadata 標記）的重要性；(3) 非營利研究機構與商業 AI 公司的區別處理，亦為台灣未來立法應考量的面向。`
+  },
+  {
+    id: 114,
+    name: "DPCMO v. OpenAI (Danish Publishers)",
+    court: "丹麥哥本哈根法院 (Copenhagen District Court, Denmark)",
+    judge: "TBA",
+    status: "active",
+    claims: ["Danish Copyright Act", "EU DSM Directive Art. 4 TDM", "Unauthorized Training Data Use"],
+    defendants: "OpenAI, Inc.",
+    issues: `丹麥出版商著作權管理組織 DPCMO（代表幾乎所有丹麥媒體機構，包括廣播公司和報社）對 OpenAI 提起訴訟，主張 OpenAI 未經授權使用其會員出版商的新聞內容訓練 ChatGPT。\n\n關鍵法律爭點：(1) 大規模複製——OpenAI 大規模複製受著作權保護的丹麥新聞內容用於 AI 模型訓練；(2) RAG 即時抓取——OpenAI 透過檢索增強生成（RAG）技術即時抓取新聞內容；(3) TDM 退出時間線——DPCMO 主張 OpenAI 至少在 2024 年夏季前持續使用其會員內容訓練模型，而丹麥法律直到 2023 年夏季才引入 TDM 例外，此前的使用均無法律依據。`,
+    progress: `DPCMO 於 2026 年 2 月 27 日正式提起訴訟。此前 DPCMO 曾多次嘗試與 OpenAI 進行協商以確保符合丹麥著作權法並達成「公平價值交換」，但 OpenAI 拒絕進行實質性談判，亦拒絕參與丹麥政府指定調解人的調解程序。OpenAI 於 2024 年 6 月同意將 DPCMO 會員的新聞出版品從訓練資料集中移除，但 DPCMO 認為此舉不足以解決先前的侵權問題。案件處於早期訴訟程序階段。`,
+    taiwan: `本案對台灣新聞媒體業具有直接啟示：(1) 台灣媒體機構（如聯合報、中時、自由時報等）面臨相同問題——AI 公司是否未經授權使用其新聞內容？(2) 集體訴訟模式——DPCMO 代表全國媒體機構的集體行動模式，值得台灣新聞業參考；(3) 協商與訴訟並行——丹麥經驗顯示，在協商破裂後透過訴訟施壓是有效策略；(4) RAG 即時抓取的著作權問題——台灣法院未來亦可能面對此一新型態侵權主張。`
+  },
+  {
+    id: 115,
+    name: "KBS, MBC, SBS v. OpenAI (Korean Broadcasters)",
+    court: "韓國首爾中央地方法院 (Seoul Central District Court, South Korea)",
+    judge: "TBA",
+    status: "active",
+    claims: ["Korean Copyright Act", "Unauthorized AI Training", "News Content Infringement"],
+    defendants: "OpenAI, Inc.",
+    issues: `韓國三大無線電視台——KBS（韓國放送公社）、MBC（文化放送）、SBS（首爾放送）——聯合對 OpenAI 提起著作權侵害訴訟，主張 ChatGPT 未經授權使用其新聞內容進行訓練。\n\n關鍵法律爭點：(1) AI 訓練中的新聞內容使用——三大電視台的新聞報導是否被用於訓練 ChatGPT；(2) 禁止令請求——要求 OpenAI 停止使用其新聞內容；(3) 損害賠償——韓國廣播協會指出 OpenAI 透過 GPT 服務賺取天文數字的利潤，並與全球各地媒體機構簽訂付費授權協議，卻完全拒絕與三大電視台協商，維持歧視性的著作權政策。`,
+    progress: `訴訟於 2026 年 2 月 23 日在首爾中央地方法院提起，尋求禁止令及損害賠償。本案為韓國三大無線電視台首次聯合對全球 AI 公司提起訴訟。韓國廣播協會表示，OpenAI 明知有義務取得合法有效的授權以使用新聞內容，卻完全拒絕與三大電視台協商。案件處於早期訴訟程序階段。本案與丹麥 DPCMO v. OpenAI 案形成全球媒體機構對 AI 公司的聯合施壓態勢。`,
+    taiwan: `本案對台灣廣電媒體具有重要參考價值：(1) 台灣無線電視台（台視、中視、華視、民視）面臨相同處境，可參考韓國三大台的聯合訴訟策略；(2) 韓國法院對 AI 著作權的裁判將影響東亞地區的法律發展方向；(3)「歧視性著作權政策」的論證——OpenAI 與部分媒體簽約卻拒絕與其他媒體協商，此論點亦適用於台灣情境；(4) 台灣 NCC 及文化部在制定 AI 相關政策時，應關注韓國法院對媒體內容保護的立場。`
   }
 ];
 
@@ -2391,7 +2443,7 @@ function buildStats() {
   const appeals = cases.filter(c => c.status === 'appeal').length;
   const mdl = cases.filter(c => c.status === 'mdl').length;
   const defendants = [...new Set(cases.map(c => c.defendants.split(',')[0].trim()))].length;
-  const nonUSKeywords = ['CJEU','UK High Court','European Union','Budapest','歐盟','加拿大','印度','德國','法國','英國','Ontario','Delhi','German','Munich','Paris','France','Canada'];
+  const nonUSKeywords = ['CJEU','UK High Court','European Union','Budapest','歐盟','加拿大','印度','德國','法國','英國','Ontario','Delhi','German','Munich','Paris','France','Canada','Hamburg','漢堡','丹麥','Copenhagen','Denmark','韓國','Seoul','South Korea'];
   const usCases = cases.filter(c => !nonUSKeywords.some(k => c.court.includes(k))).length;
   const nonUSCases = cases.filter(c => nonUSKeywords.some(k => c.court.includes(k))).length;
   document.getElementById('statsBar').innerHTML = `
@@ -2454,7 +2506,7 @@ let selectedId = null;
 function renderCaseList() {
   const q = document.getElementById('searchInput').value.toLowerCase();
   const list = document.getElementById('caseList');
-  const _nonUSKW = ['CJEU','UK High Court','European Union','Budapest','歐盟','加拿大','印度','德國','法國','英國','Ontario','Delhi','German','Munich','Paris','France','Canada'];
+  const _nonUSKW = ['CJEU','UK High Court','European Union','Budapest','歐盟','加拿大','印度','德國','法國','英國','Ontario','Delhi','German','Munich','Paris','France','Canada','Hamburg','漢堡','丹麥','Copenhagen','Denmark','韓國','Seoul','South Korea'];
   const filtered = cases.filter(c => {
     if (activeFilter === 'us') {
       if (_nonUSKW.some(k => c.court.includes(k))) return false;
