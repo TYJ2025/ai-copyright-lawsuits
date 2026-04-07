@@ -2391,7 +2391,7 @@ function buildStats() {
   const appeals = cases.filter(c => c.status === 'appeal').length;
   const mdl = cases.filter(c => c.status === 'mdl').length;
   const defendants = [...new Set(cases.map(c => c.defendants.split(',')[0].trim()))].length;
-  const nonUSKeywords = ['CJEU', 'UK High Court', 'European Union', 'Budapest', '歐盟'];
+  const nonUSKeywords = ['CJEU','UK High Court','European Union','Budapest','歐盟','加拿大','印度','德國','法國','英國','Ontario','Delhi','German','Munich','Paris','France','Canada'];
   const usCases = cases.filter(c => !nonUSKeywords.some(k => c.court.includes(k))).length;
   const nonUSCases = cases.filter(c => nonUSKeywords.some(k => c.court.includes(k))).length;
   document.getElementById('statsBar').innerHTML = `
@@ -2454,7 +2454,7 @@ let selectedId = null;
 function renderCaseList() {
   const q = document.getElementById('searchInput').value.toLowerCase();
   const list = document.getElementById('caseList');
-  const _nonUSKW = ['CJEU', 'UK High Court', 'European Union', 'Budapest', '歐盟'];
+  const _nonUSKW = ['CJEU','UK High Court','European Union','Budapest','歐盟','加拿大','印度','德國','法國','英國','Ontario','Delhi','German','Munich','Paris','France','Canada'];
   const filtered = cases.filter(c => {
     if (activeFilter === 'us') {
       if (_nonUSKW.some(k => c.court.includes(k))) return false;
