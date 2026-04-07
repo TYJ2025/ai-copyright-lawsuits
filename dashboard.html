@@ -1,0 +1,2549 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI 著作權訴訟全球追蹤儀表板</title>
+<style>
+  :root {
+    --navy: #1a2332;
+    --navy-light: #243447;
+    --navy-mid: #1e2d3d;
+    --gold: #c9a96e;
+    --gold-light: #e0c990;
+    --cream: #f5f0e8;
+    --text: #2c3e50;
+    --text-light: #7f8c8d;
+    --border: #d5cfc3;
+    --white: #ffffff;
+    --red: #c0392b;
+    --green: #27ae60;
+    --blue: #2980b9;
+    --orange: #e67e22;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'Microsoft JhengHei', '微軟正黑體', sans-serif;
+    background: var(--cream);
+    color: var(--text);
+    line-height: 1.6;
+  }
+
+  /* ── Header ── */
+  header {
+    background: linear-gradient(135deg, var(--navy), var(--navy-light));
+    color: var(--white);
+    padding: 24px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 3px solid var(--gold);
+  }
+  header h1 {
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 1px;
+  }
+  header h1 span { color: var(--gold); }
+  .header-meta {
+    font-size: 13px;
+    color: var(--gold-light);
+    text-align: right;
+    font-family: 'Microsoft JhengHei', '微軟正黑體', sans-serif;
+  }
+
+  /* ── News Bar (Static) ── */
+  .ticker-wrap {
+    background: var(--navy-mid);
+    border-bottom: 1px solid var(--gold);
+    padding: 12px 0;
+    display: flex;
+    align-items: flex-start;
+  }
+  .ticker-label {
+    background: var(--gold);
+    color: var(--navy);
+    font-weight: 700;
+    font-size: 12px;
+    padding: 6px 16px;
+    white-space: nowrap;
+    flex-shrink: 0;
+    font-family: 'Microsoft JhengHei', '微軟正黑體', sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-top: 2px;
+  }
+  .ticker-track {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px 0;
+    padding: 0 16px;
+  }
+  .ticker-item {
+    color: var(--cream);
+    font-size: 13px;
+    padding: 2px 12px;
+    font-family: 'Microsoft JhengHei', '微軟正黑體', sans-serif;
+    white-space: nowrap;
+  }
+  .ticker-item a {
+    color: var(--gold-light);
+    text-decoration: none;
+    border-bottom: 1px dotted var(--gold);
+  }
+  .ticker-item a:hover { color: var(--white); }
+  .ticker-sep { color: var(--gold); padding: 0 6px; }
+
+  /* ── Stats Bar ── */
+  .stats-bar {
+    display: flex;
+    gap: 0;
+    background: var(--white);
+    border-bottom: 1px solid var(--border);
+    font-family: 'Microsoft JhengHei', '微軟正黑體', sans-serif;
+  }
+  .stat-box {
+    flex: 1;
+    text-align: center;
+    padding: 16px 12px;
+    border-right: 1px solid var(--border);
+  }
+  .stat-box:last-child { border-right: none; }
+  .stat-num { font-size: 28px; font-weight: 700; color: var(--navy); }
+  .stat-label { font-size: 11px; color: var(--text-light); text-transform: uppercase; letter-spacing: 1px; margin-top: 2px; }
+
+  /* ── Main Layout ── */
+  .main {
+    display: flex;
+    height: calc(100vh - 180px);
+    min-height: 600px;
+  }
+
+  /* ── Left Panel ── */
+  .panel-left {
+    width: 400px;
+    min-width: 400px;
+    background: var(--white);
+    border-right: 1px solid var(--border);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  .search-box {
+    padding: 12px 16px;
+    border-bottom: 1px solid var(--border);
+    background: #faf8f4;
+  }
+  .search-box input {
+    width: 100%;
+    padding: 8px 12px;
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    font-size: 13px;
+    font-family: 'Microsoft JhengHei', '微軟正黑體', sans-serif;
+    outline: none;
+    background: var(--white);
+  }
+  .search-box input:focus { border-color: var(--gold); }
+  .filter-row {
+    padding: 8px 16px;
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+    background: #faf8f4;
+  }
+  .filter-btn {
+    font-size: 11px;
+    padding: 4px 10px;
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    background: var(--white);
+    cursor: pointer;
+    font-family: 'Microsoft JhengHei', '微軟正黑體', sans-serif;
+    color: var(--text-light);
+    transition: all 0.2s;
+  }
+  .filter-btn:hover, .filter-btn.active {
+    background: var(--navy);
+    color: var(--white);
+    border-color: var(--navy);
+  }
+  .case-list {
+    flex: 1;
+    overflow-y: auto;
+    scrollbar-width: thin;
+  }
+  .case-item {
+    padding: 14px 16px;
+    border-bottom: 1px solid #eee;
+    cursor: pointer;
+    transition: background 0.15s;
+    position: relative;
+  }
+  .case-item:hover { background: #faf8f4; }
+  .case-item.active {
+    background: linear-gradient(90deg, #f0ebe0, var(--white));
+    border-left: 3px solid var(--gold);
+  }
+  .case-name {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--navy);
+    margin-bottom: 4px;
+    line-height: 1.4;
+  }
+  .case-meta {
+    font-size: 11px;
+    color: var(--text-light);
+    font-family: 'Microsoft JhengHei', '微軟正黑體', sans-serif;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .badge {
+    display: inline-block;
+    font-size: 10px;
+    padding: 2px 8px;
+    border-radius: 10px;
+    font-weight: 600;
+    font-family: 'Microsoft JhengHei', '微軟正黑體', sans-serif;
+    letter-spacing: 0.3px;
+  }
+  .badge-active { background: #e8f5e9; color: #2e7d32; }
+  .badge-settled { background: #e3f2fd; color: #1565c0; }
+  .badge-appeal { background: #fff3e0; color: #e65100; }
+  .badge-dismissed { background: #fce4ec; color: #c62828; }
+  .badge-mdl { background: #f3e5f5; color: #6a1b9a; }
+
+  /* ── Right Panel ── */
+  .panel-right {
+    flex: 1;
+    overflow-y: auto;
+    padding: 32px 40px;
+    background: var(--cream);
+  }
+  .empty-state {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    color: var(--text-light);
+    text-align: center;
+  }
+  .empty-state .icon {
+    font-size: 48px;
+    margin-bottom: 16px;
+    opacity: 0.3;
+  }
+  .empty-state p { font-size: 15px; }
+  .detail-header {
+    margin-bottom: 28px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid var(--gold);
+  }
+  .detail-title {
+    font-size: 22px;
+    color: var(--navy);
+    font-weight: 700;
+    margin-bottom: 8px;
+    line-height: 1.3;
+  }
+  .detail-court {
+    font-size: 13px;
+    color: var(--text-light);
+    font-family: 'Microsoft JhengHei', '微軟正黑體', sans-serif;
+  }
+  .section {
+    margin-bottom: 28px;
+    background: var(--white);
+    border-radius: 6px;
+    border: 1px solid var(--border);
+    overflow: hidden;
+  }
+  .section-header {
+    background: var(--navy);
+    color: var(--gold-light);
+    padding: 10px 20px;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: 'Microsoft JhengHei', '微軟正黑體', sans-serif;
+  }
+  .section-body {
+    padding: 20px;
+    font-size: 14px;
+    line-height: 1.8;
+  }
+  .section-body ul {
+    margin: 8px 0 8px 20px;
+  }
+  .section-body li {
+    margin-bottom: 6px;
+  }
+  .claim-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-top: 10px;
+  }
+  .claim-tag {
+    font-size: 11px;
+    padding: 3px 10px;
+    border-radius: 4px;
+    background: #f0ebe0;
+    color: var(--navy);
+    font-family: 'Microsoft JhengHei', '微軟正黑體', sans-serif;
+    border: 1px solid var(--border);
+  }
+  .taiwan-insight {
+    border-left: 3px solid var(--gold);
+    padding-left: 16px;
+    margin: 12px 0;
+    color: var(--text);
+  }
+
+  /* ── Scrollbar ── */
+  ::-webkit-scrollbar { width: 6px; }
+  ::-webkit-scrollbar-track { background: transparent; }
+  ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+
+  /* ── Footer ── */
+  footer {
+    background: var(--navy);
+    color: var(--text-light);
+    text-align: center;
+    padding: 10px;
+    font-size: 11px;
+    font-family: 'Microsoft JhengHei', '微軟正黑體', sans-serif;
+    border-top: 1px solid var(--gold);
+  }
+
+
+  /* ── Clickable Elements & Sources ── */
+  .stat-box {
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+  .stat-box:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+
+  .source-list {
+    margin-top: 16px;
+    padding: 12px;
+    background: #faf8f4;
+    border-left: 3px solid var(--gold);
+    border-radius: 4px;
+    font-size: 12px;
+  }
+  .source-list-header {
+    font-weight: 600;
+    color: var(--navy);
+    margin-bottom: 10px;
+    font-size: 13px;
+  }
+  .source-item {
+    margin-bottom: 8px;
+    padding: 4px 0;
+  }
+  .source-link {
+    color: var(--blue);
+    text-decoration: none;
+    border-bottom: 1px dotted var(--blue);
+    transition: all 0.2s;
+    font-size: 12px;
+  }
+  .source-link:hover {
+    color: var(--navy);
+    border-bottom: 1px solid var(--navy);
+  }
+  .courtlistener-btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 6px 14px;
+    background: var(--navy);
+    color: var(--gold-light);
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 4px;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+    transition: all 0.2s;
+  }
+  .courtlistener-btn:hover {
+    background: var(--gold);
+    color: var(--navy);
+  }
+  .courtlistener-btn::before {
+    content: "⚖ ";
+  }
+
+  .fig-link {
+    color: inherit;
+    text-decoration: none;
+    border-bottom: 1px dotted var(--gold);
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+  .fig-link:hover {
+    color: var(--blue);
+    border-bottom: 1px solid var(--blue);
+  }
+
+  .fn {
+    font-size: 0.8em;
+    vertical-align: super;
+    color: var(--blue);
+  }
+
+  /* ── Responsive ── */
+  @media (max-width: 900px) {
+    .main { flex-direction: column; height: auto; }
+    .panel-left { width: 100%; min-width: 0; max-height: 50vh; }
+    .panel-right { padding: 20px; }
+    .stats-bar { flex-wrap: wrap; }
+    .stat-box { min-width: 50%; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1><span>AI</span> Copyright Litigation &mdash; Global Tracker</h1>
+  <div class="header-meta">
+    <div>AI 著作權訴訟全球追蹤儀表板</div>
+    <div id="dateDisplay"></div>
+  </div>
+</header>
+
+<!-- ── Stats Bar ── -->
+<div class="stats-bar" id="statsBar"></div>
+
+<!-- ── Daily News Ticker ── -->
+<div class="ticker-wrap">
+  <div class="ticker-label">每日快訊 Daily Brief</div>
+  <div class="ticker-track" id="tickerTrack"></div>
+</div>
+
+<!-- ── Main Content ── -->
+<div class="main">
+  <div class="panel-left">
+    <div class="search-box">
+      <input type="text" id="searchInput" placeholder="搜尋案件名稱、法院、法官 …">
+    </div>
+    <div class="filter-row" id="filterRow"></div>
+    <div class="case-list" id="caseList"></div>
+  </div>
+  <div class="panel-right" id="detailPanel">
+    <div class="empty-state">
+      <div class="icon">&#9878;</div>
+      <p>請從左側選取案件以檢視詳細資訊</p>
+      <p style="font-size:12px;margin-top:8px;color:#bbb;">Select a case from the left panel to view details</p>
+    </div>
+  </div>
+</div>
+
+<footer>
+  &copy; 2026 AI Copyright Litigation Tracker &mdash; 資料來源：美國聯邦法院公開紀錄、CourtListener、<a href="https://chatgptiseatingtheworld.com/" target="_blank" style="color:var(--gold);text-decoration:underline;">ChatGPT Is Eating The World</a>、BakerHostetler AI Litigation Tracker &mdash; 最近更新: 2026-04-07
+</footer>
+
+<script>
+// ════════════════════════════════════════
+// DATA
+// ════════════════════════════════════════
+// ════════════════════════════════════════
+// CASE SOURCES
+// ════════════════════════════════════════
+const caseSources = {
+  1: [
+    { label: "CourtListener Docket", url: "https://www.courtlistener.com/docket/70622297/thomson-reuters-enterprise-centre-gmbh-v-ross-intelligence-inc/" },
+    { label: "Ars Technica Coverage", url: "https://arstechnica.com/" },
+    { label: "ChatGPT Is Eating The World", url: "https://chatgptiseatingtheworld.com/category/thomson-reuters-v-ross-intelligence/" },
+  ],
+  2: [
+    { label: "UK High Court Judgment (BAILII)", url: "https://bailii.org/" },
+    { label: "CourtListener US Docket", url: "https://www.courtlistener.com/docket/71112094/getty-images-us-inc-v-stability-ai-ltd/" },
+    { label: "ChatGPT Is Eating The World", url: "https://chatgptiseatingtheworld.com/category/getty-images-v-stability-ai/" },
+  ],
+  3: [
+    { label: "CourtListener Docket", url: "https://www.courtlistener.com/docket/66732129/andersen-v-stability-ai-ltd/" },
+    { label: "The Verge Coverage", url: "https://theverge.com/" },
+    { label: "ChatGPT Is Eating The World", url: "https://chatgptiseatingtheworld.com/category/andersen-v-stability-ai/" },
+  ],
+  4: [
+    { label: "CourtListener Docket", url: "https://www.courtlistener.com/docket/67599029/l-v-alphabet-inc/" },
+    { label: "ChatGPT Is Eating The World", url: "https://chatgptiseatingtheworld.com/category/in-re-google-generative-ai-litigation/" },
+  ],
+  5: [
+    { label: "Perkins Coie Analysis", url: "https://perkinscoie.com/" },
+    { label: "CourtListener Docket", url: "https://www.courtlistener.com/docket/67569326/kadrey-v-meta-platforms-inc/" },
+    { label: "ChatGPT Is Eating The World", url: "https://chatgptiseatingtheworld.com/category/kadrey-v-meta/" },
+  ],
+  6: [
+    { label: "Anthropic Copyright Settlement", url: "https://www.anthropiccopyrightsettlement.com/" },
+    { label: "CourtListener Docket", url: "https://www.courtlistener.com/docket/69058235/bartz-v-anthropic-pbc/" },
+    { label: "Bloomberg Law", url: "https://news.bloomberglaw.com/" },
+    { label: "ChatGPT Is Eating The World", url: "https://chatgptiseatingtheworld.com/category/bartz-v-anthropic/" },
+  ],
+  7: [
+    { label: "Music Business Worldwide", url: "https://www.musicbusinessworldwide.com/" },
+    { label: "CourtListener Docket", url: "https://www.courtlistener.com/docket/67894459/concord-music-group-inc-v-anthropic-pbc/" },
+    { label: "Bloomberg Law", url: "https://news.bloomberglaw.com/" },
+    { label: "ChatGPT Is Eating The World", url: "https://chatgptiseatingtheworld.com/category/concord-music-v-anthropic/" },
+  ],
+  8: [
+    { label: "Authors Guild Website", url: "https://www.authorsguild.org/" },
+    { label: "CourtListener Docket", url: "https://www.courtlistener.com/docket/67810584/authors-guild-v-openai-inc/" },
+    { label: "ChatGPT Is Eating The World", url: "https://chatgptiseatingtheworld.com/category/authors-guild/" },
+  ],
+  9: [
+    { label: "National Law Review", url: "https://natlawreview.com/" },
+    { label: "CourtListener Docket", url: "https://www.courtlistener.com/docket/68117049/the-new-york-times-company-v-microsoft-corporation/" },
+    { label: "ChatGPT Is Eating The World", url: "https://chatgptiseatingtheworld.com/category/new-york-times/" },
+  ],
+  10: [
+    { label: "CourtListener MDL Docket", url: "https://www.courtlistener.com/docket/69879510/in-re-openai-inc-copyright-infringement-litigation/" },
+    { label: "ChatGPT Is Eating The World", url: "https://chatgptiseatingtheworld.com/category/in-re-openai-copyright-infringement-litigation/" },
+  ],
+  11: [
+    { label: "The Hollywood Reporter", url: "https://www.hollywoodreporter.com/" },
+    { label: "CourtListener Docket", url: "https://www.courtlistener.com/docket/70513159/disney-enterprises-inc-v-midjourney-inc/" },
+    { label: "ChatGPT Is Eating The World", url: "https://chatgptiseatingtheworld.com/category/disney-v-midjourney/" },
+  ],
+  12: [
+    { label: "CourtListener Docket", url: "https://www.courtlistener.com/docket/68878608/umg-recordings-inc-v-suno-inc/" },
+    { label: "Bloomberg Law", url: "https://news.bloomberglaw.com/" },
+    { label: "Billboard", url: "https://www.billboard.com/" },
+    { label: "ChatGPT Is Eating The World", url: "https://chatgptiseatingtheworld.com/category/umg-recordings-v-suno/" },
+  ],
+  13: [
+    { label: "CourtListener Docket", url: "https://www.courtlistener.com/docket/65669506/doe-1-v-github-inc/" },
+    { label: "EFF Analysis", url: "https://www.eff.org/" },
+    { label: "ChatGPT Is Eating The World", url: "https://chatgptiseatingtheworld.com/category/doe-1-v-github/" },
+  ],
+  14: [
+    { label: "CourtListener Docket", url: "https://www.courtlistener.com/docket/68290709/raw-story-media-inc-v-openai-inc/" },
+    { label: "ChatGPT Is Eating The World", url: "https://chatgptiseatingtheworld.com/category/raw-story/" },
+  ],
+  15: [
+    { label: "The Verge", url: "https://theverge.com/" },
+    { label: "CourtListener Docket", url: "https://www.courtlistener.com/docket/71997720/the-new-york-times-company-v-perplexity-ai-inc/" },
+    { label: "ChatGPT Is Eating The World", url: "https://chatgptiseatingtheworld.com/category/new-york-times-v-perplexity-ai/" },
+  ],
+  16: [
+    { label: "The Hollywood Reporter", url: "https://www.hollywoodreporter.com/" },
+    { label: "CourtListener Docket", url: "https://www.courtlistener.com/docket/69280385/alcon-entertainment-llc-v-tesla-inc/" },
+    { label: "ChatGPT Is Eating The World", url: "https://chatgptiseatingtheworld.com/category/alcon-entertainment-v-tesla/" },
+  ],
+  17: [
+    { label: "CourtListener Docket", url: "https://www.courtlistener.com/docket/70899478/strike-3-holdings-llc-v-meta-platforms-inc/" },
+    { label: "ChatGPT Is Eating The World", url: "https://chatgptiseatingtheworld.com/category/strike-3-holdings-v-meta/" },
+  ],
+  18: [
+    { label: "CourtListener Docket", url: "https://www.courtlistener.com/docket/67890942/huckabee-v-meta-platforms-inc/" },
+    { label: "ChatGPT Is Eating The World", url: "https://chatgptiseatingtheworld.com/category/huckabee-v-meta-platforms-inc/" },
+  ],
+  19: [
+    { label: "The Verge", url: "https://theverge.com/" },
+    { label: "CourtListener Docket", url: "https://www.courtlistener.com/docket/71720563/reddit-inc-v-serpapi-llc/" },
+    { label: "ChatGPT Is Eating The World", url: "https://chatgptiseatingtheworld.com/category/reddit-v-serpapi-perplexity/" },
+  ],
+  20: [
+    { label: "CourtListener Docket", url: "https://www.courtlistener.com/docket/68535780/lehrman-v-lovo-inc/" },
+    { label: "ChatGPT Is Eating The World", url: "https://chatgptiseatingtheworld.com/category/lerhman-v-lovo/" },
+  ],
+  21: [
+    { label: "CourtListener Docket", url: "https://www.courtlistener.com/docket/69111793/vacker-v-elevenlabs-inc/" },
+    { label: "EFF", url: "https://www.eff.org/" },
+    { label: "ChatGPT Is Eating The World", url: "https://chatgptiseatingtheworld.com/category/vacker-v-eleven-labs/" },
+  ],
+  22: [
+    { label: "CourtListener Docket", url: "https://www.courtlistener.com/docket/68325564/onan-v-databricks-inc/" },
+    { label: "ChatGPT Is Eating The World", url: "https://chatgptiseatingtheworld.com/category/in-re-mosaic-llm-litigation/" },
+  ],
+  23: [
+    { label: "WSJ Report", url: "https://www.wsj.com/" },
+    { label: "CourtListener Docket", url: "https://www.courtlistener.com/docket/69280523/dow-jones-company-inc-v-perplexity-ai-inc/" },
+    { label: "ChatGPT Is Eating The World", url: "https://chatgptiseatingtheworld.com/category/dow-jones-v-perplexity/" },
+  ],
+  24: [
+    { label: "CourtListener Docket", url: "https://www.courtlistener.com/docket/71946179/james-v-snowflake-inc/" },
+    { label: "ChatGPT Is Eating The World", url: "https://chatgptiseatingtheworld.com/category/james-v-snowflake/" },
+  ],
+  25: [
+    { label: "CourtListener Docket", url: "https://www.courtlistener.com/docket/69636122/advance-local-media-llc-v-cohere-inc/" },
+    { label: "ChatGPT Is Eating The World", url: "https://chatgptiseatingtheworld.com/category/advanced-local-media-v-cohere/" },
+  ],
+  26: [
+    { label: "CourtListener Docket", url: "https://www.courtlistener.com/docket/71671876/woulard-v-suno-inc/" },
+    { label: "EFF", url: "https://www.eff.org/" },
+    { label: "ChatGPT Is Eating The World", url: "https://chatgptiseatingtheworld.com/category/woulard-v-suno/" },
+  ],
+  27: [
+    { label: "CourtListener Docket", url: "https://www.courtlistener.com/docket/71883091/entrepreneur-media-llc-v-meta-platforms-inc/" },
+    { label: "ChatGPT Is Eating The World", url: "https://chatgptiseatingtheworld.com/category/entrepreneur-media-v-meta/" },
+  ],
+  28: [
+    { label: "CourtListener Docket", url: "https://www.courtlistener.com/docket/71279155/hendrix-v-apple-inc/" },
+    { label: "ChatGPT Is Eating The World", url: "https://chatgptiseatingtheworld.com/category/hendrix-v-apple/" },
+  ],
+  29: [
+    { label: "CourtListener Docket", url: "https://www.courtlistener.com/docket/71662283/tanzer-v-salesforce-inc/" },
+    { label: "ChatGPT Is Eating The World", url: "https://chatgptiseatingtheworld.com/category/tanzer-v-salesforce/" },
+  ],
+  30: [
+    { label: "The Hollywood Reporter", url: "https://www.hollywoodreporter.com/" },
+    { label: "CourtListener Docket", url: "https://www.courtlistener.com/docket/71357247/disney-enterprises-inc-v-minimax/" },
+    { label: "ChatGPT Is Eating The World", url: "https://chatgptiseatingtheworld.com/category/disney-v-minimax/" },
+  ],
+  31: [
+    { label: "CourtListener Docket", url: "https://www.courtlistener.com/docket/71972050/ted-entertainment-inc-v-nvidia-corporation/" },
+    { label: "ChatGPT Is Eating The World", url: "https://chatgptiseatingtheworld.com/category/ted-entertainment-v-nvidia/" },
+  ],
+  32: [
+    { label: "CourtListener Docket", url: "https://www.courtlistener.com/docket/69456658/pierce-v-photobucket-inc/" },
+    { label: "ChatGPT Is Eating The World", url: "https://chatgptiseatingtheworld.com/category/pierce-v-photobucket/" },
+  ],
+  33: [
+    { label: "Bloomberg Law", url: "https://news.bloomberglaw.com/" },
+    { label: "CourtListener Docket", url: "https://www.courtlistener.com/docket/71996467/chicago-tribune-company-llc-v-perplexity-ai-inc/" },
+    { label: "The Verge", url: "https://theverge.com/" },
+    { label: "ChatGPT Is Eating The World", url: "https://chatgptiseatingtheworld.com/category/chicago-tribune-v-perplexity-ai/" },
+  ],
+  34: [
+    { label: "CourtListener Docket", url: "https://www.courtlistener.com/docket/71313411/encyclopaedia-britannica-inc-v-perplexity-ai-inc/" },
+    { label: "National Law Review", url: "https://natlawreview.com/" },
+    { label: "ChatGPT Is Eating The World", url: "https://chatgptiseatingtheworld.com/category/encyclopaedia-britannica-v-perplexity-ai/" },
+  ],
+  35: [
+    { label: "CourtListener Docket", url: "https://www.courtlistener.com/docket/68290804/the-intercept-media-inc-v-openai-inc/" },
+    { label: "Ars Technica", url: "https://arstechnica.com/" },
+    { label: "ChatGPT Is Eating The World", url: "https://chatgptiseatingtheworld.com/category/the-intercept-v-openai/" },
+  ],
+  36: [
+    { label: "CourtListener Docket (UMG v. Suno, related)", url: "https://www.courtlistener.com/docket/68878608/umg-recordings-inc-v-suno-inc/" },
+    { label: "RIAA Press Release", url: "https://www.riaa.com/" },
+    { label: "Billboard", url: "https://www.billboard.com/" },
+    { label: "ChatGPT Is Eating The World", url: "https://chatgptiseatingtheworld.com/category/justice-v-suno/" },
+  ],
+  37: [
+    { label: "Music Business Worldwide", url: "https://www.musicbusinessworldwide.com/" },
+    { label: "CourtListener Docket", url: "https://www.courtlistener.com/docket/70549282/justice-v-uncharted-labs-inc/" },
+    { label: "ChatGPT Is Eating The World", url: "https://chatgptiseatingtheworld.com/category/justice-v-uncharted-labs/" },
+  ],
+  38: [
+    { label: "Authors Guild", url: "https://www.authorsguild.org/" },
+    { label: "CourtListener Docket", url: "https://www.courtlistener.com/docket/68325563/nazemian-v-nvidia-corporation/" },
+    { label: "ChatGPT Is Eating The World", url: "https://chatgptiseatingtheworld.com/category/abdi-nazemian-v-nvidia-corp/" },
+  ],
+  39: [
+    { label: "The Hollywood Reporter", url: "https://www.hollywoodreporter.com/" },
+    { label: "CourtListener Docket", url: "https://www.courtlistener.com/docket/71271014/warner-bros-entertainment-inc-v-midjourney-inc/" },
+    { label: "Variety", url: "https://variety.com/" },
+    { label: "ChatGPT Is Eating The World", url: "https://chatgptiseatingtheworld.com/category/warner-brothers/" },
+  ],
+  40: [
+    { label: "CourtListener MDL Docket", url: "https://www.courtlistener.com/docket/69879510/in-re-openai-inc-copyright-infringement-litigation/" },
+    { label: "ChatGPT Is Eating The World", url: "https://chatgptiseatingtheworld.com/category/in-re-openai-chatgpt-litigation/" },
+  ],
+  41: [
+    { label: "CourtListener Docket", url: "https://www.courtlistener.com/docket/68484432/daily-news-lp-v-microsoft-corporation/" },
+    { label: "Bloomberg Law", url: "https://news.bloomberglaw.com/" },
+    { label: "ChatGPT Is Eating The World", url: "https://chatgptiseatingtheworld.com/category/daily-news/" },
+  ],
+  42: [
+    { label: "CourtListener MDL Docket", url: "https://www.courtlistener.com/docket/70338311/ziff-davis-inc-v-openai-inc/" },
+    { label: "EFF Analysis", url: "https://www.eff.org/" },
+    { label: "ChatGPT Is Eating The World", url: "https://chatgptiseatingtheworld.com/category/ziff-davis-v-openai/" },
+  ],
+  43: [
+    { label: "CourtListener Docket", url: "https://www.courtlistener.com/docket/71970530/us-news-world-report-lp-v-openai-inc/" },
+    { label: "Trademark Law Blog", url: "https://www.trademarkblog.org/" },
+    { label: "ChatGPT Is Eating The World", url: "https://chatgptiseatingtheworld.com/category/u-s-news-v-openai/" },
+  ],
+  44: [
+    { label: "CourtListener Docket (Concord v. Anthropic, related)", url: "https://www.courtlistener.com/docket/68889092/concord-music-group-inc-v-anthropic-pbc/" },
+    { label: "Bloomberg Law", url: "https://news.bloomberglaw.com/" },
+    { label: "Music Business Worldwide", url: "https://www.musicbusinessworldwide.com/" },
+    { label: "ChatGPT Is Eating The World", url: "https://chatgptiseatingtheworld.com/" },
+  ],
+  45: [
+    { label: "CourtListener Docket", url: "https://www.courtlistener.com/docket/67890942/huckabee-v-meta-platforms-inc/" },
+    { label: "National Law Review", url: "https://natlawreview.com/" },
+    { label: "ChatGPT Is Eating The World", url: "https://chatgptiseatingtheworld.com/category/huckabee-v-bloomberg/" },
+  ],
+  46: [
+    { label: "CourtListener Docket", url: "https://www.courtlistener.com/docket/68878697/umg-recordings-inc-v-uncharted-labs-inc/" },
+    { label: "Billboard Settlement Analysis", url: "https://www.billboard.com/" },
+    { label: "Music Business Worldwide", url: "https://www.musicbusinessworldwide.com/" },
+    { label: "ChatGPT Is Eating The World", url: "https://chatgptiseatingtheworld.com/category/umg-recordings-v-uncharted-labs/" },
+  ],
+  47: [
+    { label: "CourtListener MDL Docket", url: "https://www.courtlistener.com/docket/70970233/denial-v-openai-inc/" },
+    { label: "EFF CFAA Analysis", url: "https://www.eff.org/" },
+    { label: "ChatGPT Is Eating The World", url: "https://chatgptiseatingtheworld.com/category/denial-v-microsoft/" },
+  ],
+  48: [
+    { label: "CourtListener Docket", url: "https://www.courtlistener.com/docket/71972050/ted-entertainment-inc-v-nvidia-corporation/" },
+    { label: "ChatGPT Is Eating The World", url: "https://chatgptiseatingtheworld.com/category/ted-entertainment-v-apple/" },
+  ],
+  49: [
+    { label: "CourtListener Docket", url: "https://www.courtlistener.com/docket/72074891/ted-entertainment-inc-v-meta-platforms-inc/" },
+    { label: "ChatGPT Is Eating The World", url: "https://chatgptiseatingtheworld.com/category/ted-entertainment-v-openai/" },
+  ],
+  50: [
+    { label: "CourtListener Docket", url: "https://www.courtlistener.com/docket/72075006/ted-entertainment-inc-v-bytedance-inc/" },
+    { label: "ChatGPT Is Eating The World", url: "https://chatgptiseatingtheworld.com/category/ted-entertainment-v-amazon/" },
+  ],
+  51: [
+    { label: "CourtListener Docket", url: "https://www.courtlistener.com/docket/72075006/ted-entertainment-inc-v-bytedance-inc/" },
+    { label: "ChatGPT Is Eating The World", url: "https://chatgptiseatingtheworld.com/category/ted-entertainment-v-bytedance/" },
+  ],
+  52: [
+    { label: "CourtListener Docket", url: "https://www.courtlistener.com/docket/68889092/concord-music-group-inc-v-anthropic-pbc/" },
+    { label: "ChatGPT Is Eating The World", url: "https://chatgptiseatingtheworld.com/category/concord-music-v-anthropic-ii/" },
+  ],
+  53: [
+    { label: "CourtListener Docket", url: "https://www.courtlistener.com/docket/72492986/encyclopedia-britannica-inc-v-openai-inc/" },
+    { label: "ChatGPT Is Eating The World", url: "https://chatgptiseatingtheworld.com/category/encyclopaedia-britannica-v-openai/" },
+  ],
+  54: [
+    { label: "CourtListener Docket", url: "https://www.courtlistener.com/docket/72492986/encyclopedia-britannica-inc-v-openai-inc/" },
+    { label: "ChatGPT Is Eating The World", url: "https://chatgptiseatingtheworld.com/" },
+  ],
+  55: [
+    { label: "CourtListener Docket", url: "https://www.courtlistener.com/docket/72384605/gracenote-media-services-llc-v-openai-foundation/" },
+    { label: "ChatGPT Is Eating The World", url: "https://chatgptiseatingtheworld.com/category/gracenote-media-v-openai/" },
+  ],
+  56: [
+    { label: "CourtListener Docket", url: "https://www.courtlistener.com/docket/72069211/carreyrou-v-anthropic-pbc/" },
+    { label: "ChatGPT Is Eating The World", url: "https://chatgptiseatingtheworld.com/category/cambronne-v-anthropic/" },
+  ],
+  57: [
+    { label: "CourtListener Docket", url: "https://www.courtlistener.com/docket/72069211/carreyrou-v-anthropic-pbc/" },
+    { label: "ChatGPT Is Eating The World", url: "https://chatgptiseatingtheworld.com/category/carreyrou-v-anthropic/" },
+  ],
+  58: [
+    { label: "CourtListener Docket", url: "https://www.courtlistener.com/docket/72505713/chicken-soup-for-the-soul-llc-v-anthropic-pbc/" },
+    { label: "ChatGPT Is Eating The World", url: "https://chatgptiseatingtheworld.com/category/chicken-soup-for-the-soul-v-anthropic/" },
+  ],
+  59: [
+    { label: "CourtListener Docket", url: "https://www.courtlistener.com/docket/71874820/amazoncom-services-llc-v-perplexity-ai-inc/" },
+    { label: "ChatGPT Is Eating The World", url: "https://chatgptiseatingtheworld.com/category/amazon-com-services-v-perplexity-ai/" },
+  ],
+  60: [
+    { label: "CourtListener Docket", url: "https://www.courtlistener.com/docket/66788385/getty-images-us-inc-v-stability-ai-inc/" },
+    { label: "ChatGPT Is Eating The World", url: "https://chatgptiseatingtheworld.com/category/getty-images-v-stability-ai/" },
+  ],
+  61: [
+    { label: "CourtListener Docket", url: "https://www.courtlistener.com/docket/72083948/anders-v-stability-ai-inc/" },
+    { label: "ChatGPT Is Eating The World", url: "https://chatgptiseatingtheworld.com/" },
+  ],
+  62: [
+    { label: "CourtListener Docket", url: "https://www.courtlistener.com/docket/72046160/lyon-v-adobe-inc/" },
+    { label: "ChatGPT Is Eating The World", url: "https://chatgptiseatingtheworld.com/" },
+  ],
+  63: [
+    { label: "CourtListener Docket", url: "https://www.courtlistener.com/docket/72046160/lyon-v-adobe-inc/" },
+    { label: "ChatGPT Is Eating The World", url: "https://chatgptiseatingtheworld.com/" },
+  ],
+  64: [
+    { label: "CourtListener Docket", url: "https://www.courtlistener.com/docket/71883095/james-v-together-computer-inc/" },
+    { label: "ChatGPT Is Eating The World", url: "https://chatgptiseatingtheworld.com/" },
+  ],
+  65: [
+    { label: "CourtListener Docket", url: "https://www.courtlistener.com/docket/71827684/james-v-cerebras-systems-inc/" },
+    { label: "ChatGPT Is Eating The World", url: "https://chatgptiseatingtheworld.com/" },
+  ],
+  66: [
+    { label: "CourtListener Docket", url: "https://www.courtlistener.com/docket/67599029/l-v-alphabet-inc/" },
+    { label: "ChatGPT Is Eating The World", url: "https://chatgptiseatingtheworld.com/" },
+  ],
+  67: [
+    { label: "CourtListener Docket", url: "https://www.courtlistener.com/docket/72069211/carreyrou-v-anthropic-pbc/" },
+    { label: "ChatGPT Is Eating The World", url: "https://chatgptiseatingtheworld.com/" },
+  ],
+  68: [
+    { label: "CourtListener Docket", url: "https://www.courtlistener.com/docket/69012654/millette-v-google-llc/" },
+    { label: "ChatGPT Is Eating The World", url: "https://chatgptiseatingtheworld.com/" },
+  ],
+  69: [
+    { label: "CourtListener Docket", url: "https://www.courtlistener.com/docket/69045427/millette-v-nvidia-corporation/" },
+    { label: "ChatGPT Is Eating The World", url: "https://chatgptiseatingtheworld.com/" },
+  ],
+  70: [
+    { label: "CourtListener Docket", url: "https://www.courtlistener.com/docket/69879510/in-re-openai-inc-copyright-infringement-litigation/" },
+    { label: "ChatGPT Is Eating The World", url: "https://chatgptiseatingtheworld.com/" },
+  ],
+  71: [
+    { label: "CourtListener Docket", url: "https://www.courtlistener.com/docket/68138737/basbanes-v-microsoft-corporation/" },
+    { label: "ChatGPT Is Eating The World", url: "https://chatgptiseatingtheworld.com/" },
+  ],
+  72: [
+    { label: "CourtListener Docket", url: "https://www.courtlistener.com/docket/68892274/the-center-for-investigative-reporting-inc-v-openai-inc/" },
+    { label: "ChatGPT Is Eating The World", url: "https://chatgptiseatingtheworld.com/" },
+  ],
+  73: [
+    { label: "CourtListener Docket", url: "https://www.courtlistener.com/docket/70626692/bird-v-microsoft-corporation/" },
+    { label: "ChatGPT Is Eating The World", url: "https://chatgptiseatingtheworld.com/" },
+  ],
+  74: [
+    { label: "CourtListener Docket", url: "https://www.courtlistener.com/docket/71969115/california-newspapers-partnership-v-microsoft-corporation/" },
+    { label: "ChatGPT Is Eating The World", url: "https://chatgptiseatingtheworld.com/" },
+  ],
+  75: [
+    { label: "CourtListener Docket", url: "https://www.courtlistener.com/docket/72372770/apress-media-llc-v-annas-archive/" },
+    { label: "ChatGPT Is Eating The World", url: "https://chatgptiseatingtheworld.com/" },
+  ],
+  76: [
+    { label: "CourtListener Docket", url: "https://www.courtlistener.com/docket/67599029/l-v-alphabet-inc/" },
+    { label: "ChatGPT Is Eating The World", url: "https://chatgptiseatingtheworld.com/" },
+  ],
+  77: [
+    { label: "CourtListener Docket", url: "https://www.courtlistener.com/docket/72318854/gardner-v-runway-ai-inc/" },
+    { label: "ChatGPT Is Eating The World", url: "https://chatgptiseatingtheworld.com/" },
+  ],
+  78: [
+    { label: "CourtListener Docket", url: "https://www.courtlistener.com/docket/72318854/gardner-v-runway-ai-inc/" },
+    { label: "ChatGPT Is Eating The World", url: "https://chatgptiseatingtheworld.com/" },
+  ],
+  79: [
+    { label: "CourtListener Docket", url: "https://www.courtlistener.com/docket/72185144/ted-entertainment-inc-v-snap-inc/" },
+    { label: "ChatGPT Is Eating The World", url: "https://chatgptiseatingtheworld.com/" },
+  ],
+  80: [
+    { label: "CourtListener Docket", url: "https://www.courtlistener.com/docket/72234164/youngblood-v-meta-platforms-inc/" },
+    { label: "ChatGPT Is Eating The World", url: "https://chatgptiseatingtheworld.com/" },
+  ],
+  81: [
+    { label: "CourtListener Docket", url: "https://www.courtlistener.com/docket/72059948/google-llc-v-serpapi-llc/" },
+    { label: "ChatGPT Is Eating The World", url: "https://chatgptiseatingtheworld.com/" },
+  ],
+  82: [
+    { label: "CourtListener Docket", url: "https://www.courtlistener.com/docket/72074891/ted-entertainment-inc-v-meta-platforms-inc/" },
+    { label: "ChatGPT Is Eating The World", url: "https://chatgptiseatingtheworld.com/" },
+  ],
+  83: [
+    { label: "CourtListener Docket", url: "https://www.courtlistener.com/docket/72234164/youngblood-v-meta-platforms-inc/" },
+    { label: "ChatGPT Is Eating The World", url: "https://chatgptiseatingtheworld.com/" },
+  ],
+  84: [
+    { label: "CourtListener Docket", url: "https://www.courtlistener.com/docket/68325563/nazemian-v-nvidia-corporation/" },
+    { label: "ChatGPT Is Eating The World", url: "https://chatgptiseatingtheworld.com/" },
+  ],
+  85: [
+    { label: "CourtListener Docket", url: "https://www.courtlistener.com/docket/72161605/atlantic-recording-corporation-v-annas-archive/" },
+    { label: "Music Business Worldwide", url: "https://www.musicbusinessworldwide.com/" },
+    { label: "ChatGPT Is Eating The World", url: "https://chatgptiseatingtheworld.com/" },
+  ],
+  86: [
+    { label: "CourtListener Docket", url: "https://www.courtlistener.com/docket/71112094/beaulier-v-nvidia/" },
+    { label: "The Verge Coverage", url: "https://theverge.com/" },
+    { label: "ChatGPT Is Eating The World", url: "https://chatgptiseatingtheworld.com/" },
+  ],
+  87: [
+    { label: "CourtListener Docket", url: "https://www.courtlistener.com/docket/71112094/beaulier-v-meta/" },
+    { label: "ChatGPT Is Eating The World", url: "https://chatgptiseatingtheworld.com/" },
+  ],
+  88: [
+    { label: "CourtListener Docket", url: "https://www.courtlistener.com/docket/71112094/beaulier-v-roblox/" },
+    { label: "ChatGPT Is Eating The World", url: "https://chatgptiseatingtheworld.com/" },
+  ],
+  89: [
+    { label: "CourtListener Docket", url: "https://www.courtlistener.com/docket/71112094/beaulier-v-microsoft/" },
+    { label: "ChatGPT Is Eating The World", url: "https://chatgptiseatingtheworld.com/" },
+  ],
+  90: [
+    { label: "CourtListener Docket", url: "https://www.courtlistener.com/docket/67569326/martinez-conde-v-apple/" },
+    { label: "Hendrix v. Apple (Consolidated)", url: "https://www.courtlistener.com/docket/67569326/" },
+  ],
+  91: [
+    { label: "CourtListener Docket", url: "https://www.courtlistener.com/docket/67569326/alexander-v-apple/" },
+    { label: "Hendrix v. Apple (Consolidated)", url: "https://www.courtlistener.com/docket/67569326/" },
+  ],
+  92: [
+    { label: "CourtListener Docket", url: "https://www.courtlistener.com/docket/67599029/alexander-v-salesforce/" },
+    { label: "In re Salesforce (Consolidated)", url: "https://www.courtlistener.com/docket/67599029/" },
+  ],
+  93: [
+    { label: "CourtListener Docket", url: "https://www.courtlistener.com/docket/67599029/zhang-v-google/" },
+    { label: "In re Google (Consolidated)", url: "https://www.courtlistener.com/docket/67599029/" },
+  ],
+  94: [
+    { label: "CourtListener Docket", url: "https://www.courtlistener.com/docket/67599029/leovy-v-google/" },
+    { label: "In re Google (Consolidated)", url: "https://www.courtlistener.com/docket/67599029/" },
+  ],
+  95: [
+    { label: "CourtListener Docket", url: "https://www.courtlistener.com/docket/67569326/chabon-v-meta/" },
+    { label: "Kadrey v. Meta (Consolidated)", url: "https://www.courtlistener.com/docket/67569326/" },
+  ],
+  96: [
+    { label: "CourtListener Docket", url: "https://www.courtlistener.com/docket/67569326/farnsworth-v-meta/" },
+    { label: "Kadrey v. Meta (Consolidated)", url: "https://www.courtlistener.com/docket/67569326/" },
+  ],
+  97: [
+    { label: "CourtListener Docket", url: "https://www.courtlistener.com/docket/70513159/dubus-v-nvidia/" },
+    { label: "Nazemian v. NVIDIA (Consolidated)", url: "https://www.courtlistener.com/docket/70513159/" },
+  ],
+  98: [
+    { label: "CourtListener Docket", url: "https://www.courtlistener.com/docket/67890942/makkai-v-databricks/" },
+    { label: "In re Mosaic LLM (Consolidated)", url: "https://www.courtlistener.com/docket/67890942/" },
+  ],
+  99: [
+    { label: "CourtListener Docket", url: "https://www.courtlistener.com/docket/67810584/alter-v-openai/" },
+    { label: "Authors Guild v. OpenAI (Consolidated)", url: "https://www.courtlistener.com/docket/67810584/" },
+  ],
+  100: [
+    { label: "CourtListener Docket", url: "https://www.courtlistener.com/docket/71720563/ace-cam-v-runway/" },
+    { label: "Businessing v. Runway (Consolidated)", url: "https://www.courtlistener.com/docket/71720563/" },
+  ],
+  101: [
+    { label: "BAILII - Getty v. Stability AI", url: "https://bailii.org/" },
+    { label: "Taylor Wessing Analysis", url: "https://www.taylorwessing.com/" },
+    { label: "UK AI Copyright Update 2026", url: "https://www.taylorwessing.com/en/insights-and-events/insights/2026/01/next-steps-for-getty-v-stability-why-has-permission-to-appeal-been-granted" },
+  ],
+  102: [
+    { label: "GEMA v. OpenAI Judgment (German)", url: "https://www.bundesgerichtshof.de/" },
+    { label: "ChatGPT Is Eating The World - GEMA v. OpenAI", url: "https://chatgptiseatingtheworld.com/" },
+    { label: "International IP Law Analysis", url: "https://www.nortonrosefulbright.com/" },
+  ],
+  103: [
+    { label: "Ontario Superior Court of Justice", url: "https://www.courts.on.ca/" },
+    { label: "CBC Newsroom", url: "https://www.cbc.ca/" },
+    { label: "Global News Publishers AI Litigation", url: "https://www.globalnews.ca/" },
+  ],
+  104: [
+    { label: "Canadian Authors Association", url: "https://www.canauthors.org/" },
+    { label: "Writers' Union of Canada", url: "https://www.writersunion.ca/" },
+    { label: "Margaret Atwood Foundation", url: "https://www.margaretatwood.ca/" },
+  ],
+  105: [
+    { label: "Delhi High Court - ANI v. OpenAI", url: "https://www.delhihighcourt.nic.in/" },
+    { label: "Asia News International", url: "https://www.aninews.in/" },
+    { label: "Indian Copyright Law Tracker", url: "https://www.ipleaders.in/" },
+  ],
+  106: [
+    { label: "Tribunal judiciaire de Paris", url: "https://www.justice.gouv.fr/" },
+    { label: "Syndicat National de l'Édition", url: "https://www.sne.fr/" },
+    { label: "EU AI Act Developments", url: "https://www.nortonrosefulbright.com/en/knowledge/publications/ce8eaa5f/ai-in-litigation-series-an-update-on-ai-copyright-cases-in-2026" },
+  ],
+  107: [
+    { label: "CJEU Official Portal", url: "https://curia.europa.eu/" },
+    { label: "Like Company v. Google Referral", url: "https://curia.europa.eu/" },
+    { label: "EU Copyright Directive Database", url: "https://eur-lex.europa.eu/" },
+  ],
+  108: [
+    { label: "French Competition Authority Decision", url: "https://www.autoritedelaconcurrence.fr/" },
+    { label: "Google Settlement Analysis", url: "https://www.nortonrosefulbright.com/" },
+    { label: "RIAA AI Training Statement", url: "https://www.riaa.com/" },
+  ],
+  109: [
+    { label: "GEMA Official Statement", url: "https://www.gema.de/" },
+    { label: "Suno AI Litigation Tracker", url: "https://www.sunoai.com/" },
+    { label: "German Music Industry News", url: "https://www.musikindustrie.de/" },
+  ],
+  110: [
+    { label: "CourtListener Docket", url: "https://www.courtlistener.com/docket/72069211/carreyrou-v-anthropic-pbc/" },
+    { label: "Carreyrou v. xAI et al. - Multiple Authors", url: "https://www.courtlistener.com/docket/72069211/carreyrou-v-anthropic-pbc/" },
+    { label: "ChatGPT Is Eating The World - Carreyrou", url: "https://chatgptiseatingtheworld.com/" },
+  ],
+  111: [
+    { label: "CJEU Official Portal", url: "https://curia.europa.eu/" },
+    { label: "Like Company v. Google - CJEU First Hearing", url: "https://www.twobirds.com/en/insights/2026/like-company-v-google-cjeu-holds-first-ever-hearing-on-generative-ai-and-copyright-on-10-march-2026" },
+    { label: "EU Copyright Directive Analysis", url: "https://eur-lex.europa.eu/" },
+  ],
+  112: [
+    { label: "CourtListener Docket", url: "https://www.courtlistener.com/docket/63356475/thaler-v-perlmutter/" },
+    { label: "Supreme Court SCOTUS Blog", url: "https://www.scotusblog.com/" },
+    { label: "U.S. Copyright Office Guidance on AI Authorship", url: "https://www.copyright.gov/" },
+  ],
+};
+
+const cases = [
+  {
+    id: 1,
+    name: "Thomson Reuters v. ROSS Intelligence",
+    court: "D. Del. → Third Circuit Appeal",
+    judge: "Bibas / Third Circuit",
+    status: "appeal",
+    claims: ["Direct Copyright", "State Law"],
+    defendants: "ROSS Intelligence Inc.",
+    issues: `本案核心爭點在於：以受著作權保護的 Westlaw 法律摘要（headnotes）訓練 AI 法律研究工具，是否構成合理使用（fair use）。\n\n2025年2月，Bibas 法官裁定 ROSS Intelligence 以 Thomson Reuters 的 2,243 份著作權摘要訓練 AI 模型構成侵權，且不符合合理使用要件。法院認為該使用並非「轉化性使用」（transformative use），因為 ROSS 的產品直接與 Westlaw 競爭。\n\n本案是美國首件就 AI 訓練資料的合理使用問題作出實質裁判的案件。`,
+    progress: `【第三巡迴上訴中】ROSS Intelligence 於 2025 年上訴至第三巡迴法院，主張其使用具有轉化性。Thomson Reuters 於 2025 年 11 月提交答辯書狀，稱 ROSS 的行為是「竊取而非創新」。\n\n2026 年 3 月 12 日，ROSS 提交補充函件。2025 年 9-10 月，Free Law Project 及其他十一家阿密庫斯聲明人代表支持 ROSS Intelligence 提交簡報。截至 2026 年 4 月，第三巡迴法院尚未安排言詞辯論，但預計於 2026 年進行。此案將是巡迴法院層級首次就 AI 訓練的合理使用問題表態。`,
+    taiwan: `本案對台灣智慧財產實務具有重要參考價值：\n\n1. 台灣著作權法第 65 條之合理使用判斷可參考本案四要件分析框架，特別是「使用目的」與「對市場影響」兩要件。\n2. 若第三巡迴法院維持原判，將強化「以受保護作品訓練商業競爭產品不構成合理使用」的法則，台灣法院在審理類似案件時可作為比較法參考。\n3. 台灣法律資料庫業者（如月旦、Lawsnote）應注意其內容被 AI 公司用於訓練的風險，並考慮透過授權契約或技術措施保護其資料庫著作權。`
+  },
+  {
+    id: 2,
+    name: "Getty Images v. Stability AI",
+    court: "N.D. Cal. / UK High Court",
+    judge: "Thompson (US) / Smith (UK)",
+    status: "active",
+    claims: ["Direct Copyright", "DMCA §1202", "Lanham Act", "State Law"],
+    defendants: "Stability AI Ltd.",
+    issues: `Getty Images 主張 Stability AI 未經授權使用超過 1,200 萬張 Getty 圖庫照片訓練 Stable Diffusion 圖像生成模型，構成著作權侵害、商標侵害及不正競爭。\n\n核心爭點包括：(1) AI 模型訓練是否構成「重製」；(2) 模型權重（weights）是否構成侵權複製品；(3) AI 生成的圖像包含 Getty 浮水印是否構成商標侵害。`,
+    progress: `【美國案】N.D. Cal. 案件仍在審理中，目前處於事證開示（discovery）階段。\n\n【英國案】2025 年 11 月，英國高等法院作出重大判決，駁回 Getty Images 的間接著作權侵害主張，認為 Stable Diffusion 模型權重不構成原作品的「侵權複製品」，因其並未以可辨識的形式儲存原始作品。但法院認定 Stability AI 構成有限的商標侵害（浮水印問題）。\n\nGetty Images 被判負擔 69.4% 的訴訟費用（約 440 萬英鎊），使商標勝訴在財務上得不償失。2025 年 12 月，法院准許 Getty 就間接著作權侵害部分上訴。`,
+    taiwan: `本案對台灣的啟示：\n\n1. 英國法院「模型權重不構成侵權重製物」的見解，挑戰了傳統著作權法對「重製」的理解。台灣智財法院若遇類似案件，需思考模型參數是否落入著作權法第3條「重製」的定義範圍。\n2. 台灣著作權法第 87 條商標與著作權交錯問題：AI 生成圖像若自動包含原始資料的浮水印或商標，是否構成商標法第 68 條之侵害？\n3. 本案凸顯跨國訴訟策略的重要性——同一事實在不同法域可能產生截然不同的法律結果。台灣企業使用 AI 生成內容時，應注意各國法律差異。`
+  },
+  {
+    id: 3,
+    name: "Andersen v. Stability AI (Artists Class Action)",
+    court: "N.D. Cal.",
+    judge: "Orrick",
+    status: "active",
+    claims: ["Direct Copyright", "Inducement", "DMCA §1202", "Lanham Act", "State Law"],
+    defendants: "Stability AI, Midjourney, DeviantArt",
+    issues: `本案為藝術家集體訴訟，由 Sarah Andersen 等藝術家對 Stability AI、Midjourney 及 DeviantArt 提起，主張被告使用 LAION-5B 資料集（包含 50 億張網路爬取圖像）訓練 AI 圖像生成器，侵害藝術家著作權。\n\n關鍵法律爭點：(1) 直接著作權侵害——訓練資料的使用；(2) 引誘侵權（inducement）——使用者利用 AI 生成近似受保護作品的圖像；(3) DMCA §1202——移除著作權管理資訊。`,
+    progress: `2024 年 8 月，Orrick 法官駁回被告的駁回動議（motion to dismiss），允許著作權侵害主張進入事證開示階段。\n\n2026 年 2 月 27 日，原告提交第三次修正訴狀（Third Amended Complaint）。案件目前進入全面事證開示階段，審判日期定為 2026 年 9 月 8 日。\n\n本案若進入審判，將是美國首批就 AI 圖像生成著作權問題進行完整審理的案件之一。`,
+    taiwan: `本案對台灣的啟示：\n\n1. 台灣數位藝術家面臨相同困境——作品被爬蟲程式大量蒐集用於 AI 訓練。本案結果將影響台灣創作者是否有可能援引著作權法維權。\n2. 「引誘侵權」理論在台灣著作權法中對應條文為第87條第1項第7款「未經著作財產權人同意而輸入著作原件或其重製物者」，但適用範圍有限，未來修法時可參考美國引誘侵權理論。\n3. 台灣藝術家團體可參考本案的集體訴訟模式，思考如何透過著作權集體管理團體（如 TAICCA）進行維權。`
+  },
+  {
+    id: 4,
+    name: "In re Google Generative AI Copyright Litigation",
+    court: "N.D. Cal.",
+    judge: "Lee",
+    status: "active",
+    claims: ["Direct Copyright", "Vicarious Infringement", "DMCA §1202(b)"],
+    defendants: "Google LLC",
+    issues: `本案為針對 Google 生成式 AI 產品（包括 Bard/Gemini）的合併著作權訴訟，包括 Zhang v. Google 及 Leovy v. Google 等案件。\n\n原告主張 Google 未經授權使用其受著作權保護的文字作品訓練大型語言模型，構成直接侵害、代位侵害（vicarious infringement），並違反 DMCA 第 1202 條關於著作權管理資訊的規定。`,
+    progress: `案件由 Lee 法官審理中，目前處於事證開示前階段。Lee 法官於事證開示前暫停發現待類別認證決定。2026 年 2 月 20 日下午 1 時（PDT）在聖荷西進行了類別認證聽證會。Google 已提出駁回動議，並預期處置動議將於 2026 年提出。\n\n由於本案涉及 Google 搜尋引擎與生成式 AI 的交互作用，法院可能需要釐清搜尋引擎「爬蟲」行為與「AI 訓練用途」之間的法律界限。`,
+    taiwan: `台灣啟示：\n\n1. Google 在台灣亦提供 Gemini 服務，本案的判決結果將直接影響 Google 在台灣的 AI 產品策略。\n2. 台灣公平交易委員會在審查科技平台濫用市場支配地位時，可參考本案所揭露的 Google 資料蒐集與使用實務。\n3. 本案的「代位侵害」理論值得台灣法院關注——當 AI 平台業者透過使用者互動持續侵害著作權時，平台是否應承擔連帶責任？`
+  },
+  {
+    id: 5,
+    name: "Kadrey v. Meta Platforms (LLaMA Training)",
+    court: "N.D. Cal.",
+    judge: "Chhabria",
+    status: "active",
+    claims: ["Direct Copyright", "DMCA §1202", "State Law"],
+    defendants: "Meta Platforms, Inc.",
+    issues: `Richard Kadrey 等 13 位作家控告 Meta 使用盜版書籍庫 Books3 和 LibGen 訓練 LLaMA 大型語言模型，構成著作權侵害。\n\n本案最重要的法律爭點是：以受著作權保護的作品訓練大型語言模型是否構成「合理使用」？Chhabria 法官在簡易判決中認定構成合理使用，但附有重要但書。`,
+    progress: `【重大裁定】2025 年 6 月 25 日，Chhabria 法官准許 Meta 的簡易判決動議，認定以書籍訓練 LLaMA 構成合理使用。法院認為該使用具有「高度轉化性」，因其目的是訓練工具生成多樣化輸出，而非取代原著作品。\n\n【重要但書】法官明確指出：本判決「不代表 Meta 使用著作權資料訓練語言模型是合法的。它只代表這些原告提出了錯誤的論據，且未能建立支持正確論據的紀錄。」\n\n本案已合併 Chabon v. Meta 及 Farnsworth v. Meta。DMCA §1202(b)(1) 的簡易判決也被駁回。2026 年 3 月發佈了案件訴訟時程表，分配單一要求運動聽證會定於 2027 年 2 月 25 日進行。案件的部分爭點繼續審理中。`,
+    taiwan: `本案對台灣的重大啟示：\n\n1. 美國法院首次就 LLM 訓練作出合理使用判斷。台灣著作權法第 65 條在判斷合理使用時，可參考 Chhabria 法官的四要件分析，特別是「轉化性使用」的寬泛解釋。\n2. 但書中「原告提出錯誤論據」的指示意味深長——未來原告若能提出 AI 輸出對原著市場的替代效果證據，結果可能不同。台灣訴訟律師在處理類似案件時，應著重蒐集市場替代效果的證據。\n3. Meta 使用「盜版來源」訓練 AI 的事實，在台灣可能涉及著作權法第 91 條重製罪的刑事責任，值得注意台灣與美國在著作權刑事化程度上的差異。`
+  },
+  {
+    id: 6,
+    name: "Bartz v. Anthropic (Claude AI — $1.5B Settlement)",
+    court: "N.D. Cal.",
+    judge: "Alsup",
+    status: "settled",
+    claims: ["Direct Copyright"],
+    defendants: "Anthropic, Inc. (PBC)",
+    issues: `本案由非虛構作家 Charles Graeber、Kirk Wallace Johnson 及驚悚小說作家 Andrea Bartz 對 Anthropic 提起，主張 Anthropic 未經授權使用書籍訓練 Claude AI 聊天機器人，構成著作權侵害。\n\n本案最終以美國史上最高著作權和解金額——15 億美元——達成和解。`,
+    progress: `【和解進展】\n• 2025 年 8 月：Anthropic 同意支付 15 億美元和解金，成為美國著作權史上最高和解金額。\n• Alsup 法官已初步核准和解方案。\n• 和解金分四期支付：2025/10/2、2026/4/30、2026/9/25、2027/9/25。\n• 2026 年 1 月 15 日：退出（opt-out）及異議截止日。\n• 2026 年 3 月 30 日：提交求償截止日。\n• 2026 年 4 月 23 日下午 12 時（太平洋時間）：公平性聽證會（fairness hearing）定於聖荷西舉行。\n• 約五十萬名著作權所有人成為訴訟當事人。\n\n每位著作權人每本書約可獲得 3,000 美元（獨占著作權人）或 1,500 美元（與出版商共享著作權）。2026 年 3 月，原告律師要求降低律師費。`,
+    taiwan: `本案對台灣的啟示：\n\n1. 15 億美元的和解金額顯示 AI 公司未經授權使用著作物的法律風險極為巨大。台灣 AI 新創公司應即刻檢視其訓練資料來源的合法性。\n2. 台灣著作權法第 88 條的損害賠償計算方式（實際損害或侵害人所得利益）可能不足以對 AI 公司產生嚇阻效果，可考慮參考本案和解模式設計更有效的賠償機制。\n3. 本案的集體和解模式（class settlement）值得台灣在研議著作權集體管理制度時參考，特別是如何有效分配賠償金予大量著作權人。`
+  },
+  {
+    id: 7,
+    name: "Concord Music v. Anthropic (AI Lyrics)",
+    court: "N.D. Cal. (from M.D. Tenn.)",
+    judge: "Lee",
+    status: "active",
+    claims: ["Direct Copyright", "Vicarious Infringement", "Contributory Infringement", "DMCA §1202(b)"],
+    defendants: "Anthropic PBC",
+    issues: `Concord Music Group、Universal Music Corp. 等音樂出版商控告 Anthropic 的 Claude AI 聊天機器人在回應使用者詢問時，大量輸出受著作權保護的歌詞，構成著作權侵害。\n\n核心爭點：(1) AI 模型輸出歌詞是否構成直接侵害；(2) Anthropic 是否因使用者利用 Claude 生成歌詞而構成代位侵害或輔助侵害；(3) AI 公司是否有義務建立有效的著作權過濾機制。`,
+    progress: `【2025 年初期裁定】法院駁回禁止令聲請（preliminary injunction），認為範圍過廣且未能證明不可回復之損害；並准許 Anthropic 的駁回動議，但允許原告修正訴狀。\n\n【2026 年 1 月】原告提起第二件更大規模訴訟，涵蓋超過 20,000 首歌曲，求償逾 31 億美元法定損害賠償。\n\n【2026 年 3 月 30 日】美國唱片工業協會（RIAA）、美國全國音樂出版商協會（NMPA）、美國出版商協會（AAP）、新聞/媒體聯盟、科技與醫學出版商協會（STM）以及 Authors Guild 等提交支持原告的法庭之友簡報（amicus briefs）。\n\n【2026 年 7 月 15 日】簡易判決聽證會（summary judgment hearing）定於舉行。本案最有可能在 2026 年獲得合理使用判決。`,
+    taiwan: `本案對台灣的啟示：\n\n1. 台灣的 MÜST（社團法人中華音樂著作權協會）等音樂著作權集管團體應密切關注本案發展，思考如何就 AI 輸出歌詞問題向台灣 AI 服務業者主張權利。\n2. AI 聊天機器人輸出歌詞在台灣可能構成著作權法第 92 條「公開傳輸」或第 91 條「重製」侵害。\n3. 本案凸顯的「過濾義務」問題，可與台灣著作權法第 90-4 條（ISP 責任限制）的通知取下機制類比思考——AI 平台業者是否應建立類似機制？`
+  },
+  {
+    id: 8,
+    name: "Authors Guild v. OpenAI (Authors Action — MDL)",
+    court: "S.D.N.Y.",
+    judge: "Stein",
+    status: "active",
+    claims: ["Direct Copyright", "Vicarious Infringement", "Contributory Infringement"],
+    defendants: "OpenAI Inc., Microsoft Corp.",
+    issues: `Authors Guild 聯合 John Grisham、Jodi Picoult、George R.R. Martin 等知名作家對 OpenAI 及 Microsoft 提起集體訴訟（class action），主張 GPT 模型未經授權使用大量書籍進行訓練，構成著作權侵害。\n\n本案已與 Alter v. OpenAI (Sancton)、Basbanes v. Microsoft 合併，統稱「Authors Action」。核心爭點為：(1) AI 訓練的合理使用；(2) 集體訴訟資格認定（class certification）。`,
+    progress: `【集體訴訟認定】2026 年 2 月 20 日，集體訴訟資格認定聽證會在聖荷西舉行。法院目前正在審議是否准許集體訴訟資格。\n\n【Basbanes v. Microsoft】已因應 Authors Guild 案的集體訴訟認定進度而暫停審理。\n\n本案集體訴訟資格的認定將是關鍵——若獲准許，將使數千名作者得以共同主張權利，對 OpenAI 形成巨大賠償壓力。`,
+    taiwan: `本案對台灣的啟示：\n\n1. 台灣著作權法不存在美國式的「class action」機制。本案凸顯台灣在著作權團體訴訟制度上的不足。消費者保護法的團體訴訟規定（第 49-50 條）可能不適用於著作權爭議。\n2. 台灣可考慮參考本案模式，授權著作權集管團體代表大量著作權人提起訴訟，以提升維權效率。\n3. OpenAI 的 ChatGPT 在台灣擁有大量使用者，本案結果可能影響 OpenAI 對台灣市場的服務條款與內容政策。`
+  },
+  {
+    id: 9,
+    name: "New York Times v. Microsoft / OpenAI (Newspapers Action — MDL)",
+    court: "S.D.N.Y.",
+    judge: "Stein",
+    status: "active",
+    claims: ["Direct Copyright", "Vicarious Infringement", "Contributory Infringement", "DMCA §1202(b)", "Lanham Act"],
+    defendants: "Microsoft Corp., OpenAI Inc.",
+    issues: `紐約時報對 Microsoft 及 OpenAI 提起訴訟，主張其未經授權使用數百萬篇新聞文章訓練 GPT 模型及 Bing Chat（Copilot），構成著作權侵害及商標侵害。\n\n本案已與 Daily News v. Microsoft 及 Center for Investigative Reporting v. OpenAI 合併，統稱「Newspapers Action」。\n\n核心爭點：(1) 新聞內容用於 AI 訓練的合理使用；(2) AI 對新聞產業商業模式的市場替代效果；(3) AI 輸出中的新聞內容是否構成不正競爭。`,
+    progress: `【2025 年 3 月】Stein 法官允許大部分訴訟主張繼續審理，駁回被告的駁回動議核心部分。\n\n【2026 年 1 月 5 日】重大事證開示裁定——法院確認 OpenAI 須提交全部 2,000 萬筆匿名化 ChatGPT 對話記錄樣本，拒絕 OpenAI 僅提供涉及原告作品的對話之請求。法院認為即使不涉及原告作品的對話記錄，對於判斷合理使用抗辯中的「市場替代效果」仍具相關性。\n\n【2026 年 3 月 9 日】法院進一步准許原告的強制開示動議。案件最近更新日期為 2026 年 3 月 20 日。`,
+    taiwan: `本案對台灣的啟示：\n\n1. 台灣新聞媒體（如聯合報系、中時集團）面臨相同問題——新聞內容被 AI 公司用於訓練。本案的判決結果將影響台灣媒體是否有法律基礎向 AI 公司求償。\n2. 台灣可參考歐盟《新聞出版者鄰接權指令》(DSM Directive Art. 15) 及澳洲《新聞媒體議價法》(News Media Bargaining Code)，研議是否立法保障新聞業者對 AI 公司的議價權。\n3. 本案 2,000 萬筆對話記錄的事證開示，展示了美國 discovery 制度在 AI 訴訟中的威力。台灣民事訴訟法的證據保全與文書提出命令（第 342-349 條）是否足以因應 AI 訴訟中的舉證需求，值得檢討。`
+  },
+  {
+    id: 10,
+    name: "In re OpenAI Copyright Infringement Litigation (MDL)",
+    court: "S.D.N.Y.",
+    judge: "Stein",
+    status: "mdl",
+    claims: ["Multiple — consolidated"],
+    defendants: "OpenAI Inc., Microsoft Corp.",
+    issues: `本案為多地區訴訟（Multidistrict Litigation, MDL）合併案件，由 Stein 法官統一管理 16 件以上針對 OpenAI 的著作權訴訟。合併案件包括：\n\n• In re OpenAI ChatGPT Litigation (Tremblay, Silverman, Chabon)\n• Millette v. OpenAI\n• Ziff Davis v. OpenAI\n• Denial v. OpenAI\n• Bird v. Microsoft\n• U.S. News & World Report v. OpenAI\n• California Newspaper Partnership v. Microsoft\n\n核心爭點橫跨直接侵害、代位侵害、輔助侵害、DMCA §1202 及商標侵害。`,
+    progress: `【2025 年 10 月】法院裁定原告已充分主張部分 AI 輸出與原告作品「實質近似」（substantially similar），合理陪審團可據以認定侵害。\n\n【2026 年 1 月 5 日】Stein 法官命令 OpenAI 提供 2,000 萬筆匿名化 ChatGPT 對話記錄。\n\n【2026 年 3 月】簡易判決簽報期限已修訂：回覆簡報現行期限為 2026 年 11 月 6 日（原為 10 月 16 日）。\n\n【2026 年 3 月 9 日】法院准許原告強制披露額外對話記錄的動議。\n\n此 MDL 是目前美國規模最大、涉及面最廣的 AI 著作權訴訟合併案件。`,
+    taiwan: `本案對台灣的啟示：\n\n1. 美國 MDL 制度高效整合分散於各地的同類訴訟，台灣目前缺乏類似機制。未來若出現大量 AI 著作權訴訟，台灣法院系統的因應能力值得關注。\n2. 本案涵蓋文字作品、新聞內容、資料庫等多種著作類型，其判決將形成全面性的 AI 著作權法律框架。\n3. 台灣智慧財產及商業法院作為專業法院，可考慮借鑑 MDL 經驗，建立 AI 著作權案件的合併審理機制。`
+  },
+  {
+    id: 11,
+    name: "Disney / Warner Bros. v. Midjourney",
+    court: "C.D. Cal.",
+    judge: "Kronstadt",
+    status: "active",
+    claims: ["Direct Copyright", "Vicarious Infringement", "Contributory Infringement"],
+    defendants: "Midjourney, Inc.",
+    issues: `2025 年 6 月，Disney 及 Universal City Studios 控告 Midjourney 著作權侵害；同年 9 月，Warner Bros. 等亦提起訴訟。\n\n原告主張 Midjourney 使用受著作權保護的電影角色形象（包括 Superman、Batman、Bugs Bunny、Scooby-Doo 等）訓練其 AI 圖像生成器，且允許使用者生成近似受保護角色的圖像，構成「系統性的、持續性的、故意的」著作權侵害。`,
+    progress: `【合併】Disney 及 Warner Bros. 等案件已正式合併，以 Disney 案為主案。\n\n【2026 年 1 月 12 日】非正式發現會議（informal discovery conference）以視訊方式舉行。\n\n【替代爭議解決】ADR 程序須於 2026 年 8 月 19 日或更早進行。\n\n【2026 年 8 月 31 日】調解後狀態論證會議（post-mediation status conference）定於舉行。\n\n所有動議須於 2026 年 12 月 21 日前提出。審判日期暫定 2026 年底至 2027 年初。\n\nMidjourney 已提出答辯，將「合理使用」列為第一項積極抗辯。本案的結果可能根本性地改變 AI 圖像生成服務的商業使用政策。`,
+    taiwan: `本案對台灣的啟示：\n\n1. 台灣動漫及影視產業（如霹靂布袋戲、台灣原創 IP）同樣面臨角色形象被 AI 生成器侵害的風險。本案將提供角色著作權保護的重要法律先例。\n2. 台灣著作權法對「角色」(character) 的保護尚不明確，可藉由本案發展，研議是否需要透過修法或司法解釋強化角色保護。\n3. Midjourney 在台灣有大量使用者，其服務條款的變更將直接影響台灣創作者及使用者的權益。`
+  },
+  {
+    id: 12,
+    name: "UMG Recordings v. Suno / Udio (AI Music)",
+    court: "D. Mass. / S.D.N.Y.",
+    judge: "Saylor IV / Hellerstein / Garnett",
+    status: "active",
+    claims: ["Direct Copyright", "DMCA §1201(a)"],
+    defendants: "Suno, Inc. / Uncharted Labs (Udio)",
+    issues: `UMG、Sony 及 Warner 三大唱片公司對 AI 音樂生成平台 Suno 及 Udio 提起著作權侵害訴訟，主張被告未經授權使用受保護的錄音著作訓練 AI 模型生成音樂。\n\n核心爭點：(1) AI 模型生成的音樂是否構成「實質近似」的侵權複製品；(2) AI 音樂訓練是否構成合理使用；(3) 是否違反 DMCA 反規避條款（§1201(a)）。`,
+    progress: `【Udio 和解】2025 年 10 月，UMG 與 Udio 達成和解，雙方將合作建立「經授權的 AI 音樂創作平台」，預計 2026 年推出。UMG 藝術家及詞曲作者可選擇加入（opt-in）。\n\n【Suno 案持續審理】三大唱片公司對 Suno 的訴訟仍在進行中，目前處於事證開示階段。簡易判決現已推至 2027 年 1 月 8 日。本案在 2026 年不太可能獲得合理使用判決。`,
+    taiwan: `本案對台灣的啟示：\n\n1. 台灣的 MÜST、ARCO 等音樂著作權集管團體應關注 Udio 的授權模式，思考如何建立 AI 音樂生成的授權機制。\n2. UMG v. Suno 的合理使用裁定若不利於 AI 公司，將影響台灣 AI 音樂新創（如 KKBOX 旗下的 AI 音樂服務）的商業模式。\n3. 台灣著作權法第 91 條對錄音著作的保護是否足以涵蓋 AI 生成音樂的情境，值得立法機關檢討。`
+  },
+  {
+    id: 13,
+    name: "Doe v. GitHub (Copilot Litigation)",
+    court: "N.D. Cal. → Ninth Circuit Appeal",
+    judge: "Tigar / Ninth Circuit",
+    status: "appeal",
+    claims: ["DMCA §1202(b)", "State Law"],
+    defendants: "GitHub, Inc., Microsoft Corp., OpenAI Inc.",
+    issues: `程式開發者以集體訴訟形式控告 GitHub、Microsoft 及 OpenAI，主張 GitHub Copilot（AI 程式碼生成工具）使用開源程式碼訓練 Codex 模型，違反開源授權條款及 DMCA §1202 關於著作權管理資訊的規定。\n\n核心爭點：DMCA §1202(b) 是否適用於 AI 生成的輸出——當輸出並非原作品的精確複製，而可能是衍生著作時。`,
+    progress: `2024 年 1 月，Tigar 法官駁回大部分主張。2024 年 9 月，法官核准中間上訴（interlocutory appeal）至第九巡迴法院。第九巡迴法院於 2024 年 12 月接受上訴（No. 24-6136），地院程序暫停。\n\n【2026 年 2 月 11 日】第九巡迴法院在舊金山舉行言詞辯論。\n\n上訴審理中，被告（AI 公司聯盟）敦促第九巡迴法院就 DMCA 在 AI 脈絡下的適用範圍作出明確裁判。\n\n截至 2026 年 4 月，第九巡迴法院尚未作出裁定。判決未決。`,
+    taiwan: `本案對台灣的啟示：\n\n1. 台灣軟體開發社群大量使用 GitHub Copilot，本案結果將直接影響台灣開發者的工作方式。\n2. 開源授權條款（GPL、MIT、Apache 等）在台灣的法律效力尚未經法院充分檢驗。本案若認定 AI 工具違反開源授權，台灣法院在處理類似爭議時可作為參考。\n3. 台灣著作權法第 80-2 條（科技保護措施）的適用範圍，可參考本案對 DMCA §1202 的解釋。`
+  },
+  {
+    id: 14,
+    name: "Raw Story Media v. OpenAI (DMCA CMI — Second Circuit)",
+    court: "S.D.N.Y. → Second Circuit",
+    judge: "McMahon / Second Circuit",
+    status: "appeal",
+    claims: ["DMCA §1202(b)"],
+    defendants: "OpenAI, Inc.",
+    issues: `Raw Story 及 AlterNet 主張 OpenAI 在爬取訓練資料時，移除了文章的著作權管理資訊（Copyright Management Information, CMI），違反 DMCA §1202(b)。\n\n McMahon 法官駁回原告訴訟，認為原告缺乏《憲法》第三條之當事人適格（Article III standing），因為僅移除 CMI 而無傳播或具體損害的證據，屬於「過於抽象」的損害。`,
+    progress: `原告已上訴至第二巡迴法院。\n\n【2026 年 3 月 18 日】第二巡迴法院舉行言詞辯論，審理核心問題為：DMCA §1202(b) 的 CMI 主張是否需要證明「傳播」才具有當事人適格？\n\n截至 2026 年 4 月，第二巡迴法院尚未作出判決。判決待決。本案的結果將影響所有基於 DMCA §1202 向 AI 公司提起訴訟的原告之當事人適格認定。`,
+    taiwan: `本案對台灣的啟示：\n\n1. 台灣著作權法第 80-1 條保護「權利管理電子資訊」（類似 CMI）。本案關於 AI 訓練過程中移除 CMI 的法律分析，可作為台灣法院解釋第 80-1 條的比較法參考。\n2. 「當事人適格」問題在台灣較少構成障礙（因台灣採用不同的訴訟制度），但本案的實體法分析——AI 爬蟲是否「移除」CMI——在台灣同樣需要釐清。\n3. 台灣新聞媒體在內容中嵌入的著作權資訊被 AI 系統移除的問題日益嚴重，本案提供了重要的法律策略參考。`
+  },
+  {
+    id: 15,
+    name: "New York Times v. Perplexity AI",
+    court: "S.D.N.Y.",
+    judge: "TBA",
+    status: "active",
+    claims: ["Direct Copyright", "Vicarious Infringement", "Contributory Infringement", "Lanham Act"],
+    defendants: "Perplexity AI, Inc.",
+    issues: `紐約時報於 2025 年 12 月控告 Perplexity AI，主張其「答案引擎」（answer engine）大規模非法複製與傳布紐約時報的新聞文章，構成著作權侵害及商標侵害。\n\n核心爭點：AI 搜尋引擎直接引用並重述新聞內容，是否構成著作權侵害？Perplexity 的商業模式——以 AI 生成的摘要取代使用者閱讀原始文章的需求——是否構成市場替代？`,
+    progress: `案件於 2025 年 12 月提起，目前處於初步程序階段。同時，Chicago Tribune 亦對 Perplexity 提起類似訴訟。\n\nReddit v. Perplexity 案（2025 年 10 月提起）中，Perplexity 於 2026 年 1 月提出駁回動議，主張其為「下游使用者」，不應對資料爬取行為負責。\n\nDow Jones (WSJ/NY Post) 及 Encyclopaedia Britannica 亦有對 Perplexity 的未決訴訟。Perplexity 面臨來自多方的訴訟壓力。`,
+    taiwan: `本案對台灣的啟示：\n\n1. Perplexity AI 在台灣使用者群中迅速成長，其商業模式對台灣媒體的衝擊值得關注。\n2. 台灣公平交易法是否能處理 AI 搜尋引擎「搭便車」行為？不正競爭防止法的適用可能是比著作權法更有效的途徑。\n3. 本案的「市場替代效果」分析對台灣媒體產業政策具有啟發意義——當使用者透過 AI 摘要取得新聞，不再點閱原始文章時，新聞媒體的廣告收入模式將面臨崩潰。台灣 NCC 及文化部應關注此趨勢。`
+  },
+  {
+    id: 16,
+    name: "Alcon Entertainment v. Tesla",
+    court: "C.D. Cal.",
+    judge: "Wu",
+    status: "active",
+    claims: ["Direct Copyright", "Vicarious Infringement", "Contributory Infringement", "Lanham Act"],
+    defendants: "Tesla, Inc.",
+    issues: `Alcon Entertainment（電影《乙乙》製片公司）控告 Tesla 在 AI 相關產品發表活動中未經授權使用《乙乙》(Blade Runner 2049) 的影像及元素，構成著作權及商標侵害。\n\n本案的特殊性在於涉及 AI 生成的影像是否侵害電影著作權，以及企業在行銷 AI 產品時使用受保護影視內容的法律風險。`,
+    progress: `案件由 Wu 法官審理中，目前處於審理前程序階段。Tesla 尚未提出合理使用抗辯的具體論述。`,
+    taiwan: `台灣啟示：企業在行銷 AI 產品或服務時，使用受著作權保護的影視作品元素可能構成侵權。台灣行銷業者應注意此風險。`
+  },
+  {
+    id: 17,
+    name: "Strike 3 Holdings v. Meta",
+    court: "N.D. Cal.",
+    judge: "Westmore",
+    status: "active",
+    claims: ["Direct Copyright", "Vicarious Infringement", "Contributory Infringement"],
+    defendants: "Meta Platforms, Inc.",
+    issues: `Strike 3 Holdings 控告 Meta 在訓練 AI 模型時使用其受著作權保護的視覺內容，構成直接侵害及間接侵害（代位侵害與輔助侵害）。`,
+    progress: `案件由 Westmore 法官審理中，處於初步程序階段。`,
+    taiwan: `台灣啟示：本案將進一步釐清影視內容用於 AI 訓練的著作權問題，對台灣影視內容業者具有參考價值。`
+  },
+  {
+    id: 18,
+    name: "Huckabee v. Meta Platforms / Bloomberg",
+    court: "N.D. Cal. / S.D.N.Y.",
+    judge: "Various",
+    status: "active",
+    claims: ["Direct Copyright"],
+    defendants: "Meta Platforms, Bloomberg",
+    issues: `前美國政治人物 Mike Huckabee 等人對 Meta 及 Bloomberg 分別提起著作權訴訟，主張其著作被用於 AI 模型訓練。本案涉及政治人物著作在 AI 訓練中的使用問題。`,
+    progress: `Huckabee v. Meta 已與 Kadrey v. Meta 合併審理。Huckabee v. Bloomberg 由 S.D.N.Y. Garnett 法官審理中。`,
+    taiwan: `台灣啟示：政治人物著作、公開演講等是否受著作權保護？台灣著作權法第 62 條關於政治公開演說的合理使用規定值得在 AI 脈絡下重新審視。`
+  },
+  {
+    id: 19,
+    name: "Reddit v. SerpAPI, Perplexity",
+    court: "S.D.N.Y.",
+    judge: "Engelmayer",
+    status: "active",
+    claims: ["Vicarious Infringement", "Contributory Infringement", "DMCA §1202(b)", "DMCA §1201(a)"],
+    defendants: "SerpAPI, Perplexity AI",
+    issues: `Reddit 於 2025 年 10 月控告 SerpAPI 及 Perplexity AI，主張其進行「工業規模」的資料爬取，抓取 Reddit 使用者生成內容用於 AI 訓練及「答案引擎」服務，違反著作權法及 DMCA 反規避條款。\n\nReddit 指控 Perplexity 在收到 2024 年 5 月的停止函後，引用 Reddit 內容的情形反增 40 倍。`,
+    progress: `2026 年 1 月，Perplexity 提出駁回動議，主張其位於資料蒐集的「下游」，不應承擔 DMCA 反規避責任。案件審理中。`,
+    taiwan: `台灣啟示：\n\n1. 台灣的 PTT、Dcard 等使用者生成內容平台面臨類似風險。平台對使用者內容的著作權主張在台灣法律下的可行性值得探討。\n2. DMCA §1201(a) 的反規避條款在本案中的適用，可與台灣著作權法第 80-2 條的「防盜拷措施」保護類比分析。`
+  },
+  {
+    id: 20,
+    name: "Lehrman v. Lovo, Inc. (AI Voice)",
+    court: "S.D.N.Y.",
+    judge: "Oetken",
+    status: "active",
+    claims: ["Direct Copyright", "Contributory Infringement", "State Law"],
+    defendants: "Lovo, Inc.",
+    issues: `本案涉及 AI 語音合成（voice cloning）的著作權問題。原告 Lehrman 主張 Lovo 未經授權使用其聲音表演錄音訓練 AI 語音合成模型，構成著作權侵害。\n\n核心爭點：聲音表演的著作權保護範圍是否延伸至 AI 語音合成？`,
+    progress: `案件由 Oetken 法官審理中。本案是少數涉及 AI 語音合成著作權問題的案件之一。`,
+    taiwan: `台灣啟示：AI 語音合成涉及著作權法（錄音著作/表演）與人格權（聲音權）的交叉問題。台灣民法第 18 條人格權保護、著作權法第 7-1 條表演人權利，以及個資法的適用，均需在 AI 語音合成脈絡下重新檢視。`
+  },
+  {
+    id: 21,
+    name: "Vacker v. Eleven Labs (AI Voice — SETTLED)",
+    court: "D. Del.",
+    judge: "Andrews",
+    status: "settled",
+    claims: ["DMCA §1201", "DMCA §1202", "State Law"],
+    defendants: "Eleven Labs, Inc.",
+    issues: `本案涉及 AI 語音合成公司 Eleven Labs 被控違反 DMCA 反規避條款及移除著作權管理資訊，用以訓練其 AI 語音複製技術。`,
+    progress: `案件已和解。和解條件未公開。本案是首批涉及 AI 語音合成並達成和解的案件之一。`,
+    taiwan: `台灣啟示：AI 語音合成產業快速發展，Eleven Labs 類型的服務在台灣已有使用者。和解結果雖未公開，但顯示 AI 語音合成公司面臨的法律風險已被市場認真對待。`
+  },
+  {
+    id: 22,
+    name: "In re Mosaic LLM Litigation (Databricks)",
+    court: "N.D. Cal.",
+    judge: "Breyer",
+    status: "active",
+    claims: ["Direct Copyright", "Vicarious Infringement"],
+    defendants: "Databricks, Inc., Mosaic ML",
+    issues: `本案為針對 Databricks（收購 Mosaic ML）的合併著作權訴訟，包括 O'Nan v. Databricks 及 Makkai v. Databricks。原告主張 Mosaic ML 的大型語言模型使用受著作權保護的作品進行訓練，構成著作權侵害。`,
+    progress: `案件由 Breyer 法官審理中。案件發展值得關注，因為 Databricks 作為企業級 AI 平台，其使用訓練資料的方式可能影響整個企業 AI 產業。`,
+    taiwan: `台灣啟示：Databricks 在台灣企業市場有相當市占率。企業使用 Databricks 等平台建置 AI 解決方案時，應注意訓練資料的著作權合規性，以避免連帶法律風險。`
+  },
+  {
+    id: 23,
+    name: "Dow Jones (WSJ/NY Post) v. Perplexity AI",
+    court: "S.D.N.Y.",
+    judge: "Polk Failla",
+    status: "active",
+    claims: ["Direct Copyright", "Vicarious Infringement", "Contributory Infringement", "Lanham Act"],
+    defendants: "Perplexity AI, Inc.",
+    issues: `Dow Jones（華爾街日報及紐約郵報之母公司）控告 Perplexity AI，主張其 AI 答案引擎未經授權複製並傳布新聞文章內容，構成著作權侵害及商標侵害。`,
+    progress: `案件由 Polk Failla 法官審理中，處於初步程序階段。與 NYT v. Perplexity 等案共同構成對 Perplexity 的多線訴訟壓力。`,
+    taiwan: `台灣啟示：金融新聞內容的 AI 使用問題特別敏感，因為金融資訊的時效性和準確性直接影響投資決策。台灣的工商時報、經濟日報等財經媒體應關注此案發展。`
+  },
+  {
+    id: 24,
+    name: "James v. Snowflake Inc.",
+    court: "D. Mont.",
+    judge: "Morris",
+    status: "active",
+    claims: ["Direct Copyright"],
+    defendants: "Snowflake Inc.",
+    issues: `本案涉及雲端資料平台 Snowflake 的 AI 功能是否侵害著作權。隨著雲端平台紛紛整合生成式 AI 功能，其訓練資料來源的合法性成為新的法律戰場。`,
+    progress: `案件由 Morris 法官審理中，處於初步程序階段。`,
+    taiwan: `台灣啟示：台灣企業大量使用 Snowflake 等雲端資料平台。企業在使用這些平台的 AI 功能時，應了解訓練資料來源的合法性風險。`
+  },
+  {
+    id: 25,
+    name: "Advance Local Media v. Cohere",
+    court: "S.D.N.Y.",
+    judge: "McMahon",
+    status: "active",
+    claims: ["Direct Copyright", "Lanham Act"],
+    defendants: "Cohere Inc.",
+    issues: `地方新聞媒體集團 Advance Local Media 控告加拿大 AI 公司 Cohere，主張其使用新聞文章訓練大型語言模型構成著作權侵害。本案的特殊意義在於被告為非美國公司，涉及著作權的域外管轄問題。`,
+    progress: `案件由 McMahon 法官審理中。`,
+    taiwan: `台灣啟示：跨境 AI 著作權訴訟的管轄權問題值得關注。台灣著作權人面對境外 AI 公司侵權時，如何有效行使權利？國際私法的適用是關鍵議題。`
+  },
+  {
+    id: 26,
+    name: "Woulard v. Suno / Uncharted Labs (Illinois)",
+    court: "N.D. Ill.",
+    judge: "Wood / Ellis",
+    status: "active",
+    claims: ["Direct Copyright", "Vicarious Infringement", "Contributory Infringement", "DMCA §1202", "DMCA §1201(a)", "State Law (BIPA)"],
+    defendants: "Suno, Inc. / Uncharted Labs (Udio)",
+    issues: `本案除著作權主張外，特別值得注意的是援引伊利諾州《生物辨識資訊隱私法》(BIPA) 及《公開權法》(IRPA) 的州法主張。原告主張 AI 音樂平台不僅侵害音樂著作權，也侵害了表演者的生物辨識資訊（聲紋）及公開權。`,
+    progress: `案件分別由 Wood 法官及 Ellis 法官審理。本案是將隱私法與著作權法結合用於對抗 AI 音樂生成的創新訴訟策略。`,
+    taiwan: `台灣啟示：\n\n1. 台灣個人資料保護法第 2 條定義的「個人資料」是否涵蓋聲紋等生物辨識資訊？本案的 BIPA 主張可為台灣個資法的解釋提供參考。\n2. 結合著作權法與個資法的「雙軌訴訟策略」值得台灣律師在處理 AI 侵權案件時借鑑。`
+  },
+  {
+    id: 27,
+    name: "Entrepreneur Media v. Meta",
+    court: "N.D. Cal.",
+    judge: "Chhabria",
+    status: "active",
+    claims: ["Direct Copyright"],
+    defendants: "Meta Platforms, Inc.",
+    issues: `媒體公司 Entrepreneur Media 控告 Meta 在訓練 AI 模型時未經授權使用其出版內容。`,
+    progress: `案件由 Chhabria 法官審理中。`,
+    taiwan: `台灣啟示：媒體品牌內容用於 AI 訓練的著作權問題持續擴大，台灣出版業者應注意。`
+  },
+  {
+    id: 28,
+    name: "Hendrix / Martinez-Conde / Alexander v. Apple",
+    court: "N.D. Cal.",
+    judge: "Gonzalez Rogers",
+    status: "active",
+    claims: ["Direct Copyright"],
+    defendants: "Apple Inc.",
+    issues: `多件針對 Apple 的著作權訴訟，主張 Apple 在訓練 Siri 及其他 AI 功能時未經授權使用原告的著作。這些案件將 AI 著作權爭議擴展至 Apple 的 AI 生態系。`,
+    progress: `三件案件均由 Gonzalez Rogers 法官審理。案件處於初步程序階段。`,
+    taiwan: `台灣啟示：Apple 在台灣市場的 AI 功能（包括 Apple Intelligence）若使用了未經授權的著作訓練，台灣著作權人同樣可能受到影響。`
+  },
+  {
+    id: 29,
+    name: "Tanzer / Alexander v. Salesforce",
+    court: "N.D. Cal.",
+    judge: "Breyer",
+    status: "active",
+    claims: ["Direct Copyright"],
+    defendants: "Salesforce, Inc.",
+    issues: `針對 Salesforce AI 產品（Einstein AI）的著作權訴訟，主張 Salesforce 使用受著作權保護的作品訓練其企業 AI 解決方案。`,
+    progress: `案件由 Breyer 法官審理中。`,
+    taiwan: `台灣啟示：台灣企業廣泛使用 Salesforce CRM 及其 AI 功能。企業客戶可能因使用侵權 AI 產品而面臨間接法律風險。`
+  },
+  {
+    id: 30,
+    name: "Disney v. MiniMax",
+    court: "C.D. Cal.",
+    judge: "Blumenfeld Jr.",
+    status: "active",
+    claims: ["Direct Copyright", "Vicarious Infringement", "Contributory Infringement"],
+    defendants: "MiniMax (海螺 AI)",
+    issues: `Disney 控告中國 AI 公司 MiniMax（海螺 AI）著作權侵害，主張其 AI 影像生成模型使用 Disney 受保護的角色形象訓練。本案特殊之處在於被告為中國 AI 公司，涉及中美之間的著作權跨境執法問題。`,
+    progress: `案件由 Blumenfeld Jr. 法官審理中。本案作為美中 AI 著作權爭議的代表性案件，受到國際關注。`,
+    taiwan: `台灣啟示：\n\n1. 中國 AI 公司的著作權侵害行為可能在美國被追訴，台灣著作權人面對中國 AI 公司侵權時，可考慮在美國提起訴訟。\n2. 台灣在兩岸著作權保護方面的實務困境——即使台灣與中國均為伯恩公約會員國（透過 WTO/TRIPS），實際執法仍存在重大挑戰。`
+  },
+  {
+    id: 31,
+    name: "Ted Entertainment v. NVIDIA (DGX Cloud)",
+    court: "N.D. Cal.",
+    judge: "Davila",
+    status: "active",
+    claims: ["DMCA §1201(a)"],
+    defendants: "NVIDIA Corp.",
+    issues: `本案控告 NVIDIA 的 DGX Cloud AI 訓練平台違反 DMCA 反規避條款（§1201(a)）。值得注意的是，本案不涉及直接著作權侵害主張，而是純粹基於反規避條款。\n\nNVIDIA 作為 AI 基礎設施提供者（而非 AI 應用開發者）的法律責任，是本案的核心創新爭點。`,
+    progress: `案件由 Davila 法官審理中。Nazemian v. NVIDIA 已合併審理（Tigar 法官）。`,
+    taiwan: `台灣啟示：AI 基礎設施提供者（如 NVIDIA、台灣的台積電、雲端服務業者）是否可能因其客戶的 AI 訓練行為而承擔間接侵權責任？本案的結果對台灣半導體及雲端服務業者具有策略性影響。`
+  },
+  {
+    id: 32,
+    name: "Pierce v. Photobucket (AI Image Training)",
+    court: "D. Colo.",
+    judge: "Brimmer",
+    status: "active",
+    claims: ["DMCA §1202(b)", "State Law"],
+    defendants: "Photobucket Inc.",
+    issues: `本案主張圖片託管平台 Photobucket 將使用者上傳的照片提供給 AI 公司用於模型訓練，過程中移除了著作權管理資訊，違反 DMCA §1202(b)。\n\n核心爭點：平台業者將使用者內容商業化（出售給 AI 公司）是否構成 DMCA 違反？`,
+    progress: `案件由 Brimmer 法官審理中。`,
+    taiwan: `台灣啟示：台灣的圖片託管及社群平台（如無名小站的數位遺產、Flickr 台灣使用者內容）若被轉售給 AI 公司，可能涉及著作權法第 80-1 條及個資法的雙重問題。平台服務條款中的「資料使用授權」條款效力值得檢視。`
+  },
+  {
+    id: 33,
+    name: "Chicago Tribune v. Perplexity AI",
+    court: "S.D.N.Y.",
+    judge: "TBA",
+    status: "active",
+    claims: ["Direct Copyright", "Vicarious/Contributory Infringement", "Lanham Act"],
+    defendants: "Perplexity AI Inc.",
+    issues: `本案由《芝加哥論壇報》針對 Perplexity AI 的答案引擎提起，核心爭點在於 Perplexity 的「答案生成模式」（answer generation mode）是否大規模複製並分發新聞內容。與《紐約時報》訴訟類似，但重點在於業界特定的新聞內容使用模式。\n\nPerplexity 答案引擎的運作原理涉及：(1) 對新聞來源的權重分配；(2) 內容摘要與改寫（paraphrasing）的程度；(3) 原始來源的歸因方式。論壇報主張，Perplexity 透過將其答案定位為「一手資訊」，而非「聚合」，對新聞出版商造成直接的商業競爭傷害。`,
+    progress: `案件於 2025 年提起，目前正在初期訴訟階段。被告已提交答辯狀，主張合理使用。原告於 2026 年 2 月提交補充訴狀，擴大被告範圍至 Perplexity 的融資方。法院預計於 2026 年上半年作出是否駁回的決定。`,
+    taiwan: `台灣新聞出版業的啟示：台灣主要媒體（聯合報系、中時報系、蘋果日報等）面臨相同的 AI 聚合風險。本案若允許進行，將確立新聞內容的「答案搜尋」使用是否屬合理使用。台灣媒體聯合會應考慮參考美國新聞出版商聯合授權模式（news publisher licensing pool），或透過著作權集體管理進行協商。`
+  },
+  {
+    id: 34,
+    name: "Encyclopaedia Britannica v. Perplexity AI",
+    court: "S.D.N.Y.",
+    judge: "Rochon",
+    status: "active",
+    claims: ["Direct Copyright", "Lanham Act (False Designation of Origin and Dilution)"],
+    defendants: "Perplexity AI Inc.",
+    issues: `百科全書大不列顛公司控告 Perplexity AI 在其答案引擎中大規模複製百科全書內容。本案獨特之處在於將《蘭姆法案》（Lanham Act）商標稀釋（dilution）條款納入主張——Perplexity 將百科全書專業編纂的內容重新標籤為「Perplexity 的答案」，造成消費者混淆。\n\n法律爭點包括：(1) 百科全書內容編纂的整體著作權保護程度；(2) 答案引擎對「來源識別」的掩蓋程度；(3) 答案引擎使用是否稀釋「百科全書」的品牌價值和商譽。`,
+    progress: `案件於 2025 年 6 月提起。Rochon 法官已駁回被告的當事人適格異議。目前案件進入事證開示階段，原告已針對 Perplexity 的訓練資料集及答案生成邏輯提交廣泛的文件索取請求。被告預計於 2026 年 5 月提交答辯摘要。`,
+    taiwan: `台灣字典、百科及知識庫企業的啟示：台灣的大型知識出版商（如三民書局的國語辭典、線上百科等）應關注本案中將內容重新歸屬（mis-attribution）視為商標侵害的新穎理論。台灣商標法第 65 條已規定著名商標之稀釋，本案可作為跨領域應用的先例。`
+  },
+  {
+    id: 35,
+    name: "Intercept Media v. OpenAI",
+    court: "S.D.N.Y.",
+    judge: "Rakoff",
+    status: "active",
+    claims: ["DMCA §1202(b)"],
+    defendants: "OpenAI L.P.",
+    issues: `本案以《攔截媒體》（The Intercept）為原告，控告 OpenAI 在訓練 ChatGPT 期間移除或忽視著作權管理資訊（CMI），違反《數位千禧年著作權法》第 1202(b) 條款。本案與《原始故事》訴訟策略類似，但聚焦於調查新聞內容。\n\nRakoff 法官以在 OpenAI 相關多案中表現嚴格聞名。本案核心爭點為：OpenAI 是否在其 Common Crawl 資料集中有意忽視或移除了新聞文章中的著作權聲明？移除 CMI 的「意圖」（intent）在法律上的舉證標準為何？`,
+    progress: `案件於 2026 年 1 月提起。OpenAI 已於 3 月提交駁回動議（motion to dismiss），主張 CMI 條款不適用於 AI 訓練資料集。法院預計於 2026 年 5 月作出決定。原告亦已向第二巡迴法院提交法庭之友意見書。`,
+    taiwan: `台灣著作權管理的啟示：台灣著作權法第 80 條至 80-3 條規定了著作權管理電子資訊（EMI），但在 AI 訓練環境中的適用尚無實例。本案若成立，將影響台灣 AI 公司在訓練資料中保留或移除著作權聲明的義務。`
+  },
+  {
+    id: 36,
+    name: "Justice v. Suno",
+    court: "D. Mass.",
+    judge: "Saylor IV",
+    status: "active",
+    claims: ["Direct Copyright", "DMCA §1201(a)", "State Law (Tennessee Consumer Protection Act)"],
+    defendants: "Suno Inc.",
+    issue: `本案由美國音樂工作者、作曲家及歌詞作者的聯合集體提起，針對 AI 音樂生成平台 Suno。控方聲稱 Suno 使用受著作權保護的錄製音樂及歌詞訓練其 AI 音樂生成模型，並破壞了 DRM 保護機制以開啟訓練資料。\n\n本案創新性地納入了《田納西消費者保護法》州級主張，對比聯邦 DMCA 的單一策略。法律爭點包括：(1) AI 音樂生成模型權重中，原始音樂信號的可識別程度；(2) 破解 DRM 的「合理使用」抗辯適用於訓練情境時的標準；(3) 州消保法對 AI 企業不公平貿易行為的適用。`,
+    progress: `案件於 2025 年 10 月在波士頓聯邦地院提起。Suno 於 1 月提交動議駁回州法主張，法院預計於 4 月作出部分決定。聯邦主張預計進入事證開示階段。`,
+    taiwan: `台灣音樂產業與消費保護的交集：台灣《消費者保護法》與《著作權法》的協調適用在 AI 音樂場景中尚未有判例。本案對台灣 KKBOX、Spotify 等音樂串流平台向 AI 公司授權或出售訓練資料的法律風險評估具有參考價值。`
+  },
+  {
+    id: 37,
+    name: "Justice v. Uncharted Labs (Udio)",
+    court: "S.D.N.Y.",
+    judge: "Garnett",
+    status: "active",
+    claims: ["Direct Copyright", "DMCA §1201(a)"],
+    defendants: "Uncharted Labs Inc.",
+    issues: `本案針對另一個主要 AI 音樂生成平台 Udio（Uncharted Labs 開發）。與 Suno 案平行，但在南紐約地院提起，法官為 Garnett。控方同樣主張 Udio 使用受保護的音樂訓練模型及破壞 DRM。\n\n本案與 UMG v. Uncharted Labs 案件重疊，但該案重點在音樂標籤的商標侵害及不正競爭，而本案重點在著作權與 DMCA。法律上的區分成為問題：同一被告同一行為，不同原告可能基於不同法律理論主張。`,
+    progress: `案件於 2025 年 12 月提起。Garnett 法官已發出初期案件管理令（initial case management order），要求雙方於 2026 年 5 月前完成初期法律爭點討論。預計將與 UMG 案進行協調。`,
+    taiwan: `台灣多方當事人的 AI 著作權訴訟協調：若台灣發生類似情況（如多個音樂標籤公司及獨立藝術家同時控告同一 AI 音樂公司），法院應如何協調訴訟以避免相互矛盾的判決？本案的程序管理經驗對台灣司法有參考價值。`
+  },
+  {
+    id: 38,
+    name: "Nazemian v. NVIDIA Corp.",
+    court: "N.D. Cal.",
+    judge: "Tigar",
+    status: "active",
+    claims: ["Direct Copyright"],
+    defendants: "NVIDIA Corp.",
+    issues: `美國知名作家群集體訴訟 NVIDIA，聲稱 NVIDIA 的 DGX Cloud AI 訓練平台向客戶提供受著作權保護的文學作品進行模型訓練。本案獨特之處在於原告直接控告 AI 基礎設施供應商（而非最終應用開發者）。\n\n法律爭點：NVIDIA 作為「中立技術提供商」是否應對客戶使用其平台進行侵權訓練負責？傳統「技術中立」原則（如索尼貝塔錄影機案）在 AI 時代是否適用？NVIDIA 對使用其平台的內容的知識程度（actual or constructive knowledge）如何衡量？`,
+    progress: `案件於 2024 年 9 月在加州北區提起。已與 Dubus 等其他作家訴訟合併審理。Tigar 法官主持。預計於 2026 年 6 月進行案件現狀聽證會。`,
+    taiwan: `台灣雲端及 AI 基礎設施業者的責任：台灣的雲端服務提供商（如 3 大電信的雲端服務）及台積電等晶片設計公司若提供 AI 運算服務，是否需對客戶使用其服務進行侵權內容之訓練負責？本案結果將直接影響台灣業者的法律風險評估。`
+  },
+  {
+    id: 39,
+    name: "Warner Bros. v. Midjourney",
+    court: "C.D. Cal.",
+    judge: "Kronstadt",
+    status: "active",
+    claims: ["Direct Copyright", "Vicarious/Contributory Infringement"],
+    defendants: "Midjourney Inc.",
+    issues: `華納兄弟娛樂公司與迪士尼公司分別針對 AI 圖像生成平台 Midjourney 提起訴訟。本案（華納兄弟案）聲稱 Midjourney 使用包含華納電影角色（超人、蝙蝠俠、兔寶寶、史酷比）圖像的訓練資料，未經授權。\n\n法律爭點包括：(1) 虛構角色的著作權保護範圍——字符設計是否受著作權保護？(2) 角色在多部作品中出現時，每部作品的著作權所有人是否均有控訴權？(3) AI 生成含有相似角色的新圖像，是否構成「衍生作品」侵害？`,
+    progress: `案件於 2023 年 11 月在加州中區提起，Kronstadt 法官主持。經過訴訟律師會議，預計於 2026 年 7 月進行第一次駁回動議聽證會。原告已提交修正訴狀，擴大索賠範圍至商品化權侵害。`,
+    taiwan: `台灣虛構角色與 AI 訓練的衝突：台灣本土動漫、遊戲角色（如寶可夢、靈魂獸等）若被 AI 公司用於訓練，台灣創作者的救濟途徑如何？本案對台灣虛構角色的著作權保護強度有重要啟示。`
+  },
+  {
+    id: 40,
+    name: "In re OpenAI ChatGPT Litigation (Tremblay/Silverman)",
+    court: "MDL Before Judge Stein",
+    judge: "Stein",
+    status: "mdl",
+    claims: ["Direct Copyright", "Vicarious Infringement", "DMCA §1202(b)", "State Law"],
+    defendants: "OpenAI L.P., Microsoft Corp.",
+    issues: `本案為針對 OpenAI 及微軟的首批重大集體訴訟，由知名作者 Paul Tremblay 及 Sarah Silverman 等提起。訴訟最初在加州北區提起，後被轉入多方訴訟（MDL）統一管理。本案代表針對 ChatGPT 訓練合法性的全面法律挑戰。\n\n核心爭點涵蓋：(1) 無償使用海量受著作權保護的著作進行商業 AI 訓練是否合理；(2) 模型參數中著作權作品的可識別程度；(3) OpenAI 是否應在其業務條款中揭露訓練資料來源？(4) 微軟作為主要資金來源及客戶的責任。`,
+    progress: `案件於 2023 年 6 月在加州北區提起，後於 2024 年 6 月轉入 MDL（MDL 2943），由 Judge Stein 主持。已超過 20 個相關訴訟被合併。集體訴訟認證動議預計於 2026 年下半年進行。此案將成為美國 AI 著作權訴訟的頂級先例。`,
+    taiwan: `台灣與國際 MDL 訴訟的互動：台灣作者若參與本 MDL，需理解美國集體訴訟的法律框架及賠償計算方式。同時，本案結果可能影響台灣未來是否引入 MDL 制度，特別是對大規模 AI 著作權侵害的救濟機制。`
+  },
+  {
+    id: 41,
+    name: "Daily News v. Microsoft/OpenAI",
+    court: "S.D.N.Y.",
+    judge: "Stein",
+    status: "active",
+    claims: ["Direct Copyright", "Vicarious/Contributory Infringement", "DMCA §1202(b)", "Lanham Act", "State Law"],
+    defendants: "OpenAI L.P., Microsoft Corp.",
+    issues: `紐約每日新聞針對 OpenAI 及微軟提起訴訟，聲稱 ChatGPT 在未經授權或適當補償的情況下，大規模使用其新聞內容進行訓練及生成內容。本案已與《紐約時報》報紙集團訴訟進行協調。\n\n本案特別強調新聞出版商作為「內容創造者」的商業模式被 AI 直接威脅。法律爭點包括：(1) AI 生成的「新聞摘要」是否對原始新聞出版商的流量及廣告收入造成直接損害？(2) OpenAI 是否應對訓練資料的著作權合規性進行「盡職調查」？(3) 微軟作為 OpenAI 的主要投資者及產品集成方的責任分配。`,
+    progress: `案件於 2024 年在南紐約地院提起，已與《紐約時報》案件進行實質協調。Stein 法官同時主持多個相關案件。2026 年 3 月進行案件現狀聽證會，預計於 6 月進行聯合動議駁回聽證會。`,
+    taiwan: `台灣新聞與媒體產業的 AI 時代轉變：台灣新聞媒體（中央社、聯合報、中時等）應評估其內容被 ChatGPT、Microsoft Copilot 等應用使用的程度，並考慮建立新聞內容授權機制（如同歐盟 DSM 指令 15 條）。`
+  },
+  {
+    id: 42,
+    name: "Ziff Davis v. OpenAI",
+    court: "MDL Before Judge Stein (Originally D. Del.)",
+    judge: "Stein",
+    status: "active",
+    claims: ["Direct Copyright", "Contributory Infringement", "DMCA §1202(b)", "DMCA §1201(a)", "Lanham Act", "State Law"],
+    defendants: "OpenAI L.P.",
+    issues: `Ziff Davis 是知名科技媒體出版商（曾擁有 IGN、Mashable 等知名科技網站），控告 OpenAI 未經授權使用其科技評論、產品測評等內容訓練 ChatGPT。本案原始在特拉華州提起，後轉入南紐約 MDL。\n\n本案獨特之處在於涵蓋全面的聯邦和州法主張，包括罕見的 DMCA §1201(a) 反規避條款（針對 OpenAI 是否破壞了內容出版網站的技術保護措施）。法律爭點關於科技內容的著作權保護強度、衍生作品的界定、以及媒體網站的「robots.txt」是否構成有效的 DRM 保護。`,
+    progress: `案件於 2024 年在特拉華州提起，2025 年 3 月轉入南紐約 MDL。已提交修正訴狀，納入關於 AI 訓練透明度的更多具體主張。預計於 2026 年 7 月進行駁回動議聽證會。`,
+    taiwan: `台灣科技媒體與 AI 訓練的關係：台灣科技媒體（如癮科技 Engadget Taiwan、TechNews 等）面臨相同的內容被 AI 公司爬取訓練的風險。本案的結果將影響台灣媒體網站是否可透過 robots.txt 和其他技術手段有效保護其內容。`
+  },
+  {
+    id: 43,
+    name: "U.S. News & World Report v. OpenAI",
+    court: "S.D.N.Y.",
+    judge: "Stein",
+    status: "active",
+    claims: ["Direct Copyright", "Contributory Infringement", "DMCA §1202(b)", "Lanham Act", "Trademark Infringement/Counterfeiting"],
+    defendants: "OpenAI L.P.",
+    issues: `美國新聞與世界報導雜誌社控告 OpenAI 使用其大學排名指南、教育內容等訓練 ChatGPT，並指控 OpenAI 的輸出結果中包含對 US News 品牌的冒用或誤導性屬性。本案特別強調品牌稀釋及商標反淡化主張。\n\n法律爭點：(1) 受保護的排名標準、評估方法是否構成可保護的「編纂著作」（compilation work）？(2) 當 ChatGPT 生成的內容看似來自 US News 但實際未經授權時，是否構成商標淡化？(3) AI 對知名品牌內容的大規模訓練使用對品牌商譽的傷害如何衡量？`,
+    progress: `案件於 2024 年底在南紐約地院提起，Stein 法官主持。已提交初期駁回動議，預計於 2026 年 4 月進行聽證會。原告強調商標侵害主張的新穎性及其對媒體品牌保護的影響。`,
+    taiwan: `台灣新聞、教育與排名出版的保護：台灣的《天下雜誌》、《遠見雜誌》等大型媒體及教育排名機構應評估其編纂內容（ranking, methodology）的著作權保護策略，並考慮如 US News 案所示的商標淡化理論。`
+  },
+  {
+    id: 44,
+    name: "BMG Rights Management v. Anthropic",
+    court: "D. Colo. (Pending)",
+    judge: "TBA",
+    status: "active",
+    claims: ["Direct Copyright"],
+    defendants: "Anthropic PBC",
+    issues: `BMG Rights Management（全球最大獨立音樂版權管理公司之一）於 2026 年 3 月 18 日控告 Anthropic，聲稱 Anthropic 的 Claude AI 模型使用了受 BMG 管理的歌詞進行訓練，包括 Bruno Mars、Rolling Stones 等著名藝術家的作品。本案為 2026 年最新重大 AI 著作權訴訟。\n\n本案特別重要的是，BMG 掌控全球約 2 百萬首歌曲的著作權。Anthropic 遠未與主要音樂版權機構達成授權協議。法律爭點包括：(1) 歌詞的著作權保護強度（獨立於音樂錄製）；(2) 模型是否被訓練來直接生成歌詞或僅理解歌詞語境？(3) 如何衡量歌詞使用對音樂產業的影響？`,
+    progress: `案件於 2026 年 3 月 18 日剛剛在科羅拉多州提起。Anthropic 尚未正式回應。此案可能成為 2026 年音樂出版商對 AI 公司的關鍵訴訟，預計將快速進展。`,
+    taiwan: `台灣音樂出版與 Anthropic 的關係：台灣詞曲版權管理機構（如信言智作權管理公司、華研國際等）應評估其管理的作品是否被納入 Claude 訓練資料。考慮到 Anthropic 在亞太地區的擴張，台灣音樂產業應主動進行授權談判或聯合聲明。`
+  },
+  {
+    id: 45,
+    name: "Huckabee v. Bloomberg",
+    court: "S.D.N.Y.",
+    judge: "Garnett",
+    status: "active",
+    claims: ["Direct Copyright"],
+    defendants: "Bloomberg L.P.",
+    issues: `政治人物及評論家對彭博新聞提起訴訟，聲稱彭博新聞中使用了他們的採訪內容、演講記錄等進行內部 AI 訓練及生成分析內容。本案與另一訴訟 Huckabee v. Meta 不同，後者涉及 LLaMA 開源模型。\n\n本案核心爭點：新聞出版商（彭博）是否可不經授權將其採訪、引述的第三方內容用於訓練自有 AI 模型？該內容的著作權歸屬於受訪者、新聞機構，還是兩者共同保有？`,
+    progress: `案件於 2025 年在南紐約地院提起，Garnett 法官主持。已提交駁回動議，預計於 2026 年 5 月進行聽證會。`,
+    taiwan: `台灣政治人物與媒體 AI 訓練的交界：台灣政治人物、公眾人物的採訪內容被媒體用於 AI 訓練時的著作權歸屬問題，台灣法律尚無明確指引。本案可作為參考。`
+  },
+  {
+    id: 46,
+    name: "UMG Recordings v. Uncharted Labs (Udio) — SDNY",
+    court: "S.D.N.Y.",
+    judge: "Hellerstein",
+    status: "settled",
+    claims: ["Direct Copyright", "DMCA §1201(a)"],
+    defendants: "Uncharted Labs Inc.",
+    issues: `環球音樂集團針對 AI 音樂生成平台 Udio 提起訴訟。本案係音樂產業對 AI 音樂生成器的重大訴訟之一。UMG 聲稱 Udio 未經授權使用環球旗下藝術家的錄製音樂進行訓練，包括破壞 DRM 保護機制。\n\n法律爭點涉及音樂錄製的著作權保護、表演者權（performer's rights）、以及機械授權（mechanical licensing）在 AI 時代的適用。`,
+    progress: `案件於 2024 年提起。2025 年 10 月，Udio 與 UMG 達成和解協議。根據公開報導，Udio 同意向 UMG 支付版稅並實施內容過濾機制，防止使用受保護的 UMG 錄製音樂。此為音樂業與 AI 音樂公司的首個主要和解案例，代表產業協議的可能方向。`,
+    taiwan: `台灣音樂版權協議的模板：本案和解的條款（包括版稅率、內容過濾技術）可作為台灣音樂出版商與 AI 公司談判的基礎。台灣音樂著作權協會應積極與 AI 音樂平台進行授權談判，避免陷入訴訟。`
+  },
+  {
+    id: 47,
+    name: "Denial v. OpenAI",
+    court: "MDL Before Judge Stein (Originally N.D. Cal.)",
+    judge: "Stein",
+    status: "active",
+    claims: ["Direct Copyright", "Vicarious Infringement", "DMCA §1202(b)", "CFAA", "State Law"],
+    defendants: "OpenAI L.P.",
+    issues: `Denial 訴訟由多位作者提起，控告 OpenAI 使用其作品訓練 ChatGPT。本案的獨特之處在於納入了《電腦詐欺與濫用法》（Computer Fraud and Abuse Act, CFAA）主張——指控 OpenAI 的爬蟲程式違反了網站的服務條款及存取政策，構成「未經授權存取電腦系統」。\n\nCFAA 主張代表了一個創新的法律策略：將 AI 爬蟲程式的行為框架化為「電腦犯罪」而非單純的著作權問題。法律爭點包括：(1) 違反網站服務條款的爬蟲是否構成 CFAA 違反？(2) CFAA 的「未經授權存取」定義在爬蟲及 AI 訓練背景下如何適用？(3) 民事訴訟中 CFAA 主張的可追究性。`,
+    progress: `案件於 2024 年在加州北區提起，後轉入南紐約 MDL。法院已駁回部分 CFAA 主張，但允許其他主張進行。預計於 2026 年下半年進行駁回動議聽證會。本案的 CFAA 策略已被其他原告效仿。`,
+    taiwan: `台灣電腦詐欺法與 AI 的交界：台灣刑法第 358、359 條（無故入侵他人電腦、干擾電腦正常運作）在 AI 爬蟲背景下的適用仍不清晰。本案 CFAA 策略為台灣未來法律發展提供了借鑑，特別是關於爬蟲程式的法律地位。`
+  },
+  {
+    id: 48,
+    name: "Ted Entertainment v. Apple",
+    court: "C.D. Cal.",
+    judge: "TBA",
+    status: "active",
+    claims: ["DMCA §1201(a)"],
+    defendants: "Apple Inc.",
+    issues: `YouTube 影片創作者 Ted Entertainment 控告 Apple 違反 DMCA 第 1201(a) 條的反規避條款（anti-circumvention provision），聲稱 Apple 規避了其影片的技術保護措施以訓練 AI 模型。Ted Entertainment 已先後對 NVIDIA、Meta、Snap、Bytedance 提起類似訴訟，本案為其第五件。\n\n法律爭點：(1) YouTube 影片的 DRM 是否構成 §1201(a) 意義下的「技術保護措施」？(2) AI 公司大規模抓取影片內容是否構成規避行為？(3) §1201(a) 的反規避條款是否可獨立於著作權侵害主張適用？`,
+    progress: `案件於 2026 年 4 月初提起。Ted Entertainment 已累計提起 7 件 DMCA 反規避訴訟，針對多家科技巨頭。此一訴訟策略值得密切關注。`,
+    taiwan: `台灣著作權法第 80-2 條關於規避技術保護措施的規定，與 DMCA §1201(a) 類似。台灣 YouTuber 及影片創作者可參考此訴訟策略，評估 AI 爬蟲對其影片的抓取是否構成規避行為。`
+  },
+  {
+    id: 49,
+    name: "Ted Entertainment v. OpenAI",
+    court: "C.D. Cal.",
+    judge: "TBA",
+    status: "active",
+    claims: ["DMCA §1201(a)"],
+    defendants: "OpenAI L.P.",
+    issues: `Ted Entertainment 對 OpenAI 提起的 DMCA 反規避訴訟，主張 OpenAI 規避其 YouTube 影片的技術保護措施以訓練 AI。此為 Ted Entertainment 七件系列訴訟之一。\n\n本案與其對 Apple、Amazon 的訴訟合併考量，展示了一個影片創作者針對整個 AI 產業鏈發起「連環訴訟」的策略。`,
+    progress: `案件於 2026 年 4 月初提起。與同系列其他案件同步推進。`,
+    taiwan: `台灣影視創作者維權策略參考：Ted Entertainment 的「一告多家」策略值得台灣內容創作者借鑑。台灣創作者可考慮聯合行動，針對同一行為模式向多家 AI 公司主張權利。`
+  },
+  {
+    id: 50,
+    name: "Ted Entertainment v. Amazon",
+    court: "C.D. Cal.",
+    judge: "TBA",
+    status: "active",
+    claims: ["DMCA §1201(a)"],
+    defendants: "Amazon.com Inc.",
+    issues: `Ted Entertainment 對 Amazon 提起的 DMCA 反規避訴訟，為其系列訴訟的第七件。主張 Amazon 的 AI 訓練行為規避了影片的技術保護措施。\n\n法律爭點與系列案件一致：§1201(a) 反規避條款在 AI 訓練場景中的適用問題。`,
+    progress: `案件於 2026 年 4 月初提起。合計 Ted Entertainment 已對 NVIDIA、Meta、Snap、Bytedance、Apple、OpenAI、Amazon 七家公司提起訴訟。`,
+    taiwan: `台灣平台業者警示：Amazon AWS 在台灣提供 AI 訓練服務，台灣內容提供者應注意其內容是否被用於 AI 訓練，並評估技術保護措施的部署。`
+  },
+  {
+    id: 51,
+    name: "Ted Entertainment v. Bytedance (TikTok)",
+    court: "C.D. Cal.",
+    judge: "TBA",
+    status: "active",
+    claims: ["DMCA §1201(a)"],
+    defendants: "Bytedance Ltd.",
+    issues: `Ted Entertainment 對 Bytedance（TikTok 母公司）提起的 DMCA 反規避訴訟。Bytedance 已於 2026 年 4 月提出駁回動議。\n\n本案的關鍵在於 Bytedance 的駁回動議論點——可能挑戰 §1201(a) 在 AI 訓練場景中的適用範圍，以及對「技術保護措施」定義的爭論。`,
+    progress: `Bytedance 已提出駁回動議（motion to dismiss），主張 DMCA 反規避條款不適用於 AI 訓練行為。此駁回動議的裁定將對 Ted Entertainment 其他六件案件產生重大影響。`,
+    taiwan: `TikTok/抖音在台灣的合規考量：鑒於 TikTok 在台灣的廣泛使用及其 AI 功能，台灣監管機關應關注本案駁回動議的結果，以評估對台灣短影音平台的潛在影響。`
+  },
+  {
+    id: 52,
+    name: "Concord Music v. Anthropic II (Torrenting Claims)",
+    court: "M.D. Tenn.",
+    judge: "Crenshaw Jr.",
+    status: "active",
+    claims: ["Direct Copyright", "Contributory Infringement"],
+    defendants: "Anthropic PBC",
+    issues: `Concord Music Group 對 Anthropic 的第二波訴訟，涉及 Anthropic 涉嫌透過 BitTorrent 下載（torrenting）受版權保護的音樂檔案，用以訓練 Claude AI。本案與第一波 Concord v. Anthropic（歌詞訴訟）為不同案件。\n\n法律爭點：(1) AI 公司是否透過 P2P 網路取得訓練資料？(2) 透過盜版管道取得訓練資料對合理使用抗辯的影響？(3) 「不潔之手」原則的適用。`,
+    progress: `Anthropic 已提交動議請求暫停本案，等待第一波 Concord v. Anthropic 簡易判決結果。Concord I 的簡易判決聽證定於 2026 年 7 月 15 日。法院尚未裁定暫停動議。`,
+    taiwan: `台灣著作權法與盜版訓練資料：若 AI 公司使用透過盜版管道取得的台灣作品進行訓練，台灣權利人可主張更強的侵權論據。台灣刑法第 91 條（著作權法）對於利用盜版軟體的行為有較嚴格的處罰。`
+  },
+  {
+    id: 53,
+    name: "Encyclopaedia Britannica v. OpenAI",
+    court: "S.D.N.Y.",
+    judge: "Stein",
+    status: "active",
+    claims: ["Direct Copyright", "DMCA §1202(b)"],
+    defendants: "OpenAI L.P.",
+    issues: `大英百科全書控告 OpenAI 使用其受著作權保護的百科全書內容訓練 ChatGPT。Stein 法官已於 2026 年 4 月要求原告在 4 月 15 日前說明本案為何不應暫停，等待 MDL 簡易判決結果。\n\n法律爭點：(1) 百科全書的編纂、撰寫方式是否受特別保護？(2) 事實性內容的著作權保護範圍（Feist 原則的適用）。`,
+    progress: `Stein 法官已下令原告於 2026/4/15 前提交說明，解釋為何本案不應暫停等待 MDL 簡易判決。此與同期 Merriam-Webster、Gracenote 案件處理方式一致。`,
+    taiwan: `台灣百科全書及知識型出版品保護：台灣大百科全書等知識出版品應評估其內容是否被 AI 模型訓練使用。Feist 原則（事實不受著作權保護，但編纂方式可能受保護）在台灣著作權法架構下的對應分析值得關注。`
+  },
+  {
+    id: 54,
+    name: "Merriam-Webster v. OpenAI",
+    court: "S.D.N.Y.",
+    judge: "Stein",
+    status: "active",
+    claims: ["Direct Copyright", "DMCA §1202(b)"],
+    defendants: "OpenAI L.P.",
+    issues: `韋氏字典出版商控告 OpenAI 使用其字典定義、例句及語言學內容訓練 ChatGPT。本案與 Encyclopaedia Britannica v. OpenAI 同期提起。\n\n法律爭點：(1) 字典定義是否構成受著作權保護的原創表達？(2) 語言工具型內容的著作權保護界限。`,
+    progress: `與 Encyclopaedia Britannica 案相同，Stein 法官已要求原告於 2026/4/15 前說明為何本案不應暫停。`,
+    taiwan: `台灣辭典及語言工具保護：台灣教育部國語辭典、各出版社詞典應評估 AI 公司是否使用其內容進行訓練，並考量字典定義的著作權保護問題。`
+  },
+  {
+    id: 55,
+    name: "Gracenote Media v. OpenAI",
+    court: "S.D.N.Y.",
+    judge: "Stein",
+    status: "active",
+    claims: ["Direct Copyright", "DMCA §1202(b)"],
+    defendants: "OpenAI L.P.",
+    issues: `Gracenote（音樂元數據資料庫公司，Nielsen 旗下）控告 OpenAI 使用其音樂元數據（曲目資訊、專輯資料、藝術家資訊等）訓練 ChatGPT。\n\n法律爭點：(1) 音樂元數據（metadata）是否構成受著作權保護的資料庫？(2) 資料庫著作權（database copyright）在 AI 訓練場景中的適用。`,
+    progress: `與 Encyclopaedia Britannica、Merriam-Webster 案件同期處理。Stein 法官要求原告於 2026/4/15 前說明為何本案不應暫停。`,
+    taiwan: `台灣音樂元數據保護：台灣的 MÜST（音樂著作權集體管理團體）及各音樂資料庫應評估其元數據是否被 AI 公司使用，並參考本案發展制定保護策略。`
+  },
+  {
+    id: 56,
+    name: "Cambronne v. Anthropic",
+    court: "N.D. Cal.",
+    judge: "TBA",
+    status: "active",
+    claims: ["Direct Copyright"],
+    defendants: "Anthropic PBC",
+    issues: `作者控告 Anthropic 使用其著作訓練 Claude AI 模型。本案為針對 Anthropic 的多起書籍著作權訴訟之一。\n\n法律爭點與其他書籍作者訴訟類似：AI 訓練是否構成合理使用、模型輸出是否構成衍生著作。`,
+    progress: `案件進行中，與其他針對 Anthropic 的訴訟同步發展。`,
+    taiwan: `台灣書籍作者維權參考：台灣作者可參考此類針對 Anthropic 的訴訟，評估自身著作被 AI 訓練使用的可能性。`
+  },
+  {
+    id: 57,
+    name: "Carreyrou v. Anthropic",
+    court: "N.D. Cal.",
+    judge: "TBA",
+    status: "active",
+    claims: ["Direct Copyright"],
+    defendants: "Anthropic PBC",
+    issues: `知名調查記者 John Carreyrou（《Bad Blood》作者）控告 Anthropic 使用其著作訓練 Claude AI。本案引發新聞業界對 AI 使用記者著作的關注。\n\n法律爭點：(1) 調查報導的著作權保護強度；(2) 新聞著作用於 AI 訓練的合理使用分析。`,
+    progress: `案件進行中。本案因原告知名度較高，受到媒體廣泛關注。`,
+    taiwan: `台灣調查新聞保護：台灣調查報導記者及新聞機構應關注此案發展，評估 AI 公司是否使用其報導訓練模型。`
+  },
+  {
+    id: 58,
+    name: "Chicken Soup for the Soul v. Multiple AI Companies",
+    court: "N.D. Cal.",
+    judge: "TBA",
+    status: "active",
+    claims: ["Direct Copyright"],
+    defendants: "Apple Inc., Google LLC, Meta Platforms Inc., OpenAI Inc., Anthropic PBC, Nvidia Corporation, Perplexity AI Inc., xAI Corporation",
+    issues: `暢銷書系列《心靈雞湯》出版商於 2026 年 3 月 17 日對八家主要 AI 公司提起訴訟，控告其使用該系列書籍訓練大型語言模型。本案為知名出版品牌對多家 AI 公司的大規模訴訟。\n\n法律爭點：(1) 系列叢書的品牌及內容保護；(2) 短篇故事集的著作權保護特性；(3) 八家被告公司的共同及個別責任。`,
+    progress: `【2026 年 3 月 17 日】訴訟對象涵蓋 Apple、Google、Meta、OpenAI、Anthropic、Nvidia、Perplexity AI 及 xAI 等八家主要 AI 公司。案件處於初步程序階段。本案代表出版業對 AI 訓練資料侵權問題的重大集中訴訟。`,
+    taiwan: `台灣暢銷書出版保護：台灣知名出版品牌（如天下文化、遠流等）應評估其暢銷書系列被 AI 訓練使用的風險。`
+  },
+  {
+    id: 59,
+    name: "Amazon.com Services v. Perplexity AI",
+    court: "W.D. Wash.",
+    judge: "TBA",
+    status: "active",
+    claims: ["Direct Copyright", "Unfair Competition", "CFAA"],
+    defendants: "Perplexity AI Inc.",
+    issues: `Amazon 控告 AI 搜尋引擎 Perplexity AI 非法抓取並利用 Amazon 的產品列表、評論及商品描述。本案的特殊性在於涉及 Perplexity 使用具有代理功能的 AI 冒充 Chrome 瀏覽器登入 Amazon 帳戶進行購買。本案涉及著作權侵害、不公平競爭及計算機詐欺與濫用法（CFAA）。\n\n法律爭點：(1) 商品列表及用戶評論的著作權保護；(2) AI 代理冒充真人用戶行為的法律責任；(3) 數據抓取與著作權之間的界線；(4) CFAA 對 AI 自動化行為的適用。`,
+    progress: `【2026 年 3 月 9 日】Amazon 獲得初步禁止令（preliminary injunction），禁止 Perplexity 以代理方式訪問 Amazon 系統。本案為 Perplexity 面臨的最嚴重訴訟，涉及其核心業務模式的合法性。Perplexity 同時面臨 NYT、Dow Jones、Chicago Tribune、Reddit 及其他出版商的訴訟。`,
+    taiwan: `台灣電商平台保護：PChome、momo 等台灣電商平台應評估其商品資料被 AI 抓取的風險，並參考 Amazon 的訴訟策略。`
+  },
+  {
+    id: 60,
+    name: "Getty Images v. Stability AI (N.D. Cal.)",
+    court: "N.D. Cal.",
+    judge: "Thompson",
+    status: "active",
+    claims: ["Direct Copyright", "DMCA §1202(b)", "Lanham Act"],
+    defendants: "Stability AI Ltd.",
+    issues: `Getty Images 在美國加州北區對 Stability AI 提起的訴訟。Thompson 法官已就 Stability AI 的部分駁回動議進行聽證。\n\n法律爭點涉及 AI 影像生成器使用受版權保護的圖片訓練的合法性，以及 DMCA CMI 移除主張。`,
+    progress: `【2026 年 4 月 7 日】駁回動議聽證會定於下午 2:00 於聖荷西由 Thompson 法官主持。此為 Getty v. Stability AI 美國訴訟的重要訴訟進展。`,
+    taiwan: `台灣圖庫業者保護：台灣的達志影像、Shutterstock 台灣等圖庫業者應關注此案聽證結果，評估其圖片資料被 AI 訓練使用的法律風險。`
+  },
+  {
+    id: 61,
+    name: "Anders v. Stability AI",
+    court: "W.D.N.C.",
+    judge: "Reidinger",
+    status: "dismissed",
+    claims: ["Direct Copyright"],
+    defendants: "Stability AI Ltd.",
+    issues: `本案涉及著作權人對 Stability AI 提起的訴訟，主張其受保護的創意作品被用於訓練圖像生成模型。Reidinger 法官在駁回動議聽證中判斷原告未能充分主張著作權侵害。\n\n核心法律爭點為：(1) 被告對訓練資料的取得是否符合現有授權；(2) 著作權侵害的法律要件是否充分滿足；(3) 潛在的合理使用抗辯是否在駁回階段即可適用。`,
+    progress: `Reidinger 法官於駁回動議上作出有利於 Stability AI 的裁定。法院認為原告的著作權侵害主張因涉及授權問題而不成立。此案已駁回，目前無上訴跡象。`,
+    taiwan: `台灣啟示：(1) 北卡羅來納州法院對「訓練授權」問題的認定方式值得台灣法院參考。(2) 台灣著作權人在主張 AI 訓練侵權前，應先確認被告是否擁有合理的授權來源抗辯。(3) 本案顯示早期駁回動議的勝訴可能性，提醒台灣原告律師須提供更具體的侵害證據。`
+  },
+  {
+    id: 62,
+    name: "Lyon v. Adobe",
+    court: "N.D. Cal.",
+    judge: "Scott Corley",
+    status: "active",
+    claims: ["Direct Copyright"],
+    defendants: "Adobe Systems Inc.",
+    issues: `原告控告 Adobe 在訓練其生成式 AI 產品（包括 Firefly 圖像生成器）時，未經授權使用其創意作品。本案涉及專業創意人士著作權保護的核心問題。\n\n爭點包括：(1) Firefly 的訓練資料來源及其著作權合規性；(2) Adobe 作為設計軟體主導者的特殊法律地位；(3) 內容創作者與軟體平台間的權力不對等關係。`,
+    progress: `Scott Corley 法官已受理本案，目前處於早期訴訟階段。Adobe 尚未提出重大動議。案件預計進入事證開示階段。`,
+    taiwan: `台灣啟示：(1) Adobe 在台灣的產品授權與使用條款中，對於使用者著作物的二次利用是否有明確約束，值得台灣使用者檢視。(2) 台灣創意工作者（設計師、攝影師等）應警惕使用 Adobe 產品可能導致的著作物被商業 AI 訓練的風險。(3) 本案可能引發台灣著作權法對「軟體平台責任」的討論。`
+  },
+  {
+    id: 63,
+    name: "Kleiner v. Adobe",
+    court: "N.D. Cal.",
+    judge: "Scott Corley",
+    status: "active",
+    claims: ["Direct Copyright"],
+    defendants: "Adobe Systems Inc.",
+    issues: `另一位創意人士對 Adobe 的類似訴訟，涉及相同的 Firefly 模型訓練資料問題。多位原告對同一被告的訴訟可能最終被合併或形成 MDL。\n\n法律爭點重點：(1) 多位原告對同一被告的著作權侵害主張的集體性質；(2) AI 生成工具對原始創作者市場影響的累積效應。`,
+    progress: `由同一法官 Scott Corley 審理，可能與 Lyon v. Adobe 案件協調進行。暫未進入實質審理階段。`,
+    taiwan: `台灣啟示：(1) 台灣創意工作者在尋求集體維權時，本案多原告訴訟模式可作參考。(2) 本案反映 Adobe 面臨系統性的著作權侵害指控，台灣使用者應評估風險。(3) 未來台灣可能需要類似的集體訴訟機制處理 AI 訓練著作權問題。`
+  },
+  {
+    id: 64,
+    name: "James v. Together Compute",
+    court: "N.D. Cal.",
+    judge: "Lin",
+    status: "active",
+    claims: ["Direct Copyright"],
+    defendants: "Together Compute, Inc.",
+    issues: `原告控告計算基礎設施公司 Together Compute 未經授權使用其著作訓練大型語言模型。Together Compute 為 AI 訓練提供計算服務，本案涉及訓練基礎設施提供者的著作權責任。\n\n爭點包括：(1) 基礎設施供應商對訓練資料著作權的責任邊界；(2) 「提供工具」與「參與侵害」的法律區分。`,
+    progress: `案件由加州北區法院 Lin 法官審理，目前處於早期階段。Together Compute 作為較小規模的 AI 公司，此訴訟為其發展的重大挑戰。`,
+    taiwan: `台灣啟示：(1) 台灣的 AI 計算基礎設施提供商（如新創 AI 公司與伺服器提供商）應建立著作權合規機制。(2) 本案顯示即使是提供工具的中層企業也可能面臨著作權訴訟。(3) 台灣法院在評估中介人責任時，可參考本案對「工具提供者責任」的探討。`
+  },
+  {
+    id: 65,
+    name: "James v. Cerebras Systems",
+    court: "N.D. Cal.",
+    judge: "Martinez-Olguin",
+    status: "active",
+    claims: ["Direct Copyright"],
+    defendants: "Cerebras Systems Inc.",
+    issues: `同一原告對 AI 晶片設計公司 Cerebras Systems 的訴訟，涉及其訓練資料的著作權使用。Cerebras 為 AI 硬體廠商，本案涉及硬體製造商與軟體著作權的交叉領域。\n\n爭點：(1) 晶片製造商對其客戶訓練資料的責任；(2) 硬體與軟體著作權的相互影響。`,
+    progress: `由 Martinez-Olguin 法官審理，與 Together Compute 案相似的早期訴訟階段。Cerebras 面臨著作權侵害指控的同時也在面臨商業競爭挑戰。`,
+    taiwan: `台灣啟示：(1) 台灣的晶片設計與 AI 硬體公司（如聯發科、MediaTek 相關部門）應評估其產品是否涉及著作權風險。(2) 硬體與軟體著作權的界限問題值得台灣智慧財產法院關注。(3) 台灣 AI 晶片產業發展需建立更嚴格的著作權合規制度。`
+  },
+  {
+    id: 66,
+    name: "David Greene v. Google",
+    court: "N.D. Cal.",
+    judge: "Breyer",
+    status: "active",
+    claims: ["State Law"],
+    defendants: "Google LLC",
+    issues: `原告控告 Google 基於州法（包括加州著作權與隱私相關法律）未經授權使用其著作訓練 AI 模型。本案最初在加州州法院提起，Google 以聯邦著作權先占權為由移送至聯邦法院。\n\n核心爭點：(1) 聯邦著作權法是否先占州法著作權主張；(2) Google 移除州法訴訟的理由是否正當；(3) 州法在 AI 訓練規制中的獨立作用。`,
+    progress: `Breyer 法官已受理本案並保留了州法主張，拒絕 Google 以完全先占為由駁回所有請求。案件目前進行中，涉及複雜的聯邦先占問題。`,
+    taiwan: `台灣啟示：(1) 台灣於民法與著作權法之間的關係類似美國聯邦與州法的互動。本案關於「州法與著作權法並存適用」的論題對台灣法律體系有參考價值。(2) 台灣原告在主張著作權侵害時，亦可考慮併聯民法侵權、不當得利等請求。(3) Breyer 法官允許州法請求並行進行的做法，提示台灣法院對多層次法律請求應保持開放態度。`
+  },
+  {
+    id: 67,
+    name: "Carreyrou v. OpenAI",
+    court: "N.D. Cal.",
+    judge: "Pitts",
+    status: "active",
+    claims: ["Direct Copyright"],
+    defendants: "OpenAI L.P.",
+    issues: `知名調查記者 John Carreyrou（《Bad Blood: Secrets and Lies in a Silicon Valley Company》作者）對 OpenAI 提起的核心訴訟，主張 OpenAI 在未獲授權情況下使用其著作訓練 ChatGPT。\n\n重點爭點：(1) 調查報導與新聞著作物的著作權強度問題；(2) 新聞著作用於商業 AI 訓練的合理使用分析；(3) 原告的知名度與案件的公眾關注度。`,
+    progress: `Pitts 法官已受理本案。本案由於原告之高知名度而受到廣泛媒體關注。根據 2026 年 3 月的最新報導，本案預期將被轉移至聯邦多案件訴訟（MDL）中與其他 OpenAI 著作權案件合併審理。`,
+    taiwan: `台灣啟示：(1) 台灣調查記者與新聞機構應警惕其深度報導被 AI 公司無償使用。(2) 本案如轉入 MDL，將形成 OpenAI 著作權集體訴訟的重要組成部分，結果將影響全球 AI 著作權政策。(3) 台灣新聞媒體應學習 Carreyrou 提起個別訴訟的做法，並透過新聞業公會尋求集體維權機制。`
+  },
+  {
+    id: 68,
+    name: "Millette v. Google",
+    court: "N.D. Cal.",
+    judge: "Davila",
+    status: "dismissed",
+    claims: ["Direct Copyright", "State Law"],
+    defendants: "Google LLC",
+    issues: `原告對 Google 提起的著作權與州法訴訟。本案後經原告自願撤銷。訴狀中載有著作權侵害與加州不當得利等主張。\n\n爭點（訴訟期間）：(1) Google 對訓練資料的使用範圍；(2) 州法不當得利在 AI 訓練背景下的適用。`,
+    progress: `原告向法院請求自願駁回訴訟。Davila 法官已准許撤銷。本案現已結案。撤銷原因未公開披露。`,
+    taiwan: `台灣啟示：(1) 不少著作權訴訟因訴訟成本與證據蒐集困難而被撤銷，本案為例。台灣原告應評估著作權訴訟的實際成本收益。(2) 此類自願撤銷的案件反映訴訟人可能因和解或其他因素而終止訴訟。(3) 台灣法院應建立更有利於著作權集體訴訟的機制，降低個別訴訟的負擔。`
+  },
+  {
+    id: 69,
+    name: "Millette v. NVIDIA",
+    court: "N.D. Cal.",
+    judge: "Davila",
+    status: "dismissed",
+    claims: ["Direct Copyright", "State Law"],
+    defendants: "NVIDIA Corporation",
+    issues: `原告對 AI 晶片巨頭 NVIDIA 提起的著作權與州法訴訟，主張 NVIDIA 在其 AI 訓練相關產品中使用其著作物。本案涉及硬體製造商的著作權責任。\n\n爭點：(1) 晶片製造商對軟體訓練資料的間接責任；(2) 晶片與軟體侵害的因果關係。`,
+    progress: `原告自願駁回訴訟。Davila 法官已准許撤銷。本案結案。`,
+    taiwan: `台灣啟示：(1) 本案反映對晶片廠商提起著作權訴訟的困難——因果關係難以認定。(2) 台灣對 NVIDIA 等國際晶片廠商的著作權監管力度有限，此類案件通常在美國司法管轄權內進行。(3) 台灣應思考對國際科技公司在台灣銷售產品時的著作權責任如何監管。`
+  },
+  {
+    id: 70,
+    name: "Millette v. OpenAI",
+    court: "N.D. Cal. (MDL)",
+    judge: "Davila/Stein",
+    status: "active",
+    claims: ["Direct Copyright", "State Law"],
+    defendants: "OpenAI L.P.",
+    issues: `原告對 OpenAI 的著作權與州法訴訟，後被轉入聯邦多案件訴訟（MDL）體系。本案為進入 OpenAI MDL 框架的個案之一。\n\n爭點：(1) 著作權侵害在集體訴訟框架下的認定；(2) 代理訴訟中個別原告的證據與損害賠償問題。`,
+    progress: `本案由 Davila 法官於原審法院，後被轉移至 MDL 由 Stein 法官統籌管理。2026 年 4 月，本案仍在 MDL 框架內進行中。部分州法請求已被駁回，但著作權直接侵害主張繼續進行。`,
+    taiwan: `台灣啟示：(1) MDL 制度為美國處理大量相似案件的重要機制，台灣在著作權訴訟激增時，應考慮類似的集中管理制度。(2) 進入 MDL 的案件受統一程序約束，但個別原告的權益如何保護值得注意。(3) 台灣若面臨類似情況，可參考 MDL 的組織架構與效率管理模式。`
+  },
+  {
+    id: 71,
+    name: "Basbanes v. Microsoft",
+    court: "SDNY",
+    judge: "Stein",
+    status: "active",
+    claims: ["Direct Copyright", "Vicarious Infringement", "Contributory Infringement"],
+    defendants: "Microsoft Corporation, OpenAI L.P.",
+    issues: `作者 Nicholas Basbanes 對 Microsoft 與 OpenAI 的訴訟已被合併至 Authors Guild 訴訟中。本案涉及 Microsoft 與 OpenAI 的共同著作權責任，特別是直接侵害、代位侵害與幫助侵害的多層次責任。\n\n核心爭點：(1) Microsoft 對 OpenAI 訓練資料的知識與控制程度；(2) 代位侵害與幫助侵害的適用條件；(3) 合併訴訟中個別原告的利益保護。`,
+    progress: `本案與 Authors Guild v. OpenAI 及 Authors Guild v. Microsoft 合併審理。Stein 法官已要求當事人於 2026 年 4 月 15 日前提交聯合訴訟管理提案。案件暫未進入實質審理。`,
+    taiwan: `台灣啟示：(1) 多被告（Microsoft 與 OpenAI）的共同侵害責任分配問題值得台灣法院思考。(2) 台灣著作權法第 87 條關於幫助侵害的規定，可參考本案對「代位」與「幫助」的區分。(3) 合併訴訟中原告個別權益的保護機制對台灣集體訴訟制度設計有啟發意義。`
+  },
+  {
+    id: 72,
+    name: "Center for Investigative Reporting v. OpenAI",
+    court: "SDNY",
+    judge: "Stein",
+    status: "active",
+    claims: ["Direct Copyright", "Contributory Infringement", "DMCA §1202(b)"],
+    defendants: "Microsoft Corporation, OpenAI L.P.",
+    issues: `調查新聞非營利組織 Center for Investigative Reporting 對 Microsoft 與 OpenAI 的訴訟已與紐約時報訴訟合併。本案強調新聞媒體著作權在 AI 時代的保護問題。\n\n爭點：(1) 新聞報導著作權的強度與保護範圍；(2) DMCA §1202(b)（著作權管理資訊移除罪）在 AI 訓練中的適用；(3) 媒體組織作為原告的團體性利益。`,
+    progress: `與 New York Times v. Microsoft 及 New York Times v. OpenAI 合併審理。Stein 法官統籌管理。2026 年 4 月，當事人進行聯合訴訟管理程序。`,
+    taiwan: `台灣啟示：(1) 台灣新聞媒體面臨相同的 AI 訓練著作權威脅。本案結果將直接影響全球新聞業界。(2) DMCA §1202(b) 在台灣對應著作權法第 83 條之1規定，適用範圍與強度應參考本案。(3) 台灣應強化新聞媒體著作權保護機制，特別是在 AI 時代。`
+  },
+  {
+    id: 73,
+    name: "Bird v. Microsoft",
+    court: "SDNY",
+    judge: "Stein",
+    status: "active",
+    claims: ["Direct Copyright"],
+    defendants: "Microsoft Corporation",
+    issues: `原告對 Microsoft 的著作權訴訟，涉及 In re OpenAI MDL 相關事項。本案聚焦 Microsoft 對其訓練資料使用的直接責任。\n\n爭點：(1) Microsoft 自身（而非作為 OpenAI 伙伴）的著作權侵害責任；(2) Microsoft 對訓練資料選擇與使用的控制程度。`,
+    progress: `案件由 Stein 法官審理，與多件 Microsoft 著作權案件協調進行。目前進行中，未有重大動議裁定。`,
+    taiwan: `台灣啟示：(1) 本案體現 Microsoft 既是 OpenAI 投資者，亦是獨立被告的複雜地位。台灣法院在處理多被告責任問題時，可參考此類案件的分析方法。(2) Microsoft 在台灣提供的 AI 服務（如 Copilot 等）同樣涉及訓練資料著作權問題。(3) 台灣對國際大型科技公司的著作權監管需更加積極。`
+  },
+  {
+    id: 74,
+    name: "California Newspaper Partnership v. Microsoft/OpenAI",
+    court: "SDNY",
+    judge: "Stein",
+    status: "active",
+    claims: ["Direct Copyright", "Vicarious Infringement", "Contributory Infringement", "DMCA §1202(b)(1)"],
+    defendants: "Microsoft Corporation, OpenAI L.P.",
+    issues: `加州報紙聯合體對 Microsoft 與 OpenAI 的集體訴訟，與 MDL 相關。本案代表大型新聞出版聯合體的著作權維權努力。\n\n爭點：(1) 報紙新聞內容的著作權保護；(2) 聯合體訴訟中的利益分配與代理問題；(3) DMCA §1202(b)(1) 在新聞內容中的適用。`,
+    progress: `案件與 Authors Guild 及其他訴訟協調進行，由 Stein 法官統籌。2026 年春季進行聯合訴訟管理程序。`,
+    taiwan: `台灣啟示：(1) 台灣報紙與新聞媒體應團結形成類似「報紙聯合體」的維權組織。(2) 本案的集體維權模式對台灣新聞業界具有重要示範意義。(3) 台灣全國報紙公會與新聞媒體公會應主動評估 AI 公司對其新聞內容的使用情況，並準備集體維權。`
+  },
+  {
+    id: 75,
+    name: "Apress Media v. Anna's Archive",
+    court: "SDNY",
+    judge: "TBA",
+    status: "active",
+    claims: ["Direct Copyright"],
+    defendants: "Anna's Archive (Operators)",
+    issues: `出版商 Apress Media 對盜版電子書資料庫平台 Anna's Archive 的著作權訴訟。本案涉及盜版資料庫與 AI 訓練的交叉問題——Anna's Archive 的書籍被用於訓練多個 AI 模型。\n\n爭點：(1) 盜版平台對著作權人的直接侵害責任；(2) 盜版內容被用於 AI 訓練時的二次侵害問題；(3) Anna's Archive 營運者的追責困難。`,
+    progress: `案件由 SDNY 受理。被告 Anna's Archive 為分佈式、匿名運營的平台，追責困難重重。訴訟目前進行中。`,
+    taiwan: `台灣啟示：(1) 台灣出版商同樣面臨盜版電子書資料庫的威脅。本案顯示對分佈式盜版平台的訴訟非常困難。(2) 台灣應加強對盜版平台的預防機制，而非被動訴訟。(3) 台灣出版業應與著作權保護團體合作，採取技術措施預防盜版與 AI 訓練的雙重威脅。`
+  },
+  {
+    id: 76,
+    name: "Kogon v. Google",
+    court: "N.D. Ill.",
+    judge: "Harjani",
+    status: "active",
+    claims: ["Direct Copyright", "Vicarious Infringement", "Contributory Infringement", "DMCA §1202(a)(b)", "DMCA §1201(a)(b)", "Lanham Act", "State Law"],
+    defendants: "Google LLC",
+    issues: `原告 Kogon 對 Google 提起的複合型訴訟，涉及著作權、數位千禧年著作權法（DMCA）多項條款、蘭漢姆法與伊利諾州州法。本案為單一訴訟中最複雜的法律請求之一。\n\n爭點：(1) 直接著作權侵害與代位/幫助侵害的多層次責任；(2) DMCA §1202(a)(b)（著作權管理資訊移除）與 DMCA §1201(a)(b)（反規避技術保護）的交互作用；(3) 蘭漢姆法中虛假背書、虛假廣告與著作權的重疊；(4) 伊利諾州隱私權保護法、不當得利等州法請求。`,
+    progress: `案件由 Harjani 法官審理中。Google 已提出多項駁回動議，預計 2026 年春季進行聽證。案件極為複雜，涉及多項未經充分司法檢驗的 DMCA 條款適用。`,
+    taiwan: `台灣啟示：(1) 本案充分展現美國著作權訴訟的「廚房水槽」策略——一次聲稱所有可能的法律請求。台灣訴訟律師在處理 AI 著作權案件時應參考此做法。(2) DMCA §1201(a)(b) 規定在台灣無直接對應條款，但著作權法第 90-3 條有類似的技術保護措施規定，值得比較研究。(3) 伊利諾州隱私權法（BIPA）與台灣個人資料保護法的關聯性值得注意。(4) 本案最終判決將影響美國著作權訴訟的複合請求策略。`
+  },
+  {
+    id: 77,
+    name: "Businesssing v. Runway AI / Ace Cam v. Runway AI",
+    court: "SDNY",
+    judge: "Kaplan",
+    status: "active",
+    claims: ["DMCA §1201(a)"],
+    defendants: "Runway AI Inc.",
+    issues: `兩件訴訟（Businesssing 與 Ace Cam）已合併，針對 AI 影像與視頻生成平台 Runway AI 提起。本案聚焦 DMCA §1201(a)（反規避保護技術）而非傳統著作權侵害。\n\n爭點：(1) Runway AI 的視頻生成工具是否規避了影像的技術保護措施；(2) DMCA §1201(a) 的「規避」定義在 AI 生成工具語境中的適用；(3) 生成 AI 與技術規避的因果關係。`,
+    progress: `Kaplan 法官已受理合併案件。DMCA §1201(a) 主張在 AI 訴訟中相對罕見，本案提供重要的新法律領域。2026 年進行動議聽證。`,
+    taiwan: `台灣啟示：(1) DMCA §1201(a) 對應台灣著作權法第 80 條之1「禁止規避有效的技術保護措施」。本案的 DMCA 規避論證對台灣法院有參考價值。(2) 台灣著作權法第 80 條之1 在 AI 訴訟中的適用仍未充分開發，本案可提供借鑑。(3) 若台灣內容創作者在技術保護措施上投入較多，本案類型的訴訟在台灣也可能出現。`
+  },
+  {
+    id: 78,
+    name: "Gardner v. Runway AI",
+    court: "N.D. Cal.",
+    judge: "Gee",
+    status: "active",
+    claims: ["DMCA §1201(a)", "State Law"],
+    defendants: "Runway AI Inc.",
+    issues: `原告對 Runway AI 提起的訴訟，同時涉及聯邦 DMCA §1201(a) 與加州州法主張。本案在 N.D. Cal. 而非 SDNY，提供對同一被告不同地域的訴訟視角。\n\n爭點：(1) 加州州法在技術規避問題上的獨立作用；(2) 聯邦 DMCA 與州法的相互關係；(3) Runway AI 在不同司法管轄區的責任。`,
+    progress: `Gee 法官審理中。案件進行中，預計與 SDNY 的 Kaplan 法官案件可能涉及相似的法律問題。`,
+    taiwan: `台灣啟示：(1) 聯邦與州法的重疊適用模式對台灣法律體系無直接參照，但「多層次法律保護」的概念值得思考。(2) 加州在技術保護措施方面可能有比聯邦更強的保護，台灣立法者可評估加州模式的借鑑價值。(3) 台灣的不同地域（北中南地方法院）對同類案件的不同判決可能性，應在統一法律解釋上加強努力。`
+  },
+  {
+    id: 79,
+    name: "Ted Entertainment v. Snap",
+    court: "C.D. Cal.",
+    judge: "Birotte Jr.",
+    status: "active",
+    claims: ["DMCA §1201(a)"],
+    defendants: "Snap Inc.",
+    issues: `內容保護公司 Ted Entertainment 對社交媒體平台 Snap 提起的 DMCA 反規避訴訟。本案針對 Snap 的影像/影片功能是否規避了內容的技術保護。\n\n爭點：(1) Snap 在其應用程式中的規避行為；(2) 社交媒體平台對使用者上傳內容的責任邊界；(3) DMCA §1201(a) 在社交媒體場景的創新應用。`,
+    progress: `Birotte Jr. 法官審理中。Ted Entertainment 與多個社交媒體平台有類似訴訟（見下項），此為其對 Snap 的訴訟。2026 年進行中。`,
+    taiwan: `台灣啟示：(1) 台灣社交媒體平台（如 Dcard、批踢踢）應評估其技術功能是否可能規避內容保護措施。(2) DMCA §1201(a) 的「規避」概念相當嚴格，台灣企業在功能設計時應注意此類法律風險。(3) 本案反映美國內容保護業界對社交媒體規避行為的持續監管。`
+  },
+  {
+    id: 80,
+    name: "Chmura v. Snap",
+    court: "C.D. Cal.",
+    judge: "Birotte Jr.",
+    status: "active",
+    claims: ["Related to DMCA §1201"],
+    defendants: "Snap Inc.",
+    issues: `另一位原告對 Snap 的相關訴訟，與 Ted Entertainment v. Snap 涉及類似主題。本案提供對 Snap 規避行為的補充指控。\n\n爭點與 Ted Entertainment 案類似，但可能涉及不同的具體事實與規避方式。`,
+    progress: `Birotte Jr. 法官审理，與 Ted Entertainment v. Snap 可能協調進行。2026 年進行中。`,
+    taiwan: `台灣啟示：與前案類似。多位原告對同一被告的相似訴訟反映美國法律訴訟的複數性特點。台灣應思考如何透過類集團訴訟機制集中處理此類案件。`
+  },
+  {
+    id: 81,
+    name: "Google v. SerpApi",
+    court: "N.D. Cal.",
+    judge: "Gonzalez Rogers",
+    status: "active",
+    claims: ["DMCA §1201(a)(1)(A)", "DMCA §1201(a)(2)"],
+    defendants: "SerpApi Inc.",
+    issues: `本案具有特殊性：Google 是訴訟人而非被告。Google 控告 API 資料聚合平台 SerpApi 違反 DMCA §1201(a)，主張 SerpApi 規避了 Google 搜尋結果的技術保護。\n\n爭點：(1) Google 搜尋結果是否受 DMCA 保護；(2) SerpApi 的資料抓取行為是否構成「規避」；(3) 大型科技公司使用 DMCA 條款進行市場壟斷的風險。`,
+    progress: `Gonzalez Rogers 法官審理中。本案具有重要的市場競爭與技術規避交叉的意義。Google 作為訴訟人在此案中尋求 DMCA 保護其搜尋結果。2026 年進行中。`,
+    taiwan: `台灣啟示：(1) 本案顯示 DMCA §1201(a) 被大型科技公司用於市場保護，而非傳統的著作權保護目的。台灣在制定類似規定時應警惕此風險。(2) 搜尋引擎結果資料的法律保護地位在台灣尚未充分討論，本案提供重要參考。(3) Google 在台灣的搜尋業務同樣面臨 API 聚合平台的競爭，本案結果將影響 Google 在台灣的訴訟策略。`
+  },
+  {
+    id: 82,
+    name: "Ted Entertainment v. Meta",
+    court: "N.D. Cal.",
+    judge: "Tigar",
+    status: "active",
+    claims: ["DMCA §1201(a)"],
+    defendants: "Meta Platforms Inc.",
+    issues: `Ted Entertainment 對社交媒體巨頭 Meta 的 DMCA 反規避訴訟。本案涉及 Meta 的 Instagram、Facebook 等平台是否規避了內容的技術保護措施。\n\n爭點：(1) Meta 平台功能中的規避行為；(2) 對大型社交媒體平台的 DMCA 責任適用；(3) Ted Entertainment 作為內容保護業者的訴訟策略。`,
+    progress: `Tigar 法官審理中。Ted Entertainment 對多個社交媒體與技術平台提起類似訴訟，本案為其中之一。2026 年進行中。`,
+    taiwan: `台灣啟示：(1) Meta 在台灣經營 Facebook、Instagram、WhatsApp 等平台，此案結果將影響 Meta 在台灣的技術功能與政策。(2) 台灣使用者如對 Meta 平台的內容保護有疑慮，可參考 Ted Entertainment 的維權模式。(3) 本案體現內容創作者與社交媒體平台的持續緊張關係。`
+  },
+  {
+    id: 83,
+    name: "Youngblood v. Meta",
+    court: "N.D. Cal.",
+    judge: "Donato",
+    status: "dismissed",
+    claims: ["DMCA §1201(a)"],
+    defendants: "Meta Platforms Inc.",
+    issues: `原告對 Meta 的 DMCA §1201(a) 訴訟，因原告自願駁回而結案。本案曾涉及 Meta 平台的規避行為指控。\n\n爭點（訴訟期間）：與其他 Meta DMCA 訴訟類似，涉及社交媒體平台的技術規避。`,
+    progress: `原告自願請求駁回訴訟。Donato 法官已准許。本案現已結案。`,
+    taiwan: `台灣啟示：類似 Millette 案件，許多 DMCA 訴訟因成本與證據困難而被撤銷。台灣原告應評估 DMCA 類型訴訟的實際可行性。`
+  },
+  {
+    id: 84,
+    name: "Youngblood v. NVIDIA",
+    court: "N.D. Cal.",
+    judge: "Cousins",
+    status: "dismissed",
+    claims: ["DMCA §1201(a)"],
+    defendants: "NVIDIA Corporation",
+    issues: `原告對晶片製造商 NVIDIA 的 DMCA §1201(a) 訴訟，因原告自願駁回而結案。本案曾主張 NVIDIA 涉及技術規避行為。\n\n爭點（訴訟期間）：DMCA §1201(a) 對晶片製造商的適用——晶片與軟體規避的因果關係。`,
+    progress: `原告自願駁回訴訟。Cousins 法官已准許。本案現已結案。`,
+    taiwan: `台灣啟示：本案再次反映對硬體製造商提起軟體相關 DMCA 訴訟的困難。台灣應思考硬體與軟體責任邊界的明確劃分。`
+  },
+  {
+    id: 85,
+    name: "Atlantic Recording Corp. v. Anna's Archive",
+    court: "S.D.N.Y.",
+    judge: "Rakoff",
+    status: "settled",
+    claims: ["Direct Copyright", "DMCA §1201"],
+    defendants: "Anna's Archive",
+    issues: `主要唱片公司（UMG、Sony、Warner/Atlantic）及 Spotify 控告影子圖書館 Anna's Archive 在 2025 年 12 月爬取 Spotify 約 86 百萬首音樂檔案。Anna's Archive 亦保存 6100 萬本書籍及 9500 萬篇學術論文用於 AI 訓練。本案具有重大意義，因影子圖書館為 AI 公司盜版訓練資料的關鍵來源。`,
+    progress: `2026 年 1 月 2 日於 SDNY 提起。2026 年 1 月 20 日簽發初步禁止令。Anna's Archive 未應訴，2026 年 2 月 2 日被判缺席。缺席判決：3.22 億美元總損賠（Spotify 3 億、Sony 750 萬、UMG 750 萬、Atlantic 720 萬）。本案具有重大意義，因 Anna's Archive 為 AI 公司盜版訓練資料的關鍵來源。`,
+    taiwan: `影子圖書館如 Anna's Archive 影響台灣的著作權生態。台灣出版商應監視美國對盜版基礎設施的執法如何影響 AI 訓練資料供應鏈。`
+  },
+  {
+    id: 86,
+    name: "Beaulier v. NVIDIA Corporation (3D Models)",
+    court: "N.D. Cal.",
+    judge: "TBA",
+    status: "active",
+    claims: ["Direct Copyright"],
+    defendants: "NVIDIA Corporation",
+    issues: `洛杉磯 3D 藝術家及視效創作者 Beaulier 控告 NVIDIA 未經許可使用數百萬個 3D 模型資產訓練生成式 AI 系統（Omniverse 等）。此為首件涉及 3D 模型/資產而非文本、圖像或音樂的 AI 著作權案件。`,
+    progress: `2026 年 3 月 26 日於加州北區提起（3:26-cv-02647）。案件處於早期訴訟程序階段。`,
+    taiwan: `台灣 3D 藝術家及遊戲開發者應注意 AI 訓練主張現已延伸至 3D 資產。此影響台灣龐大的遊戲開發及動畫產業。`
+  },
+  {
+    id: 87,
+    name: "Beaulier v. Meta Platforms (3D Models)",
+    court: "N.D. Cal.",
+    judge: "TBA",
+    status: "active",
+    claims: ["Direct Copyright"],
+    defendants: "Meta Platforms, Inc.",
+    issues: `同一原告（Beaulier）控告 Meta 未經授權使用 3D 模型訓練 AI 系統。屬於針對多家科技巨頭的協調訴訟策略之一環。`,
+    progress: `2026 年 3 月 26 日於加州北區提起（3:26-cv-02632）。早期階段。`,
+    taiwan: `與 Beaulier v. NVIDIA 案對台灣 3D 內容產業的影響相同。`
+  },
+  {
+    id: 88,
+    name: "Beaulier v. Roblox (3D Models)",
+    court: "N.D. Cal.",
+    judge: "TBA",
+    status: "active",
+    claims: ["Direct Copyright"],
+    defendants: "Roblox Corporation",
+    issues: `Beaulier 控告 Roblox 未經授權使用 3D 模型資產訓練 AI 功能。Roblox 平台托管數百萬個使用者創建的 3D 資產。`,
+    progress: `2026 年 3 月於加州北區提起。早期階段。`,
+    taiwan: `Roblox 在台灣廣受歡迎。本案可能影響平台托管使用者生成 3D 內容如何用於 AI 訓練。`
+  },
+  {
+    id: 89,
+    name: "Beaulier v. Microsoft (3D Models)",
+    court: "W.D. Wash.",
+    judge: "TBA",
+    status: "active",
+    claims: ["Direct Copyright"],
+    defendants: "Microsoft Corporation",
+    issues: `Beaulier 於華盛頓西區控告 Microsoft 未經授權使用 3D 模型訓練 AI 系統。於 Microsoft 所在司法管轄區提起訴訟。`,
+    progress: `2026 年 3 月提起（2:26-cv-01031 W.D. Wash.）。早期階段。`,
+    taiwan: `Microsoft 的 Azure AI 服務在台灣廣泛使用。本案可能影響 3D 內容授權要求。`
+  },
+  {
+    id: 90,
+    name: "Martinez-Conde v. Apple (split from consolidated Hendrix v. Apple)",
+    court: "N.D. Cal.",
+    judge: "Gonzalez Rogers",
+    status: "active",
+    claims: ["Direct Copyright"],
+    defendants: "Apple Inc.",
+    issues: `原告最初單獨提起，目前與 Hendrix v. Apple 合併。原告主張 Apple 未經授權使用受著作權保護的作品訓練 Apple Intelligence AI 功能。`,
+    progress: `與 Hendrix v. Apple（ID 28）合併，於 Gonzalez Rogers 法官前進行。以合併案件身分進行。`,
+    taiwan: `Apple Intelligence 已在台灣部署。參見 Hendrix v. Apple 案的台灣啟示。`
+  },
+  {
+    id: 91,
+    name: "Alexander v. Apple (split from consolidated Hendrix v. Apple)",
+    court: "N.D. Cal.",
+    judge: "Gonzalez Rogers",
+    status: "active",
+    claims: ["Direct Copyright"],
+    defendants: "Apple Inc.",
+    issues: `原告最初單獨提起，目前與 Hendrix v. Apple 合併。涉及同樣的 Apple Intelligence 訓練控訴。`,
+    progress: `與 Hendrix v. Apple（ID 28）合併。以合併案件身分進行。`,
+    taiwan: `參見 Hendrix v. Apple 案的台灣啟示。`
+  },
+  {
+    id: 92,
+    name: "Alexander v. Salesforce (split from In re Salesforce)",
+    court: "N.D. Cal.",
+    judge: "Breyer",
+    status: "active",
+    claims: ["Direct Copyright"],
+    defendants: "Salesforce, Inc.",
+    issues: `原告最初單獨提起，與 Tanzer v. Salesforce 合併進入 In re Salesforce LLM 著作權侵權訴訟合併案。`,
+    progress: `與 Tanzer v. Salesforce（ID 29）合併。於 Breyer 法官前進行。`,
+    taiwan: `參見 In re Salesforce 案的台灣啟示。`
+  },
+  {
+    id: 93,
+    name: "Zhang v. Google (split from In re Google Generative AI)",
+    court: "N.D. Cal.",
+    judge: "Lee",
+    status: "active",
+    claims: ["Direct Copyright"],
+    defendants: "Google LLC",
+    issues: `原告最初單獨提起，合併進入 In re Google Generative AI 著作權訴訟。主張 Google 未經授權使用受著作權保護的作品訓練 Bard/Gemini。`,
+    progress: `與 In re Google Generative AI（ID 4）合併。於 Lee 法官前進行。`,
+    taiwan: `參見 In re Google Generative AI 案的台灣啟示。`
+  },
+  {
+    id: 94,
+    name: "Leovy v. Google (split from In re Google Generative AI)",
+    court: "N.D. Cal.",
+    judge: "Lee",
+    status: "active",
+    claims: ["Direct Copyright"],
+    defendants: "Google LLC",
+    issues: `原告最初單獨提起，合併進入 In re Google Generative AI 著作權訴訟。`,
+    progress: `與 In re Google Generative AI（ID 4）合併。於 Lee 法官前進行。`,
+    taiwan: `參見 In re Google Generative AI 案的台灣啟示。`
+  },
+  {
+    id: 95,
+    name: "Chabon v. Meta Platforms (split from Kadrey v. Meta)",
+    court: "N.D. Cal.",
+    judge: "Chhabria",
+    status: "active",
+    claims: ["Direct Copyright"],
+    defendants: "Meta Platforms, Inc.",
+    issues: `Michael Chabon 等原告最初單獨提起，與 Kadrey v. Meta 合併。主張 Meta 未經授權使用受著作權保護的書籍訓練 LLaMA。`,
+    progress: `與 Kadrey v. Meta（ID 5）合併。於 Chhabria 法官前進行。`,
+    taiwan: `參見 Kadrey v. Meta 案的台灣啟示。`
+  },
+  {
+    id: 96,
+    name: "Farnsworth v. Meta Platforms (split from Kadrey v. Meta)",
+    court: "N.D. Cal.",
+    judge: "Chhabria",
+    status: "active",
+    claims: ["Direct Copyright"],
+    defendants: "Meta Platforms, Inc.",
+    issues: `原告最初單獨提起，與 Kadrey v. Meta 合併。涉及同樣的 LLaMA 訓練控訴。`,
+    progress: `與 Kadrey v. Meta（ID 5）合併。`,
+    taiwan: `參見 Kadrey v. Meta 案的台灣啟示。`
+  },
+  {
+    id: 97,
+    name: "Dubus v. NVIDIA Corp. (split from Nazemian v. NVIDIA)",
+    court: "N.D. Cal.",
+    judge: "Tigar",
+    status: "active",
+    claims: ["Direct Copyright"],
+    defendants: "NVIDIA Corporation",
+    issues: `原告最初單獨提起，與 Nazemian v. NVIDIA 合併。主張 NVIDIA 未經授權使用受著作權保護的書籍訓練 NeMo AI 模型。`,
+    progress: `與 Nazemian v. NVIDIA（ID 38）合併。於 Tigar 法官前進行。`,
+    taiwan: `參見 Nazemian v. NVIDIA 案的台灣啟示。`
+  },
+  {
+    id: 98,
+    name: "Makkai v. Databricks (split from In re Mosaic LLM)",
+    court: "N.D. Cal.",
+    judge: "Breyer",
+    status: "active",
+    claims: ["Direct Copyright", "Vicarious Infringement"],
+    defendants: "Databricks, Inc., Mosaic ML",
+    issues: `Rebecca Makkai 最初單獨提起，與 O'Nan v. Databricks 合併進入 In re Mosaic LLM 訴訟。`,
+    progress: `與 In re Mosaic LLM（ID 22）合併。於 Breyer 法官前進行。`,
+    taiwan: `參見 In re Mosaic LLM 案的台灣啟示。`
+  },
+  {
+    id: 99,
+    name: "Alter v. OpenAI / Microsoft (split from Authors Guild v. OpenAI)",
+    court: "S.D.N.Y.",
+    judge: "Stein",
+    status: "active",
+    claims: ["Direct Copyright", "Vicarious Infringement", "Contributory Infringement"],
+    defendants: "OpenAI Inc., Microsoft Corp.",
+    issues: `原告最初以 Julian Sancton v. OpenAI、Microsoft 身分提起，後更名為 Alter v. OpenAI，與 Authors Guild v. OpenAI 合併進入 Authors Action。`,
+    progress: `與 Authors Guild v. OpenAI（ID 8）在 MDL 中合併。於 Stein 法官前進行。`,
+    taiwan: `參見 Authors Guild v. OpenAI 案的台灣啟示。`
+  },
+  {
+    id: 100,
+    name: "Ace Cam v. Runway AI (split from Businessing v. Runway AI)",
+    court: "S.D.N.Y.",
+    judge: "Kaplan",
+    status: "active",
+    claims: ["DMCA §1201(a)"],
+    defendants: "Runway AI, Inc.",
+    issues: `原告最初單獨提起，與 Businessing v. Runway AI 合併。主張 Runway 規避技術保護措施以存取受著作權保護的內容用於 AI 訓練。`,
+    progress: `與 Businessing v. Runway AI（ID 76）合併。於 Kaplan 法官前進行。`,
+    taiwan: `參見 Businessing v. Runway AI 案的台灣啟示。`
+  },
+  {
+    id: 101,
+    name: "Getty Images v. Stability AI",
+    court: "英國高等法院 (England & Wales High Court)",
+    judge: "Mrs Justice Bacon",
+    status: "appeal",
+    claims: ["Secondary Copyright Infringement", "Trademark Infringement", "Database Right"],
+    defendants: "Stability AI Ltd.",
+    issues: `蓋蒂圖片公司控告 Stability AI 使用 1,200 萬張蓋蒂照片訓練 Stable Diffusion，主張次級著作權侵權、商標侵權（浮水印複製）及資料庫權利侵害。蓋蒂最初聲稱初級著作權侵權，但因無法證明訓練行為（複製/儲存）發生在英國而放棄該主張。本案核心爭點為：AI 模型權重是否構成著作權法意義上的「複製品」。\n\n與傳統著作權複製概念的衝突：模型權重是統計值，是否應視為著作權作品的實質複製？`,
+    progress: `2025年11月4日，英國高等法院作出里程碑判決——英國首件 AI 著作權判決。法院駁回蓋蒂的次級著作權侵權主張，認定 AI 模型權重不構成 CDPA 意義下的「複製品」。訓練所得參數僅為統計數值，非照片的儲存複製。然而法院認定蓋蒂在商標侵權方面部分勝訴：Stable Diffusion 生成的圖像展示了蓋蒂浮水印。蓋蒂被判賠償 69.4% 的訴訟費用（約 440 萬英鎊），使商標勝利變為慘淡勝利。2025年12月，法院准許蓋蒂就次級著作權裁定提起上訴。上訴案件於 2026 年待審。`,
+    taiwan: `1) 英國判決認定「模型權重≠複製品」挑戰了傳統複製概念。台灣智慧財產法院需考慮模型參數是否落入《台灣著作權法》第 3 條「重製」定義範疇。2) 商標/浮水印議題攸關《台灣商標法》第 68 條。3) 對台灣著作權人的跨境訴訟策略啟示。`
+  },
+  {
+    id: 102,
+    name: "GEMA v. OpenAI",
+    court: "德國慕尼黑地方法院 (LG München I, Case No. 42 O 14139/24)",
+    judge: "42nd Civil Chamber",
+    status: "appeal",
+    claims: ["Copyright Infringement (German UrhG)", "Text and Data Mining Exception"],
+    defendants: "OpenAI Ireland Limited / OpenAI OpCo, LLC",
+    issues: `德國音樂著作權集體管理協會 GEMA（全球最大的音樂作品著作權管理組織之一）控告 OpenAI 使用受著作權保護的歌詞（包括「Atemlos」、「Über den Wolken」、「Männer」等）訓練 ChatGPT，未取得授權。核心爭點為：AI 訓練是否構成德國著作權法（UrhG）下的「重製」，且文本與資料採礦（TDM）例外是否適用。ChatGPT 經測試可根據簡單使用者提示幾乎逐字複製實質歌詞部分。\n\n對比英國 Getty 案判決：兩國對「模型權重是否為複製品」採取截然相反立場。`,
+    progress: `2025年11月11日，慕尼黑地方法院作出歐洲首次直接涉及 AI 訓練著作權的里程碑判決。主要裁定：(1) 即使透過數值機率值（模型參數）進行固定，如果作品後續可透過技術手段被感知，仍構成「重製」；(2) TDM 例外不涵蓋模型中歌詞的記憶化；(3) OpenAI 必須停止在德國基礎設施上儲存未授權德文歌詞。OpenAI 已提起上訴。本判決與英國 Getty 案就「模型權重是否為複製品」的結論直接矛盾。慕尼黑高等地方法院（OLG）將審理上訴；可能提請歐盟法院（CJEU）先行裁定。`,
+    taiwan: `1) 本判決相較於英國案的相反結論具有重大比較法意義——台灣法院將需在兩種途徑間做出選擇。2) 台灣的集體管理協會（MÜST、TMCS）應密切關注本案，作為在 AI 爭議中驗證集體權利管理的先例。3) TDM 例外分析攸關台灣未來修訂《著作權法》以應對 AI 訓練的議題。`
+  },
+  {
+    id: 103,
+    name: "Canadian News Publishers v. OpenAI",
+    court: "加拿大安大略省高等法院 (Ontario Superior Court of Justice)",
+    judge: "TBA",
+    status: "active",
+    claims: ["Copyright Infringement (Canadian Copyright Act)", "Unjust Enrichment"],
+    defendants: "OpenAI Inc.",
+    issues: `加拿大廣播電視電台（CBC/Radio-Canada）、《環球郵報》、Postmedia、《多倫多星報》、加拿大新聞社及其他主要加拿大新聞出版商聯合控告 OpenAI，指控其爬取新聞內容（包括付費牆後的文章）訓練 ChatGPT，未經許可或補償。原告尋求懲罰性賠償及利潤吐露。OpenAI 提出管轄權異議，主張應由美國法院審理。\n\n管轄權爭點：外國公司是否可透過設置境外伺服器來規避著作權責任？`,
+    progress: `OpenAI 的管轄權異議遭駁回。2025年11月，安大略法院確認其對本案有管轄權，裁定加拿大著作權人在涉及加拿大創作作品、控告外國企業侵害加拿大著作權的訴訟中，可在加拿大尋求救濟。本判決意義重大，因其確立 AI 公司不能僅透過境外伺服器部署來規避責任。案件目前處於舉證程序。`,
+    taiwan: `1) 本管轄權判決高度相關——台灣法院可能面臨對境外 AI 公司的類似管轄權問題。2) 台灣新聞出版商面臨相同的爬蟲問題；本案可能激勵台灣的類似集體訴訟。3) 屬地管轄延伸問題與《台灣著作權法》第 4 條（國際條約）及《民事訴訟法》管轄條款相關。`
+  },
+  {
+    id: 104,
+    name: "Canadian Authors Association v. OpenAI",
+    court: "加拿大安大略省法院 (Ontario Court, Canada)",
+    judge: "TBA",
+    status: "active",
+    claims: ["Copyright Infringement (Canadian Copyright Act)"],
+    defendants: "OpenAI Inc.",
+    issues: `加拿大作家協會（Canadian Authors Association）與個別作家（包括 Margaret Atwood 門徒 Merilyn Simonds）聯合控告 OpenAI，指控其未經授權使用書籍及文學作品訓練 ChatGPT。加拿大文筆工會（Writers' Union of Canada）已支持該訴訟，懷疑作品係源自盜版電子書。此為美國以外最早的 AI 著作權訴訟之一。\n\n盜版來源問題：訓練資料中的盜版電子書是否構成特別的侵權責任加重因素？`,
+    progress: `案件已在安大略法院進行。後續 Canadian News Publishers v. OpenAI 案例所設立的先例解決了管轄權問題（加拿大法院對美國境外 OpenAI 有管轄權）。舉證程序進行中。判決結果可能為英聯邦國家的著作權人權利設立重要先例。`,
+    taiwan: `1) 台灣文學及出版產業面臨相同的關於書籍盜版用於 AI 訓練的疑慮。2) 透過全國作家協會進行集體訴訟的模式對台灣著作權集體管理組織具有啟示意義。3) 盜版角度（使用洩露/盜版副本訓練）呼應 Bartz v. Anthropic 和解案且涉及《台灣著作權法》第 87 條。`
+  },
+  {
+    id: 105,
+    name: "ANI Media Pvt Ltd v. OpenAI",
+    court: "印度德里高等法院 (High Court of Delhi)",
+    judge: "Justice Amit Bansal",
+    status: "active",
+    claims: ["Copyright Infringement (Indian Copyright Act, 1957)", "Passing Off", "Defamation"],
+    defendants: "OpenAI Inc.",
+    issues: `亞洲新聞國際（ANI），印度最大的新聞通訊社，控告 OpenAI 使用其新聞內容（包括僅訂戶可取得的付費牆內容）訓練 ChatGPT，未經授權。ANI 並控訴 ChatGPT 生成並虛假歸屬於 ANI 的捏造新聞故事，造成聲譽損害。此為印度首件生成式 AI 著作權案件。法院制定四項關鍵爭點：(1) 為訓練而儲存著作權資料是否構成侵權；(2) 使用著作權資料生成回應是否構成侵權；(3) 是否符合《印度著作權法》第 52 條「合理使用」；(4) 伺服器位於境外的管轄權問題。\n\n虛假歸屬與幻覺問題：AI 系統生成虛假內容並歸屬於真實權利人是否構成獨立侵害？`,
+    progress: `德里高等法院於 2024 年 11 月至 2026 年 3 月間進行 32 次聽證。2026 年 4 月 2 日，Amit Bansal 法官對 ANI 的臨時聲請做出保留裁定。產業組織（DNPA、印度音樂產業協會、印度出版商聯盟）支持 ANI；科技組織（寬頻印度論壇、Flux Labs）支持 OpenAI。OpenAI 聲稱已限制 ANI 域名不供未來訓練。預計 2026 年作出判決，將成為印度首次司法就 AI 訓練與著作權問題的判示。`,
+    taiwan: `1) 印度《著作權法》第 52 條合理使用條款類似於台灣《著作權法》第 65 條——兩者均窄於美國合理使用。本案將提供寶貴的比較法分析。2) 虛假歸屬/幻覺議題獨特且涉及台灣《著作權法》第 17 條（著作人格權）及誹謗法。3) 印度對 AI 公司屬地管轄的途徑將影響台灣自身的管轄分析。`
+  },
+  {
+    id: 106,
+    name: "Syndicat national de l'édition et al. v. Meta Platforms",
+    court: "法國巴黎司法法院 (Tribunal judiciaire de Paris, 3rd Chamber)",
+    judge: "TBA",
+    status: "active",
+    claims: ["Copyright Infringement (French Intellectual Property Code)", "EU Text and Data Mining Directive"],
+    defendants: "Meta Platforms, Inc.",
+    issues: `三個主要法國文化組織——全國出版商聯盟（Syndicat national de l'édition）、法國文人協會（Société des Gens de Lettres）及全國作曲家與作詞家協會——聯合控告 Meta 使用法國文學及出版內容訓練 Llama AI 模型，未經授權。本案考驗歐盟《著作權指令》（DSM 指令）第 3 條及第 4 條中之文本與資料採礦（TDM）例外，以及其在法國法中的轉化。法國競爭管理局曾對 Google 類似行為罰款 2.5 億歐元。\n\nTDM 例外的歐盟框架：選擇退出（opt-out）模式是否足以保護著作權人？`,
+    progress: `訴訟於 2025 年 3 月 12 日在巴黎司法法院第三庭提起。案件處於早期訴訟程序階段。本案意義重大，為美國科技公司對 AI 訓練之著作權的首次重大法國法院挑戰。結合德國 GEMA v. OpenAI 判決，代表歐洲趨向對 AI 公司更嚴格的著作權執法。`,
+    taiwan: `1) 歐盟 TDM 例外框架（選擇退出模式）是台灣潛在修訂《著作權法》涉及 AI 訓練時的關鍵參考。2) 法國透過出版商工會及作家協會的集體權利管理途徑，為台灣的 MÜST 及其他集體管理組織提供模型。3) 2.5 億歐元 Google 罰款顯示監管執法可補充私人訴訟——台灣公平交易委員會可考慮類似途徑。`
+  },
+  {
+    id: 107,
+    name: "Like Company v. Google Ireland",
+    court: "匈牙利布達佩斯地方法院 → 歐盟法院 (Budapest District Court → CJEU Preliminary Ruling)",
+    judge: "CJEU (pending assignment)",
+    status: "active",
+    claims: ["Copyright Infringement (EU Copyright Directives)", "CJEU Preliminary Ruling Request"],
+    defendants: "Google Ireland Limited",
+    issues: `匈牙利新聞出版商 Like Company 控告 Google Ireland，指控其 Gemini AI 未經授權複製並摘要其網站內容。2025 年 4 月 3 日，布達佩斯地方法院將關鍵問題提請歐盟法院（CJEU）進行先行裁定。此為首次提請 CJEU 涉及 AI 與著作權的案件，意味該判決將對全部 27 個歐盟會員國具有拘束力。\n\nCJEU 先行裁定的全歐盟影響：該判決將設定 450 萬歐盟居民的統一著作權標準。`,
+    progress: `CJEU 先行裁定待審。提請的問題涉及歐盟著作權規則（InfoSoc 指令、DSM 指令）對 LLM 型聊天機器人產出內容的適用。預期判決將於 2026 年晚期或 2027 年作出。本案意義深遠，蓋 CJEU 判決在全歐盟具有直接效力。判決結果將解決英國（Getty v. Stability AI）與德國（GEMA v. OpenAI）途徑的分歧。`,
+    taiwan: `1) CJEU 判決將有效為 4.5 億歐盟居民設定著作權標準，並創造台灣無法迴避的實質全球標準。2) 台灣與歐盟的貿易關係意味著歐盟著作權標準可能影響雙邊貿易談判及智財保護要求。3) 台灣法院應監視本案，將明確回答「AI 生成的新聞摘要是否構成歐盟法著作權侵權」。`
+  },
+  {
+    id: 108,
+    name: "French Competition Authority v. Google",
+    court: "法國競爭管理局 (Autorité de la concurrence)",
+    judge: "Administrative Proceeding",
+    status: "settled",
+    claims: ["Competition Law Violation", "Neighboring Rights Infringement"],
+    defendants: "Google LLC",
+    issues: `法國競爭管理局調查 Google 未經同意使用法國出版商的新聞文章訓練 Bard/Gemini AI，違反 Google 關於鄰接權（droits voisins）的承諾，而鄰接權係受歐盟指令 2019/790 規範。Google 未告知出版商其內容被使用，且直至 2023 年 9 月始提供退出工具（Google Extended）。\n\n競爭法作為 AI 著作權執法工具：監管罰款與私人訴訟的互補作用。`,
+    progress: `2024 年 3 月 15 日，法國競爭管理局對 Google 罰款 2.5 億歐元。雖 Google 主張罰款「過度不合理」，但其選擇支付而非抗辯。此為全球針對 AI 訓練使用著作權內容的最大監管罰款。其顯示競爭法可作為傳統著作權訴訟外的替代執法機制。`,
+    taiwan: `1) 本案表明競爭/反壟斷法可作為對 AI 公司進行著作權訴訟外的替代手段——攸關《台灣公平交易法》。2) 「選擇退出」機制議題為全球 AI 著作權辯論的核心，涉及台灣潛在的立法修訂。3) 台灣公平交易委員會在評估科技平台市場支配力濫用時，可參考本案——特別是利用本地內容訓練 AI 的濫用。`
+  },
+  {
+    id: 109,
+    name: "GEMA v. Suno AI",
+    court: "德國法院 (German Court, TBA)",
+    judge: "TBA",
+    status: "active",
+    claims: ["Copyright Infringement (German UrhG)", "Music Rights"],
+    defendants: "Suno AI, Inc.",
+    issues: `德國音樂著作權集體管理協會 GEMA，在對 OpenAI 取得里程碑勝訴後（2025 年 11 月慕尼黑案），擴大其訴訟策略以直接針對 AI 音樂生成工具。GEMA 控告美國企業 Suno AI 使用授權音樂作品訓練其 AI 模型，未取得 GEMA 或其會員所需的授權。本案考驗 GEMA v. OpenAI 先例中關於記憶化與重製的裁定是否延伸至 AI 音樂生成工具。\n\n音樂 AI 生成與記憶化：模型內的音樂參數是否可用於重現受保護作品的實質部分？`,
+    progress: `案件於 2026 年提起，目前處於早期訴訟程序階段。預期判決將於 2026 年晚期作出。判決結果將受先前 GEMA v. OpenAI 慕尼黑案判決的影響，該案認定即使是統計參數儲存，如果作品後續可被感知，亦構成重製。若 GEMA 勝訴，將創造雙重先例：涵蓋文本型（ChatGPT）及音樂型 AI 生成工具在德國法下的重製責任。`,
+    taiwan: `1) 台灣的音樂著作權集體管理協會（MÜST 主掌公開演出、TMCS 主掌機械重製）應研習本案以供對在台灣營運的 AI 音樂生成工具提起訴訟之策略參考。2) AI 生成音樂已在台灣商業使用，造成《台灣著作權法》下潛在侵權問題。3) 本案可影響 APEC 經濟體在平衡 AI 創新與音樂權利保護方面的途徑。`
+  },
+  {
+    id: 110,
+    name: "Carreyrou v. xAI et al. (Multiple Authors)",
+    court: "N.D. Cal.",
+    judge: "TBA",
+    status: "active",
+    claims: ["Direct Copyright"],
+    defendants: "xAI Corp., OpenAI L.P., Anthropic PBC, Google LLC, Meta Platforms Inc., Perplexity AI Inc.",
+    issues: `六位作者共同提起著作權侵害訴訟，其中包括普立茲獎得主、暢銷書《血本無歸》(Bad Blood) 作者約翰．卡瑞魯。本案指控六家 AI 企業未經授權使用卡瑞魯等作者的著作權受保護著作訓練大型語言模型。\n\n關鍵控狀內容：被告企業從非法圖書資源庫 LibGen、Z-Library 及 OceanofPDF 下載盜版書籍副本，用於訓練 LLM，此舉構成「蓄意竊取行為」。案件指控直接著作權侵害。其他原告包括 Lisa Barretta、Philip Shishkin、Jane Adams、Matthew Sack 及 Michael Kochin。`,
+    progress: `訴訟於 2025 年 12 月 22 日在 N.D. Cal. 提起。本案處於早期訴訟程序階段。值得注意的是，本案係首起對 xAI 以著作權侵害名義的訴訟，亦為作者針對 Perplexity AI 提起的首起著作權訴訟。原告已明確拒絕參與 Bartz v. Anthropic 之 15 億美元和解案。`,
+    taiwan: `「非法圖書資源庫」理論（LibGen、Z-Library）特別攸關台灣情境，蓋其強化「AI 企業明知故犯地使用非法來源」的論證。《台灣刑法》及《著作權法》中有關使用盜版資料的規定應適用。台灣創作者及出版商應關注本案進展，以便評估其在台灣對類似行為提起訴訟的可行性。`
+  },
+  {
+    id: 111,
+    name: "Like Company v. Google (CJEU)",
+    court: "Court of Justice of the European Union (CJEU)",
+    judge: "CJEU Grand Chamber",
+    status: "active",
+    claims: ["EU Copyright Directive Art. 4", "InfoSoc Directive"],
+    defendants: "Google LLC",
+    issues: `本案為歐盟法院有史以來首次針對生成式 AI 與著作權問題舉辦的聽證會。該案詢問：Google 使用受著作權保護內容訓練 AI 模型是否違反《歐盟著作權指令》（數字單一市場指令，DSM Directive）及《資訊社會指令》(InfoSoc Directive)？本案特別審視 DSM 指令第 3 條及第 4 條關於文本與資料採礦（TDM）的例外規定。\n\nTDM 例外與 AI 訓練：歐盟法對私營企業使用 TDM 例外進行 AI 訓練的限制。`,
+    progress: `歐盟法院於 2026 年 3 月 10 日舉辦首場生成式 AI 與著作權的聽證會。儘管本案源自匈牙利，但其將對全歐盟產生深遠影響。CJEU 的判決對所有 27 個歐盟會員國具有拘束力，將設定統一的 AI 著作權標準。預期判決將於 2026 年晚期或 2027 年作出。`,
+    taiwan: `台灣在考慮採納歐盟風格的 TDM 例外進行著作權改革時，可直接參考本案 CJEU 判決。歐盟對 AI 訓練例外的處理方式是台灣立法討論的關鍵參考點。本案結果將影響全球 AI 著作權規範的發展方向，包括台灣。`
+  },
+  {
+    id: 112,
+    name: "Thaler v. Perlmutter (Supreme Court Cert Denied)",
+    court: "D.D.C. → D.C. Circuit → U.S. Supreme Court",
+    judge: "Howell / D.C. Circuit / Supreme Court",
+    status: "dismissed",
+    claims: ["Copyright Registration — AI Authorship"],
+    defendants: "U.S. Copyright Office (Shira Perlmutter, Register of Copyrights)",
+    issues: `博士史蒂芬．瑟勒尋求對完全由其 AI 系統「創意機器」(Creativity Machine) 生成的藝術作品進行著作權登記，其中不涉及任何人類創意投入。本案提出根本問題：純 AI 生成的作品能否受著作權保護？著作權局、地方法院及聯邦巡迴法院均回答否——人類著作權是必要條件。\n\n人類著作權要件與 AI 生成作品：國際共識確認純 AI 生成作品不可著作權化，但人類有重大創意貢獻的 AI 輔助作品仍可受保護。`,
+    progress: `2026 年 3 月 2 日，美國最高法院駁回上訴許可（certiorari petition）。最高法院的裁定確認了材料必須具有人類著作權才能受著作權保護的原則。值得注意的是，此裁定並未禁止人類有創意貢獻的 AI 輔助作品的著作權保護。瑟勒案明確聲明排除所有人類投入，因此不適用於混合創作的情形。`,
+    taiwan: `台灣《著作權法》同樣要求人類著作權。瑟勒案確認了國際共識。台灣智慧財產局可在回應 AI 生成作品登記問題時參考本案。本案為全球共識奠定基礎：純 AI 生成作品不受著作權保護，但人類創意貢獻的混合作品仍受保護。`
+  }
+];
+
+// ════════════════════════════════════════
+// NEWS TICKER DATA
+// ════════════════════════════════════════
+const newsItems = [
+  { text: "Bartz v. Anthropic $15億和解案 — 公平性聽證會（fairness hearing）預定2026年4月舉行", url: "https://www.anthropiccopyrightsettlement.com/" },
+  { text: "BMG Rights Management 於2026/3/18控告 Anthropic，指控其使用 Bruno Mars、Rolling Stones 等歌詞訓練 AI", url: "https://news.bloomberglaw.com/ip-law/music-piracy-ai-lawsuits-top-2026-copyright-litigation-calendar" },
+  { text: "RIAA/NMPA 於2026/3/30提交法庭之友意見書，支持音樂出版商對 Anthropic 的 $31億訴訟", url: "https://www.musicbusinessworldwide.com/" },
+  { text: "OpenAI 被命令提供 2,000萬筆 ChatGPT 對話記錄予著作權原告 (Jan 2026)", url: "https://natlawreview.com/article/openai-loses-privacy-gambit-20-million-chatgpt-logs-likely-headed-copyright" },
+  { text: "Raw Story v. OpenAI — 第二巡迴法院已於2026/3/18舉行 DMCA CMI 當事人適格言詞辯論", url: "https://chatgptiseatingtheworld.com/" },
+  { text: "Thomson Reuters v. ROSS — 第三巡迴法院審理AI合理使用上訴中，2026年有望作出巡迴法院首判", url: "https://www.courtlistener.com/docket/70622297/thomson-reuters-enterprise-centre-gmbh-v-ross-intelligence-inc/" },
+  { text: "Andersen v. Stability AI 於2026/2/27提交第三次修正訴狀，審判定於2026年9月", url: "https://www.courtlistener.com/docket/66732129/andersen-v-stability-ai-ltd/" },
+  { text: "英國 Getty v. Stability AI 上訴案進行中 — 高等法院認定 AI 模型權重不構成侵權複製品", url: "https://www.taylorwessing.com/en/insights-and-events/insights/2026/01/next-steps-for-getty-v-stability-why-has-permission-to-appeal-been-granted" },
+  { text: "UMG v. Suno — 合理使用裁定預計2026年夏季作出，為 AI 音樂產業關鍵先例", url: "https://news.bloomberglaw.com/ip-law/music-piracy-ai-lawsuits-top-2026-copyright-litigation-calendar" },
+  { text: "Kadrey v. Meta — 法官裁定 LLaMA 訓練構成合理使用，但強調「本案原告提出了錯誤論據」", url: "https://perkinscoie.com/insights/update/court-sides-meta-fair-use-and-dmca-questions-leaves-door-open-future-challenges" },
+  { text: "EU AI Act 持續推進：歐盟要求AI公司揭露訓練資料集中的著作權作品", url: "https://www.nortonrosefulbright.com/en/knowledge/publications/ce8eaa5f/ai-in-litigation-series-an-update-on-ai-copyright-cases-in-2026" },
+  { text: "OpenAI 於2026年4月完成 TBPN 媒體收購案", url: "https://natlawreview.com/" },
+  { text: "全球 AI 著作權訴訟總數達 130 件（美國 100 件 + 全球 30 件）— 2026/4/5 最新統計", url: "https://chatgptiseatingtheworld.com/2026/04/05/latest-world-map-of-copyright-suits-v-ai-companies-april-5-2026/" },
+  { text: "Ted Entertainment 已累計提起 7 件 DMCA §1201(a) 反規避訴訟，對象包括 Apple、OpenAI、Amazon", url: "https://chatgptiseatingtheworld.com/" },
+  { text: "Bytedance 就 Ted Entertainment 的 DMCA 訴訟提出駁回動議", url: "https://chatgptiseatingtheworld.com/" },
+  { text: "Getty v. Stability AI — Thompson 法官於 2026/4/7 舉行駁回動議聽證會", url: "https://chatgptiseatingtheworld.com/" },
+  { text: "Stein 法官要求 Encyclopaedia Britannica、Merriam-Webster、Gracenote 於 4/15 前說明案件不應暫停之理由", url: "https://chatgptiseatingtheworld.com/" },
+  { text: "Concord Music v. Anthropic II — Anthropic 請求暫停 torrenting 案件，等待 Concord I 簡易判決", url: "https://chatgptiseatingtheworld.com/" },
+  { text: "Entrepreneur Media v. Meta — Chhabria 法官駁回 Meta 撤案動議，幫助侵權主張繼續", url: "https://chatgptiseatingtheworld.com/" },
+  { text: "Andersen v. Stability AI — 法院准許原告調閱 Stability AI 企業客戶名單（合理使用第四因素）", url: "https://chatgptiseatingtheworld.com/" },
+  { text: "慕尼黑地方法院 GEMA v. OpenAI 判決英文翻譯已公開", url: "https://chatgptiseatingtheworld.com/" },
+  { text: "Advance Local Media v. Cohere — 簡易判決動議截止日：2026/12/18", url: "https://chatgptiseatingtheworld.com/" }
+];
+
+// ════════════════════════════════════════
+// RENDER
+// ════════════════════════════════════════
+
+// Date display
+const now = new Date();
+document.getElementById('dateDisplay').textContent = now.toLocaleDateString('zh-TW', {year:'numeric',month:'long',day:'numeric',weekday:'long'});
+
+// Ticker
+function buildTicker() {
+  const track = document.getElementById('tickerTrack');
+  let html = '';
+  newsItems.forEach((n, i) => {
+    html += `<span class="ticker-item"><a href="${n.url}" target="_blank" rel="noopener">${n.text}</a></span>`;
+    if (i < newsItems.length - 1) html += '<span class="ticker-sep">|</span>';
+  });
+  track.innerHTML = html;
+}
+buildTicker();
+
+// Stats bar
+function buildStats() {
+  const total = cases.length;
+  const active = cases.filter(c => c.status === 'active').length;
+  const settled = cases.filter(c => c.status === 'settled').length;
+  const appeals = cases.filter(c => c.status === 'appeal').length;
+  const mdl = cases.filter(c => c.status === 'mdl').length;
+  const defendants = [...new Set(cases.map(c => c.defendants.split(',')[0].trim()))].length;
+  document.getElementById('statsBar').innerHTML = `
+    <div class="stat-box" data-filter="all"><div class="stat-num">${total}</div><div class="stat-label">案件總數 Cases</div></div>
+    <div class="stat-box" data-filter="active"><div class="stat-num">${active}</div><div class="stat-label">審理中 Active</div></div>
+    <div class="stat-box" data-filter="appeal"><div class="stat-num">${appeals}</div><div class="stat-label">上訴中 On Appeal</div></div>
+    <div class="stat-box" data-filter="mdl"><div class="stat-num">${mdl}</div><div class="stat-label">MDL 合併</div></div>
+    <div class="stat-box" data-filter="settled"><div class="stat-num">${settled}</div><div class="stat-label">和解 Settled</div></div>
+    <div class="stat-box" data-filter="all"><div class="stat-num">${defendants}</div><div class="stat-label">被告企業 Defendants</div></div>
+  `;
+  // Make stat boxes clickable
+  document.querySelectorAll('.stat-box').forEach(box => {
+    box.addEventListener('click', () => {
+      const filter = box.dataset.filter;
+      activeFilter = filter;
+      buildFilters();
+      renderCaseList();
+    });
+  });
+}
+buildStats();
+
+// Filters
+const statusFilters = [
+  { key: 'all', label: '全部 All' },
+  { key: 'active', label: '審理中 Active' },
+  { key: 'appeal', label: '上訴中 Appeal' },
+  { key: 'settled', label: '和解 Settled' },
+  { key: 'mdl', label: 'MDL' }
+];
+let activeFilter = 'all';
+
+function buildFilters() {
+  const row = document.getElementById('filterRow');
+  row.innerHTML = statusFilters.map(f =>
+    `<button class="filter-btn ${f.key === activeFilter ? 'active' : ''}" data-filter="${f.key}">${f.label}</button>`
+  ).join('');
+  row.querySelectorAll('.filter-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      activeFilter = btn.dataset.filter;
+      buildFilters();
+      renderCaseList();
+    });
+  });
+}
+buildFilters();
+
+// Status badge
+function statusBadge(s) {
+  const m = { active: ['審理中','badge-active'], settled: ['和解','badge-settled'], appeal: ['上訴中','badge-appeal'], dismissed: ['駁回','badge-dismissed'], mdl: ['MDL','badge-mdl'] };
+  const [label, cls] = m[s] || ['—',''];
+  return `<span class="badge ${cls}">${label}</span>`;
+}
+
+// Case list
+let selectedId = null;
+function renderCaseList() {
+  const q = document.getElementById('searchInput').value.toLowerCase();
+  const list = document.getElementById('caseList');
+  const filtered = cases.filter(c => {
+    if (activeFilter !== 'all' && c.status !== activeFilter) return false;
+    if (q && !c.name.toLowerCase().includes(q) && !c.court.toLowerCase().includes(q) && !c.judge.toLowerCase().includes(q) && !c.defendants.toLowerCase().includes(q)) return false;
+    return true;
+  });
+  list.innerHTML = filtered.map(c => `
+    <div class="case-item ${c.id === selectedId ? 'active' : ''}" data-id="${c.id}">
+      <div class="case-name">${c.name}</div>
+      <div class="case-meta">
+        ${statusBadge(c.status)}
+        <span>${c.court}</span>
+        <span>Judge ${c.judge}</span>
+      </div>
+    </div>
+  `).join('') || '<div style="padding:24px;color:#999;text-align:center;">無符合條件之案件</div>';
+  list.querySelectorAll('.case-item').forEach(el => {
+    el.addEventListener('click', () => showDetail(parseInt(el.dataset.id)));
+  });
+}
+renderCaseList();
+document.getElementById('searchInput').addEventListener('input', renderCaseList);
+
+// Detail panel
+function showDetail(id) {
+  selectedId = id;
+  renderCaseList();
+  const c = cases.find(x => x.id === id);
+  if (!c) return;
+  const panel = document.getElementById('detailPanel');
+  
+  // Helper function to wrap figures in links
+  function linkFigures(text, caseId) {
+    // Create a copy of the text to process
+    let result = text;
+    
+    // Mapping of figures to first source index for that case
+    const figureLinks = {
+      1: { '2,243': 0 },  // Thomson Reuters: 2,243 headnotes
+      2: { '1,200萬張': 0, '1200萬': 0 },  // Getty: 12 million images
+      6: { '$15億': 0, '15億': 0 },  // Bartz: $1.5B settlement
+      7: { '$31億': 0, '31億': 0 },  // Concord: $3.1B
+      9: { '2,000萬筆': 0, '2000萬': 0 }  // NYT: 20 million
+    };
+    
+    const caseLinks = figureLinks[caseId] || {};
+    
+    if (caseSources[caseId] && caseSources[caseId].length > 0) {
+      const firstSourceUrl = caseSources[caseId][0].url;
+      Object.keys(caseLinks).forEach(fig => {
+        const escaped = fig.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+        const regex = new RegExp(escaped, 'g');
+        result = result.replace(regex, `<a href="${firstSourceUrl}" target="_blank" class="fig-link">${fig}</a>`);
+      });
+    }
+    
+    return result;
+  }
+  
+  // Extract CourtListener link for prominent display
+  let courtListenerUrl = '';
+  if (caseSources[c.id]) {
+    const clEntry = caseSources[c.id].find(s => s.label.toLowerCase().includes('courtlistener'));
+    if (clEntry) courtListenerUrl = clEntry.url;
+  }
+  const courtListenerHtml = courtListenerUrl
+    ? `<a href="${courtListenerUrl}" target="_blank" class="courtlistener-btn">CourtListener Docket</a>`
+    : '';
+
+  // Build sources HTML
+  let sourcesHtml = '';
+  if (caseSources[c.id] && caseSources[c.id].length > 0) {
+    sourcesHtml = `
+    <div class="section">
+      <div class="section-header">資料來源 Sources</div>
+      <div class="source-list">
+        <div class="source-list-header">Primary Sources:</div>
+        ${caseSources[c.id].map(src => 
+          `<div class="source-item"><a href="${src.url}" target="_blank" class="source-link">${src.label}</a></div>`
+        ).join('')}
+      </div>
+    </div>`;
+  }
+  
+  panel.innerHTML = `
+    <div class="detail-header">
+      <div class="detail-title">${c.name}</div>
+      <div class="detail-court">
+        ${statusBadge(c.status)}
+        &nbsp; ${c.court} &nbsp;|&nbsp; Judge ${c.judge} &nbsp;|&nbsp; 被告: ${c.defendants}
+      </div>
+      <div class="claim-tags">
+        ${c.claims.map(cl => `<span class="claim-tag">${cl}</span>`).join('')}
+      </div>
+      ${courtListenerHtml}
+    </div>
+
+    <div class="section">
+      <div class="section-header">訴訟爭點 Key Issues</div>
+      <div class="section-body">${linkFigures(c.issues, c.id).replace(/\n/g,'<br>')}</div>
+    </div>
+
+    <div class="section">
+      <div class="section-header">目前進度 Current Status (as of April 2026)</div>
+      <div class="section-body">${linkFigures(c.progress, c.id).replace(/\n/g,'<br>')}</div>
+    </div>
+
+    <div class="section">
+      <div class="section-header">對台灣實務的啟示 Implications for Taiwan</div>
+      <div class="section-body"><div class="taiwan-insight">${c.taiwan.replace(/\n/g,'<br>')}</div></div>
+    </div>
+
+    ${sourcesHtml}
+  `;
+  panel.scrollTop = 0;
+}
+
+// Auto-select first case
+if (cases.length > 0) showDetail(cases[0].id);
+</script>
+</body>
+</html>
