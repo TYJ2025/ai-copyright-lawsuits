@@ -1041,7 +1041,7 @@ const cases = [
     claims: ["Direct Copyright", "DMCA §1202", "Lanham Act", "State Law"],
     defendants: "Stability AI Ltd.",
     issues: `Getty Images 主張 Stability AI 未經授權使用超過 1,200 萬張 Getty 圖庫照片訓練 Stable Diffusion 圖像生成模型，構成著作權侵害、商標侵害及不正競爭。\n\n核心爭點包括：(1) AI 模型訓練是否構成「重製」；(2) 模型權重（weights）是否構成侵權複製品；(3) AI 生成的圖像包含 Getty 浮水印是否構成商標侵害。`,
-    progress: `【美國案】N.D. Cal. 案件仍在審理中，目前處於事證開示（discovery）階段。\n\n【英國案】2025 年 11 月，英國高等法院作出重大判決，駁回 Getty Images 的間接著作權侵害主張，認為 Stable Diffusion 模型權重不構成原作品的「侵權複製品」，因其並未以可辨識的形式儲存原始作品。但法院認定 Stability AI 構成有限的商標侵害（浮水印問題）。\n\nGetty Images 被判負擔 69.4% 的訴訟費用（約 440 萬英鎊），使商標勝訴在財務上得不償失。2025 年 12 月，法院准許 Getty 就間接著作權侵害部分上訴。`,
+    progress: `【美國案】N.D. Cal. 案件仍在審理中，目前處於事證開示（discovery）階段。\n\n【2026/4/7 最新】Thompson 法官就 Stability AI 的駁回動議（motion to dismiss）舉行聽證，裁定結果待發。\n\n【英國案】2025 年 11 月，英國高等法院作出重大判決，駁回 Getty Images 的間接著作權侵害主張，認為 Stable Diffusion 模型權重不構成原作品的「侵權複製品」，因其並未以可辨識的形式儲存原始作品。但法院認定 Stability AI 構成有限的商標侵害（浮水印問題）。\n\nGetty Images 被判負擔 69.4% 的訴訟費用（約 440 萬英鎊），使商標勝訴在財務上得不償失。2025 年 12 月，法院准許 Getty 就間接著作權侵害部分上訴。英國正式審判日期定於 2026 年底。`,
     taiwan: `本案對台灣的啟示：\n\n1. 英國法院「模型權重不構成侵權重製物」的見解，挑戰了傳統著作權法對「重製」的理解。台灣智財法院若遇類似案件，需思考模型參數是否落入著作權法第3條「重製」的定義範圍。\n2. 台灣著作權法第 87 條商標與著作權交錯問題：AI 生成圖像若自動包含原始資料的浮水印或商標，是否構成商標法第 68 條之侵害？\n3. 本案凸顯跨國訴訟策略的重要性——同一事實在不同法域可能產生截然不同的法律結果。台灣企業使用 AI 生成內容時，應注意各國法律差異。`
   },
   {
@@ -2442,28 +2442,18 @@ const cases = [
 // NEWS TICKER DATA
 // ════════════════════════════════════════
 const newsItems = [
-  { text: "Bartz v. Anthropic $15億和解案 — 公平性聽證會（fairness hearing）預定2026年4月舉行", url: "https://www.anthropiccopyrightsettlement.com/" },
-  { text: "BMG Rights Management 於2026/3/18控告 Anthropic，指控其使用 Bruno Mars、Rolling Stones 等歌詞訓練 AI", url: "https://news.bloomberglaw.com/ip-law/music-piracy-ai-lawsuits-top-2026-copyright-litigation-calendar" },
-  { text: "RIAA/NMPA 於2026/3/30提交法庭之友意見書，支持音樂出版商對 Anthropic 的 $31億訴訟", url: "https://www.musicbusinessworldwide.com/" },
-  { text: "OpenAI 被命令提供 2,000萬筆 ChatGPT 對話記錄予著作權原告 (Jan 2026)", url: "https://natlawreview.com/article/openai-loses-privacy-gambit-20-million-chatgpt-logs-likely-headed-copyright" },
-  { text: "Raw Story v. OpenAI — 第二巡迴法院已於2026/3/18舉行 DMCA CMI 當事人適格言詞辯論", url: "https://chatgptiseatingtheworld.com/" },
-  { text: "Thomson Reuters v. ROSS — 第三巡迴法院審理AI合理使用上訴中，2026年有望作出巡迴法院首判", url: "https://www.courtlistener.com/docket/70622297/thomson-reuters-enterprise-centre-gmbh-v-ross-intelligence-inc/" },
-  { text: "Andersen v. Stability AI 於2026/2/27提交第三次修正訴狀，審判定於2026年9月", url: "https://www.courtlistener.com/docket/66732129/andersen-v-stability-ai-ltd/" },
-  { text: "英國 Getty v. Stability AI 上訴案進行中 — 高等法院認定 AI 模型權重不構成侵權複製品", url: "https://www.taylorwessing.com/en/insights-and-events/insights/2026/01/next-steps-for-getty-v-stability-why-has-permission-to-appeal-been-granted" },
-  { text: "UMG v. Suno — 合理使用裁定預計2026年夏季作出，為 AI 音樂產業關鍵先例", url: "https://news.bloomberglaw.com/ip-law/music-piracy-ai-lawsuits-top-2026-copyright-litigation-calendar" },
-  { text: "Kadrey v. Meta — 法官裁定 LLaMA 訓練構成合理使用，但強調「本案原告提出了錯誤論據」", url: "https://perkinscoie.com/insights/update/court-sides-meta-fair-use-and-dmca-questions-leaves-door-open-future-challenges" },
-  { text: "EU AI Act 持續推進：歐盟要求AI公司揭露訓練資料集中的著作權作品", url: "https://www.nortonrosefulbright.com/en/knowledge/publications/ce8eaa5f/ai-in-litigation-series-an-update-on-ai-copyright-cases-in-2026" },
-  { text: "OpenAI 於2026年4月完成 TBPN 媒體收購案", url: "https://natlawreview.com/" },
-  { text: "全球 AI 著作權訴訟總數達 130 件（美國 100 件 + 全球 30 件）— 2026/4/5 最新統計", url: "https://chatgptiseatingtheworld.com/2026/04/05/latest-world-map-of-copyright-suits-v-ai-companies-april-5-2026/" },
-  { text: "Ted Entertainment 已累計提起 7 件 DMCA §1201(a) 反規避訴訟，對象包括 Apple、OpenAI、Amazon", url: "https://chatgptiseatingtheworld.com/" },
-  { text: "Bytedance 就 Ted Entertainment 的 DMCA 訴訟提出駁回動議", url: "https://chatgptiseatingtheworld.com/" },
-  { text: "Getty v. Stability AI — Thompson 法官於 2026/4/7 舉行駁回動議聽證會", url: "https://chatgptiseatingtheworld.com/" },
-  { text: "Stein 法官要求 Encyclopaedia Britannica、Merriam-Webster、Gracenote 於 4/15 前說明案件不應暫停之理由", url: "https://chatgptiseatingtheworld.com/" },
-  { text: "Concord Music v. Anthropic II — Anthropic 請求暫停 torrenting 案件，等待 Concord I 簡易判決", url: "https://chatgptiseatingtheworld.com/" },
-  { text: "Entrepreneur Media v. Meta — Chhabria 法官駁回 Meta 撤案動議，幫助侵權主張繼續", url: "https://chatgptiseatingtheworld.com/" },
-  { text: "Andersen v. Stability AI — 法院准許原告調閱 Stability AI 企業客戶名單（合理使用第四因素）", url: "https://chatgptiseatingtheworld.com/" },
-  { text: "慕尼黑地方法院 GEMA v. OpenAI 判決英文翻譯已公開", url: "https://chatgptiseatingtheworld.com/" },
-  { text: "Advance Local Media v. Cohere — 簡易判決動議截止日：2026/12/18", url: "https://chatgptiseatingtheworld.com/" }
+  { text: "【2026/4/8】Bartz v. Anthropic $15億和解最終公平性聽證預定4/23舉行 — 律師費分配爭議持續，約50萬著作權人受益", url: "https://authorsguild.org/advocacy/artificial-intelligence/what-authors-need-to-know-about-the-anthropic-settlement/" },
+  { text: "【2026/4/7】Getty v. Stability AI（美國）— Thompson 法官完成駁回動議聽證，裁定結果待發；英國高等法院正式審判定於2026年底", url: "https://chatgptiseatingtheworld.com/" },
+  { text: "【2026/4/7】Thomson Reuters v. ROSS — 第三巡迴法院審理AI合理使用上訴中，ROSS於3/12提交補充函件；預計2026年成為巡迴法院首件AI訓練合理使用判決", url: "https://www.courtlistener.com/docket/70622297/thomson-reuters-enterprise-centre-gmbh-v-ross-intelligence-inc/" },
+  { text: "【2026/4/7】Stein 法官要求 Encyclopaedia Britannica、Merriam-Webster、Gracenote 於 4/15 前說明案件不應暫停之理由", url: "https://chatgptiseatingtheworld.com/" },
+  { text: "【2026/3/20】Encyclopaedia Britannica & Merriam-Webster 控告 OpenAI 大規模著作權侵害 — 法院考慮暫停等待OpenAI MDL簡易判決", url: "https://fortune.com/2026/03/18/dictionaries-suing-openai-chatgpt-copyright-infringement/" },
+  { text: "【2026/3/9】法院命 OpenAI 額外提供 7,800 萬 + 1,000 萬筆 ChatGPT 對話紀錄予著作權原告（繼1月2,000萬筆命令後）", url: "https://natlawreview.com/article/openai-loses-privacy-gambit-20-million-chatgpt-logs-likely-headed-copyright" },
+  { text: "【2026/3/2】美國最高法院拒絕受理 Thaler v. Perlmutter — 確立「AI生成作品不受著作權保護、須有人類著作權人」原則", url: "https://futurism.com/artificial-intelligence/supreme-court-blow-ai-artists-copyright" },
+  { text: "【2026/2/27】丹麥媒體機構 DPCMO 對 OpenAI 提起訴訟，指控未提供退出機制即以新聞內容訓練 AI — 歐洲AI著作權訴訟持續擴大", url: "https://pressgazette.co.uk/platforms/news-publisher-ai-deals-lawsuits-openai-google/" },
+  { text: "【2026/2/25】全球 AI 著作權訴訟已達 112 件（美國佔大宗）— 合理使用判決預計最早2026年夏季作出，目前3勝1敗（AI公司視角）", url: "https://authorsalliance.substack.com/p/ai-class-action-litigation-update" },
+  { text: "【2026/1/28】音樂出版商對 Anthropic 提起 $31億訴訟（Concord II）— 指控使用 torrented 盜版內容訓練 Claude；Anthropic 請求暫停等待 Concord I 簡易判決", url: "https://news.bloomberglaw.com/ip-law/music-piracy-ai-lawsuits-top-2026-copyright-litigation-calendar" },
+  { text: "【德國】慕尼黑地方法院 GEMA v. OpenAI 判決：以受著作權保護歌詞訓練生成式AI未取得授權違反德國著作權法 — 英文譯本已公開", url: "https://www.insidetechlaw.com/blog/2025/11/germany-delivers-landmark-copyright-ruling-against-openai-what-it-means-for-ai-and-ip" },
+  { text: "【全球趨勢】Norton Rose Fulbright：AI著作權六大關鍵裁定分析（2026年3月更新）— 合理使用戰線重塑中", url: "https://www.insidetechlaw.com/blog/2026/03/ai-copyright-six-key-rulings" }
 ];
 
 // ════════════════════════════════════════
