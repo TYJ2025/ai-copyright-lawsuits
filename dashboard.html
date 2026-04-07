@@ -109,10 +109,32 @@
     text-align: center;
     padding: 16px 12px;
     border-right: 1px solid var(--border);
+    cursor: pointer;
+    transition: background 0.15s;
   }
+  .stat-box:hover { background: #faf8f4; }
   .stat-box:last-child { border-right: none; }
   .stat-num { font-size: 28px; font-weight: 700; color: var(--navy); }
   .stat-label { font-size: 11px; color: var(--text-light); text-transform: uppercase; letter-spacing: 1px; margin-top: 2px; }
+  .stat-box.us .stat-num { color: var(--blue); }
+  .stat-box.non-us .stat-num { color: var(--orange); }
+  .stat-divider {
+    width: 2px;
+    background: var(--border);
+    flex-shrink: 0;
+    align-self: stretch;
+  }
+  .stat-group-label {
+    font-size: 9px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 4px 10px 0;
+    color: var(--text-light);
+    text-align: center;
+    align-self: center;
+    white-space: nowrap;
+  }
 
   /* ── Main Layout ── */
   .main {
@@ -2369,10 +2391,16 @@ function buildStats() {
   const appeals = cases.filter(c => c.status === 'appeal').length;
   const mdl = cases.filter(c => c.status === 'mdl').length;
   const defendants = [...new Set(cases.map(c => c.defendants.split(',')[0].trim()))].length;
+  const nonUSKeywords = ['CJEU', 'UK High Court', 'European Union', 'Budapest', '歐盟'];
+  const usCases = cases.filter(c => !nonUSKeywords.some(k => c.court.includes(k))).length;
+  const nonUSCases = cases.filter(c => nonUSKeywords.some(k => c.court.includes(k))).length;
   document.getElementById('statsBar').innerHTML = `
-    <div class="stat-box" data-filter="all"><div class="stat-num">${total}</div><div class="stat-label">案件總數 Cases</div></div>
+    <div class="stat-box" data-filter="all"><div class="stat-num">${total}</div><div class="stat-label">案件總數 Total</div></div>
+    <div class="stat-box us" data-filter="us"><div class="stat-num">${usCases}</div><div class="stat-label">🇺🇸 美國 US Cases</div></div>
+    <div class="stat-box non-us" data-filter="non-us"><div class="stat-num">${nonUSCases}</div><div class="stat-label">🌏 非美國 Non-US</div></div>
+    <div class="stat-divider"></div>
     <div class="stat-box" data-filter="active"><div class="stat-num">${active}</div><div class="stat-label">審理中 Active</div></div>
-    <div class="stat-box" data-filter="appeal"><div class="stat-num">${appeals}</div><div class="stat-label">上訴中 On Appeal</div></div>
+    <div class="stat-box" data-filter="appeal"><div class="stat-num">${appeals}</div><div class="stat-label">上訴中 Appeal</div></div>
     <div class="stat-box" data-filter="mdl"><div class="stat-num">${mdl}</div><div class="stat-label">MDL 合併</div></div>
     <div class="stat-box" data-filter="settled"><div class="stat-num">${settled}</div><div class="stat-label">和解 Settled</div></div>
     <div class="stat-box" data-filter="all"><div class="stat-num">${defendants}</div><div class="stat-label">被告企業 Defendants</div></div>
@@ -2426,8 +2454,13 @@ let selectedId = null;
 function renderCaseList() {
   const q = document.getElementById('searchInput').value.toLowerCase();
   const list = document.getElementById('caseList');
+  const _nonUSKW = ['CJEU', 'UK High Court', 'European Union', 'Budapest', '歐盟'];
   const filtered = cases.filter(c => {
-    if (activeFilter !== 'all' && c.status !== activeFilter) return false;
+    if (activeFilter === 'us') {
+      if (_nonUSKW.some(k => c.court.includes(k))) return false;
+    } else if (activeFilter === 'non-us') {
+      if (!_nonUSKW.some(k => c.court.includes(k))) return false;
+    } else if (activeFilter !== 'all' && c.status !== activeFilter) return false;
     if (q && !c.name.toLowerCase().includes(q) && !c.court.toLowerCase().includes(q) && !c.judge.toLowerCase().includes(q) && !c.defendants.toLowerCase().includes(q)) return false;
     return true;
   });
