@@ -425,6 +425,272 @@
     color: var(--blue);
   }
 
+  /* ── View Toggle ── */
+  .view-toggle {
+    display: flex;
+    gap: 0;
+    margin-left: 24px;
+  }
+  .view-toggle-btn {
+    padding: 8px 20px;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Microsoft JhengHei', '微軟正黑體', sans-serif;
+    border: 1px solid var(--gold);
+    background: transparent;
+    color: var(--gold-light);
+    cursor: pointer;
+    transition: all 0.2s;
+    letter-spacing: 0.5px;
+  }
+  .view-toggle-btn:first-child { border-radius: 4px 0 0 4px; }
+  .view-toggle-btn:last-child { border-radius: 0 4px 4px 0; }
+  .view-toggle-btn.active {
+    background: var(--gold);
+    color: var(--navy);
+  }
+  .view-toggle-btn:hover:not(.active) {
+    background: rgba(201,169,110,0.15);
+  }
+
+  /* ── Fair Use Section ── */
+  .fairuse-container {
+    display: none;
+    height: calc(100vh - 180px);
+    min-height: 600px;
+    overflow-y: auto;
+    padding: 36px 48px;
+    background: var(--cream);
+  }
+  .fairuse-container.visible {
+    display: block;
+  }
+  .fairuse-intro {
+    max-width: 960px;
+    margin: 0 auto 36px;
+  }
+  .fairuse-intro h2 {
+    font-size: 28px;
+    color: var(--navy);
+    margin-bottom: 12px;
+    border-bottom: 2px solid var(--gold);
+    padding-bottom: 12px;
+  }
+  .fairuse-intro p {
+    font-size: 16px;
+    line-height: 1.8;
+    color: var(--text);
+  }
+  .fairuse-factors {
+    max-width: 960px;
+    margin: 0 auto 36px;
+    background: var(--white);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    overflow: hidden;
+  }
+  .fairuse-factors .section-header {
+    background: var(--navy);
+    color: var(--gold-light);
+    padding: 12px 20px;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: 'Microsoft JhengHei', '微軟正黑體', sans-serif;
+  }
+  .factor-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0;
+  }
+  .factor-item {
+    padding: 18px 22px;
+    border-bottom: 1px solid #eee;
+    border-right: 1px solid #eee;
+  }
+  .factor-item:nth-child(even) { border-right: none; }
+  .factor-item:nth-last-child(-n+2) { border-bottom: none; }
+  .factor-num {
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    background: var(--navy);
+    color: var(--gold-light);
+    border-radius: 50%;
+    font-size: 14px;
+    font-weight: 700;
+    margin-right: 10px;
+    vertical-align: middle;
+  }
+  .factor-title {
+    font-weight: 700;
+    color: var(--navy);
+    font-size: 15px;
+    display: inline;
+    vertical-align: middle;
+  }
+  .factor-desc {
+    margin-top: 8px;
+    font-size: 14px;
+    color: var(--text);
+    line-height: 1.7;
+  }
+
+  /* ── Fair Use Timeline ── */
+  .fairuse-timeline {
+    max-width: 960px;
+    margin: 0 auto;
+    position: relative;
+    padding-left: 40px;
+  }
+  .fairuse-timeline::before {
+    content: '';
+    position: absolute;
+    left: 15px;
+    top: 0;
+    bottom: 0;
+    width: 3px;
+    background: linear-gradient(to bottom, var(--gold), var(--navy));
+    border-radius: 2px;
+  }
+  .fu-card {
+    position: relative;
+    margin-bottom: 28px;
+    background: var(--white);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    overflow: hidden;
+    transition: all 0.25s;
+    cursor: pointer;
+  }
+  .fu-card:hover {
+    box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+    transform: translateX(4px);
+  }
+  .fu-card::before {
+    content: '';
+    position: absolute;
+    left: -33px;
+    top: 24px;
+    width: 14px;
+    height: 14px;
+    background: var(--gold);
+    border: 3px solid var(--navy);
+    border-radius: 50%;
+    z-index: 1;
+  }
+  .fu-card-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 20px;
+    background: linear-gradient(135deg, var(--navy), var(--navy-light));
+    color: var(--white);
+  }
+  .fu-card-title {
+    font-size: 18px;
+    font-weight: 700;
+  }
+  .fu-card-year {
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--gold);
+    flex-shrink: 0;
+    margin-left: 16px;
+  }
+  .fu-card-court {
+    font-size: 13px;
+    color: var(--gold-light);
+    margin-top: 4px;
+  }
+  .fu-card-body {
+    padding: 20px;
+    display: none;
+  }
+  .fu-card.expanded .fu-card-body {
+    display: block;
+  }
+  .fu-card-toggle {
+    text-align: center;
+    padding: 8px;
+    font-size: 12px;
+    color: var(--text-light);
+    background: #faf8f4;
+    border-top: 1px solid #eee;
+    transition: background 0.2s;
+  }
+  .fu-card.expanded .fu-card-toggle { display: none; }
+  .fu-card-toggle:hover { background: #f0ebe0; }
+  .fu-subsection {
+    margin-bottom: 16px;
+  }
+  .fu-subsection-title {
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--navy);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid #eee;
+  }
+  .fu-subsection p {
+    font-size: 15px;
+    line-height: 1.8;
+    color: var(--text);
+  }
+  .fu-factor-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-top: 12px;
+  }
+  .fu-factor-tag {
+    font-size: 12px;
+    padding: 4px 10px;
+    border-radius: 10px;
+    font-weight: 600;
+    font-family: 'Microsoft JhengHei', '微軟正黑體', sans-serif;
+  }
+  .fu-tag-favor { background: #e8f5e9; color: #2e7d32; }
+  .fu-tag-against { background: #fce4ec; color: #c62828; }
+  .fu-tag-mixed { background: #fff3e0; color: #e65100; }
+  .fu-outcome {
+    display: inline-block;
+    padding: 4px 14px;
+    border-radius: 12px;
+    font-size: 13px;
+    font-weight: 700;
+    margin-top: 8px;
+  }
+  .fu-outcome-fair { background: #e8f5e9; color: #2e7d32; }
+  .fu-outcome-notfair { background: #fce4ec; color: #c62828; }
+  .fu-source-link {
+    display: inline-block;
+    margin-top: 12px;
+    font-size: 13px;
+    color: var(--blue);
+    text-decoration: none;
+    border-bottom: 1px dotted var(--blue);
+  }
+  .fu-source-link:hover {
+    color: var(--navy);
+    border-bottom-color: var(--navy);
+  }
+  .fu-taiwan-note {
+    margin-top: 12px;
+    padding: 12px 16px;
+    background: #faf8f4;
+    border-left: 3px solid var(--gold);
+    border-radius: 0 4px 4px 0;
+    font-size: 14px;
+    line-height: 1.7;
+    color: var(--text);
+  }
+
   /* ── Responsive ── */
   @media (max-width: 900px) {
     .main { flex-direction: column; height: auto; }
@@ -432,13 +698,23 @@
     .panel-right { padding: 20px; }
     .stats-bar { flex-wrap: wrap; }
     .stat-box { min-width: 50%; }
+    .fairuse-container { padding: 20px 16px; }
+    .factor-grid { grid-template-columns: 1fr; }
+    .factor-item { border-right: none !important; }
+    .view-toggle { margin-left: 0; margin-top: 8px; }
   }
 </style>
 </head>
 <body>
 
 <header>
-  <h1><span>AI</span> Copyright Litigation &mdash; Global Tracker</h1>
+  <div style="display:flex;align-items:center;">
+    <h1><span>AI</span> Copyright Litigation &mdash; Global Tracker</h1>
+    <div class="view-toggle">
+      <button class="view-toggle-btn active" data-view="tracker" onclick="switchView('tracker')">訴訟追蹤</button>
+      <button class="view-toggle-btn" data-view="fairuse" onclick="switchView('fairuse')">合理使用經典</button>
+    </div>
+  </div>
   <div class="header-meta">
     <div>AI 著作權訴訟全球追蹤儀表板</div>
     <div id="dateDisplay"></div>
@@ -470,6 +746,42 @@
       <p style="font-size:12px;margin-top:8px;color:#bbb;">Select a case from the left panel to view details</p>
     </div>
   </div>
+</div>
+
+<!-- ── Fair Use Landmark Cases Section ── -->
+<div class="fairuse-container" id="fairuseContainer">
+  <div class="fairuse-intro">
+    <h2>美國合理使用（Fair Use）經典判例</h2>
+    <p>合理使用（Fair Use）是美國著作權法第 107 條所確立的重要抗辯事由，允許在特定情況下未經授權使用受著作權保護的作品。以下整理美國聯邦法院歷年來最具影響力的合理使用判決，這些先例直接影響當前 AI 著作權訴訟中合理使用抗辯的走向。</p>
+  </div>
+
+  <div class="fairuse-factors">
+    <div class="section-header">17 U.S.C. § 107 合理使用四要素 Four Factors</div>
+    <div class="factor-grid">
+      <div class="factor-item">
+        <span class="factor-num">1</span>
+        <span class="factor-title">使用之目的與性質</span>
+        <div class="factor-desc">Purpose and character of the use — 是否具有「轉化性」（transformative）？是否為商業用途？是否用於批評、評論、新聞報導、教學、學術或研究？</div>
+      </div>
+      <div class="factor-item">
+        <span class="factor-num">2</span>
+        <span class="factor-title">受著作權保護作品之性質</span>
+        <div class="factor-desc">Nature of the copyrighted work — 原作是事實性或創作性作品？是否已出版？創作性越高，合理使用空間越窄。</div>
+      </div>
+      <div class="factor-item">
+        <span class="factor-num">3</span>
+        <span class="factor-title">使用之質與量</span>
+        <div class="factor-desc">Amount and substantiality of the portion used — 使用比例佔原作多少？是否取用了原作的「核心精華」（heart of the work）？</div>
+      </div>
+      <div class="factor-item">
+        <span class="factor-num">4</span>
+        <span class="factor-title">對原作市場之影響</span>
+        <div class="factor-desc">Effect upon the potential market — 使用行為是否構成原作的市場替代？是否損害原作的授權市場或潛在衍生市場？</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="fairuse-timeline" id="fairuseTimeline"></div>
 </div>
 
 <footer>
@@ -2721,6 +3033,251 @@ function showDetail(id) {
 
 // Auto-select first case
 if (cases.length > 0) showDetail(cases[0].id);
+
+// ════════════════════════════════════════
+// VIEW SWITCHING
+// ════════════════════════════════════════
+function switchView(view) {
+  document.querySelectorAll('.view-toggle-btn').forEach(b => {
+    b.classList.toggle('active', b.dataset.view === view);
+  });
+  const tracker = document.querySelector('.main');
+  const statsBar = document.getElementById('statsBar');
+  const ticker = document.querySelector('.ticker-wrap');
+  const fairuse = document.getElementById('fairuseContainer');
+  if (view === 'fairuse') {
+    tracker.style.display = 'none';
+    statsBar.style.display = 'none';
+    ticker.style.display = 'none';
+    fairuse.classList.add('visible');
+    renderFairUseCases();
+  } else {
+    tracker.style.display = 'flex';
+    statsBar.style.display = 'flex';
+    ticker.style.display = 'flex';
+    fairuse.classList.remove('visible');
+  }
+}
+
+// ════════════════════════════════════════
+// FAIR USE LANDMARK CASES DATA
+// ════════════════════════════════════════
+const fairUseCases = [
+  {
+    id: 'campbell',
+    name: 'Campbell v. Acuff-Rose Music, Inc.',
+    year: 1994,
+    court: 'U.S. Supreme Court, 510 U.S. 569',
+    outcome: 'fair',
+    outcomeLabel: '合理使用成立',
+    summary: '2 Live Crew 將 Roy Orbison 的經典歌曲 "Oh, Pretty Woman" 改編為饒舌戲仿版本。Acuff-Rose Music 以著作權侵害起訴。最高法院一致裁定戲仿（parody）可構成合理使用。',
+    holding: '本案確立「轉化性使用」（transformative use）概念，成為後續三十年合理使用分析的核心框架。最高法院認為：戲仿本質上具有轉化性，因其藉由模仿原作來創造新的意義與訊息。商業性質不當然排除合理使用；轉化程度越高，商業因素的不利影響越小。戲仿通常不構成原作的市場替代品，因兩者滿足不同的市場需求。',
+    factors: [
+      { label: '第一要素：有利', cls: 'fu-tag-favor', text: '戲仿具高度轉化性' },
+      { label: '第二要素：不利', cls: 'fu-tag-against', text: '原作為高度創作性作品' },
+      { label: '第三要素：中立', cls: 'fu-tag-mixed', text: '取用核心旋律但為戲仿所必要' },
+      { label: '第四要素：有利', cls: 'fu-tag-favor', text: '戲仿不替代原作市場' }
+    ],
+    aiRelevance: '本案確立的「轉化性使用」框架，直接適用於 AI 訓練場景的合理使用分析。AI 開發商主張訓練行為是「轉化性」的——將原作從表達性內容轉化為統計模型的權重參數。然而，Warhol 案（2023）對此框架進行了限縮。',
+    taiwan: '台灣著作權法第 65 條第 2 項之合理使用判斷標準，與美國四要素分析高度類似。Campbell 案所確立的「轉化性使用」概念雖未明文規定於台灣法律，但已被智慧財產法院在多項判決中援引參考。',
+    sources: [
+      { label: 'Oyez', url: 'https://www.oyez.org/cases/1993/92-1292' },
+      { label: 'Justia', url: 'https://supreme.justia.com/cases/federal/us/510/569/' }
+    ]
+  },
+  {
+    id: 'kelly',
+    name: 'Kelly v. Arriba Soft Corp.',
+    year: 2003,
+    court: 'U.S. Court of Appeals, 9th Circuit, 336 F.3d 811',
+    outcome: 'fair',
+    outcomeLabel: '合理使用成立',
+    summary: '攝影師 Kelly 控告搜尋引擎 Arriba Soft 在搜尋結果中以縮圖形式顯示其受著作權保護的照片。第九巡迴法院裁定縮圖的使用構成合理使用。',
+    holding: '法院認為搜尋引擎的縮圖使用具有轉化性，因為其功能與原作不同——原作供藝術欣賞，縮圖則作為資訊檢索的指引工具（pointer to information）。Arriba Soft 雖為商業營利目的使用，但轉化性程度足以克服商業因素的不利影響。',
+    factors: [
+      { label: '第一要素：有利', cls: 'fu-tag-favor', text: '縮圖作為搜尋工具具轉化性' },
+      { label: '第二要素：不利', cls: 'fu-tag-against', text: '原作為創意攝影作品' },
+      { label: '第三要素：中立', cls: 'fu-tag-mixed', text: '使用全部圖像但縮小至低解析度' },
+      { label: '第四要素：有利', cls: 'fu-tag-favor', text: '縮圖不替代原圖市場' }
+    ],
+    aiRelevance: '本案是第一個確認「搜尋索引」為轉化性使用的重要先例，直接影響後續 Google Books 案及當前 AI 搜尋引擎（如 Perplexity）的合理使用論述。AI 搜尋引擎主張其「摘要」功能類似縮圖，僅作為指引使用者至原始來源的工具。',
+    taiwan: '台灣的搜尋引擎業者及 AI 摘要服務提供者，可參考本案關於「功能轉化」的論證。然而，台灣著作權法對「重製」的定義較寬泛（第 3 條第 1 項第 5 款），縮圖是否構成重製在台灣法下仍有爭議空間。',
+    sources: [
+      { label: 'Stanford Fair Use', url: 'https://fairuse.stanford.edu/case/kelly-v-arriba-soft-corp/' },
+      { label: 'EFF', url: 'https://www.eff.org/cases/kelly-v-arriba-soft' }
+    ]
+  },
+  {
+    id: 'perfect10',
+    name: 'Perfect 10 v. Amazon.com / Google',
+    year: 2007,
+    court: 'U.S. Court of Appeals, 9th Circuit, 508 F.3d 1146',
+    outcome: 'fair',
+    outcomeLabel: '合理使用成立（縮圖部分）',
+    summary: '雜誌出版商 Perfect 10 控告 Google 及 Amazon 在圖片搜尋結果中顯示其受著作權保護的圖像縮圖。第九巡迴法院延續 Kelly 案先例，裁定搜尋引擎縮圖為合理使用。',
+    holding: '法院擴展 Kelly 案的論理：Google 圖片搜尋的「高度轉化性」及其對公眾的資訊檢索利益，足以克服商業使用的不利因素。法院並確認 "server test"——僅在自己伺服器上存儲圖像者才構成「直接侵害」中的展示行為。',
+    factors: [
+      { label: '第一要素：有利', cls: 'fu-tag-favor', text: '搜尋功能高度轉化且具公益性' },
+      { label: '第二要素：不利', cls: 'fu-tag-against', text: '原作為創意攝影作品' },
+      { label: '第三要素：中立', cls: 'fu-tag-mixed', text: '全部複製但縮至極低解析度' },
+      { label: '第四要素：有利', cls: 'fu-tag-favor', text: '縮圖無法替代原圖的付費市場' }
+    ],
+    aiRelevance: '本案確立的「搜尋引擎轉化性使用」原則，為當前 AI 圖像生成器（如 Stable Diffusion、Midjourney）的訓練使用提供了一定的類比基礎，但區別在於：AI 圖像生成器的輸出可能直接替代原圖的市場，而搜尋引擎縮圖則否。',
+    taiwan: '台灣智慧財產法院在處理搜尋引擎著作權爭議時，可參考本案關於「伺服器測試」（server test）的技術認定標準。此外，本案對「公共利益」在合理使用分析中的權重，對台灣法院在權衡著作權保護與資訊流通時亦有參考價值。',
+    sources: [
+      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Perfect_10,_Inc._v._Amazon.com,_Inc.' },
+      { label: 'Ninth Circuit Opinion', url: 'https://cdn.ca9.uscourts.gov/datastore/opinions/2007/12/03/0655405.pdf' }
+    ]
+  },
+  {
+    id: 'cariou',
+    name: 'Cariou v. Prince',
+    year: 2013,
+    court: 'U.S. Court of Appeals, 2nd Circuit, 714 F.3d 694',
+    outcome: 'fair',
+    outcomeLabel: '合理使用成立（25/30 件作品）',
+    summary: '攝影師 Cariou 控告挪用藝術家 Richard Prince 未經授權使用其攝影集照片創作大型拼貼畫作。第二巡迴法院裁定 Prince 的 30 件作品中有 25 件構成合理使用。',
+    holding: '法院大幅擴張「轉化性使用」的範圍：不要求二次創作必須「評論」或「批評」原作，只要新作品「可被合理認知為」（may reasonably be perceived）具有新的表達、意義或訊息，即可能構成轉化性使用。此判決被視為對挪用藝術（appropriation art）最友善的先例。',
+    factors: [
+      { label: '第一要素：有利', cls: 'fu-tag-favor', text: '新作品具不同美學效果與訊息' },
+      { label: '第二要素：不利', cls: 'fu-tag-against', text: '原作為具創意性的攝影作品' },
+      { label: '第三要素：混合', cls: 'fu-tag-mixed', text: '部分使用大量原作但高度改變' },
+      { label: '第四要素：有利', cls: 'fu-tag-favor', text: '兩者市場截然不同' }
+    ],
+    aiRelevance: 'Cariou 案曾被 AI 開發商大量引用，主張 AI 模型的輸出「可被合理認知為」具有新的表達與訊息。然而，2023 年 Warhol 案已明確限縮此一寬鬆標準，要求更嚴格地檢驗使用目的是否與原作「實質相同」。',
+    taiwan: '台灣藝術創作領域中的「致敬」、「二創」文化盛行，Cariou 案提供了判斷「轉化」界限的重要參考。台灣智財法院在處理類似爭議時，應注意區分「單純複製」與「具有獨立創意價值的挪用」。',
+    sources: [
+      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Cariou_v._Prince' },
+      { label: 'Harvard JOLT', url: 'https://jolt.law.harvard.edu/digest/cariou-v-prince' }
+    ]
+  },
+  {
+    id: 'googlebooks',
+    name: 'Authors Guild v. Google (Google Books)',
+    year: 2015,
+    court: 'U.S. Court of Appeals, 2nd Circuit, 804 F.3d 202',
+    outcome: 'fair',
+    outcomeLabel: '合理使用成立',
+    summary: '美國作家協會控告 Google 未經授權掃描數千萬冊受著作權保護的書籍，建立可搜尋的數位資料庫並顯示文本「片段」（snippets）。第二巡迴法院裁定 Google Books 構成合理使用。',
+    holding: '法院認定 Google 的數位化行為具有高度轉化性：將書籍從「可閱讀」的形式轉化為「可搜尋」的資訊索引工具。片段顯示功能經過精心設計，限制顯示比例以防止構成原書的替代品。Google 的商業動機不足以否定合理使用，因為其公共利益——使數百萬冊書籍可被搜尋——極為顯著。最高法院於 2016 年拒絕受理上訴。',
+    factors: [
+      { label: '第一要素：有利', cls: 'fu-tag-favor', text: '從「閱讀」轉化為「搜尋索引」' },
+      { label: '第二要素：不利', cls: 'fu-tag-against', text: '原作多為創作性書籍' },
+      { label: '第三要素：中立', cls: 'fu-tag-mixed', text: '掃描全書但僅顯示有限片段' },
+      { label: '第四要素：有利', cls: 'fu-tag-favor', text: '片段不替代購買原書' }
+    ],
+    aiRelevance: '本案是 AI 著作權訴訟中最被頻繁援引的先例。AI 開發商（特別是 OpenAI）主張 AI 訓練類似 Google Books——將原作轉化為統計模型，而非直接複製或替代原作。然而，原告方主張 AI 生成內容可能直接替代原作市場，與 Google Books 的「片段限制」根本不同。',
+    taiwan: '台灣數位圖書館（如國家圖書館、HyRead）在進行大規模數位化時，可參考本案關於「轉化性數位化」的論理。台灣著作權法第 48 條至第 48 條之 1 對圖書館的合理使用有專門規定，但 AI 訓練用途是否涵蓋在內仍待釐清。',
+    sources: [
+      { label: 'Justia', url: 'https://law.justia.com/cases/federal/appellate-courts/ca2/13-4829/13-4829-2015-10-16.html' },
+      { label: 'Stanford Fair Use', url: 'https://fairuse.stanford.edu/case/authors-guild-v-google-inc/' }
+    ]
+  },
+  {
+    id: 'oracle',
+    name: 'Google LLC v. Oracle America, Inc.',
+    year: 2021,
+    court: 'U.S. Supreme Court, 593 U.S. ___ (2021)',
+    outcome: 'fair',
+    outcomeLabel: '合理使用成立',
+    summary: 'Oracle 控告 Google 在 Android 系統中複製約 11,500 行 Java SE API 宣告程式碼（declaring code）。最高法院以 6-2 裁定 Google 的使用構成合理使用。',
+    holding: 'Breyer 大法官撰寫多數意見，認定 Google 的複製具有轉化性：Google 僅複製 API 宣告程式碼（而非實作程式碼），目的是讓數百萬 Java 程式設計師能在全新的智慧型手機平台上運用既有技能。法院特別強調「重新實作使用者介面」（reimplementing a user interface）的公共利益。值得注意的是，法院刻意迴避裁決 API 是否具有著作權性（copyrightability），僅以合理使用作為裁判基礎。',
+    factors: [
+      { label: '第一要素：有利', cls: 'fu-tag-favor', text: '在全新平台上重新實作，具轉化性' },
+      { label: '第二要素：有利', cls: 'fu-tag-favor', text: 'API 宣告碼接近功能性而非創意性' },
+      { label: '第三要素：有利', cls: 'fu-tag-favor', text: '僅複製必要部分（0.4%）' },
+      { label: '第四要素：有利', cls: 'fu-tag-favor', text: 'Google 開拓新市場而非替代 Java' }
+    ],
+    aiRelevance: 'Oracle 案對 AI 訓練的合理使用抗辯有雙面影響。有利面：法院認可「複製必要部分以在新平台重新實作」的轉化性，AI 開發商可類比主張訓練僅取用作品中「必要的統計特徵」。不利面：Google 僅複製 0.4% 的程式碼，而 AI 訓練通常複製整部作品，第三要素的分析可能截然不同。',
+    taiwan: '本案對台灣軟體產業的 API 相容性問題極具參考價值。台灣著作權法對「介面程式」（interface code）與「功能性表達」的保護範圍尚未有清楚的司法定見，Oracle 案的論理可供台灣法院及立法者參考。',
+    sources: [
+      { label: 'Supreme Court Opinion', url: 'https://www.supremecourt.gov/opinions/20pdf/18-956_d18f.pdf' },
+      { label: 'Justia', url: 'https://supreme.justia.com/cases/federal/us/593/18-956/' }
+    ]
+  },
+  {
+    id: 'warhol',
+    name: 'Andy Warhol Foundation v. Goldsmith',
+    year: 2023,
+    court: 'U.S. Supreme Court, 598 U.S. ___ (2023)',
+    outcome: 'notfair',
+    outcomeLabel: '合理使用不成立',
+    summary: 'Andy Warhol 基金會以 Warhol 基於攝影師 Lynn Goldsmith 拍攝的 Prince 肖像照所創作的絲網印刷版畫，授權予 Condé Nast 雜誌使用。最高法院以 7-2 裁定此授權行為不構成合理使用。',
+    holding: 'Sotomayor 大法官撰寫多數意見，明確限縮「轉化性使用」的判斷標準：僅因二次創作賦予原作「新的意義或訊息」，不足以使第一要素對被告有利。法院強調必須檢驗特定使用行為（specific use）的「目的與性質」——在本案中，Warhol 基金會授權用途（雜誌插圖）與 Goldsmith 原作的授權市場「實質相同」（substantially the same），故第一要素對基金會不利。此判決被視為自 Campbell 案以來對轉化性使用最重大的限縮。',
+    factors: [
+      { label: '第一要素：不利', cls: 'fu-tag-against', text: '授權用途與原作市場實質相同' },
+      { label: '第二要素：未詳析', cls: 'fu-tag-mixed', text: '法院未深入分析' },
+      { label: '第三要素：未詳析', cls: 'fu-tag-mixed', text: '法院未深入分析' },
+      { label: '第四要素：不利', cls: 'fu-tag-against', text: '直接競爭原作的授權市場' }
+    ],
+    aiRelevance: '本案是當前 AI 著作權訴訟中最關鍵的先例。法院對「轉化性使用」的限縮解釋，直接衝擊 AI 開發商的合理使用抗辯。如果法院認定 AI 生成內容的「用途」（如生成圖像、文章）與原作的市場用途「實質相同」，則無論 AI 技術本身多麼具有「轉化性」，第一要素仍可能對 AI 開發商不利。Thomson Reuters v. ROSS 案已率先引用 Warhol 案駁回被告的合理使用抗辯。',
+    taiwan: '台灣著作權實務在判斷合理使用時，亦應注意「特定使用行為」而非僅關注技術本身是否具轉化性。Warhol 案的核心教訓：即使 AI 模型的訓練過程具有轉化性，但若 AI 的「輸出」與原作競爭同一市場，合理使用抗辯仍可能失敗。此分析框架對台灣智財法院處理 AI 生成內容的著作權爭議至關重要。',
+    sources: [
+      { label: 'Supreme Court Opinion', url: 'https://www.supremecourt.gov/opinions/22pdf/21-869_87ad.pdf' },
+      { label: 'Oyez', url: 'https://www.oyez.org/cases/2022/21-869' },
+      { label: 'WIPO Analysis', url: 'https://www.wipo.int/en/web/wipo-magazine/articles/in-the-courts-the-us-supreme-courts-warhol-decision-revisits-the-boundaries-of-fair-use-56582' }
+    ]
+  }
+];
+
+// ════════════════════════════════════════
+// RENDER FAIR USE CASES
+// ════════════════════════════════════════
+let fairUseRendered = false;
+function renderFairUseCases() {
+  if (fairUseRendered) return;
+  fairUseRendered = true;
+  const timeline = document.getElementById('fairuseTimeline');
+  timeline.innerHTML = fairUseCases.map(c => `
+    <div class="fu-card" id="fu-${c.id}" onclick="toggleFuCard('${c.id}')">
+      <div class="fu-card-header">
+        <div>
+          <div class="fu-card-title">${c.name}</div>
+          <div class="fu-card-court">${c.court}</div>
+        </div>
+        <div class="fu-card-year">${c.year}</div>
+      </div>
+      <div class="fu-card-toggle">&#9660; 點擊展開詳細分析 Click to expand</div>
+      <div class="fu-card-body">
+        <div class="fu-subsection">
+          <div class="fu-subsection-title">案件概述 Summary</div>
+          <p>${c.summary}</p>
+          <span class="fu-outcome ${c.outcome === 'fair' ? 'fu-outcome-fair' : 'fu-outcome-notfair'}">${c.outcomeLabel}</span>
+        </div>
+        <div class="fu-subsection">
+          <div class="fu-subsection-title">判決要旨 Holding</div>
+          <p>${c.holding}</p>
+        </div>
+        <div class="fu-subsection">
+          <div class="fu-subsection-title">四要素分析 Four-Factor Analysis</div>
+          <div class="fu-factor-tags">
+            ${c.factors.map(f => `<span class="fu-factor-tag ${f.cls}" title="${f.text}">${f.label}</span>`).join('')}
+          </div>
+          <div style="margin-top:10px;">
+            ${c.factors.map(f => `<div style="font-size:13px;margin:4px 0;color:var(--text);"><strong>${f.label}:</strong> ${f.text}</div>`).join('')}
+          </div>
+        </div>
+        <div class="fu-subsection">
+          <div class="fu-subsection-title">對 AI 著作權訴訟之影響 AI Litigation Relevance</div>
+          <p>${c.aiRelevance}</p>
+        </div>
+        <div class="fu-subsection">
+          <div class="fu-subsection-title">對台灣實務的啟示 Taiwan Implications</div>
+          <div class="fu-taiwan-note">${c.taiwan}</div>
+        </div>
+        <div class="fu-subsection">
+          <div class="fu-subsection-title">資料來源 Sources</div>
+          ${c.sources.map(s => `<a href="${s.url}" target="_blank" class="fu-source-link">${s.label}</a>&nbsp;&nbsp;`).join('')}
+        </div>
+      </div>
+    </div>
+  `).join('');
+}
+
+function toggleFuCard(id) {
+  const card = document.getElementById('fu-' + id);
+  card.classList.toggle('expanded');
+}
 </script>
 </body>
 </html>
