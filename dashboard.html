@@ -3199,22 +3199,25 @@ const fairUseCases = [
     id: 'googlebooks',
     name: 'Authors Guild v. Google (Google Books)',
     year: 2015,
-    court: 'U.S. Court of Appeals, 2nd Circuit, 804 F.3d 202',
+    court: 'S.D.N.Y. (2013) → U.S. Court of Appeals, 2nd Circuit, 804 F.3d 202 (2015)',
     outcome: 'fair',
     outcomeLabel: '合理使用成立',
-    summary: '美國作家協會控告 Google 未經授權掃描數千萬冊受著作權保護的書籍，建立可搜尋的數位資料庫並顯示文本「片段」（snippets）。第二巡迴法院裁定 Google Books 構成合理使用。',
-    holding: '法院認定 Google 的數位化行為具有高度轉化性：將書籍從「可閱讀」的形式轉化為「可搜尋」的資訊索引工具。片段顯示功能經過精心設計，限制顯示比例以防止構成原書的替代品。Google 的商業動機不足以否定合理使用，因為其公共利益——使數百萬冊書籍可被搜尋——極為顯著。最高法院於 2016 年拒絕受理上訴。',
+    summary: '2004 年，Google 啟動「圖書館計畫」（Library Project），與密西根大學、哈佛大學、史丹佛大學、牛津大學及紐約公共圖書館等主要研究型圖書館合作，大規模掃描其館藏書籍並建立數位可搜尋索引。至訴訟期間，Google 已掃描超過 2,000 萬冊書籍，其中大量仍受著作權保護。使用者在 Google Books 上搜尋關鍵字時，可看到包含搜尋詞彙的文本「片段」（snippets）——每次僅顯示約八分之一頁的內容，且同一頁面不會重複完整顯示。2005 年 9 月，美國作家協會（Authors Guild）代表全體著作權人提起集體訴訟，指控 Google 的掃描與片段顯示構成著作權侵害。',
+    holding: '<strong>和解協議與失敗（2008-2011）：</strong>雙方於 2008 年 10 月達成和解協議，Google 同意支付 1.25 億美元，其中 4,500 萬美元賠償權利人、3,450 萬美元成立「書籍權利登記處」（Book Rights Registry）、3,000 萬美元支付作家協會律師費。該和解採「退出制」（opt-out）——未主動退出的著作權人將自動納入。然而，美國司法部、電子前哨基金會（EFF）、多國政府及隱私團體均提出反對意見。2011 年 3 月 22 日，Chin 法官駁回修正後的和解協議，認定其範圍過廣，實質上賦予 Google 對孤兒著作（orphan works）的準壟斷地位，且「退出制」不當地將搜尋並同意的義務轉嫁給著作權人。Chin 法官建議改採「加入制」（opt-in），但雙方未能就此達成新協議。<br><br><strong>合理使用裁定（2013-2015）：</strong>和解破裂後，案件回歸實體審理。2013 年 11 月，Chin 法官裁定 Google Books 構成合理使用。2015 年 10 月，第二巡迴法院一致維持原判。法院認定：(1) Google 的數位化具有高度轉化性——將書籍從「可閱讀」形式轉化為「可搜尋」的資訊索引工具，使讀者得以在數百萬冊書籍中進行文字探勘（text mining）及學術研究；(2) 片段顯示功能經精心設計，每次僅顯示約八分之一頁且避免連續拼湊，不構成原書的市場替代品；(3) Google 的商業動機不足以否定合理使用，因為其公共利益極為顯著；(4) Google 提供合作圖書館數位副本的行為，基於圖書館將依著作權法使用之合理期待，亦不構成侵權。最高法院於 2016 年 4 月拒絕受理上訴（deny certiorari），第二巡迴法院判決確定。',
     factors: [
-      { label: '第一要素：有利', cls: 'fu-tag-favor', text: '從「閱讀」轉化為「搜尋索引」' },
-      { label: '第二要素：不利', cls: 'fu-tag-against', text: '原作多為創作性書籍' },
-      { label: '第三要素：中立', cls: 'fu-tag-mixed', text: '掃描全書但僅顯示有限片段' },
-      { label: '第四要素：有利', cls: 'fu-tag-favor', text: '片段不替代購買原書' }
+      { label: '第一要素：有利', cls: 'fu-tag-favor', text: '從「閱讀」轉化為「搜尋索引」與文字探勘工具，高度轉化' },
+      { label: '第二要素：不利', cls: 'fu-tag-against', text: '原作多為創作性書籍，但此因素權重因轉化程度而降低' },
+      { label: '第三要素：中立', cls: 'fu-tag-mixed', text: '掃描全書（量大），但輸出端僅顯示有限片段（約1/8頁），設有防拼湊機制' },
+      { label: '第四要素：有利', cls: 'fu-tag-favor', text: '片段不替代購買原書；反而可能促進銷售（書籍發現效應）' }
     ],
-    aiRelevance: '本案是 AI 著作權訴訟中最被頻繁援引的先例。AI 開發商（特別是 OpenAI）主張 AI 訓練類似 Google Books——將原作轉化為統計模型，而非直接複製或替代原作。然而，原告方主張 AI 生成內容可能直接替代原作市場，與 Google Books 的「片段限制」根本不同。',
-    taiwan: '台灣數位圖書館（如國家圖書館、HyRead）在進行大規模數位化時，可參考本案關於「轉化性數位化」的論理。台灣著作權法第 48 條至第 48 條之 1 對圖書館的合理使用有專門規定，但 AI 訓練用途是否涵蓋在內仍待釐清。',
+    aiRelevance: '本案是 AI 著作權訴訟中最被頻繁援引的先例，也是攻防最激烈的類比戰場。<br><br><strong>AI 開發商的援引：</strong>OpenAI、Google、Meta 等均主張 AI 訓練類似 Google Books——將原作轉化為統計模型中的權重參數，而非直接複製或替代原作。訓練過程如同建立「索引」，生成過程則如同「片段顯示」。<br><br><strong>原告方的反駁：</strong>(1) Google Books 的合理使用建立在「輸出端有嚴格限制」的前提上（八分之一頁、防拼湊機制），但 LLM 的輸出沒有此類內建限制，可在 prompt 引導下完整重現受保護內容（如紐約時報案所舉證）；(2) Google Books 的片段不替代「買一本書來讀」的市場，但 AI 生成的文章、圖像可能直接替代原作的授權與銷售市場；(3) 被駁回的和解協議本身就顯示，即使 Google 當年也認為大規模掃描需要授權——和解失敗後才轉向合理使用抗辯。<br><br><strong>Warhol 案的衝擊：</strong>2023 年 Warhol 案要求法院檢驗「特定使用行為」的目的是否與原作市場「實質相同」，此標準進一步削弱了 AI 開發商直接援引 Google Books 的空間，因為 AI 輸出的商業用途往往與原作的市場高度重疊。',
+    taiwan: '台灣啟示涵蓋多個層面：<br><br>(1) <strong>數位圖書館：</strong>國家圖書館、HyRead 等在進行大規模數位化時，可參考本案關於「轉化性數位化」的論理。台灣著作權法第 48 條至第 48 條之 1 對圖書館的合理使用有專門規定，但範圍遠較 Google Books 判決所允許者為窄。<br><br>(2) <strong>和解協議啟示：</strong>Chin 法官駁回和解的核心理由——「退出制」不當轉嫁義務予著作權人、孤兒著作的壟斷風險——對台灣在設計 AI 訓練資料的集體授權機制時極具警示意義。台灣若參考日本著作權法第 30 條之 4 建立 AI 訓練豁免，應注意避免重蹈 Google Books 和解案中「退出制」的爭議。<br><br>(3) <strong>AI 訓練類比：</strong>台灣智財法院未來在審理 AI 訓練合理使用抗辯時，應特別注意 Google Books 的核心前提——輸出端的「片段限制」——是否存在於被訴 AI 系統中。缺乏此限制的 AI 系統，其合理使用抗辯力道將大幅減弱。',
     sources: [
-      { label: 'Justia', url: 'https://law.justia.com/cases/federal/appellate-courts/ca2/13-4829/13-4829-2015-10-16.html' },
-      { label: 'Stanford Fair Use', url: 'https://fairuse.stanford.edu/case/authors-guild-v-google-inc/' }
+      { label: 'Second Circuit Opinion (Justia)', url: 'https://law.justia.com/cases/federal/appellate-courts/ca2/13-4829/13-4829-2015-10-16.html' },
+      { label: 'Stanford Fair Use Center', url: 'https://fairuse.stanford.edu/case/authors-guild-v-google-inc/' },
+      { label: 'EFF Case Page', url: 'https://www.eff.org/cases/authors-guild-v-google-part-ii-fair-use-proceedings' },
+      { label: 'WIPO — Settlement Rejection Analysis', url: 'https://www.wipo.int/en/web/wipo-magazine/articles/the-amended-google-book-settlement-judge-chins-decision-37728' },
+      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Authors_Guild,_Inc._v._Google,_Inc.' }
     ]
   },
   {
