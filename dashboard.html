@@ -3064,6 +3064,50 @@ function switchView(view) {
 // ════════════════════════════════════════
 const fairUseCases = [
   {
+    id: 'sony',
+    name: 'Sony Corp. v. Universal City Studios (Betamax)',
+    year: 1984,
+    court: 'U.S. Supreme Court, 464 U.S. 417',
+    outcome: 'fair',
+    outcomeLabel: '合理使用成立',
+    summary: '環球影業等影視公司控告 Sony，主張其製造的 Betamax 家用錄影機使消費者得以錄製電視節目，構成對著作權的輔助侵害（contributory infringement）及替代責任（vicarious liability）。最高法院以 5-4 裁定 Sony 不負侵權責任。',
+    holding: '最高法院確立兩項重大原則：(1) 消費者為「時移」（time-shifting）目的錄製免費電視節目，屬於合理使用；(2)「實質非侵權用途」（staple article of commerce / substantial non-infringing uses）原則——只要一項科技產品具備廣泛的合法用途，製造商即無需為使用者的侵權行為負擔替代責任。此判決確立了科技中立原則，被譽為美國著作權法對科技創新最重要的「護身符」。',
+    factors: [
+      { label: '第一要素：有利', cls: 'fu-tag-favor', text: '時移為個人非商業性使用' },
+      { label: '第二要素：不利', cls: 'fu-tag-against', text: '原作為具高度創意之影視作品' },
+      { label: '第三要素：不利', cls: 'fu-tag-against', text: '錄製整部節目' },
+      { label: '第四要素：有利', cls: 'fu-tag-favor', text: '時移不損害原作市場' }
+    ],
+    aiRelevance: '本案是 AI 平台防禦其底層技術合法性的最強盾牌。AI 開發商主張：如同錄影機具有大量合法用途，AI 模型同樣具備廣泛的非侵權用途（翻譯、摘要、程式輔助等），因此平台本身不應為使用者生成侵權內容的行為負責。然而，原告方主張 AI 與錄影機根本不同——AI 訓練過程本身即構成大規模複製，不僅僅是提供「工具」而已。',
+    taiwan: '台灣著作權法對「輔助侵害」的規範不如美國明確，主要依據民法共同侵權行為及著作權法第 87 條處理。Sony 案的「實質非侵權用途」原則，可作為台灣在判斷 AI 平台業者責任時的重要參考框架，尤其在討論平台是否應為使用者的 AI 生成內容負責時。',
+    sources: [
+      { label: 'Justia', url: 'https://supreme.justia.com/cases/federal/us/464/417/' },
+      { label: 'Oyez', url: 'https://www.oyez.org/cases/1983/81-1687' }
+    ]
+  },
+  {
+    id: 'harper',
+    name: 'Harper & Row v. Nation Enterprises',
+    year: 1985,
+    court: 'U.S. Supreme Court, 471 U.S. 539',
+    outcome: 'notfair',
+    outcomeLabel: '合理使用不成立',
+    summary: '《The Nation》雜誌在福特前總統回憶錄正式出版前，搶先刊登其中約 300 字關於赦免尼克森的核心段落。Harper & Row（出版商）起訴 The Nation 侵害著作權。最高法院以 6-3 裁定 The Nation 的行為不構成合理使用。',
+    holding: '最高法院確立「作品之心臟」（heart of the work）原則：即便使用的「量」極少（僅 300 字），但若所取用的是原作中最具實質重要性的精華部分，第三要素仍對被告不利。法院並特別強調「首次發表權」（right of first publication）的重要性——未出版作品的合理使用空間更為狹窄。此外，法院認定 The Nation 的搶先刊登直接導致《時代》雜誌取消連載合約，嚴重損害了原作的潛在市場。',
+    factors: [
+      { label: '第一要素：不利', cls: 'fu-tag-against', text: '搶先報導具明顯商業動機' },
+      { label: '第二要素：不利', cls: 'fu-tag-against', text: '未出版作品受更高保護' },
+      { label: '第三要素：不利', cls: 'fu-tag-against', text: '雖量少但取用「作品之心臟」' },
+      { label: '第四要素：不利', cls: 'fu-tag-against', text: '直接導致授權合約取消' }
+    ],
+    aiRelevance: '本案是 AI 訴訟中原告方最常援引的先例之一。在紐約時報訴 OpenAI 案中，原告大量引用 Harper & Row，主張 ChatGPT「記憶」（memorization）並精準重現受保護內容的核心精華——即便在龐大的訓練語料中佔比極低，只要所重現的是原作的「心臟」，仍構成侵權。此論理直接挑戰 AI 開發商「我們只用了整體語料庫的極小部分」的數量稀釋抗辯。',
+    taiwan: '台灣著作權法第 65 條第 2 項第 3 款（所利用之質量及其在整個著作所佔之比例）的判斷上，Harper & Row 案提醒法院不應僅以「量」的比例為斷，更應關注被利用部分在原作中的「質」的重要性。此原則在台灣處理 AI 生成內容是否構成「實質近似」時極具參考價值。',
+    sources: [
+      { label: 'Justia', url: 'https://supreme.justia.com/cases/federal/us/471/539/' },
+      { label: 'Oyez', url: 'https://www.oyez.org/cases/1984/83-1632' }
+    ]
+  },
+  {
     id: 'campbell',
     name: 'Campbell v. Acuff-Rose Music, Inc.',
     year: 1994,
