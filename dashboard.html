@@ -1013,6 +1013,25 @@ const caseSources = {
     { label: "KR-Asia - China Copyright Storm AI Content", url: "https://kr-asia.com/china-finds-itself-in-copyright-storm-as-creatives-protest-issues-with-ai-generated-content" },
     { label: "Authors Alliance - China AI Court Rulings", url: "https://www.authorsalliance.org/2025/04/03/chinas-controversial-court-rulings-on-ai-output-and-how-it-may-affect-people-in-the-us/" },
   ],
+  119: [
+    { label: "Lexology — 讀賣新聞 v. Perplexity 訴訟分析", url: "https://www.lexology.com/library/detail.aspx?g=6726fef0-cff1-49a0-adc3-5b403a79140b" },
+    { label: "日本経済新聞 — 日経・朝日、Perplexity 提訴報道", url: "https://www.nikkei.com/article/DGXZQOUD302I50Q5A730C2000000/" },
+    { label: "LatAm Journalism Review", url: "https://gaaaon.jp/blog/ai-copyright-perplexity-lawsuit-2025" },
+  ],
+  120: [
+    { label: "Nikkei — 日経・朝日 Perplexity 提訴原文", url: "https://www.nikkei.com/article/DGXZQOUD302I50Q5A730C2000000/" },
+    { label: "Lexology 訴訟分析", url: "https://www.lexology.com/library/detail.aspx?g=6726fef0-cff1-49a0-adc3-5b403a79140b" },
+  ],
+  121: [
+    { label: "Variety — CODA / Studio Ghibli OpenAI Sora2 聲明", url: "https://variety.com/2025/digital/news/studio-ghibli-openai-sora2-japanese-trade-group-coda-letter-1236568751/" },
+    { label: "TechCrunch — Japanese Publishers Demand OpenAI Stop", url: "https://techcrunch.com/2025/11/03/studio-ghibli-and-other-japanese-publishers-want-openai-to-stop-training-on-their-work/" },
+    { label: "The Register — Japan Asks OpenAI re: Anime", url: "https://www.theregister.com/2025/10/15/japan_openai_copyrighted_anime/" },
+  ],
+  122: [
+    { label: "Kluwer Copyright Blog — Brazil AI Copyright Case", url: "https://legalblogs.wolterskluwer.com/copyright-blog/the-first-major-generative-ai-and-copyright-case-in-brazil-first-impressions-and-challenges-ahead/" },
+    { label: "Daniel Law — Folha v. OpenAI Analysis", url: "https://www.daniel-ip.com/en/articles/brazils-first-generative-ai-copyright-dispute-folha-de-s-paulo-v-openai/" },
+    { label: "LatAm Journalism Review", url: "https://latamjournalismreview.org/news/folha-de-s-paulo-files-lawsuit-against-openai-for-unfair-competition-and-copyright-infringement/" },
+  ],
 };
 
 const cases = [
@@ -2419,6 +2438,54 @@ const cases = [
     issues: `四名中國插畫家聯合對小紅書（Xiaohongshu/RED）提起訴訟，主張小紅書旗下 AI 繪畫工具「Trik AI」未經授權使用其插畫作品訓練 AI 模型，侵害其複製權。Trik AI 擅長生成中國傳統風格畫作。\n\n關鍵法律爭點：(1) AI 訓練是否構成著作權侵害——這是中國首起直接挑戰 AI 訓練階段（input side）著作權合法性的訴訟；(2) 合理使用抗辯——小紅書主張使用原告作品訓練 AI 模型應構成《著作權法》第24條的合理使用，原告則反駁商業性 AI 訓練不符合合理使用要件；(3)「暫時複製」vs.「永久複製」——中國法下著作權侵害取決於 AI 模型是否對著作權作品進行了「暫時」或「永久」複製。\n\n本案被視為中國版的「Andersen v. Stability AI」，將為中國 AI 訓練的著作權合法性設定先例。`,
     progress: `四名插畫家於 2023 年 11 月 29 日在北京互聯網法院提起訴訟。案件於 2024 年 6 月開庭審理。截至 2026 年 4 月，法院尚未作出判決。本案受到中國法律界及 AI 產業的高度關注，蓋其將首次回答「AI 訓練是否構成著作權侵害」這一核心問題。判決結果將對中國 AI 產業發展方向產生重大影響。`,
     taiwan: `本案對台灣具有直接參考意義：(1) AI 訓練階段的著作權問題——台灣目前亦缺乏明確的法律規範，本案判決將提供重要參考；(2) 合理使用的商業性考量——中國法院如何評價商業性 AI 訓練的合理使用抗辯，將影響台灣的法律解釋方向；(3) 插畫家／創作者的權利保護——台灣插畫及設計產業面臨相同挑戰，本案結果將為台灣創作者的維權策略提供指引；(4) 平台責任——小紅書作為社群平台同時經營 AI 工具，其責任認定對台灣類似平台（如 LINE、PChome 等）具有警示意義。`
+  },
+  {
+    id: 119,
+    name: "読売新聞 v. Perplexity AI（日本）",
+    court: "東京地方裁判所 (Tokyo District Court, Japan)",
+    judge: "TBA",
+    status: "active",
+    claims: ["Direct Copyright", "Right of Reproduction", "Right of Public Transmission"],
+    defendants: "Perplexity AI, Inc.",
+    issues: `日本最大發行量報紙讀賣新聞（株式会社読売新聞東京本社）於 2025 年 8 月 7 日向東京地方裁判所提起訴訟，主張 Perplexity AI 的「答案引擎」（answer engine）在未經授權的情況下，大規模擷取、複製讀賣新聞的線上新聞文章，並以 AI 生成的摘要形式向用戶傳送，侵害其複製權（複製権）及公衆送信権。\n\n本案是日本首批直接針對 AI 答案引擎提起的著作權訴訟之一，在日本《著作權法》第 30 條之 4 的寬鬆 AI 訓練豁免框架下，本案重點在於：AI「輸出」而非「訓練」階段的侵權責任，超越了訓練資料是否合法的爭議，直指 AI 即時抓取並重述新聞內容的行為。\n\n求償金額約為新台幣 4.5 億元（約 21 億日圓）。`,
+    progress: `【2025/8/7】讀賣新聞在東京地裁提起訴訟，請求停止侵權行為及損害賠償。Perplexity AI 尚未正式出庭答辯。案件目前處於初步程序階段。\n\n本案與日本經濟新聞（日経）及朝日新聞對 Perplexity 的同期訴訟共同構成日本媒體對 AI 答案引擎的三線法律攻勢。`,
+    taiwan: `本案對台灣的啟示：\n\n1. 日本《著作權法》第 30 條之 4 雖賦予 AI 訓練廣泛豁免，但本案凸顯「輸出侵權」仍是獨立爭點——台灣著作權法同樣未對 AI 輸出內容的侵權責任有明確規定，本案判決具有填補立法空白的參考價值。\n2. 台灣各大媒體（中時、聯合、自由）均面臨 Perplexity、ChatGPT 等工具同樣的內容摘要問題，應密切追蹤本案判決走向。\n3. 「公衆送信権」侵害在台灣對應著作權法第 26 條之 1「公開傳輸權」，可作為台灣媒體業者主張 AI 侵權的法律基礎。`
+  },
+  {
+    id: 120,
+    name: "日本経済新聞・朝日新聞 v. Perplexity AI（日本）",
+    court: "東京地方裁判所 (Tokyo District Court, Japan)",
+    judge: "TBA",
+    status: "active",
+    claims: ["Direct Copyright", "Right of Reproduction", "Right of Public Transmission"],
+    defendants: "Perplexity AI, Inc.",
+    issues: `日本經濟新聞（日経新聞）與朝日新聞於 2025 年 7 月 26 日聯合向東京地裁提起訴訟，主張 Perplexity AI 非法爬取其付費牆後的新聞文章，以 AI 摘要形式向使用者呈現，構成複製權及公衆送信権侵害。兩家媒體各自求償約 22 億日圓。\n\n本案與讀賣新聞訴訟（Case 119）構成日本主要媒體對 Perplexity AI 的協調法律行動。核心法律爭點在於：Perplexity 的即時內容爬取（real-time crawling）是否不同於 AI 「訓練」行為，因而不受日本著作權法第 30 條之 4 AI 豁免條款保護，而應被認定為直接侵害。`,
+    progress: `【2025/7/26】日本経済新聞及朝日新聞提起訴訟。案件目前處於初步程序階段，Perplexity AI 未就日本訴訟公開回應。\n\n日本政府亦於 2025 年 10 月以知識產權戰略推進秘書處名義，正式要求 OpenAI 停止侵害動漫、漫畫著作權，顯示日本官民雙管齊下對 AI 著作權問題的重視。`,
+    taiwan: `本案對台灣的啟示：\n\n1. 日本三大報社（讀賣、日經、朝日）聯合行動的模式，值得台灣媒體業者（中時、聯合、自由等）考慮仿效，透過集體訴訟或聯合聲明增加法律與談判籌碼。\n2. 日本 AI 訓練豁免（著作権法第 30 條之 4）的邊界問題——本案直接挑戰「訓練豁免」與「即時抓取輸出」之間的界線，對台灣著作權法未來修法方向具有參考意義。\n3. 付費牆保護與 AI 爬取：台灣媒體業者應評估現有技術及法律手段，防止 AI 工具繞過付費牆擷取內容。`
+  },
+  {
+    id: 121,
+    name: "CODA 等日本出版商 v. OpenAI（Sora2 著作權申訴）",
+    court: "尚未提訴（正式申訴函階段）",
+    judge: "N/A",
+    status: "active",
+    claims: ["Potential Copyright Infringement", "AI Training without Authorization"],
+    defendants: "OpenAI, Inc.",
+    issues: `2025 年 10 月至 11 月，日本內容海外流通促進機構（CODA）代表包括 Studio Ghibli、集英社（Shueisha）、講談社（Kodansha）、小學館（Shogakukan）、角川（Kadokawa）、萬代南夢宮（Bandai Namco）、史克威爾艾尼克斯（Square Enix）等 18 家日本頂尖動漫與遊戲公司，向 OpenAI 提交正式申訴函，指控其影像生成模型 Sora 2 的輸出內容「與日本著作權作品高度近似」，並要求 OpenAI 停止未經授權使用其成員的著作物訓練 AI 模型。\n\n本案目前尚未正式提訴，但各業者已明確表示若 OpenAI 不採取行動將提起訴訟。法律爭點：(1) Sora 2 輸出內容與漫畫、動畫角色的「實質近似」認定；(2) 日本著作权法第 30 條之 4 AI 訓練豁免的邊界——生成侵權輸出是否仍受保護；(3) 日本政府知識產權戰略推進秘書處已正式介入，使本案具有監管層面的重要性。`,
+    progress: `【2025/10】日本政府知識產權戰略推進秘書處正式要求 OpenAI 停止侵害動漫及漫畫著作權。\n\n【2025/10/30 — 11/3】CODA 代表 18 家日本媒體公司提交正式申訴函。漫畫藝術家「資料罷工」（data strike）：逾 500 位漫畫家拒絕上傳新作，以避免作品被 AI 爬取。\n\n【截至 2026/4】尚未正式提訴。OpenAI 未就申訴函公開作出具體回應。業界預計若協商破裂，將於 2026 年提起正式訴訟。`,
+    taiwan: `本案對台灣的啟示：\n\n1. 台灣動漫及 IP 產業（如霹靂布袋戲、宇宙人、台灣漫畫家協會）面臨與 CODA 會員完全相同的困境，應評估組建類似的跨業協會，以集體方式向 AI 開發商主張授權或補償。\n2. 日本著作權法第 30 條之 4 的寬鬆訓練豁免，使日本成為 AI 訓練最友善的主要法域之一，但本案顯示即使在此豁免框架下，「侵權輸出」仍面臨法律責任。台灣文化部在研議 AI 著作權政策時，應注意此「訓練豁免 vs. 輸出責任」的雙層架構。\n3. 資料罷工（data strike）的概念值得台灣創作者社群參考，作為在法律訴訟以外的集體行動手段。`
+  },
+  {
+    id: 122,
+    name: "Folha de S.Paulo v. OpenAI（巴西）",
+    court: "Tribunal de Justiça de São Paulo (TJSP), Brazil",
+    judge: "Fábio Henrique Prado de Toledo",
+    status: "active",
+    claims: ["Direct Copyright", "Unfair Competition", "Request for Model Destruction"],
+    defendants: "OpenAI, Inc.",
+    issues: `巴西最大發行量報紙《Folha de S.Paulo》（Folha da Manhã S.A.）於 2025 年 8 月 20 日向聖保羅州法院（TJSP）提起訴訟（案號：1107237-96.2025.8.26.0100），成為巴西首件針對生成式 AI 的重大著作權訴訟。\n\n本案主張 OpenAI 的 ChatGPT 非法使用 Folha 的新聞文章（包括付費牆後內容）訓練語言模型，並以 AI 生成摘要替代原始新聞，侵害其著作權及不正競爭。\n\n本案特別之處：\n(1) 除著作權外，另援引「不正競爭」理由（不受合理使用例外限制），擴大訴訟基礎；\n(2) 依據《巴西著作權法》第 106 條，請求銷毀涉及侵權的 AI 模型（confiscation or destruction of tools used in infringing activity）——此主張在全球 AI 著作權訴訟中屬首見，具有重大法律意義；\n(3) 案件由法院裁定保密，涉及 OpenAI 商業機密。`,
+    progress: `【2025/8/20】Folha 提起訴訟。\n\n【2025/9/3】Toledo 法官作出首份重要裁定：駁回緊急臨時禁止令聲請，認為尚未充分證明不可回復之損害；給予 Folha 機會在後續程序補充緊急性證據。法院同時准許 OpenAI 的保密申請，部分訴訟資料列為機密。\n\n【2025/10/14】預定初步聽證，Folha 提交緊急損害補充證據。\n\n【截至 2026/4】案件繼續審理中，巴西法律界密切關注，視本案為巴西 AI 著作權法律框架的「風向標」。`,
+    taiwan: `本案對台灣的啟示：\n\n1. 「模型銷毀」請求在巴西法下有明文依據（著作権法第 106 條），台灣著作權法第 88 條之 1 僅規定銷毀侵權物，是否可延伸至 AI 模型本身仍有疑問——本案將提供比較法參考。\n2. 「不正競爭」與著作權的雙重主張策略：台灣除著作權法外，公平交易法第 25 條（其他足以影響交易秩序之欺罔或顯失公平行為）可能是對 AI 業者採取法律行動的另一途徑。\n3. 巴西《AI 法案》於 2024 年 12 月參議院通過，其著作權相關條款將直接影響本案走向，台灣行政院研議中的《AI 基本法》草案可參考巴西的立法與司法互動模式。`
   }
 ];
 
