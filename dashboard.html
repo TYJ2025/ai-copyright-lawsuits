@@ -2798,6 +2798,90 @@ const cases = [
     issues: `巴西最大發行量報紙《Folha de S.Paulo》（Folha da Manhã S.A.）於 2025 年 8 月 20 日向聖保羅州法院（TJSP）提起訴訟（案號：1107237-96.2025.8.26.0100），成為巴西首件針對生成式 AI 的重大著作權訴訟。\n\n本案主張 OpenAI 的 ChatGPT 非法使用 Folha 的新聞文章（包括付費牆後內容）訓練語言模型，並以 AI 生成摘要替代原始新聞，侵害其著作權及不正競爭。\n\n本案特別之處：\n(1) 除著作權外，另援引「不正競爭」理由（不受合理使用例外限制），擴大訴訟基礎；\n(2) 依據《巴西著作權法》第 106 條，請求銷毀涉及侵權的 AI 模型（confiscation or destruction of tools used in infringing activity）——此主張在全球 AI 著作權訴訟中屬首見，具有重大法律意義；\n(3) 案件由法院裁定保密，涉及 OpenAI 商業機密。`,
     progress: `【2025/8/20】Folha 提起訴訟。\n\n【2025/9/3】Toledo 法官作出首份重要裁定：駁回緊急臨時禁止令聲請，認為尚未充分證明不可回復之損害；給予 Folha 機會在後續程序補充緊急性證據。法院同時准許 OpenAI 的保密申請，部分訴訟資料列為機密。\n\n【2025/10/14】預定初步聽證，Folha 提交緊急損害補充證據。\n\n【截至 2026/4】案件繼續審理中，巴西法律界密切關注，視本案為巴西 AI 著作權法律框架的「風向標」。`,
     taiwan: `本案對台灣的啟示：\n\n1. 「模型銷毀」請求在巴西法下有明文依據（著作権法第 106 條），台灣著作權法第 88 條之 1 僅規定銷毀侵權物，是否可延伸至 AI 模型本身仍有疑問——本案將提供比較法參考。\n2. 「不正競爭」與著作權的雙重主張策略：台灣除著作權法外，公平交易法第 25 條（其他足以影響交易秩序之欺罔或顯失公平行為）可能是對 AI 業者採取法律行動的另一途徑。\n3. 巴西《AI 法案》於 2024 年 12 月參議院通過，其著作權相關條款將直接影響本案走向，台灣行政院研議中的《AI 基本法》草案可參考巴西的立法與司法互動模式。`
+  },
+  {
+    id: 123,
+    name: "Barkley Associates v. Quizlet (AI 教育內容)",
+    court: "U.S. District Court, Central District of California",
+    judge: "Judge Wu",
+    status: "active",
+    claims: ["Direct Copyright", "Vicarious Copyright", "Trademark Infringement"],
+    defendants: "Quizlet, Inc.",
+    issues: `Barkley & Associates（護理師執照考試教材出版商）控告 Quizlet，主張其「Quizlet+ AI」功能非法使用 Barkley 的專有考試準備教材訓練 AI 系統，生成模仿 Barkley 專有內容的教育輸出。訴狀指控 Quizlet 不僅容許使用者上傳侵權內容，更直接複製 Barkley 的教材訓練 AI，涉及至少 12 部受著作權保護的作品及商標侵害。\n\n核心法律爭點：(1) AI 平台使用結構化專有教育內容進行訓練，是否構成合理使用？(2) 平台對使用者上傳侵權內容的「間接侵權」責任。`,
+    progress: `【2024/7/16】Barkley 提起訴訟。\n\n【2025/9】法院駁回 Quizlet 的駁回動議，允許直接侵權及間接侵權主張進入實質審理。法院拒絕在此階段接受 Quizlet 的合理使用抗辯，強調 Barkley 已充分主張其教材內容的原創性。\n\n【截至 2026/4】案件進入事實調查（discovery）階段。`,
+    taiwan: `台灣啟示：本案對台灣的教育科技（EdTech）產業極具參考價值。台灣的線上學習平台（如均一教育、PaGamO）若使用 AI 功能生成教育內容，需注意所引用教材的著作權授權問題。特別是結構化的專有教育內容（如考試題庫），其「編輯著作」在著作權法下享有獨立保護。`
+  },
+  {
+    id: 124,
+    name: "Attack the Sound v. Kunlun Tech Co. (Mureka AI 音樂)",
+    court: "U.S. District Court, Northern District of Illinois, 1:25-cv-15354",
+    judge: "TBA",
+    status: "active",
+    claims: ["Direct Copyright", "DMCA §1201 Anti-Circumvention", "BIPA Violation", "Right of Publicity"],
+    defendants: "Kunlun Tech Co., Ltd., Skywork AI",
+    issues: `多位音樂人及 Attack the Sound LLC 對中國公司崑崙科技（Kunlun Tech）及其子公司 Skywork AI 提起訴訟，指控其 AI 音樂生成器 Mureka AI 非法使用原告的受著作權保護之音樂及聲音進行訓練。\n\n本案採「多向量攻擊」策略，結合著作權法、DMCA 反規避條款、伊利諾州《生物資訊隱私法》（BIPA）、人格權（right of publicity）及消費者欺詐等多項請求權基礎。\n\n本案為美國第二件針對中國 AI 公司的著作權訴訟（第一件為 Disney v. MiniMax）。`,
+    progress: `【2025/12/17】原告提起訴訟。案件目前處於初步程序階段。\n\n【截至 2026/4】等待被告回應。由於被告為中國公司，跨國送達可能造成程序延遲。`,
+    taiwan: `台灣啟示：\n\n1. 本案的「多向量攻擊」訴訟策略值得台灣律師參考——除著作權外，結合個資法（類似 BIPA）、人格權及公平交易法等多元請求權基礎。\n2. 中國 AI 音樂生成器在台灣市場亦有使用者，台灣音樂創作者面臨類似的跨境侵權風險。\n3. 跨國送達及執行的困難，在台灣對中國公司提起訴訟時同樣存在。`
+  },
+  {
+    id: 125,
+    name: "Chegg v. Google (AI Overviews 反壟斷/著作權)",
+    court: "U.S. District Court, District of Columbia, 1:25-cv-00543",
+    judge: "TBA",
+    status: "active",
+    claims: ["Antitrust (Sherman Act)", "Copyright-related claims"],
+    defendants: "Google LLC",
+    issues: `教育科技公司 Chegg 控告 Google，主張 Google 的 AI Overviews 功能（在搜尋結果頂部直接顯示 AI 生成答案）非法使用 Chegg 擁有的 1.35 億道問答資料訓練 AI 模型，並以 AI 摘要取代使用者造訪 Chegg 網站的需求。\n\n本案主要以反壟斷法為訴因，但涉及重要的著作權問題：(1) Google 是否以「互惠交易」（reciprocal dealing）方式迫使 Chegg 等內容提供者提供專有內容以換取搜尋排名？(2) AI Overviews 是否構成對原始內容的市場替代？`,
+    progress: `【2025/2/24】Chegg 提起訴訟。\n\n【2025/6/9】原告提交修正訴狀。\n\n【2025/9/19】被告提交更新駁回動議。\n\n【截至 2026/4】Chegg 的非訂閱流量於 2025 年 1 月暴跌至負 49%，2024 年淨虧損 8.37 億美元。案件審理中。`,
+    taiwan: `台灣啟示：本案凸顯「AI 搜尋」對內容提供者生存的威脅。台灣的知識型網站（如痞客邦、巴哈姆特、Mobile01）面臨 Google AI Overview 及其他 AI 搜尋引擎的類似流量侵蝕風險。台灣公平交易委員會應關注此案對數位市場競爭秩序的影響。`
+  },
+  {
+    id: 126,
+    name: "Koda v. Suno（丹麥）",
+    court: "Copenhagen City Court, Denmark",
+    judge: "TBA",
+    status: "active",
+    claims: ["Copyright Infringement", "Unauthorized AI Training"],
+    defendants: "Suno, Inc.",
+    issues: `丹麥著作權集體管理組織 Koda（代表約 51,000 名作曲家、作詞家及出版商）對美國 AI 音樂公司 Suno 提起訴訟，指控 Suno 未經授權、未支付報酬，使用丹麥音樂作品訓練其 AI 音樂生成模型。\n\nKoda 提交證據顯示 Suno 生成的曲目與丹麥知名藝人（如 Aqua、MØ、Christopher 等）的原作存在高度相似性，並指控 Suno 透過串流擷取（stream-ripping）及歌詞爬取等方式取得訓練資料。\n\n核心法律爭點：Suno 的合理使用抗辯在歐盟法下是否成立？——歐盟著作權法不承認美國式的合理使用原則，僅有《DSM 指令》第 4 條的文字與資料探勘例外，且權利人可依第 4(3) 條選擇退出。`,
+    progress: `【2025/11/4】Koda 正式提起訴訟。\n\n【截至 2026/4】案件審理中。Koda 預估若 AI 衝擊持續，丹麥音樂產業至 2030 年將面臨累計 69 億丹麥克朗（約 28%）的收入損失。`,
+    taiwan: `台灣啟示：\n\n1. 台灣的 MÜST（社團法人中華音樂著作權協會）可參考 Koda 的集體訴訟模式，代表台灣音樂創作者對 AI 音樂生成平台主張權利。\n2. 歐盟 DSM 指令的 TDM 退出機制（opt-out）提供了台灣修法時可參考的「中間路線」——既允許 AI 訓練，又保障權利人選擇退出的權利。\n3. Suno 在台灣已有相當用戶基礎，台灣音樂創作者的權益保護亟待建立法律框架。`
+  },
+  {
+    id: 127,
+    name: "RTI & Medusa Film v. Perplexity AI（義大利）",
+    court: "Civil Court of Rome, Italy",
+    judge: "TBA",
+    status: "active",
+    claims: ["Copyright Infringement", "Related Rights Infringement"],
+    defendants: "Perplexity AI, Inc.",
+    issues: `義大利 Mediaset 集團旗下的 RTI S.p.A.（Reti Televisive Italiane）及 Medusa Film S.p.A. 對 Perplexity AI 提起訴訟，指控 Perplexity 大規模、系統性地未經授權使用其影視及電影作品訓練 AI 系統。\n\n本案為義大利首件 AI 著作權訴訟。原告主張 AI 模型的訓練不是單純的技術性或內部使用，而構成對作品的實質經濟利用——模型吸收並內化了敘事結構、表達元素及視聽序列。\n\n原告請求：(1) 確認 Perplexity 行為違法；(2) 禁止繼續未經授權使用其內容；(3) 損害賠償；(4) 對未來違規行為課以每日罰金。`,
+    progress: `【2025/12】RTI 及 Medusa Film 正式提起訴訟。\n\n【截至 2026/4】案件審理中。本案適用歐盟《DSM 指令》及義大利著作權法（Legge 22 aprile 1941, n. 633）。`,
+    taiwan: `台灣啟示：本案顯示 AI 著作權訴訟已擴展至影視產業。台灣的影視內容業者（如三立、TVBS、中影）應關注 AI 搜尋引擎及生成工具對其影視內容的未經授權使用，並評估在台灣或內容消費地提起訴訟的可行性。`
+  },
+  {
+    id: 128,
+    name: "Penguin Random House v. OpenAI（德國 — 小火龍椰子案）",
+    court: "Munich Regional Court (Landgericht München I), Germany",
+    judge: "TBA",
+    status: "active",
+    claims: ["Copyright Infringement", "AI Memorization"],
+    defendants: "OpenAI Ireland Ltd.",
+    issues: `企鵝蘭登書屋（Penguin Random House）德國分公司於慕尼黑地方法院對 OpenAI 愛爾蘭子公司提起訴訟，指控 ChatGPT 能夠生成與德國知名兒童文學系列《小火龍椰子》（Der kleine Drache Kokosnuss，作者 Ingo Siegner）幾乎無法區分的故事、圖像甚至封面設計。\n\n更嚴重的是，ChatGPT 還能複製書背文案，並在被要求時提供如何透過自出版平台從 AI 生成的副本獲利的指南。\n\n核心法律爭點：AI 模型的「記憶化」（memorization）——ChatGPT 逐字重現受保護作品的大量內容，是否構成著作權侵害？\n\n法律背景：2025 年 11 月慕尼黑法院在 GEMA v. OpenAI 案中已裁定 ChatGPT 使用受保護歌詞構成著作權侵害，為本案提供有利先例。`,
+    progress: `【2026/3/27】Penguin Random House 向慕尼黑地方法院提起訴訟。出版商的法律團隊先前曾正式要求 OpenAI 從 ChatGPT 移除爭議內容，但未獲回應後提起法律行動。\n\n【截至 2026/4】案件處於初步階段。`,
+    taiwan: `台灣啟示：\n\n1. 本案直接涉及 AI「記憶化」問題——ChatGPT 逐字重現受保護的兒童文學內容，這對台灣出版業（尤其是童書出版商如小天下、親子天下）是重要警示。\n2. 德國法院在 GEMA v. OpenAI 先例中已認定 AI 輸出受保護內容構成侵權，此趨勢若成為歐盟通行標準，將對全球 AI 業者的合規義務產生深遠影響。\n3. 台灣著作權法第 91 條對「重製」的認定，應可涵蓋 AI 模型逐字重現受保護內容的行為。`
+  },
+  {
+    id: 129,
+    name: "DPG Media v. HowardsHome（荷蘭 — TDM 退出機制）",
+    court: "Amsterdam District Court, Netherlands",
+    judge: "TBA",
+    status: "active",
+    claims: ["Publishers' Right Infringement", "Copyright Infringement", "Database Right Infringement"],
+    defendants: "HowardsHome",
+    issues: `比利時媒體集團 DPG Media 及 Mediahuis（合計佔荷蘭線上商業新聞市場逾 90%）對 HowardsHome 提起訴訟，後者透過 RSS 摘要及爬蟲技術擷取新聞內容提供資訊聚合服務。\n\n本案雖非典型的 AI 訓練爭議，但法院就歐盟《DSM 指令》第 4 條「文字與資料探勘」（TDM）例外的適用作出重要裁定：\n(1) 出版者的 TDM 退出聲明必須以「機器可讀」（machine-readable）方式為之，僅在 ToS 中聲明不足以構成有效退出；\n(2) 法院認定 HowardsHome 的內容擷取行為落入 TDM 例外範圍，因出版者未以適當技術手段表明保留權利。\n\n此裁定為歐盟第三件涉及 TDM 例外的法院判決，對 AI 訓練資料取得的合法性具有重大指標意義。`,
+    progress: `【2024/10/30】阿姆斯特丹地方法院作出裁定。\n\n【截至 2026/4】出版者預計提起上訴。本案被視為歐盟 TDM 退出機制的關鍵先例。`,
+    taiwan: `台灣啟示：\n\n1. 本案凸顯「技術性退出機制」的重要性——台灣的內容業者若希望阻止 AI 爬取其內容，僅在服務條款中聲明「禁止 AI 使用」可能不足，需配合 robots.txt、meta 標籤等機器可讀手段。\n2. 台灣目前未有類似歐盟 DSM 指令的 TDM 例外規定，但若未來修法參考歐盟模式，本案關於「退出機制」的技術要求將是重要參考。\n3. 對台灣的新聞媒體業者，本案提醒其應及早在技術層面部署 AI 爬取防護措施。`
   }
 ];
 
