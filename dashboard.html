@@ -671,10 +671,6 @@ const caseSources = {
     { label: "Variety", url: "https://variety.com/" },
     { label: "ChatGPT Is Eating The World", url: "https://chatgptiseatingtheworld.com/category/warner-brothers/" },
   ],
-  40: [
-    { label: "CourtListener MDL Docket", url: "https://www.courtlistener.com/docket/69879510/in-re-openai-inc-copyright-infringement-litigation/" },
-    { label: "ChatGPT Is Eating The World", url: "https://chatgptiseatingtheworld.com/category/in-re-openai-chatgpt-litigation/" },
-  ],
   41: [
     { label: "CourtListener Docket", url: "https://www.courtlistener.com/docket/68484432/daily-news-lp-v-microsoft-corporation/" },
     { label: "Bloomberg Law", url: "https://news.bloomberglaw.com/" },
@@ -1136,9 +1132,9 @@ const cases = [
     status: "mdl",
     claims: ["Multiple — consolidated"],
     defendants: "OpenAI Inc., Microsoft Corp.",
-    issues: `本案為多地區訴訟（Multidistrict Litigation, MDL）合併案件，由 Stein 法官統一管理 16 件以上針對 OpenAI 的著作權訴訟。合併案件包括：\n\n• In re OpenAI ChatGPT Litigation (Tremblay, Silverman, Chabon)\n• Millette v. OpenAI\n• Ziff Davis v. OpenAI\n• Denial v. OpenAI\n• Bird v. Microsoft\n• U.S. News & World Report v. OpenAI\n• California Newspaper Partnership v. Microsoft\n\n核心爭點橫跨直接侵害、代位侵害、輔助侵害、DMCA §1202 及商標侵害。`,
+    issues: `本案為多地區訴訟（Multidistrict Litigation, MDL）合併案件，由 Stein 法官統一管理逾 20 件針對 OpenAI 的著作權訴訟。本 MDL 的發起母案為 In re OpenAI ChatGPT Litigation，由知名作者 Paul Tremblay 及 Sarah Silverman 等人於 2023 年 6 月在加州北區提起，後於 2024 年 6 月轉入本 MDL（MDL No. 3143）統一管理。\n\n合併案件包括：\n• In re OpenAI ChatGPT Litigation（Tremblay、Silverman、Chabon——發起母案）\n• Authors Guild v. OpenAI\n• New York Times v. Microsoft/OpenAI\n• Millette v. OpenAI\n• Ziff Davis v. OpenAI\n• Bird v. Microsoft\n• U.S. News & World Report v. OpenAI\n• California Newspaper Partnership v. Microsoft\n• 及其他共逾 20 件相關訴訟\n\n核心爭點橫跨：(1) 無償使用海量受著作權保護著作進行商業 AI 訓練是否合理；(2) 模型參數中著作權作品的可識別程度；(3) DMCA §1202(b) 著作權管理資訊移除；(4) 微軟作為主要投資者及產品整合方的連帶責任。`,
     progress: `【2025 年 10 月】法院裁定原告已充分主張部分 AI 輸出與原告作品「實質近似」（substantially similar），合理陪審團可據以認定侵害。\n\n【2026 年 1 月 5 日】Stein 法官命令 OpenAI 提供 2,000 萬筆匿名化 ChatGPT 對話記錄。\n\n【2026 年 3 月】簡易判決簽報期限已修訂：回覆簡報現行期限為 2026 年 11 月 6 日（原為 10 月 16 日）。\n\n【2026 年 3 月 9 日】法院准許原告強制披露額外對話記錄的動議。\n\n此 MDL 是目前美國規模最大、涉及面最廣的 AI 著作權訴訟合併案件。`,
-    taiwan: `本案對台灣的啟示：\n\n1. 美國 MDL 制度高效整合分散於各地的同類訴訟，台灣目前缺乏類似機制。未來若出現大量 AI 著作權訴訟，台灣法院系統的因應能力值得關注。\n2. 本案涵蓋文字作品、新聞內容、資料庫等多種著作類型，其判決將形成全面性的 AI 著作權法律框架。\n3. 台灣智慧財產及商業法院作為專業法院，可考慮借鑑 MDL 經驗，建立 AI 著作權案件的合併審理機制。`
+    taiwan: `本案對台灣的啟示：\n\n1. 美國 MDL 制度高效整合分散於各地的同類訴訟，台灣目前缺乏類似機制。未來若出現大量 AI 著作權訴訟，台灣法院系統的因應能力值得關注。\n2. 本案涵蓋文字作品、新聞內容、資料庫等多種著作類型，其判決將形成全面性的 AI 著作權法律框架。\n3. 台灣智慧財產及商業法院作為專業法院，可考慮借鑑 MDL 經驗，建立 AI 著作權案件的合併審理機制。\n4. 台灣作者若在本 MDL 中有著作受侵害，理論上可申請加入集體訴訟；實務上需了解美國集體訴訟通知程序及賠償分配機制。`
   },
   {
     id: 11,
@@ -1487,18 +1483,6 @@ const cases = [
     issues: `華納兄弟娛樂公司與迪士尼公司分別針對 AI 圖像生成平台 Midjourney 提起訴訟。本案（華納兄弟案）聲稱 Midjourney 使用包含華納電影角色（超人、蝙蝠俠、兔寶寶、史酷比）圖像的訓練資料，未經授權。\n\n法律爭點包括：(1) 虛構角色的著作權保護範圍——字符設計是否受著作權保護？(2) 角色在多部作品中出現時，每部作品的著作權所有人是否均有控訴權？(3) AI 生成含有相似角色的新圖像，是否構成「衍生作品」侵害？`,
     progress: `案件於 2023 年 11 月在加州中區提起，Kronstadt 法官主持。經過訴訟律師會議，預計於 2026 年 7 月進行第一次駁回動議聽證會。原告已提交修正訴狀，擴大索賠範圍至商品化權侵害。`,
     taiwan: `台灣虛構角色與 AI 訓練的衝突：台灣本土動漫、遊戲角色（如寶可夢、靈魂獸等）若被 AI 公司用於訓練，台灣創作者的救濟途徑如何？本案對台灣虛構角色的著作權保護強度有重要啟示。`
-  },
-  {
-    id: 40,
-    name: "In re OpenAI ChatGPT Litigation (Tremblay/Silverman)",
-    court: "MDL Before Judge Stein",
-    judge: "Stein",
-    status: "mdl",
-    claims: ["Direct Copyright", "Vicarious Infringement", "DMCA §1202(b)", "State Law"],
-    defendants: "OpenAI L.P., Microsoft Corp.",
-    issues: `本案為針對 OpenAI 及微軟的首批重大集體訴訟，由知名作者 Paul Tremblay 及 Sarah Silverman 等提起。訴訟最初在加州北區提起，後被轉入多方訴訟（MDL）統一管理。本案代表針對 ChatGPT 訓練合法性的全面法律挑戰。\n\n核心爭點涵蓋：(1) 無償使用海量受著作權保護的著作進行商業 AI 訓練是否合理；(2) 模型參數中著作權作品的可識別程度；(3) OpenAI 是否應在其業務條款中揭露訓練資料來源？(4) 微軟作為主要資金來源及客戶的責任。`,
-    progress: `案件於 2023 年 6 月在加州北區提起，後於 2024 年 6 月轉入 MDL（MDL 2943），由 Judge Stein 主持。已超過 20 個相關訴訟被合併。集體訴訟認證動議預計於 2026 年下半年進行。此案將成為美國 AI 著作權訴訟的頂級先例。`,
-    taiwan: `台灣與國際 MDL 訴訟的互動：台灣作者若參與本 MDL，需理解美國集體訴訟的法律框架及賠償計算方式。同時，本案結果可能影響台灣未來是否引入 MDL 制度，特別是對大規模 AI 著作權侵害的救濟機制。`
   },
   {
     id: 41,
