@@ -4,6 +4,14 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>AI 著作權訴訟全球追蹤儀表板</title>
+<!-- Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-EYQX8HNZWL"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-EYQX8HNZWL');
+</script>
 <style>
   :root {
     --navy: #1a2332;
@@ -1428,7 +1436,7 @@ const cases = [
     claims: ["Direct Copyright", "Vicarious Infringement", "Contributory Infringement", "DMCA §1202(b)"],
     defendants: "Anthropic PBC",
     issues: `Concord Music Group、Universal Music Corp. 等音樂出版商控告 Anthropic 的 Claude AI 聊天機器人在回應使用者詢問時，大量輸出受著作權保護的歌詞，構成著作權侵害。\n\n核心爭點：(1) AI 模型輸出歌詞是否構成直接侵害；(2) Anthropic 是否因使用者利用 Claude 生成歌詞而構成代位侵害或輔助侵害；(3) AI 公司是否有義務建立有效的著作權過濾機制。`,
-    progress: `【2025 年初期裁定】法院駁回禁止令聲請（preliminary injunction），認為範圍過廣且未能證明不可回復之損害；並准許 Anthropic 的駁回動議，但允許原告修正訴狀。\n\n【2026 年 1 月】原告提起第二件更大規模訴訟，涵蓋超過 20,000 首歌曲，求償逾 31 億美元法定損害賠償。\n\n【2026 年 3 月 30 日】美國唱片工業協會（RIAA）、美國全國音樂出版商協會（NMPA）、美國出版商協會（AAP）、新聞/媒體聯盟、科技與醫學出版商協會（STM）以及 Authors Guild 等提交支持原告的法庭之友簡報（amicus briefs）。\n\n【2026 年 7 月 15 日】簡易判決聽證會（summary judgment hearing）定於舉行。本案最有可能在 2026 年獲得合理使用判決。`,
+    progress: `【2025 年初期裁定】法院駁回禁止令聲請（preliminary injunction），認為範圍過廣且未能證明不可回復之損害；並准許 Anthropic 的駁回動議，但允許原告修正訴狀。\n\n【2026 年 1 月】原告提起第二件更大規模訴訟，涵蓋超過 20,000 首歌曲，求償逾 31 億美元法定損害賠償。\n\n【2026/3/25】UMG、Concord、ABKCO 提交部分簡易判決動議（partial summary judgment），附 47 頁聲明列舉 218 項「不爭事實」，主張 Anthropic 侵權證據「壓倒性」，要求法院駁回合理使用抗辯。\n\n【2026/3/30】RIAA、NMPA、AAP、新聞/媒體聯盟、STM 及 Authors Guild 等提交支持原告的法庭之友簡報（amicus briefs）。\n\n【2026/4/7】原告援引最高法院 Cox Communications 判決及 Bartz v. Anthropic 解封文件，將蓄意輔助侵權（intentional contributory infringement）被告從 Anthropic 公司變更為 CEO Dario Amodei 及共同創辦人 Benjamin Mann 個人。\n\n【2026/7/15】簡易判決聽證會定於舉行。本案最有可能在 2026 年獲得合理使用判決。`,
     taiwan: `本案對台灣的啟示：\n\n1. 台灣的 MÜST（社團法人中華音樂著作權協會）等音樂著作權集管團體應密切關注本案發展，思考如何就 AI 輸出歌詞問題向台灣 AI 服務業者主張權利。\n2. AI 聊天機器人輸出歌詞在台灣可能構成著作權法第 92 條「公開傳輸」或第 91 條「重製」侵害。\n3. 本案凸顯的「過濾義務」問題，可與台灣著作權法第 90-4 條（ISP 責任限制）的通知取下機制類比思考——AI 平台業者是否應建立類似機制？`
   },
   {
@@ -2868,7 +2876,7 @@ const cases = [
     claims: ["Copyright Infringement", "AI Memorization"],
     defendants: "OpenAI Ireland Ltd.",
     issues: `企鵝蘭登書屋（Penguin Random House）德國分公司於慕尼黑地方法院對 OpenAI 愛爾蘭子公司提起訴訟，指控 ChatGPT 能夠生成與德國知名兒童文學系列《小火龍椰子》（Der kleine Drache Kokosnuss，作者 Ingo Siegner）幾乎無法區分的故事、圖像甚至封面設計。\n\n更嚴重的是，ChatGPT 還能複製書背文案，並在被要求時提供如何透過自出版平台從 AI 生成的副本獲利的指南。\n\n核心法律爭點：AI 模型的「記憶化」（memorization）——ChatGPT 逐字重現受保護作品的大量內容，是否構成著作權侵害？\n\n法律背景：2025 年 11 月慕尼黑法院在 GEMA v. OpenAI 案中已裁定 ChatGPT 使用受保護歌詞構成著作權侵害，為本案提供有利先例。`,
-    progress: `【2026/3/27】Penguin Random House 向慕尼黑地方法院提起訴訟。出版商的法律團隊先前曾正式要求 OpenAI 從 ChatGPT 移除爭議內容，但未獲回應後提起法律行動。\n\n【截至 2026/4】案件處於初步階段。`,
+    progress: `【2026/3/27】Penguin Random House 向慕尼黑地方法院提起訴訟。出版商的法律團隊先前曾正式要求 OpenAI 從 ChatGPT 移除爭議內容，但未獲回應後提起法律行動。\n\n【2026/4/3】媒體廣泛報導本案。值得注意的是，Penguin Random House 母公司 Bertelsmann 曾與 OpenAI 簽署合作協議，但該協議僅涵蓋線上、電視及雜誌媒體，不包括書籍業務。OpenAI 發言人表示正在調查相關指控，並與出版商進行「建設性對話」。\n\n【截至 2026/4/9】案件處於初步階段，等待 OpenAI 愛爾蘭子公司正式回應。`,
     taiwan: `台灣啟示：\n\n1. 本案直接涉及 AI「記憶化」問題——ChatGPT 逐字重現受保護的兒童文學內容，這對台灣出版業（尤其是童書出版商如小天下、親子天下）是重要警示。\n2. 德國法院在 GEMA v. OpenAI 先例中已認定 AI 輸出受保護內容構成侵權，此趨勢若成為歐盟通行標準，將對全球 AI 業者的合規義務產生深遠影響。\n3. 台灣著作權法第 91 條對「重製」的認定，應可涵蓋 AI 模型逐字重現受保護內容的行為。`
   },
   {
@@ -2889,18 +2897,17 @@ const cases = [
 // NEWS TICKER DATA
 // ════════════════════════════════════════
 const newsItems = [
-  { text: "【2026/4/8】Bartz v. Anthropic $15億和解最終公平性聽證預定4/23舉行 — 律師費分配爭議持續，約50萬著作權人受益", url: "https://authorsguild.org/advocacy/artificial-intelligence/what-authors-need-to-know-about-the-anthropic-settlement/" },
+  { text: "【2026/4/9】Concord Music v. Anthropic — 原告將輔助侵權被告從 Anthropic 公司變更為 CEO Dario Amodei 及共同創辦人 Benjamin Mann 個人，援引 Bartz 案解封文件及最高法院 Cox Communications 判決", url: "https://chatgptiseatingtheworld.com/2026/04/07/after-supreme-courts-decision-in-cox-communications-concord-music-changes-its-claim-of-intentional-contributory-infringement-from-anthropic-to-dario-amodei-benjamin-mann-based-on-evidence-revealed/" },
+  { text: "【2026/4/8】Bartz v. Anthropic $15億和解最終公平性聽證預定5/14舉行 — 律師費分配爭議持續，約50萬著作權人受益", url: "https://authorsguild.org/advocacy/artificial-intelligence/what-authors-need-to-know-about-the-anthropic-settlement/" },
   { text: "【2026/4/7】Getty v. Stability AI（美國）— Thompson 法官完成駁回動議聽證，裁定結果待發；英國高等法院正式審判定於2026年底", url: "https://chatgptiseatingtheworld.com/" },
-  { text: "【2026/4/7】Thomson Reuters v. ROSS — 第三巡迴法院審理AI合理使用上訴中，ROSS於3/12提交補充函件；預計2026年成為巡迴法院首件AI訓練合理使用判決", url: "https://www.courtlistener.com/docket/70622297/thomson-reuters-enterprise-centre-gmbh-v-ross-intelligence-inc/" },
-  { text: "【2026/4/7】Stein 法官要求 Encyclopaedia Britannica、Merriam-Webster、Gracenote 於 4/15 前說明案件不應暫停之理由", url: "https://chatgptiseatingtheworld.com/" },
-  { text: "【2026/3/20】Encyclopaedia Britannica & Merriam-Webster 控告 OpenAI 大規模著作權侵害 — 法院考慮暫停等待OpenAI MDL簡易判決", url: "https://fortune.com/2026/03/18/dictionaries-suing-openai-chatgpt-copyright-infringement/" },
+  { text: "【2026/4/3】Penguin Random House 在德國控告 OpenAI — ChatGPT 生成與《小火龍椰子》系列幾乎無法區分的故事與圖像，構成「記憶化」侵權", url: "https://www.afterdawn.com/news/article.cfm/2026/04/03/penguin-random-house-court-case-openai-copyright" },
+  { text: "【2026/3/25】UMG、Concord、ABKCO 對 Anthropic 提交部分簡易判決動議 — 218項不爭事實，主張侵權證據「壓倒性」，要求駁回合理使用抗辯", url: "https://www.musicbusinessworldwide.com/infringement-on-a-massive-scale-umg-concord-and-abkco-ask-court-to-rule-against-ai-company-anthropic-ahead-of-trial/" },
+  { text: "【2026/3/18】英國政府發布《AI與著作權報告》— 不再推動 TDM 例外，選擇暫緩立法、持續觀察國際發展", url: "https://www.fieldfisher.com/en/services/intellectual-property/intellectual-property-blog/uk-government-maintains-status-quo-on-ai-and-copyr" },
+  { text: "【2026/3/16】Encyclopaedia Britannica & Merriam-Webster 控告 OpenAI 大規模著作權侵害 — Stein 法官要求4/15前說明不暫停理由", url: "https://techcrunch.com/2026/03/16/merriam-webster-openai-encyclopedia-brittanica-lawsuit/" },
   { text: "【2026/3/9】法院命 OpenAI 額外提供 7,800 萬 + 1,000 萬筆 ChatGPT 對話紀錄予著作權原告（繼1月2,000萬筆命令後）", url: "https://natlawreview.com/article/openai-loses-privacy-gambit-20-million-chatgpt-logs-likely-headed-copyright" },
   { text: "【2026/3/2】美國最高法院拒絕受理 Thaler v. Perlmutter — 確立「AI生成作品不受著作權保護、須有人類著作權人」原則", url: "https://futurism.com/artificial-intelligence/supreme-court-blow-ai-artists-copyright" },
-  { text: "【2026/2/27】丹麥媒體機構 DPCMO 對 OpenAI 提起訴訟，指控未提供退出機制即以新聞內容訓練 AI — 歐洲AI著作權訴訟持續擴大", url: "https://pressgazette.co.uk/platforms/news-publisher-ai-deals-lawsuits-openai-google/" },
   { text: "【2026/2/25】全球 AI 著作權訴訟已達 112 件（美國佔大宗）— 合理使用判決預計最早2026年夏季作出，目前3勝1敗（AI公司視角）", url: "https://authorsalliance.substack.com/p/ai-class-action-litigation-update" },
-  { text: "【2026/1/28】音樂出版商對 Anthropic 提起 $31億訴訟（Concord II）— 指控使用 torrented 盜版內容訓練 Claude；Anthropic 請求暫停等待 Concord I 簡易判決", url: "https://news.bloomberglaw.com/ip-law/music-piracy-ai-lawsuits-top-2026-copyright-litigation-calendar" },
-  { text: "【德國】慕尼黑地方法院 GEMA v. OpenAI 判決：以受著作權保護歌詞訓練生成式AI未取得授權違反德國著作權法 — 英文譯本已公開", url: "https://www.insidetechlaw.com/blog/2025/11/germany-delivers-landmark-copyright-ruling-against-openai-what-it-means-for-ai-and-ip" },
-  { text: "【全球趨勢】Norton Rose Fulbright：AI著作權六大關鍵裁定分析（2026年3月更新）— 合理使用戰線重塑中", url: "https://www.insidetechlaw.com/blog/2026/03/ai-copyright-six-key-rulings" }
+  { text: "【全球趨勢】Norton Rose Fulbright：AI著作權六大關鍵裁定分析（2026年3月更新）— 合理使用戰線重塑中", url: "https://www.nortonrosefulbright.com/en/knowledge/publications/ce8eaa5f/ai-in-litigation-series-an-update-on-ai-copyright-cases-in-2026" }
 ];
 
 // ════════════════════════════════════════
