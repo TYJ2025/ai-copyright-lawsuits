@@ -88,13 +88,15 @@
     flex-wrap: wrap;
     gap: 6px 0;
     padding: 0 16px;
+    overflow: hidden;
   }
   .ticker-item {
     color: var(--cream);
     font-size: 15px;
     padding: 2px 12px;
     font-family: 'Microsoft JhengHei', '微軟正黑體', sans-serif;
-    white-space: nowrap;
+    white-space: normal;
+    word-break: break-word;
   }
   .ticker-item a {
     color: var(--gold-light);
@@ -699,6 +701,196 @@
     color: var(--text);
   }
 
+  /* ── Reports Container ── */
+  .reports-container {
+    display: none;
+    height: calc(100vh - 180px);
+    min-height: 600px;
+    overflow-y: auto;
+    padding: 36px 48px;
+    background: var(--cream);
+  }
+  .reports-container.visible { display: block; }
+  .reports-intro {
+    max-width: 1200px;
+    margin: 0 auto 32px;
+  }
+  .reports-intro h2 {
+    font-size: 28px;
+    color: var(--navy);
+    margin-bottom: 12px;
+    border-bottom: 2px solid var(--gold);
+    padding-bottom: 12px;
+  }
+  .reports-intro p {
+    font-size: 16px;
+    line-height: 1.8;
+    color: var(--text);
+  }
+  .reports-filter-row {
+    max-width: 1200px;
+    margin: 0 auto 24px;
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+  .reports-filter-btn {
+    background: var(--white);
+    border: 1px solid var(--border);
+    color: var(--text);
+    padding: 6px 16px;
+    border-radius: 20px;
+    font-size: 13px;
+    cursor: pointer;
+    transition: all .2s;
+    font-family: inherit;
+  }
+  .reports-filter-btn:hover,
+  .reports-filter-btn.active {
+    background: var(--navy);
+    color: var(--gold-light);
+    border-color: var(--navy);
+  }
+  .reports-grid {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+    gap: 20px;
+  }
+  .report-card {
+    background: var(--white);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 0;
+    transition: all .2s;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  .report-card:hover {
+    box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+    transform: translateY(-2px);
+  }
+  .report-card-flag {
+    background: var(--navy);
+    color: var(--gold-light);
+    padding: 10px 18px;
+    font-size: 13px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    letter-spacing: 0.5px;
+  }
+  .report-card-flag .flag { font-size: 18px; }
+  .report-card-body {
+    padding: 18px 20px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  .report-title {
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--navy);
+    line-height: 1.5;
+    margin-bottom: 8px;
+  }
+  .report-title a {
+    color: var(--navy);
+    text-decoration: none;
+  }
+  .report-title a:hover { color: var(--gold); }
+  .report-issuer {
+    font-size: 14px;
+    color: var(--text-light);
+    margin-bottom: 6px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .report-date {
+    display: inline-block;
+    background: #f0ebe0;
+    color: var(--text);
+    padding: 3px 12px;
+    border-radius: 10px;
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    width: fit-content;
+  }
+  .report-summary {
+    font-size: 15px;
+    line-height: 1.8;
+    color: var(--text);
+    flex: 1;
+  }
+  .report-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    margin-top: 14px;
+    padding: 8px 16px;
+    font-size: 14px;
+    color: var(--white);
+    background: var(--navy);
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 600;
+    width: fit-content;
+    transition: background .2s;
+  }
+  .report-link:hover { background: var(--gold); color: var(--navy); }
+
+  /* ── TIPO Interpretation Index (compact list inside card) ── */
+  .tipo-index-intro {
+    font-size: 14px;
+    line-height: 1.7;
+    color: var(--text);
+    margin-bottom: 14px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid var(--border);
+  }
+  .tipo-index-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .tipo-index-list li {
+    padding: 8px 0;
+    border-bottom: 1px solid #f0ebe0;
+    display: flex;
+    gap: 10px;
+    align-items: baseline;
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  .tipo-index-list li:last-child { border-bottom: none; }
+  .tipo-date {
+    flex-shrink: 0;
+    font-size: 12px;
+    color: var(--text-light);
+    background: #f0ebe0;
+    padding: 2px 8px;
+    border-radius: 8px;
+    font-weight: 600;
+    white-space: nowrap;
+  }
+  .tipo-ref {
+    color: var(--navy);
+    font-weight: 600;
+    text-decoration: none;
+  }
+  .tipo-ref:hover { color: var(--gold); }
+  .tipo-desc {
+    color: var(--text);
+  }
+  .report-card-index {
+    grid-column: 1 / -1;
+  }
+
   /* ── Responsive ── */
   @media (max-width: 900px) {
     .main { flex-direction: column; height: auto; }
@@ -707,6 +899,7 @@
     .stats-bar { flex-wrap: wrap; }
     .stat-box { min-width: 50%; }
     .fairuse-container { padding: 20px 16px; }
+    .reports-container { padding: 20px 16px; }
     .factor-grid { grid-template-columns: 1fr; }
     .factor-item { border-right: none !important; }
     .view-toggle { margin-left: 0; margin-top: 8px; }
@@ -721,6 +914,7 @@
     <div class="view-toggle">
       <button class="view-toggle-btn active" data-view="tracker" onclick="switchView('tracker')">訴訟追蹤</button>
       <button class="view-toggle-btn" data-view="fairuse" onclick="switchView('fairuse')">合理使用經典</button>
+      <button class="view-toggle-btn" data-view="reports" onclick="switchView('reports')">官方報告</button>
     </div>
   </div>
   <div class="header-meta">
@@ -759,7 +953,7 @@
 <!-- ── Fair Use Landmark Cases Section ── -->
 <div class="fairuse-container" id="fairuseContainer">
   <div class="fairuse-intro">
-    <h2>美國合理使用（Fair Use）經典判例</h2>
+    <h2>美國合理使用（Fair Use）經典判決</h2>
     <p>合理使用（Fair Use）是美國著作權法第 107 條所確立的重要抗辯事由，允許在特定情況下未經授權使用受著作權保護的作品。以下整理美國聯邦法院歷年來最具影響力的合理使用判決，這些先例直接影響當前 AI 著作權訴訟中合理使用抗辯的走向。</p>
   </div>
 
@@ -790,6 +984,16 @@
   </div>
 
   <div class="fairuse-timeline" id="fairuseTimeline"></div>
+</div>
+
+<!-- ── Official Reports Section ── -->
+<div class="reports-container" id="reportsContainer">
+  <div class="reports-intro">
+    <h2>各國官方報告：AI 與著作權</h2>
+    <p>全球主要政府機關及國際組織針對 AI 與著作權議題所發布的重要政策報告、指引及決議。這些文件反映各法域對 AI 訓練使用著作權作品、AI 生成物之可著作權性、以及透明度與授權機制等核心議題的政策立場。</p>
+  </div>
+  <div class="reports-filter-row" id="reportsFilterRow"></div>
+  <div class="reports-grid" id="reportsGrid"></div>
 </div>
 
 <footer>
@@ -3138,17 +3342,23 @@ function switchView(view) {
   const statsBar = document.getElementById('statsBar');
   const ticker = document.querySelector('.ticker-wrap');
   const fairuse = document.getElementById('fairuseContainer');
+  const reports = document.getElementById('reportsContainer');
+  // Hide all
+  tracker.style.display = 'none';
+  statsBar.style.display = 'none';
+  ticker.style.display = 'none';
+  fairuse.classList.remove('visible');
+  reports.classList.remove('visible');
   if (view === 'fairuse') {
-    tracker.style.display = 'none';
-    statsBar.style.display = 'none';
-    ticker.style.display = 'none';
     fairuse.classList.add('visible');
     renderFairUseCases();
+  } else if (view === 'reports') {
+    reports.classList.add('visible');
+    renderReports();
   } else {
     tracker.style.display = 'flex';
     statsBar.style.display = 'flex';
     ticker.style.display = 'flex';
-    fairuse.classList.remove('visible');
   }
 }
 
@@ -3417,6 +3627,312 @@ function renderFairUseCases() {
 function toggleFuCard(id) {
   const card = document.getElementById('fu-' + id);
   card.classList.toggle('expanded');
+}
+
+// ════════════════════════════════════════
+// OFFICIAL REPORTS DATA & RENDER
+// ════════════════════════════════════════
+const officialReports = [
+  {
+    country: "美國 United States",
+    flag: "🇺🇸",
+    reports: [
+      {
+        title: "Copyright and Artificial Intelligence, Part 3: Generative AI Training",
+        issuer: "U.S. Copyright Office",
+        date: "2025-05-09",
+        url: "https://www.copyright.gov/ai/Copyright-and-Artificial-Intelligence-Part-3-Generative-AI-Training-Report-Pre-Publication-Version.pdf",
+        summary: "本報告為三部系列之第三部分，探討以著作權作品訓練生成式 AI 模型的法律影響。分析授權考量與潛在責任分配，檢視 AI 訓練技術層面如何涉及著作權問題。報告對合理使用、授權機制及權利人保護提出具體政策建議。"
+      },
+      {
+        title: "Copyright and Artificial Intelligence, Part 2: Copyrightability",
+        issuer: "U.S. Copyright Office",
+        date: "2025-01-29",
+        url: "https://www.copyright.gov/ai/Copyright-and-Artificial-Intelligence-Part-2-Copyrightability-Report.pdf",
+        summary: "報告認為現行法律足以解決 AI 生成物的著作權保護問題，無需新立法。純 AI 生成內容不受著作權保護，但人類對 AI 輸出有充分創意控制時，可獲得著作權保護。確立人類創作要件的具體判斷標準。"
+      },
+      {
+        title: "Copyright and Artificial Intelligence, Part 1: Digital Replicas",
+        issuer: "U.S. Copyright Office",
+        date: "2024-07-31",
+        url: "https://www.copyright.gov/ai/Copyright-and-Artificial-Intelligence-Part-1-Digital-Replicas-Report.pdf",
+        summary: "針對數位複製品（digital replicas）——使用 AI 技術逼真但虛假地描繪個人聲音或外貌——的法律問題進行研究。建議美國國會制定新的聯邦法律保護個人免受未經授權的數位複製品發布。"
+      },
+      {
+        title: "Copyright Registration Guidance: Works Containing Material Generated by Artificial Intelligence",
+        issuer: "U.S. Copyright Office",
+        date: "2023-03-16",
+        url: "https://www.copyright.gov/ai/ai_policy_guidance.pdf",
+        summary: "美國著作權局首次發布 AI 生成內容的著作權登記指引。明確指出純 AI 生成的內容不具可著作權性，但人類選擇與安排 AI 生成元素的創意表達可受保護。以 Zarya of the Dawn 案為具體適用範例。"
+      }
+    ]
+  },
+  {
+    country: "歐盟 European Union",
+    flag: "🇪🇺",
+    reports: [
+      {
+        title: "European Parliament Resolution on Copyright and Generative AI — Opportunities and Challenges",
+        issuer: "European Parliament",
+        date: "2026-03-10",
+        url: "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0066_EN.pdf",
+        summary: "歐洲議會以 460 票贊成、71 票反對通過決議，要求加強著作權保護以應對生成式 AI 挑戰。呼籲 AI 提供者披露訓練資料中的受保護作品清單，建立舉證責任倒置機制（未遵守透明義務即推定使用受保護作品），並確認 AI 生成物不受著作權保護。"
+      },
+      {
+        title: "The Development of Generative AI from a Copyright Perspective",
+        issuer: "European Union Intellectual Property Office (EUIPO)",
+        date: "2025-05-12",
+        url: "https://euipo.europa.eu/tunnel-web/secure/webdav/guest/document_library/observatory/documents/reports/2025_GenAI_from_copyright_perspective/2025_GenAI_from_copyright_perspective_FullR_en.pdf",
+        summary: "EUIPO 全面研究生成式 AI 對著作權制度的影響。檢視受保護作品用於訓練的法律問題、AI 系統生成內容的法律定性，及其對創作者、AI 開發者和著作權制度的廣泛影響。提供技術、法律與經濟三面向分析。"
+      },
+      {
+        title: "Copyright of AI-Generated Works: Approaches in the EU and Beyond",
+        issuer: "European Parliamentary Research Service (EPRS)",
+        date: "2025-04",
+        url: "https://www.europarl.europa.eu/RegData/etudes/BRIE/2025/782585/EPRS_BRI(2025)782585_EN.pdf",
+        summary: "研究歐盟及全球各地對 AI 生成作品著作權的不同方法。強調以人類為中心的保護原則，提出應確保 AI 開發者披露受保護內容的使用情況，並為創作者提供公平報酬。比較各法域的退出機制與透明義務。"
+      }
+    ]
+  },
+  {
+    country: "法國 France",
+    flag: "🇫🇷",
+    reports: [
+      {
+        title: "Mission Report on Private International Law and Generative AI",
+        issuer: "CSPLA (Conseil supérieur de la propriété littéraire et artistique)",
+        date: "2025-12-15",
+        url: "https://www.culture.gouv.fr/",
+        summary: "CSPLA 報告討論歐盟內商業化生成式 AI 模型的法律適用問題。涉及司法管轄權與法律適用的複雜問題，協助釐清不同國家 AI 著作權政策的適用，特別針對跨境 AI 服務的法律衝突提出分析。"
+      },
+      {
+        title: "Report on AI Regulation Transparency and Copyright Compliance",
+        issuer: "CSPLA (Conseil supérieur de la propriété littéraire et artistique)",
+        date: "2024-12-11",
+        url: "https://www.culture.gouv.fr/Media/medias-creation-rapide/cspla_report_ia-template_english_dec._2024.pdf",
+        summary: "澄清歐盟 AI 法規對 AI 開發者透明義務的範圍。提議透明度摘要範本，建議透過直接對話和投訴程序促進著作權人與 AI 提供者間的資訊交換與爭議解決機制。"
+      }
+    ]
+  },
+  {
+    country: "英國 United Kingdom",
+    flag: "🇬🇧",
+    reports: [
+      {
+        title: "Report on Copyright and Artificial Intelligence",
+        issuer: "UK Intellectual Property Office (IPO) / DSIT / DCMS",
+        date: "2026-03-18",
+        url: "https://assets.publishing.service.gov.uk/media/69ba692226909a14239612e4/CP2602959_-_Report_on_Copyright_and_Artificial_Intelligence_web.pdf",
+        summary: "英國政府分析文字與資料探勘（TDM）的政策選項及其對創意產業和 AI 產業的經濟影響。最終決定不實施先前提議的 TDM 例外或退出機制，採取觀望態度，暫緩立法改革。此立場與歐盟積極立法的態度形成對比。"
+      }
+    ]
+  },
+  {
+    country: "日本 Japan",
+    flag: "🇯🇵",
+    reports: [
+      {
+        title: "AI 時代著作權因應策略檢查清單及指引",
+        issuer: "文化廳（Agency for Cultural Affairs）",
+        date: "2024-07-31",
+        url: "https://www.bunka.go.jp/english/policy/copyright/",
+        summary: "針對 AI 開發者、提供者、使用者及公眾發布實務指引，說明如何在 AI 生命週期各階段避免著作權侵害。涵蓋 AI 訓練階段的用途擴張、生成與使用階段，以及 AI 生成內容的著作權性判斷。"
+      },
+      {
+        title: "AI 時代著作權一般理解",
+        issuer: "文化廳（Agency for Cultural Affairs）",
+        date: "2024-05",
+        url: "https://www.bunka.go.jp/english/policy/copyright/pdf/94055801_01.pdf",
+        summary: "澄清日本著作權法在生成式 AI 背景下的解釋。依日本著作權法第 30-4 條，非以「享受著作權作品表現」為目的的利用行為可被允許，但不得不合理損害著作權人利益。為全球最早的 AI 著作權官方解釋之一。"
+      },
+      {
+        title: "AI 時代著作權課題之考察（AI 與著作權之觀點）",
+        issuer: "文化審議會著作權分科會法制度小委員會",
+        date: "2024-03-15",
+        url: "https://www.bunka.go.jp/seisaku/bunkashingikai/chosakuken/",
+        summary: "法律系統小委員會報告，非具法律約束力但影響深遠。涵蓋開發生成式 AI 過程中的著作權侵害可能性、使用 AI 時的侵權問題，及 AI 輸出內容的著作權保護。收到近 25,000 份公眾意見，反映社會高度關注。"
+      }
+    ]
+  },
+  {
+    country: "韓國 South Korea",
+    flag: "🇰🇷",
+    reports: [
+      {
+        title: "生成式 AI 活用著作物之著作權登記指引暨爭議預防指引",
+        issuer: "文化體育觀光部 / 韓國著作權委員會（KCC）",
+        date: "2025-06-30",
+        url: "https://www.copyright.or.kr/eng/doc/etc_pdf/Guide_to_Copyright_Registration_for_Generative_AI-Assisted_Works.pdf",
+        summary: "說明涉及生成式 AI 作品的著作權登記規則。純 AI 輸出無法登記著作權，但人類對 AI 生成內容的創意修改、添加或刪除（「附加工作」）可獲保護。僅人類創意貢獻部分可被登記，為全球最具體的 AI 著作權登記指引之一。"
+      },
+      {
+        title: "生成式 AI 與著作權相關指引",
+        issuer: "文化體育觀光部 / 韓國著作權委員會（KCC）",
+        date: "2024-01-16",
+        url: "https://www.copyright.or.kr/eng/doc/etc_pdf/Guide_on_Generative_AI_and_Copyright.pdf",
+        summary: "韓國首份官方 AI 著作權指引。為 AI 服務提供者、著作權人和使用者提供政策方向。涵蓋訓練 AI 模型的潛在著作權問題、AI 輸出生成問題、著作權人權益保護及 AI 內容的可著作權性。具有行政指導性質。"
+      }
+    ]
+  },
+  {
+    country: "台灣 Taiwan",
+    flag: "🇹🇼",
+    reports: [
+      {
+        title: "經授智字第 11252800520 號令函：生成式 AI 著作權爭議函釋",
+        issuer: "經濟部智慧財產局",
+        date: "2023-06-16",
+        url: "https://www.leetsai.com/%e8%87%ba%e7%81%a3%e6%99%ba%e6%85%a7%e8%b2%a1%e7%94%a2%e5%b1%80%e9%a0%92%e5%b8%83%e5%87%bd%e9%87%8b%e8%aa%aa%e6%98%8e%e7%94%9f%e6%88%90%e5%bc%8fai%e4%b9%8b%e8%91%97%e4%bd%9c%e6%ac%8a%e7%88%ad%e8%ad%b0?lang=zh-TW",
+        summary: "智財局最重要的 AI 著作權政策性函釋。核心立場：(1) 將受保護著作輸入 AI 模型訓練涉及「重製」，除符合著作權法第 44-65 條合理使用外，應取得授權；(2) AI 生成內容是否受保護，視有無「人類精神創作」決定；(3) 純由 AI 獨立運算生成的內容不受著作權法保護；(4) AI 生成內容若僅係重製訓練資料中的原始著作，後續商業利用仍涉及原始著作之重製。"
+      },
+      {
+        title: "以 AI 為工具投入創意完成著作之著作權保護",
+        issuer: "經濟部智慧財產局",
+        date: "2025-05-20",
+        url: "https://www.tipo.gov.tw/tw/tipo1/86.html",
+        summary: "智財局闡釋「AI 輔助創作」與「AI 獨立創作」之區分標準。以人工智慧為工具、人類有實際創意投入而完成之創作成果，仍可受著作權保護，著作權由該投入創意的自然人享有。但若人類僅下達指令而未投入精神創作，則 AI 生成內容不受保護。此為智財局目前最明確的正面政策宣示。"
+      },
+      {
+        title: "人工智慧基本法（立法院三讀通過）",
+        issuer: "立法院 / 數位發展部",
+        date: "2025-12-23",
+        url: "https://moda.gov.tw/press/press-releases/18316",
+        summary: "台灣首部 AI 基本法，確立永續發展、人類自主、隱私保護、資安、透明、公平、問責七大原則，主管機關為國科會。本法為框架性立法，未直接處理著作權議題，但要求政府推動相關法規修正（含著作權法），為後續 AI 著作權專法或修法提供法律基礎。"
+      },
+      {
+        title: "智慧財產局 AI 著作權函釋彙編（2018–2025，共 15 則）",
+        issuer: "經濟部智慧財產局（著作權主題網）",
+        date: "2018–2025",
+        url: "https://www.tipo.gov.tw/tw/copyright/692.html",
+        isIndex: true,
+        summary: "台灣雖未發布如歐美各國的政策報告，但智財局自 2018 年起透過個案函釋，逐步建構 AI 著作權立場。以下依時序彙整 15 則重要函釋：",
+        subItems: [
+          { date: "2018-04-20", ref: "電子郵件 1070420", desc: "AI 語音辨識訓練成果之著作權與專利權" },
+          { date: "2022-10-31", ref: "電子郵件 1111031", desc: "AI 創作二分法：AI 翻譯產出非人類精神創作，不受保護", url: "https://topic.tipo.gov.tw/copyright-tw/cp-407-914789-dec09-301.html" },
+          { date: "2022-12-12", ref: "電子郵件 1111212", desc: "Midjourney 等 AI 圖像工具：訓練涉及重製，風格模仿不侵權" },
+          { date: "2023-03-17", ref: "電子郵件 1120317", desc: "AI 訓練使用藝術家著作構成重製，可能涉及刑事責任" },
+          { date: "2023-12-29", ref: "電子郵件 1121229", desc: "AI 繪圖卡通化／濾鏡是否構成改作（衍生著作）" },
+          { date: "2024-01-19", ref: "電子郵件 1130119", desc: "期刊授權 AI 訓練之著作權與再授權限制" },
+          { date: "2025-03-10", ref: "電子郵件 1140310", desc: "Suno AI 生成歌曲之著作權歸屬與商業利用" },
+          { date: "2025-04-01", ref: "智著字第 11460005900 號", desc: "AI 製作書籍、攝影著作權及空拍機攝影" },
+          { date: "2025-05-16", ref: "電子郵件 1140516b", desc: "Suno AI 音樂經人類編修後是否取得著作權" },
+          { date: "2025-05-22", ref: "電子郵件 1140522c", desc: "ChatGPT 生成圖畫著作權歸屬與 prompt 介入程度" },
+          { date: "2025-06-10", ref: "電子郵件 1140610", desc: "歷年 AI 著作權函釋系統性彙整索引" },
+          { date: "2025-06-25", ref: "電子郵件 1140625", desc: "AI 生成課文教學內容著作權（教師使用 AI 工具）" },
+          { date: "2025-08-29", ref: "電子郵件 1140829", desc: "歷史照片訓練 AI：重製、改作與公共領域" },
+          { date: "2025-09-26", ref: "電子郵件 1140926", desc: "AI 輔助設計卡牌著作權歸屬（人類選擇、編排之創意投入）" },
+          { date: "2025-10-17", ref: "電子郵件 1141017b", desc: "AI 生成作品著作權綜合論述（彙整引用多則函釋）" }
+        ]
+      }
+    ]
+  },
+  {
+    country: "WIPO 世界智慧財產權組織",
+    flag: "🌐",
+    reports: [
+      {
+        title: "AI Infrastructure Interchange (AIII) Initiative",
+        issuer: "World Intellectual Property Organization (WIPO)",
+        date: "2026-03-17",
+        url: "https://www.wipo.int/en/web/frontier-technologies",
+        summary: "WIPO 推出 AIII 倡議，促進全球對著作權和 AI 在智慧財產權系統中的技術與操作層面進行對話。該倡議為全球 AI 著作權問題的國際協調提供重要平台，涉及訓練透明度、授權架構及公平報酬等核心議題。"
+      },
+      {
+        title: "WIPO Conversation on IP and Frontier Technologies (Sessions 2024-2025)",
+        issuer: "World Intellectual Property Organization (WIPO)",
+        date: "2025-10-28",
+        url: "https://www.wipo.int/en/web/frontier-technologies/frontier_conversation",
+        summary: "WIPO 持續舉辦開放式論壇，推動各利益方就 AI 對智慧財產權的影響進行討論。重點涵蓋 AI 基礎設施、機器訓練、生成式 AI 著作權評估標準、透明工具及合成媒體的法律與倫理考量。"
+      }
+    ]
+  },
+  {
+    country: "澳洲 Australia",
+    flag: "🇦🇺",
+    reports: [
+      {
+        title: "Copyright and Artificial Intelligence Consultation Paper",
+        issuer: "Attorney-General's Department",
+        date: "2025",
+        url: "https://www.ag.gov.au/rights-and-protections/copyright/copyright-and-artificial-intelligence-reference-group-cairg",
+        summary: "澳洲政府發布諮詢文件，提出三種政策選項處理 AI 開發中著作權素材的授權問題。已明確排除文字與資料探勘（TDM）例外，改為透過公平報酬制度促進創作者獲得補償。反映英語系國家中較傾向保護著作權人的政策取向。"
+      },
+      {
+        title: "CAIRG Information Gathering Report: Copyright and AI Inputs",
+        issuer: "Attorney-General's Department",
+        date: "2024-09",
+        url: "https://www.ag.gov.au/rights-and-protections/publications/questionnaire-and-report-copyright-and-ai-inputs",
+        summary: "著作權與 AI 參考小組（CAIRG）完成首次資訊蒐集，研究著作權素材作為 AI 系統輸入的使用情況。報告為政府政策制定提供基礎，強調創作者應獲得公平補償。"
+      }
+    ]
+  },
+  {
+    country: "加拿大 Canada",
+    flag: "🇨🇦",
+    reports: [
+      {
+        title: "Consultation on Copyright in the Age of Generative AI: What We Heard Report",
+        issuer: "Innovation, Science and Economic Development Canada (ISED)",
+        date: "2025-02",
+        url: "https://ised-isde.canada.ca/site/strategic-policy-sector/sites/default/files/documents/copyright-consultation-report-en.pdf",
+        summary: "加拿大政府公眾諮詢結果報告，蒐集 64,600 份回應。在 TDM、AI 生成內容所有權及 AI 侵權等議題上，各利益方意見嚴重分歧。創意產業要求有償使用與事前同意，科技產業則擔憂競爭力受損。報告未提出具體立法建議，反映政策仍在形成中。"
+      }
+    ]
+  }
+];
+
+let reportsFilterActive = 'all';
+function renderReports() {
+  // Build filter buttons
+  const filterRow = document.getElementById('reportsFilterRow');
+  if (!filterRow.innerHTML) {
+    let fhtml = `<button class="reports-filter-btn active" onclick="filterReports('all')">全部</button>`;
+    officialReports.forEach(s => {
+      fhtml += `<button class="reports-filter-btn" onclick="filterReports('${s.country}')">${s.flag} ${s.country.split(' ')[0]}</button>`;
+    });
+    filterRow.innerHTML = fhtml;
+  }
+  // Build cards
+  const grid = document.getElementById('reportsGrid');
+  let html = '';
+  officialReports.forEach(section => {
+    if (reportsFilterActive !== 'all' && reportsFilterActive !== section.country) return;
+    section.reports.forEach(r => {
+      let bodyHtml = '';
+      if (r.isIndex && r.subItems) {
+        // Compact index card for TIPO interpretations
+        bodyHtml = `
+          <div class="report-date">${r.date}</div>
+          <div class="report-title"><a href="${r.url}" target="_blank" rel="noopener">${r.title}</a></div>
+          <div class="report-issuer">${r.issuer}</div>
+          <div class="tipo-index-intro">${r.summary}</div>
+          <ul class="tipo-index-list">
+            ${r.subItems.map(s => `<li><span class="tipo-date">${s.date}</span><span><a class="tipo-ref" href="${s.url || r.url}" target="_blank" rel="noopener">${s.ref}</a>　<span class="tipo-desc">${s.desc}</span></span></li>`).join('')}
+          </ul>
+          <a class="report-link" href="${r.url}" target="_blank" rel="noopener">智財局著作權主題網查詢 →</a>`;
+      } else {
+        bodyHtml = `
+          <div class="report-date">${r.date}</div>
+          <div class="report-title"><a href="${r.url}" target="_blank" rel="noopener">${r.title}</a></div>
+          <div class="report-issuer">${r.issuer}</div>
+          <div class="report-summary">${r.summary}</div>
+          <a class="report-link" href="${r.url}" target="_blank" rel="noopener">查看原文 →</a>`;
+      }
+      html += `<div class="report-card${r.isIndex ? ' report-card-index' : ''}">
+        <div class="report-card-flag"><span class="flag">${section.flag}</span>${section.country}</div>
+        <div class="report-card-body">${bodyHtml}
+        </div>
+      </div>`;
+    });
+  });
+  grid.innerHTML = html;
+}
+function filterReports(country) {
+  reportsFilterActive = country;
+  document.querySelectorAll('.reports-filter-btn').forEach(b => {
+    b.classList.toggle('active', (country === 'all' && b.textContent === '全部') || b.textContent.includes(country.split(' ')[0]));
+  });
+  renderReports();
 }
 </script>
 </body>
