@@ -1412,7 +1412,7 @@ const cases = [
     claims: ["Direct Copyright", "DMCA §1202", "State Law"],
     defendants: "Meta Platforms, Inc.",
     issues: `Richard Kadrey 等 13 位作家控告 Meta 使用盜版書籍庫 Books3 和 LibGen 訓練 LLaMA 大型語言模型，構成著作權侵害。\n\n本案最重要的法律爭點是：以受著作權保護的作品訓練大型語言模型是否構成「合理使用」？Chhabria 法官在簡易判決中認定構成合理使用，但附有重要但書。`,
-    progress: `【重大裁定】2025 年 6 月 25 日，Chhabria 法官准許 Meta 的簡易判決動議，認定以書籍訓練 LLaMA 構成合理使用。法院認為該使用具有「高度轉化性」，因其目的是訓練工具生成多樣化輸出，而非取代原著作品。\n\n【重要但書】法官明確指出：本判決「不代表 Meta 使用著作權資料訓練語言模型是合法的。它只代表這些原告提出了錯誤的論據，且未能建立支持正確論據的紀錄。」\n\n本案已合併 Chabon v. Meta 及 Farnsworth v. Meta。DMCA §1202(b)(1) 的簡易判決也被駁回。2026 年 3 月發佈了案件訴訟時程表，分配單一要求運動聽證會定於 2027 年 2 月 25 日進行。案件的部分爭點繼續審理中。`,
+    progress: `【重大裁定】2025 年 6 月 25 日，Chhabria 法官准許 Meta 的簡易判決動議，認定以書籍訓練 LLaMA 構成合理使用。法院認為該使用具有「高度轉化性」，因其目的是訓練工具生成多樣化輸出，而非取代原著作品。\n\n【重要但書】法官明確指出：本判決「不代表 Meta 使用著作權資料訓練語言模型是合法的。它只代表這些原告提出了錯誤的論據，且未能建立支持正確論據的紀錄。」\n\n本案已合併 Chabon v. Meta 及 Farnsworth v. Meta。DMCA §1202(b)(1) 的簡易判決也被駁回。\n\n【2026/3/27】法院發布新訴訟時程表，分配請求（distribution claim）簡易判決聽證會延至 2027 年 2 月 25 日舉行。合理使用判決確定後的殘餘爭點（包括 DMCA 及州法主張）持續審理中。`,
     taiwan: `本案對台灣的重大啟示：\n\n1. 美國法院首次就 LLM 訓練作出合理使用判斷。台灣著作權法第 65 條在判斷合理使用時，可參考 Chhabria 法官的四要件分析，特別是「轉化性使用」的寬泛解釋。\n2. 但書中「原告提出錯誤論據」的指示意味深長——未來原告若能提出 AI 輸出對原著市場的替代效果證據，結果可能不同。台灣訴訟律師在處理類似案件時，應著重蒐集市場替代效果的證據。\n3. Meta 使用「盜版來源」訓練 AI 的事實，在台灣可能涉及著作權法第 91 條重製罪的刑事責任，值得注意台灣與美國在著作權刑事化程度上的差異。`
   },
   {
@@ -2907,7 +2907,9 @@ const newsItems = [
   { text: "【2026/3/9】法院命 OpenAI 額外提供 7,800 萬 + 1,000 萬筆 ChatGPT 對話紀錄予著作權原告（繼1月2,000萬筆命令後）", url: "https://natlawreview.com/article/openai-loses-privacy-gambit-20-million-chatgpt-logs-likely-headed-copyright" },
   { text: "【2026/3/2】美國最高法院拒絕受理 Thaler v. Perlmutter — 確立「AI生成作品不受著作權保護、須有人類著作權人」原則", url: "https://futurism.com/artificial-intelligence/supreme-court-blow-ai-artists-copyright" },
   { text: "【2026/2/25】全球 AI 著作權訴訟已達 112 件（美國佔大宗）— 合理使用判決預計最早2026年夏季作出，目前3勝1敗（AI公司視角）", url: "https://authorsalliance.substack.com/p/ai-class-action-litigation-update" },
-  { text: "【全球趨勢】Norton Rose Fulbright：AI著作權六大關鍵裁定分析（2026年3月更新）— 合理使用戰線重塑中", url: "https://www.nortonrosefulbright.com/en/knowledge/publications/ce8eaa5f/ai-in-litigation-series-an-update-on-ai-copyright-cases-in-2026" }
+  { text: "【全球趨勢】Norton Rose Fulbright：AI著作權六大關鍵裁定分析（2026年3月更新）— 合理使用戰線重塑中", url: "https://www.nortonrosefulbright.com/en/knowledge/publications/ce8eaa5f/ai-in-litigation-series-an-update-on-ai-copyright-cases-in-2026" },
+  { text: "【2026/3/10】歐洲議會以460票壓倒性多數通過《著作權與生成式AI決議》— 要求AI訓練透明度、建立舉證責任倒置機制、確認AI生成物不受著作權保護", url: "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0066_EN.html" },
+  { text: "【2026/3/27】Kadrey v. Meta 法院發布新訴訟時程表 — 分配請求簡易判決聽證延至2027年2月25日，合理使用判決後的殘餘爭點持續審理", url: "https://chatgptiseatingtheworld.com/2026/03/27/kadrey-v-meta-gets-scheduling-order-summary-judgment-motion-hearing-for-distribution-claim-wont-be-heard-until-feb-25-2027/" }
 ];
 
 // ════════════════════════════════════════
