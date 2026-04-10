@@ -891,6 +891,120 @@
     grid-column: 1 / -1;
   }
 
+  /* ── Stats Modal ── */
+  .stats-modal-overlay {
+    display: none;
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(26,32,44,0.55);
+    z-index: 9999;
+    justify-content: center;
+    align-items: center;
+    animation: fadeIn 0.15s ease;
+  }
+  .stats-modal-overlay.open { display: flex; }
+  @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+  .stats-modal {
+    background: var(--white);
+    border-radius: 12px;
+    width: 560px;
+    max-width: 92vw;
+    max-height: 82vh;
+    overflow-y: auto;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.25);
+    animation: slideUp 0.2s ease;
+  }
+  @keyframes slideUp { from { transform: translateY(20px); opacity: 0; } to { transform: translateY(0); opacity: 1; } }
+  .stats-modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 24px 14px;
+    border-bottom: 1px solid var(--border);
+  }
+  .stats-modal-header h3 {
+    margin: 0;
+    font-size: 18px;
+    color: var(--navy);
+    font-weight: 700;
+  }
+  .stats-modal-close {
+    background: none;
+    border: none;
+    font-size: 22px;
+    color: var(--text-light);
+    cursor: pointer;
+    padding: 4px 8px;
+    border-radius: 4px;
+    line-height: 1;
+  }
+  .stats-modal-close:hover { background: #f0ebe0; color: var(--navy); }
+  .stats-modal-body {
+    padding: 20px 24px 24px;
+  }
+  .chart-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  .chart-label {
+    flex: 0 0 160px;
+    text-align: right;
+    color: var(--text);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: 500;
+  }
+  .chart-bar-wrap {
+    flex: 1;
+    background: #f0ebe0;
+    border-radius: 4px;
+    height: 22px;
+    position: relative;
+    overflow: hidden;
+  }
+  .chart-bar {
+    height: 100%;
+    border-radius: 4px;
+    transition: width 0.4s ease;
+    min-width: 2px;
+  }
+  .chart-bar.navy { background: var(--navy); }
+  .chart-bar.blue { background: var(--blue); }
+  .chart-bar.gold { background: var(--gold); }
+  .chart-bar.orange { background: var(--orange); }
+  .chart-count {
+    flex: 0 0 36px;
+    font-weight: 700;
+    color: var(--navy);
+    font-size: 14px;
+  }
+  .chart-subtitle {
+    font-size: 13px;
+    color: var(--text-light);
+    margin-bottom: 16px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #f0ebe0;
+  }
+  .settled-item {
+    padding: 10px 0;
+    border-bottom: 1px solid #f0ebe0;
+  }
+  .settled-item:last-child { border-bottom: none; }
+  .settled-name {
+    font-weight: 600;
+    color: var(--navy);
+    font-size: 14px;
+    margin-bottom: 2px;
+  }
+  .settled-detail {
+    font-size: 13px;
+    color: var(--text-light);
+  }
+
   /* ── Responsive ── */
   @media (max-width: 900px) {
     .main { flex-direction: column; height: auto; }
@@ -898,6 +1012,8 @@
     .panel-right { padding: 20px; }
     .stats-bar { flex-wrap: wrap; }
     .stat-box { min-width: 50%; }
+    .chart-label { flex: 0 0 100px; font-size: 12px; }
+    .stats-modal { width: 95vw; }
     .fairuse-container { padding: 20px 16px; }
     .reports-container { padding: 20px 16px; }
     .factor-grid { grid-template-columns: 1fr; }
@@ -925,6 +1041,17 @@
 
 <!-- ── Stats Bar ── -->
 <div class="stats-bar" id="statsBar"></div>
+
+<!-- ── Stats Modal ── -->
+<div class="stats-modal-overlay" id="statsModal" onclick="if(event.target===this)closeStatsModal()">
+  <div class="stats-modal">
+    <div class="stats-modal-header">
+      <h3 id="statsModalTitle"></h3>
+      <button class="stats-modal-close" onclick="closeStatsModal()">&times;</button>
+    </div>
+    <div class="stats-modal-body" id="statsModalBody"></div>
+  </div>
+</div>
 
 <!-- ── Daily News Ticker ── -->
 <div class="ticker-wrap">
@@ -3148,27 +3275,182 @@ function buildStats() {
   const usCases = cases.filter(c => !nonUSKeywords.some(k => c.court.includes(k))).length;
   const nonUSCases = cases.filter(c => nonUSKeywords.some(k => c.court.includes(k))).length;
   document.getElementById('statsBar').innerHTML = `
-    <div class="stat-box" data-filter="all"><div class="stat-num">${total}</div><div class="stat-label">案件總數 Total</div></div>
-    <div class="stat-box us" data-filter="us"><div class="stat-num">${usCases}</div><div class="stat-label">🇺🇸 美國 US Cases</div></div>
-    <div class="stat-box non-us" data-filter="non-us"><div class="stat-num">${nonUSCases}</div><div class="stat-label">🌏 非美國 Non-US</div></div>
+    <div class="stat-box" data-filter="all" data-chart="total"><div class="stat-num">${total}</div><div class="stat-label">案件總數 Total</div></div>
+    <div class="stat-box us" data-filter="us" data-chart="us"><div class="stat-num">${usCases}</div><div class="stat-label">🇺🇸 美國 US Cases</div></div>
+    <div class="stat-box non-us" data-filter="non-us" data-chart="nonus"><div class="stat-num">${nonUSCases}</div><div class="stat-label">🌏 非美國 Non-US</div></div>
     <div class="stat-divider"></div>
-    <div class="stat-box" data-filter="active"><div class="stat-num">${active}</div><div class="stat-label">審理中 Active</div></div>
-    <div class="stat-box" data-filter="appeal"><div class="stat-num">${appeals}</div><div class="stat-label">上訴中 Appeal</div></div>
-    <div class="stat-box" data-filter="mdl"><div class="stat-num">${mdl}</div><div class="stat-label">MDL 合併</div></div>
-    <div class="stat-box" data-filter="settled"><div class="stat-num">${settled}</div><div class="stat-label">和解 Settled</div></div>
-    <div class="stat-box" data-filter="all"><div class="stat-num">${defendants}</div><div class="stat-label">被告企業 Defendants</div></div>
+    <div class="stat-box" data-filter="active" data-chart="active"><div class="stat-num">${active}</div><div class="stat-label">審理中 Active</div></div>
+    <div class="stat-box" data-filter="appeal" data-chart="appeal"><div class="stat-num">${appeals}</div><div class="stat-label">上訴中 Appeal</div></div>
+    <div class="stat-box" data-filter="mdl" data-chart="mdl"><div class="stat-num">${mdl}</div><div class="stat-label">MDL 合併</div></div>
+    <div class="stat-box" data-filter="settled" data-chart="settled"><div class="stat-num">${settled}</div><div class="stat-label">和解 Settled</div></div>
+    <div class="stat-box" data-filter="all" data-chart="defendants"><div class="stat-num">${defendants}</div><div class="stat-label">被告企業 Defendants</div></div>
   `;
-  // Make stat boxes clickable
+  // Make stat boxes clickable — show chart modal
   document.querySelectorAll('.stat-box').forEach(box => {
-    box.addEventListener('click', () => {
-      const filter = box.dataset.filter;
-      activeFilter = filter;
-      buildFilters();
-      renderCaseList();
+    box.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const chartType = box.dataset.chart;
+      if (chartType) openStatsModal(chartType);
     });
   });
 }
 buildStats();
+
+// ── Stats Modal Charts ──
+const nonUSKeywordsGlobal = ['CJEU','UK High Court','European Union','Budapest','歐盟','加拿大','印度','德國','法國','英國','Ontario','Delhi','German','Munich','Paris','France','Canada','Hamburg','漢堡','丹麥','Copenhagen','Denmark','韓國','Seoul','South Korea','中國','北京','廣州','杭州','Beijing Internet Court','Guangzhou Internet Court','China','日本','Tokyo','Japan','巴西','Brazil','義大利','Italy','荷蘭','Netherlands'];
+function isNonUS(c) { return nonUSKeywordsGlobal.some(k => c.court.includes(k)); }
+
+// Classify case by creative work type
+function classifyWorkType(c) {
+  const n = (c.name + ' ' + c.defendants + ' ' + (c.claims||[]).join(' ')).toLowerCase();
+  if (/music|recording|umg|bmg|concord|suno|udio|koda|gema|lyrics|mureka/.test(n)) return '音樂 Music';
+  if (/news|times|tribune|journal|post|gazette|daily|intercept|raw story|carreyrou|ani media|folha|dpcmo|publisher|newspaper|chegg|rtl|rtl|medusa|dpg/.test(n)) return '新聞媒體 News';
+  if (/author|guild|book|penguin|huckabee|cambronne|alter |apress|basbanes|chicken soup|encyclopa|merriam|britannica|denial/.test(n)) return '書籍出版 Books';
+  if (/image|getty|photo|pierce|photobucket|stock/.test(n)) return '圖片攝影 Images';
+  if (/artist|andersen|disney|warner|midjourney|stability|illustrat|coda|ghibli/.test(n)) return '視覺藝術 Visual Art';
+  if (/voice|lovo|eleven|vacker|lehrman/.test(n)) return '語音聲紋 Voice';
+  if (/video|film|alcon|strike 3|ted entertain|snap|bytedance|tiktok|runway|ace cam|gardner|businesss/.test(n)) return '影視內容 Film/Video';
+  if (/code|github|copilot|doe v/.test(n)) return '程式碼 Code';
+  if (/3d|beaulier|roblox/.test(n)) return '3D 模型 3D Models';
+  if (/thaler|perlmutter|li yunkai|李昀鍇/.test(n)) return 'AI 可著作性 AI Copyrightability';
+  if (/data|snowflake|reddit|serpapi|gracenote|kogon/.test(n)) return '資料平台 Data';
+  return '其他 Other';
+}
+
+// Get defendant company name (normalized)
+function normalizeDefendant(d) {
+  const t = d.trim()
+    .replace(/,?\s*(Inc\.|LLC|Ltd\.|Corp\.|PBC|Pvt|Co\.|GmbH|e\.V\.)/gi, '')
+    .replace(/\s*\(.*?\)/g, '').trim();
+  if (/openai/i.test(t)) return 'OpenAI';
+  if (/microsoft/i.test(t)) return 'Microsoft';
+  if (/meta|facebook/i.test(t)) return 'Meta';
+  if (/google/i.test(t)) return 'Google';
+  if (/anthropic/i.test(t)) return 'Anthropic';
+  if (/stability/i.test(t)) return 'Stability AI';
+  if (/nvidia/i.test(t)) return 'NVIDIA';
+  if (/apple/i.test(t)) return 'Apple';
+  if (/midjourney/i.test(t)) return 'Midjourney';
+  if (/perplexity/i.test(t)) return 'Perplexity AI';
+  if (/suno/i.test(t)) return 'Suno';
+  if (/udio|uncharted/i.test(t)) return 'Udio';
+  if (/adobe/i.test(t)) return 'Adobe';
+  if (/salesforce/i.test(t)) return 'Salesforce';
+  if (/runway/i.test(t)) return 'Runway AI';
+  if (/snap/i.test(t)) return 'Snap';
+  if (/bytedance|tiktok/i.test(t)) return 'ByteDance';
+  if (/amazon/i.test(t)) return 'Amazon';
+  if (/databricks|mosaic/i.test(t)) return 'Databricks';
+  return t;
+}
+
+function countMap(arr) {
+  const m = {};
+  arr.forEach(v => { m[v] = (m[v]||0) + 1; });
+  return Object.entries(m).sort((a,b) => b[1] - a[1]);
+}
+
+function renderBarChart(data, colorClass, maxItems) {
+  const items = maxItems ? data.slice(0, maxItems) : data;
+  const max = items[0] ? items[0][1] : 1;
+  return items.map(([label, count]) => `
+    <div class="chart-row">
+      <div class="chart-label" title="${label}">${label}</div>
+      <div class="chart-bar-wrap"><div class="chart-bar ${colorClass}" style="width:${Math.max((count/max)*100, 3)}%"></div></div>
+      <div class="chart-count">${count}</div>
+    </div>`).join('');
+}
+
+function getChartData(type) {
+  switch(type) {
+    case 'total': {
+      const types = countMap(cases.map(classifyWorkType));
+      return { title: '案件類型分布 Case Types', subtitle: `全部 ${cases.length} 件案件依涉及著作類型分類`, html: renderBarChart(types, 'navy') };
+    }
+    case 'us': {
+      const usCases = cases.filter(c => !isNonUS(c));
+      const types = countMap(usCases.map(classifyWorkType));
+      return { title: '🇺🇸 美國案件類型 US Case Types', subtitle: `${usCases.length} 件美國案件依涉及著作類型分類`, html: renderBarChart(types, 'blue') };
+    }
+    case 'nonus': {
+      const nuCases = cases.filter(isNonUS);
+      const countries = nuCases.map(c => {
+        const ct = c.court;
+        if (/UK|英國/.test(ct)) return '🇬🇧 英國';
+        if (/France|Paris|法國/.test(ct)) return '🇫🇷 法國';
+        if (/German|Munich|Hamburg|德國|漢堡/.test(ct)) return '🇩🇪 德國';
+        if (/Canada|Ontario|加拿大/.test(ct)) return '🇨🇦 加拿大';
+        if (/India|Delhi|印度/.test(ct)) return '🇮🇳 印度';
+        if (/CJEU|European Union|歐盟/.test(ct)) return '🇪🇺 歐盟';
+        if (/Denmark|丹麥|Copenhagen/.test(ct)) return '🇩🇰 丹麥';
+        if (/Korea|韓國|Seoul/.test(ct)) return '🇰🇷 韓國';
+        if (/China|中國|北京|廣州|杭州|Beijing|Guangzhou/.test(ct)) return '🇨🇳 中國';
+        if (/Japan|日本|Tokyo/.test(ct)) return '🇯🇵 日本';
+        if (/Brazil|巴西/.test(ct)) return '🇧🇷 巴西';
+        if (/Italy|義大利/.test(ct)) return '🇮🇹 義大利';
+        if (/Netherlands|荷蘭/.test(ct)) return '🇳🇱 荷蘭';
+        return '其他';
+      });
+      const data = countMap(countries);
+      return { title: '🌏 非美國案件分布 Non-US by Country', subtitle: `${nuCases.length} 件非美國案件依國家/地區分類`, html: renderBarChart(data, 'orange') };
+    }
+    case 'active': {
+      const activeCases = cases.filter(c => c.status === 'active');
+      const types = countMap(activeCases.map(classifyWorkType));
+      return { title: '審理中案件類型 Active Case Types', subtitle: `${activeCases.length} 件審理中案件依著作類型分類`, html: renderBarChart(types, 'navy') };
+    }
+    case 'appeal': {
+      const appealCases = cases.filter(c => c.status === 'appeal');
+      let html = '<div class="chart-subtitle">上訴中案件一覽</div>';
+      appealCases.forEach(c => {
+        html += `<div class="settled-item"><div class="settled-name">${c.name}</div><div class="settled-detail">${c.court}</div></div>`;
+      });
+      return { title: '上訴中案件 Appeals', subtitle: '', html };
+    }
+    case 'mdl': {
+      const mdlCases = cases.filter(c => c.status === 'mdl');
+      let html = '<div class="chart-subtitle">已合併至多地區訴訟（MDL）之案件</div>';
+      mdlCases.forEach(c => {
+        html += `<div class="settled-item"><div class="settled-name">${c.name}</div><div class="settled-detail">${c.defendants}</div></div>`;
+      });
+      return { title: 'MDL 合併案件 MDL Cases', subtitle: '', html };
+    }
+    case 'settled': {
+      const settledCases = cases.filter(c => c.status === 'settled');
+      let html = '<div class="chart-subtitle">和解 / 駁回 / 撤回案件一覽</div>';
+      settledCases.forEach(c => {
+        html += `<div class="settled-item"><div class="settled-name">${c.name}</div><div class="settled-detail">${c.defendants}</div></div>`;
+      });
+      return { title: '和解案件 Settled/Dismissed', subtitle: '', html };
+    }
+    case 'defendants': {
+      const allDefs = [];
+      cases.forEach(c => {
+        c.defendants.split(',').forEach(d => {
+          const nd = normalizeDefendant(d);
+          if (nd) allDefs.push(nd);
+        });
+      });
+      const data = countMap(allDefs).slice(0, 15);
+      return { title: '被告企業排名 Top Defendants', subtitle: `依被訴次數排名前 15 名`, html: renderBarChart(data, 'gold', 15) };
+    }
+    default:
+      return { title: '', subtitle: '', html: '' };
+  }
+}
+
+function openStatsModal(type) {
+  const { title, subtitle, html } = getChartData(type);
+  document.getElementById('statsModalTitle').textContent = title;
+  document.getElementById('statsModalBody').innerHTML = (subtitle ? `<div class="chart-subtitle">${subtitle}</div>` : '') + html;
+  document.getElementById('statsModal').classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+function closeStatsModal() {
+  document.getElementById('statsModal').classList.remove('open');
+  document.body.style.overflow = '';
+}
+document.addEventListener('keydown', e => { if (e.key === 'Escape') closeStatsModal(); });
 
 // Filters
 const statusFilters = [
