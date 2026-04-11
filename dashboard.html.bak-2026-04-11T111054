@@ -28,488 +28,7 @@
     --green: #27ae60;
     --blue: #2980b9;
     --orange: #e67e22;
-    --panel-bg: #faf8f4;
-    --case-hover: #faf8f4;
-    --case-active-bg: linear-gradient(90deg, #f0ebe0, var(--white));
-    --section-body-bg: var(--white);
-    --source-bg: #faf8f4;
-    --claim-tag-bg: #f0ebe0;
   }
-
-  /* ── Dark Mode ── */
-  [data-theme="dark"] {
-    --navy: #0d1520;
-    --navy-light: #162230;
-    --navy-mid: #111c2a;
-    --cream: #1a2332;
-    --text: #d4d8dd;
-    --text-light: #8899aa;
-    --border: #2a3a4d;
-    --white: #1e2d3d;
-    --panel-bg: #162230;
-    --case-hover: #1e2d3d;
-    --case-active-bg: linear-gradient(90deg, #1e2d3d, #243447);
-    --section-body-bg: #1e2d3d;
-    --source-bg: #162230;
-    --claim-tag-bg: #243447;
-  }
-  [data-theme="dark"] .stat-num { color: var(--gold-light) !important; }
-  [data-theme="dark"] .stat-box:hover { background: #243447; }
-  [data-theme="dark"] .stat-box.us .stat-num { color: #5dade2 !important; }
-  [data-theme="dark"] .stat-box.non-us .stat-num { color: #f0b27a !important; }
-  [data-theme="dark"] .case-name { color: var(--gold-light); }
-  [data-theme="dark"] .detail-title { color: var(--gold-light); }
-  [data-theme="dark"] .badge-active { background: #1e3a2a; color: #6fcf97; }
-  [data-theme="dark"] .badge-settled { background: #1a2e40; color: #6db3f2; }
-  [data-theme="dark"] .badge-appeal { background: #3a2a1a; color: #f0b27a; }
-  [data-theme="dark"] .badge-dismissed { background: #3a1a1a; color: #f28b82; }
-  [data-theme="dark"] .badge-mdl { background: #2a1a3a; color: #c08bde; }
-  [data-theme="dark"] .search-box { background: var(--panel-bg); }
-  [data-theme="dark"] .search-box input { background: var(--white); color: var(--text); border-color: var(--border); }
-  [data-theme="dark"] .filter-row { background: var(--panel-bg); }
-  [data-theme="dark"] .filter-btn { background: var(--white); color: var(--text-light); border-color: var(--border); }
-  [data-theme="dark"] .case-item:hover { background: var(--case-hover); }
-  [data-theme="dark"] .section-body { background: var(--section-body-bg); }
-  [data-theme="dark"] .source-list { background: var(--source-bg); }
-  [data-theme="dark"] .claim-tag { background: var(--claim-tag-bg); color: var(--gold-light); }
-  [data-theme="dark"] .factor-item { border-color: var(--border); }
-  [data-theme="dark"] .fairuse-intro h2 { color: var(--gold-light); }
-  [data-theme="dark"] .reports-card { background: var(--white); border-color: var(--border); }
-  [data-theme="dark"] .courtlistener-btn { background: var(--gold); color: var(--navy); }
-  [data-theme="dark"] .fig-link { color: var(--gold-light); }
-  [data-theme="dark"] .case-item { border-bottom-color: var(--border); }
-  [data-theme="dark"] .empty-state .icon { opacity: 0.5; }
-
-  /* ── Dark Mode Toggle Button ── */
-  .theme-toggle {
-    background: transparent;
-    border: 1px solid var(--gold);
-    color: var(--gold-light);
-    padding: 6px 14px;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 14px;
-    font-family: 'Microsoft JhengHei', '微軟正黑體', sans-serif;
-    transition: all 0.2s;
-    margin-left: 16px;
-    white-space: nowrap;
-  }
-  .theme-toggle:hover { background: rgba(201,169,110,0.15); }
-
-  /* ── Pie Chart ── */
-  .pie-chart-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 24px;
-    padding: 16px 24px;
-    background: var(--white);
-    border-bottom: 1px solid var(--border);
-  }
-  .pie-svg { width: 120px; height: 120px; }
-  .pie-legend {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 6px 16px;
-    font-size: 13px;
-    font-family: 'Microsoft JhengHei', '微軟正黑體', sans-serif;
-    color: var(--text);
-  }
-  .pie-legend-item {
-    display: flex;
-    align-items: center;
-    gap: 6px;
-    cursor: pointer;
-    transition: opacity 0.2s;
-  }
-  .pie-legend-item:hover { opacity: 0.7; }
-  .pie-dot {
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    flex-shrink: 0;
-  }
-
-  /* ── Advanced Filters ── */
-  .adv-filter-row {
-    padding: 8px 16px;
-    border-bottom: 1px solid var(--border);
-    display: flex;
-    gap: 8px;
-    flex-wrap: wrap;
-    background: var(--panel-bg);
-    align-items: center;
-  }
-  .adv-filter-select {
-    padding: 5px 10px;
-    border: 1px solid var(--border);
-    border-radius: 4px;
-    font-size: 13px;
-    font-family: 'Microsoft JhengHei', '微軟正黑體', sans-serif;
-    background: var(--white);
-    color: var(--text);
-    cursor: pointer;
-    outline: none;
-    min-width: 100px;
-  }
-  .adv-filter-select:focus { border-color: var(--gold); }
-  .adv-filter-label {
-    font-size: 11px;
-    font-weight: 700;
-    color: var(--text-light);
-    letter-spacing: 0.5px;
-    text-transform: uppercase;
-  }
-  .adv-filter-reset {
-    font-size: 12px;
-    color: var(--gold);
-    background: transparent;
-    border: none;
-    cursor: pointer;
-    font-family: 'Microsoft JhengHei', '微軟正黑體', sans-serif;
-    text-decoration: underline;
-  }
-  .adv-filter-reset:hover { color: var(--text); }
-
-  /* ── SVG World Map ── */
-  .map-container {
-    background: var(--white);
-    border-bottom: 1px solid var(--border);
-    padding: 16px 24px;
-    text-align: center;
-  }
-  .map-container h3 {
-    font-size: 14px;
-    color: var(--text-light);
-    margin-bottom: 10px;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    font-family: 'Microsoft JhengHei', '微軟正黑體', sans-serif;
-  }
-  .map-svg-wrap {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    flex-wrap: wrap;
-  }
-  .map-region {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    cursor: pointer;
-    padding: 10px 16px;
-    border-radius: 8px;
-    transition: all 0.2s;
-    min-width: 80px;
-    border: 2px solid transparent;
-  }
-  .map-region:hover { background: var(--panel-bg); transform: translateY(-2px); }
-  .map-region.active { border-color: var(--gold); background: var(--panel-bg); }
-  .map-region-flag { font-size: 32px; margin-bottom: 4px; }
-  .map-region-name { font-size: 11px; color: var(--text-light); font-weight: 600; letter-spacing: 0.5px; font-family: 'Microsoft JhengHei', '微軟正黑體', sans-serif; }
-  .map-region-count { font-size: 20px; font-weight: 700; color: var(--navy); margin: 2px 0; }
-  .map-region-bar { height: 4px; border-radius: 2px; background: var(--gold); transition: width 0.3s; min-width: 8px; }
-  [data-theme="dark"] .map-region:hover { background: #243447; }
-  [data-theme="dark"] .map-region.active { background: #243447; }
-  [data-theme="dark"] .map-region-count { color: var(--gold-light); }
-
-  /* ── Litigation Timeline ── */
-  .timeline-container {
-    display: none;
-    height: calc(100vh - 180px);
-    min-height: 600px;
-    overflow-y: auto;
-    padding: 36px 48px;
-    background: var(--cream);
-  }
-  .timeline-container.visible { display: block; }
-  .timeline-intro {
-    max-width: 960px;
-    margin: 0 auto 36px;
-  }
-  .timeline-intro h2 {
-    font-size: 28px;
-    color: var(--navy);
-    margin-bottom: 12px;
-    border-bottom: 2px solid var(--gold);
-    padding-bottom: 12px;
-  }
-  .timeline-intro p {
-    font-size: 16px;
-    line-height: 1.8;
-    color: var(--text);
-  }
-  [data-theme="dark"] .timeline-intro h2 { color: var(--gold-light); }
-  .timeline-track {
-    max-width: 960px;
-    margin: 0 auto;
-    position: relative;
-    padding-left: 40px;
-  }
-  .timeline-track::before {
-    content: '';
-    position: absolute;
-    left: 18px;
-    top: 0;
-    bottom: 0;
-    width: 3px;
-    background: var(--gold);
-    border-radius: 2px;
-  }
-  .timeline-year-label {
-    position: relative;
-    font-size: 22px;
-    font-weight: 700;
-    color: var(--navy);
-    margin: 32px 0 16px -40px;
-    padding-left: 40px;
-  }
-  .timeline-year-label::before {
-    content: '';
-    position: absolute;
-    left: 11px;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 16px;
-    height: 16px;
-    border-radius: 50%;
-    background: var(--gold);
-    border: 3px solid var(--cream);
-  }
-  [data-theme="dark"] .timeline-year-label { color: var(--gold-light); }
-  [data-theme="dark"] .timeline-year-label::before { border-color: var(--cream); }
-  .tl-item {
-    position: relative;
-    margin-bottom: 16px;
-    padding: 14px 18px;
-    background: var(--white);
-    border: 1px solid var(--border);
-    border-radius: 6px;
-    cursor: pointer;
-    transition: all 0.2s;
-  }
-  .tl-item:hover { border-color: var(--gold); transform: translateX(4px); }
-  .tl-item::before {
-    content: '';
-    position: absolute;
-    left: -30px;
-    top: 20px;
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    border: 2px solid var(--gold);
-    background: var(--white);
-  }
-  [data-theme="dark"] .tl-item { background: var(--section-body-bg); }
-  [data-theme="dark"] .tl-item::before { background: var(--section-body-bg); }
-  .tl-date {
-    font-size: 12px;
-    color: var(--gold);
-    font-weight: 700;
-    margin-bottom: 4px;
-    font-family: 'Microsoft JhengHei', '微軟正黑體', sans-serif;
-  }
-  .tl-title {
-    font-size: 15px;
-    font-weight: 600;
-    color: var(--navy);
-    margin-bottom: 4px;
-  }
-  [data-theme="dark"] .tl-title { color: var(--gold-light); }
-  .tl-desc {
-    font-size: 13px;
-    color: var(--text-light);
-    line-height: 1.6;
-  }
-  .tl-badge {
-    display: inline-block;
-    font-size: 11px;
-    padding: 2px 8px;
-    border-radius: 8px;
-    margin-left: 8px;
-    font-weight: 600;
-    vertical-align: middle;
-  }
-  .tl-badge-filing { background: #e8f5e9; color: #2e7d32; }
-  .tl-badge-ruling { background: #fff3e0; color: #e65100; }
-  .tl-badge-settlement { background: #e3f2fd; color: #1565c0; }
-  .tl-badge-landmark { background: #fce4ec; color: #c62828; }
-
-  /* ── Case Comparison Tool ── */
-  .compare-btn {
-    background: transparent;
-    border: 1px solid var(--gold);
-    color: var(--gold-light);
-    padding: 6px 14px;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 14px;
-    font-family: 'Microsoft JhengHei', '微軟正黑體', sans-serif;
-    transition: all 0.2s;
-    margin-left: 8px;
-    white-space: nowrap;
-  }
-  .compare-btn:hover { background: rgba(201,169,110,0.15); }
-  .compare-overlay {
-    display: none;
-    position: fixed;
-    top: 0; left: 0; right: 0; bottom: 0;
-    background: rgba(0,0,0,0.6);
-    z-index: 2000;
-    justify-content: center;
-    align-items: flex-start;
-    padding: 40px 20px;
-    overflow-y: auto;
-  }
-  .compare-overlay.visible { display: flex; }
-  .compare-modal {
-    background: var(--cream);
-    border-radius: 8px;
-    width: 95vw;
-    max-width: 1200px;
-    max-height: 85vh;
-    overflow-y: auto;
-    border: 2px solid var(--gold);
-  }
-  .compare-header {
-    background: var(--navy);
-    color: var(--gold-light);
-    padding: 16px 24px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: sticky;
-    top: 0;
-    z-index: 1;
-  }
-  .compare-header h3 { font-size: 18px; font-weight: 700; letter-spacing: 1px; }
-  .compare-close {
-    background: transparent;
-    border: none;
-    color: var(--gold-light);
-    font-size: 28px;
-    cursor: pointer;
-    line-height: 1;
-  }
-  .compare-selectors {
-    display: flex;
-    gap: 16px;
-    padding: 16px 24px;
-    background: var(--white);
-    border-bottom: 1px solid var(--border);
-    flex-wrap: wrap;
-  }
-  .compare-select-group { flex: 1; min-width: 200px; }
-  .compare-select-group label {
-    display: block;
-    font-size: 12px;
-    font-weight: 700;
-    color: var(--text-light);
-    margin-bottom: 4px;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-  }
-  .compare-select-group select {
-    width: 100%;
-    padding: 8px 12px;
-    border: 1px solid var(--border);
-    border-radius: 4px;
-    font-size: 14px;
-    font-family: 'Microsoft JhengHei', '微軟正黑體', sans-serif;
-    background: var(--white);
-    color: var(--text);
-  }
-  .compare-body {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 0;
-    padding: 0;
-  }
-  .compare-col {
-    padding: 20px;
-    border-right: 1px solid var(--border);
-    min-width: 0;
-  }
-  .compare-col:last-child { border-right: none; }
-  .compare-col h4 {
-    font-size: 16px;
-    color: var(--navy);
-    margin-bottom: 12px;
-    padding-bottom: 8px;
-    border-bottom: 2px solid var(--gold);
-    line-height: 1.4;
-  }
-  [data-theme="dark"] .compare-col h4 { color: var(--gold-light); }
-  .compare-field {
-    margin-bottom: 16px;
-  }
-  .compare-field-label {
-    font-size: 11px;
-    font-weight: 700;
-    color: var(--gold);
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    margin-bottom: 4px;
-  }
-  .compare-field-value {
-    font-size: 14px;
-    line-height: 1.7;
-    color: var(--text);
-  }
-  .compare-empty {
-    padding: 60px 24px;
-    text-align: center;
-    color: var(--text-light);
-    font-size: 15px;
-    grid-column: 1 / -1;
-  }
-  @media (max-width: 600px) {
-    .compare-body { grid-template-columns: 1fr; }
-    .compare-col { border-right: none; border-bottom: 1px solid var(--border); }
-    .compare-selectors { flex-direction: column; }
-    .compare-btn { margin-left: 0; margin-top: 6px; padding: 4px 10px; font-size: 12px; }
-  }
-
-  /* ── Reports Library Category Tags ── */
-  .reports-cat-row {
-    display: flex;
-    gap: 6px;
-    flex-wrap: wrap;
-    padding: 8px 0 0;
-  }
-  .reports-cat-btn {
-    font-size: 12px;
-    padding: 4px 10px;
-    border: 1px solid var(--border);
-    border-radius: 12px;
-    background: var(--white);
-    cursor: pointer;
-    font-family: 'Microsoft JhengHei', '微軟正黑體', sans-serif;
-    color: var(--text-light);
-    transition: all 0.2s;
-  }
-  .reports-cat-btn:hover, .reports-cat-btn.active {
-    background: var(--gold);
-    color: var(--navy);
-    border-color: var(--gold);
-  }
-  .report-cat-tag {
-    display: inline-block;
-    font-size: 10px;
-    padding: 2px 8px;
-    border-radius: 8px;
-    font-weight: 600;
-    margin-top: 6px;
-  }
-  .cat-legislation { background: #e8f5e9; color: #2e7d32; }
-  .cat-judicial { background: #fff3e0; color: #e65100; }
-  .cat-academic { background: #e3f2fd; color: #1565c0; }
-  .cat-policy { background: #f3e5f5; color: #6a1b9a; }
-  [data-theme="dark"] .cat-legislation { background: #1e3a2a; color: #6fcf97; }
-  [data-theme="dark"] .cat-judicial { background: #3a2a1a; color: #f0b27a; }
-  [data-theme="dark"] .cat-academic { background: #1a2e40; color: #6db3f2; }
-  [data-theme="dark"] .cat-policy { background: #2a1a3a; color: #c08bde; }
 
   * { margin: 0; padding: 0; box-sizing: border-box; }
 
@@ -1487,93 +1006,19 @@
   }
 
   /* ── Responsive ── */
-  /* ── Tablet (≤ 900px) ── */
   @media (max-width: 900px) {
-    header { flex-direction: column; align-items: flex-start; gap: 10px; padding: 16px 20px; }
-    header h1 { font-size: 20px; }
-    header > div:first-child { flex-wrap: wrap; }
-    .view-toggle { margin-left: 0; margin-top: 8px; }
-    .view-toggle-btn { padding: 6px 12px; font-size: 12px; }
-    .theme-toggle { padding: 4px 10px; font-size: 12px; }
     .main { flex-direction: column; height: auto; }
     .panel-left { width: 100%; min-width: 0; max-height: 50vh; }
     .panel-right { padding: 20px; }
     .stats-bar { flex-wrap: wrap; }
     .stat-box { min-width: 50%; }
-    .stat-num { font-size: 24px; }
     .chart-label { flex: 0 0 100px; font-size: 12px; }
     .stats-modal { width: 95vw; }
-    .pie-chart-container { flex-wrap: wrap; padding: 12px 16px; }
-    .map-svg-wrap { gap: 10px; }
-    .map-region { padding: 6px 10px; min-width: 60px; }
-    .map-region-flag { font-size: 24px; }
-    .map-region-count { font-size: 16px; }
-    .adv-filter-row { padding: 6px 12px; }
-    .adv-filter-select { font-size: 12px; min-width: 80px; }
     .fairuse-container { padding: 20px 16px; }
     .reports-container { padding: 20px 16px; }
-    .timeline-container { padding: 20px 16px; }
-    .timeline-track { padding-left: 30px; }
     .factor-grid { grid-template-columns: 1fr; }
     .factor-item { border-right: none !important; }
-  }
-
-  /* ── Mobile (≤ 600px) ── */
-  @media (max-width: 600px) {
-    header { padding: 12px 16px; }
-    header h1 { font-size: 17px; }
-    .header-meta { font-size: 12px; }
-    .view-toggle { display: flex; flex-wrap: wrap; gap: 4px; }
-    .view-toggle-btn { padding: 5px 8px; font-size: 11px; flex: 1; text-align: center; border-radius: 4px !important; }
-    .stats-bar { display: grid; grid-template-columns: 1fr 1fr; }
-    .stat-box { padding: 10px 8px; border-right: none; border-bottom: 1px solid var(--border); }
-    .stat-num { font-size: 20px; }
-    .stat-label { font-size: 10px; }
-    .stat-divider, .stat-group-label { display: none; }
-    .pie-chart-container { flex-direction: column; gap: 12px; }
-    .pie-svg { width: 90px; height: 90px; }
-    .pie-legend { justify-content: center; font-size: 11px; }
-    .map-container { padding: 10px 12px; }
-    .map-container h3 { font-size: 12px; }
-    .map-svg-wrap { gap: 6px; }
-    .map-region { padding: 4px 6px; min-width: 50px; }
-    .map-region-flag { font-size: 20px; }
-    .map-region-count { font-size: 14px; }
-    .map-region-name { font-size: 9px; }
-    .ticker-wrap { flex-direction: column; }
-    .ticker-label { width: 100%; text-align: center; }
-    .ticker-track { padding: 8px 12px; }
-    .ticker-item { font-size: 13px; }
-    .main { flex-direction: column; height: auto; min-height: 0; }
-    .panel-left { width: 100%; max-height: none; border-right: none; border-bottom: 1px solid var(--border); }
-    .search-box { padding: 8px 12px; }
-    .search-box input { font-size: 14px; padding: 8px 10px; }
-    .adv-filter-row { flex-direction: column; gap: 6px; align-items: stretch; }
-    .adv-filter-select { width: 100%; min-width: 0; }
-    .case-list { max-height: 40vh; }
-    .case-item { padding: 10px 12px; }
-    .case-name { font-size: 14px; }
-    .case-meta { font-size: 11px; gap: 6px; }
-    .badge { font-size: 10px; padding: 2px 6px; }
-    .panel-right { padding: 16px; }
-    .detail-title { font-size: 20px; }
-    .detail-court { font-size: 13px; }
-    .section-header { padding: 10px 14px; font-size: 13px; }
-    .section-body { padding: 14px; font-size: 14px; line-height: 1.7; }
-    .timeline-container { padding: 16px 12px; }
-    .timeline-intro { margin-bottom: 20px; }
-    .timeline-intro h2 { font-size: 22px; }
-    .timeline-intro p { font-size: 14px; }
-    .timeline-track { padding-left: 24px; }
-    .timeline-track::before { left: 12px; }
-    .timeline-year-label { font-size: 18px; margin-left: -24px; padding-left: 24px; }
-    .timeline-year-label::before { left: 6px; width: 14px; height: 14px; }
-    .tl-item { padding: 10px 12px; }
-    .tl-item::before { left: -20px; width: 8px; height: 8px; }
-    .tl-title { font-size: 13px; }
-    .tl-desc { font-size: 12px; }
-    .fairuse-intro h2 { font-size: 22px; }
-    footer { font-size: 11px; padding: 10px 12px; }
+    .view-toggle { margin-left: 0; margin-top: 8px; }
   }
 </style>
 </head>
@@ -1585,17 +1030,12 @@
     <div class="view-toggle">
       <button class="view-toggle-btn active" data-view="tracker" onclick="switchView('tracker')">訴訟追蹤</button>
       <button class="view-toggle-btn" data-view="fairuse" onclick="switchView('fairuse')">合理使用經典</button>
-      <button class="view-toggle-btn" data-view="timeline" onclick="switchView('timeline')">時間軸</button>
       <button class="view-toggle-btn" data-view="reports" onclick="switchView('reports')">官方報告</button>
     </div>
   </div>
-  <div style="display:flex;align-items:center;gap:12px;">
-    <div class="header-meta">
-      <div>AI 著作權訴訟全球追蹤儀表板</div>
-      <div id="dateDisplay"></div>
-    </div>
-    <button class="compare-btn" onclick="openCompare()" title="案件比較">⚖ 比較</button>
-    <button class="theme-toggle" onclick="toggleDarkMode()" id="themeToggleBtn" title="切換深色/淺色模式">🌙 深色</button>
+  <div class="header-meta">
+    <div>AI 著作權訴訟全球追蹤儀表板</div>
+    <div id="dateDisplay"></div>
   </div>
 </header>
 
@@ -1613,41 +1053,6 @@
   </div>
 </div>
 
-<!-- ── Case Comparison Modal ── -->
-<div class="compare-overlay" id="compareOverlay" onclick="if(event.target===this)closeCompare()">
-  <div class="compare-modal">
-    <div class="compare-header">
-      <h3>⚖ 案件比較 Case Comparison</h3>
-      <button class="compare-close" onclick="closeCompare()">&times;</button>
-    </div>
-    <div class="compare-selectors">
-      <div class="compare-select-group">
-        <label>案件 A</label>
-        <select id="compareSelectA" onchange="updateComparison()"></select>
-      </div>
-      <div class="compare-select-group">
-        <label>案件 B</label>
-        <select id="compareSelectB" onchange="updateComparison()"></select>
-      </div>
-    </div>
-    <div class="compare-body" id="compareBody">
-      <div class="compare-empty">請選擇兩個案件進行比較</div>
-    </div>
-  </div>
-</div>
-
-<!-- ── Status Pie Chart ── -->
-<div class="pie-chart-container" id="pieChartContainer">
-  <svg class="pie-svg" viewBox="0 0 42 42" id="pieSvg"></svg>
-  <div class="pie-legend" id="pieLegend"></div>
-</div>
-
-<!-- ── Interactive Region Map ── -->
-<div class="map-container" id="mapContainer">
-  <h3>全球訴訟分佈 Global Case Distribution</h3>
-  <div class="map-svg-wrap" id="mapRegions"></div>
-</div>
-
 <!-- ── Daily News Ticker ── -->
 <div class="ticker-wrap">
   <div class="ticker-label">每日快訊 Daily Brief</div>
@@ -1661,38 +1066,6 @@
       <input type="text" id="searchInput" placeholder="搜尋案件名稱、法院、法官 …">
     </div>
     <div class="filter-row" id="filterRow"></div>
-    <div class="adv-filter-row" id="advFilterRow">
-      <span class="adv-filter-label">篩選</span>
-      <select class="adv-filter-select" id="filterJurisdiction" onchange="renderCaseList()">
-        <option value="all">管轄權 — 全部</option>
-        <option value="us">🇺🇸 美國</option>
-        <option value="eu">🇪🇺 歐盟/歐洲</option>
-        <option value="uk">🇬🇧 英國</option>
-        <option value="cn">🇨🇳 中國</option>
-        <option value="asia-other">🌏 亞洲其他</option>
-        <option value="other">🌍 其他地區</option>
-      </select>
-      <select class="adv-filter-select" id="filterTech" onchange="renderCaseList()">
-        <option value="all">AI 技術 — 全部</option>
-        <option value="llm">LLM / 文字生成</option>
-        <option value="image">AI 圖像生成</option>
-        <option value="code">程式碼生成</option>
-        <option value="music">音樂 / 歌詞</option>
-        <option value="search">AI 搜尋摘要</option>
-        <option value="video">影片 / 多媒體</option>
-      </select>
-      <select class="adv-filter-select" id="filterPlaintiff" onchange="renderCaseList()">
-        <option value="all">原告類型 — 全部</option>
-        <option value="author">作家 / 出版社</option>
-        <option value="artist">藝術家 / 攝影師</option>
-        <option value="media">新聞媒體</option>
-        <option value="music">音樂產業</option>
-        <option value="code">軟體 / 程式開發者</option>
-        <option value="creator">影片創作者</option>
-        <option value="reference">百科 / 參考資料</option>
-      </select>
-      <button class="adv-filter-reset" onclick="resetAdvFilters()">清除篩選</button>
-    </div>
     <div class="case-list" id="caseList"></div>
   </div>
   <div class="panel-right" id="detailPanel">
@@ -1702,15 +1075,6 @@
       <p style="font-size:12px;margin-top:8px;color:#bbb;">Select a case from the left panel to view details</p>
     </div>
   </div>
-</div>
-
-<!-- ── Litigation Timeline Section ── -->
-<div class="timeline-container" id="timelineContainer">
-  <div class="timeline-intro">
-    <h2>AI 著作權訴訟時間軸 Litigation Timeline</h2>
-    <p>自 2022 年生成式 AI 爆發以來，全球各地著作權訴訟迅速增加。本時間軸呈現重大案件的提起、關鍵裁定與和解等里程碑，幫助您掌握 AI 著作權法發展的整體脈絡。</p>
-  </div>
-  <div class="timeline-track" id="timelineTrack"></div>
 </div>
 
 <!-- ── Fair Use Landmark Cases Section ── -->
@@ -1756,7 +1120,6 @@
     <p>全球主要政府機關及國際組織針對 AI 與著作權議題所發布的重要政策報告、指引及決議。這些文件反映各法域對 AI 訓練使用著作權作品、AI 生成物之可著作權性、以及透明度與授權機制等核心議題的政策立場。</p>
   </div>
   <div class="reports-filter-row" id="reportsFilterRow"></div>
-  <div class="reports-filter-row" id="reportsCatRow" style="margin-top:6px;"></div>
   <div class="reports-grid" id="reportsGrid"></div>
 </div>
 
@@ -5970,68 +5333,16 @@ function statusBadge(s) {
 
 // Case list
 let selectedId = null;
-// ── Advanced Filter Classification Helpers ──
-function classifyJurisdiction(court) {
-  const ukKW = ['UK High Court','英國','England','London'];
-  const euKW = ['CJEU','European Union','歐盟','Budapest','德國','法國','German','Munich','Paris','France','Hamburg','漢堡','丹麥','Copenhagen','Denmark','荷蘭','Netherlands','Amsterdam','義大利','Italy'];
-  const cnKW = ['中國','北京','廣州','杭州','Beijing Internet Court','Guangzhou Internet Court','China'];
-  const asiaOtherKW = ['印度','Delhi','India','韓國','Seoul','South Korea','日本','Tokyo','Japan'];
-  const nonUSAll = [...ukKW,...euKW,...cnKW,...asiaOtherKW,'加拿大','Ontario','Canada','巴西','Brazil'];
-  if (ukKW.some(k => court.includes(k))) return 'uk';
-  if (euKW.some(k => court.includes(k))) return 'eu';
-  if (cnKW.some(k => court.includes(k))) return 'cn';
-  if (asiaOtherKW.some(k => court.includes(k))) return 'asia-other';
-  if (nonUSAll.some(k => court.includes(k))) return 'other';
-  return 'us';
-}
-function classifyTech(c) {
-  const n = (c.name + ' ' + c.issues + ' ' + c.defendants).toLowerCase();
-  if (/歌詞|lyric|music|song|umg|concord|bmg|riaa/.test(n)) return 'music';
-  if (/圖像|image|illustrat|photo|getty|stability|midjourney|dall-e|art/.test(n)) return 'image';
-  if (/程式碼|code|copilot|github/.test(n)) return 'code';
-  if (/影片|video|youtube|snap|tiktok|bytedance/.test(n)) return 'video';
-  if (/搜尋|search|perplexity|摘要|summar/.test(n)) return 'search';
-  return 'llm';
-}
-function classifyPlaintiff(c) {
-  const n = (c.name + ' ' + c.issues).toLowerCase();
-  if (/音樂|music|lyric|song|umg|concord|bmg|riaa/.test(n)) return 'music';
-  if (/藝術家|artist|illustrat|photo|getty|攝影|畫家/.test(n)) return 'artist';
-  if (/新聞|news|nyt|times|media|journal|tribune|reuters|cbc|afp/.test(n)) return 'media';
-  if (/程式|code|copilot|github|software/.test(n)) return 'code';
-  if (/youtube|影片|creator|youtuber|snap/.test(n)) return 'creator';
-  if (/百科|encyclop|britannica|dictionary|merriam|webster/.test(n)) return 'reference';
-  return 'author';
-}
-
-function resetAdvFilters() {
-  document.getElementById('filterJurisdiction').value = 'all';
-  document.getElementById('filterTech').value = 'all';
-  document.getElementById('filterPlaintiff').value = 'all';
-  renderCaseList();
-}
-
 function renderCaseList() {
   const q = document.getElementById('searchInput').value.toLowerCase();
   const list = document.getElementById('caseList');
-  const jFilter = document.getElementById('filterJurisdiction')?.value || 'all';
-  const tFilter = document.getElementById('filterTech')?.value || 'all';
-  const pFilter = document.getElementById('filterPlaintiff')?.value || 'all';
-  const _nonUSKW = ['CJEU','UK High Court','European Union','Budapest','歐盟','加拿大','印度','德國','法國','英國','Ontario','Delhi','German','Munich','Paris','France','Canada','Hamburg','漢堡','丹麥','Copenhagen','Denmark','韓國','Seoul','South Korea','中國','北京','廣州','杭州','Beijing Internet Court','Guangzhou Internet Court','China','日本','Tokyo','Japan','巴西','Brazil','義大利','Italy','荷蘭','Netherlands'];
+  const _nonUSKW = ['CJEU','UK High Court','European Union','Budapest','歐盟','加拿大','印度','德國','法國','英國','Ontario','Delhi','German','Munich','Paris','France','Canada','Hamburg','漢堡','丹麥','Copenhagen','Denmark','韓國','Seoul','South Korea','中國','北京','廣州','杭州','Beijing Internet Court','Guangzhou Internet Court','China'];
   const filtered = cases.filter(c => {
-    // Status filter
     if (activeFilter === 'us') {
       if (_nonUSKW.some(k => c.court.includes(k))) return false;
     } else if (activeFilter === 'non-us') {
       if (!_nonUSKW.some(k => c.court.includes(k))) return false;
     } else if (activeFilter !== 'all' && c.status !== activeFilter) return false;
-    // Advanced: Jurisdiction
-    if (jFilter !== 'all' && classifyJurisdiction(c.court) !== jFilter) return false;
-    // Advanced: Tech
-    if (tFilter !== 'all' && classifyTech(c) !== tFilter) return false;
-    // Advanced: Plaintiff
-    if (pFilter !== 'all' && classifyPlaintiff(c) !== pFilter) return false;
-    // Text search
     if (q && !c.name.toLowerCase().includes(q) && !c.court.toLowerCase().includes(q) && !c.judge.toLowerCase().includes(q) && !c.defendants.toLowerCase().includes(q)) return false;
     return true;
   });
@@ -6159,35 +5470,24 @@ function switchView(view) {
   const tracker = document.querySelector('.main');
   const statsBar = document.getElementById('statsBar');
   const ticker = document.querySelector('.ticker-wrap');
-  const pieChart = document.getElementById('pieChartContainer');
-  const mapEl = document.getElementById('mapContainer');
   const fairuse = document.getElementById('fairuseContainer');
   const reports = document.getElementById('reportsContainer');
-  const timeline = document.getElementById('timelineContainer');
   // Hide all
   tracker.style.display = 'none';
   statsBar.style.display = 'none';
   ticker.style.display = 'none';
-  pieChart.style.display = 'none';
-  mapEl.style.display = 'none';
   fairuse.classList.remove('visible');
   reports.classList.remove('visible');
-  timeline.classList.remove('visible');
   if (view === 'fairuse') {
     fairuse.classList.add('visible');
     renderFairUseCases();
   } else if (view === 'reports') {
     reports.classList.add('visible');
     renderReports();
-  } else if (view === 'timeline') {
-    timeline.classList.add('visible');
-    buildTimeline();
   } else {
     tracker.style.display = 'flex';
     statsBar.style.display = 'flex';
     ticker.style.display = 'flex';
-    pieChart.style.display = 'flex';
-    mapEl.style.display = 'block';
   }
 }
 
@@ -6983,7 +6283,7 @@ const officialReports = [
 
 let reportsFilterActive = 'all';
 function renderReports() {
-  // Build country filter buttons
+  // Build filter buttons
   const filterRow = document.getElementById('reportsFilterRow');
   if (!filterRow.innerHTML) {
     let fhtml = `<button class="reports-filter-btn active" onclick="filterReports('all')">全部</button>`;
@@ -6992,28 +6292,17 @@ function renderReports() {
     });
     filterRow.innerHTML = fhtml;
   }
-  // Build category filter buttons
-  const catRow = document.getElementById('reportsCatRow');
-  if (!catRow.innerHTML) {
-    let chtml = `<button class="reports-cat-btn active" data-cat="all" onclick="filterReportsCat('all')">全部類別</button>`;
-    Object.entries(catLabels).forEach(([k, v]) => {
-      chtml += `<button class="reports-cat-btn cat-${k}" data-cat="${k}" onclick="filterReportsCat('${k}')">${v}</button>`;
-    });
-    catRow.innerHTML = chtml;
-  }
   // Build cards
   const grid = document.getElementById('reportsGrid');
   let html = '';
   officialReports.forEach(section => {
     if (reportsFilterActive !== 'all' && reportsFilterActive !== section.country) return;
     section.reports.forEach(r => {
-      const cat = classifyReportCategory(r);
-      if (reportsCatActive !== 'all' && reportsCatActive !== cat) return;
-      const catTag = `<span class="report-cat-tag cat-${cat}">${catLabels[cat]}</span>`;
       let bodyHtml = '';
       if (r.isIndex && r.subItems) {
+        // Compact index card for TIPO interpretations
         bodyHtml = `
-          <div class="report-date">${r.date} ${catTag}</div>
+          <div class="report-date">${r.date}</div>
           <div class="report-title"><a href="${r.url}" target="_blank" rel="noopener">${r.title}</a></div>
           <div class="report-issuer">${r.issuer}</div>
           <div class="tipo-index-intro">${r.summary}</div>
@@ -7023,7 +6312,7 @@ function renderReports() {
           <a class="report-link" href="${r.url}" target="_blank" rel="noopener">智財局著作權主題網查詢 →</a>`;
       } else {
         bodyHtml = `
-          <div class="report-date">${r.date} ${catTag}</div>
+          <div class="report-date">${r.date}</div>
           <div class="report-title"><a href="${r.url}" target="_blank" rel="noopener">${r.title}</a></div>
           <div class="report-issuer">${r.issuer}</div>
           <div class="report-summary">${r.summary}</div>
@@ -7036,7 +6325,7 @@ function renderReports() {
       </div>`;
     });
   });
-  grid.innerHTML = html || '<div class="compare-empty" style="grid-column:1/-1;">此分類下目前無報告</div>';
+  grid.innerHTML = html;
 }
 function filterReports(country) {
   reportsFilterActive = country;
@@ -7044,336 +6333,6 @@ function filterReports(country) {
     b.classList.toggle('active', (country === 'all' && b.textContent === '全部') || b.textContent.includes(country.split(' ')[0]));
   });
   renderReports();
-}
-
-// ════════════════════════════════════════
-// DARK MODE
-// ════════════════════════════════════════
-function toggleDarkMode() {
-  const html = document.documentElement;
-  const isDark = html.getAttribute('data-theme') === 'dark';
-  html.setAttribute('data-theme', isDark ? 'light' : 'dark');
-  const btn = document.getElementById('themeToggleBtn');
-  btn.textContent = isDark ? '🌙 深色' : '☀️ 淺色';
-  try { localStorage.setItem('dashboard-theme', isDark ? 'light' : 'dark'); } catch(e) {}
-}
-// Restore saved theme
-(function() {
-  try {
-    const saved = localStorage.getItem('dashboard-theme');
-    if (saved === 'dark') {
-      document.documentElement.setAttribute('data-theme', 'dark');
-      document.getElementById('themeToggleBtn').textContent = '☀️ 淺色';
-    }
-  } catch(e) {}
-})();
-
-// ════════════════════════════════════════
-// STATUS PIE CHART
-// ════════════════════════════════════════
-function buildPieChart() {
-  const statusData = [
-    { key: 'active', label: '審理中 Active', color: '#27ae60' },
-    { key: 'settled', label: '和解 Settled', color: '#2980b9' },
-    { key: 'appeal', label: '上訴中 Appeal', color: '#e67e22' },
-    { key: 'dismissed', label: '駁回 Dismissed', color: '#c0392b' },
-    { key: 'mdl', label: 'MDL', color: '#8e44ad' }
-  ];
-
-  const counts = {};
-  statusData.forEach(s => { counts[s.key] = cases.filter(c => c.status === s.key).length; });
-  const total = cases.length;
-  const slices = statusData.filter(s => counts[s.key] > 0);
-
-  // Build donut SVG (using stroke-dasharray on circle)
-  const svg = document.getElementById('pieSvg');
-  const cx = 21, cy = 21, r = 15.91549430918954; // circumference = 100
-  let offset = 25; // start at 12 o'clock
-  let svgHTML = `<circle cx="${cx}" cy="${cy}" r="${r}" fill="transparent" stroke="var(--border)" stroke-width="5"/>`;
-
-  slices.forEach(s => {
-    const pct = (counts[s.key] / total) * 100;
-    svgHTML += `<circle cx="${cx}" cy="${cy}" r="${r}" fill="transparent"
-      stroke="${s.color}" stroke-width="5"
-      stroke-dasharray="${pct} ${100 - pct}"
-      stroke-dashoffset="${offset}"
-      style="cursor:pointer" data-status="${s.key}"
-      onmouseenter="pieHover('${s.key}', true)" onmouseleave="pieHover('${s.key}', false)"
-      onclick="pieClick('${s.key}')"/>`;
-    offset -= pct;
-  });
-
-  // Center text
-  svgHTML += `<text x="${cx}" y="${cy}" text-anchor="middle" dy="0.35em"
-    fill="var(--text)" font-size="6" font-weight="700" font-family="sans-serif">${total}</text>`;
-  svg.innerHTML = svgHTML;
-
-  // Build legend
-  const legend = document.getElementById('pieLegend');
-  legend.innerHTML = slices.map(s =>
-    `<span class="pie-legend-item" data-status="${s.key}" onclick="pieClick('${s.key}')"
-      onmouseenter="pieHover('${s.key}', true)" onmouseleave="pieHover('${s.key}', false)">
-      <span class="pie-dot" style="background:${s.color}"></span>
-      ${s.label}：${counts[s.key]}（${(counts[s.key]/total*100).toFixed(0)}%）
-    </span>`
-  ).join('');
-}
-
-function pieHover(status, isEnter) {
-  document.querySelectorAll(`[data-status="${status}"]`).forEach(el => {
-    el.style.opacity = isEnter ? '0.7' : '1';
-  });
-}
-
-function pieClick(status) {
-  activeFilter = (activeFilter === status) ? 'all' : status;
-  buildFilters();
-  renderCaseList();
-}
-
-buildPieChart();
-
-// ════════════════════════════════════════
-// INTERACTIVE REGION MAP
-// ════════════════════════════════════════
-function buildRegionMap() {
-  const regions = [
-    { key: 'us', flag: '🇺🇸', name: '美國 US', keywords: [] },
-    { key: 'eu', flag: '🇪🇺', name: '歐盟 EU', keywords: ['CJEU','European Union','歐盟','Budapest','德國','法國','German','Munich','Paris','France','Hamburg','漢堡','丹麥','Copenhagen','Denmark','荷蘭','Netherlands','Amsterdam','義大利','Italy'] },
-    { key: 'uk', flag: '🇬🇧', name: '英國 UK', keywords: ['UK High Court','英國','England','London'] },
-    { key: 'cn', flag: '🇨🇳', name: '中國 CN', keywords: ['中國','北京','廣州','杭州','Beijing Internet Court','Guangzhou Internet Court','China'] },
-    { key: 'asia', flag: '🌏', name: '亞洲其他', keywords: ['印度','Delhi','India','韓國','Seoul','South Korea','日本','Tokyo','Japan'] },
-    { key: 'other', flag: '🌍', name: '其他', keywords: ['加拿大','Ontario','Canada','巴西','Brazil'] }
-  ];
-
-  const allNonUS = regions.filter(r => r.key !== 'us').flatMap(r => r.keywords);
-
-  const counts = {};
-  regions.forEach(r => {
-    if (r.key === 'us') {
-      counts.us = cases.filter(c => !allNonUS.some(k => c.court.includes(k))).length;
-    } else {
-      counts[r.key] = cases.filter(c => r.keywords.some(k => c.court.includes(k))).length;
-    }
-  });
-
-  const maxCount = Math.max(...Object.values(counts), 1);
-  const container = document.getElementById('mapRegions');
-
-  container.innerHTML = regions.map(r => `
-    <div class="map-region" data-region="${r.key}" onclick="mapClick('${r.key}')">
-      <span class="map-region-flag">${r.flag}</span>
-      <span class="map-region-count">${counts[r.key]}</span>
-      <span class="map-region-name">${r.name}</span>
-      <div class="map-region-bar" style="width:${Math.max(8, (counts[r.key]/maxCount)*80)}px"></div>
-    </div>
-  `).join('');
-}
-
-let activeMapRegion = null;
-function mapClick(region) {
-  const el = document.querySelector(`.map-region[data-region="${region}"]`);
-  if (activeMapRegion === region) {
-    activeMapRegion = null;
-    document.querySelectorAll('.map-region').forEach(e => e.classList.remove('active'));
-    document.getElementById('filterJurisdiction').value = 'all';
-  } else {
-    activeMapRegion = region;
-    document.querySelectorAll('.map-region').forEach(e => e.classList.remove('active'));
-    el.classList.add('active');
-    // Map region key to jurisdiction filter value
-    const jMap = { us:'us', eu:'eu', uk:'uk', cn:'cn', asia:'asia-other', other:'other' };
-    document.getElementById('filterJurisdiction').value = jMap[region] || 'all';
-  }
-  renderCaseList();
-}
-
-buildRegionMap();
-
-// ════════════════════════════════════════
-// LITIGATION TIMELINE
-// ════════════════════════════════════════
-const timelineEvents = [
-  // 2022
-  { date: '2022-11', title: 'Andersen v. Stability AI', type: 'filing', desc: '三位藝術家對 Stability AI、Midjourney、DeviantArt 提起集體訴訟——AI 圖像生成著作權訴訟第一槍' },
-  { date: '2022-11', title: 'Getty Images v. Stability AI (UK)', type: 'filing', desc: 'Getty Images 在英國高等法院提起訴訟，主張 Stable Diffusion 未經授權使用數百萬張照片' },
-  { date: '2022-11', title: 'Doe v. GitHub (Copilot)', type: 'filing', desc: '程式設計師對 GitHub Copilot 提起集體訴訟，主張 AI 程式碼生成工具侵害開源授權條款' },
-  // 2023
-  { date: '2023-06', title: 'Silverman v. OpenAI', type: 'filing', desc: 'Sarah Silverman 等喜劇演員對 OpenAI 提起訴訟，揭開作家對 LLM 訓練使用書籍的大規模訴訟浪潮' },
-  { date: '2023-09', title: 'Authors Guild v. OpenAI', type: 'filing', desc: 'Authors Guild 聯合 John Grisham、George R.R. Martin 等知名作家對 OpenAI 提起集體訴訟' },
-  { date: '2023-10', title: 'Concord Music v. Anthropic', type: 'filing', desc: '音樂出版商控告 Anthropic Claude AI 輸出歌詞侵權——首起針對 AI 歌詞輸出的訴訟' },
-  { date: '2023-12', title: 'NYT v. OpenAI', type: 'filing', desc: '紐約時報對 OpenAI、Microsoft 提起里程碑訴訟，主張 ChatGPT 大規模複製新聞報導' },
-  // 2024
-  { date: '2024-02', title: 'Thomson Reuters v. ROSS — 合理使用裁定', type: 'ruling', desc: '法院裁定 ROSS Intelligence 使用 Westlaw 資料訓練 AI 法律搜尋引擎不構成合理使用——AI 著作權訴訟首次合理使用判決' },
-  { date: '2024-08', title: 'Thaler v. Perlmutter', type: 'ruling', desc: '聯邦地院裁定 AI 生成作品不享有著作權保護——確立「人類著作人」要件' },
-  { date: '2024-09', title: 'MDL 合併令 — OpenAI Authors MDL', type: 'ruling', desc: 'Stein 法官將多起作者對 OpenAI 的訴訟合併為 MDL（多區訴訟），統一在南紐約地院審理' },
-  { date: '2024-10', title: 'Kadrey v. Meta — 合理使用裁定', type: 'ruling', desc: '法院裁定 Meta 使用 Books3 資料集訓練 LLaMA 構成合理使用（中間複製理論）——AI 公司第一場合理使用勝訴' },
-  // 2025
-  { date: '2025-01', title: 'Andersen v. Stability AI — 部分駁回', type: 'ruling', desc: '法院駁回部分訴訟主張，但保留直接著作權侵害主張——AI 圖像生成合理使用界限初步明確' },
-  { date: '2025-06', title: 'Bartz v. Anthropic 集體訴訟認定', type: 'ruling', desc: '法院認定 Bartz 案具備集體訴訟資格——涵蓋約 50 萬名著作權人' },
-  { date: '2025-08', title: 'Bartz v. Anthropic — $15億和解', type: 'settlement', desc: 'Anthropic 同意支付 15 億美元和解金——美國著作權史上最高和解金額' },
-  { date: '2025-10', title: 'Huckabee v. Meta — 合理使用裁定', type: 'ruling', desc: '法院部分准許 Meta 的簡易判決，就部分訓練使用認定為合理使用' },
-  // 2026
-  { date: '2026-01', title: 'Concord Music v. Anthropic II — $31億訴訟', type: 'filing', desc: '音樂出版商對 Anthropic 發動第二波攻勢——涵蓋 20,000+ 首歌曲，求償逾 31 億美元' },
-  { date: '2026-01', title: 'Hachette & Cengage 加入 Google 訴訟', type: 'filing', desc: '大型出版商介入作者對 Google Gemini 的集體訴訟——出版業與作者「團結」對抗 AI 巨頭' },
-  { date: '2026-03', title: '美國最高法院拒絕受理 Thaler 案', type: 'landmark', desc: '最高法院 deny cert——正式確立「AI 生成作品不受著作權保護、須有人類著作權人」聯邦法律原則' },
-  { date: '2026-03', title: '歐洲議會通過 AI 著作權決議', type: 'landmark', desc: '460 票壓倒性通過——要求 AI 訓練透明度、舉證責任倒置、確認 AI 生成物不受著作權保護' },
-  { date: '2026-03', title: 'Penguin Random House v. OpenAI（德國）', type: 'filing', desc: '全球最大出版集團在慕尼黑地方法院提起訴訟——ChatGPT 生成與《小火龍椰子》系列幾乎無法區分的內容' },
-  { date: '2026-04', title: 'Concord Music 將被告變更為 Dario Amodei 個人', type: 'ruling', desc: '援引最高法院 Cox Communications 判決，將輔助侵權被告從 Anthropic 公司變更為 CEO 個人' },
-  { date: '2026-05', title: 'Bartz v. Anthropic 公平性聽證（5/14）', type: 'settlement', desc: '15 億美元和解最終核准聽證——約 50 萬著作權人即將獲得分配' },
-  { date: '2026-07', title: 'Concord Music v. Anthropic 簡易判決聽證（7/15）', type: 'ruling', desc: '預計為 2026 年最可能產出合理使用判決的案件——音樂產業 vs AI 的關鍵對決' }
-];
-
-function buildTimeline() {
-  const track = document.getElementById('timelineTrack');
-  if (track.innerHTML) return; // already built
-
-  const typeLabels = { filing: '提起訴訟', ruling: '裁定/判決', settlement: '和解', landmark: '里程碑' };
-  const typeBadges = { filing: 'tl-badge-filing', ruling: 'tl-badge-ruling', settlement: 'tl-badge-settlement', landmark: 'tl-badge-landmark' };
-
-  // Group by year
-  const years = {};
-  timelineEvents.forEach(e => {
-    const y = e.date.substring(0, 4);
-    if (!years[y]) years[y] = [];
-    years[y].push(e);
-  });
-
-  let html = '';
-  Object.keys(years).sort().forEach(year => {
-    html += `<div class="timeline-year-label">${year}</div>`;
-    years[year].forEach(e => {
-      const monthNames = ['','一月','二月','三月','四月','五月','六月','七月','八月','九月','十月','十一月','十二月'];
-      const m = parseInt(e.date.split('-')[1]);
-      const dateStr = `${year} 年 ${monthNames[m]}`;
-      html += `
-        <div class="tl-item" onclick="timelineItemClick(this)">
-          <div class="tl-date">${dateStr}</div>
-          <div class="tl-title">${e.title} <span class="tl-badge ${typeBadges[e.type]}">${typeLabels[e.type]}</span></div>
-          <div class="tl-desc">${e.desc}</div>
-        </div>`;
-    });
-  });
-
-  track.innerHTML = html;
-}
-
-// ════════════════════════════════════════
-// CASE COMPARISON TOOL
-// ════════════════════════════════════════
-function openCompare() {
-  const overlay = document.getElementById('compareOverlay');
-  const selA = document.getElementById('compareSelectA');
-  const selB = document.getElementById('compareSelectB');
-  // Populate dropdowns
-  let opts = '<option value="">— 選擇案件 —</option>';
-  cases.forEach(c => {
-    opts += `<option value="${c.id}">${c.name}</option>`;
-  });
-  selA.innerHTML = opts;
-  selB.innerHTML = opts;
-  // Pre-select: if a case is currently viewed, set it as A
-  if (selectedId) selA.value = selectedId;
-  overlay.classList.add('visible');
-  updateComparison();
-}
-function closeCompare() {
-  document.getElementById('compareOverlay').classList.remove('visible');
-}
-function updateComparison() {
-  const body = document.getElementById('compareBody');
-  const idA = document.getElementById('compareSelectA').value;
-  const idB = document.getElementById('compareSelectB').value;
-  if (!idA && !idB) {
-    body.innerHTML = '<div class="compare-empty">請選擇兩個案件進行比較</div>';
-    return;
-  }
-  const cA = cases.find(x => x.id == idA);
-  const cB = cases.find(x => x.id == idB);
-  function renderCol(c) {
-    if (!c) return '<div class="compare-col"><div class="compare-empty">請選擇案件</div></div>';
-    return `<div class="compare-col">
-      <h4>${c.name}</h4>
-      <div class="compare-field">
-        <div class="compare-field-label">狀態 Status</div>
-        <div class="compare-field-value">${statusBadge(c.status)} ${c.status}</div>
-      </div>
-      <div class="compare-field">
-        <div class="compare-field-label">法院 Court</div>
-        <div class="compare-field-value">${c.court}</div>
-      </div>
-      <div class="compare-field">
-        <div class="compare-field-label">法官 Judge</div>
-        <div class="compare-field-value">${c.judge}</div>
-      </div>
-      <div class="compare-field">
-        <div class="compare-field-label">被告 Defendants</div>
-        <div class="compare-field-value">${c.defendants}</div>
-      </div>
-      <div class="compare-field">
-        <div class="compare-field-label">主張 Claims</div>
-        <div class="compare-field-value">${c.claims.map(cl => `<span class="claim-tag">${cl}</span>`).join(' ')}</div>
-      </div>
-      <div class="compare-field">
-        <div class="compare-field-label">訴訟爭點 Key Issues</div>
-        <div class="compare-field-value">${c.issues.replace(/\n/g,'<br>')}</div>
-      </div>
-      <div class="compare-field">
-        <div class="compare-field-label">目前進度 Progress</div>
-        <div class="compare-field-value">${c.progress.replace(/\n/g,'<br>')}</div>
-      </div>
-      <div class="compare-field">
-        <div class="compare-field-label">台灣啟示 Taiwan</div>
-        <div class="compare-field-value">${c.taiwan.replace(/\n/g,'<br>')}</div>
-      </div>
-    </div>`;
-  }
-  body.innerHTML = renderCol(cA) + renderCol(cB);
-}
-
-// ════════════════════════════════════════
-// LIBRARY CLASSIFICATION FOR REPORTS
-// ════════════════════════════════════════
-let reportsCatActive = 'all';
-
-function classifyReportCategory(report) {
-  const t = (report.title + ' ' + report.issuer + ' ' + report.summary).toLowerCase();
-  // Legislation: laws, acts, bills, directives, regulations
-  if (/基本法|act\b|法案|directive|regulation|regul|resolution|立法|三讀|law\b|ordinance|amendment/i.test(t)) return 'legislation';
-  // Judicial: court guidance, registration guidance, case-related
-  if (/registration guidance|登記指引|judicial|裁定|判決|court|函釋|令函|guidance.*registration|checklist|指引.*著作權登記/i.test(t)) return 'judicial';
-  // Academic: research studies, EPRS, academic analysis
-  if (/research|study|academic|eprs|briefing|conversation|session|information gathering|development of|from.*perspective/i.test(t)) return 'academic';
-  // Policy: policy reports, consultations, government positions
-  return 'policy';
-}
-
-const catLabels = {
-  legislation: '立法 Legislation',
-  judicial: '司法指引 Judicial',
-  academic: '學術研究 Academic',
-  policy: '政策報告 Policy'
-};
-
-function filterReportsCat(cat) {
-  reportsCatActive = cat;
-  document.querySelectorAll('#reportsCatRow .reports-cat-btn').forEach(b => {
-    b.classList.toggle('active', b.dataset.cat === cat);
-  });
-  renderReports();
-}
-
-function timelineItemClick(el) {
-  // Extract case name from title, try to find it in cases list
-  const title = el.querySelector('.tl-title').textContent;
-  const match = cases.find(c => {
-    const simpleName = c.name.split('(')[0].trim().split(' v. ').join(' v. ');
-    return title.includes(simpleName.substring(0, 15)) || title.includes(c.name.substring(0, 15));
-  });
-  if (match) {
-    switchView('tracker');
-    setTimeout(() => showDetail(match.id), 100);
-  }
 }
 </script>
 </body>
