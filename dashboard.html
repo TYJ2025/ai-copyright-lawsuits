@@ -171,6 +171,171 @@
   }
   .adv-filter-reset:hover { color: var(--text); }
 
+  /* ── SVG World Map ── */
+  .map-container {
+    background: var(--white);
+    border-bottom: 1px solid var(--border);
+    padding: 16px 24px;
+    text-align: center;
+  }
+  .map-container h3 {
+    font-size: 14px;
+    color: var(--text-light);
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: 'Microsoft JhengHei', '微軟正黑體', sans-serif;
+  }
+  .map-svg-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  .map-region {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    padding: 10px 16px;
+    border-radius: 8px;
+    transition: all 0.2s;
+    min-width: 80px;
+    border: 2px solid transparent;
+  }
+  .map-region:hover { background: var(--panel-bg); transform: translateY(-2px); }
+  .map-region.active { border-color: var(--gold); background: var(--panel-bg); }
+  .map-region-flag { font-size: 32px; margin-bottom: 4px; }
+  .map-region-name { font-size: 11px; color: var(--text-light); font-weight: 600; letter-spacing: 0.5px; font-family: 'Microsoft JhengHei', '微軟正黑體', sans-serif; }
+  .map-region-count { font-size: 20px; font-weight: 700; color: var(--navy); margin: 2px 0; }
+  .map-region-bar { height: 4px; border-radius: 2px; background: var(--gold); transition: width 0.3s; min-width: 8px; }
+  [data-theme="dark"] .map-region:hover { background: #243447; }
+  [data-theme="dark"] .map-region.active { background: #243447; }
+  [data-theme="dark"] .map-region-count { color: var(--gold-light); }
+
+  /* ── Litigation Timeline ── */
+  .timeline-container {
+    display: none;
+    height: calc(100vh - 180px);
+    min-height: 600px;
+    overflow-y: auto;
+    padding: 36px 48px;
+    background: var(--cream);
+  }
+  .timeline-container.visible { display: block; }
+  .timeline-intro {
+    max-width: 960px;
+    margin: 0 auto 36px;
+  }
+  .timeline-intro h2 {
+    font-size: 28px;
+    color: var(--navy);
+    margin-bottom: 12px;
+    border-bottom: 2px solid var(--gold);
+    padding-bottom: 12px;
+  }
+  .timeline-intro p {
+    font-size: 16px;
+    line-height: 1.8;
+    color: var(--text);
+  }
+  [data-theme="dark"] .timeline-intro h2 { color: var(--gold-light); }
+  .timeline-track {
+    max-width: 960px;
+    margin: 0 auto;
+    position: relative;
+    padding-left: 40px;
+  }
+  .timeline-track::before {
+    content: '';
+    position: absolute;
+    left: 18px;
+    top: 0;
+    bottom: 0;
+    width: 3px;
+    background: var(--gold);
+    border-radius: 2px;
+  }
+  .timeline-year-label {
+    position: relative;
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--navy);
+    margin: 32px 0 16px -40px;
+    padding-left: 40px;
+  }
+  .timeline-year-label::before {
+    content: '';
+    position: absolute;
+    left: 11px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: var(--gold);
+    border: 3px solid var(--cream);
+  }
+  [data-theme="dark"] .timeline-year-label { color: var(--gold-light); }
+  [data-theme="dark"] .timeline-year-label::before { border-color: var(--cream); }
+  .tl-item {
+    position: relative;
+    margin-bottom: 16px;
+    padding: 14px 18px;
+    background: var(--white);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+  .tl-item:hover { border-color: var(--gold); transform: translateX(4px); }
+  .tl-item::before {
+    content: '';
+    position: absolute;
+    left: -30px;
+    top: 20px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 2px solid var(--gold);
+    background: var(--white);
+  }
+  [data-theme="dark"] .tl-item { background: var(--section-body-bg); }
+  [data-theme="dark"] .tl-item::before { background: var(--section-body-bg); }
+  .tl-date {
+    font-size: 12px;
+    color: var(--gold);
+    font-weight: 700;
+    margin-bottom: 4px;
+    font-family: 'Microsoft JhengHei', '微軟正黑體', sans-serif;
+  }
+  .tl-title {
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--navy);
+    margin-bottom: 4px;
+  }
+  [data-theme="dark"] .tl-title { color: var(--gold-light); }
+  .tl-desc {
+    font-size: 13px;
+    color: var(--text-light);
+    line-height: 1.6;
+  }
+  .tl-badge {
+    display: inline-block;
+    font-size: 11px;
+    padding: 2px 8px;
+    border-radius: 8px;
+    margin-left: 8px;
+    font-weight: 600;
+    vertical-align: middle;
+  }
+  .tl-badge-filing { background: #e8f5e9; color: #2e7d32; }
+  .tl-badge-ruling { background: #fff3e0; color: #e65100; }
+  .tl-badge-settlement { background: #e3f2fd; color: #1565c0; }
+  .tl-badge-landmark { background: #fce4ec; color: #c62828; }
+
   * { margin: 0; padding: 0; box-sizing: border-box; }
 
   body {
@@ -1147,19 +1312,93 @@
   }
 
   /* ── Responsive ── */
+  /* ── Tablet (≤ 900px) ── */
   @media (max-width: 900px) {
+    header { flex-direction: column; align-items: flex-start; gap: 10px; padding: 16px 20px; }
+    header h1 { font-size: 20px; }
+    header > div:first-child { flex-wrap: wrap; }
+    .view-toggle { margin-left: 0; margin-top: 8px; }
+    .view-toggle-btn { padding: 6px 12px; font-size: 12px; }
+    .theme-toggle { padding: 4px 10px; font-size: 12px; }
     .main { flex-direction: column; height: auto; }
     .panel-left { width: 100%; min-width: 0; max-height: 50vh; }
     .panel-right { padding: 20px; }
     .stats-bar { flex-wrap: wrap; }
     .stat-box { min-width: 50%; }
+    .stat-num { font-size: 24px; }
     .chart-label { flex: 0 0 100px; font-size: 12px; }
     .stats-modal { width: 95vw; }
+    .pie-chart-container { flex-wrap: wrap; padding: 12px 16px; }
+    .map-svg-wrap { gap: 10px; }
+    .map-region { padding: 6px 10px; min-width: 60px; }
+    .map-region-flag { font-size: 24px; }
+    .map-region-count { font-size: 16px; }
+    .adv-filter-row { padding: 6px 12px; }
+    .adv-filter-select { font-size: 12px; min-width: 80px; }
     .fairuse-container { padding: 20px 16px; }
     .reports-container { padding: 20px 16px; }
+    .timeline-container { padding: 20px 16px; }
+    .timeline-track { padding-left: 30px; }
     .factor-grid { grid-template-columns: 1fr; }
     .factor-item { border-right: none !important; }
-    .view-toggle { margin-left: 0; margin-top: 8px; }
+  }
+
+  /* ── Mobile (≤ 600px) ── */
+  @media (max-width: 600px) {
+    header { padding: 12px 16px; }
+    header h1 { font-size: 17px; }
+    .header-meta { font-size: 12px; }
+    .view-toggle { display: flex; flex-wrap: wrap; gap: 4px; }
+    .view-toggle-btn { padding: 5px 8px; font-size: 11px; flex: 1; text-align: center; border-radius: 4px !important; }
+    .stats-bar { display: grid; grid-template-columns: 1fr 1fr; }
+    .stat-box { padding: 10px 8px; border-right: none; border-bottom: 1px solid var(--border); }
+    .stat-num { font-size: 20px; }
+    .stat-label { font-size: 10px; }
+    .stat-divider, .stat-group-label { display: none; }
+    .pie-chart-container { flex-direction: column; gap: 12px; }
+    .pie-svg { width: 90px; height: 90px; }
+    .pie-legend { justify-content: center; font-size: 11px; }
+    .map-container { padding: 10px 12px; }
+    .map-container h3 { font-size: 12px; }
+    .map-svg-wrap { gap: 6px; }
+    .map-region { padding: 4px 6px; min-width: 50px; }
+    .map-region-flag { font-size: 20px; }
+    .map-region-count { font-size: 14px; }
+    .map-region-name { font-size: 9px; }
+    .ticker-wrap { flex-direction: column; }
+    .ticker-label { width: 100%; text-align: center; }
+    .ticker-track { padding: 8px 12px; }
+    .ticker-item { font-size: 13px; }
+    .main { flex-direction: column; height: auto; min-height: 0; }
+    .panel-left { width: 100%; max-height: none; border-right: none; border-bottom: 1px solid var(--border); }
+    .search-box { padding: 8px 12px; }
+    .search-box input { font-size: 14px; padding: 8px 10px; }
+    .adv-filter-row { flex-direction: column; gap: 6px; align-items: stretch; }
+    .adv-filter-select { width: 100%; min-width: 0; }
+    .case-list { max-height: 40vh; }
+    .case-item { padding: 10px 12px; }
+    .case-name { font-size: 14px; }
+    .case-meta { font-size: 11px; gap: 6px; }
+    .badge { font-size: 10px; padding: 2px 6px; }
+    .panel-right { padding: 16px; }
+    .detail-title { font-size: 20px; }
+    .detail-court { font-size: 13px; }
+    .section-header { padding: 10px 14px; font-size: 13px; }
+    .section-body { padding: 14px; font-size: 14px; line-height: 1.7; }
+    .timeline-container { padding: 16px 12px; }
+    .timeline-intro { margin-bottom: 20px; }
+    .timeline-intro h2 { font-size: 22px; }
+    .timeline-intro p { font-size: 14px; }
+    .timeline-track { padding-left: 24px; }
+    .timeline-track::before { left: 12px; }
+    .timeline-year-label { font-size: 18px; margin-left: -24px; padding-left: 24px; }
+    .timeline-year-label::before { left: 6px; width: 14px; height: 14px; }
+    .tl-item { padding: 10px 12px; }
+    .tl-item::before { left: -20px; width: 8px; height: 8px; }
+    .tl-title { font-size: 13px; }
+    .tl-desc { font-size: 12px; }
+    .fairuse-intro h2 { font-size: 22px; }
+    footer { font-size: 11px; padding: 10px 12px; }
   }
 </style>
 </head>
@@ -1171,6 +1410,7 @@
     <div class="view-toggle">
       <button class="view-toggle-btn active" data-view="tracker" onclick="switchView('tracker')">訴訟追蹤</button>
       <button class="view-toggle-btn" data-view="fairuse" onclick="switchView('fairuse')">合理使用經典</button>
+      <button class="view-toggle-btn" data-view="timeline" onclick="switchView('timeline')">時間軸</button>
       <button class="view-toggle-btn" data-view="reports" onclick="switchView('reports')">官方報告</button>
     </div>
   </div>
@@ -1201,6 +1441,12 @@
 <div class="pie-chart-container" id="pieChartContainer">
   <svg class="pie-svg" viewBox="0 0 42 42" id="pieSvg"></svg>
   <div class="pie-legend" id="pieLegend"></div>
+</div>
+
+<!-- ── Interactive Region Map ── -->
+<div class="map-container" id="mapContainer">
+  <h3>全球訴訟分佈 Global Case Distribution</h3>
+  <div class="map-svg-wrap" id="mapRegions"></div>
 </div>
 
 <!-- ── Daily News Ticker ── -->
@@ -1257,6 +1503,15 @@
       <p style="font-size:12px;margin-top:8px;color:#bbb;">Select a case from the left panel to view details</p>
     </div>
   </div>
+</div>
+
+<!-- ── Litigation Timeline Section ── -->
+<div class="timeline-container" id="timelineContainer">
+  <div class="timeline-intro">
+    <h2>AI 著作權訴訟時間軸 Litigation Timeline</h2>
+    <p>自 2022 年生成式 AI 爆發以來，全球各地著作權訴訟迅速增加。本時間軸呈現重大案件的提起、關鍵裁定與和解等里程碑，幫助您掌握 AI 著作權法發展的整體脈絡。</p>
+  </div>
+  <div class="timeline-track" id="timelineTrack"></div>
 </div>
 
 <!-- ── Fair Use Landmark Cases Section ── -->
@@ -5704,24 +5959,35 @@ function switchView(view) {
   const tracker = document.querySelector('.main');
   const statsBar = document.getElementById('statsBar');
   const ticker = document.querySelector('.ticker-wrap');
+  const pieChart = document.getElementById('pieChartContainer');
+  const mapEl = document.getElementById('mapContainer');
   const fairuse = document.getElementById('fairuseContainer');
   const reports = document.getElementById('reportsContainer');
+  const timeline = document.getElementById('timelineContainer');
   // Hide all
   tracker.style.display = 'none';
   statsBar.style.display = 'none';
   ticker.style.display = 'none';
+  pieChart.style.display = 'none';
+  mapEl.style.display = 'none';
   fairuse.classList.remove('visible');
   reports.classList.remove('visible');
+  timeline.classList.remove('visible');
   if (view === 'fairuse') {
     fairuse.classList.add('visible');
     renderFairUseCases();
   } else if (view === 'reports') {
     reports.classList.add('visible');
     renderReports();
+  } else if (view === 'timeline') {
+    timeline.classList.add('visible');
+    buildTimeline();
   } else {
     tracker.style.display = 'flex';
     statsBar.style.display = 'flex';
     ticker.style.display = 'flex';
+    pieChart.style.display = 'flex';
+    mapEl.style.display = 'block';
   }
 }
 
@@ -6655,6 +6921,144 @@ function pieClick(status) {
 }
 
 buildPieChart();
+
+// ════════════════════════════════════════
+// INTERACTIVE REGION MAP
+// ════════════════════════════════════════
+function buildRegionMap() {
+  const regions = [
+    { key: 'us', flag: '🇺🇸', name: '美國 US', keywords: [] },
+    { key: 'eu', flag: '🇪🇺', name: '歐盟 EU', keywords: ['CJEU','European Union','歐盟','Budapest','德國','法國','German','Munich','Paris','France','Hamburg','漢堡','丹麥','Copenhagen','Denmark','荷蘭','Netherlands','Amsterdam','義大利','Italy'] },
+    { key: 'uk', flag: '🇬🇧', name: '英國 UK', keywords: ['UK High Court','英國','England','London'] },
+    { key: 'cn', flag: '🇨🇳', name: '中國 CN', keywords: ['中國','北京','廣州','杭州','Beijing Internet Court','Guangzhou Internet Court','China'] },
+    { key: 'asia', flag: '🌏', name: '亞洲其他', keywords: ['印度','Delhi','India','韓國','Seoul','South Korea','日本','Tokyo','Japan'] },
+    { key: 'other', flag: '🌍', name: '其他', keywords: ['加拿大','Ontario','Canada','巴西','Brazil'] }
+  ];
+
+  const allNonUS = regions.filter(r => r.key !== 'us').flatMap(r => r.keywords);
+
+  const counts = {};
+  regions.forEach(r => {
+    if (r.key === 'us') {
+      counts.us = cases.filter(c => !allNonUS.some(k => c.court.includes(k))).length;
+    } else {
+      counts[r.key] = cases.filter(c => r.keywords.some(k => c.court.includes(k))).length;
+    }
+  });
+
+  const maxCount = Math.max(...Object.values(counts), 1);
+  const container = document.getElementById('mapRegions');
+
+  container.innerHTML = regions.map(r => `
+    <div class="map-region" data-region="${r.key}" onclick="mapClick('${r.key}')">
+      <span class="map-region-flag">${r.flag}</span>
+      <span class="map-region-count">${counts[r.key]}</span>
+      <span class="map-region-name">${r.name}</span>
+      <div class="map-region-bar" style="width:${Math.max(8, (counts[r.key]/maxCount)*80)}px"></div>
+    </div>
+  `).join('');
+}
+
+let activeMapRegion = null;
+function mapClick(region) {
+  const el = document.querySelector(`.map-region[data-region="${region}"]`);
+  if (activeMapRegion === region) {
+    activeMapRegion = null;
+    document.querySelectorAll('.map-region').forEach(e => e.classList.remove('active'));
+    document.getElementById('filterJurisdiction').value = 'all';
+  } else {
+    activeMapRegion = region;
+    document.querySelectorAll('.map-region').forEach(e => e.classList.remove('active'));
+    el.classList.add('active');
+    // Map region key to jurisdiction filter value
+    const jMap = { us:'us', eu:'eu', uk:'uk', cn:'cn', asia:'asia-other', other:'other' };
+    document.getElementById('filterJurisdiction').value = jMap[region] || 'all';
+  }
+  renderCaseList();
+}
+
+buildRegionMap();
+
+// ════════════════════════════════════════
+// LITIGATION TIMELINE
+// ════════════════════════════════════════
+const timelineEvents = [
+  // 2022
+  { date: '2022-11', title: 'Andersen v. Stability AI', type: 'filing', desc: '三位藝術家對 Stability AI、Midjourney、DeviantArt 提起集體訴訟——AI 圖像生成著作權訴訟第一槍' },
+  { date: '2022-11', title: 'Getty Images v. Stability AI (UK)', type: 'filing', desc: 'Getty Images 在英國高等法院提起訴訟，主張 Stable Diffusion 未經授權使用數百萬張照片' },
+  { date: '2022-11', title: 'Doe v. GitHub (Copilot)', type: 'filing', desc: '程式設計師對 GitHub Copilot 提起集體訴訟，主張 AI 程式碼生成工具侵害開源授權條款' },
+  // 2023
+  { date: '2023-06', title: 'Silverman v. OpenAI', type: 'filing', desc: 'Sarah Silverman 等喜劇演員對 OpenAI 提起訴訟，揭開作家對 LLM 訓練使用書籍的大規模訴訟浪潮' },
+  { date: '2023-09', title: 'Authors Guild v. OpenAI', type: 'filing', desc: 'Authors Guild 聯合 John Grisham、George R.R. Martin 等知名作家對 OpenAI 提起集體訴訟' },
+  { date: '2023-10', title: 'Concord Music v. Anthropic', type: 'filing', desc: '音樂出版商控告 Anthropic Claude AI 輸出歌詞侵權——首起針對 AI 歌詞輸出的訴訟' },
+  { date: '2023-12', title: 'NYT v. OpenAI', type: 'filing', desc: '紐約時報對 OpenAI、Microsoft 提起里程碑訴訟，主張 ChatGPT 大規模複製新聞報導' },
+  // 2024
+  { date: '2024-02', title: 'Thomson Reuters v. ROSS — 合理使用裁定', type: 'ruling', desc: '法院裁定 ROSS Intelligence 使用 Westlaw 資料訓練 AI 法律搜尋引擎不構成合理使用——AI 著作權訴訟首次合理使用判決' },
+  { date: '2024-08', title: 'Thaler v. Perlmutter', type: 'ruling', desc: '聯邦地院裁定 AI 生成作品不享有著作權保護——確立「人類著作人」要件' },
+  { date: '2024-09', title: 'MDL 合併令 — OpenAI Authors MDL', type: 'ruling', desc: 'Stein 法官將多起作者對 OpenAI 的訴訟合併為 MDL（多區訴訟），統一在南紐約地院審理' },
+  { date: '2024-10', title: 'Kadrey v. Meta — 合理使用裁定', type: 'ruling', desc: '法院裁定 Meta 使用 Books3 資料集訓練 LLaMA 構成合理使用（中間複製理論）——AI 公司第一場合理使用勝訴' },
+  // 2025
+  { date: '2025-01', title: 'Andersen v. Stability AI — 部分駁回', type: 'ruling', desc: '法院駁回部分訴訟主張，但保留直接著作權侵害主張——AI 圖像生成合理使用界限初步明確' },
+  { date: '2025-06', title: 'Bartz v. Anthropic 集體訴訟認定', type: 'ruling', desc: '法院認定 Bartz 案具備集體訴訟資格——涵蓋約 50 萬名著作權人' },
+  { date: '2025-08', title: 'Bartz v. Anthropic — $15億和解', type: 'settlement', desc: 'Anthropic 同意支付 15 億美元和解金——美國著作權史上最高和解金額' },
+  { date: '2025-10', title: 'Huckabee v. Meta — 合理使用裁定', type: 'ruling', desc: '法院部分准許 Meta 的簡易判決，就部分訓練使用認定為合理使用' },
+  // 2026
+  { date: '2026-01', title: 'Concord Music v. Anthropic II — $31億訴訟', type: 'filing', desc: '音樂出版商對 Anthropic 發動第二波攻勢——涵蓋 20,000+ 首歌曲，求償逾 31 億美元' },
+  { date: '2026-01', title: 'Hachette & Cengage 加入 Google 訴訟', type: 'filing', desc: '大型出版商介入作者對 Google Gemini 的集體訴訟——出版業與作者「團結」對抗 AI 巨頭' },
+  { date: '2026-03', title: '美國最高法院拒絕受理 Thaler 案', type: 'landmark', desc: '最高法院 deny cert——正式確立「AI 生成作品不受著作權保護、須有人類著作權人」聯邦法律原則' },
+  { date: '2026-03', title: '歐洲議會通過 AI 著作權決議', type: 'landmark', desc: '460 票壓倒性通過——要求 AI 訓練透明度、舉證責任倒置、確認 AI 生成物不受著作權保護' },
+  { date: '2026-03', title: 'Penguin Random House v. OpenAI（德國）', type: 'filing', desc: '全球最大出版集團在慕尼黑地方法院提起訴訟——ChatGPT 生成與《小火龍椰子》系列幾乎無法區分的內容' },
+  { date: '2026-04', title: 'Concord Music 將被告變更為 Dario Amodei 個人', type: 'ruling', desc: '援引最高法院 Cox Communications 判決，將輔助侵權被告從 Anthropic 公司變更為 CEO 個人' },
+  { date: '2026-05', title: 'Bartz v. Anthropic 公平性聽證（5/14）', type: 'settlement', desc: '15 億美元和解最終核准聽證——約 50 萬著作權人即將獲得分配' },
+  { date: '2026-07', title: 'Concord Music v. Anthropic 簡易判決聽證（7/15）', type: 'ruling', desc: '預計為 2026 年最可能產出合理使用判決的案件——音樂產業 vs AI 的關鍵對決' }
+];
+
+function buildTimeline() {
+  const track = document.getElementById('timelineTrack');
+  if (track.innerHTML) return; // already built
+
+  const typeLabels = { filing: '提起訴訟', ruling: '裁定/判決', settlement: '和解', landmark: '里程碑' };
+  const typeBadges = { filing: 'tl-badge-filing', ruling: 'tl-badge-ruling', settlement: 'tl-badge-settlement', landmark: 'tl-badge-landmark' };
+
+  // Group by year
+  const years = {};
+  timelineEvents.forEach(e => {
+    const y = e.date.substring(0, 4);
+    if (!years[y]) years[y] = [];
+    years[y].push(e);
+  });
+
+  let html = '';
+  Object.keys(years).sort().forEach(year => {
+    html += `<div class="timeline-year-label">${year}</div>`;
+    years[year].forEach(e => {
+      const monthNames = ['','一月','二月','三月','四月','五月','六月','七月','八月','九月','十月','十一月','十二月'];
+      const m = parseInt(e.date.split('-')[1]);
+      const dateStr = `${year} 年 ${monthNames[m]}`;
+      html += `
+        <div class="tl-item" onclick="timelineItemClick(this)">
+          <div class="tl-date">${dateStr}</div>
+          <div class="tl-title">${e.title} <span class="tl-badge ${typeBadges[e.type]}">${typeLabels[e.type]}</span></div>
+          <div class="tl-desc">${e.desc}</div>
+        </div>`;
+    });
+  });
+
+  track.innerHTML = html;
+}
+
+function timelineItemClick(el) {
+  // Extract case name from title, try to find it in cases list
+  const title = el.querySelector('.tl-title').textContent;
+  const match = cases.find(c => {
+    const simpleName = c.name.split('(')[0].trim().split(' v. ').join(' v. ');
+    return title.includes(simpleName.substring(0, 15)) || title.includes(c.name.substring(0, 15));
+  });
+  if (match) {
+    switchView('tracker');
+    setTimeout(() => showDetail(match.id), 100);
+  }
+}
 </script>
 </body>
 </html>
