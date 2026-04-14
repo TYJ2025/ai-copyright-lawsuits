@@ -7089,10 +7089,7 @@ function pieClick(status) {
 
 buildPieChart();
 
-// ════════════════════════════════════════
-// INITIALIZE TICKER
-// ════════════════════════════════════════
-renderTicker();
+// (ticker initialized after newsItems declaration below)
 
 // ════════════════════════════════════════
 // INTERACTIVE REGION MAP
@@ -7172,6 +7169,9 @@ function renderTicker() {
     </div>
   `).join('');
 }
+
+// Initialize ticker after newsItems and renderTicker are defined
+renderTicker();
 
 // ════════════════════════════════════════
 // LITIGATION TIMELINE
