@@ -5696,75 +5696,12 @@ Koda 提交證據顯示 Suno 生成的曲目與丹麥知名藝人（如 Aqua、M
 ];
 
 // ════════════════════════════════════════
-// NEWS TICKER DATA
-// ════════════════════════════════════════
-const newsItems = [
-  {
-    "text": "【2026/4/14】Bartz v. Anthropic 最終批准聽證倒數 30 天 — 公平性聽證定於 5/14 下午 2 時（PT）於 Alsup 法官法庭進行，和解基金第 2 期 4/30 到期，涉 50 萬本書、$15 億鉅額和解",
-    "url": "https://www.anthropiccopyrightsettlement.com"
-  },
-  {
-    "text": "【2026/4/14】美國聯邦法院已累積 50 餘件 AI 訓練資料著作權訴訟，多案進入實體審理——合理使用抗辯與「市場替代效果」將成 2026 下半年核心戰場",
-    "url": "https://www.nortonrosefulbright.com/en/knowledge/publications/ce8eaa5f/ai-in-litigation-series-an-update-on-ai-copyright-cases-in-2026"
-  },
-  {
-    "text": "【2026/4/13】Suno 與 UMG、Sony 授權談判因下載分享權破裂 — Warner 已和解退出，但 Suno 與另兩大唱片公司因 AI 音樂下載權分歧僵持不下，涉及數十億音樂版稅分配",
-    "url": "https://winbuzzer.com/2026/04/09/suno-licensing-talks-with-labels-stall-over-ai-music-downloa-xcxwbn/"
-  },
-  {
-    "text": "【2026/4/13】Internet Archive 成 AI 著作權戰「附帶損害」— 出版商封鎖 IA 存取，擔憂 AI 公司利用數位館藏作為訓練資料後門，IA 執行長：「我們是被波及的」",
-    "url": "https://www.sfexaminer.com/news/technology/internet-archive-collateral-damage-in-ai-news-battle/article_d3a37294-dc35-4861-8f7a-0a8cbfb12a58.html"
-  },
-  {
-    "text": "【2026/4/13】Like Company v. Google（CJEU）— 歐盟法務長意見書預計 2026/9/3 發布，法院首度正式審查 AI 訓練與著作權關係，判決將拘束全體 27 個歐盟會員國",
-    "url": "https://www.twobirds.com/en/insights/2026/like-company-v-google-cjeu-holds-first-ever-hearing-on-generative-ai-and-copyright-on-10-march-2026"
-  },
-  {
-    "text": "【2026/4/13】BMG Rights Management v. Anthropic — 繼 UMG/Concord（$31億）之後，BMG 就 Bruno Mars、Rolling Stones 等藝人歌詞著作權提起訴訟，指控 Claude AI「大規模剽竊」",
-    "url": "https://news.bloomberglaw.com/ip-law/music-piracy-ai-lawsuits-top-2026-copyright-litigation-calendar"
-  },
-  {
-    "text": "【2026/4/11】Bartz v. Anthropic 公平性聽證延期至 5/14 — Alsup 法官重新排期，和解管理人尚在計算約50萬著作權人分配金額，律師費爭議持續",
-    "url": "https://www.anthropiccopyrightsettlement.com/dates"
-  },
-  {
-    "text": "【2026/4/9】Concord Music v. Anthropic — 原告將輔助侵權被告從 Anthropic 公司變更為 CEO Dario Amodei 及 Benjamin Mann 個人，援引最高法院 Cox Communications 判決",
-    "url": "https://chatgptiseatingtheworld.com/2026/04/07/after-supreme-courts-decision-in-cox-communications-concord-music-changes-its-claim-of-intentional-contributory-infringement-from-anthropic-to-dario-amodei-benjamin-mann-based-on-evidence-revealed/"
-  },
-  {
-    "text": "【2026/4/8】Suno AI 著作權過濾機制被批效果不彰 — The Verge 測試顯示仍可生成高度近似受保護歌曲的內容，訴訟中證據價值受關注",
-    "url": "https://musically.com/2026/04/07/the-verge-criticises-sunos-copyright-infringement-guardrails/"
-  },
-  {
-    "text": "【2026/4/7】Getty v. Stability AI（美國）— Thompson 法官完成駁回動議聽證，裁定結果待發；英國高等法院正式審判定於2026年底",
-    "url": "https://chatgptiseatingtheworld.com/"
-  },
-  {
-    "text": "【2026/4/3】Penguin Random House 在德國慕尼黑地方法院控告 OpenAI — ChatGPT 生成與《小火龍椰子》系列幾乎無法區分的故事與圖像，構成「記憶化」侵權",
-    "url": "https://www.afterdawn.com/news/article.cfm/2026/04/03/penguin-random-house-court-case-openai-copyright"
-  }
-];
-// ticker total: 10 items (max)
-
-// ════════════════════════════════════════
 // RENDER
 // ════════════════════════════════════════
 
 // Date display
 const now = new Date();
 document.getElementById('dateDisplay').textContent = now.toLocaleDateString('zh-TW', {year:'numeric',month:'long',day:'numeric',weekday:'long'});
-
-// Ticker
-function buildTicker() {
-  const track = document.getElementById('tickerTrack');
-  let html = '';
-  newsItems.forEach((n, i) => {
-    html += `<span class="ticker-item"><a href="${n.url}" target="_blank" rel="noopener">${n.text}</a></span>`;
-    if (i < newsItems.length - 1) html += '<span class="ticker-sep">|</span>';
-  });
-  track.innerHTML = html;
-}
-buildTicker();
 
 // Stats bar
 // ── Single Source of Truth for US/Non-US classification ──
