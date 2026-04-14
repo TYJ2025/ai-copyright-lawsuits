@@ -1761,7 +1761,7 @@
 </div>
 
 <footer>
-  &copy; 2026 AI Copyright Litigation Tracker &mdash; 資料來源：美國聯邦法院公開紀錄、CourtListener、<a href="https://chatgptiseatingtheworld.com/" target="_blank" style="color:var(--gold);text-decoration:underline;">ChatGPT Is Eating The World</a>、BakerHostetler AI Litigation Tracker &mdash; 最近更新: 2026-04-13
+  &copy; 2026 AI Copyright Litigation Tracker &mdash; 資料來源：美國聯邦法院公開紀錄、CourtListener、<a href="https://chatgptiseatingtheworld.com/" target="_blank" style="color:var(--gold);text-decoration:underline;">ChatGPT Is Eating The World</a>、BakerHostetler AI Litigation Tracker &mdash; 最近更新: 2026-04-14（當日更新）
 </footer>
 
 <script>
@@ -5700,6 +5700,14 @@ Koda 提交證據顯示 Suno 生成的曲目與丹麥知名藝人（如 Aqua、M
 // ════════════════════════════════════════
 const newsItems = [
   {
+    "text": "【2026/4/14】Bartz v. Anthropic 最終批准聽證倒數 30 天 — 公平性聽證定於 5/14 下午 2 時（PT）於 Alsup 法官法庭進行，和解基金第 2 期 4/30 到期，涉 50 萬本書、$15 億鉅額和解",
+    "url": "https://www.anthropiccopyrightsettlement.com"
+  },
+  {
+    "text": "【2026/4/14】美國聯邦法院已累積 50 餘件 AI 訓練資料著作權訴訟，多案進入實體審理——合理使用抗辯與「市場替代效果」將成 2026 下半年核心戰場",
+    "url": "https://www.nortonrosefulbright.com/en/knowledge/publications/ce8eaa5f/ai-in-litigation-series-an-update-on-ai-copyright-cases-in-2026"
+  },
+  {
     "text": "【2026/4/13】Suno 與 UMG、Sony 授權談判因下載分享權破裂 — Warner 已和解退出，但 Suno 與另兩大唱片公司因 AI 音樂下載權分歧僵持不下，涉及數十億音樂版稅分配",
     "url": "https://winbuzzer.com/2026/04/09/suno-licensing-talks-with-labels-stall-over-ai-music-downloa-xcxwbn/"
   },
@@ -5734,10 +5742,6 @@ const newsItems = [
   {
     "text": "【2026/4/3】Penguin Random House 在德國慕尼黑地方法院控告 OpenAI — ChatGPT 生成與《小火龍椰子》系列幾乎無法區分的故事與圖像，構成「記憶化」侵權",
     "url": "https://www.afterdawn.com/news/article.cfm/2026/04/03/penguin-random-house-court-case-openai-copyright"
-  },
-  {
-    "text": "【全球趨勢】多國政府放寬 AI 著作權立法步調 — 英國暫緩 TDM 例外推動、觀望美國訴訟結果；2026年夏季前不預期有合理使用判決",
-    "url": "https://www.yeetmagazine.com/ai-copyright-rules-loosened-2026/"
   }
 ];
 // ticker total: 10 items (max)
@@ -7149,6 +7153,11 @@ function pieClick(status) {
 buildPieChart();
 
 // ════════════════════════════════════════
+// INITIALIZE TICKER
+// ════════════════════════════════════════
+renderTicker();
+
+// ════════════════════════════════════════
 // INTERACTIVE REGION MAP
 // ════════════════════════════════════════
 function buildRegionMap() {
@@ -7202,6 +7211,30 @@ function mapClick(region) {
 }
 
 buildRegionMap();
+
+// ════════════════════════════════════════
+// DAILY NEWS TICKER ITEMS
+// ════════════════════════════════════════
+const newsItems = [
+  { "text": "【2026/4/14】GEMA v. OpenAI 德國判決：禁止歌詞輸出，著作權侵害成立", "url": "https://www.insidetechlaw.com/blog/2025/11/germany-delivers-landmark-copyright-ruling-against-openai-what-it-means-for-ai-and-ip" },
+  { "text": "【2026/4/10】Bartz v. Anthropic 律師費降低至 $187.5M，更多資金流向作者", "url": "https://writerbeware.blog/2026/04/10/anthropic-copyright-settlement-april-update/" },
+  { "text": "【2026/4/14】OpenAI 發現令：需提交 2000 萬筆 ChatGPT 日誌予著作權人", "url": "https://news.bloomberglaw.com/ip-law/openai-must-turn-over-20-million-chatgpt-logs-judge-affirms" },
+  { "text": "【2026/3/18】Merriam-Webster 與 Encyclopedia Britannica 訴 OpenAI：近 10 萬篇文章遭未經授權使用", "url": "https://fortune.com/2026/03/18/dictionaries-suing-openai-chatgpt-copyright-infringement/" },
+  { "text": "【2026/4/2】美國音樂產業支持 UMRG 對 Anthropic 的訴訟（RIAA、NMPA 等）", "url": "https://musically.com/2026/04/02/us-music-bodies-weigh-in-to-publishers-anthropic-lawsuit/" },
+  { "text": "【2026/3/10】CJEU 首次聽證 Like Company v. Google：六小時討論 LLM 與著作權", "url": "https://www.twobirds.com/en/insights/2026/like-company-v-google-cjeu-holds-first-ever-hearing-on-generative-ai-and-copyright-on-10-march-2026" },
+  { "text": "【2026/3/23】Bartz v. Anthropic 最終聽證定於 5 月 14 日：約 50 萬著作權人可獲得分配", "url": "https://authorsguild.org/advocacy/artificial-intelligence/what-authors-need-to-know-about-the-anthropic-settlement/" },
+  { "text": "【2026/1/28】UMRG、Concord、ABKCO 對 Anthropic 提起 $3.1B 訴訟：控告「大規模盜版」訓練歌詞", "url": "https://ra.co/news/84509" }
+];
+
+function renderTicker() {
+  const track = document.getElementById('tickerTrack');
+  if (!track) return;
+  track.innerHTML = newsItems.map((item, i) => `
+    <div class="ticker-item">
+      <a href="${item.url}" target="_blank" rel="noopener">${item.text}</a>
+    </div>
+  `).join('');
+}
 
 // ════════════════════════════════════════
 // LITIGATION TIMELINE
