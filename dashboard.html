@@ -569,7 +569,7 @@
     flex-wrap: wrap;
     gap: 6px 0;
     padding: 0 16px;
-    overflow: hidden;
+    overflow: visible;
   }
   .ticker-item {
     color: var(--cream);
@@ -7151,13 +7151,13 @@ buildRegionMap();
 // ════════════════════════════════════════
 const newsItems = [
   { "text": "【2026/4/14】GEMA v. OpenAI 德國判決：禁止歌詞輸出，著作權侵害成立", "url": "https://www.insidetechlaw.com/blog/2025/11/germany-delivers-landmark-copyright-ruling-against-openai-what-it-means-for-ai-and-ip" },
+  { "text": "【2026/4/14】OpenAI 發現令：法院命令提交 2000 萬筆 ChatGPT 日誌予著作權人", "url": "https://natlawreview.com/article/openai-loses-privacy-gambit-20-million-chatgpt-logs-likely-headed-copyright" },
   { "text": "【2026/4/10】Bartz v. Anthropic 律師費降低至 $187.5M，更多資金流向作者", "url": "https://writerbeware.blog/2026/04/10/anthropic-copyright-settlement-april-update/" },
-  { "text": "【2026/4/14】OpenAI 發現令：需提交 2000 萬筆 ChatGPT 日誌予著作權人", "url": "https://news.bloomberglaw.com/ip-law/openai-must-turn-over-20-million-chatgpt-logs-judge-affirms" },
-  { "text": "【2026/3/18】Merriam-Webster 與 Encyclopedia Britannica 訴 OpenAI：近 10 萬篇文章遭未經授權使用", "url": "https://fortune.com/2026/03/18/dictionaries-suing-openai-chatgpt-copyright-infringement/" },
-  { "text": "【2026/4/2】美國音樂產業支持 UMRG 對 Anthropic 的訴訟（RIAA、NMPA 等）", "url": "https://musically.com/2026/04/02/us-music-bodies-weigh-in-to-publishers-anthropic-lawsuit/" },
-  { "text": "【2026/3/10】CJEU 首次聽證 Like Company v. Google：六小時討論 LLM 與著作權", "url": "https://www.twobirds.com/en/insights/2026/like-company-v-google-cjeu-holds-first-ever-hearing-on-generative-ai-and-copyright-on-10-march-2026" },
-  { "text": "【2026/3/23】Bartz v. Anthropic 最終聽證定於 5 月 14 日：約 50 萬著作權人可獲得分配", "url": "https://authorsguild.org/advocacy/artificial-intelligence/what-authors-need-to-know-about-the-anthropic-settlement/" },
-  { "text": "【2026/1/28】UMRG、Concord、ABKCO 對 Anthropic 提起 $3.1B 訴訟：控告「大規模盜版」訓練歌詞", "url": "https://ra.co/news/84509" }
+  { "text": "【2026/4/7】Stability AI 請求駁回 Getty Images 美國訴訟：主張合理使用抗辯", "url": "https://legalnewsfeed.com/2026/04/07/stability-ai-seeks-dismissal-of-getty-images-lawsuit-in-landmark-ai-copyright-case/" },
+  { "text": "【2026/4/2】美國音樂產業 RIAA、NMPA 聯合支持 UMRG 對 Anthropic 著作權訴訟", "url": "https://musically.com/2026/04/02/us-music-bodies-weigh-in-to-publishers-anthropic-lawsuit/" },
+  { "text": "【2026/3/23】Bartz v. Anthropic 最終聽證定於 5 月 14 日：約 50 萬著作權人可獲 $1.5B 分配", "url": "https://authorsguild.org/advocacy/artificial-intelligence/what-authors-need-to-know-about-the-anthropic-settlement/" },
+  { "text": "【2026/3/18】BMG 訴 Anthropic：493 首歌曲著作權侵害，涉 Bruno Mars、Rolling Stones 歌詞", "url": "https://www.rollingstone.com/music/music-news/bmg-anthropic-copyright-lawsuit-justin-bieber-bruno-mars-1235533474/" },
+  { "text": "【2026/3/10】CJEU 首次聽證 Like Company v. Google：六小時辯論 LLM 訓練與著作權", "url": "https://www.twobirds.com/en/insights/2026/like-company-v-google-cjeu-holds-first-ever-hearing-on-generative-ai-and-copyright-on-10-march-2026" }
 ];
 
 function renderTicker() {
