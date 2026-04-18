@@ -4,28 +4,45 @@
 <dict>
     <key>Label</key>
     <string>com.tyj.dashboard-autopush</string>
+
     <key>ProgramArguments</key>
     <array>
         <string>/bin/bash</string>
-        <string>/Users/jesuisjane/Desktop/AI_Lawsuits/AI Copyright Lawsuits Worldwide/auto-push.sh</string>
+        <string>/Users/jesuisjane/Documents/Claude/Projects/AI Copyright Lawsuits Worldwide/auto-push.sh</string>
     </array>
-    <key>StartCalendarInterval</key>
-    <dict>
-        <key>Hour</key>
-        <integer>4</integer>
-        <key>Minute</key>
-        <integer>5</integer>
-    </dict>
+
+    <!-- PRIMARY TRIGGER: run whenever dashboard.html is modified.
+         This is file-system driven, so there's no polling when nothing changes. -->
+    <key>WatchPaths</key>
+    <array>
+        <string>/Users/jesuisjane/Documents/Claude/Projects/AI Copyright Lawsuits Worldwide/dashboard.html</string>
+    </array>
+
+    <!-- SAFETY NET: also run once every 6 hours (21600s) in case WatchPaths
+         misses a trigger (e.g., atomic replace by some editors). Long enough
+         that failed-push noise stays minimal. -->
+    <key>StartInterval</key>
+    <integer>21600</integer>
+
+    <!-- Also push immediately when the agent is (re)loaded. -->
+    <key>RunAtLoad</key>
+    <true/>
+
+    <!-- Throttle: ignore re-triggers inside 60s (avoid rapid editor-save bursts). -->
+    <key>ThrottleInterval</key>
+    <integer>60</integer>
+
     <key>StandardOutPath</key>
-    <string>/Users/jesuisjane/Desktop/AI_Lawsuits/AI Copyright Lawsuits Worldwide/.auto-push.log</string>
+    <string>/Users/jesuisjane/Documents/Claude/Projects/AI Copyright Lawsuits Worldwide/.auto-push.log</string>
     <key>StandardErrorPath</key>
-    <string>/Users/jesuisjane/Desktop/AI_Lawsuits/AI Copyright Lawsuits Worldwide/.auto-push.log</string>
+    <string>/Users/jesuisjane/Documents/Claude/Projects/AI Copyright Lawsuits Worldwide/.auto-push.log</string>
+
     <key>EnvironmentVariables</key>
     <dict>
         <key>PATH</key>
-        <string>/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin</string>
-        <key>SSH_AUTH_SOCK</key>
-        <string>/tmp/ssh-agent.sock</string>
+        <string>/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin</string>
+        <key>HOME</key>
+        <string>/Users/jesuisjane</string>
     </dict>
 </dict>
 </plist>
