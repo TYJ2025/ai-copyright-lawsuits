@@ -6,7 +6,7 @@
 #   - RunAtLoad:   once on agent load
 # See com.tyj.dashboard-autopush.plist
 
-REPO_DIR="/Users/jesuisjane/Documents/Claude/Projects/AI Copyright Lawsuits Worldwide"
+REPO_DIR="/Users/jesuisjane/ClaudeProjects/AI Copyright Lawsuits Worldwide"
 LOG_FILE="$REPO_DIR/.auto-push.log"
 FAIL_STATE="$REPO_DIR/.auto-push.failstate"
 
@@ -30,12 +30,19 @@ if [ -x /usr/bin/ssh-add ]; then
 fi
 
 # --- Clean stale lock files ------------------------------------------------
-for lockfile in .git/index.lock .git/config.lock; do
-    if [ -f "$lockfile" ]; then
-        log "Removing stale $lockfile"
-        rm -f "$lockfile"
-    fi
-done
+# Only remove lock files older than 10 minutes (avoids racing with an active
+# git operation). Covers HEAD.lock, index.lock, config.lock, and any per-ref
+# lock under .git/refs/heads/*.lock.
+STALE_MIN=10
+if [ -d .git ]; then
+    while IFS= read -r lockfile; do
+        [ -z "$lockfile" ] && continue
+        log "Removing stale lock: $lockfile"
+        /bin/rm -f "$lockfile"
+    done < <(find .git -maxdepth 3 \
+        \( -name "HEAD.lock" -o -name "index.lock" -o -name "config.lock" -o -path ".git/refs/heads/*.lock" \) \
+        -type f -mmin +$STALE_MIN 2>/dev/null)
+fi
 
 # --- Decide whether we need to act -----------------------------------------
 NEED_COMMIT=0
@@ -55,7 +62,7 @@ fi
 
 if [ "$NEED_COMMIT" -eq 0 ] && [ "$NEED_PUSH" -eq 0 ]; then
     # Silent no-op. Reset any previous fail state.
-    [ -f "$FAIL_STATE" ] && rm -f "$FAIL_STATE"
+    [ -f "$FAIL_STATE" ] && /bin/rm -f "$FAIL_STATE"
     exit 0
 fi
 
@@ -70,7 +77,7 @@ RC=$?
 
 if [ $RC -eq 0 ]; then
     log "Push successful."
-    [ -f "$FAIL_STATE" ] && rm -f "$FAIL_STATE"
+    [ -f "$FAIL_STATE" ] && /bin/rm -f "$FAIL_STATE"
     exit 0
 fi
 
