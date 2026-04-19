@@ -1,0 +1,17 @@
+# Log files (auto-push logs, cleanup/audit logs, etc.)
+*.log
+
+# Auto-push state files
+.auto-push.failstate
+
+# Backup files (including dated backups like auto-push.sh.bak.20260418)
+*.bak
+*.bak.*
+
+# macOS
+.DS_Store
+
+# Editor swap/temp files
+*.swp
+*.swo
+*~
