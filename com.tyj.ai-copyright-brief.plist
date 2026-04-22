@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.tyj.ai-copyright-brief</string>
+
+    <!-- 每日 07:07（台北時間，由 macOS 本機時區決定）執行 daily-brief.sh -->
+    <key>ProgramArguments</key>
+    <array>
+        <string>/bin/bash</string>
+        <string>/Users/jesuisjane/ClaudeProjects/AI Copyright Lawsuits Worldwide/scripts/daily-brief.sh</string>
+    </array>
+
+    <key>StartCalendarInterval</key>
+    <dict>
+        <key>Hour</key>
+        <integer>7</integer>
+        <key>Minute</key>
+        <integer>7</integer>
+    </dict>
+
+    <!-- 如果 07:07 時 Mac 沒開機，launchd 會在下次開機時補跑一次 -->
+    <key>RunAtLoad</key>
+    <false/>
+
+    <!-- 避免短時間重複觸發 -->
+    <key>ThrottleInterval</key>
+    <integer>600</integer>
+
+    <!-- stdout / stderr 都寫到 .daily-brief.stdout.log；腳本內部的 log() 會另外寫 .daily-brief.log -->
+    <key>StandardOutPath</key>
+    <string>/Users/jesuisjane/ClaudeProjects/AI Copyright Lawsuits Worldwide/.daily-brief.stdout.log</string>
+    <key>StandardErrorPath</key>
+    <string>/Users/jesuisjane/ClaudeProjects/AI Copyright Lawsuits Worldwide/.daily-brief.stdout.log</string>
+
+    <key>EnvironmentVariables</key>
+    <dict>
+        <key>PATH</key>
+        <string>/opt/homebrew/bin:/usr/local/bin:/Users/jesuisjane/.local/bin:/Users/jesuisjane/.claude/local:/usr/bin:/bin:/usr/sbin:/sbin</string>
+        <key>HOME</key>
+        <string>/Users/jesuisjane</string>
+        <!-- 保險：讓 claude CLI 可以找到使用者設定 -->
+        <key>USER</key>
+        <string>jesuisjane</string>
+    </dict>
+
+    <!-- 單一實例，不允許同時重複執行 -->
+    <key>AbandonProcessGroup</key>
+    <false/>
+</dict>
+</plist>

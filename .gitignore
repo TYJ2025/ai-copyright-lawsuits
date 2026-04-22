@@ -4,6 +4,9 @@
 # Auto-push state files
 .auto-push.failstate
 
+# Daily brief state files (log already caught by *.log above)
+.daily-brief.state
+
 # Backup files (including dated backups like auto-push.sh.bak.20260418)
 *.bak
 *.bak.*
