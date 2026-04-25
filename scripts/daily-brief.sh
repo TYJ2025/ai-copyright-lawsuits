@@ -122,6 +122,9 @@ if git diff --quiet HEAD -- dashboard.html 2>/dev/null; then
 else
     CHANGE_LINES=$(git diff --stat HEAD -- dashboard.html 2>/dev/null | tail -1)
     log "dashboard.html updated: $CHANGE_LINES"
+    TODAY=$(date '+%Y-%m-%d')
+    /usr/bin/sed -i '' "s/每日快訊最近更新: [0-9-]*/每日快訊最近更新: $TODAY/" "$REPO_DIR/dashboard.html"
+    log "Footer date stamped to $TODAY"
     log "auto-push.sh will pick it up via WatchPaths."
     echo "$(date '+%Y/%m/%d')|updated|$CHANGE_LINES" > "$STATE_FILE"
 fi
