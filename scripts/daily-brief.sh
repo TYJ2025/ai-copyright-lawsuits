@@ -115,19 +115,27 @@ if [ $RC -ne 0 ]; then
     exit $RC
 fi
 
-# --- 檢查 dashboard 是否真的被修改 ---
+# --- 偵測 Claude 是否真有改到內容（必須在 sed 之前判斷） ---
 if git diff --quiet HEAD -- dashboard.html 2>/dev/null; then
-    log "No changes to dashboard.html today (無新動態或全部重複)."
-    echo "$(date '+%Y/%m/%d')|no-op" > "$STATE_FILE"
+    HAD_CONTENT_CHANGE=0
 else
+    HAD_CONTENT_CHANGE=1
     CHANGE_LINES=$(git diff --stat HEAD -- dashboard.html 2>/dev/null | tail -1)
-    log "dashboard.html updated: $CHANGE_LINES"
-    TODAY=$(date '+%Y-%m-%d')
-    /usr/bin/sed -i '' "s/每日快訊最近更新: [0-9-]*/每日快訊最近更新: $TODAY/" "$REPO_DIR/dashboard.html"
-    log "Footer date stamped to $TODAY"
-    log "auto-push.sh will pick it up via WatchPaths."
-    echo "$(date '+%Y/%m/%d')|updated|$CHANGE_LINES" > "$STATE_FILE"
 fi
+
+# --- 永遠戳 footer 日期，當作 cron heartbeat（證明今天有跑過） ---
+TODAY=$(date '+%Y-%m-%d')
+/usr/bin/sed -i '' "s/每日快訊最近更新: [0-9-]*/每日快訊最近更新: $TODAY/" "$REPO_DIR/dashboard.html"
+log "Footer date stamped to $TODAY"
+
+if [ "$HAD_CONTENT_CHANGE" -eq 1 ]; then
+    log "dashboard.html updated: $CHANGE_LINES"
+    echo "$(date '+%Y/%m/%d')|updated|$CHANGE_LINES" > "$STATE_FILE"
+else
+    log "No new cases today; footer date bumped as heartbeat."
+    echo "$(date '+%Y/%m/%d')|heartbeat" > "$STATE_FILE"
+fi
+log "auto-push.sh will pick it up via WatchPaths."
 
 log "===== Daily brief done ====="
 exit 0
