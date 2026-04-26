@@ -3257,6 +3257,32 @@ const caseSources = {
       "label": "ClassAction.org — Snap Class Action",
       "url": "https://www.classaction.org/news/class-action-lawsuit-content-creators-claim-snap-wrongfully-scrapes-content-from-youtube-to-train-ai"
     }
+  ],
+  "131": [
+    {
+      "label": "中國知識產權律師網 — 杭州奧特曼案一審判決書 (2024)浙0192民初1587號",
+      "url": "https://www.ciplawyer.cn/articles/155988.html"
+    },
+    {
+      "label": "中國知識產權律師網 — 杭州奧特曼案二審判決書 (2024)浙01民終10332號",
+      "url": "https://www.ciplawyer.cn/articles/155989.html"
+    },
+    {
+      "label": "知產力 — 杭州互聯網法院涉 AIGC 司法建議書",
+      "url": "https://www.zhichanli.com/p/1847346437"
+    },
+    {
+      "label": "天驰君泰 — 觸手 AI 著作權侵權案代理筆記",
+      "url": "https://www.tiantailaw.com/CN/10631-34736.aspx"
+    },
+    {
+      "label": "Merits & Tree — 杭互奧特曼案基本信息與評析",
+      "url": "https://www.meritsandtree.com/Content/2025/02-18/1019340078.html"
+    },
+    {
+      "label": "iphouse — (2024)浙0192民初1587號裁判文書",
+      "url": "https://www.iphouse.cn/casetypical/detail/g8vodq3ym2n1j4z4k8nlwk5r90x74epz.html"
+    }
   ]
 };
 
@@ -5715,6 +5741,35 @@ Koda 提交證據顯示 Suno 生成的曲目與丹麥知名藝人（如 Aqua、M
 1. 台灣 YouTube 創作者（如百萬訂閱頻道）的影片內容同樣面臨被 AI 公司爬取訓練的風險，本案的集體訴訟策略值得台灣創作者社群參考。
 2. 學術研究用途資料集被商業濫用的問題，涉及台灣著作權法第 65 條合理使用中「使用目的」要素的判斷。
 3. 規避技術保護措施（TPM）的指控可對應台灣著作權法第 80-2 條，台灣創作者可評估類似法律途徑。`
+  },
+  {
+    "id": 131,
+    "name": "Tsuburaya (SCLA / 新創華) v. 杭州某智能科技公司（觸手 AI）(杭州奧特曼案 / Hangzhou Ultraman AI Case)",
+    "court": "中國杭州互聯網法院 → 杭州市中級人民法院 (Hangzhou Internet Court → Hangzhou Intermediate People's Court, China)",
+    "judge": "Hangzhou Internet Court (一審) / Hangzhou Intermediate People's Court (二審)",
+    "status": "decided",
+    "claims": [
+      "Right of Communication through Information Network 信息網絡傳播權",
+      "Contributory / Aiding Infringement 幫助侵權",
+      "AIGC Platform Liability — User-trained LoRA Model"
+    ],
+    "defendants": "杭州某智能科技公司（「觸手 AI」繪畫平台運營商）",
+    "issues": `本案為中國「第二件奧特曼案」，與廣州奧特曼案（Case 117）區別在於：(1) 被告為杭州一家經營「觸手 AI」繪畫平台的智能科技公司；(2) 侵權型態為平台用戶上傳奧特曼圖片訓練 LoRA 模型，再由其他用戶輸入提示詞、套用該 LoRA 模型，生成與奧特曼形象實質近似的圖片，並於平台首頁、特定分類頁面公開展示；(3) 法院係以「信息網絡傳播權」（相當於台灣之公開傳輸權）而非複製權／改作權審理。
+
+關鍵法律爭點：(1) 平台是否就「用戶生成」之侵權內容構成直接侵權？(2) 若不構成直接侵權，平台對用戶上傳之 LoRA 模型訓練及輸出是否負有「注意義務」並構成幫助侵權？(3) 信息網絡傳播權之侵害認定要件，與複製權／改作權之侵害認定有何不同？(4) 平台對「LoRA 模型封面圖／示例圖」之審查義務範圍。
+
+本案入選 2024 年度中國十大傳媒法事例，且杭州互聯網法院並就本案向被告平台發出涉生成式人工智能司法建議書，建議建立侵權內容監測、LoRA 模型審核及通知刪除機制，具有規範示範意義。`,
+    "progress": `【一審】杭州互聯網法院於 2024 年 9 月 25 日作出一審判決（案號：（2024）浙 0192 民初 1587 號），認定被告雖未直接生成侵權圖像，但作為應用層直接面向終端用戶之服務提供者，於開源模型基礎上結合特定應用場景進行修改完善，對奧特曼此一高知名度作品於平台首頁、分類頁多次出現之侵權圖片，及 LoRA 模型封面圖／示例圖直接展示之侵權圖片，未盡相應之注意義務，構成「幫助侵權」，侵害原告之信息網絡傳播權。判令被告立即停止侵權（包括刪除涉案奧特曼圖片、奧特曼 LoRA 模型，停止提供相關 LoRA 模型發布及應用服務，並採取必要措施有效制止侵權行為），並賠償原告經濟損失及為制止侵權支出之合理費用合計人民幣 30,000 元。
+
+【二審】杭州市中級人民法院於 2024 年 12 月 30 日作出二審判決（案號：（2024）浙 01 民終 10332 號），駁回上訴，維持原判。
+
+【附隨措施】杭州互聯網法院並就本案向被告發出涉生成式人工智能司法建議書，要求建立侵權內容監測、LoRA 模型審核及通知刪除機制。`,
+    "taiwan": `本案對台灣具有以下啟示：
+
+1. 公開傳輸權作為對 AI 平台主張權利之主要請求權基礎——台灣著作權法第 26 條之 1 公開傳輸權，與本案之信息網絡傳播權結構接近，可作為對 AI 平台 UGC＋AIGC 侵權內容主張權利之路徑。
+2. LoRA 模型上傳與訓練之平台責任——台灣若有類似 civitai、觸手 AI 之中文 LoRA 平台，本案就「平台對 LoRA 模型封面圖、示例圖之注意義務」之認定，可作為幫助侵權／視為侵害（著作權法第 87 條）之參考。
+3. 與廣州奧特曼案（Case 117）對照閱讀：廣州案以複製權、改作權為基礎（一審即終局，賠償 1 萬元）；杭州案以信息網絡傳播權幫助侵權為基礎（一、二審皆判侵權，賠償 3 萬元）。台灣業者得依其平台技術型態（直接生成 vs. 用戶訓練模型）選擇相對應之請求權基礎。
+4. 司法建議書機制——杭州互聯網法院針對個案向 AI 業者發出規範性建議書，相當於台灣法院之建議或函示，值得我國智慧財產及商業法院於類案中參考運用。`
   }
 ];
 
