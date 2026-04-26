@@ -728,6 +728,7 @@
     letter-spacing: 0.3px;
   }
   .badge-active { background: #e8f5e9; color: #2e7d32; }
+  .badge-decided { background: #d6f5ec; color: #0e7c66; }
   .badge-settled { background: #e3f2fd; color: #1565c0; }
   .badge-appeal { background: #fff3e0; color: #e65100; }
   .badge-dismissed { background: #fce4ec; color: #c62828; }
@@ -5361,25 +5362,27 @@ TDM 例外與 AI 訓練：歐盟法對私營企業使用 TDM 例外進行 AI 訓
   },
   {
     "id": 117,
-    "name": "Tsuburaya (SCLA) v. Tab Platform (Ultraman AI Case / 奧特曼案)",
-    "court": "中國廣州互聯網法院 → 杭州中級人民法院 (Guangzhou Internet Court → Hangzhou Intermediate Court, China)",
-    "judge": "Guangzhou Internet Court / Hangzhou Intermediate Court",
-    "status": "settled",
+    "name": "Tsuburaya (SCLA / 新創華) v. AI Company (廣州奧特曼案 / Guangzhou Ultraman AI Case)",
+    "court": "中國廣州互聯網法院 (Guangzhou Internet Court, China)",
+    "judge": "Guangzhou Internet Court",
+    "status": "decided",
     "claims": [
       "Copyright Infringement — AI Output",
-      "Right of Reproduction",
-      "Right of Adaptation"
+      "Right of Reproduction 複製權",
+      "Right of Adaptation 改作權"
     ],
-    "defendants": "Tab Platform (AI Service Provider)",
-    "issues": `原告上海字符授權管理有限公司（SCLA，獲日本圓谷製作株式會社獨家授權）發現被告經營的 AI 平台在用戶輸入包含或涉及「奧特曼」（Ultraman）的提示詞時，會生成與奧特曼系列圖像相同或實質近似的圖片。
+    "defendants": "某 AI 公司（AIGC 平台運營商，俗稱 Tab Platform）",
+    "issues": `原告上海新創華文化發展有限公司（SCLA，獲日本圓谷製作株式會社「奧特曼」系列著作權獨家授權及維權授權）發現被告經營的 AI 平台在用戶輸入包含或涉及「奧特曼」（Ultraman）的提示詞時，會生成與奧特曼系列圖像相同或實質近似的圖片。
 
 關鍵法律爭點：(1) AI 生成物的著作權侵害——AI 平台生成的圖像與受保護的奧特曼角色圖像實質近似，是否構成複製權及改作權侵害？(2) AI 服務提供者的幫助侵權責任——平台是否因促進生成侵權圖像而承擔間接侵權責任？(3) 訓練資料集的移除請求——著作權人是否有權要求 AI 公司從訓練資料集中移除其作品？
 
-本案為全球首例 AI 平台因其生成內容侵害第三方著作權而被判決承擔責任的案件。`,
-    "progress": `廣州互聯網法院於 2024 年 2 月 8 日作出一審判決，認定被告 AI 平台構成著作權侵害，判令被告停止侵權行為並賠償人民幣 10,000 元。被告上訴後，杭州中級人民法院於 2024 年 12 月 30 日維持原判。
+本案為全球首例 AI 平台因其生成內容侵害第三方著作權而被判決承擔責任的案件。請與杭州奧特曼案（Case 131）對照閱讀——廣州案以複製權、改作權為請求權基礎；杭州案則以信息網絡傳播權／幫助侵權為請求權基礎。`,
+    "progress": `【一審即終局】廣州互聯網法院於 2024 年 2 月 8 日作出一審判決（案號：（2024）粤 0192 民初 113 號），認定被告 AI 平台構成著作權侵害，判令被告停止侵權行為（包括採取關鍵詞過濾等措施防止再生成奧特曼形象）並賠償人民幣 10,000 元（含合理開支）。雙方於上訴期內均未上訴，一審判決於上訴期屆滿後直接生效，並無二審判決。
 
-法院認定：奧特曼角色作為原創藝術作品受著作權法保護；被告平台生成的圖像部分或全部與奧特曼角色實質近似，構成複製權及改作權侵害。值得注意的是，法院同時認定 AI 訓練過程中使用著作權作品可構成合理使用，但生成侵權輸出則不受此保護。`,
-    "taiwan": "本案對台灣具有重要啟示：(1) AI 平台的間接侵權責任——台灣著作權法中的幫助侵權概念可參考本案判決；(2) 訓練與輸出的區分——法院區分「AI 訓練中的使用」（可能構成合理使用）與「侵權輸出」（不受保護），此分析架構值得台灣法院採納；(3) 角色著作權保護——對台灣動漫、遊戲產業的 IP 保護具有重要參考價值；(4) 台灣企業開發或使用 AI 圖像生成工具時，須注意避免生成與知名 IP 實質近似的內容。"
+法院認定：奧特曼角色作為原創藝術作品受著作權法保護；被告平台生成的圖像部分或全部與奧特曼角色實質近似，構成複製權及改作權侵害。值得注意的是，法院同時認定 AI 訓練過程中使用著作權作品可構成合理使用，但生成侵權輸出則不受此保護。
+
+【中英文判決全文 PDF（Internet Archive）】https://ia800409.us.archive.org/3/items/scla-v-ai-company-guangzhou-internet-court-02082024-with-english-translation/SCLA%20v%20AI%20Company%20Guangzhou%20Internet%20Court%2002082024%20with%20English%20Translation.pdf`,
+    "taiwan": "本案對台灣具有重要啟示：(1) AI 平台的間接侵權責任——台灣著作權法中的幫助侵權概念可參考本案判決；(2) 訓練與輸出的區分——法院區分「AI 訓練中的使用」（可能構成合理使用）與「侵權輸出」（不受保護），此分析架構值得台灣法院採納；(3) 角色著作權保護——對台灣動漫、遊戲產業的 IP 保護具有重要參考價值；(4) 台灣企業開發或使用 AI 圖像生成工具時，須注意避免生成與知名 IP 實質近似的內容；(5) 廣州案＋杭州案（Case 131）並列觀察：中國法院在不同情境（直接生成 vs. 用戶 LoRA 訓練）下，分別以複製權／改作權及信息網絡傳播權／幫助侵權建構平台責任，請求權基礎之選擇對台灣權利人具參考價值。"
   },
   {
     "id": 118,
@@ -5933,7 +5936,7 @@ buildFilters();
 
 // Status badge
 function statusBadge(s) {
-  const m = { active: ['審理中','badge-active'], settled: ['和解','badge-settled'], appeal: ['上訴中','badge-appeal'], dismissed: ['駁回','badge-dismissed'], mdl: ['MDL','badge-mdl'] };
+  const m = { active: ['審理中','badge-active'], decided: ['已判決','badge-decided'], settled: ['和解','badge-settled'], appeal: ['上訴中','badge-appeal'], dismissed: ['駁回','badge-dismissed'], mdl: ['MDL','badge-mdl'] };
   const [label, cls] = m[s] || ['—',''];
   return `<span class="badge ${cls}">${label}</span>`;
 }
@@ -7042,6 +7045,7 @@ function toggleDarkMode() {
 function buildPieChart() {
   const statusData = [
     { key: 'active', label: '審理中 Active', color: '#27ae60' },
+    { key: 'decided', label: '已判決 Decided', color: '#16a085' },
     { key: 'settled', label: '和解 Settled', color: '#2980b9' },
     { key: 'appeal', label: '上訴中 Appeal', color: '#e67e22' },
     { key: 'dismissed', label: '駁回 Dismissed', color: '#c0392b' },
