@@ -5854,6 +5854,59 @@ Koda 提交證據顯示 Suno 生成的曲目與丹麥知名藝人（如 Aqua、M
 3. **「教育研究合理使用」抗辯之邊界**——台灣著作權法第 46 條及第 65 條第 2 項對學術重製傳統上給予較寬解釋空間。本案 Stanford 動議駁回未果，預示美國法院對「學術機構免費再散布商業圖像作 AI 訓練」之合理使用抗辯採嚴格立場；台灣智財法院於未來類案中可比較法參考。
 
 4. **與其他資料集案件比較觀察**——本案應與 LAION-5B 相關之 Andersen v. Stability AI、Kadrey v. Meta（Books3/LibGen）並列觀察，共同形塑「訓練資料集本身（不論最終模型）作為侵害物件」之訴訟趨勢。`
+  },
+  {
+    "id": 134,
+    "name": "Reddit, Inc. v. Anthropic PBC",
+    "court": "San Francisco Superior Court CGC-25-625892 ⇄ N.D. Cal. 3:25-cv-05643（2026/3/30 發回州法院）",
+    "judge": "Trina L. Thompson（N.D. Cal., remand 階段）／州法院法官（後續）",
+    "status": "active",
+    "claims": [
+      "Breach of Contract",
+      "Unjust Enrichment",
+      "Trespass to Chattels",
+      "Tortious Interference",
+      "UCL §17200（無聯邦著作權請求）"
+    ],
+    "defendants": "Anthropic PBC",
+    "issues": `本案係 AI 訓練資料訴訟中**罕見「全部以州法請求權」起訴**之案件，具高度策略意義。
+
+Reddit 主張 Anthropic 未經授權持續爬取 Reddit 公開貼文，以訓練 Claude 模型：
+
+1. **違約**——Anthropic 受 Reddit 使用者協議拘束，協議明文限制商業利用、要求授權者付費。
+2. **不當得利**——未付對價即取得訓練資料之經濟利益。
+3. **侵入動產（trespass to chattels）**——自動化抓取造成 Reddit 伺服器負擔。
+4. **妨害契約**——規避 Reddit 對使用者所設之內容控制機制，導致 Reddit 對使用者之契約義務受妨礙。
+5. **加州不公平競爭法（UCL §17200）**。
+
+**核心爭點**：
+
+- 17 U.S.C. §301 著作權法 preemption 是否吸收上述州法請求？
+- 訴訟策略：Reddit 採「契約路徑」而非「著作權路徑」（因平台對 UGC 不擁有著作權），若成功將為「平台以 ToS 防 AI 抓取」樹立先例。`,
+    "progress": `【2025/6/5】Reddit 於 San Francisco Superior Court 起訴 Anthropic（CGC-25-625892）。
+
+【2025/7/3】Anthropic 將案件移送至 N.D. Cal.（3:25-cv-05643）；初由 Susan Illston 法官分案，後改由 Trina L. Thompson 法官審理。
+
+【2026/3】Thompson 法官就 remand 動議發布暫時意見，傾向准予發回。
+
+【2026/3/30】Thompson 法官正式裁定准予發回：§301 對 Reddit 之州法請求**不構成優先抵觸**。使用者協議課予 Anthropic 之義務（access methods 限制、技術基礎設施保護）與著作權法所保護之權利「質的不同」（quantitatively different），其餘四項州法請求亦皆有獨立要件不被吸收。
+
+【2026/4】案件正式回到 San Francisco Superior Court 續行。
+
+【2028/2/14–3/8】陪審審判排定於 San Francisco Superior Court。
+
+本案揭示：即使 AI 業者得在著作權法上主張合理使用，仍可能在契約、侵權、不公平競爭法上敗訴。`,
+    "taiwan": `本案對台灣的啟示：
+
+1. **「服務條款防 AI 抓取」之路徑**——台灣平台業者（Dcard、PTT、痞客邦）若擔憂自身平台 UGC 遭 AI 業者抓取，可參考 Reddit 之策略：**以使用者協議與服務條款作為請求權基礎**，主張違約、不當得利、UCL 等台灣對應制度，而非單獨依著作權法。此路徑特別適合「平台不擁有 UGC 著作權」之情境。
+
+2. **台灣民法多請求權競合之援用**——本案五項州法請求權幾乎皆有台灣法對應：違約對應債務不履行；不當得利對應第 179 條；trespass to chattels 對應第 184 條第 1 項之物權／使用權侵害；UCL 對應公平交易法第 25 條（不公平競爭）。
+
+3. **著作權法第 65 條合理使用不再是 AI 訴訟唯一戰場**——本案揭示，即使 AI 業者於著作權法上主張合理使用成功，仍可能於契約、侵權、不公平競爭法上敗訴。台灣 AI 業者使用網路爬取資料時，**不應僅檢查著作權合理使用，亦須檢視來源平台之 ToS、robots.txt 與資料庫保護權**。
+
+4. **§301 preemption 之比較**——美國 §301 preemption 於台灣無直接對應，台灣著作權法本身亦不排除民法／公平法之競合救濟，故台灣權利人就同一行為**通常可同時主張**著作權、民法侵權、不當得利、公平法等多重請求權，無 preemption 障礙。
+
+5. **陪審審判時程**——本案排於 2028 年 2–3 月，將是 AI 訓練資料「契約路徑」首件實體審判；若 Reddit 勝訴，將強化平台對 AI 業者之議價地位（已有 Reddit-Google、Reddit-OpenAI 之授權合作為對照）。`
   }
 ];
 
