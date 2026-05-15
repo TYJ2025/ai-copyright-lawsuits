@@ -5907,6 +5907,52 @@ Reddit 主張 Anthropic 未經授權持續爬取 Reddit 公開貼文，以訓練
 4. **§301 preemption 之比較**——美國 §301 preemption 於台灣無直接對應，台灣著作權法本身亦不排除民法／公平法之競合救濟，故台灣權利人就同一行為**通常可同時主張**著作權、民法侵權、不當得利、公平法等多重請求權，無 preemption 障礙。
 
 5. **陪審審判時程**——本案排於 2028 年 2–3 月，將是 AI 訓練資料「契約路徑」首件實體審判；若 Reddit 勝訴，將強化平台對 AI 業者之議價地位（已有 Reddit-Google、Reddit-OpenAI 之授權合作為對照）。`
+  },
+  {
+    "id": 135,
+    "name": "Cruz v. Anthropic PBC（Bartz 和解 opt-out 28 作者新訴）",
+    "court": "N.D. Cal.（案號待 PACER 確認，3:26-cv-XXXXX）",
+    "judge": "TBA（預期分案後可能由 William Alsup 法官審理，與 Bartz 同庭）",
+    "status": "active",
+    "claims": [
+      "Direct Copyright Infringement（17 U.S.C. §501）",
+      "Willful Infringement（請求法定損害賠償 §504(c)(2)，每件 $150,000）",
+      "Jury Demand"
+    ],
+    "defendants": "Anthropic PBC",
+    "issues": `本案係 **Bartz v. Anthropic** $1.5B 集體和解之 28 位 opt-out 作者（Angie Cruz、Dave Eggers、Vendela Vida 等灣區作家）於 **2026/5/14**（Bartz 公平聽證會同日）所提起之獨立侵權訴訟，請求陪審審判。
+
+**核心主張**：
+
+1. Anthropic 從 LibGen（Library Genesis）、Z-Library、OceanofPDF 等盜版「shadow libraries」未經授權下載、重製、散布原告等之書籍，作為 Claude 大型語言模型之訓練資料。
+2. 法定賠償請求：依 17 U.S.C. §504(c)(2) 主張故意侵權，每件作品請求最高 $150,000 法定賠償；以 28 位作者各擁有多件登記作品計算，潛在賠償總額可能達數千萬美元等級。
+3. 反集體訴訟策略：原告於起訴狀中明確指出 "class action treatment lets AI companies extinguish high-value copyright claims on the cheap"——主張集體和解之 per-work $3,000 對價，遠低於高知名度作者之實際市場價值，故選擇以個別訴訟另闢戰場。
+
+**核心爭點**：
+
+- **與 Bartz 和解之關係**——本案原告依 FRCP 23(e) 程序合法 opt-out（截止日 2026/2/9），不受 Bartz 集體和解拘束。
+- **Alsup 法官 2025/6/23 fair use 裁定之適用**——Bartz 案 Alsup 法官就「以合法購書資料訓練 AI」認定構成 transformative fair use，但就「LibGen／PiLiMi 盜版來源」則明確認定**非合理使用**；本案原告完全聚焦後者，故 Anthropic 之 fair use 抗辯空間極為有限。
+- **法定損害金乘數**——若陪審認定故意侵權，每件作品 $150,000 × 28 位作者持有作品總數，將形成遠高於 $3,000/work 集體和解價格之賠償壓力。`,
+    "progress": `【2025/9/5】Bartz v. Anthropic 達成 $1.5B 集體和解（每件作品約 $3,000），由 Martínez-Olguín 法官審理。
+
+【2026/2/9】Bartz 集體和解 opt-out 截止日；包含 Angie Cruz、Dave Eggers、Vendela Vida 在內之 28 位作者選擇退出。
+
+【2026/5/14（昨日）】本案於 N.D. Cal. 提起；同日 Martínez-Olguín 法官於 Bartz 公平聽證會上未當庭給予最終核准，要求補件。
+
+【後續】等待 PACER 公告正式案號；預期 Anthropic 將以「fair use（Alsup 已部分認可）」、「§504(c)(2) 法定損害金合憲性挑戰（cf. Cox Communications v. Sony Music 之 due process 論點）」抗辯。
+
+**值得追蹤之程序選擇**：(a) Anthropic 可能聲請與 Bartz 並案；(b) 若 Alsup 法官分案，因其已具 Bartz 完整事實基礎，將大幅加速本案進度。`,
+    "taiwan": `本案對台灣的啟示：
+
+1. **集體和解 opt-out 之策略價值**——本案揭示美國 FRCP 23 集體訴訟之 opt-out 機制可作為**高價值權利人**保留個別訴權之策略工具：知名作者於每件作品市場價值（授權金、出版利潤）顯著高於集體和解平均值時，opt-out 後另提個別訴訟可極大化救濟。台灣現行集體訴訟（消保法第 50 條、民訴法第 41 條選定當事人、第 44 條之 1 公益訴訟）尚無相當 opt-out 機制，立法者可參考此設計，於未來著作權集體訴訟中導入。
+
+2. **「來源合法性」決定 fair use 結局**——Alsup 法官 Bartz 裁定已明確區分：(a) 合法購書訓練 → transformative fair use；(b) 盜版來源（LibGen／PiLiMi）→ 非合理使用。台灣 AI 業者進行訓練資料採集時，**訓練目的之合理性（即使為研究、技術發展）並不能洗白盜版來源之違法性**；著作權法第 65 條第 2 項第 1 款「利用之目的及性質」與第 4 款「對著作市場之影響」均將因盜版來源而傾向不利。
+
+3. **法定損害金作為訴訟槓桿**——本案以 §504(c)(2) 法定損害（每件最高 $150,000）為核心請求，凸顯**美國法定損害金制度作為 AI 訴訟壓力源**之效能。台灣著作權法第 88 條第 3 項規定法定損害金為 NT$10,000–NT$1,000,000，故意者得提高至 NT$5,000,000；雖名目較美國低，但若以多件作品累計，仍可形成顯著賠償壓力。台灣權利人應系統性盤點受侵害作品數，主張按件累計。
+
+4. **shadow library 議題之合規盤點**——LibGen、Z-Library、OceanofPDF 等於台灣亦廣為人知；國內 AI 業者（聯發科、台達電、中華電信、台灣大、各大學 AI 中心）應**立即盤點訓練資料來源是否含上述盜版庫**，並建立資料來源驗證（data provenance）流程，避免成為下一波訴訟對象。
+
+5. **作者組織之集體議價角色**——本案 28 位作者集體 opt-out 並聯合訴訟，顯示作者組織（如 Authors Guild、PEN America）在 AI 時代之新功能：協調 opt-out、共聘律師、共同主張集體賠償。台灣文化部、文策院、文藝協會、出版商業同業公會可參考此模式，協助本國作者面對國際 AI 業者之集體議價／訴訟需求。`
   }
 ];
 
