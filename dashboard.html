@@ -588,6 +588,76 @@
   .ticker-item a:hover { color: var(--white); }
   .ticker-sep { color: var(--gold); padding: 0 6px; }
 
+  /* ── Daily Brief Archive (collapsible) ── */
+  .archive-wrap {
+    background: var(--cream);
+    border-top: 1px solid var(--border);
+    border-bottom: 1px solid var(--border);
+    font-family: 'Microsoft JhengHei', '微軟正黑體', sans-serif;
+  }
+  .archive-toggle {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 18px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    text-align: left;
+    color: var(--navy);
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: 'Microsoft JhengHei', '微軟正黑體', sans-serif;
+  }
+  .archive-toggle:hover { background: rgba(201,169,110,0.10); }
+  .archive-arrow {
+    display: inline-block;
+    width: 12px;
+    color: var(--gold);
+    transition: transform 0.18s ease;
+  }
+  .archive-wrap.open .archive-arrow { transform: rotate(90deg); }
+  .archive-count {
+    color: var(--text-light);
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    text-transform: none;
+  }
+  .archive-body {
+    padding: 4px 18px 18px;
+    border-top: 1px dashed var(--border);
+  }
+  .archive-group { margin-top: 12px; }
+  .archive-group-date {
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--gold);
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 4px 0;
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 6px;
+  }
+  .archive-item {
+    font-size: 14px;
+    color: var(--text);
+    line-height: 1.55;
+    padding: 4px 0;
+  }
+  .archive-item a {
+    color: var(--navy);
+    text-decoration: none;
+    border-bottom: 1px dotted var(--gold);
+  }
+  .archive-item a:hover { color: var(--gold); }
+  [data-theme="dark"] .archive-toggle { color: var(--gold-light); }
+  [data-theme="dark"] .archive-item { color: var(--text); }
+  [data-theme="dark"] .archive-item a { color: var(--gold-light); }
+
   /* ── Stats Bar ── */
   .stats-bar {
     display: flex;
@@ -1760,6 +1830,16 @@
   <div class="reports-filter-row" id="reportsFilterRow"></div>
   <div class="reports-filter-row" id="reportsCatRow" style="margin-top:6px;"></div>
   <div class="reports-grid" id="reportsGrid"></div>
+</div>
+
+<!-- ── Daily Brief Archive (collapsible) ── -->
+<div class="archive-wrap" id="archiveWrap">
+  <button class="archive-toggle" id="archiveToggle" onclick="toggleArchive()" aria-expanded="false" aria-controls="archiveBody">
+    <span class="archive-arrow">▶</span>
+    <span>歷史快訊 Archive</span>
+    <span class="archive-count" id="archiveCount">(0)</span>
+  </button>
+  <div class="archive-body" id="archiveBody" hidden></div>
 </div>
 
 <footer>
@@ -7441,6 +7521,66 @@ function renderTicker() {
 
 // Initialize ticker after newsItems and renderTicker are defined
 renderTicker();
+
+// ════════════════════════════════════════
+// DAILY BRIEF ARCHIVE (collapsible, grouped by addedAt)
+// ════════════════════════════════════════
+function escapeHTML(s) {
+  return String(s == null ? '' : s)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;');
+}
+
+function renderArchive() {
+  const body = document.getElementById('archiveBody');
+  const countEl = document.getElementById('archiveCount');
+  if (!body || !countEl) return;
+  const items = Array.isArray(newsArchive) ? newsArchive : [];
+  countEl.textContent = '(' + items.length + ')';
+  if (items.length === 0) {
+    body.innerHTML = '<div class="archive-item" style="color:var(--text-light)">尚無歷史快訊。每日快訊滿 3 天後將自動歸檔於此。</div>';
+    return;
+  }
+  // Group by addedAt (descending — newest dates first)
+  const groups = {};
+  items.forEach(it => {
+    const d = (it && it.addedAt) ? it.addedAt : 'unknown';
+    if (!groups[d]) groups[d] = [];
+    groups[d].push(it);
+  });
+  const dates = Object.keys(groups).sort().reverse();
+  body.innerHTML = dates.map(d => `
+    <div class="archive-group">
+      <div class="archive-group-date">${escapeHTML(d)}</div>
+      ${groups[d].map(it => `
+        <div class="archive-item">
+          <a href="${escapeHTML(it.url || '#')}" target="_blank" rel="noopener">${escapeHTML(it.text || '')}</a>
+        </div>
+      `).join('')}
+    </div>
+  `).join('');
+}
+
+function toggleArchive() {
+  const wrap = document.getElementById('archiveWrap');
+  const body = document.getElementById('archiveBody');
+  const btn = document.getElementById('archiveToggle');
+  if (!wrap || !body || !btn) return;
+  const opening = body.hasAttribute('hidden');
+  if (opening) {
+    body.removeAttribute('hidden');
+    wrap.classList.add('open');
+    btn.setAttribute('aria-expanded', 'true');
+  } else {
+    body.setAttribute('hidden', '');
+    wrap.classList.remove('open');
+    btn.setAttribute('aria-expanded', 'false');
+  }
+}
+
+renderArchive();
 
 // ════════════════════════════════════════
 // LITIGATION TIMELINE
