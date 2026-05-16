@@ -588,75 +588,81 @@
   .ticker-item a:hover { color: var(--white); }
   .ticker-sep { color: var(--gold); padding: 0 6px; }
 
-  /* ── Daily Brief Archive (collapsible) ── */
-  .archive-wrap {
+  /* ── Daily Brief Archive (view page, sibling of fairuse / timeline / reports) ── */
+  .archive-container {
+    display: none;
+    height: calc(100vh - 180px);
+    min-height: 600px;
+    overflow-y: auto;
+    padding: 36px 48px;
     background: var(--cream);
-    border-top: 1px solid var(--border);
-    border-bottom: 1px solid var(--border);
     font-family: 'Microsoft JhengHei', '微軟正黑體', sans-serif;
   }
-  .archive-toggle {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    padding: 10px 18px;
-    background: transparent;
-    border: none;
-    cursor: pointer;
-    text-align: left;
+  .archive-container.visible { display: block; }
+  .archive-intro {
+    max-width: 960px;
+    margin: 0 auto 36px;
+  }
+  .archive-intro h2 {
+    font-size: 28px;
     color: var(--navy);
-    font-size: 14px;
-    font-weight: 700;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    font-family: 'Microsoft JhengHei', '微軟正黑體', sans-serif;
+    margin-bottom: 12px;
+    border-bottom: 2px solid var(--gold);
+    padding-bottom: 12px;
   }
-  .archive-toggle:hover { background: rgba(201,169,110,0.10); }
-  .archive-arrow {
-    display: inline-block;
-    width: 12px;
+  .archive-intro p {
+    font-size: 16px;
+    line-height: 1.8;
+    color: var(--text);
+  }
+  .archive-intro #archiveCount {
     color: var(--gold);
-    transition: transform 0.18s ease;
-  }
-  .archive-wrap.open .archive-arrow { transform: rotate(90deg); }
-  .archive-count {
-    color: var(--text-light);
-    font-size: 12px;
-    font-weight: 500;
-    letter-spacing: 0.5px;
-    text-transform: none;
+    font-weight: 700;
   }
   .archive-body {
-    padding: 4px 18px 18px;
-    border-top: 1px dashed var(--border);
+    max-width: 960px;
+    margin: 0 auto;
   }
-  .archive-group { margin-top: 12px; }
+  .archive-group {
+    background: var(--white);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    margin-bottom: 20px;
+    overflow: hidden;
+  }
   .archive-group-date {
-    font-size: 12px;
+    background: var(--navy);
+    color: var(--gold-light);
+    padding: 10px 20px;
+    font-size: 14px;
     font-weight: 700;
-    color: var(--gold);
     letter-spacing: 1px;
     text-transform: uppercase;
-    padding: 4px 0;
-    border-bottom: 1px solid var(--border);
-    margin-bottom: 6px;
+    font-family: 'Microsoft JhengHei', '微軟正黑體', sans-serif;
   }
   .archive-item {
-    font-size: 14px;
+    font-size: 15px;
     color: var(--text);
-    line-height: 1.55;
-    padding: 4px 0;
+    line-height: 1.75;
+    padding: 14px 22px;
+    border-bottom: 1px solid #eee;
   }
+  .archive-item:last-child { border-bottom: none; }
   .archive-item a {
     color: var(--navy);
     text-decoration: none;
     border-bottom: 1px dotted var(--gold);
   }
   .archive-item a:hover { color: var(--gold); }
-  [data-theme="dark"] .archive-toggle { color: var(--gold-light); }
-  [data-theme="dark"] .archive-item { color: var(--text); }
+  [data-theme="dark"] .archive-intro h2 { color: var(--gold-light); }
+  [data-theme="dark"] .archive-group { background: var(--navy-light); }
+  [data-theme="dark"] .archive-item { color: var(--text); border-bottom-color: var(--border); }
   [data-theme="dark"] .archive-item a { color: var(--gold-light); }
+  @media (max-width: 900px) {
+    .archive-container { padding: 20px 16px; }
+    .archive-intro h2 { font-size: 22px; }
+    .archive-intro p { font-size: 14px; }
+  }
 
   /* ── Stats Bar ── */
   .stats-bar {
@@ -1659,6 +1665,7 @@
       <button class="view-toggle-btn" data-view="fairuse" onclick="switchView('fairuse')">合理使用經典</button>
       <button class="view-toggle-btn" data-view="timeline" onclick="switchView('timeline')">時間軸</button>
       <button class="view-toggle-btn" data-view="reports" onclick="switchView('reports')">官方報告</button>
+      <button class="view-toggle-btn" data-view="archive" onclick="switchView('archive')">歷史快訊</button>
     </div>
   </div>
   <div style="display:flex;align-items:center;gap:12px;">
@@ -1832,14 +1839,13 @@
   <div class="reports-grid" id="reportsGrid"></div>
 </div>
 
-<!-- ── Daily Brief Archive (collapsible) ── -->
-<div class="archive-wrap" id="archiveWrap">
-  <button class="archive-toggle" id="archiveToggle" onclick="toggleArchive()" aria-expanded="false" aria-controls="archiveBody">
-    <span class="archive-arrow">▶</span>
-    <span>歷史快訊 Archive</span>
-    <span class="archive-count" id="archiveCount">(0)</span>
-  </button>
-  <div class="archive-body" id="archiveBody" hidden></div>
+<!-- ── Daily Brief Archive (view page) ── -->
+<div class="archive-container" id="archiveContainer">
+  <div class="archive-intro">
+    <h2>歷史快訊 Daily Brief Archive</h2>
+    <p>每日快訊（Daily Brief）滿 3 天後自動歸檔於此，依加入日期由新至舊分組。每筆條目均連結至原始新聞來源。目前共 <span id="archiveCount">0</span> 筆歷史快訊。</p>
+  </div>
+  <div class="archive-body" id="archiveBody"></div>
 </div>
 
 <footer>
@@ -6461,6 +6467,7 @@ function switchView(view) {
   const fairuse = document.getElementById('fairuseContainer');
   const reports = document.getElementById('reportsContainer');
   const timeline = document.getElementById('timelineContainer');
+  const archive = document.getElementById('archiveContainer');
   // Hide all
   tracker.style.display = 'none';
   statsBar.style.display = 'none';
@@ -6470,6 +6477,7 @@ function switchView(view) {
   fairuse.classList.remove('visible');
   reports.classList.remove('visible');
   timeline.classList.remove('visible');
+  if (archive) archive.classList.remove('visible');
   if (view === 'fairuse') {
     fairuse.classList.add('visible');
     renderFairUseCases();
@@ -6479,6 +6487,9 @@ function switchView(view) {
   } else if (view === 'timeline') {
     timeline.classList.add('visible');
     buildTimeline();
+  } else if (view === 'archive') {
+    if (archive) archive.classList.add('visible');
+    renderArchive();
   } else {
     tracker.style.display = 'flex';
     statsBar.style.display = 'flex';
@@ -7538,7 +7549,7 @@ function renderArchive() {
   const countEl = document.getElementById('archiveCount');
   if (!body || !countEl) return;
   const items = Array.isArray(newsArchive) ? newsArchive : [];
-  countEl.textContent = '(' + items.length + ')';
+  countEl.textContent = items.length;
   if (items.length === 0) {
     body.innerHTML = '<div class="archive-item" style="color:var(--text-light)">尚無歷史快訊。每日快訊滿 3 天後將自動歸檔於此。</div>';
     return;
@@ -7553,7 +7564,7 @@ function renderArchive() {
   const dates = Object.keys(groups).sort().reverse();
   body.innerHTML = dates.map(d => `
     <div class="archive-group">
-      <div class="archive-group-date">${escapeHTML(d)}</div>
+      <div class="archive-group-date">${escapeHTML(d)}（${groups[d].length} 則）</div>
       ${groups[d].map(it => `
         <div class="archive-item">
           <a href="${escapeHTML(it.url || '#')}" target="_blank" rel="noopener">${escapeHTML(it.text || '')}</a>
@@ -7563,23 +7574,7 @@ function renderArchive() {
   `).join('');
 }
 
-function toggleArchive() {
-  const wrap = document.getElementById('archiveWrap');
-  const body = document.getElementById('archiveBody');
-  const btn = document.getElementById('archiveToggle');
-  if (!wrap || !body || !btn) return;
-  const opening = body.hasAttribute('hidden');
-  if (opening) {
-    body.removeAttribute('hidden');
-    wrap.classList.add('open');
-    btn.setAttribute('aria-expanded', 'true');
-  } else {
-    body.setAttribute('hidden', '');
-    wrap.classList.remove('open');
-    btn.setAttribute('aria-expanded', 'false');
-  }
-}
-
+// Pre-render once so the count appears in the intro before user clicks the tab
 renderArchive();
 
 // ════════════════════════════════════════
