@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+from __future__ import annotations  # PEP 563 — defer type-hint evaluation so PEP 604 `X | None` works on Python 3.9 (macOS system Python)
 """
 fetch_courtlistener_docket.py
 
