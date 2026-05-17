@@ -23,6 +23,13 @@ fi
 
 cd "$REPO_DIR" || { log "Cannot cd to $REPO_DIR"; exit 1; }
 
+# --- Mirror dashboard.html → index.html (GH Pages default file) ------------
+# Source of truth is dashboard.html (edited by daily-brief). GH Pages serves
+# /index.html at /, so keep them in lockstep or public sees stale content.
+if [ -f dashboard.html ]; then
+    cp dashboard.html index.html
+fi
+
 # --- Load SSH keys from macOS Keychain -------------------------------------
 # Keys must have been added once via: ssh-add --apple-use-keychain <keyfile>
 if [ -x /usr/bin/ssh-add ]; then
@@ -68,7 +75,7 @@ fi
 
 # --- Commit if needed, then push -------------------------------------------
 if [ "$NEED_COMMIT" -eq 1 ]; then
-    git add dashboard.html
+    git add dashboard.html index.html
     git commit -m "Daily update: $(date '+%Y/%m/%d')" >> "$LOG_FILE" 2>&1
 fi
 

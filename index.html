@@ -570,7 +570,7 @@
     flex-wrap: wrap;
     gap: 6px 0;
     padding: 0 16px;
-    overflow: hidden;
+    overflow: visible;
   }
   .ticker-item {
     color: var(--cream);
@@ -587,6 +587,82 @@
   }
   .ticker-item a:hover { color: var(--white); }
   .ticker-sep { color: var(--gold); padding: 0 6px; }
+
+  /* ── Daily Brief Archive (view page, sibling of fairuse / timeline / reports) ── */
+  .archive-container {
+    display: none;
+    height: calc(100vh - 180px);
+    min-height: 600px;
+    overflow-y: auto;
+    padding: 36px 48px;
+    background: var(--cream);
+    font-family: 'Microsoft JhengHei', '微軟正黑體', sans-serif;
+  }
+  .archive-container.visible { display: block; }
+  .archive-intro {
+    max-width: 960px;
+    margin: 0 auto 36px;
+  }
+  .archive-intro h2 {
+    font-size: 28px;
+    color: var(--navy);
+    margin-bottom: 12px;
+    border-bottom: 2px solid var(--gold);
+    padding-bottom: 12px;
+  }
+  .archive-intro p {
+    font-size: 16px;
+    line-height: 1.8;
+    color: var(--text);
+  }
+  .archive-intro #archiveCount {
+    color: var(--gold);
+    font-weight: 700;
+  }
+  .archive-body {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  .archive-group {
+    background: var(--white);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    margin-bottom: 20px;
+    overflow: hidden;
+  }
+  .archive-group-date {
+    background: var(--navy);
+    color: var(--gold-light);
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: 'Microsoft JhengHei', '微軟正黑體', sans-serif;
+  }
+  .archive-item {
+    font-size: 15px;
+    color: var(--text);
+    line-height: 1.75;
+    padding: 14px 22px;
+    border-bottom: 1px solid #eee;
+  }
+  .archive-item:last-child { border-bottom: none; }
+  .archive-item a {
+    color: var(--navy);
+    text-decoration: none;
+    border-bottom: 1px dotted var(--gold);
+  }
+  .archive-item a:hover { color: var(--gold); }
+  [data-theme="dark"] .archive-intro h2 { color: var(--gold-light); }
+  [data-theme="dark"] .archive-group { background: var(--navy-light); }
+  [data-theme="dark"] .archive-item { color: var(--text); border-bottom-color: var(--border); }
+  [data-theme="dark"] .archive-item a { color: var(--gold-light); }
+  @media (max-width: 900px) {
+    .archive-container { padding: 20px 16px; }
+    .archive-intro h2 { font-size: 22px; }
+    .archive-intro p { font-size: 14px; }
+  }
 
   /* ── Stats Bar ── */
   .stats-bar {
@@ -1589,6 +1665,7 @@
       <button class="view-toggle-btn" data-view="fairuse" onclick="switchView('fairuse')">合理使用經典</button>
       <button class="view-toggle-btn" data-view="timeline" onclick="switchView('timeline')">時間軸</button>
       <button class="view-toggle-btn" data-view="reports" onclick="switchView('reports')">官方報告</button>
+      <button class="view-toggle-btn" data-view="archive" onclick="switchView('archive')">歷史快訊</button>
     </div>
   </div>
   <div style="display:flex;align-items:center;gap:12px;">
@@ -1762,8 +1839,17 @@
   <div class="reports-grid" id="reportsGrid"></div>
 </div>
 
+<!-- ── Daily Brief Archive (view page) ── -->
+<div class="archive-container" id="archiveContainer">
+  <div class="archive-intro">
+    <h2>歷史快訊 Daily Brief Archive</h2>
+    <p>每日快訊（Daily Brief）滿 3 天後自動歸檔於此，依加入日期由新至舊分組。每筆條目均連結至原始新聞來源。目前共 <span id="archiveCount">0</span> 筆歷史快訊。</p>
+  </div>
+  <div class="archive-body" id="archiveBody"></div>
+</div>
+
 <footer>
-  &copy; 2026 AI Copyright Litigation Tracker &mdash; 資料來源：美國聯邦法院公開紀錄、CourtListener、<a href="https://chatgptiseatingtheworld.com/" target="_blank" style="color:var(--gold);text-decoration:underline;">ChatGPT Is Eating The World</a>、BakerHostetler AI Litigation Tracker &mdash; 最近更新: 2026-04-11
+  &copy; 2026 AI Copyright Litigation Tracker &mdash; 案件資料來源：美國聯邦法院公開紀錄、CourtListener   每日快訊最近更新: 2026-05-17
 </footer>
 
 <script>
@@ -3418,7 +3504,11 @@ Getty Images 被判負擔 69.4% 的訴訟費用（約 440 萬英鎊），使商�
 
 本案已合併 Chabon v. Meta 及 Farnsworth v. Meta。DMCA §1202(b)(1) 的簡易判決也被駁回。
 
-【2026/3/27】法院發布新訴訟時程表，分配請求（distribution claim）簡易判決聽證會延至 2027 年 2 月 25 日舉行。合理使用判決確定後的殘餘爭點（包括 DMCA 及州法主張）持續審理中。`,
+【2026/3/27】法院發布新訴訟時程表，分配請求（distribution claim）簡易判決聽證會延至 2027 年 2 月 25 日舉行。
+
+【2026/4/2】Summary Judgment 程序正式完成。Chhabria 法官將於近期宣布分配請求（distribution claim）相關裁定。合理使用判決確定後的殘餘爭點（包括 DMCA 及州法主張）繼續審理中。
+
+【2026/4/18】根據 TorrentFreak 3 月底報導，Chhabria 法官於近期裁定，拒絕 Meta 駁回 BitTorrent seeding（種子檔案上傳）相關貢獻侵權主張之企圖；法院允許原告針對 Meta 以 BitTorrent 從 LibGen 等盜版資源庫下載並 seeding 盜版書籍之行為，追加貢獻著作權侵害主張，並准許原告進行 Rule 30(b)(6) 指定代表人調查。此一裁定使「AI 訓練資料取得方式的合法性」重新成為本案核心爭點，且 Meta 種子上傳紀錄可能構成其故意侵權（willful infringement）之直接證據。`,
     "taiwan": `本案對台灣的重大啟示：
 
 1. 美國法院首次就 LLM 訓練作出合理使用判斷。台灣著作權法第 65 條在判斷合理使用時，可參考 Chhabria 法官的四要件分析，特別是「轉化性使用」的寬泛解釋。
@@ -3448,7 +3538,16 @@ Getty Images 被判負擔 69.4% 的訴訟費用（約 440 萬英鎊），使商�
 
 每位著作權人每本書約可獲得 3,000 美元（獨占著作權人）或 1,500 美元（與出版商共享著作權）。2026 年 3 月，原告律師要求降低律師費。
 
-【2026/4/11】公平性聽證會（fairness hearing）從原定 4/23 延期至 2026 年 5 月 14 日下午 2 時（太平洋時間）。和解管理人正在計算分配金額，預計 6/11 完成計算，6 月後開始撥款。`,
+【2026/4/11】公平性聽證會（fairness hearing）從原定 4/23 延期至 2026 年 5 月 14 日下午 2 時（太平洋時間）。和解管理人正在計算分配金額，預計 6/11 完成計算，6 月後開始撥款。
+
+【2026/4/18】公平性聽證倒數 26 天。依據 Authors Alliance 2026 年 4 月 14 日公布之未封存異議書，作者主要異議聚焦於：
+（1）外國／未在美國登記的作品遭排除於和解範圍之外；
+（2）出版商相對於作者之分配機制有結構性偏袒；
+（3）通知程序具誤導與強制性質；
+（4）相對於侵害規模，賠償金額仍屬過低；
+（5）代表不足及律師費利益衝突；
+（6）著作權登記數量計算不足。
+聽證會將於舊金山聯邦法院 450 Golden Gate Ave., Courtroom 12（19 樓）召開，並開放線上參與。`,
     "taiwan": `本案對台灣的啟示：
 
 1. 15 億美元的和解金額顯示 AI 公司未經授權使用著作物的法律風險極為巨大。台灣 AI 新創公司應即刻檢視其訓練資料來源的合法性。
@@ -3632,7 +3731,11 @@ Midjourney 已提出答辯，將「合理使用」列為第一項積極抗辯。
 核心爭點：(1) AI 模型生成的音樂是否構成「實質近似」的侵權複製品；(2) AI 音樂訓練是否構成合理使用；(3) 是否違反 DMCA 反規避條款（§1201(a)）。`,
     "progress": `【Udio 和解】2025 年 10 月，UMG 與 Udio 達成和解，雙方將合作建立「經授權的 AI 音樂創作平台」，預計 2026 年推出。UMG 藝術家及詞曲作者可選擇加入（opt-in）。
 
-【Suno 案持續審理】三大唱片公司對 Suno 的訴訟仍在進行中，目前處於事證開示階段。簡易判決現已推至 2027 年 1 月 8 日。本案在 2026 年不太可能獲得合理使用判決。`,
+【Suno 案持續審理】三大唱片公司對 Suno 的訴訟仍在進行中，目前處於事證開示階段。簡易判決現已推至 2027 年 1 月 8 日。本案在 2026 年不太可能獲得合理使用判決。
+
+【2026/4/9】Warner 已和解退出，但 Suno 與 UMG、Sony 的授權談判因 AI 生成音樂的下載與分享權分歧而陷入僵局。唱片公司堅持限制用戶下載 AI 生成歌曲至 App 外，Suno 則認為此限制將嚴重削弱產品吸引力。此分歧涉及數十億音樂版稅分配格局。
+
+【2026/4/7】The Verge 實測 Suno 著作權過濾機制，發現仍可生成高度近似受保護歌曲的內容，引發對 Suno 自我監管能力的質疑。此測試結果可能在訴訟中作為唱片公司的有利證據。`,
     "taiwan": `本案對台灣的啟示：
 
 1. 台灣的 MÜST、ARCO 等音樂著作權集管團體應關注 Udio 的授權模式，思考如何建立 AI 音樂生成的授權機制。
@@ -4062,7 +4165,7 @@ Rakoff 法官以在 OpenAI 相關多案中表現嚴格聞名。本案核心爭�
       "State Law (Tennessee Consumer Protection Act)"
     ],
     "defendants": "Suno Inc.",
-    "issue": `本案由美國音樂工作者、作曲家及歌詞作者的聯合集體提起，針對 AI 音樂生成平台 Suno。控方聲稱 Suno 使用受著作權保護的錄製音樂及歌詞訓練其 AI 音樂生成模型，並破壞了 DRM 保護機制以開啟訓練資料。
+    "issues": `本案由美國音樂工作者、作曲家及歌詞作者的聯合集體提起，針對 AI 音樂生成平台 Suno。控方聲稱 Suno 使用受著作權保護的錄製音樂及歌詞訓練其 AI 音樂生成模型，並破壞了 DRM 保護機制以開啟訓練資料。
 
 本案創新性地納入了《田納西消費者保護法》州級主張，對比聯邦 DMCA 的單一策略。法律爭點包括：(1) AI 音樂生成模型權重中，原始音樂信號的可識別程度；(2) 破解 DRM 的「合理使用」抗辯適用於訓練情境時的標準；(3) 州消保法對 AI 企業不公平貿易行為的適用。`,
     "progress": "案件於 2025 年 10 月在波士頓聯邦地院提起。Suno 於 1 月提交動議駁回州法主張，法院預計於 4 月作出部分決定。聯邦主張預計進入事證開示階段。",
@@ -5288,7 +5391,7 @@ CJEU 先行裁定的全歐盟影響：該判決將設定 450 萬歐盟居民的�
     "issues": `本案為歐盟法院有史以來首次針對生成式 AI 與著作權問題舉辦的聽證會。該案詢問：Google 使用受著作權保護內容訓練 AI 模型是否違反《歐盟著作權指令》（數字單一市場指令，DSM Directive）及《資訊社會指令》(InfoSoc Directive)？本案特別審視 DSM 指令第 3 條及第 4 條關於文本與資料採礦（TDM）的例外規定。
 
 TDM 例外與 AI 訓練：歐盟法對私營企業使用 TDM 例外進行 AI 訓練的限制。`,
-    "progress": "歐盟法院於 2026 年 3 月 10 日舉辦首場生成式 AI 與著作權的聽證會。儘管本案源自匈牙利，但其將對全歐盟產生深遠影響。CJEU 的判決對所有 27 個歐盟會員國具有拘束力，將設定統一的 AI 著作權標準。預期判決將於 2026 年晚期或 2027 年作出。",
+    "progress": "歐盟法院於 2026 年 3 月 10 日舉辦首場生成式 AI 與著作權的聽證會（長達六小時），審查四大核心問題：(1) AI 聊天機器人展示受保護內容是否構成「公開傳播」；(2) LLM 訓練是否為著作權法上的「重製」行為；(3) 訓練行為是否適用 TDM 例外；(4) 歐盟法律的域外效力。儘管本案源自匈牙利（Like Company 是匈牙利新聞出版商），但其將對全歐盟產生深遠影響。\n\n【2026/4/13 更新】法務長（Advocate General）意見書預計於 2026 年 9 月 3 日發布。CJEU 最終判決預計 2026 年底至 2027 年作出，將對所有 27 個歐盟會員國具有拘束力，並設定統一的 AI 著作權標準。",
     "taiwan": "台灣在考慮採納歐盟風格的 TDM 例外進行著作權改革時，可直接參考本案 CJEU 判決。歐盟對 AI 訓練例外的處理方式是台灣立法討論的關鍵參考點。本案結果將影響全球 AI 著作權規範的發展方向，包括台灣。"
   },
   {
@@ -5484,7 +5587,7 @@ TDM 例外與 AI 訓練：歐盟法對私營企業使用 TDM 例外進行 AI 訓
   {
     "id": 121,
     "name": "CODA 等日本出版商 v. OpenAI（Sora2 著作權申訴）",
-    "court": "尚未提訴（正式申訴函階段）",
+    "court": "日本（Japan）— 尚未提訴（正式申訴函階段；pre-litigation complaint）",
     "judge": "N/A",
     "status": "active",
     "claims": [
@@ -5769,44 +5872,173 @@ Koda 提交證據顯示 Suno 生成的曲目與丹麥知名藝人（如 Aqua、M
 4. 司法建議書機制——杭州互聯網法院針對個案向 AI 業者發出規範性建議書，相當於台灣法院之建議或函示，值得我國智慧財產及商業法院於類案中參考運用。
 5. 訓練資料合理使用之四項要件——本案說理可拆解為四要件：(a) 非以再現作品獨創性表達為目的（轉換性目的）；(b) 訓練過程僅暫時保留在先作品；(c) 訓練及生成過程未將在先作品展示給公眾；(d) 未影響權利作品正常使用、未不合理損害權利人合法利益。此四要件與台灣著作權法第 65 條第 2 項合理使用四項判斷基準（利用之目的及性質、著作之性質、所利用之質量及其在整個著作所占之比例、利用結果對著作潛在市場與現在價值之影響）可對應比較，提供台灣未來司法判斷之具體操作範例。
 6. 概括性「刪除全部訓練資料」訴請之界限——本案就權利人請求刪除全部相關物料及資料劃定界限，認為已超出平台義務範圍，對台灣權利人撰擬請求之具體範圍具有實務參考價值（應聚焦於「具識別性、可定位之侵權內容」而非概括性資料銷除）。`
-  }
-];
+  },
+  {
+    "id": 132,
+    "name": "Brave Software v. News Corp.",
+    "court": "N.D. Cal. 3:25-cv-02503",
+    "judge": "Judge Charles R. Breyer",
+    "status": "dismissed",
+    "claims": [
+      "Declaratory Judgment of Non-Infringement",
+      "Direct Copyright (defensive)"
+    ],
+    "defendants": "News Corporation",
+    "issues": `Brave Software（Brave 瀏覽器與獨立搜尋引擎開發商）於 2025 年 3 月 12 日對新聞集團 News Corp.（華爾街日報、Dow Jones、紐約郵報、Barron's 等媒體母公司）在加州北區聯邦地方法院提起「確認之訴」（declaratory judgment action），請求法院確認 Brave 之搜尋引擎索引行為以及向第三方生成式 AI 業者授權其搜尋摘要 API 的行為，均不構成著作權侵害。
 
-// ════════════════════════════════════════
-// NEWS TICKER DATA
-// ════════════════════════════════════════
-const newsItems = [
-  {
-    "text": "【2026/4/11】Bartz v. Anthropic 公平性聽證延期至 5/14 — Alsup 法官重新排期，和解管理人尚在計算約50萬著作權人分配金額，律師費爭議持續",
-    "url": "https://www.anthropiccopyrightsettlement.com/dates"
+本案起因於 News Corp. 向 Brave 寄發停止侵害通知函（cease & desist letter），主張 Brave 之搜尋摘要與 AI 索引功能侵害其新聞著作權。Brave 反向提起確認之訴，主張：(1) 搜尋引擎對網路內容的索引、抽取與顯示摘要屬於合理使用之既定領域；(2) 將搜尋結果摘要透過 API 提供予 AI 聊天機器人業者並不改變上述合理使用性質；(3) News Corp. 之停止侵害函意圖以著作權主張將 Brave 排擠出搜尋市場（"bullying"）。
+
+本案的特殊意義在於：這是少見由「AI 搜尋資料供應商」主動提起確認之訴的案例，與多數由內容權利人主動控告 AI 業者的格局相反。本案若進入實體審理，將就「搜尋引擎索引 + AI 摘要生成」此一複合行為的合理使用判斷劃定界限，但因雙方於 2025 年 6 月達成自願和解撤訴，相關爭點未獲法院實質裁判。`,
+    "progress": `【2025/3/12】Brave Software 於 N.D. Cal. 對 News Corp. 提起確認之訴（3:25-cv-02503）。
+
+【2025/3/13】訴狀公開，業界廣泛討論。Brave 公開指控 News Corp. 以著作權主張進行市場壟斷。
+
+【2025/6/9】雙方共同提交 Joint Stipulation of Dismissal Without Prejudice（不影響再訴之自願撤訴聲明）。
+
+【2025/6/10】Breyer 法官簽署 Order Dismissing Case，本案以「不影響再訴」方式撤回終結，未進入實體裁判。`,
+    "taiwan": `本案對台灣的啟示：
+
+1. 確認之訴（declaratory judgment）的策略運用——台灣民事訴訟法第 247 條亦有確認之訴制度，AI 業者面對著作權人寄發警告函時，可考慮主動提起確認之訴以掌握程序主動權。
+
+2. 搜尋引擎索引 + AI 摘要的合理使用界限——本案雖未獲實體裁判，但凸顯「傳統搜尋引擎合理使用」延伸至「AI 搜尋摘要」是否仍受相同保護的爭議，與台灣著作權法第 65 條第 2 項判斷基準之適用直接相關。
+
+3. 著作權警告函作為市場排擠工具的反制——本案揭示部分內容業者可能濫用著作權主張壓制競爭對手，台灣公平交易法第 24 條（不公平競爭）或可作為被警告者之反制請求權基礎。
+
+4. 「不影響再訴」之撤訴效果——本案以 without prejudice 撤訴，News Corp. 仍可隨時再訴。台灣法律實務上之撤回起訴亦不影響將來再行起訴（民事訴訟法第 263 條第 2 項），業者於協商和解時應留意對方保留再訴權之可能。`
   },
   {
-    "text": "【2026/4/9】Concord Music v. Anthropic — 原告將輔助侵權被告從 Anthropic 公司變更為 CEO Dario Amodei 及共同創辦人 Benjamin Mann 個人，援引 Bartz 案解封文件及最高法院 Cox Communications 判決",
-    "url": "https://chatgptiseatingtheworld.com/2026/04/07/after-supreme-courts-decision-in-cox-communications-concord-music-changes-its-claim-of-intentional-contributory-infringement-from-anthropic-to-dario-amodei-benjamin-mann-based-on-evidence-revealed/"
+    "id": 133,
+    "name": "EVOX Productions v. The Leland Stanford Junior University",
+    "court": "N.D. Cal. 5:24-cv-09521",
+    "judge": "Jacqueline Scott Corley",
+    "status": "active",
+    "claims": [
+      "Direct Copyright",
+      "Contributory Infringement"
+    ],
+    "defendants": "The Leland Stanford Junior University（共同被告 Michigan、Rice、Baylor College of Medicine 已先後駁回）",
+    "issues": `EVOX Productions（汽車攝影圖庫）主張：Stanford AI 研究團隊於 2020 年起與其他大學以「Consortium」形式合作，將近 8,000 張受著作權保護之 EVOX 汽車攝影作品納入 ImageNet 衍生之 AI 訓練資料集，未經授權使用。
+
+模型訓練完成後，被告將該等圖像託管於 Stanford 網站作為「免費可下載 AI 訓練資料」對外散布；2023 年另公開上傳第二批 225 張訓練資料集，同樣未取得授權。
+
+核心爭點：(1) 學術／非營利機構整理、託管並再散布受著作權保護圖像作為 AI 訓練資料集，能否成立合理使用（§107）？(2) 「資料集託管」與「AI 模型訓練」是否屬同一行為鏈中可獨立評價之兩個利用行為？(3) 直接侵害 vs. 貢獻侵害的責任分配。`,
+    "progress": `【2024/12/31】EVOX 於 N.D. Cal. 提起本訴，列 Stanford、Michigan、Rice、Baylor College of Medicine 為共同被告。
+
+【2025】法院就 Michigan、Rice、Baylor 部分准予駁回，訴訟僅就 Stanford 繼續進行。
+
+【2025–2026】Stanford 提出駁回動議；法院駁回 Stanford 之 motion to dismiss，本案得以進入實體階段。
+
+【2026/4】法院發布案件管理命令（case-management order），訂定事證開示、專家證人、處置動議及審判期日。陪審審判預定於 2027 年 5 月進行（若未先和解或經處置動議終結）。
+
+本案是少見以「學術／非營利大學」為被告之 AI 訓練資料集著作權訴訟，亦凸顯 ImageNet 系列資料集潛在之「dataset debt」問題。`,
+    "taiwan": `本案對台灣的啟示：
+
+1. **學術機構建置訓練資料集之法律風險**——本案係少見以「學術／非營利大學」為被告之 AI 訓練資料集著作權訴訟。台灣國科會、教育部及各大學 AI 研究中心若建置、釋出大型訓練資料集，應特別注意：(a) 圖像來源之授權盤點；(b) 「重製＋公開傳輸＋再散布」之分層責任；(c) 著作權法第 65 條合理使用四要件中「對市場潛在價值之影響」於商業圖庫之認定。
+
+2. **資料集託管行為與模型訓練行為之分割評價**——本案原告策略上將「託管供下載」與「實際訓練 AI」拆解為兩個獨立侵害行為，並就前者主張直接侵害、後者主張貢獻侵害。此分割方法可供台灣著作權人未來對學研機構或開源平台提起訴訟時參考（對應著作權法第 22 條重製權、第 26 條之 1 公開傳輸權、第 87 條視為侵害之解構）。
+
+3. **「教育研究合理使用」抗辯之邊界**——台灣著作權法第 46 條及第 65 條第 2 項對學術重製傳統上給予較寬解釋空間。本案 Stanford 動議駁回未果，預示美國法院對「學術機構免費再散布商業圖像作 AI 訓練」之合理使用抗辯採嚴格立場；台灣智財法院於未來類案中可比較法參考。
+
+4. **與其他資料集案件比較觀察**——本案應與 LAION-5B 相關之 Andersen v. Stability AI、Kadrey v. Meta（Books3/LibGen）並列觀察，共同形塑「訓練資料集本身（不論最終模型）作為侵害物件」之訴訟趨勢。`
   },
   {
-    "text": "【2026/4/8】Hachette CEO David Shelley 接受 Fortune 專訪：出版業對 Google AI 著作權訴訟立場堅定，強調「創作者的作品屬於創作者」",
-    "url": "https://fortune.com/2026/04/08/hachette-ceo-david-shelley-publishing-google-copyright-lawsuit-ai-llm/"
+    "id": 134,
+    "name": "Reddit, Inc. v. Anthropic PBC",
+    "court": "San Francisco Superior Court CGC-25-625892 ⇄ N.D. Cal. 3:25-cv-05643（2026/3/30 發回州法院）",
+    "judge": "Trina L. Thompson（N.D. Cal., remand 階段）／州法院法官（後續）",
+    "status": "active",
+    "claims": [
+      "Breach of Contract",
+      "Unjust Enrichment",
+      "Trespass to Chattels",
+      "Tortious Interference",
+      "UCL §17200（無聯邦著作權請求）"
+    ],
+    "defendants": "Anthropic PBC",
+    "issues": `本案係 AI 訓練資料訴訟中**罕見「全部以州法請求權」起訴**之案件，具高度策略意義。
+
+Reddit 主張 Anthropic 未經授權持續爬取 Reddit 公開貼文，以訓練 Claude 模型：
+
+1. **違約**——Anthropic 受 Reddit 使用者協議拘束，協議明文限制商業利用、要求授權者付費。
+2. **不當得利**——未付對價即取得訓練資料之經濟利益。
+3. **侵入動產（trespass to chattels）**——自動化抓取造成 Reddit 伺服器負擔。
+4. **妨害契約**——規避 Reddit 對使用者所設之內容控制機制，導致 Reddit 對使用者之契約義務受妨礙。
+5. **加州不公平競爭法（UCL §17200）**。
+
+**核心爭點**：
+
+- 17 U.S.C. §301 著作權法 preemption 是否吸收上述州法請求？
+- 訴訟策略：Reddit 採「契約路徑」而非「著作權路徑」（因平台對 UGC 不擁有著作權），若成功將為「平台以 ToS 防 AI 抓取」樹立先例。`,
+    "progress": `【2025/6/5】Reddit 於 San Francisco Superior Court 起訴 Anthropic（CGC-25-625892）。
+
+【2025/7/3】Anthropic 將案件移送至 N.D. Cal.（3:25-cv-05643）；初由 Susan Illston 法官分案，後改由 Trina L. Thompson 法官審理。
+
+【2026/3】Thompson 法官就 remand 動議發布暫時意見，傾向准予發回。
+
+【2026/3/30】Thompson 法官正式裁定准予發回：§301 對 Reddit 之州法請求**不構成優先抵觸**。使用者協議課予 Anthropic 之義務（access methods 限制、技術基礎設施保護）與著作權法所保護之權利「質的不同」（quantitatively different），其餘四項州法請求亦皆有獨立要件不被吸收。
+
+【2026/4】案件正式回到 San Francisco Superior Court 續行。
+
+【2028/2/14–3/8】陪審審判排定於 San Francisco Superior Court。
+
+本案揭示：即使 AI 業者得在著作權法上主張合理使用，仍可能在契約、侵權、不公平競爭法上敗訴。`,
+    "taiwan": `本案對台灣的啟示：
+
+1. **「服務條款防 AI 抓取」之路徑**——台灣平台業者（Dcard、PTT、痞客邦）若擔憂自身平台 UGC 遭 AI 業者抓取，可參考 Reddit 之策略：**以使用者協議與服務條款作為請求權基礎**，主張違約、不當得利、UCL 等台灣對應制度，而非單獨依著作權法。此路徑特別適合「平台不擁有 UGC 著作權」之情境。
+
+2. **台灣民法多請求權競合之援用**——本案五項州法請求權幾乎皆有台灣法對應：違約對應債務不履行；不當得利對應第 179 條；trespass to chattels 對應第 184 條第 1 項之物權／使用權侵害；UCL 對應公平交易法第 25 條（不公平競爭）。
+
+3. **著作權法第 65 條合理使用不再是 AI 訴訟唯一戰場**——本案揭示，即使 AI 業者於著作權法上主張合理使用成功，仍可能於契約、侵權、不公平競爭法上敗訴。台灣 AI 業者使用網路爬取資料時，**不應僅檢查著作權合理使用，亦須檢視來源平台之 ToS、robots.txt 與資料庫保護權**。
+
+4. **§301 preemption 之比較**——美國 §301 preemption 於台灣無直接對應，台灣著作權法本身亦不排除民法／公平法之競合救濟，故台灣權利人就同一行為**通常可同時主張**著作權、民法侵權、不當得利、公平法等多重請求權，無 preemption 障礙。
+
+5. **陪審審判時程**——本案排於 2028 年 2–3 月，將是 AI 訓練資料「契約路徑」首件實體審判；若 Reddit 勝訴，將強化平台對 AI 業者之議價地位（已有 Reddit-Google、Reddit-OpenAI 之授權合作為對照）。`
   },
   {
-    "text": "【2026/4/7】Getty v. Stability AI（美國）— Thompson 法官完成駁回動議聽證，裁定結果待發；英國高等法院正式審判定於2026年底",
-    "url": "https://chatgptiseatingtheworld.com/"
-  },
-  {
-    "text": "【2026/4/3】Penguin Random House 在德國慕尼黑地方法院控告 OpenAI — ChatGPT 生成與《小火龍椰子》系列幾乎無法區分的故事與圖像，構成「記憶化」侵權",
-    "url": "https://www.afterdawn.com/news/article.cfm/2026/04/03/penguin-random-house-court-case-openai-copyright"
-  },
-  {
-    "text": "【2026/3/25】UMG、Concord、ABKCO 對 Anthropic 提交部分簡易判決動議 — 218項不爭事實，主張侵權證據「壓倒性」，要求駁回合理使用抗辯",
-    "url": "https://www.musicbusinessworldwide.com/infringement-on-a-massive-scale-umg-concord-and-abkco-ask-court-to-rule-against-ai-company-anthropic-ahead-of-trial/"
-  },
-  {
-    "text": "【2026/3/16】Encyclopaedia Britannica & Merriam-Webster 控告 OpenAI — Stein 法官要求4/15前說明不暫停理由（期限將至）",
-    "url": "https://techcrunch.com/2026/03/16/merriam-webster-openai-encyclopedia-brittanica-lawsuit/"
-  },
-  {
-    "text": "【全球趨勢】Norton Rose Fulbright：2026年AI著作權六大關鍵裁定分析 — 合理使用戰線重塑中，預計最早2026年夏季見重大判決",
-    "url": "https://www.nortonrosefulbright.com/en/knowledge/publications/ce8eaa5f/ai-in-litigation-series-an-update-on-ai-copyright-cases-in-2026"
+    "id": 135,
+    "name": "Cruz v. Anthropic PBC（Bartz 和解 opt-out 28 作者新訴）",
+    "court": "N.D. Cal.（案號待 PACER 確認，3:26-cv-XXXXX）",
+    "judge": "TBA（預期分案後可能由 William Alsup 法官審理，與 Bartz 同庭）",
+    "status": "active",
+    "claims": [
+      "Direct Copyright Infringement（17 U.S.C. §501）",
+      "Willful Infringement（請求法定損害賠償 §504(c)(2)，每件 $150,000）",
+      "Jury Demand"
+    ],
+    "defendants": "Anthropic PBC",
+    "issues": `本案係 **Bartz v. Anthropic** $1.5B 集體和解之 28 位 opt-out 作者（Angie Cruz、Dave Eggers、Vendela Vida 等灣區作家）於 **2026/5/14**（Bartz 公平聽證會同日）所提起之獨立侵權訴訟，請求陪審審判。
+
+**核心主張**：
+
+1. Anthropic 從 LibGen（Library Genesis）、Z-Library、OceanofPDF 等盜版「shadow libraries」未經授權下載、重製、散布原告等之書籍，作為 Claude 大型語言模型之訓練資料。
+2. 法定賠償請求：依 17 U.S.C. §504(c)(2) 主張故意侵權，每件作品請求最高 $150,000 法定賠償；以 28 位作者各擁有多件登記作品計算，潛在賠償總額可能達數千萬美元等級。
+3. 反集體訴訟策略：原告於起訴狀中明確指出 "class action treatment lets AI companies extinguish high-value copyright claims on the cheap"——主張集體和解之 per-work $3,000 對價，遠低於高知名度作者之實際市場價值，故選擇以個別訴訟另闢戰場。
+
+**核心爭點**：
+
+- **與 Bartz 和解之關係**——本案原告依 FRCP 23(e) 程序合法 opt-out（截止日 2026/2/9），不受 Bartz 集體和解拘束。
+- **Alsup 法官 2025/6/23 fair use 裁定之適用**——Bartz 案 Alsup 法官就「以合法購書資料訓練 AI」認定構成 transformative fair use，但就「LibGen／PiLiMi 盜版來源」則明確認定**非合理使用**；本案原告完全聚焦後者，故 Anthropic 之 fair use 抗辯空間極為有限。
+- **法定損害金乘數**——若陪審認定故意侵權，每件作品 $150,000 × 28 位作者持有作品總數，將形成遠高於 $3,000/work 集體和解價格之賠償壓力。`,
+    "progress": `【2025/9/5】Bartz v. Anthropic 達成 $1.5B 集體和解（每件作品約 $3,000），由 Martínez-Olguín 法官審理。
+
+【2026/2/9】Bartz 集體和解 opt-out 截止日；包含 Angie Cruz、Dave Eggers、Vendela Vida 在內之 28 位作者選擇退出。
+
+【2026/5/14（昨日）】本案於 N.D. Cal. 提起；同日 Martínez-Olguín 法官於 Bartz 公平聽證會上未當庭給予最終核准，要求補件。
+
+【後續】等待 PACER 公告正式案號；預期 Anthropic 將以「fair use（Alsup 已部分認可）」、「§504(c)(2) 法定損害金合憲性挑戰（cf. Cox Communications v. Sony Music 之 due process 論點）」抗辯。
+
+**值得追蹤之程序選擇**：(a) Anthropic 可能聲請與 Bartz 並案；(b) 若 Alsup 法官分案，因其已具 Bartz 完整事實基礎，將大幅加速本案進度。`,
+    "taiwan": `本案對台灣的啟示：
+
+1. **集體和解 opt-out 之策略價值**——本案揭示美國 FRCP 23 集體訴訟之 opt-out 機制可作為**高價值權利人**保留個別訴權之策略工具：知名作者於每件作品市場價值（授權金、出版利潤）顯著高於集體和解平均值時，opt-out 後另提個別訴訟可極大化救濟。台灣現行集體訴訟（消保法第 50 條、民訴法第 41 條選定當事人、第 44 條之 1 公益訴訟）尚無相當 opt-out 機制，立法者可參考此設計，於未來著作權集體訴訟中導入。
+
+2. **「來源合法性」決定 fair use 結局**——Alsup 法官 Bartz 裁定已明確區分：(a) 合法購書訓練 → transformative fair use；(b) 盜版來源（LibGen／PiLiMi）→ 非合理使用。台灣 AI 業者進行訓練資料採集時，**訓練目的之合理性（即使為研究、技術發展）並不能洗白盜版來源之違法性**；著作權法第 65 條第 2 項第 1 款「利用之目的及性質」與第 4 款「對著作市場之影響」均將因盜版來源而傾向不利。
+
+3. **法定損害金作為訴訟槓桿**——本案以 §504(c)(2) 法定損害（每件最高 $150,000）為核心請求，凸顯**美國法定損害金制度作為 AI 訴訟壓力源**之效能。台灣著作權法第 88 條第 3 項規定法定損害金為 NT$10,000–NT$1,000,000，故意者得提高至 NT$5,000,000；雖名目較美國低，但若以多件作品累計，仍可形成顯著賠償壓力。台灣權利人應系統性盤點受侵害作品數，主張按件累計。
+
+4. **shadow library 議題之合規盤點**——LibGen、Z-Library、OceanofPDF 等於台灣亦廣為人知；國內 AI 業者（聯發科、台達電、中華電信、台灣大、各大學 AI 中心）應**立即盤點訓練資料來源是否含上述盜版庫**，並建立資料來源驗證（data provenance）流程，避免成為下一波訴訟對象。
+
+5. **作者組織之集體議價角色**——本案 28 位作者集體 opt-out 並聯合訴訟，顯示作者組織（如 Authors Guild、PEN America）在 AI 時代之新功能：協調 opt-out、共聘律師、共同主張集體賠償。台灣文化部、文策院、文藝協會、出版商業同業公會可參考此模式，協助本國作者面對國際 AI 業者之集體議價／訴訟需求。`
   }
 ];
 
@@ -5818,19 +6050,11 @@ const newsItems = [
 const now = new Date();
 document.getElementById('dateDisplay').textContent = now.toLocaleDateString('zh-TW', {year:'numeric',month:'long',day:'numeric',weekday:'long'});
 
-// Ticker
-function buildTicker() {
-  const track = document.getElementById('tickerTrack');
-  let html = '';
-  newsItems.forEach((n, i) => {
-    html += `<span class="ticker-item"><a href="${n.url}" target="_blank" rel="noopener">${n.text}</a></span>`;
-    if (i < newsItems.length - 1) html += '<span class="ticker-sep">|</span>';
-  });
-  track.innerHTML = html;
-}
-buildTicker();
-
 // Stats bar
+// ── Single Source of Truth for US/Non-US classification ──
+const nonUSKeywordsGlobal = ['CJEU','UK High Court','European Union','Budapest','歐盟','加拿大','印度','德國','法國','英國','Ontario','Delhi','German','Munich','Paris','France','Canada','Hamburg','漢堡','丹麥','Copenhagen','Denmark','韓國','Seoul','South Korea','中國','北京','廣州','杭州','Beijing Internet Court','Guangzhou Internet Court','China','日本','Tokyo','Japan','巴西','Brazil','義大利','Italy','荷蘭','Netherlands','Amsterdam','England','London','India','Germany'];
+function isNonUS(c) { return nonUSKeywordsGlobal.some(k => c.court.includes(k)); }
+
 function buildStats() {
   const total = cases.length;
   const active = cases.filter(c => c.status === 'active').length;
@@ -5838,9 +6062,8 @@ function buildStats() {
   const appeals = cases.filter(c => c.status === 'appeal').length;
   const mdl = cases.filter(c => c.status === 'mdl').length;
   const defendants = [...new Set(cases.map(c => c.defendants.split(',')[0].trim()))].length;
-  const nonUSKeywords = ['CJEU','UK High Court','European Union','Budapest','歐盟','加拿大','印度','德國','法國','英國','Ontario','Delhi','German','Munich','Paris','France','Canada','Hamburg','漢堡','丹麥','Copenhagen','Denmark','韓國','Seoul','South Korea','中國','北京','廣州','杭州','Beijing Internet Court','Guangzhou Internet Court','China'];
-  const usCases = cases.filter(c => !nonUSKeywords.some(k => c.court.includes(k))).length;
-  const nonUSCases = cases.filter(c => nonUSKeywords.some(k => c.court.includes(k))).length;
+  const usCases = cases.filter(c => !isNonUS(c)).length;
+  const nonUSCases = cases.filter(c => isNonUS(c)).length;
   document.getElementById('statsBar').innerHTML = `
     <div class="stat-box" data-filter="all" data-chart="total"><div class="stat-num">${total}</div><div class="stat-label">案件總數 Total</div></div>
     <div class="stat-box us" data-filter="us" data-chart="us"><div class="stat-num">${usCases}</div><div class="stat-label">🇺🇸 美國 US Cases</div></div>
@@ -5864,8 +6087,7 @@ function buildStats() {
 buildStats();
 
 // ── Stats Modal Charts ──
-const nonUSKeywordsGlobal = ['CJEU','UK High Court','European Union','Budapest','歐盟','加拿大','印度','德國','法國','英國','Ontario','Delhi','German','Munich','Paris','France','Canada','Hamburg','漢堡','丹麥','Copenhagen','Denmark','韓國','Seoul','South Korea','中國','北京','廣州','杭州','Beijing Internet Court','Guangzhou Internet Court','China','日本','Tokyo','Japan','巴西','Brazil','義大利','Italy','荷蘭','Netherlands'];
-function isNonUS(c) { return nonUSKeywordsGlobal.some(k => c.court.includes(k)); }
+// (nonUSKeywordsGlobal & isNonUS defined above buildStats)
 
 // Classify case by creative work type
 function classifyWorkType(c) {
@@ -6059,12 +6281,11 @@ function classifyJurisdiction(court) {
   const euKW = ['CJEU','European Union','歐盟','Budapest','德國','法國','German','Munich','Paris','France','Hamburg','漢堡','丹麥','Copenhagen','Denmark','荷蘭','Netherlands','Amsterdam','義大利','Italy'];
   const cnKW = ['中國','北京','廣州','杭州','Beijing Internet Court','Guangzhou Internet Court','China'];
   const asiaOtherKW = ['印度','Delhi','India','韓國','Seoul','South Korea','日本','Tokyo','Japan'];
-  const nonUSAll = [...ukKW,...euKW,...cnKW,...asiaOtherKW,'加拿大','Ontario','Canada','巴西','Brazil'];
   if (ukKW.some(k => court.includes(k))) return 'uk';
   if (euKW.some(k => court.includes(k))) return 'eu';
   if (cnKW.some(k => court.includes(k))) return 'cn';
   if (asiaOtherKW.some(k => court.includes(k))) return 'asia-other';
-  if (nonUSAll.some(k => court.includes(k))) return 'other';
+  if (nonUSKeywordsGlobal.some(k => court.includes(k))) return 'other';
   return 'us';
 }
 function classifyTech(c) {
@@ -6100,13 +6321,12 @@ function renderCaseList() {
   const jFilter = document.getElementById('filterJurisdiction')?.value || 'all';
   const tFilter = document.getElementById('filterTech')?.value || 'all';
   const pFilter = document.getElementById('filterPlaintiff')?.value || 'all';
-  const _nonUSKW = ['CJEU','UK High Court','European Union','Budapest','歐盟','加拿大','印度','德國','法國','英國','Ontario','Delhi','German','Munich','Paris','France','Canada','Hamburg','漢堡','丹麥','Copenhagen','Denmark','韓國','Seoul','South Korea','中國','北京','廣州','杭州','Beijing Internet Court','Guangzhou Internet Court','China','日本','Tokyo','Japan','巴西','Brazil','義大利','Italy','荷蘭','Netherlands'];
   const filtered = cases.filter(c => {
     // Status filter
     if (activeFilter === 'us') {
-      if (_nonUSKW.some(k => c.court.includes(k))) return false;
+      if (isNonUS(c)) return false;
     } else if (activeFilter === 'non-us') {
-      if (!_nonUSKW.some(k => c.court.includes(k))) return false;
+      if (!isNonUS(c)) return false;
     } else if (activeFilter !== 'all' && c.status !== activeFilter) return false;
     // Advanced: Jurisdiction
     if (jFilter !== 'all' && classifyJurisdiction(c.court) !== jFilter) return false;
@@ -6247,6 +6467,7 @@ function switchView(view) {
   const fairuse = document.getElementById('fairuseContainer');
   const reports = document.getElementById('reportsContainer');
   const timeline = document.getElementById('timelineContainer');
+  const archive = document.getElementById('archiveContainer');
   // Hide all
   tracker.style.display = 'none';
   statsBar.style.display = 'none';
@@ -6256,6 +6477,7 @@ function switchView(view) {
   fairuse.classList.remove('visible');
   reports.classList.remove('visible');
   timeline.classList.remove('visible');
+  if (archive) archive.classList.remove('visible');
   if (view === 'fairuse') {
     fairuse.classList.add('visible');
     renderFairUseCases();
@@ -6265,6 +6487,9 @@ function switchView(view) {
   } else if (view === 'timeline') {
     timeline.classList.add('visible');
     buildTimeline();
+  } else if (view === 'archive') {
+    if (archive) archive.classList.add('visible');
+    renderArchive();
   } else {
     tracker.style.display = 'flex';
     statsBar.style.display = 'flex';
@@ -6901,13 +7126,6 @@ const officialReports = [
     "flag": "🇹🇼",
     "reports": [
       {
-        "title": "議題研析（編號 2086）：人工智慧生成作品之權利保護法制研析",
-        "issuer": "立法院法制局（撰稿人：方華香）",
-        "date": "2023-05",
-        "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=6590",
-        "summary": "立法院法制局 112 年 5 月議題研析。指出 AI 因非自然人或法人，且其透過參數、指令、演算法及大量學習產出之作品「原創性不足」，依現行著作權法第 3 條，AI 無法成為著作人。報告轉而探討「鄰接權」式的特別保護路徑，比較 1996 年歐盟資料庫指令（賦予不具原創性之資料庫製作者 15 年抽取／再利用權）、澳洲（出版品版式裝幀 25 年）及義大利（體育視聽、戲劇布景、不具原創性資料庫等）立法例。並指出我國著作權法第 79 條製版權本質上即為鄰接權的體例，建議若立法政策要保護 AI 生成作品，應另立有別於一般著作權之鄰接權類型，且權利歸屬、範圍、期限均以法明定為宜。"
-      },
-      {
         "title": "經授智字第 11252800520 號令函：生成式 AI 著作權爭議函釋",
         "issuer": "經濟部智慧財產局",
         "date": "2023-06-16",
@@ -6915,25 +7133,11 @@ const officialReports = [
         "summary": "智財局最重要的 AI 著作權政策性函釋。核心立場：(1) 將受保護著作輸入 AI 模型訓練涉及「重製」，除符合著作權法第 44-65 條合理使用外，應取得授權；(2) AI 生成內容是否受保護，視有無「人類精神創作」決定；(3) 純由 AI 獨立運算生成的內容不受著作權法保護；(4) AI 生成內容若僅係重製訓練資料中的原始著作，後續商業利用仍涉及原始著作之重製。"
       },
       {
-        "title": "議題研析（編號 2698）：AI 大語言模型與著作權保障相關問題研析",
-        "issuer": "立法院法制局（撰稿人：傅朝文）",
-        "date": "2025-03",
-        "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=6590",
-        "summary": "立法院法制局 114 年 3 月議題研析（DeepSeek、ChatGPT 衝擊背景下完成）。比較分析歐盟數位單一市場著作權指令（資料探勘第 3、4 條）、歐盟人工智慧法（GPAI 之透明度義務）、美國合理使用四要件、我國智財局 107 與 112 年函釋等。修法建議二項：(1) 於著作權法第 44–66 條權利限制章節中，增訂「AI 開發者所為資料探勘行為，在一定條件下得不受著作財產權限制」；(2) 於人工智慧基本法立法時，參照歐盟 AI 法第 53 條，課予 AI 開發者「公開訓練 LLM 所使用之他人著作清單摘要」之公開透明義務，以兼顧 AI 產業發展與著作權人利益。"
-      },
-      {
         "title": "以 AI 為工具投入創意完成著作之著作權保護",
         "issuer": "經濟部智慧財產局",
         "date": "2025-05-20",
         "url": "https://www.tipo.gov.tw/tw/tipo1/86.html",
         "summary": "智財局闡釋「AI 輔助創作」與「AI 獨立創作」之區分標準。以人工智慧為工具、人類有實際創意投入而完成之創作成果，仍可受著作權保護，著作權由該投入創意的自然人享有。但若人類僅下達指令而未投入精神創作，則 AI 生成內容不受保護。此為智財局目前最明確的正面政策宣示。"
-      },
-      {
-        "title": "專題研究報告（編號 1817）：因應 AI 發展之著作權合理使用修法方向研析",
-        "issuer": "立法院法制局（撰稿人：傅朝文）",
-        "date": "2025-11",
-        "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=6589",
-        "summary": "立法院法制局 114 年 11 月專題研究報告（含條文對照表及座談會紀錄，與會單位含智財局、數位發展部及黃銘傑特聘教授）。為目前我國最完整的 AI × 著作權合理使用修法藍圖，提出五項具體建議：(1) 增訂著作權法第 51 條之 1：「供資訊分析之目的，得重製已公開發表之著作；但權利人明示禁止或依著作之性質及利用方式有不當損害著作權人利益之虞者，不在此限」，並於第 3 條增訂「資訊分析」定義；(2) 設權利保留（opt-out）及不當損害例外；(3) 課予 AI 提供者揭露訓練資料摘要之公開透明義務；(4) 規範 AI 提供者防止侵權義務及其免責條件，並擴大著作權法第六章之一網路服務提供者範圍至「資訊分析服務提供者」；(5) 若不採合理使用條款，則建議仿照著作權法第 46 條之 1、第 47 條，研議建立 AI 利用他人著作之法定授權機制。報告綜整歐盟（資料探勘指令）、日本（著作權法第 30 條之 4）、美國（Bartz v. Anthropic、Kadrey v. Meta 合理使用實務）之比較法經驗。"
       },
       {
         "title": "人工智慧基本法（立法院三讀通過）",
@@ -7238,6 +7442,8 @@ function pieClick(status) {
 
 buildPieChart();
 
+// (ticker initialized after newsItems declaration below)
+
 // ════════════════════════════════════════
 // INTERACTIVE REGION MAP
 // ════════════════════════════════════════
@@ -7251,12 +7457,10 @@ function buildRegionMap() {
     { key: 'other', flag: '🌍', name: '其他', keywords: ['加拿大','Ontario','Canada','巴西','Brazil'] }
   ];
 
-  const allNonUS = regions.filter(r => r.key !== 'us').flatMap(r => r.keywords);
-
   const counts = {};
   regions.forEach(r => {
     if (r.key === 'us') {
-      counts.us = cases.filter(c => !allNonUS.some(k => c.court.includes(k))).length;
+      counts.us = cases.filter(c => !isNonUS(c)).length;
     } else {
       counts[r.key] = cases.filter(c => r.keywords.some(k => c.court.includes(k))).length;
     }
@@ -7296,6 +7500,85 @@ function mapClick(region) {
 buildRegionMap();
 
 // ════════════════════════════════════════
+// DAILY NEWS TICKER ITEMS
+// ════════════════════════════════════════
+// newsItems: 最近 3 天內加入之每日快訊（超過 3 天會被 daily-brief.sh 自動搬到 newsArchive）
+// 每筆需含 addedAt（YYYY-MM-DD，台北時區），代表「條目加入 dashboard 之日期」
+const newsItems = [
+  { "addedAt": "2026-05-17", "text": "【2026/5/15】Bartz v. Anthropic 法官 5/14 聽證後保留裁定、要求律師費補件（N.D. Cal. 3:24-cv-05417）：路透 / Courthouse News 5/15 揭露，Martínez-Olguín 法官未當庭核准 15 億美元和解，反 「take the matter under submission」並命 Class Counsel 三項議題書面補充——（一）律師酬金合理性：請求金額已自原 20%（約 3 億）降至 12.5%（1.875 億），但對應 lodestar（已建檔約 2,200 萬 + 預估 2,700 萬）倍數仍達 6.92 倍，遠逾第九巡迴常見 1.26-1.54 倍均值；（二）三名具名原告各 5 萬美元服務獎金之正當性；（三）成本準備金結構與監控、未具正當事由之逾期 opt-out 是否一律收件；法官表示「最快 5/15 即可發短期命令（short orders）」", "url": "https://www.authorsalliance.org/2026/05/14/bartz-v-anthropic-fairness-hearing-observations-and-takeaways/" },
+  { "addedAt": "2026-05-15", "text": "【2026/5/15】Bartz v. Anthropic 15 億美元和解公平性聽證順利結束（N.D. Cal. 3:24-cv-05417）：Martínez-Olguín 法官 5/14 下午 2 點主持公平性聽證，外界普遍評估「最終核准近在咫尺」——Authors Alliance 揭露最終認領率達 91.3%、僅 53 件異議（其中半數實為「請求被列入」之申訴）；Victoria Pinder 主張單筆 group registration 涵蓋 40 部小說卻被算為「一件可請求作品」、Matthew Chase 質疑筆名作者保護不足、Robert Jackson 指每件約 3,000 美元僅及法定上限 15 萬美元之 2% 等核心異議待 Martínez-Olguín 法官書面裁示；通過後分配作業預定 6/11 前完成，並將成為 Kadrey v. Meta、In re OpenAI 等後續 AI 訓練資料案件集體和解之首例範本", "url": "https://www.wordsandmoney.com/anthropic-settlement-appears-to-cruise-through-its-final-fairness-hearing/" },
+  { "addedAt": "2026-05-15", "text": "【2026/5/15】Thomson Reuters v. ROSS Intelligence 第三巡迴補充辯狀（3d Cir. 25-2153）：雙方依法院命令於 5/11 就第三巡迴 American Society for Testing v. UpCodes 新判決提交補充辯狀，各自主張該判決支持己方立場——ROSS（White & Case / Pillsbury）援引 UpCodes 主張本案應簡易撤銷原審不利合理使用裁定，並指 Westlaw 無實際訂閱流失或營收損失等市場損害證據；Thomson Reuters（Kirkland & Ellis）反主張 UpCodes 反而證明 ROSS 屬「商業替代性使用」落入合理使用紅線；6/11 口頭辯論將成全美首件 AI 訓練資料合理使用上訴聽證", "url": "https://www.lawnext.com/2026/05/each-side-claims-the-same-recent-ruling-supports-its-position-in-thomson-reuters-v-ross-appeal.html" }
+];
+
+// newsArchive: 已超過 3 天而從 newsItems 移除之歷史快訊（新者在上）
+// 由 daily-brief.sh 每日自動 prepend；展開於畫面下方「歷史快訊 Archive」區塊
+const newsArchive = [
+  { "addedAt": "2026-05-14", "text": "【2026/5/14】Bartz v. Anthropic 15 億美元和解公平性聽證今日登場（N.D. Cal. 3:24-cv-05417）：Martínez-Olguín 法官今日下午 2 點（PT）於舊金山聯邦法院第 12 號法庭暨 Zoom 同步開庭——美國史上最大著作權和解進入司法核准最終關卡，約 44 萬件已認領作品每件預估獲賠約 3,000 美元；Lea Victoria Bishop 教授等具名異議人預計現場陳述「外國未註冊作品遭排除」「出版社優先於作者」「集體律師費用分配與 Alsup 前法官 2025/12 之疑慮揭露不足」等核心反對意見，裁定結果亦將牽動 Kadrey v. Meta 等後續 AI 訓練資料案件之集體和解走向", "url": "https://www.authorsalliance.org/2026/04/14/bartz-v-anthropic-settlement-update-new-date-and-time-for-the-fairness-hearing-you-can-join-online-and-unsealed-objections/" },
+  { "addedAt": "2026-05-11", "text": "【2026/5/11】UMG v. Suno（D. Mass. 1:24-cv-11611）：Digital Music News 與 Music Business Worldwide 5/11 同步揭露，Suno 正式反對 UMG 與 Sony 之 discovery 請求，拒交其 2025/11/25 與 Warner Music 達成之和解協議全文；Paul Levenson 治安法官 4 月已先行裁示該文件「攸關性微弱、揭露恐致冷卻和解動機」予以保護，Suno 5/4 進一步對 UMG/Sony 之異議提出反駁，5/14 Bartz v. Anthropic 公平性聽證前夕音樂 AI 戰線新增第二場保密性攻防", "url": "https://www.musicbusinessworldwide.com/suno-fights-to-keep-warner-music-settlement-terms-away-from-umg-and-sony/" },
+  { "addedAt": "2026-05-08", "text": "【2026/5/8】Nazemian/Dubus v. NVIDIA（N.D. Cal. 4:24-cv-01454 / 4:24-cv-02655）：Jon S. Tigar 法官部分駁回 Nvidia 撤銷之訴聲請——作者群「contributory infringement」主張獲准進入實體審理，理由為 Nvidia 提供 Writer、Persimmon AI Labs、Amazon 等客戶自動下載並前處理 The Pile（含 Books3 約 19.7 萬本盜版書）之腳本「除加速侵權外別無他用」，與 Sony Corp. 家用錄影機、Cox ISP 等中立工具明顯有別；惟「vicarious infringement」援引 3/25 美國最高法院新近裁判予以駁回，繼 Anthropic、Meta 後再添 AI 訓練資料盜版主軸之關鍵程序勝利", "url": "https://www.courthousenews.com/nvidia-cant-shake-authors-claims-it-trained-ai-on-pirated-books/" },
+  { "addedAt": "2026-05-06", "text": "【2026/5/6】Bartz v. Anthropic 15 億和解理賠平台「卡夫卡式」混亂（N.D. Cal. 3:24-cv-05417）：Vox 5/6 報導，暢銷青少年小說家 Maureen Johnson 為其 14 本適格著作於 JND Legal Administration 線上平台兩度提交、每次耗時約 90 分鐘，系統卻屢稱查無資料；多名作者反映書目錯漏、重複條目氾濫，源於 Anthropic 自身未保留訓練語料清冊、雙方律師被迫以 LibGen / PiLiMi 等盜版站「群眾外包式」中繼資料比對，5/14 Martínez-Olguín 法官公平性聽證迫近恐成新增爭點", "url": "https://letsdatascience.com/news/anthropic-faces-authors-15b-settlement-claims-friction-27916d17" },
+  { "addedAt": "2026-05-06", "text": "【2026/5/6】Elsevier v. Meta 集體訴訟之學術作者代表性質疑（紐約南區 SDNY）：Authors Alliance 5/5 發表分析指 5/5 新訴訟之集體定義含「擁有 ISBN / DOI / ISSN 之全部或部分著作權之人」，將學術期刊作者一併納入；惟多數學術作者已將著作權讓渡予 Elsevier 等商業期刊出版商，或主動選擇 CC 開放授權以廣泛流通，Elsevier 與作者立場長期對立，恐難「公平且充分代表」此次集體；OA 出版商與 CC 授權作者亦可能在不知情下被綁入集體而無從個別退出", "url": "https://www.authorsalliance.org/2026/05/05/surprise-elsevier-is-suing-meta-for-you/" },
+  { "addedAt": "2026-05-05", "text": "【2026/5/5】Hachette / Macmillan / McGraw Hill / Elsevier / Cengage + Scott Turow v. Meta（紐約南區 SDNY）：五大出版社與暢銷律政小說家 Scott Turow 於 5/5 對 Meta 與 CEO Mark Zuckerberg 提起集體訴訟，主張 Zuckerberg「親自授權並積極鼓勵」自 LibGen、Anna's Archive 等盜版站抓取數百萬本書與學術期刊訓練 Llama；指控 Meta 2023/4 經 Zuckerberg 個人指示放棄與出版商授權談判改採盜版捷徑，繼 Bartz v. Anthropic 後第二件由出版商主導之 AI 著作權巨型集體訴訟", "url": "https://variety.com/2026/digital/news/meta-ai-mark-zuckerberg-copyright-infringement-lawsuit-publishers-scott-turow-1236738383/" }
+];
+
+function renderTicker() {
+  const track = document.getElementById('tickerTrack');
+  if (!track) return;
+  track.innerHTML = newsItems.map((item, i) => `
+    <div class="ticker-item">
+      <a href="${item.url}" target="_blank" rel="noopener">${item.text}</a>
+    </div>
+  `).join('');
+}
+
+// Initialize ticker after newsItems and renderTicker are defined
+renderTicker();
+
+// ════════════════════════════════════════
+// DAILY BRIEF ARCHIVE (collapsible, grouped by addedAt)
+// ════════════════════════════════════════
+function escapeHTML(s) {
+  return String(s == null ? '' : s)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;');
+}
+
+function renderArchive() {
+  const body = document.getElementById('archiveBody');
+  const countEl = document.getElementById('archiveCount');
+  if (!body || !countEl) return;
+  const items = Array.isArray(newsArchive) ? newsArchive : [];
+  countEl.textContent = items.length;
+  if (items.length === 0) {
+    body.innerHTML = '<div class="archive-item" style="color:var(--text-light)">尚無歷史快訊。每日快訊滿 3 天後將自動歸檔於此。</div>';
+    return;
+  }
+  // Group by addedAt (descending — newest dates first)
+  const groups = {};
+  items.forEach(it => {
+    const d = (it && it.addedAt) ? it.addedAt : 'unknown';
+    if (!groups[d]) groups[d] = [];
+    groups[d].push(it);
+  });
+  const dates = Object.keys(groups).sort().reverse();
+  body.innerHTML = dates.map(d => `
+    <div class="archive-group">
+      <div class="archive-group-date">${escapeHTML(d)}（${groups[d].length} 則）</div>
+      ${groups[d].map(it => `
+        <div class="archive-item">
+          <a href="${escapeHTML(it.url || '#')}" target="_blank" rel="noopener">${escapeHTML(it.text || '')}</a>
+        </div>
+      `).join('')}
+    </div>
+  `).join('');
+}
+
+// Pre-render once so the count appears in the intro before user clicks the tab
+renderArchive();
+
+// ════════════════════════════════════════
 // LITIGATION TIMELINE
 // ════════════════════════════════════════
 const timelineEvents = [
@@ -7328,9 +7611,9 @@ const timelineEvents = [
   // 2026
   { date: '2026-01', title: 'Concord Music v. Anthropic II — $31億訴訟', type: 'filing', desc: '音樂出版商對 Anthropic 發動第二波攻勢——涵蓋 20,000+ 首歌曲，求償逾 31 億美元' },
   { date: '2026-01', title: 'Hachette & Cengage 加入 Google 訴訟', type: 'filing', desc: '大型出版商介入作者對 Google Gemini 的集體訴訟——出版業與作者「團結」對抗 AI 巨頭' },
-  { date: '2026-03', title: 'Penguin Random House v. OpenAI（德國）', type: 'filing', desc: '全球最大出版集團在慕尼黑地方法院提起訴訟——ChatGPT 生成與《小火龍椰子》系列幾乎無法區分的內容' },
-  { date: '2026-03', title: '美國最高法院拒絕受理 Thaler 案', type: 'landmark', desc: '最高法院 deny cert——正式確立「AI 獨立生成作品不受著作權保護、須有人類著作權人」聯邦法律原則' },
+  { date: '2026-03', title: '美國最高法院拒絕受理 Thaler 案', type: 'landmark', desc: '最高法院 deny cert——正式確立「AI 生成作品不受著作權保護、須有人類著作權人」聯邦法律原則' },
   { date: '2026-03', title: '歐洲議會通過 AI 著作權決議', type: 'landmark', desc: '460 票壓倒性通過——要求 AI 訓練透明度、舉證責任倒置、確認 AI 生成物不受著作權保護' },
+  { date: '2026-03', title: 'Penguin Random House v. OpenAI（德國）', type: 'filing', desc: '全球最大出版集團在慕尼黑地方法院提起訴訟——ChatGPT 生成與《小火龍椰子》系列幾乎無法區分的內容' },
   { date: '2026-04', title: 'Concord Music 將被告變更為 Dario Amodei 個人', type: 'ruling', desc: '援引最高法院 Cox Communications 判決，將輔助侵權被告從 Anthropic 公司變更為 CEO 個人' },
   { date: '2026-05', title: 'Bartz v. Anthropic 公平性聽證（5/14）', type: 'settlement', desc: '15 億美元和解最終核准聽證——約 50 萬著作權人即將獲得分配' },
   { date: '2026-07', title: 'Concord Music v. Anthropic 簡易判決聽證（7/15）', type: 'ruling', desc: '預計為 2026 年最可能產出合理使用判決的案件——音樂產業 vs AI 的關鍵對決' }
@@ -7450,12 +7733,12 @@ let reportsCatActive = 'all';
 
 function classifyReportCategory(report) {
   const t = (report.title + ' ' + report.issuer + ' ' + report.summary).toLowerCase();
-  // Academic: research studies, EPRS, academic analysis (check first so 立法院法制局之「議題研析／專題研究」不會被「立法」誤判)
-  if (/議題研析|專題研究|法制研析|法制局|research|study|academic|eprs|briefing|conversation|session|information gathering|development of|from.*perspective/i.test(t)) return 'academic';
   // Legislation: laws, acts, bills, directives, regulations
-  if (/基本法|act\b|法案|directive|regulation|regul|resolution|立法.*三讀|三讀|law\b|ordinance|amendment/i.test(t)) return 'legislation';
+  if (/基本法|act\b|法案|directive|regulation|regul|resolution|立法|三讀|law\b|ordinance|amendment/i.test(t)) return 'legislation';
   // Judicial: court guidance, registration guidance, case-related
   if (/registration guidance|登記指引|judicial|裁定|判決|court|函釋|令函|guidance.*registration|checklist|指引.*著作權登記/i.test(t)) return 'judicial';
+  // Academic: research studies, EPRS, academic analysis
+  if (/research|study|academic|eprs|briefing|conversation|session|information gathering|development of|from.*perspective/i.test(t)) return 'academic';
   // Policy: policy reports, consultations, government positions
   return 'policy';
 }
