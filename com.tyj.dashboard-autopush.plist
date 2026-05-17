@@ -8,14 +8,14 @@
     <key>ProgramArguments</key>
     <array>
         <string>/bin/bash</string>
-        <string>/Users/jesuisjane/Documents/Claude/Projects/AI Copyright Lawsuits Worldwide/auto-push.sh</string>
+        <string>/Users/jesuisjane/ClaudeProjects/AI Copyright Lawsuits Worldwide/auto-push.sh</string>
     </array>
 
     <!-- PRIMARY TRIGGER: run whenever dashboard.html is modified.
          This is file-system driven, so there's no polling when nothing changes. -->
     <key>WatchPaths</key>
     <array>
-        <string>/Users/jesuisjane/Documents/Claude/Projects/AI Copyright Lawsuits Worldwide/dashboard.html</string>
+        <string>/Users/jesuisjane/ClaudeProjects/AI Copyright Lawsuits Worldwide/dashboard.html</string>
     </array>
 
     <!-- SAFETY NET: also run once every 6 hours (21600s) in case WatchPaths
@@ -33,9 +33,9 @@
     <integer>60</integer>
 
     <key>StandardOutPath</key>
-    <string>/Users/jesuisjane/Documents/Claude/Projects/AI Copyright Lawsuits Worldwide/.auto-push.log</string>
+    <string>/Users/jesuisjane/ClaudeProjects/AI Copyright Lawsuits Worldwide/.auto-push.log</string>
     <key>StandardErrorPath</key>
-    <string>/Users/jesuisjane/Documents/Claude/Projects/AI Copyright Lawsuits Worldwide/.auto-push.log</string>
+    <string>/Users/jesuisjane/ClaudeProjects/AI Copyright Lawsuits Worldwide/.auto-push.log</string>
 
     <key>EnvironmentVariables</key>
     <dict>
