@@ -1,0 +1,47 @@
+{
+  "generated_at": "2026-05-14T21:01:03Z",
+  "known_count": 243,
+  "sources": [
+    {
+      "name": "BakerHostetler — Case Tracker: AI, Copyrights and Class Actions",
+      "url": "https://www.bakerlaw.com/services/artificial-intelligence-ai/case-tracker-artificial-intelligence-copyrights-and-class-actions/",
+      "missing": [],
+      "error": null
+    },
+    {
+      "name": "McKool Smith — AI Litigation Updates",
+      "url": "https://www.mckoolsmith.com/newsroom-ailitigation",
+      "missing": [
+        "April 13, 2026 04.13.2026 1. Disney et al. v. MiniMax Hailuo AI Current Status",
+        "April 20, 2026 04.20.2026 1. Sony v. Uncharted Labs",
+        "April 7, 2026 04.07.2026 1. Richard Kadrey, et al. v. Meta Current Status",
+        "December 1, 2025 1. Richard Kadrey, et al. v. Meta Current Status",
+        "December 22, 2025 12.22.2025 1. Richard Kadrey, et al. v. Meta Current Status",
+        "February 16, 2026 02.16.2026 1. Richard Kadrey, et al. v. Meta Current Status",
+        "February 24, 2026 02.24.2026 1. Richard Kadrey, et al. v. Meta Current Status",
+        "January 19, 2026 01.19.2026 1. Richard Kadrey, et al. v. Meta Current Status",
+        "July 14, 2025 07.14.2025 1. Denial v. OpenAI and Microsoft Background",
+        "June 23, 2025 06.23.2025 1. Disney Universal v. Midjourney Background",
+        "March 2, 2026 03.02.2026 1. Sony v. Uncharted Labs",
+        "March 23, 2026 03.23.2026 1. Reddit v. Anthropic Current Status",
+        "March 30, 2026 03.30.2026 1. Richard Kadrey, et al. v. Meta Current Status",
+        "May 19, 2025 05.19.2025 1. Kadrey et al. v. Meta Background",
+        "October 13, 2025 10.13.2025 1. Disney, et al. v. Minimax and Hailuo AI Background",
+        "October 20, 2025 10.20.2025 1. Hendrix v. Apple Background",
+        "October 6, 2025 10.06.2025 1. Disney, et al. v. Minimax and Hailuo AI Background",
+        "Reddit v. Anthropic Background",
+        "September 15, 2025 09.15.2025 1. Hendrix v. Apple - MAJOR NEW CASE ALERT",
+        "September 22, 2025 09.22.2025 1. Disney, et al. v. Minimax and Hailuo AI - NEW CASE ALERT",
+        "September 29, 2025 09.29.2025 1. Disney, et al. v. Minimax and Hailuo AI - NEW CASE ALERT",
+        "September 7, 2025 09.07.2025 1. Bartz v. Anthropic Current Status"
+      ],
+      "error": null
+    },
+    {
+      "name": "ChatGPT Is Eating The World — Substack",
+      "url": "https://chatgptiseatingtheworld.substack.com/",
+      "missing": [],
+      "error": null
+    }
+  ]
+}

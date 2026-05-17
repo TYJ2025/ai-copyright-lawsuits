@@ -1,0 +1,1034 @@
+[
+  {
+    "case_id": 1,
+    "name": "Thomson Reuters v. ROSS Intelligence",
+    "court": "D. Del. 1:20-cv-00613 → 3d Cir. 25-2153（merits appeal）",
+    "judge": "Bibas（D. Del. 原審）／3d Cir. panel: Restrepo、Montgomery-Reeves、Bove",
+    "status": "appeal",
+    "primary_docket_id": 70622297,
+    "secondary_docket_ids": [],
+    "progress_excerpt": "【第三巡迴上訴中】ROSS Intelligence 於 2025 年上訴至第三巡迴法院，主張其使用具有轉化性。Thomson Reuters 於 2025 年 11 月提交答辯書狀，稱 ROSS 的行為是「竊取而非創新」。\n\n2026 年 3 月 12 日，ROSS 提交補充函件。2025 年 9-10 月，Free Law Project 及其他十一家阿密庫斯聲明人代表支持 ROSS Intelligence 提交簡報。截至 2026 年 4 月，第三巡迴法院尚未安排言詞辯論，但預計於 2026 年進行。此案將是巡迴法院層級首次就 AI 訓練的合理使用問題表態。"
+  },
+  {
+    "case_id": 2,
+    "name": "Getty Images v. Stability AI",
+    "court": "N.D. Cal. / UK High Court",
+    "judge": "Thompson (US) / Smith (UK)",
+    "status": "active",
+    "primary_docket_id": 71112094,
+    "secondary_docket_ids": [],
+    "progress_excerpt": "【美國案】N.D. Cal. 案件仍在審理中，目前處於事證開示（discovery）階段。\n\n【2026/4/7 最新】Thompson 法官就 Stability AI 的駁回動議（motion to dismiss）舉行聽證，裁定結果待發。\n\n【英國案】2025 年 11 月，英國高等法院作出重大判決，駁回 Getty Images 的間接著作權侵害主張，認為 Stable Diffusion 模型權重不構成原作品的「侵權複製品」，因其並未以可辨識的形式儲存原始作品。但法院認定 Stability AI 構成有限的商標侵害（浮水印問題）。\n\nGetty Images 被判負擔 69.4% 的訴訟費用（約 440 萬英鎊），使商標勝訴在財務上得不償失。2025 年 12 月，法院准許 Getty 就間接著作權侵害部分上訴。英國正式審判日期定於 2026 年底。"
+  },
+  {
+    "case_id": 3,
+    "name": "Andersen v. Stability AI (Artists Class Action)",
+    "court": "N.D. Cal.",
+    "judge": "Orrick",
+    "status": "active",
+    "primary_docket_id": 66732129,
+    "secondary_docket_ids": [],
+    "progress_excerpt": "2024 年 8 月，Orrick 法官駁回被告的駁回動議（motion to dismiss），允許著作權侵害主張進入事證開示階段。\n\n2026 年 2 月 27 日，原告提交第三次修正訴狀（Third Amended Complaint）。案件目前進入全面事證開示階段，審判日期定為 2026 年 9 月 8 日。\n\n本案若進入審判，將是美國首批就 AI 圖像生成著作權問題進行完整審理的案件之一。"
+  },
+  {
+    "case_id": 4,
+    "name": "In re Google Generative AI Copyright Litigation",
+    "court": "N.D. Cal.",
+    "judge": "Lee",
+    "status": "active",
+    "primary_docket_id": 67599029,
+    "secondary_docket_ids": [],
+    "progress_excerpt": "案件由 Lee 法官審理中，目前處於事證開示前階段。Lee 法官於事證開示前暫停發現待類別認證決定。2026 年 2 月 20 日下午 1 時（PDT）在聖荷西進行了類別認證聽證會。Google 已提出駁回動議，並預期處置動議將於 2026 年提出。\n\n由於本案涉及 Google 搜尋引擎與生成式 AI 的交互作用，法院可能需要釐清搜尋引擎「爬蟲」行為與「AI 訓練用途」之間的法律界限。"
+  },
+  {
+    "case_id": 5,
+    "name": "Kadrey v. Meta Platforms (LLaMA Training)",
+    "court": "N.D. Cal.",
+    "judge": "Chhabria",
+    "status": "active",
+    "primary_docket_id": 67569326,
+    "secondary_docket_ids": [],
+    "progress_excerpt": "【重大裁定】2025 年 6 月 25 日，Chhabria 法官准許 Meta 的簡易判決動議，認定以書籍訓練 LLaMA 構成合理使用。法院認為該使用具有「高度轉化性」，因其目的是訓練工具生成多樣化輸出，而非取代原著作品。\n\n【重要但書】法官明確指出：本判決「不代表 Meta 使用著作權資料訓練語言模型是合法的。它只代表這些原告提出了錯誤的論據，且未能建立支持正確論據的紀錄。」\n\n本案已合併 Chabon v. Meta 及 Farnsworth v. Meta。DMCA §1202(b)(1) 的簡易判決也被駁回。\n\n【2026/3/27】法院發布新訴訟時程表，分配請求（distribution claim）簡易判決聽證會延至 2027 年 2 月 25 日舉行。\n\n【2026/4/2】Summary Judgment 程序正式完成。Chhabria 法官將於近期宣布分配請求（distribution claim）相關裁定。合理使用判決確定後的殘餘爭點（包括 DMCA 及州法主張）繼續審理中。\n\n【2026/4/18】根據 TorrentFreak 3 月底報導，Chhabria 法官於近期裁定，拒絕 Meta 駁回 BitTorrent seeding（種子檔案上傳）相關貢獻侵權主張之企圖；法院允許原告針對 Meta 以 BitTorrent 從 LibGen 等盜版資源庫"
+  },
+  {
+    "case_id": 6,
+    "name": "Bartz v. Anthropic (Claude AI — $1.5B Settlement)",
+    "court": "N.D. Cal. (3:24-cv-05417)",
+    "judge": "Martinez-Olguin（現審；Alsup 為 2025/6 fair use 裁定原審法官）",
+    "status": "settled",
+    "primary_docket_id": 69058235,
+    "secondary_docket_ids": [],
+    "progress_excerpt": "【和解進展】\n• 2025 年 8 月：Anthropic 同意支付 15 億美元和解金，成為美國著作權史上最高和解金額。\n• Alsup 法官已初步核准和解方案。\n• 和解金分四期支付：2025/10/2、2026/4/30、2026/9/25、2027/9/25。\n• 2026 年 1 月 15 日：退出（opt-out）及異議截止日。\n• 2026 年 3 月 30 日：提交求償截止日。\n• 約五十萬名著作權所有人成為訴訟當事人。\n\n每位著作權人每本書約可獲得 3,000 美元（獨占著作權人）或 1,500 美元（與出版商共享著作權）。2026 年 3 月，原告律師要求降低律師費。\n\n【2026/4/11】公平性聽證會（fairness hearing）從原定 4/23 延期至 2026 年 5 月 14 日下午 2 時（太平洋時間）。和解管理人正在計算分配金額，預計 6/11 完成計算，6 月後開始撥款。\n\n【2026/4/18】公平性聽證倒數 26 天。依據 Authors Alliance 2026 年 4 月 14 日公布之未封存異議書，作者主要異議聚焦於：\n（1）外國／未在美國登記的作品遭排除於和解範圍之外；\n（2）出版商相對於作者之分配機制有結構性偏袒；\n（3）通知程序具誤導與強制性質；\n（4）相對於侵害規模，賠償金額仍屬過低；\n（5）代表不足及律師費利益衝突；\n"
+  },
+  {
+    "case_id": 7,
+    "name": "Concord Music v. Anthropic (AI Lyrics)",
+    "court": "N.D. Cal. 5:24-cv-03811（自 M.D. Tenn. 3:23-cv-01092 移轉）",
+    "judge": "Eumi K. Lee（assigned）／Magistrate Susan van Keulen（referred）",
+    "status": "active",
+    "primary_docket_id": 68889092,
+    "secondary_docket_ids": [
+      67894459
+    ],
+    "progress_excerpt": "【2025 年初期裁定】法院駁回禁止令聲請（preliminary injunction），認為範圍過廣且未能證明不可回復之損害；並准許 Anthropic 的駁回動議，但允許原告修正訴狀。\n\n【2026 年 1 月】原告提起第二件更大規模訴訟，涵蓋超過 20,000 首歌曲，求償逾 31 億美元法定損害賠償。\n\n【2026/3/25】UMG、Concord、ABKCO 提交部分簡易判決動議（partial summary judgment），附 47 頁聲明列舉 218 項「不爭事實」，主張 Anthropic 侵權證據「壓倒性」，要求法院駁回合理使用抗辯。\n\n【2026/3/30】RIAA、NMPA、AAP、新聞/媒體聯盟、STM 及 Authors Guild 等提交支持原告的法庭之友簡報（amicus briefs）。\n\n【2026/4/7】原告援引最高法院 Cox Communications 判決及 Bartz v. Anthropic 解封文件，將蓄意輔助侵權（intentional contributory infringement）被告從 Anthropic 公司變更為 CEO Dario Amodei 及共同創辦人 Benjamin Mann 個人。\n\n【2026/7/15】簡易判決聽證會定於舉行。本案最有可能在 2026 年獲得合理使用判決。"
+  },
+  {
+    "case_id": 8,
+    "name": "Authors Guild v. OpenAI (Authors Action — MDL)",
+    "court": "S.D.N.Y.",
+    "judge": "Stein",
+    "status": "active",
+    "primary_docket_id": 67810584,
+    "secondary_docket_ids": [],
+    "progress_excerpt": "【集體訴訟認定】2026 年 2 月 20 日，集體訴訟資格認定聽證會在聖荷西舉行。法院目前正在審議是否准許集體訴訟資格。\n\n【Basbanes v. Microsoft】已因應 Authors Guild 案的集體訴訟認定進度而暫停審理。\n\n本案集體訴訟資格的認定將是關鍵——若獲准許，將使數千名作者得以共同主張權利，對 OpenAI 形成巨大賠償壓力。"
+  },
+  {
+    "case_id": 9,
+    "name": "New York Times v. Microsoft / OpenAI (Newspapers Action — MDL)",
+    "court": "S.D.N.Y.",
+    "judge": "Stein",
+    "status": "active",
+    "primary_docket_id": 68117049,
+    "secondary_docket_ids": [],
+    "progress_excerpt": "【2025 年 3 月】Stein 法官允許大部分訴訟主張繼續審理，駁回被告的駁回動議核心部分。\n\n【2026 年 1 月 5 日】重大事證開示裁定——法院確認 OpenAI 須提交全部 2,000 萬筆匿名化 ChatGPT 對話記錄樣本，拒絕 OpenAI 僅提供涉及原告作品的對話之請求。法院認為即使不涉及原告作品的對話記錄，對於判斷合理使用抗辯中的「市場替代效果」仍具相關性。\n\n【2026 年 3 月 9 日】法院進一步准許原告的強制開示動議。案件最近更新日期為 2026 年 3 月 20 日。"
+  },
+  {
+    "case_id": 10,
+    "name": "In re OpenAI Copyright Infringement Litigation (MDL)",
+    "court": "S.D.N.Y.",
+    "judge": "Stein",
+    "status": "mdl",
+    "primary_docket_id": 69879510,
+    "secondary_docket_ids": [],
+    "progress_excerpt": "【2025 年 10 月】法院裁定原告已充分主張部分 AI 輸出與原告作品「實質近似」（substantially similar），合理陪審團可據以認定侵害。\n\n【2026 年 1 月 5 日】Stein 法官命令 OpenAI 提供 2,000 萬筆匿名化 ChatGPT 對話記錄。\n\n【2026 年 3 月】簡易判決簽報期限已修訂：回覆簡報現行期限為 2026 年 11 月 6 日（原為 10 月 16 日）。\n\n【2026 年 3 月 9 日】法院准許原告強制披露額外對話記錄的動議。\n\n此 MDL 是目前美國規模最大、涉及面最廣的 AI 著作權訴訟合併案件。"
+  },
+  {
+    "case_id": 11,
+    "name": "Disney / Warner Bros. v. Midjourney",
+    "court": "C.D. Cal.",
+    "judge": "Kronstadt",
+    "status": "active",
+    "primary_docket_id": 70513159,
+    "secondary_docket_ids": [],
+    "progress_excerpt": "【合併】Disney 及 Warner Bros. 等案件已正式合併，以 Disney 案為主案。\n\n【2026 年 1 月 12 日】非正式發現會議（informal discovery conference）以視訊方式舉行。\n\n【替代爭議解決】ADR 程序須於 2026 年 8 月 19 日或更早進行。\n\n【2026 年 8 月 31 日】調解後狀態論證會議（post-mediation status conference）定於舉行。\n\n所有動議須於 2026 年 12 月 21 日前提出。審判日期暫定 2026 年底至 2027 年初。\n\nMidjourney 已提出答辯，將「合理使用」列為第一項積極抗辯。本案的結果可能根本性地改變 AI 圖像生成服務的商業使用政策。"
+  },
+  {
+    "case_id": 12,
+    "name": "UMG Recordings v. Suno / Udio (AI Music)",
+    "court": "D. Mass. / S.D.N.Y.",
+    "judge": "Saylor IV / Hellerstein / Garnett",
+    "status": "active",
+    "primary_docket_id": 68878608,
+    "secondary_docket_ids": [],
+    "progress_excerpt": "【Udio 和解】2025 年 10 月，UMG 與 Udio 達成和解，雙方將合作建立「經授權的 AI 音樂創作平台」，預計 2026 年推出。UMG 藝術家及詞曲作者可選擇加入（opt-in）。\n\n【Suno 案持續審理】三大唱片公司對 Suno 的訴訟仍在進行中，目前處於事證開示階段。簡易判決現已推至 2027 年 1 月 8 日。本案在 2026 年不太可能獲得合理使用判決。\n\n【2026/4/9】Warner 已和解退出，但 Suno 與 UMG、Sony 的授權談判因 AI 生成音樂的下載與分享權分歧而陷入僵局。唱片公司堅持限制用戶下載 AI 生成歌曲至 App 外，Suno 則認為此限制將嚴重削弱產品吸引力。此分歧涉及數十億音樂版稅分配格局。\n\n【2026/4/7】The Verge 實測 Suno 著作權過濾機制，發現仍可生成高度近似受保護歌曲的內容，引發對 Suno 自我監管能力的質疑。此測試結果可能在訴訟中作為唱片公司的有利證據。"
+  },
+  {
+    "case_id": 13,
+    "name": "Doe v. GitHub (Copilot Litigation)",
+    "court": "N.D. Cal. → Ninth Circuit Appeal",
+    "judge": "Tigar / Ninth Circuit",
+    "status": "appeal",
+    "primary_docket_id": 65669506,
+    "secondary_docket_ids": [],
+    "progress_excerpt": "2024 年 1 月，Tigar 法官駁回大部分主張。2024 年 9 月，法官核准中間上訴（interlocutory appeal）至第九巡迴法院。第九巡迴法院於 2024 年 12 月接受上訴（No. 24-6136），地院程序暫停。\n\n【2026 年 2 月 11 日】第九巡迴法院在舊金山舉行言詞辯論。\n\n上訴審理中，被告（AI 公司聯盟）敦促第九巡迴法院就 DMCA 在 AI 脈絡下的適用範圍作出明確裁判。\n\n截至 2026 年 4 月，第九巡迴法院尚未作出裁定。判決未決。"
+  },
+  {
+    "case_id": 14,
+    "name": "Raw Story Media v. OpenAI (DMCA CMI — Second Circuit)",
+    "court": "S.D.N.Y. → Second Circuit",
+    "judge": "McMahon / Second Circuit",
+    "status": "appeal",
+    "primary_docket_id": 68290709,
+    "secondary_docket_ids": [],
+    "progress_excerpt": "原告已上訴至第二巡迴法院。\n\n【2026 年 3 月 18 日】第二巡迴法院舉行言詞辯論，審理核心問題為：DMCA §1202(b) 的 CMI 主張是否需要證明「傳播」才具有當事人適格？\n\n截至 2026 年 4 月，第二巡迴法院尚未作出判決。判決待決。本案的結果將影響所有基於 DMCA §1202 向 AI 公司提起訴訟的原告之當事人適格認定。"
+  },
+  {
+    "case_id": 15,
+    "name": "New York Times v. Perplexity AI",
+    "court": "S.D.N.Y.",
+    "judge": "TBA",
+    "status": "active",
+    "primary_docket_id": 71997720,
+    "secondary_docket_ids": [],
+    "progress_excerpt": "案件於 2025 年 12 月提起，目前處於初步程序階段。同時，Chicago Tribune 亦對 Perplexity 提起類似訴訟。\n\nReddit v. Perplexity 案（2025 年 10 月提起）中，Perplexity 於 2026 年 1 月提出駁回動議，主張其為「下游使用者」，不應對資料爬取行為負責。\n\nDow Jones (WSJ/NY Post) 及 Encyclopaedia Britannica 亦有對 Perplexity 的未決訴訟。Perplexity 面臨來自多方的訴訟壓力。"
+  },
+  {
+    "case_id": 16,
+    "name": "Alcon Entertainment v. Tesla",
+    "court": "C.D. Cal.",
+    "judge": "Wu",
+    "status": "active",
+    "primary_docket_id": 69280385,
+    "secondary_docket_ids": [],
+    "progress_excerpt": "案件由 Wu 法官審理中，目前處於審理前程序階段。Tesla 尚未提出合理使用抗辯的具體論述。"
+  },
+  {
+    "case_id": 17,
+    "name": "Strike 3 Holdings v. Meta",
+    "court": "N.D. Cal.",
+    "judge": "Westmore",
+    "status": "active",
+    "primary_docket_id": 70899478,
+    "secondary_docket_ids": [],
+    "progress_excerpt": "案件由 Westmore 法官審理中，處於初步程序階段。"
+  },
+  {
+    "case_id": 18,
+    "name": "Huckabee v. Meta Platforms / Bloomberg",
+    "court": "N.D. Cal. / S.D.N.Y.",
+    "judge": "Various",
+    "status": "active",
+    "primary_docket_id": 67890942,
+    "secondary_docket_ids": [],
+    "progress_excerpt": "Huckabee v. Meta 已與 Kadrey v. Meta 合併審理。Huckabee v. Bloomberg 由 S.D.N.Y. Garnett 法官審理中。"
+  },
+  {
+    "case_id": 19,
+    "name": "Reddit v. SerpAPI, Perplexity",
+    "court": "S.D.N.Y.",
+    "judge": "Engelmayer",
+    "status": "active",
+    "primary_docket_id": 71720563,
+    "secondary_docket_ids": [],
+    "progress_excerpt": "2026 年 1 月，Perplexity 提出駁回動議，主張其位於資料蒐集的「下游」，不應承擔 DMCA 反規避責任。案件審理中。"
+  },
+  {
+    "case_id": 20,
+    "name": "Lehrman v. Lovo, Inc. (AI Voice)",
+    "court": "S.D.N.Y.",
+    "judge": "Oetken",
+    "status": "active",
+    "primary_docket_id": 68535780,
+    "secondary_docket_ids": [],
+    "progress_excerpt": "案件由 Oetken 法官審理中。本案是少數涉及 AI 語音合成著作權問題的案件之一。"
+  },
+  {
+    "case_id": 21,
+    "name": "Vacker v. Eleven Labs (AI Voice — SETTLED)",
+    "court": "D. Del.",
+    "judge": "Andrews",
+    "status": "settled",
+    "primary_docket_id": 69111793,
+    "secondary_docket_ids": [],
+    "progress_excerpt": "案件已和解。和解條件未公開。本案是首批涉及 AI 語音合成並達成和解的案件之一。"
+  },
+  {
+    "case_id": 22,
+    "name": "In re Mosaic LLM Litigation (Databricks)",
+    "court": "N.D. Cal.",
+    "judge": "Breyer",
+    "status": "active",
+    "primary_docket_id": 68325564,
+    "secondary_docket_ids": [],
+    "progress_excerpt": "案件由 Breyer 法官審理中。案件發展值得關注，因為 Databricks 作為企業級 AI 平台，其使用訓練資料的方式可能影響整個企業 AI 產業。"
+  },
+  {
+    "case_id": 23,
+    "name": "Dow Jones (WSJ/NY Post) v. Perplexity AI",
+    "court": "S.D.N.Y.",
+    "judge": "Polk Failla",
+    "status": "active",
+    "primary_docket_id": 69280523,
+    "secondary_docket_ids": [],
+    "progress_excerpt": "案件由 Polk Failla 法官審理中，處於初步程序階段。與 NYT v. Perplexity 等案共同構成對 Perplexity 的多線訴訟壓力。"
+  },
+  {
+    "case_id": 24,
+    "name": "James v. Snowflake Inc.",
+    "court": "D. Mont.",
+    "judge": "Morris",
+    "status": "active",
+    "primary_docket_id": 71946179,
+    "secondary_docket_ids": [],
+    "progress_excerpt": "案件由 Morris 法官審理中，處於初步程序階段。"
+  },
+  {
+    "case_id": 25,
+    "name": "Advance Local Media v. Cohere",
+    "court": "S.D.N.Y.",
+    "judge": "McMahon",
+    "status": "active",
+    "primary_docket_id": 69636122,
+    "secondary_docket_ids": [],
+    "progress_excerpt": "案件由 McMahon 法官審理中。"
+  },
+  {
+    "case_id": 26,
+    "name": "Woulard v. Suno / Uncharted Labs (Illinois)",
+    "court": "N.D. Ill.",
+    "judge": "Wood / Ellis",
+    "status": "active",
+    "primary_docket_id": 71671876,
+    "secondary_docket_ids": [],
+    "progress_excerpt": "案件分別由 Wood 法官及 Ellis 法官審理。本案是將隱私法與著作權法結合用於對抗 AI 音樂生成的創新訴訟策略。"
+  },
+  {
+    "case_id": 27,
+    "name": "Entrepreneur Media v. Meta",
+    "court": "N.D. Cal.",
+    "judge": "Chhabria",
+    "status": "active",
+    "primary_docket_id": 71883091,
+    "secondary_docket_ids": [],
+    "progress_excerpt": "案件由 Chhabria 法官審理中。"
+  },
+  {
+    "case_id": 28,
+    "name": "Hendrix / Martinez-Conde / Alexander v. Apple",
+    "court": "N.D. Cal.",
+    "judge": "Gonzalez Rogers",
+    "status": "active",
+    "primary_docket_id": 71279155,
+    "secondary_docket_ids": [],
+    "progress_excerpt": "三件案件均由 Gonzalez Rogers 法官審理。案件處於初步程序階段。"
+  },
+  {
+    "case_id": 29,
+    "name": "Tanzer / Alexander v. Salesforce",
+    "court": "N.D. Cal.",
+    "judge": "Breyer",
+    "status": "active",
+    "primary_docket_id": 71662283,
+    "secondary_docket_ids": [],
+    "progress_excerpt": "案件由 Breyer 法官審理中。"
+  },
+  {
+    "case_id": 30,
+    "name": "Disney v. MiniMax",
+    "court": "C.D. Cal.",
+    "judge": "Blumenfeld Jr.",
+    "status": "active",
+    "primary_docket_id": 71357247,
+    "secondary_docket_ids": [],
+    "progress_excerpt": "案件由 Blumenfeld Jr. 法官審理中。本案作為美中 AI 著作權爭議的代表性案件，受到國際關注。"
+  },
+  {
+    "case_id": 31,
+    "name": "Ted Entertainment v. NVIDIA (DGX Cloud)",
+    "court": "N.D. Cal.",
+    "judge": "Davila",
+    "status": "active",
+    "primary_docket_id": 71972050,
+    "secondary_docket_ids": [],
+    "progress_excerpt": "案件由 Davila 法官審理中。Nazemian v. NVIDIA 已合併審理（Tigar 法官）。"
+  },
+  {
+    "case_id": 32,
+    "name": "Pierce v. Photobucket (AI Image Training)",
+    "court": "D. Colo.",
+    "judge": "Brimmer",
+    "status": "active",
+    "primary_docket_id": 69456658,
+    "secondary_docket_ids": [],
+    "progress_excerpt": "案件由 Brimmer 法官審理中。"
+  },
+  {
+    "case_id": 33,
+    "name": "Chicago Tribune v. Perplexity AI",
+    "court": "S.D.N.Y.",
+    "judge": "TBA",
+    "status": "active",
+    "primary_docket_id": 71996467,
+    "secondary_docket_ids": [],
+    "progress_excerpt": "案件於 2025 年提起，目前正在初期訴訟階段。被告已提交答辯狀，主張合理使用。原告於 2026 年 2 月提交補充訴狀，擴大被告範圍至 Perplexity 的融資方。法院預計於 2026 年上半年作出是否駁回的決定。"
+  },
+  {
+    "case_id": 34,
+    "name": "Encyclopaedia Britannica v. Perplexity AI",
+    "court": "S.D.N.Y.",
+    "judge": "Rochon",
+    "status": "active",
+    "primary_docket_id": 71313411,
+    "secondary_docket_ids": [],
+    "progress_excerpt": "案件於 2025 年 6 月提起。Rochon 法官已駁回被告的當事人適格異議。目前案件進入事證開示階段，原告已針對 Perplexity 的訓練資料集及答案生成邏輯提交廣泛的文件索取請求。被告預計於 2026 年 5 月提交答辯摘要。"
+  },
+  {
+    "case_id": 35,
+    "name": "Intercept Media v. OpenAI",
+    "court": "S.D.N.Y.",
+    "judge": "Rakoff",
+    "status": "active",
+    "primary_docket_id": 68290804,
+    "secondary_docket_ids": [],
+    "progress_excerpt": "案件於 2026 年 1 月提起。OpenAI 已於 3 月提交駁回動議（motion to dismiss），主張 CMI 條款不適用於 AI 訓練資料集。法院預計於 2026 年 5 月作出決定。原告亦已向第二巡迴法院提交法庭之友意見書。"
+  },
+  {
+    "case_id": 36,
+    "name": "Justice v. Suno",
+    "court": "D. Mass.",
+    "judge": "Saylor IV",
+    "status": "active",
+    "primary_docket_id": 68878608,
+    "secondary_docket_ids": [],
+    "progress_excerpt": "案件於 2025 年 10 月在波士頓聯邦地院提起。Suno 於 1 月提交動議駁回州法主張，法院預計於 4 月作出部分決定。聯邦主張預計進入事證開示階段。"
+  },
+  {
+    "case_id": 37,
+    "name": "Justice v. Uncharted Labs (Udio)",
+    "court": "S.D.N.Y.",
+    "judge": "Garnett",
+    "status": "active",
+    "primary_docket_id": 70549282,
+    "secondary_docket_ids": [],
+    "progress_excerpt": "案件於 2025 年 12 月提起。Garnett 法官已發出初期案件管理令（initial case management order），要求雙方於 2026 年 5 月前完成初期法律爭點討論。預計將與 UMG 案進行協調。"
+  },
+  {
+    "case_id": 38,
+    "name": "Nazemian v. NVIDIA Corp.",
+    "court": "N.D. Cal.",
+    "judge": "Tigar",
+    "status": "active",
+    "primary_docket_id": 68325563,
+    "secondary_docket_ids": [],
+    "progress_excerpt": "案件於 2024 年 9 月在加州北區提起。已與 Dubus 等其他作家訴訟合併審理。Tigar 法官主持。預計於 2026 年 6 月進行案件現狀聽證會。"
+  },
+  {
+    "case_id": 39,
+    "name": "Warner Bros. v. Midjourney",
+    "court": "C.D. Cal.",
+    "judge": "Kronstadt",
+    "status": "active",
+    "primary_docket_id": 71271014,
+    "secondary_docket_ids": [],
+    "progress_excerpt": "案件於 2023 年 11 月在加州中區提起，Kronstadt 法官主持。經過訴訟律師會議，預計於 2026 年 7 月進行第一次駁回動議聽證會。原告已提交修正訴狀，擴大索賠範圍至商品化權侵害。"
+  },
+  {
+    "case_id": 41,
+    "name": "Daily News v. Microsoft/OpenAI",
+    "court": "S.D.N.Y.",
+    "judge": "Stein",
+    "status": "active",
+    "primary_docket_id": 68484432,
+    "secondary_docket_ids": [],
+    "progress_excerpt": "案件於 2024 年在南紐約地院提起，已與《紐約時報》案件進行實質協調。Stein 法官同時主持多個相關案件。2026 年 3 月進行案件現狀聽證會，預計於 6 月進行聯合動議駁回聽證會。"
+  },
+  {
+    "case_id": 42,
+    "name": "Ziff Davis v. OpenAI",
+    "court": "MDL Before Judge Stein (Originally D. Del.)",
+    "judge": "Stein",
+    "status": "active",
+    "primary_docket_id": 70338311,
+    "secondary_docket_ids": [],
+    "progress_excerpt": "案件於 2024 年在特拉華州提起，2025 年 3 月轉入南紐約 MDL。已提交修正訴狀，納入關於 AI 訓練透明度的更多具體主張。預計於 2026 年 7 月進行駁回動議聽證會。"
+  },
+  {
+    "case_id": 43,
+    "name": "U.S. News & World Report v. OpenAI",
+    "court": "S.D.N.Y.",
+    "judge": "Stein",
+    "status": "active",
+    "primary_docket_id": 71970530,
+    "secondary_docket_ids": [],
+    "progress_excerpt": "案件於 2024 年底在南紐約地院提起，Stein 法官主持。已提交初期駁回動議，預計於 2026 年 4 月進行聽證會。原告強調商標侵害主張的新穎性及其對媒體品牌保護的影響。"
+  },
+  {
+    "case_id": 44,
+    "name": "BMG Rights Management v. Anthropic",
+    "court": "N.D. Cal.",
+    "judge": "Alex G. Tse (Magistrate Judge)",
+    "status": "active",
+    "primary_docket_id": 72505829,
+    "secondary_docket_ids": [],
+    "progress_excerpt": "【訴訟進展（截至 2026/4/8）】\n\n• 2026/3/17：BMG 在 N.D. Cal. 提起訴訟，由 Magistrate Judge Alex G. Tse 受理。\n• 2026/3/20：Anthropic 送達完成，答辯截止日為 2026/4/10。\n• 2026/4/6：BMG 聲請本案與 Concord Music v. Anthropic（同法院）合併審理，回應期限 2026/4/10。\n• 2026/4/7：Anthropic 正式出庭，委任 WilmerHale 律師事務所（Sonal Mehta、Ari Holtzblatt 等），並提交公司揭露聲明，列明 Amazon、Google/Alphabet、AWS 為其關係企業。雙方已提交聯合排程協議草案。\n• 初次案件管理會議（Case Management Conference）定於 2026/6/26 下午 2 時（視訊）。\n\n⚠️ 【2026/4/10】Anthropic 答辯狀截止，密切關注是否提出駁回動議。"
+  },
+  {
+    "case_id": 45,
+    "name": "Huckabee v. Bloomberg",
+    "court": "S.D.N.Y.",
+    "judge": "Garnett",
+    "status": "active",
+    "primary_docket_id": 67890942,
+    "secondary_docket_ids": [],
+    "progress_excerpt": "案件於 2025 年在南紐約地院提起，Garnett 法官主持。已提交駁回動議，預計於 2026 年 5 月進行聽證會。"
+  },
+  {
+    "case_id": 46,
+    "name": "UMG Recordings v. Uncharted Labs (Udio) — SDNY",
+    "court": "S.D.N.Y.",
+    "judge": "Hellerstein",
+    "status": "settled",
+    "primary_docket_id": 68878697,
+    "secondary_docket_ids": [],
+    "progress_excerpt": "案件於 2024 年提起。2025 年 10 月，Udio 與 UMG 達成和解協議。根據公開報導，Udio 同意向 UMG 支付版稅並實施內容過濾機制，防止使用受保護的 UMG 錄製音樂。此為音樂業與 AI 音樂公司的首個主要和解案例，代表產業協議的可能方向。"
+  },
+  {
+    "case_id": 47,
+    "name": "Denial v. OpenAI",
+    "court": "MDL Before Judge Stein (Originally N.D. Cal.)",
+    "judge": "Stein",
+    "status": "active",
+    "primary_docket_id": 70970233,
+    "secondary_docket_ids": [],
+    "progress_excerpt": "案件於 2024 年在加州北區提起，後轉入南紐約 MDL。法院已駁回部分 CFAA 主張，但允許其他主張進行。預計於 2026 年下半年進行駁回動議聽證會。本案的 CFAA 策略已被其他原告效仿。"
+  },
+  {
+    "case_id": 48,
+    "name": "Ted Entertainment v. Apple",
+    "court": "C.D. Cal.",
+    "judge": "TBA",
+    "status": "active",
+    "primary_docket_id": 71972050,
+    "secondary_docket_ids": [],
+    "progress_excerpt": "案件於 2026 年 4 月初提起。Ted Entertainment 已累計提起 7 件 DMCA 反規避訴訟，針對多家科技巨頭。此一訴訟策略值得密切關注。"
+  },
+  {
+    "case_id": 49,
+    "name": "Ted Entertainment v. OpenAI",
+    "court": "C.D. Cal.",
+    "judge": "TBA",
+    "status": "active",
+    "primary_docket_id": 72074891,
+    "secondary_docket_ids": [],
+    "progress_excerpt": "案件於 2026 年 4 月初提起。與同系列其他案件同步推進。"
+  },
+  {
+    "case_id": 50,
+    "name": "Ted Entertainment v. Amazon",
+    "court": "C.D. Cal.",
+    "judge": "TBA",
+    "status": "active",
+    "primary_docket_id": 72075006,
+    "secondary_docket_ids": [],
+    "progress_excerpt": "案件於 2026 年 4 月初提起。合計 Ted Entertainment 已對 NVIDIA、Meta、Snap、Bytedance、Apple、OpenAI、Amazon 七家公司提起訴訟。"
+  },
+  {
+    "case_id": 51,
+    "name": "Ted Entertainment v. Bytedance (TikTok)",
+    "court": "C.D. Cal.",
+    "judge": "TBA",
+    "status": "active",
+    "primary_docket_id": 72075006,
+    "secondary_docket_ids": [],
+    "progress_excerpt": "Bytedance 已提出駁回動議（motion to dismiss），主張 DMCA 反規避條款不適用於 AI 訓練行為。此駁回動議的裁定將對 Ted Entertainment 其他六件案件產生重大影響。"
+  },
+  {
+    "case_id": 52,
+    "name": "Concord Music v. Anthropic II (Torrenting Claims)",
+    "court": "N.D. Cal. (5:26-cv-00880)",
+    "judge": "R. F. Lin（暫定，原告聲請與 Concord I 關聯後可能改分 Lee 法官）",
+    "status": "active",
+    "primary_docket_id": 72199828,
+    "secondary_docket_ids": [],
+    "progress_excerpt": "Anthropic 已提交動議請求暫停本案，等待第一波 Concord v. Anthropic 簡易判決結果。Concord I 的簡易判決聽證定於 2026 年 7 月 15 日。法院尚未裁定暫停動議。"
+  },
+  {
+    "case_id": 53,
+    "name": "Encyclopaedia Britannica v. OpenAI",
+    "court": "S.D.N.Y.",
+    "judge": "Stein",
+    "status": "active",
+    "primary_docket_id": 72492986,
+    "secondary_docket_ids": [],
+    "progress_excerpt": "Stein 法官已下令原告於 2026/4/15 前提交說明，解釋為何本案不應暫停等待 MDL 簡易判決。此與同期 Merriam-Webster、Gracenote 案件處理方式一致。"
+  },
+  {
+    "case_id": 54,
+    "name": "Merriam-Webster v. OpenAI",
+    "court": "S.D.N.Y.",
+    "judge": "Stein",
+    "status": "active",
+    "primary_docket_id": 72492986,
+    "secondary_docket_ids": [],
+    "progress_excerpt": "與 Encyclopaedia Britannica 案相同，Stein 法官已要求原告於 2026/4/15 前說明為何本案不應暫停。"
+  },
+  {
+    "case_id": 55,
+    "name": "Gracenote Media v. OpenAI",
+    "court": "S.D.N.Y.",
+    "judge": "Stein",
+    "status": "active",
+    "primary_docket_id": 72384605,
+    "secondary_docket_ids": [],
+    "progress_excerpt": "與 Encyclopaedia Britannica、Merriam-Webster 案件同期處理。Stein 法官要求原告於 2026/4/15 前說明為何本案不應暫停。"
+  },
+  {
+    "case_id": 56,
+    "name": "Cambronne v. Anthropic",
+    "court": "N.D. Cal.",
+    "judge": "TBA",
+    "status": "active",
+    "primary_docket_id": 72069211,
+    "secondary_docket_ids": [],
+    "progress_excerpt": "案件進行中，與其他針對 Anthropic 的訴訟同步發展。"
+  },
+  {
+    "case_id": 57,
+    "name": "Carreyrou v. Anthropic",
+    "court": "N.D. Cal.",
+    "judge": "TBA",
+    "status": "active",
+    "primary_docket_id": 72069211,
+    "secondary_docket_ids": [],
+    "progress_excerpt": "案件進行中。本案因原告知名度較高，受到媒體廣泛關注。"
+  },
+  {
+    "case_id": 58,
+    "name": "Chicken Soup for the Soul v. Multiple AI Companies",
+    "court": "N.D. Cal.",
+    "judge": "TBA",
+    "status": "active",
+    "primary_docket_id": 72505713,
+    "secondary_docket_ids": [],
+    "progress_excerpt": "【2026 年 3 月 17 日】訴訟對象涵蓋 Apple、Google、Meta、OpenAI、Anthropic、Nvidia、Perplexity AI 及 xAI 等八家主要 AI 公司。案件處於初步程序階段。本案代表出版業對 AI 訓練資料侵權問題的重大集中訴訟。"
+  },
+  {
+    "case_id": 59,
+    "name": "Amazon.com Services v. Perplexity AI",
+    "court": "W.D. Wash.",
+    "judge": "TBA",
+    "status": "active",
+    "primary_docket_id": 71874820,
+    "secondary_docket_ids": [],
+    "progress_excerpt": "【2026 年 3 月 9 日】Amazon 獲得初步禁止令（preliminary injunction），禁止 Perplexity 以代理方式訪問 Amazon 系統。本案為 Perplexity 面臨的最嚴重訴訟，涉及其核心業務模式的合法性。Perplexity 同時面臨 NYT、Dow Jones、Chicago Tribune、Reddit 及其他出版商的訴訟。"
+  },
+  {
+    "case_id": 60,
+    "name": "Getty Images v. Stability AI (N.D. Cal.)",
+    "court": "N.D. Cal.",
+    "judge": "Thompson",
+    "status": "active",
+    "primary_docket_id": 66788385,
+    "secondary_docket_ids": [],
+    "progress_excerpt": "【2026 年 4 月 7 日】駁回動議聽證會定於下午 2:00 於聖荷西由 Thompson 法官主持。此為 Getty v. Stability AI 美國訴訟的重要訴訟進展。"
+  },
+  {
+    "case_id": 61,
+    "name": "Anders v. Stability AI",
+    "court": "W.D.N.C.",
+    "judge": "Reidinger",
+    "status": "dismissed",
+    "primary_docket_id": 72083948,
+    "secondary_docket_ids": [],
+    "progress_excerpt": "Reidinger 法官於駁回動議上作出有利於 Stability AI 的裁定。法院認為原告的著作權侵害主張因涉及授權問題而不成立。此案已駁回，目前無上訴跡象。"
+  },
+  {
+    "case_id": 62,
+    "name": "Lyon v. Adobe",
+    "court": "N.D. Cal.",
+    "judge": "Scott Corley",
+    "status": "active",
+    "primary_docket_id": 72046160,
+    "secondary_docket_ids": [],
+    "progress_excerpt": "Scott Corley 法官已受理本案，目前處於早期訴訟階段。Adobe 尚未提出重大動議。案件預計進入事證開示階段。"
+  },
+  {
+    "case_id": 63,
+    "name": "Kleiner v. Adobe",
+    "court": "N.D. Cal.",
+    "judge": "Scott Corley",
+    "status": "active",
+    "primary_docket_id": 72046160,
+    "secondary_docket_ids": [],
+    "progress_excerpt": "由同一法官 Scott Corley 審理，可能與 Lyon v. Adobe 案件協調進行。暫未進入實質審理階段。"
+  },
+  {
+    "case_id": 64,
+    "name": "James v. Together Compute",
+    "court": "N.D. Cal.",
+    "judge": "Lin",
+    "status": "active",
+    "primary_docket_id": 71883095,
+    "secondary_docket_ids": [],
+    "progress_excerpt": "案件由加州北區法院 Lin 法官審理，目前處於早期階段。Together Compute 作為較小規模的 AI 公司，此訴訟為其發展的重大挑戰。"
+  },
+  {
+    "case_id": 65,
+    "name": "James v. Cerebras Systems",
+    "court": "N.D. Cal.",
+    "judge": "Martinez-Olguin",
+    "status": "active",
+    "primary_docket_id": 71827684,
+    "secondary_docket_ids": [],
+    "progress_excerpt": "由 Martinez-Olguin 法官審理，與 Together Compute 案相似的早期訴訟階段。Cerebras 面臨著作權侵害指控的同時也在面臨商業競爭挑戰。"
+  },
+  {
+    "case_id": 66,
+    "name": "David Greene v. Google",
+    "court": "N.D. Cal.",
+    "judge": "Breyer",
+    "status": "active",
+    "primary_docket_id": 67599029,
+    "secondary_docket_ids": [],
+    "progress_excerpt": "Breyer 法官已受理本案並保留了州法主張，拒絕 Google 以完全先占為由駁回所有請求。案件目前進行中，涉及複雜的聯邦先占問題。"
+  },
+  {
+    "case_id": 67,
+    "name": "Carreyrou v. OpenAI",
+    "court": "N.D. Cal.",
+    "judge": "Pitts",
+    "status": "active",
+    "primary_docket_id": 72069211,
+    "secondary_docket_ids": [],
+    "progress_excerpt": "Pitts 法官已受理本案。本案由於原告之高知名度而受到廣泛媒體關注。根據 2026 年 3 月的最新報導，本案預期將被轉移至聯邦多案件訴訟（MDL）中與其他 OpenAI 著作權案件合併審理。"
+  },
+  {
+    "case_id": 68,
+    "name": "Millette v. Google",
+    "court": "N.D. Cal.",
+    "judge": "Davila",
+    "status": "dismissed",
+    "primary_docket_id": 69012654,
+    "secondary_docket_ids": [],
+    "progress_excerpt": "原告向法院請求自願駁回訴訟。Davila 法官已准許撤銷。本案現已結案。撤銷原因未公開披露。"
+  },
+  {
+    "case_id": 69,
+    "name": "Millette v. NVIDIA",
+    "court": "N.D. Cal.",
+    "judge": "Davila",
+    "status": "dismissed",
+    "primary_docket_id": 69045427,
+    "secondary_docket_ids": [],
+    "progress_excerpt": "原告自願駁回訴訟。Davila 法官已准許撤銷。本案結案。"
+  },
+  {
+    "case_id": 70,
+    "name": "Millette v. OpenAI",
+    "court": "N.D. Cal. (MDL)",
+    "judge": "Davila/Stein",
+    "status": "active",
+    "primary_docket_id": 69879510,
+    "secondary_docket_ids": [],
+    "progress_excerpt": "本案由 Davila 法官於原審法院，後被轉移至 MDL 由 Stein 法官統籌管理。2026 年 4 月，本案仍在 MDL 框架內進行中。部分州法請求已被駁回，但著作權直接侵害主張繼續進行。"
+  },
+  {
+    "case_id": 71,
+    "name": "Basbanes v. Microsoft",
+    "court": "SDNY",
+    "judge": "Stein",
+    "status": "active",
+    "primary_docket_id": 68138737,
+    "secondary_docket_ids": [],
+    "progress_excerpt": "本案與 Authors Guild v. OpenAI 及 Authors Guild v. Microsoft 合併審理。Stein 法官已要求當事人於 2026 年 4 月 15 日前提交聯合訴訟管理提案。案件暫未進入實質審理。"
+  },
+  {
+    "case_id": 72,
+    "name": "Center for Investigative Reporting v. OpenAI",
+    "court": "SDNY",
+    "judge": "Stein",
+    "status": "active",
+    "primary_docket_id": 68892274,
+    "secondary_docket_ids": [],
+    "progress_excerpt": "與 New York Times v. Microsoft 及 New York Times v. OpenAI 合併審理。Stein 法官統籌管理。2026 年 4 月，當事人進行聯合訴訟管理程序。"
+  },
+  {
+    "case_id": 73,
+    "name": "Bird v. Microsoft",
+    "court": "SDNY",
+    "judge": "Stein",
+    "status": "active",
+    "primary_docket_id": 70626692,
+    "secondary_docket_ids": [],
+    "progress_excerpt": "案件由 Stein 法官審理，與多件 Microsoft 著作權案件協調進行。目前進行中，未有重大動議裁定。"
+  },
+  {
+    "case_id": 74,
+    "name": "California Newspaper Partnership v. Microsoft/OpenAI",
+    "court": "SDNY",
+    "judge": "Stein",
+    "status": "active",
+    "primary_docket_id": 71969115,
+    "secondary_docket_ids": [],
+    "progress_excerpt": "案件與 Authors Guild 及其他訴訟協調進行，由 Stein 法官統籌。2026 年春季進行聯合訴訟管理程序。"
+  },
+  {
+    "case_id": 75,
+    "name": "Apress Media v. Anna's Archive",
+    "court": "SDNY",
+    "judge": "TBA",
+    "status": "active",
+    "primary_docket_id": 72372770,
+    "secondary_docket_ids": [],
+    "progress_excerpt": "案件由 SDNY 受理。被告 Anna's Archive 為分佈式、匿名運營的平台，追責困難重重。訴訟目前進行中。"
+  },
+  {
+    "case_id": 76,
+    "name": "Kogon v. Google",
+    "court": "N.D. Ill.",
+    "judge": "Harjani",
+    "status": "active",
+    "primary_docket_id": 67599029,
+    "secondary_docket_ids": [],
+    "progress_excerpt": "案件由 Harjani 法官審理中。Google 已提出多項駁回動議，預計 2026 年春季進行聽證。案件極為複雜，涉及多項未經充分司法檢驗的 DMCA 條款適用。"
+  },
+  {
+    "case_id": 77,
+    "name": "Businesssing v. Runway AI / Ace Cam v. Runway AI",
+    "court": "SDNY",
+    "judge": "Kaplan",
+    "status": "active",
+    "primary_docket_id": 72318854,
+    "secondary_docket_ids": [],
+    "progress_excerpt": "Kaplan 法官已受理合併案件。DMCA §1201(a) 主張在 AI 訴訟中相對罕見，本案提供重要的新法律領域。2026 年進行動議聽證。"
+  },
+  {
+    "case_id": 78,
+    "name": "Gardner v. Runway AI",
+    "court": "N.D. Cal.",
+    "judge": "Gee",
+    "status": "active",
+    "primary_docket_id": 72318854,
+    "secondary_docket_ids": [],
+    "progress_excerpt": "Gee 法官審理中。案件進行中，預計與 SDNY 的 Kaplan 法官案件可能涉及相似的法律問題。"
+  },
+  {
+    "case_id": 79,
+    "name": "Ted Entertainment v. Snap",
+    "court": "C.D. Cal.",
+    "judge": "Birotte Jr.",
+    "status": "active",
+    "primary_docket_id": 72185144,
+    "secondary_docket_ids": [],
+    "progress_excerpt": "Birotte Jr. 法官審理中。Ted Entertainment 與多個社交媒體平台有類似訴訟（見下項），此為其對 Snap 的訴訟。2026 年進行中。"
+  },
+  {
+    "case_id": 80,
+    "name": "Chmura v. Snap",
+    "court": "C.D. Cal.",
+    "judge": "Birotte Jr.",
+    "status": "active",
+    "primary_docket_id": 72234164,
+    "secondary_docket_ids": [],
+    "progress_excerpt": "Birotte Jr. 法官审理，與 Ted Entertainment v. Snap 可能協調進行。2026 年進行中。"
+  },
+  {
+    "case_id": 81,
+    "name": "Google v. SerpApi",
+    "court": "N.D. Cal.",
+    "judge": "Gonzalez Rogers",
+    "status": "active",
+    "primary_docket_id": 72059948,
+    "secondary_docket_ids": [],
+    "progress_excerpt": "Gonzalez Rogers 法官審理中。本案具有重要的市場競爭與技術規避交叉的意義。Google 作為訴訟人在此案中尋求 DMCA 保護其搜尋結果。2026 年進行中。"
+  },
+  {
+    "case_id": 82,
+    "name": "Ted Entertainment v. Meta",
+    "court": "N.D. Cal.",
+    "judge": "Tigar",
+    "status": "active",
+    "primary_docket_id": 72074891,
+    "secondary_docket_ids": [],
+    "progress_excerpt": "Tigar 法官審理中。Ted Entertainment 對多個社交媒體與技術平台提起類似訴訟，本案為其中之一。2026 年進行中。"
+  },
+  {
+    "case_id": 83,
+    "name": "Youngblood v. Meta",
+    "court": "N.D. Cal.",
+    "judge": "Donato",
+    "status": "dismissed",
+    "primary_docket_id": 72234164,
+    "secondary_docket_ids": [],
+    "progress_excerpt": "原告自願請求駁回訴訟。Donato 法官已准許。本案現已結案。"
+  },
+  {
+    "case_id": 84,
+    "name": "Youngblood v. NVIDIA",
+    "court": "N.D. Cal.",
+    "judge": "Cousins",
+    "status": "dismissed",
+    "primary_docket_id": 68325563,
+    "secondary_docket_ids": [],
+    "progress_excerpt": "原告自願駁回訴訟。Cousins 法官已准許。本案現已結案。"
+  },
+  {
+    "case_id": 85,
+    "name": "Atlantic Recording Corp. v. Anna's Archive",
+    "court": "S.D.N.Y.",
+    "judge": "Rakoff",
+    "status": "settled",
+    "primary_docket_id": 72161605,
+    "secondary_docket_ids": [],
+    "progress_excerpt": "2026 年 1 月 2 日於 SDNY 提起。2026 年 1 月 20 日簽發初步禁止令。Anna's Archive 未應訴，2026 年 2 月 2 日被判缺席。缺席判決：3.22 億美元總損賠（Spotify 3 億、Sony 750 萬、UMG 750 萬、Atlantic 720 萬）。本案具有重大意義，因 Anna's Archive 為 AI 公司盜版訓練資料的關鍵來源。"
+  },
+  {
+    "case_id": 86,
+    "name": "Beaulier v. NVIDIA Corporation (3D Models)",
+    "court": "N.D. Cal.",
+    "judge": "TBA",
+    "status": "active",
+    "primary_docket_id": 71112094,
+    "secondary_docket_ids": [],
+    "progress_excerpt": "2026 年 3 月 26 日於加州北區提起（3:26-cv-02647）。案件處於早期訴訟程序階段。"
+  },
+  {
+    "case_id": 87,
+    "name": "Beaulier v. Meta Platforms (3D Models)",
+    "court": "N.D. Cal.",
+    "judge": "TBA",
+    "status": "active",
+    "primary_docket_id": 71112094,
+    "secondary_docket_ids": [],
+    "progress_excerpt": "2026 年 3 月 26 日於加州北區提起（3:26-cv-02632）。早期階段。"
+  },
+  {
+    "case_id": 88,
+    "name": "Beaulier v. Roblox (3D Models)",
+    "court": "N.D. Cal.",
+    "judge": "TBA",
+    "status": "active",
+    "primary_docket_id": 71112094,
+    "secondary_docket_ids": [],
+    "progress_excerpt": "2026 年 3 月於加州北區提起。早期階段。"
+  },
+  {
+    "case_id": 89,
+    "name": "Beaulier v. Microsoft (3D Models)",
+    "court": "W.D. Wash.",
+    "judge": "TBA",
+    "status": "active",
+    "primary_docket_id": 71112094,
+    "secondary_docket_ids": [],
+    "progress_excerpt": "2026 年 3 月提起（2:26-cv-01031 W.D. Wash.）。早期階段。"
+  },
+  {
+    "case_id": 90,
+    "name": "Martinez-Conde v. Apple (split from consolidated Hendrix v. Apple)",
+    "court": "N.D. Cal.",
+    "judge": "Gonzalez Rogers",
+    "status": "active",
+    "primary_docket_id": 67569326,
+    "secondary_docket_ids": [],
+    "progress_excerpt": "與 Hendrix v. Apple（ID 28）合併，於 Gonzalez Rogers 法官前進行。以合併案件身分進行。"
+  },
+  {
+    "case_id": 91,
+    "name": "Alexander v. Apple (split from consolidated Hendrix v. Apple)",
+    "court": "N.D. Cal.",
+    "judge": "Gonzalez Rogers",
+    "status": "active",
+    "primary_docket_id": 67569326,
+    "secondary_docket_ids": [],
+    "progress_excerpt": "與 Hendrix v. Apple（ID 28）合併。以合併案件身分進行。"
+  },
+  {
+    "case_id": 92,
+    "name": "Alexander v. Salesforce (split from In re Salesforce)",
+    "court": "N.D. Cal.",
+    "judge": "Breyer",
+    "status": "active",
+    "primary_docket_id": 67599029,
+    "secondary_docket_ids": [],
+    "progress_excerpt": "與 Tanzer v. Salesforce（ID 29）合併。於 Breyer 法官前進行。"
+  },
+  {
+    "case_id": 93,
+    "name": "Zhang v. Google (split from In re Google Generative AI)",
+    "court": "N.D. Cal.",
+    "judge": "Lee",
+    "status": "active",
+    "primary_docket_id": 67599029,
+    "secondary_docket_ids": [],
+    "progress_excerpt": "與 In re Google Generative AI（ID 4）合併。於 Lee 法官前進行。"
+  },
+  {
+    "case_id": 94,
+    "name": "Leovy v. Google (split from In re Google Generative AI)",
+    "court": "N.D. Cal.",
+    "judge": "Lee",
+    "status": "active",
+    "primary_docket_id": 67599029,
+    "secondary_docket_ids": [],
+    "progress_excerpt": "與 In re Google Generative AI（ID 4）合併。於 Lee 法官前進行。"
+  },
+  {
+    "case_id": 95,
+    "name": "Chabon v. Meta Platforms (split from Kadrey v. Meta)",
+    "court": "N.D. Cal.",
+    "judge": "Chhabria",
+    "status": "active",
+    "primary_docket_id": 67569326,
+    "secondary_docket_ids": [],
+    "progress_excerpt": "與 Kadrey v. Meta（ID 5）合併。於 Chhabria 法官前進行。"
+  },
+  {
+    "case_id": 96,
+    "name": "Farnsworth v. Meta Platforms (split from Kadrey v. Meta)",
+    "court": "N.D. Cal.",
+    "judge": "Chhabria",
+    "status": "active",
+    "primary_docket_id": 67569326,
+    "secondary_docket_ids": [],
+    "progress_excerpt": "與 Kadrey v. Meta（ID 5）合併。"
+  },
+  {
+    "case_id": 97,
+    "name": "Dubus v. NVIDIA Corp. (split from Nazemian v. NVIDIA)",
+    "court": "N.D. Cal.",
+    "judge": "Tigar",
+    "status": "active",
+    "primary_docket_id": 70513159,
+    "secondary_docket_ids": [],
+    "progress_excerpt": "與 Nazemian v. NVIDIA（ID 38）合併。於 Tigar 法官前進行。"
+  },
+  {
+    "case_id": 98,
+    "name": "Makkai v. Databricks (split from In re Mosaic LLM)",
+    "court": "N.D. Cal.",
+    "judge": "Breyer",
+    "status": "active",
+    "primary_docket_id": 67890942,
+    "secondary_docket_ids": [],
+    "progress_excerpt": "與 In re Mosaic LLM（ID 22）合併。於 Breyer 法官前進行。"
+  },
+  {
+    "case_id": 99,
+    "name": "Alter v. OpenAI / Microsoft (split from Authors Guild v. OpenAI)",
+    "court": "S.D.N.Y.",
+    "judge": "Stein",
+    "status": "active",
+    "primary_docket_id": 67810584,
+    "secondary_docket_ids": [],
+    "progress_excerpt": "與 Authors Guild v. OpenAI（ID 8）在 MDL 中合併。於 Stein 法官前進行。"
+  },
+  {
+    "case_id": 100,
+    "name": "Ace Cam v. Runway AI (split from Businessing v. Runway AI)",
+    "court": "S.D.N.Y.",
+    "judge": "Kaplan",
+    "status": "active",
+    "primary_docket_id": 71720563,
+    "secondary_docket_ids": [],
+    "progress_excerpt": "與 Businessing v. Runway AI（ID 76）合併。於 Kaplan 法官前進行。"
+  },
+  {
+    "case_id": 110,
+    "name": "Carreyrou v. xAI et al. (Multiple Authors)",
+    "court": "N.D. Cal.",
+    "judge": "TBA",
+    "status": "active",
+    "primary_docket_id": 72069211,
+    "secondary_docket_ids": [],
+    "progress_excerpt": "訴訟於 2025 年 12 月 22 日在 N.D. Cal. 提起。本案處於早期訴訟程序階段。值得注意的是，本案係首起對 xAI 以著作權侵害名義的訴訟，亦為作者針對 Perplexity AI 提起的首起著作權訴訟。原告已明確拒絕參與 Bartz v. Anthropic 之 15 億美元和解案。"
+  },
+  {
+    "case_id": 112,
+    "name": "Thaler v. Perlmutter (Supreme Court Cert Denied)",
+    "court": "D.D.C. → D.C. Circuit → U.S. Supreme Court",
+    "judge": "Howell / D.C. Circuit / Supreme Court",
+    "status": "dismissed",
+    "primary_docket_id": 63356475,
+    "secondary_docket_ids": [],
+    "progress_excerpt": "2026 年 3 月 2 日，美國最高法院駁回上訴許可（certiorari petition）。最高法院的裁定確認了材料必須具有人類著作權才能受著作權保護的原則。值得注意的是，此裁定並未禁止人類有創意貢獻的 AI 輔助作品的著作權保護。瑟勒案明確聲明排除所有人類投入，因此不適用於混合創作的情形。"
+  },
+  {
+    "case_id": 133,
+    "name": "EVOX Productions v. The Leland Stanford Junior University",
+    "court": "N.D. Cal. 5:24-cv-09521",
+    "judge": "Jacqueline Scott Corley",
+    "status": "active",
+    "primary_docket_id": null,
+    "secondary_docket_ids": [],
+    "progress_excerpt": "2024-12-31 提起；對 Michigan、Rice、Baylor 之訴均經駁回，僅 Stanford 續審。法院駁回 Stanford motion to dismiss；2026/4 案件管理命令發布，陪審審判訂於 2027 年 5 月。涉 ImageNet 衍生 AI 訓練資料集託管與再散布之合理使用爭議。"
+  },
+  {
+    "case_id": 134,
+    "name": "Reddit, Inc. v. Anthropic PBC",
+    "court": "San Francisco Superior Court CGC-25-625892 ⇄ N.D. Cal. 3:25-cv-05643（remanded 2026/3/30）",
+    "judge": "Trina L. Thompson（N.D. Cal., remand 階段）",
+    "status": "active",
+    "primary_docket_id": 70704683,
+    "secondary_docket_ids": [],
+    "progress_excerpt": "2025/6/5 於 SF Superior Court 起訴（CGC-25-625892），Anthropic 移送 N.D. Cal.（3:25-cv-05643）。2026/3/30 Thompson 法官裁定 §301 著作權 preemption 不吸收 Reddit 之違約、不當得利、trespass to chattels、妨害契約、UCL §17200 等州法請求權，准予發回州法院。陪審審判排定 2028/2/14–3/8。罕見全部以州法請求權對 AI 業者起訴之案件，無聯邦著作權請求。"
+  }
+]

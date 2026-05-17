@@ -1,0 +1,267 @@
+# Case 81 — Google LLC v. SerpApi, LLC
+
+> 最後更新（CourtListener fetch）：2026-04-27 03:20 UTC
+
+---
+
+## 1. CourtListener Docket Metadata
+
+| 欄位 | 值 |
+|---|---|
+| Case Name | Google LLC v. SerpApi, LLC |
+| Docket Number | `4:25-cv-10826` |
+| Court | District Court, N.D. California (`cand`) |
+| Judge Assigned | Yvonne Gonzalez Rogers |
+| Date Filed | 2025-12-19 |
+| Date Last Filing | 2026-04-14 |
+| Cause | 28:1338 Copyright Infringement |
+| Nature of Suit | 820 Copyright |
+| Jury Demand | Plaintiff |
+| CourtListener ID | `72059948` |
+| CourtListener URL | <https://www.courtlistener.com/docket/72059948/google-llc-v-serpapi-llc/> |
+
+## 2. Dashboard 卡片 vs CourtListener 比對
+
+> Dashboard 卡片宣告：
+
+> - Court=N.D. Cal.
+> - Judge=Gonzalez Rogers
+> - Status=active
+> - Progress=Gonzalez Rogers 法官審理中。本案具有重要的市場競爭與技術規避交叉的意義。Google 作為訴訟人在此案中尋求 DMCA 保護其搜尋結果。2026 年進行中。
+
+**自動比對結果：**
+
+- ✅ Court 一致：dashboard 寫「N.D. Cal.」，CourtListener 為「N.D. California」
+- ✅ Judge 一致：dashboard 寫「Gonzalez Rogers」，CourtListener 為「Yvonne Gonzalez Rogers」
+- ℹ️ Dashboard progress 內找不到【YYYY/M/D】格式日期；CourtListener 最後 entry: 2026-04-14
+
+## 3. Docket Entries（最新優先，已過濾程序性 entries）
+
+**實質性 entries**：39 筆／**已過濾程序性 entries**：13 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+
+### 📄 Doc #36 — 2026-04-14
+
+1 - Terminate Hearings AND Order
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72059948/36/google-llc-v-serpapi-llc/)
+
+### 📄 Doc #35 — 2026-04-13
+
+Response ( Non Motion )
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72059948/35/google-llc-v-serpapi-llc/)
+
+### 📄 Doc #34 — 2026-04-13
+
+Letter from SerpApi Regarding Non-Consent to Magistrate Judge for All Purposes . (Clark, Joseph) (Filed on 4/13/2026) (Entered: 04/13/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72059948/34/google-llc-v-serpapi-llc/)
+
+### 📄 Doc #33 — 2026-04-13
+
+REPLY (re 27 MOTION to Stay Discovery ) filed bySerpApi, LLC. (Attachments: # 1 Declaration of David A. Munkittrick, # 2 Exhibit A, # 3 Exhibit B)(Clark, Joseph) (Filed on 4/13/2026) (Entered: 04/13/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72059948/33/google-llc-v-serpapi-llc/)
+
+### 📄 Doc #32 — 2026-04-08
+
+ORDER DIRECTING PARTIES TO INFORM COURT WHETHER THEY CONSENT TO A MAGISTRATE JUDGE FOR ALL PURPOSES. Consent/Declination due by 4/13/2026. Signed by Judge Yvonne Gonzalez Rogers on 4/8/2026. (tl, COURT STAFF) (Filed on 4/8/2026) (Entered: 04/08/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72059948/32/google-llc-v-serpapi-llc/)
+
+### 📄 Doc #31 — 2026-04-06
+
+OPPOSITION/RESPONSE (re 22 MOTION to Dismiss ) filed byGoogle LLC. (Attachments: # 1 Proposed Order)(Kramer, David) (Filed on 4/6/2026) (Entered: 04/06/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72059948/31/1/google-llc-v-serpapi-llc/)
+
+### 📄 Doc #30 — 2026-04-06
+
+Joint Discovery Letter Brief Concerning SerpApi's Discovery Response Deadline filed by SerpApi, LLC. (Clark, Joseph) (Filed on 4/6/2026) (Entered: 04/06/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72059948/30/google-llc-v-serpapi-llc/)
+
+### 📄 Doc #29 — 2026-04-06
+
+OPPOSITION/RESPONSE (re 27 MOTION to Stay Discovery ) filed byGoogle LLC. (Attachments: # 1 Declaration of Lucy Yen, # 2 Exhibit A, # 3 Exhibit B, # 4 Exhibit C, # 5 Exhibit D, # 6 Proposed Order)(Kramer, David) (Filed on 4/6/2026) (Entered: 04/06/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72059948/29/6/google-llc-v-serpapi-llc/)
+
+### 📄 Doc #28 — 2026-03-23
+
+ORDER VACATING CASE MANAGEMENT CONFERENCE. Case Management Conference previously set for 3/30/2026, is vacated. Signed by Judge Yvonne Gonzalez Rogers on 3/23/2026. (eac, COURT STAFF) (Filed on 3/23/2026) (Entered: 03/23/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72059948/28/google-llc-v-serpapi-llc/)
+
+### 📄 Doc #27 — 2026-03-23
+
+MOTION to Stay Discovery filed by SerpApi, LLC. Motion Hearing set for 4/28/2026 02:00 PM in Oakland, Courtroom 1, 4th Floor before Judge Yvonne Gonzalez Rogers. Responses due by 4/6/2026. Replies due by 4/13/2026. (Attachments: # 1 Proposed Order)(Clark, Joseph) (Filed on 3/23/2026) (Entered: 03/23/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72059948/27/1/google-llc-v-serpapi-llc/)
+
+### 📄 Doc #25 — 2026-03-10
+
+ADR Certification (ADR L.R. 3-5 b) of discussion of ADR options (Clark, Joseph) (Filed on 3/10/2026) (Entered: 03/10/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72059948/25/google-llc-v-serpapi-llc/)
+
+### 📄 Doc #24 — 2026-03-09
+
+ADR Certification (ADR L.R. 3-5 b) of discussion of ADR options (Yen, Lucy) (Filed on 3/9/2026) (Entered: 03/09/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72059948/24/google-llc-v-serpapi-llc/)
+
+### 📄 Doc #— — 2026-03-05
+
+Notice of Appearance/Substitution/Change/Withdrawal of Attorney
+
+### 📄 Doc #22 — 2026-02-20
+
+MOTION to Dismiss filed by SerpApi, LLC. Motion to Dismiss Hearing set for 5/19/2026 02:00 PM in Oakland, Courtroom 1, 4th Floor. Responses due by 4/6/2026. Replies due by 5/6/2026. (Attachments: # 1 Proposed Order)(Clark, Joseph) (Filed on 2/20/2026) (Entered: 02/20/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72059948/22/1/google-llc-v-serpapi-llc/)
+
+### 📄 Doc #— — 2026-02-19
+
+Notice of Appearance/Substitution/Change/Withdrawal of Attorney
+
+### 📄 Doc #— — 2026-02-11
+
+Electronic Filing Error
+
+### 📄 Doc #18 — 2026-02-10
+
+CLERK'S NOTICE RESETTING CASE MANAGEMENT CONFERENCE. You are hereby notified that the Initial Case Management Conference will be held by Zoom Webinar. Joint Case Management Statement due by 3/23/2026. Initial Case Management Conference reset to 3/30/2026, at 02:00 PM in Oakland, - Videoconference Only. (This is a text-only entry generated by the court. There is no document associated with this entry.). Webinar Access: All counsel, members of the public, and media may access the webinar information at https://www.cand.uscourts.gov/ygr Court Appearances: Advanced notice is required of counsel or parties who wish to be identified by the court as making an appearance or will be participating in the argument at the hearing. A list of names and emails must be sent to the CRD at ygrcrd@cand.uscourts.gov no later than March 27, 2026, at 12:00 PM PST. Civ LR 77-3(d). Persons granted access to court proceedings held by telephone or videoconference are reminded that photographing, recording, and  …(truncated)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72059948/18/google-llc-v-serpapi-llc/)
+
+### 📄 Doc #— — 2026-02-10
+
+Clerk's Notice AND ~Util - Teleconference Zoom
+
+### 📄 Doc #17 — 2026-01-23
+
+ORDER Re: 14 Stipulation. Motion to Dismiss due by 2/20/2026. Response due by 4/6/2026. Reply due by 5/6/2026. Signed by Judge Yvonne Gonzalez Rogers on 1/23/2026. (eac, COURT STAFF) (Filed on 1/23/2026) (Entered: 01/23/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72059948/17/google-llc-v-serpapi-llc/)
+
+### 📄 Doc #14 — 2026-01-21
+
+STIPULATION - Joint Stipulation Extending Deadline to Respond to the Complaint and Requesting Order Establishing Briefing Schedule filed by SerpApi, LLC. (Attachments: # 1 Declaration of Colin R. Kass)(Clark, Joseph) (Filed on 1/21/2026) (Entered: 01/21/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72059948/14/1/google-llc-v-serpapi-llc/)
+
+### 📄 Doc #— — 2026-01-21
+
+Notice of Appearance/Substitution/Change/Withdrawal of Attorney
+
+### 📄 Doc #9 — 2026-01-05
+
+ORDER REASSIGNING CASE IT IS ORDERED that this case is reassigned using a proportionate, random and blind system pursuant to General Order No. 44 to Judge Yvonne Gonzalez Rogers. Magistrate Judge Alex G. Tse no longer assigned to the case. Counsel are instructed that all future filings shall bear the updated judicial initials immediately after the case number. Counsel are reminded to verify the location of the judge on the court website. All hearing and trial dates presently scheduled are vacated. However, existing briefing schedules for motions remain unchanged. Motions must be renoticed for hearing before the judge to whom the case has been reassigned, but the renoticing of the hearing does not affect the prior briefing schedule. Other deadlines such as those for ADR compliance and discovery cutoff also remain unchanged. Notice: The assigned judge participates in the Cameras in the Courtroom Pilot Project. See General Order 65 and cand.uscourts.gov/cameras. Mark B. Busby Clerk, Unite …(truncated)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72059948/9/google-llc-v-serpapi-llc/)
+
+### 📄 Doc #8 — 2026-01-05
+
+CLERK'S NOTICE OF IMPENDING REASSIGNMENT TO A U.S. DISTRICT COURT JUDGE: The Clerk of this Court will now reassign this case to a District Judge because a party has not consented to the jurisdiction of a Magistrate Judge. You will be informed by separate notice of the district judge to whom this case is reassigned. ALL HEARING DATES PRESENTLY SCHEDULED BEFORE THE CURRENT MAGISTRATE JUDGE ARE VACATED AND SHOULD BE RE-NOTICED FOR HEARING BEFORE THE JUDGE TO WHOM THIS CASE IS REASSIGNED. This is a text only docket entry; there is no document associated with this notice. (shy, COURT STAFF) (Filed on 1/5/2026) (Entered: 01/05/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72059948/8/google-llc-v-serpapi-llc/)
+
+### 📄 Doc #11 — 2026-01-05
+
+CLERK'S NOTICE SETTING CASE MANAGEMENT CONFERENCE. You are hereby notified that the Initial Case Management Conference will be held by Zoom Webinar. Joint Case Management Statement due by 3/16/2026. Initial Case Management Conference set for 3/23/2026, at 02:00 PM in Oakland, - Videoconference Only. This proceeding will be held via a Zoom webinar. Webinar Access: All counsel, members of the public, and media may access the webinar information at https://www.cand.uscourts.gov/ygr Court Appearances: Advanced notice is required of counsel or parties who wish to be identified by the court as making an appearance or will be participating in the argument at the hearing. A list of names and emails must be sent to the CRD at ygrcrd@cand.uscourts.gov no later than March 20, 2026, at 12:00 PM PST. Civ LR 77-3(d). Persons granted access to court proceedings held by telephone or videoconference are reminded that photographing, recording, and rebroadcasting of court proceedings, including screensho …(truncated)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72059948/11/google-llc-v-serpapi-llc/)
+
+### 📄 Doc #— — 2026-01-05
+
+Case Assigned/Reassigned
+
+### 📄 Doc #— — 2026-01-05
+
+Clerk's Notice of Impending Reassignment - Text Only
+
+### 📄 Doc #7 — 2026-01-02
+
+CONSENT/DECLINATION to Proceed Before a US Magistrate Judge by Google LLC.. (Kramer, David) (Filed on 1/2/2026) (Entered: 01/02/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72059948/7/google-llc-v-serpapi-llc/)
+
+### 📄 Doc #— — 2025-12-22
+
+Set Deadlines/Hearings: Case Management Statement due by 3/13/2026. Initial Case Management Conference set for 3/20/2026 02:00 PM in San Francisco, - Videoconference Only. See docket 5 . (kam2, COURT STAFF) (Filed on 12/22/2025)
+
+### 📄 Doc #— — 2025-12-22
+
+Set Deadlines/Hearings
+
+### 📄 Doc #— — 2025-12-19
+
+Complaint
+
+### 📄 Doc #— — 2025-12-19
+
+Proposed Summons
+
+### 📄 Doc #— — 2025-12-19
+
+Certificate of Interested Entities, Corporate Disclosure Statement, or Rule 7.1 Disclosures
+
+### 📄 Doc #— — 2025-12-19
+
+Initial Case Management Scheduling Order with ADR Deadlines
+
+### 📄 Doc #— — 2025-12-19
+
+Summons Issued
+
+### 📄 Doc #5 — 2025-12-19
+
+Initial Case Management Scheduling Order with ADR Deadlines: Case Management Statement due by 3/13/2026. Initial Case Management Conference set for 3/20/2026 02:00 AM in San Francisco, - Videoconference Only. (kam2, COURT STAFF) (Filed on 12/19/2025) Modified on 12/22/2025 (kam2, COURT STAFF). (Entered: 12/19/2025)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72059948/5/google-llc-v-serpapi-llc/)
+
+### 📄 Doc #4 — 2025-12-19
+
+Case assigned to Magistrate Judge Alex G. Tse. Counsel for plaintiff or the removing party is responsible for serving the Complaint or Notice of Removal, Summons and the assigned judge's standing orders and all other new case documents upon the opposing parties. For information, visit E-Filing A New Civil Case at http://cand.uscourts.gov/ecf/caseopening.Standing orders can be downloaded from the court's web page at www.cand.uscourts.gov/judges. Upon receipt, the summons will be issued and returned electronically. A scheduling order will be sent by Notice of Electronic Filing (NEF) within two business days. Consent/Declination due by 1/2/2026. (pjf, COURT STAFF) (Filed on 12/19/2025) (Entered: 12/19/2025)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72059948/4/google-llc-v-serpapi-llc/)
+
+### 📄 Doc #— — 2025-12-19
+
+~Util - Case Assigned by Intake
+
+### 📄 Doc #1 — 2025-12-19
+
+COMPLAINT against SerpApi, LLC ( Filing fee $ 405, receipt number ACANDC-21469652.). Filed by Google LLC. (Kramer, David) (Filed on 12/19/2025) (Entered: 12/19/2025)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72059948/1/google-llc-v-serpapi-llc/)
+
+### 📄 Doc #2 — 2025-12-19
+
+Proposed Summons. (Kramer, David) (Filed on 12/19/2025) (Entered: 12/19/2025)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72059948/2/google-llc-v-serpapi-llc/)
+
+<details>
+<summary>已過濾的 13 筆程序性 entries（點擊展開）</summary>
+
+- **Doc #26** (2026-03-23): Corporate Disclosure Statement by SerpApi, LLC identifying Other Affiliate Julien Khaleghy for SerpApi, LLC. (Clark, Joseph) (Filed on 3/23/2026) (Entered: 03/23/2026)
+- **Doc #23** (2026-03-05): NOTICE of Appearance filed by Lucy Yen on behalf of Google LLC (Yen, Lucy) (Filed on 3/5/2026) (Entered: 03/05/2026)
+- **Doc #19** (2026-02-19): NOTICE of Appearance filed by Heather Tovar on behalf of SerpApi, LLC (Tovar, Heather) (Filed on 2/19/2026) (Entered: 02/19/2026)
+- **Doc #20** (2026-02-19): Supplemental MOTION for leave to appear in Pro Hac Vice ( Filing fee $ 328, receipt number ACANDC-21566211.) Filing fee previously paid on 01/21/26 filed by SerpApi, LLC. (Kass, Colin) (Filed on 2/19/…
+- **Doc #21** (2026-02-19): Supplemental MOTION for leave to appear in Pro Hac Vice ( Filing fee $ 328, receipt number ACANDC-21566271.) Filing fee previously paid on 01/21/2026 filed by SerpApi, LLC. (Munkittrick, David) (Filed…
+- **Doc #—** (2026-02-11): Electronic filing error. These filings will not be processed by the clerks office. Re: 15 MOTION for leave to appear in Pro Hac Vice ( Filing fee $ 328, receipt number ACANDC-21566211.) filed by SerpA…
+- **Doc #16** (2026-01-21): MOTION for leave to appear in Pro Hac Vice ( Filing fee $ 328, receipt number ACANDC-21566271.) filed by SerpApi, LLC. (Munkittrick, David) (Filed on 1/21/2026) (Entered: 01/21/2026)
+- **Doc #13** (2026-01-21): Corporate Disclosure Statement by SerpApi, LLC identifying Corporate Parent None for SerpApi, LLC. (Clark, Joseph) (Filed on 1/21/2026) (Entered: 01/21/2026)
+- **Doc #15** (2026-01-21): MOTION for leave to appear in Pro Hac Vice ( Filing fee $ 328, receipt number ACANDC-21566211.) filed by SerpApi, LLC. (Kass, Colin) (Filed on 1/21/2026) (Entered: 01/21/2026)
+- **Doc #12** (2026-01-21): NOTICE of Appearance filed by Joseph Emanuel Clark on behalf of SerpApi, LLC (Clark, Joseph) (Filed on 1/21/2026) (Entered: 01/21/2026)
+- **Doc #10** (2026-01-05): SUMMONS Returned Executed by Google LLC. SerpApi, LLC served on 12/31/2025, answer due 1/21/2026. (Kramer, David) (Filed on 1/5/2026) (Entered: 01/05/2026)
+- **Doc #6** (2025-12-19): Summons Issued as to SerpApi, LLC. (kam2, COURT STAFF) (Filed on 12/19/2025) (Entered: 12/19/2025)
+- **Doc #3** (2025-12-19): Corporate Disclosure Statement by Google LLC identifying Other Affiliate Alphabet Inc., Holding Company of XXVI Holdings Inc., Other Affiliate XXVI Holdings, Inc., Holding Company of Google LLC for Go…
+
+</details>
+
+---
+
+*產生時間：2026-04-27 03:20 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
