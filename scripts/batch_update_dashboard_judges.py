@@ -26,7 +26,7 @@ SKIP_CASES = {1, 6, 7}
 PRESERVE_KEYWORDS = ["現審", "原審", "panel", "Magistrate", "／", "/"]
 
 
-def parse_case_md(md_path: Path) -> dict | None:
+def parse_case_md(md_path):
     """Parse a case .md file. Return dict with case_id, cl_judge, cl_court_short."""
     text = md_path.read_text()
     m = re.search(r"^# Case (\d+) — ", text, re.M)
@@ -41,7 +41,7 @@ def parse_case_md(md_path: Path) -> dict | None:
     return {"case_id": cid, "cl_judge": judge, "md": md_path.name}
 
 
-def update_html_judge(html_path: Path, updates: list[tuple[int, str, str]]) -> int:
+def update_html_judge(html_path, updates):
     """
     For each (case_id, old_judge, new_judge), find:
         "id": N,
@@ -71,7 +71,7 @@ def update_html_judge(html_path: Path, updates: list[tuple[int, str, str]]) -> i
     return edits
 
 
-def get_dashboard_judge(html_text: str, case_id: int) -> str | None:
+def get_dashboard_judge(html_text, case_id):
     pat = re.compile(
         r'"id":\s*' + str(case_id) + r'\s*,\s*'
         r'"name":\s*"[^"]*"\s*,\s*'
@@ -97,8 +97,8 @@ def main():
 
     print(f"[+] Loaded {len(cases_data)} case .md files")
 
-    updates: list[tuple[int, str, str]] = []
-    skipped: list[tuple[int, str, str]] = []
+    updates = []
+    skipped = []
     for c in cases_data:
         cid = c["case_id"]
         cl_judge = c["cl_judge"]

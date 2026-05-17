@@ -155,12 +155,22 @@ python3 scripts/scan_case_trackers.py
 
 ## 8. 已知待修 / TODO
 
-- [ ] repo 內 `com.tyj.dashboard-autopush.plist` 寫舊 iCloud 路徑，跟 `~/Library/LaunchAgents/` 不同步 → 把 in-repo 那份更新成跟 live plist 一致（純文件衛生，不影響運作）。
-- [ ] `cases/_index.md` 顯示 50/100 案件 dashboard 卡片 metadata 跟 CourtListener 不一致（judge、court、docket 等）→ 跑 `batch_update_dashboard_judges.py` 自動修一批。
-- [ ] dashboard 多個案件「進度落後 30+ 天」（case 10、58、59 等）→ 重跑 `batch_refresh.py` 把 docket entries 拉到最新。
-- [ ] `index.html` 跟 `dashboard.html` 內容看起來像兩份不同步的版本（檔名 / 大小差很多）→ 確認哪份是 canonical，把另一份刪掉或變 symlink。
-- [ ] 一堆根目錄 `*.log` 跟 `cowork-cleanup-*.log` / `murakami-audit.log` 是過去 audit 殘留 → 可移到 `archive/` 子資料夾。
-- [ ] `auto-push.sh.bak.20260418`、`dashboard.html.bak-2026-04-11T*` 等備份檔 → 確認 git history 已涵蓋後可刪。
+**2026-05-17 housekeeping pass — 處理 6 個 TODO 結果：**
+
+- [x] ~~repo 內 `com.tyj.dashboard-autopush.plist` 寫舊 iCloud 路徑~~ → 已同步 live (commit 5f72b48)
+- [x] ~~一堆根目錄 audit log 殘留~~ → 已移到 `archive/audit-logs/` (commit 5f72b48)
+- [x] ~~`.bak` 備份檔~~ → 已 `git rm` 2 個 tracked、`archive/` 收容 1 個 untracked (commit 5f72b48)
+- [x] ~~`index.html` vs `dashboard.html` 不同步~~ → **發現 GH Pages 服務的 index.html 落後 3 週**！已 sync + 改 `auto-push.sh` 之後自動 mirror (commit a0bed3f)
+- [x] ~~`cases/_index.md` 50 案不符~~ → 假警報。daily-brief 過去 3 週已把 dashboard 改到位，抽查 11 件全對。`_index.md` 是 2026-04-27 stale 報告，無 script 自動重生，**用時請忽略**或手動重整。
+- [ ] **`batch_refresh.py` 把 104 個 case .md 拉到最新** → 需 `COURTLISTENER_TOKEN` env var；會用 ~10 分鐘 + 巨大 git diff。動手前 export token 再 `python3 scripts/batch_refresh.py --all`。優先：先跑 `--case 10,58,59` 確認最關鍵那幾件落後是否真實。
+
+**新發現 / 順手做的事：**
+
+- [x] 105 case 檔 + 8 scripts 全進 git（先前 untracked）(commit 88e7a9d)
+- [x] `.gitignore` 補 `node_modules/`、`__pycache__/`、`.env*`、`.claude/settings.local.json`、`.claude/worktrees/`
+- [x] `batch_update_dashboard_judges.py` 的 Python 3.9 type-hint bug 修掉（`dict | None` → `dict`；本機 macOS Python 3.9 不吃新語法）
+- [ ] `_index.md` 沒有自動重生機制 → 寫一個 script 比對 `cases/case-*.md` 的 Judge Assigned 與 dashboard.html 的 `"judge"` 欄位，產出真正反映「現況不符」的清單。或者直接刪掉 `_index.md`，避免下次又被它誤導。
+- [ ] `index.html` 跟 `dashboard.html` 兩份檔案重複佔空間（~400KB × 2）。若想徹底去重：刪 `index.html`、改 GH Pages config 服務 `dashboard.html`，或加 1 行 HTML meta-refresh redirect 在 index.html。目前 auto-push.sh 已自動 mirror，無功能差異。
 
 ---
 
