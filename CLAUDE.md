@@ -162,7 +162,7 @@ python3 scripts/scan_case_trackers.py
 - [x] ~~`.bak` 備份檔~~ → 已 `git rm` 2 個 tracked、`archive/` 收容 1 個 untracked (commit 5f72b48)
 - [x] ~~`index.html` vs `dashboard.html` 不同步~~ → **發現 GH Pages 服務的 index.html 落後 3 週**！已 sync + 改 `auto-push.sh` 之後自動 mirror (commit a0bed3f)
 - [x] ~~`cases/_index.md` 50 案不符~~ → 假警報。daily-brief 過去 3 週已把 dashboard 改到位，抽查 11 件全對。`_index.md` 是 2026-04-27 stale 報告，無 script 自動重生，**用時請忽略**或手動重整。
-- [ ] **`batch_refresh.py` 把 104 個 case .md 拉到最新** → 需 `COURTLISTENER_TOKEN` env var；會用 ~10 分鐘 + 巨大 git diff。動手前 export token 再 `python3 scripts/batch_refresh.py --all`。優先：先跑 `--case 10,58,59` 確認最關鍵那幾件落後是否真實。
+- [~] **`batch_refresh.py` 把 104 個 case .md 拉到最新** — **2026-05-17 主動暫緩**。已修 `fetch_courtlistener_docket.py` 的 Python 3.9 type-hint bug（commit `9f840c7`），script 本身可跑。實測時 CL API 回 401 invalid token，2 輪除錯（疑似 `<>` 括號被一起貼進去）後 YJ 決定不繼續。case .md 維持 2026-04-27 fetch 版本，dashboard.html 由 daily-brief 每日自動更新與 case 檔脫鉤無妨。未來想跑：`export COURTLISTENER_TOKEN=<從 CL profile 重生>`，再 `python3 scripts/batch_refresh.py --case 6` 驗證；通了再 `--all`。
 
 **新發現 / 順手做的事：**
 
