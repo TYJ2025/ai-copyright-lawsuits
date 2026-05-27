@@ -6389,17 +6389,18 @@ function openStatsModal(type) {
 // Drill state set by chart drill-downs; cleared when user touches the regular filters
 let chartDrillCountry = null;
 let chartDrillWorkType = null;
+let chartDrillDefendant = null;
 
 function clearChartDrill() {
   chartDrillCountry = null;
   chartDrillWorkType = null;
+  chartDrillDefendant = null;
 }
 
 function drillIntoCases(drill, value) {
   closeStatsModal();
   // Reset prior drill / search / adv filters so the count matches the chart click
-  chartDrillCountry = null;
-  chartDrillWorkType = null;
+  clearChartDrill();
   const sIn = document.getElementById('searchInput'); if (sIn) sIn.value = '';
   const jSel = document.getElementById('filterJurisdiction'); if (jSel) jSel.value = 'all';
   const tSel = document.getElementById('filterTech'); if (tSel) tSel.value = 'all';
@@ -6407,7 +6408,7 @@ function drillIntoCases(drill, value) {
 
   if (drill === 'defendant') {
     activeFilter = 'all';
-    if (sIn) sIn.value = value;
+    chartDrillDefendant = value;
   } else if (drill === 'country') {
     activeFilter = 'non-us';
     chartDrillCountry = value;
@@ -6528,7 +6529,8 @@ function renderCaseList() {
   const tFilter = document.getElementById('filterTech')?.value || 'all';
   const pFilter = document.getElementById('filterPlaintiff')?.value || 'all';
   // Sync drill banner
-  if (chartDrillWorkType) showDrillBanner(`類型 = ${chartDrillWorkType}`);
+  if (chartDrillDefendant) showDrillBanner(`被告 = ${chartDrillDefendant}`);
+  else if (chartDrillWorkType) showDrillBanner(`類型 = ${chartDrillWorkType}`);
   else if (chartDrillCountry) showDrillBanner(`國別 = ${chartDrillCountry}`);
   else hideDrillBanner();
   const filtered = cases.filter(c => {
@@ -6538,6 +6540,11 @@ function renderCaseList() {
     } else if (activeFilter === 'non-us') {
       if (!isNonUS(c)) return false;
     } else if (activeFilter !== 'all' && c.status !== activeFilter) return false;
+    // Chart drill: defendant (match against normalized defendant tokens of the case)
+    if (chartDrillDefendant) {
+      const ds = c.defendants.split(',').map(d => normalizeDefendant(d));
+      if (!ds.includes(chartDrillDefendant)) return false;
+    }
     // Chart drill: workType
     if (chartDrillWorkType && classifyWorkType(c) !== chartDrillWorkType) return false;
     // Chart drill: country
