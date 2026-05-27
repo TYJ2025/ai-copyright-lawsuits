@@ -6250,77 +6250,79 @@ function countMap(arr) {
   return Object.entries(m).sort((a,b) => b[1] - a[1]);
 }
 
-function renderBarChart(data, colorClass, maxItems) {
+function escAttr(s) { return String(s).replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/</g, '&lt;'); }
+
+function renderBarChart(data, colorClass, maxItems, drillType) {
   const items = maxItems ? data.slice(0, maxItems) : data;
   const max = items[0] ? items[0][1] : 1;
-  return items.map(([label, count]) => `
-    <div class="chart-row">
+  return items.map(([label, count]) => {
+    const drillAttrs = drillType ? `data-drill="${drillType}" data-value="${escAttr(label)}" role="button" tabindex="0"` : '';
+    const cls = drillType ? 'chart-row chart-row-clickable' : 'chart-row';
+    return `
+    <div class="${cls}" ${drillAttrs}>
       <div class="chart-label" title="${label}">${label}</div>
       <div class="chart-bar-wrap"><div class="chart-bar ${colorClass}" style="width:${Math.max((count/max)*100, 3)}%"></div></div>
       <div class="chart-count">${count}</div>
-    </div>`).join('');
+    </div>`;
+  }).join('');
+}
+
+function classifyCountry(c) {
+  const ct = c.court;
+  if (/UK|英國/.test(ct)) return '🇬🇧 英國';
+  if (/France|Paris|法國/.test(ct)) return '🇫🇷 法國';
+  if (/German|Munich|Hamburg|德國|漢堡/.test(ct)) return '🇩🇪 德國';
+  if (/Canada|Ontario|加拿大/.test(ct)) return '🇨🇦 加拿大';
+  if (/India|Delhi|印度/.test(ct)) return '🇮🇳 印度';
+  if (/CJEU|European Union|歐盟/.test(ct)) return '🇪🇺 歐盟';
+  if (/Denmark|丹麥|Copenhagen/.test(ct)) return '🇩🇰 丹麥';
+  if (/Korea|韓國|Seoul/.test(ct)) return '🇰🇷 韓國';
+  if (/China|中國|北京|廣州|杭州|Beijing|Guangzhou/.test(ct)) return '🇨🇳 中國';
+  if (/Japan|日本|Tokyo/.test(ct)) return '🇯🇵 日本';
+  if (/Brazil|巴西/.test(ct)) return '🇧🇷 巴西';
+  if (/Italy|義大利/.test(ct)) return '🇮🇹 義大利';
+  if (/Netherlands|荷蘭/.test(ct)) return '🇳🇱 荷蘭';
+  return '其他';
+}
+
+function caseRowHTML(c) {
+  return `<div class="settled-item settled-item-clickable" data-case-id="${c.id}" role="button" tabindex="0"><div class="settled-name">${c.name}</div><div class="settled-detail">${c.court}${c.defendants ? ' — ' + c.defendants : ''}</div></div>`;
 }
 
 function getChartData(type) {
   switch(type) {
     case 'total': {
       const types = countMap(cases.map(classifyWorkType));
-      return { title: '案件類型分布 Case Types', subtitle: `全部 ${cases.length} 件案件依涉及著作類型分類`, html: renderBarChart(types, 'navy') };
+      return { title: '案件類型分布 Case Types', subtitle: `全部 ${cases.length} 件案件依涉及著作類型分類`, html: renderBarChart(types, 'navy', null, 'workType:all') };
     }
     case 'us': {
       const usCases = cases.filter(c => !isNonUS(c));
       const types = countMap(usCases.map(classifyWorkType));
-      return { title: '🇺🇸 美國案件類型 US Case Types', subtitle: `${usCases.length} 件美國案件依涉及著作類型分類`, html: renderBarChart(types, 'blue') };
+      return { title: '🇺🇸 美國案件類型 US Case Types', subtitle: `${usCases.length} 件美國案件依涉及著作類型分類`, html: renderBarChart(types, 'blue', null, 'workType:us') };
     }
     case 'nonus': {
       const nuCases = cases.filter(isNonUS);
-      const countries = nuCases.map(c => {
-        const ct = c.court;
-        if (/UK|英國/.test(ct)) return '🇬🇧 英國';
-        if (/France|Paris|法國/.test(ct)) return '🇫🇷 法國';
-        if (/German|Munich|Hamburg|德國|漢堡/.test(ct)) return '🇩🇪 德國';
-        if (/Canada|Ontario|加拿大/.test(ct)) return '🇨🇦 加拿大';
-        if (/India|Delhi|印度/.test(ct)) return '🇮🇳 印度';
-        if (/CJEU|European Union|歐盟/.test(ct)) return '🇪🇺 歐盟';
-        if (/Denmark|丹麥|Copenhagen/.test(ct)) return '🇩🇰 丹麥';
-        if (/Korea|韓國|Seoul/.test(ct)) return '🇰🇷 韓國';
-        if (/China|中國|北京|廣州|杭州|Beijing|Guangzhou/.test(ct)) return '🇨🇳 中國';
-        if (/Japan|日本|Tokyo/.test(ct)) return '🇯🇵 日本';
-        if (/Brazil|巴西/.test(ct)) return '🇧🇷 巴西';
-        if (/Italy|義大利/.test(ct)) return '🇮🇹 義大利';
-        if (/Netherlands|荷蘭/.test(ct)) return '🇳🇱 荷蘭';
-        return '其他';
-      });
-      const data = countMap(countries);
-      return { title: '🌏 非美國案件分布 Non-US by Country', subtitle: `${nuCases.length} 件非美國案件依國家/地區分類`, html: renderBarChart(data, 'orange') };
+      const data = countMap(nuCases.map(classifyCountry));
+      return { title: '🌏 非美國案件分布 Non-US by Country', subtitle: `${nuCases.length} 件非美國案件依國家/地區分類`, html: renderBarChart(data, 'orange', null, 'country') };
     }
     case 'active': {
       const activeCases = cases.filter(c => c.status === 'active');
       const types = countMap(activeCases.map(classifyWorkType));
-      return { title: '審理中案件類型 Active Case Types', subtitle: `${activeCases.length} 件審理中案件依著作類型分類`, html: renderBarChart(types, 'navy') };
+      return { title: '審理中案件類型 Active Case Types', subtitle: `${activeCases.length} 件審理中案件依著作類型分類`, html: renderBarChart(types, 'navy', null, 'workType:active') };
     }
     case 'appeal': {
       const appealCases = cases.filter(c => c.status === 'appeal');
-      let html = '<div class="chart-subtitle">上訴中案件一覽</div>';
-      appealCases.forEach(c => {
-        html += `<div class="settled-item"><div class="settled-name">${c.name}</div><div class="settled-detail">${c.court}</div></div>`;
-      });
+      const html = '<div class="chart-subtitle">上訴中案件一覽（點擊跳至案件詳情）</div>' + appealCases.map(caseRowHTML).join('');
       return { title: '上訴中案件 Appeals', subtitle: '', html };
     }
     case 'mdl': {
       const mdlCases = cases.filter(c => c.status === 'mdl');
-      let html = '<div class="chart-subtitle">已合併至多地區訴訟（MDL）之案件</div>';
-      mdlCases.forEach(c => {
-        html += `<div class="settled-item"><div class="settled-name">${c.name}</div><div class="settled-detail">${c.defendants}</div></div>`;
-      });
+      const html = '<div class="chart-subtitle">已合併至多地區訴訟（MDL）之案件（點擊跳至案件詳情）</div>' + mdlCases.map(caseRowHTML).join('');
       return { title: 'MDL 合併案件 MDL Cases', subtitle: '', html };
     }
     case 'settled': {
       const settledCases = cases.filter(c => c.status === 'settled');
-      let html = '<div class="chart-subtitle">和解 / 駁回 / 撤回案件一覽</div>';
-      settledCases.forEach(c => {
-        html += `<div class="settled-item"><div class="settled-name">${c.name}</div><div class="settled-detail">${c.defendants}</div></div>`;
-      });
+      const html = '<div class="chart-subtitle">和解 / 駁回 / 撤回案件一覽（點擊跳至案件詳情）</div>' + settledCases.map(caseRowHTML).join('');
       return { title: '和解案件 Settled/Dismissed', subtitle: '', html };
     }
     case 'defendants': {
@@ -6332,7 +6334,7 @@ function getChartData(type) {
         });
       });
       const data = countMap(allDefs).slice(0, 15);
-      return { title: '被告企業排名 Top Defendants', subtitle: `依被訴次數排名前 15 名`, html: renderBarChart(data, 'gold', 15) };
+      return { title: '被告企業排名 Top Defendants', subtitle: `依被訴次數排名前 15 名（點擊個別被告查看相關案件）`, html: renderBarChart(data, 'gold', 15, 'defendant') };
     }
     default:
       return { title: '', subtitle: '', html: '' };
