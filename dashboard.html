@@ -1548,11 +1548,29 @@
     padding-bottom: 10px;
     border-bottom: 1px solid #f0ebe0;
   }
+  .chart-row-clickable {
+    cursor: pointer;
+    padding: 6px 8px;
+    margin: 0 -8px 4px -8px;
+    border-radius: 6px;
+    transition: background 0.15s;
+  }
+  .chart-row-clickable:hover { background: #faf8f4; }
+  .chart-row-clickable:hover .chart-label { color: var(--navy); text-decoration: underline; }
   .settled-item {
     padding: 10px 0;
     border-bottom: 1px solid #f0ebe0;
   }
   .settled-item:last-child { border-bottom: none; }
+  .settled-item-clickable {
+    cursor: pointer;
+    padding: 10px 8px;
+    margin: 0 -8px;
+    border-radius: 6px;
+    transition: background 0.15s;
+  }
+  .settled-item-clickable:hover { background: #faf8f4; }
+  .settled-item-clickable:hover .settled-name { text-decoration: underline; }
   .settled-name {
     font-weight: 600;
     color: var(--navy);
