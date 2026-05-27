@@ -1030,5 +1030,35 @@
     "primary_docket_id": 70704683,
     "secondary_docket_ids": [],
     "progress_excerpt": "2025/6/5 於 SF Superior Court 起訴（CGC-25-625892），Anthropic 移送 N.D. Cal.（3:25-cv-05643）。2026/3/30 Thompson 法官裁定 §301 著作權 preemption 不吸收 Reddit 之違約、不當得利、trespass to chattels、妨害契約、UCL §17200 等州法請求權，准予發回州法院。陪審審判排定 2028/2/14–3/8。罕見全部以州法請求權對 AI 業者起訴之案件，無聯邦著作權請求。"
+  },
+  {
+    "case_id": 136,
+    "name": "Wixen Music Publishing v. Meta Platforms",
+    "court": "C.D. Cal. 2:26-cv-00752",
+    "judge": "John F. Walter（District Judge）／Alka Sagar（Magistrate）",
+    "status": "active",
+    "primary_docket_id": 72184965,
+    "secondary_docket_ids": [],
+    "progress_excerpt": "2026/1/23 Wixen 於 C.D. Cal. 起訴（2:26-cv-00752）。2026/3/11 Walter 法官准予將 Meta 答辯期延展至 5/7；3/19 核可 Meta 律師 pro hac vice。2026/5 修正起訴狀擴大涉案歌曲為 681 首、求償提高至 $102M+，強化 AI 生成音樂市場替代之合理使用第四要件論點。"
+  },
+  {
+    "case_id": 137,
+    "name": "Poseidon Wave Media v. Suno",
+    "court": "S.D.N.Y. 1:26-cv-03921",
+    "judge": "P. Kevin Castel（District Judge）／Stewart D. Aaron（Magistrate）",
+    "status": "active",
+    "primary_docket_id": 73328849,
+    "secondary_docket_ids": [],
+    "progress_excerpt": "2026/5/12 The American Dollar 後搖樂團之著作權持有公司 Poseidon Wave 於 S.D.N.Y. 起訴 Suno（1:26-cv-03921），分案 P. Kevin Castel 法官。涉 236 件錄音與詞曲，求償約 $35M。主張 sync licensing 收入因 Suno 上線斷崖式蒸發 80%，為 AI 生成音樂直接替代既有授權市場之首件量化證據。"
+  },
+  {
+    "case_id": 138,
+    "name": "Elsevier / Hachette / Macmillan / McGraw Hill / Cengage + Scott Turow v. Meta Platforms",
+    "court": "S.D.N.Y. 1:26-cv-03689",
+    "judge": "P. Kevin Castel（District Judge）／Robyn F. Tarnofsky（Magistrate）",
+    "status": "active",
+    "primary_docket_id": 73294740,
+    "secondary_docket_ids": [],
+    "progress_excerpt": "2026/5/5 出版商聯盟（Elsevier、Hachette、Macmillan、McGraw Hill、Cengage）+ Scott Turow 於 S.D.N.Y. 起訴 Meta 與 Zuckerberg（1:26-cv-03689）。Castel 法官分案。為 Bartz v. Anthropic 後第二件出版商主導之 AI 著作權巨型集體訴訟，亦為首件將 Mark Zuckerberg 列為個人被告之 AI 訓練侵權案。主張 Meta 自 LibGen、Anna's Archive 抓取數百萬本書與學術期刊訓練 Llama，2023/4 Zuckerberg 個人指示放棄授權談判。集體界定以 ISBN/DOI/ISSN 為界。"
   }
 ]
