@@ -6186,12 +6186,22 @@ function buildStats() {
     <div class="stat-box" data-filter="settled" data-chart="settled"><div class="stat-num">${settled}</div><div class="stat-label">和解 Settled</div></div>
     <div class="stat-box" data-filter="all" data-chart="defendants"><div class="stat-num">${defendants}</div><div class="stat-label">被告企業 Defendants</div></div>
   `;
-  // Make stat boxes clickable — show chart modal
+  // Make stat boxes clickable — filter case list + scroll to it
   document.querySelectorAll('.stat-box').forEach(box => {
     box.addEventListener('click', (e) => {
       e.stopPropagation();
-      const chartType = box.dataset.chart;
-      if (chartType) openStatsModal(chartType);
+      const filter = box.dataset.filter;
+      if (!filter) return;
+      activeFilter = filter;
+      // Reset advanced filters & search so the count matches what the user just clicked
+      const jSel = document.getElementById('filterJurisdiction'); if (jSel) jSel.value = 'all';
+      const tSel = document.getElementById('filterTech'); if (tSel) tSel.value = 'all';
+      const pSel = document.getElementById('filterPlaintiff'); if (pSel) pSel.value = 'all';
+      const sIn  = document.getElementById('searchInput'); if (sIn) sIn.value = '';
+      buildFilters();
+      renderCaseList();
+      const target = document.querySelector('.main');
+      if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
     });
   });
 }
