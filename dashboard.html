@@ -6347,6 +6347,61 @@ function openStatsModal(type) {
   document.getElementById('statsModalBody').innerHTML = (subtitle ? `<div class="chart-subtitle">${subtitle}</div>` : '') + html;
   document.getElementById('statsModal').classList.add('open');
   document.body.style.overflow = 'hidden';
+
+  // Wire up drill-down clicks inside the modal
+  const body = document.getElementById('statsModalBody');
+  body.querySelectorAll('[data-drill]').forEach(el => {
+    const handler = () => drillIntoCases(el.dataset.drill, el.dataset.value);
+    el.addEventListener('click', handler);
+    el.addEventListener('keydown', (e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); handler(); } });
+  });
+  body.querySelectorAll('.settled-item-clickable[data-case-id]').forEach(el => {
+    const handler = () => {
+      const id = parseInt(el.dataset.caseId);
+      closeStatsModal();
+      showDetail(id);
+      const dp = document.getElementById('detailPanel');
+      if (dp) dp.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    };
+    el.addEventListener('click', handler);
+    el.addEventListener('keydown', (e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); handler(); } });
+  });
+}
+
+// Drill state set by chart drill-downs; cleared when user touches the regular filters
+let chartDrillCountry = null;
+let chartDrillWorkType = null;
+
+function clearChartDrill() {
+  chartDrillCountry = null;
+  chartDrillWorkType = null;
+}
+
+function drillIntoCases(drill, value) {
+  closeStatsModal();
+  // Reset prior drill / search / adv filters so the count matches the chart click
+  chartDrillCountry = null;
+  chartDrillWorkType = null;
+  const sIn = document.getElementById('searchInput'); if (sIn) sIn.value = '';
+  const jSel = document.getElementById('filterJurisdiction'); if (jSel) jSel.value = 'all';
+  const tSel = document.getElementById('filterTech'); if (tSel) tSel.value = 'all';
+  const pSel = document.getElementById('filterPlaintiff'); if (pSel) pSel.value = 'all';
+
+  if (drill === 'defendant') {
+    activeFilter = 'all';
+    if (sIn) sIn.value = value;
+  } else if (drill === 'country') {
+    activeFilter = 'non-us';
+    chartDrillCountry = value;
+  } else if (drill && drill.startsWith('workType')) {
+    const scope = drill.split(':')[1] || 'all';
+    activeFilter = scope; // 'all' | 'us' | 'active'
+    chartDrillWorkType = value;
+  }
+  buildFilters();
+  renderCaseList();
+  const target = document.querySelector('.main');
+  if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
 }
 function closeStatsModal() {
   document.getElementById('statsModal').classList.remove('open');
@@ -6372,6 +6427,7 @@ function buildFilters() {
   row.querySelectorAll('.filter-btn').forEach(btn => {
     btn.addEventListener('click', () => {
       activeFilter = btn.dataset.filter;
+      if (typeof clearChartDrill === 'function') clearChartDrill();
       buildFilters();
       renderCaseList();
     });
@@ -6425,7 +6481,26 @@ function resetAdvFilters() {
   document.getElementById('filterJurisdiction').value = 'all';
   document.getElementById('filterTech').value = 'all';
   document.getElementById('filterPlaintiff').value = 'all';
+  if (typeof clearChartDrill === 'function') clearChartDrill();
+  hideDrillBanner();
   renderCaseList();
+}
+
+function hideDrillBanner() {
+  const b = document.getElementById('drillBanner');
+  if (b) b.style.display = 'none';
+}
+function showDrillBanner(label) {
+  let b = document.getElementById('drillBanner');
+  if (!b) {
+    b = document.createElement('div');
+    b.id = 'drillBanner';
+    b.style.cssText = 'padding:8px 12px;margin:8px 0;background:#fff8e6;border:1px solid #f0c674;border-radius:4px;font-size:13px;display:flex;justify-content:space-between;align-items:center;gap:8px;';
+    const row = document.getElementById('filterRow');
+    if (row && row.parentNode) row.parentNode.insertBefore(b, row.nextSibling);
+  }
+  b.style.display = 'flex';
+  b.innerHTML = `<span>圖表篩選中：<strong>${label}</strong></span><button style="background:transparent;border:1px solid #c0a060;border-radius:4px;padding:2px 8px;cursor:pointer;font-size:12px;" onclick="clearChartDrill();hideDrillBanner();document.getElementById('searchInput').value='';renderCaseList();">清除</button>`;
 }
 
 function renderCaseList() {
@@ -6434,6 +6509,10 @@ function renderCaseList() {
   const jFilter = document.getElementById('filterJurisdiction')?.value || 'all';
   const tFilter = document.getElementById('filterTech')?.value || 'all';
   const pFilter = document.getElementById('filterPlaintiff')?.value || 'all';
+  // Sync drill banner
+  if (chartDrillWorkType) showDrillBanner(`類型 = ${chartDrillWorkType}`);
+  else if (chartDrillCountry) showDrillBanner(`國別 = ${chartDrillCountry}`);
+  else hideDrillBanner();
   const filtered = cases.filter(c => {
     // Status filter
     if (activeFilter === 'us') {
@@ -6441,6 +6520,10 @@ function renderCaseList() {
     } else if (activeFilter === 'non-us') {
       if (!isNonUS(c)) return false;
     } else if (activeFilter !== 'all' && c.status !== activeFilter) return false;
+    // Chart drill: workType
+    if (chartDrillWorkType && classifyWorkType(c) !== chartDrillWorkType) return false;
+    // Chart drill: country
+    if (chartDrillCountry && classifyCountry(c) !== chartDrillCountry) return false;
     // Advanced: Jurisdiction
     if (jFilter !== 'all' && classifyJurisdiction(c.court) !== jFilter) return false;
     // Advanced: Tech
