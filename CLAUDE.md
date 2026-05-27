@@ -86,6 +86,16 @@ const newsArchive = [...]  // > 3 天的歷史快訊，畫面下方折疊區
 - `scripts/batch_refresh.py` — 批次刷新所有案件
 - `scripts/scan_case_trackers.py` — 重新產生 `_index.md`
 - `scripts/batch_update_dashboard_judges.py` — 把 CourtListener 上的 judge 名稱回寫到 dashboard 卡片
+- `scripts/weekly_new_case_check.py` — **每週主動掃 CourtListener 找新立案**（不靠新聞）；輸出 `cases/_weekly_new_cases_YYYY-MM-DD.md`
+
+### 新案發現：兩層機制
+
+| 層 | 觸發 | 來源 | 輸出 |
+| --- | --- | --- | --- |
+| **被動（daily-brief 內建）** | 每日 07:07 | WebSearch 新聞 | `.daily-brief.log` 內 `🆕 疑似漏載案件` 段 |
+| **主動（weekly_new_case_check.py）** | launchd 每週一 08:00 | CourtListener Search API (NoS 820 + AI 關鍵字) | `cases/_weekly_new_cases_*.md` |
+
+被動層依賴媒體報導；主動層補上「剛立案、媒體還沒寫」的盲點。兩者去重邏輯都不會自動寫 `const cases` 陣列——僅輸出待人工審核清單。
 
 ---
 
@@ -99,6 +109,7 @@ const newsArchive = [...]  // > 3 天的歷史快訊，畫面下方折疊區
 | `batch_refresh.py` | 批次刷新所有案件 docket |
 | `batch_update_dashboard_judges.py` | 比對 dashboard judge 欄位與 CourtListener，回寫 |
 | `scan_case_trackers.py` | 掃 `cases/` 重產 `_index.md` |
+| `weekly_new_case_check.py` | 每週掃 CourtListener 找新立案，輸出待審清單 |
 | `cases_manifest.json` | 100 案 case_id ↔ docket_id mapping |
 | `install.sh` | 一次性安裝（plist 部署到 LaunchAgents） |
 | `HANDOVER.md` | 早期交接文件，內容已被本檔取代 |

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.tyj.weekly-new-cases</string>
+
+    <!--
+        每週一 08:00（台北時間）執行 weekly_new_case_check.py。
+        主動掃 CourtListener，找過去 7 天新立案、與 AI 相關、著作權類訴訟，
+        比對 dashboard.html 既有 const cases 陣列，把尚未列載者寫進
+        cases/_weekly_new_cases_YYYY-MM-DD.md。
+    -->
+    <key>ProgramArguments</key>
+    <array>
+        <string>/usr/bin/python3</string>
+        <string>/Users/jesuisjane/ClaudeProjects/AI Copyright Lawsuits Worldwide/scripts/weekly_new_case_check.py</string>
+        <string>--days</string>
+        <string>7</string>
+        <string>--verbose</string>
+    </array>
+
+    <key>StartCalendarInterval</key>
+    <dict>
+        <key>Weekday</key>
+        <integer>1</integer>
+        <key>Hour</key>
+        <integer>8</integer>
+        <key>Minute</key>
+        <integer>0</integer>
+    </dict>
+
+    <key>RunAtLoad</key>
+    <false/>
+
+    <key>ThrottleInterval</key>
+    <integer>600</integer>
+
+    <key>WorkingDirectory</key>
+    <string>/Users/jesuisjane/ClaudeProjects/AI Copyright Lawsuits Worldwide</string>
+
+    <key>StandardOutPath</key>
+    <string>/Users/jesuisjane/ClaudeProjects/AI Copyright Lawsuits Worldwide/.weekly-new-cases.stdout.log</string>
+    <key>StandardErrorPath</key>
+    <string>/Users/jesuisjane/ClaudeProjects/AI Copyright Lawsuits Worldwide/.weekly-new-cases.stdout.log</string>
+
+    <key>EnvironmentVariables</key>
+    <dict>
+        <key>PATH</key>
+        <string>/opt/homebrew/bin:/usr/local/bin:/Users/jesuisjane/.local/bin:/usr/bin:/bin:/usr/sbin:/sbin</string>
+        <key>HOME</key>
+        <string>/Users/jesuisjane</string>
+        <key>USER</key>
+        <string>jesuisjane</string>
+        <!--
+            ⚠️  COURTLISTENER_TOKEN 不寫在這裡（不要 commit token）。
+            正式部署時，把它放進 ~/Library/LaunchAgents/com.tyj.weekly-new-cases.plist 的這個 dict，
+            或改用 wrapper shell script 從 macOS Keychain 撈出。
+            建議寫法：
+              <key>COURTLISTENER_TOKEN</key>
+              <string>從 https://www.courtlistener.com/profile/api/ 重生</string>
+        -->
+    </dict>
+
+    <key>AbandonProcessGroup</key>
+    <false/>
+</dict>
+</plist>
