@@ -1698,6 +1698,9 @@
 
 <!-- ── Stats Bar ── -->
 <div class="stats-bar" id="statsBar"></div>
+<div class="stats-note" style="font-size:12px;line-height:1.6;color:var(--text-light);padding:8px 16px;border-top:1px dashed var(--border);">
+  📐 <strong>計數方法</strong>：本站採「併案計一」原則——同一 MDL／關聯案件合併計為 <strong>1 件</strong>。故總數可能略低於以「每份起訴狀分開計數」之追蹤站（如 <em>ChatGPT Is Eating the World</em>，採 MDL 成員分開計數）。兩種算法均屬合理，差異僅在統計口徑。
+</div>
 
 <!-- ── Stats Modal ── -->
 <div class="stats-modal-overlay" id="statsModal" onclick="if(event.target===this)closeStatsModal()">
@@ -6197,6 +6200,32 @@ CNN 主張曾於 2025 年與 Perplexity 進行授權談判但破裂，其後續�
 3. **商標與著作權交錯**——CNN 並依《Lanham Act》主張商標侵害。台灣媒體品牌（新聞台台徽、欄目名稱）若遭 AI 服務於生成結果中使用致生來源混淆，可併行主張商標法第 68 條侵害與公平交易法爭議。
 
 4. **授權談判破裂後之故意侵權**——本案凸顯「先談授權、破裂後仍使用」可能強化故意侵權與懲罰性賠償之認定。台灣 AI 業者與內容方協商授權時，應留存談判紀錄並審慎評估談判破裂後之資料使用風險。`
+  },
+  {
+    "id": 140,
+    "name": "Hobbs v. Meta Platforms",
+    "court": "S.D.N.Y. 1:26-cv-04314",
+    "judge": "未指派（Unassigned，2026/5/22 新立案）",
+    "status": "active",
+    "claims": [
+      "Direct Copyright"
+    ],
+    "defendants": "Meta Platforms, Inc.；Mark Zuckerberg；Joelle Pineau；Guillaume Lample",
+    "issues": `作家 Jeff Hobbs（《The Short and Tragic Life of Robert Peace》作者）與 A. Douglas Stone（Yale 應用物理教授）於 2026 年 5 月 22 日於紐約南區聯邦地院對 Meta 提起集體訴訟，主張 Meta 以盜版書籍（shadow library）訓練 Llama 系列模型構成故意著作權侵害。
+
+本案最受矚目之處在於被告範圍：除 Meta Platforms 與 CEO Mark Zuckerberg 外，更首次將 Meta AI 研究科學家列為個人被告——Meta FAIR（Fundamental AI Research）實驗室前副總裁 Joelle Pineau、前研究員 Guillaume Lample。
+
+核心爭點：(1) 以盜版來源書籍訓練 LLM 是否構成故意侵權；(2) AI 研究人員個人是否須就職務上參與之訓練決策負輔助侵權／個人責任——此為 AI 訓練訴訟首見之「科學家個人責任」戰線。`,
+    "progress": `【2026/5/22】Jeff Hobbs、A. Douglas Stone 於 S.D.N.Y. 提起集體訴訟（1:26-cv-04314）。Nature of Suit 820（著作權）。截至立案時法官尚未指派（Unassigned）。
+
+本案為追蹤站 ChatGPT Is Eating the World 所列之第 113 件美國 AI 著作權訴訟。與同期出版商聯盟 + Scott Turow v. Meta（1:26-cv-03689，2026/5/5）同屬「出版界對 Meta／Llama」之訴訟波，惟本案獨以「點名 AI 科學家個人」為特色。`,
+    "taiwan": `本案對台灣的啟示：
+
+1. **AI 研究人員個人責任之先例**——本案將 Meta FAIR 前副總 Joelle Pineau、研究員 Guillaume Lample 列為個人被告，開「受僱研究人員須就訓練決策負個人侵權責任」之先河。台灣 AI 研發團隊（學界與產業之研究主管、資料工程師）若於訓練資料來源決策有可證實之直接參與，未來可能面臨民法第 185 條共同侵權之個人責任主張。
+
+2. **盜版庫訓練之故意侵權強化**——本案延續 shadow library（LibGen、Anna's Archive 等）爭點，主張使用盜版來源即構成故意侵權。國內 AI 業者與研究機構應建立資料來源驗證（data provenance）與盡職調查流程，避免使用來源不明之訓練語料。
+
+3. **個人被告對和解與舉證之影響**——將個人列為被告可能改變訴訟動態：增加被告和解壓力、擴大文件揭示（discovery）範圍至個人通訊。台灣企業於 AI 專案治理時，應留意內部 email、會議紀錄等可能成為個人責任證據。`
   }
 ];
 
@@ -7899,6 +7928,7 @@ const timelineEvents = [
   { date: '2026-03', title: 'Penguin Random House v. OpenAI（德國）', type: 'filing', desc: '全球最大出版集團在慕尼黑地方法院提起訴訟——ChatGPT 生成與《小火龍椰子》系列幾乎無法區分的內容' },
   { date: '2026-04', title: 'Concord Music 將被告變更為 Dario Amodei 個人', type: 'ruling', desc: '援引最高法院 Cox Communications 判決，將輔助侵權被告從 Anthropic 公司變更為 CEO 個人' },
   { date: '2026-05', title: 'Bartz v. Anthropic 公平性聽證（5/14）', type: 'settlement', desc: '15 億美元和解最終核准聽證——約 50 萬著作權人即將獲得分配' },
+  { date: '2026-05', title: 'Hobbs v. Meta（首告 AI 科學家個人）', type: 'filing', desc: '作家 Hobbs、Stone 於紐約南區聯邦地院（S.D.N.Y. 1:26-cv-04314）對 Meta、Zuckerberg 及 Meta FAIR 前副總 Joelle Pineau、前研究員 Guillaume Lample 提起集體訴訟——AI 訓練訴訟首次點名 AI 研究科學家為個人被告，主張以盜版書籍訓練 Llama 構成故意侵權' },
   { date: '2026-05', title: 'CNN v. Perplexity AI（電視網首件）', type: 'filing', desc: 'CNN 於紐約南區聯邦地院（S.D.N.Y. 1:26-cv-04427）對 AI 答案引擎 Perplexity 提起訴訟——全美首件電視新聞網對 AI 公司的著作權訴訟，指控未經授權複製散布逾 17,000 件 CNN 報導、照片與影片，並依 Lanham Act 主張商標侵害' },
   { date: '2026-07', title: 'Concord Music v. Anthropic 簡易判決聽證（7/15）', type: 'ruling', desc: '預計為 2026 年最可能產出合理使用判決的案件——音樂產業 vs AI 的關鍵對決' }
 ];
