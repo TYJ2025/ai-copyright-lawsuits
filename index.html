@@ -6168,6 +6168,35 @@ Reddit 主張 Anthropic 未經授權持續爬取 Reddit 公開貼文，以訓練
 3. **shadow library 議題之合規盤點**——LibGen、Z-Library、OceanofPDF 等於台灣亦廣為人知。本案如形成判決將強化「使用盜版庫訓練 = 故意侵權」之認定，國內 AI 業者（聯發科、台達電、中華電信、台灣大、各大學 AI 中心）應**立即盤點訓練資料來源是否含上述盜版庫**，並建立資料來源驗證（data provenance）流程。
 
 4. **267TB 規模證據之揭示意義**——本案引述 Meta 揭露之 267TB 訓練資料規模，為 AI 訓練資料量化之首件法庭可見數字，提供台灣損害賠償計算之參考量級。`
+  },
+  {
+    "id": 139,
+    "name": "CNN v. Perplexity AI",
+    "court": "S.D.N.Y. 1:26-cv-04427",
+    "judge": "未指派（Unassigned，2026/5/28 新立案）",
+    "status": "active",
+    "claims": [
+      "Direct Copyright",
+      "Lanham Act"
+    ],
+    "defendants": "Perplexity AI, Inc.",
+    "issues": `CNN（Cable News Network）於 2026 年 5 月 28 日對 AI 答案引擎 Perplexity 提起訴訟，為全美首件由電視新聞網對 AI 公司發動的著作權訴訟。CNN 指控 Perplexity 未經授權「爬取、抓取、複製並散布」逾 17,000 件 CNN 新聞報導、照片與影片，用以建構其「AI 優先搜尋索引（AI-first search index）」，即時供大型語言模型形成查詢回應。
+
+核心爭點：(1) AI 搜尋引擎即時擷取並重述新聞內容，是否構成著作權侵害與市場替代；(2) Perplexity 主張的「事實不受著作權保護（you can't copyright facts）」抗辯能否成立；(3) 依《Lanham Act》，Perplexity 使用 CNN 聯邦註冊商標是否致生混淆、誤認或欺騙。`,
+    "progress": `【2026/5/28】CNN 於紐約南區聯邦地院（S.D.N.Y.）提起訴訟，案號 1:26-cv-04427，由 Rothwell, Figg, Ernst & Manbeck 律所代理、Steven Lieberman 律師具名。Nature of Suit 820（著作權），cause 17 U.S.C. §501（著作權侵害）。截至立案時法官尚未指派（Unassigned）。
+
+CNN 主張曾於 2025 年與 Perplexity 進行授權談判但破裂，其後續商業利用屬「明知未獲授權」之故意侵權，請求法定損害賠償與永久禁制令。Perplexity 通訊長 Jesse Dwyer 回應「事實無從受著作權保護」。
+
+本案與同院的 NYT v. Perplexity（1:25-cv-10106）、Chicago Tribune v. Perplexity（1:25-cv-10094）相關，並與 Dow Jones（WSJ／NY Post）、Encyclopaedia Britannica、Reddit、Amazon 等對 Perplexity 之多線訴訟共構壓力——新聞媒體 ↔ AI 答案引擎戰線首度延伸至電視網領域。`,
+    "taiwan": `本案對台灣的啟示：
+
+1. **「AI 答案引擎即時重述新聞」之定性**——Perplexity 模式不同於以新聞訓練 LLM，而是即時擷取、摘要並取代使用者點閱原文。台灣新聞媒體（中央社、聯合報系、三立、TVBS）若面臨類似 AI 摘要服務，可參考本案爭點主張著作權法第 22 條重製權與第 26 條之 1 公開傳輸權之侵害，並評估「市場替代」對訂閱與廣告收益之衝擊。
+
+2. **「事實不受著作權保護」抗辯之界線**——Perplexity 之核心抗辯為事實與時事報導不受保護，呼應台灣著作權法第 9 條第 1 項第 4 款「單純為傳達事實之新聞報導所作成之語文著作」不得為著作權標的。惟新聞之編輯、評論、攝影、影片仍受保護，台灣實務須區辨「事實」與「具原創性表達」之界線。
+
+3. **商標與著作權交錯**——CNN 並依《Lanham Act》主張商標侵害。台灣媒體品牌（新聞台台徽、欄目名稱）若遭 AI 服務於生成結果中使用致生來源混淆，可併行主張商標法第 68 條侵害與公平交易法爭議。
+
+4. **授權談判破裂後之故意侵權**——本案凸顯「先談授權、破裂後仍使用」可能強化故意侵權與懲罰性賠償之認定。台灣 AI 業者與內容方協商授權時，應留存談判紀錄並審慎評估談判破裂後之資料使用風險。`
   }
 ];
 
@@ -7870,6 +7899,7 @@ const timelineEvents = [
   { date: '2026-03', title: 'Penguin Random House v. OpenAI（德國）', type: 'filing', desc: '全球最大出版集團在慕尼黑地方法院提起訴訟——ChatGPT 生成與《小火龍椰子》系列幾乎無法區分的內容' },
   { date: '2026-04', title: 'Concord Music 將被告變更為 Dario Amodei 個人', type: 'ruling', desc: '援引最高法院 Cox Communications 判決，將輔助侵權被告從 Anthropic 公司變更為 CEO 個人' },
   { date: '2026-05', title: 'Bartz v. Anthropic 公平性聽證（5/14）', type: 'settlement', desc: '15 億美元和解最終核准聽證——約 50 萬著作權人即將獲得分配' },
+  { date: '2026-05', title: 'CNN v. Perplexity AI（電視網首件）', type: 'filing', desc: 'CNN 於紐約南區聯邦地院（S.D.N.Y. 1:26-cv-04427）對 AI 答案引擎 Perplexity 提起訴訟——全美首件電視新聞網對 AI 公司的著作權訴訟，指控未經授權複製散布逾 17,000 件 CNN 報導、照片與影片，並依 Lanham Act 主張商標侵害' },
   { date: '2026-07', title: 'Concord Music v. Anthropic 簡易判決聽證（7/15）', type: 'ruling', desc: '預計為 2026 年最可能產出合理使用判決的案件——音樂產業 vs AI 的關鍵對決' }
 ];
 
