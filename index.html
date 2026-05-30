@@ -1870,7 +1870,7 @@
 </div>
 
 <footer>
-  &copy; 2026 AI Copyright Litigation Tracker &mdash; 案件資料來源：美國聯邦法院公開紀錄、CourtListener   每日快訊最近更新: 2026-05-30
+  &copy; 2026 AI Copyright Litigation Tracker &mdash; 案件資料來源：美國聯邦法院公開紀錄、CourtListener   每日快訊最近更新: 2026-05-31
 </footer>
 
 <script>
@@ -7805,9 +7805,9 @@ buildRegionMap();
 // newsItems: 最近 3 天內加入之每日快訊（超過 3 天會被 daily-brief.sh 自動搬到 newsArchive）
 // 每筆需含 addedAt（YYYY-MM-DD，台北時區），代表「條目加入 dashboard 之日期」
 const newsItems = [
+  { "addedAt": "2026-05-31", "text": "【2026/5/28-29】Concord Music v. Anthropic I：音樂出版商主動撤回 vicarious liability 主張、Anthropic 5/29 旋即宣布 $650 億美元募資輪（N.D. Cal. 5:24-cv-03811）：Digital Music News 5/28 揭露，Concord Music Group、Universal Music Corp. 等主要音樂出版商於 Concord I 案中以 voluntary dismissal 方式主動清空「替代侵權」（vicarious infringement）一項主張——此前 Eumi K. Lee 法官曾否准 Anthropic 就該項所提撤銷之訴聲請（motion to dismiss），原告反於 6/8 即決判決完整答辯前自願撤銷此爭點，戰略上集中火力於 DMCA § 1202 移除 CMI 與 BitTorrent 取得盜版訓練資料兩條主軸；案件本體（直接侵權、誘引侵權、DMCA、torrent）續行，7/15 即決判決聽證照常召開，BMG Rights Management v. Anthropic 平行案件亦受同一法官審理；Anthropic 5/29（週五）旋即宣布完成 US$650 億美元募資輪、post-money 估值 US$9,650 億（已超越 OpenAI 2026/3 之 US$8,520 億估值），形成「法律風險可控 → 資本市場立即回應」之同步訊號，與 5/14 Bartz $15 億公平性聽證後待裁定、7/15 Concord I 即決判決構成 Anthropic 2026 Q2-Q3 雙線壓力測試", "url": "https://www.digitalmusicnews.com/2026/05/28/anthropic-music-publishers-lawsuit-vicarious-claim/" },
   { "addedAt": "2026-05-30", "text": "【2026/5/21】UMG Recordings / Sony Music v. Suno 動議擴增至 61,026 件錄音（D. Mass. 1:24-cv-11611）：UMG 與 Sony Music 5/21（週四）向麻州聯邦地院（Denise J. Casper 法官）提交動議聲請准予提出第二次修正起訴狀，依 discovery 中以音訊指紋（audio fingerprinting）技術自 Suno 訓練資料反推比對結果，將起訴範圍自原 RIAA 提起時之約 2,500 件擴增至 61,026 件 UMG 與 Sony 旗下錄音（並強調此僅為其所擁有「數百萬件」遭未授權使用作品中之「一小部分」）；起訴狀並進一步主張 Suno 訓練語料來源為「自 YouTube 串流側錄（stream ripping）」之未授權音檔；本動議於 Music Business Worldwide、Digital Music News 5/26 揭露，繼 Warner Music 已於 2025/11 和解（約 $500M）、UMG 5/26 續簽 TikTok 合作清除未授權 AI 音樂後，UMG-Sony 對 Suno 維持「規模 100 倍級擴大」之訴訟壓力；Suno 5/4 已提交摘要判決動議主張 17 U.S.C. § 107 合理使用，Casper 法官預計 2026/7 開庭裁判", "url": "https://www.musicbusinessworldwide.com/umg-and-sony-seek-to-add-61000-copyrighted-works-to-suno-lawsuit-after-discovery-reveals-suno-trained-on-millions-of-their-recordings/" },
   { "addedAt": "2026-05-29", "text": "【2026/5/28】CNN v. Perplexity AI（S.D.N.Y.）：CNN 5/28（週四）於紐約南區聯邦地院對 Perplexity 提起 AI 著作權與商標侵害訴訟，為全美首件由電視網對 AI 公司發動之著作權訴訟；起訴狀指控 Perplexity 自 CNN 及第三方平台「非法爬取、抓取、複製並散布」逾 17,000 件 CNN 新聞、照片、影片與內容，用以建構「AI 優先搜尋索引（AI-first search index）」即時供大型語言模型形成使用者查詢回應；CNN 主張曾於 2025 年與 Perplexity 進行授權談判但破裂，其後續商業利用屬「明知未獲授權」之故意侵權，並依《Lanham Act》主張 Perplexity 利用 CNN 聯邦註冊商標致生「混淆、誤認或欺騙」，請求法定損害賠償與永久禁制令；Perplexity 通訊長 Jesse Dwyer 回應「事實無從受著作權保護（you can't copyright facts）」；本案與 NYT、Dow Jones（WSJ/NY Post）、Chicago Tribune、Encyclopaedia Britannica、Reddit 等案共構對 Perplexity 之多線訴訟壓力，新聞媒體 ↔ AI 答案引擎戰線首度延伸至電視網領域", "url": "https://www.cnn.com/2026/05/28/media/cnn-sues-perplexity-ai-copyright" },
-  { "addedAt": "2026-05-28", "text": "【2026/5/26】UMG × TikTok 續約並承諾合作清除未授權 AI 生成音樂（主要唱片公司 AI 音樂雙線戰略完成最後拼圖）：Universal Music Group 與 TikTok 5/26 公告續簽全球授權協議，關鍵增訂內容為「雙方合作清除 TikTok 平台未授權 AI 生成音樂、強化藝人與詞曲作家署名（attribution）」之承諾；2024 年初 UMG 曾因 TikTok 對 AI 音樂處理消極而短暫撤下全部目錄，本次續約以「主動清除＋改善署名」實質回應；本案與 5/21 Spotify-UMG AI 翻唱／混音授權協議共構 UMG 5 月雙線戰略——對授權合作之 AI 平台開放合規工具、對未授權 AI 音樂維持嚴格清理——並與 Sony Music 對 Suno（D. Mass. 1:24-cv-11611）／Udio（S.D.N.Y.）續行訴訟所主張之「AI 訓練資料無可行授權市場」核心防禦立論形成主要唱片公司產業政策光譜之關鍵對照", "url": "https://techcrunch.com/2026/05/26/universal-music-group-and-tiktok-renew-agreement-to-combat-unauthorized-ai-music/" },
 ];
 
 // newsArchive: 已超過 3 天而從 newsItems 移除之歷史快訊（新者在上）
