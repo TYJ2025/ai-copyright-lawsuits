@@ -40,3 +40,7 @@ __pycache__/
 # main-board 慣例檔（由 weekly_new_case_check.py 寫，由 main-board update.sh 讀，
 # 純本機 transient state，不入 git）
 .pending-review.json
+
+# Build pipeline working files (Phase 4+)
+dashboard.html.new
+build-diff.txt
