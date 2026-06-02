@@ -1,0 +1,14 @@
+{
+  "$schema": "_meta.v1",
+  "generatedAt": "2026-06-02T22:26:12.638812+08:00",
+  "dashboardLastModified": "2026-06-02T07:12:01+08:00",
+  "extractionCounts": {
+    "cases": 139,
+    "case_sources": 123,
+    "fair_use_cases": 9,
+    "official_reports": 10,
+    "news_items": 1,
+    "news_archive": 21,
+    "timeline_events": 31
+  }
+}

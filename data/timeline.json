@@ -1,0 +1,194 @@
+{
+  "$schema": "timeline.v1",
+  "generatedFrom": "dashboard.html",
+  "generatedAt": "2026-06-02T22:26:12.638568+08:00",
+  "lastUpdatedSource": "2026-06-02T07:12:01+08:00",
+  "data": [
+    {
+      "date": "2020-05",
+      "title": "Thomson Reuters v. ROSS Intelligence",
+      "type": "filing",
+      "desc": "Thomson Reuters 於德拉瓦聯邦地院（D. Del.）對 ROSS Intelligence 提起訴訟——全球首件 AI 訓練資料著作權訴訟，主張以 Westlaw 法律摘要（headnotes）訓練 AI 法律搜尋引擎構成侵權"
+    },
+    {
+      "date": "2022-11",
+      "title": "Doe v. GitHub (Copilot)",
+      "type": "filing",
+      "desc": "程式設計師於加州北區對 GitHub、Microsoft、OpenAI 提起集體訴訟，主張 Copilot AI 程式碼生成工具侵害開源授權條款（2022 年唯一一件 AI 著作權集體訴訟）"
+    },
+    {
+      "date": "2023-01",
+      "title": "Andersen v. Stability AI",
+      "type": "filing",
+      "desc": "三位藝術家於加州北區對 Stability AI、Midjourney、DeviantArt 提起集體訴訟——AI 圖像生成著作權訴訟第一槍"
+    },
+    {
+      "date": "2023-01",
+      "title": "Getty Images v. Stability AI (UK)",
+      "type": "filing",
+      "desc": "Getty Images 在英國高等法院提起訴訟，主張 Stable Diffusion 未經授權使用數百萬張照片訓練"
+    },
+    {
+      "date": "2023-02",
+      "title": "Getty Images v. Stability AI (US)",
+      "type": "filing",
+      "desc": "Getty Images 於德拉瓦聯邦地院提起美國平行訴訟——主張著作權、商標及 DMCA §1202 侵害"
+    },
+    {
+      "date": "2023-07",
+      "title": "Silverman v. OpenAI",
+      "type": "filing",
+      "desc": "Sarah Silverman 等作家於加州北區對 OpenAI 提起訴訟，揭開作家對 LLM 訓練使用書籍的大規模訴訟浪潮"
+    },
+    {
+      "date": "2023-08",
+      "title": "Thaler v. Perlmutter — 地院判決",
+      "type": "ruling",
+      "desc": "D.C. 聯邦地院 Howell 法官裁定 AI 獨立生成作品不享有著作權保護——確立「人類著作人」要件"
+    },
+    {
+      "date": "2023-09",
+      "title": "Authors Guild v. OpenAI",
+      "type": "filing",
+      "desc": "Authors Guild 聯合 John Grisham、George R.R. Martin 等知名作家於南紐約地院對 OpenAI 提起集體訴訟"
+    },
+    {
+      "date": "2023-10",
+      "title": "Concord Music v. Anthropic",
+      "type": "filing",
+      "desc": "音樂出版商於田納西中區對 Anthropic 提起訴訟——首起針對 AI 歌詞輸出的著作權訴訟"
+    },
+    {
+      "date": "2023-10",
+      "title": "Andersen v. Stability AI — 部分駁回",
+      "type": "ruling",
+      "desc": "Orrick 法官駁回部分訴訟主張但准予修正訴狀，保留直接著作權侵害核心主張"
+    },
+    {
+      "date": "2023-12",
+      "title": "NYT v. OpenAI",
+      "type": "filing",
+      "desc": "紐約時報於南紐約地院對 OpenAI、Microsoft 提起里程碑訴訟，主張 ChatGPT 大規模複製新聞報導"
+    },
+    {
+      "date": "2024-08",
+      "title": "Andersen v. Stability AI — 第二次裁定",
+      "type": "ruling",
+      "desc": "Orrick 法官就修正訴狀再次裁定，保留直接侵害、誘引侵害與 DMCA §1202 主張"
+    },
+    {
+      "date": "2024-08",
+      "title": "Bartz v. Anthropic",
+      "type": "filing",
+      "desc": "Bartz 等三位作家於加州北區對 Anthropic 提起集體訴訟，主張 Anthropic 使用盜版書籍訓練 Claude 侵害著作權"
+    },
+    {
+      "date": "2025-02",
+      "title": "Thomson Reuters v. ROSS — 合理使用裁定",
+      "type": "ruling",
+      "desc": "Bibas 法官於德拉瓦地院裁定 ROSS Intelligence 以 Westlaw 摘要訓練 AI 不構成合理使用——AI 訓練合理使用首次實質判決"
+    },
+    {
+      "date": "2025-03",
+      "title": "Thaler v. Perlmutter — D.C. 巡迴法院",
+      "type": "ruling",
+      "desc": "D.C. 巡迴法院維持地院判決，確認「人類著作人」要件——AI 獨立生成作品不受著作權保護"
+    },
+    {
+      "date": "2025-04",
+      "title": "OpenAI Authors MDL 合併令",
+      "type": "ruling",
+      "desc": "JPML 將多起作者對 OpenAI 的訴訟合併為 MDL No. 3143，由 Stein 法官於南紐約地院統一管理"
+    },
+    {
+      "date": "2025-06",
+      "title": "Kadrey v. Meta — 合理使用裁定",
+      "type": "ruling",
+      "desc": "Chhabria 法官裁定 Meta 使用 Books3 資料集訓練 LLaMA 於本案事實下構成合理使用——AI 公司第一場合理使用勝訴"
+    },
+    {
+      "date": "2025-06",
+      "title": "Bartz v. Anthropic — 合理使用裁定",
+      "type": "ruling",
+      "desc": "Alsup 法官裁定 Anthropic 合法取得書籍用於訓練屬合理使用，但保留盜版書籍來源相關主張"
+    },
+    {
+      "date": "2025-07",
+      "title": "Bartz v. Anthropic — 集體訴訟認定",
+      "type": "ruling",
+      "desc": "法院認定盜版書籍部分具備集體訴訟資格——涵蓋約 50 萬名著作權人"
+    },
+    {
+      "date": "2025-09",
+      "title": "Bartz v. Anthropic — $15億和解",
+      "type": "settlement",
+      "desc": "Anthropic 同意支付 15 億美元和解金——美國著作權史上最高和解金額"
+    },
+    {
+      "date": "2025-10",
+      "title": "Huckabee v. Meta — 合理使用裁定",
+      "type": "ruling",
+      "desc": "法院部分准許 Meta 的即決判決，就部分訓練使用認定為合理使用"
+    },
+    {
+      "date": "2026-01",
+      "title": "Concord Music v. Anthropic II — $31億訴訟",
+      "type": "filing",
+      "desc": "音樂出版商對 Anthropic 發動第二波攻勢——涵蓋 20,000+ 首歌曲，求償逾 31 億美元"
+    },
+    {
+      "date": "2026-01",
+      "title": "Hachette & Cengage 加入 Google 訴訟",
+      "type": "filing",
+      "desc": "大型出版商介入作者對 Google Gemini 的集體訴訟——出版業與作者「團結」對抗 AI 巨頭"
+    },
+    {
+      "date": "2026-03",
+      "title": "美國最高法院拒絕受理 Thaler 案",
+      "type": "landmark",
+      "desc": "最高法院 deny cert——正式確立「AI 生成作品不受著作權保護、須有人類著作權人」聯邦法律原則"
+    },
+    {
+      "date": "2026-03",
+      "title": "歐洲議會通過 AI 著作權決議",
+      "type": "landmark",
+      "desc": "460 票壓倒性通過——要求 AI 訓練透明度、舉證責任倒置、確認 AI 生成物不受著作權保護"
+    },
+    {
+      "date": "2026-03",
+      "title": "Penguin Random House v. OpenAI（德國）",
+      "type": "filing",
+      "desc": "全球最大出版集團在慕尼黑地方法院提起訴訟——ChatGPT 生成與《小火龍椰子》系列幾乎無法區分的內容"
+    },
+    {
+      "date": "2026-04",
+      "title": "Concord Music 將被告變更為 Dario Amodei 個人",
+      "type": "ruling",
+      "desc": "援引最高法院 Cox Communications 判決，將輔助侵權被告從 Anthropic 公司變更為 CEO 個人"
+    },
+    {
+      "date": "2026-05",
+      "title": "Bartz v. Anthropic 公平性聽證（5/14）",
+      "type": "settlement",
+      "desc": "15 億美元和解最終核准聽證——約 50 萬著作權人即將獲得分配"
+    },
+    {
+      "date": "2026-05",
+      "title": "Hobbs v. Meta（首告 AI 科學家個人）",
+      "type": "filing",
+      "desc": "作家 Hobbs、Stone 於紐約南區聯邦地院（S.D.N.Y. 1:26-cv-04314）對 Meta、Zuckerberg 及 Meta FAIR 前副總 Joelle Pineau、前研究員 Guillaume Lample 提起集體訴訟——AI 訓練訴訟首次點名 AI 研究科學家為個人被告，主張以盜版書籍訓練 Llama 構成故意侵權"
+    },
+    {
+      "date": "2026-05",
+      "title": "CNN v. Perplexity AI（電視網首件）",
+      "type": "filing",
+      "desc": "CNN 於紐約南區聯邦地院（S.D.N.Y. 1:26-cv-04427）對 AI 答案引擎 Perplexity 提起訴訟——全美首件電視新聞網對 AI 公司的著作權訴訟，指控未經授權複製散布逾 17,000 件 CNN 報導、照片與影片，並依 Lanham Act 主張商標侵害"
+    },
+    {
+      "date": "2026-07",
+      "title": "Concord Music v. Anthropic 即決判決聽證（7/15）",
+      "type": "ruling",
+      "desc": "預計為 2026 年最可能產出合理使用判決的案件——音樂產業 vs AI 的關鍵對決"
+    }
+  ]
+}
