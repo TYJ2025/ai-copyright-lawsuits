@@ -44,3 +44,6 @@ __pycache__/
 # Build pipeline working files (Phase 4+)
 dashboard.html.new
 build-diff.txt
+
+# Phase 5 shadow-run log (local diagnostic, not committed)
+shadow-run.log
