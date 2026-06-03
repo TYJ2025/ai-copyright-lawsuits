@@ -137,5 +137,17 @@ else
 fi
 log "auto-push.sh will pick it up via WatchPaths."
 
+# --- Phase 5 shadow-run (non-destructive, post-edit) -------------------------
+# Tests the new data/*.json → build.py → dashboard.html pipeline by verifying
+# it would produce the SAME content as the live (regex-edited) dashboard.html.
+# Logs to shadow-run.log. Failure does NOT affect daily-brief's exit code.
+# Remove this block during Phase 7 cleanup (after cutover).
+if [ -x "$REPO_DIR/scripts/shadow_run.sh" ]; then
+    log "Triggering shadow_run.sh …"
+    "$REPO_DIR/scripts/shadow_run.sh" >/dev/null 2>&1 || true
+    log "shadow_run.sh exit captured (see shadow-run.log for result)."
+fi
+# ----------------------------------------------------------------------------
+
 log "===== Daily brief done ====="
 exit 0
