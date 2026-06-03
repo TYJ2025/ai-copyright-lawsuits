@@ -1,17 +1,27 @@
 {
   "$schema": "news.v1",
   "generatedFrom": "dashboard.html",
-  "generatedAt": "2026-06-02T22:26:12.638322+08:00",
-  "lastUpdatedSource": "2026-06-02T07:12:01+08:00",
+  "generatedAt": "2026-06-04T00:05:31.099927+08:00",
+  "lastUpdatedSource": "2026-06-03T07:17:12+08:00",
   "data": {
     "items": [
+      {
+        "addedAt": "2026-06-03",
+        "text": "【2026/5/26】Disney / Universal / Warner Bros. Discovery v. MiniMax 中加聯邦地院 Blumenfeld 法官 5/26 否准被告撤銷之訴聲請（C.D. Cal.）：好萊塢三大製片廠 Disney、NBCUniversal、Warner Bros. Discovery 於 2025/9/16 對中國 AI 公司 MiniMax（旗下「Hailuo AI / 海螺 AI」影像與影片生成服務）所提之大規模著作權侵權訴訟，5/26 由 Stanley Blumenfeld Jr. 法官否准 MiniMax 之 motion to dismiss——法院明確駁回 MiniMax「美國法院欠缺人事管轄權」（主要營業地在中國）與「MiniMax 僅為品牌名而非可被起訴之法律實體」兩項主張，認原告已就管轄與實體著作權侵權充分陳述事實，命被告於美國法院應訴；起訴狀指控 Hailuo 行銷文宣以「Hollywood studio in your pocket」自稱、產出 Spider-Man、Darth Vader、Shrek 等好萊塢標誌性角色之圖像與影片；本案繼 Disney / Universal v. Midjourney（C.D. Cal. 2:25-cv-05275）後，成中國 AI 公司在美著作權跨境執法之指標案件，後續 5/29 已排定剩餘爭點聽證",
+        "url": "https://cryptobriefing.com/minimax-disney-copyright-lawsuit-ai-2/"
+      },
+      {
+        "addedAt": "2026-06-03",
+        "text": "【2026/5/26】GEMA v. Suno 慕尼黑第一地方法院 5/26 新聞稿宣告判決日自 2026/6/12 延至 2026/7/31（Landgericht München I）：德國音樂著作權集中管理組織 GEMA 對 AI 音樂生成平台 Suno 之著作權侵權訴訟，慕尼黑第一地方法院以「內部行政原因」（internal administrative reasons）發布 5/26 新聞稿，公告原訂 6/12 之判決朗讀（Verkündung）延至 7/31 上午 9 時於 Justizpalast 270 號法庭宣示；延期屬程序性安排、不揭示合議庭實體判決傾向；本案為繼 GEMA v. OpenAI（慕尼黑 2025/11/11 認定 ChatGPT 訓練侵害歌詞著作權、即使統計參數儲存亦構成重製）後歐洲第二件 AI 音樂訓練資料著作權實體判決，將成全球音樂產業對 Suno 訴訟之首件實體裁判，並早於美國 D. Mass. 1:24-cv-11611 UMG/Sony v. Suno 之 2026/7 摘要判決聽證；如 GEMA 勝訴將形成「文本型（ChatGPT）＋ 音樂型（Suno）」雙重重製責任先例",
+        "url": "https://www.mlex.com/mlex/articles/2481789/gema-suno-copyright-ruling-postponed-by-munich-court-to-july-31"
+      }
+    ],
+    "archive": [
       {
         "addedAt": "2026-05-31",
         "text": "【2026/5/28-29】Concord Music v. Anthropic I：音樂出版商主動撤回 vicarious liability 主張、Anthropic 5/29 旋即宣布 $650 億美元募資輪（N.D. Cal. 5:24-cv-03811）：Digital Music News 5/28 揭露，Concord Music Group、Universal Music Corp. 等主要音樂出版商於 Concord I 案中以 voluntary dismissal 方式主動清空「替代侵權」（vicarious infringement）一項主張——此前 Eumi K. Lee 法官曾否准 Anthropic 就該項所提撤銷之訴聲請（motion to dismiss），原告反於 6/8 即決判決完整答辯前自願撤銷此爭點，戰略上集中火力於 DMCA § 1202 移除 CMI 與 BitTorrent 取得盜版訓練資料兩條主軸；案件本體（直接侵權、誘引侵權、DMCA、torrent）續行，7/15 即決判決聽證照常召開，BMG Rights Management v. Anthropic 平行案件亦受同一法官審理；Anthropic 5/29（週五）旋即宣布完成 US$650 億美元募資輪、post-money 估值 US$9,650 億（已超越 OpenAI 2026/3 之 US$8,520 億估值），形成「法律風險可控 → 資本市場立即回應」之同步訊號，與 5/14 Bartz $15 億公平性聽證後待裁定、7/15 Concord I 即決判決構成 Anthropic 2026 Q2-Q3 雙線壓力測試",
         "url": "https://www.digitalmusicnews.com/2026/05/28/anthropic-music-publishers-lawsuit-vicarious-claim/"
-      }
-    ],
-    "archive": [
+      },
       {
         "addedAt": "2026-05-30",
         "text": "【2026/5/21】UMG Recordings / Sony Music v. Suno 動議擴增至 61,026 件錄音（D. Mass. 1:24-cv-11611）：UMG 與 Sony Music 5/21（週四）向麻州聯邦地院（Denise J. Casper 法官）提交動議聲請准予提出第二次修正起訴狀，依 discovery 中以音訊指紋（audio fingerprinting）技術自 Suno 訓練資料反推比對結果，將起訴範圍自原 RIAA 提起時之約 2,500 件擴增至 61,026 件 UMG 與 Sony 旗下錄音（並強調此僅為其所擁有「數百萬件」遭未授權使用作品中之「一小部分」）；起訴狀並進一步主張 Suno 訓練語料來源為「自 YouTube 串流側錄（stream ripping）」之未授權音檔；本動議於 Music Business Worldwide、Digital Music News 5/26 揭露，繼 Warner Music 已於 2025/11 和解（約 $500M）、UMG 5/26 續簽 TikTok 合作清除未授權 AI 音樂後，UMG-Sony 對 Suno 維持「規模 100 倍級擴大」之訴訟壓力；Suno 5/4 已提交摘要判決動議主張 17 U.S.C. § 107 合理使用，Casper 法官預計 2026/7 開庭裁判",
