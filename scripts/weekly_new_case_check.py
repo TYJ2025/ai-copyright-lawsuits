@@ -229,6 +229,145 @@ def case_url(c: dict) -> str:
     return f"https://www.courtlistener.com/docket/{cl_id}/" if cl_id else ""
 
 
+def load_rejected_urls() -> set[str]:
+    """scripts/rejected_cases.json — main-board 審核退回的案件 ledger
+    （apply_decisions.py 維護），掃描時跳過，退回案件不會每週重現。"""
+    p = Path(__file__).resolve().parent / "rejected_cases.json"
+    if not p.is_file():
+        return set()
+    try:
+        entries = json.loads(p.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return set()
+    return {e.get("url") for e in entries if isinstance(e, dict) and e.get("url")}
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+# 自動分流（auto-triage）：抓起訴狀全文，機器判斷是否 AI 相關著作權案
+# （YJ 2026-06-13 指示：能機器判的不要進人工審核清單）
+# ─────────────────────────────────────────────────────────────────────────────
+# 純 AI 業者：當事人名單直接命中即視為 AI 案（不需讀起訴狀）。
+# 刻意不含 Google / Amazon / Apple / Microsoft / Meta / Adobe 等大廠——
+# 它們也常被告與 AI 無關的著作權案，須以起訴狀內文判斷。
+AI_PURE_PLAY = [
+    "OpenAI", "Anthropic", "Cohere", "Mistral", "DeepSeek", "xAI",
+    "Midjourney", "Stability AI", "Runway", "Suno", "Udio",
+    "MiniMax", "Hailuo", "ElevenLabs", "Eleven Labs", "Lovo", "Resemble",
+    "Perplexity", "Hugging Face",
+]
+
+# 起訴狀內文 AI 關鍵詞（lowercase 比對）。命中任一即視為 AI 相關。
+AI_COMPLAINT_TERMS = [
+    "artificial intelligence", "machine learning", "deep learning",
+    "generative", "large language model", "foundation model",
+    "neural network", "training data", "training dataset",
+    "ai model", "ai system", "ai training", "ai-generated",
+    "chatbot", "chatgpt", "stable diffusion", "midjourney",
+    "text-to-image", "text-to-video", "diffusion model",
+]
+
+COPYRIGHT_COMPLAINT_TERMS = ["copyright", "17 u.s.c"]
+
+SCRIPTS_DIR = Path(__file__).resolve().parent
+
+
+def fetch_complaint_text(token: str, docket_id, verbose: bool = False) -> str | None:
+    """抓 docket entry #1（起訴狀／移送聲請）的 RECAP plain_text。
+
+    回 None = 文件不可得（未進 RECAP、尚未 OCR、或 API 失敗）。
+    非致命：呼叫端 fallback 到人工審核。
+    """
+    if not docket_id:
+        return None
+    params = {
+        "docket_entry__docket": docket_id,
+        "docket_entry__entry_number": 1,
+        "fields": "plain_text,is_available",
+        "page_size": 3,
+    }
+    url = f"{API_BASE}/recap-documents/?{urlencode(params)}"
+    req = Request(url, headers={"Authorization": f"Token {token}",
+                                "Accept": "application/json"})
+    try:
+        with urlopen(req, timeout=30) as resp:
+            data = json.loads(resp.read().decode("utf-8"))
+    # OSError 涵蓋 socket.timeout（Python 3.9 它還不是 TimeoutError 子類）、
+    # URLError、連線重置等——單筆失敗一律當「不可得」，留人工，不炸整個掃描。
+    except (OSError, json.JSONDecodeError) as e:
+        if verbose:
+            print(f"  (complaint fetch failed, docket {docket_id}: {e})", file=sys.stderr)
+        return None
+    for doc in data.get("results", []):
+        text = (doc.get("plain_text") or "").strip()
+        if len(text) > 200:
+            return text
+    return None
+
+
+def classify_candidate(c: dict, token: str, verbose: bool = False) -> tuple[str, str]:
+    """機器分流。回 (verdict, reason)，verdict ∈ {"ai", "not_ai", "unknown"}。
+
+    判準：
+      1. 當事人含純 AI 業者 → ai（免讀起訴狀）
+      2. 起訴狀全文可得：含著作權字樣且含任一 AI 關鍵詞 → ai；
+         可得但無 AI 關鍵詞（或未提著作權）→ not_ai（自動退回）
+      3. 全文不可得 → unknown（唯一留給人工的情形）
+    """
+    # word-boundary 比對——子字串會誤殺（實測 "Udio" ⊂ "Studio"、"Suno" ⊂ 人名）
+    parties = " | ".join(p or "" for p in (c.get("party") or []))
+    for name in AI_PURE_PLAY:
+        if re.search(rf"\b{re.escape(name)}\b", parties, re.IGNORECASE):
+            return "ai", f"當事人含 AI 業者：{name}"
+    text = fetch_complaint_text(token, c.get("docket_id"), verbose)
+    if text is None:
+        return "unknown", "起訴狀全文不可得（RECAP 無文件），留待人工"
+    tl = text.lower()
+    has_copyright = any(t in tl for t in COPYRIGHT_COMPLAINT_TERMS)
+    ai_hits = [t for t in AI_COMPLAINT_TERMS if t in tl]
+    if has_copyright and ai_hits:
+        return "ai", f"起訴狀含 AI 關鍵詞：{'、'.join(ai_hits[:4])}"
+    if not has_copyright:
+        return "not_ai", "起訴狀全文未提及著作權"
+    return "not_ai", "起訴狀全文無任何 AI 關鍵詞（非 AI 案）"
+
+
+def append_ledger(path: Path, records: list[dict]) -> int:
+    """分流結果記入 ledger / queue（與 apply_decisions.py 同格式、以 url 去重）。"""
+    try:
+        existing = json.loads(path.read_text(encoding="utf-8")) if path.is_file() else []
+    except (OSError, json.JSONDecodeError):
+        existing = []
+    urls = {e.get("url") for e in existing}
+    added = 0
+    for r in records:
+        if r.get("url") and r["url"] in urls:
+            continue
+        existing.append(r)
+        urls.add(r.get("url"))
+        added += 1
+    if added:
+        tmp = path.with_suffix(".tmp")
+        tmp.write_text(json.dumps(existing, ensure_ascii=False, indent=2) + "\n",
+                       encoding="utf-8")
+        tmp.replace(path)
+    return added
+
+
+def triage_record(c: dict, now_iso: str) -> dict:
+    court = c.get("court") or c.get("court_id") or "?"
+    docket = c.get("docketNumber") or c.get("docket_number") or "?"
+    date_filed = c.get("dateFiled") or c.get("date_filed") or "?"
+    return {
+        "title": c.get("caseName") or c.get("case_name") or "(無案名)",
+        "url": case_url(c),
+        "subtitle": f"{court} · {docket} · filed {date_filed}",
+        "note": f"自動分流：{c.get('_triage', '')}",
+        "decidedAt": now_iso,
+        "appliedAt": now_iso,
+        "decidedBy": "auto-triage",
+    }
+
+
 def case_summary(c: dict) -> str:
     """從 search API 欄位組一行人工審核用摘要：法官／訴因／陪審／代理律所。"""
     parts = []
@@ -270,23 +409,53 @@ def write_report(
     already_tracked: list[dict],
     out_path: Path,
     days: int,
+    auto_ai: list[dict] | None = None,
+    auto_rejected: list[dict] | None = None,
 ) -> None:
+    auto_ai = auto_ai or []
+    auto_rejected = auto_rejected or []
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     parts = [
         f"# Weekly New Case Check — {today}",
         "",
-        f"_過去 {days} 天 CourtListener 新立案掃描。AI × 著作權關鍵字 + nature_of_suit 820。_",
+        f"_過去 {days} 天 CourtListener 新立案掃描。AI × 著作權關鍵字 + nature_of_suit 820；"
+        f"起訴狀全文自動分流（人工只審全文不可得者）。_",
         f"_腳本：`scripts/weekly_new_case_check.py`_",
         "",
         "---",
         "",
-        f"## 🆕 待人工審核新案件（{len(candidates)} 件）",
+        f"## ✓ 自動通過（{len(auto_ai)} 件）— 已進 approved_queue.json",
         "",
     ]
+    for c in auto_ai:
+        parts.append(format_case_md(c))
+        parts.append(f"- **Triage**: {c.get('_triage', '')}\n")
+    if not auto_ai:
+        parts.append("_無。_\n")
+    parts.extend([
+        "",
+        "---",
+        "",
+        f"## 🆕 待人工審核（{len(candidates)} 件）— 起訴狀全文不可得，機器判不了",
+        "",
+    ])
     if candidates:
         parts.extend([format_case_md(c) + "\n" for c in candidates])
     else:
         parts.append("_本週無待補新案件。_\n")
+    parts.extend([
+        "",
+        "---",
+        "",
+        f"## ✕ 自動退回（{len(auto_rejected)} 件）— 起訴狀無 AI 內容，已進 rejected_cases.json",
+        "",
+    ])
+    for c in auto_rejected:
+        name = c.get("caseName") or "?"
+        parts.append(f"- {name}（{c.get('_triage', '')}）")
+    if not auto_rejected:
+        parts.append("_無。_")
+    parts.append("")
     parts.extend([
         "",
         "---",
@@ -312,6 +481,8 @@ def main() -> int:
     ap.add_argument("--days", type=int, default=7, help="回看天數（預設 7）")
     ap.add_argument("--dry-run", action="store_true", help="不打 API；用 fixtures 驗證去重邏輯")
     ap.add_argument("--no-nos-filter", action="store_true", help="不加 nature_of_suit:820 過濾（除錯用）")
+    ap.add_argument("--no-triage", action="store_true",
+                    help="跳過起訴狀自動分流，全部進人工審核清單（除錯用）")
     ap.add_argument("--verbose", action="store_true")
     args = ap.parse_args()
 
@@ -354,38 +525,72 @@ def main() -> int:
         if args.verbose:
             print(f"CourtListener 回傳 {len(results)} 件", file=sys.stderr)
 
-    # 3. 去重
+    # 3. 去重（dashboard 已列載 + main-board 已退回的都不再列為候選）
+    rejected_urls = load_rejected_urls()
     candidates: list[dict] = []
     already_tracked: list[dict] = []
+    rejected_skipped: list[dict] = []
     for c in results:
         name = c.get("caseName") or c.get("case_name") or ""
         if is_already_tracked(name, existing):
             already_tracked.append(c)
+        elif case_url(c) in rejected_urls:
+            rejected_skipped.append(c)
         else:
             candidates.append(c)
+    if rejected_skipped:
+        print(f"  ↺ {len(rejected_skipped)} 件曾退回（rejected_cases.json），不再列入待審",
+              file=sys.stderr)
+
+    # 3.5 自動分流：抓起訴狀全文機器判斷，人工只審 unknown
+    auto_ai: list[dict] = []
+    auto_rejected: list[dict] = []
+    needs_review: list[dict] = []
+    if args.dry_run or args.no_triage:
+        needs_review = candidates
+    else:
+        print(f"  ⚙ 自動分流 {len(candidates)} 件（抓起訴狀全文）…", file=sys.stderr)
+        now_iso = datetime.now(timezone(timedelta(hours=8))).isoformat(timespec="seconds")
+        for c in candidates:
+            verdict, reason = classify_candidate(c, token, args.verbose)
+            c["_triage"] = reason
+            {"ai": auto_ai, "not_ai": auto_rejected, "unknown": needs_review}[verdict].append(c)
+        if auto_ai:
+            n = append_ledger(SCRIPTS_DIR / "approved_queue.json",
+                              [triage_record(c, now_iso) for c in auto_ai])
+            print(f"  ✓ 自動通過 {len(auto_ai)} 件 → approved_queue.json（新進 {n} 件）",
+                  file=sys.stderr)
+        if auto_rejected:
+            n = append_ledger(SCRIPTS_DIR / "rejected_cases.json",
+                              [triage_record(c, now_iso) for c in auto_rejected])
+            print(f"  ✕ 自動退回 {len(auto_rejected)} 件 → rejected_cases.json（新進 {n} 件，"
+                  f"之後掃描跳過）", file=sys.stderr)
 
     # 4. 寫報告
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     out = CASES_DIR / f"_weekly_new_cases_{today}.md"
-    write_report(candidates, already_tracked, out, args.days)
+    write_report(needs_review, already_tracked, out, args.days,
+                 auto_ai=auto_ai, auto_rejected=auto_rejected)
     print(f"✓ 報告已寫至 {out.relative_to(REPO_ROOT)}", file=sys.stderr)
-    print(f"  新案：{len(candidates)} 件  ｜  已列載：{len(already_tracked)} 件", file=sys.stderr)
+    print(f"  自動通過：{len(auto_ai)}  ｜  自動退回：{len(auto_rejected)}  ｜  "
+          f"留人工：{len(needs_review)}  ｜  已列載：{len(already_tracked)}", file=sys.stderr)
 
-    # 5. 寫 .pending-review.json (main-board 慣例檔)
-    # 這個檔讓 main-board.vercel.app 的 update.sh 掃到，
-    # 把「N 件新案件待審核」顯示在 main-board AI Copyright 卡片上。
-    # ── dry-run 不寫，避免 fixture 假資料污染 repo
+    # 5. 寫 .pending-review.json (main-board 慣例檔) — 只放機器判不了的
     if not args.dry_run:
-        write_pending_review(candidates, args.days)
+        write_pending_review(needs_review, args.days)
     else:
         print(f"[dry-run] 跳過寫 .pending-review.json（避免污染 repo）", file=sys.stderr)
 
-    # 6. 把待審核新案件清單 print 到 stdout（給 launchd 的 log）
-    if candidates:
-        print(f"\n🆕 待人工審核新案件（{len(candidates)}）：")
-        for c in candidates:
+    # 6. stdout 摘要（給 launchd 的 log）
+    if auto_ai:
+        print(f"\n✓ 自動通過（{len(auto_ai)}）— 已進 approved_queue.json 待列載：")
+        for c in auto_ai:
+            print(f"  - {c.get('caseName', '?')} | {c.get('_triage', '')}")
+    if needs_review:
+        print(f"\n🆕 待人工審核（{len(needs_review)}）— 起訴狀不可得，機器判不了：")
+        for c in needs_review:
             print(f"  - {c.get('caseName', '?')} | {c.get('court', '?')} · {c.get('docketNumber', '?')} | {c.get('dateFiled', '?')}")
-    else:
+    if not auto_ai and not needs_review:
         print("\n本週無待補新案件。")
 
     return 0
@@ -409,12 +614,18 @@ def write_pending_review(candidates: list[dict], days: int) -> None:
         court = c.get("court") or c.get("court_id") or "?"
         docket = c.get("docketNumber") or c.get("docket_number") or "?"
         date_filed = c.get("dateFiled") or c.get("date_filed") or "?"
-        items.append({
+        item = {
             "title": c.get("caseName") or c.get("case_name") or "(無案名)",
             "subtitle": f"{court} · {docket} · filed {date_filed}",
             "desc": case_summary(c),
             "url": case_url(c),
-        })
+        }
+        # 穩定 id：main-board 審核決定以「專案名|id」為 key，帶 docket id
+        # 讓同一案件跨週重掃時決定不會對不上（無 id 時 main-board 退回 hash(url)）。
+        cl_id = c.get("docket_id") or c.get("id")
+        if cl_id:
+            item["id"] = str(cl_id)
+        items.append(item)
     # 改經 add_pending.py 的多區段合併機制寫入：只整段替換 new-cases 區段，
     # 不會覆蓋其他 producer（如 daily-brief 時間軸候選）的區段。
     import subprocess

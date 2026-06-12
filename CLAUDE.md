@@ -118,9 +118,38 @@ data/*.json  +  templates/dashboard.template.html
 | `batch_update_dashboard_judges.py` | 比對 dashboard judge 欄位與 CourtListener，回寫 |
 | `scan_case_trackers.py` | 掃 `cases/` 重產 `_index.md` |
 | `weekly_new_case_check.py` | 每週掃 CourtListener 找新立案，輸出待審清單 |
+| `add_pending.py` | 多區段合併寫 `.pending-review.json`（main-board 待審 banner 的資料源） |
+| `apply_decisions.py` | 消化 main-board 審核決定（`.pending-decisions.json`），見下方審核迴圈 |
+| `rejected_cases.json` | 審核退回 ledger（weekly 掃描跳過這些 URL，退回案件不重現）— apply_decisions 維護 |
+| `approved_queue.json` | 審核通過的 intake 佇列（待人工列載）— apply_decisions 維護 |
 | `cases_manifest.json` | 100 案 case_id ↔ docket_id mapping |
 | `install.sh` | 一次性安裝（plist 部署到 LaunchAgents） |
 | `HANDOVER.md` | 早期交接文件，內容已被本檔取代 |
+
+### main-board 審核迴圈（2026-06-12 起）
+
+```
+weekly_new_case_check.py（每週一 launchd，--days 7）
+  → 自動分流（2026-06-13 起，YJ 指示「能機器判的不進人工清單」）：
+      a. 當事人含純 AI 業者（OpenAI/Anthropic/Suno…，word-boundary 比對）→ 自動通過
+      b. 起訴狀 RECAP 全文可得：含著作權字樣＋AI 關鍵詞 → 自動通過；
+         無 AI 關鍵詞 → 自動退回（進 rejected ledger，永不再現）
+      c. 全文不可得 → 才進 .pending-review.json 人工審核
+  → .pending-review.json（只剩 unknown；items 帶穩定 id = CL docket id）
+  → main-board update.sh 掃進 dashboard → YJ 在 https://main-board.vercel.app
+    「待審核總覽」按 ✓通過 / ✕退回 / ⏳稍後（決定存 Upstash，跨裝置）
+  → main-board 跑 ./update.sh --sync-decisions → 本 repo .pending-decisions.json
+  → python3 scripts/apply_decisions.py（先 dry-run 看計劃，--apply 寫檔）：
+      approved → 移出待審 + 進 approved_queue.json（之後照 intake 流程列載）
+      rejected → 移出待審 + 進 rejected_cases.json（weekly 掃描永久跳過）
+      deferred → 原地保留
+```
+
+已知去重盲點：dashboard 案名用縮寫時（例 CNN v. Perplexity AI vs 法院全名
+Cable News Network Inc）token 比對會 miss——自動通過後進 approved_queue 的案件，
+列載前仍要先確認 dashboard 沒有同案。
+
+apply_decisions.py 以 URL 比對案件（idempotent，重跑不會重複記錄），不碰 git。
 
 ---
 
