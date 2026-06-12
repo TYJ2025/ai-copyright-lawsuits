@@ -57,21 +57,18 @@ def load() -> dict:
 def flatten_and_write(doc: dict) -> None:
     """由 sections 合成 main-board 讀的頂層欄位，原子寫回。"""
     sections = doc.get("sections", {})
-    items, labels = [], []
+    items = []
     for sec in sections.values():
         sec_label = sec.get("label", "待審核")
-        sec_items = sec.get("items", [])
-        if not sec_items:
-            continue
-        labels.append(f"{sec_label} {len(sec_items)}")
-        for it in sec_items:
+        for it in sec.get("items", []):
             items.append({
-                "title": f"【{sec_label}】{it.get('title', '')}",
+                "title": it.get("title", ""),
                 "subtitle": it.get("subtitle", ""),
                 "url": it.get("url", ""),
+                "section": sec_label,
             })
     out = {
-        "label": "、".join(labels) if labels else "待人工審核",
+        "label": "待人工審核",
         "count": len(items),
         "items": items,
         "updated": datetime.now(TPE).isoformat(timespec="seconds"),
