@@ -68,7 +68,10 @@ COPYRIGHT_TERMS = [
     "training data", "generative", "LLM",
 ]
 
-NOS_CODE_COPYRIGHT = "820"  # 美國聯邦民事 nature_of_suit 820 = Copyright
+# 美國聯邦民事 nature_of_suit 820 = Copyright。
+# CourtListener Search API (type=r) 的欄位名是 `suitNature`（非 `nature_of_suit`，
+# 後者查無結果——2026-06-12 實測修正，bug 導致 5/27 起三次週掃全部誤報 0 件）。
+NOS_FILTER_COPYRIGHT = "suitNature:copyright"
 
 
 def build_query() -> str:
@@ -173,7 +176,7 @@ def search_courtlistener(
     since = (datetime.now(timezone.utc) - timedelta(days=days)).strftime("%Y-%m-%d")
     q = build_query()
     if nos_filter:
-        q = f"({q}) AND nature_of_suit:{NOS_CODE_COPYRIGHT}"
+        q = f"({q}) AND {NOS_FILTER_COPYRIGHT}"
     params = {
         "type": "r",          # RECAP 聯邦法院 docket
         "q": q,
