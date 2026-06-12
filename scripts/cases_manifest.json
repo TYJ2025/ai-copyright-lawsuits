@@ -1060,5 +1060,45 @@
     "primary_docket_id": 73294740,
     "secondary_docket_ids": [],
     "progress_excerpt": "2026/5/5 出版商聯盟（Elsevier、Hachette、Macmillan、McGraw Hill、Cengage）+ Scott Turow 於 S.D.N.Y. 起訴 Meta 與 Zuckerberg（1:26-cv-03689）。Castel 法官分案。為 Bartz v. Anthropic 後第二件出版商主導之 AI 著作權巨型集體訴訟，亦為首件將 Mark Zuckerberg 列為個人被告之 AI 訓練侵權案。主張 Meta 自 LibGen、Anna's Archive 抓取數百萬本書與學術期刊訓練 Llama，2023/4 Zuckerberg 個人指示放棄授權談判。集體界定以 ISBN/DOI/ISSN 為界。"
+  },
+  {
+    "case_id": 141,
+    "name": "Kwon v. Anthropic",
+    "court": "N.D. Cal. 3:26-cv-04649",
+    "judge": "Laurel Beeler",
+    "status": "active",
+    "primary_docket_id": 73352930,
+    "secondary_docket_ids": [],
+    "progress_excerpt": "2026/5/15 立案。Bartz 和解 opt-out 第二波，R.O. Kwon、Chang-Rae Lee 等 34 作家個別訴訟，jury demand。"
+  },
+  {
+    "case_id": 142,
+    "name": "Gilbert v. Anthropic",
+    "court": "D. Mass. 3:26-cv-30081",
+    "judge": "Christopher L. Morgan",
+    "status": "active",
+    "primary_docket_id": 73391700,
+    "secondary_docket_ids": [],
+    "progress_excerpt": "2026/5/26 立案。Pro se 原告 Daniel Benjamin Gilbert，§501 侵權，附 Exhibit A-G。"
+  },
+  {
+    "case_id": 143,
+    "name": "Cambronne, Inc. v. Google",
+    "court": "N.D. Cal. 5:26-cv-05582",
+    "judge": "P. Casey Pitts",
+    "status": "active",
+    "primary_docket_id": 73465441,
+    "secondary_docket_ids": [],
+    "progress_excerpt": "2026/6/10 立案（6/8 sever 後分出）。Cambronne, Inc. 等 6 原告，jury demand，同原告另有 Cambronne v. Anthropic。"
+  },
+  {
+    "case_id": 144,
+    "name": "Tanzer v. Adobe",
+    "court": "N.D. Cal. 3:26-cv-04712",
+    "judge": "Haywood S. Gilliam Jr.",
+    "status": "active",
+    "primary_docket_id": 73359710,
+    "secondary_docket_ids": [],
+    "progress_excerpt": "2026/5/18 立案。E. Molly Tanzer（Saveri 代理），jury demand；同原告另案告 Salesforce。"
   }
 ]
