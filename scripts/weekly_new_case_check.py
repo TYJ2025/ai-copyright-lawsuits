@@ -219,20 +219,47 @@ def search_courtlistener(
 # ─────────────────────────────────────────────────────────────────────────────
 # Output
 # ─────────────────────────────────────────────────────────────────────────────
+def case_url(c: dict) -> str:
+    """CourtListener 網頁 URL。必須用 API 給的 docket_absolute_url（含 slug）——
+    網頁路由是 /docket/<id>/<slug>/，自己用 id 拼的無 slug 形式會 404。"""
+    path = c.get("docket_absolute_url") or ""
+    if path:
+        return f"https://www.courtlistener.com{path}"
+    cl_id = c.get("docket_id") or c.get("id") or ""
+    return f"https://www.courtlistener.com/docket/{cl_id}/" if cl_id else ""
+
+
+def case_summary(c: dict) -> str:
+    """從 search API 欄位組一行人工審核用摘要：法官／訴因／陪審／代理律所。"""
+    parts = []
+    if c.get("assignedTo"):
+        parts.append(f"法官 {c['assignedTo']}")
+    if c.get("cause"):
+        parts.append(c["cause"])
+    if c.get("juryDemand") and c["juryDemand"] not in ("", "None"):
+        parts.append(f"陪審: {c['juryDemand']}")
+    firms = [f for f in (c.get("firm") or []) if f][:2]
+    if firms:
+        parts.append(f"代理: {'、'.join(firms)}")
+    return "｜".join(parts)
+
+
 def format_case_md(c: dict) -> str:
     """單一案件的 markdown 區塊。"""
     name = c.get("caseName") or c.get("case_name") or "(無案名)"
     court = c.get("court") or c.get("court_id") or "?"
     docket = c.get("docketNumber") or c.get("docket_number") or "?"
     date_filed = c.get("dateFiled") or c.get("date_filed") or "?"
-    cl_id = c.get("docket_id") or c.get("id") or ""
-    url = f"https://www.courtlistener.com/docket/{cl_id}/" if cl_id else ""
+    url = case_url(c)
+    summary = case_summary(c)
 
     lines = [
         f"### {name}",
         f"- **Court / Docket**: {court} · {docket}",
         f"- **Date Filed**: {date_filed}",
     ]
+    if summary:
+        lines.append(f"- **Summary**: {summary}")
     if url:
         lines.append(f"- **CourtListener**: {url}")
     return "\n".join(lines)
@@ -379,14 +406,14 @@ def write_pending_review(candidates: list[dict], days: int) -> None:
     """
     items = []
     for c in candidates[:20]:  # 最多 20 件，避免 main-board 卡片過長
-        cl_id = c.get("docket_id") or c.get("id") or ""
         court = c.get("court") or c.get("court_id") or "?"
         docket = c.get("docketNumber") or c.get("docket_number") or "?"
         date_filed = c.get("dateFiled") or c.get("date_filed") or "?"
         items.append({
             "title": c.get("caseName") or c.get("case_name") or "(無案名)",
             "subtitle": f"{court} · {docket} · filed {date_filed}",
-            "url": f"https://www.courtlistener.com/docket/{cl_id}/" if cl_id else "",
+            "desc": case_summary(c),
+            "url": case_url(c),
         })
     # 改經 add_pending.py 的多區段合併機制寫入：只整段替換 new-cases 區段，
     # 不會覆蓋其他 producer（如 daily-brief 時間軸候選）的區段。

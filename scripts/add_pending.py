@@ -61,12 +61,15 @@ def flatten_and_write(doc: dict) -> None:
     for sec in sections.values():
         sec_label = sec.get("label", "待審核")
         for it in sec.get("items", []):
-            items.append({
+            flat = {
                 "title": it.get("title", ""),
                 "subtitle": it.get("subtitle", ""),
                 "url": it.get("url", ""),
                 "section": sec_label,
-            })
+            }
+            if it.get("desc"):
+                flat["desc"] = it["desc"]
+            items.append(flat)
     out = {
         "label": "待人工審核",
         "count": len(items),
@@ -91,6 +94,7 @@ def main():
     ap.add_argument("--label", help="區段顯示名稱（首次建立區段時必填）")
     ap.add_argument("--title", help="條目標題")
     ap.add_argument("--subtitle", default="", help="條目副標（法院/日期等）")
+    ap.add_argument("--desc", default="", help="一行審核摘要（法官/訴因/代理等）")
     ap.add_argument("--url", default="", help="條目連結")
     ap.add_argument("--replace-stdin", action="store_true",
                     help="自 stdin 讀 JSON array 整段替換 --section")
@@ -129,8 +133,10 @@ def main():
         if any(it.get("title") == args.title for it in sec["items"]):
             print(f"  ↺ 已存在（{args.title}），跳過")
             return
-        sec["items"].insert(0, {"title": args.title,
-                                "subtitle": args.subtitle, "url": args.url})
+        entry = {"title": args.title, "subtitle": args.subtitle, "url": args.url}
+        if args.desc:
+            entry["desc"] = args.desc
+        sec["items"].insert(0, entry)
         print(f"  ✓ 區段 {args.section} 新增：{args.title}")
 
     flatten_and_write(doc)
