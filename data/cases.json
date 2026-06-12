@@ -2,7 +2,7 @@
   "$schema": "cases.v1",
   "generatedFrom": "dashboard.html",
   "generatedAt": "2026-06-12T19:53:51.281112+08:00",
-  "lastUpdatedSource": "2026-06-12T07:12:32+08:00",
+  "lastUpdatedSource": "manual: weekly_new_case_check 2026-06-12 review (4 new cases)",
   "data": [
     {
       "id": 1,
@@ -2120,6 +2120,62 @@
       "issues": "作家 Jeff Hobbs（《The Short and Tragic Life of Robert Peace》作者）與 A. Douglas Stone（Yale 應用物理教授）於 2026 年 5 月 22 日於紐約南區聯邦地院對 Meta 提起集體訴訟，主張 Meta 以盜版書籍（shadow library）訓練 Llama 系列模型構成故意著作權侵害。\n\n本案最受矚目之處在於被告範圍：除 Meta Platforms 與 CEO Mark Zuckerberg 外，更首次將 Meta AI 研究科學家列為個人被告——Meta FAIR（Fundamental AI Research）實驗室前副總裁 Joelle Pineau、前研究員 Guillaume Lample。\n\n核心爭點：(1) 以盜版來源書籍訓練 LLM 是否構成故意侵權；(2) AI 研究人員個人是否須就職務上參與之訓練決策負輔助侵權／個人責任——此為 AI 訓練訴訟首見之「科學家個人責任」戰線。",
       "progress": "【2026/5/22】Jeff Hobbs、A. Douglas Stone 於 S.D.N.Y. 提起集體訴訟（1:26-cv-04314）。Nature of Suit 820（著作權）。截至立案時法官尚未指派（Unassigned）。\n\n本案為追蹤站 ChatGPT Is Eating the World 所列之第 113 件美國 AI 著作權訴訟。與同期出版商聯盟 + Scott Turow v. Meta（1:26-cv-03689，2026/5/5）同屬「出版界對 Meta／Llama」之訴訟波，惟本案獨以「點名 AI 科學家個人」為特色。",
       "taiwan": "本案對台灣的啟示：\n\n1. **AI 研究人員個人責任之先例**——本案將 Meta FAIR 前副總 Joelle Pineau、研究員 Guillaume Lample 列為個人被告，開「受僱研究人員須就訓練決策負個人侵權責任」之先河。台灣 AI 研發團隊（學界與產業之研究主管、資料工程師）若於訓練資料來源決策有可證實之直接參與，未來可能面臨民法第 185 條共同侵權之個人責任主張。\n\n2. **盜版庫訓練之故意侵權強化**——本案延續 shadow library（LibGen、Anna's Archive 等）爭點，主張使用盜版來源即構成故意侵權。國內 AI 業者與研究機構應建立資料來源驗證（data provenance）與盡職調查流程，避免使用來源不明之訓練語料。\n\n3. **個人被告對和解與舉證之影響**——將個人列為被告可能改變訴訟動態：增加被告和解壓力、擴大文件揭示（discovery）範圍至個人通訊。台灣企業於 AI 專案治理時，應留意內部 email、會議紀錄等可能成為個人責任證據。"
+    },
+    {
+      "id": 141,
+      "name": "Kwon v. Anthropic",
+      "court": "N.D. Cal. (3:26-cv-04649)",
+      "judge": "Laurel Beeler",
+      "status": "active",
+      "claims": [
+        "Direct Copyright"
+      ],
+      "defendants": "Anthropic PBC",
+      "issues": "Bartz v. Anthropic $15 億和解之 opt-out 第二波個別訴訟：R.O. Kwon、Chang-Rae Lee 等 34 位作家於 2026/2/9 opt-out 期限前退出集體和解，保留請求權後個別起訴，主張 Anthropic 自影子圖書館（LibGen、PiLiMi）下載其著作之盜版重製本訓練 Claude 模型，並請求陪審團審理。\n\n核心爭點：在 Alsup 法官 Bartz 案「合法取得書籍訓練 AI 屬合理使用、自盜版來源下載不屬合理使用」之框架下，opt-out 作家能否就盜版下載重製取得高於和解基準（每作品 $3,000）之法定賠償（每作品最高 $150,000 故意侵權）。",
+      "progress": "2026/5/15 立案，Beeler 法官審理。本案為繼 2026/5/13 Cruz v. Anthropic（28 位作家、第一波）後之第二波 opt-out 個別訴訟，反映部分作家認為集體和解金額偏低、選擇單獨求償之策略分化。",
+      "taiwan": "1) opt-out 個別求償 vs 集體和解之策略選擇，凸顯美國 class action 制度下著作權人之議價空間；台灣無 opt-out 集體訴訟制度，著作權人僅能依民事訴訟法選定當事人制度或由著作權集體管理團體協助，立法政策上值得比較。2) 若 opt-out 作家於個別訴訟取得高於 $3,000/作品之賠償，將影響日後 AI 訓練侵權和解之定價基準。"
+    },
+    {
+      "id": 142,
+      "name": "Gilbert v. Anthropic",
+      "court": "D. Mass. (3:26-cv-30081)",
+      "judge": "Christopher L. Morgan",
+      "status": "active",
+      "claims": [
+        "Direct Copyright"
+      ],
+      "defendants": "Anthropic PBC",
+      "issues": "Pro se（本人訴訟）原告 Daniel Benjamin Gilbert 於麻州聯邦地院對 Anthropic 提起著作權侵權訴訟（17 U.S.C. §501），起訴狀附 Exhibit A–G 共七份證據附件。具體侵權主張內容（涉及著作類型、是否與 Bartz 和解 opt-out 相關）待起訴狀全文公開後確認（待查）。",
+      "progress": "2026/5/26 立案。原告同日聲請 pro se 電子提交許可。案件在 D. Mass.（而非多數 Anthropic 訴訟集中之 N.D. Cal.），管轄與移轉動向值得觀察。",
+      "taiwan": "個人創作者以本人訴訟對 AI 公司求償之案例。台灣著作權人亦可不委任律師自行起訴，但 AI 訓練侵權案件之技術舉證門檻高，本案後續可觀察 pro se 原告在此類案件之實際存活率。"
+    },
+    {
+      "id": 143,
+      "name": "Cambronne, Inc. v. Google",
+      "court": "N.D. Cal. (5:26-cv-05582)",
+      "judge": "P. Casey Pitts",
+      "status": "active",
+      "claims": [
+        "Direct Copyright"
+      ],
+      "defendants": "Google LLC",
+      "issues": "Cambronne, Inc. 與 Michael Kochin、Jane Adams、Philip Shishkin、Lisa Barretta、Matthew Sacks 等作者／權利人控告 Google 著作權侵權（17 U.S.C. §501），請求陪審團審理。原告 Cambronne, Inc. 同時為本站已收錄 Cambronne v. Anthropic（同由 Pitts 法官審理）之原告，顯示同一權利人群體對多家 AI 公司平行求償之策略。\n\n具體訓練資料來源主張（是否涉 Books3／影子圖書館、針對 Gemini 訓練）待起訴狀全文公開後確認（待查）。",
+      "progress": "2026/6/8 法院核准分離（sever）動議後自合併案分出，6/10 立案登錄，Pitts 法官審理。案件極早期，被告尚未應訴。",
+      "taiwan": "同一著作權人對多家 AI 業者平行訴訟之求償模式，台灣權利人面對多平台侵權時可參考其訴訟資源配置；另分離（severance）程序反映美國法院對多被告 AI 案件之案件管理趨勢。"
+    },
+    {
+      "id": 144,
+      "name": "Tanzer v. Adobe",
+      "court": "N.D. Cal. (3:26-cv-04712)",
+      "judge": "Haywood S. Gilliam Jr.",
+      "status": "active",
+      "claims": [
+        "Direct Copyright"
+      ],
+      "defendants": "Adobe Inc.",
+      "issues": "小說家 E. Molly Tanzer 控告 Adobe 著作權侵權（17 U.S.C. §501），由 Joseph Saveri 律師事務所（多起指標性 AI 著作權訴訟之原告代理人）代理，請求陪審團審理。\n\n本案屬針對 Adobe 之第三波書籍訓練資料訴訟：先前 Lyon v. Adobe 與 Kleiner v. Adobe 均主張 Adobe 以含 Books3 之 RedPajama／SlimPajama 資料集訓練其 SlimLM 語言模型，與 Adobe 對外宣稱 Firefly 僅以授權內容訓練之「乾淨 AI」形象形成對比。Tanzer 起訴狀具體主張待公開後確認（待查）。",
+      "progress": "2026/5/18 立案，Gilliam 法官審理。原告 Tanzer 另案控告 Salesforce（本站已收錄 Tanzer / Alexander v. Salesforce），與 Adobe 案構成同一作者對多家企業 AI 業者之平行求償。",
+      "taiwan": "Adobe 主打「商業安全」之 Firefly 在企業市場（含台灣企業用戶）滲透率高，本系列訴訟若證實其語言模型使用盜版書籍資料集，將衝擊「乾淨訓練資料」之商業承諾可信度；台灣企業採購 AI 工具時對供應商訓練資料保證條款（indemnification）之談判重要性再獲印證。"
     }
   ]
 }
