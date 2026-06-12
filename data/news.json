@@ -1,10 +1,57 @@
 {
   "$schema": "news.v1",
   "generatedFrom": "dashboard.html",
-  "generatedAt": "2026-06-04T00:05:31.099927+08:00",
-  "lastUpdatedSource": "2026-06-03T07:17:12+08:00",
+  "generatedAt": "2026-06-12T19:53:51.284762+08:00",
+  "lastUpdatedSource": "2026-06-12T07:12:32+08:00",
   "data": {
     "items": [
+      {
+        "addedAt": "2026-06-12",
+        "text": "【2026/6/8】OpenAI 6/8 向 SEC 機密遞交 IPO S-1 草稿、Goldman Sachs / Morgan Stanley / JPMorgan 領投、估值區間 US$7,300 億-US$8,520 億、bullish 估值衝 US$1 兆，目標 2026/9 NASDAQ 掛牌（與 5/29 Anthropic 同類機密遞交、In re OpenAI MDL／NYT 多軌訴訟構成「兆元 IPO ↔ 著作權訴訟風險揭露」雙重壓力）：OpenAI 6/8（週一）以與 Anthropic 5/29 完成 US$650 億 Series H、6/1 同樣依《JOBS Act》機密遞交（confidential filing）方式向美國 SEC 提交 S-1 註冊聲明草稿，Goldman Sachs、Morgan Stanley、JPMorgan 領投；TechCrunch、Music Business Worldwide、Bloomberg、CNN 6/8-9 同步揭露，pre-IPO 估值區間 US$7,300 億-US$8,520 億、bullish 投行估值衝 US$1 兆，目標 2026/9 NASDAQ 掛牌，公開 S-1 文本依機密遞交程序將於 60-90 天後（最快 2026/7 月底至 8 月初）公開；OpenAI 2025 ARR 已逾 US$200 億、2026/2 年化營收突破 US$250 億，財務面向投行可資定錨；惟同步遞交時點 OpenAI 仍應對 NYT v. Microsoft/OpenAI（S.D.N.Y. 1:23-cv-11195）、In re OpenAI MDL（S.D.N.Y. 1:25-md-03143）所合併之 19 件著作權集體訴訟（含 Authors Guild、Daily News、Ziff Davis、Center for Investigative Reporting、California Newspaper Partnership 等）、Encyclopaedia Britannica/Merriam-Webster v. OpenAI 等多線訴訟，並承擔 5/22 治安法官命補繳 Musk 案 Altman/Brockman/Nadella 高層證言、ChatGPT 2,000 萬篇對話 log 須繳交予原告律師團等近期不利程序進展之資本市場後果；S-1 公開版「訴訟風險揭露（Risk Factors）」章節對既有／潛在著作權訴訟之 forward-looking 估值衝擊評估，勢成 NYT、In re OpenAI MDL 等案下半年和解動機之重要新槓桿；Anthropic（US$9,650 億）＋OpenAI（US$1 兆）同步衝兆元級 IPO 之同時，恰與 Bartz v. Anthropic 15 億美元和解 6/11 設定之分配計算日（matter under submission 中、6/5 Boston Globe 揭單件分配自 US$4,000+ 下修至 US$3,000 以下、實際發放推遲至最快今秋）形成「AI 巨頭估值狂飆 vs 作者賠償縮水」鮮明資本市場敘事",
+        "url": "https://techcrunch.com/2026/06/08/following-anthropic-openai-files-confidentially-for-ipo/"
+      },
+      {
+        "addedAt": "2026-06-11",
+        "text": "【2026/6/11】Thomson Reuters v. ROSS Intelligence 第三巡迴 6/11 上午 10 時口頭辯論今日於費城登場（3d Cir. 25-2153）：全美首件 AI 訓練資料合理使用上訴聽證——德拉瓦聯邦地院 Stephanos Bibas 法官 2025/2 對 ROSS 以 Westlaw 法律摘要（headnotes）訓練 AI 法律搜尋引擎所為「非合理使用」之 interlocutory 判決，今日於賓夕法尼亞州費城 James A. Maris Courtroom 由第三巡迴合議庭進行口頭辯論；雙方依法院 4/14 命令於 5/11 完成 American Society for Testing v. UpCodes（第三巡迴近期合理使用判決）補充辯狀攻防：ROSS（White & Case / Pillsbury）主張 UpCodes 支持簡易撤銷地院不利判決、Thomson Reuters（Kirkland & Ellis）反主張 UpCodes 反證 ROSS 屬「商業替代性使用」落入合理使用紅線；本案結果將形成 Bartz v. Anthropic、Kadrey v. Meta、Concord I、In re OpenAI MDL、NYT v. Microsoft/OpenAI 等所有後續 AI 訓練資料合理使用案件之首件聯邦上訴審先例，EFF、Authors Alliance 與多家學界 amici 已聲援 ROSS、主要科技公司亦提交支持立場 brief，Thomson Reuters 則獲版權密集型產業聯盟回應",
+        "url": "https://chatgptiseatingtheworld.com/2026/04/14/third-circuit-sets-oral-argument-on-june-11-for-1st-appeal-of-decision-on-fair-use-in-ai-training-case-follows-another-recent-third-circuit-decision-on-fair-use-in-american-society-for-testing-v-upc/"
+      },
+      {
+        "addedAt": "2026-06-11",
+        "text": "【2026/6/9】Beaulier v. Microsoft Corporation 6/9 聲請 12(b)(6) 駁回（W.D. Wash. 2:26-cv-01031）：洛杉磯 3D 模型與視覺特效藝術家 Austin Beaulier 對 NVIDIA、Meta、Microsoft、Roblox 4 大科技公司同步發動之 DMCA §1202 集體訴訟系列（chatgptiseatingtheworld 編號 lawsuits No. 94-97），Microsoft 6/9 向華盛頓西區聯邦地院聲請駁回——主張原告未陳述微軟「曾自其 3D 模型移除著作權管理資訊（CMI／§1202(b)）」或「散布原告受保護作品」之必要事實要件，故依 Fed. R. Civ. P. 12(b)(6) 應予駁回；起訴狀核心主張為各被告於使用 Objaverse-XL（含 Beaulier 以 Creative Commons 授權公開之 3D 模型）訓練生成式 AI 模型過程中系統性剝離作者署名等 CMI；本聲請與 Doe v. GitHub（Copilot 集體訴訟）2026/2 第九巡迴口頭辯論主軸「DMCA §1202 是否適用於 AI 訓練資料中遭剝離之 CMI」、Andersen v. Stability AI（N.D. Cal. 3:23-cv-00201）之 §1202 主張共構 2026 下半年 AI 訓練資料 DMCA 戰線雙軌攻防，亦為 Beaulier 系列 4 件子訴訟首件被告實體動議；本案與 Beaulier v. Meta（N.D. Cal. 3:26-cv-02632）、Beaulier v. Roblox（Corley 法官合議庭）分屬不同地院、結果不必然一致",
+        "url": "https://www.law360.com/articles/2487445/microsoft-looks-to-ax-3d-artist-s-copyright-info-ai-suit"
+      },
+      {
+        "addedAt": "2026-06-10",
+        "text": "【2026/6/9】Digital Content Next（DCN，美國主要數位新聞發行人貿易協會）6/9 律師函致 Common Crawl 基金會「立即停止並刪除」AI 訓練資料中之 DCN 會員著作權內容（NYT、Microsoft、OpenAI 多軌訴訟核心訓練語料行政施壓再升級）：代表 NYT、Washington Post、Vox Media、Hearst、News Corp、Conde Nast 等美國主要數位新聞發行人之 Digital Content Next（DCN）於 6/9（週二）經其律師具名向 Common Crawl 基金會發出律師函，要求 Common Crawl「立即停止對 DCN 會員所屬有著作權、付費牆、訂閱者專屬或其他受保護內容之抓取、保留與分享」，並「刪除 dataset 內所有 DCN 會員既有內容」、揭露下游 AI 客戶清單；DCN 律師函強調 Common Crawl「以贈送形式（for free）積極行銷其 dataset 予商業 AI 開發者作為訓練語料」之模式構成「明顯著作權侵害」（flagrantly infringed），並具體列舉 Common Crawl 多次「先確認已遵守 opt-out 撤稿指示、嗣後拖延數月反稱『技術困難』無法刪除」之失信案例；本封 6/9 律師函緊隨 News/Media Alliance（NMA）4/29 同類正式抗議信、Microsoft 6/2 Build 2026 keynote「乾淨商業授權資料」聲明遭自家 MAI-Thinking-1 技術論文揭露 24.2 億 Common Crawl 頁面同週發生，對 NYT v. Microsoft/OpenAI（S.D.N.Y. 1:23-cv-11195）、Daily News v. Microsoft/OpenAI、Center for Investigative Reporting v. OpenAI、California Newspaper Partnership v. Microsoft/OpenAI 等以 Common Crawl 為核心訓練語料之既有訴訟構成「訴訟外行政壓力」延伸，亦預示出版商 ↔ Common Crawl 直接訴訟下一波可能性",
+        "url": "https://pressgazette.co.uk/media_law/common-crawl-ai-news-publishers-scraping-cease-and-desist-letter/"
+      }
+    ],
+    "archive": [
+      {
+        "addedAt": "2026-06-08",
+        "text": "【2026/6/2-5】Microsoft Build 2026 keynote 對 MAI 模型「乾淨商業授權資料」聲明遭自家技術論文打臉、Common Crawl 24.2 億頁面赫然在訓練 pipeline 內（NYT、Huckabee、Daily News、California Newspaper Partnership 多案被告誠信壓力陡升）：Microsoft 6/2 於 Build 2026 開發者大會 MAI keynote（CEO Mustafa Suleyman 主導）公開對企業客戶宣稱新發布之 MAI-Thinking-1 等 7 件自研推論／生成模型訓練資料「全為企業級、乾淨、商業授權資料」（enterprise-grade, clean and commercially licensed），標榜 provenance 合規足以滿足法遵採購需求；惟同日（6/2）Microsoft AI 團隊釋出之 MAI-Thinking-1 技術 preprint（microsoft.ai/wp-content/uploads/2026/06/main_20260602_2.pdf）卻揭露訓練 web HTML 語料 pipeline 同時納入 Common Crawl、以與 Microsoft 自有 1.2 兆頁面爬蟲過濾至 7,940 億頁面之相同 pipeline 處理 Common Crawl，dedup + filter 後 Common Crawl 部分仍佔 24.2 億頁面；TechTimes、The420、Windows News、MLQ.ai 6/5 連發三日連續揭露「行銷話術 vs 技術論文」明顯矛盾——Common Crawl 為 NYT v. Microsoft/OpenAI（S.D.N.Y. 1:23-cv-11195）、Daily News v. Microsoft/OpenAI、Huckabee v. Meta/Bloomberg/Microsoft、California Newspaper Partnership v. Microsoft/OpenAI、Center for Investigative Reporting v. OpenAI 等多件既有訴訟之核心爭點訓練語料；本次自家技術文件揭露對 Microsoft 在 In re OpenAI MDL（S.D.N.Y. 1:25-md-03143）之「合理使用＋商業性透明度」防線構成內部證據面壓力，亦呼應 5/22 治安法官命 OpenAI 補繳 Musk 案高層證言「商業性自相矛盾陳述」之同質策略——AI 公司對外行銷／監管對話 vs 內部技術論文之雙軌敘事將成 2026 下半年訓練資料著作權訴訟新型攻防主軸",
+        "url": "https://www.techtimes.com/articles/317869/20260605/microsoft-mai-training-data-includes-common-crawl-contradicting-build-2026-claims.htm"
+      },
+      {
+        "addedAt": "2026-06-07",
+        "text": "【2026/6/5】AFM v. UMG / Warner Music Group（S.D.N.Y.）：全美首件「勞工工會就 AI 訓練資料授權收入分配」對唱片公司提起之訴訟：美國音樂家聯合會（American Federation of Musicians, AFM）6/5（週五）於紐約南區聯邦地院對 Universal Music Group 與 Warner Music Group 提起 collective bargaining agreement（集體談判協議）違約訴訟——主張兩大唱片公司於與 Suno（WMG 2025/11 約 US$500M 和解＋授權）、Udio（UMG 2025/10 和解＋合資 AI 音樂平台、WMG 同步和解）所達成「回顧型和解＋前瞻型授權」交易中，未依 CBA「new use」條款補償 session musicians，亦拒絕揭露「實際被授權／用於 AI 訓練之具體錄音名單」與「哪些 union 樂手出現於該等錄音」；起訴狀引述 AFM 聲明強調「Defendants 為自身利益創造重大新收入來源、卻拒絕補償以自己樂器、才華、創意與努力創作出供 AI 機器吞食營利之音樂家」；本案為 Sony Music 對 Suno（D. Mass. 1:24-cv-11611）與 Udio（S.D.N.Y.）續行訴訟、Suno 6/3 完成 US$4 億 D 輪 US$54 億估值募資、Boston Globe 6/5 揭 Bartz 分配延宕之同週發生，正式打開 AI 音樂訴訟「資本擴張 vs 勞動分配」第三戰線，恐迫使 UMG / WMG 揭露歷來保密之訓練資料清冊與和解金分配明細",
+        "url": "https://www.hollywoodreporter.com/music/music-industry-news/musicians-union-lawsuit-ai-song-generator-settlement-1236614835/"
+      },
+      {
+        "addedAt": "2026-06-06",
+        "text": "【2026/6/1-5】Anthropic 6/1 向 SEC 機密遞交 IPO S-1 草稿、目標估值衝 US$1 兆；Boston Globe 6/5 揭 Bartz 15 億和解分配時點延至「最快今秋」、單筆給付自原估 US$4,000+ 下修至 US$3,000 以下（N.D. Cal. 3:24-cv-05417）：Anthropic 於 5/29 完成 US$650 億 Series H、post-money 估值 US$9,650 億後僅 3 日，6/1（週一）依《JOBS Act》以「機密遞交（confidential filing）」方式向美國證券交易委員會（SEC）提交 S-1 註冊聲明草稿，CNBC / CNN / TechCrunch / Fortune 同步揭露；投行普遍以 US$1 兆為定錨估值、目標 2026/10 NASDAQ 掛牌，將與 SpaceX、OpenAI 並列 2026 年三大兆美元級科技 IPO 候選；同週 Boston Globe 6/5（記者 Elizabeth Benedict）揭 Bartz v. Anthropic 美國史上最大著作權集體和解 5/14 公平性聽證後迄今仍未取得 Martínez-Olguín 法官書面核准命令（matter under submission），律師酬金、5 萬美元服務獎金及逾期 opt-out 政策三軌補件延宕；班底作家最新揭露單件作品分配額自原預估 US$4,000+ 下修至 US$3,000 以下、實際分配時點自 6/11 推遲至「最快今秋（late fall）」，與 Anthropic 同週 US$1 兆級 IPO 估值形成「企業估值狂飆 vs 作者賠償縮水」鮮明對照，書評人形容對 Anthropic 而言不過 pocket change",
+        "url": "https://www.bostonglobe.com/2026/06/05/opinion/ai-authors-anthropic-settlement/"
+      },
+      {
+        "addedAt": "2026-06-05",
+        "text": "【2026/6/1-2】UMG/Sony v. Suno（D. Mass. 1:24-cv-11611）+ Sony Music v. Udio（S.D.N.Y.）：Suno 與 Udio 接連聲請封存「AI 訓練資料總量數字」主張「競爭性損害」（competitive harm）：Suno 5 月底向麻州聯邦地院（Casper 法官／Levenson 治安法官）提交動議聲請將其用於訓練生成式音樂模型之「全部音檔總數」此一單一數字（single figure）排除於公開卷宗外，CTO Georg Kucsko 同步具結聲明該數字「未曾公開、亦未於本訴訟以外揭露」，公開揭露將致對手「以該基準（benchmark）為錨點、更快、更廉價地開發競品模型」；Suno 強調本聲請僅針對「訓練資料總量數字本身」、並不掩飾 UMG/Sony 主張之 61,026 件追加錄音之具體身份；Music Business Worldwide / Digital Music News 6/1 同步揭露；Udio 6/2 緊隨其後於 S.D.N.Y. Sony Music 訴訟中提交雷同聲請、論據同為競爭性損害；紐約調查性媒體 Inner City Press（記者 Matthew Lee）已於麻州法院遞交反對書狀並主張解封，認訓練資料規模屬「音樂從業人員之重大公益事項」；本聲請於 UMG-Sony 5/21 動議將起訴範圍擴增至 61,026 件錄音、Suno 6/3 完成 $4 億 D 輪 $54 億估值募資之同週展開，形成「訴訟透明度 vs 資本/競爭優勢」核心對抗點，攻防亦將影響 2027/1/8 UMG v. Suno 摘要判決排程",
+        "url": "https://www.musicbusinessworldwide.com/after-suno-udio-asks-court-to-seal-the-size-of-its-ai-training-data-in-sony-musics-copyright-case-also-citing-competitive-harm/"
+      },
+      {
+        "addedAt": "2026-06-04",
+        "text": "【2026/6/3】Suno 完成 $4 億美元 D 輪募資、估值 $54 億美元，首件「與音樂產業合作建構之 AI 音樂模型」即將推出（與 Sony / UMG / GEMA 多軌訴訟形成對照）：AI 音樂生成平台 Suno 6/3 正式宣布完成由 Bond Capital 領投、IVP、Forerunner、Union Square Ventures、Alkeon、Quiet 加入並 Matrix、Lightspeed、Menlo Ventures、Schroders Capital 等既有投資人續投之 $4 億美元 D 輪募資，post-money 估值 $54 億美元——較 2025/11 Series C 之 $24.5 億，七個月內估值翻倍；Suno 同步揭露將於未來數月推出其「首件與音樂產業合作建構之 AI 音樂模型」（first music model built in partnership with the music industry），目前已於藝人與部分用戶間測試授權版模型；自 2025/11 Warner Music 約 $500M 和解並簽授權協議後，本次募資與授權模型發布為 Suno「商業擴張＋部分產業合作」戰略之延伸，與 Sony Music 於 D. Mass. 1:24-cv-11611 共同擴增至 61,026 件錄音之求償動議、GEMA v. Suno 慕尼黑判決延至 7/31、Justice v. Suno 集體訴訟、Poseidon Wave v. Suno（S.D.N.Y., $35M）等多線訴訟形成「資本市場樂觀 vs 法院持續壓力」之鮮明對照",
+        "url": "https://techcrunch.com/2026/06/03/still-facing-copyright-lawsuits-ai-music-generator-suno-raises-another-400m/"
+      },
       {
         "addedAt": "2026-06-03",
         "text": "【2026/5/26】Disney / Universal / Warner Bros. Discovery v. MiniMax 中加聯邦地院 Blumenfeld 法官 5/26 否准被告撤銷之訴聲請（C.D. Cal.）：好萊塢三大製片廠 Disney、NBCUniversal、Warner Bros. Discovery 於 2025/9/16 對中國 AI 公司 MiniMax（旗下「Hailuo AI / 海螺 AI」影像與影片生成服務）所提之大規模著作權侵權訴訟，5/26 由 Stanley Blumenfeld Jr. 法官否准 MiniMax 之 motion to dismiss——法院明確駁回 MiniMax「美國法院欠缺人事管轄權」（主要營業地在中國）與「MiniMax 僅為品牌名而非可被起訴之法律實體」兩項主張，認原告已就管轄與實體著作權侵權充分陳述事實，命被告於美國法院應訴；起訴狀指控 Hailuo 行銷文宣以「Hollywood studio in your pocket」自稱、產出 Spider-Man、Darth Vader、Shrek 等好萊塢標誌性角色之圖像與影片；本案繼 Disney / Universal v. Midjourney（C.D. Cal. 2:25-cv-05275）後，成中國 AI 公司在美著作權跨境執法之指標案件，後續 5/29 已排定剩餘爭點聽證",
@@ -14,9 +61,7 @@
         "addedAt": "2026-06-03",
         "text": "【2026/5/26】GEMA v. Suno 慕尼黑第一地方法院 5/26 新聞稿宣告判決日自 2026/6/12 延至 2026/7/31（Landgericht München I）：德國音樂著作權集中管理組織 GEMA 對 AI 音樂生成平台 Suno 之著作權侵權訴訟，慕尼黑第一地方法院以「內部行政原因」（internal administrative reasons）發布 5/26 新聞稿，公告原訂 6/12 之判決朗讀（Verkündung）延至 7/31 上午 9 時於 Justizpalast 270 號法庭宣示；延期屬程序性安排、不揭示合議庭實體判決傾向；本案為繼 GEMA v. OpenAI（慕尼黑 2025/11/11 認定 ChatGPT 訓練侵害歌詞著作權、即使統計參數儲存亦構成重製）後歐洲第二件 AI 音樂訓練資料著作權實體判決，將成全球音樂產業對 Suno 訴訟之首件實體裁判，並早於美國 D. Mass. 1:24-cv-11611 UMG/Sony v. Suno 之 2026/7 摘要判決聽證；如 GEMA 勝訴將形成「文本型（ChatGPT）＋ 音樂型（Suno）」雙重重製責任先例",
         "url": "https://www.mlex.com/mlex/articles/2481789/gema-suno-copyright-ruling-postponed-by-munich-court-to-july-31"
-      }
-    ],
-    "archive": [
+      },
       {
         "addedAt": "2026-05-31",
         "text": "【2026/5/28-29】Concord Music v. Anthropic I：音樂出版商主動撤回 vicarious liability 主張、Anthropic 5/29 旋即宣布 $650 億美元募資輪（N.D. Cal. 5:24-cv-03811）：Digital Music News 5/28 揭露，Concord Music Group、Universal Music Corp. 等主要音樂出版商於 Concord I 案中以 voluntary dismissal 方式主動清空「替代侵權」（vicarious infringement）一項主張——此前 Eumi K. Lee 法官曾否准 Anthropic 就該項所提撤銷之訴聲請（motion to dismiss），原告反於 6/8 即決判決完整答辯前自願撤銷此爭點，戰略上集中火力於 DMCA § 1202 移除 CMI 與 BitTorrent 取得盜版訓練資料兩條主軸；案件本體（直接侵權、誘引侵權、DMCA、torrent）續行，7/15 即決判決聽證照常召開，BMG Rights Management v. Anthropic 平行案件亦受同一法官審理；Anthropic 5/29（週五）旋即宣布完成 US$650 億美元募資輪、post-money 估值 US$9,650 億（已超越 OpenAI 2026/3 之 US$8,520 億估值），形成「法律風險可控 → 資本市場立即回應」之同步訊號，與 5/14 Bartz $15 億公平性聽證後待裁定、7/15 Concord I 即決判決構成 Anthropic 2026 Q2-Q3 雙線壓力測試",

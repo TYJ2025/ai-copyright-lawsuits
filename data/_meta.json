@@ -1,14 +1,14 @@
 {
   "$schema": "_meta.v1",
-  "generatedAt": "2026-06-04T00:05:31.100726+08:00",
-  "dashboardLastModified": "2026-06-03T07:17:12+08:00",
+  "generatedAt": "2026-06-12T19:53:51.285178+08:00",
+  "dashboardLastModified": "2026-06-12T07:12:32+08:00",
   "extractionCounts": {
     "cases": 139,
     "case_sources": 123,
     "fair_use_cases": 9,
     "official_reports": 10,
-    "news_items": 2,
-    "news_archive": 22,
+    "news_items": 4,
+    "news_archive": 29,
     "timeline_events": 31
   }
 }
