@@ -115,39 +115,34 @@ if [ $RC -ne 0 ]; then
     exit $RC
 fi
 
-# --- 偵測 Claude 是否真有改到內容（必須在 sed 之前判斷） ---
-if git diff --quiet HEAD -- dashboard.html 2>/dev/null; then
+# --- 偵測 Claude 是否真有改到內容（add_news.py 寫 data/news.json） ---
+if git diff --quiet HEAD -- data/news.json 2>/dev/null; then
     HAD_CONTENT_CHANGE=0
 else
     HAD_CONTENT_CHANGE=1
-    CHANGE_LINES=$(git diff --stat HEAD -- dashboard.html 2>/dev/null | tail -1)
+    CHANGE_LINES=$(git diff --stat HEAD -- data/news.json 2>/dev/null | tail -1)
 fi
 
-# --- 永遠戳 footer 日期，當作 cron heartbeat（證明今天有跑過） ---
-TODAY=$(date '+%Y-%m-%d')
-/usr/bin/sed -i '' "s/每日快訊最近更新: [0-9-]*/每日快訊最近更新: $TODAY/" "$REPO_DIR/dashboard.html"
-log "Footer date stamped to $TODAY"
+# --- 用 build.py 從 data/ 重生 dashboard.html ---------------------------------
+# Phase 6 cutover (2026-06-12)：dashboard.html 自此為 build 產物。
+# footer 日期由 build.py 蓋（取代原本的 sed），每天必跑 = cron heartbeat。
+log "Rebuilding dashboard.html from data/ via build.py …"
+if /usr/bin/env python3 "$REPO_DIR/scripts/build.py" >> "$LOG_FILE" 2>&1; then
+    log "build.py OK — dashboard.html regenerated"
+else
+    log "FATAL: build.py failed — dashboard.html NOT regenerated"
+    echo "$(date '+%Y/%m/%d')|fail|build.py" > "$STATE_FILE"
+    exit 3
+fi
 
 if [ "$HAD_CONTENT_CHANGE" -eq 1 ]; then
-    log "dashboard.html updated: $CHANGE_LINES"
+    log "data/news.json updated: $CHANGE_LINES"
     echo "$(date '+%Y/%m/%d')|updated|$CHANGE_LINES" > "$STATE_FILE"
 else
-    log "No new cases today; footer date bumped as heartbeat."
+    log "No new news today; footer date bumped as heartbeat."
     echo "$(date '+%Y/%m/%d')|heartbeat" > "$STATE_FILE"
 fi
 log "auto-push.sh will pick it up via WatchPaths."
-
-# --- Phase 5 shadow-run (non-destructive, post-edit) -------------------------
-# Tests the new data/*.json → build.py → dashboard.html pipeline by verifying
-# it would produce the SAME content as the live (regex-edited) dashboard.html.
-# Logs to shadow-run.log. Failure does NOT affect daily-brief's exit code.
-# Remove this block during Phase 7 cleanup (after cutover).
-if [ -x "$REPO_DIR/scripts/shadow_run.sh" ]; then
-    log "Triggering shadow_run.sh …"
-    "$REPO_DIR/scripts/shadow_run.sh" >/dev/null 2>&1 || true
-    log "shadow_run.sh exit captured (see shadow-run.log for result)."
-fi
-# ----------------------------------------------------------------------------
 
 log "===== Daily brief done ====="
 exit 0

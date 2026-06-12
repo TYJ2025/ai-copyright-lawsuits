@@ -49,16 +49,24 @@ ThrottleInterval: 60s（防 editor save 風暴）
 
 ---
 
-## 3. dashboard.html 資料結構
+## 3. 資料架構（2026-06-12 Phase 6 cutover 後）
 
-兩個關鍵 JS 陣列：
+**`dashboard.html` 是 build 產物，不要手改**（改了下次 build 就被蓋掉）。真實資料源與產生流程：
 
-```js
-const newsItems = [...]    // 最近 3 天加入的快訊，畫面頂部 ticker
-const newsArchive = [...]  // > 3 天的歷史快訊，畫面下方折疊區
+```
+data/*.json  +  templates/dashboard.template.html
+            │
+            └── python3 scripts/build.py ──► dashboard.html（含 footer 今日日期）
 ```
 
-每筆 entry 格式：
+- `data/news.json` — 快訊。envelope：`{"$schema":"news.v1","data":{"items":[...],"archive":[...]}}`
+  - `items` = 最近 3 天快訊（頂部 ticker）；`archive` = 超過 3 天的歷史快訊（下方折疊區）
+  - **新增快訊一律用 `scripts/add_news.py`**（自動去重 + 自動歸檔），不要手改 json
+- `data/cases.json`、`case_sources.json`、`fair_use_cases.json`、`official_reports.json`、`timeline.json` — 其餘 dashboard 區塊資料
+- 改**版面/視覺** → 編輯 `templates/dashboard.template.html` 後跑 `build.py`
+- `scripts/migrate_html_to_json.py` — one-shot 反向工具（dashboard.html → data/），已脫離每日流程
+
+每筆快訊 entry 格式：
 ```js
 { "addedAt": "YYYY-MM-DD", "text": "【YYYY/M/D】案件名：重點摘要 30-60 字", "url": "來源 URL" }
 ```
@@ -66,7 +74,7 @@ const newsArchive = [...]  // > 3 天的歷史快訊，畫面下方折疊區
 - `addedAt` = **今日台北時間** (該則進 dashboard 的日期；用來決定何時搬到 archive)
 - `text` 開頭 `【YYYY/M/D】` = 新聞事件日期（通常同 addedAt，但若補錄過去新聞會不同）
 
-**Daily-brief 自動化邏輯**：執行時把 `addedAt` 距今 > 3 天的從 `newsItems` 搬到 `newsArchive`，再 append 今日新搜到的 entries。
+**Daily-brief 自動化邏輯**：claude -p 呼叫 `add_news.py` 寫 `data/news.json` → daily-brief.sh 跑 `build.py` 重生 dashboard.html → auto-push commit（dashboard.html + index.html + data/）。
 
 ---
 
@@ -161,6 +169,7 @@ python3 scripts/scan_case_trackers.py
 - ❌ **不要把這個 repo 搬進 iCloud Drive**（`~/Documents/` if iCloud sync enabled、任何 iCloud 同步路徑） — `bird` daemon 會鎖 `.git/`、產生 `tmp_obj_*` 殘檔。當前正確位置：`~/ClaudeProjects/AI Copyright Lawsuits Worldwide/`。
 - ❌ **不要在腳本開頭寫 `set -e`** 配合 `launchctl` 指令 — `launchctl list/load/unload/print` 即使成功也回非零 exit code，會誤殺後續步驟。
 - ❌ **不要刪 cases/case-NNN_*.md 而不同步更新 `cases_manifest.json`** — 兩邊會脫鉤，下次 `batch_refresh.py` 會壞掉。
+- ❌ **不要直接手改 `dashboard.html` / `index.html`**（2026-06-12 Phase 6 cutover 後它們是 build 產物）— 改資料動 `data/*.json`（快訊用 `add_news.py`）、改版面動 `templates/dashboard.template.html`，然後跑 `python3 scripts/build.py`。
 
 ---
 

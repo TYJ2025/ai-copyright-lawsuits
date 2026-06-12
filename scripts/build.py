@@ -22,6 +22,7 @@ import argparse
 import json
 import subprocess
 import sys
+from datetime import date
 from pathlib import Path
 
 PROJECT_DIR = Path(__file__).resolve().parent.parent
@@ -40,6 +41,9 @@ SUBSTITUTIONS = [
     ("{{NEWS_ARCHIVE_JSON}}",    "news.json",             "archive"),
     ("{{TIMELINE_EVENTS_JSON}}", "timeline.json",         ""),
 ]
+
+# Footer date is stamped from today's date, not a data file.
+FOOTER_PLACEHOLDER = "{{FOOTER_DATE}}"
 
 
 def load_payload(filename: str, subpath: str) -> object:
@@ -64,6 +68,8 @@ def build(check_only: bool = False, output_path: Path = OUTPUT) -> str:
             load_payload(filename, subpath)  # raises if bad
             if placeholder not in template:
                 sys.exit((f"✗ placeholder {placeholder} not in template", 2))
+        if FOOTER_PLACEHOLDER not in template:
+            sys.exit((f"✗ placeholder {FOOTER_PLACEHOLDER} not in template", 2))
         print("[✓] All data files valid + placeholders present.")
         return ""
 
@@ -75,6 +81,12 @@ def build(check_only: bool = False, output_path: Path = OUTPUT) -> str:
         if placeholder not in template:
             sys.exit((f"✗ placeholder {placeholder} not in template", 2))
         template = template.replace(placeholder, js_literal, 1)
+
+    # Footer heartbeat: stamp today's date (Asia/Taipei = system local time).
+    # Replaces the sed stamp previously done by daily-brief.sh.
+    if FOOTER_PLACEHOLDER not in template:
+        sys.exit(f"✗ placeholder {FOOTER_PLACEHOLDER} not in template")
+    template = template.replace(FOOTER_PLACEHOLDER, date.today().isoformat(), 1)
 
     leftover = [p for p, _, _ in SUBSTITUTIONS if p in template]
     if leftover:
