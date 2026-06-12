@@ -98,6 +98,33 @@ python3 scripts/add_news.py --added-at <今日台北 YYYY-MM-DD> \
 4. 同一日多件漏案均列出。若無漏案，省略本段。
 5. 仍維持「不修改 cases 陣列、不寫入 cases/*.md」之原則，僅提醒人工處理。
 
+## 時間軸候選偵測（Timeline Candidate）— 2026/6 新增
+
+`data/timeline.json` 為人工策展之重大里程碑時間軸，**不自動寫入**。但當日新聞若屬以下「里程碑等級」，除在最終輸出列出外，**另呼叫 add_pending.py 寫入待審區段**（會顯示在 main-board 卡片上供 YJ 審核）：
+
+里程碑判準（符合任一）：
+- 首件實體裁判／首件某類型訴訟（首件巡迴法院 AI 合理使用辯論、新法域首案等）
+- 巡迴法院／最高法院／CJEU 層級之裁判或言詞辯論
+- 九位數（≥ $100M）以上和解或判賠
+- 重大立法、行政規則或主管機關報告
+- 指標案件之終局裁判（即決判決、終審判決）
+
+寫入方式（每件一次呼叫；add_pending.py 以 title 自動去重，重複呼叫無害）：
+
+```
+python3 scripts/add_pending.py --section timeline --label "時間軸候選" \
+  --title "<事件短標題（含案件名）>" \
+  --subtitle "<YYYY-MM-DD · 法院/機關 · 一句話定性>" \
+  --url "<來源 URL>"
+```
+
+最終輸出加一段（若無候選則省略）：
+
+```
+📌 時間軸候選（已寫入待審區段，不自動進 timeline.json）：
+- <事件> | <日期> | <為何屬里程碑>
+```
+
 ## 成功標準
 - 有新動態時透過 `add_news.py` 新增條目（含 `addedAt`），且不重複
 - 條目歸檔（>3 天 items → archive）由 `add_news.py` 自動處理，無需另外操作

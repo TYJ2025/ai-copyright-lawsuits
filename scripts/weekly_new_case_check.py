@@ -388,18 +388,19 @@ def write_pending_review(candidates: list[dict], days: int) -> None:
             "subtitle": f"{court} · {docket} · filed {date_filed}",
             "url": f"https://www.courtlistener.com/docket/{cl_id}/" if cl_id else "",
         })
-    payload = {
-        "label": "新案件待人工審核",
-        "count": len(candidates),
-        "items": items,
-        "updated": datetime.now(timezone.utc).isoformat(timespec="seconds"),
-        "source": "scripts/weekly_new_case_check.py",
-        "lookback_days": days,
-        "url": "https://tyj2025.github.io/ai-copyright-lawsuits/",
-    }
-    p = REPO_ROOT / ".pending-review.json"
-    p.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
-    print(f"✓ .pending-review.json 已寫入（count={len(candidates)}）", file=sys.stderr)
+    # 改經 add_pending.py 的多區段合併機制寫入：只整段替換 new-cases 區段，
+    # 不會覆蓋其他 producer（如 daily-brief 時間軸候選）的區段。
+    import subprocess
+    r = subprocess.run(
+        [sys.executable, str(Path(__file__).parent / "add_pending.py"),
+         "--section", "new-cases", "--label", "新案件待人工審核", "--replace-stdin"],
+        input=json.dumps(items, ensure_ascii=False),
+        capture_output=True, text=True,
+    )
+    if r.returncode == 0:
+        print(f"✓ .pending-review.json new-cases 區段已更新（count={len(items)}）", file=sys.stderr)
+    else:
+        print(f"✗ add_pending.py 失敗：{r.stderr.strip()}", file=sys.stderr)
 
 
 if __name__ == "__main__":
