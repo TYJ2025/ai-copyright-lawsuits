@@ -1,6 +1,6 @@
 # Case 26 — Woulard v. Suno, Inc.
 
-> 最後更新（CourtListener fetch）：2026-04-27 03:12 UTC
+> 最後更新（CourtListener fetch）：2026-06-14 07:43 UTC
 
 ---
 
@@ -13,7 +13,7 @@
 | Court | District Court, N.D. Illinois (`ilnd`) |
 | Judge Assigned | Andrea R. Wood |
 | Date Filed | 2025-10-16 |
-| Date Last Filing | 2026-03-12 |
+| Date Last Filing | 2026-05-27 |
 | Cause | 17:101 Copyright Infringement |
 | Nature of Suit | 820 Copyright |
 | Jury Demand | Both |
@@ -24,20 +24,32 @@
 
 > Dashboard 卡片宣告：
 
-> - Court=N.D. Ill.
-> - Judge=Wood / Ellis
+> - Court=N.D. Ill. (1:25-cv-12684)
+> - Judge=Andrea Robin Wood
+> - Docket=1:25-cv-12684
 > - Status=active
-> - Progress=案件分別由 Wood 法官及 Ellis 法官審理。本案是將隱私法與著作權法結合用於對抗 AI 音樂生成的創新訴訟策略。
 
 **自動比對結果：**
 
-- ✅ Court 一致：dashboard 寫「N.D. Ill.」，CourtListener 為「N.D. Illinois」
-- ✅ Judge 一致：dashboard 寫「Wood / Ellis」，CourtListener 為「Andrea R. Wood」
-- ℹ️ Dashboard progress 內找不到【YYYY/M/D】格式日期；CourtListener 最後 entry: 2026-03-12
+- ⚠️ Court 可能不一致：dashboard 寫「N.D. Ill. (1:25-cv-12684)」，CourtListener 為「N.D. Illinois」
+- ✅ Judge 一致：dashboard 寫「Andrea Robin Wood」，CourtListener 為「Andrea R. Wood」
+- ✅ Docket Number 一致：`1:25-cv-12684`
 
 ## 3. Docket Entries（最新優先，已過濾程序性 entries）
 
 **實質性 entries**：30 筆／**已過濾程序性 entries**：7 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+
+### 📄 Doc #36 — 2026-05-27
+
+MINUTE entry before the Honorable Andrea R. Wood: To allow time for the Court to complete its ruling on the pending motion to dismiss first amended complaint for lack of personal jurisdiction and improper venue or, in the alternative, to transfer venue 25, the telephonic status hearing set for 5/28/2026 is stricken and reset for 7/7/2026 at 9:00. The call-in number is (650) 479-3207 and the access code is 1808131170. To ensure public access to court proceedings, members of the public and media may call in to listen to telephonic hearings. Persons granted remote access to proceedings are reminded of the general prohibition against photographing, recording, and rebroadcasting of court proceedings. Violation of these prohibitions may result in sanctions, including removal of court-issued media credentials, restricted entry to future hearings, denial of entry to future hearings, or any other sanctions deemed necessary by the Court. Mailed notice (aw,) (Entered: 05/27/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71671876/36/woulard-v-suno-inc/)
+
+### 📄 Doc #35 — 2026-05-11
+
+NOTICE by Suno, Inc. of Supplemental Authority (Attachments: # 1 Exhibit A)(Feinerman, Gary) (Entered: 05/11/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71671876/35/1/woulard-v-suno-inc/)
 
 ### 📄 Doc #34 — 2026-03-10
 
@@ -185,14 +197,6 @@ MINUTE entry before the Honorable Andrea R. Wood: Telephonic initial status hear
 
 ### 📄 Doc #— — 2025-10-17
 
-case assigned
-
-### 📄 Doc #— — 2025-10-17
-
-clerk's notice
-
-### 📄 Doc #— — 2025-10-17
-
 CLERK'S NOTICE: Pursuant to Local Rule 73.1(b), a United States Magistrate Judge of this court is available to conduct all proceedings in this civil action. If all parties consent to have the currently assigned United States Magistrate Judge conduct all proceedings in this case, including trial, the entry of final judgment, and all post-trial proceedings, all parties must sign their names on the attached Consent To form. This consent form is eligible for filing only if executed by all parties. The parties can also express their consent to jurisdiction by a magistrate judge in any joint filing, including the Joint Initial Status Report or proposed Case Management Order. (cvk, )
 
 ### 📄 Doc #— — 2025-10-17
@@ -226,4 +230,4 @@ COMPLAINT filed by Hamza Jilani, Stan Burjek, Maatkara Wilson, Magnus Fiennes, A
 
 ---
 
-*產生時間：2026-04-27 03:12 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-06-14 07:43 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

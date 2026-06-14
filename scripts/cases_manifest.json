@@ -1100,5 +1100,15 @@
     "primary_docket_id": 73359710,
     "secondary_docket_ids": [],
     "progress_excerpt": "2026/5/18 立案。E. Molly Tanzer（Saveri 代理），jury demand；同原告另案告 Salesforce。"
+  },
+  {
+    "case_id": 145,
+    "name": "Woulard v. Uncharted Labs (Udio)",
+    "court": "N.D. Ill. 1:25-cv-12613",
+    "judge": "Sara Lee Ellis",
+    "status": "active",
+    "primary_docket_id": 71659116,
+    "secondary_docket_ids": [],
+    "progress_excerpt": "2025/10/15 立案，著作權＋BIPA/IRPA 雙軌；Woulard v. Suno 姊妹案。"
   }
 ]
