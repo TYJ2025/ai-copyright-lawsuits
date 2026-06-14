@@ -2,7 +2,7 @@
   "$schema": "cases.v1",
   "generatedFrom": "dashboard.html",
   "generatedAt": "2026-06-12T19:53:51.281112+08:00",
-  "lastUpdatedSource": "manual: weekly_new_case_check 2026-06-12 review (4 new cases)",
+  "lastUpdatedSource": "manual: de-duplicate merged parent names (granular count, 2026-06-13)",
   "data": [
     {
       "id": 1,
@@ -167,7 +167,7 @@
     },
     {
       "id": 11,
-      "name": "Disney / Warner Bros. v. Midjourney",
+      "name": "Disney v. Midjourney",
       "court": "C.D. Cal.",
       "judge": "John A. Kronstadt",
       "status": "active",
@@ -183,15 +183,15 @@
     },
     {
       "id": 12,
-      "name": "UMG Recordings v. Suno / Udio (AI Music)",
-      "court": "D. Mass. / S.D.N.Y.",
+      "name": "UMG Recordings v. Suno",
+      "court": "D. Mass.",
       "judge": "Saylor IV / Hellerstein / Garnett",
       "status": "active",
       "claims": [
         "Direct Copyright",
         "DMCA §1201(a)"
       ],
-      "defendants": "Suno, Inc. / Uncharted Labs (Udio)",
+      "defendants": "Suno, Inc.",
       "issues": "UMG、Sony 及 Warner 三大唱片公司對 AI 音樂生成平台 Suno 及 Udio 提起著作權侵害訴訟，主張被告未經授權使用受保護的錄音著作訓練 AI 模型生成音樂。\n\n核心爭點：(1) AI 模型生成的音樂是否構成「實質近似」的侵權複製品；(2) AI 音樂訓練是否構成合理使用；(3) 是否違反 DMCA 反規避條款（§1201(a)）。",
       "progress": "【Udio 和解】2025 年 10 月，UMG 與 Udio 達成和解，雙方將合作建立「經授權的 AI 音樂創作平台」，預計 2026 年推出。UMG 藝術家及詞曲作者可選擇加入（opt-in）。\n\n【Suno 案持續審理】三大唱片公司對 Suno 的訴訟仍在進行中，目前處於事證開示階段。即決判決現已推至 2027 年 1 月 8 日。本案在 2026 年不太可能獲得合理使用判決。\n\n【2026/4/9】Warner 已和解退出，但 Suno 與 UMG、Sony 的授權談判因 AI 生成音樂的下載與分享權分歧而陷入僵局。唱片公司堅持限制用戶下載 AI 生成歌曲至 App 外，Suno 則認為此限制將嚴重削弱產品吸引力。此分歧涉及數十億音樂版稅分配格局。\n\n【2026/4/7】The Verge 實測 Suno 著作權過濾機制，發現仍可生成高度近似受保護歌曲的內容，引發對 Suno 自我監管能力的質疑。此測試結果可能在訴訟中作為唱片公司的有利證據。",
       "taiwan": "本案對台灣的啟示：\n\n1. 台灣的 MÜST、ARCO 等音樂著作權集管團體應關注 Udio 的授權模式，思考如何建立 AI 音樂生成的授權機制。\n2. UMG v. Suno 的合理使用裁定若不利於 AI 公司，將影響台灣 AI 音樂新創（如 KKBOX 旗下的 AI 音樂服務）的商業模式。\n3. 台灣著作權法第 91 條對錄音著作的保護是否足以涵蓋 AI 生成音樂的情境，值得立法機關檢討。"
@@ -277,14 +277,14 @@
     },
     {
       "id": 18,
-      "name": "Huckabee v. Meta Platforms / Bloomberg",
-      "court": "N.D. Cal. / S.D.N.Y.",
+      "name": "Huckabee v. Meta Platforms",
+      "court": "N.D. Cal.",
       "judge": "Margaret M. Garnett",
       "status": "active",
       "claims": [
         "Direct Copyright"
       ],
-      "defendants": "Meta Platforms, Bloomberg",
+      "defendants": "Meta Platforms, Inc.",
       "issues": "前美國政治人物 Mike Huckabee 等人對 Meta 及 Bloomberg 分別提起著作權訴訟，主張其著作被用於 AI 模型訓練。本案涉及政治人物著作在 AI 訓練中的使用問題。",
       "progress": "Huckabee v. Meta 已與 Kadrey v. Meta 合併審理。Huckabee v. Bloomberg 由 S.D.N.Y. Garnett 法官審理中。",
       "taiwan": "台灣啟示：政治人物著作、公開演講等是否受著作權保護？台灣著作權法第 62 條關於政治公開演說的合理使用規定值得在 AI 脈絡下重新審視。"
@@ -434,7 +434,7 @@
     },
     {
       "id": 28,
-      "name": "Hendrix / Martinez-Conde / Alexander v. Apple",
+      "name": "Hendrix v. Apple",
       "court": "N.D. Cal.",
       "judge": "Yvonne Gonzalez Rogers",
       "status": "active",
@@ -448,7 +448,7 @@
     },
     {
       "id": 29,
-      "name": "Tanzer / Alexander v. Salesforce",
+      "name": "Tanzer v. Salesforce",
       "court": "N.D. Cal.",
       "judge": "Charles R. Breyer",
       "status": "active",
@@ -1158,14 +1158,14 @@
     },
     {
       "id": 77,
-      "name": "Businesssing v. Runway AI / Ace Cam v. Runway AI",
+      "name": "Businessing v. Runway AI",
       "court": "SDNY",
       "judge": "Dolly M. Gee",
       "status": "active",
       "claims": [
         "DMCA §1201(a)"
       ],
-      "defendants": "Runway AI Inc.",
+      "defendants": "Runway AI, Inc.",
       "issues": "兩件訴訟（Businesssing 與 Ace Cam）已合併，針對 AI 影像與視頻生成平台 Runway AI 提起。本案聚焦 DMCA §1201(a)（反規避保護技術）而非傳統著作權侵害。\n\n爭點：(1) Runway AI 的視頻生成工具是否規避了影像的技術保護措施；(2) DMCA §1201(a) 的「規避」定義在 AI 生成工具語境中的適用；(3) 生成 AI 與技術規避的因果關係。",
       "progress": "Kaplan 法官已受理合併案件。DMCA §1201(a) 主張在 AI 訴訟中相對罕見，本案提供重要的新法律領域。2026 年進行動議聽證。",
       "taiwan": "台灣啟示：(1) DMCA §1201(a) 對應台灣著作權法第 80 條之1「禁止規避有效的技術保護措施」。本案的 DMCA 規避論證對台灣法院有參考價值。(2) 台灣著作權法第 80 條之1 在 AI 訴訟中的適用仍未充分開發，本案可提供借鑑。(3) 若台灣內容創作者在技術保護措施上投入較多，本案類型的訴訟在台灣也可能出現。"
