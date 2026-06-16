@@ -6,17 +6,22 @@
   "data": {
     "items": [
       {
+        "addedAt": "2026-06-17",
+        "text": "【2026/6/11】In re OpenAI Copyright MDL：OpenAI 6/11 letter motion 援引 3/25 SCOTUS Cox v. Sony 判決請求駁回四家新聞媒體之 contributory infringement 主張（S.D.N.Y. 1:25-md-03143，Sidney H. Stein 法官）：OpenAI 6/11（週四）向紐約南區聯邦地院遞交 letter motion，正式以美國最高法院 2026/3/25 Cox Communications, Inc. v. Sony Music Entertainment 之新判決為論據——SCOTUS 推翻第四巡迴對 ISP 一般性 contributory liability 判決、明示「服務提供者所提供之工具如具相當合法用途，且未主動行銷／設計／引導用戶從事侵權，僅因部分用戶使用該工具產出與著作物近似之內容即生 contributory liability，並不成立」之新標準——主張 NYT v. Microsoft/OpenAI（1:23-cv-11195）、Daily News v. Microsoft/OpenAI、Center for Investigative Reporting v. OpenAI、California Newspaper Partnership v. Microsoft/OpenAI 等四家新聞媒體於 In re OpenAI MDL 之 contributory infringement 主張，所依賴之 4th Cir. Cox 標準已遭最高法院推翻，據此請求 Stein 法官直接駁回該等主張；本聲請與 6/11 同日於費城登場之 Thomson Reuters v. ROSS Intelligence 第三巡迴 AI 訓練合理使用首件上訴口頭辯論，共同構成 6/11「合理使用＋contributory liability 雙線聯邦先例震盪」之關鍵節點；於 5/22 治安法官命 OpenAI 補繳 Musk 案 Altman/Brockman/Nadella 證言、2026/1 Stein 法官確認 OpenAI 須交付 2,000 萬 ChatGPT 對話 log 之同步壓力下，OpenAI 改以最高法院新判決翻轉訴訟主基調；本案影響範圍擴及 19 件合併案（含 Authors Guild、Ziff Davis、Encyclopaedia Britannica 等）之 contributory 主張存廢，原告律師團尚未提交回應書狀",
+        "url": "https://www.law360.com/articles/2488845/openai-says-high-court-curbed-some-news-org-ip-claims"
+      },
+      {
         "addedAt": "2026-06-15",
         "text": "【2026/6/12】Kogon v. Google（N.D. Ill. 1:26-cv-02582，Harjani 法官）Lyria 3 AI 音樂訓練集體訴訟：原告律師團 Loevy & Loevy 6/12 公開回擊 Google 6/8 撤銷之訴聲請「Google 未提出任一原告曾同意 YouTube ToS 之證據、且 ToS 任何版本從未提及 AI 訓練」：Google 6/8（週一）於伊利諾北區聯邦地院對 Sam Kogon、Magnus Fiennes、Michael Mell、R&B 樂團 Attack the Sound、Stan/James Burjek 父子與芝加哥樂團 Directrix 等獨立音樂人於 2026/3/6 所提之 Lyria 3 AI 音樂訓練侵權集體訴訟提交 motion to dismiss——核心主張為原告於 YouTube 上傳音樂之同時即依 YouTube《服務條款》授權 Google 將其音樂用於 AI 訓練；6/12 Billboard 揭原告律師 Ross Kimbarovsky（Loevy & Loevy）正面駁斥「Google 至今未提出任一原告曾同意 YouTube ToS 之證據、且 YouTube ToS 任何版本從未涉及 AI 訓練字樣」，預告將於數週內提交反對 motion；本案爭點為 Google 2026/2/18 推出之 Lyria 3 模型是否以未授權之 44M YouTube 音樂 clip（約 280,000 小時）為訓練語料、總統計超過數百萬件著作權錄音與歌詞，案件與 Beaulier v. Microsoft（W.D. Wash.）6/9 撤銷聲請、Suno 對 UMG/Sony 之 6/1-2 訓練資料總量封存聲請共構 2026 下半年「平台 ToS ↔ AI 訓練合理使用」延伸界限之核心攻防",
         "url": "https://www.billboard.com/pro/google-youtube-terms-of-service-ai-music-training-lawsuit/"
-      },
+      }
+    ],
+    "archive": [
       {
         "addedAt": "2026-06-13",
         "text": "【2026/6/11】Thomson Reuters v. ROSS Intelligence 第三巡迴口頭辯論：三人合議庭「鎖定合理使用、跳過著作權性」嚴詞質疑 ROSS 是否打造 Westlaw 市場替代品（3d Cir. 25-2153）：全美首件 AI 訓練資料合理使用上訴聽證 6/11 上午於費城 James A. Maris Courtroom 完成；Law360、Bloomberg Law、Courthouse News、MLex 賽後同步報導三大訊號——（一）合議庭明顯「鎖定合理使用、跳過著作權性」（MLex 標題: zeroes in on fair use, not copyrightability）：對 ROSS 主張 Westlaw headnotes 不具 originality 之著作權性爭點明顯不感興趣，全程聚焦合理使用四因素分析；（二）對 ROSS 律師連環追問「ROSS 法律研究產品到底與 Westlaw 有何不同」（Law360 標題: 3rd Circ. Asks How Legal Tech AI Tool Differed From Westlaw）、是否「以 Westlaw 自家精心策劃內容打造其替代品」（Bloomberg Law 標題: Judges Hammer Ross Over Westlaw Rivalry），明顯傾向認定 ROSS 屬合理使用第四因素（市場影響）之直接替代；（三）對 ROSS 援引 American Society for Testing v. UpCodes 之轉換性論述未予正面回應，Thomson Reuters（Kirkland & Ellis）反主張 ROSS 屬「商業替代性使用」之立場明顯受合議庭採信跡象；本場辯論結果將成 Bartz、Kadrey、Concord、In re OpenAI MDL、NYT v. Microsoft/OpenAI 等所有後續 AI 訓練資料合理使用案件之首件聯邦上訴審先例，書面判決預估 3-6 個月作成；Bloomberg Law 後續分析「First AI Copyright Appeal's Reach Hinges on Market Impact Issue」明指「市場影響」將成此首件上訴判決射程範圍與後續 AI 訓練案件先例強度之關鍵變項",
         "url": "https://news.bloomberglaw.com/business-and-practice/judges-hammer-ross-over-westlaw-rivalry-in-ai-copyright-appeal"
-      }
-    ],
-    "archive": [
+      },
       {
         "addedAt": "2026-06-11",
         "text": "【2026/6/9】Beaulier v. Microsoft Corporation 6/9 聲請 12(b)(6) 駁回（W.D. Wash. 2:26-cv-01031）：洛杉磯 3D 模型與視覺特效藝術家 Austin Beaulier 對 NVIDIA、Meta、Microsoft、Roblox 4 大科技公司同步發動之 DMCA §1202 集體訴訟系列（chatgptiseatingtheworld 編號 lawsuits No. 94-97），Microsoft 6/9 向華盛頓西區聯邦地院聲請駁回——主張原告未陳述微軟「曾自其 3D 模型移除著作權管理資訊（CMI／§1202(b)）」或「散布原告受保護作品」之必要事實要件，故依 Fed. R. Civ. P. 12(b)(6) 應予駁回；起訴狀核心主張為各被告於使用 Objaverse-XL（含 Beaulier 以 Creative Commons 授權公開之 3D 模型）訓練生成式 AI 模型過程中系統性剝離作者署名等 CMI；本聲請與 Doe v. GitHub（Copilot 集體訴訟）2026/2 第九巡迴口頭辯論主軸「DMCA §1202 是否適用於 AI 訓練資料中遭剝離之 CMI」、Andersen v. Stability AI（N.D. Cal. 3:23-cv-00201）之 §1202 主張共構 2026 下半年 AI 訓練資料 DMCA 戰線雙軌攻防，亦為 Beaulier 系列 4 件子訴訟首件被告實體動議；本案與 Beaulier v. Meta（N.D. Cal. 3:26-cv-02632）、Beaulier v. Roblox（Corley 法官合議庭）分屬不同地院、結果不必然一致",
@@ -190,5 +195,5 @@
     ]
   },
   "lastUpdatedBy": "add_news.py",
-  "lastUpdatedAt": "2026-06-15T07:10:48.814351+08:00"
+  "lastUpdatedAt": "2026-06-17T07:11:03.436733+08:00"
 }
