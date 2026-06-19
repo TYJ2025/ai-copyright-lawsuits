@@ -1,0 +1,49 @@
+name: validate-data
+
+# 在 push / PR 時驗證 data/*.json 一致性，並確認 dashboard.html 可從 data/ 正常 build。
+on:
+  push:
+    branches: [main]
+    paths:
+      - "data/**"
+      - "templates/**"
+      - "scripts/build.py"
+      - "scripts/validate_data.py"
+      - ".github/workflows/validate.yml"
+  pull_request:
+    paths:
+      - "data/**"
+      - "templates/**"
+      - "scripts/build.py"
+      - "scripts/validate_data.py"
+  workflow_dispatch: {}   # 允許手動觸發
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: 驗證資料一致性 (validate_data.py)
+        run: python3 scripts/validate_data.py
+
+      - name: 驗證 build 可產出 (build.py --check)
+        # --check 只驗證 data 載入 + placeholder 齊全，不寫檔。
+        # 不做 dashboard.html byte-sync 比對：footer / progress 日期是 build 時即時戳記，
+        # CI 重建必然與已 commit 版本日期不同，byte 比對會每天誤報。
+        run: python3 scripts/build.py --check
+
+  link-check:
+    runs-on: ubuntu-latest
+    continue-on-error: true   # 連結檢查僅供參考，不擋合併
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: 來源連結檢查（非阻擋）
+        run: python3 scripts/validate_data.py --check-links

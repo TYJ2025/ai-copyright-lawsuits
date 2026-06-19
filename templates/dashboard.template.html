@@ -1892,10 +1892,13 @@ const cases = {{CASES_JSON}};
 const now = new Date();
 document.getElementById('dateDisplay').textContent = now.toLocaleDateString('zh-TW', {year:'numeric',month:'long',day:'numeric',weekday:'long'});
 
+// Progress "as of" label — build-stamped fallback; per-case c.updatedAt wins when present.
+const PROGRESS_AS_OF = '{{PROGRESS_AS_OF}}';
+
 // Stats bar
 // ── Single Source of Truth for US/Non-US classification ──
 const nonUSKeywordsGlobal = ['CJEU','UK High Court','European Union','Budapest','歐盟','加拿大','印度','德國','法國','英國','Ontario','Delhi','German','Munich','Paris','France','Canada','Hamburg','漢堡','丹麥','Copenhagen','Denmark','韓國','Seoul','South Korea','中國','北京','廣州','杭州','Beijing Internet Court','Guangzhou Internet Court','China','日本','Tokyo','Japan','巴西','Brazil','義大利','Italy','荷蘭','Netherlands','Amsterdam','England','London','India','Germany'];
-function isNonUS(c) { return nonUSKeywordsGlobal.some(k => c.court.includes(k)); }
+function isNonUS(c) { return (typeof c.isNonUS === 'boolean') ? c.isNonUS : nonUSKeywordsGlobal.some(k => c.court.includes(k)); }
 
 function buildStats() {
   const total = cases.length;
@@ -1999,6 +2002,7 @@ function renderBarChart(data, colorClass, maxItems, drillType) {
 }
 
 function classifyCountry(c) {
+  if (c.country) return c.country;            // 優先用 data/cases.json 固化欄位（可人工修正）
   const ct = c.court;
   if (/UK|英國/.test(ct)) return '🇬🇧 英國';
   if (/France|Paris|法國/.test(ct)) return '🇫🇷 法國';
@@ -2190,6 +2194,7 @@ function classifyJurisdiction(court) {
   return 'us';
 }
 function classifyTech(c) {
+  if (c.technology) return c.technology;      // 優先用固化欄位
   const n = (c.name + ' ' + c.issues + ' ' + c.defendants).toLowerCase();
   if (/歌詞|lyric|music|song|umg|concord|bmg|riaa/.test(n)) return 'music';
   if (/圖像|image|illustrat|photo|getty|stability|midjourney|dall-e|art/.test(n)) return 'image';
@@ -2199,6 +2204,7 @@ function classifyTech(c) {
   return 'llm';
 }
 function classifyPlaintiff(c) {
+  if (c.plaintiffType) return c.plaintiffType;  // 優先用固化欄位
   const n = (c.name + ' ' + c.issues).toLowerCase();
   if (/音樂|music|lyric|song|umg|concord|bmg|riaa/.test(n)) return 'music';
   if (/藝術家|artist|illustrat|photo|getty|攝影|畫家/.test(n)) return 'artist';
@@ -2263,7 +2269,7 @@ function renderCaseList() {
     // Chart drill: country
     if (chartDrillCountry && classifyCountry(c) !== chartDrillCountry) return false;
     // Advanced: Jurisdiction
-    if (jFilter !== 'all' && classifyJurisdiction(c.court) !== jFilter) return false;
+    if (jFilter !== 'all' && (c.jurisdiction || classifyJurisdiction(c.court)) !== jFilter) return false;
     // Advanced: Tech
     if (tFilter !== 'all' && classifyTech(c) !== tFilter) return false;
     // Advanced: Plaintiff
@@ -2273,7 +2279,7 @@ function renderCaseList() {
     return true;
   });
   list.innerHTML = filtered.map(c => `
-    <div class="case-item ${c.id === selectedId ? 'active' : ''}" data-id="${c.id}">
+    <div class="case-item ${c.id === selectedId ? 'active' : ''}" data-id="${c.id}" role="button" tabindex="0" aria-label="檢視案件詳情：${c.name}" aria-pressed="${c.id === selectedId}">
       <div class="case-name">${c.name}</div>
       <div class="case-meta">
         ${statusBadge(c.status)}
@@ -2283,7 +2289,9 @@ function renderCaseList() {
     </div>
   `).join('') || '<div style="padding:24px;color:#999;text-align:center;">無符合條件之案件</div>';
   list.querySelectorAll('.case-item').forEach(el => {
-    el.addEventListener('click', () => showDetail(parseInt(el.dataset.id)));
+    const go = () => showDetail(parseInt(el.dataset.id));
+    el.addEventListener('click', go);
+    el.addEventListener('keydown', (e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); go(); } });
   });
 }
 renderCaseList();
@@ -2318,7 +2326,7 @@ function showDetail(id) {
       Object.keys(caseLinks).forEach(fig => {
         const escaped = fig.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
         const regex = new RegExp(escaped, 'g');
-        result = result.replace(regex, `<a href="${firstSourceUrl}" target="_blank" class="fig-link">${fig}</a>`);
+        result = result.replace(regex, `<a href="${firstSourceUrl}" target="_blank" rel="noopener noreferrer" class="fig-link">${fig}</a>`);
       });
     }
     
@@ -2332,7 +2340,7 @@ function showDetail(id) {
     if (clEntry) courtListenerUrl = clEntry.url;
   }
   const courtListenerHtml = courtListenerUrl
-    ? `<a href="${courtListenerUrl}" target="_blank" class="courtlistener-btn">CourtListener Docket</a>`
+    ? `<a href="${courtListenerUrl}" target="_blank" rel="noopener noreferrer" class="courtlistener-btn">CourtListener Docket</a>`
     : '';
 
   // Build sources HTML
@@ -2344,7 +2352,7 @@ function showDetail(id) {
       <div class="source-list">
         <div class="source-list-header">Primary Sources:</div>
         ${caseSources[c.id].map(src => 
-          `<div class="source-item"><a href="${src.url}" target="_blank" class="source-link">${src.label}</a></div>`
+          `<div class="source-item"><a href="${src.url}" target="_blank" rel="noopener noreferrer" class="source-link">${src.label}</a></div>`
         ).join('')}
       </div>
     </div>`;
@@ -2369,7 +2377,7 @@ function showDetail(id) {
     </div>
 
     <div class="section">
-      <div class="section-header">目前進度 Current Status (as of April 2026)</div>
+      <div class="section-header">目前進度 Current Status (as of ${c.updatedAt || PROGRESS_AS_OF})</div>
       <div class="section-body">${linkFigures(c.progress, c.id).replace(/\n/g,'<br>')}</div>
     </div>
 
@@ -2485,7 +2493,7 @@ function renderFairUseCases() {
         </div>
         <div class="fu-subsection">
           <div class="fu-subsection-title">資料來源 Sources</div>
-          ${c.sources.map(s => `<a href="${s.url}" target="_blank" class="fu-source-link">${s.label}</a>&nbsp;&nbsp;`).join('')}
+          ${c.sources.map(s => `<a href="${s.url}" target="_blank" rel="noopener noreferrer" class="fu-source-link">${s.label}</a>&nbsp;&nbsp;`).join('')}
         </div>
       </div>
     </div>
@@ -2808,7 +2816,7 @@ function buildTimeline() {
       const m = parseInt(e.date.split('-')[1]);
       const dateStr = `${year} 年 ${monthNames[m]}`;
       html += `
-        <div class="tl-item" onclick="timelineItemClick(this)">
+        <div class="tl-item" role="button" tabindex="0" onclick="timelineItemClick(this)" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();timelineItemClick(this);}">
           <div class="tl-date">${dateStr}</div>
           <div class="tl-title">${e.title} <span class="tl-badge ${typeBadges[e.type]}">${typeLabels[e.type]}</span></div>
           <div class="tl-desc">${e.desc}</div>

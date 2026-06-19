@@ -44,6 +44,8 @@ SUBSTITUTIONS = [
 
 # Footer date is stamped from today's date, not a data file.
 FOOTER_PLACEHOLDER = "{{FOOTER_DATE}}"
+# Progress "as of" month, stamped from today's date (fallback when a case has no updatedAt).
+PROGRESS_AS_OF_PLACEHOLDER = "{{PROGRESS_AS_OF}}"
 
 
 def load_payload(filename: str, subpath: str) -> object:
@@ -87,6 +89,11 @@ def build(check_only: bool = False, output_path: Path = OUTPUT) -> str:
     if FOOTER_PLACEHOLDER not in template:
         sys.exit(f"✗ placeholder {FOOTER_PLACEHOLDER} not in template")
     template = template.replace(FOOTER_PLACEHOLDER, date.today().isoformat(), 1)
+
+    # Progress "as of" build-month stamp, e.g. "June 2026" (English month to match the label).
+    if PROGRESS_AS_OF_PLACEHOLDER in template:
+        as_of = date.today().strftime("%B %Y")
+        template = template.replace(PROGRESS_AS_OF_PLACEHOLDER, as_of)
 
     leftover = [p for p, _, _ in SUBSTITUTIONS if p in template]
     if leftover:
