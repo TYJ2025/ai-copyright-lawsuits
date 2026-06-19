@@ -128,12 +128,14 @@ tail -40 .daily-brief.log                 # 確認 build.py OK、無 FATAL
 
 ## Phase 7 — 清理（觀察穩定後）
 
-- [ ] 刪 `daily-brief.sh` 第 142–151 行 shadow-run 區塊
-- [ ] `git rm scripts/shadow_run.sh`（或移 `archive/`）
-- [ ] `scripts/migrate_html_to_json.py` 加註「one-shot 反向工具，已脫離每日流程」
-- [ ] 更新 `CLAUDE.md`：標明 **dashboard.html 是 build 產物、勿手改；真實資料源是 `data/*.json`，改資料要改 json + 跑 build.py**
-- [ ] 確認 `auto-push.sh` 仍把 dashboard.html mirror 到 index.html
-- [ ] `.gitignore` 的 `shadow-run.log` / `dashboard.html.new` / `build-diff.txt` 條目可留（無害）
+- [x] ~~刪 `daily-brief.sh` 第 142–151 行 shadow-run 區塊~~ → 已移除（no shadow refs）
+- [x] ~~`git rm scripts/shadow_run.sh`（或移 `archive/`）~~ → 已 `git mv` 到 `archive/shadow_run.sh`（2026-06-19）
+- [x] ~~`scripts/migrate_html_to_json.py` 加註「one-shot 反向工具，已脫離每日流程」~~ → 已加註（2026-06-19）
+- [x] ~~更新 `CLAUDE.md`：標明 **dashboard.html 是 build 產物、勿手改；真實資料源是 `data/*.json`，改資料要改 json + 跑 build.py**~~ → CLAUDE.md §3/§7 已標明
+- [x] ~~確認 `auto-push.sh` 仍把 dashboard.html mirror 到 index.html~~ → 已確認（auto-push.sh:30 `cp dashboard.html index.html`）
+- [x] ~~`.gitignore` 的 `shadow-run.log` / `dashboard.html.new` / `build-diff.txt` 條目可留（無害）~~ → 保留
+
+**Phase 7 收尾完成：2026-06-19。**
 
 ---
 

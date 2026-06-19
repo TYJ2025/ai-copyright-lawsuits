@@ -1,6 +1,10 @@
 #!/usr/bin/env python3
 """
-migrate_html_to_json.py — Phase 3 of AI Copyright refactor (one-shot, idempotent)
+migrate_html_to_json.py — one-shot 反向工具，已脫離每日流程（Phase 7 收尾後）
+
+原為 Phase 3 重構工具（one-shot, idempotent）。Phase 6 切換後 dashboard.html 已是
+build 產物，每日流程改走 data/*.json + build.py，本腳本不再參與日常運行，僅供日後
+需要從 dashboard.html 反向重建 data/ 時手動使用。
 
 Reads dashboard.html and extracts 7 inline data constants into data/*.json:
   cases             → data/cases.json
