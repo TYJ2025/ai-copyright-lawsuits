@@ -69,6 +69,11 @@ def flatten_and_write(doc: dict) -> None:
             }
             if it.get("desc"):
                 flat["desc"] = it["desc"]
+            # 穩定 id（如 CourtListener docket id）— main-board 審核決定的
+            # key 優先用它；沒有 id 時 main-board 退回 hash(url)，title/url
+            # 一變舊決定就對不上。
+            if it.get("id"):
+                flat["id"] = str(it["id"])
             items.append(flat)
     out = {
         "label": "待人工審核",

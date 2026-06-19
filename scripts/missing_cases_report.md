@@ -1,7 +1,7 @@
 # 漏案掃描報告（Missing-Case Scan Report）
 
-- Generated: 2026-05-17T14:32:06Z UTC
-- Known cases scanned (manifest + dashboard): 246
+- Generated: 2026-06-12T12:16:18Z UTC
+- Known cases scanned (manifest + dashboard): 258
 
 > 本報告僅為「疑似漏載」候選清單，需人工核對。Matching 採party-token 重疊 ≥ 2 且覆蓋率 ≥ 50% 視為已知；其餘列入候選。
 
