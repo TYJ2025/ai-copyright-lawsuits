@@ -6,6 +6,16 @@
   "data": {
     "items": [
       {
+        "addedAt": "2026-06-27",
+        "text": "【2026/6/22】Getty Images × OpenAI 多年顯示授權合作（非訓練授權）：Getty 6/22 宣布與 OpenAI 簽署多年「顯示合作（display partnership）」，ChatGPT 搜尋與探索功能中將整合 Getty 逾 4 億影像資產，明確排除訓練用途，Getty 股價應聲飆漲 145%；本合作於 Getty Images v. Stability AI 英國上訴（2025/11 高院否准次要侵權請求、Getty 已取得上訴許可）進行中之同時達成，為首件主要圖庫以「顯示授權」（而非訓練授權）與 AI 公司達成之商業合作，並對 Andersen v. Stability AI（9/8 正式開庭）等影像著作權案「可行授權市場」合理使用第四因素攻防構成重要語境",
+        "url": "https://newsroom.gettyimages.com/en/getty-images/getty-images-announces-display-partnership-with-openai"
+      },
+      {
+        "addedAt": "2026-06-27",
+        "text": "【2026/6/24】Local Press Copyright Alliance v. Microsoft / OpenAI（S.D.N.Y.）：近 400 家美國地方與區域報社（代表人：前紐澤西州 AG Matthew Platkin）6/24 於紐約南區聯邦地院對 ChatGPT 與 Microsoft Copilot 提起著作權集體訴訟，指控被告「系統性秘密爬取」逾百家新聞網站（含付費牆後內容）訓練生成式 AI、並剝離作者署名等著作權管理資訊（DMCA § 1202）；原告透過新成立之 LPCA 協調、匯集欠缺個別訴訟資源之地方媒體，與 NYT、Daily News、California Newspaper Partnership 等既有 MDL 案件共構「全美地方報業對 AI 訓練資料授權」最大規模聯合行動",
+        "url": "https://www.courthousenews.com/newspapers-sue-openai-microsoft-for-mass-copyright-infringement/"
+      },
+      {
         "addedAt": "2026-06-26",
         "text": "【2026/6/22】Justice v. Uncharted Labs（Udio, S.D.N.Y.）：Hagens Berman（曾取得菸草訴訟 ,600 億美元歷史最大和解）與 Delgado Entertainment Law 6/22 聯手提交修正訴狀，升級代表遭 AI 訓練未授權使用錄音之獨立音樂人，指控 Udio「對音樂社群最脆弱創作者之野蠻攻擊」；本案原由鄉村音樂人 Tony Justice 2025/6 提起，大型訴訟律師事務所介入標誌獨立藝人對 AI 音樂平台之法律壓力顯著升級",
         "url": "https://www.digitalmusicnews.com/2026/06/23/suno-udio-lawsuit-firm-addition/"
@@ -215,5 +225,5 @@
     ]
   },
   "lastUpdatedBy": "add_news.py",
-  "lastUpdatedAt": "2026-06-26T20:36:42.571225+08:00"
+  "lastUpdatedAt": "2026-06-27T07:11:02.313878+08:00"
 }
