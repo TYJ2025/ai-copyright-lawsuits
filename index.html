@@ -1870,7 +1870,7 @@
 </div>
 
 <footer>
-  &copy; 2026 AI Copyright Litigation Tracker &mdash; 案件資料來源：美國聯邦法院公開紀錄、CourtListener   每日快訊最近更新: 2026-06-28
+  &copy; 2026 AI Copyright Litigation Tracker &mdash; 案件資料來源：美國聯邦法院公開紀錄、CourtListener   每日快訊最近更新: 2026-06-29
 </footer>
 
 <script>
@@ -8617,6 +8617,11 @@ buildRegionMap();
 // 每筆需含 addedAt（YYYY-MM-DD，台北時區），代表「條目加入 dashboard 之日期」
 const newsItems = [
   {
+    "addedAt": "2026-06-29",
+    "text": "【2026/6/25】OpenAI IPO 傾向延至 2027：彭博 6/25 確認，OpenAI 考慮放棄 2026/9 掛牌計劃改至 2027 年，CEO Sam Altman 拒絕壓縮 US$1 兆目標估值，直接觸媒為 SpaceX 6/11 IPO 後股價由高點大幅回調、科技市場情緒轉趨謹慎；IPO 窗口延後將直接降低 OpenAI 搶在掛牌前和解 In re OpenAI MDL（S.D.N.Y. 1:25-md-03143）等 19 件合併著作權訴訟之短期財務壓力，原告律師團「以上市時間表為談判槓桿」之和解誘引策略因此受壓，與 Anthropic 6/1 同步機密遞交 S-1 後亦傳出傾向延遲之訊息共構：兩大頭部 AI 公司同步放緩 IPO 時間表，著作權訴訟和解議程恐隨之延後",
+    "url": "https://www.bloomberg.com/news/articles/2026-06-25/openai-leans-toward-waiting-until-2027-for-ipo-ny-times-says"
+  },
+  {
     "addedAt": "2026-06-28",
     "text": "【2026/6/25】NYT v. Microsoft/OpenAI 第三次修正起訴狀（S.D.N.Y. 1:23-cv-11195）：《紐約時報》6/25 向紐約南區聯邦地院提出第三次修正起訴狀動議，雙線戰略大調整——依 2026/3/25 美國最高法院 Cox v. Sony 大幅提高 contributory infringement 門檻（須舉證被告積極引誘侵權），NYT 對 OpenAI 撤回 contributory infringement 主張，同時大幅強化對 Microsoft 相同主張：指控微軟主動建置逾 285,000 顆 CPU 核心與 10,000 顆 GPU 之客製化超級電腦基礎設施，並以提供「專門為大規模爬取著作權素材訓練模型」之定製算力服務之形式積極引誘 OpenAI 侵害《紐約時報》著作權；本修正確立 NYT 對 OpenAI 之攻擊主軸轉為直接侵權，對 Microsoft 則另立「主動基礎設施引誘」獨立法律主張，成首件以超算基礎設施設計意圖作為 contributory infringement 攻擊核心之 AI 著作權訴訟",
     "url": "https://news.bloomberglaw.com/ip-law/new-york-times-narrows-openai-suit-targets-microsofts-conduct"
@@ -8630,22 +8635,22 @@ const newsItems = [
     "addedAt": "2026-06-27",
     "text": "【2026/6/24】Local Press Copyright Alliance v. Microsoft / OpenAI（S.D.N.Y.）：近 400 家美國地方與區域報社（代表人：前紐澤西州 AG Matthew Platkin）6/24 於紐約南區聯邦地院對 ChatGPT 與 Microsoft Copilot 提起著作權集體訴訟，指控被告「系統性秘密爬取」逾百家新聞網站（含付費牆後內容）訓練生成式 AI、並剝離作者署名等著作權管理資訊（DMCA § 1202）；原告透過新成立之 LPCA 協調、匯集欠缺個別訴訟資源之地方媒體，與 NYT、Daily News、California Newspaper Partnership 等既有 MDL 案件共構「全美地方報業對 AI 訓練資料授權」最大規模聯合行動",
     "url": "https://www.courthousenews.com/newspapers-sue-openai-microsoft-for-mass-copyright-infringement/"
-  },
-  {
-    "addedAt": "2026-06-26",
-    "text": "【2026/6/22】Justice v. Uncharted Labs（Udio, S.D.N.Y.）：Hagens Berman（曾取得菸草訴訟 ,600 億美元歷史最大和解）與 Delgado Entertainment Law 6/22 聯手提交修正訴狀，升級代表遭 AI 訓練未授權使用錄音之獨立音樂人，指控 Udio「對音樂社群最脆弱創作者之野蠻攻擊」；本案原由鄉村音樂人 Tony Justice 2025/6 提起，大型訴訟律師事務所介入標誌獨立藝人對 AI 音樂平台之法律壓力顯著升級",
-    "url": "https://www.digitalmusicnews.com/2026/06/23/suno-udio-lawsuit-firm-addition/"
-  },
-  {
-    "addedAt": "2026-06-26",
-    "text": "【2026/6/15】Wixen v. Meta（C.D. Cal. 2:26-cv-00752）：Meta 6/15 對 Wixen M 修正起訴狀聲請 12(b)(6) 全面駁回，主張 Wixen 缺乏著作權 exclusive rights 原告適格，援引 Wixen v. Pandora（2020）及 Wixen v. Triller（2021）兩案相同事由均遭駁回之前例；Meta 另指 Wixen 同時主張「授權屆期前過早下架」與「授權終止後仍留存」內部矛盾；8/3 Walter 法官（C.D. Cal.）聽證",
-    "url": "https://www.digitalmusicnews.com/2026/06/17/meta-wixen-music-publishing-lawsuit-dismissal-motion/"
   }
 ];
 
 // newsArchive: 已超過 3 天而從 newsItems 移除之歷史快訊（新者在上）
 // 由 daily-brief.sh 每日自動 prepend；展開於畫面下方「歷史快訊 Archive」區塊
 const newsArchive = [
+  {
+    "addedAt": "2026-06-26",
+    "text": "【2026/6/15】Wixen v. Meta（C.D. Cal. 2:26-cv-00752）：Meta 6/15 對 Wixen M 修正起訴狀聲請 12(b)(6) 全面駁回，主張 Wixen 缺乏著作權 exclusive rights 原告適格，援引 Wixen v. Pandora（2020）及 Wixen v. Triller（2021）兩案相同事由均遭駁回之前例；Meta 另指 Wixen 同時主張「授權屆期前過早下架」與「授權終止後仍留存」內部矛盾；8/3 Walter 法官（C.D. Cal.）聽證",
+    "url": "https://www.digitalmusicnews.com/2026/06/17/meta-wixen-music-publishing-lawsuit-dismissal-motion/"
+  },
+  {
+    "addedAt": "2026-06-26",
+    "text": "【2026/6/22】Justice v. Uncharted Labs（Udio, S.D.N.Y.）：Hagens Berman（曾取得菸草訴訟 ,600 億美元歷史最大和解）與 Delgado Entertainment Law 6/22 聯手提交修正訴狀，升級代表遭 AI 訓練未授權使用錄音之獨立音樂人，指控 Udio「對音樂社群最脆弱創作者之野蠻攻擊」；本案原由鄉村音樂人 Tony Justice 2025/6 提起，大型訴訟律師事務所介入標誌獨立藝人對 AI 音樂平台之法律壓力顯著升級",
+    "url": "https://www.digitalmusicnews.com/2026/06/23/suno-udio-lawsuit-firm-addition/"
+  },
   {
     "addedAt": "2026-06-20",
     "text": "【2026/6/16】Reddit v. Anthropic PBC（舊金山高等法院 CGC-25-624813）：Anthropic 6/16 提交 demurrer 主張《著作權法》§ 301 優先排除 Reddit 加州州法 5 大訴因（breach of contract、unjust enrichment、trespass to chattels、tortious interference、unfair competition Cal. B&P § 17200）——「Reddit 起訴 Anthropic 對其用戶內容之複製與訓練、所欲行使之權利與《著作權法》所保護者實質等同（equivalent to）但相互衝突，依 § 301 應遭聯邦著作權法優先排除」；本 demurrer 為 N.D. Cal. Trina L. Thompson 法官 3/30 以「Reddit 各訴因均非主張與著作權法等同之權利、不受 § 301 preempt」為由發回州院後，Anthropic 於州院第二輪嘗試重啟同一前置爭點；爭點若獲州院採信將以程序性結論一舉終結 Reddit 對 Anthropic 自 2024/7 起逾 10 萬次違規爬取 Reddit 用戶留言訓練 Claude 之全部州法主張，並對 Reddit v. SerpAPI/Perplexity（S.D.N.Y.）等所有同類「平台 ToS ↔ AI 訓練」型訴訟之州法請求權路徑構成關鍵先例——延伸自 6/12 Kogon v. Google「平台 ToS 是否內含 AI 訓練授權」攻防同主軸；裁定時點未明，預計 Q3 進行州院聽證",
