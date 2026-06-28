@@ -6,6 +6,11 @@
   "data": {
     "items": [
       {
+        "addedAt": "2026-06-28",
+        "text": "【2026/6/25】NYT v. Microsoft/OpenAI 第三次修正起訴狀（S.D.N.Y. 1:23-cv-11195）：《紐約時報》6/25 向紐約南區聯邦地院提出第三次修正起訴狀動議，雙線戰略大調整——依 2026/3/25 美國最高法院 Cox v. Sony 大幅提高 contributory infringement 門檻（須舉證被告積極引誘侵權），NYT 對 OpenAI 撤回 contributory infringement 主張，同時大幅強化對 Microsoft 相同主張：指控微軟主動建置逾 285,000 顆 CPU 核心與 10,000 顆 GPU 之客製化超級電腦基礎設施，並以提供「專門為大規模爬取著作權素材訓練模型」之定製算力服務之形式積極引誘 OpenAI 侵害《紐約時報》著作權；本修正確立 NYT 對 OpenAI 之攻擊主軸轉為直接侵權，對 Microsoft 則另立「主動基礎設施引誘」獨立法律主張，成首件以超算基礎設施設計意圖作為 contributory infringement 攻擊核心之 AI 著作權訴訟",
+        "url": "https://news.bloomberglaw.com/ip-law/new-york-times-narrows-openai-suit-targets-microsofts-conduct"
+      },
+      {
         "addedAt": "2026-06-27",
         "text": "【2026/6/22】Getty Images × OpenAI 多年顯示授權合作（非訓練授權）：Getty 6/22 宣布與 OpenAI 簽署多年「顯示合作（display partnership）」，ChatGPT 搜尋與探索功能中將整合 Getty 逾 4 億影像資產，明確排除訓練用途，Getty 股價應聲飆漲 145%；本合作於 Getty Images v. Stability AI 英國上訴（2025/11 高院否准次要侵權請求、Getty 已取得上訴許可）進行中之同時達成，為首件主要圖庫以「顯示授權」（而非訓練授權）與 AI 公司達成之商業合作，並對 Andersen v. Stability AI（9/8 正式開庭）等影像著作權案「可行授權市場」合理使用第四因素攻防構成重要語境",
         "url": "https://newsroom.gettyimages.com/en/getty-images/getty-images-announces-display-partnership-with-openai"
@@ -225,5 +230,5 @@
     ]
   },
   "lastUpdatedBy": "add_news.py",
-  "lastUpdatedAt": "2026-06-27T07:11:02.313878+08:00"
+  "lastUpdatedAt": "2026-06-28T14:12:24.638089+08:00"
 }
