@@ -1870,7 +1870,7 @@
 </div>
 
 <footer>
-  &copy; 2026 AI Copyright Litigation Tracker &mdash; 案件資料來源：美國聯邦法院公開紀錄、CourtListener   每日快訊最近更新: 2026-07-02
+  &copy; 2026 AI Copyright Litigation Tracker &mdash; 案件資料來源：美國聯邦法院公開紀錄、CourtListener   每日快訊最近更新: 2026-07-03
 </footer>
 
 <script>
@@ -8617,20 +8617,30 @@ buildRegionMap();
 // 每筆需含 addedAt（YYYY-MM-DD，台北時區），代表「條目加入 dashboard 之日期」
 const newsItems = [
   {
+    "addedAt": "2026-07-03",
+    "text": "【2026/6/29】Jamendo v. Suno（N.D. Cal.）：Winamp 子公司 Jamendo 繼 6/22 對 NVIDIA 提訴後一週，再對 Suno 提起著作權侵害及 CC 授權違約訴訟，涉案同為 MTG-Jamendo 55,600 首學術非商業資料集，求償 ,000 萬美元；Jamendo 2025/9 致函要求授權並送出 €1,600 萬（約 M）請款單，Suno 10/3 確認收件後沉默，Jamendo 主張 Suno 以「非商業學術資料集」訓練商業音樂生成模型構成直接侵權；案件於 UMG/Sony v. Suno（D. Mass. 1:24-cv-11611、即決判決排期 2027/1/8）、Sony v. Udio（S.D.N.Y.）、Justice v. Suno 集體訴訟多線壓力下再添新戰線，Suno 訴訟積壓與其  億估值形成強烈對照",
+    "url": "https://www.musicbusinessworldwide.com/suno-sued-by-winamp-subsidiary-jamendo-as-firm-files-new-copyright-suit-just-a-week-after-suing-nvidia/"
+  },
+  {
+    "addedAt": "2026-07-03",
+    "text": "【2026/6/23】Jamendo v. NVIDIA（N.D. Cal.）：Winamp 子公司 Jamendo 6/22 對 NVIDIA 提起著作權訴訟，指控 NVIDIA Fugatto 與 Audio Flamingo AI 模型未授權使用 MTG-Jamendo 資料集（55,000 首純音、學術非商業 CC 授權）進行商業訓練，求償逾 €1,780 萬（M+）——NVIDIA 已於 Fugatto 技術論文中公開承認引用此資料集，Jamendo 主張構成直接著作權侵害、CC 授權違約、不當得利及不公平競爭；為 NVIDIA 第 8 件著作權案，與 Beaulier 3D 模型系列、Millette 案共構 NVIDIA AI 訓練資料多線著作權壓力，亦是首件「學術非商業 Creative Commons 資料集遭 AI 公司商業訓練濫用」進入美國聯邦法院之指標案件",
+    "url": "https://www.musicbusinessworldwide.com/nvidia-hit-with-us-copyright-suit-claiming-it-trained-ai-models-on-winamp-subsidiary-jamendos-music-without-permission/"
+  },
+  {
     "addedAt": "2026-07-02",
     "text": "【2026/7/15 預告】Concord Music v. Anthropic I（N.D. Cal. 5:24-cv-03811）即決判決聽證倒數 13 日：音樂出版商（Concord、Universal Music Corp. 等）3/23 對 Anthropic 提出之部分即決判決動議，定於 7/15 上午 10 時由 Eumi K. Lee 法官主持——主張就 499 件歌曲直接侵權已無爭議事實，並要求法院認定 AI 訓練與按需輸出歌詞之行為不受合理使用保護；此為繼 Bartz 和解後首件「音樂歌詞訓練 + Claude 輸出侵權」進入即決判決實體審查之案件，結果將先於 Thomson Reuters v. ROSS 第三巡迴判決成為 AI 著作權核心地院先例，亦直接影響 Concord II（5:26-cv-00880）停審動議走向",
     "url": "https://www.courtlistener.com/docket/68889092/concord-music-group-inc-v-anthropic-pbc/"
-  },
-  {
-    "addedAt": "2026-06-30",
-    "text": "【2026/6/25】Suno「Spark」孵化計劃上線暨「Good Vibes Only」永久禁評條款爭議：Suno 6/25 宣布推出 Spark 獨立藝人孵化計劃，提供數千至數萬美元資助、Premier 帳號與行銷資源；然合約「Good Vibes Only」條款要求受資助者「永遠不得以任何形式對 Suno 作出負面陳述」，且於計劃屆期後無限期延續；Music Business Worldwide 揭露此等同永久禁評 NDA，Suno 拒予置評；時機恰逢 Hagens Berman 同週加入 Justice v. Uncharted Labs（Udio, S.D.N.Y.）集體訴訟、Sony Music v. Udio 6/26 文件開示截止期到期，批評者指 Suno 以資金換取獨立藝人永久沉默作為訴訟風險管理工具",
-    "url": "https://www.musicbusinessworldwide.com/suno-is-paying-grants-to-independent-artists-so-long-as-they-agree-never-to-criticize-suno/"
   }
 ];
 
 // newsArchive: 已超過 3 天而從 newsItems 移除之歷史快訊（新者在上）
 // 由 daily-brief.sh 每日自動 prepend；展開於畫面下方「歷史快訊 Archive」區塊
 const newsArchive = [
+  {
+    "addedAt": "2026-06-30",
+    "text": "【2026/6/25】Suno「Spark」孵化計劃上線暨「Good Vibes Only」永久禁評條款爭議：Suno 6/25 宣布推出 Spark 獨立藝人孵化計劃，提供數千至數萬美元資助、Premier 帳號與行銷資源；然合約「Good Vibes Only」條款要求受資助者「永遠不得以任何形式對 Suno 作出負面陳述」，且於計劃屆期後無限期延續；Music Business Worldwide 揭露此等同永久禁評 NDA，Suno 拒予置評；時機恰逢 Hagens Berman 同週加入 Justice v. Uncharted Labs（Udio, S.D.N.Y.）集體訴訟、Sony Music v. Udio 6/26 文件開示截止期到期，批評者指 Suno 以資金換取獨立藝人永久沉默作為訴訟風險管理工具",
+    "url": "https://www.musicbusinessworldwide.com/suno-is-paying-grants-to-independent-artists-so-long-as-they-agree-never-to-criticize-suno/"
+  },
   {
     "addedAt": "2026-06-28",
     "text": "【2026/6/25】NYT v. Microsoft/OpenAI 第三次修正起訴狀（S.D.N.Y. 1:23-cv-11195）：《紐約時報》6/25 向紐約南區聯邦地院提出第三次修正起訴狀動議，雙線戰略大調整——依 2026/3/25 美國最高法院 Cox v. Sony 大幅提高 contributory infringement 門檻（須舉證被告積極引誘侵權），NYT 對 OpenAI 撤回 contributory infringement 主張，同時大幅強化對 Microsoft 相同主張：指控微軟主動建置逾 285,000 顆 CPU 核心與 10,000 顆 GPU 之客製化超級電腦基礎設施，並以提供「專門為大規模爬取著作權素材訓練模型」之定製算力服務之形式積極引誘 OpenAI 侵害《紐約時報》著作權；本修正確立 NYT 對 OpenAI 之攻擊主軸轉為直接侵權，對 Microsoft 則另立「主動基礎設施引誘」獨立法律主張，成首件以超算基礎設施設計意圖作為 contributory infringement 攻擊核心之 AI 著作權訴訟",
