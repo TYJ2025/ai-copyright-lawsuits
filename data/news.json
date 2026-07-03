@@ -6,6 +6,16 @@
   "data": {
     "items": [
       {
+        "addedAt": "2026-07-04",
+        "text": "【2026/7/1】The Atlantic「AI Watchdog」音樂訓練資料庫上線 + SZA 公開抨擊：The Atlantic 推出可搜尋資料庫，涵蓋 Suno、Udio、Google Lyria 三平台共 2,100 萬首訓練曲目（最大單一資料集為德國非營利 LAION 12,320,916 首、源自 YouTube，91 年音樂量）；Grammy 得主 SZA 使用工具發現其 238 首作品（含未曾公開發行曲目）遭列入訓練資料集後公開發聲，成 2026 下半年最具影響力之藝術家 AI 訓練侵權公開指控；資料庫在 Sony v. Suno（D. Mass. 1:24-cv-11611，音訊指紋鑑定已揭露百萬筆）外，提供創作者首個「自查 AI 訓練侵權」公開管道，並強化 AFM v. UMG/WMG（S.D.N.Y.）要求唱片公司揭露 AI 訓練錄音清單之訴訟施壓背景",
+        "url": "https://www.musictimes.com/articles/112230/20260701/why-sza-angry-suno-inside-ai-music-copyright-battle-over-her-songs.htm"
+      },
+      {
+        "addedAt": "2026-07-04",
+        "text": "【2026/7/初】Disney/Universal/Warner v. Midjourney（C.D. Cal.）「Everybody's Doin' It」discovery 攻防：Midjourney 律師本週向主審 John Kronstadt 法官提動議，要求推翻治安法官 Joel Richlin 6/15 裁定——原裁定限縮製片廠 discovery 義務僅含「面向消費者」AI 應用；Midjourney 主張應涵蓋三大製片廠幕後訓練資料集、模型權重、影視 AI 業務計劃與製作流程中 AI 使用細節，以支持「好萊塢自己也在大規模訓練 AI（everybody's doin' it）」之合理使用抗辯；Disney / Universal / Warner 拒絕揭露任何非面向消費者之內部 AI 使用資訊；攻防結果將影響 Andersen v. Stability AI（9/8 trial）等影像 AI 著作權訴訟中「原告自身 AI 使用」公平性論述",
+        "url": "https://variety.com/2026/film/news/midjourney-studios-ai-copyright-discovery-1236800902/"
+      },
+      {
         "addedAt": "2026-07-03",
         "text": "【2026/6/29】Jamendo v. Suno（N.D. Cal.）：Winamp 子公司 Jamendo 繼 6/22 對 NVIDIA 提訴後一週，再對 Suno 提起著作權侵害及 CC 授權違約訴訟，涉案同為 MTG-Jamendo 55,600 首學術非商業資料集，求償 ,000 萬美元；Jamendo 2025/9 致函要求授權並送出 €1,600 萬（約 M）請款單，Suno 10/3 確認收件後沉默，Jamendo 主張 Suno 以「非商業學術資料集」訓練商業音樂生成模型構成直接侵權；案件於 UMG/Sony v. Suno（D. Mass. 1:24-cv-11611、即決判決排期 2027/1/8）、Sony v. Udio（S.D.N.Y.）、Justice v. Suno 集體訴訟多線壓力下再添新戰線，Suno 訴訟積壓與其  億估值形成強烈對照",
         "url": "https://www.musicbusinessworldwide.com/suno-sued-by-winamp-subsidiary-jamendo-as-firm-files-new-copyright-suit-just-a-week-after-suing-nvidia/"
@@ -255,5 +265,5 @@
     ]
   },
   "lastUpdatedBy": "add_news.py",
-  "lastUpdatedAt": "2026-07-03T07:10:13.252611+08:00"
+  "lastUpdatedAt": "2026-07-04T07:12:32.169029+08:00"
 }
