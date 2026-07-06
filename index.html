@@ -1870,7 +1870,7 @@
 </div>
 
 <footer>
-  &copy; 2026 AI Copyright Litigation Tracker &mdash; 案件資料來源：美國聯邦法院公開紀錄、CourtListener   每日快訊最近更新: 2026-07-06
+  &copy; 2026 AI Copyright Litigation Tracker &mdash; 案件資料來源：美國聯邦法院公開紀錄、CourtListener   每日快訊最近更新: 2026-07-07
 </footer>
 
 <script>
@@ -8617,25 +8617,30 @@ buildRegionMap();
 // 每筆需含 addedAt（YYYY-MM-DD，台北時區），代表「條目加入 dashboard 之日期」
 const newsItems = [
   {
+    "addedAt": "2026-07-07",
+    "text": "【2026/7/5】UMG/Sony v. Suno × Sony v. Udio——Udio discovery 裁定連鎖效應：Sony Music 聲請在 Udio（Justice v. Uncharted Labs, S.D.N.Y.）案追加 30,000 件著作物之動議遭法院拒絕，Suno 7/5 旋即援引此裁定向麻州聯邦地院（UMG/Sony v. Suno, D. Mass. 1:24-cv-11611）主張：同一邏輯下應駁回 Sony 要求追加 61,026 件錄音之聲請；本策略以「Udio 裁定作為可採認侵權作品判準先例」為已排定 2027/1/8 即決判決之 Suno 案開闢新攻防軸線，Sony 成為唯一仍對兩案均未和解之主要唱片廠牌",
+    "url": "https://www.digitalmusicnews.com/2026/07/05/suno-admissible-infringed-works-argument/"
+  },
+  {
     "addedAt": "2026-07-06",
     "text": "【2026/7/1】Anderson v. Microsoft Nadella 等股東衍生訴訟（W.D. Wash.）——繼 Adobe 後第二件 AI 著作權股東衍生訴訟：股東 Eric Anderson 7/1 於華盛頓西區聯邦地院對 CEO Satya Nadella、CFO Amy Hood、Jared Spataro、Rajesh Jha 及 11 名董事提起衍生訴訟，主張被告於財報揭露中隱匿 Copilot 及 Azure/OpenAI 雲端基礎設施訓練於未授權著作權素材之法律風險，構成違反信義義務及 Securities Exchange Act § 14(a) 揭露違規；起訴狀援引 NYT v. Microsoft/OpenAI（S.D.N.Y. 1:23-cv-11195）等多件待決訴訟為潛在著作權負債，指控微軟採「ask forgiveness not approval」訓練資料策略直接損害公司；微軟為繼 Adobe（SEIU Pension Plan 4/24 提起）後第二家遭「AI 著作權暴露 ↔ 董事會信義責任」新型理論攻擊之 AI 公司，著作權訴訟風險正從「作者/出版商直接訴訟」升格為「股東 → 董事 D&O 衍生訴訟」第二層級資本市場治理壓力",
     "url": "https://news.bloomberglaw.com/securities-law/microsoft-top-brass-sued-by-shareholder-over-ai-copyright-claims"
-  },
-  {
-    "addedAt": "2026-07-04",
-    "text": "【2026/7/1】The Atlantic「AI Watchdog」音樂訓練資料庫上線 + SZA 公開抨擊：The Atlantic 推出可搜尋資料庫，涵蓋 Suno、Udio、Google Lyria 三平台共 2,100 萬首訓練曲目（最大單一資料集為德國非營利 LAION 12,320,916 首、源自 YouTube，91 年音樂量）；Grammy 得主 SZA 使用工具發現其 238 首作品（含未曾公開發行曲目）遭列入訓練資料集後公開發聲，成 2026 下半年最具影響力之藝術家 AI 訓練侵權公開指控；資料庫在 Sony v. Suno（D. Mass. 1:24-cv-11611，音訊指紋鑑定已揭露百萬筆）外，提供創作者首個「自查 AI 訓練侵權」公開管道，並強化 AFM v. UMG/WMG（S.D.N.Y.）要求唱片公司揭露 AI 訓練錄音清單之訴訟施壓背景",
-    "url": "https://www.musictimes.com/articles/112230/20260701/why-sza-angry-suno-inside-ai-music-copyright-battle-over-her-songs.htm"
-  },
-  {
-    "addedAt": "2026-07-04",
-    "text": "【2026/7/初】Disney/Universal/Warner v. Midjourney（C.D. Cal.）「Everybody's Doin' It」discovery 攻防：Midjourney 律師本週向主審 John Kronstadt 法官提動議，要求推翻治安法官 Joel Richlin 6/15 裁定——原裁定限縮製片廠 discovery 義務僅含「面向消費者」AI 應用；Midjourney 主張應涵蓋三大製片廠幕後訓練資料集、模型權重、影視 AI 業務計劃與製作流程中 AI 使用細節，以支持「好萊塢自己也在大規模訓練 AI（everybody's doin' it）」之合理使用抗辯；Disney / Universal / Warner 拒絕揭露任何非面向消費者之內部 AI 使用資訊；攻防結果將影響 Andersen v. Stability AI（9/8 trial）等影像 AI 著作權訴訟中「原告自身 AI 使用」公平性論述",
-    "url": "https://variety.com/2026/film/news/midjourney-studios-ai-copyright-discovery-1236800902/"
   }
 ];
 
 // newsArchive: 已超過 3 天而從 newsItems 移除之歷史快訊（新者在上）
 // 由 daily-brief.sh 每日自動 prepend；展開於畫面下方「歷史快訊 Archive」區塊
 const newsArchive = [
+  {
+    "addedAt": "2026-07-04",
+    "text": "【2026/7/初】Disney/Universal/Warner v. Midjourney（C.D. Cal.）「Everybody's Doin' It」discovery 攻防：Midjourney 律師本週向主審 John Kronstadt 法官提動議，要求推翻治安法官 Joel Richlin 6/15 裁定——原裁定限縮製片廠 discovery 義務僅含「面向消費者」AI 應用；Midjourney 主張應涵蓋三大製片廠幕後訓練資料集、模型權重、影視 AI 業務計劃與製作流程中 AI 使用細節，以支持「好萊塢自己也在大規模訓練 AI（everybody's doin' it）」之合理使用抗辯；Disney / Universal / Warner 拒絕揭露任何非面向消費者之內部 AI 使用資訊；攻防結果將影響 Andersen v. Stability AI（9/8 trial）等影像 AI 著作權訴訟中「原告自身 AI 使用」公平性論述",
+    "url": "https://variety.com/2026/film/news/midjourney-studios-ai-copyright-discovery-1236800902/"
+  },
+  {
+    "addedAt": "2026-07-04",
+    "text": "【2026/7/1】The Atlantic「AI Watchdog」音樂訓練資料庫上線 + SZA 公開抨擊：The Atlantic 推出可搜尋資料庫，涵蓋 Suno、Udio、Google Lyria 三平台共 2,100 萬首訓練曲目（最大單一資料集為德國非營利 LAION 12,320,916 首、源自 YouTube，91 年音樂量）；Grammy 得主 SZA 使用工具發現其 238 首作品（含未曾公開發行曲目）遭列入訓練資料集後公開發聲，成 2026 下半年最具影響力之藝術家 AI 訓練侵權公開指控；資料庫在 Sony v. Suno（D. Mass. 1:24-cv-11611，音訊指紋鑑定已揭露百萬筆）外，提供創作者首個「自查 AI 訓練侵權」公開管道，並強化 AFM v. UMG/WMG（S.D.N.Y.）要求唱片公司揭露 AI 訓練錄音清單之訴訟施壓背景",
+    "url": "https://www.musictimes.com/articles/112230/20260701/why-sza-angry-suno-inside-ai-music-copyright-battle-over-her-songs.htm"
+  },
   {
     "addedAt": "2026-07-02",
     "text": "【2026/7/15 預告】Concord Music v. Anthropic I（N.D. Cal. 5:24-cv-03811）即決判決聽證倒數 13 日：音樂出版商（Concord、Universal Music Corp. 等）3/23 對 Anthropic 提出之部分即決判決動議，定於 7/15 上午 10 時由 Eumi K. Lee 法官主持——主張就 499 件歌曲直接侵權已無爭議事實，並要求法院認定 AI 訓練與按需輸出歌詞之行為不受合理使用保護；此為繼 Bartz 和解後首件「音樂歌詞訓練 + Claude 輸出侵權」進入即決判決實體審查之案件，結果將先於 Thomson Reuters v. ROSS 第三巡迴判決成為 AI 著作權核心地院先例，亦直接影響 Concord II（5:26-cv-00880）停審動議走向",
