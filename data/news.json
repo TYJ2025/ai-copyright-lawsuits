@@ -6,6 +6,11 @@
   "data": {
     "items": [
       {
+        "addedAt": "2026-07-08",
+        "text": "【2026/3/27】ANI Media Pvt Ltd v. OpenAI（Delhi HC）印度首件 AI 著作權案辯論終結、法院保留裁定中：印度新聞通訊社 ANI 2024/11 對 OpenAI 提起訴訟，主張 OpenAI 未授權爬取並用 ANI 新聞文章訓練 ChatGPT，違反印度著作權法（Copyright Act 1957）Section 52 fair dealing 邊界；德里高等法院（Justice Amit Bansal）歷經 32 次庭審後於 3/27 雙方完成最終陳述後保留裁定（judgment reserved），判決宣示日期未定——法院需就四核心爭點裁示：（一）儲存訓練資料是否侵害著作權、（二）生成回應是否侵害著作權、（三）德里法院是否具對 OpenAI 之管轄權（OpenAI 以伺服器不在印度主張無管轄）、（四）合理使用例外是否適用；本案與美、英、德、中、加共構「全球 AI 著作權六大法域各自為政」格局，待決裁定將成印度 AI 訓練著作權法律框架第一件實質司法先例",
+        "url": "https://thenewpublishingstandard.com/2026/04/01/ani-vs-openai-delhi-high-court-judgment-ai-copyright-india/"
+      },
+      {
         "addedAt": "2026-07-07",
         "text": "【2026/7/5】UMG/Sony v. Suno × Sony v. Udio——Udio discovery 裁定連鎖效應：Sony Music 聲請在 Udio（Justice v. Uncharted Labs, S.D.N.Y.）案追加 30,000 件著作物之動議遭法院拒絕，Suno 7/5 旋即援引此裁定向麻州聯邦地院（UMG/Sony v. Suno, D. Mass. 1:24-cv-11611）主張：同一邏輯下應駁回 Sony 要求追加 61,026 件錄音之聲請；本策略以「Udio 裁定作為可採認侵權作品判準先例」為已排定 2027/1/8 即決判決之 Suno 案開闢新攻防軸線，Sony 成為唯一仍對兩案均未和解之主要唱片廠牌",
         "url": "https://www.digitalmusicnews.com/2026/07/05/suno-admissible-infringed-works-argument/"
@@ -275,5 +280,5 @@
     ]
   },
   "lastUpdatedBy": "add_news.py",
-  "lastUpdatedAt": "2026-07-07T07:10:30.926576+08:00"
+  "lastUpdatedAt": "2026-07-08T07:16:51.013089+08:00"
 }
