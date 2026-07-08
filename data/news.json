@@ -6,6 +6,11 @@
   "data": {
     "items": [
       {
+        "addedAt": "2026-07-09",
+        "text": "【2026/7/8】In re Google Generative AI Copyright Litigation（N.D. Cal. 5:23-cv-03440，Eumi K. Lee 法官）即決判決動議截止、9/11 聽證確定：作家與視覺藝術家合併控 Google 未授權以 Bard／Gemini 訓練資料侵害著作物之集體訴訟，7/8 為雙方提交即決判決動議之截止日，同日確認即決判決聽證排定 2026/9/11（週五）下午 1:30；此案由 Lee 法官主持，與 Concord Music v. Anthropic I（7/15 即決判決聽證，同院同法官）、Thomson Reuters v. ROSS Intelligence 第三巡迴待決裁判共構 2026 Q3 AI 著作權合理使用攻防之最密集司法節點，為繼 Bartz、Concord I 後 Lee 法官同期主持之第三件重大 AI 著作權訴訟",
+        "url": "https://www.courtlistener.com/docket/67599029/in-re-google-generative-ai-copyright-litigation/"
+      },
+      {
         "addedAt": "2026-07-08",
         "text": "【2026/3/27】ANI Media Pvt Ltd v. OpenAI（Delhi HC）印度首件 AI 著作權案辯論終結、法院保留裁定中：印度新聞通訊社 ANI 2024/11 對 OpenAI 提起訴訟，主張 OpenAI 未授權爬取並用 ANI 新聞文章訓練 ChatGPT，違反印度著作權法（Copyright Act 1957）Section 52 fair dealing 邊界；德里高等法院（Justice Amit Bansal）歷經 32 次庭審後於 3/27 雙方完成最終陳述後保留裁定（judgment reserved），判決宣示日期未定——法院需就四核心爭點裁示：（一）儲存訓練資料是否侵害著作權、（二）生成回應是否侵害著作權、（三）德里法院是否具對 OpenAI 之管轄權（OpenAI 以伺服器不在印度主張無管轄）、（四）合理使用例外是否適用；本案與美、英、德、中、加共構「全球 AI 著作權六大法域各自為政」格局，待決裁定將成印度 AI 訓練著作權法律框架第一件實質司法先例",
         "url": "https://thenewpublishingstandard.com/2026/04/01/ani-vs-openai-delhi-high-court-judgment-ai-copyright-india/"
@@ -14,14 +19,14 @@
         "addedAt": "2026-07-07",
         "text": "【2026/7/5】UMG/Sony v. Suno × Sony v. Udio——Udio discovery 裁定連鎖效應：Sony Music 聲請在 Udio（Justice v. Uncharted Labs, S.D.N.Y.）案追加 30,000 件著作物之動議遭法院拒絕，Suno 7/5 旋即援引此裁定向麻州聯邦地院（UMG/Sony v. Suno, D. Mass. 1:24-cv-11611）主張：同一邏輯下應駁回 Sony 要求追加 61,026 件錄音之聲請；本策略以「Udio 裁定作為可採認侵權作品判準先例」為已排定 2027/1/8 即決判決之 Suno 案開闢新攻防軸線，Sony 成為唯一仍對兩案均未和解之主要唱片廠牌",
         "url": "https://www.digitalmusicnews.com/2026/07/05/suno-admissible-infringed-works-argument/"
-      },
+      }
+    ],
+    "archive": [
       {
         "addedAt": "2026-07-06",
         "text": "【2026/7/1】Anderson v. Microsoft Nadella 等股東衍生訴訟（W.D. Wash.）——繼 Adobe 後第二件 AI 著作權股東衍生訴訟：股東 Eric Anderson 7/1 於華盛頓西區聯邦地院對 CEO Satya Nadella、CFO Amy Hood、Jared Spataro、Rajesh Jha 及 11 名董事提起衍生訴訟，主張被告於財報揭露中隱匿 Copilot 及 Azure/OpenAI 雲端基礎設施訓練於未授權著作權素材之法律風險，構成違反信義義務及 Securities Exchange Act § 14(a) 揭露違規；起訴狀援引 NYT v. Microsoft/OpenAI（S.D.N.Y. 1:23-cv-11195）等多件待決訴訟為潛在著作權負債，指控微軟採「ask forgiveness not approval」訓練資料策略直接損害公司；微軟為繼 Adobe（SEIU Pension Plan 4/24 提起）後第二家遭「AI 著作權暴露 ↔ 董事會信義責任」新型理論攻擊之 AI 公司，著作權訴訟風險正從「作者/出版商直接訴訟」升格為「股東 → 董事 D&O 衍生訴訟」第二層級資本市場治理壓力",
         "url": "https://news.bloomberglaw.com/securities-law/microsoft-top-brass-sued-by-shareholder-over-ai-copyright-claims"
-      }
-    ],
-    "archive": [
+      },
       {
         "addedAt": "2026-07-04",
         "text": "【2026/7/初】Disney/Universal/Warner v. Midjourney（C.D. Cal.）「Everybody's Doin' It」discovery 攻防：Midjourney 律師本週向主審 John Kronstadt 法官提動議，要求推翻治安法官 Joel Richlin 6/15 裁定——原裁定限縮製片廠 discovery 義務僅含「面向消費者」AI 應用；Midjourney 主張應涵蓋三大製片廠幕後訓練資料集、模型權重、影視 AI 業務計劃與製作流程中 AI 使用細節，以支持「好萊塢自己也在大規模訓練 AI（everybody's doin' it）」之合理使用抗辯；Disney / Universal / Warner 拒絕揭露任何非面向消費者之內部 AI 使用資訊；攻防結果將影響 Andersen v. Stability AI（9/8 trial）等影像 AI 著作權訴訟中「原告自身 AI 使用」公平性論述",
@@ -280,5 +285,5 @@
     ]
   },
   "lastUpdatedBy": "add_news.py",
-  "lastUpdatedAt": "2026-07-08T07:16:51.013089+08:00"
+  "lastUpdatedAt": "2026-07-09T07:16:48.632556+08:00"
 }
