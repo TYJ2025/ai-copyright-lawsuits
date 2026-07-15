@@ -1790,6 +1790,7 @@
         <option value="code">軟體 / 程式開發者</option>
         <option value="creator">影片創作者</option>
         <option value="reference">百科 / 參考資料</option>
+        <option value="shareholder">股東（代位訴訟）</option>
       </select>
       <button class="adv-filter-reset" onclick="resetAdvFilters()">清除篩選</button>
     </div>
@@ -7169,6 +7170,106 @@ const cases = [
     "technology": "image",
     "plaintiffType": "artist",
     "workType": "圖片攝影 Images",
+    "isNonUS": false,
+    "sourceCount": 1,
+    "docket": null,
+    "filedAt": null,
+    "updatedAt": "2026-07-13"
+  },
+  {
+    "id": 153,
+    "name": "SEIU Pension Plan Master Trust v. Adobe（股東代位）",
+    "court": "待確認",
+    "judge": "待確認",
+    "status": "active",
+    "claims": [
+      "Breach of Fiduciary Duty (Derivative)",
+      "Securities — §14(a)/Rule 14a-9"
+    ],
+    "defendants": "Adobe 董事及高階經理人",
+    "issues": "首件「著作權股東代位訴訟」（2026/4 立案）。股東 SEIU 退休基金主張 Adobe 董事高管放任公司以受著作權爭議的資料訓練 Firefly 等 AI 模型，使公司暴露於侵權責任，違反受任人義務。與 Lyon v. Adobe 著作權合併訴訟平行發展。",
+    "progress": "案件初期。此類訴訟不以著作權侵權為訴因，而以公司法受任人義務與證券法不實陳述為據，著作權爭議僅為事實基礎。",
+    "taiwan": "「著作權股東代位訴訟」將 AI 訓練侵權風險上升到公司治理與 D&O 責任層次。台灣公司法第 214 條代位訴訟門檻較高，但上市公司董事會對 AI 訓練資料合法性的監督義務、資訊揭露與 D&O 保險承保範圍，均為台灣公司治理實務可預作準備之議題。",
+    "jurisdiction": "us",
+    "country": "🇺🇸 美國",
+    "technology": "llm",
+    "plaintiffType": "shareholder",
+    "workType": "其他 Other",
+    "isNonUS": false,
+    "sourceCount": 1,
+    "docket": null,
+    "filedAt": null,
+    "updatedAt": "2026-07-13"
+  },
+  {
+    "id": 154,
+    "name": "Hirschberger v. Narayen（Adobe 股東代位）",
+    "court": "N.D. Cal. (San Jose)",
+    "judge": "待分派",
+    "status": "active",
+    "claims": [
+      "Breach of Fiduciary Duty (Derivative)",
+      "Securities — §14(a)/Rule 14a-9"
+    ],
+    "defendants": "Shantanu Narayen 等 Adobe 董事及高階經理人",
+    "issues": "Adobe 第二件股東代位訴訟（2026/6/16 立案）。股東主張 Adobe 高層對外宣稱 Firefly 為「commercially safe AI」構成對投資人的重大不實陳述，指 Adobe 使用涉有著作權爭議的 SlimPajama 資料集訓練模型。",
+    "progress": "案件初期。",
+    "taiwan": "（同上類型）「著作權股東代位訴訟」將 AI 訓練侵權風險上升到公司治理與 D&O 責任層次。台灣公司法第 214 條代位訴訟門檻較高，但上市公司董事會對 AI 訓練資料合法性的監督義務、資訊揭露與 D&O 保險承保範圍，均為台灣公司治理實務可預作準備之議題。",
+    "jurisdiction": "us",
+    "country": "🇺🇸 美國",
+    "technology": "llm",
+    "plaintiffType": "shareholder",
+    "workType": "其他 Other",
+    "isNonUS": false,
+    "sourceCount": 1,
+    "docket": null,
+    "filedAt": null,
+    "updatedAt": "2026-07-13"
+  },
+  {
+    "id": 155,
+    "name": "City of St. Clair Shores Police & Fire Retirement System v. Microsoft（股東代位）",
+    "court": "W.D. Wash.",
+    "judge": "S. Kate Vaughan",
+    "status": "active",
+    "claims": [
+      "Breach of Fiduciary Duty (Derivative)",
+      "Securities — §14(a)/Rule 14a-9"
+    ],
+    "defendants": "Microsoft 董事及高階經理人",
+    "issues": "退休基金股東代位訴訟（2:26-cv-02071）。主張 Microsoft 董事高管核准或放任以侵權方式取得 AI 訓練資料、就相關著作權風險為不實陳述，違反受任人義務。Microsoft 為繼 Adobe 後第二家遭此新型訴訟的公司。",
+    "progress": "案件進行中。",
+    "taiwan": "（同上類型）「著作權股東代位訴訟」將 AI 訓練侵權風險上升到公司治理與 D&O 責任層次。台灣公司法第 214 條代位訴訟門檻較高，但上市公司董事會對 AI 訓練資料合法性的監督義務、資訊揭露與 D&O 保險承保範圍，均為台灣公司治理實務可預作準備之議題。",
+    "jurisdiction": "us",
+    "country": "🇺🇸 美國",
+    "technology": "llm",
+    "plaintiffType": "shareholder",
+    "workType": "其他 Other",
+    "isNonUS": false,
+    "sourceCount": 1,
+    "docket": null,
+    "filedAt": null,
+    "updatedAt": "2026-07-13"
+  },
+  {
+    "id": 156,
+    "name": "Anderson v. Nadella（Microsoft 股東代位）",
+    "court": "W.D. Wash.",
+    "judge": "待分派",
+    "status": "active",
+    "claims": [
+      "Breach of Fiduciary Duty (Derivative)",
+      "Securities — §14(a)/Rule 14a-9"
+    ],
+    "defendants": "Satya Nadella、Amy Hood 等 Microsoft 董事及高階經理人",
+    "issues": "股東 Eric Anderson 代位訴訟（2:26-cv-02281，2026/6/30 立案）。主張 Microsoft 領導層就 AI 策略、Copilot、財務結果及訓練資料合法來源為誤導性陳述，並透過投資 OpenAI 及提供 Azure 基礎設施使公司暴露於著作權責任，違反受任人義務及證券交易法第 14(a) 條。",
+    "progress": "【2026/7/3】原告已聲請與 St. Clair Shores 案認定為關聯案件。",
+    "taiwan": "（同上類型）「著作權股東代位訴訟」將 AI 訓練侵權風險上升到公司治理與 D&O 責任層次。台灣公司法第 214 條代位訴訟門檻較高，但上市公司董事會對 AI 訓練資料合法性的監督義務、資訊揭露與 D&O 保險承保範圍，均為台灣公司治理實務可預作準備之議題。",
+    "jurisdiction": "us",
+    "country": "🇺🇸 美國",
+    "technology": "llm",
+    "plaintiffType": "shareholder",
+    "workType": "其他 Other",
     "isNonUS": false,
     "sourceCount": 1,
     "docket": null,
