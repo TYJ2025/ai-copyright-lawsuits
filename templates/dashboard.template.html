@@ -465,11 +465,65 @@
     font-size: 15px;
     grid-column: 1 / -1;
   }
+  /* ── Compare v2: 建議組合 + 差異對照表 ── */
+  .compare-presets {
+    display: flex; gap: 8px; flex-wrap: wrap; align-items: center;
+    padding: 12px 24px 10px;
+    background: var(--white);
+    border-bottom: 1px solid var(--border);
+  }
+  .compare-preset-label {
+    font-size: 11px; font-weight: 700; color: var(--gold);
+    text-transform: uppercase; letter-spacing: 1px; width: 100%;
+  }
+  .compare-chip {
+    border: 1px solid var(--gold); background: transparent; color: var(--text);
+    border-radius: 14px; padding: 4px 14px; font-size: 13px; cursor: pointer;
+    font-family: 'Microsoft JhengHei', '微軟正黑體', sans-serif; transition: all 0.2s;
+  }
+  .compare-chip:hover, .compare-chip.active { background: rgba(201,169,110,0.22); }
+  .compare-table-wrap { overflow-x: auto; }
+  .compare-table { width: 100%; border-collapse: collapse; font-size: 13.5px; }
+  .compare-table th, .compare-table td {
+    padding: 10px 14px; border-bottom: 1px solid var(--border);
+    vertical-align: top; text-align: left; line-height: 1.65; min-width: 160px;
+  }
+  .compare-table .cmp-rowlabel {
+    min-width: 84px; width: 96px; font-size: 11px; font-weight: 700; color: var(--gold);
+    text-transform: uppercase; letter-spacing: 0.5px;
+  }
+  .compare-table .cmp-case-h {
+    font-size: 15px; color: var(--navy); font-weight: 700;
+    border-bottom: 2px solid var(--gold); line-height: 1.4;
+  }
+  [data-theme="dark"] .compare-table .cmp-case-h { color: var(--gold-light); }
+  .cmp-same td { color: var(--text-light); }
+  .cmp-same-mark { font-weight: 400; text-transform: none; letter-spacing: 0; }
+  .cmp-note { font-size: 12px; color: var(--text-light); margin-top: 4px; line-height: 1.5; }
+  .cmp-fu { display: inline-block; padding: 2px 10px; border-radius: 12px; font-size: 12.5px; font-weight: 700; white-space: nowrap; }
+  .cmp-fu-favorable { background: #e8f5e9; color: #2e7d32; }
+  .cmp-fu-unfavorable { background: #fce4ec; color: #c62828; }
+  .cmp-fu-partial { background: #fff3e0; color: #e65100; }
+  .cmp-fu-pending, .cmp-fu-none { background: #eceff1; color: #546e7a; }
+  [data-theme="dark"] .cmp-fu-favorable { background: #1e3a2a; color: #6fcf97; }
+  [data-theme="dark"] .cmp-fu-unfavorable { background: #3a1a1a; color: #f28b82; }
+  [data-theme="dark"] .cmp-fu-partial { background: #3a2a1a; color: #f0b27a; }
+  [data-theme="dark"] .cmp-fu-pending, [data-theme="dark"] .cmp-fu-none { background: #2a2f33; color: #90a4ae; }
+  .cmp-kr { margin: 0; padding: 0; list-style: none; }
+  .cmp-kr li { margin-bottom: 6px; }
+  .cmp-kr .kr-date { font-weight: 700; color: var(--gold); margin-right: 6px; white-space: nowrap; }
+  .cmp-toggle {
+    background: transparent; border: none; color: var(--gold); cursor: pointer;
+    font-size: 13px; font-family: inherit; padding: 0; font-weight: 700; letter-spacing: 0.5px;
+  }
+  .cmp-toggle:hover { text-decoration: underline; }
+  .claim-tag.cmp-uniq { outline: 1.5px solid var(--gold); }
   @media (max-width: 600px) {
     .compare-body { grid-template-columns: 1fr; }
     .compare-col { border-right: none; border-bottom: 1px solid var(--border); }
     .compare-selectors { flex-direction: column; }
     .compare-btn { margin-left: 0; margin-top: 6px; padding: 4px 10px; font-size: 12px; }
+    .compare-table th, .compare-table td { min-width: 130px; padding: 8px 10px; }
   }
 
   /* ── Reports Library Category Tags ── */
@@ -1720,18 +1774,12 @@
       <h3>⚖ 案件比較 Case Comparison</h3>
       <button class="compare-close" onclick="closeCompare()">&times;</button>
     </div>
-    <div class="compare-selectors">
-      <div class="compare-select-group">
-        <label>案件 A</label>
-        <select id="compareSelectA" onchange="updateComparison()"></select>
+    <div class="compare-presets" id="comparePresets"></div>
+    <div class="compare-selectors" id="compareSelectors"></div>
+    <div class="compare-table-wrap">
+      <div id="compareBody">
+        <div class="compare-empty">請選擇至少兩個案件，或點上方建議組合</div>
       </div>
-      <div class="compare-select-group">
-        <label>案件 B</label>
-        <select id="compareSelectB" onchange="updateComparison()"></select>
-      </div>
-    </div>
-    <div class="compare-body" id="compareBody">
-      <div class="compare-empty">請選擇兩個案件進行比較</div>
     </div>
   </div>
 </div>
@@ -1790,6 +1838,7 @@
         <option value="code">軟體 / 程式開發者</option>
         <option value="creator">影片創作者</option>
         <option value="reference">百科 / 參考資料</option>
+        <option value="shareholder">股東（代位訴訟）</option>
       </select>
       <button class="adv-filter-reset" onclick="resetAdvFilters()">清除篩選</button>
     </div>
@@ -2828,76 +2877,119 @@ function buildTimeline() {
 }
 
 // ════════════════════════════════════════
-// CASE COMPARISON TOOL
+// CASE COMPARISON TOOL v2 — 差異對照 + 建議組合 + 裁定矩陣
 // ════════════════════════════════════════
+const cmpTechLabels = { llm: 'LLM 文字', image: '圖像生成', music: '音樂生成', video: '影音生成', search: '搜尋/摘要', code: '程式碼' };
+const cmpPtypeLabels = { author: '作家/出版', media: '新聞媒體', music: '音樂產業', artist: '視覺藝術家', creator: '創作者', shareholder: '股東', code: '開發者', reference: '資料庫/參考' };
+const cmpFairUseMap = {
+  favorable:   ['合理使用成立', 'cmp-fu-favorable'],
+  unfavorable: ['合理使用不成立', 'cmp-fu-unfavorable'],
+  partial:     ['部分成立', 'cmp-fu-partial'],
+  pending:     ['尚無裁定', 'cmp-fu-pending'],
+  na:          ['不適用', 'cmp-fu-none']
+};
+let compareSel = [null, null, null, null];
+let cmpExpanded = {};
+
+function cmpRankRulingsFirst(list) {
+  return list.slice().sort((a, b) => ((b.rulings ? 1 : 0) - (a.rulings ? 1 : 0)));
+}
+const comparePresets = [
+  { label: '⚖ 合理使用裁定', pick: () => cases.filter(c => c.rulings && ['favorable', 'unfavorable', 'partial'].includes(c.rulings.fairUse)).slice(0, 4).map(c => c.id) },
+  { label: '上訴審中', pick: () => cmpRankRulingsFirst(cases.filter(c => c.status === 'appeal')).slice(0, 4).map(c => c.id) },
+  { label: '音樂產業', pick: () => cmpRankRulingsFirst(cases.filter(c => c.technology === 'music')).slice(0, 4).map(c => c.id) },
+  { label: '新聞媒體', pick: () => cmpRankRulingsFirst(cases.filter(c => c.plaintiffType === 'media')).slice(0, 4).map(c => c.id) },
+  { label: '歐洲判決', pick: () => cmpRankRulingsFirst(cases.filter(c => ['uk', 'eu'].includes(classifyJurisdiction(c.court)))).slice(0, 4).map(c => c.id) },
+  { label: '中國判決', pick: () => cmpRankRulingsFirst(cases.filter(c => classifyJurisdiction(c.court) === 'cn')).slice(0, 4).map(c => c.id) }
+];
+
 function openCompare() {
-  const overlay = document.getElementById('compareOverlay');
-  const selA = document.getElementById('compareSelectA');
-  const selB = document.getElementById('compareSelectB');
-  // Populate dropdowns
-  let opts = '<option value="">— 選擇案件 —</option>';
-  cases.forEach(c => {
-    opts += `<option value="${c.id}">${c.name}</option>`;
-  });
-  selA.innerHTML = opts;
-  selB.innerHTML = opts;
-  // Pre-select: if a case is currently viewed, set it as A
-  if (selectedId) selA.value = selectedId;
-  overlay.classList.add('visible');
-  updateComparison();
+  renderPresetChips(null);
+  if (selectedId && !compareSel.includes(selectedId)) compareSel[0] = selectedId;
+  renderCompareSelectors();
+  renderComparison();
+  document.getElementById('compareOverlay').classList.add('visible');
 }
 function closeCompare() {
   document.getElementById('compareOverlay').classList.remove('visible');
 }
-function updateComparison() {
+function applyComparePreset(i) {
+  const ids = comparePresets[i].pick();
+  compareSel = [ids[0] || null, ids[1] || null, ids[2] || null, ids[3] || null];
+  cmpExpanded = {};
+  renderPresetChips(i);
+  renderCompareSelectors();
+  renderComparison();
+}
+function renderPresetChips(activeIdx) {
+  const el = document.getElementById('comparePresets');
+  el.innerHTML = '<div class="compare-preset-label">建議比較 Suggested Comparisons</div>' +
+    comparePresets.map((p, i) => `<button class="compare-chip${i === activeIdx ? ' active' : ''}" onclick="applyComparePreset(${i})">${p.label}</button>`).join('');
+}
+function renderCompareSelectors() {
+  const el = document.getElementById('compareSelectors');
+  const opts = '<option value="">—</option>' + cases.map(c => `<option value="${c.id}">${c.rulings ? '⚖ ' : ''}${c.name}</option>`).join('');
+  el.innerHTML = [0, 1, 2, 3].map(i =>
+    `<div class="compare-select-group"><label>案件 ${'ABCD'[i]}${i > 1 ? '（選填）' : ''}</label><select onchange="compareSel[${i}]=this.value?parseInt(this.value):null;cmpExpanded={};renderComparison();">${opts}</select></div>`
+  ).join('');
+  [0, 1, 2, 3].forEach(i => {
+    if (compareSel[i]) el.children[i].querySelector('select').value = compareSel[i];
+  });
+}
+function cmpToggle(key) {
+  cmpExpanded[key] = !cmpExpanded[key];
+  renderComparison();
+}
+function renderComparison() {
   const body = document.getElementById('compareBody');
-  const idA = document.getElementById('compareSelectA').value;
-  const idB = document.getElementById('compareSelectB').value;
-  if (!idA && !idB) {
-    body.innerHTML = '<div class="compare-empty">請選擇兩個案件進行比較</div>';
+  const sel = compareSel.filter(id => id).map(id => cases.find(c => c.id === id)).filter(Boolean);
+  if (sel.length < 2) {
+    body.innerHTML = '<div class="compare-empty">請選擇至少兩個案件，或點上方建議組合（⚖ 標記＝已有實質裁定資料）</div>';
     return;
   }
-  const cA = cases.find(x => x.id == idA);
-  const cB = cases.find(x => x.id == idB);
-  function renderCol(c) {
-    if (!c) return '<div class="compare-col"><div class="compare-empty">請選擇案件</div></div>';
-    return `<div class="compare-col">
-      <h4>${c.name}</h4>
-      <div class="compare-field">
-        <div class="compare-field-label">狀態 Status</div>
-        <div class="compare-field-value">${statusBadge(c.status)} ${c.status}</div>
-      </div>
-      <div class="compare-field">
-        <div class="compare-field-label">法院 Court</div>
-        <div class="compare-field-value">${c.court}</div>
-      </div>
-      <div class="compare-field">
-        <div class="compare-field-label">法官 Judge</div>
-        <div class="compare-field-value">${c.judge}</div>
-      </div>
-      <div class="compare-field">
-        <div class="compare-field-label">被告 Defendants</div>
-        <div class="compare-field-value">${c.defendants}</div>
-      </div>
-      <div class="compare-field">
-        <div class="compare-field-label">主張 Claims</div>
-        <div class="compare-field-value">${c.claims.map(cl => `<span class="claim-tag">${cl}</span>`).join(' ')}</div>
-      </div>
-      <div class="compare-field">
-        <div class="compare-field-label">訴訟爭點 Key Issues</div>
-        <div class="compare-field-value">${c.issues.replace(/\n/g,'<br>')}</div>
-      </div>
-      <div class="compare-field">
-        <div class="compare-field-label">目前進度 Progress</div>
-        <div class="compare-field-value">${c.progress.replace(/\n/g,'<br>')}</div>
-      </div>
-      <div class="compare-field">
-        <div class="compare-field-label">台灣啟示 Taiwan</div>
-        <div class="compare-field-value">${c.taiwan.replace(/\n/g,'<br>')}</div>
-      </div>
-    </div>`;
+  const n = sel.length;
+  // claims 集合運算：交集＝共同主張，其餘＝獨有主張
+  const claimSets = sel.map(c => new Set(c.claims || []));
+  const common = [...claimSets[0]].filter(cl => claimSets.every(s => s.has(cl)));
+  const uniq = sel.map(c => (c.claims || []).filter(cl => !common.includes(cl)));
+  function row(label, vals, html) {
+    const same = vals.every(v => v === vals[0]);
+    const mark = same ? '<br><span class="cmp-same-mark">（相同）</span>' : '';
+    return `<tr class="${same ? 'cmp-same' : ''}"><td class="cmp-rowlabel">${label}${mark}</td>${vals.map(v => `<td>${v}</td>`).join('')}</tr>`;
   }
-  body.innerHTML = renderCol(cA) + renderCol(cB);
+  let h = '<table class="compare-table">';
+  h += `<tr><td class="cmp-rowlabel">案件</td>${sel.map(c => `<th class="cmp-case-h">${c.name}</th>`).join('')}</tr>`;
+  h += `<tr><td class="cmp-rowlabel">合理使用<br>Fair Use</td>${sel.map(c => {
+    const fu = c.rulings ? (cmpFairUseMap[c.rulings.fairUse] || cmpFairUseMap.na) : ['尚無實質裁定', 'cmp-fu-none'];
+    const note = c.rulings && c.rulings.fairUseNote ? `<div class="cmp-note">${c.rulings.fairUseNote}</div>` : '';
+    return `<td><span class="cmp-fu ${fu[1]}">${fu[0]}</span>${note}</td>`;
+  }).join('')}</tr>`;
+  h += `<tr><td class="cmp-rowlabel">關鍵裁定<br>Key Rulings</td>${sel.map(c => {
+    if (!c.rulings || !c.rulings.keyRulings || !c.rulings.keyRulings.length) return '<td><span class="cmp-note">尚無實質裁定</span></td>';
+    return `<td><ul class="cmp-kr">${c.rulings.keyRulings.map(r => `<li><span class="kr-date">${r.date.replace('-', '/')}</span>${r.holding}</li>`).join('')}</ul></td>`;
+  }).join('')}</tr>`;
+  if (sel.some(c => c.rulings && c.rulings.outcome)) {
+    h += `<tr><td class="cmp-rowlabel">結果<br>Outcome</td>${sel.map(c => `<td>${(c.rulings && c.rulings.outcome) || '<span class="cmp-note">—</span>'}</td>`).join('')}</tr>`;
+  }
+  h += row('狀態 Status', sel.map(c => statusBadge(c.status)));
+  h += row('技術 Tech', sel.map(c => cmpTechLabels[c.technology] || c.technology || '—'));
+  h += row('原告類型', sel.map(c => cmpPtypeLabels[c.plaintiffType] || c.plaintiffType || '—'));
+  h += row('管轄/法院', sel.map(c => `${c.country || ''} ${c.court}`));
+  h += row('法官 Judge', sel.map(c => c.judge || '—'));
+  h += row('被告', sel.map(c => c.defendants || '—'));
+  if (common.length) {
+    h += `<tr><td class="cmp-rowlabel">共同主張</td><td colspan="${n}">${common.map(cl => `<span class="claim-tag">${cl}</span>`).join(' ')}</td></tr>`;
+  }
+  h += `<tr><td class="cmp-rowlabel">獨有主張</td>${uniq.map(u => `<td>${u.length ? u.map(cl => `<span class="claim-tag cmp-uniq">${cl}</span>`).join(' ') : '<span class="cmp-note">無</span>'}</td>`).join('')}</tr>`;
+  [['issues', '訴訟爭點'], ['progress', '目前進度'], ['taiwan', '台灣啟示']].forEach(([k, label]) => {
+    const open = cmpExpanded[k];
+    h += `<tr><td class="cmp-rowlabel"></td><td colspan="${n}" style="border-bottom:${open ? 'none' : ''};"><button class="cmp-toggle" onclick="cmpToggle('${k}')">${open ? '▾ 收合' : '▸ 展開'} ${label}並列</button></td></tr>`;
+    if (open) {
+      h += `<tr><td class="cmp-rowlabel">${label}</td>${sel.map(c => `<td style="font-size:13px;">${(c[k] || '').replace(/\n/g, '<br>')}</td>`).join('')}</tr>`;
+    }
+  });
+  h += '</table>';
+  body.innerHTML = h;
 }
 
 // ════════════════════════════════════════
