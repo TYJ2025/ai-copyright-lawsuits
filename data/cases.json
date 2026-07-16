@@ -27,7 +27,21 @@
    "sourceCount": 3,
    "docket": 70622297,
    "filedAt": null,
-   "updatedAt": null
+   "updatedAt": null,
+   "rulings": {
+    "fairUse": "unfavorable",
+    "fairUseNote": "Bibas 法官認定以 Westlaw 摘要訓練非轉化性使用；第三巡迴上訴中",
+    "keyRulings": [
+     {
+      "date": "2025-02",
+      "holding": "德拉瓦地院即決判決：訓練使用不構成合理使用，第一、四要件均不利被告"
+     },
+     {
+      "date": "2026-06",
+      "holding": "第三巡迴口頭辯論，合議庭聚焦 ROSS 是否打造 Westlaw 市場替代品"
+     }
+    ]
+   }
   },
   {
    "id": 2,
@@ -82,7 +96,21 @@
    "sourceCount": 3,
    "docket": 66732129,
    "filedAt": null,
-   "updatedAt": null
+   "updatedAt": null,
+   "rulings": {
+    "fairUse": "pending",
+    "fairUseNote": "尚未進入合理使用實質審理，審判定 2026/9/8",
+    "keyRulings": [
+     {
+      "date": "2023-10",
+      "holding": "Orrick 法官部分駁回、准予修正，保留直接侵害核心主張"
+     },
+     {
+      "date": "2024-08",
+      "holding": "駁回被告駁回動議，直接侵害、誘引與 DMCA 主張進入事證開示"
+     }
+    ]
+   }
   },
   {
    "id": 4,
@@ -134,7 +162,21 @@
    "sourceCount": 3,
    "docket": 67569326,
    "filedAt": null,
-   "updatedAt": null
+   "updatedAt": null,
+   "rulings": {
+    "fairUse": "favorable",
+    "fairUseNote": "訓練使用具高度轉化性；法官明言僅因本案原告論證失敗",
+    "keyRulings": [
+     {
+      "date": "2025-06",
+      "holding": "Chhabria 法官即決判決：以書籍訓練 LLaMA 構成合理使用"
+     },
+     {
+      "date": "2026-04",
+      "holding": "拒絕 Meta 駁回 BitTorrent seeding 貢獻侵權主張，殘餘爭點續行"
+     }
+    ]
+   }
   },
   {
    "id": 6,
@@ -158,7 +200,22 @@
    "sourceCount": 4,
    "docket": 69058235,
    "filedAt": null,
-   "updatedAt": null
+   "updatedAt": null,
+   "rulings": {
+    "fairUse": "partial",
+    "fairUseNote": "合法取得書籍訓練屬合理使用；盜版庫存留非合理使用",
+    "keyRulings": [
+     {
+      "date": "2025-06",
+      "holding": "Alsup 法官：訓練本身屬合理使用，盜版書籍來源主張保留"
+     },
+     {
+      "date": "2025-07",
+      "holding": "盜版書籍部分取得集體訴訟認證，涵蓋約 50 萬名權利人"
+     }
+    ],
+    "outcome": "15 億美元和解（美國著作權史上最高），2026/5/14 公平性聽證"
+   }
   },
   {
    "id": 7,
@@ -174,7 +231,7 @@
    ],
    "defendants": "Anthropic PBC",
    "issues": "Concord Music Group、Universal Music Corp. 等音樂出版商控告 Anthropic 的 Claude AI 聊天機器人在回應使用者詢問時，大量輸出受著作權保護的歌詞，構成著作權侵害。\n\n核心爭點：(1) AI 模型輸出歌詞是否構成直接侵害；(2) Anthropic 是否因使用者利用 Claude 生成歌詞而構成代位侵害或輔助侵害；(3) AI 公司是否有義務建立有效的著作權過濾機制。",
-   "progress": "【2025 年初期裁定】法院駁回禁止令聲請（preliminary injunction），認為範圍過廣且未能證明不可回復之損害；並准許 Anthropic 的駁回動議，但允許原告修正訴狀。\n\n【2026 年 1 月】原告提起第二件更大規模訴訟，涵蓋超過 20,000 首歌曲，求償逾 31 億美元法定損害賠償。\n\n【2026/3/25】UMG、Concord、ABKCO 提交部分即決判決動議（partial summary judgment），附 47 頁聲明列舉 218 項「不爭事實」，主張 Anthropic 侵權證據「壓倒性」，要求法院駁回合理使用抗辯。\n\n【2026/3/30】RIAA、NMPA、AAP、新聞/媒體聯盟、STM 及 Authors Guild 等提交支持原告的法庭之友簡報（amicus briefs）。\n\n【2026/4/7】原告援引最高法院 Cox Communications 判決及 Bartz v. Anthropic 解封文件，將蓄意輔助侵權（intentional contributory infringement）被告從 Anthropic 公司變更為 CEO Dario Amodei 及共同創辦人 Benjamin Mann 個人。\n\n【2026/7/15】即決判決聽證會定於舉行。本案最有可能在 2026 年獲得合理使用判決。",
+   "progress": "【2025 年初期裁定】法院駁回禁止令聲請（preliminary injunction），認為範圍過廣且未能證明不可回復之損害；並准許 Anthropic 的駁回動議，但允許原告修正訴狀。\n\n【2026 年 1 月】原告提起第二件更大規模訴訟，涵蓋超過 20,000 首歌曲，求償逾 31 億美元法定損害賠償。\n\n【2026/3/25】UMG、Concord、ABKCO 提交部分即決判決動議（partial summary judgment），附 47 頁聲明列舉 218 項「不爭事實」，主張 Anthropic 侵權證據「壓倒性」，要求法院駁回合理使用抗辯。\n\n【2026/3/30】RIAA、NMPA、AAP、新聞/媒體聯盟、STM 及 Authors Guild 等提交支持原告的法庭之友簡報（amicus briefs）。\n\n【2026/4/7】原告援引最高法院 Cox Communications 判決及 Bartz v. Anthropic 解封文件，將蓄意輔助侵權（intentional contributory infringement）被告從 Anthropic 公司變更為 CEO Dario Amodei 及共同創辦人 Benjamin Mann 個人。\n\n【2026/4/24】法院依職權將即決判決聽證改期至 2026 年 10 月 21 日。本案仍最有可能在 2026 年獲得合理使用判決。",
    "taiwan": "本案對台灣的啟示：\n\n1. 台灣的 MÜST（社團法人中華音樂著作權協會）等音樂著作權集管團體應密切關注本案發展，思考如何就 AI 輸出歌詞問題向台灣 AI 服務業者主張權利。\n2. AI 聊天機器人輸出歌詞在台灣可能構成著作權法第 92 條「公開傳輸」或第 91 條「重製」侵害。\n3. 本案凸顯的「過濾義務」問題，可與台灣著作權法第 90-4 條（ISP 責任限制）的通知取下機制類比思考——AI 平台業者是否應建立類似機制？",
    "jurisdiction": "us",
    "country": "🇺🇸 美國",
@@ -185,7 +242,21 @@
    "sourceCount": 5,
    "docket": 68889092,
    "filedAt": null,
-   "updatedAt": null
+   "updatedAt": null,
+   "rulings": {
+    "fairUse": "pending",
+    "fairUseNote": "即決判決聽證改期至 2026/10/21，最可能產出音樂訓練合理使用判決",
+    "keyRulings": [
+     {
+      "date": "2025-03",
+      "holding": "駁回禁制令聲請；准駁回動議但許原告修正訴狀"
+     },
+     {
+      "date": "2026-03",
+      "holding": "原告提部分即決判決動議，列 218 項不爭事實挑戰合理使用抗辯"
+     }
+    ]
+   }
   },
   {
    "id": 8,
@@ -239,7 +310,21 @@
    "sourceCount": 3,
    "docket": 68117049,
    "filedAt": null,
-   "updatedAt": null
+   "updatedAt": null,
+   "rulings": {
+    "fairUse": "pending",
+    "fairUseNote": "合理使用抗辯待審，事證開示階段對原告有利發展",
+    "keyRulings": [
+     {
+      "date": "2025-03",
+      "holding": "Stein 法官駁回被告駁回動議核心部分，主要主張續行"
+     },
+     {
+      "date": "2026-01",
+      "holding": "命 OpenAI 提交 2,000 萬筆匿名化對話樣本，認與市場替代分析相關"
+     }
+    ]
+   }
   },
   {
    "id": 10,
@@ -339,7 +424,21 @@
    "sourceCount": 3,
    "docket": 65669506,
    "filedAt": null,
-   "updatedAt": null
+   "updatedAt": null,
+   "rulings": {
+    "fairUse": "na",
+    "fairUseNote": "爭點為 DMCA §1202 與開源授權契約，非合理使用",
+    "keyRulings": [
+     {
+      "date": "2024-01",
+      "holding": "Tigar 法官駁回大部分主張，DMCA 主張受同一性（identicality）要件限制"
+     },
+     {
+      "date": "2026-02",
+      "holding": "第九巡迴言詞辯論，判決待決"
+     }
+    ]
+   }
   },
   {
    "id": 14,
@@ -363,7 +462,21 @@
    "sourceCount": 2,
    "docket": 68290709,
    "filedAt": null,
-   "updatedAt": null
+   "updatedAt": null,
+   "rulings": {
+    "fairUse": "na",
+    "fairUseNote": "爭點為 DMCA §1202(b) 當事人適格",
+    "keyRulings": [
+     {
+      "date": "2024-11",
+      "holding": "地院以欠缺具體損害駁回，原告無當事人適格"
+     },
+     {
+      "date": "2026-03",
+      "holding": "第二巡迴言詞辯論：CMI 主張是否須證明傳播始有適格"
+     }
+    ]
+   }
   },
   {
    "id": 15,
@@ -2488,7 +2601,21 @@
    "sourceCount": 3,
    "docket": null,
    "filedAt": null,
-   "updatedAt": null
+   "updatedAt": null,
+   "rulings": {
+    "fairUse": "na",
+    "fairUseNote": "英國法無合理使用制度，爭點為模型權重是否構成複製品",
+    "keyRulings": [
+     {
+      "date": "2025-11",
+      "holding": "高等法院：模型權重非 CDPA 複製品，次級侵權不成立；商標部分勝訴"
+     },
+     {
+      "date": "2025-12",
+      "holding": "准 Getty 就次級著作權裁定上訴"
+     }
+    ]
+   }
   },
   {
    "id": 102,
@@ -2513,7 +2640,18 @@
    "sourceCount": 3,
    "docket": null,
    "filedAt": null,
-   "updatedAt": null
+   "updatedAt": null,
+   "rulings": {
+    "fairUse": "na",
+    "fairUseNote": "適用歐盟 TDM 例外框架，非美國合理使用",
+    "keyRulings": [
+     {
+      "date": "2025-11",
+      "holding": "慕尼黑地院：歌詞記憶化構成重製，TDM 例外不適用，命停止儲存"
+     }
+    ],
+    "outcome": "OpenAI 上訴中，OLG 可能提請 CJEU 先行裁定"
+   }
   },
   {
    "id": 103,
@@ -2761,7 +2899,26 @@
    "sourceCount": 3,
    "docket": 63356475,
    "filedAt": null,
-   "updatedAt": null
+   "updatedAt": null,
+   "rulings": {
+    "fairUse": "na",
+    "fairUseNote": "爭點為 AI 生成物可著作權性，非訓練侵權",
+    "keyRulings": [
+     {
+      "date": "2023-08",
+      "holding": "D.C. 地院：AI 獨立生成作品不受著作權保護"
+     },
+     {
+      "date": "2025-03",
+      "holding": "D.C. 巡迴法院維持人類著作人要件"
+     },
+     {
+      "date": "2026-03",
+      "holding": "最高法院 deny cert，聯邦原則正式確立"
+     }
+    ],
+    "outcome": "終局確定：AI 獨立生成作品不受美國著作權保護"
+   }
   },
   {
    "id": 113,
@@ -2787,7 +2944,21 @@
    "sourceCount": 4,
    "docket": null,
    "filedAt": null,
-   "updatedAt": null
+   "updatedAt": null,
+   "rulings": {
+    "fairUse": "na",
+    "fairUseNote": "適用歐盟 TDM 科研例外",
+    "keyRulings": [
+     {
+      "date": "2024-09",
+      "holding": "漢堡地院：非營利科研機構得援引 TDM 例外"
+     },
+     {
+      "date": "2025-12",
+      "holding": "上訴駁回；純文字權利保留非機器可讀。BGH 上訴中"
+     }
+    ]
+   }
   },
   {
    "id": 114,
@@ -2865,7 +3036,18 @@
    "sourceCount": 3,
    "docket": null,
    "filedAt": null,
-   "updatedAt": null
+   "updatedAt": null,
+   "rulings": {
+    "fairUse": "na",
+    "fairUseNote": "爭點為 AI 生成圖像可著作權性",
+    "keyRulings": [
+     {
+      "date": "2023-11",
+      "holding": "北京互聯網法院：提示詞設計等智力投入使 AI 圖像具獨創性，受著作權保護"
+     }
+    ],
+    "outcome": "判決確定，列入最高人民法院年度推進法治十大提名案件"
+   }
   },
   {
    "id": 117,
@@ -2891,7 +3073,18 @@
    "sourceCount": 5,
    "docket": null,
    "filedAt": null,
-   "updatedAt": null
+   "updatedAt": null,
+   "rulings": {
+    "fairUse": "na",
+    "fairUseNote": "未就訓練階段合理使用表態，責任聚焦輸出端",
+    "keyRulings": [
+     {
+      "date": "2024-02",
+      "holding": "廣州互聯網法院：AIGC 平台輸出侵害複製權與改作權，賠人民幣 1 萬元並命關鍵詞過濾"
+     }
+    ],
+    "outcome": "一審未上訴而確定"
+   }
   },
   {
    "id": 118,
@@ -3250,7 +3443,22 @@
    "sourceCount": 6,
    "docket": null,
    "filedAt": null,
-   "updatedAt": null
+   "updatedAt": null,
+   "rulings": {
+    "fairUse": "partial",
+    "fairUseNote": "說理採審慎包容，訓練階段使用傾向轉換性；輸出端成立幫助侵權",
+    "keyRulings": [
+     {
+      "date": "2024-09",
+      "holding": "杭州互聯網法院：平台未盡注意義務構成幫助侵權，賠人民幣 3 萬元"
+     },
+     {
+      "date": "2024-12",
+      "holding": "杭州中院二審維持原判"
+     }
+    ],
+    "outcome": "二審確定"
+   }
   },
   {
    "id": 132,
