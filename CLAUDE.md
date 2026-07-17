@@ -119,6 +119,7 @@ data/*.json  +  templates/dashboard.template.html
 | `scan_case_trackers.py` | 掃 `cases/` 重產 `_index.md` |
 | `weekly_new_case_check.py` | 每週掃 CourtListener 找新立案，輸出待審清單 |
 | `add_pending.py` | 多區段合併寫 `.pending-review.json`（main-board 待審 banner 的資料源） |
+| `update_rulings.py` | 更新 cases.json 單案 `rulings` 欄位（比較功能裁定矩陣資料源；date+holding 去重，daily-brief 遇實質裁定時呼叫） |
 | `apply_decisions.py` | 消化 main-board 審核決定（`.pending-decisions.json`），見下方審核迴圈 |
 | `rejected_cases.json` | 審核退回 ledger（weekly 掃描跳過這些 URL，退回案件不重現）— apply_decisions 維護 |
 | `approved_queue.json` | 審核通過的 intake 佇列（待人工列載）— apply_decisions 維護 |
@@ -199,6 +200,27 @@ python3 scripts/scan_case_trackers.py
 - ❌ **不要在腳本開頭寫 `set -e`** 配合 `launchctl` 指令 — `launchctl list/load/unload/print` 即使成功也回非零 exit code，會誤殺後續步驟。
 - ❌ **不要刪 cases/case-NNN_*.md 而不同步更新 `cases_manifest.json`** — 兩邊會脫鉤，下次 `batch_refresh.py` 會壞掉。
 - ❌ **不要直接手改 `dashboard.html` / `index.html`**（2026-06-12 Phase 6 cutover 後它們是 build 產物）— 改資料動 `data/*.json`（快訊用 `add_news.py`）、改版面動 `templates/dashboard.template.html`，然後跑 `python3 scripts/build.py`。
+
+---
+
+## 7b. daily-brief 登入憑證（2026-06-28 新增）
+
+daily-brief 的 `claude -p` headless 呼叫**靠 CLI 憑證認證**。互動式 Claude Pro `/login` 留下的憑證**對 launchd 背景排程不穩**，會週期性過期或被登出 → brief 在第一步就 rc=1 中止、快訊靜默停更（2026/6/22~28 連續 6 天踩過：6/22~26 報 `401 Invalid authentication credentials`、6/28 報 `Not logged in · Please run /login`）。手動 `/login` 只能治標撐幾天。
+
+**根治（已套用）**：在 `~/Library/LaunchAgents/com.tyj.ai-copyright-brief.plist` 的 `EnvironmentVariables` 放長效 token：
+```
+<key>CLAUDE_CODE_OAUTH_TOKEN</key>
+<string>sk-ant-oat01-...</string>
+```
+token 用 `claude setup-token` 產生（**效期一年**，2026-06-28 設、2027-06 到期；已設 scheduled task 於 2027-06-14 提醒換發）。寫入用 PlistBuddy（首次 `Add`、續期 `Set`）：
+```bash
+/usr/libexec/PlistBuddy -c "Set :EnvironmentVariables:CLAUDE_CODE_OAUTH_TOKEN 新TOKEN" ~/Library/LaunchAgents/com.tyj.ai-copyright-brief.plist
+launchctl bootout gui/$(id -u)/com.tyj.ai-copyright-brief 2>/dev/null
+launchctl bootstrap gui/$(id -u) ~/Library/LaunchAgents/com.tyj.ai-copyright-brief.plist
+launchctl kickstart -k gui/$(id -u)/com.tyj.ai-copyright-brief
+```
+
+**排錯口訣**：「快訊沒更新」先 `tail .daily-brief.log`。看到 `Not logged in` 或 `401` → 憑證問題（換 token），**不是腳本邏輯壞掉**，別瞎改 script。
 
 ---
 
