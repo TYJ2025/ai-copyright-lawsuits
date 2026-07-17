@@ -125,6 +125,31 @@ python3 scripts/add_pending.py --section timeline --label "時間軸候選" \
 - <事件> | <日期> | <為何屬里程碑>
 ```
 
+## 裁定矩陣維護（rulings 欄位）— 2026/7 新增
+
+`data/cases.json` 中約 15 件核心案件有 `rulings` 結構化欄位（合理使用認定、關鍵裁定、結果），供 dashboard 比較功能的裁定矩陣使用。當日新聞若屬**實質裁定**（即決判決、上訴審判決、終局判決、和解最終核准、集體訴訟認證），且該案已存在於 cases.json：
+
+1. 用 `scripts/update_rulings.py` 追加關鍵裁定（以 date+holding 自動去重，重跑無害）：
+
+```
+python3 scripts/update_rulings.py --case-id <N> \
+  --add-ruling "YYYY-MM|一句話 holding（法院＋結論）"
+```
+
+2. 僅當裁判**明確就合理使用（或歐盟 TDM 例外）表態**時，才一併更新認定欄位：
+   - `--fair-use favorable`（AI 方合理使用成立）/ `unfavorable`（不成立）/ `partial`（部分成立）
+   - 非合理使用爭點之案件（DMCA、可著作權性、TDM 等）用 `na`，並以 `--fair-use-note` 一句話說明爭點
+3. 終局結果（和解金額、判決確定）用 `--outcome` 一句話記錄。
+4. 程序性動態（排程變更、書狀提交、言詞辯論排定）**不寫入** rulings，維持里程碑等級。
+5. 拿不準是否構成實質裁定時：只加 keyRuling、不動 fairUse，並於輸出註明供人工覆核。
+
+最終輸出加一段（若無則省略）：
+
+```
+⚖ 裁定矩陣已更新：
+- case <N> <案件名> | <新增內容一句話>
+```
+
 ## 成功標準
 - 有新動態時透過 `add_news.py` 新增條目（含 `addedAt`），且不重複
 - 條目歸檔（>3 天 items → archive）由 `add_news.py` 自動處理，無需另外操作
