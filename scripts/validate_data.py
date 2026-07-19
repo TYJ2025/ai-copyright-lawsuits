@@ -40,7 +40,7 @@ FORMALIZED_FIELDS = ["jurisdiction", "country", "technology", "plaintiffType",
 STATUS_ENUM = {"active", "decided", "settled", "appeal", "dismissed", "mdl"}
 JURISDICTION_ENUM = {"us", "uk", "eu", "cn", "asia-other", "other"}
 TECH_ENUM = {"llm", "music", "image", "code", "video", "search"}
-PLAINTIFF_ENUM = {"author", "music", "artist", "media", "code", "creator", "reference"}
+PLAINTIFF_ENUM = {"author", "music", "artist", "media", "code", "creator", "reference", "shareholder"}
 
 ALL_DATA_FILES = ["cases.json", "case_sources.json", "fair_use_cases.json",
                   "official_reports.json", "news.json", "timeline.json", "_meta.json"]
