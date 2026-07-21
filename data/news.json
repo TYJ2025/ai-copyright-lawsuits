@@ -6,19 +6,21 @@
   "data": {
     "items": [
       {
-        "addedAt": "2026-07-17",
-        "text": "【2026/7/16】J.S. Held 發布《2026 Q2 AI Disputes Monitor》產業報告：Q2（4-6 月）全球新增 42 件 AI 相關訴訟、季增 35%，著作權與內容創作者爭議仍居各類型訴訟之首，反映生成式 AI 訓練資料著作權爭訟量持續攀升",
-        "url": "https://www.manilatimes.net/2026/07/16/tmt-newswire/pr-newswire/copyright-cases-dominate-as-regulatory-and-product-liability-challenges-emerge-in-the-q2-2026-js-held-ai-disputes-monitor/2385510/amp"
+        "addedAt": "2026-07-22",
+        "text": "【2026/7/20】Sony Music v. Uncharted Labs (Udio) 追加提告：未跟進和解，另求償上看 45 億美元（S.D.N.Y.）：UMG、Warner Music 皆已與 Udio 達成和解暨授權合作，Sony Music 反於 7/20 另案對 Udio 提起新訴，指控其未經授權複製 30,117 首錄音供 AI 訓練，依法定賠償上限計算求償上看 US$45 億，成三大唱片公司中唯一持續對 Udio 興訟者",
+        "url": "https://www.unite.ai/sony-music-escalates-copyright-fight-with-second-udio-suit/"
       },
       {
-        "addedAt": "2026-07-16",
-        "text": "【2026/6/30】UMG/Sony v. Suno（D. Mass. 1:24-cv-11611）排程再延：事實開示延至 9/30、即決判決動議延至 2027/4/9：Chief Judge F. Dennis Saylor IV 6/30 核發修正排程令，將 fact discovery 截止日訂為 2026/9/30、dispositive motions 截止日延至 2027/4/9，較先前（2026/3 修正後）預估之 2027/1/8 即決判決期程再度後延；顯示原界「2026 夏季可能出現合理使用實體裁定」預期已不成立，唱片公司同期仍併行主張追加 61,026 件錄音之修正起訴狀動議尚未獲裁定",
-        "url": "https://www.chartlex.com/blog/business/music-industry-ai-lawsuits-tracker-2026"
-      },
+        "addedAt": "2026-07-22",
+        "text": "【2026/7/20】Bartz v. Anthropic 和解案獲法院終局核准（N.D. Cal. 3:24-cv-05417）：Martínez-Olguín 法官正式核准 15 億美元著作權集體和解——美國史上最大著作權集體和解定案，逾 50 萬件作品每件約 3,000 美元；律師費自請求之 1.875 億美元砍至約 1.016 億美元；因採和解結案未上訴，Alsup 前法官原「訓練屬合理使用」之地院裁定不會成為具拘束力之上級審先例，僅維持既有效力",
+        "url": "https://techcrunch.com/2026/07/20/anthropics-landmark-1-5b-copyright-settlement-is-approved/"
+      }
+    ],
+    "archive": [
       {
-        "addedAt": "2026-07-16",
-        "text": "【2026/4/24】Concord Music v. Anthropic I 更正：7/15 即決判決聽證未如期召開，4 月已改期至 10/21：Judge Eumi K. Lee 早於 2026/4/24 依職權裁定 90 天 stay（因原告撤回 secondary liability 求償、需與 Concord II 及 BMG v. Anthropic 協調進度），同步將原訂 7/15 之部分即決判決聽證改期至 2026/10/21；本站此前 7/2 快訊預告之 7/15 聽證實際未舉行，特此更正，裁定結果預估最快年底或延至 2027 年初",
-        "url": "https://chatgptiseatingtheworld.com/2026/04/27/judge-lee-stays-concord-music-v-anthropic-i-90-days-summary-judgment-hearing-moved-from-july-to-oct-21/"
+        "addedAt": "2026-07-15",
+        "text": "【2026/7/10】Hachette Book Group 等出版商 v. Google（S.D.N.Y. 1:26-cv-05870）：Hachette、Cengage、Elsevier 等出版商及作家 Scott Turow 對 Google 提告，指控 Google Books／Google Play 書籍資料未經授權用於訓練 Gemini AI 模型，並主張 Google 蓄意移除或竄改著作權管理資訊（CMI）以掩蓋訓練來源，內部文件據稱曾示警恐面臨鉅額法定賠償風險；本案為出版商繼 5/5 對 Meta／Zuckerberg 個人提告後再對 Google 開闢新戰線，法官尚未分派",
+        "url": "https://techcrunch.com/2026/07/14/google-faces-another-ai-training-lawsuit-from-major-publishers/"
       },
       {
         "addedAt": "2026-07-15",
@@ -26,12 +28,20 @@
         "url": "https://www.law360.com/technology/articles/2497694"
       },
       {
-        "addedAt": "2026-07-15",
-        "text": "【2026/7/10】Hachette Book Group 等出版商 v. Google（S.D.N.Y. 1:26-cv-05870）：Hachette、Cengage、Elsevier 等出版商及作家 Scott Turow 對 Google 提告，指控 Google Books／Google Play 書籍資料未經授權用於訓練 Gemini AI 模型，並主張 Google 蓄意移除或竄改著作權管理資訊（CMI）以掩蓋訓練來源，內部文件據稱曾示警恐面臨鉅額法定賠償風險；本案為出版商繼 5/5 對 Meta／Zuckerberg 個人提告後再對 Google 開闢新戰線，法官尚未分派",
-        "url": "https://techcrunch.com/2026/07/14/google-faces-another-ai-training-lawsuit-from-major-publishers/"
-      }
-    ],
-    "archive": [
+        "addedAt": "2026-07-16",
+        "text": "【2026/4/24】Concord Music v. Anthropic I 更正：7/15 即決判決聽證未如期召開，4 月已改期至 10/21：Judge Eumi K. Lee 早於 2026/4/24 依職權裁定 90 天 stay（因原告撤回 secondary liability 求償、需與 Concord II 及 BMG v. Anthropic 協調進度），同步將原訂 7/15 之部分即決判決聽證改期至 2026/10/21；本站此前 7/2 快訊預告之 7/15 聽證實際未舉行，特此更正，裁定結果預估最快年底或延至 2027 年初",
+        "url": "https://chatgptiseatingtheworld.com/2026/04/27/judge-lee-stays-concord-music-v-anthropic-i-90-days-summary-judgment-hearing-moved-from-july-to-oct-21/"
+      },
+      {
+        "addedAt": "2026-07-16",
+        "text": "【2026/6/30】UMG/Sony v. Suno（D. Mass. 1:24-cv-11611）排程再延：事實開示延至 9/30、即決判決動議延至 2027/4/9：Chief Judge F. Dennis Saylor IV 6/30 核發修正排程令，將 fact discovery 截止日訂為 2026/9/30、dispositive motions 截止日延至 2027/4/9，較先前（2026/3 修正後）預估之 2027/1/8 即決判決期程再度後延；顯示原界「2026 夏季可能出現合理使用實體裁定」預期已不成立，唱片公司同期仍併行主張追加 61,026 件錄音之修正起訴狀動議尚未獲裁定",
+        "url": "https://www.chartlex.com/blog/business/music-industry-ai-lawsuits-tracker-2026"
+      },
+      {
+        "addedAt": "2026-07-17",
+        "text": "【2026/7/16】J.S. Held 發布《2026 Q2 AI Disputes Monitor》產業報告：Q2（4-6 月）全球新增 42 件 AI 相關訴訟、季增 35%，著作權與內容創作者爭議仍居各類型訴訟之首，反映生成式 AI 訓練資料著作權爭訟量持續攀升",
+        "url": "https://www.manilatimes.net/2026/07/16/tmt-newswire/pr-newswire/copyright-cases-dominate-as-regulatory-and-product-liability-challenges-emerge-in-the-q2-2026-js-held-ai-disputes-monitor/2385510/amp"
+      },
       {
         "addedAt": "2026-07-08",
         "text": "【2026/3/27】ANI Media Pvt Ltd v. OpenAI（Delhi HC）印度首件 AI 著作權案辯論終結、法院保留裁定中：印度新聞通訊社 ANI 2024/11 對 OpenAI 提起訴訟，主張 OpenAI 未授權爬取並用 ANI 新聞文章訓練 ChatGPT，違反印度著作權法（Copyright Act 1957）Section 52 fair dealing 邊界；德里高等法院（Justice Amit Bansal）歷經 32 次庭審後於 3/27 雙方完成最終陳述後保留裁定（judgment reserved），判決宣示日期未定——法院需就四核心爭點裁示：（一）儲存訓練資料是否侵害著作權、（二）生成回應是否侵害著作權、（三）德里法院是否具對 OpenAI 之管轄權（OpenAI 以伺服器不在印度主張無管轄）、（四）合理使用例外是否適用；本案與美、英、德、中、加共構「全球 AI 著作權六大法域各自為政」格局，待決裁定將成印度 AI 訓練著作權法律框架第一件實質司法先例",
@@ -315,5 +325,5 @@
     ]
   },
   "lastUpdatedBy": "add_news.py",
-  "lastUpdatedAt": "2026-07-17T07:10:35.823145+08:00"
+  "lastUpdatedAt": "2026-07-22T07:10:15.346052+08:00"
 }
