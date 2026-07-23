@@ -6,6 +6,11 @@
   "data": {
     "items": [
       {
+        "addedAt": "2026-07-24",
+        "text": "【2026/7/22】Concord Music v. Anthropic I（N.D. Cal. 5:24-cv-03811）音樂出版商提出第二次修正訴狀：援引證據開示所得 Anthropic 內部紀錄，指控共同創辦人曾主動查詢特定歌曲歌詞、疑似使用工具移除著作權管理資訊；訴狀稱 2023 年 9 月某 9 天內 Claude 紀錄中「lyric」一詞出現逾 17 萬次，續行 7/15 即決判決攻防後再添新一波內部證據壓力",
+        "url": "https://www.musicbusinessworldwide.com/music-publishers-file-amended-lyrics-lawsuit-against-anthropic-just-as-ai-firms-separate-1-5b-piracy-settlement-with-authors-wins-court-approval/"
+      },
+      {
         "addedAt": "2026-07-23",
         "text": "【2026/7/21】AFM v. UMG / Warner Music Group（S.D.N.Y.）樂手工會反駁撤銷之訴：美國音樂家聯合會（AFM）就 UMG、WMG 撤銷之訴聲請提出反對書狀，主張兩大唱片公司與 Suno、Udio 之 AI 授權和解已觸發集體談判協議（Sound Recording Labor Agreement）第 21(a) 條「新用途」條款，須對授權供 AI 訓練錄音之樂手給付報酬；UMG 反主張該條款僅為既有費率轉換條款、非開放式權利金條款；本案續行 6/5 AFM 對唱片公司提告主軸，攻防聚焦 CBA「new use」條款是否涵蓋 AI 訓練授權收入",
         "url": "https://www.digitalmusicnews.com/2026/07/21/afm-umg-wmg-lawsuit-dismissal-arguments/"
@@ -335,5 +340,5 @@
     ]
   },
   "lastUpdatedBy": "add_news.py",
-  "lastUpdatedAt": "2026-07-23T07:11:17.342445+08:00"
+  "lastUpdatedAt": "2026-07-24T07:09:58.115307+08:00"
 }
