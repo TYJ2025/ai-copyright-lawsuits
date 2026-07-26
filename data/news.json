@@ -6,19 +6,16 @@
   "data": {
     "items": [
       {
-        "addedAt": "2026-07-24",
-        "text": "【2026/7/22】Concord Music v. Anthropic I（N.D. Cal. 5:24-cv-03811）音樂出版商提出第二次修正訴狀：援引證據開示所得 Anthropic 內部紀錄，指控共同創辦人曾主動查詢特定歌曲歌詞、疑似使用工具移除著作權管理資訊；訴狀稱 2023 年 9 月某 9 天內 Claude 紀錄中「lyric」一詞出現逾 17 萬次，續行 7/15 即決判決攻防後再添新一波內部證據壓力",
-        "url": "https://www.musicbusinessworldwide.com/music-publishers-file-amended-lyrics-lawsuit-against-anthropic-just-as-ai-firms-separate-1-5b-piracy-settlement-with-authors-wins-court-approval/"
-      },
+        "addedAt": "2026-07-27",
+        "text": "【2026/7/24】ANI Media v. OpenAI（德里高等法院，CS(COMM) 1028/2024）駁回暫時禁制令、認定 AI 訓練屬合理使用：Amit Bansal 法官裁定 OpenAI 以受著作權保護內容訓練 ChatGPT 符合印度著作權法第 52 條 fair dealing，且生成內容與 ANI 原文不構成實質近似；為印度首件就生成式 AI 訓練著作權爭議作成實體判斷之判決，屬 prima facie／interim 階段認定，非終局判決",
+        "url": "https://www.business-standard.com/industry/news/openai-use-of-ani-data-doesn-t-amount-to-infringement-says-delhi-hc-126072400913_1.html"
+      }
+    ],
+    "archive": [
       {
-        "addedAt": "2026-07-23",
-        "text": "【2026/7/21】AFM v. UMG / Warner Music Group（S.D.N.Y.）樂手工會反駁撤銷之訴：美國音樂家聯合會（AFM）就 UMG、WMG 撤銷之訴聲請提出反對書狀，主張兩大唱片公司與 Suno、Udio 之 AI 授權和解已觸發集體談判協議（Sound Recording Labor Agreement）第 21(a) 條「新用途」條款，須對授權供 AI 訓練錄音之樂手給付報酬；UMG 反主張該條款僅為既有費率轉換條款、非開放式權利金條款；本案續行 6/5 AFM 對唱片公司提告主軸，攻防聚焦 CBA「new use」條款是否涵蓋 AI 訓練授權收入",
-        "url": "https://www.digitalmusicnews.com/2026/07/21/afm-umg-wmg-lawsuit-dismissal-arguments/"
-      },
-      {
-        "addedAt": "2026-07-23",
-        "text": "【2026/7/21】Disney/Warner Bros. v. Midjourney（C.D. Cal.）Midjourney 聲請即決判決反制著作權主張：Midjourney 7/21 向加州中區聯邦地院提出即決判決聲請，主張依既有判例僅因部分使用者利用其服務生成侵權內容、線上服務提供者不當然負間接侵權責任，並指 Disney、Warner Bros 就「引誘侵權」（inducement）主張未能舉證「積極鼓勵他人侵權」之必要要件，請求逕行駁回兩片廠著作權侵權請求；續 7 月初 discovery 攻防後，Midjourney 首度正面挑戰兩片廠侵權主張成立要件",
-        "url": "https://www.mlex.com/mlex/artificial-intelligence/articles/2504374/midjourney-moves-for-judgment-against-disney-warner-s-us-copyright-claims"
+        "addedAt": "2026-07-22",
+        "text": "【2026/7/20】Bartz v. Anthropic 和解案獲法院終局核准（N.D. Cal. 3:24-cv-05417）：Martínez-Olguín 法官正式核准 15 億美元著作權集體和解——美國史上最大著作權集體和解定案，逾 50 萬件作品每件約 3,000 美元；律師費自請求之 1.875 億美元砍至約 1.016 億美元；因採和解結案未上訴，Alsup 前法官原「訓練屬合理使用」之地院裁定不會成為具拘束力之上級審先例，僅維持既有效力",
+        "url": "https://techcrunch.com/2026/07/20/anthropics-landmark-1-5b-copyright-settlement-is-approved/"
       },
       {
         "addedAt": "2026-07-22",
@@ -26,12 +23,20 @@
         "url": "https://www.unite.ai/sony-music-escalates-copyright-fight-with-second-udio-suit/"
       },
       {
-        "addedAt": "2026-07-22",
-        "text": "【2026/7/20】Bartz v. Anthropic 和解案獲法院終局核准（N.D. Cal. 3:24-cv-05417）：Martínez-Olguín 法官正式核准 15 億美元著作權集體和解——美國史上最大著作權集體和解定案，逾 50 萬件作品每件約 3,000 美元；律師費自請求之 1.875 億美元砍至約 1.016 億美元；因採和解結案未上訴，Alsup 前法官原「訓練屬合理使用」之地院裁定不會成為具拘束力之上級審先例，僅維持既有效力",
-        "url": "https://techcrunch.com/2026/07/20/anthropics-landmark-1-5b-copyright-settlement-is-approved/"
-      }
-    ],
-    "archive": [
+        "addedAt": "2026-07-23",
+        "text": "【2026/7/21】Disney/Warner Bros. v. Midjourney（C.D. Cal.）Midjourney 聲請即決判決反制著作權主張：Midjourney 7/21 向加州中區聯邦地院提出即決判決聲請，主張依既有判例僅因部分使用者利用其服務生成侵權內容、線上服務提供者不當然負間接侵權責任，並指 Disney、Warner Bros 就「引誘侵權」（inducement）主張未能舉證「積極鼓勵他人侵權」之必要要件，請求逕行駁回兩片廠著作權侵權請求；續 7 月初 discovery 攻防後，Midjourney 首度正面挑戰兩片廠侵權主張成立要件",
+        "url": "https://www.mlex.com/mlex/artificial-intelligence/articles/2504374/midjourney-moves-for-judgment-against-disney-warner-s-us-copyright-claims"
+      },
+      {
+        "addedAt": "2026-07-23",
+        "text": "【2026/7/21】AFM v. UMG / Warner Music Group（S.D.N.Y.）樂手工會反駁撤銷之訴：美國音樂家聯合會（AFM）就 UMG、WMG 撤銷之訴聲請提出反對書狀，主張兩大唱片公司與 Suno、Udio 之 AI 授權和解已觸發集體談判協議（Sound Recording Labor Agreement）第 21(a) 條「新用途」條款，須對授權供 AI 訓練錄音之樂手給付報酬；UMG 反主張該條款僅為既有費率轉換條款、非開放式權利金條款；本案續行 6/5 AFM 對唱片公司提告主軸，攻防聚焦 CBA「new use」條款是否涵蓋 AI 訓練授權收入",
+        "url": "https://www.digitalmusicnews.com/2026/07/21/afm-umg-wmg-lawsuit-dismissal-arguments/"
+      },
+      {
+        "addedAt": "2026-07-24",
+        "text": "【2026/7/22】Concord Music v. Anthropic I（N.D. Cal. 5:24-cv-03811）音樂出版商提出第二次修正訴狀：援引證據開示所得 Anthropic 內部紀錄，指控共同創辦人曾主動查詢特定歌曲歌詞、疑似使用工具移除著作權管理資訊；訴狀稱 2023 年 9 月某 9 天內 Claude 紀錄中「lyric」一詞出現逾 17 萬次，續行 7/15 即決判決攻防後再添新一波內部證據壓力",
+        "url": "https://www.musicbusinessworldwide.com/music-publishers-file-amended-lyrics-lawsuit-against-anthropic-just-as-ai-firms-separate-1-5b-piracy-settlement-with-authors-wins-court-approval/"
+      },
       {
         "addedAt": "2026-07-15",
         "text": "【2026/7/10】Hachette Book Group 等出版商 v. Google（S.D.N.Y. 1:26-cv-05870）：Hachette、Cengage、Elsevier 等出版商及作家 Scott Turow 對 Google 提告，指控 Google Books／Google Play 書籍資料未經授權用於訓練 Gemini AI 模型，並主張 Google 蓄意移除或竄改著作權管理資訊（CMI）以掩蓋訓練來源，內部文件據稱曾示警恐面臨鉅額法定賠償風險；本案為出版商繼 5/5 對 Meta／Zuckerberg 個人提告後再對 Google 開闢新戰線，法官尚未分派",
@@ -340,5 +345,5 @@
     ]
   },
   "lastUpdatedBy": "add_news.py",
-  "lastUpdatedAt": "2026-07-24T07:09:58.115307+08:00"
+  "lastUpdatedAt": "2026-07-27T07:11:47.318599+08:00"
 }
