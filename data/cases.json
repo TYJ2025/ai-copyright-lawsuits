@@ -2830,7 +2830,18 @@
    "sourceCount": 3,
    "docket": null,
    "filedAt": null,
-   "updatedAt": null
+   "updatedAt": null,
+   "rulings": {
+    "fairUse": "unfavorable",
+    "keyRulings": [
+     {
+      "date": "2026-07",
+      "holding": "慕尼黑第一地方法院認定 Suno 訓練並重製 GEMA 代管 6 首歌曲侵害美德著作權，命揭露不法收益、賠償金額待定（可上訴）"
+     }
+    ],
+    "fairUseNote": "德國法院認定訓練與儲存重製構成侵權，非美式 fair use 而屬德國著作權法／TDM 例外不適用之認定",
+    "outcome": "一審敗訴，賠償金額待後續程序確定；Suno 表示考慮上訴"
+   }
   },
   {
    "id": 110,
