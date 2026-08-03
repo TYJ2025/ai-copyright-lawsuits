@@ -2810,16 +2810,16 @@
   {
    "id": 109,
    "name": "GEMA v. Suno AI",
-   "court": "德國法院 (German Court, TBA)",
-   "judge": "TBA",
-   "status": "active",
+   "court": "德國慕尼黑第一地方法院 (LG München I, 42. Zivilkammer)",
+   "judge": "42nd Civil Chamber（第 42 民事庭）",
+   "status": "decided",
    "claims": [
     "Copyright Infringement (German UrhG)",
     "Music Rights"
    ],
    "defendants": "Suno AI, Inc.",
    "issues": "德國音樂著作權集體管理協會 GEMA，在對 OpenAI 取得里程碑勝訴後（2025 年 11 月慕尼黑案），擴大其訴訟策略以直接針對 AI 音樂生成工具。GEMA 控告美國企業 Suno AI 使用授權音樂作品訓練其 AI 模型，未取得 GEMA 或其會員所需的授權。本案考驗 GEMA v. OpenAI 先例中關於記憶化與重製的裁定是否延伸至 AI 音樂生成工具。\n\n音樂 AI 生成與記憶化：模型內的音樂參數是否可用於重現受保護作品的實質部分？",
-   "progress": "案件於 2026 年提起，目前處於早期訴訟程序階段。預期判決將於 2026 年晚期作出。判決結果將受先前 GEMA v. OpenAI 慕尼黑案判決的影響，該案認定即使是統計參數儲存，如果作品後續可被感知，亦構成重製。若 GEMA 勝訴，將創造雙重先例：涵蓋文本型（ChatGPT）及音樂型 AI 生成工具在德國法下的重製責任。",
+   "progress": "【2026/7/31】慕尼黑第一地方法院第 42 民事庭作出一審判決，GEMA 勝訴。法院認定 Suno 以受 GEMA 管理之音樂作品訓練其生成模型並於歐洲儲存重製，就系爭 6 首歌曲（含 Rasputin、Daddy Cool 等）構成德國著作權法下之重製與改作侵害；訓練行為雖發生於美國，惟輸出與儲存及於德國，德國法院有管轄權且德國法適用。法院命 Suno 停止侵害、揭露不法收益，賠償金額待後續程序確定。本判決為 GEMA 繼 2025/11 GEMA v. OpenAI 後第二次對生成式 AI 業者勝訴，亦為歐洲首件針對 AI 音樂生成之著作權判決，確立 GEMA v. OpenAI 關於「模型參數化儲存亦構成重製」之見解延伸適用於音樂生成模型。Suno 表示考慮上訴，判決尚未確定。",
    "taiwan": "1) 台灣的音樂著作權集體管理協會（MÜST 主掌公開演出、TMCS 主掌機械重製）應研習本案以供對在台灣營運的 AI 音樂生成工具提起訴訟之策略參考。2) AI 生成音樂已在台灣商業使用，造成《台灣著作權法》下潛在侵權問題。3) 本案可影響 APEC 經濟體在平衡 AI 創新與音樂權利保護方面的途徑。",
    "jurisdiction": "eu",
    "country": "🇩🇪 德國",
@@ -2830,7 +2830,7 @@
    "sourceCount": 3,
    "docket": null,
    "filedAt": null,
-   "updatedAt": null,
+   "updatedAt": "2026-08-01",
    "rulings": {
     "fairUse": "unfavorable",
     "keyRulings": [

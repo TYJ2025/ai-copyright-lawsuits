@@ -287,10 +287,22 @@
     background: var(--white);
     border: 1px solid var(--border);
     border-radius: 6px;
-    cursor: pointer;
+    cursor: default;
     transition: all 0.2s;
   }
-  .tl-item:hover { border-color: var(--gold); transform: translateX(4px); }
+  .tl-item.tl-linked { cursor: pointer; }
+  .tl-item.tl-linked:hover { border-color: var(--gold); transform: translateX(4px); }
+  .tl-item.tl-linked:focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; }
+  .tl-linkhint {
+    display: inline-block;
+    margin-top: 8px;
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--gold);
+    opacity: 0.75;
+    transition: opacity 0.2s;
+  }
+  .tl-item.tl-linked:hover .tl-linkhint { opacity: 1; }
   .tl-item::before {
     content: '';
     position: absolute;
@@ -1919,7 +1931,7 @@
 </div>
 
 <footer>
-  &copy; 2026 AI Copyright Litigation Tracker &mdash; 案件資料來源：美國聯邦法院公開紀錄、CourtListener   每日快訊最近更新: 2026-08-01
+  &copy; 2026 AI Copyright Litigation Tracker &mdash; 案件資料來源：美國聯邦法院公開紀錄、CourtListener   每日快訊最近更新: 2026-08-03
 </footer>
 
 <script>
@@ -6243,16 +6255,16 @@ const cases = [
   {
     "id": 109,
     "name": "GEMA v. Suno AI",
-    "court": "德國法院 (German Court, TBA)",
-    "judge": "TBA",
-    "status": "active",
+    "court": "德國慕尼黑第一地方法院 (LG München I, 42. Zivilkammer)",
+    "judge": "42nd Civil Chamber（第 42 民事庭）",
+    "status": "decided",
     "claims": [
       "Copyright Infringement (German UrhG)",
       "Music Rights"
     ],
     "defendants": "Suno AI, Inc.",
     "issues": "德國音樂著作權集體管理協會 GEMA，在對 OpenAI 取得里程碑勝訴後（2025 年 11 月慕尼黑案），擴大其訴訟策略以直接針對 AI 音樂生成工具。GEMA 控告美國企業 Suno AI 使用授權音樂作品訓練其 AI 模型，未取得 GEMA 或其會員所需的授權。本案考驗 GEMA v. OpenAI 先例中關於記憶化與重製的裁定是否延伸至 AI 音樂生成工具。\n\n音樂 AI 生成與記憶化：模型內的音樂參數是否可用於重現受保護作品的實質部分？",
-    "progress": "案件於 2026 年提起，目前處於早期訴訟程序階段。預期判決將於 2026 年晚期作出。判決結果將受先前 GEMA v. OpenAI 慕尼黑案判決的影響，該案認定即使是統計參數儲存，如果作品後續可被感知，亦構成重製。若 GEMA 勝訴，將創造雙重先例：涵蓋文本型（ChatGPT）及音樂型 AI 生成工具在德國法下的重製責任。",
+    "progress": "【2026/7/31】慕尼黑第一地方法院第 42 民事庭作出一審判決，GEMA 勝訴。法院認定 Suno 以受 GEMA 管理之音樂作品訓練其生成模型並於歐洲儲存重製，就系爭 6 首歌曲（含 Rasputin、Daddy Cool 等）構成德國著作權法下之重製與改作侵害；訓練行為雖發生於美國，惟輸出與儲存及於德國，德國法院有管轄權且德國法適用。法院命 Suno 停止侵害、揭露不法收益，賠償金額待後續程序確定。本判決為 GEMA 繼 2025/11 GEMA v. OpenAI 後第二次對生成式 AI 業者勝訴，亦為歐洲首件針對 AI 音樂生成之著作權判決，確立 GEMA v. OpenAI 關於「模型參數化儲存亦構成重製」之見解延伸適用於音樂生成模型。Suno 表示考慮上訴，判決尚未確定。",
     "taiwan": "1) 台灣的音樂著作權集體管理協會（MÜST 主掌公開演出、TMCS 主掌機械重製）應研習本案以供對在台灣營運的 AI 音樂生成工具提起訴訟之策略參考。2) AI 生成音樂已在台灣商業使用，造成《台灣著作權法》下潛在侵權問題。3) 本案可影響 APEC 經濟體在平衡 AI 創新與音樂權利保護方面的途徑。",
     "jurisdiction": "eu",
     "country": "🇩🇪 德國",
@@ -6263,7 +6275,7 @@ const cases = [
     "sourceCount": 3,
     "docket": null,
     "filedAt": null,
-    "updatedAt": null,
+    "updatedAt": "2026-08-01",
     "rulings": {
       "fairUse": "unfavorable",
       "keyRulings": [
@@ -9535,145 +9547,169 @@ const timelineEvents = [
     "date": "2020-05",
     "title": "Thomson Reuters v. ROSS Intelligence",
     "type": "filing",
-    "desc": "Thomson Reuters 於德拉瓦聯邦地院（D. Del.）對 ROSS Intelligence 提起訴訟——全球首件 AI 訓練資料著作權訴訟，主張以 Westlaw 法律摘要（headnotes）訓練 AI 法律搜尋引擎構成侵權"
+    "desc": "Thomson Reuters 於德拉瓦聯邦地院（D. Del.）對 ROSS Intelligence 提起訴訟——全球首件 AI 訓練資料著作權訴訟，主張以 Westlaw 法律摘要（headnotes）訓練 AI 法律搜尋引擎構成侵權",
+    "caseId": 1
   },
   {
     "date": "2022-11",
     "title": "Doe v. GitHub (Copilot)",
     "type": "filing",
-    "desc": "程式設計師於加州北區對 GitHub、Microsoft、OpenAI 提起集體訴訟，主張 Copilot AI 程式碼生成工具侵害開源授權條款（2022 年唯一一件 AI 著作權集體訴訟）"
+    "desc": "程式設計師於加州北區對 GitHub、Microsoft、OpenAI 提起集體訴訟，主張 Copilot AI 程式碼生成工具侵害開源授權條款（2022 年唯一一件 AI 著作權集體訴訟）",
+    "caseId": 13
   },
   {
     "date": "2023-01",
     "title": "Andersen v. Stability AI",
     "type": "filing",
-    "desc": "三位藝術家於加州北區對 Stability AI、Midjourney、DeviantArt 提起集體訴訟——AI 圖像生成著作權訴訟第一槍"
+    "desc": "三位藝術家於加州北區對 Stability AI、Midjourney、DeviantArt 提起集體訴訟——AI 圖像生成著作權訴訟第一槍",
+    "caseId": 3
   },
   {
     "date": "2023-01",
     "title": "Getty Images v. Stability AI (UK)",
     "type": "filing",
-    "desc": "Getty Images 在英國高等法院提起訴訟，主張 Stable Diffusion 未經授權使用數百萬張照片訓練"
+    "desc": "Getty Images 在英國高等法院提起訴訟，主張 Stable Diffusion 未經授權使用數百萬張照片訓練",
+    "caseId": 101
   },
   {
     "date": "2023-02",
     "title": "Getty Images v. Stability AI (US)",
     "type": "filing",
-    "desc": "Getty Images 於德拉瓦聯邦地院提起美國平行訴訟——主張著作權、商標及 DMCA §1202 侵害"
+    "desc": "Getty Images 於德拉瓦聯邦地院提起美國平行訴訟——主張著作權、商標及 DMCA §1202 侵害",
+    "caseId": 2
   },
   {
     "date": "2023-07",
     "title": "Silverman v. OpenAI",
     "type": "filing",
-    "desc": "Sarah Silverman 等作家於加州北區對 OpenAI 提起訴訟，揭開作家對 LLM 訓練使用書籍的大規模訴訟浪潮"
+    "desc": "Sarah Silverman 等作家於加州北區對 OpenAI 提起訴訟，揭開作家對 LLM 訓練使用書籍的大規模訴訟浪潮",
+    "caseId": 10
   },
   {
     "date": "2023-08",
     "title": "Thaler v. Perlmutter — 地院判決",
     "type": "ruling",
-    "desc": "D.C. 聯邦地院 Howell 法官裁定 AI 獨立生成作品不享有著作權保護——確立「人類著作人」要件"
+    "desc": "D.C. 聯邦地院 Howell 法官裁定 AI 獨立生成作品不享有著作權保護——確立「人類著作人」要件",
+    "caseId": 112
   },
   {
     "date": "2023-09",
     "title": "Authors Guild v. OpenAI",
     "type": "filing",
-    "desc": "Authors Guild 聯合 John Grisham、George R.R. Martin 等知名作家於南紐約地院對 OpenAI 提起集體訴訟"
+    "desc": "Authors Guild 聯合 John Grisham、George R.R. Martin 等知名作家於南紐約地院對 OpenAI 提起集體訴訟",
+    "caseId": 8
   },
   {
     "date": "2023-10",
     "title": "Concord Music v. Anthropic",
     "type": "filing",
-    "desc": "音樂出版商於田納西中區對 Anthropic 提起訴訟——首起針對 AI 歌詞輸出的著作權訴訟"
+    "desc": "音樂出版商於田納西中區對 Anthropic 提起訴訟——首起針對 AI 歌詞輸出的著作權訴訟",
+    "caseId": 7
   },
   {
     "date": "2023-10",
     "title": "Andersen v. Stability AI — 部分駁回",
     "type": "ruling",
-    "desc": "Orrick 法官駁回部分訴訟主張但准予修正訴狀，保留直接著作權侵害核心主張"
+    "desc": "Orrick 法官駁回部分訴訟主張但准予修正訴狀，保留直接著作權侵害核心主張",
+    "caseId": 3
   },
   {
     "date": "2023-12",
     "title": "NYT v. OpenAI",
     "type": "filing",
-    "desc": "紐約時報於南紐約地院對 OpenAI、Microsoft 提起里程碑訴訟，主張 ChatGPT 大規模複製新聞報導"
+    "desc": "紐約時報於南紐約地院對 OpenAI、Microsoft 提起里程碑訴訟，主張 ChatGPT 大規模複製新聞報導",
+    "caseId": 9
   },
   {
     "date": "2024-08",
     "title": "Andersen v. Stability AI — 第二次裁定",
     "type": "ruling",
-    "desc": "Orrick 法官就修正訴狀再次裁定，保留直接侵害、誘引侵害與 DMCA §1202 主張"
+    "desc": "Orrick 法官就修正訴狀再次裁定，保留直接侵害、誘引侵害與 DMCA §1202 主張",
+    "caseId": 3
   },
   {
     "date": "2024-08",
     "title": "Bartz v. Anthropic",
     "type": "filing",
-    "desc": "Bartz 等三位作家於加州北區對 Anthropic 提起集體訴訟，主張 Anthropic 使用盜版書籍訓練 Claude 侵害著作權"
+    "desc": "Bartz 等三位作家於加州北區對 Anthropic 提起集體訴訟，主張 Anthropic 使用盜版書籍訓練 Claude 侵害著作權",
+    "caseId": 6
   },
   {
     "date": "2025-02",
     "title": "Thomson Reuters v. ROSS — 合理使用裁定",
     "type": "ruling",
-    "desc": "Bibas 法官於德拉瓦地院裁定 ROSS Intelligence 以 Westlaw 摘要訓練 AI 不構成合理使用——AI 訓練合理使用首次實質判決"
+    "desc": "Bibas 法官於德拉瓦地院裁定 ROSS Intelligence 以 Westlaw 摘要訓練 AI 不構成合理使用——AI 訓練合理使用首次實質判決",
+    "caseId": 1
   },
   {
     "date": "2025-03",
     "title": "Thaler v. Perlmutter — D.C. 巡迴法院",
     "type": "ruling",
-    "desc": "D.C. 巡迴法院維持地院判決，確認「人類著作人」要件——AI 獨立生成作品不受著作權保護"
+    "desc": "D.C. 巡迴法院維持地院判決，確認「人類著作人」要件——AI 獨立生成作品不受著作權保護",
+    "caseId": 112
   },
   {
     "date": "2025-04",
     "title": "OpenAI Authors MDL 合併令",
     "type": "ruling",
-    "desc": "JPML 將多起作者對 OpenAI 的訴訟合併為 MDL No. 3143，由 Stein 法官於南紐約地院統一管理"
+    "desc": "JPML 將多起作者對 OpenAI 的訴訟合併為 MDL No. 3143，由 Stein 法官於南紐約地院統一管理",
+    "caseId": 10
   },
   {
     "date": "2025-06",
     "title": "Kadrey v. Meta — 合理使用裁定",
     "type": "ruling",
-    "desc": "Chhabria 法官裁定 Meta 使用 Books3 資料集訓練 LLaMA 於本案事實下構成合理使用——AI 公司第一場合理使用勝訴"
+    "desc": "Chhabria 法官裁定 Meta 使用 Books3 資料集訓練 LLaMA 於本案事實下構成合理使用——AI 公司第一場合理使用勝訴",
+    "caseId": 5
   },
   {
     "date": "2025-06",
     "title": "Bartz v. Anthropic — 合理使用裁定",
     "type": "ruling",
-    "desc": "Alsup 法官裁定 Anthropic 合法取得書籍用於訓練屬合理使用，但保留盜版書籍來源相關主張"
+    "desc": "Alsup 法官裁定 Anthropic 合法取得書籍用於訓練屬合理使用，但保留盜版書籍來源相關主張",
+    "caseId": 6
   },
   {
     "date": "2025-07",
     "title": "Bartz v. Anthropic — 集體訴訟認定",
     "type": "ruling",
-    "desc": "法院認定盜版書籍部分具備集體訴訟資格——涵蓋約 50 萬名著作權人"
+    "desc": "法院認定盜版書籍部分具備集體訴訟資格——涵蓋約 50 萬名著作權人",
+    "caseId": 6
   },
   {
     "date": "2025-09",
     "title": "Bartz v. Anthropic — $15億和解",
     "type": "settlement",
-    "desc": "Anthropic 同意支付 15 億美元和解金——美國著作權史上最高和解金額"
+    "desc": "Anthropic 同意支付 15 億美元和解金——美國著作權史上最高和解金額",
+    "caseId": 6
   },
   {
     "date": "2025-10",
     "title": "Huckabee v. Meta — 合理使用裁定",
     "type": "ruling",
-    "desc": "法院部分准許 Meta 的即決判決，就部分訓練使用認定為合理使用"
+    "desc": "法院部分准許 Meta 的即決判決，就部分訓練使用認定為合理使用",
+    "caseId": 18
   },
   {
     "date": "2026-01",
     "title": "Concord Music v. Anthropic II — $31億訴訟",
     "type": "filing",
-    "desc": "音樂出版商對 Anthropic 發動第二波攻勢——涵蓋 20,000+ 首歌曲，求償逾 31 億美元"
+    "desc": "音樂出版商對 Anthropic 發動第二波攻勢——涵蓋 20,000+ 首歌曲，求償逾 31 億美元",
+    "caseId": 52
   },
   {
     "date": "2026-01",
     "title": "Hachette & Cengage 加入 Google 訴訟",
     "type": "filing",
-    "desc": "大型出版商介入作者對 Google Gemini 的集體訴訟——出版業與作者「團結」對抗 AI 巨頭"
+    "desc": "大型出版商介入作者對 Google Gemini 的集體訴訟——出版業與作者「團結」對抗 AI 巨頭",
+    "caseId": 150
   },
   {
     "date": "2026-03",
     "title": "美國最高法院拒絕受理 Thaler 案",
     "type": "landmark",
-    "desc": "最高法院 deny cert——正式確立「AI 生成作品不受著作權保護、須有人類著作權人」聯邦法律原則"
+    "desc": "最高法院 deny cert——正式確立「AI 生成作品不受著作權保護、須有人類著作權人」聯邦法律原則",
+    "caseId": 112
   },
   {
     "date": "2026-03",
@@ -9685,49 +9721,57 @@ const timelineEvents = [
     "date": "2026-03",
     "title": "Penguin Random House v. OpenAI（德國）",
     "type": "filing",
-    "desc": "全球最大出版集團在慕尼黑地方法院提起訴訟——ChatGPT 生成與《小火龍椰子》系列幾乎無法區分的內容"
+    "desc": "全球最大出版集團在慕尼黑地方法院提起訴訟——ChatGPT 生成與《小火龍椰子》系列幾乎無法區分的內容",
+    "caseId": 128
   },
   {
     "date": "2026-04",
     "title": "Concord Music 將被告變更為 Dario Amodei 個人",
     "type": "ruling",
-    "desc": "援引最高法院 Cox Communications 判決，將輔助侵權被告從 Anthropic 公司變更為 CEO 個人"
+    "desc": "援引最高法院 Cox Communications 判決，將輔助侵權被告從 Anthropic 公司變更為 CEO 個人",
+    "caseId": 7
   },
   {
     "date": "2026-05",
     "title": "Bartz v. Anthropic 公平性聽證（5/14）",
     "type": "settlement",
-    "desc": "15 億美元和解最終核准聽證——約 50 萬著作權人即將獲得分配"
+    "desc": "15 億美元和解最終核准聽證——約 50 萬著作權人即將獲得分配",
+    "caseId": 6
   },
   {
     "date": "2026-05",
     "title": "Hobbs v. Meta（首告 AI 科學家個人）",
     "type": "filing",
-    "desc": "作家 Hobbs、Stone 於紐約南區聯邦地院（S.D.N.Y. 1:26-cv-04314）對 Meta、Zuckerberg 及 Meta FAIR 前副總 Joelle Pineau、前研究員 Guillaume Lample 提起集體訴訟——AI 訓練訴訟首次點名 AI 研究科學家為個人被告，主張以盜版書籍訓練 Llama 構成故意侵權"
+    "desc": "作家 Hobbs、Stone 於紐約南區聯邦地院（S.D.N.Y. 1:26-cv-04314）對 Meta、Zuckerberg 及 Meta FAIR 前副總 Joelle Pineau、前研究員 Guillaume Lample 提起集體訴訟——AI 訓練訴訟首次點名 AI 研究科學家為個人被告，主張以盜版書籍訓練 Llama 構成故意侵權",
+    "caseId": 140
   },
   {
     "date": "2026-05",
     "title": "CNN v. Perplexity AI（電視網首件）",
     "type": "filing",
-    "desc": "CNN 於紐約南區聯邦地院（S.D.N.Y. 1:26-cv-04427）對 AI 答案引擎 Perplexity 提起訴訟——全美首件電視新聞網對 AI 公司的著作權訴訟，指控未經授權複製散布逾 17,000 件 CNN 報導、照片與影片，並依 Lanham Act 主張商標侵害"
+    "desc": "CNN 於紐約南區聯邦地院（S.D.N.Y. 1:26-cv-04427）對 AI 答案引擎 Perplexity 提起訴訟——全美首件電視新聞網對 AI 公司的著作權訴訟，指控未經授權複製散布逾 17,000 件 CNN 報導、照片與影片，並依 Lanham Act 主張商標侵害",
+    "caseId": 139
   },
   {
     "date": "2026-06",
     "title": "Thomson Reuters v. ROSS 第三巡迴口頭辯論（巡迴法院首次）",
     "type": "landmark",
-    "desc": "第三巡迴上訴法院 6/11 於費城就 Thomson Reuters v. ROSS Intelligence（3d Cir. 25-2153）舉行口頭辯論——美國巡迴法院層級首次審理「以受著作權保護內容訓練 AI 是否構成合理使用」，上訴審結果將直接影響全美數十件 AI 訓練訴訟之合理使用分析框架"
+    "desc": "第三巡迴上訴法院 6/11 於費城就 Thomson Reuters v. ROSS Intelligence（3d Cir. 25-2153）舉行口頭辯論——美國巡迴法院層級首次審理「以受著作權保護內容訓練 AI 是否構成合理使用」，上訴審結果將直接影響全美數十件 AI 訓練訴訟之合理使用分析框架",
+    "caseId": 1
   },
   {
     "date": "2026-07",
     "title": "GEMA v. Suno 慕尼黑宣判（7/31）",
     "type": "landmark",
-    "desc": "慕尼黑第一地方法院第 42 民事庭訂 7/31 宣判——歐洲首件 AI 音樂訓練著作權判決，GEMA 主張 Suno 未經授權以受保護樂曲訓練並產出高度近似輸出；若 GEMA 勝訴，將接續同院 2025/11 GEMA v. OpenAI 判決，確立歐洲 AI 訓練須取得授權之立場"
+    "desc": "慕尼黑第一地方法院第 42 民事庭訂 7/31 宣判——歐洲首件 AI 音樂訓練著作權判決，GEMA 主張 Suno 未經授權以受保護樂曲訓練並產出高度近似輸出；若 GEMA 勝訴，將接續同院 2025/11 GEMA v. OpenAI 判決，確立歐洲 AI 訓練須取得授權之立場",
+    "caseId": 109
   },
   {
     "date": "2026-10",
     "title": "Concord Music v. Anthropic I 即決判決聽證（10/21）",
     "type": "ruling",
-    "desc": "原訂 7/15 之聽證經 Lee 法官於 4/24 依職權改期至 10/21——音樂產業 vs AI 合理使用關鍵對決，預計為 2026 年最可能產出合理使用判決的案件之一"
+    "desc": "原訂 7/15 之聽證經 Lee 法官於 4/24 依職權改期至 10/21——音樂產業 vs AI 合理使用關鍵對決，預計為 2026 年最可能產出合理使用判決的案件之一",
+    "caseId": 7
   }
 ];
 
@@ -9753,11 +9797,17 @@ function buildTimeline() {
       const monthNames = ['','一月','二月','三月','四月','五月','六月','七月','八月','九月','十月','十一月','十二月'];
       const m = parseInt(e.date.split('-')[1]);
       const dateStr = `${year} 年 ${monthNames[m]}`;
+      const linked = (e.caseId !== undefined && e.caseId !== null && cases.some(c => c.id === e.caseId));
+      const linkAttrs = linked
+        ? ` data-case-id="${e.caseId}" role="button" tabindex="0" onclick="timelineItemClick(this)" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();timelineItemClick(this);}"`
+        : '';
+      const linkHint = linked ? `<span class="tl-linkhint" aria-hidden="true">查看案件 →</span>` : '';
       html += `
-        <div class="tl-item" role="button" tabindex="0" onclick="timelineItemClick(this)" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();timelineItemClick(this);}">
+        <div class="tl-item${linked ? ' tl-linked' : ''}"${linkAttrs}>
           <div class="tl-date">${dateStr}</div>
           <div class="tl-title">${e.title} <span class="tl-badge ${typeBadges[e.type]}">${typeLabels[e.type]}</span></div>
           <div class="tl-desc">${e.desc}</div>
+          ${linkHint}
         </div>`;
     });
   });
@@ -9914,12 +9964,20 @@ function filterReportsCat(cat) {
 }
 
 function timelineItemClick(el) {
-  // Extract case name from title, try to find it in cases list
-  const title = el.querySelector('.tl-title').textContent;
-  const match = cases.find(c => {
-    const simpleName = c.name.split('(')[0].trim().split(' v. ').join(' v. ');
-    return title.includes(simpleName.substring(0, 15)) || title.includes(c.name.substring(0, 15));
-  });
+  // Prefer the explicit caseId link written into data/timeline.json
+  let match = null;
+  const cid = el.dataset.caseId;
+  if (cid !== undefined && cid !== '') {
+    match = cases.find(c => String(c.id) === String(cid)) || null;
+  }
+  if (!match) {
+    // Fallback: fuzzy match on case name (legacy entries with no caseId)
+    const title = el.querySelector('.tl-title').textContent;
+    match = cases.find(c => {
+      const simpleName = c.name.split('(')[0].split('（')[0].trim();
+      return title.includes(simpleName.substring(0, 15)) || title.includes(c.name.substring(0, 15));
+    });
+  }
   if (match) {
     switchView('tracker');
     setTimeout(() => showDetail(match.id), 100);
