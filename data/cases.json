@@ -16,7 +16,7 @@
    ],
    "defendants": "ROSS Intelligence Inc.",
    "issues": "本案核心爭點在於：以受著作權保護的 Westlaw 法律摘要（headnotes）訓練 AI 法律研究工具，是否構成合理使用（fair use）。\n\n2025年2月，Bibas 法官裁定 ROSS Intelligence 以 Thomson Reuters 的 2,243 份著作權摘要訓練 AI 模型構成侵權，且不符合合理使用要件。法院認為該使用並非「轉化性使用」（transformative use），因為 ROSS 的產品直接與 Westlaw 競爭。\n\n本案是美國首件就 AI 訓練資料的合理使用問題作出實質裁判的案件。",
-   "progress": "【第三巡迴上訴中】ROSS Intelligence 於 2025 年上訴至第三巡迴法院，主張其使用具有轉化性。Thomson Reuters 於 2025 年 11 月提交答辯書狀，稱 ROSS 的行為是「竊取而非創新」。\n\n2026 年 3 月 12 日，ROSS 提交補充函件。2025 年 9-10 月，Free Law Project 及其他十一家阿密庫斯聲明人代表支持 ROSS Intelligence 提交簡報。截至 2026 年 4 月，第三巡迴法院尚未安排言詞辯論，但預計於 2026 年進行。此案將是巡迴法院層級首次就 AI 訓練的合理使用問題表態。",
+   "progress": "【第三巡迴上訴中】ROSS Intelligence 於 2025 年上訴至第三巡迴法院，主張其使用具有轉化性。Thomson Reuters 於 2025 年 11 月提交答辯書狀，稱 ROSS 的行為是「竊取而非創新」。\n\n2026 年 3 月 12 日，ROSS 提交補充函件。2025 年 9-10 月，Free Law Project 及其他十一家阿密庫斯聲明人代表支持 ROSS Intelligence 提交簡報。截至 2026 年 4 月，第三巡迴法院尚未安排言詞辯論，但預計於 2026 年進行。此案將是巡迴法院層級首次就 AI 訓練的合理使用問題表態。\n\n【2026/5/15】雙方依法院命令於 5/11 就第三巡迴 American Society for Testing v. UpCodes 新判決提交補充辯狀：ROSS（White & Case / Pillsbury）援引 UpCodes 主張應簡易撤銷原審不利合理使用裁定，並指 Westlaw 無實際訂閱流失或營收損失等市場損害證據；Thomson Reuters（Kirkland & Ellis）反主張 UpCodes 反證 ROSS 屬商業替代性使用。\n\n【2026/6/11】第三巡迴口頭辯論於費城 James A. Maris Courtroom 完成，為全美首件 AI 訓練資料合理使用上訴聽證。三大訊號：（一）合議庭明顯鎖定合理使用、跳過著作權性，對 ROSS 主張 headnotes 不具 originality 不感興趣；（二）連環追問 ROSS 產品與 Westlaw 有何不同、是否以 Westlaw 策劃內容打造替代品，傾向認定屬第四因素市場替代；（三）對 ROSS 援引 UpCodes 之轉換性論述未予正面回應。書面判決預估 3 至 6 個月作成。",
    "taiwan": "本案對台灣智慧財產實務具有重要參考價值：\n\n1. 台灣著作權法第 65 條之合理使用判斷可參考本案四要件分析框架，特別是「使用目的」與「對市場影響」兩要件。\n2. 若第三巡迴法院維持原判，將強化「以受保護作品訓練商業競爭產品不構成合理使用」的法則，台灣法院在審理類似案件時可作為比較法參考。\n3. 台灣法律資料庫業者（如月旦、Lawsnote）應注意其內容被 AI 公司用於訓練的風險，並考慮透過授權契約或技術措施保護其資料庫著作權。",
    "jurisdiction": "us",
    "country": "🇺🇸 美國",
@@ -27,7 +27,7 @@
    "sourceCount": 3,
    "docket": 70622297,
    "filedAt": null,
-   "updatedAt": null,
+   "updatedAt": "2026-08-03",
    "rulings": {
     "fairUse": "unfavorable",
     "fairUseNote": "Bibas 法官認定以 Westlaw 摘要訓練非轉化性使用；第三巡迴上訴中",
@@ -125,7 +125,7 @@
    ],
    "defendants": "Google LLC",
    "issues": "本案為針對 Google 生成式 AI 產品（包括 Bard/Gemini）的合併著作權訴訟，包括 Zhang v. Google 及 Leovy v. Google 等案件。\n\n原告主張 Google 未經授權使用其受著作權保護的文字作品訓練大型語言模型，構成直接侵害、代位侵害（vicarious infringement），並違反 DMCA 第 1202 條關於著作權管理資訊的規定。",
-   "progress": "案件由 Lee 法官審理中，目前處於事證開示前階段。Lee 法官於事證開示前暫停發現待類別認證決定。2026 年 2 月 20 日下午 1 時（PDT）在聖荷西進行了類別認證聽證會。Google 已提出駁回動議，並預期處置動議將於 2026 年提出。\n\n由於本案涉及 Google 搜尋引擎與生成式 AI 的交互作用，法院可能需要釐清搜尋引擎「爬蟲」行為與「AI 訓練用途」之間的法律界限。",
+   "progress": "案件由 Lee 法官審理中，目前處於事證開示前階段。Lee 法官於事證開示前暫停發現待類別認證決定。2026 年 2 月 20 日下午 1 時（PDT）在聖荷西進行了類別認證聽證會。Google 已提出駁回動議，並預期處置動議將於 2026 年提出。\n\n由於本案涉及 Google 搜尋引擎與生成式 AI 的交互作用，法院可能需要釐清搜尋引擎「爬蟲」行為與「AI 訓練用途」之間的法律界限。\n\n【2026/7/8】7/8 為雙方提交即決判決動議之截止日，同日確認即決判決聽證排定 2026/9/11 下午 1:30，由 Eumi K. Lee 法官主持。作家與視覺藝術家合併控 Google 未授權以 Bard／Gemini 訓練資料侵害著作物之集體訴訟進入合理使用實體攻防。",
    "taiwan": "台灣啟示：\n\n1. Google 在台灣亦提供 Gemini 服務，本案的判決結果將直接影響 Google 在台灣的 AI 產品策略。\n2. 台灣公平交易委員會在審查科技平台濫用市場支配地位時，可參考本案所揭露的 Google 資料蒐集與使用實務。\n3. 本案的「代位侵害」理論值得台灣法院關注——當 AI 平台業者透過使用者互動持續侵害著作權時，平台是否應承擔連帶責任？",
    "jurisdiction": "us",
    "country": "🇺🇸 美國",
@@ -136,7 +136,7 @@
    "sourceCount": 2,
    "docket": 67599029,
    "filedAt": null,
-   "updatedAt": null
+   "updatedAt": "2026-08-03"
   },
   {
    "id": 5,
@@ -189,7 +189,7 @@
    ],
    "defendants": "Anthropic, Inc. (PBC)",
    "issues": "本案由非虛構作家 Charles Graeber、Kirk Wallace Johnson 及驚悚小說作家 Andrea Bartz 對 Anthropic 提起，主張 Anthropic 未經授權使用書籍訓練 Claude AI 聊天機器人，構成著作權侵害。\n\n本案最終以美國史上最高著作權和解金額——15 億美元——達成和解。",
-   "progress": "【和解進展】\n• 2025 年 8 月：Anthropic 同意支付 15 億美元和解金，成為美國著作權史上最高和解金額。\n• Alsup 法官已初步核准和解方案。\n• 和解金分四期支付：2025/10/2、2026/4/30、2026/9/25、2027/9/25。\n• 2026 年 1 月 15 日：退出（opt-out）及異議截止日。\n• 2026 年 3 月 30 日：提交求償截止日。\n• 約五十萬名著作權所有人成為訴訟當事人。\n\n每位著作權人每本書約可獲得 3,000 美元（獨占著作權人）或 1,500 美元（與出版商共享著作權）。2026 年 3 月，原告律師要求降低律師費。\n\n【2026/4/11】公平性聽證會（fairness hearing）從原定 4/23 延期至 2026 年 5 月 14 日下午 2 時（太平洋時間）。和解管理人正在計算分配金額，預計 6/11 完成計算，6 月後開始撥款。\n\n【2026/4/18】公平性聽證倒數 26 天。依據 Authors Alliance 2026 年 4 月 14 日公布之未封存異議書，作者主要異議聚焦於：\n（1）外國／未在美國登記的作品遭排除於和解範圍之外；\n（2）出版商相對於作者之分配機制有結構性偏袒；\n（3）通知程序具誤導與強制性質；\n（4）相對於侵害規模，賠償金額仍屬過低；\n（5）代表不足及律師費利益衝突；\n（6）著作權登記數量計算不足。\n聽證會將於舊金山聯邦法院 450 Golden Gate Ave., Courtroom 12（19 樓）召開，並開放線上參與。",
+   "progress": "【和解進展】\n• 2025 年 8 月：Anthropic 同意支付 15 億美元和解金，成為美國著作權史上最高和解金額。\n• Alsup 法官已初步核准和解方案。\n• 和解金分四期支付：2025/10/2、2026/4/30、2026/9/25、2027/9/25。\n• 2026 年 1 月 15 日：退出（opt-out）及異議截止日。\n• 2026 年 3 月 30 日：提交求償截止日。\n• 約五十萬名著作權所有人成為訴訟當事人。\n\n每位著作權人每本書約可獲得 3,000 美元（獨占著作權人）或 1,500 美元（與出版商共享著作權）。2026 年 3 月，原告律師要求降低律師費。\n\n【2026/4/11】公平性聽證會（fairness hearing）從原定 4/23 延期至 2026 年 5 月 14 日下午 2 時（太平洋時間）。和解管理人正在計算分配金額，預計 6/11 完成計算，6 月後開始撥款。\n\n【2026/4/18】公平性聽證倒數 26 天。依據 Authors Alliance 2026 年 4 月 14 日公布之未封存異議書，作者主要異議聚焦於：\n（1）外國／未在美國登記的作品遭排除於和解範圍之外；\n（2）出版商相對於作者之分配機制有結構性偏袒；\n（3）通知程序具誤導與強制性質；\n（4）相對於侵害規模，賠償金額仍屬過低；\n（5）代表不足及律師費利益衝突；\n（6）著作權登記數量計算不足。\n聽證會將於舊金山聯邦法院 450 Golden Gate Ave., Courtroom 12（19 樓）召開，並開放線上參與。\n\n【2026/5/6】Vox 報導和解理賠平台（JND Legal Administration）出現「卡夫卡式」混亂：作者反映書目錯漏、重複條目氾濫，源於 Anthropic 未保留訓練語料清冊，雙方律師被迫以 LibGen、PiLiMi 等盜版站中繼資料比對認定適格作品。\n\n【2026/5/14】15 億美元和解公平性聽證於舊金山聯邦法院第 12 號法庭暨 Zoom 同步召開，約 44 萬件已認領作品每件預估獲賠約 3,000 美元。具名異議人陳述「外國未註冊作品遭排除」「出版社優先於作者」「集體律師費用分配揭露不足」等反對意見。\n\n【2026/5/15】5/14 公平性聽證後法官未當庭核准，改「take the matter under submission」並命三項書面補充：（一）律師酬金合理性（請求金額已自 20%（約 3 億）降至 12.5%（1.875 億），但 lodestar 倍數仍達 6.92 倍，遠逾第九巡迴常見 1.26 至 1.54 倍）；（二）三名具名原告各 5 萬美元服務獎金正當性；（三）成本準備金結構與逾期 opt-out 收件政策。同日 Authors Alliance 揭最終認領率 91.3%、僅 53 件異議。\n\n【2026/5/21】法院續 5/14 聽證後之保留裁定，訂三軌補件程序：Class Counsel 補件律師酬金合理性、具名原告每人 5 萬美元服務獎金正當性、成本準備金結構；另命 Anthropic 於 5/21 前提交不超過 2 頁書狀，專就「未具正當理由逾期遞交之 opt-out 是否一律收件」表態。認領率自 4/30 之 91.3% 升至 5/14 之 92.77%。\n\n【2026/6/5】Boston Globe 揭露 5/14 公平性聽證後迄今仍未取得書面核准命令（matter under submission），律師酬金、5 萬美元服務獎金及逾期 opt-out 政策三軌補件延宕；單件作品分配額自原估 US$4,000+ 下修至 US$3,000 以下，實際發放推遲至「最快今秋」。同週 Anthropic 6/1 機密遞交 IPO S-1、目標估值衝 US$1 兆。\n\n【2026/7/20】Martínez-Olguín 法官正式核准 15 億美元著作權集體和解，美國史上最大著作權集體和解定案：逾 50 萬件作品每件約 3,000 美元；律師費自請求之 1.875 億美元砍至約 1.016 億美元。因採和解結案未上訴，Alsup 法官原「訓練屬合理使用」之地院裁定不會成為具拘束力之上級審先例。",
    "taiwan": "本案對台灣的啟示：\n\n1. 15 億美元的和解金額顯示 AI 公司未經授權使用著作物的法律風險極為巨大。台灣 AI 新創公司應即刻檢視其訓練資料來源的合法性。\n2. 台灣著作權法第 88 條的損害賠償計算方式（實際損害或侵害人所得利益）可能不足以對 AI 公司產生嚇阻效果，可考慮參考本案和解模式設計更有效的賠償機制。\n3. 本案的集體和解模式（class settlement）值得台灣在研議著作權集體管理制度時參考，特別是如何有效分配賠償金予大量著作權人。",
    "jurisdiction": "us",
    "country": "🇺🇸 美國",
@@ -200,7 +200,7 @@
    "sourceCount": 4,
    "docket": 69058235,
    "filedAt": null,
-   "updatedAt": null,
+   "updatedAt": "2026-08-03",
    "rulings": {
     "fairUse": "partial",
     "fairUseNote": "合法取得書籍訓練屬合理使用；盜版庫存留非合理使用",
@@ -235,7 +235,7 @@
    ],
    "defendants": "Anthropic PBC",
    "issues": "Concord Music Group、Universal Music Corp. 等音樂出版商控告 Anthropic 的 Claude AI 聊天機器人在回應使用者詢問時，大量輸出受著作權保護的歌詞，構成著作權侵害。\n\n核心爭點：(1) AI 模型輸出歌詞是否構成直接侵害；(2) Anthropic 是否因使用者利用 Claude 生成歌詞而構成代位侵害或輔助侵害；(3) AI 公司是否有義務建立有效的著作權過濾機制。",
-   "progress": "【2025 年初期裁定】法院駁回禁止令聲請（preliminary injunction），認為範圍過廣且未能證明不可回復之損害；並准許 Anthropic 的駁回動議，但允許原告修正訴狀。\n\n【2026 年 1 月】原告提起第二件更大規模訴訟，涵蓋超過 20,000 首歌曲，求償逾 31 億美元法定損害賠償。\n\n【2026/3/25】UMG、Concord、ABKCO 提交部分即決判決動議（partial summary judgment），附 47 頁聲明列舉 218 項「不爭事實」，主張 Anthropic 侵權證據「壓倒性」，要求法院駁回合理使用抗辯。\n\n【2026/3/30】RIAA、NMPA、AAP、新聞/媒體聯盟、STM 及 Authors Guild 等提交支持原告的法庭之友簡報（amicus briefs）。\n\n【2026/4/7】原告援引最高法院 Cox Communications 判決及 Bartz v. Anthropic 解封文件，將蓄意輔助侵權（intentional contributory infringement）被告從 Anthropic 公司變更為 CEO Dario Amodei 及共同創辦人 Benjamin Mann 個人。\n\n【2026/4/24】法院依職權將即決判決聽證改期至 2026 年 10 月 21 日。本案仍最有可能在 2026 年獲得合理使用判決。",
+   "progress": "【2025 年初期裁定】法院駁回禁止令聲請（preliminary injunction），認為範圍過廣且未能證明不可回復之損害；並准許 Anthropic 的駁回動議，但允許原告修正訴狀。\n\n【2026 年 1 月】原告提起第二件更大規模訴訟，涵蓋超過 20,000 首歌曲，求償逾 31 億美元法定損害賠償。\n\n【2026/3/25】UMG、Concord、ABKCO 提交部分即決判決動議（partial summary judgment），附 47 頁聲明列舉 218 項「不爭事實」，主張 Anthropic 侵權證據「壓倒性」，要求法院駁回合理使用抗辯。\n\n【2026/3/30】RIAA、NMPA、AAP、新聞/媒體聯盟、STM 及 Authors Guild 等提交支持原告的法庭之友簡報（amicus briefs）。\n\n【2026/4/7】原告援引最高法院 Cox Communications 判決及 Bartz v. Anthropic 解封文件，將蓄意輔助侵權（intentional contributory infringement）被告從 Anthropic 公司變更為 CEO Dario Amodei 及共同創辦人 Benjamin Mann 個人。\n\n【2026/4/24】法院依職權將即決判決聽證改期至 2026 年 10 月 21 日。本案仍最有可能在 2026 年獲得合理使用判決。\n\n【2026/5/28】音樂出版商以 voluntary dismissal 主動撤回「替代侵權」（vicarious infringement）主張——此前 Lee 法官曾否准 Anthropic 就該項所提撤銷之訴聲請，原告反於即決判決完整答辯前自願撤銷此爭點，戰略上集中火力於 DMCA § 1202 移除 CMI 與 BitTorrent 取得盜版訓練資料兩條主軸。案件本體（直接侵權、誘引侵權、DMCA、torrent）續行。\n\n【2026/7/22】音樂出版商提出第二次修正訴狀，援引證據開示所得 Anthropic 內部紀錄，指控共同創辦人曾主動查詢特定歌曲歌詞、疑似使用工具移除著作權管理資訊；訴狀稱 2023 年 9 月某 9 天內 Claude 紀錄中「lyric」一詞出現逾 17 萬次。",
    "taiwan": "本案對台灣的啟示：\n\n1. 台灣的 MÜST（社團法人中華音樂著作權協會）等音樂著作權集管團體應密切關注本案發展，思考如何就 AI 輸出歌詞問題向台灣 AI 服務業者主張權利。\n2. AI 聊天機器人輸出歌詞在台灣可能構成著作權法第 92 條「公開傳輸」或第 91 條「重製」侵害。\n3. 本案凸顯的「過濾義務」問題，可與台灣著作權法第 90-4 條（ISP 責任限制）的通知取下機制類比思考——AI 平台業者是否應建立類似機制？",
    "jurisdiction": "us",
    "country": "🇺🇸 美國",
@@ -246,7 +246,7 @@
    "sourceCount": 5,
    "docket": 68889092,
    "filedAt": null,
-   "updatedAt": null,
+   "updatedAt": "2026-08-03",
    "rulings": {
     "fairUse": "pending",
     "fairUseNote": "即決判決聽證改期至 2026/10/21，最可能產出音樂訓練合理使用判決",
@@ -303,7 +303,7 @@
    ],
    "defendants": "Microsoft Corp., OpenAI Inc.",
    "issues": "紐約時報對 Microsoft 及 OpenAI 提起訴訟，主張其未經授權使用數百萬篇新聞文章訓練 GPT 模型及 Bing Chat（Copilot），構成著作權侵害及商標侵害。\n\n本案已與 Daily News v. Microsoft 及 Center for Investigative Reporting v. OpenAI 合併，統稱「Newspapers Action」。\n\n核心爭點：(1) 新聞內容用於 AI 訓練的合理使用；(2) AI 對新聞產業商業模式的市場替代效果；(3) AI 輸出中的新聞內容是否構成不正競爭。",
-   "progress": "【2025 年 3 月】Stein 法官允許大部分訴訟主張繼續審理，駁回被告的駁回動議核心部分。\n\n【2026 年 1 月 5 日】重大事證開示裁定——法院確認 OpenAI 須提交全部 2,000 萬筆匿名化 ChatGPT 對話記錄樣本，拒絕 OpenAI 僅提供涉及原告作品的對話之請求。法院認為即使不涉及原告作品的對話記錄，對於判斷合理使用抗辯中的「市場替代效果」仍具相關性。\n\n【2026 年 3 月 9 日】法院進一步准許原告的強制開示動議。案件最近更新日期為 2026 年 3 月 20 日。",
+   "progress": "【2025 年 3 月】Stein 法官允許大部分訴訟主張繼續審理，駁回被告的駁回動議核心部分。\n\n【2026 年 1 月 5 日】重大事證開示裁定——法院確認 OpenAI 須提交全部 2,000 萬筆匿名化 ChatGPT 對話記錄樣本，拒絕 OpenAI 僅提供涉及原告作品的對話之請求。法院認為即使不涉及原告作品的對話記錄，對於判斷合理使用抗辯中的「市場替代效果」仍具相關性。\n\n【2026 年 3 月 9 日】法院進一步准許原告的強制開示動議。案件最近更新日期為 2026 年 3 月 20 日。\n\n【2026/6/25】《紐約時報》提出第三次修正起訴狀動議，雙線戰略調整：依 2026/3/25 最高法院 Cox v. Sony 提高 contributory infringement 門檻，對 OpenAI 撤回 contributory infringement 主張，同時大幅強化對 Microsoft 相同主張，指控微軟主動建置逾 285,000 顆 CPU 核心與 10,000 顆 GPU 之客製化超算基礎設施、以定製算力服務積極引誘 OpenAI 侵權。\n\n【2026/7/9】《紐約時報》等 14 家媒體向曼哈頓聯邦地院提制裁動議，指控 OpenAI 在 discovery 中刻意隱匿內部工具「Project Giraffe」（Bloom filter，偵測 ChatGPT 輸出著作權素材洩漏程度）及約 7,800 萬筆去識別化 ChatGPT 對話資料庫，並指員工庭外證詞與公司陳述矛盾；請求禁止 OpenAI 以已提供之 2,000 萬筆對話樣本作為證據並命負擔律師費。",
    "taiwan": "本案對台灣的啟示：\n\n1. 台灣新聞媒體（如聯合報系、中時集團）面臨相同問題——新聞內容被 AI 公司用於訓練。本案的判決結果將影響台灣媒體是否有法律基礎向 AI 公司求償。\n2. 台灣可參考歐盟《新聞出版者鄰接權指令》(DSM Directive Art. 15) 及澳洲《新聞媒體議價法》(News Media Bargaining Code)，研議是否立法保障新聞業者對 AI 公司的議價權。\n3. 本案 2,000 萬筆對話記錄的事證開示，展示了美國 discovery 制度在 AI 訴訟中的威力。台灣民事訴訟法的證據保全與文書提出命令（第 342-349 條）是否足以因應 AI 訴訟中的舉證需求，值得檢討。",
    "jurisdiction": "us",
    "country": "🇺🇸 美國",
@@ -314,7 +314,7 @@
    "sourceCount": 3,
    "docket": 68117049,
    "filedAt": null,
-   "updatedAt": null,
+   "updatedAt": "2026-08-03",
    "rulings": {
     "fairUse": "pending",
     "fairUseNote": "合理使用抗辯待審，事證開示階段對原告有利發展",
@@ -341,7 +341,7 @@
    ],
    "defendants": "OpenAI Inc., Microsoft Corp.",
    "issues": "本案為多地區訴訟（Multidistrict Litigation, MDL）合併案件，由 Stein 法官統一管理逾 20 件針對 OpenAI 的著作權訴訟。本 MDL 的發起母案為 In re OpenAI ChatGPT Litigation，由知名作者 Paul Tremblay 及 Sarah Silverman 等人於 2023 年 6 月在加州北區提起，後於 2024 年 6 月轉入本 MDL（MDL No. 3143）統一管理。\n\n合併案件包括：\n• In re OpenAI ChatGPT Litigation（Tremblay、Silverman、Chabon——發起母案）\n• Authors Guild v. OpenAI\n• New York Times v. Microsoft/OpenAI\n• Millette v. OpenAI\n• Ziff Davis v. OpenAI\n• Bird v. Microsoft\n• U.S. News & World Report v. OpenAI\n• California Newspaper Partnership v. Microsoft\n• 及其他共逾 20 件相關訴訟\n\n核心爭點橫跨：(1) 無償使用海量受著作權保護著作進行商業 AI 訓練是否合理；(2) 模型參數中著作權作品的可識別程度；(3) DMCA §1202(b) 著作權管理資訊移除；(4) 微軟作為主要投資者及產品整合方的連帶責任。",
-   "progress": "【2025 年 10 月】法院裁定原告已充分主張部分 AI 輸出與原告作品「實質近似」（substantially similar），合理陪審團可據以認定侵害。\n\n【2026 年 1 月 5 日】Stein 法官命令 OpenAI 提供 2,000 萬筆匿名化 ChatGPT 對話記錄。\n\n【2026 年 3 月】即決判決簽報期限已修訂：回覆簡報現行期限為 2026 年 11 月 6 日（原為 10 月 16 日）。\n\n【2026 年 3 月 9 日】法院准許原告強制披露額外對話記錄的動議。\n\n此 MDL 是目前美國規模最大、涉及面最廣的 AI 著作權訴訟合併案件。",
+   "progress": "【2025 年 10 月】法院裁定原告已充分主張部分 AI 輸出與原告作品「實質近似」（substantially similar），合理陪審團可據以認定侵害。\n\n【2026 年 1 月 5 日】Stein 法官命令 OpenAI 提供 2,000 萬筆匿名化 ChatGPT 對話記錄。\n\n【2026 年 3 月】即決判決簽報期限已修訂：回覆簡報現行期限為 2026 年 11 月 6 日（原為 10 月 16 日）。\n\n【2026 年 3 月 9 日】法院准許原告強制披露額外對話記錄的動議。\n\n此 MDL 是目前美國規模最大、涉及面最廣的 AI 著作權訴訟合併案件。\n\n【2026/5/22】治安法官裁定 OpenAI 必須將 Musk v. Altman / xAI 訴訟中 Sam Altman、Greg Brockman、Satya Nadella 及 OpenAI 30(b)(6) 法人代表四場 deposition 完整證言轉提供予合併之 19 件著作權集體訴訟原告律師團；法院認該等證言可能呈現 OpenAI 對其使用著作權作品之商業性自相矛盾陳述，直接打擊其「訓練屬非商業性 transformative 合理使用」核心辯護。\n\n【2026/6/2】Microsoft 於 Build 2026 keynote 宣稱 MAI 系列模型訓練資料「全為企業級、乾淨、商業授權資料」，惟同日釋出之 MAI-Thinking-1 技術 preprint 揭露訓練 pipeline 納入 Common Crawl、dedup 與 filter 後仍佔 24.2 億頁面。Common Crawl 為 NYT、Daily News、Huckabee、California Newspaper Partnership、Center for Investigative Reporting 等多案核心爭點語料，本次自家技術文件揭露對 Microsoft 之合理使用與商業性透明度防線構成內部證據壓力。\n\n【2026/6/8】OpenAI 依《JOBS Act》以機密遞交方式向 SEC 提交 S-1 註冊聲明草稿，Goldman Sachs、Morgan Stanley、JPMorgan 領投，pre-IPO 估值區間 US$7,300 億至 US$8,520 億、bullish 估值衝 US$1 兆，目標 2026/9 NASDAQ 掛牌。S-1 公開版「訴訟風險揭露」章節對本 MDL 所合併 19 件著作權訴訟之估值衝擊評估，將成下半年和解動機之新槓桿。\n\n【2026/6/9】Digital Content Next（代表 NYT、Washington Post、Vox Media、Hearst、News Corp、Conde Nast 等）經律師具名向 Common Crawl 基金會發出律師函，要求立即停止抓取、保留與分享 DCN 會員受保護內容並刪除既有 dataset 內容、揭露下游 AI 客戶清單，指其「以贈送形式積極行銷 dataset 予商業 AI 開發者」構成明顯著作權侵害。對以 Common Crawl 為核心訓練語料之合併案構成訴訟外行政壓力。\n\n【2026/6/11】OpenAI 遞交 letter motion，以最高法院 2026/3/25 Cox Communications v. Sony Music 新判決為論據（服務提供者所提供之工具如具相當合法用途，且未主動行銷、設計或引導用戶侵權，不因部分用戶產出近似內容即生 contributory liability），主張 NYT、Daily News、Center for Investigative Reporting、California Newspaper Partnership 四家媒體之 contributory infringement 主張所依賴之第四巡迴 Cox 標準已遭推翻，請求 Stein 法官駁回。影響範圍及於 19 件合併案。\n\n【2026/6/25】彭博確認 OpenAI 考慮放棄 2026/9 掛牌計劃、延至 2027 年，CEO Sam Altman 拒絕壓縮 US$1 兆目標估值。IPO 窗口延後將降低 OpenAI 搶在掛牌前和解本 MDL 之短期財務壓力，原告律師團「以上市時間表為談判槓桿」之和解誘引策略因此受壓。\n\n【2026/7/9】14 家新聞機構提制裁動議，指控 OpenAI 於 discovery 中隱匿「Project Giraffe」Bloom filter 工具及約 7,800 萬筆去識別化 ChatGPT 對話資料庫，並請求禁止 OpenAI 以已提供之 2,000 萬筆對話樣本作為證據。為繼治安法官 5/22 命補繳 Musk 案高層證言後，原告律師團將 discovery 抗爭升至制裁層級。",
    "taiwan": "本案對台灣的啟示：\n\n1. 美國 MDL 制度高效整合分散於各地的同類訴訟，台灣目前缺乏類似機制。未來若出現大量 AI 著作權訴訟，台灣法院系統的因應能力值得關注。\n2. 本案涵蓋文字作品、新聞內容、資料庫等多種著作類型，其判決將形成全面性的 AI 著作權法律框架。\n3. 台灣智慧財產及商業法院作為專業法院，可考慮借鑑 MDL 經驗，建立 AI 著作權案件的合併審理機制。\n4. 台灣作者若在本 MDL 中有著作受侵害，理論上可申請加入集體訴訟；實務上需了解美國集體訴訟通知程序及賠償分配機制。",
    "jurisdiction": "us",
    "country": "🇺🇸 美國",
@@ -352,7 +352,7 @@
    "sourceCount": 2,
    "docket": 69879510,
    "filedAt": null,
-   "updatedAt": null
+   "updatedAt": "2026-08-03"
   },
   {
    "id": 11,
@@ -367,7 +367,7 @@
    ],
    "defendants": "Midjourney, Inc.",
    "issues": "2025 年 6 月，Disney 及 Universal City Studios 控告 Midjourney 著作權侵害；同年 9 月，Warner Bros. 等亦提起訴訟。\n\n原告主張 Midjourney 使用受著作權保護的電影角色形象（包括 Superman、Batman、Bugs Bunny、Scooby-Doo 等）訓練其 AI 圖像生成器，且允許使用者生成近似受保護角色的圖像，構成「系統性的、持續性的、故意的」著作權侵害。",
-   "progress": "【合併】Disney 及 Warner Bros. 等案件已正式合併，以 Disney 案為主案。\n\n【2026 年 1 月 12 日】非正式發現會議（informal discovery conference）以視訊方式舉行。\n\n【替代爭議解決】ADR 程序須於 2026 年 8 月 19 日或更早進行。\n\n【2026 年 8 月 31 日】調解後狀態論證會議（post-mediation status conference）定於舉行。\n\n所有動議須於 2026 年 12 月 21 日前提出。審判日期暫定 2026 年底至 2027 年初。\n\nMidjourney 已提出答辯，將「合理使用」列為第一項積極抗辯。本案的結果可能根本性地改變 AI 圖像生成服務的商業使用政策。",
+   "progress": "【合併】Disney 及 Warner Bros. 等案件已正式合併，以 Disney 案為主案。\n\n【2026 年 1 月 12 日】非正式發現會議（informal discovery conference）以視訊方式舉行。\n\n【替代爭議解決】ADR 程序須於 2026 年 8 月 19 日或更早進行。\n\n【2026 年 8 月 31 日】調解後狀態論證會議（post-mediation status conference）定於舉行。\n\n所有動議須於 2026 年 12 月 21 日前提出。審判日期暫定 2026 年底至 2027 年初。\n\nMidjourney 已提出答辯，將「合理使用」列為第一項積極抗辯。本案的結果可能根本性地改變 AI 圖像生成服務的商業使用政策。\n\n【2026/7/1】Midjourney 向主審 John Kronstadt 法官提動議，要求推翻治安法官 Joel Richlin 6/15 限縮製片廠 discovery 義務僅含「面向消費者」AI 應用之裁定，主張應涵蓋製片廠幕後訓練資料集、模型權重、影視 AI 業務計劃，以支持「好萊塢自己也在大規模訓練 AI」之合理使用抗辯；製片廠拒絕揭露任何非面向消費者之內部 AI 使用資訊。\n\n【2026/7/21】Midjourney 向加州中區聯邦地院提出即決判決聲請，主張依既有判例僅因部分使用者利用其服務生成侵權內容、線上服務提供者不當然負間接侵權責任，並指製片廠就「引誘侵權」（inducement）未能舉證「積極鼓勵他人侵權」之必要要件，請求逕行駁回著作權侵權請求。",
    "taiwan": "本案對台灣的啟示：\n\n1. 台灣動漫及影視產業（如霹靂布袋戲、台灣原創 IP）同樣面臨角色形象被 AI 生成器侵害的風險。本案將提供角色著作權保護的重要法律先例。\n2. 台灣著作權法對「角色」(character) 的保護尚不明確，可藉由本案發展，研議是否需要透過修法或司法解釋強化角色保護。\n3. Midjourney 在台灣有大量使用者，其服務條款的變更將直接影響台灣創作者及使用者的權益。",
    "jurisdiction": "us",
    "country": "🇺🇸 美國",
@@ -378,7 +378,7 @@
    "sourceCount": 3,
    "docket": 70513159,
    "filedAt": null,
-   "updatedAt": null
+   "updatedAt": "2026-08-03"
   },
   {
    "id": 12,
@@ -392,7 +392,7 @@
    ],
    "defendants": "Suno, Inc.",
    "issues": "UMG、Sony 及 Warner 三大唱片公司對 AI 音樂生成平台 Suno 及 Udio 提起著作權侵害訴訟，主張被告未經授權使用受保護的錄音著作訓練 AI 模型生成音樂。\n\n核心爭點：(1) AI 模型生成的音樂是否構成「實質近似」的侵權複製品；(2) AI 音樂訓練是否構成合理使用；(3) 是否違反 DMCA 反規避條款（§1201(a)）。",
-   "progress": "【Udio 和解】2025 年 10 月，UMG 與 Udio 達成和解，雙方將合作建立「經授權的 AI 音樂創作平台」，預計 2026 年推出。UMG 藝術家及詞曲作者可選擇加入（opt-in）。\n\n【Suno 案持續審理】三大唱片公司對 Suno 的訴訟仍在進行中，目前處於事證開示階段。即決判決現已推至 2027 年 1 月 8 日。本案在 2026 年不太可能獲得合理使用判決。\n\n【2026/4/9】Warner 已和解退出，但 Suno 與 UMG、Sony 的授權談判因 AI 生成音樂的下載與分享權分歧而陷入僵局。唱片公司堅持限制用戶下載 AI 生成歌曲至 App 外，Suno 則認為此限制將嚴重削弱產品吸引力。此分歧涉及數十億音樂版稅分配格局。\n\n【2026/4/7】The Verge 實測 Suno 著作權過濾機制，發現仍可生成高度近似受保護歌曲的內容，引發對 Suno 自我監管能力的質疑。此測試結果可能在訴訟中作為唱片公司的有利證據。",
+   "progress": "【Udio 和解】2025 年 10 月，UMG 與 Udio 達成和解，雙方將合作建立「經授權的 AI 音樂創作平台」，預計 2026 年推出。UMG 藝術家及詞曲作者可選擇加入（opt-in）。\n\n【Suno 案持續審理】三大唱片公司對 Suno 的訴訟仍在進行中，目前處於事證開示階段。即決判決現已推至 2027 年 1 月 8 日。本案在 2026 年不太可能獲得合理使用判決。\n\n【2026/4/9】Warner 已和解退出，但 Suno 與 UMG、Sony 的授權談判因 AI 生成音樂的下載與分享權分歧而陷入僵局。唱片公司堅持限制用戶下載 AI 生成歌曲至 App 外，Suno 則認為此限制將嚴重削弱產品吸引力。此分歧涉及數十億音樂版稅分配格局。\n\n【2026/4/7】The Verge 實測 Suno 著作權過濾機制，發現仍可生成高度近似受保護歌曲的內容，引發對 Suno 自我監管能力的質疑。此測試結果可能在訴訟中作為唱片公司的有利證據。\n\n【2026/5/11】Suno 正式反對 UMG 與 Sony 之 discovery 請求，拒交其 2025/11/25 與 Warner Music 達成之和解協議全文；Paul Levenson 治安法官 4 月已先行裁示該文件「攸關性微弱、揭露恐致冷卻和解動機」予以保護，Suno 5/4 進一步對 UMG/Sony 之異議提出反駁。\n\n【2026/5/21】UMG 與 Sony Music 向麻州聯邦地院（Denise J. Casper 法官）聲請准提第二次修正起訴狀，依 discovery 中音訊指紋比對結果，將起訴範圍自原約 2,500 件擴增至 61,026 件錄音（並稱僅為所擁有「數百萬件」遭未授權使用作品之一小部分），並主張 Suno 訓練語料來源為自 YouTube 串流側錄之未授權音檔。\n\n【2026/6/1】Suno 向麻州聯邦地院提交動議，聲請將其訓練生成式音樂模型所用「全部音檔總數」此一單一數字排除於公開卷宗外，CTO Georg Kucsko 具結聲明公開將致對手以該基準為錨點更快更廉價開發競品；Udio 6/2 於 S.D.N.Y. 提交雷同聲請。Inner City Press 已遞交反對書狀主張解封。\n\n【2026/6/3】Suno 宣布完成 Bond Capital 領投之 4 億美元 D 輪募資、post-money 估值 54 億美元（較 2025/11 Series C 之 24.5 億七個月內翻倍），並揭露將推出「首件與音樂產業合作建構之 AI 音樂模型」，與本案及 GEMA、Justice、Poseidon Wave 等多線訴訟形成「資本市場樂觀 vs 法院持續壓力」對照。\n\n【2026/6/30】Chief Judge F. Dennis Saylor IV 核發修正排程令：fact discovery 截止日訂為 2026/9/30、dispositive motions 截止日延至 2027/4/9，較先前預估之 2027/1/8 即決判決期程再度後延。原界「2026 夏季可能出現合理使用實體裁定」預期已不成立；唱片公司追加 61,026 件錄音之修正起訴狀動議尚未獲裁定。\n\n【2026/7/5】Sony Music 在 Udio 案（Justice v. Uncharted Labs, S.D.N.Y.）追加 30,000 件著作物之動議遭法院拒絕，Suno 旋即援引該裁定向麻州聯邦地院主張：同一邏輯下應駁回 Sony 追加 61,026 件錄音之聲請。Suno 以「Udio 裁定作為可採認侵權作品判準先例」開闢新攻防軸線。",
    "taiwan": "本案對台灣的啟示：\n\n1. 台灣的 MÜST、ARCO 等音樂著作權集管團體應關注 Udio 的授權模式，思考如何建立 AI 音樂生成的授權機制。\n2. UMG v. Suno 的合理使用裁定若不利於 AI 公司，將影響台灣 AI 音樂新創（如 KKBOX 旗下的 AI 音樂服務）的商業模式。\n3. 台灣著作權法第 91 條對錄音著作的保護是否足以涵蓋 AI 生成音樂的情境，值得立法機關檢討。",
    "jurisdiction": "us",
    "country": "🇺🇸 美國",
@@ -403,7 +403,7 @@
    "sourceCount": 4,
    "docket": 68878608,
    "filedAt": null,
-   "updatedAt": null
+   "updatedAt": "2026-08-03"
   },
   {
    "id": 13,
@@ -880,7 +880,7 @@
    ],
    "defendants": "MiniMax (海螺 AI)",
    "issues": "Disney 控告中國 AI 公司 MiniMax（海螺 AI）著作權侵害，主張其 AI 影像生成模型使用 Disney 受保護的角色形象訓練。本案特殊之處在於被告為中國 AI 公司，涉及中美之間的著作權跨境執法問題。",
-   "progress": "案件由 Blumenfeld Jr. 法官審理中。本案作為美中 AI 著作權爭議的代表性案件，受到國際關注。",
+   "progress": "案件由 Blumenfeld Jr. 法官審理中。本案作為美中 AI 著作權爭議的代表性案件，受到國際關注。\n\n【2026/5/26】Stanley Blumenfeld Jr. 法官否准 MiniMax 之 motion to dismiss，明確駁回「美國法院欠缺人事管轄權」（主要營業地在中國）與「MiniMax 僅為品牌名而非可被起訴之法律實體」兩項主張，認原告已就管轄與實體著作權侵權充分陳述事實，命被告於美國法院應訴。為中國 AI 公司在美著作權跨境執法之指標案件。",
    "taiwan": "台灣啟示：\n\n1. 中國 AI 公司的著作權侵害行為可能在美國被追訴，台灣著作權人面對中國 AI 公司侵權時，可考慮在美國提起訴訟。\n2. 台灣在兩岸著作權保護方面的實務困境——即使台灣與中國均為伯恩公約會員國（透過 WTO/TRIPS），實際執法仍存在重大挑戰。",
    "jurisdiction": "us",
    "country": "🇺🇸 美國",
@@ -891,7 +891,7 @@
    "sourceCount": 3,
    "docket": 71357247,
    "filedAt": null,
-   "updatedAt": null
+   "updatedAt": "2026-08-03"
   },
   {
    "id": 31,
@@ -1055,7 +1055,7 @@
    ],
    "defendants": "Uncharted Labs Inc.",
    "issues": "本案針對另一個主要 AI 音樂生成平台 Udio（Uncharted Labs 開發）。與 Suno 案平行，但在南紐約地院提起，法官為 Garnett。控方同樣主張 Udio 使用受保護的音樂訓練模型及破壞 DRM。\n\n本案與 UMG v. Uncharted Labs 案件重疊，但該案重點在音樂標籤的商標侵害及不正競爭，而本案重點在著作權與 DMCA。法律上的區分成為問題：同一被告同一行為，不同原告可能基於不同法律理論主張。",
-   "progress": "案件於 2025 年 12 月提起。Garnett 法官已發出初期案件管理令（initial case management order），要求雙方於 2026 年 5 月前完成初期法律爭點討論。預計將與 UMG 案進行協調。",
+   "progress": "案件於 2025 年 12 月提起。Garnett 法官已發出初期案件管理令（initial case management order），要求雙方於 2026 年 5 月前完成初期法律爭點討論。預計將與 UMG 案進行協調。\n\n【2026/6/22】Hagens Berman 與 Delgado Entertainment Law 聯手提交修正訴狀，升級代表遭 AI 訓練未授權使用錄音之獨立音樂人，指控 Udio「對音樂社群最脆弱創作者之野蠻攻擊」。本案原由鄉村音樂人 Tony Justice 2025/6 提起，大型訴訟事務所介入標誌獨立藝人對 AI 音樂平台之法律壓力顯著升級。",
    "taiwan": "台灣多方當事人的 AI 著作權訴訟協調：若台灣發生類似情況（如多個音樂標籤公司及獨立藝術家同時控告同一 AI 音樂公司），法院應如何協調訴訟以避免相互矛盾的判決？本案的程序管理經驗對台灣司法有參考價值。",
    "jurisdiction": "us",
    "country": "🇺🇸 美國",
@@ -1066,7 +1066,7 @@
    "sourceCount": 3,
    "docket": 70549282,
    "filedAt": null,
-   "updatedAt": null
+   "updatedAt": "2026-08-03"
   },
   {
    "id": 38,
@@ -1079,7 +1079,7 @@
    ],
    "defendants": "NVIDIA Corp.",
    "issues": "美國知名作家群集體訴訟 NVIDIA，聲稱 NVIDIA 的 DGX Cloud AI 訓練平台向客戶提供受著作權保護的文學作品進行模型訓練。本案獨特之處在於原告直接控告 AI 基礎設施供應商（而非最終應用開發者）。\n\n法律爭點：NVIDIA 作為「中立技術提供商」是否應對客戶使用其平台進行侵權訓練負責？傳統「技術中立」原則（如索尼貝塔錄影機案）在 AI 時代是否適用？NVIDIA 對使用其平台的內容的知識程度（actual or constructive knowledge）如何衡量？",
-   "progress": "案件於 2024 年 9 月在加州北區提起。已與 Dubus 等其他作家訴訟合併審理。Tigar 法官主持。預計於 2026 年 6 月進行案件現狀聽證會。",
+   "progress": "案件於 2024 年 9 月在加州北區提起。已與 Dubus 等其他作家訴訟合併審理。Tigar 法官主持。預計於 2026 年 6 月進行案件現狀聽證會。\n\n【2026/5/8】Jon S. Tigar 法官部分駁回 NVIDIA 撤銷之訴聲請：作者群 contributory infringement 主張獲准進入實體審理，理由為 NVIDIA 提供 Writer、Persimmon AI Labs、Amazon 等客戶自動下載並前處理 The Pile（含 Books3 約 19.7 萬本盜版書）之腳本「除加速侵權外別無他用」，與 Sony 家用錄影機、Cox ISP 等中立工具有別；惟 vicarious infringement 主張援引 3/25 最高法院新判決予以駁回。",
    "taiwan": "台灣雲端及 AI 基礎設施業者的責任：台灣的雲端服務提供商（如 3 大電信的雲端服務）及台積電等晶片設計公司若提供 AI 運算服務，是否需對客戶使用其服務進行侵權內容之訓練負責？本案結果將直接影響台灣業者的法律風險評估。",
    "jurisdiction": "us",
    "country": "🇺🇸 美國",
@@ -1090,7 +1090,7 @@
    "sourceCount": 3,
    "docket": 68325563,
    "filedAt": null,
-   "updatedAt": null
+   "updatedAt": "2026-08-03"
   },
   {
    "id": 39,
@@ -1104,7 +1104,7 @@
    ],
    "defendants": "Midjourney Inc.",
    "issues": "華納兄弟娛樂公司與迪士尼公司分別針對 AI 圖像生成平台 Midjourney 提起訴訟。本案（華納兄弟案）聲稱 Midjourney 使用包含華納電影角色（超人、蝙蝠俠、兔寶寶、史酷比）圖像的訓練資料，未經授權。\n\n法律爭點包括：(1) 虛構角色的著作權保護範圍——字符設計是否受著作權保護？(2) 角色在多部作品中出現時，每部作品的著作權所有人是否均有控訴權？(3) AI 生成含有相似角色的新圖像，是否構成「衍生作品」侵害？",
-   "progress": "案件於 2023 年 11 月在加州中區提起，Kronstadt 法官主持。經過訴訟律師會議，預計於 2026 年 7 月進行第一次駁回動議聽證會。原告已提交修正訴狀，擴大索賠範圍至商品化權侵害。",
+   "progress": "案件於 2023 年 11 月在加州中區提起，Kronstadt 法官主持。經過訴訟律師會議，預計於 2026 年 7 月進行第一次駁回動議聽證會。原告已提交修正訴狀，擴大索賠範圍至商品化權侵害。\n\n【2026/7/21】Midjourney 7/21 就 Disney 與 Warner Bros. 之著作權主張提出即決判決聲請，主張線上服務提供者不因部分使用者生成侵權內容而當然負間接侵權責任，並指「引誘侵權」要件未經舉證。",
    "taiwan": "台灣虛構角色與 AI 訓練的衝突：台灣本土動漫、遊戲角色（如寶可夢、靈魂獸等）若被 AI 公司用於訓練，台灣創作者的救濟途徑如何？本案對台灣虛構角色的著作權保護強度有重要啟示。",
    "jurisdiction": "us",
    "country": "🇺🇸 美國",
@@ -1115,7 +1115,7 @@
    "sourceCount": 4,
    "docket": 71271014,
    "filedAt": null,
-   "updatedAt": null
+   "updatedAt": "2026-08-03"
   },
   {
    "id": 41,
@@ -1411,7 +1411,7 @@
    ],
    "defendants": "Anthropic PBC",
    "issues": "Concord Music Group、Universal Music、ABKCO 等音樂出版商於 2026/1/28 在 N.D. Cal. 對 Anthropic 提起第二波訴訟（5:26-cv-00880），同時將 CEO Dario Amodei 與共同創辦人 Benjamin Mann 列為個人被告。\n\n主要訴因：原告主張 Anthropic 透過 BitTorrent 從 Library Genesis（LibGen）、Pirate Library Mirror（PiLiMi）等「影子圖書館」(shadow libraries) 下載並上傳數百萬本書籍，其中包含**歌詞集、樂譜書與音樂相關書籍**——這些書籍嵌入了原告所控制的音樂著作；訴狀附件 A 列出 714 首作品（含 Wild Horses、Sweet Caroline、Bennie and the Jets、Eye of the Tiger 等），附件 B 另列 20,517 首。本案與第一波 Concord v. Anthropic（歌詞輸出訴訟）並非同一案件，但訴因事實互有重疊。\n\n法律爭點：(1) Anthropic 透過 P2P／盜版電子書庫取得訓練資料是否構成獨立侵權；(2) 來自盜版管道的訓練資料是否影響合理使用抗辯（特別參酌 Bartz v. Anthropic 對「盜版書」的處理）；(3) Amodei、Mann 個人責任的成立要件；(4) 「不潔之手」（unclean hands）原則對合理使用主張的限制。",
-   "progress": "Anthropic 已提交動議請求暫停本案，等待第一波 Concord v. Anthropic 即決判決結果。Concord I 的即決判決聽證定於 2026 年 7 月 15 日。法院尚未裁定暫停動議。",
+   "progress": "Anthropic 已提交動議請求暫停本案，等待第一波 Concord v. Anthropic 即決判決結果。Concord I 的即決判決聽證定於 2026 年 7 月 15 日。法院尚未裁定暫停動議。\n\n【2026/5/20】Anthropic 向加州北區聯邦地院（Eumi K. Lee 法官、Susan van Keulen 治安法官）提交 Motion to Stay，請求於 Concord I（5:24-cv-03811）最終裁判前停止本案全部訴訟程序，備位主張為等待 Concord I 即決判決與後續上訴終結；理由為兩案被告同一、爭點實質相同，續行將造成重複防禦負擔且判決恐相互衝突。",
    "taiwan": "台灣著作權法與盜版訓練資料：若 AI 公司使用透過盜版管道取得的台灣作品進行訓練，台灣權利人可主張更強的侵權論據。台灣刑法第 91 條（著作權法）對於利用盜版軟體的行為有較嚴格的處罰。",
    "jurisdiction": "us",
    "country": "🇺🇸 美國",
@@ -1422,7 +1422,7 @@
    "sourceCount": 2,
    "docket": 72199828,
    "filedAt": null,
-   "updatedAt": null
+   "updatedAt": "2026-08-03"
   },
   {
    "id": 53,
@@ -1950,13 +1950,13 @@
    "name": "Apress Media v. Anna's Archive",
    "court": "SDNY",
    "judge": "Jed S. Rakoff",
-   "status": "active",
+   "status": "decided",
    "claims": [
     "Direct Copyright"
    ],
    "defendants": "Anna's Archive (Operators)",
    "issues": "出版商 Apress Media 對盜版電子書資料庫平台 Anna's Archive 的著作權訴訟。本案涉及盜版資料庫與 AI 訓練的交叉問題——Anna's Archive 的書籍被用於訓練多個 AI 模型。\n\n爭點：(1) 盜版平台對著作權人的直接侵害責任；(2) 盜版內容被用於 AI 訓練時的二次侵害問題；(3) Anna's Archive 營運者的追責困難。",
-   "progress": "案件由 SDNY 受理。被告 Anna's Archive 為分佈式、匿名運營的平台，追責困難重重。訴訟目前進行中。",
+   "progress": "案件由 SDNY 受理。被告 Anna's Archive 為分佈式、匿名運營的平台，追責困難重重。訴訟目前進行中。\n\n【2026/5/19】Jed S. Rakoff 法官就 130 件涉案著作每件以法定上限 $150K 全額核發 $1,950 萬美元預設判決，並命 Cloudflare、Tucows Domains、Public Interest Registry、瑞典網路基金會（IIS）等逾 20 家全球域名註冊商與 ISP 即時停用 Anna's Archive 現存域名之永久禁制令。AI 層面意義在於 Anna's Archive 已於 Nazemian v. NVIDIA、Bartz、Kadrey 等多案被指認為 AI 訓練資料盜版主源頭。",
    "taiwan": "台灣啟示：(1) 台灣出版商同樣面臨盜版電子書資料庫的威脅。本案顯示對分佈式盜版平台的訴訟非常困難。(2) 台灣應加強對盜版平台的預防機制，而非被動訴訟。(3) 台灣出版業應與著作權保護團體合作，採取技術措施預防盜版與 AI 訓練的雙重威脅。",
    "jurisdiction": "us",
    "country": "🇺🇸 美國",
@@ -1967,7 +1967,18 @@
    "sourceCount": 2,
    "docket": 72372770,
    "filedAt": null,
-   "updatedAt": null
+   "updatedAt": "2026-08-03",
+   "rulings": {
+    "fairUse": "na",
+    "keyRulings": [
+     {
+      "date": "2026-05",
+      "holding": "Rakoff 法官核發 $1,950 萬美元預設判決（130 件著作各 $150K 法定上限）及全球域名下架永久禁制令"
+     }
+    ],
+    "fairUseNote": "盜版網站散布案，非 AI 訓練合理使用爭點；意義在於認定 AI 訓練資料盜版供應端責任",
+    "outcome": "原告全面勝訴（預設判決），命逾 20 家註冊商與 ISP 停用域名"
+   }
   },
   {
    "id": 76,
@@ -1986,7 +1997,7 @@
    ],
    "defendants": "Google LLC",
    "issues": "原告 Kogon 對 Google 提起的複合型訴訟，涉及著作權、數位千禧年著作權法（DMCA）多項條款、蘭漢姆法與伊利諾州州法。本案為單一訴訟中最複雜的法律請求之一。\n\n爭點：(1) 直接著作權侵害與代位/幫助侵害的多層次責任；(2) DMCA §1202(a)(b)（著作權管理資訊移除）與 DMCA §1201(a)(b)（反規避技術保護）的交互作用；(3) 蘭漢姆法中虛假背書、虛假廣告與著作權的重疊；(4) 伊利諾州隱私權保護法、不當得利等州法請求。",
-   "progress": "案件由 Harjani 法官審理中。Google 已提出多項駁回動議，預計 2026 年春季進行聽證。案件極為複雜，涉及多項未經充分司法檢驗的 DMCA 條款適用。",
+   "progress": "案件由 Harjani 法官審理中。Google 已提出多項駁回動議，預計 2026 年春季進行聽證。案件極為複雜，涉及多項未經充分司法檢驗的 DMCA 條款適用。\n\n【2026/6/12】Google 6/8 提交 motion to dismiss，核心主張為原告於 YouTube 上傳音樂時即依《服務條款》授權 Google 將其音樂用於 AI 訓練。原告律師 Ross Kimbarovsky（Loevy & Loevy）6/12 正面駁斥「Google 至今未提出任一原告曾同意 YouTube ToS 之證據、且 ToS 任何版本從未提及 AI 訓練」，預告數週內提交反對書狀。本案爭點為 Lyria 3 模型是否以未授權之 4,400 萬件 YouTube 音樂 clip（約 28 萬小時）為訓練語料。",
    "taiwan": "台灣啟示：(1) 本案充分展現美國著作權訴訟的「廚房水槽」策略——一次聲稱所有可能的法律請求。台灣訴訟律師在處理 AI 著作權案件時應參考此做法。(2) DMCA §1201(a)(b) 規定在台灣無直接對應條款，但著作權法第 90-3 條有類似的技術保護措施規定，值得比較研究。(3) 伊利諾州隱私權法（BIPA）與台灣個人資料保護法的關聯性值得注意。(4) 本案最終判決將影響美國著作權訴訟的複合請求策略。",
    "jurisdiction": "us",
    "country": "🇺🇸 美國",
@@ -1997,7 +2008,7 @@
    "sourceCount": 2,
    "docket": 67599029,
    "filedAt": null,
-   "updatedAt": null
+   "updatedAt": "2026-08-03"
   },
   {
    "id": 77,
@@ -2301,7 +2312,7 @@
    ],
    "defendants": "Microsoft Corporation",
    "issues": "Beaulier 於華盛頓西區控告 Microsoft 未經授權使用 3D 模型訓練 AI 系統。於 Microsoft 所在司法管轄區提起訴訟。",
-   "progress": "2026 年 3 月提起（2:26-cv-01031 W.D. Wash.）。早期階段。",
+   "progress": "2026 年 3 月提起（2:26-cv-01031 W.D. Wash.）。早期階段。\n\n【2026/6/9】Microsoft 向華盛頓西區聯邦地院聲請 12(b)(6) 駁回，主張原告未陳述微軟曾自其 3D 模型移除著作權管理資訊（§1202(b)）或散布原告受保護作品之必要事實要件。起訴狀核心主張為被告於使用 Objaverse-XL（含原告以 Creative Commons 授權公開之 3D 模型）訓練生成式 AI 過程中系統性剝離作者署名等 CMI。為 Beaulier 系列 4 件子訴訟首件被告實體動議。",
    "taiwan": "Microsoft 的 Azure AI 服務在台灣廣泛使用。本案可能影響 3D 內容授權要求。",
    "jurisdiction": "us",
    "country": "🇺🇸 美國",
@@ -2312,7 +2323,7 @@
    "sourceCount": 2,
    "docket": 71112094,
    "filedAt": null,
-   "updatedAt": null
+   "updatedAt": "2026-08-03"
   },
   {
    "id": 90,
@@ -2493,7 +2504,7 @@
    ],
    "defendants": "NVIDIA Corporation",
    "issues": "原告最初單獨提起，與 Nazemian v. NVIDIA 合併。主張 NVIDIA 未經授權使用受著作權保護的書籍訓練 NeMo AI 模型。",
-   "progress": "與 Nazemian v. NVIDIA（ID 38）合併。於 Tigar 法官前進行。",
+   "progress": "與 Nazemian v. NVIDIA（ID 38）合併。於 Tigar 法官前進行。\n\n【2026/5/8】與 Nazemian 案合併處理：Tigar 法官部分駁回 NVIDIA 撤銷之訴聲請，contributory infringement 主張獲准進入實體審理、vicarious infringement 遭駁回。",
    "taiwan": "參見 Nazemian v. NVIDIA 案的台灣啟示。",
    "jurisdiction": "us",
    "country": "🇺🇸 美國",
@@ -2504,7 +2515,7 @@
    "sourceCount": 2,
    "docket": 70513159,
    "filedAt": null,
-   "updatedAt": null
+   "updatedAt": "2026-08-03"
   },
   {
    "id": 98,
@@ -2594,7 +2605,7 @@
    ],
    "defendants": "Stability AI Ltd.",
    "issues": "蓋蒂圖片公司控告 Stability AI 使用 1,200 萬張蓋蒂照片訓練 Stable Diffusion，主張次級著作權侵權、商標侵權（浮水印複製）及資料庫權利侵害。蓋蒂最初聲稱初級著作權侵權，但因無法證明訓練行為（複製/儲存）發生在英國而放棄該主張。本案核心爭點為：AI 模型權重是否構成著作權法意義上的「複製品」。\n\n與傳統著作權複製概念的衝突：模型權重是統計值，是否應視為著作權作品的實質複製？",
-   "progress": "2025年11月4日，英國高等法院作出里程碑判決——英國首件 AI 著作權判決。法院駁回蓋蒂的次級著作權侵權主張，認定 AI 模型權重不構成 CDPA 意義下的「複製品」。訓練所得參數僅為統計數值，非照片的儲存複製。然而法院認定蓋蒂在商標侵權方面部分勝訴：Stable Diffusion 生成的圖像展示了蓋蒂浮水印。蓋蒂被判賠償 69.4% 的訴訟費用（約 440 萬英鎊），使商標勝利變為慘淡勝利。2025年12月，法院准許蓋蒂就次級著作權裁定提起上訴。上訴案件於 2026 年待審。",
+   "progress": "2025年11月4日，英國高等法院作出里程碑判決——英國首件 AI 著作權判決。法院駁回蓋蒂的次級著作權侵權主張，認定 AI 模型權重不構成 CDPA 意義下的「複製品」。訓練所得參數僅為統計數值，非照片的儲存複製。然而法院認定蓋蒂在商標侵權方面部分勝訴：Stable Diffusion 生成的圖像展示了蓋蒂浮水印。蓋蒂被判賠償 69.4% 的訴訟費用（約 440 萬英鎊），使商標勝利變為慘淡勝利。2025年12月，法院准許蓋蒂就次級著作權裁定提起上訴。上訴案件於 2026 年待審。\n\n【2026/6/22】Getty 宣布與 OpenAI 簽署多年「顯示合作（display partnership）」，ChatGPT 搜尋與探索功能將整合 Getty 逾 4 億影像資產，明確排除訓練用途，Getty 股價應聲飆漲 145%。本合作於本案上訴進行中達成，為首件主要圖庫以顯示授權（而非訓練授權）與 AI 公司達成之商業合作，對合理使用第四因素「可行授權市場」攻防構成重要語境。",
    "taiwan": "1) 英國判決認定「模型權重≠複製品」挑戰了傳統複製概念。台灣智慧財產法院需考慮模型參數是否落入《台灣著作權法》第 3 條「重製」定義範疇。2) 商標/浮水印議題攸關《台灣商標法》第 68 條。3) 對台灣著作權人的跨境訴訟策略啟示。",
    "jurisdiction": "uk",
    "country": "🇬🇧 英國",
@@ -2605,7 +2616,7 @@
    "sourceCount": 3,
    "docket": null,
    "filedAt": null,
-   "updatedAt": null,
+   "updatedAt": "2026-08-03",
    "rulings": {
     "fairUse": "na",
     "fairUseNote": "英國法無合理使用制度，爭點為模型權重是否構成複製品",
@@ -2719,7 +2730,7 @@
    ],
    "defendants": "OpenAI Inc.",
    "issues": "亞洲新聞國際（ANI），印度最大的新聞通訊社，控告 OpenAI 使用其新聞內容（包括僅訂戶可取得的付費牆內容）訓練 ChatGPT，未經授權。ANI 並控訴 ChatGPT 生成並虛假歸屬於 ANI 的捏造新聞故事，造成聲譽損害。此為印度首件生成式 AI 著作權案件。法院制定四項關鍵爭點：(1) 為訓練而儲存著作權資料是否構成侵權；(2) 使用著作權資料生成回應是否構成侵權；(3) 是否符合《印度著作權法》第 52 條「合理使用」；(4) 伺服器位於境外的管轄權問題。\n\n虛假歸屬與幻覺問題：AI 系統生成虛假內容並歸屬於真實權利人是否構成獨立侵害？",
-   "progress": "德里高等法院於 2024 年 11 月至 2026 年 3 月間進行 32 次聽證。2026 年 4 月 2 日，Amit Bansal 法官對 ANI 的臨時聲請做出保留裁定。產業組織（DNPA、印度音樂產業協會、印度出版商聯盟）支持 ANI；科技組織（寬頻印度論壇、Flux Labs）支持 OpenAI。OpenAI 聲稱已限制 ANI 域名不供未來訓練。預計 2026 年作出判決，將成為印度首次司法就 AI 訓練與著作權問題的判示。",
+   "progress": "德里高等法院於 2024 年 11 月至 2026 年 3 月間進行 32 次聽證。2026 年 4 月 2 日，Amit Bansal 法官對 ANI 的臨時聲請做出保留裁定。產業組織（DNPA、印度音樂產業協會、印度出版商聯盟）支持 ANI；科技組織（寬頻印度論壇、Flux Labs）支持 OpenAI。OpenAI 聲稱已限制 ANI 域名不供未來訓練。預計 2026 年作出判決，將成為印度首次司法就 AI 訓練與著作權問題的判示。\n\n【2026/3/27】德里高等法院歷經 32 次庭審後，雙方於 3/27 完成最終陳述、法院保留裁定（judgment reserved）。四項核心爭點為：儲存訓練資料是否侵害著作權、生成回應是否侵害著作權、德里法院對 OpenAI 有無管轄權（OpenAI 主張伺服器不在印度）、合理使用例外是否適用。\n\n【2026/7/24】德里高等法院 Amit Bansal 法官駁回 ANI 暫時禁制令聲請，認定 OpenAI 以受著作權保護內容訓練 ChatGPT 符合印度著作權法第 52 條 fair dealing，且生成內容與 ANI 原文不構成實質近似。為印度首件就生成式 AI 訓練著作權作成實體判斷之裁判，惟屬 prima facie／interim 階段認定，非終局判決。",
    "taiwan": "1) 印度《著作權法》第 52 條合理使用條款類似於台灣《著作權法》第 65 條——兩者均窄於美國合理使用。本案將提供寶貴的比較法分析。2) 虛假歸屬/幻覺議題獨特且涉及台灣《著作權法》第 17 條（著作人格權）及誹謗法。3) 印度對 AI 公司屬地管轄的途徑將影響台灣自身的管轄分析。",
    "jurisdiction": "asia-other",
    "country": "🇮🇳 印度",
@@ -2730,7 +2741,18 @@
    "sourceCount": 3,
    "docket": null,
    "filedAt": null,
-   "updatedAt": null
+   "updatedAt": "2026-08-03",
+   "rulings": {
+    "fairUse": "favorable",
+    "keyRulings": [
+     {
+      "date": "2026-07",
+      "holding": "德里高等法院 Bansal 法官：AI 訓練屬第 52 條 fair dealing，生成內容與原文無實質近似，駁回暫時禁制令"
+     }
+    ],
+    "fairUseNote": "適用印度著作權法第 52 條 fair dealing，非美國 fair use；屬 prima facie／interim 階段認定，非終局判斷",
+    "outcome": "暫時禁制令遭駁回，本案續行終局審理"
+   }
   },
   {
    "id": 106,
@@ -2819,7 +2841,7 @@
    ],
    "defendants": "Suno AI, Inc.",
    "issues": "德國音樂著作權集體管理協會 GEMA，在對 OpenAI 取得里程碑勝訴後（2025 年 11 月慕尼黑案），擴大其訴訟策略以直接針對 AI 音樂生成工具。GEMA 控告美國企業 Suno AI 使用授權音樂作品訓練其 AI 模型，未取得 GEMA 或其會員所需的授權。本案考驗 GEMA v. OpenAI 先例中關於記憶化與重製的裁定是否延伸至 AI 音樂生成工具。\n\n音樂 AI 生成與記憶化：模型內的音樂參數是否可用於重現受保護作品的實質部分？",
-   "progress": "【2026/7/31】慕尼黑第一地方法院第 42 民事庭作出一審判決，GEMA 勝訴。法院認定 Suno 以受 GEMA 管理之音樂作品訓練其生成模型並於歐洲儲存重製，就系爭 6 首歌曲（含 Rasputin、Daddy Cool 等）構成德國著作權法下之重製與改作侵害；訓練行為雖發生於美國，惟輸出與儲存及於德國，德國法院有管轄權且德國法適用。法院命 Suno 停止侵害、揭露不法收益，賠償金額待後續程序確定。本判決為 GEMA 繼 2025/11 GEMA v. OpenAI 後第二次對生成式 AI 業者勝訴，亦為歐洲首件針對 AI 音樂生成之著作權判決，確立 GEMA v. OpenAI 關於「模型參數化儲存亦構成重製」之見解延伸適用於音樂生成模型。Suno 表示考慮上訴，判決尚未確定。",
+   "progress": "【2026/5/26】慕尼黑第一地方法院以「內部行政原因」發布新聞稿，公告原訂 6/12 之判決朗讀（Verkündung）延至 7/31 上午 9 時於 Justizpalast 270 號法庭宣示；延期屬程序性安排，不揭示合議庭實體傾向。\n\n【2026/7/31】慕尼黑第一地方法院第 42 民事庭作出一審判決，GEMA 勝訴。法院認定 Suno 以受 GEMA 管理之音樂作品訓練其生成模型並於歐洲儲存重製，就系爭 6 首歌曲（含 Rasputin、Daddy Cool 等）構成德國著作權法下之重製與改作侵害；訓練行為雖發生於美國，惟輸出與儲存及於德國，德國法院有管轄權且德國法適用。法院命 Suno 停止侵害、揭露不法收益，賠償金額待後續程序確定。本判決為 GEMA 繼 2025/11 GEMA v. OpenAI 後第二次對生成式 AI 業者勝訴，亦為歐洲首件針對 AI 音樂生成之著作權判決，確立 GEMA v. OpenAI 關於「模型參數化儲存亦構成重製」之見解延伸適用於音樂生成模型。Suno 表示考慮上訴，判決尚未確定。",
    "taiwan": "1) 台灣的音樂著作權集體管理協會（MÜST 主掌公開演出、TMCS 主掌機械重製）應研習本案以供對在台灣營運的 AI 音樂生成工具提起訴訟之策略參考。2) AI 生成音樂已在台灣商業使用，造成《台灣著作權法》下潛在侵權問題。3) 本案可影響 APEC 經濟體在平衡 AI 創新與音樂權利保護方面的途徑。",
    "jurisdiction": "eu",
    "country": "🇩🇪 德國",
@@ -2830,7 +2852,7 @@
    "sourceCount": 3,
    "docket": null,
    "filedAt": null,
-   "updatedAt": "2026-08-01",
+   "updatedAt": "2026-08-03",
    "rulings": {
     "fairUse": "unfavorable",
     "keyRulings": [
@@ -3295,7 +3317,7 @@
    ],
    "defendants": "Google LLC",
    "issues": "教育科技公司 Chegg 控告 Google，主張 Google 的 AI Overviews 功能（在搜尋結果頂部直接顯示 AI 生成答案）非法使用 Chegg 擁有的 1.35 億道問答資料訓練 AI 模型，並以 AI 摘要取代使用者造訪 Chegg 網站的需求。\n\n本案主要以反壟斷法為訴因，但涉及重要的著作權問題：(1) Google 是否以「互惠交易」（reciprocal dealing）方式迫使 Chegg 等內容提供者提供專有內容以換取搜尋排名？(2) AI Overviews 是否構成對原始內容的市場替代？",
-   "progress": "【2025/2/24】Chegg 提起訴訟。\n\n【2025/6/9】原告提交修正訴狀。\n\n【2025/9/19】被告提交更新駁回動議。\n\n【截至 2026/4】Chegg 的非訂閱流量於 2025 年 1 月暴跌至負 49%，2024 年淨虧損 8.37 億美元。案件審理中。",
+   "progress": "【2025/2/24】Chegg 提起訴訟。\n\n【2025/6/9】原告提交修正訴狀。\n\n【2025/9/19】被告提交更新駁回動議。\n\n【截至 2026/4】Chegg 的非訂閱流量於 2025 年 1 月暴跌至負 49%，2024 年淨虧損 8.37 億美元。案件審理中。\n\n【2026/5/28】交叉參考：慕尼黑第一地方法院（Az. 26 O 869/26）5/28 假處分認定 Google AI Overviews 係綜合多來源後以 Google「自己的話」生成之獨立新陳述，Google 為直接侵害人（unmittelbarer Störer）而非中介者，禁止再散布不實陳述、違者最高罰 €250,000。該件訴因為言論責任而非著作權，惟「AI 摘要＝平台自有內容」之定性邏輯，對本案 AI Overviews 攔截原文流量之著作權爭議具參考價值。",
    "taiwan": "台灣啟示：本案凸顯「AI 搜尋」對內容提供者生存的威脅。台灣的知識型網站（如痞客邦、巴哈姆特、Mobile01）面臨 Google AI Overview 及其他 AI 搜尋引擎的類似流量侵蝕風險。台灣公平交易委員會應關注此案對數位市場競爭秩序的影響。",
    "jurisdiction": "us",
    "country": "🇺🇸 美國",
@@ -3306,7 +3328,7 @@
    "sourceCount": 0,
    "docket": null,
    "filedAt": null,
-   "updatedAt": null
+   "updatedAt": "2026-08-03"
   },
   {
    "id": 126,
@@ -3540,7 +3562,7 @@
    ],
    "defendants": "Anthropic PBC",
    "issues": "本案係 AI 訓練資料訴訟中**罕見「全部以州法請求權」起訴**之案件，具高度策略意義。\n\nReddit 主張 Anthropic 未經授權持續爬取 Reddit 公開貼文，以訓練 Claude 模型：\n\n1. **違約**——Anthropic 受 Reddit 使用者協議拘束，協議明文限制商業利用、要求授權者付費。\n2. **不當得利**——未付對價即取得訓練資料之經濟利益。\n3. **侵入動產（trespass to chattels）**——自動化抓取造成 Reddit 伺服器負擔。\n4. **妨害契約**——規避 Reddit 對使用者所設之內容控制機制，導致 Reddit 對使用者之契約義務受妨礙。\n5. **加州不公平競爭法（UCL §17200）**。\n\n**核心爭點**：\n\n- 17 U.S.C. §301 著作權法 preemption 是否吸收上述州法請求？\n- 訴訟策略：Reddit 採「契約路徑」而非「著作權路徑」（因平台對 UGC 不擁有著作權），若成功將為「平台以 ToS 防 AI 抓取」樹立先例。",
-   "progress": "【2025/6/5】Reddit 於 San Francisco Superior Court 起訴 Anthropic（CGC-25-625892）。\n\n【2025/7/3】Anthropic 將案件移送至 N.D. Cal.（3:25-cv-05643）；初由 Susan Illston 法官分案，後改由 Trina L. Thompson 法官審理。\n\n【2026/3】Thompson 法官就 remand 動議發布暫時意見，傾向准予發回。\n\n【2026/3/30】Thompson 法官正式裁定准予發回：§301 對 Reddit 之州法請求**不構成優先抵觸**。使用者協議課予 Anthropic 之義務（access methods 限制、技術基礎設施保護）與著作權法所保護之權利「質的不同」（quantitatively different），其餘四項州法請求亦皆有獨立要件不被吸收。\n\n【2026/4】案件正式回到 San Francisco Superior Court 續行。\n\n【2028/2/14–3/8】陪審審判排定於 San Francisco Superior Court。\n\n本案揭示：即使 AI 業者得在著作權法上主張合理使用，仍可能在契約、侵權、不公平競爭法上敗訴。",
+   "progress": "【2025/6/5】Reddit 於 San Francisco Superior Court 起訴 Anthropic（CGC-25-625892）。\n\n【2025/7/3】Anthropic 將案件移送至 N.D. Cal.（3:25-cv-05643）；初由 Susan Illston 法官分案，後改由 Trina L. Thompson 法官審理。\n\n【2026/3】Thompson 法官就 remand 動議發布暫時意見，傾向准予發回。\n\n【2026/3/30】Thompson 法官正式裁定准予發回：§301 對 Reddit 之州法請求**不構成優先抵觸**。使用者協議課予 Anthropic 之義務（access methods 限制、技術基礎設施保護）與著作權法所保護之權利「質的不同」（quantitatively different），其餘四項州法請求亦皆有獨立要件不被吸收。\n\n【2026/4】案件正式回到 San Francisco Superior Court 續行。\n\n【2028/2/14–3/8】陪審審判排定於 San Francisco Superior Court。\n\n本案揭示：即使 AI 業者得在著作權法上主張合理使用，仍可能在契約、侵權、不公平競爭法上敗訴。\n\n【2026/6/16】Anthropic 提交 demurrer，主張《著作權法》§ 301 優先排除 Reddit 之加州州法 5 大訴因（breach of contract、unjust enrichment、trespass to chattels、tortious interference、unfair competition Cal. B&P § 17200），稱 Reddit 所欲行使之權利與著作權法所保護者實質等同。此為 N.D. Cal. Thompson 法官 3/30 以各訴因均非等同權利為由發回州院後，Anthropic 於州院第二輪重啟同一前置爭點；預計 Q3 進行州院聽證。",
    "taiwan": "本案對台灣的啟示：\n\n1. **「服務條款防 AI 抓取」之路徑**——台灣平台業者（Dcard、PTT、痞客邦）若擔憂自身平台 UGC 遭 AI 業者抓取，可參考 Reddit 之策略：**以使用者協議與服務條款作為請求權基礎**，主張違約、不當得利、UCL 等台灣對應制度，而非單獨依著作權法。此路徑特別適合「平台不擁有 UGC 著作權」之情境。\n\n2. **台灣民法多請求權競合之援用**——本案五項州法請求權幾乎皆有台灣法對應：違約對應債務不履行；不當得利對應第 179 條；trespass to chattels 對應第 184 條第 1 項之物權／使用權侵害；UCL 對應公平交易法第 25 條（不公平競爭）。\n\n3. **著作權法第 65 條合理使用不再是 AI 訴訟唯一戰場**——本案揭示，即使 AI 業者於著作權法上主張合理使用成功，仍可能於契約、侵權、不公平競爭法上敗訴。台灣 AI 業者使用網路爬取資料時，**不應僅檢查著作權合理使用，亦須檢視來源平台之 ToS、robots.txt 與資料庫保護權**。\n\n4. **§301 preemption 之比較**——美國 §301 preemption 於台灣無直接對應，台灣著作權法本身亦不排除民法／公平法之競合救濟，故台灣權利人就同一行為**通常可同時主張**著作權、民法侵權、不當得利、公平法等多重請求權，無 preemption 障礙。\n\n5. **陪審審判時程**——本案排於 2028 年 2–3 月，將是 AI 訓練資料「契約路徑」首件實體審判；若 Reddit 勝訴，將強化平台對 AI 業者之議價地位（已有 Reddit-Google、Reddit-OpenAI 之授權合作為對照）。",
    "jurisdiction": "us",
    "country": "🇺🇸 美國",
@@ -3551,7 +3573,7 @@
    "sourceCount": 0,
    "docket": 70704683,
    "filedAt": null,
-   "updatedAt": null
+   "updatedAt": "2026-08-03"
   },
   {
    "id": 135,
@@ -3566,7 +3588,7 @@
    ],
    "defendants": "Anthropic PBC",
    "issues": "本案係 **Bartz v. Anthropic** $1.5B 集體和解之 28 位 opt-out 作者（Angie Cruz、Dave Eggers、Vendela Vida 等灣區作家）於 **2026/5/14**（Bartz 公平聽證會同日）所提起之獨立侵權訴訟，請求陪審審判。\n\n**核心主張**：\n\n1. Anthropic 從 LibGen（Library Genesis）、Z-Library、OceanofPDF 等盜版「shadow libraries」未經授權下載、重製、散布原告等之書籍，作為 Claude 大型語言模型之訓練資料。\n2. 法定賠償請求：依 17 U.S.C. §504(c)(2) 主張故意侵權，每件作品請求最高 $150,000 法定賠償；以 28 位作者各擁有多件登記作品計算，潛在賠償總額可能達數千萬美元等級。\n3. 反集體訴訟策略：原告於起訴狀中明確指出 \"class action treatment lets AI companies extinguish high-value copyright claims on the cheap\"——主張集體和解之 per-work $3,000 對價，遠低於高知名度作者之實際市場價值，故選擇以個別訴訟另闢戰場。\n\n**核心爭點**：\n\n- **與 Bartz 和解之關係**——本案原告依 FRCP 23(e) 程序合法 opt-out（截止日 2026/2/9），不受 Bartz 集體和解拘束。\n- **Alsup 法官 2025/6/23 fair use 裁定之適用**——Bartz 案 Alsup 法官就「以合法購書資料訓練 AI」認定構成 transformative fair use，但就「LibGen／PiLiMi 盜版來源」則明確認定**非合理使用**；本案原告完全聚焦後者，故 Anthropic 之 fair use 抗辯空間極為有限。\n- **法定損害金乘數**——若陪審認定故意侵權，每件作品 $150,000 × 28 位作者持有作品總數，將形成遠高於 $3,000/work 集體和解價格之賠償壓力。",
-   "progress": "【2025/9/5】Bartz v. Anthropic 達成 $1.5B 集體和解（每件作品約 $3,000），由 Martínez-Olguín 法官審理。\n\n【2026/2/9】Bartz 集體和解 opt-out 截止日；包含 Angie Cruz、Dave Eggers、Vendela Vida 在內之 28 位作者選擇退出。\n\n【2026/5/14（昨日）】本案於 N.D. Cal. 提起；同日 Martínez-Olguín 法官於 Bartz 公平聽證會上未當庭給予最終核准，要求補件。\n\n【後續】等待 PACER 公告正式案號；預期 Anthropic 將以「fair use（Alsup 已部分認可）」、「§504(c)(2) 法定損害金合憲性挑戰（cf. Cox Communications v. Sony Music 之 due process 論點）」抗辯。\n\n**值得追蹤之程序選擇**：(a) Anthropic 可能聲請與 Bartz 並案；(b) 若 Alsup 法官分案，因其已具 Bartz 完整事實基礎，將大幅加速本案進度。",
+   "progress": "【2025/9/5】Bartz v. Anthropic 達成 $1.5B 集體和解（每件作品約 $3,000），由 Martínez-Olguín 法官審理。\n\n【2026/2/9】Bartz 集體和解 opt-out 截止日；包含 Angie Cruz、Dave Eggers、Vendela Vida 在內之 28 位作者選擇退出。\n\n【2026/5/14（昨日）】本案於 N.D. Cal. 提起；同日 Martínez-Olguín 法官於 Bartz 公平聽證會上未當庭給予最終核准，要求補件。\n\n【後續】等待 PACER 公告正式案號；預期 Anthropic 將以「fair use（Alsup 已部分認可）」、「§504(c)(2) 法定損害金合憲性挑戰（cf. Cox Communications v. Sony Music 之 due process 論點）」抗辯。\n\n**值得追蹤之程序選擇**：(a) Anthropic 可能聲請與 Bartz 並案；(b) 若 Alsup 法官分案，因其已具 Bartz 完整事實基礎，將大幅加速本案進度。\n\n【2026/5/13】Angie Cruz、Dave Eggers、Vendela Vida 等 28 名作家與權利人於 Bartz 5/14 公平性聽證前夕退出 15 億美元集體和解，5/13 另於加州北區聯邦地院對 Anthropic 提起個別訴訟並請求陪審團審理；主張 Anthropic 自 LibGen、PiLiMi/Z-Library、Books3 等盜版來源下載複製其著作訓練 Claude，並涉系統性移除作者署名違反 17 U.S.C. § 1202。策略上為拒絕每件約 3,000 美元、改以個別陪審團審判博取上限 15 萬美元法定賠償之模板。",
    "taiwan": "本案對台灣的啟示：\n\n1. **集體和解 opt-out 之策略價值**——本案揭示美國 FRCP 23 集體訴訟之 opt-out 機制可作為**高價值權利人**保留個別訴權之策略工具：知名作者於每件作品市場價值（授權金、出版利潤）顯著高於集體和解平均值時，opt-out 後另提個別訴訟可極大化救濟。台灣現行集體訴訟（消保法第 50 條、民訴法第 41 條選定當事人、第 44 條之 1 公益訴訟）尚無相當 opt-out 機制，立法者可參考此設計，於未來著作權集體訴訟中導入。\n\n2. **「來源合法性」決定 fair use 結局**——Alsup 法官 Bartz 裁定已明確區分：(a) 合法購書訓練 → transformative fair use；(b) 盜版來源（LibGen／PiLiMi）→ 非合理使用。台灣 AI 業者進行訓練資料採集時，**訓練目的之合理性（即使為研究、技術發展）並不能洗白盜版來源之違法性**；著作權法第 65 條第 2 項第 1 款「利用之目的及性質」與第 4 款「對著作市場之影響」均將因盜版來源而傾向不利。\n\n3. **法定損害金作為訴訟槓桿**——本案以 §504(c)(2) 法定損害（每件最高 $150,000）為核心請求，凸顯**美國法定損害金制度作為 AI 訴訟壓力源**之效能。台灣著作權法第 88 條第 3 項規定法定損害金為 NT$10,000–NT$1,000,000，故意者得提高至 NT$5,000,000；雖名目較美國低，但若以多件作品累計，仍可形成顯著賠償壓力。台灣權利人應系統性盤點受侵害作品數，主張按件累計。\n\n4. **shadow library 議題之合規盤點**——LibGen、Z-Library、OceanofPDF 等於台灣亦廣為人知；國內 AI 業者（聯發科、台達電、中華電信、台灣大、各大學 AI 中心）應**立即盤點訓練資料來源是否含上述盜版庫**，並建立資料來源驗證（data provenance）流程，避免成為下一波訴訟對象。\n\n5. **作者組織之集體議價角色**——本案 28 位作者集體 opt-out 並聯合訴訟，顯示作者組織（如 Authors Guild、PEN America）在 AI 時代之新功能：協調 opt-out、共聘律師、共同主張集體賠償。台灣文化部、文策院、文藝協會、出版商業同業公會可參考此模式，協助本國作者面對國際 AI 業者之集體議價／訴訟需求。",
    "jurisdiction": "us",
    "country": "🇺🇸 美國",
@@ -3577,7 +3599,7 @@
    "sourceCount": 0,
    "docket": null,
    "filedAt": null,
-   "updatedAt": null
+   "updatedAt": "2026-08-03"
   },
   {
    "id": 136,
@@ -3593,7 +3615,7 @@
    ],
    "defendants": "Meta Platforms, Inc.",
    "issues": "本案係詞曲出版商 Wixen Music Publishing 對 Meta 提起之 AI 訓練 + 平台再現雙軌侵權訴訟，**為 2026 年第一波音樂出版商 v. AI 大廠之集體訴訟之一**。\n\n核心爭點：\n\n1. **平台延續使用**——Meta 與 Wixen 之既有授權合約於 2025/12 屆期後，Meta 仍持續於 Instagram Reels 等產品中重製 Wixen 旗下歌曲。\n2. **AI 替代效應**——Wixen 主張 Meta 同時企圖以「免版稅 AI 生成音樂」取代向出版商付費取得之授權音樂，構成市場替代（合理使用第四要件）。\n3. **求償規模**——2026/5 修正起訴狀涉案歌曲 **681 首**、求償逾 **$102M**，為本波音樂出版商訴訟中規模最大者。",
-   "progress": "【2026/1/23】Wixen 於 C.D. Cal. 起訴（2:26-cv-00752）。分案 John F. Walter 法官、Alka Sagar 治安法官。\n\n【2026/3/11】Walter 法官准予雙方聯合動議，將 Meta 答辯期限延展至 2026/5/7。\n\n【2026/3/19】Walter 法官核可 Meta 律師 Matthew D. Ingber 之 pro hac vice 申請（指定 Michael A. Calvanico 為加州本地律師）。\n\n【2026/5】Wixen 提交修正起訴狀，將涉案歌曲擴大為 **681 首**、求償提高至 **$102M+**，並強化「AI 生成音樂市場替代」之合理使用第四要件論點。\n\n本案後續關鍵節點：Meta 答辯（已展延至 5/7）、初次案件管理會議、可能之 Motion to Dismiss。",
+   "progress": "【2026/1/23】Wixen 於 C.D. Cal. 起訴（2:26-cv-00752）。分案 John F. Walter 法官、Alka Sagar 治安法官。\n\n【2026/3/11】Walter 法官准予雙方聯合動議，將 Meta 答辯期限延展至 2026/5/7。\n\n【2026/3/19】Walter 法官核可 Meta 律師 Matthew D. Ingber 之 pro hac vice 申請（指定 Michael A. Calvanico 為加州本地律師）。\n\n【2026/5】Wixen 提交修正起訴狀，將涉案歌曲擴大為 **681 首**、求償提高至 **$102M+**，並強化「AI 生成音樂市場替代」之合理使用第四要件論點。\n\n本案後續關鍵節點：Meta 答辯（已展延至 5/7）、初次案件管理會議、可能之 Motion to Dismiss。\n\n【2026/5/19】Wixen 提交修正起訴狀，將涉案歌曲自原 338 首擴增至 681 首（並表明實際侵權作品數量遠超千首），求償金額自原 $70M 跳升至逾 $102M（681 × $150K 法定上限）；新增 Meta 於 2025/12 既有授權合約屆期後仍持續於 Reels 重製 Wixen 控管歌曲，且企圖以免版稅 AI 生成音樂取代由詞曲作家創作之有授權音樂之核心主張。\n\n【2026/6/15】Meta 對修正起訴狀聲請 12(b)(6) 全面駁回，主張 Wixen 缺乏著作權 exclusive rights 原告適格，援引 Wixen v. Pandora（2020）及 Wixen v. Triller（2021）兩案相同事由均遭駁回之前例；另指 Wixen 同時主張「授權屆期前過早下架」與「授權終止後仍留存」內部矛盾。8/3 由 Walter 法官召開聽證。",
    "taiwan": "本案對台灣音樂產業之啟示：\n\n1. **既有授權合約屆期後之過渡使用責任**——Meta 與 Wixen 既有合約屆期未續約仍持續使用，類比台灣音樂著作授權實務（KKBOX、街口、外送平台之音樂使用）若合約屆期後持續使用即構成侵權，且因「明知」屬性可能加重損害賠償。\n\n2. **AI 生成音樂之市場替代論點**——Wixen 主張「Meta 企圖以 AI 生成音樂取代有授權音樂」直接攻擊合理使用第四要件。台灣 MUST、ARCO、MPA 等集管團體對國內 AI 業者（聯發科、台灣大、KKBOX、街聲）之 AI 訓練／生成音樂活動，可參考此論點作為損害主張基礎。\n\n3. **詞曲出版商 v. 唱片公司之 AI 訴訟分流**——本案為詞曲出版商主導（不同於 Sony/UMG 之唱片公司路線），台灣詞曲出版商（華研、相信、福茂、寬宏、種子）可參考 Wixen 之訴訟策略，主張詞曲著作權獨立於錄音著作權之 AI 訓練侵權。",
    "jurisdiction": "us",
    "country": "🇺🇸 美國",
@@ -3604,7 +3626,7 @@
    "sourceCount": 0,
    "docket": 72184965,
    "filedAt": null,
-   "updatedAt": null
+   "updatedAt": "2026-08-03"
   },
   {
    "id": 137,
@@ -3648,7 +3670,7 @@
    ],
    "defendants": "Meta Platforms, Inc.；Mark Zuckerberg（個人被告）",
    "issues": "本案為 **Bartz v. Anthropic 後第二件由出版商主導之 AI 著作權巨型集體訴訟**，亦為**首件將 Mark Zuckerberg 列為個人被告**之 AI 訓練侵權案。\n\n核心指控：\n\n1. **shadow library 抓取**——指 Meta 自 LibGen、Anna's Archive 等盜版站抓取**數百萬本書與學術期刊**訓練 Llama 系列模型。\n2. **Zuckerberg 個人授權之證據**——原告主張 2023/4 Meta 內部文件顯示 **Zuckerberg 親自指示**放棄與出版商之授權談判，轉採盜版捷徑；引述內部 email 與 Meta 揭露之 267TB 訓練資料規模。\n3. **集體定義**——以「擁有 **ISBN／DOI／ISSN** 之著作權人」為集體界定，涵蓋學術期刊作者、Open Access 出版商、CC 授權作者；Authors Alliance 已對此集體代表性提出質疑。\n4. **原告陣容**——5 大教育／學術出版商（Hachette、Macmillan、McGraw Hill、Elsevier、Cengage）+ 暢銷律政小說家 Scott Turow（個人作家代表）；caption 以 Elsevier 為首位原告。",
-   "progress": "【2026/5/5】出版商聯盟 + Scott Turow 於 S.D.N.Y. 起訴 Meta 與 Zuckerberg（1:26-cv-03689）。分案 P. Kevin Castel 法官、Robyn F. Tarnofsky 治安法官。\n\n【2026/5/7-12】法院核可多位原告律師 pro hac vice 申請：Jeffrey Gould、Benjamin Blystad Gould、Samuel Lev Rubinstein、Chris Nathaniel Ryder 等。\n\n【2026/5-6】預期 Meta 提出 Motion to Dismiss，爭點預期聚焦：(a) Zuckerberg 個人責任之 piercing；(b) 集體代表性（Authors Alliance 質疑）；(c) 合理使用——對照 Bartz v. Anthropic 已和解、Kadrey v. Meta 仍續審之並行案件。\n\n本案與既有 **Kadrey v. Meta（N.D. Cal.）** 並非同案——Kadrey 為加州北區個別作家集體（Sarah Silverman、Ta-Nehisi Coates 等），本案為紐約南區出版商集體；兩案管轄、集體界定、首席原告皆不同。",
+   "progress": "【2026/5/5】出版商聯盟 + Scott Turow 於 S.D.N.Y. 起訴 Meta 與 Zuckerberg（1:26-cv-03689）。分案 P. Kevin Castel 法官、Robyn F. Tarnofsky 治安法官。\n\n【2026/5/7-12】法院核可多位原告律師 pro hac vice 申請：Jeffrey Gould、Benjamin Blystad Gould、Samuel Lev Rubinstein、Chris Nathaniel Ryder 等。\n\n【2026/5-6】預期 Meta 提出 Motion to Dismiss，爭點預期聚焦：(a) Zuckerberg 個人責任之 piercing；(b) 集體代表性（Authors Alliance 質疑）；(c) 合理使用——對照 Bartz v. Anthropic 已和解、Kadrey v. Meta 仍續審之並行案件。\n\n本案與既有 **Kadrey v. Meta（N.D. Cal.）** 並非同案——Kadrey 為加州北區個別作家集體（Sarah Silverman、Ta-Nehisi Coates 等），本案為紐約南區出版商集體；兩案管轄、集體界定、首席原告皆不同。\n\n【2026/5/6】Authors Alliance 分析指本案集體定義含「擁有 ISBN / DOI / ISSN 之全部或部分著作權之人」，將學術期刊作者一併納入；惟多數學術作者已將著作權讓渡予 Elsevier 等商業期刊出版商，或主動選擇 CC 開放授權以廣泛流通，Elsevier 與作者立場長期對立，恐難公平且充分代表此次集體。",
    "taiwan": "本案對台灣的多重啟示：\n\n1. **CEO 個人責任之先例**——將 Zuckerberg 列為個人被告為 AI 訓練侵權案首例。台灣大型科技公司 CEO（聯發科蔡力行、台灣大鄭俊卿、中華電信郭水義）若在 AI 訓練決策上有可證實之直接介入（書面授權、email 指示），未來在台灣亦可能面臨個人民事責任主張，呼應公司法第 23 條之忠實義務與民法第 184 條之共同侵權。\n\n2. **學術出版與 Open Access 衝突**——本案集體定義以 ISBN／DOI／ISSN 為界，將 Open Access 期刊作者、CC 授權作者一併綁入，惟代表此集體之 Elsevier 等出版商與 OA 作者立場長期對立。台灣科技部、國家圖書館、TAOA（Taiwan Open Access）社群應關注此案集體認證階段之裁定，將影響國內學術文獻之 AI 訓練合法性爭議。\n\n3. **shadow library 議題之合規盤點**——LibGen、Z-Library、OceanofPDF 等於台灣亦廣為人知。本案如形成判決將強化「使用盜版庫訓練 = 故意侵權」之認定，國內 AI 業者（聯發科、台達電、中華電信、台灣大、各大學 AI 中心）應**立即盤點訓練資料來源是否含上述盜版庫**，並建立資料來源驗證（data provenance）流程。\n\n4. **267TB 規模證據之揭示意義**——本案引述 Meta 揭露之 267TB 訓練資料規模，為 AI 訓練資料量化之首件法庭可見數字，提供台灣損害賠償計算之參考量級。",
    "jurisdiction": "us",
    "country": "🇺🇸 美國",
@@ -3659,7 +3681,7 @@
    "sourceCount": 0,
    "docket": 73294740,
    "filedAt": null,
-   "updatedAt": null
+   "updatedAt": "2026-08-03"
   },
   {
    "id": 139,
@@ -3942,7 +3964,7 @@
    ],
    "defendants": "Google LLC",
    "issues": "Hachette 出版集團控告 Google（1:26-cv-05870，2026/7/10 立案），主張其書籍遭未經授權用於 Google AI 模型訓練。同日另有同名關聯 docket（1:26-cv-05869）待確認關係。Hachette 此前已參與對 Meta 的出版商聯合訴訟，此為其對 Google 的新戰線。",
-   "progress": "剛立案。",
+   "progress": "剛立案。\n\n【2026/7/10】Hachette、Cengage、Elsevier 等出版商及作家 Scott Turow 對 Google 提告，指控 Google Books 與 Google Play 書籍資料未經授權用於訓練 Gemini 模型，並主張 Google 蓄意移除或竄改著作權管理資訊（CMI）以掩蓋訓練來源，內部文件據稱曾示警恐面臨鉅額法定賠償風險。法官尚未分派。",
    "taiwan": "大型出版集團對各 AI 巨頭逐一開闢戰線的策略，顯示出版業已將訴訟作為授權談判籌碼，台灣出版業可觀察其談判與訴訟並行模式。",
    "jurisdiction": "us",
    "country": "🇺🇸 美國",
@@ -3953,7 +3975,7 @@
    "sourceCount": 1,
    "docket": 73603888,
    "filedAt": null,
-   "updatedAt": "2026-07-13"
+   "updatedAt": "2026-08-03"
   },
   {
    "id": 151,
@@ -3991,7 +4013,7 @@
    ],
    "defendants": "Stability AI, Inc.、Runway AI、DeviantArt、Hugging Face",
    "issues": "汽車商業攝影公司 EVOX Productions 控告四家 AI 業者（2:26-cv-07201，2026/7/2 立案），主張逾 10 萬張汽車攝影作品遭未經授權用於 AI 訓練，並首次將開源平台 Hugging Face 列為被告——指其網站直接存放並散布含 225 張 EVOX 照片的 Stanford Cars 資料集（下載逾 9 萬次）。EVOX 此前已就 ImageNet 資料集控告 Stanford 大學。本案為美國第 125 件 AI 著作權訴訟。",
-   "progress": "剛立案。起訴狀附有註冊攝影作品與 AI 生成輸出的並列比對。",
+   "progress": "剛立案。起訴狀附有註冊攝影作品與 AI 生成輸出的並列比對。\n\n【2026/7/2】汽車商業攝影圖庫 EVOX 控告 Stability AI、Runway AI、DeviantArt 與 Hugging Face，主張逾 10 萬張受著作權保護汽車攝影作品經由 Stanford Cars／ImageNet 衍生資料集未經授權用於訓練圖像生成模型；首次將開源模型代管平台 Hugging Face 列為直接侵權被告，指其代管並散布含 225 張 EVOX 照片之資料集、下載逾 9 萬次。",
    "taiwan": "資料集「代管平台」（而非模型開發商）被列為直接侵權被告屬重大擴張，對台灣的資料集分享平台與學術機構是明確警訊。",
    "jurisdiction": "us",
    "country": "🇺🇸 美國",
@@ -4002,7 +4024,7 @@
    "sourceCount": 1,
    "docket": null,
    "filedAt": null,
-   "updatedAt": "2026-07-13"
+   "updatedAt": "2026-08-03"
   },
   {
    "id": 153,
@@ -4091,7 +4113,7 @@
    ],
    "defendants": "Satya Nadella、Amy Hood 等 Microsoft 董事及高階經理人",
    "issues": "股東 Eric Anderson 代位訴訟（2:26-cv-02281，2026/6/30 立案）。主張 Microsoft 領導層就 AI 策略、Copilot、財務結果及訓練資料合法來源為誤導性陳述，並透過投資 OpenAI 及提供 Azure 基礎設施使公司暴露於著作權責任，違反受任人義務及證券交易法第 14(a) 條。",
-   "progress": "【2026/7/3】原告已聲請與 St. Clair Shores 案認定為關聯案件。",
+   "progress": "【2026/7/1】股東 Eric Anderson 於華盛頓西區聯邦地院對 CEO Satya Nadella、CFO Amy Hood、Jared Spataro、Rajesh Jha 及 11 名董事提起衍生訴訟，主張被告於財報揭露中隱匿 Copilot 及 Azure/OpenAI 雲端基礎設施訓練於未授權著作權素材之法律風險，構成違反信義義務及 Securities Exchange Act § 14(a) 揭露違規；起訴狀援引 NYT v. Microsoft/OpenAI 等待決訴訟為潛在著作權負債。為繼 Adobe 後第二件 AI 著作權股東衍生訴訟。\n\n【2026/7/3】原告已聲請與 St. Clair Shores 案認定為關聯案件。",
    "taiwan": "（同上類型）「著作權股東代位訴訟」將 AI 訓練侵權風險上升到公司治理與 D&O 責任層次。台灣公司法第 214 條代位訴訟門檻較高，但上市公司董事會對 AI 訓練資料合法性的監督義務、資訊揭露與 D&O 保險承保範圍，均為台灣公司治理實務可預作準備之議題。",
    "jurisdiction": "us",
    "country": "🇺🇸 美國",
@@ -4102,7 +4124,7 @@
    "sourceCount": 1,
    "docket": null,
    "filedAt": null,
-   "updatedAt": "2026-07-13"
+   "updatedAt": "2026-08-03"
   }
  ]
 }
