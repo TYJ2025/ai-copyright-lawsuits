@@ -287,10 +287,22 @@
     background: var(--white);
     border: 1px solid var(--border);
     border-radius: 6px;
-    cursor: pointer;
+    cursor: default;
     transition: all 0.2s;
   }
-  .tl-item:hover { border-color: var(--gold); transform: translateX(4px); }
+  .tl-item.tl-linked { cursor: pointer; }
+  .tl-item.tl-linked:hover { border-color: var(--gold); transform: translateX(4px); }
+  .tl-item.tl-linked:focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; }
+  .tl-linkhint {
+    display: inline-block;
+    margin-top: 8px;
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--gold);
+    opacity: 0.75;
+    transition: opacity 0.2s;
+  }
+  .tl-item.tl-linked:hover .tl-linkhint { opacity: 1; }
   .tl-item::before {
     content: '';
     position: absolute;
@@ -2864,11 +2876,17 @@ function buildTimeline() {
       const monthNames = ['','一月','二月','三月','四月','五月','六月','七月','八月','九月','十月','十一月','十二月'];
       const m = parseInt(e.date.split('-')[1]);
       const dateStr = `${year} 年 ${monthNames[m]}`;
+      const linked = (e.caseId !== undefined && e.caseId !== null && cases.some(c => c.id === e.caseId));
+      const linkAttrs = linked
+        ? ` data-case-id="${e.caseId}" role="button" tabindex="0" onclick="timelineItemClick(this)" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();timelineItemClick(this);}"`
+        : '';
+      const linkHint = linked ? `<span class="tl-linkhint" aria-hidden="true">查看案件 →</span>` : '';
       html += `
-        <div class="tl-item" role="button" tabindex="0" onclick="timelineItemClick(this)" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();timelineItemClick(this);}">
+        <div class="tl-item${linked ? ' tl-linked' : ''}"${linkAttrs}>
           <div class="tl-date">${dateStr}</div>
           <div class="tl-title">${e.title} <span class="tl-badge ${typeBadges[e.type]}">${typeLabels[e.type]}</span></div>
           <div class="tl-desc">${e.desc}</div>
+          ${linkHint}
         </div>`;
     });
   });
@@ -3025,12 +3043,20 @@ function filterReportsCat(cat) {
 }
 
 function timelineItemClick(el) {
-  // Extract case name from title, try to find it in cases list
-  const title = el.querySelector('.tl-title').textContent;
-  const match = cases.find(c => {
-    const simpleName = c.name.split('(')[0].trim().split(' v. ').join(' v. ');
-    return title.includes(simpleName.substring(0, 15)) || title.includes(c.name.substring(0, 15));
-  });
+  // Prefer the explicit caseId link written into data/timeline.json
+  let match = null;
+  const cid = el.dataset.caseId;
+  if (cid !== undefined && cid !== '') {
+    match = cases.find(c => String(c.id) === String(cid)) || null;
+  }
+  if (!match) {
+    // Fallback: fuzzy match on case name (legacy entries with no caseId)
+    const title = el.querySelector('.tl-title').textContent;
+    match = cases.find(c => {
+      const simpleName = c.name.split('(')[0].split('（')[0].trim();
+      return title.includes(simpleName.substring(0, 15)) || title.includes(c.name.substring(0, 15));
+    });
+  }
   if (match) {
     switchView('tracker');
     setTimeout(() => showDetail(match.id), 100);
