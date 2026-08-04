@@ -1,1512 +1,1596 @@
 {
-  "$schema": "case_sources.v1",
-  "generatedFrom": "dashboard.html",
-  "generatedAt": "2026-06-12T19:53:51.283389+08:00",
-  "lastUpdatedSource": "2026-06-12T07:12:32+08:00",
-  "data": {
-    "1": [
-      {
-        "label": "CourtListener Docket",
-        "url": "https://www.courtlistener.com/docket/70622297/thomson-reuters-enterprise-centre-gmbh-v-ross-intelligence-inc/"
-      },
-      {
-        "label": "Ars Technica Coverage",
-        "url": "https://arstechnica.com/"
-      },
-      {
-        "label": "ChatGPT Is Eating The World",
-        "url": "https://chatgptiseatingtheworld.com/category/thomson-reuters-v-ross-intelligence/"
-      }
-    ],
-    "2": [
-      {
-        "label": "UK High Court Judgment — Getty Images v. Stability AI (judiciary.uk PDF, 2025/11)",
-        "url": "https://www.judiciary.uk/wp-content/uploads/2025/11/Getty-Images-v-Stability-AI.pdf"
-      },
-      {
-        "label": "CourtListener US Docket",
-        "url": "https://www.courtlistener.com/docket/71112094/getty-images-us-inc-v-stability-ai-ltd/"
-      },
-      {
-        "label": "ChatGPT Is Eating The World",
-        "url": "https://chatgptiseatingtheworld.com/category/getty-images-v-stability-ai/"
-      }
-    ],
-    "3": [
-      {
-        "label": "CourtListener Docket",
-        "url": "https://www.courtlistener.com/docket/66732129/andersen-v-stability-ai-ltd/"
-      },
-      {
-        "label": "The Verge Coverage",
-        "url": "https://theverge.com/"
-      },
-      {
-        "label": "ChatGPT Is Eating The World",
-        "url": "https://chatgptiseatingtheworld.com/category/andersen-v-stability-ai/"
-      }
-    ],
-    "4": [
-      {
-        "label": "CourtListener Docket",
-        "url": "https://www.courtlistener.com/docket/67599029/l-v-alphabet-inc/"
-      },
-      {
-        "label": "ChatGPT Is Eating The World",
-        "url": "https://chatgptiseatingtheworld.com/category/in-re-google-generative-ai-litigation/"
-      }
-    ],
-    "5": [
-      {
-        "label": "Perkins Coie Analysis",
-        "url": "https://perkinscoie.com/"
-      },
-      {
-        "label": "CourtListener Docket",
-        "url": "https://www.courtlistener.com/docket/67569326/kadrey-v-meta-platforms-inc/"
-      },
-      {
-        "label": "ChatGPT Is Eating The World",
-        "url": "https://chatgptiseatingtheworld.com/category/kadrey-v-meta/"
-      }
-    ],
-    "6": [
-      {
-        "label": "Anthropic Copyright Settlement",
-        "url": "https://www.anthropiccopyrightsettlement.com/"
-      },
-      {
-        "label": "CourtListener Docket",
-        "url": "https://www.courtlistener.com/docket/69058235/bartz-v-anthropic-pbc/"
-      },
-      {
-        "label": "Bloomberg Law",
-        "url": "https://news.bloomberglaw.com/"
-      },
-      {
-        "label": "ChatGPT Is Eating The World",
-        "url": "https://chatgptiseatingtheworld.com/category/bartz-v-anthropic/"
-      }
-    ],
-    "7": [
-      {
-        "label": "Music Business Worldwide",
-        "url": "https://www.musicbusinessworldwide.com/"
-      },
-      {
-        "label": "CourtListener Docket（N.D. Cal. 3:24-cv-03811，現審法院）",
-        "url": "https://www.courtlistener.com/docket/68889092/concord-music-group-inc-v-anthropic-pbc/"
-      },
-      {
-        "label": "CourtListener Docket（M.D. Tenn. 原案，已移轉）",
-        "url": "https://www.courtlistener.com/docket/67894459/concord-music-group-inc-v-anthropic-pbc/"
-      },
-      {
-        "label": "Bloomberg Law",
-        "url": "https://news.bloomberglaw.com/"
-      },
-      {
-        "label": "ChatGPT Is Eating The World",
-        "url": "https://chatgptiseatingtheworld.com/category/concord-music-v-anthropic/"
-      }
-    ],
-    "8": [
-      {
-        "label": "Authors Guild Website",
-        "url": "https://www.authorsguild.org/"
-      },
-      {
-        "label": "CourtListener Docket",
-        "url": "https://www.courtlistener.com/docket/67810584/authors-guild-v-openai-inc/"
-      },
-      {
-        "label": "ChatGPT Is Eating The World",
-        "url": "https://chatgptiseatingtheworld.com/category/authors-guild/"
-      }
-    ],
-    "9": [
-      {
-        "label": "National Law Review",
-        "url": "https://natlawreview.com/"
-      },
-      {
-        "label": "CourtListener Docket",
-        "url": "https://www.courtlistener.com/docket/68117049/the-new-york-times-company-v-microsoft-corporation/"
-      },
-      {
-        "label": "ChatGPT Is Eating The World",
-        "url": "https://chatgptiseatingtheworld.com/category/new-york-times/"
-      }
-    ],
-    "10": [
-      {
-        "label": "CourtListener MDL Docket",
-        "url": "https://www.courtlistener.com/docket/69879510/in-re-openai-inc-copyright-infringement-litigation/"
-      },
-      {
-        "label": "ChatGPT Is Eating The World",
-        "url": "https://chatgptiseatingtheworld.com/category/in-re-openai-copyright-infringement-litigation/"
-      }
-    ],
-    "11": [
-      {
-        "label": "The Hollywood Reporter",
-        "url": "https://www.hollywoodreporter.com/"
-      },
-      {
-        "label": "CourtListener Docket",
-        "url": "https://www.courtlistener.com/docket/70513159/disney-enterprises-inc-v-midjourney-inc/"
-      },
-      {
-        "label": "ChatGPT Is Eating The World",
-        "url": "https://chatgptiseatingtheworld.com/category/disney-v-midjourney/"
-      }
-    ],
-    "12": [
-      {
-        "label": "CourtListener Docket",
-        "url": "https://www.courtlistener.com/docket/68878608/umg-recordings-inc-v-suno-inc/"
-      },
-      {
-        "label": "Bloomberg Law",
-        "url": "https://news.bloomberglaw.com/"
-      },
-      {
-        "label": "Billboard",
-        "url": "https://www.billboard.com/"
-      },
-      {
-        "label": "ChatGPT Is Eating The World",
-        "url": "https://chatgptiseatingtheworld.com/category/umg-recordings-v-suno/"
-      }
-    ],
-    "13": [
-      {
-        "label": "CourtListener Docket",
-        "url": "https://www.courtlistener.com/docket/65669506/doe-1-v-github-inc/"
-      },
-      {
-        "label": "EFF Analysis",
-        "url": "https://www.eff.org/"
-      },
-      {
-        "label": "ChatGPT Is Eating The World",
-        "url": "https://chatgptiseatingtheworld.com/category/doe-1-v-github/"
-      }
-    ],
-    "14": [
-      {
-        "label": "CourtListener Docket",
-        "url": "https://www.courtlistener.com/docket/68290709/raw-story-media-inc-v-openai-inc/"
-      },
-      {
-        "label": "ChatGPT Is Eating The World",
-        "url": "https://chatgptiseatingtheworld.com/category/raw-story/"
-      }
-    ],
-    "15": [
-      {
-        "label": "The Verge",
-        "url": "https://theverge.com/"
-      },
-      {
-        "label": "CourtListener Docket",
-        "url": "https://www.courtlistener.com/docket/71997720/the-new-york-times-company-v-perplexity-ai-inc/"
-      },
-      {
-        "label": "ChatGPT Is Eating The World",
-        "url": "https://chatgptiseatingtheworld.com/category/new-york-times-v-perplexity-ai/"
-      }
-    ],
-    "16": [
-      {
-        "label": "The Hollywood Reporter",
-        "url": "https://www.hollywoodreporter.com/"
-      },
-      {
-        "label": "CourtListener Docket",
-        "url": "https://www.courtlistener.com/docket/69280385/alcon-entertainment-llc-v-tesla-inc/"
-      },
-      {
-        "label": "ChatGPT Is Eating The World",
-        "url": "https://chatgptiseatingtheworld.com/category/alcon-entertainment-v-tesla/"
-      }
-    ],
-    "17": [
-      {
-        "label": "CourtListener Docket",
-        "url": "https://www.courtlistener.com/docket/70899478/strike-3-holdings-llc-v-meta-platforms-inc/"
-      },
-      {
-        "label": "ChatGPT Is Eating The World",
-        "url": "https://chatgptiseatingtheworld.com/category/strike-3-holdings-v-meta/"
-      }
-    ],
-    "18": [
-      {
-        "label": "CourtListener Docket",
-        "url": "https://www.courtlistener.com/docket/67890942/huckabee-v-meta-platforms-inc/"
-      },
-      {
-        "label": "ChatGPT Is Eating The World",
-        "url": "https://chatgptiseatingtheworld.com/category/huckabee-v-meta-platforms-inc/"
-      }
-    ],
-    "19": [
-      {
-        "label": "The Verge",
-        "url": "https://theverge.com/"
-      },
-      {
-        "label": "CourtListener Docket",
-        "url": "https://www.courtlistener.com/docket/71720563/reddit-inc-v-serpapi-llc/"
-      },
-      {
-        "label": "ChatGPT Is Eating The World",
-        "url": "https://chatgptiseatingtheworld.com/category/reddit-v-serpapi-perplexity/"
-      }
-    ],
-    "20": [
-      {
-        "label": "CourtListener Docket",
-        "url": "https://www.courtlistener.com/docket/68535780/lehrman-v-lovo-inc/"
-      },
-      {
-        "label": "ChatGPT Is Eating The World",
-        "url": "https://chatgptiseatingtheworld.com/category/lerhman-v-lovo/"
-      }
-    ],
-    "21": [
-      {
-        "label": "CourtListener Docket",
-        "url": "https://www.courtlistener.com/docket/69111793/vacker-v-elevenlabs-inc/"
-      },
-      {
-        "label": "EFF",
-        "url": "https://www.eff.org/"
-      },
-      {
-        "label": "ChatGPT Is Eating The World",
-        "url": "https://chatgptiseatingtheworld.com/category/vacker-v-eleven-labs/"
-      }
-    ],
-    "22": [
-      {
-        "label": "CourtListener Docket",
-        "url": "https://www.courtlistener.com/docket/68325564/onan-v-databricks-inc/"
-      },
-      {
-        "label": "ChatGPT Is Eating The World",
-        "url": "https://chatgptiseatingtheworld.com/category/in-re-mosaic-llm-litigation/"
-      }
-    ],
-    "23": [
-      {
-        "label": "WSJ Report",
-        "url": "https://www.wsj.com/"
-      },
-      {
-        "label": "CourtListener Docket",
-        "url": "https://www.courtlistener.com/docket/69280523/dow-jones-company-inc-v-perplexity-ai-inc/"
-      },
-      {
-        "label": "ChatGPT Is Eating The World",
-        "url": "https://chatgptiseatingtheworld.com/category/dow-jones-v-perplexity/"
-      }
-    ],
-    "24": [
-      {
-        "label": "CourtListener Docket",
-        "url": "https://www.courtlistener.com/docket/71946179/james-v-snowflake-inc/"
-      },
-      {
-        "label": "ChatGPT Is Eating The World",
-        "url": "https://chatgptiseatingtheworld.com/category/james-v-snowflake/"
-      }
-    ],
-    "25": [
-      {
-        "label": "CourtListener Docket",
-        "url": "https://www.courtlistener.com/docket/69636122/advance-local-media-llc-v-cohere-inc/"
-      },
-      {
-        "label": "ChatGPT Is Eating The World",
-        "url": "https://chatgptiseatingtheworld.com/category/advanced-local-media-v-cohere/"
-      }
-    ],
-    "26": [
-      {
-        "label": "CourtListener Docket",
-        "url": "https://www.courtlistener.com/docket/71671876/woulard-v-suno-inc/"
-      },
-      {
-        "label": "EFF",
-        "url": "https://www.eff.org/"
-      },
-      {
-        "label": "ChatGPT Is Eating The World",
-        "url": "https://chatgptiseatingtheworld.com/category/woulard-v-suno/"
-      }
-    ],
-    "27": [
-      {
-        "label": "CourtListener Docket",
-        "url": "https://www.courtlistener.com/docket/71883091/entrepreneur-media-llc-v-meta-platforms-inc/"
-      },
-      {
-        "label": "ChatGPT Is Eating The World",
-        "url": "https://chatgptiseatingtheworld.com/category/entrepreneur-media-v-meta/"
-      }
-    ],
-    "28": [
-      {
-        "label": "CourtListener Docket",
-        "url": "https://www.courtlistener.com/docket/71279155/hendrix-v-apple-inc/"
-      },
-      {
-        "label": "ChatGPT Is Eating The World",
-        "url": "https://chatgptiseatingtheworld.com/category/hendrix-v-apple/"
-      }
-    ],
-    "29": [
-      {
-        "label": "CourtListener Docket",
-        "url": "https://www.courtlistener.com/docket/71662283/tanzer-v-salesforce-inc/"
-      },
-      {
-        "label": "ChatGPT Is Eating The World",
-        "url": "https://chatgptiseatingtheworld.com/category/tanzer-v-salesforce/"
-      }
-    ],
-    "30": [
-      {
-        "label": "The Hollywood Reporter",
-        "url": "https://www.hollywoodreporter.com/"
-      },
-      {
-        "label": "CourtListener Docket",
-        "url": "https://www.courtlistener.com/docket/71357247/disney-enterprises-inc-v-minimax/"
-      },
-      {
-        "label": "ChatGPT Is Eating The World",
-        "url": "https://chatgptiseatingtheworld.com/category/disney-v-minimax/"
-      }
-    ],
-    "31": [
-      {
-        "label": "CourtListener Docket",
-        "url": "https://www.courtlistener.com/docket/71972050/ted-entertainment-inc-v-nvidia-corporation/"
-      },
-      {
-        "label": "ChatGPT Is Eating The World",
-        "url": "https://chatgptiseatingtheworld.com/category/ted-entertainment-v-nvidia/"
-      }
-    ],
-    "32": [
-      {
-        "label": "CourtListener Docket",
-        "url": "https://www.courtlistener.com/docket/69456658/pierce-v-photobucket-inc/"
-      },
-      {
-        "label": "ChatGPT Is Eating The World",
-        "url": "https://chatgptiseatingtheworld.com/category/pierce-v-photobucket/"
-      }
-    ],
-    "33": [
-      {
-        "label": "Bloomberg Law",
-        "url": "https://news.bloomberglaw.com/"
-      },
-      {
-        "label": "CourtListener Docket",
-        "url": "https://www.courtlistener.com/docket/71996467/chicago-tribune-company-llc-v-perplexity-ai-inc/"
-      },
-      {
-        "label": "The Verge",
-        "url": "https://theverge.com/"
-      },
-      {
-        "label": "ChatGPT Is Eating The World",
-        "url": "https://chatgptiseatingtheworld.com/category/chicago-tribune-v-perplexity-ai/"
-      }
-    ],
-    "34": [
-      {
-        "label": "CourtListener Docket",
-        "url": "https://www.courtlistener.com/docket/71313411/encyclopaedia-britannica-inc-v-perplexity-ai-inc/"
-      },
-      {
-        "label": "National Law Review",
-        "url": "https://natlawreview.com/"
-      },
-      {
-        "label": "ChatGPT Is Eating The World",
-        "url": "https://chatgptiseatingtheworld.com/category/encyclopaedia-britannica-v-perplexity-ai/"
-      }
-    ],
-    "35": [
-      {
-        "label": "CourtListener Docket",
-        "url": "https://www.courtlistener.com/docket/68290804/the-intercept-media-inc-v-openai-inc/"
-      },
-      {
-        "label": "Ars Technica",
-        "url": "https://arstechnica.com/"
-      },
-      {
-        "label": "ChatGPT Is Eating The World",
-        "url": "https://chatgptiseatingtheworld.com/category/the-intercept-v-openai/"
-      }
-    ],
-    "36": [
-      {
-        "label": "CourtListener Docket (UMG v. Suno, related)",
-        "url": "https://www.courtlistener.com/docket/68878608/umg-recordings-inc-v-suno-inc/"
-      },
-      {
-        "label": "RIAA Press Release",
-        "url": "https://www.riaa.com/"
-      },
-      {
-        "label": "Billboard",
-        "url": "https://www.billboard.com/"
-      },
-      {
-        "label": "ChatGPT Is Eating The World",
-        "url": "https://chatgptiseatingtheworld.com/category/justice-v-suno/"
-      }
-    ],
-    "37": [
-      {
-        "label": "Music Business Worldwide",
-        "url": "https://www.musicbusinessworldwide.com/"
-      },
-      {
-        "label": "CourtListener Docket",
-        "url": "https://www.courtlistener.com/docket/70549282/justice-v-uncharted-labs-inc/"
-      },
-      {
-        "label": "ChatGPT Is Eating The World",
-        "url": "https://chatgptiseatingtheworld.com/category/justice-v-uncharted-labs/"
-      }
-    ],
-    "38": [
-      {
-        "label": "Authors Guild",
-        "url": "https://www.authorsguild.org/"
-      },
-      {
-        "label": "CourtListener Docket",
-        "url": "https://www.courtlistener.com/docket/68325563/nazemian-v-nvidia-corporation/"
-      },
-      {
-        "label": "ChatGPT Is Eating The World",
-        "url": "https://chatgptiseatingtheworld.com/category/abdi-nazemian-v-nvidia-corp/"
-      }
-    ],
-    "39": [
-      {
-        "label": "The Hollywood Reporter",
-        "url": "https://www.hollywoodreporter.com/"
-      },
-      {
-        "label": "CourtListener Docket",
-        "url": "https://www.courtlistener.com/docket/71271014/warner-bros-entertainment-inc-v-midjourney-inc/"
-      },
-      {
-        "label": "Variety",
-        "url": "https://variety.com/"
-      },
-      {
-        "label": "ChatGPT Is Eating The World",
-        "url": "https://chatgptiseatingtheworld.com/category/warner-brothers/"
-      }
-    ],
-    "41": [
-      {
-        "label": "CourtListener Docket",
-        "url": "https://www.courtlistener.com/docket/68484432/daily-news-lp-v-microsoft-corporation/"
-      },
-      {
-        "label": "Bloomberg Law",
-        "url": "https://news.bloomberglaw.com/"
-      },
-      {
-        "label": "ChatGPT Is Eating The World",
-        "url": "https://chatgptiseatingtheworld.com/category/daily-news/"
-      }
-    ],
-    "42": [
-      {
-        "label": "CourtListener MDL Docket",
-        "url": "https://www.courtlistener.com/docket/70338311/ziff-davis-inc-v-openai-inc/"
-      },
-      {
-        "label": "EFF Analysis",
-        "url": "https://www.eff.org/"
-      },
-      {
-        "label": "ChatGPT Is Eating The World",
-        "url": "https://chatgptiseatingtheworld.com/category/ziff-davis-v-openai/"
-      }
-    ],
-    "43": [
-      {
-        "label": "CourtListener Docket",
-        "url": "https://www.courtlistener.com/docket/71970530/us-news-world-report-lp-v-openai-inc/"
-      },
-      {
-        "label": "Trademark Law Blog",
-        "url": "https://www.trademarkblog.org/"
-      },
-      {
-        "label": "ChatGPT Is Eating The World",
-        "url": "https://chatgptiseatingtheworld.com/category/u-s-news-v-openai/"
-      }
-    ],
-    "44": [
-      {
-        "label": "CourtListener Docket",
-        "url": "https://www.courtlistener.com/docket/72505829/bmg-rights-management-us-llc-v-anthropic-pbc/"
-      },
-      {
-        "label": "Bloomberg Law",
-        "url": "https://news.bloomberglaw.com/ip-law/bmg-rights-management-sues-anthropic-for-copyright-infringement"
-      },
-      {
-        "label": "Music Business Worldwide",
-        "url": "https://www.musicbusinessworldwide.com/bmg-sues-anthropic-alleging-ai-giants-380b-valuation-was-built-on-stolen-copyrighted-works/"
-      },
-      {
-        "label": "ChatGPT Is Eating The World",
-        "url": "https://chatgptiseatingtheworld.com/"
-      }
-    ],
-    "45": [
-      {
-        "label": "CourtListener Docket",
-        "url": "https://www.courtlistener.com/docket/67890942/huckabee-v-meta-platforms-inc/"
-      },
-      {
-        "label": "National Law Review",
-        "url": "https://natlawreview.com/"
-      },
-      {
-        "label": "ChatGPT Is Eating The World",
-        "url": "https://chatgptiseatingtheworld.com/category/huckabee-v-bloomberg/"
-      }
-    ],
-    "46": [
-      {
-        "label": "CourtListener Docket",
-        "url": "https://www.courtlistener.com/docket/68878697/umg-recordings-inc-v-uncharted-labs-inc/"
-      },
-      {
-        "label": "Billboard Settlement Analysis",
-        "url": "https://www.billboard.com/"
-      },
-      {
-        "label": "Music Business Worldwide",
-        "url": "https://www.musicbusinessworldwide.com/"
-      },
-      {
-        "label": "ChatGPT Is Eating The World",
-        "url": "https://chatgptiseatingtheworld.com/category/umg-recordings-v-uncharted-labs/"
-      }
-    ],
-    "47": [
-      {
-        "label": "CourtListener MDL Docket",
-        "url": "https://www.courtlistener.com/docket/70970233/denial-v-openai-inc/"
-      },
-      {
-        "label": "EFF CFAA Analysis",
-        "url": "https://www.eff.org/"
-      },
-      {
-        "label": "ChatGPT Is Eating The World",
-        "url": "https://chatgptiseatingtheworld.com/category/denial-v-microsoft/"
-      }
-    ],
-    "48": [
-      {
-        "label": "CourtListener Docket",
-        "url": "https://www.courtlistener.com/docket/71972050/ted-entertainment-inc-v-nvidia-corporation/"
-      },
-      {
-        "label": "ChatGPT Is Eating The World",
-        "url": "https://chatgptiseatingtheworld.com/category/ted-entertainment-v-apple/"
-      }
-    ],
-    "49": [
-      {
-        "label": "CourtListener Docket",
-        "url": "https://www.courtlistener.com/docket/72074891/ted-entertainment-inc-v-meta-platforms-inc/"
-      },
-      {
-        "label": "ChatGPT Is Eating The World",
-        "url": "https://chatgptiseatingtheworld.com/category/ted-entertainment-v-openai/"
-      }
-    ],
-    "50": [
-      {
-        "label": "CourtListener Docket",
-        "url": "https://www.courtlistener.com/docket/72075006/ted-entertainment-inc-v-bytedance-inc/"
-      },
-      {
-        "label": "ChatGPT Is Eating The World",
-        "url": "https://chatgptiseatingtheworld.com/category/ted-entertainment-v-amazon/"
-      }
-    ],
-    "51": [
-      {
-        "label": "CourtListener Docket",
-        "url": "https://www.courtlistener.com/docket/72075006/ted-entertainment-inc-v-bytedance-inc/"
-      },
-      {
-        "label": "ChatGPT Is Eating The World",
-        "url": "https://chatgptiseatingtheworld.com/category/ted-entertainment-v-bytedance/"
-      }
-    ],
-    "52": [
-      {
-        "label": "CourtListener Docket（N.D. Cal. 5:26-cv-00880）",
-        "url": "https://www.courtlistener.com/docket/72199828/concord-music-group-inc-v-anthropic-pbc/"
-      },
-      {
-        "label": "ChatGPT Is Eating The World",
-        "url": "https://chatgptiseatingtheworld.com/category/concord-music-v-anthropic-ii/"
-      }
-    ],
-    "53": [
-      {
-        "label": "CourtListener Docket",
-        "url": "https://www.courtlistener.com/docket/72492986/encyclopedia-britannica-inc-v-openai-inc/"
-      },
-      {
-        "label": "ChatGPT Is Eating The World",
-        "url": "https://chatgptiseatingtheworld.com/category/encyclopaedia-britannica-v-openai/"
-      }
-    ],
-    "54": [
-      {
-        "label": "CourtListener Docket",
-        "url": "https://www.courtlistener.com/docket/72492986/encyclopedia-britannica-inc-v-openai-inc/"
-      },
-      {
-        "label": "ChatGPT Is Eating The World",
-        "url": "https://chatgptiseatingtheworld.com/"
-      }
-    ],
-    "55": [
-      {
-        "label": "CourtListener Docket",
-        "url": "https://www.courtlistener.com/docket/72384605/gracenote-media-services-llc-v-openai-foundation/"
-      },
-      {
-        "label": "ChatGPT Is Eating The World",
-        "url": "https://chatgptiseatingtheworld.com/category/gracenote-media-v-openai/"
-      }
-    ],
-    "56": [
-      {
-        "label": "CourtListener Docket",
-        "url": "https://www.courtlistener.com/docket/72069211/carreyrou-v-anthropic-pbc/"
-      },
-      {
-        "label": "ChatGPT Is Eating The World",
-        "url": "https://chatgptiseatingtheworld.com/category/cambronne-v-anthropic/"
-      }
-    ],
-    "58": [
-      {
-        "label": "CourtListener Docket",
-        "url": "https://www.courtlistener.com/docket/72505713/chicken-soup-for-the-soul-llc-v-anthropic-pbc/"
-      },
-      {
-        "label": "ChatGPT Is Eating The World",
-        "url": "https://chatgptiseatingtheworld.com/category/chicken-soup-for-the-soul-v-anthropic/"
-      }
-    ],
-    "59": [
-      {
-        "label": "CourtListener Docket",
-        "url": "https://www.courtlistener.com/docket/71874820/amazoncom-services-llc-v-perplexity-ai-inc/"
-      },
-      {
-        "label": "ChatGPT Is Eating The World",
-        "url": "https://chatgptiseatingtheworld.com/category/amazon-com-services-v-perplexity-ai/"
-      }
-    ],
-    "60": [
-      {
-        "label": "CourtListener Docket",
-        "url": "https://www.courtlistener.com/docket/66788385/getty-images-us-inc-v-stability-ai-inc/"
-      },
-      {
-        "label": "ChatGPT Is Eating The World",
-        "url": "https://chatgptiseatingtheworld.com/category/getty-images-v-stability-ai/"
-      }
-    ],
-    "61": [
-      {
-        "label": "CourtListener Docket",
-        "url": "https://www.courtlistener.com/docket/72083948/anders-v-stability-ai-inc/"
-      },
-      {
-        "label": "ChatGPT Is Eating The World",
-        "url": "https://chatgptiseatingtheworld.com/"
-      }
-    ],
-    "62": [
-      {
-        "label": "CourtListener Docket",
-        "url": "https://www.courtlistener.com/docket/72046160/lyon-v-adobe-inc/"
-      },
-      {
-        "label": "ChatGPT Is Eating The World",
-        "url": "https://chatgptiseatingtheworld.com/"
-      }
-    ],
-    "63": [
-      {
-        "label": "CourtListener Docket",
-        "url": "https://www.courtlistener.com/docket/72046160/lyon-v-adobe-inc/"
-      },
-      {
-        "label": "ChatGPT Is Eating The World",
-        "url": "https://chatgptiseatingtheworld.com/"
-      }
-    ],
-    "64": [
-      {
-        "label": "CourtListener Docket",
-        "url": "https://www.courtlistener.com/docket/71883095/james-v-together-computer-inc/"
-      },
-      {
-        "label": "ChatGPT Is Eating The World",
-        "url": "https://chatgptiseatingtheworld.com/"
-      }
-    ],
-    "65": [
-      {
-        "label": "CourtListener Docket",
-        "url": "https://www.courtlistener.com/docket/71827684/james-v-cerebras-systems-inc/"
-      },
-      {
-        "label": "ChatGPT Is Eating The World",
-        "url": "https://chatgptiseatingtheworld.com/"
-      }
-    ],
-    "66": [
-      {
-        "label": "CourtListener Docket",
-        "url": "https://www.courtlistener.com/docket/67599029/l-v-alphabet-inc/"
-      },
-      {
-        "label": "ChatGPT Is Eating The World",
-        "url": "https://chatgptiseatingtheworld.com/"
-      }
-    ],
-    "67": [
-      {
-        "label": "CourtListener Docket",
-        "url": "https://www.courtlistener.com/docket/72069211/carreyrou-v-anthropic-pbc/"
-      },
-      {
-        "label": "ChatGPT Is Eating The World",
-        "url": "https://chatgptiseatingtheworld.com/"
-      }
-    ],
-    "68": [
-      {
-        "label": "CourtListener Docket",
-        "url": "https://www.courtlistener.com/docket/69012654/millette-v-google-llc/"
-      },
-      {
-        "label": "ChatGPT Is Eating The World",
-        "url": "https://chatgptiseatingtheworld.com/"
-      }
-    ],
-    "69": [
-      {
-        "label": "CourtListener Docket",
-        "url": "https://www.courtlistener.com/docket/69045427/millette-v-nvidia-corporation/"
-      },
-      {
-        "label": "ChatGPT Is Eating The World",
-        "url": "https://chatgptiseatingtheworld.com/"
-      }
-    ],
-    "70": [
-      {
-        "label": "CourtListener Docket",
-        "url": "https://www.courtlistener.com/docket/69879510/in-re-openai-inc-copyright-infringement-litigation/"
-      },
-      {
-        "label": "ChatGPT Is Eating The World",
-        "url": "https://chatgptiseatingtheworld.com/"
-      }
-    ],
-    "71": [
-      {
-        "label": "CourtListener Docket",
-        "url": "https://www.courtlistener.com/docket/68138737/basbanes-v-microsoft-corporation/"
-      },
-      {
-        "label": "ChatGPT Is Eating The World",
-        "url": "https://chatgptiseatingtheworld.com/"
-      }
-    ],
-    "72": [
-      {
-        "label": "CourtListener Docket",
-        "url": "https://www.courtlistener.com/docket/68892274/the-center-for-investigative-reporting-inc-v-openai-inc/"
-      },
-      {
-        "label": "ChatGPT Is Eating The World",
-        "url": "https://chatgptiseatingtheworld.com/"
-      }
-    ],
-    "73": [
-      {
-        "label": "CourtListener Docket",
-        "url": "https://www.courtlistener.com/docket/70626692/bird-v-microsoft-corporation/"
-      },
-      {
-        "label": "ChatGPT Is Eating The World",
-        "url": "https://chatgptiseatingtheworld.com/"
-      }
-    ],
-    "74": [
-      {
-        "label": "CourtListener Docket",
-        "url": "https://www.courtlistener.com/docket/71969115/california-newspapers-partnership-v-microsoft-corporation/"
-      },
-      {
-        "label": "ChatGPT Is Eating The World",
-        "url": "https://chatgptiseatingtheworld.com/"
-      }
-    ],
-    "75": [
-      {
-        "label": "CourtListener Docket",
-        "url": "https://www.courtlistener.com/docket/72372770/apress-media-llc-v-annas-archive/"
-      },
-      {
-        "label": "ChatGPT Is Eating The World",
-        "url": "https://chatgptiseatingtheworld.com/"
-      }
-    ],
-    "76": [
-      {
-        "label": "CourtListener Docket",
-        "url": "https://www.courtlistener.com/docket/67599029/l-v-alphabet-inc/"
-      },
-      {
-        "label": "ChatGPT Is Eating The World",
-        "url": "https://chatgptiseatingtheworld.com/"
-      }
-    ],
-    "77": [
-      {
-        "label": "CourtListener Docket",
-        "url": "https://www.courtlistener.com/docket/72318854/gardner-v-runway-ai-inc/"
-      },
-      {
-        "label": "ChatGPT Is Eating The World",
-        "url": "https://chatgptiseatingtheworld.com/"
-      }
-    ],
-    "78": [
-      {
-        "label": "CourtListener Docket",
-        "url": "https://www.courtlistener.com/docket/72318854/gardner-v-runway-ai-inc/"
-      },
-      {
-        "label": "ChatGPT Is Eating The World",
-        "url": "https://chatgptiseatingtheworld.com/"
-      }
-    ],
-    "79": [
-      {
-        "label": "CourtListener Docket",
-        "url": "https://www.courtlistener.com/docket/72185144/ted-entertainment-inc-v-snap-inc/"
-      },
-      {
-        "label": "ChatGPT Is Eating The World",
-        "url": "https://chatgptiseatingtheworld.com/"
-      }
-    ],
-    "80": [
-      {
-        "label": "CourtListener Docket",
-        "url": "https://www.courtlistener.com/docket/72234164/youngblood-v-meta-platforms-inc/"
-      },
-      {
-        "label": "ChatGPT Is Eating The World",
-        "url": "https://chatgptiseatingtheworld.com/"
-      }
-    ],
-    "81": [
-      {
-        "label": "CourtListener Docket",
-        "url": "https://www.courtlistener.com/docket/72059948/google-llc-v-serpapi-llc/"
-      },
-      {
-        "label": "ChatGPT Is Eating The World",
-        "url": "https://chatgptiseatingtheworld.com/"
-      }
-    ],
-    "82": [
-      {
-        "label": "CourtListener Docket",
-        "url": "https://www.courtlistener.com/docket/72074891/ted-entertainment-inc-v-meta-platforms-inc/"
-      },
-      {
-        "label": "ChatGPT Is Eating The World",
-        "url": "https://chatgptiseatingtheworld.com/"
-      }
-    ],
-    "83": [
-      {
-        "label": "CourtListener Docket",
-        "url": "https://www.courtlistener.com/docket/72234164/youngblood-v-meta-platforms-inc/"
-      },
-      {
-        "label": "ChatGPT Is Eating The World",
-        "url": "https://chatgptiseatingtheworld.com/"
-      }
-    ],
-    "84": [
-      {
-        "label": "CourtListener Docket",
-        "url": "https://www.courtlistener.com/docket/68325563/nazemian-v-nvidia-corporation/"
-      },
-      {
-        "label": "ChatGPT Is Eating The World",
-        "url": "https://chatgptiseatingtheworld.com/"
-      }
-    ],
-    "85": [
-      {
-        "label": "CourtListener Docket",
-        "url": "https://www.courtlistener.com/docket/72161605/atlantic-recording-corporation-v-annas-archive/"
-      },
-      {
-        "label": "Music Business Worldwide",
-        "url": "https://www.musicbusinessworldwide.com/"
-      },
-      {
-        "label": "ChatGPT Is Eating The World",
-        "url": "https://chatgptiseatingtheworld.com/"
-      }
-    ],
-    "86": [
-      {
-        "label": "CourtListener Docket",
-        "url": "https://www.courtlistener.com/docket/71112094/beaulier-v-nvidia/"
-      },
-      {
-        "label": "The Verge Coverage",
-        "url": "https://theverge.com/"
-      },
-      {
-        "label": "ChatGPT Is Eating The World",
-        "url": "https://chatgptiseatingtheworld.com/"
-      }
-    ],
-    "87": [
-      {
-        "label": "CourtListener Docket",
-        "url": "https://www.courtlistener.com/docket/71112094/beaulier-v-meta/"
-      },
-      {
-        "label": "ChatGPT Is Eating The World",
-        "url": "https://chatgptiseatingtheworld.com/"
-      }
-    ],
-    "88": [
-      {
-        "label": "CourtListener Docket",
-        "url": "https://www.courtlistener.com/docket/71112094/beaulier-v-roblox/"
-      },
-      {
-        "label": "ChatGPT Is Eating The World",
-        "url": "https://chatgptiseatingtheworld.com/"
-      }
-    ],
-    "89": [
-      {
-        "label": "CourtListener Docket",
-        "url": "https://www.courtlistener.com/docket/71112094/beaulier-v-microsoft/"
-      },
-      {
-        "label": "ChatGPT Is Eating The World",
-        "url": "https://chatgptiseatingtheworld.com/"
-      }
-    ],
-    "90": [
-      {
-        "label": "CourtListener Docket",
-        "url": "https://www.courtlistener.com/docket/67569326/martinez-conde-v-apple/"
-      },
-      {
-        "label": "Hendrix v. Apple (Consolidated)",
-        "url": "https://www.courtlistener.com/docket/67569326/"
-      }
-    ],
-    "91": [
-      {
-        "label": "CourtListener Docket",
-        "url": "https://www.courtlistener.com/docket/67569326/alexander-v-apple/"
-      },
-      {
-        "label": "Hendrix v. Apple (Consolidated)",
-        "url": "https://www.courtlistener.com/docket/67569326/"
-      }
-    ],
-    "92": [
-      {
-        "label": "CourtListener Docket",
-        "url": "https://www.courtlistener.com/docket/67599029/alexander-v-salesforce/"
-      },
-      {
-        "label": "In re Salesforce (Consolidated)",
-        "url": "https://www.courtlistener.com/docket/67599029/"
-      }
-    ],
-    "93": [
-      {
-        "label": "CourtListener Docket",
-        "url": "https://www.courtlistener.com/docket/67599029/zhang-v-google/"
-      },
-      {
-        "label": "In re Google (Consolidated)",
-        "url": "https://www.courtlistener.com/docket/67599029/"
-      }
-    ],
-    "94": [
-      {
-        "label": "CourtListener Docket",
-        "url": "https://www.courtlistener.com/docket/67599029/leovy-v-google/"
-      },
-      {
-        "label": "In re Google (Consolidated)",
-        "url": "https://www.courtlistener.com/docket/67599029/"
-      }
-    ],
-    "95": [
-      {
-        "label": "CourtListener Docket",
-        "url": "https://www.courtlistener.com/docket/67569326/chabon-v-meta/"
-      },
-      {
-        "label": "Kadrey v. Meta (Consolidated)",
-        "url": "https://www.courtlistener.com/docket/67569326/"
-      }
-    ],
-    "96": [
-      {
-        "label": "CourtListener Docket",
-        "url": "https://www.courtlistener.com/docket/67569326/farnsworth-v-meta/"
-      },
-      {
-        "label": "Kadrey v. Meta (Consolidated)",
-        "url": "https://www.courtlistener.com/docket/67569326/"
-      }
-    ],
-    "97": [
-      {
-        "label": "CourtListener Docket",
-        "url": "https://www.courtlistener.com/docket/70513159/dubus-v-nvidia/"
-      },
-      {
-        "label": "Nazemian v. NVIDIA (Consolidated)",
-        "url": "https://www.courtlistener.com/docket/70513159/"
-      }
-    ],
-    "98": [
-      {
-        "label": "CourtListener Docket",
-        "url": "https://www.courtlistener.com/docket/67890942/makkai-v-databricks/"
-      },
-      {
-        "label": "In re Mosaic LLM (Consolidated)",
-        "url": "https://www.courtlistener.com/docket/67890942/"
-      }
-    ],
-    "99": [
-      {
-        "label": "CourtListener Docket",
-        "url": "https://www.courtlistener.com/docket/67810584/alter-v-openai/"
-      },
-      {
-        "label": "Authors Guild v. OpenAI (Consolidated)",
-        "url": "https://www.courtlistener.com/docket/67810584/"
-      }
-    ],
-    "100": [
-      {
-        "label": "CourtListener Docket",
-        "url": "https://www.courtlistener.com/docket/71720563/ace-cam-v-runway/"
-      },
-      {
-        "label": "Businessing v. Runway (Consolidated)",
-        "url": "https://www.courtlistener.com/docket/71720563/"
-      }
-    ],
-    "101": [
-      {
-        "label": "UK High Court Judgment — Getty Images v. Stability AI (judiciary.uk PDF, 2025/11)",
-        "url": "https://www.judiciary.uk/wp-content/uploads/2025/11/Getty-Images-v-Stability-AI.pdf"
-      },
-      {
-        "label": "Taylor Wessing Analysis",
-        "url": "https://www.taylorwessing.com/"
-      },
-      {
-        "label": "UK AI Copyright Update 2026",
-        "url": "https://www.taylorwessing.com/en/insights-and-events/insights/2026/01/next-steps-for-getty-v-stability-why-has-permission-to-appeal-been-granted"
-      }
-    ],
-    "102": [
-      {
-        "label": "GEMA v. OpenAI Judgment (German)",
-        "url": "https://www.bundesgerichtshof.de/"
-      },
-      {
-        "label": "ChatGPT Is Eating The World - GEMA v. OpenAI",
-        "url": "https://chatgptiseatingtheworld.com/"
-      },
-      {
-        "label": "International IP Law Analysis",
-        "url": "https://www.nortonrosefulbright.com/"
-      }
-    ],
-    "103": [
-      {
-        "label": "Ontario Superior Court of Justice",
-        "url": "https://www.courts.on.ca/"
-      },
-      {
-        "label": "CBC Newsroom",
-        "url": "https://www.cbc.ca/"
-      },
-      {
-        "label": "Global News Publishers AI Litigation",
-        "url": "https://www.globalnews.ca/"
-      }
-    ],
-    "104": [
-      {
-        "label": "Canadian Authors Association",
-        "url": "https://www.canauthors.org/"
-      },
-      {
-        "label": "Writers' Union of Canada",
-        "url": "https://www.writersunion.ca/"
-      },
-      {
-        "label": "Margaret Atwood Foundation",
-        "url": "https://www.margaretatwood.ca/"
-      }
-    ],
-    "105": [
-      {
-        "label": "Delhi High Court - ANI v. OpenAI",
-        "url": "https://www.delhihighcourt.nic.in/"
-      },
-      {
-        "label": "Asia News International",
-        "url": "https://www.aninews.in/"
-      },
-      {
-        "label": "Indian Copyright Law Tracker",
-        "url": "https://www.ipleaders.in/"
-      }
-    ],
-    "106": [
-      {
-        "label": "Tribunal judiciaire de Paris",
-        "url": "https://www.justice.gouv.fr/"
-      },
-      {
-        "label": "Syndicat National de l'Édition",
-        "url": "https://www.sne.fr/"
-      },
-      {
-        "label": "EU AI Act Developments",
-        "url": "https://www.nortonrosefulbright.com/en/knowledge/publications/ce8eaa5f/ai-in-litigation-series-an-update-on-ai-copyright-cases-in-2026"
-      }
-    ],
-    "107": [
-      {
-        "label": "CJEU Official Portal",
-        "url": "https://curia.europa.eu/"
-      },
-      {
-        "label": "Like Company v. Google Referral",
-        "url": "https://curia.europa.eu/"
-      },
-      {
-        "label": "EU Copyright Directive Database",
-        "url": "https://eur-lex.europa.eu/"
-      }
-    ],
-    "108": [
-      {
-        "label": "French Competition Authority Decision",
-        "url": "https://www.autoritedelaconcurrence.fr/"
-      },
-      {
-        "label": "Google Settlement Analysis",
-        "url": "https://www.nortonrosefulbright.com/"
-      },
-      {
-        "label": "RIAA AI Training Statement",
-        "url": "https://www.riaa.com/"
-      }
-    ],
-    "109": [
-      {
-        "label": "GEMA Official Statement",
-        "url": "https://www.gema.de/"
-      },
-      {
-        "label": "Suno AI Litigation Tracker",
-        "url": "https://www.sunoai.com/"
-      },
-      {
-        "label": "German Music Industry News",
-        "url": "https://www.musikindustrie.de/"
-      }
-    ],
-    "110": [
-      {
-        "label": "CourtListener Docket",
-        "url": "https://www.courtlistener.com/docket/72069211/carreyrou-v-anthropic-pbc/"
-      },
-      {
-        "label": "Carreyrou v. xAI et al. - Multiple Authors",
-        "url": "https://www.courtlistener.com/docket/72069211/carreyrou-v-anthropic-pbc/"
-      },
-      {
-        "label": "ChatGPT Is Eating The World - Carreyrou",
-        "url": "https://chatgptiseatingtheworld.com/"
-      }
-    ],
-    "111": [
-      {
-        "label": "CJEU Official Portal",
-        "url": "https://curia.europa.eu/"
-      },
-      {
-        "label": "Like Company v. Google - CJEU First Hearing",
-        "url": "https://www.twobirds.com/en/insights/2026/like-company-v-google-cjeu-holds-first-ever-hearing-on-generative-ai-and-copyright-on-10-march-2026"
-      },
-      {
-        "label": "EU Copyright Directive Analysis",
-        "url": "https://eur-lex.europa.eu/"
-      }
-    ],
-    "112": [
-      {
-        "label": "CourtListener Docket",
-        "url": "https://www.courtlistener.com/docket/63356475/thaler-v-perlmutter/"
-      },
-      {
-        "label": "Supreme Court SCOTUS Blog",
-        "url": "https://www.scotusblog.com/"
-      },
-      {
-        "label": "U.S. Copyright Office Guidance on AI Authorship",
-        "url": "https://www.copyright.gov/"
-      }
-    ],
-    "113": [
-      {
-        "label": "Bird & Bird - Higher Regional Court Hamburg Confirms AI Training Permitted",
-        "url": "https://www.twobirds.com/en/insights/2025/germany/higher-regional-court-hamburg-confirms-ai-training-was-permitted-(kneschke-v,-d-,-laion)"
-      },
-      {
-        "label": "DLA Piper - Kneschke v. LAION Judgment Analysis",
-        "url": "https://www.dlapiper.com/en/insights/blogs/mse-today/2025/robert-kneschke-v-laion"
-      },
-      {
-        "label": "Norton Rose Fulbright - Machine-Readable Opt-Outs",
-        "url": "https://www.insidetechlaw.com/blog/2025/12/machine-readable-opt-outs-and-ai-training-hamburg-court-clarifies-copyright-exceptions"
-      },
-      {
-        "label": "EUIPO Case Page",
-        "url": "https://www.euipo.europa.eu/en/law/recent-case-law/germany-hamburg-district-court-310-o-22723-laion-v-robert-kneschke"
-      }
-    ],
-    "114": [
-      {
-        "label": "Euronews - Danish Publishers Sue OpenAI",
-        "url": "https://www.euronews.com/next/2025/07/01/danish-publishers-sue-openai-after-failing-to-strike-rights-deal"
-      },
-      {
-        "label": "IFRRO - DPCMO to Sue OpenAI",
-        "url": "https://ifrro.org/page/article-detail/dpcmo-to-sue-openai-over-unauthorised-use-of-danish-content/"
-      },
-      {
-        "label": "Press Gazette - News Publisher AI Lawsuits",
-        "url": "https://pressgazette.co.uk/platforms/news-publisher-ai-deals-lawsuits-openai-google/"
-      }
-    ],
-    "115": [
-      {
-        "label": "Korea Herald - Korea's Top TV Networks Sue OpenAI",
-        "url": "https://www.koreaherald.com/article/10680650"
-      },
-      {
-        "label": "Anadolu Agency - South Korea Broadcasters Sue OpenAI",
-        "url": "https://www.aa.com.tr/en/asia-pacific/south-koreas-3-terrestrial-broadcasters-sue-openai-over-copyright-infringement/3838091"
-      },
-      {
-        "label": "MLex - OpenAI Sued in South Korea",
-        "url": "https://www.mlex.com/mlex/intellectual-property/articles/2445043"
-      }
-    ],
-    "116": [
-      {
-        "label": "Kluwer Copyright Blog - Beijing Internet Court AI Copyright",
-        "url": "https://copyrightblog.kluweriplaw.com/2024/02/02/beijing-internet-court-grants-copyright-to-ai-generated-image-for-the-first-time/"
-      },
-      {
-        "label": "China IP Law Update - Li vs Liu Translation",
-        "url": "https://www.chinaiplawupdate.com/2024/01/beijing-internet-court-releases-translation-of-li-vs-liu-recognizing-copyright-in-generative-ai/"
-      },
-      {
-        "label": "Baker McKenzie - Landmark AI Copyright Ruling",
-        "url": "https://globallitigationnews.bakermckenzie.com/2024/05/08/china-a-landmark-court-ruling-on-copyright-protection-for-ai-generated-works/"
-      }
-    ],
-    "117": [
-      {
-        "label": "Internet Archive — SCLA v. AI Company (Guangzhou) 中英文判決全文 PDF",
-        "url": "https://ia800409.us.archive.org/3/items/scla-v-ai-company-guangzhou-internet-court-02082024-with-english-translation/SCLA%20v%20AI%20Company%20Guangzhou%20Internet%20Court%2002082024%20with%20English%20Translation.pdf"
-      },
-      {
-        "label": "Bird & Bird - Guangzhou Internet Court AI Infringement",
-        "url": "https://www.twobirds.com/en/insights/2024/china/liability-of-ai-service-providers-for-copyright-infringement"
-      },
-      {
-        "label": "EU IP Helpdesk - Ultraman AI Case",
-        "url": "https://intellectual-property-helpdesk.ec.europa.eu/news-events/news/ultraman-ai-case-china-defining-copyright-liability-generative-ai-providers-2025-02-18_en"
-      },
-      {
-        "label": "KWM - China First AIGC Output Infringement",
-        "url": "https://www.kwm.com/cn/en/insights/latest-thinking/china-s-first-case-on-aigc-output-infringement-ultraman.html"
-      },
-      {
-        "label": "law168 — AI 生成奧特曼圖片侵權案 (2024)粤0192民初113号",
-        "url": "https://law168.com.cn/doc/view?id=194144"
-      }
-    ],
-    "118": [
-      {
-        "label": "Managing IP - Training AI Models Copyright China EU",
-        "url": "https://www.managingip.com/article/2dnu9r92bmzrcdrw84ykg/sponsored-content/training-ai-models-and-copyright-challenges-chinese-and-eu-insights"
-      },
-      {
-        "label": "KR-Asia - China Copyright Storm AI Content",
-        "url": "https://kr-asia.com/china-finds-itself-in-copyright-storm-as-creatives-protest-issues-with-ai-generated-content"
-      },
-      {
-        "label": "Authors Alliance - China AI Court Rulings",
-        "url": "https://www.authorsalliance.org/2025/04/03/chinas-controversial-court-rulings-on-ai-output-and-how-it-may-affect-people-in-the-us/"
-      }
-    ],
-    "119": [
-      {
-        "label": "Lexology — 讀賣新聞 v. Perplexity 訴訟分析",
-        "url": "https://www.lexology.com/library/detail.aspx?g=6726fef0-cff1-49a0-adc3-5b403a79140b"
-      },
-      {
-        "label": "日本経済新聞 — 日経・朝日、Perplexity 提訴報道",
-        "url": "https://www.nikkei.com/article/DGXZQOUD302I50Q5A730C2000000/"
-      },
-      {
-        "label": "LatAm Journalism Review",
-        "url": "https://gaaaon.jp/blog/ai-copyright-perplexity-lawsuit-2025"
-      }
-    ],
-    "120": [
-      {
-        "label": "Nikkei — 日経・朝日 Perplexity 提訴原文",
-        "url": "https://www.nikkei.com/article/DGXZQOUD302I50Q5A730C2000000/"
-      },
-      {
-        "label": "Lexology 訴訟分析",
-        "url": "https://www.lexology.com/library/detail.aspx?g=6726fef0-cff1-49a0-adc3-5b403a79140b"
-      }
-    ],
-    "121": [
-      {
-        "label": "Variety — CODA / Studio Ghibli OpenAI Sora2 聲明",
-        "url": "https://variety.com/2025/digital/news/studio-ghibli-openai-sora2-japanese-trade-group-coda-letter-1236568751/"
-      },
-      {
-        "label": "TechCrunch — Japanese Publishers Demand OpenAI Stop",
-        "url": "https://techcrunch.com/2025/11/03/studio-ghibli-and-other-japanese-publishers-want-openai-to-stop-training-on-their-work/"
-      },
-      {
-        "label": "The Register — Japan Asks OpenAI re: Anime",
-        "url": "https://www.theregister.com/2025/10/15/japan_openai_copyrighted_anime/"
-      }
-    ],
-    "122": [
-      {
-        "label": "Kluwer Copyright Blog — Brazil AI Copyright Case",
-        "url": "https://legalblogs.wolterskluwer.com/copyright-blog/the-first-major-generative-ai-and-copyright-case-in-brazil-first-impressions-and-challenges-ahead/"
-      },
-      {
-        "label": "Daniel Law — Folha v. OpenAI Analysis",
-        "url": "https://www.daniel-ip.com/en/articles/brazils-first-generative-ai-copyright-dispute-folha-de-s-paulo-v-openai/"
-      },
-      {
-        "label": "LatAm Journalism Review",
-        "url": "https://latamjournalismreview.org/news/folha-de-s-paulo-files-lawsuit-against-openai-for-unfair-competition-and-copyright-infringement/"
-      }
-    ],
-    "130": [
-      {
-        "label": "TechCrunch — YouTubers Sue Snap",
-        "url": "https://techcrunch.com/2026/01/26/youtubers-sue-snap-for-alleged-copyright-infringement-in-training-its-ai-models/"
-      },
-      {
-        "label": "ClassAction.org — Snap Class Action",
-        "url": "https://www.classaction.org/news/class-action-lawsuit-content-creators-claim-snap-wrongfully-scrapes-content-from-youtube-to-train-ai"
-      }
-    ],
-    "131": [
-      {
-        "label": "中國知識產權律師網 — 杭州奧特曼案一審判決書 (2024)浙0192民初1587號",
-        "url": "https://www.ciplawyer.cn/articles/155988.html"
-      },
-      {
-        "label": "中國知識產權律師網 — 杭州奧特曼案二審判決書 (2024)浙01民終10332號",
-        "url": "https://www.ciplawyer.cn/articles/155989.html"
-      },
-      {
-        "label": "知產力 — 杭州互聯網法院涉 AIGC 司法建議書",
-        "url": "https://www.zhichanli.com/p/1847346437"
-      },
-      {
-        "label": "天驰君泰 — 觸手 AI 著作權侵權案代理筆記",
-        "url": "https://www.tiantailaw.com/CN/10631-34736.aspx"
-      },
-      {
-        "label": "Merits & Tree — 杭互奧特曼案基本信息與評析",
-        "url": "https://www.meritsandtree.com/Content/2025/02-18/1019340078.html"
-      },
-      {
-        "label": "iphouse — (2024)浙0192民初1587號裁判文書",
-        "url": "https://www.iphouse.cn/casetypical/detail/g8vodq3ym2n1j4z4k8nlwk5r90x74epz.html"
-      }
-    ]
-  }
+ "$schema": "case_sources.v1",
+ "generatedFrom": "dashboard.html",
+ "generatedAt": "2026-06-12T19:53:51.283389+08:00",
+ "lastUpdatedSource": "2026-06-12T07:12:32+08:00",
+ "data": {
+  "1": [
+   {
+    "label": "CourtListener Docket",
+    "url": "https://www.courtlistener.com/docket/70622297/thomson-reuters-enterprise-centre-gmbh-v-ross-intelligence-inc/"
+   },
+   {
+    "label": "Ars Technica Coverage",
+    "url": "https://arstechnica.com/"
+   },
+   {
+    "label": "ChatGPT Is Eating The World",
+    "url": "https://chatgptiseatingtheworld.com/category/thomson-reuters-v-ross-intelligence/"
+   }
+  ],
+  "2": [
+   {
+    "label": "UK High Court Judgment — Getty Images v. Stability AI (judiciary.uk PDF, 2025/11)",
+    "url": "https://www.judiciary.uk/wp-content/uploads/2025/11/Getty-Images-v-Stability-AI.pdf"
+   },
+   {
+    "label": "CourtListener US Docket",
+    "url": "https://www.courtlistener.com/docket/71112094/getty-images-us-inc-v-stability-ai-ltd/"
+   },
+   {
+    "label": "ChatGPT Is Eating The World",
+    "url": "https://chatgptiseatingtheworld.com/category/getty-images-v-stability-ai/"
+   }
+  ],
+  "3": [
+   {
+    "label": "CourtListener Docket",
+    "url": "https://www.courtlistener.com/docket/66732129/andersen-v-stability-ai-ltd/"
+   },
+   {
+    "label": "The Verge Coverage",
+    "url": "https://theverge.com/"
+   },
+   {
+    "label": "ChatGPT Is Eating The World",
+    "url": "https://chatgptiseatingtheworld.com/category/andersen-v-stability-ai/"
+   }
+  ],
+  "4": [
+   {
+    "label": "CourtListener Docket",
+    "url": "https://www.courtlistener.com/docket/67599029/l-v-alphabet-inc/"
+   },
+   {
+    "label": "ChatGPT Is Eating The World",
+    "url": "https://chatgptiseatingtheworld.com/category/in-re-google-generative-ai-litigation/"
+   }
+  ],
+  "5": [
+   {
+    "label": "Perkins Coie Analysis",
+    "url": "https://perkinscoie.com/"
+   },
+   {
+    "label": "CourtListener Docket",
+    "url": "https://www.courtlistener.com/docket/67569326/kadrey-v-meta-platforms-inc/"
+   },
+   {
+    "label": "ChatGPT Is Eating The World",
+    "url": "https://chatgptiseatingtheworld.com/category/kadrey-v-meta/"
+   }
+  ],
+  "6": [
+   {
+    "label": "Anthropic Copyright Settlement",
+    "url": "https://www.anthropiccopyrightsettlement.com/"
+   },
+   {
+    "label": "CourtListener Docket",
+    "url": "https://www.courtlistener.com/docket/69058235/bartz-v-anthropic-pbc/"
+   },
+   {
+    "label": "Bloomberg Law",
+    "url": "https://news.bloomberglaw.com/"
+   },
+   {
+    "label": "ChatGPT Is Eating The World",
+    "url": "https://chatgptiseatingtheworld.com/category/bartz-v-anthropic/"
+   }
+  ],
+  "7": [
+   {
+    "label": "Music Business Worldwide",
+    "url": "https://www.musicbusinessworldwide.com/"
+   },
+   {
+    "label": "CourtListener Docket（N.D. Cal. 3:24-cv-03811，現審法院）",
+    "url": "https://www.courtlistener.com/docket/68889092/concord-music-group-inc-v-anthropic-pbc/"
+   },
+   {
+    "label": "CourtListener Docket（M.D. Tenn. 原案，已移轉）",
+    "url": "https://www.courtlistener.com/docket/67894459/concord-music-group-inc-v-anthropic-pbc/"
+   },
+   {
+    "label": "Bloomberg Law",
+    "url": "https://news.bloomberglaw.com/"
+   },
+   {
+    "label": "ChatGPT Is Eating The World",
+    "url": "https://chatgptiseatingtheworld.com/category/concord-music-v-anthropic/"
+   }
+  ],
+  "8": [
+   {
+    "label": "Authors Guild Website",
+    "url": "https://www.authorsguild.org/"
+   },
+   {
+    "label": "CourtListener Docket",
+    "url": "https://www.courtlistener.com/docket/67810584/authors-guild-v-openai-inc/"
+   },
+   {
+    "label": "ChatGPT Is Eating The World",
+    "url": "https://chatgptiseatingtheworld.com/category/authors-guild/"
+   }
+  ],
+  "9": [
+   {
+    "label": "National Law Review",
+    "url": "https://natlawreview.com/"
+   },
+   {
+    "label": "CourtListener Docket",
+    "url": "https://www.courtlistener.com/docket/68117049/the-new-york-times-company-v-microsoft-corporation/"
+   },
+   {
+    "label": "ChatGPT Is Eating The World",
+    "url": "https://chatgptiseatingtheworld.com/category/new-york-times/"
+   }
+  ],
+  "10": [
+   {
+    "label": "CourtListener MDL Docket",
+    "url": "https://www.courtlistener.com/docket/69879510/in-re-openai-inc-copyright-infringement-litigation/"
+   },
+   {
+    "label": "ChatGPT Is Eating The World",
+    "url": "https://chatgptiseatingtheworld.com/category/in-re-openai-copyright-infringement-litigation/"
+   }
+  ],
+  "11": [
+   {
+    "label": "The Hollywood Reporter",
+    "url": "https://www.hollywoodreporter.com/"
+   },
+   {
+    "label": "CourtListener Docket",
+    "url": "https://www.courtlistener.com/docket/70513159/disney-enterprises-inc-v-midjourney-inc/"
+   },
+   {
+    "label": "ChatGPT Is Eating The World",
+    "url": "https://chatgptiseatingtheworld.com/category/disney-v-midjourney/"
+   }
+  ],
+  "12": [
+   {
+    "label": "CourtListener Docket",
+    "url": "https://www.courtlistener.com/docket/68878608/umg-recordings-inc-v-suno-inc/"
+   },
+   {
+    "label": "Bloomberg Law",
+    "url": "https://news.bloomberglaw.com/"
+   },
+   {
+    "label": "Billboard",
+    "url": "https://www.billboard.com/"
+   },
+   {
+    "label": "ChatGPT Is Eating The World",
+    "url": "https://chatgptiseatingtheworld.com/category/umg-recordings-v-suno/"
+   }
+  ],
+  "13": [
+   {
+    "label": "CourtListener Docket",
+    "url": "https://www.courtlistener.com/docket/65669506/doe-1-v-github-inc/"
+   },
+   {
+    "label": "EFF Analysis",
+    "url": "https://www.eff.org/"
+   },
+   {
+    "label": "ChatGPT Is Eating The World",
+    "url": "https://chatgptiseatingtheworld.com/category/doe-1-v-github/"
+   }
+  ],
+  "14": [
+   {
+    "label": "CourtListener Docket",
+    "url": "https://www.courtlistener.com/docket/68290709/raw-story-media-inc-v-openai-inc/"
+   },
+   {
+    "label": "ChatGPT Is Eating The World",
+    "url": "https://chatgptiseatingtheworld.com/category/raw-story/"
+   }
+  ],
+  "15": [
+   {
+    "label": "The Verge",
+    "url": "https://theverge.com/"
+   },
+   {
+    "label": "CourtListener Docket",
+    "url": "https://www.courtlistener.com/docket/71997720/the-new-york-times-company-v-perplexity-ai-inc/"
+   },
+   {
+    "label": "ChatGPT Is Eating The World",
+    "url": "https://chatgptiseatingtheworld.com/category/new-york-times-v-perplexity-ai/"
+   }
+  ],
+  "16": [
+   {
+    "label": "The Hollywood Reporter",
+    "url": "https://www.hollywoodreporter.com/"
+   },
+   {
+    "label": "CourtListener Docket",
+    "url": "https://www.courtlistener.com/docket/69280385/alcon-entertainment-llc-v-tesla-inc/"
+   },
+   {
+    "label": "ChatGPT Is Eating The World",
+    "url": "https://chatgptiseatingtheworld.com/category/alcon-entertainment-v-tesla/"
+   }
+  ],
+  "17": [
+   {
+    "label": "CourtListener Docket",
+    "url": "https://www.courtlistener.com/docket/70899478/strike-3-holdings-llc-v-meta-platforms-inc/"
+   },
+   {
+    "label": "ChatGPT Is Eating The World",
+    "url": "https://chatgptiseatingtheworld.com/category/strike-3-holdings-v-meta/"
+   }
+  ],
+  "18": [
+   {
+    "label": "CourtListener Docket",
+    "url": "https://www.courtlistener.com/docket/67890942/huckabee-v-meta-platforms-inc/"
+   },
+   {
+    "label": "ChatGPT Is Eating The World",
+    "url": "https://chatgptiseatingtheworld.com/category/huckabee-v-meta-platforms-inc/"
+   }
+  ],
+  "19": [
+   {
+    "label": "The Verge",
+    "url": "https://theverge.com/"
+   },
+   {
+    "label": "CourtListener Docket",
+    "url": "https://www.courtlistener.com/docket/71720563/reddit-inc-v-serpapi-llc/"
+   },
+   {
+    "label": "ChatGPT Is Eating The World",
+    "url": "https://chatgptiseatingtheworld.com/category/reddit-v-serpapi-perplexity/"
+   }
+  ],
+  "20": [
+   {
+    "label": "CourtListener Docket",
+    "url": "https://www.courtlistener.com/docket/68535780/lehrman-v-lovo-inc/"
+   },
+   {
+    "label": "ChatGPT Is Eating The World",
+    "url": "https://chatgptiseatingtheworld.com/category/lerhman-v-lovo/"
+   }
+  ],
+  "21": [
+   {
+    "label": "CourtListener Docket",
+    "url": "https://www.courtlistener.com/docket/69111793/vacker-v-elevenlabs-inc/"
+   },
+   {
+    "label": "EFF",
+    "url": "https://www.eff.org/"
+   },
+   {
+    "label": "ChatGPT Is Eating The World",
+    "url": "https://chatgptiseatingtheworld.com/category/vacker-v-eleven-labs/"
+   }
+  ],
+  "22": [
+   {
+    "label": "CourtListener Docket",
+    "url": "https://www.courtlistener.com/docket/68325564/onan-v-databricks-inc/"
+   },
+   {
+    "label": "ChatGPT Is Eating The World",
+    "url": "https://chatgptiseatingtheworld.com/category/in-re-mosaic-llm-litigation/"
+   }
+  ],
+  "23": [
+   {
+    "label": "WSJ Report",
+    "url": "https://www.wsj.com/"
+   },
+   {
+    "label": "CourtListener Docket",
+    "url": "https://www.courtlistener.com/docket/69280523/dow-jones-company-inc-v-perplexity-ai-inc/"
+   },
+   {
+    "label": "ChatGPT Is Eating The World",
+    "url": "https://chatgptiseatingtheworld.com/category/dow-jones-v-perplexity/"
+   }
+  ],
+  "24": [
+   {
+    "label": "CourtListener Docket",
+    "url": "https://www.courtlistener.com/docket/71946179/james-v-snowflake-inc/"
+   },
+   {
+    "label": "ChatGPT Is Eating The World",
+    "url": "https://chatgptiseatingtheworld.com/category/james-v-snowflake/"
+   }
+  ],
+  "25": [
+   {
+    "label": "CourtListener Docket",
+    "url": "https://www.courtlistener.com/docket/69636122/advance-local-media-llc-v-cohere-inc/"
+   },
+   {
+    "label": "ChatGPT Is Eating The World",
+    "url": "https://chatgptiseatingtheworld.com/category/advanced-local-media-v-cohere/"
+   }
+  ],
+  "26": [
+   {
+    "label": "CourtListener Docket",
+    "url": "https://www.courtlistener.com/docket/71671876/woulard-v-suno-inc/"
+   },
+   {
+    "label": "EFF",
+    "url": "https://www.eff.org/"
+   },
+   {
+    "label": "ChatGPT Is Eating The World",
+    "url": "https://chatgptiseatingtheworld.com/category/woulard-v-suno/"
+   }
+  ],
+  "27": [
+   {
+    "label": "CourtListener Docket",
+    "url": "https://www.courtlistener.com/docket/71883091/entrepreneur-media-llc-v-meta-platforms-inc/"
+   },
+   {
+    "label": "ChatGPT Is Eating The World",
+    "url": "https://chatgptiseatingtheworld.com/category/entrepreneur-media-v-meta/"
+   }
+  ],
+  "28": [
+   {
+    "label": "CourtListener Docket",
+    "url": "https://www.courtlistener.com/docket/71279155/hendrix-v-apple-inc/"
+   },
+   {
+    "label": "ChatGPT Is Eating The World",
+    "url": "https://chatgptiseatingtheworld.com/category/hendrix-v-apple/"
+   }
+  ],
+  "29": [
+   {
+    "label": "CourtListener Docket",
+    "url": "https://www.courtlistener.com/docket/71662283/tanzer-v-salesforce-inc/"
+   },
+   {
+    "label": "ChatGPT Is Eating The World",
+    "url": "https://chatgptiseatingtheworld.com/category/tanzer-v-salesforce/"
+   }
+  ],
+  "30": [
+   {
+    "label": "The Hollywood Reporter",
+    "url": "https://www.hollywoodreporter.com/"
+   },
+   {
+    "label": "CourtListener Docket",
+    "url": "https://www.courtlistener.com/docket/71357247/disney-enterprises-inc-v-minimax/"
+   },
+   {
+    "label": "ChatGPT Is Eating The World",
+    "url": "https://chatgptiseatingtheworld.com/category/disney-v-minimax/"
+   }
+  ],
+  "31": [
+   {
+    "label": "CourtListener Docket",
+    "url": "https://www.courtlistener.com/docket/71972050/ted-entertainment-inc-v-nvidia-corporation/"
+   },
+   {
+    "label": "ChatGPT Is Eating The World",
+    "url": "https://chatgptiseatingtheworld.com/category/ted-entertainment-v-nvidia/"
+   }
+  ],
+  "32": [
+   {
+    "label": "CourtListener Docket",
+    "url": "https://www.courtlistener.com/docket/69456658/pierce-v-photobucket-inc/"
+   },
+   {
+    "label": "ChatGPT Is Eating The World",
+    "url": "https://chatgptiseatingtheworld.com/category/pierce-v-photobucket/"
+   }
+  ],
+  "33": [
+   {
+    "label": "Bloomberg Law",
+    "url": "https://news.bloomberglaw.com/"
+   },
+   {
+    "label": "CourtListener Docket",
+    "url": "https://www.courtlistener.com/docket/71996467/chicago-tribune-company-llc-v-perplexity-ai-inc/"
+   },
+   {
+    "label": "The Verge",
+    "url": "https://theverge.com/"
+   },
+   {
+    "label": "ChatGPT Is Eating The World",
+    "url": "https://chatgptiseatingtheworld.com/category/chicago-tribune-v-perplexity-ai/"
+   }
+  ],
+  "34": [
+   {
+    "label": "CourtListener Docket",
+    "url": "https://www.courtlistener.com/docket/71313411/encyclopaedia-britannica-inc-v-perplexity-ai-inc/"
+   },
+   {
+    "label": "National Law Review",
+    "url": "https://natlawreview.com/"
+   },
+   {
+    "label": "ChatGPT Is Eating The World",
+    "url": "https://chatgptiseatingtheworld.com/category/encyclopaedia-britannica-v-perplexity-ai/"
+   }
+  ],
+  "35": [
+   {
+    "label": "CourtListener Docket",
+    "url": "https://www.courtlistener.com/docket/68290804/the-intercept-media-inc-v-openai-inc/"
+   },
+   {
+    "label": "Ars Technica",
+    "url": "https://arstechnica.com/"
+   },
+   {
+    "label": "ChatGPT Is Eating The World",
+    "url": "https://chatgptiseatingtheworld.com/category/the-intercept-v-openai/"
+   }
+  ],
+  "36": [
+   {
+    "label": "CourtListener Docket (UMG v. Suno, related)",
+    "url": "https://www.courtlistener.com/docket/68878608/umg-recordings-inc-v-suno-inc/"
+   },
+   {
+    "label": "RIAA Press Release",
+    "url": "https://www.riaa.com/"
+   },
+   {
+    "label": "Billboard",
+    "url": "https://www.billboard.com/"
+   },
+   {
+    "label": "ChatGPT Is Eating The World",
+    "url": "https://chatgptiseatingtheworld.com/category/justice-v-suno/"
+   }
+  ],
+  "37": [
+   {
+    "label": "Music Business Worldwide",
+    "url": "https://www.musicbusinessworldwide.com/"
+   },
+   {
+    "label": "CourtListener Docket",
+    "url": "https://www.courtlistener.com/docket/70549282/justice-v-uncharted-labs-inc/"
+   },
+   {
+    "label": "ChatGPT Is Eating The World",
+    "url": "https://chatgptiseatingtheworld.com/category/justice-v-uncharted-labs/"
+   }
+  ],
+  "38": [
+   {
+    "label": "Authors Guild",
+    "url": "https://www.authorsguild.org/"
+   },
+   {
+    "label": "CourtListener Docket",
+    "url": "https://www.courtlistener.com/docket/68325563/nazemian-v-nvidia-corporation/"
+   },
+   {
+    "label": "ChatGPT Is Eating The World",
+    "url": "https://chatgptiseatingtheworld.com/category/abdi-nazemian-v-nvidia-corp/"
+   }
+  ],
+  "39": [
+   {
+    "label": "The Hollywood Reporter",
+    "url": "https://www.hollywoodreporter.com/"
+   },
+   {
+    "label": "CourtListener Docket",
+    "url": "https://www.courtlistener.com/docket/71271014/warner-bros-entertainment-inc-v-midjourney-inc/"
+   },
+   {
+    "label": "Variety",
+    "url": "https://variety.com/"
+   },
+   {
+    "label": "ChatGPT Is Eating The World",
+    "url": "https://chatgptiseatingtheworld.com/category/warner-brothers/"
+   }
+  ],
+  "41": [
+   {
+    "label": "CourtListener Docket",
+    "url": "https://www.courtlistener.com/docket/68484432/daily-news-lp-v-microsoft-corporation/"
+   },
+   {
+    "label": "Bloomberg Law",
+    "url": "https://news.bloomberglaw.com/"
+   },
+   {
+    "label": "ChatGPT Is Eating The World",
+    "url": "https://chatgptiseatingtheworld.com/category/daily-news/"
+   }
+  ],
+  "42": [
+   {
+    "label": "CourtListener MDL Docket",
+    "url": "https://www.courtlistener.com/docket/70338311/ziff-davis-inc-v-openai-inc/"
+   },
+   {
+    "label": "EFF Analysis",
+    "url": "https://www.eff.org/"
+   },
+   {
+    "label": "ChatGPT Is Eating The World",
+    "url": "https://chatgptiseatingtheworld.com/category/ziff-davis-v-openai/"
+   }
+  ],
+  "43": [
+   {
+    "label": "CourtListener Docket",
+    "url": "https://www.courtlistener.com/docket/71970530/us-news-world-report-lp-v-openai-inc/"
+   },
+   {
+    "label": "Trademark Law Blog",
+    "url": "https://www.trademarkblog.org/"
+   },
+   {
+    "label": "ChatGPT Is Eating The World",
+    "url": "https://chatgptiseatingtheworld.com/category/u-s-news-v-openai/"
+   }
+  ],
+  "44": [
+   {
+    "label": "CourtListener Docket",
+    "url": "https://www.courtlistener.com/docket/72505829/bmg-rights-management-us-llc-v-anthropic-pbc/"
+   },
+   {
+    "label": "Bloomberg Law",
+    "url": "https://news.bloomberglaw.com/ip-law/bmg-rights-management-sues-anthropic-for-copyright-infringement"
+   },
+   {
+    "label": "Music Business Worldwide",
+    "url": "https://www.musicbusinessworldwide.com/bmg-sues-anthropic-alleging-ai-giants-380b-valuation-was-built-on-stolen-copyrighted-works/"
+   },
+   {
+    "label": "ChatGPT Is Eating The World",
+    "url": "https://chatgptiseatingtheworld.com/"
+   }
+  ],
+  "45": [
+   {
+    "label": "CourtListener Docket",
+    "url": "https://www.courtlistener.com/docket/67890942/huckabee-v-meta-platforms-inc/"
+   },
+   {
+    "label": "National Law Review",
+    "url": "https://natlawreview.com/"
+   },
+   {
+    "label": "ChatGPT Is Eating The World",
+    "url": "https://chatgptiseatingtheworld.com/category/huckabee-v-bloomberg/"
+   }
+  ],
+  "46": [
+   {
+    "label": "CourtListener Docket",
+    "url": "https://www.courtlistener.com/docket/68878697/umg-recordings-inc-v-uncharted-labs-inc/"
+   },
+   {
+    "label": "Billboard Settlement Analysis",
+    "url": "https://www.billboard.com/"
+   },
+   {
+    "label": "Music Business Worldwide",
+    "url": "https://www.musicbusinessworldwide.com/"
+   },
+   {
+    "label": "ChatGPT Is Eating The World",
+    "url": "https://chatgptiseatingtheworld.com/category/umg-recordings-v-uncharted-labs/"
+   }
+  ],
+  "47": [
+   {
+    "label": "CourtListener MDL Docket",
+    "url": "https://www.courtlistener.com/docket/70970233/denial-v-openai-inc/"
+   },
+   {
+    "label": "EFF CFAA Analysis",
+    "url": "https://www.eff.org/"
+   },
+   {
+    "label": "ChatGPT Is Eating The World",
+    "url": "https://chatgptiseatingtheworld.com/category/denial-v-microsoft/"
+   }
+  ],
+  "48": [
+   {
+    "label": "CourtListener Docket",
+    "url": "https://www.courtlistener.com/docket/71972050/ted-entertainment-inc-v-nvidia-corporation/"
+   },
+   {
+    "label": "ChatGPT Is Eating The World",
+    "url": "https://chatgptiseatingtheworld.com/category/ted-entertainment-v-apple/"
+   }
+  ],
+  "49": [
+   {
+    "label": "CourtListener Docket",
+    "url": "https://www.courtlistener.com/docket/72074891/ted-entertainment-inc-v-meta-platforms-inc/"
+   },
+   {
+    "label": "ChatGPT Is Eating The World",
+    "url": "https://chatgptiseatingtheworld.com/category/ted-entertainment-v-openai/"
+   }
+  ],
+  "50": [
+   {
+    "label": "CourtListener Docket",
+    "url": "https://www.courtlistener.com/docket/72075006/ted-entertainment-inc-v-bytedance-inc/"
+   },
+   {
+    "label": "ChatGPT Is Eating The World",
+    "url": "https://chatgptiseatingtheworld.com/category/ted-entertainment-v-amazon/"
+   }
+  ],
+  "51": [
+   {
+    "label": "CourtListener Docket",
+    "url": "https://www.courtlistener.com/docket/72075006/ted-entertainment-inc-v-bytedance-inc/"
+   },
+   {
+    "label": "ChatGPT Is Eating The World",
+    "url": "https://chatgptiseatingtheworld.com/category/ted-entertainment-v-bytedance/"
+   }
+  ],
+  "52": [
+   {
+    "label": "CourtListener Docket（N.D. Cal. 5:26-cv-00880）",
+    "url": "https://www.courtlistener.com/docket/72199828/concord-music-group-inc-v-anthropic-pbc/"
+   },
+   {
+    "label": "ChatGPT Is Eating The World",
+    "url": "https://chatgptiseatingtheworld.com/category/concord-music-v-anthropic-ii/"
+   }
+  ],
+  "53": [
+   {
+    "label": "CourtListener Docket",
+    "url": "https://www.courtlistener.com/docket/72492986/encyclopedia-britannica-inc-v-openai-inc/"
+   },
+   {
+    "label": "ChatGPT Is Eating The World",
+    "url": "https://chatgptiseatingtheworld.com/category/encyclopaedia-britannica-v-openai/"
+   }
+  ],
+  "54": [
+   {
+    "label": "CourtListener Docket",
+    "url": "https://www.courtlistener.com/docket/72492986/encyclopedia-britannica-inc-v-openai-inc/"
+   },
+   {
+    "label": "ChatGPT Is Eating The World",
+    "url": "https://chatgptiseatingtheworld.com/"
+   }
+  ],
+  "55": [
+   {
+    "label": "CourtListener Docket",
+    "url": "https://www.courtlistener.com/docket/72384605/gracenote-media-services-llc-v-openai-foundation/"
+   },
+   {
+    "label": "ChatGPT Is Eating The World",
+    "url": "https://chatgptiseatingtheworld.com/category/gracenote-media-v-openai/"
+   }
+  ],
+  "56": [
+   {
+    "label": "CourtListener Docket",
+    "url": "https://www.courtlistener.com/docket/72069211/carreyrou-v-anthropic-pbc/"
+   },
+   {
+    "label": "ChatGPT Is Eating The World",
+    "url": "https://chatgptiseatingtheworld.com/category/cambronne-v-anthropic/"
+   }
+  ],
+  "58": [
+   {
+    "label": "CourtListener Docket",
+    "url": "https://www.courtlistener.com/docket/72505713/chicken-soup-for-the-soul-llc-v-anthropic-pbc/"
+   },
+   {
+    "label": "ChatGPT Is Eating The World",
+    "url": "https://chatgptiseatingtheworld.com/category/chicken-soup-for-the-soul-v-anthropic/"
+   }
+  ],
+  "59": [
+   {
+    "label": "CourtListener Docket",
+    "url": "https://www.courtlistener.com/docket/71874820/amazoncom-services-llc-v-perplexity-ai-inc/"
+   },
+   {
+    "label": "ChatGPT Is Eating The World",
+    "url": "https://chatgptiseatingtheworld.com/category/amazon-com-services-v-perplexity-ai/"
+   }
+  ],
+  "60": [
+   {
+    "label": "CourtListener Docket",
+    "url": "https://www.courtlistener.com/docket/66788385/getty-images-us-inc-v-stability-ai-inc/"
+   },
+   {
+    "label": "ChatGPT Is Eating The World",
+    "url": "https://chatgptiseatingtheworld.com/category/getty-images-v-stability-ai/"
+   }
+  ],
+  "61": [
+   {
+    "label": "CourtListener Docket",
+    "url": "https://www.courtlistener.com/docket/72083948/anders-v-stability-ai-inc/"
+   },
+   {
+    "label": "ChatGPT Is Eating The World",
+    "url": "https://chatgptiseatingtheworld.com/"
+   }
+  ],
+  "62": [
+   {
+    "label": "CourtListener Docket",
+    "url": "https://www.courtlistener.com/docket/72046160/lyon-v-adobe-inc/"
+   },
+   {
+    "label": "ChatGPT Is Eating The World",
+    "url": "https://chatgptiseatingtheworld.com/"
+   }
+  ],
+  "63": [
+   {
+    "label": "CourtListener Docket",
+    "url": "https://www.courtlistener.com/docket/72046160/lyon-v-adobe-inc/"
+   },
+   {
+    "label": "ChatGPT Is Eating The World",
+    "url": "https://chatgptiseatingtheworld.com/"
+   }
+  ],
+  "64": [
+   {
+    "label": "CourtListener Docket",
+    "url": "https://www.courtlistener.com/docket/71883095/james-v-together-computer-inc/"
+   },
+   {
+    "label": "ChatGPT Is Eating The World",
+    "url": "https://chatgptiseatingtheworld.com/"
+   }
+  ],
+  "65": [
+   {
+    "label": "CourtListener Docket",
+    "url": "https://www.courtlistener.com/docket/71827684/james-v-cerebras-systems-inc/"
+   },
+   {
+    "label": "ChatGPT Is Eating The World",
+    "url": "https://chatgptiseatingtheworld.com/"
+   }
+  ],
+  "66": [
+   {
+    "label": "CourtListener Docket",
+    "url": "https://www.courtlistener.com/docket/67599029/l-v-alphabet-inc/"
+   },
+   {
+    "label": "ChatGPT Is Eating The World",
+    "url": "https://chatgptiseatingtheworld.com/"
+   }
+  ],
+  "67": [
+   {
+    "label": "CourtListener Docket",
+    "url": "https://www.courtlistener.com/docket/72069211/carreyrou-v-anthropic-pbc/"
+   },
+   {
+    "label": "ChatGPT Is Eating The World",
+    "url": "https://chatgptiseatingtheworld.com/"
+   }
+  ],
+  "68": [
+   {
+    "label": "CourtListener Docket",
+    "url": "https://www.courtlistener.com/docket/69012654/millette-v-google-llc/"
+   },
+   {
+    "label": "ChatGPT Is Eating The World",
+    "url": "https://chatgptiseatingtheworld.com/"
+   }
+  ],
+  "69": [
+   {
+    "label": "CourtListener Docket",
+    "url": "https://www.courtlistener.com/docket/69045427/millette-v-nvidia-corporation/"
+   },
+   {
+    "label": "ChatGPT Is Eating The World",
+    "url": "https://chatgptiseatingtheworld.com/"
+   }
+  ],
+  "70": [
+   {
+    "label": "CourtListener Docket",
+    "url": "https://www.courtlistener.com/docket/69879510/in-re-openai-inc-copyright-infringement-litigation/"
+   },
+   {
+    "label": "ChatGPT Is Eating The World",
+    "url": "https://chatgptiseatingtheworld.com/"
+   }
+  ],
+  "71": [
+   {
+    "label": "CourtListener Docket",
+    "url": "https://www.courtlistener.com/docket/68138737/basbanes-v-microsoft-corporation/"
+   },
+   {
+    "label": "ChatGPT Is Eating The World",
+    "url": "https://chatgptiseatingtheworld.com/"
+   }
+  ],
+  "72": [
+   {
+    "label": "CourtListener Docket",
+    "url": "https://www.courtlistener.com/docket/68892274/the-center-for-investigative-reporting-inc-v-openai-inc/"
+   },
+   {
+    "label": "ChatGPT Is Eating The World",
+    "url": "https://chatgptiseatingtheworld.com/"
+   }
+  ],
+  "73": [
+   {
+    "label": "CourtListener Docket",
+    "url": "https://www.courtlistener.com/docket/70626692/bird-v-microsoft-corporation/"
+   },
+   {
+    "label": "ChatGPT Is Eating The World",
+    "url": "https://chatgptiseatingtheworld.com/"
+   }
+  ],
+  "74": [
+   {
+    "label": "CourtListener Docket",
+    "url": "https://www.courtlistener.com/docket/71969115/california-newspapers-partnership-v-microsoft-corporation/"
+   },
+   {
+    "label": "ChatGPT Is Eating The World",
+    "url": "https://chatgptiseatingtheworld.com/"
+   }
+  ],
+  "75": [
+   {
+    "label": "CourtListener Docket",
+    "url": "https://www.courtlistener.com/docket/72372770/apress-media-llc-v-annas-archive/"
+   },
+   {
+    "label": "ChatGPT Is Eating The World",
+    "url": "https://chatgptiseatingtheworld.com/"
+   }
+  ],
+  "76": [
+   {
+    "label": "CourtListener Docket",
+    "url": "https://www.courtlistener.com/docket/67599029/l-v-alphabet-inc/"
+   },
+   {
+    "label": "ChatGPT Is Eating The World",
+    "url": "https://chatgptiseatingtheworld.com/"
+   }
+  ],
+  "77": [
+   {
+    "label": "CourtListener Docket",
+    "url": "https://www.courtlistener.com/docket/72318854/gardner-v-runway-ai-inc/"
+   },
+   {
+    "label": "ChatGPT Is Eating The World",
+    "url": "https://chatgptiseatingtheworld.com/"
+   }
+  ],
+  "78": [
+   {
+    "label": "CourtListener Docket",
+    "url": "https://www.courtlistener.com/docket/72318854/gardner-v-runway-ai-inc/"
+   },
+   {
+    "label": "ChatGPT Is Eating The World",
+    "url": "https://chatgptiseatingtheworld.com/"
+   }
+  ],
+  "79": [
+   {
+    "label": "CourtListener Docket",
+    "url": "https://www.courtlistener.com/docket/72185144/ted-entertainment-inc-v-snap-inc/"
+   },
+   {
+    "label": "ChatGPT Is Eating The World",
+    "url": "https://chatgptiseatingtheworld.com/"
+   }
+  ],
+  "80": [
+   {
+    "label": "CourtListener Docket",
+    "url": "https://www.courtlistener.com/docket/72234164/youngblood-v-meta-platforms-inc/"
+   },
+   {
+    "label": "ChatGPT Is Eating The World",
+    "url": "https://chatgptiseatingtheworld.com/"
+   }
+  ],
+  "81": [
+   {
+    "label": "CourtListener Docket",
+    "url": "https://www.courtlistener.com/docket/72059948/google-llc-v-serpapi-llc/"
+   },
+   {
+    "label": "ChatGPT Is Eating The World",
+    "url": "https://chatgptiseatingtheworld.com/"
+   }
+  ],
+  "82": [
+   {
+    "label": "CourtListener Docket",
+    "url": "https://www.courtlistener.com/docket/72074891/ted-entertainment-inc-v-meta-platforms-inc/"
+   },
+   {
+    "label": "ChatGPT Is Eating The World",
+    "url": "https://chatgptiseatingtheworld.com/"
+   }
+  ],
+  "83": [
+   {
+    "label": "CourtListener Docket",
+    "url": "https://www.courtlistener.com/docket/72234164/youngblood-v-meta-platforms-inc/"
+   },
+   {
+    "label": "ChatGPT Is Eating The World",
+    "url": "https://chatgptiseatingtheworld.com/"
+   }
+  ],
+  "84": [
+   {
+    "label": "CourtListener Docket",
+    "url": "https://www.courtlistener.com/docket/68325563/nazemian-v-nvidia-corporation/"
+   },
+   {
+    "label": "ChatGPT Is Eating The World",
+    "url": "https://chatgptiseatingtheworld.com/"
+   }
+  ],
+  "85": [
+   {
+    "label": "CourtListener Docket",
+    "url": "https://www.courtlistener.com/docket/72161605/atlantic-recording-corporation-v-annas-archive/"
+   },
+   {
+    "label": "Music Business Worldwide",
+    "url": "https://www.musicbusinessworldwide.com/"
+   },
+   {
+    "label": "ChatGPT Is Eating The World",
+    "url": "https://chatgptiseatingtheworld.com/"
+   }
+  ],
+  "86": [
+   {
+    "label": "CourtListener Docket",
+    "url": "https://www.courtlistener.com/docket/71112094/beaulier-v-nvidia/"
+   },
+   {
+    "label": "The Verge Coverage",
+    "url": "https://theverge.com/"
+   },
+   {
+    "label": "ChatGPT Is Eating The World",
+    "url": "https://chatgptiseatingtheworld.com/"
+   }
+  ],
+  "87": [
+   {
+    "label": "CourtListener Docket",
+    "url": "https://www.courtlistener.com/docket/71112094/beaulier-v-meta/"
+   },
+   {
+    "label": "ChatGPT Is Eating The World",
+    "url": "https://chatgptiseatingtheworld.com/"
+   }
+  ],
+  "88": [
+   {
+    "label": "CourtListener Docket",
+    "url": "https://www.courtlistener.com/docket/71112094/beaulier-v-roblox/"
+   },
+   {
+    "label": "ChatGPT Is Eating The World",
+    "url": "https://chatgptiseatingtheworld.com/"
+   }
+  ],
+  "89": [
+   {
+    "label": "CourtListener Docket",
+    "url": "https://www.courtlistener.com/docket/71112094/beaulier-v-microsoft/"
+   },
+   {
+    "label": "ChatGPT Is Eating The World",
+    "url": "https://chatgptiseatingtheworld.com/"
+   }
+  ],
+  "90": [
+   {
+    "label": "CourtListener Docket",
+    "url": "https://www.courtlistener.com/docket/67569326/martinez-conde-v-apple/"
+   },
+   {
+    "label": "Hendrix v. Apple (Consolidated)",
+    "url": "https://www.courtlistener.com/docket/67569326/"
+   }
+  ],
+  "91": [
+   {
+    "label": "CourtListener Docket",
+    "url": "https://www.courtlistener.com/docket/67569326/alexander-v-apple/"
+   },
+   {
+    "label": "Hendrix v. Apple (Consolidated)",
+    "url": "https://www.courtlistener.com/docket/67569326/"
+   }
+  ],
+  "92": [
+   {
+    "label": "CourtListener Docket",
+    "url": "https://www.courtlistener.com/docket/67599029/alexander-v-salesforce/"
+   },
+   {
+    "label": "In re Salesforce (Consolidated)",
+    "url": "https://www.courtlistener.com/docket/67599029/"
+   }
+  ],
+  "93": [
+   {
+    "label": "CourtListener Docket",
+    "url": "https://www.courtlistener.com/docket/67599029/zhang-v-google/"
+   },
+   {
+    "label": "In re Google (Consolidated)",
+    "url": "https://www.courtlistener.com/docket/67599029/"
+   }
+  ],
+  "94": [
+   {
+    "label": "CourtListener Docket",
+    "url": "https://www.courtlistener.com/docket/67599029/leovy-v-google/"
+   },
+   {
+    "label": "In re Google (Consolidated)",
+    "url": "https://www.courtlistener.com/docket/67599029/"
+   }
+  ],
+  "95": [
+   {
+    "label": "CourtListener Docket",
+    "url": "https://www.courtlistener.com/docket/67569326/chabon-v-meta/"
+   },
+   {
+    "label": "Kadrey v. Meta (Consolidated)",
+    "url": "https://www.courtlistener.com/docket/67569326/"
+   }
+  ],
+  "96": [
+   {
+    "label": "CourtListener Docket",
+    "url": "https://www.courtlistener.com/docket/67569326/farnsworth-v-meta/"
+   },
+   {
+    "label": "Kadrey v. Meta (Consolidated)",
+    "url": "https://www.courtlistener.com/docket/67569326/"
+   }
+  ],
+  "97": [
+   {
+    "label": "CourtListener Docket",
+    "url": "https://www.courtlistener.com/docket/70513159/dubus-v-nvidia/"
+   },
+   {
+    "label": "Nazemian v. NVIDIA (Consolidated)",
+    "url": "https://www.courtlistener.com/docket/70513159/"
+   }
+  ],
+  "98": [
+   {
+    "label": "CourtListener Docket",
+    "url": "https://www.courtlistener.com/docket/67890942/makkai-v-databricks/"
+   },
+   {
+    "label": "In re Mosaic LLM (Consolidated)",
+    "url": "https://www.courtlistener.com/docket/67890942/"
+   }
+  ],
+  "99": [
+   {
+    "label": "CourtListener Docket",
+    "url": "https://www.courtlistener.com/docket/67810584/alter-v-openai/"
+   },
+   {
+    "label": "Authors Guild v. OpenAI (Consolidated)",
+    "url": "https://www.courtlistener.com/docket/67810584/"
+   }
+  ],
+  "100": [
+   {
+    "label": "CourtListener Docket",
+    "url": "https://www.courtlistener.com/docket/71720563/ace-cam-v-runway/"
+   },
+   {
+    "label": "Businessing v. Runway (Consolidated)",
+    "url": "https://www.courtlistener.com/docket/71720563/"
+   }
+  ],
+  "101": [
+   {
+    "label": "UK High Court Judgment — Getty Images v. Stability AI (judiciary.uk PDF, 2025/11)",
+    "url": "https://www.judiciary.uk/wp-content/uploads/2025/11/Getty-Images-v-Stability-AI.pdf"
+   },
+   {
+    "label": "Taylor Wessing Analysis",
+    "url": "https://www.taylorwessing.com/"
+   },
+   {
+    "label": "UK AI Copyright Update 2026",
+    "url": "https://www.taylorwessing.com/en/insights-and-events/insights/2026/01/next-steps-for-getty-v-stability-why-has-permission-to-appeal-been-granted"
+   }
+  ],
+  "102": [
+   {
+    "label": "GEMA v. OpenAI Judgment (German)",
+    "url": "https://www.bundesgerichtshof.de/"
+   },
+   {
+    "label": "ChatGPT Is Eating The World - GEMA v. OpenAI",
+    "url": "https://chatgptiseatingtheworld.com/"
+   },
+   {
+    "label": "International IP Law Analysis",
+    "url": "https://www.nortonrosefulbright.com/"
+   }
+  ],
+  "103": [
+   {
+    "label": "Ontario Superior Court of Justice",
+    "url": "https://www.courts.on.ca/"
+   },
+   {
+    "label": "CBC Newsroom",
+    "url": "https://www.cbc.ca/"
+   },
+   {
+    "label": "Global News Publishers AI Litigation",
+    "url": "https://www.globalnews.ca/"
+   }
+  ],
+  "104": [
+   {
+    "label": "Canadian Authors Association",
+    "url": "https://www.canauthors.org/"
+   },
+   {
+    "label": "Writers' Union of Canada",
+    "url": "https://www.writersunion.ca/"
+   },
+   {
+    "label": "Margaret Atwood Foundation",
+    "url": "https://www.margaretatwood.ca/"
+   }
+  ],
+  "105": [
+   {
+    "label": "Delhi High Court - ANI v. OpenAI",
+    "url": "https://www.delhihighcourt.nic.in/"
+   },
+   {
+    "label": "Asia News International",
+    "url": "https://www.aninews.in/"
+   },
+   {
+    "label": "Indian Copyright Law Tracker",
+    "url": "https://www.ipleaders.in/"
+   }
+  ],
+  "106": [
+   {
+    "label": "Tribunal judiciaire de Paris",
+    "url": "https://www.justice.gouv.fr/"
+   },
+   {
+    "label": "Syndicat National de l'Édition",
+    "url": "https://www.sne.fr/"
+   },
+   {
+    "label": "EU AI Act Developments",
+    "url": "https://www.nortonrosefulbright.com/en/knowledge/publications/ce8eaa5f/ai-in-litigation-series-an-update-on-ai-copyright-cases-in-2026"
+   }
+  ],
+  "107": [
+   {
+    "label": "CJEU Official Portal",
+    "url": "https://curia.europa.eu/"
+   },
+   {
+    "label": "Like Company v. Google Referral",
+    "url": "https://curia.europa.eu/"
+   },
+   {
+    "label": "EU Copyright Directive Database",
+    "url": "https://eur-lex.europa.eu/"
+   }
+  ],
+  "108": [
+   {
+    "label": "French Competition Authority Decision",
+    "url": "https://www.autoritedelaconcurrence.fr/"
+   },
+   {
+    "label": "Google Settlement Analysis",
+    "url": "https://www.nortonrosefulbright.com/"
+   },
+   {
+    "label": "RIAA AI Training Statement",
+    "url": "https://www.riaa.com/"
+   }
+  ],
+  "109": [
+   {
+    "label": "GEMA Official Statement",
+    "url": "https://www.gema.de/"
+   },
+   {
+    "label": "Suno AI Litigation Tracker",
+    "url": "https://www.sunoai.com/"
+   },
+   {
+    "label": "German Music Industry News",
+    "url": "https://www.musikindustrie.de/"
+   }
+  ],
+  "110": [
+   {
+    "label": "CourtListener Docket",
+    "url": "https://www.courtlistener.com/docket/72069211/carreyrou-v-anthropic-pbc/"
+   },
+   {
+    "label": "Carreyrou v. xAI et al. - Multiple Authors",
+    "url": "https://www.courtlistener.com/docket/72069211/carreyrou-v-anthropic-pbc/"
+   },
+   {
+    "label": "ChatGPT Is Eating The World - Carreyrou",
+    "url": "https://chatgptiseatingtheworld.com/"
+   }
+  ],
+  "111": [
+   {
+    "label": "CJEU Official Portal",
+    "url": "https://curia.europa.eu/"
+   },
+   {
+    "label": "Like Company v. Google - CJEU First Hearing",
+    "url": "https://www.twobirds.com/en/insights/2026/like-company-v-google-cjeu-holds-first-ever-hearing-on-generative-ai-and-copyright-on-10-march-2026"
+   },
+   {
+    "label": "EU Copyright Directive Analysis",
+    "url": "https://eur-lex.europa.eu/"
+   }
+  ],
+  "112": [
+   {
+    "label": "CourtListener Docket",
+    "url": "https://www.courtlistener.com/docket/63356475/thaler-v-perlmutter/"
+   },
+   {
+    "label": "Supreme Court SCOTUS Blog",
+    "url": "https://www.scotusblog.com/"
+   },
+   {
+    "label": "U.S. Copyright Office Guidance on AI Authorship",
+    "url": "https://www.copyright.gov/"
+   }
+  ],
+  "113": [
+   {
+    "label": "Bird & Bird - Higher Regional Court Hamburg Confirms AI Training Permitted",
+    "url": "https://www.twobirds.com/en/insights/2025/germany/higher-regional-court-hamburg-confirms-ai-training-was-permitted-(kneschke-v,-d-,-laion)"
+   },
+   {
+    "label": "DLA Piper - Kneschke v. LAION Judgment Analysis",
+    "url": "https://www.dlapiper.com/en/insights/blogs/mse-today/2025/robert-kneschke-v-laion"
+   },
+   {
+    "label": "Norton Rose Fulbright - Machine-Readable Opt-Outs",
+    "url": "https://www.insidetechlaw.com/blog/2025/12/machine-readable-opt-outs-and-ai-training-hamburg-court-clarifies-copyright-exceptions"
+   },
+   {
+    "label": "EUIPO Case Page",
+    "url": "https://www.euipo.europa.eu/en/law/recent-case-law/germany-hamburg-district-court-310-o-22723-laion-v-robert-kneschke"
+   }
+  ],
+  "114": [
+   {
+    "label": "Euronews - Danish Publishers Sue OpenAI",
+    "url": "https://www.euronews.com/next/2025/07/01/danish-publishers-sue-openai-after-failing-to-strike-rights-deal"
+   },
+   {
+    "label": "IFRRO - DPCMO to Sue OpenAI",
+    "url": "https://ifrro.org/page/article-detail/dpcmo-to-sue-openai-over-unauthorised-use-of-danish-content/"
+   },
+   {
+    "label": "Press Gazette - News Publisher AI Lawsuits",
+    "url": "https://pressgazette.co.uk/platforms/news-publisher-ai-deals-lawsuits-openai-google/"
+   }
+  ],
+  "115": [
+   {
+    "label": "Korea Herald - Korea's Top TV Networks Sue OpenAI",
+    "url": "https://www.koreaherald.com/article/10680650"
+   },
+   {
+    "label": "Anadolu Agency - South Korea Broadcasters Sue OpenAI",
+    "url": "https://www.aa.com.tr/en/asia-pacific/south-koreas-3-terrestrial-broadcasters-sue-openai-over-copyright-infringement/3838091"
+   },
+   {
+    "label": "MLex - OpenAI Sued in South Korea",
+    "url": "https://www.mlex.com/mlex/intellectual-property/articles/2445043"
+   }
+  ],
+  "116": [
+   {
+    "label": "Kluwer Copyright Blog - Beijing Internet Court AI Copyright",
+    "url": "https://copyrightblog.kluweriplaw.com/2024/02/02/beijing-internet-court-grants-copyright-to-ai-generated-image-for-the-first-time/"
+   },
+   {
+    "label": "China IP Law Update - Li vs Liu Translation",
+    "url": "https://www.chinaiplawupdate.com/2024/01/beijing-internet-court-releases-translation-of-li-vs-liu-recognizing-copyright-in-generative-ai/"
+   },
+   {
+    "label": "Baker McKenzie - Landmark AI Copyright Ruling",
+    "url": "https://globallitigationnews.bakermckenzie.com/2024/05/08/china-a-landmark-court-ruling-on-copyright-protection-for-ai-generated-works/"
+   }
+  ],
+  "117": [
+   {
+    "label": "Internet Archive — SCLA v. AI Company (Guangzhou) 中英文判決全文 PDF",
+    "url": "https://ia800409.us.archive.org/3/items/scla-v-ai-company-guangzhou-internet-court-02082024-with-english-translation/SCLA%20v%20AI%20Company%20Guangzhou%20Internet%20Court%2002082024%20with%20English%20Translation.pdf"
+   },
+   {
+    "label": "Bird & Bird - Guangzhou Internet Court AI Infringement",
+    "url": "https://www.twobirds.com/en/insights/2024/china/liability-of-ai-service-providers-for-copyright-infringement"
+   },
+   {
+    "label": "EU IP Helpdesk - Ultraman AI Case",
+    "url": "https://intellectual-property-helpdesk.ec.europa.eu/news-events/news/ultraman-ai-case-china-defining-copyright-liability-generative-ai-providers-2025-02-18_en"
+   },
+   {
+    "label": "KWM - China First AIGC Output Infringement",
+    "url": "https://www.kwm.com/cn/en/insights/latest-thinking/china-s-first-case-on-aigc-output-infringement-ultraman.html"
+   },
+   {
+    "label": "law168 — AI 生成奧特曼圖片侵權案 (2024)粤0192民初113号",
+    "url": "https://law168.com.cn/doc/view?id=194144"
+   }
+  ],
+  "118": [
+   {
+    "label": "Managing IP - Training AI Models Copyright China EU",
+    "url": "https://www.managingip.com/article/2dnu9r92bmzrcdrw84ykg/sponsored-content/training-ai-models-and-copyright-challenges-chinese-and-eu-insights"
+   },
+   {
+    "label": "KR-Asia - China Copyright Storm AI Content",
+    "url": "https://kr-asia.com/china-finds-itself-in-copyright-storm-as-creatives-protest-issues-with-ai-generated-content"
+   },
+   {
+    "label": "Authors Alliance - China AI Court Rulings",
+    "url": "https://www.authorsalliance.org/2025/04/03/chinas-controversial-court-rulings-on-ai-output-and-how-it-may-affect-people-in-the-us/"
+   }
+  ],
+  "119": [
+   {
+    "label": "Lexology — 讀賣新聞 v. Perplexity 訴訟分析",
+    "url": "https://www.lexology.com/library/detail.aspx?g=6726fef0-cff1-49a0-adc3-5b403a79140b"
+   },
+   {
+    "label": "日本経済新聞 — 日経・朝日、Perplexity 提訴報道",
+    "url": "https://www.nikkei.com/article/DGXZQOUD302I50Q5A730C2000000/"
+   },
+   {
+    "label": "LatAm Journalism Review",
+    "url": "https://gaaaon.jp/blog/ai-copyright-perplexity-lawsuit-2025"
+   }
+  ],
+  "120": [
+   {
+    "label": "Nikkei — 日経・朝日 Perplexity 提訴原文",
+    "url": "https://www.nikkei.com/article/DGXZQOUD302I50Q5A730C2000000/"
+   },
+   {
+    "label": "Lexology 訴訟分析",
+    "url": "https://www.lexology.com/library/detail.aspx?g=6726fef0-cff1-49a0-adc3-5b403a79140b"
+   }
+  ],
+  "121": [
+   {
+    "label": "Variety — CODA / Studio Ghibli OpenAI Sora2 聲明",
+    "url": "https://variety.com/2025/digital/news/studio-ghibli-openai-sora2-japanese-trade-group-coda-letter-1236568751/"
+   },
+   {
+    "label": "TechCrunch — Japanese Publishers Demand OpenAI Stop",
+    "url": "https://techcrunch.com/2025/11/03/studio-ghibli-and-other-japanese-publishers-want-openai-to-stop-training-on-their-work/"
+   },
+   {
+    "label": "The Register — Japan Asks OpenAI re: Anime",
+    "url": "https://www.theregister.com/2025/10/15/japan_openai_copyrighted_anime/"
+   }
+  ],
+  "122": [
+   {
+    "label": "Kluwer Copyright Blog — Brazil AI Copyright Case",
+    "url": "https://legalblogs.wolterskluwer.com/copyright-blog/the-first-major-generative-ai-and-copyright-case-in-brazil-first-impressions-and-challenges-ahead/"
+   },
+   {
+    "label": "Daniel Law — Folha v. OpenAI Analysis",
+    "url": "https://www.daniel-ip.com/en/articles/brazils-first-generative-ai-copyright-dispute-folha-de-s-paulo-v-openai/"
+   },
+   {
+    "label": "LatAm Journalism Review",
+    "url": "https://latamjournalismreview.org/news/folha-de-s-paulo-files-lawsuit-against-openai-for-unfair-competition-and-copyright-infringement/"
+   }
+  ],
+  "130": [
+   {
+    "label": "TechCrunch — YouTubers Sue Snap",
+    "url": "https://techcrunch.com/2026/01/26/youtubers-sue-snap-for-alleged-copyright-infringement-in-training-its-ai-models/"
+   },
+   {
+    "label": "ClassAction.org — Snap Class Action",
+    "url": "https://www.classaction.org/news/class-action-lawsuit-content-creators-claim-snap-wrongfully-scrapes-content-from-youtube-to-train-ai"
+   }
+  ],
+  "131": [
+   {
+    "label": "中國知識產權律師網 — 杭州奧特曼案一審判決書 (2024)浙0192民初1587號",
+    "url": "https://www.ciplawyer.cn/articles/155988.html"
+   },
+   {
+    "label": "中國知識產權律師網 — 杭州奧特曼案二審判決書 (2024)浙01民終10332號",
+    "url": "https://www.ciplawyer.cn/articles/155989.html"
+   },
+   {
+    "label": "知產力 — 杭州互聯網法院涉 AIGC 司法建議書",
+    "url": "https://www.zhichanli.com/p/1847346437"
+   },
+   {
+    "label": "天驰君泰 — 觸手 AI 著作權侵權案代理筆記",
+    "url": "https://www.tiantailaw.com/CN/10631-34736.aspx"
+   },
+   {
+    "label": "Merits & Tree — 杭互奧特曼案基本信息與評析",
+    "url": "https://www.meritsandtree.com/Content/2025/02-18/1019340078.html"
+   },
+   {
+    "label": "iphouse — (2024)浙0192民初1587號裁判文書",
+    "url": "https://www.iphouse.cn/casetypical/detail/g8vodq3ym2n1j4z4k8nlwk5r90x74epz.html"
+   }
+  ],
+  "134": [
+   {
+    "label": "CourtListener Docket",
+    "url": "https://www.courtlistener.com/docket/70704683/"
+   }
+  ],
+  "136": [
+   {
+    "label": "CourtListener Docket",
+    "url": "https://www.courtlistener.com/docket/72184965/"
+   }
+  ],
+  "137": [
+   {
+    "label": "CourtListener Docket",
+    "url": "https://www.courtlistener.com/docket/73328849/"
+   }
+  ],
+  "138": [
+   {
+    "label": "CourtListener Docket",
+    "url": "https://www.courtlistener.com/docket/73294740/"
+   }
+  ],
+  "141": [
+   {
+    "label": "CourtListener Docket",
+    "url": "https://www.courtlistener.com/docket/73352930/"
+   }
+  ],
+  "142": [
+   {
+    "label": "CourtListener Docket",
+    "url": "https://www.courtlistener.com/docket/73391700/"
+   }
+  ],
+  "143": [
+   {
+    "label": "CourtListener Docket",
+    "url": "https://www.courtlistener.com/docket/73465441/"
+   }
+  ],
+  "144": [
+   {
+    "label": "CourtListener Docket",
+    "url": "https://www.courtlistener.com/docket/73359710/"
+   }
+  ],
+  "145": [
+   {
+    "label": "CourtListener Docket",
+    "url": "https://www.courtlistener.com/docket/71659116/"
+   }
+  ],
+  "146": [
+   {
+    "label": "CourtListener Docket",
+    "url": "https://www.courtlistener.com/docket/73494355/"
+   }
+  ],
+  "147": [
+   {
+    "label": "CourtListener Docket",
+    "url": "https://www.courtlistener.com/docket/73448787/"
+   }
+  ],
+  "148": [
+   {
+    "label": "CourtListener Docket",
+    "url": "https://www.courtlistener.com/docket/73338991/"
+   }
+  ],
+  "149": [
+   {
+    "label": "CourtListener Docket",
+    "url": "https://www.courtlistener.com/docket/73528019/"
+   }
+  ],
+  "150": [
+   {
+    "label": "CourtListener Docket",
+    "url": "https://www.courtlistener.com/docket/73603888/"
+   }
+  ]
+ }
 }
