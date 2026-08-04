@@ -9,9 +9,7 @@
         "addedAt": "2026-08-01",
         "text": "【2026/7/31】GEMA v. Suno（慕尼黑第一地方法院）德國法院判 Suno 侵權敗訴：法院認定 Suno 在美訓練並於歐洲儲存重製 GEMA 代管之 6 首歌曲（含 Rasputin、Daddy Cool）構成美德著作權侵害，命揭露不法收益並賠償（金額待定），為 GEMA 對生成式 AI 業者第二次勝訴（前次為 OpenAI）",
         "url": "https://musically.com/2026/07/31/german-collecting-society-gema-wins-its-copyright-infringement-lawsuit-against-suno/"
-      }
-    ],
-    "archive": [
+      },
       {
         "addedAt": "2026-07-27",
         "text": "【2026/7/24】ANI Media v. OpenAI（德里高等法院，CS(COMM) 1028/2024）駁回暫時禁制令、認定 AI 訓練屬合理使用：Amit Bansal 法官裁定 OpenAI 以受著作權保護內容訓練 ChatGPT 符合印度著作權法第 52 條 fair dealing，且生成內容與 ANI 原文不構成實質近似；為印度首件就生成式 AI 訓練著作權爭議作成實體判斷之判決，屬 prima facie／interim 階段認定，非終局判決",
@@ -21,7 +19,9 @@
         "addedAt": "2026-07-22",
         "text": "【2026/7/20】Bartz v. Anthropic 和解案獲法院終局核准（N.D. Cal. 3:24-cv-05417）：Martínez-Olguín 法官正式核准 15 億美元著作權集體和解——美國史上最大著作權集體和解定案，逾 50 萬件作品每件約 3,000 美元；律師費自請求之 1.875 億美元砍至約 1.016 億美元；因採和解結案未上訴，Alsup 前法官原「訓練屬合理使用」之地院裁定不會成為具拘束力之上級審先例，僅維持既有效力",
         "url": "https://techcrunch.com/2026/07/20/anthropics-landmark-1-5b-copyright-settlement-is-approved/"
-      },
+      }
+    ],
+    "archive": [
       {
         "addedAt": "2026-07-22",
         "text": "【2026/7/20】Sony Music v. Uncharted Labs (Udio) 追加提告：未跟進和解，另求償上看 45 億美元（S.D.N.Y.）：UMG、Warner Music 皆已與 Udio 達成和解暨授權合作，Sony Music 反於 7/20 另案對 Udio 提起新訴，指控其未經授權複製 30,117 首錄音供 AI 訓練，依法定賠償上限計算求償上看 US$45 億，成三大唱片公司中唯一持續對 Udio 興訟者",
@@ -350,5 +350,5 @@
     ]
   },
   "lastUpdatedBy": "add_news.py",
-  "lastUpdatedAt": "2026-08-01T07:08:45.845682+08:00"
+  "lastUpdatedAt": "2026-08-04T19:13:08.734991+08:00"
 }
