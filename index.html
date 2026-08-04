@@ -7376,17 +7376,18 @@ const cases = [
   },
   {
     "id": 149,
-    "name": "Richner Communications v. Microsoft",
-    "court": "S.D.N.Y.",
+    "name": "Richner Communications v. Microsoft / OpenAI（近 400 家地方報社）",
+    "court": "S.D.N.Y. 1:26-cv-05320",
     "judge": "待確認",
     "status": "active",
     "claims": [
-      "Direct Copyright"
+      "Direct Copyright",
+      "DMCA §1202"
     ],
-    "defendants": "Microsoft Corporation、OpenAI",
-    "issues": "地方報業集團 Richner Communications（Long Island Herald 發行商）控告 Microsoft 與 OpenAI（1:26-cv-05320，2026/6/24 立案），主張其新聞內容遭未經授權用於 AI 訓練與輸出。屬地方媒體對 AI 巨頭的新一波訴訟。",
-    "progress": "案件初期。",
-    "taiwan": "地方媒體（而非全國性大報）加入訴訟行列，顯示新聞著作權維權門檻降低，台灣地方媒體可留意集體行動的可行性。",
+    "defendants": "Microsoft Corporation、OpenAI, Inc. 等",
+    "issues": "全美地方報業對 AI 訓練資料授權迄今規模最大之聯合行動（1:26-cv-05320，2026/6/24 立案）。以長島 Herald 發行人 Richner Communications 為首位原告，Arkansas Democrat-Gazette、Santa Fe New Mexican、New York Amsterdam News 等數十家發行人加入，單一起訴狀涵蓋近 400 家地方與區域報紙；由新成立之 Local Newspaper Copyright Alliance（LNCA）協調，前紐澤西州檢察總長 Matthew J. Platkin 擔任代理人。\n\n主張被告系統性爬取原告網站（含付費牆後內容）、將文章複製至自有伺服器供 ChatGPT 與 Microsoft Copilot 訓練，並以自動化擷取工具剝離作者署名、刊名與著作權標示（DMCA § 1202）。救濟請求包括法定損害賠償及命被告自所有模型與訓練資料集中移除原告著作之禁制令。本案與 NYT、Daily News、California Newspaper Partnership 等既有 MDL 案件共構新聞業對 AI 訓練之多層次施壓。",
+    "progress": "【2026/6/24】近 400 家美國地方與區域報社經 Local Newspaper Copyright Alliance 協調，於紐約南區聯邦地院對 Microsoft 與 OpenAI 提起著作權集體訴訟，指控被告系統性秘密爬取逾百家新聞網站（含付費牆後內容）訓練生成式 AI，並剝離作者署名等著作權管理資訊，另請求命被告自所有模型與訓練資料集移除原告著作。",
+    "taiwan": "1) 本案示範「資源不足之地方媒體透過聯盟集中訴訟成本」之模式，對台灣地方新聞業者與新聞媒體議價相關立法討論具參考價值。2) 剝離署名與出處之 DMCA § 1202 主張，對應台灣《著作權法》第 16 條姓名表示權及第 80 條之 1 權利管理電子資訊保護規定。3) 命 AI 業者自模型中移除著作之救濟若獲准，將直接影響模型可行性與重訓成本，為台灣未來禁制令實務之重要參照。",
     "jurisdiction": "us",
     "country": "🇺🇸 美國",
     "technology": "llm",
@@ -7395,8 +7396,8 @@ const cases = [
     "isNonUS": false,
     "sourceCount": 1,
     "docket": 73528019,
-    "filedAt": null,
-    "updatedAt": "2026-07-13"
+    "filedAt": "2026-06-24",
+    "updatedAt": "2026-08-03"
   },
   {
     "id": 150,
@@ -7672,31 +7673,6 @@ const cases = [
     "sourceCount": 3,
     "docket": null,
     "filedAt": "2026-06-16",
-    "updatedAt": "2026-08-03"
-  },
-  {
-    "id": 161,
-    "name": "Richner Communications v. Microsoft / OpenAI（近 400 家地方報社）",
-    "court": "S.D.N.Y. 1:26-cv-05320",
-    "judge": "待分派",
-    "status": "active",
-    "claims": [
-      "Direct Copyright",
-      "DMCA §1202"
-    ],
-    "defendants": "Microsoft Corporation、OpenAI, Inc. 等",
-    "issues": "全美地方報業對 AI 訓練資料授權迄今規模最大之聯合行動（1:26-cv-05320，2026/6/24 立案）。以長島 Herald 發行人 Richner Communications 為首位原告，Arkansas Democrat-Gazette、Santa Fe New Mexican、New York Amsterdam News 等數十家發行人加入，單一起訴狀涵蓋近 400 家地方與區域報紙；由新成立之 Local Newspaper Copyright Alliance（LNCA）協調，前紐澤西州檢察總長 Matthew J. Platkin 擔任代理人。\n\n主張被告系統性爬取原告網站（含付費牆後內容）、將文章複製至自有伺服器供 ChatGPT 與 Microsoft Copilot 訓練，並以自動化擷取工具剝離作者署名、刊名與著作權標示（DMCA § 1202）。救濟請求包括法定損害賠償及命被告自所有模型與訓練資料集中移除原告著作之禁制令。本案與 NYT、Daily News、California Newspaper Partnership 等既有 MDL 案件共構新聞業對 AI 訓練之多層次施壓。",
-    "progress": "【2026/6/24】近 400 家美國地方與區域報社經 Local Newspaper Copyright Alliance 協調，於紐約南區聯邦地院對 Microsoft 與 OpenAI 提起著作權集體訴訟，指控被告系統性秘密爬取逾百家新聞網站（含付費牆後內容）訓練生成式 AI，並剝離作者署名等著作權管理資訊，另請求命被告自所有模型與訓練資料集移除原告著作。",
-    "taiwan": "1) 本案示範「資源不足之地方媒體透過聯盟集中訴訟成本」之模式，對台灣地方新聞業者與新聞媒體議價相關立法討論具參考價值。2) 剝離署名與出處之 DMCA § 1202 主張，對應台灣《著作權法》第 16 條姓名表示權及第 80 條之 1 權利管理電子資訊保護規定。3) 命 AI 業者自模型中移除著作之救濟若獲准，將直接影響模型可行性與重訓成本，為台灣未來禁制令實務之重要參照。",
-    "jurisdiction": "us",
-    "country": "🇺🇸 美國",
-    "technology": "llm",
-    "plaintiffType": "media",
-    "workType": "新聞媒體 News",
-    "isNonUS": false,
-    "sourceCount": 3,
-    "docket": null,
-    "filedAt": "2026-06-24",
     "updatedAt": "2026-08-03"
   },
   {
