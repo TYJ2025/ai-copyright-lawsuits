@@ -70,9 +70,46 @@
    "sourceCount": 3,
    "docket": 71112094,
    "filedAt": null,
-   "updatedAt": null,
-   "claimsDetail": null,
-   "claimsVerifiedAt": null
+   "updatedAt": "2026-08-05",
+   "claimsDetail": [
+    {
+     "count": "I",
+     "title": "Copyright Infringement in Violation of 17 U.S.C. § 101 et seq",
+     "canonical": "direct-copyright"
+    },
+    {
+     "count": "II",
+     "title": "Providing False Copyright Management Information in Violation of 17 U.S.C. § 1202(a",
+     "canonical": "dmca-1202"
+    },
+    {
+     "count": "III",
+     "title": "Trademark Infringement in Violation of Section 32 of the Lanham Act, 15 U.S.C. § 1114(1",
+     "canonical": "lanham"
+    },
+    {
+     "count": "IV",
+     "title": "Unfair Competition in Violation of Section 43(a) of the Lanham Act, 15 U.S.C. § 1125(a",
+     "canonical": "lanham"
+    },
+    {
+     "count": "V",
+     "title": "Trademark Dilution in Violation of Section 43(c) of the Lanham Act, 15 U.S.C. § 1125(c",
+     "canonical": "lanham"
+    },
+    {
+     "count": "VI",
+     "title": "Unfair Competition in Violation of Cal. Bus. & Prof. Code. §§ 17200, et seq",
+     "canonical": "unfair-competition"
+    },
+    {
+     "count": "VII",
+     "title": "Trademark Dilution in Violation of Cal. Bus. & Prof. Code § 14247",
+     "canonical": "lanham"
+    }
+   ],
+   "claimsVerifiedAt": "2026-08-05",
+   "claimsSource": "https://www.courtlistener.com/docket/71112094/1/getty-images-us-inc-v-stability-ai-ltd/"
   },
   {
    "id": 3,
@@ -100,7 +137,7 @@
    "sourceCount": 3,
    "docket": 66732129,
    "filedAt": null,
-   "updatedAt": null,
+   "updatedAt": "2026-08-05",
    "rulings": {
     "fairUse": "pending",
     "fairUseNote": "尚未進入合理使用實質審理，審判定 2026/9/8",
@@ -115,8 +152,50 @@
      }
     ]
    },
-   "claimsDetail": null,
-   "claimsVerifiedAt": null
+   "claimsDetail": [
+    {
+     "count": "I",
+     "title": "DIRECT COPYRIGHT INFRINGEMENT",
+     "canonical": "direct-copyright"
+    },
+    {
+     "count": "II",
+     "title": "VICARIOUS COPYRIGHT INFRINGEMENT",
+     "canonical": "vicarious"
+    },
+    {
+     "count": "III",
+     "title": "VIOLATION of the DIGITAL MILLENNIUM COPYRIGHT ACT",
+     "canonical": "dmca-1202"
+    },
+    {
+     "count": "IV",
+     "title": "VIOLATION of the STATUTORY RIGHT of PUBLICITY",
+     "canonical": "right-of-publicity"
+    },
+    {
+     "count": "V",
+     "title": "VIOLATION of the COMMON LAW RIGHT of PUBLICITY",
+     "canonical": "right-of-publicity"
+    },
+    {
+     "count": "VI",
+     "title": "UNFAIR COMPETITION",
+     "canonical": "unfair-competition"
+    },
+    {
+     "count": "IX",
+     "title": "BREACH of CONTRACT VIOLATION of DEVIANTART POLICIES",
+     "canonical": "breach-contract"
+    },
+    {
+     "count": "VII",
+     "title": "DECLARATORY RELIEF",
+     "canonical": "declaratory-noninfringement"
+    }
+   ],
+   "claimsVerifiedAt": "2026-08-05",
+   "claimsSource": "https://www.courtlistener.com/docket/66732129/1/andersen-v-stability-ai-ltd/"
   },
   {
    "id": 4,
@@ -142,9 +221,61 @@
    "sourceCount": 2,
    "docket": 67599029,
    "filedAt": null,
-   "updatedAt": "2026-08-03",
-   "claimsDetail": null,
-   "claimsVerifiedAt": null
+   "updatedAt": "2026-08-05",
+   "claimsDetail": [
+    {
+     "count": "",
+     "title": "VIOLATION OF CALIFORNIA UNFAIR COMPETITION LAW (Cal. Bus. & Prof. Code",
+     "canonical": "unfair-competition"
+    },
+    {
+     "count": "",
+     "title": "NEGLIGENCE (on behalf of all Plaintiffs and all Classes",
+     "canonical": null
+    },
+    {
+     "count": "",
+     "title": "INVASION OF PRIVACY UNDER CALIFORNIA CONSTITUTION",
+     "canonical": null
+    },
+    {
+     "count": "",
+     "title": "INTRUSION UPON SECLUSION",
+     "canonical": null
+    },
+    {
+     "count": "",
+     "title": "LARCENY/RECEIPT OF STOLEN PROPERTY",
+     "canonical": null
+    },
+    {
+     "count": "",
+     "title": "CONVERSION (on behalf of all Plaintiffs and all Classes",
+     "canonical": null
+    },
+    {
+     "count": "",
+     "title": "UNJUST ENRICHMENT",
+     "canonical": "unjust-enrichment"
+    },
+    {
+     "count": "",
+     "title": "DIRECT COPYRIGHT INFRINGEMENT",
+     "canonical": "direct-copyright"
+    },
+    {
+     "count": "",
+     "title": "VICARIOUS COPYRIGHT INFRINGEMENT",
+     "canonical": "vicarious"
+    },
+    {
+     "count": "",
+     "title": "VIOLATION OF DIGITAL MILLENNIUM COPYRIGHT ACT (17 U.S.C. § 1202(b",
+     "canonical": "dmca-1202"
+    }
+   ],
+   "claimsVerifiedAt": "2026-08-05",
+   "claimsSource": "https://www.courtlistener.com/docket/67599029/1/in-re-google-generative-ai-copyright-litigation/"
   },
   {
    "id": 5,
@@ -170,14 +301,15 @@
    "sourceCount": 3,
    "docket": 67569326,
    "filedAt": null,
-   "updatedAt": null,
+   "updatedAt": "2026-08-05",
    "rulings": {
     "fairUse": "favorable",
     "fairUseNote": "訓練使用具高度轉化性；法官明言僅因本案原告論證失敗",
     "keyRulings": [
      {
       "date": "2025-06",
-      "holding": "Chhabria 法官即決判決：以書籍訓練 LLaMA 構成合理使用"
+      "holding": "Chhabria 法官即決判決：以書籍訓練 LLaMA 構成合理使用",
+      "docUrl": "https://law.justia.com/cases/federal/district-courts/california/candce/3:2023cv03417/415175/598/"
      },
      {
       "date": "2026-04",
@@ -185,8 +317,40 @@
      }
     ]
    },
-   "claimsDetail": null,
-   "claimsVerifiedAt": null
+   "claimsDetail": [
+    {
+     "count": "1",
+     "title": "Direct Copyright Infringement 17 U.S.C. § 106",
+     "canonical": "direct-copyright"
+    },
+    {
+     "count": "2",
+     "title": "Vicarious Copyright Infringement",
+     "canonical": "vicarious"
+    },
+    {
+     "count": "3",
+     "title": "Removal of Copyright-Management Information",
+     "canonical": "dmca-1202"
+    },
+    {
+     "count": "4",
+     "title": "Unfair Competition Cal. Bus. & Prof. Code §§ 17200, et seq",
+     "canonical": "unfair-competition"
+    },
+    {
+     "count": "5",
+     "title": "Unjust Enrichment California Common Law",
+     "canonical": "unjust-enrichment"
+    },
+    {
+     "count": "6",
+     "title": "Negligence California Common Law",
+     "canonical": null
+    }
+   ],
+   "claimsVerifiedAt": "2026-08-05",
+   "claimsSource": "https://www.courtlistener.com/docket/67569326/1/kadrey-v-meta-platforms-inc/"
   },
   {
    "id": 6,
@@ -210,14 +374,15 @@
    "sourceCount": 4,
    "docket": 69058235,
    "filedAt": null,
-   "updatedAt": "2026-08-03",
+   "updatedAt": "2026-08-05",
    "rulings": {
     "fairUse": "partial",
     "fairUseNote": "合法取得書籍訓練屬合理使用；盜版庫存留非合理使用",
     "keyRulings": [
      {
       "date": "2025-06",
-      "holding": "Alsup 法官：訓練本身屬合理使用，盜版書籍來源主張保留"
+      "holding": "Alsup 法官：訓練本身屬合理使用，盜版書籍來源主張保留",
+      "docUrl": "https://copyrightalliance.org/wp-content/uploads/2025/06/Bartz-v.-Anthropic-Order.pdf"
      },
      {
       "date": "2025-07",
@@ -230,8 +395,15 @@
     ],
     "outcome": "15 億美元和解 2026/7/20 獲法院終局核准（美國著作權史上最大和解）；因和解結案未上訴，Alsup 法官訓練合理使用之地院裁定不具拘束力先例地位"
    },
-   "claimsDetail": null,
-   "claimsVerifiedAt": null
+   "claimsDetail": [
+    {
+     "count": "",
+     "title": "Copyright Infringement (17 U.S.C. § 501",
+     "canonical": "direct-copyright"
+    }
+   ],
+   "claimsVerifiedAt": "2026-08-05",
+   "claimsSource": "https://www.courtlistener.com/docket/69058235/1/bartz-v-anthropic-pbc/"
   },
   {
    "id": 7,
@@ -258,7 +430,7 @@
    "sourceCount": 5,
    "docket": 68889092,
    "filedAt": null,
-   "updatedAt": "2026-08-03",
+   "updatedAt": "2026-08-05",
    "rulings": {
     "fairUse": "pending",
     "fairUseNote": "即決判決聽證改期至 2026/10/21，最可能產出音樂訓練合理使用判決",
@@ -273,8 +445,95 @@
      }
     ]
    },
-   "claimsDetail": null,
-   "claimsVerifiedAt": null
+   "claimsDetail": [
+    {
+     "count": "I",
+     "title": "am a champion and you’re gonna ’Cause I am a champion, and you’re gonna",
+     "canonical": null
+    },
+    {
+     "count": "I",
+     "title": "am a champion, and you’re gonna",
+     "canonical": null
+    },
+    {
+     "count": "",
+     "title": "you’re not welcome anymore Walk out the door",
+     "canonical": null
+    },
+    {
+     "count": "",
+     "title": "you're not welcome anymore For someone who’s loving me",
+     "canonical": null
+    },
+    {
+     "count": "",
+     "title": "you’re not welcome anymore",
+     "canonical": null
+    },
+    {
+     "count": "",
+     "title": "you’re not welcome anymore And I’ve got all my love to give and I’ll",
+     "canonical": null
+    },
+    {
+     "count": "I",
+     "title": "ve got friends in low places",
+     "canonical": null
+    },
+    {
+     "count": "I",
+     "title": "ve got friends in low places Where the whiskey drowns",
+     "canonical": null
+    },
+    {
+     "count": "I",
+     "title": "ve got friends in low places And I’ll be okay",
+     "canonical": null
+    },
+    {
+     "count": "I",
+     "title": "saw you dancin’ in the gym Can music save your mortal soul?",
+     "canonical": null
+    },
+    {
+     "count": "",
+     "title": "the players tried to take the field",
+     "canonical": null
+    },
+    {
+     "count": "",
+     "title": "fire is the devil’s only friend Them good ole boys were drinking whiskey",
+     "canonical": null
+    },
+    {
+     "count": "",
+     "title": "singing seems to help a troubled soul",
+     "canonical": null
+    },
+    {
+     "count": "I",
+     "title": "Direct Copyright Infringement",
+     "canonical": "direct-copyright"
+    },
+    {
+     "count": "II",
+     "title": "Contributory Infringement",
+     "canonical": "contributory"
+    },
+    {
+     "count": "III",
+     "title": "Vicarious Infringement",
+     "canonical": "vicarious"
+    },
+    {
+     "count": "IV",
+     "title": "Removal or Alteration of Copyright Management Information",
+     "canonical": "dmca-1202"
+    }
+   ],
+   "claimsVerifiedAt": "2026-08-05",
+   "claimsSource": "https://www.courtlistener.com/docket/68889092/1/concord-music-group-inc-v-anthropic-pbc/"
   },
   {
    "id": 8,
@@ -401,9 +660,21 @@
    "sourceCount": 3,
    "docket": 70513159,
    "filedAt": null,
-   "updatedAt": "2026-08-03",
-   "claimsDetail": null,
-   "claimsVerifiedAt": null
+   "updatedAt": "2026-08-05",
+   "claimsDetail": [
+    {
+     "count": "FIRST",
+     "title": "Direct Copyright Infringement",
+     "canonical": "direct-copyright"
+    },
+    {
+     "count": "SECOND",
+     "title": "Secondary Copyright Infringement",
+     "canonical": "secondary-copyright"
+    }
+   ],
+   "claimsVerifiedAt": "2026-08-05",
+   "claimsSource": "https://www.courtlistener.com/docket/70513159/1/disney-enterprises-inc-v-midjourney-inc/"
   },
   {
    "id": 12,
@@ -428,9 +699,21 @@
    "sourceCount": 4,
    "docket": 68878608,
    "filedAt": null,
-   "updatedAt": "2026-08-03",
-   "claimsDetail": null,
-   "claimsVerifiedAt": null
+   "updatedAt": "2026-08-05",
+   "claimsDetail": [
+    {
+     "count": "FIRST",
+     "title": "Direct Copyright Infringement of Post-1972 Copyrighted Recordings",
+     "canonical": "direct-copyright"
+    },
+    {
+     "count": "SECOND",
+     "title": "Direct Copyright Infringement of Pre-1972 Copyrighted Recordings",
+     "canonical": "direct-copyright"
+    }
+   ],
+   "claimsVerifiedAt": "2026-08-05",
+   "claimsSource": "https://www.courtlistener.com/docket/68878608/1/umg-recordings-inc-v-suno-inc/"
   },
   {
    "id": 13,
@@ -455,7 +738,7 @@
    "sourceCount": 3,
    "docket": 65669506,
    "filedAt": null,
-   "updatedAt": null,
+   "updatedAt": "2026-08-05",
    "rulings": {
     "fairUse": "na",
     "fairUseNote": "爭點為 DMCA §1202 與開源授權契約，非合理使用",
@@ -470,8 +753,70 @@
      }
     ]
    },
-   "claimsDetail": null,
-   "claimsVerifiedAt": null
+   "claimsDetail": [
+    {
+     "count": "I",
+     "title": "VIOLATION OF THE DIGITAL MILLENIUM COPYRIGHT ACT",
+     "canonical": null
+    },
+    {
+     "count": "II",
+     "title": "BREACH OF CONTRACT—OPEN-SOURCE LICENSE VIOLATIONS",
+     "canonical": "breach-contract"
+    },
+    {
+     "count": "III",
+     "title": "TORTIOUS INTERFERENCE IN A CONTRACTUAL RELATIONSHIP",
+     "canonical": "tortious-interference"
+    },
+    {
+     "count": "IV",
+     "title": "FRAUD Common Law (Against GitHub",
+     "canonical": null
+    },
+    {
+     "count": "V",
+     "title": "FALSE DESIGNATION OF ORIGIN—REVERSE PASSING OFF",
+     "canonical": "lanham"
+    },
+    {
+     "count": "VI",
+     "title": "UNJUST ENRICHMENT",
+     "canonical": "unjust-enrichment"
+    },
+    {
+     "count": "VII",
+     "title": "UNFAIR COMPETITION",
+     "canonical": "unfair-competition"
+    },
+    {
+     "count": "VIII",
+     "title": "BREACH OF CONTRACT",
+     "canonical": "breach-contract"
+    },
+    {
+     "count": "IX",
+     "title": "VIOLATION OF THE CALIFORNIA CONSUMER PRIVACY ACT",
+     "canonical": null
+    },
+    {
+     "count": "X",
+     "title": "NEGLIGENCE—NEGLIGENT HANDLING OF PERSONAL DATA",
+     "canonical": null
+    },
+    {
+     "count": "XI",
+     "title": "CIVIL CONSPIRACY",
+     "canonical": null
+    },
+    {
+     "count": "XII",
+     "title": "DECLARATORY RELIEF",
+     "canonical": "declaratory-noninfringement"
+    }
+   ],
+   "claimsVerifiedAt": "2026-08-05",
+   "claimsSource": "https://www.courtlistener.com/docket/65669506/1/doe-1-v-github-inc/"
   },
   {
    "id": 14,
@@ -495,7 +840,7 @@
    "sourceCount": 2,
    "docket": 68290709,
    "filedAt": null,
-   "updatedAt": null,
+   "updatedAt": "2026-08-05",
    "rulings": {
     "fairUse": "na",
     "fairUseNote": "爭點為 DMCA §1202(b) 當事人適格",
@@ -510,8 +855,15 @@
      }
     ]
    },
-   "claimsDetail": null,
-   "claimsVerifiedAt": null
+   "claimsDetail": [
+    {
+     "count": "I",
+     "title": "Violation of 17 U.S.C. § 1202(b)(1) by OpenAI Defendants",
+     "canonical": "dmca-1202"
+    }
+   ],
+   "claimsVerifiedAt": "2026-08-05",
+   "claimsSource": "https://www.courtlistener.com/docket/68290709/1/raw-story-media-inc-v-openai-inc/"
   },
   {
    "id": 15,
@@ -538,9 +890,36 @@
    "sourceCount": 3,
    "docket": 71997720,
    "filedAt": null,
-   "updatedAt": null,
-   "claimsDetail": null,
-   "claimsVerifiedAt": null
+   "updatedAt": "2026-08-05",
+   "claimsDetail": [
+    {
+     "count": "I",
+     "title": "Copyright Infringement (17 U.S.C. § 106(1)) – Perplexity’s Acquisition of The Times’s",
+     "canonical": "direct-copyright"
+    },
+    {
+     "count": "II",
+     "title": "Copyright Infringement (17 U.S.C. § 106(2)) – Perplexity’s Copying of The Times’s",
+     "canonical": "direct-copyright"
+    },
+    {
+     "count": "III",
+     "title": "Contributory and Vicarious Copyright Infringement",
+     "canonical": "contributory"
+    },
+    {
+     "count": "IV",
+     "title": "False Designation of Origin and Dilution of The Times’s Trademarks (15 U.S.C. § 1125",
+     "canonical": "lanham"
+    },
+    {
+     "count": "V",
+     "title": "Trademark Infringement (15 U.S.C. § 1114",
+     "canonical": "lanham"
+    }
+   ],
+   "claimsVerifiedAt": "2026-08-05",
+   "claimsSource": "https://www.courtlistener.com/docket/71997720/1/the-new-york-times-company-v-perplexity-ai-inc/"
   },
   {
    "id": 16,
@@ -567,9 +946,31 @@
    "sourceCount": 3,
    "docket": 69280385,
    "filedAt": null,
-   "updatedAt": null,
-   "claimsDetail": null,
-   "claimsVerifiedAt": null
+   "updatedAt": "2026-08-05",
+   "claimsDetail": [
+    {
+     "count": "FIRST",
+     "title": "Direct Copyright Infringement in Violation of 17 U.S.C. § 501, et seq",
+     "canonical": "direct-copyright"
+    },
+    {
+     "count": "SECOND",
+     "title": "Vicarious Copyright Infringement in Violation of 17 U.S.C. § 501, et seq",
+     "canonical": "vicarious"
+    },
+    {
+     "count": "THIRD",
+     "title": "Contributory Copyright Infringement in Violation of 17 U.S.C. § 501, et seq",
+     "canonical": "contributory"
+    },
+    {
+     "count": "FOURTH",
+     "title": "False Endorsement in Violation of 15 U.S.C. § 1125(a)(1)(A",
+     "canonical": null
+    }
+   ],
+   "claimsVerifiedAt": "2026-08-05",
+   "claimsSource": "https://www.courtlistener.com/docket/69280385/1/alcon-entertainment-llc-v-tesla-inc/"
   },
   {
    "id": 17,
@@ -595,9 +996,21 @@
    "sourceCount": 2,
    "docket": 70899478,
    "filedAt": null,
-   "updatedAt": null,
-   "claimsDetail": null,
-   "claimsVerifiedAt": null
+   "updatedAt": "2026-08-05",
+   "claimsDetail": [
+    {
+     "count": "I",
+     "title": "Direct Copyright Infringement 156. The allegations contained in paragraphs 1–155 are hereby re-alleged as if fully",
+     "canonical": "direct-copyright"
+    },
+    {
+     "count": "2",
+     "title": "Secondary Copyright Infringement",
+     "canonical": "secondary-copyright"
+    }
+   ],
+   "claimsVerifiedAt": "2026-08-05",
+   "claimsSource": "https://www.courtlistener.com/docket/70899478/1/strike-3-holdings-llc-v-meta-platforms-inc/"
   },
   {
    "id": 18,
@@ -621,9 +1034,41 @@
    "sourceCount": 2,
    "docket": 67890942,
    "filedAt": null,
-   "updatedAt": null,
-   "claimsDetail": null,
-   "claimsVerifiedAt": null
+   "updatedAt": "2026-08-05",
+   "claimsDetail": [
+    {
+     "count": "FIRST",
+     "title": "DIRECT COPYRIGHT INFRINGEMENT, 17 U.S.C. § 106, et seq",
+     "canonical": "direct-copyright"
+    },
+    {
+     "count": "SECOND",
+     "title": "VICARIOUS COPYRIGHT INFRINGEMENT, 17 U.S.C. § 106",
+     "canonical": "vicarious"
+    },
+    {
+     "count": "THIRD",
+     "title": "DIGITAL MILLENNIUM COPYRIGHT ACT – REMOVAL OF COPYRIGHT",
+     "canonical": "dmca-1202"
+    },
+    {
+     "count": "FOURTH",
+     "title": "CONVERSION Brought on behalf of Plaintiffs, individually and on behalf of the Class,",
+     "canonical": null
+    },
+    {
+     "count": "FIFTH",
+     "title": "NEGLIGENCE Brought on behalf of Plaintiffs, individually and on behalf of the Class,",
+     "canonical": null
+    },
+    {
+     "count": "SIXTH",
+     "title": "UNJUST ENRICHMENT",
+     "canonical": "unjust-enrichment"
+    }
+   ],
+   "claimsVerifiedAt": "2026-08-05",
+   "claimsSource": "https://www.courtlistener.com/docket/67890942/1/huckabee-v-bloomberg-lp/"
   },
   {
    "id": 19,
@@ -650,9 +1095,31 @@
    "sourceCount": 3,
    "docket": 71720563,
    "filedAt": null,
-   "updatedAt": null,
-   "claimsDetail": null,
-   "claimsVerifiedAt": null
+   "updatedAt": "2026-08-05",
+   "claimsDetail": [
+    {
+     "count": "I",
+     "title": "DIGITAL MILLENNIUM COPYRIGHT ACT",
+     "canonical": "dmca-1202"
+    },
+    {
+     "count": "IV",
+     "title": "UNFAIR COMPETITION",
+     "canonical": "unfair-competition"
+    },
+    {
+     "count": "V",
+     "title": "UNJUST ENRICHMENT",
+     "canonical": "unjust-enrichment"
+    },
+    {
+     "count": "VI",
+     "title": "CIVIL CONSPIRACY",
+     "canonical": null
+    }
+   ],
+   "claimsVerifiedAt": "2026-08-05",
+   "claimsSource": "https://www.courtlistener.com/docket/71720563/1/reddit-inc-v-serpapi-llc/"
   },
   {
    "id": 20,
@@ -678,9 +1145,41 @@
    "sourceCount": 2,
    "docket": 68535780,
    "filedAt": null,
-   "updatedAt": null,
-   "claimsDetail": null,
-   "claimsVerifiedAt": null
+   "updatedAt": "2026-08-05",
+   "claimsDetail": [
+    {
+     "count": "FIRST",
+     "title": "Violation of New York Civil Rights Law Sections 50, 51",
+     "canonical": null
+    },
+    {
+     "count": "SECOND",
+     "title": "Deceptive Acts and Practices in Violation of the",
+     "canonical": null
+    },
+    {
+     "count": "THIRD",
+     "title": "False advertising in violation of the",
+     "canonical": null
+    },
+    {
+     "count": "FOURTH",
+     "title": "Unfair Competition and False Affiliation in",
+     "canonical": "unfair-competition"
+    },
+    {
+     "count": "FIFTH",
+     "title": "False Advertising in Violation of Section 43 of the Lanham Act,",
+     "canonical": "lanham"
+    },
+    {
+     "count": "SIXTH",
+     "title": "Unjust Enrichment",
+     "canonical": "unjust-enrichment"
+    }
+   ],
+   "claimsVerifiedAt": "2026-08-05",
+   "claimsSource": "https://www.courtlistener.com/docket/68535780/1/lehrman-v-lovo-inc/"
   },
   {
    "id": 21,
@@ -733,9 +1232,26 @@
    "sourceCount": 2,
    "docket": 68325564,
    "filedAt": null,
-   "updatedAt": null,
-   "claimsDetail": null,
-   "claimsVerifiedAt": null
+   "updatedAt": "2026-08-05",
+   "claimsDetail": [
+    {
+     "count": "1",
+     "title": "Direct Copyright Infringement (17 U.S.C. § 501",
+     "canonical": "direct-copyright"
+    },
+    {
+     "count": "2",
+     "title": "Vicarious Copyright Infringement",
+     "canonical": "vicarious"
+    },
+    {
+     "count": "1",
+     "title": "because MosaicML generates revenue from its infringing activities, and this revenue belongs to",
+     "canonical": null
+    }
+   ],
+   "claimsVerifiedAt": "2026-08-05",
+   "claimsSource": "https://www.courtlistener.com/docket/68325564/1/in-re-mosaic-llm-litigation/"
   },
   {
    "id": 23,
@@ -762,9 +1278,26 @@
    "sourceCount": 3,
    "docket": 69280523,
    "filedAt": null,
-   "updatedAt": null,
-   "claimsDetail": null,
-   "claimsVerifiedAt": null
+   "updatedAt": "2026-08-05",
+   "claimsDetail": [
+    {
+     "count": "",
+     "title": "Copyright Infringement (17 U.S.C. § 106) – Perplexity’s Copying of Plaintiffs’ Copyrighted",
+     "canonical": "direct-copyright"
+    },
+    {
+     "count": "",
+     "title": "Copyright Infringement (17 U.S.C. § 106) – Perplexity’s Copying of Plaintiffs’ Protected",
+     "canonical": "direct-copyright"
+    },
+    {
+     "count": "",
+     "title": "False Designation of Origin and Dilution of Plaintiffs’ Trademarks",
+     "canonical": "lanham"
+    }
+   ],
+   "claimsVerifiedAt": "2026-08-05",
+   "claimsSource": "https://www.courtlistener.com/docket/69280523/1/dow-jones-company-inc-v-perplexity-ai-inc/"
   },
   {
    "id": 24,
@@ -788,9 +1321,16 @@
    "sourceCount": 2,
    "docket": 71946179,
    "filedAt": null,
-   "updatedAt": null,
-   "claimsDetail": null,
-   "claimsVerifiedAt": null
+   "updatedAt": "2026-08-05",
+   "claimsDetail": [
+    {
+     "count": "FIRST",
+     "title": "Direct Copyright Infringement,",
+     "canonical": "direct-copyright"
+    }
+   ],
+   "claimsVerifiedAt": "2026-08-05",
+   "claimsSource": "https://www.courtlistener.com/docket/71946179/1/james-v-snowflake-inc/"
   },
   {
    "id": 25,
@@ -815,9 +1355,31 @@
    "sourceCount": 2,
    "docket": 69636122,
    "filedAt": null,
-   "updatedAt": null,
-   "claimsDetail": null,
-   "claimsVerifiedAt": null
+   "updatedAt": "2026-08-05",
+   "claimsDetail": [
+    {
+     "count": "I",
+     "title": "Direct Copyright Infringement (17 U.S.C. § 501",
+     "canonical": "direct-copyright"
+    },
+    {
+     "count": "II",
+     "title": "Secondary Copyright Infringement",
+     "canonical": "secondary-copyright"
+    },
+    {
+     "count": "III",
+     "title": "Trademark Infringement Lanham Act § 32, 15 U.S.C. § 1114",
+     "canonical": "lanham"
+    },
+    {
+     "count": "IV",
+     "title": "False Designation of Origin Lanham Act § 43(a)(1)(A), 15 U.S.C. § 1125(a)(1)(A",
+     "canonical": "lanham"
+    }
+   ],
+   "claimsVerifiedAt": "2026-08-05",
+   "claimsSource": "https://www.courtlistener.com/docket/69636122/1/advance-local-media-llc-v-cohere-inc/"
   },
   {
    "id": 26,
@@ -846,9 +1408,76 @@
    "sourceCount": 3,
    "docket": 71671876,
    "filedAt": null,
-   "updatedAt": null,
-   "claimsDetail": null,
-   "claimsVerifiedAt": null
+   "updatedAt": "2026-08-05",
+   "claimsDetail": [
+    {
+     "count": "I",
+     "title": "Direct Copyright Infringement,",
+     "canonical": "direct-copyright"
+    },
+    {
+     "count": "II",
+     "title": "Direct Copyright Infringement (Distribution of Copyrighted Recordings,",
+     "canonical": "direct-copyright"
+    },
+    {
+     "count": "III",
+     "title": "Direct Copyright Infringement of Unregistered Recordings,",
+     "canonical": "direct-copyright"
+    },
+    {
+     "count": "IV",
+     "title": "Direct Copyright Infringement of Musical-Composition Lyrics,",
+     "canonical": "direct-copyright"
+    },
+    {
+     "count": "V",
+     "title": "Direct Copyright Infringement of Musical-Composition Expression (Non",
+     "canonical": "direct-copyright"
+    },
+    {
+     "count": "VI",
+     "title": "Removal or Alteration of Copyright Management Information,",
+     "canonical": "dmca-1202"
+    },
+    {
+     "count": "VII",
+     "title": "Circumvention of Access Controls, DMCA § 1201",
+     "canonical": "dmca-1201"
+    },
+    {
+     "count": "IX",
+     "title": "Contributory Copyright Infringement,",
+     "canonical": "contributory"
+    },
+    {
+     "count": "X",
+     "title": "Vicarious Copyright Infringement,",
+     "canonical": "vicarious"
+    },
+    {
+     "count": "XI",
+     "title": "Violation of Illinois Biometric Information Privacy Act,",
+     "canonical": "bipa"
+    },
+    {
+     "count": "XII",
+     "title": "Violation of Illinois Right of Publicity Act (IRPA),",
+     "canonical": "right-of-publicity"
+    },
+    {
+     "count": "XIII",
+     "title": "Violation of Illinois Uniform Deceptive Trade Practices Act (UDTPA),",
+     "canonical": null
+    },
+    {
+     "count": "XIV",
+     "title": "Unjust Enrichment (Illinois Common Law",
+     "canonical": "unjust-enrichment"
+    }
+   ],
+   "claimsVerifiedAt": "2026-08-05",
+   "claimsSource": "https://www.courtlistener.com/docket/71671876/1/woulard-v-suno-inc/"
   },
   {
    "id": 27,
@@ -2820,7 +3449,8 @@
     "keyRulings": [
      {
       "date": "2025-11",
-      "holding": "高等法院：模型權重非 CDPA 複製品，次級侵權不成立；商標部分勝訴"
+      "holding": "高等法院：模型權重非 CDPA 複製品，次級侵權不成立；商標部分勝訴",
+      "docUrl": "https://www.judiciary.uk/wp-content/uploads/2025/11/Getty-Images-v-Stability-AI.pdf"
      },
      {
       "date": "2025-12",
@@ -2861,7 +3491,8 @@
     "keyRulings": [
      {
       "date": "2025-11",
-      "holding": "慕尼黑地院：歌詞記憶化構成重製，TDM 例外不適用，命停止儲存"
+      "holding": "慕尼黑地院：歌詞記憶化構成重製，TDM 例外不適用，命停止儲存",
+      "docUrl": "https://aifray.com/wp-content/uploads/2025/11/42-O-14139-24-Endurteil.pdf"
      }
     ],
     "outcome": "OpenAI 上訴中，OLG 可能提請 CJEU 先行裁定"
@@ -3046,7 +3677,7 @@
    "id": 109,
    "name": "GEMA v. Suno AI",
    "court": "德國慕尼黑第一地方法院 (LG München I, 42. Zivilkammer)",
-   "judge": "42nd Civil Chamber（第 42 民事庭）",
+   "judge": "Elke Schwager 法官（42. Zivilkammer 第 42 民事庭）",
    "status": "decided",
    "claims": [
     "Foreign Copyright",
@@ -3065,7 +3696,7 @@
    "sourceCount": 3,
    "docket": null,
    "filedAt": null,
-   "updatedAt": "2026-08-03",
+   "updatedAt": "2026-08-05",
    "rulings": {
     "fairUse": "unfavorable",
     "keyRulings": [
@@ -3166,7 +3797,8 @@
      },
      {
       "date": "2025-03",
-      "holding": "D.C. 巡迴法院維持人類著作人要件"
+      "holding": "D.C. 巡迴法院維持人類著作人要件",
+      "docUrl": "https://law.justia.com/cases/federal/appellate-courts/cadc/23-5233/23-5233-2025-03-18.html"
      },
      {
       "date": "2026-03",
