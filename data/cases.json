@@ -1191,7 +1191,7 @@
    ],
    "defendants": "SerpAPI, Perplexity AI",
    "issues": "Reddit 於 2025 年 10 月控告 SerpAPI 及 Perplexity AI，主張其進行「工業規模」的資料爬取，抓取 Reddit 使用者生成內容用於 AI 訓練及「答案引擎」服務，違反著作權法及 DMCA 反規避條款。\n\nReddit 指控 Perplexity 在收到 2024 年 5 月的停止函後，引用 Reddit 內容的情形反增 40 倍。",
-   "progress": "2026 年 1 月，Perplexity 提出駁回動議，主張其位於資料蒐集的「下游」，不應承擔 DMCA 反規避責任。案件審理中。",
+   "progress": "2026 年 1 月，Perplexity 提出駁回動議，主張其位於資料蒐集的「下游」，不應承擔 DMCA 反規避責任。案件審理中。\n\n【2026/7/31】S.D.N.Y. Engelmayer 法官裁定准許 Reddit 對 Perplexity、SerpAPI 之 DMCA § 1201(a) 反規避主張續行（認定 Google SearchGuard 屬受保護接觸控制措施），但駁回 SerpAPI 之 trafficking 主張及不正競爭、不當得利州法請求，案件進入證據開示階段。",
    "taiwan": "台灣啟示：\n\n1. 台灣的 PTT、Dcard 等使用者生成內容平台面臨類似風險。平台對使用者內容的著作權主張在台灣法律下的可行性值得探討。\n2. DMCA §1201(a) 的反規避條款在本案中的適用，可與台灣著作權法第 80-2 條的「防盜拷措施」保護類比分析。",
    "jurisdiction": "us",
    "country": "🇺🇸 美國",
@@ -1202,7 +1202,7 @@
    "sourceCount": 3,
    "docket": 71720563,
    "filedAt": null,
-   "updatedAt": "2026-08-05",
+   "updatedAt": "2026-08-06",
    "claimsDetail": [
     {
      "count": "I",
