@@ -55,7 +55,7 @@
     "Direct Copyright",
     "DMCA §1202",
     "Lanham Act",
-    "State Law"
+    "Unfair Competition"
    ],
    "defendants": "Stability AI Ltd.",
    "issues": "Getty Images 主張 Stability AI 未經授權使用超過 1,200 萬張 Getty 圖庫照片訓練 Stable Diffusion 圖像生成模型，構成著作權侵害、商標侵害及不正競爭。\n\n核心爭點包括：(1) AI 模型訓練是否構成「重製」；(2) 模型權重（weights）是否構成侵權複製品；(3) AI 生成的圖像包含 Getty 浮水印是否構成商標侵害。",
@@ -109,7 +109,13 @@
     }
    ],
    "claimsVerifiedAt": "2026-08-05",
-   "claimsSource": "https://www.courtlistener.com/docket/71112094/1/getty-images-us-inc-v-stability-ai-ltd/"
+   "claimsSource": "https://www.courtlistener.com/docket/71112094/1/getty-images-us-inc-v-stability-ai-ltd/",
+   "claimsPrevious": [
+    "Direct Copyright",
+    "DMCA §1202",
+    "Lanham Act",
+    "State Law"
+   ]
   },
   {
    "id": 3,
@@ -119,10 +125,12 @@
    "status": "active",
    "claims": [
     "Direct Copyright",
-    "Inducement",
+    "Vicarious Infringement",
     "DMCA §1202",
-    "Lanham Act",
-    "State Law"
+    "Right of Publicity",
+    "Unfair Competition",
+    "Breach of Contract",
+    "Declaratory Judgment"
    ],
    "defendants": "Stability AI, Midjourney, DeviantArt",
    "issues": "本案為藝術家集體訴訟，由 Sarah Andersen 等藝術家對 Stability AI、Midjourney 及 DeviantArt 提起，主張被告使用 LAION-5B 資料集（包含 50 億張網路爬取圖像）訓練 AI 圖像生成器，侵害藝術家著作權。\n\n關鍵法律爭點：(1) 直接著作權侵害——訓練資料的使用；(2) 引誘侵權（inducement）——使用者利用 AI 生成近似受保護作品的圖像；(3) DMCA §1202——移除著作權管理資訊。",
@@ -195,7 +203,14 @@
     }
    ],
    "claimsVerifiedAt": "2026-08-05",
-   "claimsSource": "https://www.courtlistener.com/docket/66732129/1/andersen-v-stability-ai-ltd/"
+   "claimsSource": "https://www.courtlistener.com/docket/66732129/1/andersen-v-stability-ai-ltd/",
+   "claimsPrevious": [
+    "Direct Copyright",
+    "Inducement",
+    "DMCA §1202",
+    "Lanham Act",
+    "State Law"
+   ]
   },
   {
    "id": 4,
@@ -204,6 +219,11 @@
    "judge": "Eumi K. Lee",
    "status": "active",
    "claims": [
+    "Unfair Competition",
+    "Negligence",
+    "Invasion of Privacy",
+    "Conversion",
+    "Unjust Enrichment",
     "Direct Copyright",
     "Vicarious Infringement",
     "DMCA §1202"
@@ -231,27 +251,27 @@
     {
      "count": "",
      "title": "NEGLIGENCE (on behalf of all Plaintiffs and all Classes",
-     "canonical": null
+     "canonical": "negligence"
     },
     {
      "count": "",
      "title": "INVASION OF PRIVACY UNDER CALIFORNIA CONSTITUTION",
-     "canonical": null
+     "canonical": "privacy"
     },
     {
      "count": "",
      "title": "INTRUSION UPON SECLUSION",
-     "canonical": null
+     "canonical": "privacy"
     },
     {
      "count": "",
      "title": "LARCENY/RECEIPT OF STOLEN PROPERTY",
-     "canonical": null
+     "canonical": "conversion"
     },
     {
      "count": "",
      "title": "CONVERSION (on behalf of all Plaintiffs and all Classes",
-     "canonical": null
+     "canonical": "conversion"
     },
     {
      "count": "",
@@ -275,7 +295,12 @@
     }
    ],
    "claimsVerifiedAt": "2026-08-05",
-   "claimsSource": "https://www.courtlistener.com/docket/67599029/1/in-re-google-generative-ai-copyright-litigation/"
+   "claimsSource": "https://www.courtlistener.com/docket/67599029/1/in-re-google-generative-ai-copyright-litigation/",
+   "claimsPrevious": [
+    "Direct Copyright",
+    "Vicarious Infringement",
+    "DMCA §1202"
+   ]
   },
   {
    "id": 5,
@@ -285,8 +310,11 @@
    "status": "active",
    "claims": [
     "Direct Copyright",
+    "Vicarious Infringement",
     "DMCA §1202",
-    "State Law"
+    "Unfair Competition",
+    "Unjust Enrichment",
+    "Negligence"
    ],
    "defendants": "Meta Platforms, Inc.",
    "issues": "Richard Kadrey 等 13 位作家控告 Meta 使用盜版書籍庫 Books3 和 LibGen 訓練 LLaMA 大型語言模型，構成著作權侵害。\n\n本案最重要的法律爭點是：以受著作權保護的作品訓練大型語言模型是否構成「合理使用」？Chhabria 法官在即決判決中認定構成合理使用，但附有重要但書。",
@@ -346,11 +374,16 @@
     {
      "count": "6",
      "title": "Negligence California Common Law",
-     "canonical": null
+     "canonical": "negligence"
     }
    ],
    "claimsVerifiedAt": "2026-08-05",
-   "claimsSource": "https://www.courtlistener.com/docket/67569326/1/kadrey-v-meta-platforms-inc/"
+   "claimsSource": "https://www.courtlistener.com/docket/67569326/1/kadrey-v-meta-platforms-inc/",
+   "claimsPrevious": [
+    "Direct Copyright",
+    "DMCA §1202",
+    "State Law"
+   ]
   },
   {
    "id": 6,
@@ -448,71 +481,6 @@
    "claimsDetail": [
     {
      "count": "I",
-     "title": "am a champion and you’re gonna ’Cause I am a champion, and you’re gonna",
-     "canonical": null
-    },
-    {
-     "count": "I",
-     "title": "am a champion, and you’re gonna",
-     "canonical": null
-    },
-    {
-     "count": "",
-     "title": "you’re not welcome anymore Walk out the door",
-     "canonical": null
-    },
-    {
-     "count": "",
-     "title": "you're not welcome anymore For someone who’s loving me",
-     "canonical": null
-    },
-    {
-     "count": "",
-     "title": "you’re not welcome anymore",
-     "canonical": null
-    },
-    {
-     "count": "",
-     "title": "you’re not welcome anymore And I’ve got all my love to give and I’ll",
-     "canonical": null
-    },
-    {
-     "count": "I",
-     "title": "ve got friends in low places",
-     "canonical": null
-    },
-    {
-     "count": "I",
-     "title": "ve got friends in low places Where the whiskey drowns",
-     "canonical": null
-    },
-    {
-     "count": "I",
-     "title": "ve got friends in low places And I’ll be okay",
-     "canonical": null
-    },
-    {
-     "count": "I",
-     "title": "saw you dancin’ in the gym Can music save your mortal soul?",
-     "canonical": null
-    },
-    {
-     "count": "",
-     "title": "the players tried to take the field",
-     "canonical": null
-    },
-    {
-     "count": "",
-     "title": "fire is the devil’s only friend Them good ole boys were drinking whiskey",
-     "canonical": null
-    },
-    {
-     "count": "",
-     "title": "singing seems to help a troubled soul",
-     "canonical": null
-    },
-    {
-     "count": "I",
      "title": "Direct Copyright Infringement",
      "canonical": "direct-copyright"
     },
@@ -559,9 +527,26 @@
    "sourceCount": 3,
    "docket": 67810584,
    "filedAt": null,
-   "updatedAt": null,
-   "claimsDetail": null,
-   "claimsVerifiedAt": null
+   "updatedAt": "2026-08-05",
+   "claimsDetail": [
+    {
+     "count": "I",
+     "title": "DIRECT COPYRIGHT INFRINGEMENT (17 U.S.C. § 501",
+     "canonical": "direct-copyright"
+    },
+    {
+     "count": "II",
+     "title": "VICARIOUS COPYRIGHT INFRINGEMENT",
+     "canonical": "vicarious"
+    },
+    {
+     "count": "III",
+     "title": "CONTRIBUTORY COPYRIGHT INFRINGEMENT",
+     "canonical": "contributory"
+    }
+   ],
+   "claimsVerifiedAt": "2026-08-05",
+   "claimsSource": "https://www.courtlistener.com/docket/67810584/1/authors-guild-v-openai-inc/"
   },
   {
    "id": 9,
@@ -574,6 +559,7 @@
     "Vicarious Infringement",
     "Contributory Infringement",
     "DMCA §1202",
+    "Unfair Competition",
     "Lanham Act"
    ],
    "defendants": "Microsoft Corp., OpenAI Inc.",
@@ -589,7 +575,7 @@
    "sourceCount": 3,
    "docket": 68117049,
    "filedAt": null,
-   "updatedAt": "2026-08-03",
+   "updatedAt": "2026-08-05",
    "rulings": {
     "fairUse": "pending",
     "fairUseNote": "合理使用抗辯待審，事證開示階段對原告有利發展",
@@ -604,8 +590,47 @@
      }
     ]
    },
-   "claimsDetail": null,
-   "claimsVerifiedAt": null
+   "claimsDetail": [
+    {
+     "count": "I",
+     "title": "Copyright Infringement (17 U.S.C. § 501",
+     "canonical": "direct-copyright"
+    },
+    {
+     "count": "II",
+     "title": "Vicarious Copyright Infringement",
+     "canonical": "vicarious"
+    },
+    {
+     "count": "III",
+     "title": "Contributory Copyright Infringement",
+     "canonical": "contributory"
+    },
+    {
+     "count": "V",
+     "title": "Digital Millennium Copyright Act – Removal of Copyright Management",
+     "canonical": "dmca-1202"
+    },
+    {
+     "count": "VI",
+     "title": "Common Law Unfair Competition By Misappropriation",
+     "canonical": "unfair-competition"
+    },
+    {
+     "count": "VII",
+     "title": "Trademark Dilution (15 U.S.C. § 1125(c",
+     "canonical": "lanham"
+    }
+   ],
+   "claimsVerifiedAt": "2026-08-05",
+   "claimsSource": "https://www.courtlistener.com/docket/68117049/1/the-new-york-times-company-v-microsoft-corporation/",
+   "claimsPrevious": [
+    "Direct Copyright",
+    "Vicarious Infringement",
+    "Contributory Infringement",
+    "DMCA §1202",
+    "Lanham Act"
+   ]
   },
   {
    "id": 10,
@@ -615,9 +640,11 @@
    "status": "mdl",
    "claims": [
     "Direct Copyright",
-    "Contributory Infringement",
     "Vicarious Infringement",
-    "DMCA §1202"
+    "Contributory Infringement",
+    "DMCA §1202",
+    "Unfair Competition",
+    "Lanham Act"
    ],
    "defendants": "OpenAI Inc., Microsoft Corp.",
    "issues": "本案為多地區訴訟（Multidistrict Litigation, MDL）合併案件，由 Stein 法官統一管理逾 20 件針對 OpenAI 的著作權訴訟。本 MDL 的發起母案為 In re OpenAI ChatGPT Litigation，由知名作者 Paul Tremblay 及 Sarah Silverman 等人於 2023 年 6 月在加州北區提起，後於 2024 年 6 月轉入本 MDL（MDL No. 3143）統一管理。\n\n合併案件包括：\n• In re OpenAI ChatGPT Litigation（Tremblay、Silverman、Chabon——發起母案）\n• Authors Guild v. OpenAI\n• New York Times v. Microsoft/OpenAI\n• Millette v. OpenAI\n• Ziff Davis v. OpenAI\n• Bird v. Microsoft\n• U.S. News & World Report v. OpenAI\n• California Newspaper Partnership v. Microsoft\n• 及其他共逾 20 件相關訴訟\n\n核心爭點橫跨：(1) 無償使用海量受著作權保護著作進行商業 AI 訓練是否合理；(2) 模型參數中著作權作品的可識別程度；(3) DMCA §1202(b) 著作權管理資訊移除；(4) 微軟作為主要投資者及產品整合方的連帶責任。\n\n【救濟與程序聲明】程序：合併訴訟，各成員案訴因不一；本卡片標籤為各成員案起訴狀訴因之聯集（以 NYT、Authors Guild、Daily News 等主要成員案為據），非單一起訴狀所載，待逐案核對。",
@@ -632,9 +659,47 @@
    "sourceCount": 2,
    "docket": 69879510,
    "filedAt": null,
-   "updatedAt": "2026-08-04",
-   "claimsDetail": null,
-   "claimsVerifiedAt": null
+   "updatedAt": "2026-08-05",
+   "claimsDetail": [
+    {
+     "count": "I",
+     "title": "Copyright Infringement (17 U.S.C. § 501",
+     "canonical": "direct-copyright"
+    },
+    {
+     "count": "II",
+     "title": "Vicarious Copyright Infringement",
+     "canonical": "vicarious"
+    },
+    {
+     "count": "III",
+     "title": "Contributory Copyright Infringement",
+     "canonical": "contributory"
+    },
+    {
+     "count": "V",
+     "title": "Digital Millennium Copyright Act – Removal of Copyright Management",
+     "canonical": "dmca-1202"
+    },
+    {
+     "count": "VI",
+     "title": "Common Law Unfair Competition By Misappropriation",
+     "canonical": "unfair-competition"
+    },
+    {
+     "count": "VII",
+     "title": "Trademark Dilution (15 U.S.C. § 1125(c",
+     "canonical": "lanham"
+    }
+   ],
+   "claimsVerifiedAt": "2026-08-05",
+   "claimsSource": "https://www.courtlistener.com/docket/69879510/9/in-re-openai-inc-copyright-infringement-litigation/",
+   "claimsPrevious": [
+    "Direct Copyright",
+    "Contributory Infringement",
+    "Vicarious Infringement",
+    "DMCA §1202"
+   ]
   },
   {
    "id": 11,
@@ -644,8 +709,7 @@
    "status": "active",
    "claims": [
     "Direct Copyright",
-    "Vicarious Infringement",
-    "Contributory Infringement"
+    "Secondary Infringement"
    ],
    "defendants": "Midjourney, Inc.",
    "issues": "2025 年 6 月，Disney 及 Universal City Studios 控告 Midjourney 著作權侵害；同年 9 月，Warner Bros. 等亦提起訴訟。\n\n原告主張 Midjourney 使用受著作權保護的電影角色形象（包括 Superman、Batman、Bugs Bunny、Scooby-Doo 等）訓練其 AI 圖像生成器，且允許使用者生成近似受保護角色的圖像，構成「系統性的、持續性的、故意的」著作權侵害。",
@@ -674,7 +738,12 @@
     }
    ],
    "claimsVerifiedAt": "2026-08-05",
-   "claimsSource": "https://www.courtlistener.com/docket/70513159/1/disney-enterprises-inc-v-midjourney-inc/"
+   "claimsSource": "https://www.courtlistener.com/docket/70513159/1/disney-enterprises-inc-v-midjourney-inc/",
+   "claimsPrevious": [
+    "Direct Copyright",
+    "Vicarious Infringement",
+    "Contributory Infringement"
+   ]
   },
   {
    "id": 12,
@@ -683,8 +752,7 @@
    "judge": "Saylor IV / Hellerstein / Garnett",
    "status": "active",
    "claims": [
-    "Direct Copyright",
-    "DMCA §1201"
+    "Direct Copyright"
    ],
    "defendants": "Suno, Inc.",
    "issues": "UMG、Sony 及 Warner 三大唱片公司對 AI 音樂生成平台 Suno 及 Udio 提起著作權侵害訴訟，主張被告未經授權使用受保護的錄音著作訓練 AI 模型生成音樂。\n\n核心爭點：(1) AI 模型生成的音樂是否構成「實質近似」的侵權複製品；(2) AI 音樂訓練是否構成合理使用；(3) 是否違反 DMCA 反規避條款（§1201(a)）。",
@@ -713,7 +781,11 @@
     }
    ],
    "claimsVerifiedAt": "2026-08-05",
-   "claimsSource": "https://www.courtlistener.com/docket/68878608/1/umg-recordings-inc-v-suno-inc/"
+   "claimsSource": "https://www.courtlistener.com/docket/68878608/1/umg-recordings-inc-v-suno-inc/",
+   "claimsPrevious": [
+    "Direct Copyright",
+    "DMCA §1201"
+   ]
   },
   {
    "id": 13,
@@ -723,7 +795,16 @@
    "status": "appeal",
    "claims": [
     "DMCA §1202",
-    "State Law"
+    "Breach of Contract",
+    "Tortious Interference",
+    "Fraud",
+    "Lanham Act",
+    "Unjust Enrichment",
+    "Unfair Competition",
+    "State Law",
+    "Negligence",
+    "Civil Conspiracy",
+    "Declaratory Judgment"
    ],
    "defendants": "GitHub, Inc., Microsoft Corp., OpenAI Inc.",
    "issues": "程式開發者以集體訴訟形式控告 GitHub、Microsoft 及 OpenAI，主張 GitHub Copilot（AI 程式碼生成工具）使用開源程式碼訓練 Codex 模型，違反開源授權條款及 DMCA §1202 關於著作權管理資訊的規定。\n\n核心爭點：DMCA §1202(b) 是否適用於 AI 生成的輸出——當輸出並非原作品的精確複製，而可能是衍生著作時。",
@@ -757,7 +838,7 @@
     {
      "count": "I",
      "title": "VIOLATION OF THE DIGITAL MILLENIUM COPYRIGHT ACT",
-     "canonical": null
+     "canonical": "dmca-1202"
     },
     {
      "count": "II",
@@ -772,7 +853,7 @@
     {
      "count": "IV",
      "title": "FRAUD Common Law (Against GitHub",
-     "canonical": null
+     "canonical": "fraud"
     },
     {
      "count": "V",
@@ -797,17 +878,17 @@
     {
      "count": "IX",
      "title": "VIOLATION OF THE CALIFORNIA CONSUMER PRIVACY ACT",
-     "canonical": null
+     "canonical": "state-law"
     },
     {
      "count": "X",
      "title": "NEGLIGENCE—NEGLIGENT HANDLING OF PERSONAL DATA",
-     "canonical": null
+     "canonical": "negligence"
     },
     {
      "count": "XI",
      "title": "CIVIL CONSPIRACY",
-     "canonical": null
+     "canonical": "conspiracy"
     },
     {
      "count": "XII",
@@ -816,7 +897,11 @@
     }
    ],
    "claimsVerifiedAt": "2026-08-05",
-   "claimsSource": "https://www.courtlistener.com/docket/65669506/1/doe-1-v-github-inc/"
+   "claimsSource": "https://www.courtlistener.com/docket/65669506/1/doe-1-v-github-inc/",
+   "claimsPrevious": [
+    "DMCA §1202",
+    "State Law"
+   ]
   },
   {
    "id": 14,
@@ -873,7 +958,6 @@
    "status": "active",
    "claims": [
     "Direct Copyright",
-    "Vicarious Infringement",
     "Contributory Infringement",
     "Lanham Act"
    ],
@@ -919,7 +1003,13 @@
     }
    ],
    "claimsVerifiedAt": "2026-08-05",
-   "claimsSource": "https://www.courtlistener.com/docket/71997720/1/the-new-york-times-company-v-perplexity-ai-inc/"
+   "claimsSource": "https://www.courtlistener.com/docket/71997720/1/the-new-york-times-company-v-perplexity-ai-inc/",
+   "claimsPrevious": [
+    "Direct Copyright",
+    "Vicarious Infringement",
+    "Contributory Infringement",
+    "Lanham Act"
+   ]
   },
   {
    "id": 16,
@@ -930,8 +1020,7 @@
    "claims": [
     "Direct Copyright",
     "Vicarious Infringement",
-    "Contributory Infringement",
-    "Lanham Act"
+    "Contributory Infringement"
    ],
    "defendants": "Tesla, Inc.",
    "issues": "Alcon Entertainment（電影《乙乙》製片公司）控告 Tesla 在 AI 相關產品發表活動中未經授權使用《乙乙》(Blade Runner 2049) 的影像及元素，構成著作權及商標侵害。\n\n本案的特殊性在於涉及 AI 生成的影像是否侵害電影著作權，以及企業在行銷 AI 產品時使用受保護影視內容的法律風險。",
@@ -970,7 +1059,13 @@
     }
    ],
    "claimsVerifiedAt": "2026-08-05",
-   "claimsSource": "https://www.courtlistener.com/docket/69280385/1/alcon-entertainment-llc-v-tesla-inc/"
+   "claimsSource": "https://www.courtlistener.com/docket/69280385/1/alcon-entertainment-llc-v-tesla-inc/",
+   "claimsPrevious": [
+    "Direct Copyright",
+    "Vicarious Infringement",
+    "Contributory Infringement",
+    "Lanham Act"
+   ]
   },
   {
    "id": 17,
@@ -980,8 +1075,7 @@
    "status": "active",
    "claims": [
     "Direct Copyright",
-    "Vicarious Infringement",
-    "Contributory Infringement"
+    "Secondary Infringement"
    ],
    "defendants": "Meta Platforms, Inc.",
    "issues": "Strike 3 Holdings 控告 Meta 在訓練 AI 模型時使用其受著作權保護的視覺內容，構成直接侵害及間接侵害（代位侵害與輔助侵害）。",
@@ -1010,7 +1104,12 @@
     }
    ],
    "claimsVerifiedAt": "2026-08-05",
-   "claimsSource": "https://www.courtlistener.com/docket/70899478/1/strike-3-holdings-llc-v-meta-platforms-inc/"
+   "claimsSource": "https://www.courtlistener.com/docket/70899478/1/strike-3-holdings-llc-v-meta-platforms-inc/",
+   "claimsPrevious": [
+    "Direct Copyright",
+    "Vicarious Infringement",
+    "Contributory Infringement"
+   ]
   },
   {
    "id": 18,
@@ -1019,7 +1118,12 @@
    "judge": "Margaret M. Garnett",
    "status": "active",
    "claims": [
-    "Direct Copyright"
+    "Direct Copyright",
+    "Vicarious Infringement",
+    "DMCA §1202",
+    "Conversion",
+    "Negligence",
+    "Unjust Enrichment"
    ],
    "defendants": "Meta Platforms, Inc.",
    "issues": "前美國政治人物 Mike Huckabee 等人對 Meta 及 Bloomberg 分別提起著作權訴訟，主張其著作被用於 AI 模型訓練。本案涉及政治人物著作在 AI 訓練中的使用問題。",
@@ -1054,12 +1158,12 @@
     {
      "count": "FOURTH",
      "title": "CONVERSION Brought on behalf of Plaintiffs, individually and on behalf of the Class,",
-     "canonical": null
+     "canonical": "conversion"
     },
     {
      "count": "FIFTH",
      "title": "NEGLIGENCE Brought on behalf of Plaintiffs, individually and on behalf of the Class,",
-     "canonical": null
+     "canonical": "negligence"
     },
     {
      "count": "SIXTH",
@@ -1068,7 +1172,10 @@
     }
    ],
    "claimsVerifiedAt": "2026-08-05",
-   "claimsSource": "https://www.courtlistener.com/docket/67890942/1/huckabee-v-bloomberg-lp/"
+   "claimsSource": "https://www.courtlistener.com/docket/67890942/1/huckabee-v-bloomberg-lp/",
+   "claimsPrevious": [
+    "Direct Copyright"
+   ]
   },
   {
    "id": 19,
@@ -1077,10 +1184,10 @@
    "judge": "Paul A. Engelmayer",
    "status": "active",
    "claims": [
-    "Vicarious Infringement",
-    "Contributory Infringement",
     "DMCA §1202",
-    "DMCA §1201"
+    "Unfair Competition",
+    "Unjust Enrichment",
+    "Civil Conspiracy"
    ],
    "defendants": "SerpAPI, Perplexity AI",
    "issues": "Reddit 於 2025 年 10 月控告 SerpAPI 及 Perplexity AI，主張其進行「工業規模」的資料爬取，抓取 Reddit 使用者生成內容用於 AI 訓練及「答案引擎」服務，違反著作權法及 DMCA 反規避條款。\n\nReddit 指控 Perplexity 在收到 2024 年 5 月的停止函後，引用 Reddit 內容的情形反增 40 倍。",
@@ -1115,11 +1222,17 @@
     {
      "count": "VI",
      "title": "CIVIL CONSPIRACY",
-     "canonical": null
+     "canonical": "conspiracy"
     }
    ],
    "claimsVerifiedAt": "2026-08-05",
-   "claimsSource": "https://www.courtlistener.com/docket/71720563/1/reddit-inc-v-serpapi-llc/"
+   "claimsSource": "https://www.courtlistener.com/docket/71720563/1/reddit-inc-v-serpapi-llc/",
+   "claimsPrevious": [
+    "Vicarious Infringement",
+    "Contributory Infringement",
+    "DMCA §1202",
+    "DMCA §1201"
+   ]
   },
   {
    "id": 20,
@@ -1128,9 +1241,9 @@
    "judge": "Paul Oetken",
    "status": "active",
    "claims": [
-    "Direct Copyright",
-    "Contributory Infringement",
-    "State Law"
+    "Unfair Competition",
+    "Lanham Act",
+    "Unjust Enrichment"
    ],
    "defendants": "Lovo, Inc.",
    "issues": "本案涉及 AI 語音合成（voice cloning）的著作權問題。原告 Lehrman 主張 Lovo 未經授權使用其聲音表演錄音訓練 AI 語音合成模型，構成著作權侵害。\n\n核心爭點：聲音表演的著作權保護範圍是否延伸至 AI 語音合成？",
@@ -1179,7 +1292,12 @@
     }
    ],
    "claimsVerifiedAt": "2026-08-05",
-   "claimsSource": "https://www.courtlistener.com/docket/68535780/1/lehrman-v-lovo-inc/"
+   "claimsSource": "https://www.courtlistener.com/docket/68535780/1/lehrman-v-lovo-inc/",
+   "claimsPrevious": [
+    "Direct Copyright",
+    "Contributory Infringement",
+    "State Law"
+   ]
   },
   {
    "id": 21,
@@ -1261,8 +1379,6 @@
    "status": "active",
    "claims": [
     "Direct Copyright",
-    "Vicarious Infringement",
-    "Contributory Infringement",
     "Lanham Act"
    ],
    "defendants": "Perplexity AI, Inc.",
@@ -1297,7 +1413,13 @@
     }
    ],
    "claimsVerifiedAt": "2026-08-05",
-   "claimsSource": "https://www.courtlistener.com/docket/69280523/1/dow-jones-company-inc-v-perplexity-ai-inc/"
+   "claimsSource": "https://www.courtlistener.com/docket/69280523/1/dow-jones-company-inc-v-perplexity-ai-inc/",
+   "claimsPrevious": [
+    "Direct Copyright",
+    "Vicarious Infringement",
+    "Contributory Infringement",
+    "Lanham Act"
+   ]
   },
   {
    "id": 24,
@@ -1340,6 +1462,7 @@
    "status": "active",
    "claims": [
     "Direct Copyright",
+    "Secondary Infringement",
     "Lanham Act"
    ],
    "defendants": "Cohere Inc.",
@@ -1379,7 +1502,11 @@
     }
    ],
    "claimsVerifiedAt": "2026-08-05",
-   "claimsSource": "https://www.courtlistener.com/docket/69636122/1/advance-local-media-llc-v-cohere-inc/"
+   "claimsSource": "https://www.courtlistener.com/docket/69636122/1/advance-local-media-llc-v-cohere-inc/",
+   "claimsPrevious": [
+    "Direct Copyright",
+    "Lanham Act"
+   ]
   },
   {
    "id": 26,
@@ -1389,11 +1516,14 @@
    "status": "active",
    "claims": [
     "Direct Copyright",
-    "Vicarious Infringement",
-    "Contributory Infringement",
     "DMCA §1202",
     "DMCA §1201",
-    "BIPA"
+    "Contributory Infringement",
+    "Vicarious Infringement",
+    "BIPA",
+    "Right of Publicity",
+    "State Law",
+    "Unjust Enrichment"
    ],
    "defendants": "Suno, Inc.",
    "issues": "本案除著作權主張外，特別值得注意的是援引伊利諾州《生物辨識資訊隱私法》(BIPA) 及《公開權法》(IRPA) 的州法主張。原告主張 AI 音樂平台不僅侵害音樂著作權，也侵害了表演者的生物辨識資訊（聲紋）及公開權。",
@@ -1468,7 +1598,7 @@
     {
      "count": "XIII",
      "title": "Violation of Illinois Uniform Deceptive Trade Practices Act (UDTPA),",
-     "canonical": null
+     "canonical": "state-law"
     },
     {
      "count": "XIV",
@@ -1477,7 +1607,15 @@
     }
    ],
    "claimsVerifiedAt": "2026-08-05",
-   "claimsSource": "https://www.courtlistener.com/docket/71671876/1/woulard-v-suno-inc/"
+   "claimsSource": "https://www.courtlistener.com/docket/71671876/1/woulard-v-suno-inc/",
+   "claimsPrevious": [
+    "Direct Copyright",
+    "Vicarious Infringement",
+    "Contributory Infringement",
+    "DMCA §1202",
+    "DMCA §1201",
+    "BIPA"
+   ]
   },
   {
    "id": 27,
@@ -1486,7 +1624,9 @@
    "judge": "Vince Chhabria",
    "status": "active",
    "claims": [
-    "Direct Copyright"
+    "Direct Copyright",
+    "Contributory Infringement",
+    "DMCA §1202"
    ],
    "defendants": "Meta Platforms, Inc.",
    "issues": "媒體公司 Entrepreneur Media 控告 Meta 在訓練 AI 模型時未經授權使用其出版內容。",
@@ -1501,9 +1641,29 @@
    "sourceCount": 2,
    "docket": 71883091,
    "filedAt": null,
-   "updatedAt": null,
-   "claimsDetail": null,
-   "claimsVerifiedAt": null
+   "updatedAt": "2026-08-05",
+   "claimsDetail": [
+    {
+     "count": "I",
+     "title": "Direct Copyright Infringement",
+     "canonical": "direct-copyright"
+    },
+    {
+     "count": "II",
+     "title": "Contributory Copyright Infringement",
+     "canonical": "contributory"
+    },
+    {
+     "count": "III",
+     "title": "Violation of the Digital Millennium Copyright Act",
+     "canonical": "dmca-1202"
+    }
+   ],
+   "claimsVerifiedAt": "2026-08-05",
+   "claimsSource": "https://www.courtlistener.com/docket/71883091/1/entrepreneur-media-llc-v-meta-platforms-inc/",
+   "claimsPrevious": [
+    "Direct Copyright"
+   ]
   },
   {
    "id": 28,
@@ -1553,9 +1713,16 @@
    "sourceCount": 2,
    "docket": 71662283,
    "filedAt": null,
-   "updatedAt": null,
-   "claimsDetail": null,
-   "claimsVerifiedAt": null
+   "updatedAt": "2026-08-05",
+   "claimsDetail": [
+    {
+     "count": "I",
+     "title": "Direct Copyright Infringement (17 U.S.C. § 501",
+     "canonical": "direct-copyright"
+    }
+   ],
+   "claimsVerifiedAt": "2026-08-05",
+   "claimsSource": "https://www.courtlistener.com/docket/71662283/1/in-re-salesforce-llm-copyright-infringement-litigation/"
   },
   {
    "id": 30,
@@ -1565,8 +1732,7 @@
    "status": "active",
    "claims": [
     "Direct Copyright",
-    "Vicarious Infringement",
-    "Contributory Infringement"
+    "Secondary Infringement"
    ],
    "defendants": "MiniMax (海螺 AI)",
    "issues": "Disney 控告中國 AI 公司 MiniMax（海螺 AI）著作權侵害，主張其 AI 影像生成模型使用 Disney 受保護的角色形象訓練。本案特殊之處在於被告為中國 AI 公司，涉及中美之間的著作權跨境執法問題。",
@@ -1581,9 +1747,26 @@
    "sourceCount": 3,
    "docket": 71357247,
    "filedAt": null,
-   "updatedAt": "2026-08-03",
-   "claimsDetail": null,
-   "claimsVerifiedAt": null
+   "updatedAt": "2026-08-05",
+   "claimsDetail": [
+    {
+     "count": "FIRST",
+     "title": "Direct Copyright Infringement",
+     "canonical": "direct-copyright"
+    },
+    {
+     "count": "SECOND",
+     "title": "Secondary Copyright Infringement",
+     "canonical": "secondary-copyright"
+    }
+   ],
+   "claimsVerifiedAt": "2026-08-05",
+   "claimsSource": "https://www.courtlistener.com/docket/71357247/1/disney-enterprises-inc-v-minimax/",
+   "claimsPrevious": [
+    "Direct Copyright",
+    "Vicarious Infringement",
+    "Contributory Infringement"
+   ]
   },
   {
    "id": 31,

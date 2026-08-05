@@ -11,42 +11,252 @@
   "procedural": "確認之訴與登記"
  },
  "canonical": {
-  "direct-copyright": {"label": "Direct Copyright", "zh": "直接侵害著作權", "cite": "17 U.S.C. §501", "category": "copyright"},
-  "contributory": {"label": "Contributory Infringement", "zh": "輔助侵權", "cite": "", "category": "copyright"},
-  "vicarious": {"label": "Vicarious Infringement", "zh": "代位侵權", "cite": "", "category": "copyright"},
-  "inducement": {"label": "Inducement", "zh": "引誘侵權", "cite": "", "category": "copyright"},
-  "secondary-copyright": {"label": "Secondary Infringement", "zh": "次要侵權（未細分）", "cite": "", "category": "copyright"},
-  "pre1972": {"label": "Pre-1972 Recordings", "zh": "1972 年前錄音", "cite": "Music Modernization Act", "category": "copyright"},
-  "dmca-1201": {"label": "DMCA §1201", "zh": "規避技術保護措施", "cite": "17 U.S.C. §1201", "category": "dmca"},
-  "dmca-1202": {"label": "DMCA §1202", "zh": "移除或竄改著作權管理資訊", "cite": "17 U.S.C. §1202", "category": "dmca"},
-  "lanham": {"label": "Lanham Act", "zh": "商標侵害／不實標示", "cite": "15 U.S.C. §1125", "category": "trademark"},
-  "passing-off": {"label": "Passing Off", "zh": "仿冒（英國法）", "cite": "", "category": "trademark"},
-  "unfair-competition": {"label": "Unfair Competition", "zh": "不公平競爭", "cite": "", "category": "trademark"},
-  "antitrust": {"label": "Antitrust", "zh": "反壟斷／競爭法", "cite": "Sherman Act", "category": "trademark"},
-  "breach-contract": {"label": "Breach of Contract", "zh": "違約", "cite": "", "category": "contract"},
-  "breach-cc-license": {"label": "Breach of CC License", "zh": "違反 Creative Commons 授權", "cite": "", "category": "contract"},
-  "breach-cba": {"label": "Breach of CBA", "zh": "集體談判協議違約", "cite": "LMRA §301", "category": "contract"},
-  "unjust-enrichment": {"label": "Unjust Enrichment", "zh": "不當得利", "cite": "", "category": "contract"},
-  "trespass-chattels": {"label": "Trespass to Chattels", "zh": "侵害動產", "cite": "", "category": "contract"},
-  "tortious-interference": {"label": "Tortious Interference", "zh": "不法干擾契約關係", "cite": "", "category": "contract"},
-  "state-law": {"label": "State Law", "zh": "州法請求（未細分）", "cite": "", "category": "statute"},
-  "bipa": {"label": "BIPA", "zh": "生物特徵資訊隱私法", "cite": "740 ILCS 14", "category": "statute"},
-  "right-of-publicity": {"label": "Right of Publicity", "zh": "形象權", "cite": "", "category": "statute"},
-  "cfaa": {"label": "CFAA", "zh": "電腦詐欺與濫用法", "cite": "18 U.S.C. §1030", "category": "statute"},
-  "securities": {"label": "Securities §14(a)", "zh": "證券法揭露違規", "cite": "Rule 14a-9", "category": "statute"},
-  "fiduciary": {"label": "Breach of Fiduciary Duty", "zh": "違反受任人義務（代位訴訟）", "cite": "", "category": "statute"},
-  "defamation": {"label": "Defamation", "zh": "誹謗／言論責任", "cite": "", "category": "statute"},
-  "foreign-copyright": {"label": "Foreign Copyright", "zh": "外國著作權法侵害", "cite": "", "category": "foreign"},
-  "tdm-exception": {"label": "TDM Exception", "zh": "文本與資料探勘例外", "cite": "EU DSM Art. 4／UrhG §60d", "category": "foreign"},
-  "database-right": {"label": "Database Right", "zh": "資料庫權", "cite": "", "category": "foreign"},
-  "related-rights": {"label": "Related Rights", "zh": "鄰接權／出版者權", "cite": "", "category": "foreign"},
-  "reproduction-right": {"label": "Reproduction Right", "zh": "重製權", "cite": "", "category": "foreign"},
-  "adaptation-right": {"label": "Adaptation Right", "zh": "改作權", "cite": "", "category": "foreign"},
-  "communication-right": {"label": "Communication Right", "zh": "公開傳輸／資訊網路傳播權", "cite": "", "category": "foreign"},
-  "moral-rights": {"label": "Moral Rights", "zh": "著作人格權", "cite": "", "category": "foreign"},
-  "cjeu-reference": {"label": "CJEU Reference", "zh": "歐盟法院先行裁決聲請", "cite": "TFEU Art. 267", "category": "procedural"},
-  "declaratory-noninfringement": {"label": "Declaratory Judgment", "zh": "確認不侵權之訴", "cite": "", "category": "procedural"},
-  "ai-authorship": {"label": "AI Authorship", "zh": "AI 生成物可著作權性", "cite": "", "category": "procedural"}
+  "direct-copyright": {
+   "label": "Direct Copyright",
+   "zh": "直接侵害著作權",
+   "cite": "17 U.S.C. §501",
+   "category": "copyright"
+  },
+  "contributory": {
+   "label": "Contributory Infringement",
+   "zh": "輔助侵權",
+   "cite": "",
+   "category": "copyright"
+  },
+  "vicarious": {
+   "label": "Vicarious Infringement",
+   "zh": "代位侵權",
+   "cite": "",
+   "category": "copyright"
+  },
+  "inducement": {
+   "label": "Inducement",
+   "zh": "引誘侵權",
+   "cite": "",
+   "category": "copyright"
+  },
+  "secondary-copyright": {
+   "label": "Secondary Infringement",
+   "zh": "次要侵權（未細分）",
+   "cite": "",
+   "category": "copyright"
+  },
+  "pre1972": {
+   "label": "Pre-1972 Recordings",
+   "zh": "1972 年前錄音",
+   "cite": "Music Modernization Act",
+   "category": "copyright"
+  },
+  "dmca-1201": {
+   "label": "DMCA §1201",
+   "zh": "規避技術保護措施",
+   "cite": "17 U.S.C. §1201",
+   "category": "dmca"
+  },
+  "dmca-1202": {
+   "label": "DMCA §1202",
+   "zh": "移除或竄改著作權管理資訊",
+   "cite": "17 U.S.C. §1202",
+   "category": "dmca"
+  },
+  "lanham": {
+   "label": "Lanham Act",
+   "zh": "商標侵害／不實標示",
+   "cite": "15 U.S.C. §1125",
+   "category": "trademark"
+  },
+  "passing-off": {
+   "label": "Passing Off",
+   "zh": "仿冒（英國法）",
+   "cite": "",
+   "category": "trademark"
+  },
+  "unfair-competition": {
+   "label": "Unfair Competition",
+   "zh": "不公平競爭",
+   "cite": "",
+   "category": "trademark"
+  },
+  "antitrust": {
+   "label": "Antitrust",
+   "zh": "反壟斷／競爭法",
+   "cite": "Sherman Act",
+   "category": "trademark"
+  },
+  "breach-contract": {
+   "label": "Breach of Contract",
+   "zh": "違約",
+   "cite": "",
+   "category": "contract"
+  },
+  "breach-cc-license": {
+   "label": "Breach of CC License",
+   "zh": "違反 Creative Commons 授權",
+   "cite": "",
+   "category": "contract"
+  },
+  "breach-cba": {
+   "label": "Breach of CBA",
+   "zh": "集體談判協議違約",
+   "cite": "LMRA §301",
+   "category": "contract"
+  },
+  "unjust-enrichment": {
+   "label": "Unjust Enrichment",
+   "zh": "不當得利",
+   "cite": "",
+   "category": "contract"
+  },
+  "trespass-chattels": {
+   "label": "Trespass to Chattels",
+   "zh": "侵害動產",
+   "cite": "",
+   "category": "contract"
+  },
+  "tortious-interference": {
+   "label": "Tortious Interference",
+   "zh": "不法干擾契約關係",
+   "cite": "",
+   "category": "contract"
+  },
+  "state-law": {
+   "label": "State Law",
+   "zh": "州法請求（未細分）",
+   "cite": "",
+   "category": "statute"
+  },
+  "bipa": {
+   "label": "BIPA",
+   "zh": "生物特徵資訊隱私法",
+   "cite": "740 ILCS 14",
+   "category": "statute"
+  },
+  "right-of-publicity": {
+   "label": "Right of Publicity",
+   "zh": "形象權",
+   "cite": "",
+   "category": "statute"
+  },
+  "cfaa": {
+   "label": "CFAA",
+   "zh": "電腦詐欺與濫用法",
+   "cite": "18 U.S.C. §1030",
+   "category": "statute"
+  },
+  "securities": {
+   "label": "Securities §14(a)",
+   "zh": "證券法揭露違規",
+   "cite": "Rule 14a-9",
+   "category": "statute"
+  },
+  "fiduciary": {
+   "label": "Breach of Fiduciary Duty",
+   "zh": "違反受任人義務（代位訴訟）",
+   "cite": "",
+   "category": "statute"
+  },
+  "defamation": {
+   "label": "Defamation",
+   "zh": "誹謗／言論責任",
+   "cite": "",
+   "category": "statute"
+  },
+  "foreign-copyright": {
+   "label": "Foreign Copyright",
+   "zh": "外國著作權法侵害",
+   "cite": "",
+   "category": "foreign"
+  },
+  "tdm-exception": {
+   "label": "TDM Exception",
+   "zh": "文本與資料探勘例外",
+   "cite": "EU DSM Art. 4／UrhG §60d",
+   "category": "foreign"
+  },
+  "database-right": {
+   "label": "Database Right",
+   "zh": "資料庫權",
+   "cite": "",
+   "category": "foreign"
+  },
+  "related-rights": {
+   "label": "Related Rights",
+   "zh": "鄰接權／出版者權",
+   "cite": "",
+   "category": "foreign"
+  },
+  "reproduction-right": {
+   "label": "Reproduction Right",
+   "zh": "重製權",
+   "cite": "",
+   "category": "foreign"
+  },
+  "adaptation-right": {
+   "label": "Adaptation Right",
+   "zh": "改作權",
+   "cite": "",
+   "category": "foreign"
+  },
+  "communication-right": {
+   "label": "Communication Right",
+   "zh": "公開傳輸／資訊網路傳播權",
+   "cite": "",
+   "category": "foreign"
+  },
+  "moral-rights": {
+   "label": "Moral Rights",
+   "zh": "著作人格權",
+   "cite": "",
+   "category": "foreign"
+  },
+  "cjeu-reference": {
+   "label": "CJEU Reference",
+   "zh": "歐盟法院先行裁決聲請",
+   "cite": "TFEU Art. 267",
+   "category": "procedural"
+  },
+  "declaratory-noninfringement": {
+   "label": "Declaratory Judgment",
+   "zh": "確認不侵權之訴",
+   "cite": "",
+   "category": "procedural"
+  },
+  "ai-authorship": {
+   "label": "AI Authorship",
+   "zh": "AI 生成物可著作權性",
+   "cite": "",
+   "category": "procedural"
+  },
+  "fraud": {
+   "label": "Fraud",
+   "zh": "詐欺",
+   "cite": "",
+   "category": "statute"
+  },
+  "negligence": {
+   "label": "Negligence",
+   "zh": "過失",
+   "cite": "",
+   "category": "statute"
+  },
+  "conspiracy": {
+   "label": "Civil Conspiracy",
+   "zh": "民事共同侵權",
+   "cite": "",
+   "category": "statute"
+  },
+  "privacy": {
+   "label": "Invasion of Privacy",
+   "zh": "侵害隱私",
+   "cite": "",
+   "category": "statute"
+  },
+  "conversion": {
+   "label": "Conversion",
+   "zh": "侵占／不法處分他人財產",
+   "cite": "",
+   "category": "statute"
+  }
  },
  "aliases": {
   "Direct Copyright": "direct-copyright",
