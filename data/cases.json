@@ -2325,7 +2325,7 @@
    ],
    "defendants": "Anthropic PBC",
    "issues": "Concord Music Group、Universal Music、ABKCO 等音樂出版商於 2026/1/28 在 N.D. Cal. 對 Anthropic 提起第二波訴訟（5:26-cv-00880），同時將 CEO Dario Amodei 與共同創辦人 Benjamin Mann 列為個人被告。\n\n主要訴因：原告主張 Anthropic 透過 BitTorrent 從 Library Genesis（LibGen）、Pirate Library Mirror（PiLiMi）等「影子圖書館」(shadow libraries) 下載並上傳數百萬本書籍，其中包含**歌詞集、樂譜書與音樂相關書籍**——這些書籍嵌入了原告所控制的音樂著作；訴狀附件 A 列出 714 首作品（含 Wild Horses、Sweet Caroline、Bennie and the Jets、Eye of the Tiger 等），附件 B 另列 20,517 首。本案與第一波 Concord v. Anthropic（歌詞輸出訴訟）並非同一案件，但訴因事實互有重疊。\n\n法律爭點：(1) Anthropic 透過 P2P／盜版電子書庫取得訓練資料是否構成獨立侵權；(2) 來自盜版管道的訓練資料是否影響合理使用抗辯（特別參酌 Bartz v. Anthropic 對「盜版書」的處理）；(3) Amodei、Mann 個人責任的成立要件；(4) 「不潔之手」（unclean hands）原則對合理使用主張的限制。",
-   "progress": "Anthropic 已提交動議請求暫停本案，等待第一波 Concord v. Anthropic 即決判決結果。Concord I 的即決判決聽證定於 2026 年 7 月 15 日。法院尚未裁定暫停動議。\n\n【2026/5/20】Anthropic 向加州北區聯邦地院（Eumi K. Lee 法官、Susan van Keulen 治安法官）提交 Motion to Stay，請求於 Concord I（5:24-cv-03811）最終裁判前停止本案全部訴訟程序，備位主張為等待 Concord I 即決判決與後續上訴終結；理由為兩案被告同一、爭點實質相同，續行將造成重複防禦負擔且判決恐相互衝突。",
+   "progress": "Anthropic 已提交動議請求暫停本案，等待第一波 Concord v. Anthropic 即決判決結果。Concord I 的即決判決聽證定於 2026 年 7 月 15 日。法院尚未裁定暫停動議。\n\n【2026/5/20】Anthropic 向加州北區聯邦地院（Eumi K. Lee 法官、Susan van Keulen 治安法官）提交 Motion to Stay，請求於 Concord I（5:24-cv-03811）最終裁判前停止本案全部訴訟程序，備位主張為等待 Concord I 即決判決與後續上訴終結；理由為兩案被告同一、爭點實質相同，續行將造成重複防禦負擔且判決恐相互衝突。\n\n【2026/8/3】Anthropic 聲請一部駁回輸出侵權與 DMCA CMI 主張（欠缺具體侵權範例），CEO Dario Amodei 另聲請駁回對其個人之直接侵權（torrenting）指控（欠缺事實基礎）；11/4 Lee 法官開庭審理。",
    "taiwan": "台灣著作權法與盜版訓練資料：若 AI 公司使用透過盜版管道取得的台灣作品進行訓練，台灣權利人可主張更強的侵權論據。台灣刑法第 91 條（著作權法）對於利用盜版軟體的行為有較嚴格的處罰。",
    "jurisdiction": "us",
    "country": "🇺🇸 美國",
@@ -2336,7 +2336,7 @@
    "sourceCount": 2,
    "docket": 72199828,
    "filedAt": null,
-   "updatedAt": "2026-08-03",
+   "updatedAt": "2026-08-07",
    "claimsDetail": null,
    "claimsVerifiedAt": null
   },

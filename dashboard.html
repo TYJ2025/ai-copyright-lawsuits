@@ -1950,7 +1950,7 @@
 </div>
 
 <footer>
-  &copy; 2026 AI Copyright Litigation Tracker &mdash; 案件資料來源：美國聯邦法院公開紀錄、CourtListener   每日快訊最近更新: 2026-08-06
+  &copy; 2026 AI Copyright Litigation Tracker &mdash; 案件資料來源：美國聯邦法院公開紀錄、CourtListener   每日快訊最近更新: 2026-08-07
 </footer>
 
 <script>
@@ -5907,7 +5907,7 @@ const cases = [
     ],
     "defendants": "Anthropic PBC",
     "issues": "Concord Music Group、Universal Music、ABKCO 等音樂出版商於 2026/1/28 在 N.D. Cal. 對 Anthropic 提起第二波訴訟（5:26-cv-00880），同時將 CEO Dario Amodei 與共同創辦人 Benjamin Mann 列為個人被告。\n\n主要訴因：原告主張 Anthropic 透過 BitTorrent 從 Library Genesis（LibGen）、Pirate Library Mirror（PiLiMi）等「影子圖書館」(shadow libraries) 下載並上傳數百萬本書籍，其中包含**歌詞集、樂譜書與音樂相關書籍**——這些書籍嵌入了原告所控制的音樂著作；訴狀附件 A 列出 714 首作品（含 Wild Horses、Sweet Caroline、Bennie and the Jets、Eye of the Tiger 等），附件 B 另列 20,517 首。本案與第一波 Concord v. Anthropic（歌詞輸出訴訟）並非同一案件，但訴因事實互有重疊。\n\n法律爭點：(1) Anthropic 透過 P2P／盜版電子書庫取得訓練資料是否構成獨立侵權；(2) 來自盜版管道的訓練資料是否影響合理使用抗辯（特別參酌 Bartz v. Anthropic 對「盜版書」的處理）；(3) Amodei、Mann 個人責任的成立要件；(4) 「不潔之手」（unclean hands）原則對合理使用主張的限制。",
-    "progress": "Anthropic 已提交動議請求暫停本案，等待第一波 Concord v. Anthropic 即決判決結果。Concord I 的即決判決聽證定於 2026 年 7 月 15 日。法院尚未裁定暫停動議。\n\n【2026/5/20】Anthropic 向加州北區聯邦地院（Eumi K. Lee 法官、Susan van Keulen 治安法官）提交 Motion to Stay，請求於 Concord I（5:24-cv-03811）最終裁判前停止本案全部訴訟程序，備位主張為等待 Concord I 即決判決與後續上訴終結；理由為兩案被告同一、爭點實質相同，續行將造成重複防禦負擔且判決恐相互衝突。",
+    "progress": "Anthropic 已提交動議請求暫停本案，等待第一波 Concord v. Anthropic 即決判決結果。Concord I 的即決判決聽證定於 2026 年 7 月 15 日。法院尚未裁定暫停動議。\n\n【2026/5/20】Anthropic 向加州北區聯邦地院（Eumi K. Lee 法官、Susan van Keulen 治安法官）提交 Motion to Stay，請求於 Concord I（5:24-cv-03811）最終裁判前停止本案全部訴訟程序，備位主張為等待 Concord I 即決判決與後續上訴終結；理由為兩案被告同一、爭點實質相同，續行將造成重複防禦負擔且判決恐相互衝突。\n\n【2026/8/3】Anthropic 聲請一部駁回輸出侵權與 DMCA CMI 主張（欠缺具體侵權範例），CEO Dario Amodei 另聲請駁回對其個人之直接侵權（torrenting）指控（欠缺事實基礎）；11/4 Lee 法官開庭審理。",
     "taiwan": "台灣著作權法與盜版訓練資料：若 AI 公司使用透過盜版管道取得的台灣作品進行訓練，台灣權利人可主張更強的侵權論據。台灣刑法第 91 條（著作權法）對於利用盜版軟體的行為有較嚴格的處罰。",
     "jurisdiction": "us",
     "country": "🇺🇸 美國",
@@ -5918,7 +5918,7 @@ const cases = [
     "sourceCount": 2,
     "docket": 72199828,
     "filedAt": null,
-    "updatedAt": "2026-08-03",
+    "updatedAt": "2026-08-07",
     "claimsDetail": null,
     "claimsVerifiedAt": null
   },
@@ -10816,6 +10816,11 @@ buildRegionMap();
 // 每筆需含 addedAt（YYYY-MM-DD，台北時區），代表「條目加入 dashboard 之日期」
 const newsItems = [
   {
+    "addedAt": "2026-08-07",
+    "text": "【2026/8/3】Concord Music v. Anthropic II（N.D. Cal. 5:26-cv-00880）Anthropic 與 CEO Amodei 分別聲請一部駁回及個人責任駁回，11/4 開庭。",
+    "url": "https://www.musicbusinessworldwide.com/anthropic-seeks-partial-dismissal-in-music-publishers-3b-lyrics-suit-as-ceo-moves-to-drop-the-direct-infringement-claim-against-him/"
+  },
+  {
     "addedAt": "2026-08-06",
     "text": "【2026/7/31】Reddit v. SerpAPI, Perplexity（S.D.N.Y.）法院准許 DMCA 反規避主張續行：Engelmayer 法官裁定 Google SearchGuard 屬受保護之接觸控制措施，駁回不正競爭與不當得利州法請求",
     "url": "https://news.bloomberglaw.com/ip-law/reddit-advances-ai-scraping-suit-against-perplexity-serpapi"
@@ -10824,17 +10829,17 @@ const newsItems = [
     "addedAt": "2026-08-01",
     "text": "【2026/7/31】GEMA v. Suno（慕尼黑第一地方法院）德國法院判 Suno 侵權敗訴：法院認定 Suno 在美訓練並於歐洲儲存重製 GEMA 代管之 6 首歌曲（含 Rasputin、Daddy Cool）構成美德著作權侵害，命揭露不法收益並賠償（金額待定），為 GEMA 對生成式 AI 業者第二次勝訴（前次為 OpenAI）",
     "url": "https://musically.com/2026/07/31/german-collecting-society-gema-wins-its-copyright-infringement-lawsuit-against-suno/"
-  },
-  {
-    "addedAt": "2026-07-27",
-    "text": "【2026/7/24】ANI Media v. OpenAI（德里高等法院，CS(COMM) 1028/2024）駁回暫時禁制令、認定 AI 訓練屬合理使用：Amit Bansal 法官裁定 OpenAI 以受著作權保護內容訓練 ChatGPT 符合印度著作權法第 52 條 fair dealing，且生成內容與 ANI 原文不構成實質近似；為印度首件就生成式 AI 訓練著作權爭議作成實體判斷之判決，屬 prima facie／interim 階段認定，非終局判決",
-    "url": "https://www.business-standard.com/industry/news/openai-use-of-ani-data-doesn-t-amount-to-infringement-says-delhi-hc-126072400913_1.html"
   }
 ];
 
 // newsArchive: 已超過 3 天而從 newsItems 移除之歷史快訊（新者在上）
 // 由 daily-brief.sh 每日自動 prepend；展開於畫面下方「歷史快訊 Archive」區塊
 const newsArchive = [
+  {
+    "addedAt": "2026-07-27",
+    "text": "【2026/7/24】ANI Media v. OpenAI（德里高等法院，CS(COMM) 1028/2024）駁回暫時禁制令、認定 AI 訓練屬合理使用：Amit Bansal 法官裁定 OpenAI 以受著作權保護內容訓練 ChatGPT 符合印度著作權法第 52 條 fair dealing，且生成內容與 ANI 原文不構成實質近似；為印度首件就生成式 AI 訓練著作權爭議作成實體判斷之判決，屬 prima facie／interim 階段認定，非終局判決",
+    "url": "https://www.business-standard.com/industry/news/openai-use-of-ani-data-doesn-t-amount-to-infringement-says-delhi-hc-126072400913_1.html"
+  },
   {
     "addedAt": "2026-07-22",
     "text": "【2026/7/20】Bartz v. Anthropic 和解案獲法院終局核准（N.D. Cal. 3:24-cv-05417）：Martínez-Olguín 法官正式核准 15 億美元著作權集體和解——美國史上最大著作權集體和解定案，逾 50 萬件作品每件約 3,000 美元；律師費自請求之 1.875 億美元砍至約 1.016 億美元；因採和解結案未上訴，Alsup 前法官原「訓練屬合理使用」之地院裁定不會成為具拘束力之上級審先例，僅維持既有效力",
