@@ -49,8 +49,8 @@
 { "$schema": "news.v1", "data": { "items": [...], "archive": [...] } }
 ```
 
-- `data.items` — 最近 3 天內加入之每日快訊（畫面頂部 ticker 顯示）
-- `data.archive` — 已超過 3 天而從 items 移除之歷史快訊（畫面下方折疊區塊顯示）
+- `data.items` — 頂部 ticker 快訊。原則為最近 3 天內加入者，但**至少保留 3 則**（`add_news.py` 的 `MIN_ITEMS`），近日無新快訊時會自 archive 回補最新者
+- `data.archive` — 已超過 3 天且 items 仍有 3 則以上時，自 items 移出之歷史快訊（畫面下方折疊區塊顯示）
 
 每筆條目格式：
 ```
@@ -73,9 +73,9 @@ python3 scripts/add_news.py --added-at <今日台北 YYYY-MM-DD> \
   --text "【YYYY/M/D】案件名或主題：重點摘要（30-60 字）" --url "<來源URL>"
 ```
 
-- `add_news.py` 自動去重、自動把超過 3 天的條目從 items 搬到 archive，**不需手動搬 archive**。
+- `add_news.py` 自動去重、自動把超過 3 天的條目從 items 搬到 archive（並以 MIN_ITEMS=3 保底），**不需手動搬 archive**。
 - 多則新聞就多次呼叫。
-- items 條目數量不設上限（3 天視窗為自然上限）。
+- items 條目數量不設上限（3 天視窗為自然上限），下限為 3 則。若需重整而不新增條目，用 `python3 scripts/add_news.py --rebalance`。
 
 ### Step 3 — 收尾
 - **不要自己跑 build.py、不要 Edit dashboard.html**——daily-brief.sh 在你結束後會自動跑 build.py 重生 dashboard.html（含 footer 日期 heartbeat）。
@@ -125,6 +125,48 @@ python3 scripts/add_pending.py --section timeline --label "時間軸候選" \
 - <事件> | <日期> | <為何屬里程碑>
 ```
 
+## 案件資訊同步（progress 欄位）— 2026/8 新增【每則案件型快訊必做】
+
+**規則：只要當日快訊提到某個已收錄案件的任何進展，就必須把同一則進展回寫到該案的 `progress` 欄位。**
+快訊是「時間流」，案件卡片是「案件現況」；只寫快訊不回寫案件，案件資訊會停在舊狀態（2026/5 至 7 曾累積 50 餘則未回寫，事後才人工補齊）。
+
+適用範圍比 rulings 寬：**裁定、判決、和解、修正訴狀、撤銷之訴聲請、即決判決聲請、排程變更、discovery 攻防、當事人／被告變更、上訴——全部都要回寫**。
+只有純產業動態（募資、授權合作、產業報告、政策聲明）在找不到對應案件時才可略過，但仍須在輸出中列為「無對應案件」。
+
+流程（每則案件型快訊各跑一次）：
+
+1. 查案件 id（支援案名、案號、當事人片段）：
+
+```
+python3 scripts/update_case_progress.py --find "<案名或案號片段>"
+```
+
+2. 回寫進展（`--date` 用**新聞事件日**、不是今天；script 以【YYYY/M/D】標記自動去重、自動依日期插入正確位置）：
+
+```
+python3 scripts/update_case_progress.py --case-id <N> \
+  --date <YYYY-MM-DD> \
+  --note "<30 至 120 字進展摘要，寫明法院／法官、動作、法律效果>"
+```
+
+3. 案件狀態確有改變時一併帶欄位（值須為 active / dismissed / settled / appeal / decided / mdl）：
+
+```
+  --status decided --court "<正式法院全稱>" --judge "<承辦法官或審判庭>"
+```
+
+4. 一則快訊涉及多案（例如 MDL 與其成員案、平行案件）時，**每案都要各跑一次**，note 依該案視角改寫。
+5. 快訊若在更正先前錯誤資訊（例如預告的聽證未召開），回寫時要寫明更正內容，不要只補新事實。
+6. 若快訊提到的案件**不在 cases.json**，不要自行新增，改走漏案偵測段落列為疑似漏載。
+
+最終輸出加一段（若無則省略）：
+
+```
+📇 案件資訊已同步：
+- case <N> <案件名> | <回寫的進展日期與一句話>
+- 無對應案件：<純產業動態標題>
+```
+
 ## 裁定矩陣維護（rulings 欄位）— 2026/7 新增
 
 `data/cases.json` 中約 15 件核心案件有 `rulings` 結構化欄位（合理使用認定、關鍵裁定、結果），供 dashboard 比較功能的裁定矩陣使用。當日新聞若屬**實質裁定**（即決判決、上訴審判決、終局判決、和解最終核准、集體訴訟認證），且該案已存在於 cases.json：
@@ -152,13 +194,14 @@ python3 scripts/update_rulings.py --case-id <N> \
 
 ## 成功標準
 - 有新動態時透過 `add_news.py` 新增條目（含 `addedAt`），且不重複
-- 條目歸檔（>3 天 items → archive）由 `add_news.py` 自動處理，無需另外操作
+- 條目歸檔（>3 天 items → archive，且 items 保底 3 則）由 `add_news.py` 自動處理，無需另外操作
 - 無新動態時不呼叫 add_news.py，不製造無意義變更
 - 漏案偵測：若有疑似漏載案件，於 log 輸出 `🆕 疑似漏載案件` 段落
-- 最後以簡短文字輸出（會進 log）：今日新增幾則、條目摘要、漏案提醒
+- **每則案件型快訊都已用 `update_case_progress.py` 回寫對應案件的 progress**（這是硬性成功標準，漏一則即算失敗）
+- 最後以簡短文字輸出（會進 log）：今日新增幾則、條目摘要、案件同步結果、漏案提醒
 
 ## 硬性限制
-- **不要直接 Edit dashboard.html 或 data/*.json**——dashboard.html 是 build 產物；news 資料一律經 `add_news.py` 寫入
+- **不要直接 Edit dashboard.html 或 data/*.json**——dashboard.html 是 build 產物；news 資料一律經 `add_news.py` 寫入、案件進展一律經 `update_case_progress.py` 寫入
 - **不要寄 email / 建立 Gmail 草稿**（Gmail 步驟已停用）
 - **不要下 git commit / push**（auto-push.sh 會處理）
 - **不要提問** — 全程自動化執行，有不確定就做合理判斷並在輸出註明

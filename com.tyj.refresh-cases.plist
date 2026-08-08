@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+  每月 1 日 09:00 刷新 cases/ 子系統（113+ 份 case .md 的 CourtListener docket 快照）。
+  安裝前務必把 COURTLISTENER_TOKEN 換成真實 token（用 PlistBuddy 寫入 LaunchAgents
+  那份副本，勿把 token commit 進 repo）。本檔為範本。
+-->
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.tyj.refresh-cases</string>
+
+    <key>ProgramArguments</key>
+    <array>
+        <string>/bin/bash</string>
+        <string>/Users/jesuisjane/ClaudeProjects/AI Copyright Lawsuits Worldwide/scripts/refresh-cases-monthly.sh</string>
+    </array>
+
+    <key>EnvironmentVariables</key>
+    <dict>
+        <key>COURTLISTENER_TOKEN</key>
+        <string>REPLACE_ME</string>
+        <key>PATH</key>
+        <string>/usr/local/bin:/usr/bin:/bin:/opt/homebrew/bin</string>
+    </dict>
+
+    <key>StartCalendarInterval</key>
+    <dict>
+        <key>Day</key>
+        <integer>1</integer>
+        <key>Hour</key>
+        <integer>9</integer>
+        <key>Minute</key>
+        <integer>0</integer>
+    </dict>
+
+    <key>RunAtLoad</key>
+    <false/>
+
+    <key>StandardOutPath</key>
+    <string>/Users/jesuisjane/ClaudeProjects/AI Copyright Lawsuits Worldwide/.refresh-cases.stdout.log</string>
+    <key>StandardErrorPath</key>
+    <string>/Users/jesuisjane/ClaudeProjects/AI Copyright Lawsuits Worldwide/.refresh-cases.stderr.log</string>
+</dict>
+</plist>

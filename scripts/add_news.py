@@ -24,6 +24,9 @@ from pathlib import Path
 PROJECT_DIR = Path(__file__).resolve().parent.parent
 DATA_FILE = PROJECT_DIR / "data" / "news.json"
 ARCHIVE_THRESHOLD_DAYS = 3
+# 頂部跑馬燈至少保留幾則。滿 3 天本應歸檔，但若近日無新快訊會只剩 1 則、版面過空，
+# 故以 MIN_ITEMS 保底：不足時自 archive 回補最新者。
+MIN_ITEMS = 3
 
 
 def parse_date(s: str) -> date:
@@ -42,12 +45,19 @@ def main():
     ap.add_argument("--archive-threshold-days", type=int,
                     default=ARCHIVE_THRESHOLD_DAYS,
                     help=f"items older than this go to archive (default {ARCHIVE_THRESHOLD_DAYS})")
+    ap.add_argument("--min-items", type=int, default=MIN_ITEMS,
+                    help=f"ticker 至少保留幾則，不足時自 archive 回補 (default {MIN_ITEMS})")
+    ap.add_argument("--rebalance", action="store_true",
+                    help="不新增條目，只依 threshold 與 min-items 重整 items/archive")
     ap.add_argument("--dry-run", action="store_true",
                     help="print resulting state but do not write")
     args = ap.parse_args()
 
     # Get entry
-    if args.stdin:
+    entry = None
+    if args.rebalance:
+        pass
+    elif args.stdin:
         try:
             entry = json.load(sys.stdin)
         except json.JSONDecodeError as e:
@@ -58,13 +68,14 @@ def main():
         entry = {"addedAt": args.added_at, "text": args.text, "url": args.url}
 
     # Validate
-    try:
-        parse_date(entry["addedAt"])
-    except (KeyError, ValueError) as e:
-        sys.exit(f"✗ invalid addedAt (need YYYY-MM-DD): {e}")
-    if not entry.get("text", "").strip():
-        sys.exit("✗ text is empty")
-    entry.setdefault("url", "")
+    if entry is not None:
+        try:
+            parse_date(entry["addedAt"])
+        except (KeyError, ValueError) as e:
+            sys.exit(f"✗ invalid addedAt (need YYYY-MM-DD): {e}")
+        if not entry.get("text", "").strip():
+            sys.exit("✗ text is empty")
+        entry.setdefault("url", "")
 
     # Load
     if not DATA_FILE.is_file():
@@ -76,30 +87,43 @@ def main():
     items = data.setdefault("items", [])
     archive = data.setdefault("archive", [])
 
-    # Dedupe (same addedAt + text)
-    for existing in items + archive:
-        if (existing.get("addedAt") == entry["addedAt"]
-                and existing.get("text") == entry["text"]):
-            print(f"  ↺ already present (addedAt={entry['addedAt']}); no change")
-            return
+    if entry is not None:
+        # Dedupe (same addedAt + text)
+        for existing in items + archive:
+            if (existing.get("addedAt") == entry["addedAt"]
+                    and existing.get("text") == entry["text"]):
+                print(f"  ↺ already present (addedAt={entry['addedAt']}); no change")
+                return
+        # Prepend
+        items.insert(0, entry)
 
-    # Prepend
-    items.insert(0, entry)
-
-    # Rotate
+    # Rotate（items 由新至舊；archive 亦維持新者在前）
     cutoff = date.today() - timedelta(days=args.archive_threshold_days)
-    stay, rotated = [], 0
+    stay, to_rotate = [], []
     for it in items:
         try:
             d = parse_date(it["addedAt"])
         except (KeyError, ValueError):
             stay.append(it)
             continue
-        if d <= cutoff:
-            archive.insert(0, it)
-            rotated += 1
-        else:
-            stay.append(it)
+        (to_rotate if d <= cutoff else stay).append(it)
+
+    # 保底：items 不足 MIN_ITEMS 時，先留下本該歸檔者，再自 archive 回補最新者
+    pulled_back = 0
+    while len(stay) < args.min_items and to_rotate:
+        stay.append(to_rotate.pop(0))
+    while len(stay) < args.min_items and archive:
+        # archive 的排序未必嚴格，取 addedAt 最新者回補而非取 index 0
+        newest = max(range(len(archive)),
+                     key=lambda i: archive[i].get("addedAt", ""))
+        stay.append(archive.pop(newest))
+        pulled_back += 1
+
+    # to_rotate 為新至舊，反向 prepend 才能維持 archive 新者在前
+    for it in reversed(to_rotate):
+        archive.insert(0, it)
+    rotated = len(to_rotate)
+
     data["items"] = stay
     data["archive"] = archive
 
@@ -109,7 +133,8 @@ def main():
 
     if args.dry_run:
         print(json.dumps(doc, ensure_ascii=False, indent=2)[:2000])
-        print(f"\n  [dry-run] items={len(stay)}  archive={len(archive)}  rotated={rotated}")
+        print(f"\n  [dry-run] items={len(stay)}  archive={len(archive)}  "
+              f"rotated={rotated}  pulled_back={pulled_back}")
         return
 
     # Atomic write
@@ -119,9 +144,14 @@ def main():
         f.write("\n")
     os.replace(tmp, DATA_FILE)
 
-    print(f"  ✓ added news item dated {entry['addedAt']}")
+    if entry is not None:
+        print(f"  ✓ added news item dated {entry['addedAt']}")
+    else:
+        print("  ✓ rebalanced (no new entry)")
     if rotated:
         print(f"  ↺ rotated {rotated} item(s) older than {args.archive_threshold_days}d → archive")
+    if pulled_back:
+        print(f"  ↩ pulled back {pulled_back} item(s) from archive to keep items ≥ {args.min_items}")
     print(f"  state: items={len(stay)}  archive={len(archive)}")
 
 

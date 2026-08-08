@@ -43,6 +43,15 @@ ThrottleInterval: 60s（防 editor save 風暴）
 
 **關鍵設計**：daily-brief 跟 auto-push 職責分離。daily-brief 只負責改檔，git 操作交給另一個 watcher。**Claude 在跑 daily-brief 時不要自己下 `git commit/push`**。
 
+### launchctl 常見誤判（2026-08-08 記）
+
+- **`Bootstrap failed: 5: Input/output error` 多半代表「已經載入過」，不是失敗。** 先用
+  `launchctl print gui/$(id -u)/<label>` 確認；印得出來就是已註冊。要重載才需先
+  `launchctl bootout gui/$(id -u)/<label>`。
+- 確認實際狀態一律看 `launchctl list | grep tyj`：第二欄是上次結束碼，`0` 正常、
+  非 0 代表該 agent 上次執行失敗；PID 欄為 `-` 是正常的（排程型 agent 平時不常駐）。
+- `launchctl list/load/unload/print` 即使成功也可能回非零 exit code，**腳本裡不要配 `set -e`**。
+
 ### plist 位置（重要）
 - **實際被 launchd 載入的**：`~/Library/LaunchAgents/com.tyj.*.plist` ← canonical
 - **repo 內的同名 plist**：是備份，**已知是舊版**（裡面寫舊 iCloud 路徑 `~/Documents/Claude/Projects/...`），**不要拿來 `launchctl load`**。要改排程，編輯 `~/Library/LaunchAgents/` 那份。
@@ -60,7 +69,7 @@ data/*.json  +  templates/dashboard.template.html
 ```
 
 - `data/news.json` — 快訊。envelope：`{"$schema":"news.v1","data":{"items":[...],"archive":[...]}}`
-  - `items` = 最近 3 天快訊（頂部 ticker）；`archive` = 超過 3 天的歷史快訊（下方折疊區）
+  - `items` = 頂部 ticker 快訊，原則最近 3 天、但**至少保留 3 則**（`add_news.py` 的 `MIN_ITEMS`，不足時自 archive 回補最新者；`--rebalance` 可只重整不新增）；`archive` = 已歸檔之歷史快訊（下方折疊區）
   - **新增快訊一律用 `scripts/add_news.py`**（自動去重 + 自動歸檔），不要手改 json
 - `data/cases.json`、`case_sources.json`、`fair_use_cases.json`、`official_reports.json`、`timeline.json` — 其餘 dashboard 區塊資料
 - 改**版面/視覺** → 編輯 `templates/dashboard.template.html` 後跑 `build.py`
@@ -74,7 +83,29 @@ data/*.json  +  templates/dashboard.template.html
 - `addedAt` = **今日台北時間** (該則進 dashboard 的日期；用來決定何時搬到 archive)
 - `text` 開頭 `【YYYY/M/D】` = 新聞事件日期（通常同 addedAt，但若補錄過去新聞會不同）
 
-**Daily-brief 自動化邏輯**：claude -p 呼叫 `add_news.py` 寫 `data/news.json` → daily-brief.sh 跑 `build.py` 重生 dashboard.html → auto-push commit（dashboard.html + index.html + data/）。
+**Daily-brief 自動化邏輯**：claude -p 呼叫 `add_news.py` 寫 `data/news.json` →（案件型快訊）呼叫 `update_case_progress.py` 回寫 `data/cases.json` 的 progress → daily-brief.sh 跑 `build.py` 重生 dashboard.html → auto-push commit（dashboard.html + index.html + data/）。
+
+### claims 標籤規則（2026-08-04 立）
+
+**標籤一律以起訴狀所載訴因（causes of action）為準。** 訴訟中之增刪（撤回、追加請求權）**不動標籤**，改寫入 `issues`（訴訟爭點）。
+
+- 受控詞彙表：`data/claims_vocab.json`。canonical 36 種規範用語 + 91 種既有寫法的 alias 對照 + 7 種非訴因項目（陪審團聲請、集體訴訟聲明、故意侵權損賠態樣、合理使用抗辯、銷毀模型請求等）之處置說明。
+- `claims` 只放訴因；比較功能的「共同主張 vs 獨有主張」靠這個欄位做集合運算，用語不統一會算錯。
+- `claimsDetail` 存起訴狀 COUNT 原文 `[{count, title, canonical}]`，`claimsVerifiedAt` 為核對日期（null = 尚未核對，卡片顯示「待核對起訴狀」）。
+- `validate_data.py` 會擋非受控用語；新增案件後跑 `python3 scripts/normalize_claims.py --apply`。
+- 每週二 08:30 由 `com.tyj.verify-claims` 批次核對（每次 25 件），**以起訴狀結果覆寫 claims**（2026-08-05 起）；被取代的舊標籤存入 `claimsPrevious` 可回溯，差異清單仍留在 `.verify-claims.log`。
+- **上訴中案件的 `docket` 必須指一審卷宗**，否則抓不到起訴狀（上訴卷宗沒有）。案 1 Thomson Reuters v. ROSS 曾誤指 3d Cir. 卷宗（70622297），2026-08-05 改為 D. Del. 17131648；上訴卷宗連結改放 `case_sources.json`，兩審並列。新增上訴中案件時要一併檢查。
+
+### 快訊 ↔ 案件資訊同步規則（2026-08-03 立）
+
+**只要快訊提到已收錄案件的任何進展，就必須回寫該案 `progress`。** 快訊是時間流、案件卡片是案件現況，兩者不同步的話案件資訊會停在舊狀態。2026/5 至 7 曾累積 50 餘則未回寫（154 件中僅 12 件有 `updatedAt`），2026-08-03 人工補齊 52 筆。
+
+- 適用範圍比 `rulings` 寬：裁定、判決、和解、修正訴狀、撤銷之訴、即決判決聲請、排程變更、discovery 攻防、當事人變更、上訴全都要回寫；`rulings` 只收里程碑等級的實質裁定。
+- 一律經 `scripts/update_case_progress.py`，不要手改 cases.json。
+- 一則快訊涉及多案時每案各跑一次。
+- 純產業動態（募資、授權合作、產業報告、政策聲明）找不到對應案件時可略過，但要在輸出列為「無對應案件」。
+- 快訊提到的案件不在 cases.json → 走漏案偵測列為疑似漏載，不自行新增。
+- 詳細指令寫在 `scripts/daily-brief-prompt.md` 的「案件資訊同步（progress 欄位）」段。
 
 ---
 
@@ -85,14 +116,15 @@ data/*.json  +  templates/dashboard.template.html
 2. **Dashboard 卡片 vs CourtListener 比對**（自動標 ✅ / ⚠️）
 3. **Docket Entries**（最新優先，過濾掉 pro hac vice、certificate of service 等程序性 entries）
 
-`cases/_index.md` — 比對結果彙總，目前 100 件中 50 件被標「不符 ⚠️」（judge / court / docket 不一致、進度落後等）。
+`cases/_index.md` — 比對結果彙總，由 `rebuild_case_index.py` 自動重生（**不要手改**）。舊版是 2026-04-27 的一次性報告且比對邏輯過於字面（把「S.D.N.Y.」與「District Court, S.D. New York」判為不符），50 件「不符」多為假警報；2026-08-08 改寫後降到真正需要人工看的數量。
 
 `scripts/cases_manifest.json` — 100 件的 case_id ↔ CourtListener docket_id 對照表，是 fetch script 的 source of truth。
 
 **Workflow**：
 - `scripts/fetch_courtlistener_docket.py` — 抓單一案件 docket
 - `scripts/batch_refresh.py` — 批次刷新所有案件
-- `scripts/scan_case_trackers.py` — 重新產生 `_index.md`
+- `scripts/rebuild_case_index.py` — 比對 cases.json 與 case .md，重生 `cases/_index.md`
+- `scripts/sync_cases_manifest.py` — 自 cases.json 重生 `cases_manifest.json`
 - `scripts/batch_update_dashboard_judges.py` — 把 CourtListener 上的 judge 名稱回寫到 dashboard 卡片
 - `scripts/weekly_new_case_check.py` — **每週主動掃 CourtListener 找新立案**（不靠新聞）；輸出 `cases/_weekly_new_cases_YYYY-MM-DD.md`
 
@@ -116,14 +148,22 @@ data/*.json  +  templates/dashboard.template.html
 | `fetch_courtlistener_docket.py` | 抓單一案件 docket（要 CourtListener API token） |
 | `batch_refresh.py` | 批次刷新所有案件 docket |
 | `batch_update_dashboard_judges.py` | 比對 dashboard judge 欄位與 CourtListener，回寫 |
-| `scan_case_trackers.py` | 掃 `cases/` 重產 `_index.md` |
+| `scan_case_trackers.py` | 抓外部 case tracker 網頁比對 manifest，找漏案（**不是**產 `_index.md`，CLAUDE.md 舊版寫錯） |
 | `weekly_new_case_check.py` | 每週掃 CourtListener 找新立案，輸出待審清單 |
 | `add_pending.py` | 多區段合併寫 `.pending-review.json`（main-board 待審 banner 的資料源） |
 | `update_rulings.py` | 更新 cases.json 單案 `rulings` 欄位（比較功能裁定矩陣資料源；date+holding 去重，daily-brief 遇實質裁定時呼叫） |
+| `update_case_progress.py` | **回寫案件進展到 cases.json 的 `progress`**（每則案件型快訊必跑；【YYYY/M/D】標記去重、依日期插入正確位置，另可帶 status/court/judge/docket；`--find` 可用案名或案號查 case id） |
 | `apply_decisions.py` | 消化 main-board 審核決定（`.pending-decisions.json`），見下方審核迴圈 |
 | `rejected_cases.json` | 審核退回 ledger（weekly 掃描跳過這些 URL，退回案件不重現）— apply_decisions 維護 |
 | `approved_queue.json` | 審核通過的 intake 佇列（待人工列載）— apply_decisions 維護 |
-| `cases_manifest.json` | 100 案 case_id ↔ docket_id mapping |
+| `normalize_claims.py` | 依 `data/claims_vocab.json` 正規化 claims 標籤（98 種寫法 → 36 種規範用語），非訴因項目移入 issues |
+| `verify_claims.py` | **以起訴狀核對 claims**（RECAP 抓 document 1 起訴狀 → 擷取 COUNT → 對映 canonical）；`--status` 看進度、`--pending --apply` 批次跑，需 `COURTLISTENER_TOKEN` |
+| `verify-claims-weekly.sh` | launchd `com.tyj.verify-claims` 每週二 08:30 的入口，跑 verify → normalize → validate → build |
+| `sync_courtlistener_sources.py` | 把 cases.json 的 `docket` id 補成 case_sources.json 的 CourtListener 連結（`--report` 分類列出仍無連結者）。**注意**：卡片上的 CourtListener 按鈕讀 `case_sources.json`，不是 `cases.json` 的 `docket` 欄位，兩邊各自維護會脫鉤 |
+| `rebuild_case_index.py` | 比對 cases.json 與 cases/case-*.md（judge 取姓氏、court 正規化成 CL code、docket id、最後書狀日），重生 `cases/_index.md` |
+| `sync_cases_manifest.py` | 自 cases.json 重生 `cases_manifest.json`（只收有 docket 者），讓 manifest 成為衍生物而非人工維護 |
+| `refresh-cases-monthly.sh` | launchd `com.tyj.refresh-cases` 每月 1 日 09:00 的入口：sync manifest → batch_refresh --all → rebuild _index |
+| `cases_manifest.json` | case_id ↔ docket_id mapping（119 筆，由 sync_cases_manifest.py 產生，**不要手改**） |
 | `install.sh` | 一次性安裝（plist 部署到 LaunchAgents） |
 | `HANDOVER.md` | 早期交接文件，內容已被本檔取代 |
 
@@ -233,14 +273,14 @@ launchctl kickstart -k gui/$(id -u)/com.tyj.ai-copyright-brief
 - [x] ~~`.bak` 備份檔~~ → 已 `git rm` 2 個 tracked、`archive/` 收容 1 個 untracked (commit 5f72b48)
 - [x] ~~`index.html` vs `dashboard.html` 不同步~~ → **發現 GH Pages 服務的 index.html 落後 3 週**！已 sync + 改 `auto-push.sh` 之後自動 mirror (commit a0bed3f)
 - [x] ~~`cases/_index.md` 50 案不符~~ → 假警報。daily-brief 過去 3 週已把 dashboard 改到位，抽查 11 件全對。`_index.md` 是 2026-04-27 stale 報告，無 script 自動重生，**用時請忽略**或手動重整。
-- [~] **`batch_refresh.py` 把 104 個 case .md 拉到最新** — **2026-05-17 主動暫緩**。已修 `fetch_courtlistener_docket.py` 的 Python 3.9 type-hint bug（commit `9f840c7`），script 本身可跑。實測時 CL API 回 401 invalid token，2 輪除錯（疑似 `<>` 括號被一起貼進去）後 YJ 決定不繼續。case .md 維持 2026-04-27 fetch 版本，dashboard.html 由 daily-brief 每日自動更新與 case 檔脫鉤無妨。未來想跑：`export COURTLISTENER_TOKEN=<從 CL profile 重生>`，再 `python3 scripts/batch_refresh.py --case 6` 驗證；通了再 `--all`。
+- [x] ~~**`batch_refresh.py` 把 104 個 case .md 拉到最新**~~ → 2026-08-08 改為 `com.tyj.refresh-cases` 每月 1 日 09:00 自動跑（sync manifest → batch_refresh --all → rebuild _index）。原 2026-05-17 暫緩原因：已修 `fetch_courtlistener_docket.py` 的 Python 3.9 type-hint bug（commit `9f840c7`），script 本身可跑。實測時 CL API 回 401 invalid token，2 輪除錯（疑似 `<>` 括號被一起貼進去）後 YJ 決定不繼續。case .md 維持 2026-04-27 fetch 版本，dashboard.html 由 daily-brief 每日自動更新與 case 檔脫鉤無妨。未來想跑：`export COURTLISTENER_TOKEN=<從 CL profile 重生>`，再 `python3 scripts/batch_refresh.py --case 6` 驗證；通了再 `--all`。
 
 **新發現 / 順手做的事：**
 
 - [x] 105 case 檔 + 8 scripts 全進 git（先前 untracked）(commit 88e7a9d)
 - [x] `.gitignore` 補 `node_modules/`、`__pycache__/`、`.env*`、`.claude/settings.local.json`、`.claude/worktrees/`
 - [x] `batch_update_dashboard_judges.py` 的 Python 3.9 type-hint bug 修掉（`dict | None` → `dict`；本機 macOS Python 3.9 不吃新語法）
-- [ ] `_index.md` 沒有自動重生機制 → 寫一個 script 比對 `cases/case-*.md` 的 Judge Assigned 與 dashboard.html 的 `"judge"` 欄位，產出真正反映「現況不符」的清單。或者直接刪掉 `_index.md`，避免下次又被它誤導。
+- [x] ~~`_index.md` 沒有自動重生機制~~ → 2026-08-08 寫了 `rebuild_case_index.py`，比對 cases.json 與 case .md，court 先正規化成 CL code 再比（消掉 49 件假警報），每月 refresh 後自動重生。
 - [ ] `index.html` 跟 `dashboard.html` 兩份檔案重複佔空間（~400KB × 2）。若想徹底去重：刪 `index.html`、改 GH Pages config 服務 `dashboard.html`，或加 1 行 HTML meta-refresh redirect 在 index.html。目前 auto-push.sh 已自動 mirror，無功能差異。
 
 ---

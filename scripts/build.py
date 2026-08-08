@@ -40,6 +40,7 @@ SUBSTITUTIONS = [
     ("{{NEWS_ITEMS_JSON}}",      "news.json",             "items"),
     ("{{NEWS_ARCHIVE_JSON}}",    "news.json",             "archive"),
     ("{{TIMELINE_EVENTS_JSON}}", "timeline.json",         ""),
+    ("{{CLAIMS_VOCAB_JSON}}",    "claims_vocab.json",     "canonical"),
 ]
 
 # Footer date is stamped from today's date, not a data file.

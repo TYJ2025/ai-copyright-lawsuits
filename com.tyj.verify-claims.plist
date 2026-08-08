@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+  每週二 08:30 以起訴狀核對 claims 標籤。
+  安裝前務必把 COURTLISTENER_TOKEN 換成真實 token（用 PlistBuddy 寫入副本，勿把
+  token commit 進 repo）。本檔為範本，實際載入的是 ~/Library/LaunchAgents/ 那份。
+-->
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.tyj.verify-claims</string>
+
+    <key>ProgramArguments</key>
+    <array>
+        <string>/bin/bash</string>
+        <string>/Users/jesuisjane/ClaudeProjects/AI Copyright Lawsuits Worldwide/scripts/verify-claims-weekly.sh</string>
+    </array>
+
+    <key>EnvironmentVariables</key>
+    <dict>
+        <key>COURTLISTENER_TOKEN</key>
+        <string>REPLACE_ME</string>
+        <key>VERIFY_CLAIMS_BATCH</key>
+        <string>25</string>
+        <key>PATH</key>
+        <string>/usr/local/bin:/usr/bin:/bin:/opt/homebrew/bin</string>
+    </dict>
+
+    <key>StartCalendarInterval</key>
+    <dict>
+        <key>Weekday</key>
+        <integer>2</integer>
+        <key>Hour</key>
+        <integer>8</integer>
+        <key>Minute</key>
+        <integer>30</integer>
+    </dict>
+
+    <key>RunAtLoad</key>
+    <false/>
+
+    <key>StandardOutPath</key>
+    <string>/Users/jesuisjane/ClaudeProjects/AI Copyright Lawsuits Worldwide/.verify-claims.stdout.log</string>
+    <key>StandardErrorPath</key>
+    <string>/Users/jesuisjane/ClaudeProjects/AI Copyright Lawsuits Worldwide/.verify-claims.stderr.log</string>
+</dict>
+</plist>

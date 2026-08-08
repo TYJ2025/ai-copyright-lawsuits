@@ -26,7 +26,9 @@ def main():
     ap.add_argument("--fair-use", choices=sorted(FAIR_USE_VALUES))
     ap.add_argument("--fair-use-note")
     ap.add_argument("--add-ruling", action="append", default=[],
-                    help='格式 "YYYY-MM|holding"，可重複')
+                    help='格式 "YYYY-MM|holding" 或 "YYYY-MM|holding|判決原文URL"，可重複')
+    ap.add_argument("--set-doc", action="append", default=[],
+                    help='為既有裁定補判決原文連結，格式 "YYYY-MM|URL"，可重複')
     ap.add_argument("--outcome")
     args = ap.parse_args()
 
@@ -52,14 +54,29 @@ def main():
     for item in args.add_ruling:
         if "|" not in item:
             sys.exit(f'[✗] --add-ruling 格式錯誤（缺 "|"）：{item}')
-        date, holding = item.split("|", 1)
-        date, holding = date.strip(), holding.strip()
+        parts = [x.strip() for x in item.split("|")]
+        date, holding = parts[0], parts[1]
+        doc_url = parts[2] if len(parts) > 2 and parts[2] else None
         if (date, holding) in existing:
             print(f"[=] 已存在，略過：{date} {holding[:30]}")
             continue
-        r.setdefault("keyRulings", []).append({"date": date, "holding": holding})
+        entry = {"date": date, "holding": holding}
+        if doc_url:
+            entry["docUrl"] = doc_url
+        r.setdefault("keyRulings", []).append(entry)
         existing.add((date, holding))
         changed.append(f"keyRuling {date}")
+
+    for item in args.set_doc:
+        if "|" not in item:
+            sys.exit(f'[✗] --set-doc 格式錯誤（缺 "|"）：{item}')
+        date, url = (x.strip() for x in item.split("|", 1))
+        hit = [k for k in r.get("keyRulings", []) if k["date"] == date]
+        if not hit:
+            sys.exit(f"[✗] case {args.case_id} 找不到日期為 {date} 的裁定")
+        for k in hit:
+            k["docUrl"] = url
+        changed.append(f"docUrl {date}")
 
     if not changed:
         print("[=] 無變更")

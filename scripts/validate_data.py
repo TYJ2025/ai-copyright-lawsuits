@@ -42,8 +42,23 @@ JURISDICTION_ENUM = {"us", "uk", "eu", "cn", "asia-other", "other"}
 TECH_ENUM = {"llm", "music", "image", "code", "video", "search"}
 PLAINTIFF_ENUM = {"author", "music", "artist", "media", "code", "creator", "reference", "shareholder"}
 
+
+def claims_enum() -> set:
+    """claims 受控詞彙表（data/claims_vocab.json）。缺檔則回空集合、略過檢查。"""
+    path = DATA / "claims_vocab.json"
+    if not path.is_file():
+        warn("[claims_vocab.json] 不存在，略過 claims 用語檢查")
+        return set()
+    try:
+        v = json.load(open(path, encoding="utf-8"))
+    except json.JSONDecodeError as e:
+        err(f"[claims_vocab.json] JSON 解析失敗：{e}")
+        return set()
+    return {m["label"] for m in v.get("canonical", {}).values()}
+
 ALL_DATA_FILES = ["cases.json", "case_sources.json", "fair_use_cases.json",
-                  "official_reports.json", "news.json", "timeline.json", "_meta.json"]
+                  "official_reports.json", "news.json", "timeline.json", "_meta.json",
+                  "claims_vocab.json"]
 
 errors: list[str] = []
 warnings: list[str] = []
@@ -102,6 +117,8 @@ def check_cases(check_links: bool):
         if gaps:
             warn(f"[cases.json] id 不連續，缺號：{gaps}")
 
+    CLAIMS_ENUM = claims_enum()
+
     today = date.today()
     no_src, no_formal, no_dates = [], [], []
     for c in cases:
@@ -120,6 +137,15 @@ def check_cases(check_links: bool):
             err(f"[cases.json] id={cid} technology 非法：{c.get('technology')!r}")
         if "plaintiffType" in c and c["plaintiffType"] not in PLAINTIFF_ENUM:
             err(f"[cases.json] id={cid} plaintiffType 非法：{c.get('plaintiffType')!r}")
+        # claims 須為受控詞彙表用語（正規化用 scripts/normalize_claims.py）
+        if CLAIMS_ENUM:
+            for cl in c.get("claims") or []:
+                if cl not in CLAIMS_ENUM:
+                    err(f"[cases.json] id={cid} claims 非受控用語：{cl!r}"
+                        f"（請補進 claims_vocab.json 或跑 normalize_claims.py）")
+        if "claimsVerifiedAt" in c and c["claimsVerifiedAt"] not in (None, "") \
+                and not valid_iso(c["claimsVerifiedAt"]):
+            err(f"[cases.json] id={cid} claimsVerifiedAt 非合法 YYYY-MM-DD：{c['claimsVerifiedAt']!r}")
         # 固化欄位是否齊全（warn）
         if any(f not in c for f in FORMALIZED_FIELDS):
             no_formal.append(cid)

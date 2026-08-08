@@ -55,8 +55,9 @@ fi
 NEED_COMMIT=0
 NEED_PUSH=0
 
-if ! git diff --quiet HEAD -- dashboard.html data/ 2>/dev/null; then NEED_COMMIT=1; fi
-if ! git diff --cached --quiet HEAD -- dashboard.html data/ 2>/dev/null; then NEED_COMMIT=1; fi
+# cases/ 納入：每月 refresh-cases 會改動 113 份 case .md，否則永遠留在未提交狀態
+if ! git diff --quiet HEAD -- dashboard.html data/ cases/ 2>/dev/null; then NEED_COMMIT=1; fi
+if ! git diff --cached --quiet HEAD -- dashboard.html data/ cases/ 2>/dev/null; then NEED_COMMIT=1; fi
 
 # Fetch remote to compare (quiet; don't abort on network failure).
 git fetch origin --quiet 2>/dev/null
@@ -75,7 +76,7 @@ fi
 
 # --- Commit if needed, then push -------------------------------------------
 if [ "$NEED_COMMIT" -eq 1 ]; then
-    git add dashboard.html index.html data/
+    git add dashboard.html index.html data/ cases/
     git commit -m "Daily update: $(date '+%Y/%m/%d')" >> "$LOG_FILE" 2>&1
 fi
 
