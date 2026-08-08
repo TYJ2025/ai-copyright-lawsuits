@@ -28,6 +28,7 @@ import json
 import os
 import re
 import sys
+import time
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any
@@ -197,19 +198,33 @@ def search_courtlistener(
         if verbose:
             print(f"[page {page}] GET {next_url}", file=sys.stderr)
         req = Request(next_url, headers=headers)
-        try:
-            with urlopen(req, timeout=30) as resp:
-                data = json.loads(resp.read().decode("utf-8"))
-        except HTTPError as e:
-            body = ""
+        # 排程在 08:00 觸發時 Mac 可能剛喚醒、WiFi 尚未連上，DNS 會失敗
+        # （2026-08-03 即因 [Errno 8] nodename nor servname 而 exit 3）。
+        # 故網路類錯誤重試 4 次、間隔遞增，仍失敗才放棄。
+        data = None
+        for attempt in range(4):
             try:
-                body = e.read().decode("utf-8", errors="ignore")[:500]
-            except Exception:
-                pass
-            print(f"HTTP {e.code} from CourtListener: {e.reason}\n{body}", file=sys.stderr)
-            sys.exit(2)
-        except URLError as e:
-            print(f"Network error: {e.reason}", file=sys.stderr)
+                with urlopen(req, timeout=45) as resp:
+                    data = json.loads(resp.read().decode("utf-8"))
+                break
+            except HTTPError as e:
+                body = ""
+                try:
+                    body = e.read().decode("utf-8", errors="ignore")[:500]
+                except Exception:
+                    pass
+                print(f"HTTP {e.code} from CourtListener: {e.reason}\n{body}",
+                      file=sys.stderr)
+                sys.exit(2)
+            except URLError as e:
+                wait = 15 * (attempt + 1)
+                if attempt == 3:
+                    print(f"Network error（重試 4 次仍失敗）：{e.reason}", file=sys.stderr)
+                    sys.exit(3)
+                print(f"Network error：{e.reason}；{wait} 秒後重試"
+                      f"（{attempt + 1}/3）", file=sys.stderr)
+                time.sleep(wait)
+        if data is None:
             sys.exit(3)
         results.extend(data.get("results", []))
         next_url = data.get("next")
