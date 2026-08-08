@@ -164,6 +164,7 @@ data/*.json  +  templates/dashboard.template.html
 | `sync_cases_manifest.py` | 自 cases.json 重生 `cases_manifest.json`（只收有 docket 者），讓 manifest 成為衍生物而非人工維護 |
 | `refresh-cases-monthly.sh` | launchd `com.tyj.refresh-cases` 每月 1 日 09:00 的入口：sync manifest → batch_refresh --all → rebuild _index |
 | `cases_manifest.json` | case_id ↔ docket_id mapping（119 筆，由 sync_cases_manifest.py 產生，**不要手改**） |
+| `preflight.sh` | **push 前跑一次**：從 HEAD 解出乾淨副本模擬 CI（validate_data + build --check），並列出 CI 路徑內未 commit 的檔案。`--staged` 可驗已 git add 的內容 |
 | `install.sh` | 一次性安裝（plist 部署到 LaunchAgents） |
 | `HANDOVER.md` | 早期交接文件，內容已被本檔取代 |
 
@@ -229,6 +230,20 @@ python3 scripts/scan_case_trackers.py
 
 ### 「修改 dashboard 視覺 / 互動」
 直接編輯 `dashboard.html`（單檔 HTML，CSS / JS 都內嵌）。儲存後 watcher 會自動 commit/push。**改 JS const 要小心 temporal dead zone**——所有 `const`/`let` 必須在引用它的 function call 之前宣告。
+
+---
+
+### CI（GitHub Actions）
+
+`.github/workflows/validate.yml` 在 push 到 main 且動到 `data/`、`templates/`、`build.py`、`validate_data.py` 時觸發，跑 `validate_data.py` 與 `build.py --check`；`link-check` job 設 `continue-on-error`，不擋。
+
+**踩過的坑（2026-08-08）**：改了 template 卻只 commit 了 script，本機工作區測得過但 CI 從 HEAD checkout 就少了 `{{CLAIMS_VOCAB_JSON}}` 佔位符而失敗。push 前先跑：
+
+```bash
+./scripts/preflight.sh
+```
+
+它從 HEAD 解出乾淨副本驗，與 CI 行為一致，漏 commit 的檔案會立刻現形。
 
 ---
 
