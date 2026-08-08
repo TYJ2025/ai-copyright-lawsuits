@@ -6,6 +6,11 @@
   "data": {
     "items": [
       {
+        "addedAt": "2026-08-09",
+        "text": "【2026/8/5】AFM v. UMG/Warner Music Group（S.D.N.Y. 1:26-cv-04760）UMG、WMG 對 AFM 7/24 提出之修正訴狀再次聲請駁回：兩大唱片公司主張 SRLA 第 21(a)條「新用途」條款未涵蓋 AI 訓練授權、且無對應費率可資適用，「以不存在之協議計算給付等於不給付」；AFM 先前已於 7/21 就原始訴狀之撤銷聲請提出反對書狀，本次為續行同一爭點之第二輪攻防",
+        "url": "https://www.digitalmusicnews.com/2026/08/06/american-federation-of-musicians-lawsuits-dismissal-motions/"
+      },
+      {
         "addedAt": "2026-08-07",
         "text": "【2026/8/3】Concord Music v. Anthropic II（N.D. Cal. 5:26-cv-00880）Anthropic 與 CEO Amodei 分別聲請一部駁回及個人責任駁回，11/4 開庭。",
         "url": "https://www.musicbusinessworldwide.com/anthropic-seeks-partial-dismissal-in-music-publishers-3b-lyrics-suit-as-ceo-moves-to-drop-the-direct-infringement-claim-against-him/"
@@ -14,14 +19,14 @@
         "addedAt": "2026-08-06",
         "text": "【2026/7/31】Reddit v. SerpAPI, Perplexity（S.D.N.Y.）法院准許 DMCA 反規避主張續行：Engelmayer 法官裁定 Google SearchGuard 屬受保護之接觸控制措施，駁回不正競爭與不當得利州法請求",
         "url": "https://news.bloomberglaw.com/ip-law/reddit-advances-ai-scraping-suit-against-perplexity-serpapi"
-      },
+      }
+    ],
+    "archive": [
       {
         "addedAt": "2026-08-01",
         "text": "【2026/7/31】GEMA v. Suno（慕尼黑第一地方法院）德國法院判 Suno 侵權敗訴：法院認定 Suno 在美訓練並於歐洲儲存重製 GEMA 代管之 6 首歌曲（含 Rasputin、Daddy Cool）構成美德著作權侵害，命揭露不法收益並賠償（金額待定），為 GEMA 對生成式 AI 業者第二次勝訴（前次為 OpenAI）",
         "url": "https://musically.com/2026/07/31/german-collecting-society-gema-wins-its-copyright-infringement-lawsuit-against-suno/"
-      }
-    ],
-    "archive": [
+      },
       {
         "addedAt": "2026-07-27",
         "text": "【2026/7/24】ANI Media v. OpenAI（德里高等法院，CS(COMM) 1028/2024）駁回暫時禁制令、認定 AI 訓練屬合理使用：Amit Bansal 法官裁定 OpenAI 以受著作權保護內容訓練 ChatGPT 符合印度著作權法第 52 條 fair dealing，且生成內容與 ANI 原文不構成實質近似；為印度首件就生成式 AI 訓練著作權爭議作成實體判斷之判決，屬 prima facie／interim 階段認定，非終局判決",
@@ -360,5 +365,5 @@
     ]
   },
   "lastUpdatedBy": "add_news.py",
-  "lastUpdatedAt": "2026-08-07T07:09:24.116174+08:00"
+  "lastUpdatedAt": "2026-08-09T07:12:28.109350+08:00"
 }

@@ -5248,7 +5248,7 @@
    ],
    "defendants": "Warner Music Group Corp.、Universal Music Group, Inc.（第一次修正訴狀增列 Warner Records, Inc.、Atlantic Recording Corp.）",
    "issues": "全美首件「勞工工會就 AI 訓練資料授權收入分配」對唱片公司提起之訴訟（1:26-cv-04760，2026/6/5 立案）。美國音樂家聯合會（AFM）依《勞資關係法》（LMRA）第 301 條主張 UMG 與 WMG 違反《Sound Recording Labor Agreement》（SRLA）集體談判協議：兩大唱片公司與 Suno（WMG 2025/11 約 US$500M 和解暨授權）、Udio（UMG 2025/10 和解暨合資 AI 音樂平台）達成之「回顧型和解＋前瞻型授權」交易，未依 CBA 第 21(a) 條「新用途（new use）」條款補償錄音樂手，亦拒絕揭露實際被授權供 AI 訓練之錄音清單與涉及之工會樂手名單。\n\n核心爭點：集體談判協議之「new use」條款是否涵蓋 AI 訓練授權收入。AFM 主張該條款要求唱片公司於錄音被投入新商業用途時補償樂手；UMG 反主張該條款僅為既有費率轉換條款、非開放式權利金條款。本案不以著作權為訴因，而以勞動契約開闢 AI 訓練收益分配第三戰線。",
-   "progress": "【2026/6/5】AFM 於紐約南區聯邦地院對 UMG 與 WMG 提起集體談判協議違約訴訟，主張兩大唱片公司於與 Suno、Udio 之和解暨授權交易中未依 CBA「new use」條款補償 session musicians，亦拒絕揭露實際被授權用於 AI 訓練之錄音名單。起訴狀稱被告「為自身利益創造重大新收入來源、卻拒絕補償以自己樂器、才華與努力創作出供 AI 機器吞食營利之音樂家」。\n\n【2026/7/21】AFM 就 UMG、WMG 之撤銷之訴聲請提出反對書狀，主張兩大唱片公司與 Suno、Udio 之 AI 授權和解已觸發 SRLA 第 21(a) 條「新用途」條款，須對授權供 AI 訓練錄音之樂手給付報酬；UMG 反主張該條款僅為既有費率轉換條款。\n\n【2026/7/24】AFM 提交第一次修正訴狀，增列 Warner Records, Inc. 與 Atlantic Recording Corp. 為被告。",
+   "progress": "【2026/6/5】AFM 於紐約南區聯邦地院對 UMG 與 WMG 提起集體談判協議違約訴訟，主張兩大唱片公司於與 Suno、Udio 之和解暨授權交易中未依 CBA「new use」條款補償 session musicians，亦拒絕揭露實際被授權用於 AI 訓練之錄音名單。起訴狀稱被告「為自身利益創造重大新收入來源、卻拒絕補償以自己樂器、才華與努力創作出供 AI 機器吞食營利之音樂家」。\n\n【2026/7/21】AFM 就 UMG、WMG 之撤銷之訴聲請提出反對書狀，主張兩大唱片公司與 Suno、Udio 之 AI 授權和解已觸發 SRLA 第 21(a) 條「新用途」條款，須對授權供 AI 訓練錄音之樂手給付報酬；UMG 反主張該條款僅為既有費率轉換條款。\n\n【2026/7/24】AFM 提交第一次修正訴狀，增列 Warner Records, Inc. 與 Atlantic Recording Corp. 為被告。\n\n【2026/8/5】UMG、WMG 對 AFM 7/24 提出之修正訴狀再次聲請駁回，主張 SRLA 第 21(a)條「新用途」條款不涵蓋 AI 訓練授權；AFM 先前 7/21 已就原訴狀撤銷聲請提反對書狀。",
    "taiwan": "1) 台灣目前無等同美國 SRLA 之全國性錄音業集體談判協議，惟本案凸顯「著作權人（唱片公司）與表演人（樂手）就 AI 授權收益分配」之結構性衝突，對應台灣《著作權法》第 7 條之 1 表演人權利及錄音著作權歸屬實務。2) 台灣唱片公司若與 AI 業者達成授權，與演唱人、樂手之既有合約是否涵蓋 AI 訓練用途，將成契約解釋爭點。3) 文化部推動 AI 授權機制時，宜納入表演人分潤議題。",
    "jurisdiction": "us",
    "country": "🇺🇸 美國",
@@ -5259,7 +5259,7 @@
    "sourceCount": 3,
    "docket": 73446028,
    "filedAt": "2026-06-05",
-   "updatedAt": "2026-08-04",
+   "updatedAt": "2026-08-09",
    "claimsDetail": null,
    "claimsVerifiedAt": null
   },
