@@ -70,9 +70,11 @@ def build(check_only: bool = False, output_path: Path = OUTPUT) -> str:
         for placeholder, filename, subpath in SUBSTITUTIONS:
             load_payload(filename, subpath)  # raises if bad
             if placeholder not in template:
-                sys.exit((f"✗ placeholder {placeholder} not in template", 2))
+                print(f"✗ placeholder {placeholder} not in template", file=sys.stderr)
+                sys.exit(2)
         if FOOTER_PLACEHOLDER not in template:
-            sys.exit((f"✗ placeholder {FOOTER_PLACEHOLDER} not in template", 2))
+            print(f"✗ placeholder {FOOTER_PLACEHOLDER} not in template", file=sys.stderr)
+            sys.exit(2)
         print("[✓] All data files valid + placeholders present.")
         return ""
 
@@ -82,7 +84,8 @@ def build(check_only: bool = False, output_path: Path = OUTPUT) -> str:
         # (sort_keys=False to preserve input order, since cases is id-ordered).
         js_literal = json.dumps(payload, ensure_ascii=False, indent=2)
         if placeholder not in template:
-            sys.exit((f"✗ placeholder {placeholder} not in template", 2))
+            print(f"✗ placeholder {placeholder} not in template", file=sys.stderr)
+            sys.exit(2)
         template = template.replace(placeholder, js_literal, 1)
 
     # Footer heartbeat: stamp today's date (Asia/Taipei = system local time).

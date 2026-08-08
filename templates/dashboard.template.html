@@ -530,6 +530,25 @@
   }
   .cmp-toggle:hover { text-decoration: underline; }
   .claim-tag.cmp-uniq { outline: 1.5px solid var(--gold); }
+  .claim-tag[title] { cursor: help; }
+  .kr-doc {
+    margin-left: 6px;
+    font-size: 11px;
+    white-space: nowrap;
+    color: var(--gold);
+    text-decoration: none;
+    border-bottom: 1px dotted var(--gold);
+  }
+  .kr-doc:hover { opacity: .75; }
+  .claim-unverified {
+    display: inline-block;
+    padding: 2px 8px;
+    font-size: 11px;
+    border: 1px dashed var(--border);
+    border-radius: 10px;
+    color: var(--text-light);
+    white-space: nowrap;
+  }
   @media (max-width: 600px) {
     .compare-body { grid-template-columns: 1fr; }
     .compare-col { border-right: none; border-bottom: 1px solid var(--border); }
@@ -1925,7 +1944,7 @@
 <div class="archive-container" id="archiveContainer">
   <div class="archive-intro">
     <h2>歷史快訊 Daily Brief Archive</h2>
-    <p>每日快訊（Daily Brief）滿 3 天後自動歸檔於此，依加入日期由新至舊分組。每筆條目均連結至原始新聞來源。目前共 <span id="archiveCount">0</span> 筆歷史快訊。</p>
+    <p>每日快訊（Daily Brief）滿 3 天後自動歸檔於此（頂部跑馬燈至少保留 3 則，不足時暫緩歸檔），依加入日期由新至舊分組。每筆條目均連結至原始新聞來源。目前共 <span id="archiveCount">0</span> 筆歷史快訊。</p>
   </div>
   <div class="archive-body" id="archiveBody"></div>
 </div>
@@ -1944,6 +1963,29 @@
 const caseSources = {{CASE_SOURCES_JSON}};
 
 const cases = {{CASES_JSON}};
+
+// ── claims 標籤：受控詞彙表（data/claims_vocab.json 的 canonical 區塊）──────────
+// 標籤以起訴狀所載訴因為準；訴訟中之增刪不改標籤，改寫於「訴訟爭點」。
+// claimsDetail = 起訴狀 COUNT 原文（verify_claims.py 自 RECAP 擷取）；
+// claimsVerifiedAt = null 代表尚未與起訴狀核對。
+const claimsVocab = {{CLAIMS_VOCAB_JSON}};
+const claimsByLabel = {};
+Object.keys(claimsVocab).forEach(k => { claimsByLabel[claimsVocab[k].label] = claimsVocab[k]; });
+
+function claimTag(label, extraClass) {
+  const meta = claimsByLabel[label];
+  const cls = 'claim-tag' + (extraClass ? ' ' + extraClass : '');
+  if (!meta) return `<span class="${cls}">${escapeHTML(label)}</span>`;
+  const tip = meta.zh + (meta.cite ? `（${meta.cite}）` : '');
+  return `<span class="${cls}" title="${escapeHTML(tip)}">${escapeHTML(label)}</span>`;
+}
+
+function claimsVerifyBadge(c) {
+  if (c.claimsVerifiedAt) {
+    return `<span class="claim-unverified" title="已與起訴狀 COUNT 核對">✓ 起訴狀核對 ${escapeHTML(c.claimsVerifiedAt)}</span>`;
+  }
+  return `<span class="claim-unverified" title="標籤尚未與起訴狀原文核對，僅供參考">待核對起訴狀</span>`;
+}
 
 // ════════════════════════════════════════
 // RENDER
@@ -2427,7 +2469,8 @@ function showDetail(id) {
         &nbsp; ${c.court} &nbsp;|&nbsp; Judge ${c.judge} &nbsp;|&nbsp; 被告: ${c.defendants}
       </div>
       <div class="claim-tags">
-        ${c.claims.map(cl => `<span class="claim-tag">${cl}</span>`).join('')}
+        ${c.claims.map(cl => claimTag(cl)).join('')}
+        ${claimsVerifyBadge(c)}
       </div>
       ${courtListenerHtml}
     </div>
@@ -2784,7 +2827,8 @@ buildRegionMap();
 // ════════════════════════════════════════
 // DAILY NEWS TICKER ITEMS
 // ════════════════════════════════════════
-// newsItems: 最近 3 天內加入之每日快訊（超過 3 天會被 daily-brief.sh 自動搬到 newsArchive）
+// newsItems: 頂部跑馬燈快訊。原則為最近 3 天內加入者，但 add_news.py 以 MIN_ITEMS=3 保底，
+// 近日無新快訊時會自 newsArchive 回補最新者，確保跑馬燈恆有至少 3 則
 // 每筆需含 addedAt（YYYY-MM-DD，台北時區），代表「條目加入 dashboard 之日期」
 const newsItems = {{NEWS_ITEMS_JSON}};
 
@@ -2823,7 +2867,7 @@ function renderArchive() {
   const items = Array.isArray(newsArchive) ? newsArchive : [];
   countEl.textContent = items.length;
   if (items.length === 0) {
-    body.innerHTML = '<div class="archive-item" style="color:var(--text-light)">尚無歷史快訊。每日快訊滿 3 天後將自動歸檔於此。</div>';
+    body.innerHTML = '<div class="archive-item" style="color:var(--text-light)">尚無歷史快訊。每日快訊滿 3 天且頂部仍有 3 則以上時，將自動歸檔於此。</div>';
     return;
   }
   // Group by addedAt (descending — newest dates first)
@@ -2984,7 +3028,7 @@ function renderComparison() {
   }).join('')}</tr>`;
   h += `<tr><td class="cmp-rowlabel">關鍵裁定<br>Key Rulings</td>${sel.map(c => {
     if (!c.rulings || !c.rulings.keyRulings || !c.rulings.keyRulings.length) return '<td><span class="cmp-note">尚無實質裁定</span></td>';
-    return `<td><ul class="cmp-kr">${c.rulings.keyRulings.map(r => `<li><span class="kr-date">${r.date.replace('-', '/')}</span>${r.holding}</li>`).join('')}</ul></td>`;
+    return `<td><ul class="cmp-kr">${c.rulings.keyRulings.map(r => `<li><span class="kr-date">${r.date.replace('-', '/')}</span>${r.holding}${r.docUrl ? ` <a class="kr-doc" href="${escapeHTML(r.docUrl)}" target="_blank" rel="noopener" title="判決原文">📄 原文</a>` : ''}</li>`).join('')}</ul></td>`;
   }).join('')}</tr>`;
   if (sel.some(c => c.rulings && c.rulings.outcome)) {
     h += `<tr><td class="cmp-rowlabel">結果<br>Outcome</td>${sel.map(c => `<td>${(c.rulings && c.rulings.outcome) || '<span class="cmp-note">—</span>'}</td>`).join('')}</tr>`;
@@ -2996,9 +3040,9 @@ function renderComparison() {
   h += row('法官 Judge', sel.map(c => c.judge || '—'));
   h += row('被告', sel.map(c => c.defendants || '—'));
   if (common.length) {
-    h += `<tr><td class="cmp-rowlabel">共同主張</td><td colspan="${n}">${common.map(cl => `<span class="claim-tag">${cl}</span>`).join(' ')}</td></tr>`;
+    h += `<tr><td class="cmp-rowlabel">共同主張</td><td colspan="${n}">${common.map(cl => claimTag(cl)).join(' ')}</td></tr>`;
   }
-  h += `<tr><td class="cmp-rowlabel">獨有主張</td>${uniq.map(u => `<td>${u.length ? u.map(cl => `<span class="claim-tag cmp-uniq">${cl}</span>`).join(' ') : '<span class="cmp-note">無</span>'}</td>`).join('')}</tr>`;
+  h += `<tr><td class="cmp-rowlabel">獨有主張</td>${uniq.map(u => `<td>${u.length ? u.map(cl => claimTag(cl, 'cmp-uniq')).join(' ') : '<span class="cmp-note">無</span>'}</td>`).join('')}</tr>`;
   [['issues', '訴訟爭點'], ['progress', '目前進度'], ['taiwan', '台灣啟示']].forEach(([k, label]) => {
     const open = cmpExpanded[k];
     h += `<tr><td class="cmp-rowlabel"></td><td colspan="${n}" style="border-bottom:${open ? 'none' : ''};"><button class="cmp-toggle" onclick="cmpToggle('${k}')">${open ? '▾ 收合' : '▸ 展開'} ${label}並列</button></td></tr>`;
