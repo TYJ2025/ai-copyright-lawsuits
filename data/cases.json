@@ -11,8 +11,7 @@
    "judge": "Bibas（D. Del. 原審）／3d Cir. panel: Restrepo、Montgomery-Reeves、Bove",
    "status": "appeal",
    "claims": [
-    "Direct Copyright",
-    "State Law"
+    "Direct Copyright"
    ],
    "defendants": "ROSS Intelligence Inc.",
    "issues": "本案核心爭點在於：以受著作權保護的 Westlaw 法律摘要（headnotes）訓練 AI 法律研究工具，是否構成合理使用（fair use）。\n\n2025年2月，Bibas 法官裁定 ROSS Intelligence 以 Thomson Reuters 的 2,243 份著作權摘要訓練 AI 模型構成侵權，且不符合合理使用要件。法院認為該使用並非「轉化性使用」（transformative use），因為 ROSS 的產品直接與 Westlaw 競爭。\n\n本案是美國首件就 AI 訓練資料的合理使用問題作出實質裁判的案件。",
@@ -27,7 +26,7 @@
    "sourceCount": 3,
    "docket": 17131648,
    "filedAt": null,
-   "updatedAt": "2026-08-05",
+   "updatedAt": "2026-08-11",
    "rulings": {
     "fairUse": "unfavorable",
     "fairUseNote": "Bibas 法官認定以 Westlaw 摘要訓練非轉化性使用；第三巡迴上訴中",
@@ -42,8 +41,19 @@
      }
     ]
    },
-   "claimsDetail": null,
-   "claimsVerifiedAt": null
+   "claimsDetail": [
+    {
+     "count": "I",
+     "title": "Copyright Infringement (17 U.S.C. § 101 et seq",
+     "canonical": "direct-copyright"
+    }
+   ],
+   "claimsVerifiedAt": "2026-08-11",
+   "claimsSource": "https://www.courtlistener.com/docket/17131648/1/thomson-reuters-enterprise-centre-gmbh-v-ross-intelligence-inc/",
+   "claimsPrevious": [
+    "Direct Copyright",
+    "State Law"
+   ]
   },
   {
    "id": 2,
@@ -1790,9 +1800,16 @@
    "sourceCount": 2,
    "docket": 71972050,
    "filedAt": null,
-   "updatedAt": null,
-   "claimsDetail": null,
-   "claimsVerifiedAt": null
+   "updatedAt": "2026-08-11",
+   "claimsDetail": [
+    {
+     "count": "FIRST",
+     "title": "Violation of the DMCA (Anti-Circumvention) 17 U.S.C. § 1201(a",
+     "canonical": "dmca-1201"
+    }
+   ],
+   "claimsVerifiedAt": "2026-08-11",
+   "claimsSource": "https://www.courtlistener.com/docket/71972050/1/ted-entertainment-inc-v-nvidia-corporation/"
   },
   {
    "id": 32,
@@ -1801,8 +1818,11 @@
    "judge": "Philip A. Brimmer",
    "status": "active",
    "claims": [
-    "DMCA §1202",
-    "State Law"
+    "Breach of Contract",
+    "Conversion",
+    "Unjust Enrichment",
+    "Civil Conspiracy",
+    "DMCA §1202"
    ],
    "defendants": "Photobucket Inc.",
    "issues": "本案主張圖片託管平台 Photobucket 將使用者上傳的照片提供給 AI 公司用於模型訓練，過程中移除了著作權管理資訊，違反 DMCA §1202(b)。\n\n核心爭點：平台業者將使用者內容商業化（出售給 AI 公司）是否構成 DMCA 違反？",
@@ -1817,9 +1837,70 @@
    "sourceCount": 2,
    "docket": 69456658,
    "filedAt": null,
-   "updatedAt": null,
-   "claimsDetail": null,
-   "claimsVerifiedAt": null
+   "updatedAt": "2026-08-11",
+   "claimsDetail": [
+    {
+     "count": "FIRST",
+     "title": "Violation of State Privacy Law Including 740 ILCS 14/10 (b, c, d & e) (BIPA), Va. Code",
+     "canonical": null
+    },
+    {
+     "count": "SECOND",
+     "title": "Violation of State Privacy Law Including 740 ILCS 14/10 (b, c, d & e), Va. Code § 8.01",
+     "canonical": null
+    },
+    {
+     "count": "THIRD",
+     "title": "Violation of State Privacy Law Including 740 ILCS 14/10 (a, b, &c), Va. Code § 8.01-40(A),",
+     "canonical": null
+    },
+    {
+     "count": "FOURTH",
+     "title": "Violation of State Deceptive Practices Law Including C.R.S. 6-1-113, 815 ILCS 505/2, Va",
+     "canonical": null
+    },
+    {
+     "count": "FIFTH",
+     "title": "Breach of Contract Nationwide Class",
+     "canonical": "breach-contract"
+    },
+    {
+     "count": "SIXTH",
+     "title": "Conversion Nationwide Photobucket User Class Against Unknown Defendants",
+     "canonical": "conversion"
+    },
+    {
+     "count": "SEVENTH",
+     "title": "Unjust Enrichment All Classes Against Photobucket",
+     "canonical": "unjust-enrichment"
+    },
+    {
+     "count": "EIGHTH",
+     "title": "Unjust Enrichment All Classes against Unknown Defendants",
+     "canonical": "unjust-enrichment"
+    },
+    {
+     "count": "NINTH",
+     "title": "Civil Conspiracy All Classes",
+     "canonical": "conspiracy"
+    },
+    {
+     "count": "TENTH",
+     "title": "Violation of 17 U.S.C. § 1202(b)(1) by Defendants",
+     "canonical": "dmca-1202"
+    },
+    {
+     "count": "ELEVENTH",
+     "title": "Violation of 17 U.S.C. § 1202(b)(3) by Photobucket",
+     "canonical": "dmca-1202"
+    }
+   ],
+   "claimsVerifiedAt": "2026-08-11",
+   "claimsSource": "https://www.courtlistener.com/docket/69456658/1/pierce-v-photobucket-inc/",
+   "claimsPrevious": [
+    "DMCA §1202",
+    "State Law"
+   ]
   },
   {
    "id": 33,
@@ -1829,7 +1910,7 @@
    "status": "active",
    "claims": [
     "Direct Copyright",
-    "Secondary Infringement",
+    "Contributory Infringement",
     "Lanham Act"
    ],
    "defendants": "Perplexity AI Inc.",
@@ -1845,9 +1926,41 @@
    "sourceCount": 4,
    "docket": 71996467,
    "filedAt": null,
-   "updatedAt": null,
-   "claimsDetail": null,
-   "claimsVerifiedAt": null
+   "updatedAt": "2026-08-11",
+   "claimsDetail": [
+    {
+     "count": "I",
+     "title": "Copyright Infringement (17 U.S.C. § 106(1)) – Perplexity’s Acquisition of the Chicago",
+     "canonical": "direct-copyright"
+    },
+    {
+     "count": "II",
+     "title": "Copyright Infringement (17 U.S.C. § 106(2)) – Perplexity’s Copying of the Chicago",
+     "canonical": "direct-copyright"
+    },
+    {
+     "count": "III",
+     "title": "Contributory and Vicarious Copyright Infringement",
+     "canonical": "contributory"
+    },
+    {
+     "count": "IV",
+     "title": "False Designation of Origin and Dilution of the Chicago Tribune’s Trademark",
+     "canonical": "lanham"
+    },
+    {
+     "count": "V",
+     "title": "Trademark Infringement (15 U.S.C. § 1114",
+     "canonical": "lanham"
+    }
+   ],
+   "claimsVerifiedAt": "2026-08-11",
+   "claimsSource": "https://www.courtlistener.com/docket/71996467/1/chicago-tribune-company-llc-v-perplexity-ai-inc/",
+   "claimsPrevious": [
+    "Direct Copyright",
+    "Secondary Infringement",
+    "Lanham Act"
+   ]
   },
   {
    "id": 34,
@@ -1872,9 +1985,26 @@
    "sourceCount": 3,
    "docket": 71313411,
    "filedAt": null,
-   "updatedAt": null,
-   "claimsDetail": null,
-   "claimsVerifiedAt": null
+   "updatedAt": "2026-08-11",
+   "claimsDetail": [
+    {
+     "count": "",
+     "title": "Copyright Infringement (17 U.S.C. § 106(1)) — Perplexity’s Copying of Plaintiffs’",
+     "canonical": "direct-copyright"
+    },
+    {
+     "count": "",
+     "title": "Copyright Infringement (17 U.S.C. § 106(2)) — Perplexity’s Copying of Plaintiffs’",
+     "canonical": "direct-copyright"
+    },
+    {
+     "count": "II",
+     "title": "False Designation of Origin and Dilution of Plaintiffs’ Trademarks (15 U.S.C. § 1125",
+     "canonical": "lanham"
+    }
+   ],
+   "claimsVerifiedAt": "2026-08-11",
+   "claimsSource": "https://www.courtlistener.com/docket/71313411/1/encyclopaedia-britannica-inc-v-perplexity-ai-inc/"
   },
   {
    "id": 35,
@@ -1898,9 +2028,31 @@
    "sourceCount": 3,
    "docket": 68290804,
    "filedAt": null,
-   "updatedAt": null,
-   "claimsDetail": null,
-   "claimsVerifiedAt": null
+   "updatedAt": "2026-08-11",
+   "claimsDetail": [
+    {
+     "count": "I",
+     "title": "Violation of 17 U.S.C. § 1202(b)(1) by OpenAI Defendants",
+     "canonical": "dmca-1202"
+    },
+    {
+     "count": "II",
+     "title": "Violation of 17 U.S.C. § 1202(b)(3) by OpenAI Defendants",
+     "canonical": "dmca-1202"
+    },
+    {
+     "count": "III",
+     "title": "Violation of 17 U.S.C. § 1202(b)(1) by Defendant Microsoft",
+     "canonical": "dmca-1202"
+    },
+    {
+     "count": "IV",
+     "title": "Violation of 17 U.S.C. § 1202(b)(3) by Defendant Microsoft",
+     "canonical": "dmca-1202"
+    }
+   ],
+   "claimsVerifiedAt": "2026-08-11",
+   "claimsSource": "https://www.courtlistener.com/docket/68290804/1/the-intercept-media-inc-v-openai-inc/"
   },
   {
    "id": 36,
@@ -1909,9 +2061,7 @@
    "judge": "F. Dennis Saylor IV",
    "status": "active",
    "claims": [
-    "Direct Copyright",
-    "DMCA §1201",
-    "State Law"
+    "Direct Copyright"
    ],
    "defendants": "Suno Inc.",
    "issues": "本案由美國音樂工作者、作曲家及歌詞作者的聯合集體提起，針對 AI 音樂生成平台 Suno。控方聲稱 Suno 使用受著作權保護的錄製音樂及歌詞訓練其 AI 音樂生成模型，並破壞了 DRM 保護機制以開啟訓練資料。\n\n本案創新性地納入了《田納西消費者保護法》州級主張，對比聯邦 DMCA 的單一策略。法律爭點包括：(1) AI 音樂生成模型權重中，原始音樂信號的可識別程度；(2) 破解 DRM 的「合理使用」抗辯適用於訓練情境時的標準；(3) 州消保法對 AI 企業不公平貿易行為的適用。",
@@ -1926,9 +2076,26 @@
    "sourceCount": 4,
    "docket": 68878608,
    "filedAt": null,
-   "updatedAt": null,
-   "claimsDetail": null,
-   "claimsVerifiedAt": null
+   "updatedAt": "2026-08-11",
+   "claimsDetail": [
+    {
+     "count": "FIRST",
+     "title": "Direct Copyright Infringement of Post-1972 Copyrighted Recordings",
+     "canonical": "direct-copyright"
+    },
+    {
+     "count": "SECOND",
+     "title": "Direct Copyright Infringement of Pre-1972 Copyrighted Recordings",
+     "canonical": "direct-copyright"
+    }
+   ],
+   "claimsVerifiedAt": "2026-08-11",
+   "claimsSource": "https://www.courtlistener.com/docket/68878608/1/umg-recordings-inc-v-suno-inc/",
+   "claimsPrevious": [
+    "Direct Copyright",
+    "DMCA §1201",
+    "State Law"
+   ]
   },
   {
    "id": 37,
@@ -1979,9 +2146,16 @@
    "sourceCount": 3,
    "docket": 68325563,
    "filedAt": null,
-   "updatedAt": "2026-08-03",
-   "claimsDetail": null,
-   "claimsVerifiedAt": null
+   "updatedAt": "2026-08-11",
+   "claimsDetail": [
+    {
+     "count": "1",
+     "title": "Direct Copyright Infringement (17 U.S.C. § 501",
+     "canonical": "direct-copyright"
+    }
+   ],
+   "claimsVerifiedAt": "2026-08-11",
+   "claimsSource": "https://www.courtlistener.com/docket/68325563/1/nazemian-v-nvidia-corporation/"
   },
   {
    "id": 39,
@@ -2006,9 +2180,21 @@
    "sourceCount": 4,
    "docket": 71271014,
    "filedAt": null,
-   "updatedAt": "2026-08-03",
-   "claimsDetail": null,
-   "claimsVerifiedAt": null
+   "updatedAt": "2026-08-11",
+   "claimsDetail": [
+    {
+     "count": "FIRST",
+     "title": "Direct Copyright Infringement",
+     "canonical": "direct-copyright"
+    },
+    {
+     "count": "SECOND",
+     "title": "Secondary Copyright Infringement",
+     "canonical": "secondary-copyright"
+    }
+   ],
+   "claimsVerifiedAt": "2026-08-11",
+   "claimsSource": "https://www.courtlistener.com/docket/71271014/1/warner-bros-entertainment-inc-v-midjourney-inc/"
   },
   {
    "id": 41,
@@ -2018,10 +2204,11 @@
    "status": "active",
    "claims": [
     "Direct Copyright",
-    "Secondary Infringement",
+    "Vicarious Infringement",
+    "Contributory Infringement",
     "DMCA §1202",
-    "Lanham Act",
-    "State Law"
+    "Unfair Competition",
+    "Lanham Act"
    ],
    "defendants": "OpenAI L.P., Microsoft Corp.",
    "issues": "紐約每日新聞針對 OpenAI 及微軟提起訴訟，聲稱 ChatGPT 在未經授權或適當補償的情況下，大規模使用其新聞內容進行訓練及生成內容。本案已與《紐約時報》報紙集團訴訟進行協調。\n\n本案特別強調新聞出版商作為「內容創造者」的商業模式被 AI 直接威脅。法律爭點包括：(1) AI 生成的「新聞摘要」是否對原始新聞出版商的流量及廣告收入造成直接損害？(2) OpenAI 是否應對訓練資料的著作權合規性進行「盡職調查」？(3) 微軟作為 OpenAI 的主要投資者及產品集成方的責任分配。",
@@ -2036,9 +2223,53 @@
    "sourceCount": 3,
    "docket": 68484432,
    "filedAt": null,
-   "updatedAt": null,
-   "claimsDetail": null,
-   "claimsVerifiedAt": null
+   "updatedAt": "2026-08-11",
+   "claimsDetail": [
+    {
+     "count": "I",
+     "title": "Copyright Infringement (17 U.S.C. § 501",
+     "canonical": "direct-copyright"
+    },
+    {
+     "count": "II",
+     "title": "Vicarious Copyright Infringement",
+     "canonical": "vicarious"
+    },
+    {
+     "count": "III",
+     "title": "Contributory Copyright Infringement",
+     "canonical": "contributory"
+    },
+    {
+     "count": "V",
+     "title": "Digital Millennium Copyright Act – Removal of Copyright Management",
+     "canonical": "dmca-1202"
+    },
+    {
+     "count": "VI",
+     "title": "Common Law Unfair Competition By Misappropriation",
+     "canonical": "unfair-competition"
+    },
+    {
+     "count": "VII",
+     "title": "Trademark Dilution (15 U.S.C. § 1125(c",
+     "canonical": "lanham"
+    },
+    {
+     "count": "VIII",
+     "title": "Dilution and Injury to Business Reputation (N.Y. Gen. Bus. Law § 360-l",
+     "canonical": "lanham"
+    }
+   ],
+   "claimsVerifiedAt": "2026-08-11",
+   "claimsSource": "https://www.courtlistener.com/docket/68484432/1/daily-news-lp-v-microsoft-corporation/",
+   "claimsPrevious": [
+    "Direct Copyright",
+    "Secondary Infringement",
+    "DMCA §1202",
+    "Lanham Act",
+    "State Law"
+   ]
   },
   {
    "id": 42,
@@ -2049,10 +2280,10 @@
    "claims": [
     "Direct Copyright",
     "Contributory Infringement",
-    "DMCA §1202",
+    "Unjust Enrichment",
     "DMCA §1201",
-    "Lanham Act",
-    "State Law"
+    "DMCA §1202",
+    "Lanham Act"
    ],
    "defendants": "OpenAI L.P.",
    "issues": "Ziff Davis 是知名科技媒體出版商（曾擁有 IGN、Mashable 等知名科技網站），控告 OpenAI 未經授權使用其科技評論、產品測評等內容訓練 ChatGPT。本案原始在特拉華州提起，後轉入南紐約 MDL。\n\n本案獨特之處在於涵蓋全面的聯邦和州法主張，包括罕見的 DMCA §1201(a) 反規避條款（針對 OpenAI 是否破壞了內容出版網站的技術保護措施）。法律爭點關於科技內容的著作權保護強度、衍生作品的界定、以及媒體網站的「robots.txt」是否構成有效的 DRM 保護。",
@@ -2067,9 +2298,59 @@
    "sourceCount": 3,
    "docket": 70338311,
    "filedAt": null,
-   "updatedAt": null,
-   "claimsDetail": null,
-   "claimsVerifiedAt": null
+   "updatedAt": "2026-08-11",
+   "claimsDetail": [
+    {
+     "count": "FIRST",
+     "title": "COPYRIGHT INFRINGEMENT (17 U.S.C. § 501",
+     "canonical": "direct-copyright"
+    },
+    {
+     "count": "THIRD",
+     "title": "CONTRIBUTORY COPYRIGHT INFRINGEMENT",
+     "canonical": "contributory"
+    },
+    {
+     "count": "FOURTH",
+     "title": "COMMON LAW UNJUST ENRICHMENT",
+     "canonical": "unjust-enrichment"
+    },
+    {
+     "count": "FIFTH",
+     "title": "CIRCUMVENTION OF TECHNICAL MEASURES (17 U.S.C. 1201(A)(1",
+     "canonical": "dmca-1201"
+    },
+    {
+     "count": "SIXTH",
+     "title": "REMOVAL OF COPYRIGHT MANAGEMENT INFORMATION (17 U.S.C. § 1202(B)(1",
+     "canonical": "dmca-1202"
+    },
+    {
+     "count": "SEVENTH",
+     "title": "DISTRIBUTION OF WORKS WITH COPYRIGHT MANAGEMENT",
+     "canonical": null
+    },
+    {
+     "count": "EIGHTH",
+     "title": "TRADEMARK DILUTION OF REGISTERED MARKS (15 U.S.C. § 1125(c",
+     "canonical": "lanham"
+    },
+    {
+     "count": "NINTH",
+     "title": "DILUTION AND INJURY TO BUSINESS REPUTATION IN VIOLATION OF",
+     "canonical": "lanham"
+    }
+   ],
+   "claimsVerifiedAt": "2026-08-11",
+   "claimsSource": "https://www.courtlistener.com/docket/70338311/1/ziff-davis-inc-v-openai-inc/",
+   "claimsPrevious": [
+    "Direct Copyright",
+    "Contributory Infringement",
+    "DMCA §1202",
+    "DMCA §1201",
+    "Lanham Act",
+    "State Law"
+   ]
   },
   {
    "id": 43,
@@ -2096,9 +2377,46 @@
    "sourceCount": 3,
    "docket": 71970530,
    "filedAt": null,
-   "updatedAt": null,
-   "claimsDetail": null,
-   "claimsVerifiedAt": null
+   "updatedAt": "2026-08-11",
+   "claimsDetail": [
+    {
+     "count": "I",
+     "title": "Copyright Infringement (17 U.S.C. § 501",
+     "canonical": "direct-copyright"
+    },
+    {
+     "count": "II",
+     "title": "Contributory Copyright Infringement",
+     "canonical": "contributory"
+    },
+    {
+     "count": "III",
+     "title": "Digital Millennium Copyright Act — Removal of Copyright Management",
+     "canonical": "dmca-1202"
+    },
+    {
+     "count": "IV",
+     "title": "Trademark Infringement (15 U.S.C. § 1114",
+     "canonical": "lanham"
+    },
+    {
+     "count": "V",
+     "title": "Trademark Counterfeiting (15 U.S.C. § 1114, 1127",
+     "canonical": "lanham"
+    },
+    {
+     "count": "VI",
+     "title": "False Designation of Origin and Dilution of Plaintiff’?s Trademarks",
+     "canonical": "lanham"
+    },
+    {
+     "count": "VII",
+     "title": "Dilution and Injury to Business Reputation (N.Y. Gen. Bus. Law § 360-1",
+     "canonical": "lanham"
+    }
+   ],
+   "claimsVerifiedAt": "2026-08-11",
+   "claimsSource": "https://www.courtlistener.com/docket/71970530/1/us-news-world-report-lp-v-openai-inc/"
   },
   {
    "id": 44,
@@ -2107,7 +2425,10 @@
    "judge": "Alex G. Tse (Magistrate Judge)",
    "status": "active",
    "claims": [
-    "Direct Copyright"
+    "Direct Copyright",
+    "Contributory Infringement",
+    "Vicarious Infringement",
+    "DMCA §1202"
    ],
    "defendants": "Anthropic PBC",
    "issues": "BMG Rights Management（全球最大獨立音樂版權管理公司之一）於 2026 年 3 月 17 日控告 Anthropic（案號 5:26-cv-02334），聲稱 Anthropic 的 Claude AI 模型使用了受 BMG 管理的歌詞進行訓練，包括 Bruno Mars、Rolling Stones 等著名藝術家的作品。本案為 2026 年最新重大 AI 著作權訴訟。\n\n本案特別重要的是，BMG 掌控全球約 2 百萬首歌曲的著作權。Anthropic 遠未與主要音樂版權機構達成授權協議。法律爭點包括：(1) 歌詞的著作權保護強度（獨立於音樂錄製）；(2) 模型是否被訓練來直接生成歌詞或僅理解歌詞語境？(3) 如何衡量歌詞使用對音樂產業的影響？",
@@ -2122,9 +2443,39 @@
    "sourceCount": 4,
    "docket": 72505829,
    "filedAt": null,
-   "updatedAt": null,
-   "claimsDetail": null,
-   "claimsVerifiedAt": null
+   "updatedAt": "2026-08-11",
+   "claimsDetail": [
+    {
+     "count": "FIRST",
+     "title": "Copyright Infringement in Training and Output",
+     "canonical": "direct-copyright"
+    },
+    {
+     "count": "SECOND",
+     "title": "Direct Copyright Infringement by Torrenting",
+     "canonical": "direct-copyright"
+    },
+    {
+     "count": "THIRD",
+     "title": "Contributory Infringement",
+     "canonical": "contributory"
+    },
+    {
+     "count": "FOURTH",
+     "title": "Vicarious Infringement",
+     "canonical": "vicarious"
+    },
+    {
+     "count": "FIFTH",
+     "title": "Removal or Alteration of Copyright Management Information",
+     "canonical": "dmca-1202"
+    }
+   ],
+   "claimsVerifiedAt": "2026-08-11",
+   "claimsSource": "https://www.courtlistener.com/docket/72505829/1/bmg-rights-management-us-llc-v-anthropic-pbc/",
+   "claimsPrevious": [
+    "Direct Copyright"
+   ]
   },
   {
    "id": 45,
@@ -2133,7 +2484,12 @@
    "judge": "Margaret M. Garnett",
    "status": "active",
    "claims": [
-    "Direct Copyright"
+    "Direct Copyright",
+    "Vicarious Infringement",
+    "DMCA §1202",
+    "Conversion",
+    "Negligence",
+    "Unjust Enrichment"
    ],
    "defendants": "Bloomberg L.P.",
    "issues": "政治人物及評論家對彭博新聞提起訴訟，聲稱彭博新聞中使用了他們的採訪內容、演講記錄等進行內部 AI 訓練及生成分析內容。本案與另一訴訟 Huckabee v. Meta 不同，後者涉及 LLaMA 開源模型。\n\n本案核心爭點：新聞出版商（彭博）是否可不經授權將其採訪、引述的第三方內容用於訓練自有 AI 模型？該內容的著作權歸屬於受訪者、新聞機構，還是兩者共同保有？",
@@ -2148,9 +2504,44 @@
    "sourceCount": 3,
    "docket": 67890942,
    "filedAt": null,
-   "updatedAt": null,
-   "claimsDetail": null,
-   "claimsVerifiedAt": null
+   "updatedAt": "2026-08-11",
+   "claimsDetail": [
+    {
+     "count": "FIRST",
+     "title": "DIRECT COPYRIGHT INFRINGEMENT, 17 U.S.C. § 106, et seq",
+     "canonical": "direct-copyright"
+    },
+    {
+     "count": "SECOND",
+     "title": "VICARIOUS COPYRIGHT INFRINGEMENT, 17 U.S.C. § 106",
+     "canonical": "vicarious"
+    },
+    {
+     "count": "THIRD",
+     "title": "DIGITAL MILLENNIUM COPYRIGHT ACT – REMOVAL OF COPYRIGHT",
+     "canonical": "dmca-1202"
+    },
+    {
+     "count": "FOURTH",
+     "title": "CONVERSION Brought on behalf of Plaintiffs, individually and on behalf of the Class,",
+     "canonical": "conversion"
+    },
+    {
+     "count": "FIFTH",
+     "title": "NEGLIGENCE Brought on behalf of Plaintiffs, individually and on behalf of the Class,",
+     "canonical": "negligence"
+    },
+    {
+     "count": "SIXTH",
+     "title": "UNJUST ENRICHMENT",
+     "canonical": "unjust-enrichment"
+    }
+   ],
+   "claimsVerifiedAt": "2026-08-11",
+   "claimsSource": "https://www.courtlistener.com/docket/67890942/1/huckabee-v-bloomberg-lp/",
+   "claimsPrevious": [
+    "Direct Copyright"
+   ]
   },
   {
    "id": 46,
@@ -2159,8 +2550,7 @@
    "judge": "Alvin K. Hellerstein",
    "status": "settled",
    "claims": [
-    "Direct Copyright",
-    "DMCA §1201"
+    "Direct Copyright"
    ],
    "defendants": "Uncharted Labs Inc.",
    "issues": "環球音樂集團針對 AI 音樂生成平台 Udio 提起訴訟。本案係音樂產業對 AI 音樂生成器的重大訴訟之一。UMG 聲稱 Udio 未經授權使用環球旗下藝術家的錄製音樂進行訓練，包括破壞 DRM 保護機制。\n\n法律爭點涉及音樂錄製的著作權保護、表演者權（performer's rights）、以及機械授權（mechanical licensing）在 AI 時代的適用。",
@@ -2175,9 +2565,25 @@
    "sourceCount": 4,
    "docket": 68878697,
    "filedAt": null,
-   "updatedAt": "2026-08-03",
-   "claimsDetail": null,
-   "claimsVerifiedAt": null
+   "updatedAt": "2026-08-11",
+   "claimsDetail": [
+    {
+     "count": "FIRST",
+     "title": "Direct Copyright Infringement of Post-1972 Copyrighted Recordings",
+     "canonical": "direct-copyright"
+    },
+    {
+     "count": "SECOND",
+     "title": "Direct Copyright Infringement of Pre-1972 Copyrighted Recordings",
+     "canonical": "direct-copyright"
+    }
+   ],
+   "claimsVerifiedAt": "2026-08-11",
+   "claimsSource": "https://www.courtlistener.com/docket/68878697/1/umg-recordings-inc-v-uncharted-labs-inc/",
+   "claimsPrevious": [
+    "Direct Copyright",
+    "DMCA §1201"
+   ]
   },
   {
    "id": 47,
@@ -2188,9 +2594,14 @@
    "claims": [
     "Direct Copyright",
     "Vicarious Infringement",
+    "Unfair Competition",
+    "Fraud",
     "DMCA §1202",
+    "Conversion",
+    "Unjust Enrichment",
+    "Breach of Contract",
     "CFAA",
-    "State Law"
+    "Antitrust"
    ],
    "defendants": "OpenAI L.P.",
    "issues": "Denial 訴訟由多位作者提起，控告 OpenAI 使用其作品訓練 ChatGPT。本案的獨特之處在於納入了《電腦詐欺與濫用法》（Computer Fraud and Abuse Act, CFAA）主張——指控 OpenAI 的爬蟲程式違反了網站的服務條款及存取政策，構成「未經授權存取電腦系統」。\n\nCFAA 主張代表了一個創新的法律策略：將 AI 爬蟲程式的行為框架化為「電腦犯罪」而非單純的著作權問題。法律爭點包括：(1) 違反網站服務條款的爬蟲是否構成 CFAA 違反？(2) CFAA 的「未經授權存取」定義在爬蟲及 AI 訓練背景下如何適用？(3) 民事訴訟中 CFAA 主張的可追究性。",
@@ -2205,9 +2616,73 @@
    "sourceCount": 3,
    "docket": 70970233,
    "filedAt": null,
-   "updatedAt": null,
-   "claimsDetail": null,
-   "claimsVerifiedAt": null
+   "updatedAt": "2026-08-11",
+   "claimsDetail": [
+    {
+     "count": "1",
+     "title": "Direct Copyright Infringement",
+     "canonical": "direct-copyright"
+    },
+    {
+     "count": "2",
+     "title": "Vicarious Copyright Infringement",
+     "canonical": "vicarious"
+    },
+    {
+     "count": "3",
+     "title": "UCL — Unfair Competition",
+     "canonical": "unfair-competition"
+    },
+    {
+     "count": "4",
+     "title": "Violation of the California Comprehensive Computer Data Access and Fraud Act (CDAFA",
+     "canonical": "fraud"
+    },
+    {
+     "count": "5",
+     "title": "Violation of the Digital Millennium Copyright Act (DMCA",
+     "canonical": "dmca-1202"
+    },
+    {
+     "count": "6",
+     "title": "CMI-Stripping: Violation of the Digital Millennium Copyright Act (DMCA",
+     "canonical": "dmca-1202"
+    },
+    {
+     "count": "7",
+     "title": "Conversion",
+     "canonical": "conversion"
+    },
+    {
+     "count": "8",
+     "title": "Unjust Enrichment / Quasi-Contract",
+     "canonical": "unjust-enrichment"
+    },
+    {
+     "count": "9",
+     "title": "Breach of Contract as a Third-Party Beneficiary",
+     "canonical": "breach-contract"
+    },
+    {
+     "count": "10",
+     "title": "Violation of the Computer Fraud and Abuse Act (CFAA",
+     "canonical": "cfaa"
+    },
+    {
+     "count": "12",
+     "title": "Sherman Act – Conspiracy to Restrain Trade",
+     "canonical": "antitrust"
+    }
+   ],
+   "claimsVerifiedAt": "2026-08-11",
+   "claimsSource": "https://www.courtlistener.com/docket/70970233/1/denial-v-openai-inc/",
+   "claimsPrevious": [
+    "Direct Copyright",
+    "Vicarious Infringement",
+    "DMCA §1202",
+    "CFAA",
+    "State Law"
+   ]
   },
   {
    "id": 48,
@@ -2231,9 +2706,16 @@
    "sourceCount": 2,
    "docket": 71972050,
    "filedAt": null,
-   "updatedAt": null,
-   "claimsDetail": null,
-   "claimsVerifiedAt": null
+   "updatedAt": "2026-08-11",
+   "claimsDetail": [
+    {
+     "count": "FIRST",
+     "title": "Violation of the DMCA (Anti-Circumvention) 17 U.S.C. § 1201(a",
+     "canonical": "dmca-1201"
+    }
+   ],
+   "claimsVerifiedAt": "2026-08-11",
+   "claimsSource": "https://www.courtlistener.com/docket/71972050/1/ted-entertainment-inc-v-nvidia-corporation/"
   },
   {
    "id": 49,
@@ -2257,9 +2739,16 @@
    "sourceCount": 2,
    "docket": 72074891,
    "filedAt": null,
-   "updatedAt": null,
-   "claimsDetail": null,
-   "claimsVerifiedAt": null
+   "updatedAt": "2026-08-11",
+   "claimsDetail": [
+    {
+     "count": "FIRST",
+     "title": "Violation of the DMCA (Anti-Circumvention) 17 U.S.C. § 1201(a",
+     "canonical": "dmca-1201"
+    }
+   ],
+   "claimsVerifiedAt": "2026-08-11",
+   "claimsSource": "https://www.courtlistener.com/docket/72074891/1/ted-entertainment-inc-v-meta-platforms-inc/"
   },
   {
    "id": 50,
@@ -2283,9 +2772,16 @@
    "sourceCount": 2,
    "docket": 72075006,
    "filedAt": null,
-   "updatedAt": null,
-   "claimsDetail": null,
-   "claimsVerifiedAt": null
+   "updatedAt": "2026-08-11",
+   "claimsDetail": [
+    {
+     "count": "FIRST",
+     "title": "Violation of the DMCA (Anti-Circumvention) 17 U.S.C. § 1201(a",
+     "canonical": "dmca-1201"
+    }
+   ],
+   "claimsVerifiedAt": "2026-08-11",
+   "claimsSource": "https://www.courtlistener.com/docket/72075006/1/ted-entertainment-inc-v-bytedance-inc/"
   },
   {
    "id": 51,
@@ -2309,9 +2805,16 @@
    "sourceCount": 2,
    "docket": 72075006,
    "filedAt": null,
-   "updatedAt": null,
-   "claimsDetail": null,
-   "claimsVerifiedAt": null
+   "updatedAt": "2026-08-11",
+   "claimsDetail": [
+    {
+     "count": "FIRST",
+     "title": "Violation of the DMCA (Anti-Circumvention) 17 U.S.C. § 1201(a",
+     "canonical": "dmca-1201"
+    }
+   ],
+   "claimsVerifiedAt": "2026-08-11",
+   "claimsSource": "https://www.courtlistener.com/docket/72075006/1/ted-entertainment-inc-v-bytedance-inc/"
   },
   {
    "id": 52,
@@ -2321,7 +2824,9 @@
    "status": "active",
    "claims": [
     "Direct Copyright",
-    "Contributory Infringement"
+    "Contributory Infringement",
+    "Vicarious Infringement",
+    "DMCA §1202"
    ],
    "defendants": "Anthropic PBC",
    "issues": "Concord Music Group、Universal Music、ABKCO 等音樂出版商於 2026/1/28 在 N.D. Cal. 對 Anthropic 提起第二波訴訟（5:26-cv-00880），同時將 CEO Dario Amodei 與共同創辦人 Benjamin Mann 列為個人被告。\n\n主要訴因：原告主張 Anthropic 透過 BitTorrent 從 Library Genesis（LibGen）、Pirate Library Mirror（PiLiMi）等「影子圖書館」(shadow libraries) 下載並上傳數百萬本書籍，其中包含**歌詞集、樂譜書與音樂相關書籍**——這些書籍嵌入了原告所控制的音樂著作；訴狀附件 A 列出 714 首作品（含 Wild Horses、Sweet Caroline、Bennie and the Jets、Eye of the Tiger 等），附件 B 另列 20,517 首。本案與第一波 Concord v. Anthropic（歌詞輸出訴訟）並非同一案件，但訴因事實互有重疊。\n\n法律爭點：(1) Anthropic 透過 P2P／盜版電子書庫取得訓練資料是否構成獨立侵權；(2) 來自盜版管道的訓練資料是否影響合理使用抗辯（特別參酌 Bartz v. Anthropic 對「盜版書」的處理）；(3) Amodei、Mann 個人責任的成立要件；(4) 「不潔之手」（unclean hands）原則對合理使用主張的限制。",
@@ -2336,9 +2841,40 @@
    "sourceCount": 2,
    "docket": 72199828,
    "filedAt": null,
-   "updatedAt": "2026-08-07",
-   "claimsDetail": null,
-   "claimsVerifiedAt": null
+   "updatedAt": "2026-08-11",
+   "claimsDetail": [
+    {
+     "count": "I",
+     "title": "Direct Copyright Infringement by Torrenting",
+     "canonical": "direct-copyright"
+    },
+    {
+     "count": "II",
+     "title": "Direct Copyright Infringement in Training and Output",
+     "canonical": "direct-copyright"
+    },
+    {
+     "count": "III",
+     "title": "Contributory Infringement (Against Anthropic",
+     "canonical": "contributory"
+    },
+    {
+     "count": "IV",
+     "title": "Vicarious Infringement (Against Anthropic",
+     "canonical": "vicarious"
+    },
+    {
+     "count": "V",
+     "title": "Removal or Alteration of Copyright Management Information",
+     "canonical": "dmca-1202"
+    }
+   ],
+   "claimsVerifiedAt": "2026-08-11",
+   "claimsSource": "https://www.courtlistener.com/docket/72199828/1/concord-music-group-inc-v-anthropic-pbc/",
+   "claimsPrevious": [
+    "Direct Copyright",
+    "Contributory Infringement"
+   ]
   },
   {
    "id": 53,
@@ -2348,7 +2884,9 @@
    "status": "active",
    "claims": [
     "Direct Copyright",
-    "DMCA §1202"
+    "Vicarious Infringement",
+    "Contributory Infringement",
+    "Lanham Act"
    ],
    "defendants": "OpenAI L.P.",
    "issues": "大英百科全書控告 OpenAI 使用其受著作權保護的百科全書內容訓練 ChatGPT。Stein 法官已於 2026 年 4 月要求原告在 4 月 15 日前說明本案為何不應暫停，等待 MDL 即決判決結果。\n\n法律爭點：(1) 百科全書的編纂、撰寫方式是否受特別保護？(2) 事實性內容的著作權保護範圍（Feist 原則的適用）。",
@@ -2363,9 +2901,40 @@
    "sourceCount": 2,
    "docket": 72492986,
    "filedAt": null,
-   "updatedAt": null,
-   "claimsDetail": null,
-   "claimsVerifiedAt": null
+   "updatedAt": "2026-08-11",
+   "claimsDetail": [
+    {
+     "count": "I",
+     "title": "Copyright Infringement (17 U.S.C. § 106(1)) — Defendants’ Copying of Plaintiffs’",
+     "canonical": "direct-copyright"
+    },
+    {
+     "count": "I",
+     "title": "Copyright Infringement (17 U.S.C. § 106(2)) — Defendants’ Copying of Plaintiffs’",
+     "canonical": "direct-copyright"
+    },
+    {
+     "count": "I",
+     "title": "Vicarious Copyright Infringement",
+     "canonical": "vicarious"
+    },
+    {
+     "count": "IV",
+     "title": "Contributory Copyright Infringement",
+     "canonical": "contributory"
+    },
+    {
+     "count": "V",
+     "title": "False Designation of Origin and Dilution of Plaintiffs’ Trademarks (15 U.S.C. § 1125",
+     "canonical": "lanham"
+    }
+   ],
+   "claimsVerifiedAt": "2026-08-11",
+   "claimsSource": "https://www.courtlistener.com/docket/72492986/1/encyclopaedia-britannica-inc-v-openai-inc/",
+   "claimsPrevious": [
+    "Direct Copyright",
+    "DMCA §1202"
+   ]
   },
   {
    "id": 54,
