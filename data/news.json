@@ -6,10 +6,22 @@
   "data": {
     "items": [
       {
+        "addedAt": "2026-08-14",
+        "text": "【2026/8/12】Reddit v. Anthropic PBC（舊金山高等法院 CGC-25-624813）州法院言詞辯論中，法官對 Anthropic 主張聯邦著作權法優先阻卻 Reddit 隱私與契約請求之論點表達懷疑，暗示 Anthropic 難以脫免本案",
+        "url": "https://news.bloomberglaw.com/business-and-practice/anthropic-unlikely-to-beat-reddit-scraping-suit-judge-hints"
+      },
+      {
+        "addedAt": "2026-08-14",
+        "text": "【2026/8/12】Disney/Warner Bros./NBCUniversal v. Midjourney（C.D. Cal., Kronstadt 法官）三大片廠具狀反對 Midjourney 縮減訴訟之聲請，主張 Midjourney 誤讀最高法院 3 月間接侵權判決，該判決未排除故意助長侵權之主張",
+        "url": "https://www.law360.com/technology/articles/2512690"
+      },
+      {
         "addedAt": "2026-08-11",
         "text": "【2026/8/4】Amazon.com Services v. Perplexity AI（9th Cir. 26-1444）上訴法院撤銷地院對 Perplexity「Comet」瀏覽器初步禁制令，認定 CFAA 責任應歸屬使用者而非開發商",
         "url": "https://law.justia.com/cases/federal/appellate-courts/ca9/26-1444/26-1444-2026-08-04.html"
-      },
+      }
+    ],
+    "archive": [
       {
         "addedAt": "2026-08-11",
         "text": "【2026/8/5】New York Times v. Microsoft/OpenAI（S.D.N.Y. 1:23-cv-11195）Stein 法官駁回 NYT 追加對 Microsoft 引誘侵權主張之修正聲請，以提出過晚為由駁回",
@@ -19,9 +31,7 @@
         "addedAt": "2026-08-09",
         "text": "【2026/8/5】AFM v. UMG/Warner Music Group（S.D.N.Y. 1:26-cv-04760）UMG、WMG 對 AFM 7/24 提出之修正訴狀再次聲請駁回：兩大唱片公司主張 SRLA 第 21(a)條「新用途」條款未涵蓋 AI 訓練授權、且無對應費率可資適用，「以不存在之協議計算給付等於不給付」；AFM 先前已於 7/21 就原始訴狀之撤銷聲請提出反對書狀，本次為續行同一爭點之第二輪攻防",
         "url": "https://www.digitalmusicnews.com/2026/08/06/american-federation-of-musicians-lawsuits-dismissal-motions/"
-      }
-    ],
-    "archive": [
+      },
       {
         "addedAt": "2026-08-07",
         "text": "【2026/8/3】Concord Music v. Anthropic II（N.D. Cal. 5:26-cv-00880）Anthropic 與 CEO Amodei 分別聲請一部駁回及個人責任駁回，11/4 開庭。",
@@ -375,5 +385,5 @@
     ]
   },
   "lastUpdatedBy": "add_news.py",
-  "lastUpdatedAt": "2026-08-11T07:11:10.291443+08:00"
+  "lastUpdatedAt": "2026-08-14T07:09:50.487934+08:00"
 }
