@@ -2165,8 +2165,12 @@ const caseSources = {
   ],
   "14": [
     {
-      "label": "CourtListener Docket",
+      "label": "CourtListener Docket（S.D.N.Y. 1:24-cv-01514 一審）",
       "url": "https://www.courtlistener.com/docket/68290709/raw-story-media-inc-v-openai-inc/"
+    },
+    {
+      "label": "CourtListener Docket（2d Cir. 25-1756 上訴審）",
+      "url": "https://www.courtlistener.com/docket/70880280/in-re-openai-inc-copyright-infringement-litigation/"
     },
     {
       "label": "ChatGPT Is Eating The World",
@@ -2699,8 +2703,12 @@ const caseSources = {
   ],
   "59": [
     {
-      "label": "CourtListener Docket",
+      "label": "CourtListener Docket（N.D. Cal. 3:25-cv-09514 一審）",
       "url": "https://www.courtlistener.com/docket/71874820/amazoncom-services-llc-v-perplexity-ai-inc/"
+    },
+    {
+      "label": "CourtListener Docket（9th Cir. 26-1444 初步禁制令上訴）",
+      "url": "https://www.courtlistener.com/docket/72502129/amazoncom-services-llc-v-perplexity-ai-inc/"
     },
     {
       "label": "ChatGPT Is Eating The World",
@@ -3281,8 +3289,12 @@ const caseSources = {
   ],
   "112": [
     {
-      "label": "CourtListener Docket",
+      "label": "CourtListener Docket（D.D.C. 1:22-cv-01564 一審）",
       "url": "https://www.courtlistener.com/docket/63356475/thaler-v-perlmutter/"
+    },
+    {
+      "label": "CourtListener Docket（D.C. Cir. 23-5233 上訴審）",
+      "url": "https://www.courtlistener.com/docket/67892225/stephen-thaler-v-shira-perlmutter/"
     },
     {
       "label": "Supreme Court SCOTUS Blog",
@@ -4506,15 +4518,15 @@ const cases = [
   {
     "id": 14,
     "name": "Raw Story Media v. OpenAI (DMCA CMI — Second Circuit)",
-    "court": "S.D.N.Y. → Second Circuit",
-    "judge": "McMahon / Second Circuit",
+    "court": "S.D.N.Y. 1:24-cv-01514 → 2d Cir. 25-1756（案名 In Re: OpenAI, Inc. Copyright Infringement Litigation）",
+    "judge": "McMahon（S.D.N.Y. 原審）／2d Cir. panel: Jacobs、Wesley、E. Lee",
     "status": "appeal",
     "claims": [
       "DMCA §1202"
     ],
     "defendants": "OpenAI, Inc.",
     "issues": "Raw Story 及 AlterNet 主張 OpenAI 在爬取訓練資料時，移除了文章的著作權管理資訊（Copyright Management Information, CMI），違反 DMCA §1202(b)。\n\n McMahon 法官駁回原告訴訟，認為原告缺乏《憲法》第三條之當事人適格（Article III standing），因為僅移除 CMI 而無傳播或具體損害的證據，屬於「過於抽象」的損害。",
-    "progress": "原告已上訴至第二巡迴法院。\n\n【2026 年 3 月 18 日】第二巡迴法院舉行言詞辯論，審理核心問題為：DMCA §1202(b) 的 CMI 主張是否需要證明「傳播」才具有當事人適格？\n\n截至 2026 年 4 月，第二巡迴法院尚未作出判決。判決待決。本案的結果將影響所有基於 DMCA §1202 向 AI 公司提起訴訟的原告之當事人適格認定。",
+    "progress": "原告已上訴至第二巡迴法院。\n\n【2026 年 3 月 18 日】第二巡迴法院舉行言詞辯論，審理核心問題為：DMCA §1202(b) 的 CMI 主張是否需要證明「傳播」才具有當事人適格？\n\n截至 2026 年 4 月，第二巡迴法院尚未作出判決。判決待決。本案的結果將影響所有基於 DMCA §1202 向 AI 公司提起訴訟的原告之當事人適格認定。\n\n【2026/3/18】第二巡迴 25-1756（2025/7/16 提起上訴）於 3/18 言詞辯論並 HEARD，合議庭為 Dennis Jacobs、Richard C. Wesley、Eunice C. Lee，核心爭點為 DMCA §1202(b) CMI 主張是否須證明「傳播」始具 Article III 當事人適格；截至 2026/8/16 判決尚未作成。",
     "taiwan": "本案對台灣的啟示：\n\n1. 台灣著作權法第 80-1 條保護「權利管理電子資訊」（類似 CMI）。本案關於 AI 訓練過程中移除 CMI 的法律分析，可作為台灣法院解釋第 80-1 條的比較法參考。\n2. 「當事人適格」問題在台灣較少構成障礙（因台灣採用不同的訴訟制度），但本案的實體法分析——AI 爬蟲是否「移除」CMI——在台灣同樣需要釐清。\n3. 台灣新聞媒體在內容中嵌入的著作權資訊被 AI 系統移除的問題日益嚴重，本案提供了重要的法律策略參考。",
     "jurisdiction": "us",
     "country": "🇺🇸 美國",
@@ -4522,10 +4534,10 @@ const cases = [
     "plaintiffType": "media",
     "workType": "新聞媒體 News",
     "isNonUS": false,
-    "sourceCount": 2,
+    "sourceCount": 3,
     "docket": 68290709,
     "filedAt": null,
-    "updatedAt": "2026-08-05",
+    "updatedAt": "2026-08-16",
     "rulings": {
       "fairUse": "na",
       "fairUseNote": "爭點為 DMCA §1202(b) 當事人適格",
@@ -6635,8 +6647,8 @@ const cases = [
   {
     "id": 59,
     "name": "Amazon.com Services v. Perplexity AI",
-    "court": "W.D. Wash.",
-    "judge": "Maxine M. Chesney",
+    "court": "N.D. Cal. 3:25-cv-09514 → 9th Cir. 26-1444（初步禁制令上訴，已發回）",
+    "judge": "Maxine M. Chesney（N.D. Cal.）／9th Cir. panel: M. Smith、Tung、Hinderaker",
     "status": "active",
     "claims": [
       "Direct Copyright",
@@ -6645,7 +6657,7 @@ const cases = [
     ],
     "defendants": "Perplexity AI Inc.",
     "issues": "Amazon 控告 AI 搜尋引擎 Perplexity AI 非法抓取並利用 Amazon 的產品列表、評論及商品描述。本案的特殊性在於涉及 Perplexity 使用具有代理功能的 AI 冒充 Chrome 瀏覽器登入 Amazon 帳戶進行購買。本案涉及著作權侵害、不公平競爭及計算機詐欺與濫用法（CFAA）。\n\n法律爭點：(1) 商品列表及用戶評論的著作權保護；(2) AI 代理冒充真人用戶行為的法律責任；(3) 數據抓取與著作權之間的界線；(4) CFAA 對 AI 自動化行為的適用。",
-    "progress": "【2026 年 3 月 9 日】Amazon 獲得初步禁止令（preliminary injunction），禁止 Perplexity 以代理方式訪問 Amazon 系統。本案為 Perplexity 面臨的最嚴重訴訟，涉及其核心業務模式的合法性。Perplexity 同時面臨 NYT、Dow Jones、Chicago Tribune、Reddit 及其他出版商的訴訟。\n\n【2026/8/4】第九巡迴上訴法院撤銷地院對 Perplexity「Comet」瀏覽器之初步禁制令，認定 CFAA 責任應歸屬於使用者本人而非開發商 Perplexity。",
+    "progress": "【2026 年 3 月 9 日】Amazon 獲得初步禁止令（preliminary injunction），禁止 Perplexity 以代理方式訪問 Amazon 系統。本案為 Perplexity 面臨的最嚴重訴訟，涉及其核心業務模式的合法性。Perplexity 同時面臨 NYT、Dow Jones、Chicago Tribune、Reddit 及其他出版商的訴訟。\n\n【2026/8/4】第九巡迴上訴法院撤銷地院對 Perplexity「Comet」瀏覽器之初步禁制令，認定 CFAA 責任應歸屬於使用者本人而非開發商 Perplexity。\n\n【2026/8/4】第九巡迴 26-1444 作成判決（Milan D. Smith, Jr. 主筆，另 Eric C. Tung、John Charles Hinderaker）：Amazon 就 CFAA 與 CDAFA「access」要件勝訴可能性不足，撤銷（VACATE）地院 3/9 初步禁制令並發回續行。判決認定使用者指示 AI 代理人行動時，「存取」Amazon 電腦者係使用者本人而非 Perplexity。",
     "taiwan": "台灣電商平台保護：PChome、momo 等台灣電商平台應評估其商品資料被 AI 抓取的風險，並參考 Amazon 的訴訟策略。",
     "jurisdiction": "us",
     "country": "🇺🇸 美國",
@@ -6653,10 +6665,10 @@ const cases = [
     "plaintiffType": "author",
     "workType": "其他 Other",
     "isNonUS": false,
-    "sourceCount": 2,
+    "sourceCount": 3,
     "docket": 71874820,
     "filedAt": null,
-    "updatedAt": "2026-08-11",
+    "updatedAt": "2026-08-16",
     "claimsDetail": null,
     "claimsVerifiedAt": null
   },
@@ -7763,8 +7775,8 @@ const cases = [
   {
     "id": 101,
     "name": "Getty Images v. Stability AI (UK)",
-    "court": "英國高等法院 (England & Wales High Court)",
-    "judge": "Mrs Justice Bacon",
+    "court": "英格蘭及威爾斯高等法院衡平法庭 (EWHC Ch) IL-2023-000007，[2025] EWHC 2863 (Ch) → 上訴法院民事庭 (Court of Appeal, Civil Division)",
+    "judge": "Mrs Justice Joanna Smith DBE（高等法院）",
     "status": "appeal",
     "claims": [
       "Secondary Infringement",
@@ -7773,7 +7785,7 @@ const cases = [
     ],
     "defendants": "Stability AI Ltd.",
     "issues": "蓋蒂圖片公司控告 Stability AI 使用 1,200 萬張蓋蒂照片訓練 Stable Diffusion，主張次級著作權侵權、商標侵權（浮水印複製）及資料庫權利侵害。蓋蒂最初聲稱初級著作權侵權，但因無法證明訓練行為（複製/儲存）發生在英國而放棄該主張。本案核心爭點為：AI 模型權重是否構成著作權法意義上的「複製品」。\n\n與傳統著作權複製概念的衝突：模型權重是統計值，是否應視為著作權作品的實質複製？",
-    "progress": "2025年11月4日，英國高等法院作出里程碑判決——英國首件 AI 著作權判決。法院駁回蓋蒂的次級著作權侵權主張，認定 AI 模型權重不構成 CDPA 意義下的「複製品」。訓練所得參數僅為統計數值，非照片的儲存複製。然而法院認定蓋蒂在商標侵權方面部分勝訴：Stable Diffusion 生成的圖像展示了蓋蒂浮水印。蓋蒂被判賠償 69.4% 的訴訟費用（約 440 萬英鎊），使商標勝利變為慘淡勝利。2025年12月，法院准許蓋蒂就次級著作權裁定提起上訴。上訴案件於 2026 年待審。\n\n【2026/6/22】Getty 宣布與 OpenAI 簽署多年「顯示合作（display partnership）」，ChatGPT 搜尋與探索功能將整合 Getty 逾 4 億影像資產，明確排除訓練用途，Getty 股價應聲飆漲 145%。本合作於本案上訴進行中達成，為首件主要圖庫以顯示授權（而非訓練授權）與 AI 公司達成之商業合作，對合理使用第四因素「可行授權市場」攻防構成重要語境。",
+    "progress": "2025年11月4日，英國高等法院作出里程碑判決——英國首件 AI 著作權判決。法院駁回蓋蒂的次級著作權侵權主張，認定 AI 模型權重不構成 CDPA 意義下的「複製品」。訓練所得參數僅為統計數值，非照片的儲存複製。然而法院認定蓋蒂在商標侵權方面部分勝訴：Stable Diffusion 生成的圖像展示了蓋蒂浮水印。蓋蒂被判賠償 69.4% 的訴訟費用（約 440 萬英鎊），使商標勝利變為慘淡勝利。2025年12月，法院准許蓋蒂就次級著作權裁定提起上訴。上訴案件於 2026 年待審。\n\n【2025/12/16】Joanna Smith 法官於 consequentials 聽證准許 Getty 就次級侵權（secondary infringement）部分上訴，認該爭點為純法律問題（成文法解釋），上訴具實質勝訴可能，上訴法院有可能作成不同結論；Getty 應於 2026/2/3 前提起上訴。核心爭點為未曾含有著作重製物之「物品」可否構成 CDPA 意義下之 infringing copy。\n\n【2026/6/22】Getty 宣布與 OpenAI 簽署多年「顯示合作（display partnership）」，ChatGPT 搜尋與探索功能將整合 Getty 逾 4 億影像資產，明確排除訓練用途，Getty 股價應聲飆漲 145%。本合作於本案上訴進行中達成，為首件主要圖庫以顯示授權（而非訓練授權）與 AI 公司達成之商業合作，對合理使用第四因素「可行授權市場」攻防構成重要語境。",
     "taiwan": "1) 英國判決認定「模型權重≠複製品」挑戰了傳統複製概念。台灣智慧財產法院需考慮模型參數是否落入《台灣著作權法》第 3 條「重製」定義範疇。2) 商標/浮水印議題攸關《台灣商標法》第 68 條。3) 對台灣著作權人的跨境訴訟策略啟示。",
     "jurisdiction": "uk",
     "country": "🇬🇧 英國",
@@ -7784,7 +7796,7 @@ const cases = [
     "sourceCount": 3,
     "docket": null,
     "filedAt": null,
-    "updatedAt": "2026-08-03",
+    "updatedAt": "2026-08-16",
     "rulings": {
       "fairUse": "na",
       "fairUseNote": "英國法無合理使用制度，爭點為模型權重是否構成複製品",
@@ -7806,8 +7818,8 @@ const cases = [
   {
     "id": 102,
     "name": "GEMA v. OpenAI",
-    "court": "德國慕尼黑地方法院 (LG München I, Case No. 42 O 14139/24)",
-    "judge": "42nd Civil Chamber",
+    "court": "慕尼黑第一地方法院 (LG München I) 42 O 14139/24 → 慕尼黑高等地方法院 (OLG München) 6 U 3662/25 e",
+    "judge": "LG München I 第 42 民事庭／OLG München 第 6 民事庭",
     "status": "appeal",
     "claims": [
       "Foreign Copyright",
@@ -7815,7 +7827,7 @@ const cases = [
     ],
     "defendants": "OpenAI Ireland Limited / OpenAI OpCo, LLC",
     "issues": "德國音樂著作權集體管理協會 GEMA（全球最大的音樂作品著作權管理組織之一）控告 OpenAI 使用受著作權保護的歌詞（包括「Atemlos」、「Über den Wolken」、「Männer」等）訓練 ChatGPT，未取得授權。核心爭點為：AI 訓練是否構成德國著作權法（UrhG）下的「重製」，且文本與資料採礦（TDM）例外是否適用。ChatGPT 經測試可根據簡單使用者提示幾乎逐字複製實質歌詞部分。\n\n對比英國 Getty 案判決：兩國對「模型權重是否為複製品」採取截然相反立場。",
-    "progress": "2025年11月11日，慕尼黑地方法院作出歐洲首次直接涉及 AI 訓練著作權的里程碑判決。主要裁定：(1) 即使透過數值機率值（模型參數）進行固定，如果作品後續可透過技術手段被感知，仍構成「重製」；(2) TDM 例外不涵蓋模型中歌詞的記憶化；(3) OpenAI 必須停止在德國基礎設施上儲存未授權德文歌詞。OpenAI 已提起上訴。本判決與英國 Getty 案就「模型權重是否為複製品」的結論直接矛盾。慕尼黑高等地方法院（OLG）將審理上訴；可能提請歐盟法院（CJEU）先行裁定。",
+    "progress": "2025年11月11日，慕尼黑地方法院作出歐洲首次直接涉及 AI 訓練著作權的里程碑判決。主要裁定：(1) 即使透過數值機率值（模型參數）進行固定，如果作品後續可透過技術手段被感知，仍構成「重製」；(2) TDM 例外不涵蓋模型中歌詞的記憶化；(3) OpenAI 必須停止在德國基礎設施上儲存未授權德文歌詞。OpenAI 已提起上訴。本判決與英國 Getty 案就「模型權重是否為複製品」的結論直接矛盾。慕尼黑高等地方法院（OLG）將審理上訴；可能提請歐盟法院（CJEU）先行裁定。\n\n【2025/12/8】OpenAI 就 LG München I 2025/11/11 判決提起上訴（Berufung），慕尼黑高等地方法院案號 6 U 3662/25 e，原判決尚未確定；上訴審預期就模型參數之記憶化是否構成重製、TDM 例外射程進行全面審查，並有提請歐盟法院先行裁定之可能。",
     "taiwan": "1) 本判決相較於英國案的相反結論具有重大比較法意義——台灣法院將需在兩種途徑間做出選擇。2) 台灣的集體管理協會（MÜST、TMCS）應密切關注本案，作為在 AI 爭議中驗證集體權利管理的先例。3) TDM 例外分析攸關台灣未來修訂《著作權法》以應對 AI 訓練的議題。",
     "jurisdiction": "eu",
     "country": "🇩🇪 德國",
@@ -7826,7 +7838,7 @@ const cases = [
     "sourceCount": 3,
     "docket": null,
     "filedAt": null,
-    "updatedAt": null,
+    "updatedAt": "2026-08-16",
     "rulings": {
       "fairUse": "na",
       "fairUseNote": "適用歐盟 TDM 例外框架，非美國合理使用",
@@ -8109,15 +8121,15 @@ const cases = [
   {
     "id": 112,
     "name": "Thaler v. Perlmutter (Supreme Court Cert Denied)",
-    "court": "D.D.C. → D.C. Circuit → U.S. Supreme Court",
-    "judge": "Howell / D.C. Circuit / Supreme Court",
+    "court": "D.D.C. 1:22-cv-01564 → D.C. Cir. 23-5233 → U.S. Supreme Court No. 25-449（cert 駁回）",
+    "judge": "Beryl A. Howell（D.D.C. 原審）／D.C. Cir. panel: Millett、Wilkins、Rogers",
     "status": "dismissed",
     "claims": [
       "AI Authorship"
     ],
     "defendants": "U.S. Copyright Office (Shira Perlmutter, Register of Copyrights)",
-    "issues": "博士史蒂芬．瑟勒尋求對完全由其 AI 系統「創意機器」(Creativity Machine) 生成的藝術作品進行著作權登記，其中不涉及任何人類創意投入。本案提出根本問題：純 AI 生成的作品能否受著作權保護？著作權局、地方法院及聯邦巡迴法院均回答否——人類著作權是必要條件。\n\n人類著作權要件與 AI 生成作品：國際共識確認純 AI 生成作品不可著作權化，但人類有重大創意貢獻的 AI 輔助作品仍可受保護。",
-    "progress": "2026 年 3 月 2 日，美國最高法院駁回上訴許可（certiorari petition）。最高法院的裁定確認了材料必須具有人類著作權才能受著作權保護的原則。值得注意的是，此裁定並未禁止人類有創意貢獻的 AI 輔助作品的著作權保護。瑟勒案明確聲明排除所有人類投入，因此不適用於混合創作的情形。",
+    "issues": "博士史蒂芬．瑟勒尋求對完全由其 AI 系統「創意機器」(Creativity Machine) 生成的藝術作品進行著作權登記，其中不涉及任何人類創意投入。本案提出根本問題：純 AI 生成的作品能否受著作權保護？著作權局、地方法院及哥倫比亞特區巡迴上訴法院均回答否——人類著作權是必要條件。\n\n人類著作權要件與 AI 生成作品：國際共識確認純 AI 生成作品不可著作權化，但人類有重大創意貢獻的 AI 輔助作品仍可受保護。",
+    "progress": "2023/8/18 D.D.C. Howell 法官維持著作權局否准登記之處分，認人類著作為著作權保護之要件；Thaler 於 2023/10/11 提起上訴。\n\n【2024/9/19】哥倫比亞特區巡迴上訴法院（D.C. Cir. 23-5233）言詞辯論，合議庭為 Millett、Wilkins、Rogers。\n\n【2025/3/18】D.C. Cir. 維持原判，確認著作權法之人類著作要件，純 AI 生成且無任何人類創意投入之作品不得登記。\n\n【2025/10/14】Thaler 向聯邦最高法院聲請移審（certiorari），案號 No. 25-449。\n\n【2026/3/2】最高法院駁回移審聲請，D.C. Cir. 判決確定。惟本案效力限於「明確聲明排除所有人類投入」之情形，並未否定人類有創意貢獻之 AI 輔助作品之著作權保護，混合創作之界線仍未經上級審處理。",
     "taiwan": "台灣《著作權法》同樣要求人類著作權。瑟勒案確認了國際共識。台灣智慧財產局可在回應 AI 生成作品登記問題時參考本案。本案為全球共識奠定基礎：純 AI 生成作品不受著作權保護，但人類創意貢獻的混合作品仍受保護。",
     "jurisdiction": "us",
     "country": "🇺🇸 美國",
@@ -8125,7 +8137,7 @@ const cases = [
     "plaintiffType": "author",
     "workType": "書籍出版 Books",
     "isNonUS": false,
-    "sourceCount": 3,
+    "sourceCount": 4,
     "docket": 63356475,
     "filedAt": null,
     "updatedAt": null,

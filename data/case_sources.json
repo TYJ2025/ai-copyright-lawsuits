@@ -208,8 +208,12 @@
   ],
   "14": [
    {
-    "label": "CourtListener Docket",
+    "label": "CourtListener Docket（S.D.N.Y. 1:24-cv-01514 一審）",
     "url": "https://www.courtlistener.com/docket/68290709/raw-story-media-inc-v-openai-inc/"
+   },
+   {
+    "label": "CourtListener Docket（2d Cir. 25-1756 上訴審）",
+    "url": "https://www.courtlistener.com/docket/70880280/in-re-openai-inc-copyright-infringement-litigation/"
    },
    {
     "label": "ChatGPT Is Eating The World",
@@ -742,8 +746,12 @@
   ],
   "59": [
    {
-    "label": "CourtListener Docket",
+    "label": "CourtListener Docket（N.D. Cal. 3:25-cv-09514 一審）",
     "url": "https://www.courtlistener.com/docket/71874820/amazoncom-services-llc-v-perplexity-ai-inc/"
+   },
+   {
+    "label": "CourtListener Docket（9th Cir. 26-1444 初步禁制令上訴）",
+    "url": "https://www.courtlistener.com/docket/72502129/amazoncom-services-llc-v-perplexity-ai-inc/"
    },
    {
     "label": "ChatGPT Is Eating The World",
@@ -1324,8 +1332,12 @@
   ],
   "112": [
    {
-    "label": "CourtListener Docket",
+    "label": "CourtListener Docket（D.D.C. 1:22-cv-01564 一審）",
     "url": "https://www.courtlistener.com/docket/63356475/thaler-v-perlmutter/"
+   },
+   {
+    "label": "CourtListener Docket（D.C. Cir. 23-5233 上訴審）",
+    "url": "https://www.courtlistener.com/docket/67892225/stephen-thaler-v-shira-perlmutter/"
    },
    {
     "label": "Supreme Court SCOTUS Blog",
