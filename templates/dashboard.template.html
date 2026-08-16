@@ -2774,21 +2774,25 @@ buildPieChart();
 // ════════════════════════════════════════
 function buildRegionMap() {
   const regions = [
-    { key: 'us', flag: '🇺🇸', name: '美國 US', keywords: [] },
-    { key: 'eu', flag: '🇪🇺', name: '歐盟 EU', keywords: ['CJEU','European Union','歐盟','Budapest','德國','法國','German','Munich','Paris','France','Hamburg','漢堡','丹麥','Copenhagen','Denmark','荷蘭','Netherlands','Amsterdam','義大利','Italy'] },
-    { key: 'uk', flag: '🇬🇧', name: '英國 UK', keywords: ['UK High Court','英國','England','London'] },
-    { key: 'cn', flag: '🇨🇳', name: '中國 CN', keywords: ['中國','北京','廣州','杭州','Beijing Internet Court','Guangzhou Internet Court','China'] },
-    { key: 'asia', flag: '🌏', name: '亞洲其他', keywords: ['印度','Delhi','India','韓國','Seoul','South Korea','日本','Tokyo','Japan'] },
-    { key: 'other', flag: '🌍', name: '其他', keywords: ['加拿大','Ontario','Canada','巴西','Brazil'] }
+    { key: 'us', flag: '🇺🇸', name: '美國 US' },
+    { key: 'eu', flag: '🇪🇺', name: '歐盟 EU' },
+    { key: 'uk', flag: '🇬🇧', name: '英國 UK' },
+    { key: 'cn', flag: '🇨🇳', name: '中國 CN' },
+    { key: 'asia', flag: '🌏', name: '亞洲其他' },
+    { key: 'other', flag: '🌍', name: '其他' }
   ];
 
+  // 一律以固化的 c.jurisdiction 為準（與 renderCaseList / filterJurisdiction 同一套判準），
+  // 僅在該欄位缺漏時才回退到 classifyJurisdiction() 的 court 字串關鍵字比對。
+  // 過去此處單獨以 court 字串比對關鍵字，案件 court 一改寫（例如把「英國高等法院」
+  // 改為「英格蘭及威爾斯高等法院」）該區域即歸零，故改為讀欄位。
   const counts = {};
-  regions.forEach(r => {
-    if (r.key === 'us') {
-      counts.us = cases.filter(c => !isNonUS(c)).length;
-    } else {
-      counts[r.key] = cases.filter(c => r.keywords.some(k => c.court.includes(k))).length;
-    }
+  regions.forEach(r => { counts[r.key] = 0; });
+  cases.forEach(c => {
+    let j = c.jurisdiction || classifyJurisdiction(c.court);
+    if (j === 'asia-other') j = 'asia';          // 地圖用 asia，篩選器用 asia-other
+    if (!(j in counts)) j = 'other';
+    counts[j]++;
   });
 
   const maxCount = Math.max(...Object.values(counts), 1);
