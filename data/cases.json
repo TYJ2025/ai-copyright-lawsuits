@@ -800,8 +800,8 @@
   {
    "id": 13,
    "name": "Doe v. GitHub (Copilot Litigation)",
-   "court": "N.D. Cal. → Ninth Circuit Appeal",
-   "judge": "Tigar / Ninth Circuit",
+   "court": "N.D. Cal. 4:22-cv-06823 → 9th Cir. 24-6136（§1292(b) 許可上訴）／24-7700（本案上訴審）",
+   "judge": "Tigar（N.D. Cal. 原審）／9th Cir. panel: S. Thomas、Miller、Blumenfeld",
    "status": "appeal",
    "claims": [
     "DMCA §1202",
@@ -818,7 +818,7 @@
    ],
    "defendants": "GitHub, Inc., Microsoft Corp., OpenAI Inc.",
    "issues": "程式開發者以集體訴訟形式控告 GitHub、Microsoft 及 OpenAI，主張 GitHub Copilot（AI 程式碼生成工具）使用開源程式碼訓練 Codex 模型，違反開源授權條款及 DMCA §1202 關於著作權管理資訊的規定。\n\n核心爭點：DMCA §1202(b) 是否適用於 AI 生成的輸出——當輸出並非原作品的精確複製，而可能是衍生著作時。",
-   "progress": "2024 年 1 月，Tigar 法官駁回大部分主張。2024 年 9 月，法官核准中間上訴（interlocutory appeal）至第九巡迴法院。第九巡迴法院於 2024 年 12 月接受上訴（No. 24-6136），地院程序暫停。\n\n【2026 年 2 月 11 日】第九巡迴法院在舊金山舉行言詞辯論。\n\n上訴審理中，被告（AI 公司聯盟）敦促第九巡迴法院就 DMCA 在 AI 脈絡下的適用範圍作出明確裁判。\n\n截至 2026 年 4 月，第九巡迴法院尚未作出裁定。判決未決。",
+   "progress": "2024 年 1 月，Tigar 法官駁回大部分主張。2024 年 9 月，法官核准中間上訴（interlocutory appeal）至第九巡迴法院。第九巡迴法院於 2024 年 12 月接受上訴（No. 24-6136），地院程序暫停。\n\n【2026 年 2 月 11 日】第九巡迴法院在舊金山舉行言詞辯論。\n\n上訴審理中，被告（AI 公司聯盟）敦促第九巡迴法院就 DMCA 在 AI 脈絡下的適用範圍作出明確裁判。\n\n截至 2026 年 4 月，第九巡迴法院尚未作出裁定。判決未決。\n\n【2026/2/11】第九巡迴 24-7700 於舊金山言詞辯論後 ARGUED AND SUBMITTED，合議庭為 Sidney R. Thomas、Eric D. Miller、Stanley Blumenfeld；截至 2026/8/16 尚未作成判決。許可上訴聲請另案編 24-6136，2024/12/19 由 Thomas、Tallman 裁定准許。",
    "taiwan": "本案對台灣的啟示：\n\n1. 台灣軟體開發社群大量使用 GitHub Copilot，本案結果將直接影響台灣開發者的工作方式。\n2. 開源授權條款（GPL、MIT、Apache 等）在台灣的法律效力尚未經法院充分檢驗。本案若認定 AI 工具違反開源授權，台灣法院在處理類似爭議時可作為參考。\n3. 台灣著作權法第 80-2 條（科技保護措施）的適用範圍，可參考本案對 DMCA §1202 的解釋。",
    "jurisdiction": "us",
    "country": "🇺🇸 美國",
@@ -826,10 +826,10 @@
    "plaintiffType": "code",
    "workType": "程式碼 Code",
    "isNonUS": false,
-   "sourceCount": 3,
+   "sourceCount": 5,
    "docket": 65669506,
    "filedAt": null,
-   "updatedAt": "2026-08-05",
+   "updatedAt": "2026-08-16",
    "rulings": {
     "fairUse": "na",
     "fairUseNote": "爭點為 DMCA §1202 與開源授權契約，非合理使用",
