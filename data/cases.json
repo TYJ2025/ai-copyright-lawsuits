@@ -2944,7 +2944,9 @@
    "status": "active",
    "claims": [
     "Direct Copyright",
-    "DMCA §1202"
+    "Vicarious Infringement",
+    "Contributory Infringement",
+    "Lanham Act"
    ],
    "defendants": "OpenAI L.P.",
    "issues": "韋氏字典出版商控告 OpenAI 使用其字典定義、例句及語言學內容訓練 ChatGPT。本案與 Encyclopaedia Britannica v. OpenAI 同期提起。\n\n法律爭點：(1) 字典定義是否構成受著作權保護的原創表達？(2) 語言工具型內容的著作權保護界限。",
@@ -2959,9 +2961,40 @@
    "sourceCount": 2,
    "docket": 72492986,
    "filedAt": null,
-   "updatedAt": null,
-   "claimsDetail": null,
-   "claimsVerifiedAt": null
+   "updatedAt": "2026-08-18",
+   "claimsDetail": [
+    {
+     "count": "I",
+     "title": "Copyright Infringement (17 U.S.C. § 106(1)) — Defendants’ Copying of Plaintiffs’",
+     "canonical": "direct-copyright"
+    },
+    {
+     "count": "I",
+     "title": "Copyright Infringement (17 U.S.C. § 106(2)) — Defendants’ Copying of Plaintiffs’",
+     "canonical": "direct-copyright"
+    },
+    {
+     "count": "I",
+     "title": "Vicarious Copyright Infringement",
+     "canonical": "vicarious"
+    },
+    {
+     "count": "IV",
+     "title": "Contributory Copyright Infringement",
+     "canonical": "contributory"
+    },
+    {
+     "count": "V",
+     "title": "False Designation of Origin and Dilution of Plaintiffs’ Trademarks (15 U.S.C. § 1125",
+     "canonical": "lanham"
+    }
+   ],
+   "claimsVerifiedAt": "2026-08-18",
+   "claimsSource": "https://www.courtlistener.com/docket/72492986/1/encyclopaedia-britannica-inc-v-openai-inc/",
+   "claimsPrevious": [
+    "Direct Copyright",
+    "DMCA §1202"
+   ]
   },
   {
    "id": 55,
@@ -2971,7 +3004,9 @@
    "status": "active",
    "claims": [
     "Direct Copyright",
-    "DMCA §1202"
+    "Vicarious Infringement",
+    "Contributory Infringement",
+    "Unjust Enrichment"
    ],
    "defendants": "OpenAI L.P.",
    "issues": "Gracenote（音樂元數據資料庫公司，Nielsen 旗下）控告 OpenAI 使用其音樂元數據（曲目資訊、專輯資料、藝術家資訊等）訓練 ChatGPT。\n\n法律爭點：(1) 音樂元數據（metadata）是否構成受著作權保護的資料庫？(2) 資料庫著作權（database copyright）在 AI 訓練場景中的適用。",
@@ -2986,9 +3021,35 @@
    "sourceCount": 2,
    "docket": 72384605,
    "filedAt": null,
-   "updatedAt": null,
-   "claimsDetail": null,
-   "claimsVerifiedAt": null
+   "updatedAt": "2026-08-18",
+   "claimsDetail": [
+    {
+     "count": "I",
+     "title": "Copyright Infringement (17 U.S.C. § 501",
+     "canonical": "direct-copyright"
+    },
+    {
+     "count": "II",
+     "title": "Vicarious Copyright Infringement",
+     "canonical": "vicarious"
+    },
+    {
+     "count": "III",
+     "title": "Contributory Copyright Infringement",
+     "canonical": "contributory"
+    },
+    {
+     "count": "IV",
+     "title": "Unjust Enrichment",
+     "canonical": "unjust-enrichment"
+    }
+   ],
+   "claimsVerifiedAt": "2026-08-18",
+   "claimsSource": "https://www.courtlistener.com/docket/72384605/1/gracenote-media-services-llc-v-openai-foundation/",
+   "claimsPrevious": [
+    "Direct Copyright",
+    "DMCA §1202"
+   ]
   },
   {
    "id": 56,
@@ -3012,9 +3073,16 @@
    "sourceCount": 3,
    "docket": 72069211,
    "filedAt": null,
-   "updatedAt": null,
-   "claimsDetail": null,
-   "claimsVerifiedAt": null
+   "updatedAt": "2026-08-18",
+   "claimsDetail": [
+    {
+     "count": "I",
+     "title": "Copyright Infringement (17 U.S.C. § 501",
+     "canonical": "direct-copyright"
+    }
+   ],
+   "claimsVerifiedAt": "2026-08-18",
+   "claimsSource": "https://www.courtlistener.com/docket/72069211/1/carreyrou-v-anthropic-pbc/"
   },
   {
    "id": 58,
@@ -3038,9 +3106,16 @@
    "sourceCount": 2,
    "docket": 72505713,
    "filedAt": null,
-   "updatedAt": null,
-   "claimsDetail": null,
-   "claimsVerifiedAt": null
+   "updatedAt": "2026-08-18",
+   "claimsDetail": [
+    {
+     "count": "I",
+     "title": "Copyright Infringement (17 U.S.C. § 501",
+     "canonical": "direct-copyright"
+    }
+   ],
+   "claimsVerifiedAt": "2026-08-18",
+   "claimsSource": "https://www.courtlistener.com/docket/72505713/1/chicken-soup-for-the-soul-llc-v-meta-platforms-inc/"
   },
   {
    "id": 59,
@@ -3049,9 +3124,8 @@
    "judge": "Maxine M. Chesney（N.D. Cal.）／9th Cir. panel: M. Smith、Tung、Hinderaker",
    "status": "active",
    "claims": [
-    "Direct Copyright",
-    "Unfair Competition",
-    "CFAA"
+    "CFAA",
+    "Fraud"
    ],
    "defendants": "Perplexity AI Inc.",
    "issues": "Amazon 控告 AI 搜尋引擎 Perplexity AI 非法抓取並利用 Amazon 的產品列表、評論及商品描述。本案的特殊性在於涉及 Perplexity 使用具有代理功能的 AI 冒充 Chrome 瀏覽器登入 Amazon 帳戶進行購買。本案涉及著作權侵害、不公平競爭及計算機詐欺與濫用法（CFAA）。\n\n法律爭點：(1) 商品列表及用戶評論的著作權保護；(2) AI 代理冒充真人用戶行為的法律責任；(3) 數據抓取與著作權之間的界線；(4) CFAA 對 AI 自動化行為的適用。",
@@ -3066,9 +3140,26 @@
    "sourceCount": 3,
    "docket": 71874820,
    "filedAt": null,
-   "updatedAt": "2026-08-16",
-   "claimsDetail": null,
-   "claimsVerifiedAt": null
+   "updatedAt": "2026-08-18",
+   "claimsDetail": [
+    {
+     "count": "",
+     "title": "Computer Fraud and Abuse Act, 18 U.S.C. § 1030, et seq",
+     "canonical": "cfaa"
+    },
+    {
+     "count": "",
+     "title": "California Comprehensive Computer Data Access and Fraud Act, California",
+     "canonical": "fraud"
+    }
+   ],
+   "claimsVerifiedAt": "2026-08-18",
+   "claimsSource": "https://www.courtlistener.com/docket/71874820/1/amazoncom-services-llc-v-perplexity-ai-inc/",
+   "claimsPrevious": [
+    "Direct Copyright",
+    "Unfair Competition",
+    "CFAA"
+   ]
   },
   {
    "id": 60,
@@ -3079,7 +3170,8 @@
    "claims": [
     "Direct Copyright",
     "DMCA §1202",
-    "Lanham Act"
+    "Lanham Act",
+    "State Law"
    ],
    "defendants": "Stability AI Ltd.",
    "issues": "Getty Images 在美國加州北區對 Stability AI 提起的訴訟。Thompson 法官已就 Stability AI 的部分駁回動議進行聽證。\n\n法律爭點涉及 AI 影像生成器使用受版權保護的圖片訓練的合法性，以及 DMCA CMI 移除主張。",
@@ -3094,9 +3186,56 @@
    "sourceCount": 2,
    "docket": 66788385,
    "filedAt": null,
-   "updatedAt": null,
-   "claimsDetail": null,
-   "claimsVerifiedAt": null
+   "updatedAt": "2026-08-18",
+   "claimsDetail": [
+    {
+     "count": "I",
+     "title": "Copyright Infringement (17 U.S.C. § 101 et seq",
+     "canonical": "direct-copyright"
+    },
+    {
+     "count": "II",
+     "title": "Providing False Copyright Management Information in Violation of 17 U.S.C. § 1202(a",
+     "canonical": "dmca-1202"
+    },
+    {
+     "count": "III",
+     "title": "Removal or Alteration of Copyright Management Information",
+     "canonical": "dmca-1202"
+    },
+    {
+     "count": "IV",
+     "title": "Trademark Infringement in Violation of Section 32 of the Lanham Act, 15 U.S.C. § 1114(1",
+     "canonical": "lanham"
+    },
+    {
+     "count": "V",
+     "title": "Unfair Competition in Violation of Section 43(a) of the Lanham Act, 15 U.S.C. § 1125(a",
+     "canonical": "lanham"
+    },
+    {
+     "count": "VI",
+     "title": "Trademark Dilution in Violation of Section 43(c) of the Lanham Act, 15 U.S.C. § 1125(c",
+     "canonical": "lanham"
+    },
+    {
+     "count": "VII",
+     "title": "Deceptive Trade Practices in Violation of Delaware’s",
+     "canonical": "state-law"
+    },
+    {
+     "count": "VIII",
+     "title": "Trademark Dilution in Violation of Section 3313 of the Delaware Trademark Act",
+     "canonical": "lanham"
+    }
+   ],
+   "claimsVerifiedAt": "2026-08-18",
+   "claimsSource": "https://www.courtlistener.com/docket/66788385/1/getty-images-us-inc-v-stability-ai-inc/",
+   "claimsPrevious": [
+    "Direct Copyright",
+    "DMCA §1202",
+    "Lanham Act"
+   ]
   },
   {
    "id": 61,
@@ -3120,9 +3259,16 @@
    "sourceCount": 2,
    "docket": 72083948,
    "filedAt": null,
-   "updatedAt": null,
-   "claimsDetail": null,
-   "claimsVerifiedAt": null
+   "updatedAt": "2026-08-18",
+   "claimsDetail": [
+    {
+     "count": "I",
+     "title": "COPYRIGHT INFRINGEMENT",
+     "canonical": "direct-copyright"
+    }
+   ],
+   "claimsVerifiedAt": "2026-08-18",
+   "claimsSource": "https://www.courtlistener.com/docket/72083948/7/anders-v-stability-ai-us-services-corporation/"
   },
   {
    "id": 62,
@@ -3146,9 +3292,16 @@
    "sourceCount": 2,
    "docket": 72046160,
    "filedAt": null,
-   "updatedAt": null,
-   "claimsDetail": null,
-   "claimsVerifiedAt": null
+   "updatedAt": "2026-08-18",
+   "claimsDetail": [
+    {
+     "count": "FIRST",
+     "title": "Direct Copyright Infringement,",
+     "canonical": "direct-copyright"
+    }
+   ],
+   "claimsVerifiedAt": "2026-08-18",
+   "claimsSource": "https://www.courtlistener.com/docket/72046160/1/lyon-v-adobe-inc/"
   },
   {
    "id": 63,
@@ -3172,9 +3325,16 @@
    "sourceCount": 2,
    "docket": 72046160,
    "filedAt": null,
-   "updatedAt": null,
-   "claimsDetail": null,
-   "claimsVerifiedAt": null
+   "updatedAt": "2026-08-18",
+   "claimsDetail": [
+    {
+     "count": "FIRST",
+     "title": "Direct Copyright Infringement,",
+     "canonical": "direct-copyright"
+    }
+   ],
+   "claimsVerifiedAt": "2026-08-18",
+   "claimsSource": "https://www.courtlistener.com/docket/72046160/1/lyon-v-adobe-inc/"
   },
   {
    "id": 64,
@@ -3183,7 +3343,8 @@
    "judge": "Rita F. Lin",
    "status": "active",
    "claims": [
-    "Direct Copyright"
+    "Direct Copyright",
+    "Contributory Infringement"
    ],
    "defendants": "Together Compute, Inc.",
    "issues": "原告控告計算基礎設施公司 Together Compute 未經授權使用其著作訓練大型語言模型。Together Compute 為 AI 訓練提供計算服務，本案涉及訓練基礎設施提供者的著作權責任。\n\n爭點包括：(1) 基礎設施供應商對訓練資料著作權的責任邊界；(2) 「提供工具」與「參與侵害」的法律區分。",
@@ -3198,9 +3359,24 @@
    "sourceCount": 2,
    "docket": 71883095,
    "filedAt": null,
-   "updatedAt": null,
-   "claimsDetail": null,
-   "claimsVerifiedAt": null
+   "updatedAt": "2026-08-18",
+   "claimsDetail": [
+    {
+     "count": "FIRST",
+     "title": "Direct Copyright Infringement,",
+     "canonical": "direct-copyright"
+    },
+    {
+     "count": "SECOND",
+     "title": "Contributory Copyright Infringement",
+     "canonical": "contributory"
+    }
+   ],
+   "claimsVerifiedAt": "2026-08-18",
+   "claimsSource": "https://www.courtlistener.com/docket/71883095/1/james-v-together-computer-inc/",
+   "claimsPrevious": [
+    "Direct Copyright"
+   ]
   },
   {
    "id": 65,
@@ -3224,9 +3400,16 @@
    "sourceCount": 2,
    "docket": 71827684,
    "filedAt": null,
-   "updatedAt": null,
-   "claimsDetail": null,
-   "claimsVerifiedAt": null
+   "updatedAt": "2026-08-18",
+   "claimsDetail": [
+    {
+     "count": "FIRST",
+     "title": "Direct Copyright Infringement,",
+     "canonical": "direct-copyright"
+    }
+   ],
+   "claimsVerifiedAt": "2026-08-18",
+   "claimsSource": "https://www.courtlistener.com/docket/71827684/1/james-v-cerebras-systems-inc/"
   },
   {
    "id": 66,
@@ -3235,7 +3418,14 @@
    "judge": "Eumi K. Lee",
    "status": "active",
    "claims": [
-    "State Law"
+    "Unfair Competition",
+    "Negligence",
+    "Invasion of Privacy",
+    "Conversion",
+    "Unjust Enrichment",
+    "Direct Copyright",
+    "Vicarious Infringement",
+    "DMCA §1202"
    ],
    "defendants": "Google LLC",
    "issues": "原告控告 Google 基於州法（包括加州著作權與隱私相關法律）未經授權使用其著作訓練 AI 模型。本案最初在加州州法院提起，Google 以聯邦著作權先占權為由移送至聯邦法院。\n\n核心爭點：(1) 聯邦著作權法是否先占州法著作權主張；(2) Google 移除州法訴訟的理由是否正當；(3) 州法在 AI 訓練規制中的獨立作用。",
@@ -3250,9 +3440,64 @@
    "sourceCount": 2,
    "docket": 67599029,
    "filedAt": null,
-   "updatedAt": null,
-   "claimsDetail": null,
-   "claimsVerifiedAt": null
+   "updatedAt": "2026-08-18",
+   "claimsDetail": [
+    {
+     "count": "",
+     "title": "VIOLATION OF CALIFORNIA UNFAIR COMPETITION LAW (Cal. Bus. & Prof. Code",
+     "canonical": "unfair-competition"
+    },
+    {
+     "count": "",
+     "title": "NEGLIGENCE (on behalf of all Plaintiffs and all Classes",
+     "canonical": "negligence"
+    },
+    {
+     "count": "",
+     "title": "INVASION OF PRIVACY UNDER CALIFORNIA CONSTITUTION",
+     "canonical": "privacy"
+    },
+    {
+     "count": "",
+     "title": "INTRUSION UPON SECLUSION",
+     "canonical": "privacy"
+    },
+    {
+     "count": "",
+     "title": "LARCENY/RECEIPT OF STOLEN PROPERTY",
+     "canonical": "conversion"
+    },
+    {
+     "count": "",
+     "title": "CONVERSION (on behalf of all Plaintiffs and all Classes",
+     "canonical": "conversion"
+    },
+    {
+     "count": "",
+     "title": "UNJUST ENRICHMENT",
+     "canonical": "unjust-enrichment"
+    },
+    {
+     "count": "",
+     "title": "DIRECT COPYRIGHT INFRINGEMENT",
+     "canonical": "direct-copyright"
+    },
+    {
+     "count": "",
+     "title": "VICARIOUS COPYRIGHT INFRINGEMENT",
+     "canonical": "vicarious"
+    },
+    {
+     "count": "",
+     "title": "VIOLATION OF DIGITAL MILLENNIUM COPYRIGHT ACT (17 U.S.C. § 1202(b",
+     "canonical": "dmca-1202"
+    }
+   ],
+   "claimsVerifiedAt": "2026-08-18",
+   "claimsSource": "https://www.courtlistener.com/docket/67599029/1/in-re-google-generative-ai-copyright-litigation/",
+   "claimsPrevious": [
+    "State Law"
+   ]
   },
   {
    "id": 67,
@@ -3276,9 +3521,16 @@
    "sourceCount": 2,
    "docket": 72069211,
    "filedAt": null,
-   "updatedAt": null,
-   "claimsDetail": null,
-   "claimsVerifiedAt": null
+   "updatedAt": "2026-08-18",
+   "claimsDetail": [
+    {
+     "count": "I",
+     "title": "Copyright Infringement (17 U.S.C. § 501",
+     "canonical": "direct-copyright"
+    }
+   ],
+   "claimsVerifiedAt": "2026-08-18",
+   "claimsSource": "https://www.courtlistener.com/docket/72069211/1/carreyrou-v-anthropic-pbc/"
   },
   {
    "id": 68,
@@ -3287,8 +3539,8 @@
    "judge": "Edward J. Davila",
    "status": "dismissed",
    "claims": [
-    "Direct Copyright",
-    "State Law"
+    "Unjust Enrichment",
+    "Unfair Competition"
    ],
    "defendants": "Google LLC",
    "issues": "原告對 Google 提起的著作權與州法訴訟。本案後經原告自願撤銷。訴狀中載有著作權侵害與加州不當得利等主張。\n\n爭點（訴訟期間）：(1) Google 對訓練資料的使用範圍；(2) 州法不當得利在 AI 訓練背景下的適用。",
@@ -3303,9 +3555,25 @@
    "sourceCount": 2,
    "docket": 69012654,
    "filedAt": null,
-   "updatedAt": null,
-   "claimsDetail": null,
-   "claimsVerifiedAt": null
+   "updatedAt": "2026-08-18",
+   "claimsDetail": [
+    {
+     "count": "I",
+     "title": "Unjust Enrichment or Restitution",
+     "canonical": "unjust-enrichment"
+    },
+    {
+     "count": "II",
+     "title": "UCL – Unfair Competition Cal. Bus. & Prof. Code §§ 17200 et seq",
+     "canonical": "unfair-competition"
+    }
+   ],
+   "claimsVerifiedAt": "2026-08-18",
+   "claimsSource": "https://www.courtlistener.com/docket/69012654/1/millette-v-google-llc/",
+   "claimsPrevious": [
+    "Direct Copyright",
+    "State Law"
+   ]
   },
   {
    "id": 69,
@@ -3314,8 +3582,8 @@
    "judge": "Edward J. Davila",
    "status": "dismissed",
    "claims": [
-    "Direct Copyright",
-    "State Law"
+    "Unjust Enrichment",
+    "Unfair Competition"
    ],
    "defendants": "NVIDIA Corporation",
    "issues": "原告對 AI 晶片巨頭 NVIDIA 提起的著作權與州法訴訟，主張 NVIDIA 在其 AI 訓練相關產品中使用其著作物。本案涉及硬體製造商的著作權責任。\n\n爭點：(1) 晶片製造商對軟體訓練資料的間接責任；(2) 晶片與軟體侵害的因果關係。",
@@ -3330,9 +3598,25 @@
    "sourceCount": 2,
    "docket": 69045427,
    "filedAt": null,
-   "updatedAt": null,
-   "claimsDetail": null,
-   "claimsVerifiedAt": null
+   "updatedAt": "2026-08-18",
+   "claimsDetail": [
+    {
+     "count": "I",
+     "title": "Unjust Enrichment or Restitution",
+     "canonical": "unjust-enrichment"
+    },
+    {
+     "count": "II",
+     "title": "UCL – Unfair Competition Law 25",
+     "canonical": "unfair-competition"
+    }
+   ],
+   "claimsVerifiedAt": "2026-08-18",
+   "claimsSource": "https://www.courtlistener.com/docket/69045427/1/millette-v-nvidia-corporation/",
+   "claimsPrevious": [
+    "Direct Copyright",
+    "State Law"
+   ]
   },
   {
    "id": 70,
@@ -3342,7 +3626,11 @@
    "status": "active",
    "claims": [
     "Direct Copyright",
-    "State Law"
+    "Vicarious Infringement",
+    "Contributory Infringement",
+    "DMCA §1202",
+    "Unfair Competition",
+    "Lanham Act"
    ],
    "defendants": "OpenAI L.P.",
    "issues": "原告對 OpenAI 的著作權與州法訴訟，後被轉入聯邦多案件訴訟（MDL）體系。本案為進入 OpenAI MDL 框架的個案之一。\n\n爭點：(1) 著作權侵害在集體訴訟框架下的認定；(2) 代理訴訟中個別原告的證據與損害賠償問題。",
@@ -3357,9 +3645,45 @@
    "sourceCount": 2,
    "docket": 69879510,
    "filedAt": null,
-   "updatedAt": null,
-   "claimsDetail": null,
-   "claimsVerifiedAt": null
+   "updatedAt": "2026-08-18",
+   "claimsDetail": [
+    {
+     "count": "I",
+     "title": "Copyright Infringement (17 U.S.C. § 501",
+     "canonical": "direct-copyright"
+    },
+    {
+     "count": "II",
+     "title": "Vicarious Copyright Infringement",
+     "canonical": "vicarious"
+    },
+    {
+     "count": "III",
+     "title": "Contributory Copyright Infringement",
+     "canonical": "contributory"
+    },
+    {
+     "count": "V",
+     "title": "Digital Millennium Copyright Act – Removal of Copyright Management",
+     "canonical": "dmca-1202"
+    },
+    {
+     "count": "VI",
+     "title": "Common Law Unfair Competition By Misappropriation",
+     "canonical": "unfair-competition"
+    },
+    {
+     "count": "VII",
+     "title": "Trademark Dilution (15 U.S.C. § 1125(c",
+     "canonical": "lanham"
+    }
+   ],
+   "claimsVerifiedAt": "2026-08-18",
+   "claimsSource": "https://www.courtlistener.com/docket/69879510/9/in-re-openai-inc-copyright-infringement-litigation/",
+   "claimsPrevious": [
+    "Direct Copyright",
+    "State Law"
+   ]
   },
   {
    "id": 71,
@@ -3385,9 +3709,26 @@
    "sourceCount": 2,
    "docket": 68138737,
    "filedAt": null,
-   "updatedAt": null,
-   "claimsDetail": null,
-   "claimsVerifiedAt": null
+   "updatedAt": "2026-08-18",
+   "claimsDetail": [
+    {
+     "count": "I",
+     "title": "DIRECT COPYRIGHT INFRINGEMENT (17 U.S.C. § 501",
+     "canonical": "direct-copyright"
+    },
+    {
+     "count": "II",
+     "title": "VICARIOUS COPYRIGHT INFRINGEMENT",
+     "canonical": "vicarious"
+    },
+    {
+     "count": "III",
+     "title": "CONTRIBUTORY COPYRIGHT INFRINGEMENT",
+     "canonical": "contributory"
+    }
+   ],
+   "claimsVerifiedAt": "2026-08-18",
+   "claimsSource": "https://www.courtlistener.com/docket/68138737/1/basbanes-v-microsoft-corporation/"
   },
   {
    "id": 72,
@@ -3396,7 +3737,6 @@
    "judge": "Sidney H. Stein",
    "status": "active",
    "claims": [
-    "Direct Copyright",
     "Contributory Infringement",
     "DMCA §1202"
    ],
@@ -3413,9 +3753,51 @@
    "sourceCount": 2,
    "docket": 68892274,
    "filedAt": null,
-   "updatedAt": null,
-   "claimsDetail": null,
-   "claimsVerifiedAt": null
+   "updatedAt": "2026-08-18",
+   "claimsDetail": [
+    {
+     "count": "I",
+     "title": "Violation of 17 U.S.C. § 501 by OpenAI Defendants",
+     "canonical": null
+    },
+    {
+     "count": "II",
+     "title": "Violation of 17 U.S.C. § 501 by Defendant Microsoft",
+     "canonical": null
+    },
+    {
+     "count": "III",
+     "title": "Contributory Copyright Infringement by All Defendants",
+     "canonical": "contributory"
+    },
+    {
+     "count": "IV",
+     "title": "Violation of 17 U.S.C. § 1202(b)(1) by OpenAI Defendants",
+     "canonical": "dmca-1202"
+    },
+    {
+     "count": "V",
+     "title": "Violation of 17 U.S.C. § 1202(b)(3) by OpenAI Defendants",
+     "canonical": "dmca-1202"
+    },
+    {
+     "count": "VI",
+     "title": "Violation of 17 U.S.C. § 1202(b)(1) by Defendant Microsoft",
+     "canonical": "dmca-1202"
+    },
+    {
+     "count": "VII",
+     "title": "Violation of 17 U.S.C. § 1202(b)(3) by Defendant Microsoft",
+     "canonical": "dmca-1202"
+    }
+   ],
+   "claimsVerifiedAt": "2026-08-18",
+   "claimsSource": "https://www.courtlistener.com/docket/68892274/1/the-center-for-investigative-reporting-inc-v-openai-inc/",
+   "claimsPrevious": [
+    "Direct Copyright",
+    "Contributory Infringement",
+    "DMCA §1202"
+   ]
   },
   {
    "id": 73,
@@ -3439,9 +3821,16 @@
    "sourceCount": 2,
    "docket": 70626692,
    "filedAt": null,
-   "updatedAt": null,
-   "claimsDetail": null,
-   "claimsVerifiedAt": null
+   "updatedAt": "2026-08-18",
+   "claimsDetail": [
+    {
+     "count": "",
+     "title": "COPYRIGHT INFRINGEMENT (17 U.S.C. § 501",
+     "canonical": "direct-copyright"
+    }
+   ],
+   "claimsVerifiedAt": "2026-08-18",
+   "claimsSource": "https://www.courtlistener.com/docket/70626692/7/bird-v-microsoft-corporation/"
   },
   {
    "id": 74,
@@ -3468,9 +3857,31 @@
    "sourceCount": 2,
    "docket": 71969115,
    "filedAt": null,
-   "updatedAt": null,
-   "claimsDetail": null,
-   "claimsVerifiedAt": null
+   "updatedAt": "2026-08-18",
+   "claimsDetail": [
+    {
+     "count": "I",
+     "title": "Copyright Infringement (17 U.S.C. § 501",
+     "canonical": "direct-copyright"
+    },
+    {
+     "count": "II",
+     "title": "Vicarious Copyright Infringement",
+     "canonical": "vicarious"
+    },
+    {
+     "count": "III",
+     "title": "Contributory Copyright Infringement",
+     "canonical": "contributory"
+    },
+    {
+     "count": "V",
+     "title": "Digital Millennium Copyright Act – Removal of Copyright Management",
+     "canonical": "dmca-1202"
+    }
+   ],
+   "claimsVerifiedAt": "2026-08-18",
+   "claimsSource": "https://www.courtlistener.com/docket/71969115/1/california-newspapers-partnership-v-microsoft-corporation/"
   },
   {
    "id": 75,
@@ -3494,7 +3905,7 @@
    "sourceCount": 2,
    "docket": 72372770,
    "filedAt": null,
-   "updatedAt": "2026-08-03",
+   "updatedAt": "2026-08-18",
    "rulings": {
     "fairUse": "na",
     "keyRulings": [
@@ -3506,8 +3917,15 @@
     "fairUseNote": "盜版網站散布案，非 AI 訓練合理使用爭點；意義在於認定 AI 訓練資料盜版供應端責任",
     "outcome": "原告全面勝訴（預設判決），命逾 20 家註冊商與 ISP 停用域名"
    },
-   "claimsDetail": null,
-   "claimsVerifiedAt": null
+   "claimsDetail": [
+    {
+     "count": "",
+     "title": "Direct Copyright Infringement (17 U.S.C. § 101 et seq",
+     "canonical": "direct-copyright"
+    }
+   ],
+   "claimsVerifiedAt": "2026-08-18",
+   "claimsSource": "https://www.courtlistener.com/docket/72372770/1/apress-media-llc-v-annas-archive/"
   },
   {
    "id": 76,
@@ -3516,13 +3934,14 @@
    "judge": "Eumi K. Lee",
    "status": "active",
    "claims": [
+    "Unfair Competition",
+    "Negligence",
+    "Invasion of Privacy",
+    "Conversion",
+    "Unjust Enrichment",
     "Direct Copyright",
     "Vicarious Infringement",
-    "Contributory Infringement",
-    "DMCA §1202",
-    "DMCA §1201",
-    "Lanham Act",
-    "State Law"
+    "DMCA §1202"
    ],
    "defendants": "Google LLC",
    "issues": "原告 Kogon 對 Google 提起的複合型訴訟，涉及著作權、數位千禧年著作權法（DMCA）多項條款、蘭漢姆法與伊利諾州州法。本案為單一訴訟中最複雜的法律請求之一。\n\n爭點：(1) 直接著作權侵害與代位/幫助侵害的多層次責任；(2) DMCA §1202(a)(b)（著作權管理資訊移除）與 DMCA §1201(a)(b)（反規避技術保護）的交互作用；(3) 蘭漢姆法中虛假背書、虛假廣告與著作權的重疊；(4) 伊利諾州隱私權保護法、不當得利等州法請求。",
@@ -3537,9 +3956,70 @@
    "sourceCount": 2,
    "docket": 67599029,
    "filedAt": null,
-   "updatedAt": "2026-08-03",
-   "claimsDetail": null,
-   "claimsVerifiedAt": null
+   "updatedAt": "2026-08-18",
+   "claimsDetail": [
+    {
+     "count": "",
+     "title": "VIOLATION OF CALIFORNIA UNFAIR COMPETITION LAW (Cal. Bus. & Prof. Code",
+     "canonical": "unfair-competition"
+    },
+    {
+     "count": "",
+     "title": "NEGLIGENCE (on behalf of all Plaintiffs and all Classes",
+     "canonical": "negligence"
+    },
+    {
+     "count": "",
+     "title": "INVASION OF PRIVACY UNDER CALIFORNIA CONSTITUTION",
+     "canonical": "privacy"
+    },
+    {
+     "count": "",
+     "title": "INTRUSION UPON SECLUSION",
+     "canonical": "privacy"
+    },
+    {
+     "count": "",
+     "title": "LARCENY/RECEIPT OF STOLEN PROPERTY",
+     "canonical": "conversion"
+    },
+    {
+     "count": "",
+     "title": "CONVERSION (on behalf of all Plaintiffs and all Classes",
+     "canonical": "conversion"
+    },
+    {
+     "count": "",
+     "title": "UNJUST ENRICHMENT",
+     "canonical": "unjust-enrichment"
+    },
+    {
+     "count": "",
+     "title": "DIRECT COPYRIGHT INFRINGEMENT",
+     "canonical": "direct-copyright"
+    },
+    {
+     "count": "",
+     "title": "VICARIOUS COPYRIGHT INFRINGEMENT",
+     "canonical": "vicarious"
+    },
+    {
+     "count": "",
+     "title": "VIOLATION OF DIGITAL MILLENNIUM COPYRIGHT ACT (17 U.S.C. § 1202(b",
+     "canonical": "dmca-1202"
+    }
+   ],
+   "claimsVerifiedAt": "2026-08-18",
+   "claimsSource": "https://www.courtlistener.com/docket/67599029/1/in-re-google-generative-ai-copyright-litigation/",
+   "claimsPrevious": [
+    "Direct Copyright",
+    "Vicarious Infringement",
+    "Contributory Infringement",
+    "DMCA §1202",
+    "DMCA §1201",
+    "Lanham Act",
+    "State Law"
+   ]
   },
   {
    "id": 77,
