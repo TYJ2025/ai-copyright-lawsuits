@@ -6,6 +6,23 @@
   "data": {
     "items": [
       {
+        "addedAt": "2026-08-19",
+        "text": "【2026/8/14】Sullivan v. OpenAI（S.D.N.Y. 1:26-cv-06966）教科書作者集體訴訟：主張教科書市場有別於一般書籍，合理使用第四因素須個別評估，另對 Microsoft 主張代位侵害。",
+        "url": "https://www.courtlistener.com/docket/74652896/sullivan-v-openai-foundation/"
+      },
+      {
+        "addedAt": "2026-08-19",
+        "text": "【2026/8/17】Round Hill Music v. Suno & Bright Data（N.D. Cal. 5:26-cv-08507）同日平行提告，追加資料抓取商 Bright Data 為共同被告並主張輔助侵害，直指 AI 訓練資料供應鏈責任。",
+        "url": "https://www.courtlistener.com/docket/74658569/round-hill-music-lp-v-suno-inc/"
+      },
+      {
+        "addedAt": "2026-08-19",
+        "text": "【2026/8/17】Round Hill Music v. Anthropic（N.D. Cal. 5:26-cv-08505）獨立音樂出版商就 14,364 首詞曲、16,873 件錄音物提告，以 500 首代表作品為 bellwether，主張直接侵害＋§1201 規避＋§1202 移除 CMI。",
+        "url": "https://www.courtlistener.com/docket/74658311/round-hill-music-lp-v-anthropic-pbc/"
+      }
+    ],
+    "archive": [
+      {
         "addedAt": "2026-08-14",
         "text": "【2026/8/12】Reddit v. Anthropic PBC（舊金山高等法院 CGC-25-624813）州法院言詞辯論中，法官對 Anthropic 主張聯邦著作權法優先阻卻 Reddit 隱私與契約請求之論點表達懷疑，暗示 Anthropic 難以脫免本案",
         "url": "https://news.bloomberglaw.com/business-and-practice/anthropic-unlikely-to-beat-reddit-scraping-suit-judge-hints"
@@ -19,9 +36,7 @@
         "addedAt": "2026-08-11",
         "text": "【2026/8/4】Amazon.com Services v. Perplexity AI（9th Cir. 26-1444）上訴法院撤銷地院對 Perplexity「Comet」瀏覽器初步禁制令，認定 CFAA 責任應歸屬使用者而非開發商",
         "url": "https://law.justia.com/cases/federal/appellate-courts/ca9/26-1444/26-1444-2026-08-04.html"
-      }
-    ],
-    "archive": [
+      },
       {
         "addedAt": "2026-08-11",
         "text": "【2026/8/5】New York Times v. Microsoft/OpenAI（S.D.N.Y. 1:23-cv-11195）Stein 法官駁回 NYT 追加對 Microsoft 引誘侵權主張之修正聲請，以提出過晚為由駁回",
@@ -385,5 +400,5 @@
     ]
   },
   "lastUpdatedBy": "add_news.py",
-  "lastUpdatedAt": "2026-08-14T07:09:50.487934+08:00"
+  "lastUpdatedAt": "2026-08-19T08:18:09.345032+08:00"
 }
