@@ -37,7 +37,8 @@ StartInterval: 每 6h 跑一次（safety net）
 RunAtLoad: agent 重新載入時跑一次
 ThrottleInterval: 60s（防 editor save 風暴）
        → auto-push.sh
-       → git add dashboard.html && git commit && git push
+       → git add index.html $TRACKED_PATHS && git commit && git push
+         （TRACKED_PATHS = dashboard.html data/ cases/ scripts/*.json）
        → log 寫到 .auto-push.log
 ```
 
@@ -83,7 +84,14 @@ data/*.json  +  templates/dashboard.template.html
 - `addedAt` = **今日台北時間** (該則進 dashboard 的日期；用來決定何時搬到 archive)
 - `text` 開頭 `【YYYY/M/D】` = 新聞事件日期（通常同 addedAt，但若補錄過去新聞會不同）
 
-**Daily-brief 自動化邏輯**：claude -p 呼叫 `add_news.py` 寫 `data/news.json` →（案件型快訊）呼叫 `update_case_progress.py` 回寫 `data/cases.json` 的 progress → daily-brief.sh 跑 `build.py` 重生 dashboard.html → auto-push commit（dashboard.html + index.html + data/）。
+**Daily-brief 自動化邏輯**：claude -p 呼叫 `add_news.py` 寫 `data/news.json` →（案件型快訊）呼叫 `update_case_progress.py` 回寫 `data/cases.json` 的 progress → daily-brief.sh 跑 `build.py` 重生 dashboard.html → auto-push commit。
+
+**auto-push 納管路徑**（`auto-push.sh` 的 `TRACKED_PATHS`，改動時三處要一致：兩行偵測 + 一行 `git add`）：
+`dashboard.html`、`index.html`、`data/`、`cases/`、`scripts/*.json`。
+
+- `scripts/*.json` 於 2026-08-19 納入：`approved_queue.json`、`rejected_cases.json`、`cases_manifest.json`、`missing_cases_report.json` 都是機器產生的 intake ledger，每週掃描會變動，先前不在清單內導致審核狀態長期未提交。
+- **只收 `*.json`，不收 `*.py` / `*.sh`**，避免開發中未完成的腳本被自動 commit。
+- **`templates/` 刻意不納管**：改版面後若只 commit 了 script 沒 commit template，CI 從 HEAD checkout 會少佔位符而失敗（2026-08-08 踩過）。push 前一律先跑 `./scripts/preflight.sh`，漏 commit 的檔案會立刻現形。
 
 ### claims 標籤規則（2026-08-04 立）
 

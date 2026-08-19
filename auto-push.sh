@@ -55,9 +55,16 @@ fi
 NEED_COMMIT=0
 NEED_PUSH=0
 
-# cases/ 納入：每月 refresh-cases 會改動 113 份 case .md，否則永遠留在未提交狀態
-if ! git diff --quiet HEAD -- dashboard.html data/ cases/ 2>/dev/null; then NEED_COMMIT=1; fi
-if ! git diff --cached --quiet HEAD -- dashboard.html data/ cases/ 2>/dev/null; then NEED_COMMIT=1; fi
+# 納管路徑（三者需一致：下方 NEED_COMMIT 偵測兩行與 git add 一行）
+#   cases/         每月 refresh-cases 會改動 113 份 case .md，否則永遠留在未提交狀態
+#   scripts/*.json 2026-08-19 加：approved_queue / rejected_cases / cases_manifest 皆為
+#                  機器產生之 intake ledger，每週掃描都會變動。先前不在納管清單，
+#                  審核狀態長期停在未提交，CI 從 HEAD checkout 也拿不到最新 ledger。
+#                  只收 *.json，不收 *.py／*.sh，避免把開發中未完成的腳本自動 commit。
+TRACKED_PATHS="dashboard.html data/ cases/ scripts/*.json"
+
+if ! git diff --quiet HEAD -- $TRACKED_PATHS 2>/dev/null; then NEED_COMMIT=1; fi
+if ! git diff --cached --quiet HEAD -- $TRACKED_PATHS 2>/dev/null; then NEED_COMMIT=1; fi
 
 # Fetch remote to compare (quiet; don't abort on network failure).
 git fetch origin --quiet 2>/dev/null
@@ -76,7 +83,7 @@ fi
 
 # --- Commit if needed, then push -------------------------------------------
 if [ "$NEED_COMMIT" -eq 1 ]; then
-    git add dashboard.html index.html data/ cases/
+    git add index.html $TRACKED_PATHS
     git commit -m "Daily update: $(date '+%Y/%m/%d')" >> "$LOG_FILE" 2>&1
 fi
 
