@@ -114,7 +114,17 @@ def load_existing_case_names(dashboard_path: Path) -> set[str]:
 
 
 STOP_TOKENS = {"the", "inc", "llc", "ltd", "pbc", "corp", "company", "co",
-               "and", "et", "al", "plc", "group", "holdings", "platforms"}
+               "and", "et", "al", "plc", "group", "holdings", "platforms",
+               # ── 產業通用詞：本身不具識別力，兩造同業時會造成假性同案 ──
+               # 2026-08-19：Round Hill *Music* v. Anthropic 曾因與 Concord *Music*
+               # v. Anthropic 共享 token "music"（原告側）與 "anthropic"（被告側）
+               # 而被誤判為已列載，靜默漏掉一件全新訴訟。AI 著作權訴訟原告高度集中
+               # 於音樂／出版／媒體業，這類詞必須排除。
+               "music", "musical", "media", "publishing", "publishers", "publisher",
+               "records", "recordings", "recording", "entertainment", "news",
+               "press", "books", "book", "studios", "studio", "productions",
+               "pictures", "association", "associates", "partners", "partnership",
+               "fund", "royalty", "royalties"}
 
 
 def split_plaintiff_defendant(name_norm: str) -> tuple[str, str]:
@@ -164,6 +174,47 @@ def is_already_tracked(new_name: str, existing: set[str]) -> bool:
 # ─────────────────────────────────────────────────────────────────────────────
 # CourtListener Search API
 # ─────────────────────────────────────────────────────────────────────────────
+def raise_alert(title: str, desc: str) -> None:
+    """把掃描失敗寫進 .pending-review.json 的 scan-alert 區段，讓 main-board
+    橘色 banner 看得見。
+
+    2026-08-19 記：token 失效時本腳本只是 sys.exit(2)，退出碼沒人看、報告檔
+    靜默不產生，主動層連死三週（8/3、8/10、8/17）都沒被察覺，期間漏掉
+    Round Hill Music v. Anthropic / v. Suno 兩件新訴訟。失敗必須出聲。
+    """
+    import subprocess
+    from datetime import datetime
+    item = [{
+        "title": f"⚠ {title}",
+        "subtitle": f"weekly_new_case_check.py · {datetime.now().strftime('%Y-%m-%d %H:%M')}",
+        "desc": desc,
+        "url": "https://www.courtlistener.com/profile/api/",
+    }]
+    try:
+        subprocess.run(
+            [sys.executable, str(Path(__file__).parent / "add_pending.py"),
+             "--section", "scan-alert", "--label", "自動掃描異常", "--replace-stdin"],
+            input=json.dumps(item, ensure_ascii=False),
+            capture_output=True, text=True, timeout=30,
+        )
+        print("⚠ 已寫入 .pending-review.json scan-alert 區段", file=sys.stderr)
+    except Exception as exc:                      # 告警本身失敗不得掩蓋原錯誤
+        print(f"（告警寫入失敗：{exc}）", file=sys.stderr)
+
+
+def clear_alert() -> None:
+    """掃描成功時清掉舊告警，避免 banner 長期掛著已解決的錯誤。"""
+    import subprocess
+    try:
+        subprocess.run(
+            [sys.executable, str(Path(__file__).parent / "add_pending.py"),
+             "--clear-section", "scan-alert"],
+            capture_output=True, text=True, timeout=30,
+        )
+    except Exception:
+        pass
+
+
 def search_courtlistener(
     token: str,
     days: int,
@@ -215,11 +266,19 @@ def search_courtlistener(
                     pass
                 print(f"HTTP {e.code} from CourtListener: {e.reason}\n{body}",
                       file=sys.stderr)
+                hint = ("COURTLISTENER_TOKEN 失效或過期，請至 "
+                        "https://www.courtlistener.com/profile/api/ 重新產生後，"
+                        "以 PlistBuddy 寫入 ~/Library/LaunchAgents/ 之 plist 並重載 agent"
+                        if e.code in (401, 403) else
+                        f"CourtListener API 回傳 HTTP {e.code}")
+                raise_alert(f"新案掃描失敗（HTTP {e.code}）", hint)
                 sys.exit(2)
             except URLError as e:
                 wait = 15 * (attempt + 1)
                 if attempt == 3:
                     print(f"Network error（重試 4 次仍失敗）：{e.reason}", file=sys.stderr)
+                    raise_alert("新案掃描失敗（連線錯誤）",
+                                f"重試 4 次仍無法連上 CourtListener：{e.reason}")
                     sys.exit(3)
                 print(f"Network error：{e.reason}；{wait} 秒後重試"
                       f"（{attempt + 1}/3）", file=sys.stderr)
@@ -228,6 +287,7 @@ def search_courtlistener(
             sys.exit(3)
         results.extend(data.get("results", []))
         next_url = data.get("next")
+    clear_alert()        # 查詢成功 → 撤下先前的異常告警
     return results
 
 
