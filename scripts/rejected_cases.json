@@ -484,5 +484,32 @@
     "decidedAt": "2026-07-27T08:00:05+08:00",
     "appliedAt": "2026-07-27T08:00:05+08:00",
     "decidedBy": "auto-triage"
+  },
+  {
+    "title": "PORTON v. SCHEDULE A",
+    "url": "https://www.courtlistener.com/docket/74653925/porton-v-schedule-a/",
+    "subtitle": "District Court, W.D. Pennsylvania · 2:26-cv-01716 · filed 2026-08-14",
+    "note": "自動分流：起訴狀全文無任何 AI 關鍵詞（非 AI 案）",
+    "decidedAt": "2026-08-19T08:05:04+08:00",
+    "appliedAt": "2026-08-19T08:05:04+08:00",
+    "decidedBy": "auto-triage"
+  },
+  {
+    "title": "PatientRightsAdvocate.org, Inc. v. American Medical Association",
+    "url": "https://www.courtlistener.com/docket/74643681/patientrightsadvocateorg-inc-v-american-medical-association/",
+    "subtitle": "District Court, N.D. Illinois · 1:26-cv-09746 · filed 2026-08-13",
+    "note": "自動分流：起訴狀全文未提及著作權",
+    "decidedAt": "2026-08-19T08:05:04+08:00",
+    "appliedAt": "2026-08-19T08:05:04+08:00",
+    "decidedBy": "auto-triage"
+  },
+  {
+    "title": "Schmelzer v. Studio C Architecture & Interior LLC",
+    "url": "https://www.courtlistener.com/docket/74640030/schmelzer-v-studio-c-architecture-interior-llc/",
+    "subtitle": "District Court, N.D. Alabama · 2:26-cv-01412 · filed 2026-08-12",
+    "note": "自動分流：起訴狀全文無任何 AI 關鍵詞（非 AI 案）",
+    "decidedAt": "2026-08-19T08:05:04+08:00",
+    "appliedAt": "2026-08-19T08:05:04+08:00",
+    "decidedBy": "auto-triage"
   }
 ]

@@ -1,79 +1,99 @@
 [
-  {
-    "title": "SCI SPARK LLC v. SCHEDULE A",
-    "url": "https://www.courtlistener.com/docket/73448787/sci-spark-llc-v-schedule-a/",
-    "subtitle": "District Court, W.D. Pennsylvania · 2:26-cv-01235 · filed 2026-06-05",
-    "note": "自動分流：起訴狀含 AI 關鍵詞：artificial intelligence",
-    "decidedAt": "2026-06-13T00:10:28+08:00",
-    "appliedAt": "2026-06-13T00:10:28+08:00",
-    "decidedBy": "auto-triage",
-    "listedAt": "2026-07-13T12:00:00+08:00"
-  },
-  {
-    "title": "Will-Burn Recordings & Publishing Co. v. UMG Recordings, Inc.",
-    "url": "https://www.courtlistener.com/docket/73338991/will-burn-recordings-publishing-co-v-umg-recordings-inc/",
-    "subtitle": "District Court, S.D. Alabama · 1:26-cv-00177 · filed 2026-05-13",
-    "note": "自動分流：當事人含 AI 業者：Suno",
-    "decidedAt": "2026-06-13T00:10:28+08:00",
-    "appliedAt": "2026-06-13T00:10:28+08:00",
-    "decidedBy": "auto-triage",
-    "listedAt": "2026-07-13T12:00:00+08:00"
-  },
-  {
-    "title": "Shakespeare v. Anthropic PBC",
-    "url": "https://www.courtlistener.com/docket/73494355/shakespeare-v-anthropic-pbc/",
-    "subtitle": "District Court, N.D. California · 3:26-cv-05931 · filed 2026-06-17",
-    "note": "自動分流：當事人含 AI 業者：Anthropic",
-    "decidedAt": "2026-06-22T08:00:03+08:00",
-    "appliedAt": "2026-06-22T08:00:03+08:00",
-    "decidedBy": "auto-triage",
-    "listedAt": "2026-07-13T12:00:00+08:00"
-  },
-  {
-    "title": "Apress Media, LLC v. WeLib",
-    "url": "https://www.courtlistener.com/docket/73488419/apress-media-llc-v-welib/",
-    "subtitle": "District Court, S.D. New York · 1:26-cv-05064 · filed 2026-06-16",
-    "note": "自動分流：起訴狀含 AI 關鍵詞：large language model、training data",
-    "decidedAt": "2026-06-22T08:00:03+08:00",
-    "appliedAt": "2026-06-22T08:00:03+08:00",
-    "decidedBy": "auto-triage"
-  },
-  {
-    "title": "Richner Communications, Inc. v. Microsoft Corporation",
-    "url": "https://www.courtlistener.com/docket/73528019/richner-communications-inc-v-microsoft-corporation/",
-    "subtitle": "District Court, S.D. New York · 1:26-cv-05320 · filed 2026-06-24",
-    "note": "自動分流：當事人含 AI 業者：OpenAI",
-    "decidedAt": "2026-06-29T08:00:13+08:00",
-    "appliedAt": "2026-06-29T08:00:13+08:00",
-    "decidedBy": "auto-triage",
-    "listedAt": "2026-07-13T12:00:00+08:00"
-  },
-  {
-    "title": "S.A. Jamendo v. Nvidia Corporation",
-    "url": "https://www.courtlistener.com/docket/73517096/sa-jamendo-v-nvidia-corporation/",
-    "subtitle": "District Court, N.D. California · 5:26-cv-06206 · filed 2026-06-22",
-    "note": "自動分流：起訴狀含 AI 關鍵詞：artificial intelligence、machine learning、generative、large language model",
-    "decidedAt": "2026-06-29T08:00:13+08:00",
-    "appliedAt": "2026-06-29T08:00:13+08:00",
-    "decidedBy": "auto-triage"
-  },
-  {
-    "title": "S.A. Jamendo v. Suno Inc.",
-    "url": "https://www.courtlistener.com/docket/73547746/sa-jamendo-v-suno-inc/",
-    "subtitle": "District Court, D. Massachusetts · 1:26-cv-12966 · filed 2026-06-29",
-    "note": "自動分流：當事人含 AI 業者：Suno",
-    "decidedAt": "2026-07-06T08:00:10+08:00",
-    "appliedAt": "2026-07-06T08:00:10+08:00",
-    "decidedBy": "auto-triage"
-  },
-  {
-    "title": "Hachette Book Group, Inc. v. Google LLC",
-    "url": "https://www.courtlistener.com/docket/73603888/hachette-book-group-inc-v-google-llc/",
-    "subtitle": "District Court, S.D. New York · 1:26-cv-05870 · filed 2026-07-10",
-    "note": "自動分流：起訴狀含 AI 關鍵詞：artificial intelligence、machine learning、generative、large language model",
-    "decidedAt": "2026-07-13T08:00:05+08:00",
-    "appliedAt": "2026-07-13T08:00:05+08:00",
-    "decidedBy": "auto-triage",
-    "listedAt": "2026-07-13T12:00:00+08:00"
-  }
+ {
+  "title": "SCI SPARK LLC v. SCHEDULE A",
+  "url": "https://www.courtlistener.com/docket/73448787/sci-spark-llc-v-schedule-a/",
+  "subtitle": "District Court, W.D. Pennsylvania · 2:26-cv-01235 · filed 2026-06-05",
+  "note": "自動分流：起訴狀含 AI 關鍵詞：artificial intelligence",
+  "decidedAt": "2026-06-13T00:10:28+08:00",
+  "appliedAt": "2026-06-13T00:10:28+08:00",
+  "decidedBy": "auto-triage",
+  "listedAt": "2026-07-13T12:00:00+08:00"
+ },
+ {
+  "title": "Will-Burn Recordings & Publishing Co. v. UMG Recordings, Inc.",
+  "url": "https://www.courtlistener.com/docket/73338991/will-burn-recordings-publishing-co-v-umg-recordings-inc/",
+  "subtitle": "District Court, S.D. Alabama · 1:26-cv-00177 · filed 2026-05-13",
+  "note": "自動分流：當事人含 AI 業者：Suno",
+  "decidedAt": "2026-06-13T00:10:28+08:00",
+  "appliedAt": "2026-06-13T00:10:28+08:00",
+  "decidedBy": "auto-triage",
+  "listedAt": "2026-07-13T12:00:00+08:00"
+ },
+ {
+  "title": "Shakespeare v. Anthropic PBC",
+  "url": "https://www.courtlistener.com/docket/73494355/shakespeare-v-anthropic-pbc/",
+  "subtitle": "District Court, N.D. California · 3:26-cv-05931 · filed 2026-06-17",
+  "note": "自動分流：當事人含 AI 業者：Anthropic",
+  "decidedAt": "2026-06-22T08:00:03+08:00",
+  "appliedAt": "2026-06-22T08:00:03+08:00",
+  "decidedBy": "auto-triage",
+  "listedAt": "2026-07-13T12:00:00+08:00"
+ },
+ {
+  "title": "Apress Media, LLC v. WeLib",
+  "url": "https://www.courtlistener.com/docket/73488419/apress-media-llc-v-welib/",
+  "subtitle": "District Court, S.D. New York · 1:26-cv-05064 · filed 2026-06-16",
+  "note": "自動分流：起訴狀含 AI 關鍵詞：large language model、training data",
+  "decidedAt": "2026-06-22T08:00:03+08:00",
+  "appliedAt": "2026-06-22T08:00:03+08:00",
+  "decidedBy": "auto-triage"
+ },
+ {
+  "title": "Richner Communications, Inc. v. Microsoft Corporation",
+  "url": "https://www.courtlistener.com/docket/73528019/richner-communications-inc-v-microsoft-corporation/",
+  "subtitle": "District Court, S.D. New York · 1:26-cv-05320 · filed 2026-06-24",
+  "note": "自動分流：當事人含 AI 業者：OpenAI",
+  "decidedAt": "2026-06-29T08:00:13+08:00",
+  "appliedAt": "2026-06-29T08:00:13+08:00",
+  "decidedBy": "auto-triage",
+  "listedAt": "2026-07-13T12:00:00+08:00"
+ },
+ {
+  "title": "S.A. Jamendo v. Nvidia Corporation",
+  "url": "https://www.courtlistener.com/docket/73517096/sa-jamendo-v-nvidia-corporation/",
+  "subtitle": "District Court, N.D. California · 5:26-cv-06206 · filed 2026-06-22",
+  "note": "自動分流：起訴狀含 AI 關鍵詞：artificial intelligence、machine learning、generative、large language model",
+  "decidedAt": "2026-06-29T08:00:13+08:00",
+  "appliedAt": "2026-06-29T08:00:13+08:00",
+  "decidedBy": "auto-triage"
+ },
+ {
+  "title": "S.A. Jamendo v. Suno Inc.",
+  "url": "https://www.courtlistener.com/docket/73547746/sa-jamendo-v-suno-inc/",
+  "subtitle": "District Court, D. Massachusetts · 1:26-cv-12966 · filed 2026-06-29",
+  "note": "自動分流：當事人含 AI 業者：Suno",
+  "decidedAt": "2026-07-06T08:00:10+08:00",
+  "appliedAt": "2026-07-06T08:00:10+08:00",
+  "decidedBy": "auto-triage"
+ },
+ {
+  "title": "Hachette Book Group, Inc. v. Google LLC",
+  "url": "https://www.courtlistener.com/docket/73603888/hachette-book-group-inc-v-google-llc/",
+  "subtitle": "District Court, S.D. New York · 1:26-cv-05870 · filed 2026-07-10",
+  "note": "自動分流：起訴狀含 AI 關鍵詞：artificial intelligence、machine learning、generative、large language model",
+  "decidedAt": "2026-07-13T08:00:05+08:00",
+  "appliedAt": "2026-07-13T08:00:05+08:00",
+  "decidedBy": "auto-triage",
+  "listedAt": "2026-07-13T12:00:00+08:00"
+ },
+ {
+  "title": "Round Hill Music LP v. Suno, Inc.",
+  "url": "https://www.courtlistener.com/docket/74658569/round-hill-music-lp-v-suno-inc/",
+  "subtitle": "District Court, N.D. California · 5:26-cv-08507 · filed 2026-08-17",
+  "note": "自動分流：當事人含 AI 業者：Suno",
+  "decidedAt": "2026-08-19T08:05:04+08:00",
+  "appliedAt": "2026-08-19T08:05:04+08:00",
+  "decidedBy": "auto-triage",
+  "listedAt": "2026-08-19T08:18:15+08:00"
+ },
+ {
+  "title": "Sullivan v. OpenAI Foundation",
+  "url": "https://www.courtlistener.com/docket/74652896/sullivan-v-openai-foundation/",
+  "subtitle": "District Court, S.D. New York · 1:26-cv-06966 · filed 2026-08-14",
+  "note": "自動分流：當事人含 AI 業者：OpenAI",
+  "decidedAt": "2026-08-19T08:05:04+08:00",
+  "appliedAt": "2026-08-19T08:05:04+08:00",
+  "decidedBy": "auto-triage",
+  "listedAt": "2026-08-19T08:18:15+08:00"
+ }
 ]
