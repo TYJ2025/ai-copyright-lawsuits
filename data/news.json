@@ -6,6 +6,23 @@
   "data": {
     "items": [
       {
+        "addedAt": "2026-08-27",
+        "text": "【2026/8/17】Ziff Davis v. OpenAI（S.D.N.Y., MDL）提出第二次修正訴狀，指控 OpenAI 持續重製並衍生原告著作用於訓練與 ChatGPT 產品輸出。",
+        "url": "https://www.mlex.com/mlex/artificial-intelligence/articles/2514839/ziff-davis-files-second-amended-us-copyright-complaint-against-openai"
+      },
+      {
+        "addedAt": "2026-08-27",
+        "text": "【2026/8/26】日本経済新聞・朝日新聞 v. Perplexity AI（東京地方裁判所）繼読売新聞後追加提告，主張 Perplexity 無視 robots.txt 逕行複製與公衆送信新聞內容，兩社合計求償約 44 億日圓。",
+        "url": "https://www.itmedia.co.jp/aiplus/articles/2508/26/news100.html"
+      },
+      {
+        "addedAt": "2026-08-27",
+        "text": "【2026/8/21】Justice v. Suno（D. Mass.）Saylor 法官駁回 Suno 大部分駁回聲請：著作權侵害與 DMCA §1202 主張存活，僅田納西州消費者保護法主張遭駁回。",
+        "url": "https://news.bloomberglaw.com/ip-law/suno-fails-to-shake-musicians-copyright-suit-over-ai-training"
+      }
+    ],
+    "archive": [
+      {
         "addedAt": "2026-08-19",
         "text": "【2026/8/14】Sullivan v. OpenAI（S.D.N.Y. 1:26-cv-06966）教科書作者集體訴訟：主張教科書市場有別於一般書籍，合理使用第四因素須個別評估，另對 Microsoft 主張代位侵害。",
         "url": "https://www.courtlistener.com/docket/74652896/sullivan-v-openai-foundation/"
@@ -19,9 +36,7 @@
         "addedAt": "2026-08-19",
         "text": "【2026/8/17】Round Hill Music v. Anthropic（N.D. Cal. 5:26-cv-08505）獨立音樂出版商就 14,364 首詞曲、16,873 件錄音物提告，以 500 首代表作品為 bellwether，主張直接侵害＋§1201 規避＋§1202 移除 CMI。",
         "url": "https://www.courtlistener.com/docket/74658311/round-hill-music-lp-v-anthropic-pbc/"
-      }
-    ],
-    "archive": [
+      },
       {
         "addedAt": "2026-08-14",
         "text": "【2026/8/12】Reddit v. Anthropic PBC（舊金山高等法院 CGC-25-624813）州法院言詞辯論中，法官對 Anthropic 主張聯邦著作權法優先阻卻 Reddit 隱私與契約請求之論點表達懷疑，暗示 Anthropic 難以脫免本案",
@@ -400,5 +415,5 @@
     ]
   },
   "lastUpdatedBy": "add_news.py",
-  "lastUpdatedAt": "2026-08-19T08:18:09.345032+08:00"
+  "lastUpdatedAt": "2026-08-27T07:13:33.059242+08:00"
 }
