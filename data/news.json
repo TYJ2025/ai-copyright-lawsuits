@@ -6,6 +6,31 @@
   "data": {
     "items": [
       {
+        "addedAt": "2026-08-29",
+        "text": "【2026/8/24】Folha de S.Paulo v. Perplexity AI（巴西聖保羅法院）：繼先前對 OpenAI 提告後，再對 Perplexity 提起著作權與不正競爭訴訟，主張規避付費牆並要求即時禁令",
+        "url": "https://latamjournalismreview.org/news/folha-de-s-paulo-sues-perplexity-ai-over-copyright-infringement/"
+      },
+      {
+        "addedAt": "2026-08-29",
+        "text": "【2026/8/18】UMG/Sony v. Suno（D. Mass.）Saylor 法官准許 DMCA §1201(a) 規避訴因（YouTube 串流盜錄）成立，惟駁回原告擴增至 61,026 件錄音之聲請、維持 560 件",
+        "url": "https://www.musicbusinessworldwide.com/umg-and-sony-accuse-suno-of-pirating-youtube-via-stream-ripping-to-train-its-ai/"
+      },
+      {
+        "addedAt": "2026-08-29",
+        "text": "【2026/8/17】Justice v. Uncharted Labs (Udio)（S.D.N.Y.）Hellerstein 法官駁回獨立音樂人重新考量聲請：田納西州消保法及不公平競爭主張因著作權法優先排除，維持駁回",
+        "url": "https://www.mlex.com/mlex/intellectual-property/articles/2480677"
+      },
+      {
+        "addedAt": "2026-08-29",
+        "text": "【2026/8/14】NYT v. OpenAI 及 In re OpenAI MDL（S.D.N.Y.）OpenAI 反對制裁動議：主張未違反保存令，且原告無證據證明 ChatGPT 系統性重製其文章",
+        "url": "https://news.bloomberglaw.com/ip-law/openai-says-ny-times-seeks-sanctions-due-to-lack-of-evidence"
+      },
+      {
+        "addedAt": "2026-08-29",
+        "text": "【2026/8/25】Disney/Warner Bros. v. Midjourney（C.D. Cal.）Midjourney 具狀反駁片廠代位侵權主張：稱片廠見解為「答辯狀未載之曲解」，未達最高法院引誘侵權門檻",
+        "url": "https://www.mlex.com/mlex/intellectual-property/articles/2517986"
+      },
+      {
         "addedAt": "2026-08-27",
         "text": "【2026/8/17】Ziff Davis v. OpenAI（S.D.N.Y., MDL）提出第二次修正訴狀，指控 OpenAI 持續重製並衍生原告著作用於訓練與 ChatGPT 產品輸出。",
         "url": "https://www.mlex.com/mlex/artificial-intelligence/articles/2514839/ziff-davis-files-second-amended-us-copyright-complaint-against-openai"
@@ -415,5 +440,5 @@
     ]
   },
   "lastUpdatedBy": "add_news.py",
-  "lastUpdatedAt": "2026-08-27T07:13:33.059242+08:00"
+  "lastUpdatedAt": "2026-08-29T07:12:08.583680+08:00"
 }
