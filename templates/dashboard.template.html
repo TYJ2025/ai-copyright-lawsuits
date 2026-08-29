@@ -1784,7 +1784,8 @@
 <!-- ── Stats Bar ── -->
 <div class="stats-bar" id="statsBar"></div>
 <div class="stats-note" style="font-size:12px;line-height:1.6;color:var(--text-light);padding:8px 16px;border-top:1px dashed var(--border);">
-  📐 <strong>計數方法</strong>：本站<strong>逐案計數</strong>——每份起訴狀（docket）為一件，合併訴訟（MDL／consolidated）之主案與成員案分別列示，與 <em>ChatGPT Is Eating the World</em> 等追蹤站口徑相近。各站因更新時點與納入範圍（是否計入 DMCA／州法案件、已撤回案件等）不同，總數常有數件出入，屬正常差異。
+  📐 <strong>計數方法</strong>：本站<strong>逐案計數</strong>——每份起訴狀（docket）為一件，合併訴訟（MDL／consolidated）之主案與成員案分別列示，與 <em>ChatGPT Is Eating the World</em> 等追蹤站口徑相近。各站因更新時點與納入範圍（是否計入 DMCA／州法案件、已撤回案件等）不同，總數常有數件出入，屬正常差異。<br>
+  👥 <strong>原告企業</strong>：以「集團層級」正規化計數（例如 Dow Jones 與紐約郵報併計為 News Corp、CNN 併入 Warner Bros. Discovery），同一集團在多案提告只算一個主體、但件數累計。純由自然人（作者、藝術家、配音員等）提起之集體訴訟不計入企業原告，另依原告類型分列。
 </div>
 
 <!-- ── Stats Modal ── -->
@@ -2010,6 +2011,7 @@ function buildStats() {
   const appeals = cases.filter(c => c.status === 'appeal').length;
   const mdl = cases.filter(c => c.status === 'mdl').length;
   const defendants = [...new Set(cases.map(c => c.defendants.split(',')[0].trim()))].length;
+  const plaintiffOrgs = [...new Set(cases.flatMap(c => c.plaintiffEntities || []))].length;
   const usCases = cases.filter(c => !isNonUS(c)).length;
   const nonUSCases = cases.filter(c => isNonUS(c)).length;
   document.getElementById('statsBar').innerHTML = `
@@ -2021,6 +2023,7 @@ function buildStats() {
     <div class="stat-box" data-filter="appeal" data-chart="appeal"><div class="stat-num">${appeals}</div><div class="stat-label">上訴中 Appeal</div></div>
     <div class="stat-box" data-filter="mdl" data-chart="mdl"><div class="stat-num">${mdl}</div><div class="stat-label">MDL 合併</div></div>
     <div class="stat-box" data-filter="settled" data-chart="settled"><div class="stat-num">${settled}</div><div class="stat-label">和解 Settled</div></div>
+    <div class="stat-box" data-filter="all" data-chart="plaintiffs"><div class="stat-num">${plaintiffOrgs}</div><div class="stat-label">原告企業 Plaintiffs</div></div>
     <div class="stat-box" data-filter="all" data-chart="defendants"><div class="stat-num">${defendants}</div><div class="stat-label">被告企業 Defendants</div></div>
   `;
   // Make stat boxes clickable — show chart modal
@@ -2163,6 +2166,25 @@ function getChartData(type) {
       const html = '<div class="chart-subtitle">和解 / 駁回 / 撤回案件一覽（點擊跳至案件詳情）</div>' + settledCases.map(caseRowHTML).join('');
       return { title: '和解案件 Settled/Dismissed', subtitle: '', html };
     }
+    case 'plaintiffs': {
+      // 企業／團體原告：以 cases.json 的 plaintiffEntities（正規化至集團層級）計數
+      const allPls = [];
+      cases.forEach(c => (c.plaintiffEntities || []).forEach(p => { if (p) allPls.push(p); }));
+      const data = countMap(allPls);
+      const orgCases = cases.filter(c => (c.plaintiffEntities || []).length);
+      const indiv = cases.filter(c => !(c.plaintiffEntities || []).length);
+      const indivByType = countMap(indiv.map(c => cmpPtypeLabels[c.plaintiffType] || c.plaintiffType || '其他'));
+      const html =
+        `<div class="chart-subtitle">企業／團體原告（依提告件數排名前 20，點擊查看相關案件）</div>` +
+        renderBarChart(data, 'navy', 20, 'plaintiffEntity') +
+        `<div class="chart-subtitle" style="margin-top:18px;">另有 ${indiv.length} 件由自然人原告提起（作者、藝術家、配音員等集體訴訟），依原告類型分布如下</div>` +
+        renderBarChart(indivByType, 'orange', null, null);
+      return {
+        title: '原告企業排名 Top Plaintiffs',
+        subtitle: `${cases.length} 件案件中，${orgCases.length} 件由企業／團體具名提告，共 ${new Set(allPls).size} 個不同原告主體`,
+        html
+      };
+    }
     case 'defendants': {
       const allDefs = [];
       cases.forEach(c => {
@@ -2210,11 +2232,13 @@ function openStatsModal(type) {
 let chartDrillCountry = null;
 let chartDrillWorkType = null;
 let chartDrillDefendant = null;
+let chartDrillPlaintiffEntity = null;
 
 function clearChartDrill() {
   chartDrillCountry = null;
   chartDrillWorkType = null;
   chartDrillDefendant = null;
+  chartDrillPlaintiffEntity = null;
 }
 
 function drillIntoCases(drill, value) {
@@ -2229,6 +2253,9 @@ function drillIntoCases(drill, value) {
   if (drill === 'defendant') {
     activeFilter = 'all';
     chartDrillDefendant = value;
+  } else if (drill === 'plaintiffEntity') {
+    activeFilter = 'all';
+    chartDrillPlaintiffEntity = value;
   } else if (drill === 'country') {
     activeFilter = 'non-us';
     chartDrillCountry = value;
@@ -2352,6 +2379,7 @@ function renderCaseList() {
   const pFilter = document.getElementById('filterPlaintiff')?.value || 'all';
   // Sync drill banner
   if (chartDrillDefendant) showDrillBanner(`被告 = ${chartDrillDefendant}`);
+  else if (chartDrillPlaintiffEntity) showDrillBanner(`原告 = ${chartDrillPlaintiffEntity}`);
   else if (chartDrillWorkType) showDrillBanner(`類型 = ${chartDrillWorkType}`);
   else if (chartDrillCountry) showDrillBanner(`國別 = ${chartDrillCountry}`);
   else hideDrillBanner();
@@ -2367,6 +2395,8 @@ function renderCaseList() {
       const ds = c.defendants.split(',').map(d => normalizeDefendant(d));
       if (!ds.includes(chartDrillDefendant)) return false;
     }
+    // Chart drill: plaintiff entity（比對 cases.json 的 plaintiffEntities）
+    if (chartDrillPlaintiffEntity && !(c.plaintiffEntities || []).includes(chartDrillPlaintiffEntity)) return false;
     // Chart drill: workType
     if (chartDrillWorkType && classifyWorkType(c) !== chartDrillWorkType) return false;
     // Chart drill: country
@@ -2378,7 +2408,7 @@ function renderCaseList() {
     // Advanced: Plaintiff
     if (pFilter !== 'all' && classifyPlaintiff(c) !== pFilter) return false;
     // Text search
-    if (q && !c.name.toLowerCase().includes(q) && !c.court.toLowerCase().includes(q) && !c.judge.toLowerCase().includes(q) && !c.defendants.toLowerCase().includes(q)) return false;
+    if (q && !c.name.toLowerCase().includes(q) && !c.court.toLowerCase().includes(q) && !c.judge.toLowerCase().includes(q) && !c.defendants.toLowerCase().includes(q) && !(c.plaintiffs || '').toLowerCase().includes(q)) return false;
     return true;
   });
   list.innerHTML = filtered.map(c => `
@@ -2466,7 +2496,7 @@ function showDetail(id) {
       <div class="detail-title">${c.name}</div>
       <div class="detail-court">
         ${statusBadge(c.status)}
-        &nbsp; ${c.court} &nbsp;|&nbsp; Judge ${c.judge} &nbsp;|&nbsp; 被告: ${c.defendants}
+        &nbsp; ${c.court} &nbsp;|&nbsp; Judge ${c.judge}${c.plaintiffs ? ' &nbsp;|&nbsp; 原告: ' + escapeHTML(c.plaintiffs) : ''} &nbsp;|&nbsp; 被告: ${c.defendants}
       </div>
       <div class="claim-tags">
         ${c.claims.map(cl => claimTag(cl)).join('')}
@@ -3042,6 +3072,7 @@ function renderComparison() {
   h += row('原告類型', sel.map(c => cmpPtypeLabels[c.plaintiffType] || c.plaintiffType || '—'));
   h += row('管轄/法院', sel.map(c => `${c.country || ''} ${c.court}`));
   h += row('法官 Judge', sel.map(c => c.judge || '—'));
+  h += row('原告', sel.map(c => c.plaintiffs || '—'));
   h += row('被告', sel.map(c => c.defendants || '—'));
   if (common.length) {
     h += `<tr><td class="cmp-rowlabel">共同主張</td><td colspan="${n}">${common.map(cl => claimTag(cl)).join(' ')}</td></tr>`;
