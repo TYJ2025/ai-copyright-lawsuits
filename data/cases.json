@@ -6325,7 +6325,7 @@
    ],
    "defendants": "Perplexity AI, Inc.",
    "issues": "CNN（Cable News Network）於 2026 年 5 月 28 日對 AI 答案引擎 Perplexity 提起訴訟，為全美首件由電視新聞網對 AI 公司發動的著作權訴訟。CNN 指控 Perplexity 未經授權「爬取、抓取、複製並散布」逾 17,000 件 CNN 新聞報導、照片與影片，用以建構其「AI 優先搜尋索引（AI-first search index）」，即時供大型語言模型形成查詢回應。\n\n核心爭點：(1) AI 搜尋引擎即時擷取並重述新聞內容，是否構成著作權侵害與市場替代；(2) Perplexity 主張的「事實不受著作權保護（you can't copyright facts）」抗辯能否成立；(3) 依《Lanham Act》，Perplexity 使用 CNN 聯邦註冊商標是否致生混淆、誤認或欺騙。",
-   "progress": "【2026/5/28】CNN 於紐約南區聯邦地院（S.D.N.Y.）提起訴訟，案號 1:26-cv-04427，由 Rothwell, Figg, Ernst & Manbeck 律所代理、Steven Lieberman 律師具名。Nature of Suit 820（著作權），cause 17 U.S.C. §501（著作權侵害）。截至立案時法官尚未指派（Unassigned）。\n\nCNN 主張曾於 2025 年與 Perplexity 進行授權談判但破裂，其後續商業利用屬「明知未獲授權」之故意侵權，請求法定損害賠償與永久禁制令。Perplexity 通訊長 Jesse Dwyer 回應「事實無從受著作權保護」。\n\n本案與同院的 NYT v. Perplexity（1:25-cv-10106）、Chicago Tribune v. Perplexity（1:25-cv-10094）相關，並與 Dow Jones（WSJ／NY Post）、Encyclopaedia Britannica、Reddit、Amazon 等對 Perplexity 之多線訴訟共構壓力——新聞媒體 ↔ AI 答案引擎戰線首度延伸至電視網領域。",
+   "progress": "【2026/5/28】CNN 於紐約南區聯邦地院（S.D.N.Y.）提起訴訟，案號 1:26-cv-04427，由 Rothwell, Figg, Ernst & Manbeck 律所代理、Steven Lieberman 律師具名。Nature of Suit 820（著作權），cause 17 U.S.C. §501（著作權侵害）。截至立案時法官尚未指派（Unassigned）。\n\nCNN 主張曾於 2025 年與 Perplexity 進行授權談判但破裂，其後續商業利用屬「明知未獲授權」之故意侵權，請求法定損害賠償與永久禁制令。Perplexity 通訊長 Jesse Dwyer 回應「事實無從受著作權保護」。\n\n本案與同院的 NYT v. Perplexity（1:25-cv-10106）、Chicago Tribune v. Perplexity（1:25-cv-10094）相關，並與 Dow Jones（WSJ／NY Post）、Encyclopaedia Britannica、Reddit、Amazon 等對 Perplexity 之多線訴訟共構壓力——新聞媒體 ↔ AI 答案引擎戰線首度延伸至電視網領域。\n\n【2026/8/24】Perplexity 具狀聲請大幅刪減 CNN 著作權訴訟，主張其 answer engine 自動生成回覆不負侵權責任",
    "taiwan": "本案對台灣的啟示：\n\n1. **「AI 答案引擎即時重述新聞」之定性**——Perplexity 模式不同於以新聞訓練 LLM，而是即時擷取、摘要並取代使用者點閱原文。台灣新聞媒體（中央社、聯合報系、三立、TVBS）若面臨類似 AI 摘要服務，可參考本案爭點主張著作權法第 22 條重製權與第 26 條之 1 公開傳輸權之侵害，並評估「市場替代」對訂閱與廣告收益之衝擊。\n\n2. **「事實不受著作權保護」抗辯之界線**——Perplexity 之核心抗辯為事實與時事報導不受保護，呼應台灣著作權法第 9 條第 1 項第 4 款「單純為傳達事實之新聞報導所作成之語文著作」不得為著作權標的。惟新聞之編輯、評論、攝影、影片仍受保護，台灣實務須區辨「事實」與「具原創性表達」之界線。\n\n3. **商標與著作權交錯**——CNN 並依《Lanham Act》主張商標侵害。台灣媒體品牌（新聞台台徽、欄目名稱）若遭 AI 服務於生成結果中使用致生來源混淆，可併行主張商標法第 68 條侵害與公平交易法爭議。\n\n4. **授權談判破裂後之故意侵權**——本案凸顯「先談授權、破裂後仍使用」可能強化故意侵權與懲罰性賠償之認定。台灣 AI 業者與內容方協商授權時，應留存談判紀錄並審慎評估談判破裂後之資料使用風險。",
    "jurisdiction": "us",
    "country": "🇺🇸 美國",
@@ -6336,7 +6336,7 @@
    "sourceCount": 0,
    "docket": 73402641,
    "filedAt": null,
-   "updatedAt": "2026-08-04",
+   "updatedAt": "2026-08-30",
    "claimsDetail": null,
    "claimsVerifiedAt": null
   },

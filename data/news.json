@@ -6,6 +6,16 @@
   "data": {
     "items": [
       {
+        "addedAt": "2026-08-30",
+        "text": "【2026/8/24】CNN v. Perplexity AI（S.D.N.Y.）：Perplexity 具狀聲請大幅刪減 CNN 著作權訴訟，主張其「answer engine」自動生成回覆不負侵權責任",
+        "url": "https://www.law360.com/articles/2517051/ai-co-perplexity-moves-to-trim-cnn-infringement-suit"
+      },
+      {
+        "addedAt": "2026-08-30",
+        "text": "【2026/8/29】Sony Music Publishing、Warner Chappell Music v. Anthropic（N.D. Cal.）：兩大音樂出版商提告，並將 CEO Dario Amodei、共同創辦人 Benjamin Mann 列為個人被告，指控非法 torrenting 數百萬本書籍（含歌詞樂譜）訓練 Claude、移除著作權管理資訊",
+        "url": "https://techcrunch.com/2026/08/29/sony-music-warner-sue-anthropic-alleging-a-brazen-campaign-of-intellectual-property-theft/"
+      },
+      {
         "addedAt": "2026-08-29",
         "text": "【2026/8/24】Folha de S.Paulo v. Perplexity AI（巴西聖保羅法院）：繼先前對 OpenAI 提告後，再對 Perplexity 提起著作權與不正競爭訴訟，主張規避付費牆並要求即時禁令",
         "url": "https://latamjournalismreview.org/news/folha-de-s-paulo-sues-perplexity-ai-over-copyright-infringement/"
@@ -29,7 +39,9 @@
         "addedAt": "2026-08-29",
         "text": "【2026/8/25】Disney/Warner Bros. v. Midjourney（C.D. Cal.）Midjourney 具狀反駁片廠代位侵權主張：稱片廠見解為「答辯狀未載之曲解」，未達最高法院引誘侵權門檻",
         "url": "https://www.mlex.com/mlex/intellectual-property/articles/2517986"
-      },
+      }
+    ],
+    "archive": [
       {
         "addedAt": "2026-08-27",
         "text": "【2026/8/17】Ziff Davis v. OpenAI（S.D.N.Y., MDL）提出第二次修正訴狀，指控 OpenAI 持續重製並衍生原告著作用於訓練與 ChatGPT 產品輸出。",
@@ -44,9 +56,7 @@
         "addedAt": "2026-08-27",
         "text": "【2026/8/21】Justice v. Suno（D. Mass.）Saylor 法官駁回 Suno 大部分駁回聲請：著作權侵害與 DMCA §1202 主張存活，僅田納西州消費者保護法主張遭駁回。",
         "url": "https://news.bloomberglaw.com/ip-law/suno-fails-to-shake-musicians-copyright-suit-over-ai-training"
-      }
-    ],
-    "archive": [
+      },
       {
         "addedAt": "2026-08-19",
         "text": "【2026/8/14】Sullivan v. OpenAI（S.D.N.Y. 1:26-cv-06966）教科書作者集體訴訟：主張教科書市場有別於一般書籍，合理使用第四因素須個別評估，另對 Microsoft 主張代位侵害。",
@@ -440,5 +450,5 @@
     ]
   },
   "lastUpdatedBy": "add_news.py",
-  "lastUpdatedAt": "2026-08-29T07:12:08.583680+08:00"
+  "lastUpdatedAt": "2026-08-30T07:10:26.922657+08:00"
 }
