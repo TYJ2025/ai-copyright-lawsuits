@@ -3633,6 +3633,20 @@ const caseSources = {
       "label": "起訴狀 Complaint",
       "url": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.670598/gov.uscourts.nysd.670598.1.0_1.pdf"
     }
+  ],
+  "166": [
+    {
+      "label": "LatAm Journalism Review — Folha sues Perplexity AI",
+      "url": "https://latamjournalismreview.org/news/folha-de-s-paulo-sues-perplexity-ai-over-copyright-infringement/"
+    },
+    {
+      "label": "Consultor Jurídico — Folha aciona Justiça contra IA（含案號）",
+      "url": "https://conjur.com.br/2026-ago-25/folha-aciona-justica-contra-ia-por-uso-indevido-de-seus-conteudos/"
+    },
+    {
+      "label": "Meio & Mensagem — Folha abre processo contra Perplexity AI",
+      "url": "https://www.meioemensagem.com.br/midia/folha-abre-processo-contra-perplexity-ai"
+    }
   ]
 };
 
@@ -9387,6 +9401,37 @@ const cases = [
     "docket": null,
     "filedAt": null,
     "updatedAt": null,
+    "claimsDetail": null,
+    "claimsVerifiedAt": null
+  },
+  {
+    "id": 166,
+    "name": "Folha de S.Paulo v. Perplexity AI（巴西）",
+    "court": "Tribunal de Justiça de São Paulo (TJSP) — 3ª Vara Empresarial e Conflitos de Arbitragem, Foro Central Cível, Brazil",
+    "judge": "TBA",
+    "status": "active",
+    "claims": [
+      "Direct Copyright",
+      "Unfair Competition"
+    ],
+    "plaintiffs": "Folha de S.Paulo（巴西最大報，Folha da Manhã S.A.）",
+    "plaintiffEntities": [
+      "Folha de S.Paulo"
+    ],
+    "defendants": "Perplexity AI, Inc.",
+    "issues": "巴西最大發行量報紙《Folha de S.Paulo》於 2026 年 8 月 24 日向聖保羅中央民事法庭第 3 商事暨仲裁爭議專庭提起訴訟（案號：4156087-96.2026.8.26.0100），為 Folha 繼 2025 年 8 月對 OpenAI 提告（本站案 122）後，對 AI 業者提起之第二件訴訟，亦為巴西第二件針對生成式 AI 的重大著作權訴訟。\n\n本案主張 Perplexity 以自動化爬蟲（bots）規避 Folha 之付費牆，未經授權擷取、儲存並重製其獨家報導，用於訓練及即時生成 AI 回答，構成著作權侵害；並以 AI 生成之摘要替代原始新聞，剝奪 Folha 之流量與授權收益，構成不正競爭。\n\n本案特點：\n(1) 主張「規避付費牆」之技術性存取行為本身即屬不法，與美國 Dow Jones v. Perplexity、CNN v. Perplexity 等案側重輸出端重製之論理路徑不同；\n(2) 沿襲 Folha v. OpenAI 之策略，並列著作權與不正競爭雙重請求權基礎，並請求銷毀使用其內容之 AI 模型（巴西著作權法第 106 條）；\n(3) 併請求損害賠償、所失利益（lucros cessantes）及不停止使用時之按日罰金。\n\n【救濟與程序聲明】救濟請求：停止未經授權之存取與擷取、損害賠償及所失利益、銷毀模型、按日罰金。原告訴訟代理人為 Taís Borja Gasparian 律師。",
+    "progress": "【2026/8/24】Folha 向聖保羅中央民事法庭第 3 商事暨仲裁爭議專庭提起訴訟（案號 4156087-96.2026.8.26.0100），主張 Perplexity 以 bots 規避付費牆擷取其報導，請求停止擷取、損害賠償與所失利益、銷毀模型並課予按日罰金。\n\n【2026/8/25】承審法官命 Perplexity 於 72 小時內就聲請事項提出說明，緊急保全（tutela de urgência）聲請尚未裁定。",
+    "taiwan": "本案對台灣的啟示：\n\n1. 以「規避付費牆之未經授權存取」為核心的主張，把爭點從輸出端的重製前移到取得端的技術性存取。台灣除著作權法外，另可思考刑法第 358 條無故入侵電腦罪、第 359 條無故取得電磁紀錄罪，以及網站服務條款之契約請求，在訓練資料來源合法性的攻防上與著作權主張並行。\n2. 同一原告先後對 OpenAI（案 122）與 Perplexity 提告，顯示新聞出版者採「逐一鎖定不同技術型態業者」之策略：前者針對模型訓練，後者針對即時檢索與摘要（RAG）。台灣媒體如評估類似行動，兩種樣態的證據方法與損害計算並不相同。\n3. 「銷毀 AI 模型」請求在巴西著作權法第 106 條有明文依據；台灣著作權法第 88 條之 1 之銷毀客體是否及於模型權重，仍待解釋，本案與案 122 的裁判結果可作為比較法觀察點。\n4. 不正競爭部分可對照公平交易法第 25 條；以 AI 摘要替代原始新聞而截取流量，是否構成足以影響交易秩序之顯失公平行為，值得關注。",
+    "jurisdiction": "other",
+    "country": "🇧🇷 巴西",
+    "technology": "search",
+    "plaintiffType": "media",
+    "workType": "新聞媒體 News",
+    "isNonUS": true,
+    "sourceCount": 3,
+    "docket": null,
+    "filedAt": "2026-08-24",
+    "updatedAt": "2026-08-29",
     "claimsDetail": null,
     "claimsVerifiedAt": null
   },
