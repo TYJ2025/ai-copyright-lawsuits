@@ -1,6 +1,6 @@
 # Case 47 — DENIAL v. OpenAI, Inc.
 
-> 最後更新（CourtListener fetch）：2026-04-27 03:15 UTC
+> 最後更新（CourtListener fetch）：2026-09-01 01:22 UTC
 
 ---
 
@@ -14,7 +14,7 @@
 | Judge Assigned | Sidney H. Stein |
 | Judge Referred | Ona T. Wang |
 | Date Filed | 2025-07-30 |
-| Date Last Filing | 2026-04-07 |
+| Date Last Filing | 2026-08-12 |
 | Cause | 17:501 Copyright Infringement |
 | Nature of Suit | Copyright |
 | Jury Demand | Plaintiff |
@@ -26,19 +26,151 @@
 > Dashboard 卡片宣告：
 
 > - Court=MDL Before Judge Stein (Originally N.D. Cal.)
-> - Judge=Stein
+> - Judge=Sidney H. Stein
 > - Status=active
 > - Progress=案件於 2024 年在加州北區提起，後轉入南紐約 MDL。法院已駁回部分 CFAA 主張，但允許其他主張進行。預計於 2026 年下半年進行駁回動議聽證會。本案的 CFAA 策略已被其他原告效仿。
 
 **自動比對結果：**
 
 - ⚠️ Court 可能不一致：dashboard 寫「MDL Before Judge Stein (Originally N.D. Cal.)」，CourtListener 為「S.D. New York」
-- ✅ Judge 一致：dashboard 寫「Stein」，CourtListener 為「Sidney H. Stein」
-- ℹ️ Dashboard progress 內找不到【YYYY/M/D】格式日期；CourtListener 最後 entry: 2026-04-07
+- ✅ Judge 一致：dashboard 寫「Sidney H. Stein」，CourtListener 為「Sidney H. Stein」
+- ℹ️ Dashboard progress 內找不到【YYYY/M/D】格式日期；CourtListener 最後 entry: 2026-08-12
 
 ## 3. Docket Entries（最新優先，已過濾程序性 entries）
 
-**實質性 entries**：90 筆／**已過濾程序性 entries**：10 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+**實質性 entries**：183 筆／**已過濾程序性 entries**：17 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+
+### 📄 Doc #151 — 2026-08-12
+
+Memo Endorsement
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70970233/151/denial-v-openai-inc/)
+
+### 📄 Doc #149 — 2026-08-07
+
+Order AND ~Util - Set Deadlines
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70970233/149/denial-v-openai-inc/)
+
+### 📄 Doc #150 — 2026-08-07
+
+Order AND ~Util - Set Deadlines
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70970233/150/denial-v-openai-inc/)
+
+### 📄 Doc #147 — 2026-08-05
+
+Letter
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70970233/147/denial-v-openai-inc/)
+
+### 📄 Doc #148 — 2026-08-05
+
+Proposed Stipulation and Order
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70970233/148/denial-v-openai-inc/)
+
+### 📄 Doc #146 — 2026-07-14
+
+Order
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70970233/146/denial-v-openai-inc/)
+
+### 📄 Doc #— — 2026-07-14
+
+Order on Motion for Leave to File Document
+
+### 📄 Doc #— — 2026-07-13
+
+Notice Regarding Pro Hac Vice Motion
+
+### 📄 Doc #144 — 2026-07-10
+
+Proposed Order admitting Johnathan J. Vaknin Pro Hac Vice
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70970233/144/3/denial-v-openai-inc/)
+
+### 📄 Doc #142 — 2026-07-01
+
+Transcript
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70970233/142/denial-v-openai-inc/)
+
+### 📄 Doc #143 — 2026-07-01
+
+Notice of Filing Transcript
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70970233/143/denial-v-openai-inc/)
+
+### 📄 Doc #141 — 2026-06-02
+
+ORDER terminating (1184) Letter Motion for Discovery in case 1:23-cv-08292-SHS-OTW; terminating (1582) Letter Motion for Discovery in case 1:25-md-03143-SHS-OTW. OpenAI is directed to produce the Exhibits FORTHWITH. If they are not produced by June 3, 2026 at 5pm Eastern, sanctions shall accrue at the rate of $100/day, without prejudice to any future motion or award of sanctions on this or any other issue. So ordered. (Signed by Magistrate Judge Ona T. Wang on 6/2/2026) Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al. (jjc) (Entered: 06/02/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70970233/141/denial-v-openai-inc/)
+
+### 📄 Doc #140 — 2026-06-02
+
+MEMO ENDORSEMENT on [1191 in 1:25-md-03143-SHS-OTW] MOTION TO WITHDRAW AS COUNSEL OF RECORD. ENDORSEMENT: SO ORDERED. Motions terminated: (362 in 1:25-cv-04315-SHS-OTW, 303 in 1:25-cv-03297-SHS-OTW, 749 in 1:25-cv-03482-SHS-OTW, 969 in 1:23-cv-08292-SHS-OTW, 360 in 1:24-cv-01514-SHS-OTW, 1191 in 1:25-md-03143-SHS-OTW, 394 in 1:24-cv-01515-SHS-OTW) MOTION for Andrew L. Perito, Brian M. Kramer, Drew Alan Hillier, John R. Lanham, Alexandra Ward, Joyce C. Li, Allyson Bennett, Vera Ranieri, and Max I. Levy to Withdraw as Attorney . filed by OpenAI, Inc., OpenAI GP LLC, OpenAI Startup Fund GP I LLC, OpenAI LP, OAI Corporation LLC, OpenAI OpCo, L.L.C., OpenAI Startup Fund I LP, OpenAI GP, LLC, OpenAI Holdings LLC, OpenAI OpCo LLC, OpenAI, LLC, OpenAI Holdings, LLC, OpenAI Global LLC, OpenAI Inc., OpenAI LLC, OpenAI Startup Fund Management LLC, OpenAI Global, L.L.C., OAI Corporation, OAI Corporation, LLC. (Signed by Magistrate Judge Ona T. Wang on 6/2/2026) Filed In Associated Cases: 1:25-md-0 …(truncated)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70970233/140/denial-v-openai-inc/)
+
+### 📄 Doc #139 — 2026-05-29
+
+ORDER re: (1574 in 1:25-md-03143-SHS-OTW) Letter, filed by The New York Times Company, (1576 in 1:25-md-03143-SHS-OTW) Letter, filed by Microsoft Corporation. The Court has reviewed ECF 1574 and 1576. If Plaintiffs seek relief, they are directed to file their request as a gaveled motion. (HEREBY ORDERED by Magistrate Judge Ona T. Wang) (Text Only Order) Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al. (Wang, Ona) (Entered: 05/29/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70970233/139/denial-v-openai-inc/)
+
+### 📄 Doc #— — 2026-05-29
+
+Order
+
+### 📄 Doc #138 — 2026-05-26
+
+ORDER in case 1:23-cv-08292-SHS-OTW; denying without prejudice (1568) Letter Motion to Compel in case 1:25-md-03143-SHS-OTW. The Court is in receipt of Microsoft's "Emergency letter motion" to compel The New York Times to produce raw brand tracker survey data. (ECF 1570). The parties are directed to continue their meet and confer efforts in accordance with the guidance provided at the May 12, 2026 conference, and to file a joint status letter by Thursday, May 28, 2026. The joint letter shall include any information provided by Kantar. (HEREBY ORDERED by Magistrate Judge Ona T. Wang)(Text Only Order) Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al. (Entered: 05/26/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70970233/138/denial-v-openai-inc/)
+
+### 📄 Doc #— — 2026-05-26
+
+Order on Motion to Compel
+
+### 📄 Doc #137 — 2026-05-22
+
+ORDER: The Court writes to clarify its written Order dated May 15, 2026, which ordered OpenAI to log evaluations that post-date the litigation. (ECF 1551). As reasoned at the May 12, 2026, Conference, this request is DENIED without prejudice for Plaintiffs to raise at a later date. This Order supersedes the directive to log the evaluations at this time. SO ORDERED. (Signed by Magistrate Judge Ona T. Wang on 5/22/2026) Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al. (rro) (Entered: 05/22/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70970233/137/denial-v-openai-inc/)
+
+### 📄 Doc #135 — 2026-05-21
+
+SEALING ORDER: Accordingly, the Clerk of the Court is respectfully directed to seal the following docket entries to be visible to the Court only, pending Microsoft's motion to seal the privileged documents: ECF 546 in 25-md-3143; ECF 638 in 23-cv-8292; and ECF 495 in 23-cv-10211. Microsoft is directed to file a motion to seal by Friday, June 5, 2026. The public, redacted version of ECF 546 shall remain unsealed and is found at ECF 547. SO ORDERED. ( Motions due by 6/5/2026.) (Signed by Magistrate Judge Ona T. Wang on 5/21/2026) (vfr) (Entered: 05/21/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70970233/135/denial-v-openai-inc/)
+
+### 📄 Doc #136 — 2026-05-21
+
+OPINION & ORDER RE: DEPOSITION TRANSCRIPTS FROM MUSK V. ALTMAN (4:24-cv-4722) (YGR) (N.D. CAL.) re: (1449 in 1:25-md-03143-SHS-OTW) (1120 in 1:23-cv-08292-SHS-OTW LETTER MOTION for Discovery re: Supplemental Brief per Court's Dkt. 1428 Order addressed to Magistrate Judge Ona T. Wang from Justin A. Nelson and Davida Brook dated March 20, 2026. filed by Authors Guild, The New York Times Company. Finally, OpenAI's protestation that "[o]f particular import here, the individual witnesses whose transcripts Plaintiffs seek have already been deposed in this matter," is illogical. (ECF 1451 at 2) (emphasis in original). It is precisely because these witnesses were already deposed in this case that Plaintiffs seek their prior inconsistent statements for impeachment purposes. OpenAI cannot shield from discovery relevant evidence that is uniquely in its possession by claiming that the request constitutes "cross-production;" there is no wholesale bar from producing evidence in one case that was obt …(truncated)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70970233/136/denial-v-openai-inc/)
+
+### 📄 Doc #134 — 2026-05-15
+
+ORDER: in case 1:23-cv-08292-SHS-OTW; denying without prejudice (1358) Letter Motion to Compel; denying as moot (1364) Letter Motion to Compel; terminating (1368) Letter Motion to Compel; granting (1369) Letter Motion to Compel in case 1:23-cv-11195-SHS-OTW; denying as moot (472) Letter Motion to Compel; terminating (474) Letter Motion to Compel in case 1:24-cv-01515-SHS-OTW; denying as moot (712) Letter Motion to Compel; terminating (714) Letter Motion to Compel in case 1:24-cv-03285-SHS-OTW; denying as moot (586) Letter Motion to Compel; terminating (588) Letter Motion to Compel in case 1:24-cv-04872-SHS-OTW; denying without prejudice (1506) Letter Motion to Compel; denying as moot (1513) Letter Motion to Compel; terminating (1518) Letter Motion to Compel; granting (1520) Letter Motion to Compel in case 1:25-md-03143-SHS-OTW; denying as moot (520) Letter Motion to Compel; terminating (522) Letter Motion to Compel in case 1:25-cv-04315-SHS-OTW The Court held a discovery status confere …(truncated)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70970233/134/denial-v-openai-inc/)
+
+### 📄 Doc #— — 2026-05-13
+
+Status Conference
+
+### 📄 Doc #— — 2026-05-12
+
+Minute Entry for proceedings held before Magistrate Judge Ona T. Wang: Status Conference held on 5/12/2026. Associated Cases: 1:25-md-03143-SHS-OTW et al.(Quinn, Diane)
+
+### 📄 Doc #133 — 2026-05-12
+
+ORDER: The Court has reviewed the parties' briefing concerning OpenAI's clawback and redaction of the document related to the "Multimodal Data Sources project." (ECF Nos. 1517, 1519, 1531). OpenAI is hereby directed to file a letter brief in support of its motion for a protective order, not to exceed three pages, along with the disputed document, and the related document if necessary, for in camera review by Friday, May 15, 2026. Opposition to the motion is due Tuesday, May 19, 2026.If parties are able to resolve this issue, they shall file a joint status letter no later than May 15, 2026, apprising the Court of such resolution.SO ORDERED. ( Responses due by 5/19/2026) (Signed by Magistrate Judge Ona T. Wang on 5/12/2026) Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al. (rro) (Entered: 05/12/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70970233/133/denial-v-openai-inc/)
 
 ### 📄 Doc #132 — 2026-04-07
 
@@ -302,17 +434,17 @@ LETTER MOTION for Discovery CORRECTED Plaintiffs' Motion for Additional Depositi
 
 [CourtListener 連結](https://www.courtlistener.com/docket/70970233/94/3/denial-v-openai-inc/)
 
+### 📄 Doc #92 — 2026-01-30
+
+REDACTION to (61 in 1:25-cv-09912-SHS, 1185 in 1:23-cv-11195-SHS-OTW) LETTER MOTION to Compel Open AI to Produce Musk Discovery addressed to Magistrate Judge Ona T. Wang from Davida Brook and Justin Nelson dated January 30, 2026. by Authors Guild, The New York Times Company (Attachments: # 1 Exhibit A, # 2 Exhibit B, # 3 Exhibit C, # 4 Exhibit D)Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Brook, Davida) (Entered: 01/30/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70970233/92/4/denial-v-openai-inc/)
+
 ### 📄 Doc #91 — 2026-01-30
 
 ***SELECTED PARTIES*** LETTER MOTION to Compel Open AI to Produce Musk Discovery addressed to Magistrate Judge Ona T. Wang from Davida Brook and Justin Nelson dated January 30, 2026. Document filed by Authors Guild, The New York Times Company. (Attachments: # 1 Exhibit B, # 2 Exhibit C, # 3 Exhibit D)Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al.Motion or Order to File Under Seal: 1199 .(Brook, Davida) (Entered: 01/30/2026)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/70970233/91/denial-v-openai-inc/)
-
-### 📄 Doc #92 — 2026-01-30
-
-REDACTION to (61 in 1:25-cv-09912-SHS, 1185 in 1:23-cv-11195-SHS-OTW) LETTER MOTION to Compel Open AI to Produce Musk Discovery addressed to Magistrate Judge Ona T. Wang from Davida Brook and Justin Nelson dated January 30, 2026. by Authors Guild, The New York Times Company (Attachments: # 1 Exhibit A, # 2 Exhibit B, # 3 Exhibit C, # 4 Exhibit D)Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Brook, Davida) (Entered: 01/30/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/70970233/92/denial-v-openai-inc/)
 
 ### 📄 Doc #88 — 2026-01-30
 
@@ -404,6 +536,12 @@ ORDER denying without prejudice (1103) Letter Motion for Discovery in case 1:23-
 
 [CourtListener 連結](https://www.courtlistener.com/docket/70970233/79/denial-v-openai-inc/)
 
+### 📄 Doc #78 — 2026-01-08
+
+DECLARATION of Edward Bayley re: (1126 in 1:25-md-03143-SHS-OTW) Response in Opposition to Motion,, // Declaration of Edward Bayley in Support of OpenAI Defendants' Opposition to News Plaintiffs' Motion at MDL ECF 1061., DECLARATION of Edward Bayley in Support re: (1126 in 1:25-md-03143-SHS-OTW) Response in Opposition to Motion,,. Document filed by OAI Corporation, LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Holdings, LLC, OpenAI LLC, OpenAI LP, OpenAI OpCo LLC, OpenAI Startup Fund GP I LLC, OpenAI Startup Fund I LP, OpenAI Startup Fund Management LLC, OpenAI, Inc., OpenAI, LLC. (Attachments: # 1 Exhibit A - September 12, 2025 Letter, # 2 Exhibit B - September 2025 Correspondence with News Plaintiffs, # 3 Exhibit C - December 2025 Correspondence with Class Plaintiffs [Redacted], # 4 Exhibit D - December 2025 Correspondence with News Plaintiffs, # 5 Exhibit E - Responses and Objections to Daily News Interrogatories [Redacted])Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(N …(truncated)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70970233/78/5/denial-v-openai-inc/)
+
 ### 📄 Doc #76 — 2026-01-08
 
 LETTER RESPONSE in Opposition to Motion addressed to Magistrate Judge Ona T. Wang from Margaret Graham, Edward A. Bayley, and Rose S. Lee dated January 7, 2026 re: (1061 in 1:25-md-03143-SHS-OTW) LETTER MOTION for Discovery addressed to Magistrate Judge Ona T. Wang from Steven Lieberman and Davida Brook dated January 5, 2026. . Document filed by OAI Corporation, LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Holdings, LLC, OpenAI LLC, OpenAI LP, OpenAI OpCo LLC, OpenAI Startup Fund GP I LLC, OpenAI Startup Fund I LP, OpenAI Startup Fund Management LLC, OpenAI, Inc., OpenAI, LLC. Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Nightingale Dawson, Elana) (Entered: 01/08/2026)
@@ -415,12 +553,6 @@ LETTER RESPONSE in Opposition to Motion addressed to Magistrate Judge Ona T. Wan
 DECLARATION of John Vincent Monaco re: (1126 in 1:25-md-03143-SHS-OTW) Response in Opposition to Motion,, // Declaration of John Vincent Monaco in Support of OpenAI Defendants' Opposition to News Plaintiffs' Motion at MDL ECF 1061., DECLARATION of John Vincent Monaco in Support re: (1126 in 1:25-md-03143-SHS-OTW) Response in Opposition to Motion,,. Document filed by OAI Corporation, LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Holdings, LLC, OpenAI LLC, OpenAI LP, OpenAI OpCo LLC, OpenAI Startup Fund GP I LLC, OpenAI Startup Fund I LP, OpenAI Startup Fund Management LLC, OpenAI, Inc., OpenAI, LLC. Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Nightingale Dawson, Elana) (Entered: 01/08/2026)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/70970233/77/denial-v-openai-inc/)
-
-### 📄 Doc #78 — 2026-01-08
-
-DECLARATION of Edward Bayley re: (1126 in 1:25-md-03143-SHS-OTW) Response in Opposition to Motion,, // Declaration of Edward Bayley in Support of OpenAI Defendants' Opposition to News Plaintiffs' Motion at MDL ECF 1061., DECLARATION of Edward Bayley in Support re: (1126 in 1:25-md-03143-SHS-OTW) Response in Opposition to Motion,,. Document filed by OAI Corporation, LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Holdings, LLC, OpenAI LLC, OpenAI LP, OpenAI OpCo LLC, OpenAI Startup Fund GP I LLC, OpenAI Startup Fund I LP, OpenAI Startup Fund Management LLC, OpenAI, Inc., OpenAI, LLC. (Attachments: # 1 Exhibit A - September 12, 2025 Letter, # 2 Exhibit B - September 2025 Correspondence with News Plaintiffs, # 3 Exhibit C - December 2025 Correspondence with Class Plaintiffs [Redacted], # 4 Exhibit D - December 2025 Correspondence with News Plaintiffs, # 5 Exhibit E - Responses and Objections to Daily News Interrogatories [Redacted])Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(N …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/70970233/78/denial-v-openai-inc/)
 
 ### 📄 Doc #— — 2026-01-08
 
@@ -536,8 +668,378 @@ TRANSCRIPT of Proceedings re: CONFERENCE held on 10/29/2025 before Magistrate Ju
 
 [CourtListener 連結](https://www.courtlistener.com/docket/70970233/56/denial-v-openai-inc/)
 
+### 📄 Doc #57 — 2025-11-19
+
+NOTICE OF FILING OF OFFICIAL TRANSCRIPT Notice is hereby given that an official transcript of a CONFERENCE proceeding held on 10/29/2025 has been filed by the court reporter/transcriber in the above-captioned matter. The parties have seven (7) calendar days to file with the court a Notice of Intent to Request Redaction of this transcript. If no such Notice is filed, the transcript may be made remotely electronically available to the public without redaction after 90 calendar days...Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Moya, Goretti) (Entered: 11/19/2025)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70970233/57/denial-v-openai-inc/)
+
+### 📄 Doc #55 — 2025-11-13
+
+ORDER : The parties are directed to continue meeting and conferring on the impact of Judge Stein's recent Opinions & Orders (ECF Nos. 701, 707) on the scope of discovery, as well as the discovery that Defendants are willing to produce and, for the additional discovery that is contested, the proportionality and burden of production associated with such discovery. If there is a dispute with respect to burden or proportionality, the parties are directed to file simultaneous letter briefs not to exceed 5 pages by November 24, 2025, and to include such disputes in their joint chart ahead of the December 4, 2025, discovery status conference. SO ORDERED. (Signed by Magistrate Judge Ona T. Wang on 11/13/25) Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al. (yv) (Entered: 11/13/2025)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70970233/55/denial-v-openai-inc/)
+
+### 📄 Doc #— — 2025-11-07
+
+Set/Reset Deadlines: Responses due by 11/12/2025 Associated Cases: 1:25-md-03143-SHS-OTW et al.(tg)
+
+### 📄 Doc #53 — 2025-11-07
+
+ORDER in case 1:23-cv-08292-SHS-OTW; with respect to (727) Letter Motion for Discovery in case 1:25-md-03143-SHS-OTW. The Court is in receipt of ECF 727. Plaintiffs are directed to file a response to OpenAI's arguments contained in Exhibit 1 of ECF 727 by November 12, 2025. (See ECF 727-1). Plaintiffs' response is limited to two paragraphs per disputed topic, should be formatted as a chart, and should provide caselaw where relevant and applicable. SO ORDERED. (Signed by Magistrate Judge Ona T. Wang on 11/7/2025) Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al. (tg) (Entered: 11/10/2025)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70970233/53/denial-v-openai-inc/)
+
+### 📄 Doc #54 — 2025-11-07
+
+ORDER in case 1:23-cv-08292-SHS-OTW; granting (656) Letter Motion to Compel in case 1:25-md-03143-SHS-OTW. Accordingly, News Plaintiffs' motion to compel production of the 20 million de-identified Consumer ChatGPT Logs (ECF 656) is GRANTED. OpenAI is directed to produce the 20 million de-identified Consumer ChatGPT Logs to News Plaintiffs by November 14, 2025, or within 7 days of completing the de-identification process. The parties are directed to continue meeting and conferring regarding any additional measures that the parties can take to effectively protect the privacy interests of OpenAI's consumers. The Clerk of Court is respectfully directed to close ECF 656. SO ORDERED. (Signed by Magistrate Judge Ona T. Wang on 11/7/2025) Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al. (tg) (Entered: 11/10/2025)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70970233/54/denial-v-openai-inc/)
+
+### 📄 Doc #51 — 2025-11-03
+
+TRANSCRIPT of Proceedings re: CONFERENCE held on 10/8/2025 before Judge Sidney H. Stein. Court Reporter/Transcriber: Dana Holland, (212) 805-0320. Transcript may be viewed at the court public terminal or purchased through the Court Reporter/Transcriber before the deadline for Release of Transcript Restriction. After that date it may be obtained through PACER. Redaction Request due 11/24/2025. Redacted Transcript Deadline set for 12/4/2025. Release of Transcript Restriction set for 2/2/2026.Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Moya, Goretti) (Entered: 11/03/2025)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70970233/51/denial-v-openai-inc/)
+
+### 📄 Doc #52 — 2025-11-03
+
+NOTICE OF FILING OF OFFICIAL TRANSCRIPT Notice is hereby given that an official transcript of a CONFERENCE proceeding held on 10/8/2025 has been filed by the court reporter/transcriber in the above-captioned matter. The parties have seven (7) calendar days to file with the court a Notice of Intent to Request Redaction of this transcript. If no such Notice is filed, the transcript may be made remotely electronically available to the public without redaction after 90 calendar days...Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Moya, Goretti) (Entered: 11/03/2025)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70970233/52/denial-v-openai-inc/)
+
+### 📄 Doc #— — 2025-10-30
+
+Set/Reset Hearings: Status Conference set for 1/15/2026 at 09:30 AM in Courtroom 20D, 500 Pearl Street, New York, NY 10007 before Magistrate Judge Ona T. Wang. Status Conference set for 2/11/2026 at 09:30 AM in Courtroom 20D, 500 Pearl Street, New York, NY 10007 before Magistrate Judge Ona T. Wang. Associated Cases: 1:25-md-03143-SHS-OTW et al.(rro)
+
+### 📄 Doc #49 — 2025-10-30
+
+TRANSCRIPT of Proceedings re: CONFERENCE held on 9/25/2025 before Magistrate Judge Ona T. Wang. Court Reporter/Transcriber: Lisa O'Brien, (212) 805-0320. Transcript may be viewed at the court public terminal or purchased through the Court Reporter/Transcriber before the deadline for Release of Transcript Restriction. After that date it may be obtained through PACER. Redaction Request due 11/20/2025. Redacted Transcript Deadline set for 12/1/2025. Release of Transcript Restriction set for 1/28/2026.Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Moya, Goretti) (Entered: 10/30/2025)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70970233/49/denial-v-openai-inc/)
+
+### 📄 Doc #50 — 2025-10-30
+
+NOTICE OF FILING OF OFFICIAL TRANSCRIPT Notice is hereby given that an official transcript of a CONFERENCE proceeding held on 9/25/2025 has been filed by the court reporter/transcriber in the above-captioned matter. The parties have seven (7) calendar days to file with the court a Notice of Intent to Request Redaction of this transcript. If no such Notice is filed, the transcript may be made remotely electronically available to the public without redaction after 90 calendar days...Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Moya, Goretti) (Entered: 10/30/2025)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70970233/50/denial-v-openai-inc/)
+
+### 📄 Doc #48 — 2025-10-30
+
+ORDER denying as moot (691) Letter Motion for Discovery in case 1:23-cv-08292-SHS-OTW; denying (928) Letter Motion to Compel; denying (941) Letter Motion for Discovery; denying (942) Letter Motion for Discovery in case 1:23-cv-11195-SHS-OTW; denying (635) Letter Motion to Compel; denying (648) Letter Motion to Compel; denying as moot (653) Letter Motion to Compel; denying (657) Letter Motion for Discovery; denying (658) Letter Motion for Discovery; denying as moot (662) Letter Motion for Discovery in case 1:25-md-03143-SHS-OTW; denying as moot (199) Letter Motion to Compel in case 1:25-cv-04315-SHS-OTW. The Court held a discovery status conference for all actions in this matter on Wednesday, October 29, 2025. As ORDERED at the October 29 Conference: Regarding the parties' dispute as to the production of the 20 million retained logs, (see ECF Nos. 656, 679), the parties are directed to file letter briefs not to exceed 5 pages by 5:00 p.m. on Thursday, October 30, 2025, articulating the  …(truncated)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70970233/48/denial-v-openai-inc/)
+
+### 📄 Doc #— — 2025-10-29
+
+Minute Entry for proceedings held before Magistrate Judge Ona T. Wang: Discovery Hearing held on 10/29/2025. Associated Cases: 1:25-md-03143-SHS-OTW et al.(Quinn, Diane)
+
+### 📄 Doc #— — 2025-10-29
+
+Discovery Hearing
+
+### 📄 Doc #47 — 2025-10-28
+
+ORDER: It has come to the Court's attention that OpenAI may have disclosed protected settlement communications that took place during the August 15, 2025, confidential settlement conference. Rule 408 of the Federal Rules of Evidence provides: (a) Prohibited Uses. Evidence of the following is not admissible - on behalf of any party either to prove or disprove the validity or amount of a disputed claim or to impeach by a prior inconsistent statement or a contradiction: (1) furnishing, promising, or offering - or accepting, promising to accept, or offering to accept a valuable consideration in compromising or attempting to compromise the claim; and (2) conduct or a statement made during compromise negotiations about the claim - except when offered in a criminal case and when the negotiations related to a claim by a public office in the exercise of its regulatory, investigative, or enforcement authority. Fed. R. Evid. 408(a). The most common rationale for Rule 408 is that "it encourages se …(truncated)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70970233/47/denial-v-openai-inc/)
+
+### 📄 Doc #44 — 2025-10-23
+
+TRANSCRIPT of Proceedings re: CONFERENCE held on 9/25/2025 before Magistrate Judge Ona T. Wang. Court Reporter/Transcriber: Lisa O'Brien, (212) 805-0320. Transcript may be viewed at the court public terminal or purchased through the Court Reporter/Transcriber before the deadline for Release of Transcript Restriction. After that date it may be obtained through PACER. Redaction Request due 11/13/2025. Redacted Transcript Deadline set for 11/24/2025. Release of Transcript Restriction set for 1/21/2026.Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(McGuirk, Kelly) (Entered: 10/23/2025)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70970233/44/denial-v-openai-inc/)
+
+### 📄 Doc #45 — 2025-10-23
+
+NOTICE OF FILING OF OFFICIAL TRANSCRIPT Notice is hereby given that an official transcript of a CONFERENCE proceeding held on 9/25/25 has been filed by the court reporter/transcriber in the above-captioned matter. The parties have seven (7) calendar days to file with the court a Notice of Intent to Request Redaction of this transcript. If no such Notice is filed, the transcript may be made remotely electronically available to the public without redaction after 90 calendar days...Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(McGuirk, Kelly) (Entered: 10/23/2025)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70970233/45/denial-v-openai-inc/)
+
+### 📄 Doc #43 — 2025-10-22
+
+LETTER addressed to Magistrate Judge Ona T. Wang from Rose S. Lee, Christopher S. Sun, and Margaret Graham dated October 21, 2025 re: Discovery Dispute Charts for October 29, 2025 Conference. Document filed by OpenAI Inc., OpenAI OpCo LLC, OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.L.C., OpenAI Holdings LLC, OpenAI Holdings, LLC, OpenAI LLC, OpenAI LP, OpenAI OpCo LLC(a Delaware limited liability corporation), OpenAI OpCo, L.L.C., OpenAI Startup Fund GP I LLC, OpenAI Startup Fund GP I LLC(a Delaware limited liability company), OpenAI Startup Fund I LP, OpenAI Startup Fund I LP(a Delaware limited partnership), OpenAI Startup Fund Management LLC, OpenAI Startup Fund Management LLC(a Delaware limited liability company), OpenAI, Inc., OpenAI, LLC, OpenAI GP LLC, OpenAI Inc., OpenAI LP(a Delaware limited partnership), OpenAI Startup Fund Mangement, LLC. (Attachments: # 1 Exhibit A - Class Chart, # 2 Exhibit  …(truncated)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70970233/43/3/denial-v-openai-inc/)
+
+### 📄 Doc #41 — 2025-10-15
+
+TRANSCRIPT of Proceedings re: CONFERENCE held on 8/12/2025 before Magistrate Judge Ona T. Wang. Court Reporter/Transcriber: Tracy Groth, (212) 805-0320. Transcript may be viewed at the court public terminal or purchased through the Court Reporter/Transcriber before the deadline for Release of Transcript Restriction. After that date it may be obtained through PACER. Redaction Request due 11/5/2025. Redacted Transcript Deadline set for 11/17/2025. Release of Transcript Restriction set for 1/13/2026.Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Moya, Goretti) (Entered: 10/15/2025)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70970233/41/denial-v-openai-inc/)
+
+### 📄 Doc #42 — 2025-10-15
+
+NOTICE OF FILING OF OFFICIAL TRANSCRIPT Notice is hereby given that an official transcript of a CONFERENCE proceeding held on 8/12/2025 has been filed by the court reporter/transcriber in the above-captioned matter. The parties have seven (7) calendar days to file with the court a Notice of Intent to Request Redaction of this transcript. If no such Notice is filed, the transcript may be made remotely electronically available to the public without redaction after 90 calendar days...Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Moya, Goretti) (Entered: 10/15/2025)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70970233/42/denial-v-openai-inc/)
+
+### 📄 Doc #40 — 2025-10-14
+
+MEMO ENDORSED ORDER in case 1:23-cv-08292-SHS-OTW; granting (630) Motion to Withdraw as Attorney. in case 1:25-md-03143-SHS-OTW. Attorney Katherine B Forrest terminated in case 1:25-md-03143-SHS-OTW. ENDORSEMENT: SO ORDERED. (Signed by Magistrate Judge Ona T. Wang on 10/14/2025) Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al. (ar) (Entered: 10/14/2025)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70970233/40/denial-v-openai-inc/)
+
+### 📄 Doc #39 — 2025-10-13
+
+MOTION for Katherine B. Forrest to Withdraw as Attorney . Document filed by OAI Corporation, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Holdings, LLC, OpenAI Inc., OpenAI LP, OpenAI OpCo LLC(a Delaware limited liability corporation), OpenAI Startup Fund GP I LLC, OpenAI Startup Fund I LP(a Delaware limited partnership), OpenAI Startup Fund Management LLC(a Delaware limited liability company).Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Forrest, Katherine) (Entered: 10/13/2025)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70970233/39/denial-v-openai-inc/)
+
+### 📄 Doc #— — 2025-10-01
+
+Status Conference
+
+### 📄 Doc #— — 2025-10-01
+
+Settlement Conference
+
+### 📄 Doc #38 — 2025-09-29
+
+ORDER: For the reasons discussed on the record: The Court reserves its ruling on Plaintiffs' motion regarding the collection of text and social media messages. (ECF 529). The Clerk of Court is respectfully directed to close the following ECF Nos. in Case No. 25-MD-3143: 144, 146, 394, 532, 533, 539, 541, 543, 549, 550, 553, 557, 559, 561. The Clerk of Court is respectfully directed to close the following ECF Nos. in Case No. 23-CV-11195: 487. SO ORDERED. (Signed by Magistrate Judge Ona T. Wang on 9/29/2025) Motions terminated: (493 in 1:23-cv-10211-SHS-OTW, 634 in 1:23-cv-08292-SHS-OTW, 533 in 1:25-md-03143-SHS-OTW) LETTER MOTION to Compel Class Plaintiffs to Respond to Six RFAs addressed to Magistrate Judge Ona T. Wang from Katie Lynn Joyce, Elana Nightingale Dawson, and Rose Lee dated Sept. 8, 2025. filed by OpenAI, Inc., OpenAI GP LLC, OpenAI Startup Fund GP I LLC, OpenAI LP, OAI Corporation LLC, OpenAI OpCo, L.L.C., OpenAI Startup Fund I LP, OpenAI GP, LLC, OpenAI Holdings LLC, Ope …(truncated)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70970233/38/denial-v-openai-inc/)
+
+### 📄 Doc #— — 2025-09-26
+
+Minute Entry for proceedings held before Magistrate Judge Ona T. Wang: Settlement Conference held on 9/26/2025. Associated Cases: 1:25-md-03143-SHS-OTW et al.(Quinn, Diane)
+
+### 📄 Doc #— — 2025-09-25
+
+Minute Entry for proceedings held before Magistrate Judge Ona T. Wang: Status Conference held on 9/25/2025. Associated Cases: 1:25-md-03143-SHS-OTW et al.(Quinn, Diane)
+
+### 📄 Doc #36 — 2025-09-16
+
+LETTER addressed to Magistrate Judge Ona T. Wang from Justin A. Nelson and Davida Brook dated September 16, 2025 re: Discovery Dispute Chart for September 25 Conference. Document filed by David Baldacci. (Attachments: # 1 Exhibit A, # 2 Exhibit B, # 3 Exhibit C)Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Nelson, Justin) (Entered: 09/17/2025)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70970233/36/3/denial-v-openai-inc/)
+
+### 📄 Doc #— — 2025-09-09
+
+Case Stayed (jca)
+
+### 📄 Doc #35 — 2025-09-09
+
+STIPULATION AND ORDER STAYING DENIAL ACTION: NOW WHEREFORE, IT IS HEREBY STIPULATED BY AND BETWEEN THE PARTIES THAT, subject to the Court's approval, the Denial Action is stayed during the pendency of the MDL. * All parties whose electronic signatures are included in this filing have provided consent in accordance with Rule 8.5(b) of the Court's ECF Rules and Instructions. SO ORDERED. (Signed by Judge Sidney H. Stein on 9/9/2025) Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:25-cv-06286-SHS-OTW (jca) (Entered: 09/09/2025)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70970233/35/denial-v-openai-inc/)
+
+### 📄 Doc #34 — 2025-09-08
+
+PROPOSED STIPULATION AND ORDER. Document filed by OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.L.C., OpenAI Holdings LLC, OpenAI Holdings, LLC, OpenAI Inc., OpenAI LLC, OpenAI LP, OpenAI OpCo LLC, OpenAI OpCo LLC(a Delaware limited liability corporation), OpenAI OpCo, L.L.C., OpenAI Startup Fund GP I LLC, OpenAI Startup Fund GP I LLC(a Delaware limited liability company), OpenAI Startup Fund I LP, OpenAI Startup Fund I LP(a Delaware limited partnership), OpenAI Startup Fund Management LLC, OpenAI Startup Fund Management LLC(a Delaware limited liability company), OpenAI, Inc., OpenAI, LLC..(McManus, Spencer) (Entered: 09/08/2025)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70970233/34/denial-v-openai-inc/)
+
+### 📄 Doc #33 — 2025-09-05
+
+ORDER granting (625) Letter Motion for Leave to File Excess Pages; granting (626) Letter Motion for Leave to File Excess Pages in case 1:23-cv-08292-SHS-OTW; granting (860) Letter Motion for Leave to File Excess Pages; granting (861) Letter Motion for Leave to File Excess Pages in case 1:23-cv-11195-SHS-OTW; granting (523) Letter Motion for Leave to File Excess Pages; granting (524) Letter Motion for Leave to File Excess Pages in case 1:25-md-03143-SHS-OTW. The Court is in receipt of Parties' requests at ECF Nos. 523, 524. Parties' motions for leave to file excess pages is GRANTED. Parties are not to exceed 3,500-words in their letter responses. Plaintiffs' motion requesting that Exhibit 1 be filed under seal is PROVISIONALLY GRANTED. The Clerk of Court is respectfully directed to close the following ECF Nos. in Case No. 25-MD-3143: 523, 524. SO ORDERED. (Signed by Magistrate Judge Ona T. Wang on 9/5/2025) Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al. (vfr) (Entered: 09/05/20 …(truncated)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70970233/33/denial-v-openai-inc/)
+
+### 📄 Doc #31 — 2025-09-05
+
+TRANSCRIPT of Proceedings re: CONFERENCE held on 8/12/2025 before Magistrate Judge Ona T. Wang. Court Reporter/Transcriber: Tracy Groth, (212) 805-0320. Transcript may be viewed at the court public terminal or purchased through the Court Reporter/Transcriber before the deadline for Release of Transcript Restriction. After that date it may be obtained through PACER. Redaction Request due 9/26/2025. Redacted Transcript Deadline set for 10/6/2025. Release of Transcript Restriction set for 12/4/2025.Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(McGuirk, Kelly) (Entered: 09/05/2025)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70970233/31/denial-v-openai-inc/)
+
+### 📄 Doc #32 — 2025-09-05
+
+NOTICE OF FILING OF OFFICIAL TRANSCRIPT Notice is hereby given that an official transcript of a CONFERENCE proceeding held on 8/12/2025 has been filed by the court reporter/transcriber in the above-captioned matter. The parties have seven (7) calendar days to file with the court a Notice of Intent to Request Redaction of this transcript. If no such Notice is filed, the transcript may be made remotely electronically available to the public without redaction after 90 calendar days...Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(McGuirk, Kelly) (Entered: 09/05/2025)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70970233/32/denial-v-openai-inc/)
+
+### 📄 Doc #30 — 2025-09-03
+
+ORDER denying as moot (507) Motion for Discovery in case 1:23-cv-08292-SHS-OTW; denying as moot (718) Motion for Discovery in case 1:23-cv-11195-SHS-OTW; denying as moot (196) Motion for Discovery in case 1:24-cv-01514-SHS-OTW; denying as moot (211) Motion for Discovery in case 1:24-cv-01515-SHS-OTW; denying as moot (286) Motion for Discovery in case 1:25-md-03143-SHS-OTW; denying as moot (127) Motion for Discovery in case 1:25-cv-03297-SHS-OTW; denying as moot (493) Motion for Discovery in case 1:25-cv-03482-SHS-OTW; denying as moot (97) Motion for Discovery in case 1:25-cv-04315-SHS-OTW. The Court entered the parties' final stipulated protective order on July 24, 2025. (See ECF 367). Accordingly, OpenAI's motion for a protective order at ECF 286 is DENIED as moot. The Clerk of Court is respectfully directed to close ECF 286. SO ORDERED.. (Signed by Magistrate Judge Ona T. Wang on 9/3/2025) Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al. (ks) (Entered: 09/03/2025)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70970233/30/denial-v-openai-inc/)
+
+### 📄 Doc #— — 2025-09-03
+
+Status Conference
+
+### 📄 Doc #— — 2025-09-03
+
+Settlement Conference
+
+### 📄 Doc #24 — 2025-08-22
+
+LETTER MOTION to Seal addressed to Magistrate Judge Ona T. Wang from Caitlin S. Blythe, Christopher S. Sun, Herman H. Yue dated August 22, 2025. Document filed by OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.L.C., OpenAI Holdings LLC, OpenAI Holdings, LLC, OpenAI Inc., OpenAI LLC, OpenAI LP, OpenAI OpCo LLC(a Delaware limited liability corporation), OpenAI OpCo LLC, OpenAI OpCo, L.L.C., OpenAI Startup Fund GP I LLC, OpenAI Startup Fund GP I LLC(a Delaware limited liability company), OpenAI Startup Fund I LP(a Delaware limited partnership), OpenAI Startup Fund I LP, OpenAI Startup Fund Management LLC(a Delaware limited liability company), OpenAI Startup Fund Management LLC, OpenAI, Inc.. (Attachments: # 1 Proposed Order Granting Sealing Motion)Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Blythe, Caitlin) (Entered: 08/22/2025)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70970233/24/1/denial-v-openai-inc/)
+
+### 📄 Doc #25 — 2025-08-22
+
+***SELECTED PARTIES***DECLARATION of Joseph C. Gratz re: (480 in 1:25-md-03143-SHS-OTW) LETTER MOTION to Seal addressed to Magistrate Judge Ona T. Wang from Caitlin S. Blythe, Christopher S. Sun, Herman H. Yue dated August 22, 2025. . Document filed by OpenAI, Inc., OpenAI LP, OAI Corporation, LLC, OpenAI Startup Fund GP I LLC, OpenAI Holdings LLC, OpenAI GP, LLC, OpenAI Global, L.L.C., OpenAI Startup Fund GP I LLC(a Delaware limited liability company), OAI Corporation, OpenAI Startup Fund Management LLC(a Delaware limited liability company), OpenAI Inc., OpenAI Holdings, LLC, OpenAI OpCo, L.L.C., OpenAI Startup Fund I LP(a Delaware limited partnership), OAI Corporation LLC, OpenAI LLC, OpenAI GP LLC, OpenAI OpCo LLC(a Delaware limited liability corporation), OpenAI Startup Fund Management LLC, OpenAI Global LLC, OpenAI OpCo LLC, OpenAI Startup Fund I LP, Jonathan Alter, AlterNet Media, Inc., Dario Amodei, Authors Guild, David Baldacci, Andrea Bartz, Nicholas Basbanes, Nicholas Basbane …(truncated)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70970233/25/denial-v-openai-inc/)
+
+### 📄 Doc #— — 2025-08-15
+
+Minute Entry for proceedings held before Magistrate Judge Ona T. Wang: Settlement Conference held on 8/15/2025. Associated Cases: 1:25-md-03143-SHS-OTW et al.(Quinn, Diane)
+
+### 📄 Doc #— — 2025-08-15
+
+Set/Reset Deadlines: ( Brief due by 8/22/2025., Deposition due by 9/30/2025., Motions due by 11/21/2025.), Set/Reset Hearings:( Discovery Hearing set for 10/29/2025 at 09:30 AM in Courtroom 20D, 500 Pearl Street, New York, NY 10007 before Magistrate Judge Ona T. Wang., Status Conference set for 9/25/2025 at 02:30 PM in Courtroom 20D, 500 Pearl Street, New York, NY 10007 before Magistrate Judge Ona T. Wang., Discovery Hearing set for 12/4/2025 at 09:30 AM in Courtroom 20D, 500 Pearl Street, New York, NY 10007 before Magistrate Judge Ona T. Wang.) Associated Cases: 1:25-md-03143-SHS-OTW et al.(tg)
+
+### 📄 Doc #22 — 2025-08-15
+
+LETTER MOTION to Seal addressed to Magistrate Judge Ona T. Wang from Caitlin S. Blythe, Christopher S. Sun, Herman H. Yue dated August 15, 2025. Document filed by OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.L.C., OpenAI Holdings LLC, OpenAI Holdings, LLC, OpenAI Inc., OpenAI LLC, OpenAI LP, OpenAI OpCo LLC(a Delaware limited liability corporation), OpenAI OpCo, L.L.C., OpenAI Startup Fund GP I LLC, OpenAI Startup Fund GP I LLC(a Delaware limited liability company), OpenAI Startup Fund I LP(a Delaware limited partnership), OpenAI Startup Fund I LP, OpenAI Startup Fund Management LLC(a Delaware limited liability company), OpenAI Startup Fund Management LLC, OpenAI, Inc.. (Attachments: # 1 Proposed Order Granting Sealing Motion)Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Blythe, Caitlin) (Entered: 08/15/2025)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70970233/22/1/denial-v-openai-inc/)
+
+### 📄 Doc #23 — 2025-08-15
+
+***SELECTED PARTIES***DECLARATION of Joseph C. Gratz re: (154 in 1:25-cv-04315-SHS-OTW, 592 in 1:23-cv-08292-SHS-OTW, 172 in 1:25-cv-03297-SHS-OTW, 460 in 1:25-md-03143-SHS-OTW, 238 in 1:24-cv-00084-SHS-OTW, 472 in 1:23-cv-10211-SHS-OTW, 150 in 1:25-cv-03483-SHS-OTW, 22 in 1:25-cv-06286-SHS-OTW, 552 in 1:25-cv-03482-SHS-OTW, 235 in 1:24-cv-01514-SHS-OTW, 828 in 1:23-cv-11195-SHS-OTW, 251 in 1:24-cv-01515-SHS-OTW, 111 in 1:25-cv-03291-SHS-OTW, 432 in 1:24-cv-03285-SHS-OTW, 343 in 1:24-cv-04872-SHS-OTW) LETTER MOTION to Seal addressed to Magistrate Judge Ona T. Wang from Caitlin S. Blythe, Christopher S. Sun, Herman H. Yue dated August 15, 2025. . Document filed by OpenAI, Inc., OpenAI LP, OAI Corporation, LLC, OpenAI Startup Fund GP I LLC, OpenAI Holdings LLC, OpenAI GP, LLC, OpenAI Global, L.L.C., OpenAI Startup Fund GP I LLC(a Delaware limited liability company), OAI Corporation, OpenAI Startup Fund Management LLC(a Delaware limited liability company), OpenAI Inc., OpenAI Holdings, LL …(truncated)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70970233/23/denial-v-openai-inc/)
+
+### 📄 Doc #21 — 2025-08-15
+
+ORDER granting (551) Letter Motion to Compel in case 1:23-cv-08292-SHS-OTW; granting (442) Letter Motion to Compel in case 1:23-cv-10211-SHS-OTW; denying (772) Letter Motion to Compel; granting (778) Letter Motion to Compel; denying (780) Letter Motion to Compel in case 1:23-cv-11195-SHS-OTW; denying (372) Letter Motion to Compel; granting (378) Letter Motion to Compel; granting (380) Letter Motion to Compel; denying (383) Letter Motion to Compel in case 1:25-md-03143-SHS-OTW. For the reasons discussed on the record: 1) Regarding OpenAI's motion at ECF 376/377 and Microsoft's motion at ECF 392/396 to compel the New York Times to produce evidence of its use of OpenAI's LLMs through ChatExplorer, the parties are directed to submit supplemental briefs not to exceed 5 pages by close of business on Friday, August 22, 2025. The parties' supplemental briefs should address: (1) relevance of the content of the logs, including how such content relates to the first and fourth fair use factors; (2 …(truncated)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70970233/21/denial-v-openai-inc/)
+
+### 📄 Doc #— — 2025-08-12
+
+Minute Entry for proceedings held before Magistrate Judge Ona T. Wang: Status Conference held on 8/12/2025. Associated Cases: 1:25-md-03143-SHS-OTW et al.(Quinn, Diane)
+
+### 📄 Doc #20 — 2025-08-08
+
+MEMO ENDORSEMENT on re: (542 in 1:25-cv-03482-SHS-OTW, 230 in 1:24-cv-01514-SHS-OTW, 461 in 1:23-cv-10211-SHS-OTW, 140 in 1:25-cv-03483-SHS-OTW, 101 in 1:25-cv-03291-SHS-OTW, 427 in 1:24-cv-03285-SHS-OTW, 434 in 1:25-md-03143-SHS-OTW, 228 in 1:24-cv-00084-SHS-OTW, 810 in 1:23-cv-11195-SHS-OTW, 11 in 1:25-cv-06286-SHS-OTW, 148 in 1:25-cv-04315-SHS-OTW, 163 in 1:25-cv-03297-SHS-OTW, 579 in 1:23-cv-08292-SHS-OTW, 246 in 1:24-cv-01515-SHS-OTW, 338 in 1:24-cv-04872-SHS-OTW) Letter, filed by The Intercept Media, Inc., Ziff Davis Inc., Jonathan Alter, Ziff Davis, LLC. ENDORSEMENT: OpenAI is directed to meet and confer with Class Plaintiff, Ziff Davis, and The Intercept regarding this request and to file a letter reply by 12:00 p.m. Monday, August 11, 2025. SO ORDERED. (Signed by Magistrate Judge Ona T. Wang on 8/8/2025) Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al. (rro) (Entered: 08/08/2025)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70970233/20/denial-v-openai-inc/)
+
+### 📄 Doc #12 — 2025-08-05
+
+WAIVER OF SERVICE RETURNED EXECUTED. OpenAI GP LLC waiver sent on 7/9/2025, answer due 9/8/2025. Document filed by Steven Schwartz; IAN MCDOWELL; CATHERINE DENIAL..(Saveri, Joseph) (Entered: 08/05/2025)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70970233/12/denial-v-openai-inc/)
+
+### 📄 Doc #13 — 2025-08-05
+
+WAIVER OF SERVICE RETURNED EXECUTED. Microsoft Corporation waiver sent on 7/9/2025, answer due 9/8/2025. Document filed by Steven Schwartz; IAN MCDOWELL; CATHERINE DENIAL..(Saveri, Joseph) (Entered: 08/05/2025)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70970233/13/denial-v-openai-inc/)
+
+### 📄 Doc #14 — 2025-08-05
+
+WAIVER OF SERVICE RETURNED EXECUTED. OpenAI Startup Fund Management LLC waiver sent on 7/9/2025, answer due 9/8/2025. Document filed by Steven Schwartz; IAN MCDOWELL; CATHERINE DENIAL..(Saveri, Joseph) (Entered: 08/05/2025)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70970233/14/denial-v-openai-inc/)
+
+### 📄 Doc #15 — 2025-08-05
+
+WAIVER OF SERVICE RETURNED EXECUTED. OpenAI Startup Fund I LP waiver sent on 7/9/2025, answer due 9/8/2025. Document filed by Steven Schwartz; IAN MCDOWELL; CATHERINE DENIAL..(Saveri, Joseph) (Entered: 08/05/2025)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70970233/15/denial-v-openai-inc/)
+
+### 📄 Doc #16 — 2025-08-05
+
+WAIVER OF SERVICE RETURNED EXECUTED. OpenAI Startup Fund GP I LLC waiver sent on 7/9/2025, answer due 9/8/2025. Document filed by Steven Schwartz; IAN MCDOWELL; CATHERINE DENIAL..(Saveri, Joseph) (Entered: 08/05/2025)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70970233/16/denial-v-openai-inc/)
+
+### 📄 Doc #17 — 2025-08-05
+
+WAIVER OF SERVICE RETURNED EXECUTED. OpenAI OpCo LLC waiver sent on 7/9/2025, answer due 9/8/2025. Document filed by Steven Schwartz; IAN MCDOWELL; CATHERINE DENIAL..(Saveri, Joseph) (Entered: 08/05/2025)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70970233/17/denial-v-openai-inc/)
+
+### 📄 Doc #18 — 2025-08-05
+
+WAIVER OF SERVICE RETURNED EXECUTED. OpenAI LP waiver sent on 7/9/2025, answer due 9/8/2025. Document filed by Steven Schwartz; IAN MCDOWELL; CATHERINE DENIAL..(Saveri, Joseph) (Entered: 08/05/2025)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70970233/18/denial-v-openai-inc/)
+
+### 📄 Doc #19 — 2025-08-05
+
+WAIVER OF SERVICE RETURNED EXECUTED. OpenAI Inc. waiver sent on 7/9/2025, answer due 9/8/2025. Document filed by Steven Schwartz; IAN MCDOWELL; CATHERINE DENIAL..(Saveri, Joseph) (Entered: 08/05/2025)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70970233/19/denial-v-openai-inc/)
+
+### 📄 Doc #11 — 2025-08-04
+
+JOINT LETTER addressed to Magistrate Judge Ona T. Wang from Justin Nelson dated 08/04/2025 re: Classifier Reports. Document filed by The Intercept Media, Inc., Ziff Davis Inc., Ziff Davis, LLC, Jonathan Alter.Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Nelson, Justin) (Entered: 08/04/2025)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70970233/11/denial-v-openai-inc/)
+
+### 📄 Doc #10 — 2025-08-04
+
+ORDER REFERRING CASE TO MAGISTRATE JUDGE. Order that case be referred to the Clerk of Court for assignment to a Magistrate Judge for General Pretrial (includes scheduling, discovery, non-dispositive pretrial motions, and settlement). Referred to Magistrate Judge Ona T. Wang. SO ORDERED. (Signed by Judge Sidney H. Stein on 8/4/2025) (jca) (Entered: 08/04/2025)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70970233/10/denial-v-openai-inc/)
+
+### 📄 Doc #— — 2025-07-30
+
+NOTE TO OUT OF STATE ATTORNEYS: Please visit the Court's website at https://nysd.uscourts.gov/ for information regarding admission to the S.D.N.Y. Bar and the CM/ECF Rules & Filing Instructions. (vba)
+
+### 📄 Doc #— — 2025-07-30
+
+Magistrate Judge Ona T. Wang is designated to handle matters that may be referred in this case. Pursuant to 28 U.S.C. Section 636(c) and Fed. R. Civ. P. 73(b)(1) parties are notified that they may consent to proceed before a United States Magistrate Judge. Parties who wish to consent may access the necessary form at the following link: https://nysd.uscourts.gov/sites/default/files/2018-06/AO-3.pdf. (vba)
+
+### 📄 Doc #— — 2025-07-30
+
+CASE OPENING INITIAL ASSIGNMENT NOTICE - TRANSFER CASE: This case is assigned to: Judge Sidney H. Stein. Please download and review the Individual Practices of the assigned District Judge, located at https://nysd.uscourts.gov/judges/district-judges. Attorneys are responsible for providing courtesy copies to judges where their Individual Practices require such. Please download and review the ECF Rules and Instructions, located at https://nysd.uscourts.gov/rules/ecf-related-instructions..(vba)
+
+### 📄 Doc #— — 2025-07-30
+
+CONSOLIDATED MDL CASE: Create association to 1:25-md-03143-SHS-OTW. (vba)
+
+### 📄 Doc #— — 2025-07-30
+
+CASE ACCEPTED AS RELATED. Create association to 1:25-md-03143-SHS-OTW. Notice of Assignment to follow. (vba)
+
+### 📄 Doc #— — 2025-07-30
+
+Case Designated ECF. (vba)
+
+### 📄 Doc #9 — 2025-07-30
+
+CASE TRANSFERRED IN from the United States District Court - District of California Northern; Case Number: 3:25-cv-05495. Original file certified copy of transfer order and docket entries received. (Entered: 07/30/2025)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70970233/9/denial-v-openai-inc/)
+
+### 📄 Doc #— — 2025-07-30
+
+Case Opening Initial Assignment Notice - Transfer Case
+
+### 📄 Doc #— — 2025-07-30
+
+Note to Out of State Attorneys
+
+### 📄 Doc #8 — 2025-07-24
+
+ORDER TRANSFERRING CASE to Southern District of New York. (kam2, COURT STAFF) (Filed on 7/24/2025) [Transferred from California Northern on 7/30/2025.] (Entered: 07/24/2025)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70970233/8/denial-v-openai-inc/)
+
+### 📄 Doc #7 — 2025-07-02
+
+REPORT on the filing or determination of an action regarding Copyright CORRECTION OF ECF #6 (cc: form mailed to register). (Saveri, Joseph) (Filed on 7/2/2025) [Transferred from California Northern on 7/30/2025.] (Entered: 07/02/2025)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70970233/7/denial-v-openai-inc/)
+
+### 📄 Doc #6 — 2025-07-02
+
+DISREGARD - ERRONEOUSLY FILED REPORT on the filing or determination of an action regarding Copyright (cc: form mailed to register). (Saveri, Joseph) (Filed on 7/2/2025) Modified on 7/3/2025 (kam2, COURT STAFF). [Transferred from California Northern on 7/30/2025.] (Entered: 07/02/2025)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70970233/6/denial-v-openai-inc/)
+
+### 📄 Doc #4 — 2025-07-01
+
+Proposed Summons. (Saveri, Joseph) (Filed on 7/1/2025) [Transferred from California Northern on 7/30/2025.] (Entered: 07/01/2025)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70970233/4/denial-v-openai-inc/)
+
+### 📄 Doc #3 — 2025-07-01
+
+Initial Case Management Scheduling Order with ADR Deadlines: Case Management Statement due by 9/23/2025. Initial Case Management Conference set for 9/30/2025 01:30 PM in San Francisco, - Videoconference Only. (kam2, COURT STAFF) (Filed on 7/1/2025) [Transferred from California Northern on 7/30/2025.] (Entered: 07/01/2025)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70970233/3/denial-v-openai-inc/)
+
 <details>
-<summary>已過濾的 10 筆程序性 entries（點擊展開）</summary>
+<summary>已過濾的 17 筆程序性 entries（點擊展開）</summary>
 
 - **Doc #112** (2026-03-06): CERTIFICATE OF SERVICE of Letter Brief in Response Response to Plaintiffs Discovery Dispute Brief (ECF 1383) and Related Exhibits A-C served on All Plaintiffs and Open AI Defendants on March 5, 2026. …
 - **Doc #105** (2026-02-23): CERTIFICATE OF SERVICE of ECF Doc. No. 1335 served on Plaintiffs on 2/20/2026. Document filed by OAI Corporation, OAI Corporation LLC, OpenAI GP LLC, OpenAI Global LLC, OpenAI Holdings LLC, OpenAI Inc…
@@ -549,9 +1051,16 @@ TRANSCRIPT of Proceedings re: CONFERENCE held on 10/29/2025 before Magistrate Ju
 - **Doc #80** (2026-01-16): MOTION for Emily L. Wang to Appear Pro Hac Vice . Filing fee $ 200.00, receipt number NYSDC-32274446. Motion and supporting papers to be reviewed by Clerk's Office staff. Document filed by OAI Corpora…
 - **Doc #75** (2026-01-07): NOTICE OF APPEARANCE by Zachary Scott Newman on behalf of OAI Corporation, LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Holdings, LLC, OpenAI LP, OpenAI OpCo LLC(a Delaware limited liability corpora…
 - **Doc #70** (2025-12-11): ORDER: It has come to the Court's attention that there are multiple outstanding motions in the above-captioned cases that have already been addressed at the Court's periodic discovery status conferenc…
+- **Doc #46** (2025-10-28): ORDER GRANTING MOTION TO ADMIT COUNSEL PRO HAC VICE granting (717) Motion for Drew H. Washington to Appear Pro Hac Vice in case 1:23-cv-08292-SHS-OTW; granting (969) Motion for Drew H. Washington to A…
+- **Doc #37** (2025-09-24): NOTICE OF APPEARANCE by Katherine B Forrest on behalf of OAI Corporation, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Holdings, LLC, OpenAI Inc., OpenAI LLC, OpenAI LP, OpenAI OpCo LLC(a Delaware limite…
+- **Doc #28** (2025-08-26): ORDER GRANTING MOTION TO ADMIT COUNSEL PRO HAC VICE granting (490) Motion for Catherine Porto to Appear Pro Hac Vice in case 1:23-cv-08292-SHS-OTW; granting (693) Motion for Catherine Porto to Appear …
+- **Doc #29** (2025-08-26): ORDER GRANTING MOTION TO ADMIT COUNSEL PRO HAC VICE granting (582) Motion for Eleanor Frances Brock to Appear Pro Hac Vice in case 1:23-cv-08292-SHS-OTW; granting (817) Motion for Eleanor Frances Broc…
+- **Doc #26** (2025-08-26): ORDER GRANTING MOTION TO ADMIT COUNSEL PRO HAC VICE granting (469) Motion for Reid Patrick Mullen to Appear Pro Hac Vice in case 1:23-cv-08292-SHS-OTW; granting (398) Motion for Reid Patrick Mullen to…
+- **Doc #27** (2025-08-26): ORDER FOR ATTORNEY ADMISSION PRO HAC VICE in case 1:23-cv-08292-SHS-OTW; granting (85) Motion for Guy Ruttenberg to Appear Pro Hac Vice in case 1:25-md-03143-SHS-OTW. IT IS HEREBY ORDERED that Guy Rut…
+- **Doc #5** (2025-07-01): Summons Issued as to Microsoft Corporation, OpenAI GP, L.L.C., OpenAI OpCo, L.L.C., OpenAI Startup Fund GP I, L.L.C., OpenAI Startup Fund I, L.P., OpenAI Startup Fund Management, LLC, OpenAI, Inc., Op…
 
 </details>
 
 ---
 
-*產生時間：2026-04-27 03:15 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-09-01 01:22 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

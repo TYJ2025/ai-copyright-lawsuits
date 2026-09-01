@@ -1,6 +1,6 @@
 # Case 64 — James v. Together Computer, Inc.
 
-> 最後更新（CourtListener fetch）：2026-04-27 03:18 UTC
+> 最後更新（CourtListener fetch）：2026-09-01 01:26 UTC
 
 ---
 
@@ -13,10 +13,10 @@
 | Court | District Court, N.D. California (`cand`) |
 | Judge Assigned | Rita F. Lin |
 | Date Filed | 2025-11-06 |
-| Date Last Filing | 2026-04-24 |
+| Date Last Filing | 2026-06-30 |
 | Cause | 17:501 Copyright Infringement |
 | Nature of Suit | 820 Copyright |
-| Jury Demand | Both |
+| Jury Demand | Plaintiff |
 | CourtListener ID | `71883095` |
 | CourtListener URL | <https://www.courtlistener.com/docket/71883095/james-v-together-computer-inc/> |
 
@@ -25,41 +25,59 @@
 > Dashboard 卡片宣告：
 
 > - Court=N.D. Cal.
-> - Judge=Lin
+> - Judge=Rita F. Lin
 > - Status=active
 > - Progress=案件由加州北區法院 Lin 法官審理，目前處於早期階段。Together Compute 作為較小規模的 AI 公司，此訴訟為其發展的重大挑戰。
 
 **自動比對結果：**
 
 - ✅ Court 一致：dashboard 寫「N.D. Cal.」，CourtListener 為「N.D. California」
-- ✅ Judge 一致：dashboard 寫「Lin」，CourtListener 為「Rita F. Lin」
-- ℹ️ Dashboard progress 內找不到【YYYY/M/D】格式日期；CourtListener 最後 entry: 2026-04-24
+- ✅ Judge 一致：dashboard 寫「Rita F. Lin」，CourtListener 為「Rita F. Lin」
+- ℹ️ Dashboard progress 內找不到【YYYY/M/D】格式日期；CourtListener 最後 entry: 2026-06-30
 
 ## 3. Docket Entries（最新優先，已過濾程序性 entries）
 
-**實質性 entries**：40 筆／**已過濾程序性 entries**：26 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+**實質性 entries**：43 筆／**已過濾程序性 entries**：28 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+
+### 📄 Doc #54 — 2026-06-03
+
+ANSWER to First Amended Complaint 48 by Together Computer, Inc.. (Wetzel, Joseph) (Filed on 6/3/2026) (Entered: 06/03/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71883095/54/james-v-together-computer-inc/)
+
+### 📄 Doc #53 — 2026-05-21
+
+ORDER GRANTING 52 STIPULATION TO WITHDRAW PORTIONS OF THE FIRST AMENDED COMPLAINT AND EXTEND DEFENDANT TOGETHER COMPUTER, INC.'S TIME TO RESPOND TO FIRST AMENDED COMPLAINT. Signed by Judge Rita F. Lin on 5/21/2026. (afm, COURT STAFF) (Filed on 5/21/2026) (Entered: 05/21/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71883095/53/james-v-together-computer-inc/)
+
+### 📄 Doc #52 — 2026-05-20
+
+STIPULATION WITH PROPOSED ORDER to Withdraw Portions of First Amended Complaint and Extend Defendant Together Computer, Inc.'s Time to Respond to First Amended Complaint filed by Together Computer, Inc.. (Attachments: # 1 Declaration of Joseph R. Wetzel)(Wetzel, Joseph) (Filed on 5/20/2026) (Entered: 05/20/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71883095/52/1/james-v-together-computer-inc/)
 
 ### 📄 Doc #51 — 2026-04-24
 
-Stipulation without Proposed Order
+STIPULATION to Extend Defendant Together Computer, Inc.'s Time to Respond to 48 Amended Complaint filed by Together Computer, Inc.. (Wetzel, Joseph) (Filed on 4/24/2026) (Entered: 04/24/2026)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/71883095/51/james-v-together-computer-inc/)
 
 ### 📄 Doc #50 — 2026-04-23
 
-Order on Stipulation
+ORDER granting 49 Stipulation for Discovery Order. Signed by Judge Rita F. Lin on 4/22/2026. (afm, COURT STAFF) (Filed on 4/23/2026) (Entered: 04/23/2026)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/71883095/50/james-v-together-computer-inc/)
 
 ### 📄 Doc #49 — 2026-04-21
 
-Stipulation and Proposed Order
+STIPULATION WITH PROPOSED ORDER (Stipulated Discovery Order) filed by Together Computer, Inc.. (Wetzel, Joseph) (Filed on 4/21/2026) (Entered: 04/21/2026)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/71883095/49/james-v-together-computer-inc/)
 
 ### 📄 Doc #48 — 2026-04-20
 
-Exhibit Redlined Complaint
+AMENDED COMPLAINT Filed with Defendant's Written Consent against Together Computer, Inc.. Filed by Darius H. James. (Attachments: # 1 Exhibit Redlined Complaint)(Cuba, Donald) (Filed on 4/20/2026) (Entered: 04/20/2026)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/71883095/48/1/james-v-together-computer-inc/)
 
@@ -75,17 +93,17 @@ ORDER granting 44 Stipulation For Protective Order. Signed by Judge Rita F. Lin 
 
 [CourtListener 連結](https://www.courtlistener.com/docket/71883095/46/james-v-together-computer-inc/)
 
-### 📄 Doc #45 — 2026-04-07
-
-STIPULATION WITH PROPOSED ORDER to Extend Time to File Stipulated ESI Protocol filed by Darius H. James. (Attachments: # 1 Declaration of Anne B. Shaver)(Shaver, Anne) (Filed on 4/7/2026) (Entered: 04/07/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/71883095/45/james-v-together-computer-inc/)
-
 ### 📄 Doc #44 — 2026-04-07
 
 STIPULATION WITH PROPOSED ORDER re Protective Order filed by Darius H. James. (Attachments: # 1 Exhibit 1 (redline comparison to Model N.D. Cal. Protective Order))(Shaver, Anne) (Filed on 4/7/2026) (Entered: 04/07/2026)
 
-[CourtListener 連結](https://www.courtlistener.com/docket/71883095/44/james-v-together-computer-inc/)
+[CourtListener 連結](https://www.courtlistener.com/docket/71883095/44/1/james-v-together-computer-inc/)
+
+### 📄 Doc #45 — 2026-04-07
+
+STIPULATION WITH PROPOSED ORDER to Extend Time to File Stipulated ESI Protocol filed by Darius H. James. (Attachments: # 1 Declaration of Anne B. Shaver)(Shaver, Anne) (Filed on 4/7/2026) (Entered: 04/07/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71883095/45/1/james-v-together-computer-inc/)
 
 ### 📄 Doc #43 — 2026-03-26
 
@@ -101,7 +119,7 @@ Order on Stipulation
 
 STIPULATION WITH PROPOSED ORDER to Extend Time to File Stipulated Protective Order and ESI Protocol filed by Together Computer, Inc.. (Attachments: # 1 Declaration of Joseph R. Wetzel)(Wetzel, Joseph) (Filed on 3/24/2026) (Entered: 03/24/2026)
 
-[CourtListener 連結](https://www.courtlistener.com/docket/71883095/40/james-v-together-computer-inc/)
+[CourtListener 連結](https://www.courtlistener.com/docket/71883095/40/1/james-v-together-computer-inc/)
 
 ### 📄 Doc #— — 2026-03-19
 
@@ -252,16 +270,18 @@ REPORT on the filing or determination of an action regarding a copyright (cc: fo
 [CourtListener 連結](https://www.courtlistener.com/docket/71883095/3/james-v-together-computer-inc/)
 
 <details>
-<summary>已過濾的 26 筆程序性 entries（點擊展開）</summary>
+<summary>已過濾的 28 筆程序性 entries（點擊展開）</summary>
 
-- **Doc #42** (2026-03-25): ORDER by Judge Rita F. Lin granting 41 Motion for Pro Hac Vice. (afm, COURT STAFF) (Filed on 3/25/2026) (Entered: 03/25/2026)
+- **Doc #56** (2026-06-30): ORDER by Judge Rita F. Lin granting 55 Motion for Pro Hac Vice For Betsy Sugar. (spp, COURT STAFF) (Filed on 6/30/2026) (Entered: 06/30/2026)
+- **Doc #55** (2026-06-30): MOTION for leave to appear in Pro Hac Vice ( Filing fee $ 328, receipt number ACANDC-22158388.) Filing fee previously paid on 6/30/2026 filed by Josie Brown, Darius H. James, Jacinda Townsend Gides. (…
 - **Doc #41** (2026-03-25): MOTION for leave to appear in Pro Hac Vice ( Filing fee $ 328, receipt number ACANDC-21795232.) filed by Darius H. James. (Attachments: # 1 Certificate of Good Standing)(Geman, Rachel) (Filed on 3/25/…
+- **Doc #42** (2026-03-25): ORDER by Judge Rita F. Lin granting 41 Motion for Pro Hac Vice. (afm, COURT STAFF) (Filed on 3/25/2026) (Entered: 03/25/2026)
 - **Doc #39** (2026-03-20): ORDER by Judge Rita F. Lin granting 36 Motion for Pro Hac Vice. (afm, COURT STAFF) (Filed on 3/20/2026) (Entered: 03/20/2026)
+- **Doc #36** (2026-03-19): MOTION for leave to appear in Pro Hac Vice ( Filing fee $ 328, receipt number ACANDC-21776234.) filed by Darius H. James. (Attachments: # 1 Certificate of Good Standing)(Petterson, Sean) (Filed on 3/1…
 - **Doc #38** (2026-03-19): NOTICE of Appearance filed by Alison Fraerman on behalf of Darius H. James (Fraerman, Alison) (Filed on 3/19/2026) (Entered: 03/19/2026)
 - **Doc #37** (2026-03-19): NOTICE of Appearance filed by Amelia Haselkorn on behalf of Darius H. James (Haselkorn, Amelia) (Filed on 3/19/2026) (Entered: 03/19/2026)
 - **Doc #35** (2026-03-19): NOTICE of Appearance filed by Anne Brackett Shaver on behalf of Darius H. James (Shaver, Anne) (Filed on 3/19/2026) (Entered: 03/19/2026)
 - **Doc #34** (2026-03-19): NOTICE of Appearance filed by Daniel M. Hutchinson on behalf of Darius H. James (Hutchinson, Daniel) (Filed on 3/19/2026) (Entered: 03/19/2026)
-- **Doc #36** (2026-03-19): MOTION for leave to appear in Pro Hac Vice ( Filing fee $ 328, receipt number ACANDC-21776234.) filed by Darius H. James. (Attachments: # 1 Certificate of Good Standing)(Petterson, Sean) (Filed on 3/1…
 - **Doc #33** (2026-03-19): Certificate of Interested Entities by Darius H. James Certification of Conflicts and Interested Entities or Persons by Plaintiff (Cuba, Donald) (Filed on 3/19/2026) (Entered: 03/19/2026)
 - **Doc #31** (2026-02-24): MOTION for leave to appear in Pro Hac Vice ( Filing fee $ 328, receipt number ACANDC-21686012.) filed by Darius H. James. (Attachments: # 1 Exhibit Certificate of Good Standing)(Duffner, Brendan) (Fil…
 - **Doc #32** (2026-02-24): ORDER by Judge Rita F. Lin granting 31 Motion for Pro Hac Vice. (afm, COURT STAFF) (Filed on 2/24/2026) (Entered: 02/24/2026)
@@ -285,4 +305,4 @@ REPORT on the filing or determination of an action regarding a copyright (cc: fo
 
 ---
 
-*產生時間：2026-04-27 03:18 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-09-01 01:26 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

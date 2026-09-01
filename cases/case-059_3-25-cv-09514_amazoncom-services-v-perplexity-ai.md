@@ -1,6 +1,6 @@
 # Case 59 — Amazon.com Services LLC v. Perplexity AI, Inc.
 
-> 最後更新（CourtListener fetch）：2026-04-27 03:17 UTC
+> 最後更新（CourtListener fetch）：2026-09-01 01:25 UTC
 
 ---
 
@@ -13,7 +13,7 @@
 | Court | District Court, N.D. California (`cand`) |
 | Judge Assigned | Maxine M. Chesney |
 | Date Filed | 2025-11-04 |
-| Date Last Filing | 2026-04-24 |
+| Date Last Filing | 2026-08-20 |
 | Cause | 28:1331 Fed. Question |
 | Nature of Suit | 890 Other Statutory Actions |
 | Jury Demand | Plaintiff |
@@ -24,30 +24,158 @@
 
 > Dashboard 卡片宣告：
 
-> - Court=W.D. Wash.
-> - Judge=TBA
+> - Court=N.D. Cal. 3:25-cv-09514 → 9th Cir. 26-1444（初步禁制令上訴，已發回）
+> - Judge=Maxine M. Chesney（N.D. Cal.）／9th Cir. panel: M. Smith、Tung、Hinderaker
 > - Status=active
-> - Progress=【2026 年 3 月 9 日】Amazon 獲得初步禁止令（preliminary injunction），禁止 Perplexity 以代理方式訪問 Amazon 系統。本案為 Perplexity 面臨的最嚴重訴訟，涉及其核心業務模式的合法性。Perplexity 同時面臨 NYT、Dow Jones、Chicago Tribune、Reddit 及其他出版商的訴訟。
+> - Progress=【2026 年 3 月 9 日】Amazon 獲得初步禁止令（preliminary injunction），禁止 Perplexity 以代理方式訪問 Amazon 系統。本案為 Perplexity 面臨的最嚴重訴訟，涉及其核心業務模式的合法性。Perplexity 同時面臨 NYT、Dow Jones、Chicago Tribune、Reddit 及其他出版商的訴訟。 【2026/8/4】第九巡迴上訴法院撤銷地院對 Perplexity「Comet」瀏覽器之初步禁制令，認定 CFAA 責任應歸屬於使用者本人而非開發商 Perplexity。 【2026/8/4】第九巡迴 26-1444 作成判決（Milan D. Smith, Jr. 主筆，另 Eric C. Tung、John Charles Hinderaker）：Amazon 就 CFAA 與 CDAFA「access」要件勝訴可能性不足，撤銷（VACATE）地院 3/9 初步禁制令並發回續行。判決認定使用者指示 AI 代理人行動時，「存取」Amazon 電腦者係使用者本人而非 Perplexity。
 
 **自動比對結果：**
 
-- ⚠️ Court 可能不一致：dashboard 寫「W.D. Wash.」，CourtListener 為「N.D. California」
-- ⚠️ Judge 可能不一致：dashboard 寫「TBA」，CourtListener 為「Maxine M. Chesney」
-- ⚠️ Dashboard progress **落後 46 天**：dashboard 最新日期 2026-03-09，CourtListener 最後 entry 2026-04-24——建議查看新近 entries 並補充 progress
+- ⚠️ Court 可能不一致：dashboard 寫「N.D. Cal. 3:25-cv-09514 → 9th Cir. 26-1444（初步禁制令上訴，已發回）」，CourtListener 為「N.D. California」
+- ✅ Judge 一致：dashboard 寫「Maxine M. Chesney（N.D. Cal.）／9th Cir. panel: M. Smith、Tung、Hinderaker」，CourtListener 為「Maxine M. Chesney」
+- ℹ️ Dashboard progress 略落後 16 天：dashboard 最新日期 2026-08-04，CourtListener 最後 entry 2026-08-20
 
 ## 3. Docket Entries（最新優先，已過濾程序性 entries）
 
-**實質性 entries**：82 筆／**已過濾程序性 entries**：18 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+**實質性 entries**：123 筆／**已過濾程序性 entries**：26 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+
+### 📄 Doc #118 — 2026-08-20
+
+ORDER GRANTING STIPULATION TO EXTEND DEFENDANT'S DEADLINE TO RESPOND TO COMPLAINT Signed by Judge Maxine M. Chesney on 8/20/2026. (mmcalc, COURT STAFF) (Filed on 8/20/2026) (Entered: 08/20/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71874820/118/amazoncom-services-llc-v-perplexity-ai-inc/)
+
+### 📄 Doc #117 — 2026-08-20
+
+STIPULATION WITH PROPOSED ORDER TO EXTEND DEFENDANT'S DEADLINE TO RESPOND TO COMPLAINT filed by Perplexity AI, Inc.. (Posner, Daniel) (Filed on 8/20/2026) (Entered: 08/20/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71874820/117/amazoncom-services-llc-v-perplexity-ai-inc/)
+
+### 📄 Doc #116 — 2026-08-14
+
+NOTICE of Withdrawal filed by Jonathan Hyun Kim, no longer appearing on behalf of Perplexity AI, Inc. in this case (Kim, Jonathan) (Filed on 8/14/2026) (Entered: 08/14/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71874820/116/amazoncom-services-llc-v-perplexity-ai-inc/)
+
+### 📄 Doc #— — 2026-08-14
+
+Notice of Appearance/Substitution/Change/Withdrawal of Attorney
+
+### 📄 Doc #115 — 2026-08-14
+
+STATUS REPORT (JOINT) by Amazon.com Services LLC. (Kaba, Moez) (Filed on 8/14/2026) (Entered: 08/14/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71874820/115/amazoncom-services-llc-v-perplexity-ai-inc/)
+
+### 📄 Doc #114 — 2026-08-04
+
+USCA Memorandum as to 82 Notice of Appeal to the Ninth Circuit, filed by Perplexity AI, Inc. VACATE the preliminary injunction granted by the district court and REMAND for further proceedings consistent with this opinion. (jnk, COURT STAFF) (Filed on 8/4/2026) (Entered: 08/05/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71874820/114/amazoncom-services-llc-v-perplexity-ai-inc/)
+
+### 📄 Doc #113 — 2026-07-09
+
+NOTICE of Withdrawal filed by Lisa Chen, no longer appearing on behalf of Amazon.com Services LLC in this case (Chen, Lisa) (Filed on 7/9/2026) (Entered: 07/09/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71874820/113/amazoncom-services-llc-v-perplexity-ai-inc/)
+
+### 📄 Doc #— — 2026-07-09
+
+Notice of Appearance/Substitution/Change/Withdrawal of Attorney
+
+### 📄 Doc #112 — 2026-06-26
+
+ORDER GRANTING STIPULATION REGARDING PROTECTIVE ORDER Signed by Judge Maxine M. Chesney on 6/26/2026. (mmcalc, COURT STAFF) (Filed on 6/26/2026) (Entered: 06/26/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71874820/112/amazoncom-services-llc-v-perplexity-ai-inc/)
+
+### 📄 Doc #111 — 2026-06-25
+
+STIPULATION WITH PROPOSED ORDER for Protective Order for Litigation Involving Highly Sensitive Confidential Information and/or Trade Secrets filed by Amazon.com Services LLC. (Kaba, Moez) (Filed on 6/25/2026) (Entered: 06/25/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71874820/111/amazoncom-services-llc-v-perplexity-ai-inc/)
+
+### 📄 Doc #110 — 2026-06-11
+
+ORDER GRANTING STIPULATION RE: DISCOVERY OF ELECTRONICALLY STORED INFORMATION Signed by Judge Maxine M. Chesney on 6/11/2026. (mmcalc, COURT STAFF) (Filed on 6/11/2026) (Entered: 06/11/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71874820/110/amazoncom-services-llc-v-perplexity-ai-inc/)
+
+### 📄 Doc #— — 2026-06-10
+
+Electronic filing error. ***NOTICE TO COUNSEL: Incorrect event used. Please re-file this document in its entirety using the appropriate event found under: Civil > Motions and Related Filings > Stipulations > Stipulation and Proposed Order. Re: 108 Proposed Order filed by Amazon.com Services LLC. (jnk, COURT STAFF) (Filed on 6/10/2026)
+
+### 📄 Doc #109 — 2026-06-10
+
+STIPULATION WITH PROPOSED ORDER Re Discovery of Electronically Stored Information filed by Amazon.com Services LLC. (Kaba, Moez) (Filed on 6/10/2026) (Entered: 06/10/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71874820/109/amazoncom-services-llc-v-perplexity-ai-inc/)
+
+### 📄 Doc #— — 2026-06-10
+
+Electronic Filing Error
+
+### 📄 Doc #108 — 2026-06-10
+
+Proposed Order Stipulated Order Re Discovery of Electronically Stored Information by Amazon.com Services LLC. (Kaba, Moez) (Filed on 6/10/2026) (Entered: 06/10/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71874820/108/amazoncom-services-llc-v-perplexity-ai-inc/)
+
+### 📄 Doc #106 — 2026-05-18
+
+Minute Entry for proceedings held before Judge Maxine M. Chesney: Motion Hearing held via Zoom on 5/15/2026. Re 95 MOTION to Stay Proceedings Pending Resolution of Ninth Circuit Appeal filed by Perplexity AI, Inc.,Defendants Motion to Stay Proceedings Pending Appeal Granted in part and Denied in part. Granted to the extent that the defendant is relieved of its obligation to respond to the complaint by the ordinary time frame, and that the defendants response to the complaint is extended to 21 days after 9th Circuit issues its decision on the appeal of the Courts preliminary injunction. Initial Case Management Conference held via Zoom on 5/15/2026.Ten days after the 9th Circuit issues its ruling on defendants appeal of the preliminary injunction, the parties are to file a joint status report. Amended Pleadings due by 10/16/2026. Close of Fact Discovery due by 2/12/2027. Designation of Experts due by 3/26/2027. Rebuttal Reports due by 4/26/2027.Expert Discovery due by 5/28/2027. Disposit …(truncated)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71874820/106/amazoncom-services-llc-v-perplexity-ai-inc/)
+
+### 📄 Doc #107 — 2026-05-18
+
+PRETRIAL PREPARATION ORDER. Signed by Judge Maxine M. Chesney on 5/18/2026. (tl, COURT STAFF) (Filed on 5/18/2026) (Entered: 05/18/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71874820/107/amazoncom-services-llc-v-perplexity-ai-inc/)
+
+### 📄 Doc #— — 2026-05-15
+
+Motions terminated: 95 MOTION to Stay Proceedings Pending Resolution of Ninth Circuit Appeal filed by Perplexity AI, Inc... Signed by Judge Maxine M. Chesney on 5/15/2026. (This is a text-only entry generated by the court. There is no document associated with this entry.) (mmcalc, COURT STAFF) (Filed on 5/15/2026)
+
+### 📄 Doc #— — 2026-05-15
+
+~Util - Terminate Motions
+
+### 📄 Doc #105 — 2026-05-08
+
+JOINT CASE MANAGEMENT STATEMENT filed by Amazon.com Services LLC. (Kaba, Moez) (Filed on 5/8/2026) (Entered: 05/08/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71874820/105/amazoncom-services-llc-v-perplexity-ai-inc/)
+
+### 📄 Doc #104 — 2026-05-06
+
+OPPOSITION/RESPONSE (re 95 MOTION to Stay Proceedings Pending Resolution of Ninth Circuit Appeal ) filed byAmazon.com Services LLC. (Kaba, Moez) (Filed on 5/6/2026) (Entered: 05/06/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71874820/104/amazoncom-services-llc-v-perplexity-ai-inc/)
+
+### 📄 Doc #— — 2026-05-06
+
+Notice of Appearance/Substitution/Change/Withdrawal of Attorney
+
+### 📄 Doc #102 — 2026-05-01
+
+CLERK'S NOTICE RESCHEDULING MAY 15, 2026, MOTION HEARING TO 10:30 AM, CONVERTING HEARING TO A ZOOM WEBINAR. As to 95 MOTION to Stay Proceedings Pending Resolution of Ninth Circuit Appeal.,. Motion Hearing and Initial Case Management Conference set for 5/15/2026 at 10:30 AM in San Francisco, - Videoconference Only before Judge Maxine M. Chesney. These proceedings will be held via a Zoom webinar.Webinar Access: All counsel, members of the public, and media may access the webinar information at https://www.cand.uscourts.gov/mmc Civ LR 77-3(d). Persons granted access to court proceedings held by telephone or videoconference are reminded that photographing, recording, and rebroadcasting of court proceedings, including screenshots or other visual copying of a hearing, is absolutely prohibited.Zoom Guidance and Setup: https://cand.uscourts.gov/zoom. Motion Hearing and Initial Case Management Conference set for 5/15/2026 at 10:30 AM in San Francisco, - Videoconference Only before Judge Maxine  …(truncated)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71874820/102/amazoncom-services-llc-v-perplexity-ai-inc/)
+
+### 📄 Doc #— — 2026-05-01
+
+Clerk's Notice AND ~Util - Set Motion and Deadlines/Hearings AND ~Util - Teleconference Zoom
 
 ### 📄 Doc #101 — 2026-04-24
 
-ADR Certification (ADR L.R. 3-5 b) of discussion of ADR options
+ADR Certification (ADR L.R. 3-5 b) of discussion of ADR options (Posner, Daniel) (Filed on 4/24/2026) (Entered: 04/24/2026)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/71874820/101/amazoncom-services-llc-v-perplexity-ai-inc/)
 
 ### 📄 Doc #100 — 2026-04-23
 
-ADR Certification (ADR L.R. 3-5 b) of discussion of ADR options
+ADR Certification (ADR L.R. 3-5 b) of discussion of ADR options (Kaba, Moez) (Filed on 4/23/2026) (Entered: 04/23/2026)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/71874820/100/amazoncom-services-llc-v-perplexity-ai-inc/)
 
@@ -79,7 +207,7 @@ ORDER RE: DEFENDANT'S MOTION TO STAY PROCEEDINGS AND ADMINISTRATIVE MOTION TO SH
 
 OPPOSITION/RESPONSE (re 96 MOTION to Shorten Time To Hear Motion to Stay Proceedings Pending Resolution of Ninth Circuit Appeal ) filed by Amazon.com Services LLC. (Attachments: # 1 Declaration of Moez Kaba)(Kaba, Moez) (Filed on 4/9/2026) Modified on 4/10/2026 (anj, COURT STAFF). (Entered: 04/09/2026)
 
-[CourtListener 連結](https://www.courtlistener.com/docket/71874820/97/amazoncom-services-llc-v-perplexity-ai-inc/)
+[CourtListener 連結](https://www.courtlistener.com/docket/71874820/97/1/amazoncom-services-llc-v-perplexity-ai-inc/)
 
 ### 📄 Doc #— — 2026-04-08
 
@@ -89,17 +217,17 @@ Set/Reset Deadlines as to 95 MOTION to Stay Proceedings Pending Resolution of Ni
 
 Set Motion and Deadlines/Hearings No NEF
 
+### 📄 Doc #96 — 2026-04-07
+
+MOTION to Shorten Time To Hear Motion to Stay Proceedings Pending Resolution of Ninth Circuit Appeal filed by Perplexity AI, Inc.. (Attachments: # 1 Declaration of Daniel C. Posner, # 2 Exhibit A, # 3 Exhibit B, # 4 Proposed Order)(Posner, Daniel) (Filed on 4/7/2026) (Entered: 04/07/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71874820/96/4/amazoncom-services-llc-v-perplexity-ai-inc/)
+
 ### 📄 Doc #95 — 2026-04-07
 
 MOTION to Stay Proceedings Pending Resolution of Ninth Circuit Appeal filed by Perplexity AI, Inc.. Responses due by 4/21/2026. Replies due by 4/28/2026. (Attachments: # 1 Declaration of Daniel C. Posner, # 2 Exhibit A, # 3 Exhibit B, # 4 Proposed Order)(Posner, Daniel) (Filed on 4/7/2026) (Entered: 04/07/2026)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/71874820/95/4/amazoncom-services-llc-v-perplexity-ai-inc/)
-
-### 📄 Doc #96 — 2026-04-07
-
-MOTION to Shorten Time To Hear Motion to Stay Proceedings Pending Resolution of Ninth Circuit Appeal filed by Perplexity AI, Inc.. (Attachments: # 1 Declaration of Daniel C. Posner, # 2 Exhibit A, # 3 Exhibit B, # 4 Proposed Order)(Posner, Daniel) (Filed on 4/7/2026) (Entered: 04/07/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/71874820/96/amazoncom-services-llc-v-perplexity-ai-inc/)
 
 ### 📄 Doc #94 — 2026-03-30
 
@@ -289,6 +417,12 @@ Minute Entry for proceedings held before Judge Maxine M. Chesney: Scheduling Con
 
 [CourtListener 連結](https://www.courtlistener.com/docket/71874820/61/amazoncom-services-llc-v-perplexity-ai-inc/)
 
+### 📄 Doc #58 — 2026-01-15
+
+ADMINISTRATIVE MOTION for Leave to File Supplemental Brief re 4 MOTION for Preliminary Injunction filed by Perplexity AI, Inc.. Responses due by 1/23/2026. (Attachments: # 1 Stipulation for Supplemental Briefing, # 2 Exhibit Exhibit 1: Proposed Supplemental Brief, # 3 Exhibit Exhibit 2: Proposed MODISETT Declaration, # 4 Exhibit Exhibit 3: Proposed POSNER Declaration, # 5 Exhibit Exhibit A - PageVaut of FT Article, # 6 Exhibit Exhibit B - CNBC Article, # 7 Exhibit Exhibit C - Amazon Press Release - Shop Brand Sites Directly, # 8 Exhibit Exhibit D - Amazon Press Release - Buy For Me, # 9 Exhibit Exhibit E - Modern Retail Article, # 10 Exhibit Exhibit F - Reddit Post, # 11 Exhibit Exhibit G - PPC Land Article, # 12 Exhibit Exhibit H - KESQ Article, # 13 Exhibit Exhibit I - Amazon Merchant FAQ, # 14 Exhibit Exhibit J - Amazon Customer FAQ, # 15 Exhibit Exhibit K - Amazon Agent ToU, # 16 Exhibit Exhibit L - Seattle Times)(Posner, Daniel) (Filed on 1/15/2026) (Entered: 01/15/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71874820/58/16/amazoncom-services-llc-v-perplexity-ai-inc/)
+
 ### 📄 Doc #60 — 2026-01-15
 
 Supplemental Brief re 35 Opposition/Response to Motion,, for Preliminary Injunction filed byPerplexity AI, Inc.. (Attachments: # 1 Declaration of Henry Modisett, # 2 Declaration of Daniel C. Posner, # 3 Exhibit A, # 4 Exhibit B, # 5 Exhibit C, # 6 Exhibit D, # 7 Exhibit E, # 8 Exhibit F, # 9 Exhibit G, # 10 Exhibit H, # 11 Exhibit I, # 12 Exhibit J, # 13 Exhibit K, # 14 Exhibit L)(Related document(s) 35 ) (Posner, Daniel) (Filed on 1/15/2026) (Entered: 01/15/2026)
@@ -300,12 +434,6 @@ Supplemental Brief re 35 Opposition/Response to Motion,, for Preliminary Injunct
 ORDER APPROVING STIPULATION FOR SUPPLEMENTAL BRIEFING. Signed by Judge Maxine M. Chesney on 1/15/2026. (mmcalc, COURT STAFF) (Filed on 1/15/2026) (Entered: 01/15/2026)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/71874820/59/amazoncom-services-llc-v-perplexity-ai-inc/)
-
-### 📄 Doc #58 — 2026-01-15
-
-ADMINISTRATIVE MOTION for Leave to File Supplemental Brief re 4 MOTION for Preliminary Injunction filed by Perplexity AI, Inc.. Responses due by 1/23/2026. (Attachments: # 1 Stipulation for Supplemental Briefing, # 2 Exhibit Exhibit 1: Proposed Supplemental Brief, # 3 Exhibit Exhibit 2: Proposed MODISETT Declaration, # 4 Exhibit Exhibit 3: Proposed POSNER Declaration, # 5 Exhibit Exhibit A - PageVaut of FT Article, # 6 Exhibit Exhibit B - CNBC Article, # 7 Exhibit Exhibit C - Amazon Press Release - Shop Brand Sites Directly, # 8 Exhibit Exhibit D - Amazon Press Release - Buy For Me, # 9 Exhibit Exhibit E - Modern Retail Article, # 10 Exhibit Exhibit F - Reddit Post, # 11 Exhibit Exhibit G - PPC Land Article, # 12 Exhibit Exhibit H - KESQ Article, # 13 Exhibit Exhibit I - Amazon Merchant FAQ, # 14 Exhibit Exhibit J - Amazon Customer FAQ, # 15 Exhibit Exhibit K - Amazon Agent ToU, # 16 Exhibit Exhibit L - Seattle Times)(Posner, Daniel) (Filed on 1/15/2026) (Entered: 01/15/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/71874820/58/amazoncom-services-llc-v-perplexity-ai-inc/)
 
 ### 📄 Doc #57 — 2026-01-14
 
@@ -357,7 +485,7 @@ ORDER GRANTING AMAZON'S ADMINISTRATIVE MOTION PURSUANT TO CIVIL L.R. 7-11 TO PRO
 
 Administrative Motion to File Under Seal Portions of Plaintiff's Response to Administrative Motion for Leave to File Supplemental Declaration filed by Amazon.com Services LLC. (Attachments: # 1 Declaration of Billy Joe McLain ISO Motion to Seal, # 2 Proposed Order, # 3 Exhibit 1 - Unredacted Response)(Kaba, Moez) (Filed on 12/22/2025) (Entered: 12/22/2025)
 
-[CourtListener 連結](https://www.courtlistener.com/docket/71874820/48/amazoncom-services-llc-v-perplexity-ai-inc/)
+[CourtListener 連結](https://www.courtlistener.com/docket/71874820/48/2/amazoncom-services-llc-v-perplexity-ai-inc/)
 
 ### 📄 Doc #49 — 2025-12-22
 
@@ -393,7 +521,7 @@ Set Motion and Deadlines/Hearings No NEF AND Set/Reset Deadlines AND Set/Reset H
 
 OBJECTIONS to re 39 Administrative Motion to File Under Seal by Perplexity AI, Inc.. (Attachments: # 1 Exhibit A, # 2 Proposed Order)(Posner, Daniel) (Filed on 12/17/2025) (Entered: 12/17/2025)
 
-[CourtListener 連結](https://www.courtlistener.com/docket/71874820/44/amazoncom-services-llc-v-perplexity-ai-inc/)
+[CourtListener 連結](https://www.courtlistener.com/docket/71874820/44/2/amazoncom-services-llc-v-perplexity-ai-inc/)
 
 ### 📄 Doc #42 — 2025-12-17
 
@@ -431,17 +559,17 @@ ORDER GRANTING PERPLEXITY'S MOTION PURSUANT TO CIVIL L.R. 7-11 TO SEAL PORTIONS 
 
 [CourtListener 連結](https://www.courtlistener.com/docket/71874820/37/amazoncom-services-llc-v-perplexity-ai-inc/)
 
+### 📄 Doc #34 — 2025-11-25
+
+Administrative Motion to File Under Seal Portions of Perplexity's Opposition to the PI Motion and Supporting Declarants filed by Perplexity AI, Inc.. (Attachments: # 1 Declaration of Dmitry Shevelenko in Support of Sealing Seal Portions of Perplexity's Opposition to the PI Motion, # 2 Proposed Order Granting Motion to Seal Portions of Perplexitys Opposition to the PI Motion, # 3 Exhibit 1 - Perplexity's Opposition to Motion for Preliminary Injunction, # 4 Exhibit 2 - Declaration of Dmitry Shevelenko in Opposition to Plaintiffs PI, # 5 Exhibit 3 - Declaration of Dzianis Yarats in Opposition to Plaintiffs PI)(Posner, Daniel) (Filed on 11/25/2025) (Entered: 11/25/2025)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71874820/34/2/amazoncom-services-llc-v-perplexity-ai-inc/)
+
 ### 📄 Doc #35 — 2025-11-25
 
 OPPOSITION/RESPONSE (re 4 MOTION for Preliminary Injunction ) filed byPerplexity AI, Inc.. (Attachments: # 1 Declaration of Dmitry Shevelenko in Opposition to Plaintiffs PI (Redacted), # 2 Declaration of Dzianis Yarats in Opposition to Plaintiffs PI (Redacted), # 3 Declaration of Christopher Rucinski in Opposition to Plaintiffs PI, # 4 Exhibit A, # 5 Exhibit B, # 6 Exhibit C, # 7 Exhibit D, # 8 Exhibit E, # 9 Exhibit F, # 10 Exhibit G, # 11 Exhibit H, # 12 Exhibit I, # 13 Exhibit J, # 14 Exhibit K, # 15 Exhibit L, # 16 Exhibit M, # 17 Exhibit N, # 18 Exhibit O)(Quinn, John) (Filed on 11/25/2025) (Entered: 11/25/2025)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/71874820/35/18/amazoncom-services-llc-v-perplexity-ai-inc/)
-
-### 📄 Doc #34 — 2025-11-25
-
-Administrative Motion to File Under Seal Portions of Perplexity's Opposition to the PI Motion and Supporting Declarants filed by Perplexity AI, Inc.. (Attachments: # 1 Declaration of Dmitry Shevelenko in Support of Sealing Seal Portions of Perplexity's Opposition to the PI Motion, # 2 Proposed Order Granting Motion to Seal Portions of Perplexitys Opposition to the PI Motion, # 3 Exhibit 1 - Perplexity's Opposition to Motion for Preliminary Injunction, # 4 Exhibit 2 - Declaration of Dmitry Shevelenko in Opposition to Plaintiffs PI, # 5 Exhibit 3 - Declaration of Dzianis Yarats in Opposition to Plaintiffs PI)(Posner, Daniel) (Filed on 11/25/2025) (Entered: 11/25/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/71874820/34/amazoncom-services-llc-v-perplexity-ai-inc/)
 
 ### 📄 Doc #33 — 2025-11-19
 
@@ -499,9 +627,100 @@ ORDER DIRECTING PLAINTIFF TO SUBMIT COURTESY COPIES OF DOCUMENTS. Signed by Judg
 
 [CourtListener 連結](https://www.courtlistener.com/docket/71874820/21/amazoncom-services-llc-v-perplexity-ai-inc/)
 
-<details>
-<summary>已過濾的 18 筆程序性 entries（點擊展開）</summary>
+### 📄 Doc #20 — 2025-11-11
 
+STIPULATION WITH PROPOSED ORDER re 4 MOTION for Preliminary Injunction : to Continue Hearing and to Modify Briefing Schedule filed by Perplexity AI, Inc.. (Posner, Daniel) (Filed on 11/11/2025) (Entered: 11/11/2025)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71874820/20/amazoncom-services-llc-v-perplexity-ai-inc/)
+
+### 📄 Doc #— — 2025-11-11
+
+Notice of Appearance/Substitution/Change/Withdrawal of Attorney
+
+### 📄 Doc #15 — 2025-11-07
+
+ORDER REASSIGNING CASE IT IS ORDERED that this case is reassigned using a proportionate, random and blind system pursuant to General Order No. 44 to Judge Maxine M. Chesney. Magistrate Judge Sallie Kim no longer assigned to the case. Counsel are instructed that all future filings shall bear the updated judicial initials immediately after the case number. Counsel are reminded to verify the location of the judge on the court website. All hearing and trial dates presently scheduled are vacated. However, existing briefing schedules for motions remain unchanged. Motions must be renoticed for hearing before the judge to whom the case has been reassigned, but the renoticing of the hearing does not affect the prior briefing schedule. Other deadlines such as those for ADR compliance and discovery cutoff also remain unchanged. Notice: The assigned judge participates in the Cameras in the Courtroom Pilot Project. See General Order 65 and cand.uscourts.gov/cameras. Mark B. Busby Clerk, United Stat …(truncated)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71874820/15/amazoncom-services-llc-v-perplexity-ai-inc/)
+
+### 📄 Doc #14 — 2025-11-07
+
+CLERK'S NOTICE OF IMPENDING REASSIGNMENT TO A U.S. DISTRICT COURT JUDGE: The Clerk of this Court will now randomly reassign this case to a District Judge because either (1) a party has not consented to the jurisdiction of a Magistrate Judge, or (2) time is of the essence in deciding a pending judicial action for which the necessary consents to Magistrate Judge jurisdiction have not been secured. You will be informed by separate notice of the district judge to whom this case is reassigned. ALL HEARING DATES PRESENTLY SCHEDULED BEFORE THE CURRENT MAGISTRATE JUDGE ARE VACATED AND SHOULD BE RE-NOTICED FOR HEARING BEFORE THE JUDGE TO WHOM THIS CASE IS REASSIGNED. This is a text only docket entry; there is no document associated with this notice. (bxl, COURT STAFF) (Filed on 11/7/2025) (Entered: 11/07/2025)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71874820/14/amazoncom-services-llc-v-perplexity-ai-inc/)
+
+### 📄 Doc #— — 2025-11-07
+
+Case Assigned/Reassigned
+
+### 📄 Doc #— — 2025-11-07
+
+Clerk's Notice of Impending Reassignment - Text Only
+
+### 📄 Doc #13 — 2025-11-07
+
+CONSENT/DECLINATION to Proceed Before a US Magistrate Judge by Amazon.com Services LLC.. (Kaba, Moez) (Filed on 11/7/2025) (Entered: 11/07/2025)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71874820/13/amazoncom-services-llc-v-perplexity-ai-inc/)
+
+### 📄 Doc #11 — 2025-11-05
+
+CLERK'S NOTICE Re: Consent or Declination: Plaintiff and Defendant shall file a consent or declination to proceed before a magistrate judge by 11/12/2025 . Note that any party is free to withhold consent to proceed before a magistrate judge without adverse substantive consequences. The forms are available at: http://cand.uscourts.gov/civilforms. (This is a text-only entry generated by the court. There is no document associated with this entry.) (bxl, COURT STAFF) (Filed on 11/5/2025) (Entered: 11/05/2025)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71874820/11/amazoncom-services-llc-v-perplexity-ai-inc/)
+
+### 📄 Doc #— — 2025-11-05
+
+Clerk's Notice re: Consent or Declination
+
+### 📄 Doc #— — 2025-11-05
+
+Notice of Appearance/Substitution/Change/Withdrawal of Attorney
+
+### 📄 Doc #7 — 2025-11-05
+
+Initial Case Management Scheduling Order with ADR Deadlines: Case Management Statement due by 2/16/2026. Initial Case Management Conference set for 2/23/2026 01:30 PM in San Francisco - To be held by Zoom. (dhm, COURT STAFF) (Filed on 11/5/2025) (Entered: 11/05/2025)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71874820/7/amazoncom-services-llc-v-perplexity-ai-inc/)
+
+### 📄 Doc #6 — 2025-11-05
+
+Case assigned to Magistrate Judge Sallie Kim. Counsel for plaintiff or the removing party is responsible for serving the Complaint or Notice of Removal, Summons and the assigned judge's standing orders and all other new case documents upon the opposing parties. For information, visit E-Filing A New Civil Case at http://cand.uscourts.gov/ecf/caseopening.Standing orders can be downloaded from the court's web page at www.cand.uscourts.gov/judges. Upon receipt, the summons will be issued and returned electronically. A scheduling order will be sent by Notice of Electronic Filing (NEF) within two business days. Consent/Declination due by 11/19/2025. (jnk, COURT STAFF) (Filed on 11/5/2025) (Entered: 11/05/2025)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71874820/6/amazoncom-services-llc-v-perplexity-ai-inc/)
+
+### 📄 Doc #— — 2025-11-05
+
+~Util - Case Assigned by Intake
+
+### 📄 Doc #4 — 2025-11-04
+
+MOTION for Preliminary Injunction filed by Amazon.com Services LLC. Responses due by 11/18/2025. Replies due by 11/25/2025. (Attachments: # 1 Declaration of David Chen, # 2 Declaration of David Evans, # 3 Declaration of Aaron Fernandes, # 4 Declaration of Matt Garman, # 5 Declaration of Llew Mason, # 6 Declaration of Billy Joe McLain, # 7 Proposed Order)(Kaba, Moez) (Filed on 11/4/2025) (Entered: 11/04/2025)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71874820/4/7/amazoncom-services-llc-v-perplexity-ai-inc/)
+
+### 📄 Doc #3 — 2025-11-04
+
+Rule 7.1 Disclosures by Amazon.com Services LLC identifying Corporate Parent Amazon.com Sales, Inc. for Amazon.com Services LLC. and L.R. 3-15 Certification of Conflicts and Interested Entities and Persons (Kaba, Moez) (Filed on 11/4/2025) (Entered: 11/04/2025)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71874820/3/amazoncom-services-llc-v-perplexity-ai-inc/)
+
+### 📄 Doc #1 — 2025-11-04
+
+COMPLAINT against Perplexity AI, Inc. ( Filing fee $ 405, receipt number ACANDC-21314640.). Filed by Amazon.com Services LLC. (Attachments: # 1 Exhibit 1-10)(Kaba, Moez) (Filed on 11/4/2025) (Entered: 11/04/2025)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71874820/1/1/amazoncom-services-llc-v-perplexity-ai-inc/)
+
+### 📄 Doc #2 — 2025-11-04
+
+Proposed Summons. (Kaba, Moez) (Filed on 11/4/2025) (Entered: 11/04/2025)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71874820/2/amazoncom-services-llc-v-perplexity-ai-inc/)
+
+<details>
+<summary>已過濾的 26 筆程序性 entries（點擊展開）</summary>
+
+- **Doc #103** (2026-05-06): NOTICE of Appearance filed by Lisa Chen on behalf of Amazon.com Services LLC (Chen, Lisa) (Filed on 5/6/2026) (Entered: 05/06/2026)
 - **Doc #76** (2026-03-06): ORDER by Judge Maxine M. Chesney GRANTING 74 Motion for Pro Hac Vice for Jennifer L. Pariser. (jlg, COURT STAFF) (Filed on 3/6/2026) (Entered: 03/06/2026)
 - **Doc #74** (2026-03-05): MOTION for leave to appear in Pro Hac Vice ( Filing fee $ 328, receipt number ACANDC-21725339.) filed by Elsevier, Inc., LexisNexis Risk Solutions Inc., RELX, Inc.. (Attachments: # 1 Certificate of Go…
 - **Doc #70** (2026-03-03): CERTIFICATE OF SERVICE by Amazon.com Services LLC re 69 Statement of Recent Decision (McLain, Billy Joe) (Filed on 3/3/2026) (Entered: 03/03/2026)
@@ -520,9 +739,16 @@ ORDER DIRECTING PLAINTIFF TO SUBMIT COURTESY COPIES OF DOCUMENTS. Signed by Judg
 - **Doc #24** (2025-11-12): MOTION for leave to appear in Pro Hac Vice of Renita N. Sharma ( Filing fee $ 328, receipt number ACANDC-21340295.) filed by Perplexity AI, Inc.. (Sharma, Renita) (Filed on 11/12/2025) (Entered: 11/12…
 - **Doc #19** (2025-11-11): NOTICE of Appearance filed by John B Quinn on behalf of Perplexity AI, Inc. (Quinn, John) (Filed on 11/11/2025) (Entered: 11/11/2025)
 - **Doc #18** (2025-11-11): NOTICE of Appearance filed by William Thomas Pilon on behalf of Perplexity AI, Inc. (Pilon, William) (Filed on 11/11/2025) (Entered: 11/11/2025)
+- **Doc #17** (2025-11-11): NOTICE of Appearance filed by Daniel C Posner on behalf of Perplexity AI, Inc. (Posner, Daniel) (Filed on 11/11/2025) (Entered: 11/11/2025)
+- **Doc #16** (2025-11-11): SUMMONS Returned Executed by Amazon.com Services LLC. Perplexity AI, Inc. served on 11/6/2025, answer due 11/28/2025. (Kaba, Moez) (Filed on 11/11/2025) (Entered: 11/11/2025)
+- **Doc #12** (2025-11-06): Order by Magistrate Judge Sallie Kim granting 5 Motion for Pro Hac Vice as to Hagan Cordell Scotten. (bxl, COURT STAFF) (Filed on 11/6/2025) (Entered: 11/06/2025)
+- **Doc #10** (2025-11-05): NOTICE of Appearance filed by Christine Michelle Woodin on behalf of Amazon.com Services LLC (Woodin, Christine) (Filed on 11/5/2025) (Entered: 11/05/2025)
+- **Doc #9** (2025-11-05): NOTICE of Appearance filed by Billy Joe McLain on behalf of Amazon.com Services LLC (McLain, Billy Joe) (Filed on 11/5/2025) (Entered: 11/05/2025)
+- **Doc #8** (2025-11-05): Summons Issued as to Perplexity AI, Inc. (dhm, COURT STAFF) (Filed on 11/5/2025) (Entered: 11/05/2025)
+- **Doc #5** (2025-11-05): MOTION for leave to appear in Pro Hac Vice ( Filing fee $ 328, receipt number ACANDC-21315711.) Filing fee previously paid on 11/05/2025 filed by Amazon.com Services LLC. (Scotten, Hagan) (Filed on 11…
 
 </details>
 
 ---
 
-*產生時間：2026-04-27 03:17 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-09-01 01:25 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

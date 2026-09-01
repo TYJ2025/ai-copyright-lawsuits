@@ -1,6 +1,6 @@
 # Case 37 — Justice v. Uncharted Labs, Inc.
 
-> 最後更新（CourtListener fetch）：2026-04-27 03:14 UTC
+> 最後更新（CourtListener fetch）：2026-09-01 01:18 UTC
 
 ---
 
@@ -13,7 +13,7 @@
 | Court | District Court, S.D. New York (`nysd`) |
 | Judge Assigned | Alvin K. Hellerstein |
 | Date Filed | 2025-06-16 |
-| Date Last Filing | 2026-04-08 |
+| Date Last Filing | 2026-08-17 |
 | Cause | 17:101 Copyright Infringement |
 | Nature of Suit | 820 Copyright |
 | Jury Demand | Plaintiff |
@@ -25,19 +25,171 @@
 > Dashboard 卡片宣告：
 
 > - Court=S.D.N.Y.
-> - Judge=Garnett
+> - Judge=Alvin K. Hellerstein
 > - Status=active
-> - Progress=案件於 2025 年 12 月提起。Garnett 法官已發出初期案件管理令（initial case management order），要求雙方於 2026 年 5 月前完成初期法律爭點討論。預計將與 UMG 案進行協調。
+> - Progress=案件於 2025 年 12 月提起。Garnett 法官已發出初期案件管理令（initial case management order），要求雙方於 2026 年 5 月前完成初期法律爭點討論。預計將與 UMG 案進行協調。 【2026/6/22】Hagens Berman 與 Delgado Entertainment Law 聯手提交修正訴狀，升級代表遭 AI 訓練未授權使用錄音之獨立音樂人，指控 Udio「對音樂社群最脆弱創作者之野蠻攻擊」。本案原由鄉村音樂人 Tony Justice 2025/6 提起，大型訴訟事務所介入標誌獨立藝人對 AI 音樂平台之法律壓力顯著升級。 【2026/8/17】Hellerstein 法官駁回獨立音樂人重新考量聲請：田納西州消費者保護法及普通法不公平競爭主張因遭《著作權法》優先排除，維持先前駁回
 
 **自動比對結果：**
 
 - ✅ Court 一致：dashboard 寫「S.D.N.Y.」，CourtListener 為「S.D. New York」
-- ⚠️ Judge 可能不一致：dashboard 寫「Garnett」，CourtListener 為「Alvin K. Hellerstein」
-- ℹ️ Dashboard progress 內找不到【YYYY/M/D】格式日期；CourtListener 最後 entry: 2026-04-08
+- ✅ Judge 一致：dashboard 寫「Alvin K. Hellerstein」，CourtListener 為「Alvin K. Hellerstein」
+- ✅ Dashboard progress 同步：dashboard 最新日期 2026-08-17，CourtListener 最後 entry 2026-08-17（dashboard 不落後）
 
 ## 3. Docket Entries（最新優先，已過濾程序性 entries）
 
-**實質性 entries**：57 筆／**已過濾程序性 entries**：31 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+**實質性 entries**：85 筆／**已過濾程序性 entries**：48 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+
+### 📄 Doc #81 — 2026-08-17
+
+ORDER AND OPINION DENYING PLAINTIFFS' MOTION FOR RECONSIDERATION re: 58 MOTION for Reconsideration re; 52 Memorandum & Opinion . filed by 5th Wheel Records, Inc., My Heartland Publishing, LLC, Anthony Justice. For the reasons stated above, Plaintiffs' motion for reconsideration is denied. As noted, should Plaintiffs wish to amend their complaint on the basis outlined in their motion for reconsideration, they may file a motion to do so within 30 days of the issuance of this Order. The parties will appear at a telephonic status conference to be held on October 16, 2026, at 10:00 a.m. Dial-in information will be made available in advance. The Clerk shall terminate ECF No. 58. SO ORDERED. (Signed by Judge Alvin K. Hellerstein on 8/17/2026) (jjc) (Entered: 08/17/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70549282/81/justice-v-uncharted-labs-inc/)
+
+### 📄 Doc #— — 2026-07-08
+
+Notice Regarding Pro Hac Vice Motion
+
+### 📄 Doc #78 — 2026-07-07
+
+ORDER REGULATING PROCEEDINGS re:  58     MOTION   for Reconsideration  re;  52   Memorandum &  Opinion. Set Hearings.    . filed by   5th Wheel Records, Inc.,   My  Heartland Publishing, LLC,   Anthony Justice.  1. The conference previously   scheduled for July 17, 2026, is canceled pending resolution of Plaintiffs'  motion for reconsideration. See ECF No. 58. 2. The Clerk shall terminate ECF No. 73. SO ORDERED.     (Signed by Judge Alvin K. Hellerstein on 7/7/2026) Motions terminated:    73     LETTER MOTION  for Extension of Time to File Answer     addressed to Judge Alvin K. Hellerstein from Andrew Schapiro dated July 2, 2026. filed by   Uncharted Labs, Inc..  (ar)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70549282/78/justice-v-uncharted-labs-inc/)
+
+### 📄 Doc #73 — 2026-07-02
+
+LETTER MOTION for Extension of Time to File Answer addressed to Judge Alvin K. Hellerstein from Andrew Schapiro dated July 2, 2026. Document filed by Uncharted Labs, Inc.. (Attachments: # 1 Proposed Order Stipulation and Proposed Order).(Schapiro, Andrew) (Entered: 07/02/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70549282/73/1/justice-v-uncharted-labs-inc/)
+
+### 📄 Doc #75 — 2026-07-02
+
+STIPULATION AND ORDER: IT IS HEREBY STIPULATED AND AGREED by and between the Parties as follows: 1. The deadline for Defendant Uncharted Labs, Inc., d/b/a Udio.com ("Udio"), to respond to the Second Amended Complaint, currently set for July 13, 2026, is hereby vacated pending the Court's decision on Plaintiffs' Motion For Reconsideration [Dkt. 59]. 2. Within 21 days after the Court rules on Plaintiffs' Motion For Reconsideration, Plaintiffs will either file a Third Amended Complaint or inform Udio that they intend to stand on the Second Amended Complaint. 3. Within 21 days from the date Plaintiffs either file a Third Amended Complaint or inform Udio that they intend to stand on the Second Amended Complaint, Udio will file its response to the operative complaint. SO ORDERED. (Signed by Judge Alvin K. Hellerstein on 7/2/2026) (ar) (Entered: 07/02/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70549282/75/justice-v-uncharted-labs-inc/)
+
+### 📄 Doc #— — 2026-07-02
+
+Notice Regarding Pro Hac Vice Motion
+
+### 📄 Doc #69 — 2026-06-24
+
+NOTICE of Authority for Filing Second Amended Complaint re: 68 Amended Complaint,. Document filed by 5th Wheel Records, Inc., Anthony Justice, My Heartland Publishing, LLC. (Attachments: # 1 Exhibit A).(Delgado, Krystle) (Entered: 06/24/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70549282/69/1/justice-v-uncharted-labs-inc/)
+
+### 📄 Doc #— — 2026-06-24
+
+Notice Regarding Pro Hac Vice Motion
+
+### 📄 Doc #71 — 2026-06-24
+
+REPLY MEMORANDUM OF LAW in Support re: 58 MOTION for Reconsideration re; 52 Memorandum & Opinion,,,,, Set Hearings,,,, . . Document filed by 5th Wheel Records, Inc., Anthony Justice, My Heartland Publishing, LLC..(Melanson, Raffi) (Entered: 06/24/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70549282/71/justice-v-uncharted-labs-inc/)
+
+### 📄 Doc #— — 2026-06-23
+
+***NOTICE TO ATTORNEY REGARDING DEFICIENT PLEADING. Notice to Attorney Krystle Delgado re: Document No. 68 Second Amended Complaint. The filing is deficient for the following reason(s): Court's leave has not been granted.. File the Exhibit to Pleading event found under the event list Other Documents and attach either opposing party's written consent or Court's leave. (jgo)
+
+### 📄 Doc #— — 2026-06-23
+
+Notice to Attorney Regarding Deficient Pleading
+
+### 📄 Doc #68 — 2026-06-22
+
+FILING ERROR DEFICIENT PLEADING - SECOND AMENDED COMPLAINT amending 5 Complaint against Uncharted Labs, Inc. with JURY DEMAND.Document filed by My Heartland Publishing, LLC, Anthony Justice, 5th Wheel Records, Inc.. Related document: 5 Complaint. (Attachments: # 1 Exhibit A).(Delgado, Krystle) Modified on 6/23/2026 (jgo). (Entered: 06/22/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70549282/68/1/justice-v-uncharted-labs-inc/)
+
+### 📄 Doc #— — 2026-06-18
+
+Notice Regarding Pro Hac Vice Motion
+
+### 📄 Doc #66 — 2026-06-17
+
+MEMORANDUM OF LAW in Opposition re: 58 MOTION for Reconsideration re; 52 Memorandum & Opinion,,,,, Set Hearings,,,, . . Document filed by Uncharted Labs, Inc...(Schapiro, Andrew) (Entered: 06/17/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70549282/66/justice-v-uncharted-labs-inc/)
+
+### 📄 Doc #63 — 2026-06-11
+
+LETTER MOTION for Extension of Time to File Answer addressed to Judge Alvin K. Hellerstein from Andrew Schapiro dated June 11, 2026. Document filed by Uncharted Labs, Inc.. (Attachments: # 1 Proposed Order - Stipulation and Proposed Order).(Schapiro, Andrew) (Entered: 06/11/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70549282/63/1/justice-v-uncharted-labs-inc/)
+
+### 📄 Doc #64 — 2026-06-11
+
+STIPULATION AND ORDER: Motions terminated: 63 LETTER MOTION for Extension of Time to File Answer addressed to Judge Alvin K. Hellerstein from Andrew Schapiro dated June 11, 2026. filed by Uncharted Labs, Inc. IT IS HEREBY STIPULATED AND AGREED by and between the Parties as follows: 1. The deadline for Defendant Uncharted Labs, Inc., d/b/a Udio.com ("Udio"), to respond to the First Amended Complaint, currently set for June 26, 2026, is hereby vacated pending the Court's decision on Plaintiffs' Motion For Reconsideration [Dkt. 59]. 2. Within 21 days after the Court rules on Plaintiffs' Motion For Reconsideration, Plaintiffs will either file a Second Amended Complaint or inform Udio that they intend to stand on the First Amended Complaint. 3. Within 21 days from the date Plaintiffs either file a Second Amended Complaint or inform Udio that they intend to stand on the First Amended Complaint, Udio will file its response to the operative complaint. SO ORDERED. (Signed by Judge Alvin K. Hell …(truncated)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70549282/64/justice-v-uncharted-labs-inc/)
+
+### 📄 Doc #— — 2026-06-08
+
+Notice Regarding Pro Hac Vice Motion
+
+### 📄 Doc #58 — 2026-06-03
+
+MOTION for Reconsideration re; 52 Memorandum & Opinion,,,,, Set Hearings,,,, . Document filed by 5th Wheel Records, Inc., Anthony Justice, My Heartland Publishing, LLC..(Delgado, Krystle) (Entered: 06/03/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70549282/58/justice-v-uncharted-labs-inc/)
+
+### 📄 Doc #59 — 2026-06-03
+
+NOTICE of of Motion re: 58 MOTION for Reconsideration re; 52 Memorandum & Opinion,,,,, Set Hearings,,,, .. Document filed by 5th Wheel Records, Inc., Anthony Justice, My Heartland Publishing, LLC..(Delgado, Krystle) (Entered: 06/03/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70549282/59/justice-v-uncharted-labs-inc/)
+
+### 📄 Doc #— — 2026-06-02
+
+Set/Reset Deadlines: Uncharted Labs, Inc. answer due 6/26/2026. (ar)
+
+### 📄 Doc #57 — 2026-06-02
+
+STIPULATION AND ORDER Motions terminated: 56 LETTER MOTION for Extension of Time to File Answer addressed to Judge Alvin K. Hellerstein from Andrew H. Schapiro dated June 1, 2026. filed by Uncharted Labs, Inc. IT IS HEREBY STIPULATED AND AGREED by and between the Parties that the deadline for Defendant Uncharted Labs, Inc., d/b/a Udio.com, to respond to the First Amended Complaint is extended from June 4, 2026 to and including June 26, 2026. SO ORDERED. (Signed by Judge Alvin K. Hellerstein on 6/2/2026) (ar) (Entered: 06/02/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70549282/57/justice-v-uncharted-labs-inc/)
+
+### 📄 Doc #56 — 2026-06-01
+
+LETTER MOTION for Extension of Time to File Answer addressed to Judge Alvin K. Hellerstein from Andrew H. Schapiro dated June 1, 2026. Document filed by Uncharted Labs, Inc.. (Attachments: # 1 Proposed Order Stipulation and Proposed Order).(Schapiro, Andrew) (Entered: 06/01/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70549282/56/1/justice-v-uncharted-labs-inc/)
+
+### 📄 Doc #55 — 2026-06-01
+
+ORDER granting 53 Motion to Withdraw as Attorney. SO ORDERED. (Signed by Judge Alvin K. Hellerstein on 6/1/2026) Attorney Josh Sanford terminated (ar) (Entered: 06/01/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70549282/55/justice-v-uncharted-labs-inc/)
+
+### 📄 Doc #54 — 2026-05-27
+
+RESPONSE to Motion re: 53 MOTION for Joshua Sanford to Withdraw as Attorney . . Document filed by 5th Wheel Records, Inc., Anthony Justice, My Heartland Publishing, LLC. (Attachments: # 1 Exhibit 1, # 2 Exhibit 2).(Delgado, Krystle) (Entered: 05/27/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70549282/54/2/justice-v-uncharted-labs-inc/)
+
+### 📄 Doc #53 — 2026-05-26
+
+MOTION for Joshua Sanford to Withdraw as Attorney . Document filed by 5th Wheel Records, Inc., Anthony Justice..(Sanford, Josh) (Entered: 05/26/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70549282/53/justice-v-uncharted-labs-inc/)
+
+### 📄 Doc #52 — 2026-05-21
+
+ORDER AND OPINION GRANTING IN PART AND DENYING IN PART DEFENDANT'S MOTION TO DISMISS re:  41  MOTION to Dismiss Counts Two, Three, and Four of the First Amended Complaint Pursuant to Federal Rules of Civil Procedure 12(b)(6). filed by Uncharted  Labs, Inc. For the reasons stated above, Defendant's motion to dismiss Plaintiffs' Second Cause of Action is granted and Plaintiffs are given leave to amend their Complaint as to this Cause of Action within 30 days of the issuance of this o pinion; Defendant's motion to dismiss Plaintiffs' Third Cause of Action is denied; and Defendant's motion to dismiss Plaintiffs' Fourth Cause of Action is granted. The parties will appear at a telephonic status conference to be he ld on July 17, 2026, at 10:00 a.m. Dial-in information will be made available in advance. The Clerk shall terminate ECF No. 41. SO ORDERED.   (Signed by Judge Alvin K. Hellerstein on 5/21/2026) (Status Conference set for 7/17/2026 at 10:00 AM before Judge Alvin K. Hellerstein.)  (a …(truncated)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70549282/52/justice-v-uncharted-labs-inc/)
+
+### 📄 Doc #51 — 2026-05-07
+
+MEMO ENDORSEMENT on re: 50 Letter filed by 5th Wheel Records, Inc. Anthony Justice. ENDORSEMENT: SO ORDERED. (Signed by Judge Alvin K. Hellerstein on 5/7/2026) Attorney Jarrett L Ellzey terminated. (ar) (Entered: 05/07/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70549282/51/justice-v-uncharted-labs-inc/)
+
+### 📄 Doc #50 — 2026-05-05
+
+LETTER addressed to Judge Alvin K. Hellerstein from Jarrett L. Ellzey dated May 5, 2026 re: Withdraw as Counsel. Document filed by 5th Wheel Records, Inc., Anthony Justice..(Ellzey, Jarrett) (Entered: 05/05/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70549282/50/justice-v-uncharted-labs-inc/)
 
 ### 📄 Doc #49 — 2026-04-08
 
@@ -61,7 +213,7 @@ RESPONSE re: 46 Notice (Other) Response to Plaintiff's Notice of Supplemental Au
 
 NOTICE of Supplemental Authority. Document filed by 5th Wheel Records, Inc., Anthony Justice, My Heartland Publishing, LLC. (Attachments: # 1 Exhibit A).(Delgado, Krystle) (Entered: 03/05/2026)
 
-[CourtListener 連結](https://www.courtlistener.com/docket/70549282/46/justice-v-uncharted-labs-inc/)
+[CourtListener 連結](https://www.courtlistener.com/docket/70549282/46/1/justice-v-uncharted-labs-inc/)
 
 ### 📄 Doc #45 — 2025-12-22
 
@@ -324,8 +476,25 @@ FILING ERROR - DEFICIENT PLEADING - SUMMONS REQUEST PDF ERROR - REQUEST FOR ISSU
 [CourtListener 連結](https://www.courtlistener.com/docket/70549282/3/justice-v-uncharted-labs-inc-dba-udiocom/)
 
 <details>
-<summary>已過濾的 31 筆程序性 entries（點擊展開）</summary>
+<summary>已過濾的 48 筆程序性 entries（點擊展開）</summary>
 
+- **Doc #80** (2026-07-13): ORDER FOR ADMISSION PRO HAC VICE granting 79 Motion for Mark Carlson to Appear Pro Hac Vice. IT IS HEREBY ORDERED that Applicant is admitted to practice Pro Hac Vice in the above captioned cases in th…
+- **Doc #—** (2026-07-08): >>>NOTICE REGARDING PRO HAC VICE MOTION. Regarding Document No. 79 MOTION for Mark Carlson to Appear Pro Hac Vice . Filing fee $ 200.00, receipt number ANYSDC-33101500. Motion and supporting papers to…
+- **Doc #79** (2026-07-07): MOTION for Mark Carlson to Appear Pro Hac Vice . Filing fee $ 200.00, receipt number ANYSDC-33101500. Motion and supporting papers to be reviewed by Clerk's Office staff. Document filed by 5th Wheel R…
+- **Doc #76** (2026-07-06): ORDER FOR ADMISSION PRO HAC VICE granting 70 Motion for Christopher R. Pitoun to Appear Pro Hac Vice. IT IS HEREBY ORDERED that Applicant is admitted to practice Pro Hac Vice in the above captioned ca…
+- **Doc #77** (2026-07-06): ORDER FOR ADMISSION PRO HAC VICE granting 74 Motion for Roxana Moussavian to Appear Pro Hac Vice.IT IS HEREBY ORDERED that Applicant is admitted to practice Pro Hac Vice in the above captioned cases i…
+- **Doc #74** (2026-07-02): MOTION for Roxana Moussavian to Appear Pro Hac Vice . Filing fee $ 200.00, receipt number ANYSDC-33084136. Motion and supporting papers to be reviewed by Clerk's Office staff. Document filed by 5th Wh…
+- **Doc #—** (2026-07-02): >>>NOTICE REGARDING PRO HAC VICE MOTION. Regarding Document No. 74 MOTION for Roxana Moussavian to Appear Pro Hac Vice . Filing fee $ 200.00, receipt number ANYSDC-33084136. Motion and supporting pape…
+- **Doc #72** (2026-06-25): ORDER FOR ADMISSION PRO HAC VICE granting 67 Motion for Whitney Siehl to Appear Pro Hac Vice. IT IS HEREBY ORDERED that Applicant is admitted to practice Pro Hac Vice in the above captioned cases in t…
+- **Doc #70** (2026-06-24): MOTION for Christopher R. Pitoun to Appear Pro Hac Vice . Filing fee $ 200.00, receipt number ANYSDC-33039853. Motion and supporting papers to be reviewed by Clerk's Office staff. Document filed by 5t…
+- **Doc #—** (2026-06-24): >>>NOTICE REGARDING PRO HAC VICE MOTION. Regarding Document No. 70 MOTION for Christopher R. Pitoun to Appear Pro Hac Vice . Filing fee $ 200.00, receipt number ANYSDC-33039853. Motion and supporting …
+- **Doc #67** (2026-06-18): MOTION for Whitney Siehl to Appear Pro Hac Vice . Filing fee $ 200.00, receipt number ANYSDC-33016398. Motion and supporting papers to be reviewed by Clerk's Office staff. Document filed by 5th Wheel …
+- **Doc #—** (2026-06-18): >>>NOTICE REGARDING PRO HAC VICE MOTION. Regarding Document No. 67 MOTION for Whitney Siehl to Appear Pro Hac Vice . Filing fee $ 200.00, receipt number ANYSDC-33016398. Motion and supporting papers t…
+- **Doc #65** (2026-06-16): ORDER FOR ADMISSION PRO HAC VICE granting 62 Motion for Steve W. Berman to Appear Pro Hac Vice. IT IS HEREBY ORDERED that Applicant is admitted to practice Pro Hac Vice in the above captioned cases in…
+- **Doc #62** (2026-06-08): MOTION for Steve W. Berman to Appear Pro Hac Vice . Filing fee $ 200.00, receipt number ANYSDC-32964089. Motion and supporting papers to be reviewed by Clerk's Office staff. Document filed by 5th Whee…
+- **Doc #—** (2026-06-08): >>>NOTICE REGARDING PRO HAC VICE MOTION. Regarding Document No. 62 MOTION for Steve W. Berman to Appear Pro Hac Vice . Filing fee $ 200.00, receipt number ANYSDC-32964089. Motion and supporting papers…
+- **Doc #61** (2026-06-08): NOTICE OF APPEARANCE by Raffi Melanson on behalf of 5th Wheel Records, Inc., Anthony Justice, My Heartland Publishing, LLC..(Melanson, Raffi) (Entered: 06/08/2026)
+- **Doc #60** (2026-06-05): NOTICE OF APPEARANCE by Nathaniel A. Tarnor on behalf of 5th Wheel Records, Inc., Anthony Justice, My Heartland Publishing, LLC..(Tarnor, Nathaniel) (Entered: 06/05/2026)
 - **Doc #33** (2025-09-11): NOTICE OF APPEARANCE by William F. Patry on behalf of Uncharted Labs, Inc...(Patry, William) (Entered: 09/11/2025)
 - **Doc #32** (2025-08-25): ORDER FOR ADMISSION PRO HAC VICE granting 30 Motion to Appear Pro Hac Vice. The motion of Josh Sanford for admission to practice Pro Hac Vice in the above captioned action is granted. As further set f…
 - **Doc #31** (2025-08-19): ORDER FOR ADMISSION TO PRACTICE PRO HAC VICE granting 29 Motion for Krystle Delgado to Appear Pro Hac Vice. The motion of Ktystle Delgado for admission to practice pro hac vice in the above captioned …
@@ -362,4 +531,4 @@ FILING ERROR - DEFICIENT PLEADING - SUMMONS REQUEST PDF ERROR - REQUEST FOR ISSU
 
 ---
 
-*產生時間：2026-04-27 03:14 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-09-01 01:18 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

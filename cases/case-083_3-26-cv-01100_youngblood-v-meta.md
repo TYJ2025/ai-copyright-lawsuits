@@ -1,6 +1,6 @@
 # Case 83 — Youngblood v. Meta Platforms, Inc.
 
-> 最後更新（CourtListener fetch）：2026-04-27 03:21 UTC
+> 最後更新（CourtListener fetch）：2026-09-01 01:32 UTC
 
 ---
 
@@ -26,14 +26,14 @@
 > Dashboard 卡片宣告：
 
 > - Court=N.D. Cal.
-> - Judge=Donato
+> - Judge=James Donato
 > - Status=dismissed
 > - Progress=原告自願請求駁回訴訟。Donato 法官已准許。本案現已結案。
 
 **自動比對結果：**
 
 - ✅ Court 一致：dashboard 寫「N.D. Cal.」，CourtListener 為「N.D. California」
-- ✅ Judge 一致：dashboard 寫「Donato」，CourtListener 為「James Donato」
+- ✅ Judge 一致：dashboard 寫「James Donato」，CourtListener 為「James Donato」
 - ℹ️ Dashboard progress 內找不到【YYYY/M/D】格式日期；CourtListener 最後 entry: 2026-02-19
 
 ## 3. Docket Entries（最新優先，已過濾程序性 entries）
@@ -129,4 +129,4 @@ CERTIFICATION of Conflicts and Interested Entities or Persons Pursuant to F.R.C.
 
 ---
 
-*產生時間：2026-04-27 03:21 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-09-01 01:32 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

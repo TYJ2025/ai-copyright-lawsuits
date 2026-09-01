@@ -1,6 +1,6 @@
 # Case 78 — David Vance Gardner v. Runway AI, Inc.
 
-> 最後更新（CourtListener fetch）：2026-04-27 03:20 UTC
+> 最後更新（CourtListener fetch）：2026-09-01 01:32 UTC
 
 ---
 
@@ -14,7 +14,8 @@
 | Judge Assigned | Dolly M. Gee |
 | Judge Referred | Anna Y. Park |
 | Date Filed | 2026-02-23 |
-| Date Last Filing | 2026-03-26 |
+| Date Terminated | 2026-05-20 |
+| Date Last Filing | 2026-05-28 |
 | Cause | Digital Millennium Copyright Act |
 | Nature of Suit | 820 Copyright |
 | Jury Demand | Plaintiff |
@@ -26,19 +27,37 @@
 > Dashboard 卡片宣告：
 
 > - Court=N.D. Cal.
-> - Judge=Gee
+> - Judge=Dolly M. Gee
 > - Status=active
 > - Progress=Gee 法官審理中。案件進行中，預計與 SDNY 的 Kaplan 法官案件可能涉及相似的法律問題。
 
 **自動比對結果：**
 
 - ⚠️ Court 可能不一致：dashboard 寫「N.D. Cal.」，CourtListener 為「C.D. California」
-- ✅ Judge 一致：dashboard 寫「Gee」，CourtListener 為「Dolly M. Gee」
-- ℹ️ Dashboard progress 內找不到【YYYY/M/D】格式日期；CourtListener 最後 entry: 2026-03-26
+- ✅ Judge 一致：dashboard 寫「Dolly M. Gee」，CourtListener 為「Dolly M. Gee」
+- ℹ️ Dashboard progress 內找不到【YYYY/M/D】格式日期；CourtListener 最後 entry: 2026-05-28
 
 ## 3. Docket Entries（最新優先，已過濾程序性 entries）
 
-**實質性 entries**：13 筆／**已過濾程序性 entries**：7 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+**實質性 entries**：16 筆／**已過濾程序性 entries**：7 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+
+### 📄 Doc #23 — 2026-05-26
+
+REPORT ON THE DETERMINATION OF AN ACTION Regarding a Copyright. (Closing) (Attachments: # 1 Order re Stipulation to Transfer Action to the Southern District of New York) (gk) (Entered: 05/28/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72318854/23/1/david-vance-gardner-v-runway-ai-inc/)
+
+### 📄 Doc #22 — 2026-05-20
+
+ORDER RE STIPULATION TO TRANSFER ACTION TO UNITED STATES DISTRICT COURT, SOUTHERN DISTRICT OF NEW YORK 21 by Judge Dolly M. Gee. The Court, having considered the Stipulation and finding that transfer is warranted under the first-to-file doctrine and 28 U.S.C. 1404, hereby APPROVES the Stipulation and TRANSFERS the Action to the United States District Court, Southern District of New York. Case transferred electronically. (MD JS-6. Case Terminated.) (chk) (Entered: 05/22/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72318854/22/david-vance-gardner-v-runway-ai-inc/)
+
+### 📄 Doc #21 — 2026-05-19
+
+STIPULATION to Transfer Case to United States District Court, Southern District of New York filed by Defendant Runway AI, Inc.. (Attachments: # 1 Proposed Order)(Shaffer, Nathan) (Entered: 05/19/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72318854/21/1/david-vance-gardner-v-runway-ai-inc/)
 
 ### 📄 Doc #20 — 2026-03-26
 
@@ -50,7 +69,7 @@ ORDER RE: STIPULATION TO EXTEND TIME TO RESPOND TO INITIAL COMPLAINT BY MORE THA
 
 STIPULATION for Extension of Time to File Answer to May 25, 2026 re Complaint (Attorney Civil Case Opening) 1 filed by Defendant Runway AI, Inc.. (Attachments: # 1 Proposed Order)(Shaffer, Nathan) (Entered: 03/24/2026)
 
-[CourtListener 連結](https://www.courtlistener.com/docket/72318854/18/david-vance-gardner-v-runway-ai-inc/)
+[CourtListener 連結](https://www.courtlistener.com/docket/72318854/18/1/david-vance-gardner-v-runway-ai-inc/)
 
 ### 📄 Doc #13 — 2026-03-12
 
@@ -133,4 +152,4 @@ COMPLAINT with filing fee previously paid ($405.00 paid on 02/23/2026, receipt n
 
 ---
 
-*產生時間：2026-04-27 03:20 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-09-01 01:32 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

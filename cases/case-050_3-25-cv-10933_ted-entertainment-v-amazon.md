@@ -1,6 +1,6 @@
 # Case 50 — Ted Entertainment, Inc. v. ByteDance Inc
 
-> 最後更新（CourtListener fetch）：2026-04-27 03:16 UTC
+> 最後更新（CourtListener fetch）：2026-09-01 01:23 UTC
 
 ---
 
@@ -13,7 +13,7 @@
 | Court | District Court, N.D. California (`cand`) |
 | Judge Assigned | Jacqueline Scott Corley |
 | Date Filed | 2025-12-23 |
-| Date Last Filing | 2026-04-23 |
+| Date Last Filing | 2026-08-27 |
 | Cause | 17:101 Copyright Infringement |
 | Nature of Suit | 820 Copyright |
 | Jury Demand | Plaintiff |
@@ -25,23 +25,109 @@
 > Dashboard 卡片宣告：
 
 > - Court=C.D. Cal.
-> - Judge=TBA
+> - Judge=Jacqueline Scott Corley
 > - Status=active
 > - Progress=案件於 2026 年 4 月初提起。合計 Ted Entertainment 已對 NVIDIA、Meta、Snap、Bytedance、Apple、OpenAI、Amazon 七家公司提起訴訟。
 
 **自動比對結果：**
 
 - ⚠️ Court 可能不一致：dashboard 寫「C.D. Cal.」，CourtListener 為「N.D. California」
-- ⚠️ Judge 可能不一致：dashboard 寫「TBA」，CourtListener 為「Jacqueline Scott Corley」
-- ℹ️ Dashboard progress 內找不到【YYYY/M/D】格式日期；CourtListener 最後 entry: 2026-04-23
+- ✅ Judge 一致：dashboard 寫「Jacqueline Scott Corley」，CourtListener 為「Jacqueline Scott Corley」
+- ℹ️ Dashboard progress 內找不到【YYYY/M/D】格式日期；CourtListener 最後 entry: 2026-08-27
 
 ## 3. Docket Entries（最新優先，已過濾程序性 entries）
 
-**實質性 entries**：32 筆／**已過濾程序性 entries**：10 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+**實質性 entries**：48 筆／**已過濾程序性 entries**：17 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+
+### 📄 Doc #47 — 2026-08-27
+
+Reply to Opposition/Response
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72075006/47/ted-entertainment-inc-v-bytedance-inc/)
+
+### 📄 Doc #46 — 2026-08-24
+
+STATEMENT OF RECENT DECISION pursuant to Civil Local Rule 7-3.d filed byMatt Fisher, Golfholics, Inc., Ted Entertainment, Inc.. (Attachments: # 1 Exhibit A)(Related document(s) 42 ) (Nath, Rohit) (Filed on 8/24/2026) (Entered: 08/24/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72075006/46/1/ted-entertainment-inc-v-bytedance-inc/)
+
+### 📄 Doc #45 — 2026-08-20
+
+STATEMENT OF RECENT DECISION pursuant to Civil Local Rule 7-3.d filed byMatt Fisher, Golfholics, Inc., Ted Entertainment, Inc.. (Attachments: # 1 Exhibit A, # 2 Exhibit B)(Related document(s) 42 ) (Nath, Rohit) (Filed on 8/20/2026) (Entered: 08/20/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72075006/45/2/ted-entertainment-inc-v-bytedance-inc/)
+
+### 📄 Doc #43 — 2026-08-06
+
+Request for Judicial Notice re 42 Opposition/Response to Motion to Dismiss filed byMatt Fisher, Golfholics, Inc., Ted Entertainment, Inc.. (Attachments: # 1 Exhibit A, # 2 Exhibit B, # 3 Exhibit C)(Related document(s) 42 ) (Nath, Rohit) (Filed on 8/6/2026) (Entered: 08/06/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72075006/43/3/ted-entertainment-inc-v-bytedance-inc/)
+
+### 📄 Doc #42 — 2026-08-06
+
+OPPOSITION/RESPONSE (re 40 MOTION to Dismiss Plaintiffs' First Amended Complaint ) filed byMatt Fisher, Golfholics, Inc., Ted Entertainment, Inc.. (Attachments: # 1 Proposed Order)(Nath, Rohit) (Filed on 8/6/2026) (Entered: 08/06/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72075006/42/1/ted-entertainment-inc-v-bytedance-inc/)
+
+### 📄 Doc #— — 2026-07-07
+
+Set/Reset Deadlines as to 40 MOTION to Dismiss Plaintiffs' First Amended Complaint. Motion Hearing set for 9/24/2026 at 10:00 a.m. in San Francisco, Courtroom 08, 19th Floor before Judge Jacqueline Scott Corley. (ahm, COURT STAFF) (Filed on 7/7/2026)
+
+### 📄 Doc #— — 2026-07-07
+
+Set Motion and Deadlines/Hearings
+
+### 📄 Doc #40 — 2026-07-06
+
+MOTION to Dismiss Plaintiffs' First Amended Complaint filed by ByteDance Inc. Motion to Dismiss Hearing set for 9/24/2026 10:00 AM. Responses due by 8/6/2026. Replies due by 8/27/2026. (Attachments: # 1 Proposed Order)(Voigts, Anne) (Filed on 7/6/2026) (Entered: 07/06/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72075006/40/1/ted-entertainment-inc-v-bytedance-inc/)
+
+### 📄 Doc #37 — 2026-06-02
+
+CLERK'S NOTICE SETTING ZOOM HEARING. The Initial Case Management Conference set for 10/21/2026 at 2:00 p.m. before Judge Jacqueline Scott Corley will be held via a Zoom webinar.Webinar Access: All counsel, members of the public, and media may access the webinar information at https://www.cand.uscourts.gov/jsc Court Appearances: Advanced notice is required of counsel or parties who wish to be identified by the court as making an appearance or will be participating in the argument at the hearing. A list of names must be sent to the CRD at jsccrd@cand.uscourts.gov no later than noon on 10/20/2026.Civ LR 77-3(d). Persons granted access to court proceedings held by telephone or videoconference are reminded that photographing, recording, and rebroadcasting of court proceedings, including screenshots or other visual copying of a hearing, is absolutely prohibited.Zoom Guidance and Setup: https://cand.uscourts.gov/zoom. (This is a text-only entry generated by the court. There is no document ass …(truncated)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72075006/37/ted-entertainment-inc-v-bytedance-inc/)
+
+### 📄 Doc #36 — 2026-06-02
+
+ORDER by Judge Jacqueline Scott Corley granting 35 Stipulation to Enlarge Time to Respond to First Amended Complaint and CMC. (ahm, COURT STAFF) (Filed on 6/2/2026) (Entered: 06/02/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72075006/36/ted-entertainment-inc-v-bytedance-inc/)
+
+### 📄 Doc #— — 2026-06-02
+
+Clerk's Notice Setting Zoom Hearing
+
+### 📄 Doc #35 — 2026-06-01
+
+STIPULATION WITH PROPOSED ORDER to Enlarge Time to Respond to First Amended Complaint and CMC filed by ByteDance Inc. (Attachments: # 1 Declaration of K. Ghaffari ISO Joint Stipulation, # 2 Proposed Order)(Ghaffari, Kayvan) (Filed on 6/1/2026) (Entered: 06/01/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72075006/35/2/ted-entertainment-inc-v-bytedance-inc/)
+
+### 📄 Doc #— — 2026-05-29
+
+Notice of Appearance/Substitution/Change/Withdrawal of Attorney
+
+### 📄 Doc #31 — 2026-04-27
+
+CLERK'S NOTICE SETTING ZOOM HEARING. Initial Case Management Conference is reset for 10/7/2026 at 2:00 p.m. before Judge Jacquleine Scott Corley by a Zoom webinar.Webinar Access: All counsel, members of the public, and media may access the webinar information at https://www.cand.uscourts.gov/jsc Court Appearances: Advanced notice is required of counsel or parties who wish to be identified by the court as making an appearance or will be participating in the argument at the hearing. A list of names must be sent to the CRD at jsccrd@cand.uscourts.gov no later than noon on 10/6/2026.Civ LR 77-3(d). Persons granted access to court proceedings held by telephone or videoconference are reminded that photographing, recording, and rebroadcasting of court proceedings, including screenshots or other visual copying of a hearing, is absolutely prohibited.Zoom Guidance and Setup: https://cand.uscourts.gov/zoom. (This is a text-only entry generated by the court. There is no document associated with th …(truncated)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72075006/31/ted-entertainment-inc-v-bytedance-inc/)
+
+### 📄 Doc #30 — 2026-04-27
+
+ORDER by Judge Jacqueline Scott Corley granting as modified 29 Stipulation to Enlarge Time to Respond to Amended Complaint and Continue the Initial Case Management Conference. (ahm, COURT STAFF) (Filed on 4/27/2026) Modified on 4/27/2026 (ahm, COURT STAFF). (Entered: 04/27/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72075006/30/ted-entertainment-inc-v-bytedance-inc/)
+
+### 📄 Doc #— — 2026-04-27
+
+Clerk's Notice Setting Zoom Hearing
 
 ### 📄 Doc #29 — 2026-04-23
 
-Proposed Order
+STIPULATION WITH PROPOSED ORDER to Enlarge Time to Respond to Amended Complaint and Continue the Initial Case Management Conference filed by ByteDance Inc. (Attachments: # 1 Declaration of Kayvan Ghaffari ISO to Joint Stipulation, # 2 Proposed Order)(Ghaffari, Kayvan) (Filed on 4/23/2026) (Entered: 04/23/2026)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/72075006/29/2/ted-entertainment-inc-v-bytedance-inc/)
 
@@ -206,8 +292,15 @@ Proposed Summons. (Bar-Nissim, Rom) (Filed on 12/23/2025) (Entered: 12/23/2025)
 [CourtListener 連結](https://www.courtlistener.com/docket/72075006/2/ted-entertainment-inc-v-bytedance-inc/)
 
 <details>
-<summary>已過濾的 10 筆程序性 entries（點擊展開）</summary>
+<summary>已過濾的 17 筆程序性 entries（點擊展開）</summary>
 
+- **Doc #44** (2026-08-11): MOTION for leave to appear in Pro Hac Vice ( Filing fee $ 328, receipt number ACANDC-22322883.) filed by Matt Fisher, Golfholics, Inc., Ted Entertainment, Inc.. (Attachments: # 1 Exhibit Certificate o…
+- **Doc #41** (2026-07-07): Certificate of Interested Entities by Matt Fisher, Golfholics, Inc., Ted Entertainment, Inc. Certification of Conflicts (Ellzey, Jarrett) (Filed on 7/7/2026) (Entered: 07/07/2026)
+- **Doc #38** (2026-06-05): MOTION for leave to appear in Pro Hac Vice ( Filing fee $ 328, receipt number ACANDC-22066262.) Filing fee previously paid on June 4, 2026 filed by Matt Fisher, Golfholics, Inc., Ted Entertainment, In…
+- **Doc #39** (2026-06-05): ORDER by Judge Jacqueline Scott Corley granting 38 Motion for Pro Hac Vice as to Morgan McCollum. (ahm, COURT STAFF) (Filed on 6/5/2026) (Entered: 06/05/2026)
+- **Doc #34** (2026-05-29): NOTICE of Appearance filed by Michael Gervais on behalf of Matt Fisher, Golfholics, Inc., Ted Entertainment, Inc. (Gervais, Michael) (Filed on 5/29/2026) (Entered: 05/29/2026)
+- **Doc #33** (2026-05-29): NOTICE of Appearance filed by Max Lalon Tribble, Jr on behalf of Matt Fisher, Golfholics, Inc., Ted Entertainment, Inc. (Tribble, Max) (Filed on 5/29/2026) (Entered: 05/29/2026)
+- **Doc #32** (2026-05-29): NOTICE of Appearance filed by Rohit Dwarka Nath on behalf of Matt Fisher, Golfholics, Inc., Ted Entertainment, Inc. (Nath, Rohit) (Filed on 5/29/2026) (Entered: 05/29/2026)
 - **Doc #24** (2026-03-20): ORDER by Judge Jacqueline Scott Corley granting 23 Motion for Pro Hac Vice as to Tom Kherkher. (ahm, COURT STAFF) (Filed on 3/20/2026) (Entered: 03/20/2026)
 - **Doc #23** (2026-03-18): MOTION for leave to appear in Pro Hac Vice ( Filing fee $ 328, receipt number BCANDC-21770581.) filed by Matt Fisher, Golfholics, Inc., Ted Entertainment, Inc.. (Attachments: # 1 Exhibit Certificate o…
 - **Doc #22** (2026-03-18): ORDER by Judge Jacqueline Scott Corley granting 21 Motion for Pro Hac Vice as to Jarrett L. Ellzey. (ahm, COURT STAFF) (Filed on 3/18/2026) (Entered: 03/18/2026)
@@ -223,4 +316,4 @@ Proposed Summons. (Bar-Nissim, Rom) (Filed on 12/23/2025) (Entered: 12/23/2025)
 
 ---
 
-*產生時間：2026-04-27 03:16 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-09-01 01:23 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

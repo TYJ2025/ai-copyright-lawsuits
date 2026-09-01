@@ -1,6 +1,6 @@
 # Case 13 — DOE 1 v. GitHub, Inc.
 
-> 最後更新（CourtListener fetch）：2026-04-27 03:01 UTC
+> 最後更新（CourtListener fetch）：2026-09-01 01:10 UTC
 
 ---
 
@@ -14,7 +14,7 @@
 | Judge Assigned | Jon S. Tigar |
 | Judge Referred | Ajay S. Krishnan |
 | Date Filed | 2022-11-03 |
-| Date Last Filing | 2026-03-04 |
+| Date Last Filing | 2026-05-06 |
 | Cause | 28:1331 Fed. Question: Breach of Contract |
 | Nature of Suit | 190 Contract: Other |
 | Jury Demand | Plaintiff |
@@ -25,20 +25,40 @@
 
 > Dashboard 卡片宣告：
 
-> - Court=N.D. Cal. → Ninth Circuit Appeal
-> - Judge=Tigar / Ninth Circuit
+> - Court=N.D. Cal. 4:22-cv-06823 → 9th Cir. 24-6136（§1292(b) 許可上訴）／24-7700（本案上訴審）
+> - Judge=Tigar（N.D. Cal. 原審）／9th Cir. panel: S. Thomas、Miller、Blumenfeld
 > - Status=appeal
-> - Progress=2024 年 1 月，Tigar 法官駁回大部分主張。2024 年 9 月，法官核准中間上訴（interlocutory appeal）至第九巡迴法院。第九巡迴法院於 2024 年 12 月接受上訴（No. 24-6136），地院程序暫停。 【2026 年 2 月 11 日】第九巡迴法院在舊金山舉行言詞辯論。 上訴審理中，被告（AI 公司聯盟）敦促第九巡迴法院就 DMCA 在 AI 脈絡下的適用範圍作出明確裁判。 截至 2026 年 4 月，第九巡迴法院尚未作出裁定。判決未決。
+> - Progress=2024 年 1 月，Tigar 法官駁回大部分主張。2024 年 9 月，法官核准中間上訴（interlocutory appeal）至第九巡迴法院；許可上訴聲請程序另編 9th Cir. 24-6136，2024/12/19 由 S. Thomas、Tallman 兩位法官裁定准許，本案上訴審則編為 9th Cir. 24-7700，地院程序暫停。 【2026/2/11】第九巡迴法院於舊金山第一法庭進行言詞辯論後 ARGUED AND SUBMITTED，合議庭為 Sidney R. Thomas、Eric D. Miller、Stanley Blumenfeld。被告（AI 業者聯盟）敦促法院就 DMCA §1202 於 AI 脈絡之適用範圍作出明確裁判。 截至 2026/8/16，24-7700 卷宗最後書狀為 2026/5/26 之律師退出通知，判決尚未作成。
 
 **自動比對結果：**
 
-- ⚠️ Court 可能不一致：dashboard 寫「N.D. Cal. → Ninth Circuit Appeal」，CourtListener 為「N.D. California」
-- ✅ Judge 一致：dashboard 寫「Tigar / Ninth Circuit」，CourtListener 為「Jon S. Tigar」
-- ℹ️ Dashboard progress 略落後 21 天：dashboard 最新日期 2026-02-11，CourtListener 最後 entry 2026-03-04
+- ⚠️ Court 可能不一致：dashboard 寫「N.D. Cal. 4:22-cv-06823 → 9th Cir. 24-6136（§1292(b) 許可上訴）／24-7700（本案上訴審）」，CourtListener 為「N.D. California」
+- ⚠️ Judge 可能不一致：dashboard 寫「Tigar（N.D. Cal. 原審）／9th Cir. panel: S. Thomas、Miller、Blumenfeld」，CourtListener 為「Jon S. Tigar」
+- ⚠️ Dashboard progress **落後 84 天**：dashboard 最新日期 2026-02-11，CourtListener 最後 entry 2026-05-06——建議查看新近 entries 並補充 progress
 
 ## 3. Docket Entries（最新優先，已過濾程序性 entries）
 
-**實質性 entries**：84 筆／**已過濾程序性 entries**：16 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+**實質性 entries**：179 筆／**已過濾程序性 entries**：21 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+
+### 📄 Doc #295 — 2026-05-06
+
+NOTICE of Withdrawal filed by Alexandra Marie Ward, no longer appearing on behalf of OAI CORPORATION,, OPENAI GLOBAL, LLC, OPENAI HOLDCO, LLC, OPENAI HOLDINGS, LLC, OPENAI INVESTMENT, OPENAI INVESTMENT LLC, OPENAI STARTUP FUND SPV GP I, L.L.C., OPENAI STARTUP FUND SPV I, L.P, OPENAI, L.L.C., OpenAI GP, L.L.C., OpenAI OpCo, L.L.C., OpenAI Startup Fund GP I, L.L.C., OpenAI Startup Fund I, L.P., OpenAI Startup Fund Management, LLC, OpenAI, Inc., OpenAI, L.P. in this case (Ward, Alexandra) (Filed on 5/6/2026) (Entered: 05/06/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/65669506/295/doe-1-v-github-inc/)
+
+### 📄 Doc #— — 2026-05-06
+
+Notice of Appearance/Substitution/Change/Withdrawal of Attorney
+
+### 📄 Doc #294 — 2026-05-04
+
+NOTICE of Withdrawal filed by Rose S Lee, no longer appearing on behalf of OAI CORPORATION,, OPENAI GLOBAL, LLC, OPENAI HOLDCO, LLC, OPENAI HOLDINGS, LLC, OPENAI INVESTMENT, OPENAI INVESTMENT LLC, OPENAI STARTUP FUND SPV GP I, L.L.C., OPENAI STARTUP FUND SPV I, L.P, OPENAI, L.L.C., OpenAI GP, L.L.C., OpenAI OpCo, L.L.C., OpenAI Startup Fund GP I, L.L.C., OpenAI Startup Fund I, L.P., OpenAI Startup Fund Management, LLC, OpenAI, Inc., OpenAI, L.P. in this case (Lee, Rose) (Filed on 5/4/2026) (Entered: 05/04/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/65669506/294/doe-1-v-github-inc/)
+
+### 📄 Doc #— — 2026-05-04
+
+Notice of Appearance/Substitution/Change/Withdrawal of Attorney
 
 ### 📄 Doc #292 — 2025-12-16
 
@@ -504,8 +524,520 @@ MOTION for Reconsideration re 189 Order on Motion to Dismiss, filed by J. DOE 1,
 
 [CourtListener 連結](https://www.courtlistener.com/docket/65669506/218/doe-1-v-github-inc/)
 
+### 📄 Doc #217 — 2024-02-28
+
+TRANSCRIPT ORDER for proceedings held on 11/09/2023 before Judge Jon S. Tigar by J. DOE 1, J. DOE 2, J. Doe 3, J. Doe 4, J. Doe 5, for Court Reporter Pam Batalo-Hebel. (Castillo Guardado, William) (Filed on 2/28/2024) (Entered: 02/28/2024)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/65669506/217/doe-1-v-github-inc/)
+
+### 📄 Doc #214 — 2024-02-28
+
+Administrative Motion to Consider Whether Another Party's Material Should Be Sealed filed by GitHub, Inc., Microsoft Corporation. (Attachments: # 1 Proposed Order, # 2 GitHub and Microsoft's Motion to Dismiss (UNREDACTED))(Hurst, Annette) (Filed on 2/28/2024) (Entered: 02/28/2024)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/65669506/214/1/doe-1-v-github-inc/)
+
+### 📄 Doc #215 — 2024-02-28
+
+MOTION to Dismiss Portions of the Second Amended Complaint in Consolidated Actions (REDACTED) filed by GitHub, Inc., Microsoft Corporation. Motion to Dismiss Hearing set for 5/16/2024 02:00 PM in Oakland, Courtroom 6, 2nd Floor. Responses due by 3/13/2024. Replies due by 3/20/2024. (Attachments: # 1 Proposed Order)(Hurst, Annette) (Filed on 2/28/2024) (Entered: 02/28/2024)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/65669506/215/1/doe-1-v-github-inc/)
+
+### 📄 Doc #213 — 2024-02-23
+
+Joint Discovery Letter Brief filed by GitHub, Inc., Microsoft Corporation. (Attachments: # 1 Exhibit 1 to Joint Discovery Letter Brief)(Hurst, Annette) (Filed on 2/23/2024) (Entered: 02/23/2024)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/65669506/213/1/doe-1-v-github-inc/)
+
+### 📄 Doc #212 — 2024-02-09
+
+ORDER: The parties filed four discovery letters: two are unilateral letters filed by Defendants 202 and Plaintiffs 203 ; the other two are disputes between Plaintiffs and non-parties Morgan Stanley 208 and Andreessen Horowitz 209 . All four relate to Microsoft's 2018 acquisition of GitHub, and hinge on whether discovery about the acquisition is relevant to this case. Both unilateral letters are denied without prejudice because they do not comply with this court's standing order, which requires parties to file a joint letter. The parties have previously been admonished about filing unilateral discovery letters. [See Docket No. 188.] The parties are ordered to immediately meet and confer regarding Microsoft's acquisition of GitHub and the relevance of that acquisition to Plaintiffs' claims. If they cannot resolve the dispute, they must file a new standalone joint discovery letter on this single issue by February 23, 2024. The letter must be in full compliance with the court's standing or …(truncated)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/65669506/212/doe-1-v-github-inc/)
+
+### 📄 Doc #— — 2024-02-09
+
+Order AND ~Util - Terminate Motions
+
+### 📄 Doc #211 — 2024-02-08
+
+ORDER RE: BRIEFING SCHEDULE by Judge Jon S. Tigar granting 210 Stipulation. Motions due by 2/28/2024. Responses due by 3/27/2024. Replies due by 4/10/2024. (mll, COURT STAFF) (Filed on 2/8/2024) (Entered: 02/08/2024)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/65669506/211/doe-1-v-github-inc/)
+
+### 📄 Doc #210 — 2024-02-06
+
+STIPULATION WITH PROPOSED ORDER FOR BRIEFING SCHEDULE filed by OAI CORPORATION,, OPENAI GLOBAL, LLC, OPENAI HOLDCO, LLC, OPENAI HOLDINGS, LLC, OPENAI INVESTMENT, OPENAI INVESTMENT LLC, OPENAI STARTUP FUND SPV GP I, L.L.C., OPENAI STARTUP FUND SPV I, L.P, OPENAI, L.L.C., OpenAI GP, L.L.C., OpenAI OpCo, L.L.C., OpenAI Startup Fund GP I, L.L.C., OpenAI Startup Fund I, L.P., OpenAI Startup Fund Management, LLC, OpenAI, Inc., OpenAI, L.P.. (Gratz, Joseph) (Filed on 2/6/2024) (Entered: 02/06/2024)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/65669506/210/doe-1-v-github-inc/)
+
+### 📄 Doc #209 — 2024-01-30
+
+Discovery Letter Brief filed by J. DOE 1, J. DOE 2, J. Doe 3, J. Doe 4, J. Doe 5. (Attachments: # 1 Exhibit A)(Saveri, Joseph) (Filed on 1/30/2024) (Entered: 01/30/2024)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/65669506/209/1/doe-1-v-github-inc/)
+
+### 📄 Doc #208 — 2024-01-30
+
+Discovery Letter Brief filed by J. DOE 1, J. DOE 2, J. Doe 3, J. Doe 4, J. Doe 5. (Saveri, Joseph) (Filed on 1/30/2024) (Entered: 01/30/2024)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/65669506/208/doe-1-v-github-inc/)
+
+### 📄 Doc #206 — 2024-01-30
+
+Proposed Summons. (Saveri, Joseph) (Filed on 1/30/2024) (Entered: 01/30/2024)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/65669506/206/doe-1-v-github-inc/)
+
+### 📄 Doc #204 — 2024-01-30
+
+Order by Judge Jon S. Tigar granting 197 Administrative Motion to File Under Seal.(mll, COURT STAFF) (Filed on 1/30/2024) (Entered: 01/30/2024)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/65669506/204/doe-1-v-github-inc/)
+
+### 📄 Doc #205 — 2024-01-30
+
+Order by Judge Jon S. Tigar granting 199 Motion to Remove Incorrectly Filed Document.(mll, COURT STAFF) (Filed on 1/30/2024) (Entered: 01/30/2024)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/65669506/205/doe-1-v-github-inc/)
+
+### 📄 Doc #203 — 2024-01-29
+
+Discovery Letter Brief response to 202 filed by J. DOE 1, J. DOE 2, J. Doe 3, J. Doe 4, J. Doe 5. (Saveri, Joseph) (Filed on 1/29/2024) (Entered: 01/29/2024)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/65669506/203/doe-1-v-github-inc/)
+
+### 📄 Doc #202 — 2024-01-26
+
+Discovery Letter Brief filed by GitHub, Inc., Microsoft Corporation. (Attachments: # 1 Exhibit 1 to Discovery Letter Brief)(Hurst, Annette) (Filed on 1/26/2024) (Entered: 01/26/2024)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/65669506/202/1/doe-1-v-github-inc/)
+
+### 📄 Doc #199 — 2024-01-25
+
+MOTION to Remove Incorrectly Filed Document filed by J. DOE 1, J. DOE 2, J. Doe 3, J. Doe 4, J. Doe 5. (Attachments: # 1 Proposed Order)(Saveri, Joseph) (Filed on 1/25/2024) (Entered: 01/25/2024)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/65669506/199/1/doe-1-v-github-inc/)
+
+### 📄 Doc #200 — 2024-01-25
+
+SECOND AMENDED COMPLAINT CORRECTION OF DOCKET # 198 against All Defendants. Filed by J. DOE 2, J. DOE 1, J. Doe 3, J. Doe 5, J. Doe 4. (Saveri, Joseph) (Filed on 1/25/2024) Modified on 7/23/2024 modified docket text (dhm, COURT STAFF). (Entered: 01/25/2024)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/65669506/200/doe-1-v-github-inc/)
+
+### 📄 Doc #201 — 2024-01-25
+
+EXHIBITS re 197 Administrative Motion to File Under Seal Second Amended Complaint CORRECTION OF DOCKET # [197-3] and [197-4] filed byJ. DOE 1, J. DOE 2, J. Doe 3, J. Doe 4, J. Doe 5. (Attachments: # 1 Exhibit A - Redline Unredacted Second Amended Complaint)(Related document(s) 197 ) (Saveri, Joseph) (Filed on 1/25/2024) (Entered: 01/25/2024)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/65669506/201/doe-1-v-github-inc/)
+
+### 📄 Doc #197 — 2024-01-24
+
+Administrative Motion to File Under Seal Second Amended Complaint filed by J. DOE 1, J. DOE 2, J. Doe 3, J. Doe 4, J. Doe 5. (Attachments: # 1 Declaration T. Manfredi, # 2 Proposed Order, # 3 Unredacted Second Amended Complaint, # 4 Exhibit A - Redline Unredacted Second Amended Complaint)(Saveri, Joseph) (Filed on 1/24/2024) (Entered: 01/24/2024)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/65669506/197/2/doe-1-v-github-inc/)
+
+### 📄 Doc #198 — 2024-01-24
+
+DOCUMENT REMOVED PER COURT ORDER 205 ***PLEASE SEE DOC. #200 FOR CORRECT DOCUMENT*** AMENDED COMPLAINT Second against All Defendants. Filed by J. Doe 5, J. Doe 3, J. DOE 2, J. DOE 1, J. Doe 4. (Attachments: # 1 Exhibit A)(Saveri, Joseph) (Filed on 1/24/2024) **Locked per filer's request.** Modified on 1/25/2024 (ddk, COURT STAFF). Modified on 1/26/2024 (dhm, COURT STAFF). Modified on 1/30/2024 (kab, COURT STAFF). (Entered: 01/24/2024)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/65669506/198/1/doe-1-v-github-inc/)
+
+### 📄 Doc #195 — 2024-01-22
+
+ORDER GRANTING IN PART DENYING IN PART MOTION TO DISMISS re 110 MOTION to Dismiss filed by OpenAI GP, L.L.C., OpenAI, Inc., OpenAI Startup Fund I, L.P., OpenAI OpCo, L.L.C., OpenAI Startup Fund GP I, L.L.C., OpenAI, L.P., OpenAI Startup Fund Management, LLC, 108 MOTION to Dismiss Portions of the First Amended Complaint in Consolidated Actions (REDACTED) filed by Microsoft Corporation, GitHub, Inc. Amended Pleadings due by 2/12/2024. Signed by Judge Jon S. Tigar on January 22, 2024. (mll, COURT STAFF) (Filed on 1/22/2024) (Entered: 01/22/2024)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/65669506/195/doe-1-v-github-inc/)
+
+### 📄 Doc #194 — 2024-01-19
+
+Minute Entry for proceedings held before Magistrate Judge Sallie Kim: Settlement Conference held on 1/19/2024. Case did not settled. Total Time in Court: 9:30 - 5:02. (7 H, 32 M) Court Reporter: Not reported. (jlg, COURT STAFF) (Date Filed: 1/19/2024) Modified on 1/23/2024 (jlg, COURT STAFF). (Entered: 01/22/2024)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/65669506/194/doe-1-v-github-inc/)
+
+### 📄 Doc #193 — 2024-01-16
+
+ORDER REGARDING REDACTED PORTIONS OF ORDER GRANTING IN PART DENYING IN PART MOTION TO DISMISS (ECF NO. 189) by Judge Jon S. Tigar granting (191) Stipulation in case 4:22-cv-06823-JST. (mll, COURT STAFF) (Filed on 1/16/2024) (Entered: 01/16/2024)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/65669506/193/doe-1-v-github-inc/)
+
+### 📄 Doc #— — 2024-01-11
+
+Electronic filing error. ***PARTIES DID NOT ATTACH DOCUMENT WITH PROPOSED REDACTIONS*** Re: 191 STIPULATION WITH PROPOSED ORDER re 190 Order, filed by J. Doe 5, J. DOE 1, J. Doe 4, J. Doe 3, J. DOE 2 (dhm, COURT STAFF) (Filed on 1/11/2024)
+
+### 📄 Doc #192 — 2024-01-11
+
+EXHIBITS re 191 STIPULATION WITH PROPOSED ORDER re 190 Order,, Set Deadlines/Hearings, Proposed Redactions filed byJ. DOE 1, J. DOE 2, J. Doe 3, J. Doe 4, J. Doe 5. (Related document(s) 191 ) (Saveri, Joseph) (Filed on 1/11/2024) (Entered: 01/11/2024)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/65669506/192/doe-1-v-github-inc/)
+
+### 📄 Doc #— — 2024-01-11
+
+Electronic filing error. ***PARTIES DID NOT ATTACH DOCUMENT WITH PROPOSED REDACTIONS*** Re:191 STIPULATION WITH PROPOSED ORDER re 190 Order, filed by J. Doe 5, J. DOE 1, J. Doe 4, J. Doe 3, J. DOE 2 (dhm, COURT STAFF) (Filed on 1/11/2024)
+
+### 📄 Doc #191 — 2024-01-10
+
+STIPULATION WITH PROPOSED ORDER re 190 Order,, Set Deadlines/Hearings, filed by J. DOE 1, J. DOE 2, J. Doe 3, J. Doe 4, J. Doe 5. (Saveri, Joseph) (Filed on 1/10/2024) (Entered: 01/10/2024)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/65669506/191/doe-1-v-github-inc/)
+
+### 📄 Doc #190 — 2024-01-03
+
+ORDER RE: ORDER GRANTING IN PART DENYING IN PART MOTION TO DISMISS re 189 Order on Motion to Dismiss, Amended Pleadings due by 1/24/2024. Stipulation due by 1/10/2024. Signed by Judge Jon S. Tigar on January 3, 2024. (mll, COURT STAFF) (Filed on 1/3/2024) (Entered: 01/03/2024)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/65669506/190/doe-1-v-github-inc/)
+
+### 📄 Doc #188 — 2024-01-02
+
+ORDER: The court has received Plaintiffs' December 13, 2023 unilateral discovery letters and Defendants GitHub, Inc. and Microsoft Corporation's responses thereto. Plaintiffs' motions to compel GitHub and Microsoft's responses to interrogatories are denied without prejudice because they do not comply with this court's standing order, which requires parties to file a joint letter. The parties are ordered to immediately meet and confer in person on all of the issues raised in Plaintiffs' letters. The parties must engage in productive discussions until every issue has been covered. A new joint discovery letter must be filed by January 26, 2024. The letter must be in full compliance with this court's standing order and may not incorporate by reference any prior submissions or include footnotes. Signed by Chief Magistrate Judge Donna M. Ryu on 1/2/2024. (This is a text-only entry generated by the court. There is no document associated with this entry.) (dmrlc2, COURT STAFF) (Filed on 1/2/20 …(truncated)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/65669506/188/doe-1-v-github-inc/)
+
+### 📄 Doc #— — 2024-01-02
+
+Order AND ~Util - Terminate Motions
+
+### 📄 Doc #187 — 2023-12-20
+
+CLERKS NOTICE SETTING ZOOM HEARING. Case Management Statement due by 3/15/2024. Further Case Management Conference set for 3/22/2024 01:30 PM in Oakland, - Videoconference Only. This proceeding will be held via a Zoom webinar.Webinar Access: All counsel, members of the public, and media may access the webinar information at https://www.cand.uscourts.gov/jst Court Appearances: Advanced notice is required of counsel or parties who wish to be identified by the court as making an appearance or will be participating in the argument at the hearing. A combined list of names of all counsel appearing for all parties must be sent to the CRD at JSTCRD@cand.uscourts.gov no later than March 21, 2023 by Noon.General Order 58. Persons granted access to court proceedings held by telephone or videoconference are reminded that photographing, recording, and rebroadcasting of court proceedings, including screenshots or other visual copying of a hearing, is absolutely prohibited.Zoom Guidance and Setup: ht …(truncated)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/65669506/187/doe-1-v-github-inc/)
+
+### 📄 Doc #— — 2023-12-20
+
+Clerk's Notice Setting Zoom Hearing
+
+### 📄 Doc #186 — 2023-12-19
+
+ORDER CONTINUING CASE MANAGEMENT CONFERENCEThe Court having reviewed the parties' most recent case management statement, ECF No. 180, and it appearing that there currently are no matters requiring the Court's attention, the case management conference scheduled for December 20, 2023 is CONTINUED to March 22, 2024 at 1:30 p.m. An updated joint case management statement is due March 15, 2024. (This is a text-only entry generated by the court. There is no document associated with this entry.) (Tigar, Jon) (Filed on 12/19/2023) (Entered: 12/19/2023)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/65669506/186/doe-1-v-github-inc/)
+
+### 📄 Doc #— — 2023-12-19
+
+Order
+
+### 📄 Doc #184 — 2023-12-14
+
+Letter from GitHub GitHub's Response to Plaintiffs' December 13, 2023 Letter Brief. (Hurst, Annette) (Filed on 12/14/2023) (Entered: 12/14/2023)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/65669506/184/doe-1-v-github-inc/)
+
+### 📄 Doc #185 — 2023-12-14
+
+Letter from Microsoft Microsoft's Response to Plaintiffs' December 13, 2023 Letter Brief. (Hurst, Annette) (Filed on 12/14/2023) (Entered: 12/14/2023)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/65669506/185/doe-1-v-github-inc/)
+
+### 📄 Doc #183 — 2023-12-14
+
+NOTICE of Change In Counsel by Joseph R. Saveri Withdrawal of Counsel - Steven N. Williams (Saveri, Joseph) (Filed on 12/14/2023) (Entered: 12/14/2023)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/65669506/183/doe-1-v-github-inc/)
+
+### 📄 Doc #182 — 2023-12-13
+
+Discovery Letter Briefre Microsoft Response to Plaintiffs' 1st Set of Interrogatories filed by J. DOE 1, J. DOE 2, J. Doe 3, J. Doe 4, J. Doe 5. (Attachments: # 1 Exhibit 1)(Saveri, Joseph) (Filed on 12/13/2023) (Entered: 12/13/2023)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/65669506/182/1/doe-1-v-github-inc/)
+
+### 📄 Doc #181 — 2023-12-13
+
+Discovery Letter Briefre GitHub Response to Plaintifs' 1st set of Interogatoriesogs filed by J. DOE 1, J. DOE 2, J. Doe 3, J. Doe 4, J. Doe 5. (Saveri, Joseph) (Filed on 12/13/2023) (Entered: 12/13/2023)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/65669506/181/doe-1-v-github-inc/)
+
+### 📄 Doc #180 — 2023-12-13
+
+JOINT CASE MANAGEMENT STATEMENT filed by J. DOE 1, J. DOE 2, J. Doe 3, J. Doe 4, J. Doe 5. (Saveri, Joseph) (Filed on 12/13/2023) (Entered: 12/13/2023)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/65669506/180/doe-1-v-github-inc/)
+
+### 📄 Doc #177 — 2023-11-28
+
+Notice of Reference and Order re: Discovery Procedures; Order Denying Without Prejudice 173 Discovery Letter Brief. (dmrlc2, COURT STAFF) (Filed on 11/28/2023) (Entered: 11/28/2023)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/65669506/177/doe-1-v-github-inc/)
+
+### 📄 Doc #— — 2023-11-21
+
+CASE REFERRED to Magistrate Judge Donna M. Ryu for Discovery (mkl, COURT STAFF) (Filed on 11/21/2023)
+
+### 📄 Doc #176 — 2023-11-21
+
+NOTICE by GitHub, Inc., Microsoft Corporation NOTICE OF SUPPLEMENTAL AUTHORITY RELEVANT TO DEFENDANTS GITHUB AND MICROSOFTS MOTIONS TO DISMISS PORTIONS OF THE FIRST AMENDED COMPLAINT IN CONSOLIDATED ACTIONS (Attachments: # 1 Exhibit 1 to Notice)(Hurst, Annette) (Filed on 11/21/2023) (Entered: 11/21/2023)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/65669506/176/1/doe-1-v-github-inc/)
+
+### 📄 Doc #— — 2023-11-21
+
+CASE REFERRED to Magistrate Judge Donna M. Ryu for Discovery (mkl, COURT STAFF) (Filed on 11/21/2023)
+
+### 📄 Doc #175 — 2023-11-21
+
+ORDER REFERRING ALL DISCOVERY DISPUTES TO MAGISTRATE JUDGE. Signed by Judge Jon S. Tigar on November 21, 2023. (mll, COURT STAFF) (Filed on 11/21/2023) (Entered: 11/21/2023)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/65669506/175/doe-1-v-github-inc/)
+
+### 📄 Doc #174 — 2023-11-17
+
+Transcript of Proceedings held on 11/09/2023, before Judge Tigar. Court Reporter Pamela Batalo Hebel, telephone number 626-688-7509; pamela_batalo-hebel@cand.uscourts.gov. Per General Order No. 59 and Judicial Conference policy, this transcript may be viewed only at the Clerk's Office public terminal or may be purchased through the Court Reporter/Transcriber until the deadline for the Release of Transcript Restriction. After that date it may be obtained through PACER. Any Notice of Intent to Request Redaction, if required, is due no later than 5 business days from date of this filing. (Re 172 Transcript Order, ) Redaction Request due 12/8/2023. Redacted Transcript Deadline set for 12/18/2023. Release of Transcript Restriction set for 2/15/2024. (Related documents(s) 172 ) (Batalo, Pam) (Filed on 11/17/2023) (Entered: 11/17/2023)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/65669506/174/doe-1-v-github-inc/)
+
+### 📄 Doc #173 — 2023-11-15
+
+Joint Discovery Letter BriefREGARDING OPENAI DEFENDANTS RESPONSES TO PLAINTIFFS INTERROGATORY Nos. 2, 5, 8, and 9 filed by J. DOE 1, J. DOE 2, J. Doe 3, J. Doe 4, J. Doe 5. (Attachments: # 1 Declaration of Joseph R. Saveri, # 2 Exhibit 1, # 3 Exhibit 2, # 4 Exhibit 3, # 5 Exhibit 4, # 6 Exhibit 5)(Saveri, Joseph) (Filed on 11/15/2023) (Entered: 11/15/2023)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/65669506/173/6/doe-1-v-github-inc/)
+
+### 📄 Doc #172 — 2023-11-14
+
+TRANSCRIPT ORDER for proceedings held on 11/9/23 before Judge Jon S. Tigar by OpenAI GP, L.L.C., OpenAI OpCo, L.L.C., OpenAI Startup Fund GP I, L.L.C., OpenAI Startup Fund I, L.P., OpenAI Startup Fund Management, LLC, OpenAI, Inc., OpenAI, L.P., for Court Reporter Pam Batalo-Hebel. (Lee, Rose) (Filed on 11/14/2023) (Entered: 11/14/2023)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/65669506/172/doe-1-v-github-inc/)
+
+### 📄 Doc #171 — 2023-11-09
+
+Minute Entry for proceedings held before Judge Jon S. Tigar: Motion Hearing held on 11/9/2023. Hearing held via Zoom videoconference. Argument heard from parties regarding motions to dismiss. Motions taken under submission. Written order to issue. Total Time in Court: 47 minutes. Court Reporter: Pamela Hebel. Plaintiff Attorney: Joseph Saveri, Matthew Butterick. Defendant Attorney: Counsel for GitHub and Microsoft Defendants: Annette Hurst; Counsel for OpenAI Defendants: Joseph Gratz. (This is a text-only entry generated by the court. There is no document associated with this entry.) (mll, COURT STAFF) (Date Filed: 11/9/2023) (Entered: 11/09/2023)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/65669506/171/doe-1-v-github-inc/)
+
+### 📄 Doc #— — 2023-11-09
+
+Motion Hearing
+
+### 📄 Doc #170 — 2023-11-06
+
+CLERKS NOTICE CONTINUING CASE MANAGEMENT CONFERENCE. The case management conference set for 11/17/2023 is CONTINUED. Case Management Statement due by 12/13/2023. Further Case Management Conference set for 12/20/2023 02:00 PM in Oakland, - Videoconference Only. This proceeding will be held via a Zoom webinar.Webinar Access: All counsel, members of the public, and media may access the webinar information at https://www.cand.uscourts.gov/jst Court Appearances: Advanced notice is required of counsel or parties who wish to be identified by the court as making an appearance or will be participating in the argument at the hearing. A combined list of names of all counsel appearing for all parties must be sent in one email to the CRD at JSTCRD@cand.uscourts.gov no later than December 19, 2023 by 2:00 p.m.General Order 58. Persons granted access to court proceedings held by telephone or videoconference are reminded that photographing, recording, and rebroadcasting of court proceedings, including …(truncated)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/65669506/170/doe-1-v-github-inc/)
+
+### 📄 Doc #— — 2023-11-06
+
+Clerk's Notice Setting Zoom Hearing
+
+### 📄 Doc #169 — 2023-11-01
+
+NOTICE by OpenAI GP, L.L.C., OpenAI OpCo, L.L.C., OpenAI Startup Fund GP I, L.L.C., OpenAI Startup Fund I, L.P., OpenAI Startup Fund Management, LLC, OpenAI, Inc., OpenAI, L.P. NOTICE OF SUPPLEMENTAL AUTHORITY RELEVANT TO DEFENDANT OPENAI'S MOTION TO DISMISS FIRST AMENDED COMPLAINT (Attachments: # 1 Exhibit 1)(Gratz, Joseph) (Filed on 11/1/2023) (Entered: 11/01/2023)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/65669506/169/1/doe-1-v-github-inc/)
+
+### 📄 Doc #168 — 2023-11-01
+
+ORDER RE: DISCOVERY OF ELECTRONICALLY STORED INFORMATION. Signed by Judge Jon S. Tigar on November 1, 2023. (mll, COURT STAFF) (Filed on 11/1/2023) (Entered: 11/01/2023)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/65669506/168/doe-1-v-github-inc/)
+
+### 📄 Doc #167 — 2023-10-30
+
+ORDER CONCERNING EXPERT DISCOVERY by Judge Jon S. Tigar granting 164 Stipulation.(mll, COURT STAFF) (Filed on 10/30/2023) (Entered: 10/30/2023)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/65669506/167/doe-1-v-github-inc/)
+
+### 📄 Doc #166 — 2023-10-27
+
+ERRATA re 165 Letter Brief, CORRECTION OF DOCKET # [165-1] and [165-2] by J. DOE 1, J. DOE 2, J. Doe 3, J. Doe 4, J. Doe 5. (Attachments: # 1 Declaration)(Saveri, Joseph) (Filed on 10/27/2023) (Entered: 10/27/2023)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/65669506/166/1/doe-1-v-github-inc/)
+
+### 📄 Doc #165 — 2023-10-27
+
+***POSTED IN ERROR. PLEASE DOCUMENT #166*** Letter Brief filed by J. DOE 1, J. DOE 2, J. Doe 3, J. Doe 4, J. Doe 5. (Attachments: # 1 Supplement Plaintiffs Proposed ESI Protocol, # 2 Declaration Defendants, # 3 Exhibit 1 - Defendants, # 4 Exhibit 2 - Defendants)(Saveri, Joseph) (Filed on 10/27/2023) Modified text on 10/30/2023 (dhm, COURT STAFF). (Entered: 10/27/2023)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/65669506/165/4/doe-1-v-github-inc/)
+
+### 📄 Doc #164 — 2023-10-27
+
+STIPULATION WITH PROPOSED ORDER CONCERNING EXPERT DISCOVERY filed by J. DOE 1, J. DOE 2, J. Doe 3, J. Doe 4, J. Doe 5. (Saveri, Joseph) (Filed on 10/27/2023) (Entered: 10/27/2023)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/65669506/164/doe-1-v-github-inc/)
+
+### 📄 Doc #163 — 2023-10-16
+
+NOTICE by J. DOE 1, J. DOE 2, J. Doe 3, J. Doe 4, J. Doe 5 NOTICE OF SUPPLEMENTAL AUTHORITY RELEVANT TO PLAINTIFFS OPPOSITIONS TO DEFENDANTS MOTIONS TO DISMISS (Attachments: # 1 Exhibit 1)(Young, Christopher) (Filed on 10/16/2023) (Entered: 10/16/2023)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/65669506/163/1/doe-1-v-github-inc/)
+
+### 📄 Doc #162 — 2023-10-10
+
+ORDER REGARDING PRESERVATION OF TELEMETRY DATA by Judge Jon S. Tigar granting 161 Stipulation.(mll, COURT STAFF) (Filed on 10/10/2023) (Entered: 10/10/2023)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/65669506/162/doe-1-v-github-inc/)
+
+### 📄 Doc #161 — 2023-10-06
+
+STIPULATION WITH PROPOSED ORDER REGARDING PRESERVATION OF TELEMETRY DATA filed by GitHub, Inc., Microsoft Corporation. (Hurst, Annette) (Filed on 10/6/2023) (Entered: 10/06/2023)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/65669506/161/doe-1-v-github-inc/)
+
+### 📄 Doc #160 — 2023-10-03
+
+ORDER by Judge Jon S. Tigar GRANTING 159 STIPULATION REGARDING BRIEFING SCHEDULE FOR JOINT LETTER BRIEF RE: TELEMETRY DATA. Joint Discovery Letter Brief due by 10/6/2023. (jlg, COURT STAFF) (Filed on 10/3/2023) (Entered: 10/03/2023)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/65669506/160/doe-1-v-github-inc/)
+
+### 📄 Doc #159 — 2023-09-29
+
+STIPULATION WITH PROPOSED ORDER REGARDING BRIEFING SCHEDULE FOR JOINT LETTER BRIEF RE: TELEMETRY DATA filed by GitHub, Inc., Microsoft Corporation. (Hurst, Annette) (Filed on 9/29/2023) (Entered: 09/29/2023)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/65669506/159/doe-1-v-github-inc/)
+
+### 📄 Doc #158 — 2023-09-27
+
+NOTICE by J. DOE 1, J. DOE 2, J. Doe 3, J. Doe 4, J. Doe 5 NOTICE OF SUPPLEMENTAL AUTHORITY RELEVANT TO PLAINTIFFS OPPOSITIONS TO DEFENDANTS MOTIONS TO DISMISS (Attachments: # 1 Exhibit 1)(Manfredi, Travis) (Filed on 9/27/2023) (Entered: 09/27/2023)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/65669506/158/1/doe-1-v-github-inc/)
+
+### 📄 Doc #156 — 2023-09-19
+
+ORDER by Judge Jon S. Tigar granting (151) Motion to Remove Incorrectly Filed Document in case 4:22-cv-06823-JST. (mll, COURT STAFF) (Filed on 9/19/2023) (Entered: 09/19/2023)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/65669506/156/doe-1-v-github-inc/)
+
+### 📄 Doc #157 — 2023-09-19
+
+ORDER by Judge Jon S. Tigar granting (152) Administrative Motion to File Under Seal in case 4:22-cv-06823-JST. (mll, COURT STAFF) (Filed on 9/19/2023) (Entered: 09/19/2023)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/65669506/157/doe-1-v-github-inc/)
+
+### 📄 Doc #— — 2023-09-17
+
+Case Management Conference - Further AND ~Util - Set Deadlines/Hearings
+
+### 📄 Doc #— — 2023-09-17
+
+Set Deadlines/Hearings
+
+### 📄 Doc #— — 2023-09-15
+
+Set Deadlines/Hearings: Case Management Statement due by 11/10/2023. (jlg, COURT STAFF) (Filed on 9/15/2023)
+
+### 📄 Doc #155 — 2023-09-15
+
+Minute Entry for proceedings held before Judge Jon S. Tigar: Further Case Management Conference held on 9/15/2023.ESI Protocol Deadline 10/27/2023. Expert Discovery Stipulation Deadline 10/27/2023. Joint Case Management Statement due 11/10/2023. Further Case Management Conference set for 11/17/2023 at 1:30 PM in Oakland, - Videoconference Only. Total Time in Court: 32 minutes. Court Reporter: Not Reported. Plaintiff Attorney: Joseph Saveri. Defendant Attorney: Annette Hurst, Joseph Gratz, Micahel Jacobs. (This is a text-only entry generated by the court. There is no document associated with this entry.) (jlg, COURT STAFF) (Date Filed: 9/15/2023) (Entered: 09/17/2023)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/65669506/155/doe-1-v-github-inc/)
+
+### 📄 Doc #— — 2023-09-15
+
+Set Deadlines/Hearings: Case Management Statement due by 11/10/2023. (jlg, COURT STAFF) (Filed on 9/15/2023)
+
+### 📄 Doc #151 — 2023-09-12
+
+MOTION to Remove Incorrectly Filed Document filed by J. DOE 1, J. DOE 2, J. Doe 3, J. Doe 4, J. Doe 5. (Attachments: # 1 Proposed Order)(Manfredi, Travis) (Filed on 9/12/2023) (Entered: 09/12/2023)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/65669506/151/1/doe-1-v-github-inc/)
+
+### 📄 Doc #152 — 2023-09-12
+
+Administrative Motion to File Under Seal filed by J. DOE 1, J. DOE 2, J. Doe 3, J. Doe 4, J. Doe 5. (Attachments: # 1 Declaration of Travis Manfredi, # 2 Proposed Order, # 3 Joint Case Management Statement)(Manfredi, Travis) (Filed on 9/12/2023) (Entered: 09/12/2023)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/65669506/152/2/doe-1-v-github-inc/)
+
+### 📄 Doc #153 — 2023-09-12
+
+JOINT CASE MANAGEMENT STATEMENT filed by J. DOE 1, J. DOE 2, J. Doe 3, J. Doe 4, J. Doe 5. (Manfredi, Travis) (Filed on 9/12/2023) (Entered: 09/12/2023)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/65669506/153/doe-1-v-github-inc/)
+
+### 📄 Doc #— — 2023-09-08
+
+Electronic filing error. Incorrect event used. [err101]Corrected by Clerk's Office. No further action is necessary. Re: 149 Case Management Statement filed by J. Doe 5, J. DOE 1, J. Doe 4, J. Doe 3, J. DOE 2 (dhm, COURT STAFF) (Filed on 9/8/2023)
+
+### 📄 Doc #— — 2023-09-08
+
+Electronic filing error. Incorrect event used. [err101]Corrected by Clerk's Office. No further action is necessary. Re:149 Case Management Statement filed by J. Doe 5, J. DOE 1, J. Doe 4, J. Doe 3, J. DOE 2 (dhm, COURT STAFF) (Filed on 9/8/2023)
+
+### 📄 Doc #150 — 2023-09-08
+
+Rule 7.1 Disclosures by OpenAI, L.P. - Certification of Interested Entities or Persons and Corporate Disclosure Statement (Bennett, Allyson) (Filed on 9/8/2023) (Entered: 09/08/2023)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/65669506/150/doe-1-v-github-inc/)
+
+### 📄 Doc #149 — 2023-09-08
+
+**DOCUMENT REMOVED PER COURT ORDER 156 *** JOINT CASE MANAGEMENT STATEMENT filed by J. DOE 1, J. DOE 2, J. Doe 3, J. Doe 4, J. Doe 5. (Saveri, Joseph) (Filed on 9/8/2023) Modified text on 9/8/2023 (dhm, COURT STAFF). **Locked per filer's request.** Modified on 9/12/2023 (ddk, COURT STAFF). Modified on 9/21/2023 (kab, COURT STAFF). (kab, COURT STAFF). (Entered: 09/08/2023)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/65669506/149/doe-1-v-github-inc/)
+
+### 📄 Doc #148 — 2023-09-05
+
+CLERKS NOTICE CONTINUING MOTION HEARING. The motion hearings set for 9/14/2023 are CONTINUED. Motion Hearing set for 11/9/2023 02:00 PM in Oakland, - Videoconference Only before Judge Jon S. Tigar. This proceeding will be held via a Zoom webinar.Webinar Access: All counsel, members of the public, and media may access the webinar information at https://www.cand.uscourts.gov/jst Court Appearances: Advanced notice is required of counsel or parties who wish to be identified by the court as making an appearance or will be participating in the argument at the hearing. A combined list of names of all counsel appearing for all parties must be sent in one email to the CRD at JSTCRD@cand.uscourts.gov no later than November 8, 2023 by 2:00 p.m.General Order 58. Persons granted access to court proceedings held by telephone or videoconference are reminded that photographing, recording, and rebroadcasting of court proceedings, including screenshots or other visual copying of a hearing, is absolutely …(truncated)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/65669506/148/doe-1-v-github-inc/)
+
+### 📄 Doc #— — 2023-09-05
+
+Clerk's Notice Setting Zoom Hearing AND ~Util - Set Motion and Deadlines/Hearings
+
+### 📄 Doc #147 — 2023-08-10
+
+REPLY (re 110 MOTION to Dismiss ) filed byOPENAI GP, L.L.C., OPENAI STARTUP FUND GP I, L.L.C., OPENAI STARTUP FUND I, L.P., OPENAI STARTUP FUND MANAGEMENT, LLC, OPENAI, INC., OPENAI, L.P., OpenAI OpCo, L.L.C.. (Gratz, Joseph) (Filed on 8/10/2023) (Entered: 08/10/2023)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/65669506/147/doe-1-v-github-inc/)
+
+### 📄 Doc #146 — 2023-08-10
+
+REPLY (re 108 MOTION to Dismiss Portions of the First Amended Complaint in Consolidated Actions (REDACTED) ) filed byGitHub, Inc., Microsoft Corporation. (Hurst, Annette) (Filed on 8/10/2023) (Entered: 08/10/2023)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/65669506/146/doe-1-v-github-inc/)
+
+### 📄 Doc #145 — 2023-08-07
+
+AMENDED AND STIPULATED PROTECTIVE ORDER. Motions terminated: 144 STIPULATION WITH PROPOSED ORDER FOR ENTRY OF AMENDED AND STIPULATED PROTECTIVE ORDER filed by Microsoft Corporation, GitHub, Inc. Signed by Judge Jon S. Tigar on August 7, 2023. (mll, COURT STAFF) (Filed on 8/7/2023) (Entered: 08/07/2023)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/65669506/145/doe-1-v-github-inc/)
+
+### 📄 Doc #144 — 2023-08-02
+
+STIPULATION WITH PROPOSED ORDER FOR ENTRY OF AMENDED AND STIPULATED PROTECTIVE ORDER filed by GitHub, Inc., Microsoft Corporation. (Attachments: # 1 Declaration of Annette L. Hurst in Support, # 2 Exhibit 1 to Hurst Declaration)(Hurst, Annette) (Filed on 8/2/2023) (Entered: 08/02/2023)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/65669506/144/2/doe-1-v-github-inc/)
+
+### 📄 Doc #143 — 2023-07-28
+
+Order by Judge Jon S. Tigar granting 139 Stipulation Regarding Briefing Schedule For Responding To Second Corrected First Amended Complaint.(mll, COURT STAFF) (Filed on 7/28/2023) (Entered: 07/28/2023)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/65669506/143/doe-1-v-github-inc/)
+
+### 📄 Doc #142 — 2023-07-27
+
+OPPOSITION/RESPONSE (re 110 MOTION to Dismiss ) CORRECTION OF DOCKET # 141 filed byJ. DOE 1, J. DOE 2, J. Doe 3, J. Doe 4, J. Doe 5. (Saveri, Joseph) (Filed on 7/27/2023) (Entered: 07/27/2023)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/65669506/142/doe-1-v-github-inc/)
+
+### 📄 Doc #140 — 2023-07-27
+
+OPPOSITION/RESPONSE (re 108 MOTION to Dismiss Portions of the First Amended Complaint in Consolidated Actions (REDACTED) ) filed byJ. DOE 1, J. DOE 2, J. Doe 3, J. Doe 4, J. Doe 5. (Saveri, Joseph) (Filed on 7/27/2023) (Entered: 07/27/2023)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/65669506/140/doe-1-v-github-inc/)
+
+### 📄 Doc #141 — 2023-07-27
+
+*Filing Error. See dkt 142 for Corrections*OPPOSITION/RESPONSE (re 110 MOTION to Dismiss ) filed by J. DOE 1, J. DOE 2, J. Doe 3, J. Doe 4, J. Doe 5. (Saveri, Joseph) (Filed on 7/27/2023) Modified on 7/28/2023 (sfb, COURT STAFF). (Entered: 07/27/2023)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/65669506/141/doe-1-v-github-inc/)
+
+### 📄 Doc #139 — 2023-07-27
+
+STIPULATION WITH PROPOSED ORDER Regarding Briefing Schedule For Responding To Second Corrected First Amended Complaint filed by GitHub, Inc., Microsoft Corporation. (Hurst, Annette) (Filed on 7/27/2023) (Entered: 07/27/2023)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/65669506/139/doe-1-v-github-inc/)
+
+### 📄 Doc #138 — 2023-07-26
+
+ORDER RE: DISCOVERY DISPUTE. Motions terminated: 71 MOTION MAINTAIN CONFIDENTIALITY DESIGNATIONS FOR PLAINTIFFS TRUE NAMES PURSUANT TO SECTION 6.3 OF THE STIPULATED PROTECTIVE ORDER (ECF NO. 63) filed by J. DOE 1, J. Doe 4, J. Doe 3, J. DOE 2. Signed by Judge Jon S. Tigar on July 26, 2023. (mll, COURT STAFF) (Filed on 7/26/2023) (Entered: 07/26/2023)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/65669506/138/doe-1-v-github-inc/)
+
+### 📄 Doc #137 — 2023-07-25
+
+NOTICE OF SETTLEMENT CONFERENCE AND SETTLEMENT CONFERENCE ORDER. Settlement Conference set for 1/19/2024 09:30 AM in San Francisco, Courtroom C, 15th Floor. Signed by Magistrate Judge Sallie Kim on 7/25/2023. (mkl, COURT STAFF) (Filed on 7/25/2023) (Entered: 07/25/2023)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/65669506/137/doe-1-v-github-inc/)
+
 <details>
-<summary>已過濾的 16 筆程序性 entries（點擊展開）</summary>
+<summary>已過濾的 21 筆程序性 entries（點擊展開）</summary>
 
 - **Doc #293** (2026-03-04): NOTICE of Change of Address by Joseph R. Saveri Change of Firm Name and Address (Saveri, Joseph) (Filed on 3/4/2026) (Entered: 03/04/2026)
 - **Doc #284** (2024-10-16): NOTICE of Appearance filed by Carolyn Myrle Homer on behalf of OAI CORPORATION, OPENAI GLOBAL, LLC, OPENAI HOLDCO, LLC, OPENAI HOLDINGS, LLC, OPENAI INVESTMENT, OPENAI INVESTMENT LLC, OPENAI STARTUP F…
@@ -523,9 +1055,14 @@ MOTION for Reconsideration re 189 Order on Motion to Dismiss, filed by J. DOE 1,
 - **Doc #222** (2024-03-01): NOTICE of Appearance by Max I. Levy on behalf of Defendants OpenAI, Inc., OpenAI, L.P., OpenAI OpCo, L.L.C., OpenAI GP, L.L.C., OpenAI Startup Fund GP I, L.L.C., OpenAI Startup Fund I, L.P., and OpenA…
 - **Doc #220** (2024-02-29): MOTION for leave to appear in Pro Hac Vice ( Filing fee $ 328, receipt number ACANDC-19173735.) filed by OpenAI GP, L.L.C., OpenAI Startup Fund GP I, L.L.C., OpenAI Startup Fund I, L.P., OpenAI Startu…
 - **Doc #216** (2024-02-28): CERTIFICATE OF SERVICE by GitHub, Inc., Microsoft Corporation re 214 Administrative Motion to Consider Whether Another Party's Material Should Be Sealed (Unredacted) Motion to Dismiss Portions of Seco…
+- **Doc #207** (2024-01-30): Summons Issued as to OAI CORPORATION,, OPENAI GLOBAL, LLC, OPENAI HOLDCO, LLC, OPENAI HOLDINGS, LLC, OPENAI INVESTMENT LLC, OPENAI STARTUP FUND SPV GP I, L.L.C., OPENAI STARTUP FUND SPV I, L.P, OPENAI…
+- **Doc #196** (2024-01-22): NOTICE of Appearance by William Waldir Castillo Guardado (Castillo Guardado, William) (Filed on 1/22/2024) (Entered: 01/22/2024)
+- **Doc #178** (2023-12-08): NOTICE of Appearance by Joyce C Li (Li, Joyce) (Filed on 12/8/2023) (Entered: 12/08/2023)
+- **Doc #179** (2023-12-08): NOTICE of Appearance by Holden J. Benon (Benon, Holden) (Filed on 12/8/2023) (Entered: 12/08/2023)
+- **Doc #154** (2023-09-13): CERTIFICATE OF SERVICE by J. DOE 1, J. DOE 2, J. Doe 3, J. Doe 4, J. Doe 5 re 152 Joint Case Management Statement Filed Under Seal (Manfredi, Travis) (Filed on 9/13/2023) Modified on 9/13/2023 linking…
 
 </details>
 
 ---
 
-*產生時間：2026-04-27 03:01 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-09-01 01:10 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

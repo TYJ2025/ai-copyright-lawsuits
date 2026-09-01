@@ -1,6 +1,6 @@
 # Case 60 — Getty Images (US), Inc. v. Stability AI, Inc.
 
-> 最後更新（CourtListener fetch）：2026-04-27 03:17 UTC
+> 最後更新（CourtListener fetch）：2026-09-01 01:25 UTC
 
 ---
 
@@ -26,19 +26,19 @@
 > Dashboard 卡片宣告：
 
 > - Court=N.D. Cal.
-> - Judge=Thompson
+> - Judge=Jennifer L. Hall
 > - Status=active
 > - Progress=【2026 年 4 月 7 日】駁回動議聽證會定於下午 2:00 於聖荷西由 Thompson 法官主持。此為 Getty v. Stability AI 美國訴訟的重要訴訟進展。
 
 **自動比對結果：**
 
 - ⚠️ Court 可能不一致：dashboard 寫「N.D. Cal.」，CourtListener 為「D. Delaware」
-- ⚠️ Judge 可能不一致：dashboard 寫「Thompson」，CourtListener 為「Jennifer L. Hall」
+- ✅ Judge 一致：dashboard 寫「Jennifer L. Hall」，CourtListener 為「Jennifer L. Hall」
 - ✅ Dashboard progress 同步：dashboard 最新日期 2026-04-07，CourtListener 最後 entry 2025-08-18（dashboard 不落後）
 
 ## 3. Docket Entries（最新優先，已過濾程序性 entries）
 
-**實質性 entries**：89 筆／**已過濾程序性 entries**：11 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+**實質性 entries**：99 筆／**已過濾程序性 entries**：22 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
 
 ### 📄 Doc #70 — 2025-08-18
 
@@ -506,8 +506,56 @@ Add Attorneys Pro Hac Vice
 
 Add Attorneys - PHV only
 
+### 📄 Doc #— — 2023-02-15
+
+Add Attorneys Pro Hac Vice
+
+### 📄 Doc #— — 2023-02-15
+
+Add Attorneys - PHV only
+
+### 📄 Doc #— — 2023-02-10
+
+SO ORDERED
+
+### 📄 Doc #— — 2023-02-08
+
+Case Assigned/Reassigned
+
+### 📄 Doc #— — 2023-02-08
+
+Case Assigned to Judge Gregory B. Williams. Please include the initials of the Judge (GBW) after the case number on all documents filed. (rjb)
+
+### 📄 Doc #— — 2023-02-08
+
+Case Assigned to Judge Gregory B. Williams. Please include the initials of the Judge (GBW) after the case number on all documents filed. (rjb)
+
+### 📄 Doc #2 — 2023-02-03
+
+Notice, Consent and Referral forms re: U.S. Magistrate Judge jurisdiction. (twk) (Entered: 02/06/2023)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/66788385/2/getty-images-us-inc-v-stability-ai-inc/)
+
+### 📄 Doc #3 — 2023-02-03
+
+Report to the Register of Copyrights for Copyright Number(s): See attached. (twk) (Entered: 02/06/2023)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/66788385/3/getty-images-us-inc-v-stability-ai-inc/)
+
+### 📄 Doc #4 — 2023-02-03
+
+Report to the Commissioner of Patents and Trademarks for Patent/Trademark Number(s) 2,656,652; 2,837,208; 2,842,851; 2,844,647; 3,603,335; 4,968,996; 4,968,997; 5,200,414. (twk) (Entered: 02/06/2023)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/66788385/4/getty-images-us-inc-v-stability-ai-inc/)
+
+### 📄 Doc #1 — 2023-02-03
+
+COMPLAINT filed with Jury Demand against Stability AI, Inc. ( Filing fee $ 402, receipt number ADEDC-4059966.) - filed by Getty Images (US), Inc. (Attachments: # 1 Exhibit A-B, # 2 Civil Cover Sheet)(twk) (Entered: 02/06/2023)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/66788385/1/2/getty-images-us-inc-v-stability-ai-inc/)
+
 <details>
-<summary>已過濾的 11 筆程序性 entries（點擊展開）</summary>
+<summary>已過濾的 22 筆程序性 entries（點擊展開）</summary>
 
 - **Doc #44** (2024-07-29): Disclosure Statement pursuant to Rule 7.1: identifying Corporate Parent Stability AI, Inc. for Stability AI US Services Corporation filed by Stability AI US Services Corporation. (Flynn, Michael) (Ent…
 - **Doc #—** (2024-01-26): SO ORDERED, re 34 Motion for Pro Hac Vice Appearance of Attorney Joseph C. Gratz, Allyson R. Bennett, Timothy Chen Saulsbury, Aditya V. Kamdar and Laura Gilbert Remus filed by Stability AI, Ltd., Stab…
@@ -520,9 +568,20 @@ Add Attorneys - PHV only
 - **Doc #—** (2023-02-17): Pro Hac Vice Attorney Amir R. Ghavi and Michael C. Keats for Stability AI, Inc. added for electronic noticing. Pursuant to Local Rule 83.5 (d)., Delaware counsel shall be the registered users of CM/EC…
 - **Doc #—** (2023-02-16): Pro Hac Vice Attorney Nicole M. Jantzi and Paul M. Schoenhard for Stability AI, Inc. added for electronic noticing. Pursuant to Local Rule 83.5 (d)., Delaware counsel shall be the registered users of …
 - **Doc #—** (2023-02-16): Pro Hac Vice Attorney Nicole M. Jantzi and Paul M. Schoenhard for Stability AI, Inc. added for electronic noticing. Pursuant to Local Rule 83.5 (d)., Delaware counsel shall be the registered users of …
+- **Doc #—** (2023-02-15): Pro Hac Vice Attorney Jared R. Friedmann, Benjamin E. Marks, and Melissa Rutman for Getty Images (US), Inc. added for electronic noticing. Pursuant to Local Rule 83.5 (d)., Delaware counsel shall be t…
+- **Doc #—** (2023-02-15): Pro Hac Vice Attorney Jared R. Friedmann, Benjamin E. Marks, and Melissa Rutman for Getty Images (US), Inc. added for electronic noticing. Pursuant to Local Rule 83.5 (d)., Delaware counsel shall be t…
+- **Doc #11** (2023-02-14): Disclosure Statement pursuant to Rule 7.1: No Parents or Affiliates Listed filed by Stability AI, Inc.. (Flynn, Michael) (Entered: 02/14/2023)
+- **Doc #—** (2023-02-10): SO ORDERED, re 7 MOTION for Pro Hac Vice Appearance of Attorney Benjamin E. Marks, Esquire, Jared R. Friedmann, Esquire, and Melissa Rutman, Esquire filed by Getty Images (US), Inc., 10 MOTION for Pro…
+- **Doc #—** (2023-02-10): SO ORDERED, re 7 MOTION for Pro Hac Vice Appearance of Attorney Benjamin E. Marks, Esquire, Jared R. Friedmann, Esquire, and Melissa Rutman, Esquire filed by Getty Images (US), Inc., 10 MOTION for Pro…
+- **Doc #10** (2023-02-09): MOTION for Pro Hac Vice Appearance of Attorney Nicole M. Jantzi, Paul M. Schoenhard, Michael C. Keats and Amir R. Ghavi - filed by Stability AI, Inc.. (Flynn, Michael) (Entered: 02/09/2023)
+- **Doc #9** (2023-02-08): NOTICE of Appearance by Michael J. Flynn on behalf of Stability AI, Inc. (Flynn, Michael) (Entered: 02/08/2023)
+- **Doc #8** (2023-02-07): SUMMONS Returned Executed by Getty Images (US), Inc..Stability AI, Inc. served on 2/6/2023, answer due 2/27/2023. (Vrana, Robert) (Entered: 02/07/2023)
+- **Doc #5** (2023-02-03): Disclosure Statement pursuant to Rule 7.1: identifying Corporate Parent Getty Images Holdings, Inc. for Getty Images (US), Inc. filed by Getty Images (US), Inc. (twk) (Entered: 02/06/2023)
+- **Doc #6** (2023-02-03): Summons Issued as to Stability AI, Inc. on 2/6/2023. (twk) (Entered: 02/06/2023)
+- **Doc #7** (2023-02-03): MOTION for Pro Hac Vice Appearance of Attorneys Benjamin E. Marks, Esquire, Jared R. Friedmann, Esquire, and Melissa Rutman, Esquire - filed by Getty Images (US), Inc. (twk) (Entered: 02/06/2023)
 
 </details>
 
 ---
 
-*產生時間：2026-04-27 03:17 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-09-01 01:25 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

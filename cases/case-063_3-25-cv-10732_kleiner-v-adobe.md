@@ -1,6 +1,6 @@
 # Case 63 — Lyon v. Adobe Inc.
 
-> 最後更新（CourtListener fetch）：2026-04-27 03:18 UTC
+> 最後更新（CourtListener fetch）：2026-09-01 01:26 UTC
 
 ---
 
@@ -13,7 +13,7 @@
 | Court | District Court, N.D. California (`cand`) |
 | Judge Assigned | Jacqueline Scott Corley |
 | Date Filed | 2025-12-16 |
-| Date Last Filing | 2026-04-23 |
+| Date Last Filing | 2026-08-26 |
 | Cause | 17:501 Copyright Infringement |
 | Nature of Suit | 820 Copyright |
 | Jury Demand | Plaintiff |
@@ -25,19 +25,133 @@
 > Dashboard 卡片宣告：
 
 > - Court=N.D. Cal.
-> - Judge=Scott Corley
+> - Judge=Jacqueline Scott Corley
 > - Status=active
 > - Progress=由同一法官 Scott Corley 審理，可能與 Lyon v. Adobe 案件協調進行。暫未進入實質審理階段。
 
 **自動比對結果：**
 
 - ✅ Court 一致：dashboard 寫「N.D. Cal.」，CourtListener 為「N.D. California」
-- ✅ Judge 一致：dashboard 寫「Scott Corley」，CourtListener 為「Jacqueline Scott Corley」
-- ℹ️ Dashboard progress 內找不到【YYYY/M/D】格式日期；CourtListener 最後 entry: 2026-04-23
+- ✅ Judge 一致：dashboard 寫「Jacqueline Scott Corley」，CourtListener 為「Jacqueline Scott Corley」
+- ℹ️ Dashboard progress 內找不到【YYYY/M/D】格式日期；CourtListener 最後 entry: 2026-08-26
 
 ## 3. Docket Entries（最新優先，已過濾程序性 entries）
 
-**實質性 entries**：33 筆／**已過濾程序性 entries**：11 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+**實質性 entries**：54 筆／**已過濾程序性 entries**：14 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+
+### 📄 Doc #— — 2026-08-26
+
+Order on Motion to Relate Case
+
+### 📄 Doc #56 — 2026-08-25
+
+Transcript
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72046160/56/lyon-v-adobe-inc/)
+
+### 📄 Doc #55 — 2026-08-24
+
+Opposition/Response to Motion
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72046160/55/lyon-v-adobe-inc/)
+
+### 📄 Doc #54 — 2026-08-20
+
+Transcript Order
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72046160/54/lyon-v-adobe-inc/)
+
+### 📄 Doc #— — 2026-08-20
+
+Case Management Conference - Further
+
+### 📄 Doc #52 — 2026-08-18
+
+Proposed Order Proposed Order
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72046160/52/2/lyon-v-adobe-inc/)
+
+### 📄 Doc #— — 2026-08-17
+
+Clerk's Notice Setting Zoom Hearing
+
+### 📄 Doc #— — 2026-07-14
+
+Notice of Appearance/Substitution/Change/Withdrawal of Attorney
+
+### 📄 Doc #49 — 2026-07-09
+
+Transcript
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72046160/49/lyon-v-adobe-inc/)
+
+### 📄 Doc #48 — 2026-07-08
+
+Transcript Order
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72046160/48/lyon-v-adobe-inc/)
+
+### 📄 Doc #— — 2026-07-01
+
+Case Management Conference - Further
+
+### 📄 Doc #46 — 2026-06-26
+
+Declaration of David L. Gerbie re 44 Order, 43 MOTION to Consolidate Cases and Appoint Interim Lead Counsel Declaration of David L. Gerbie by Arthur Kleiner, Elizabeth Lyon. (Gerbie, David) (Filed on 6/26/2026) Modified on 6/29/2026 (kmg, COURT STAFF). (Entered: 06/26/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72046160/46/lyon-v-adobe-inc/)
+
+### 📄 Doc #45 — 2026-06-24
+
+JOINT CASE MANAGEMENT STATEMENT filed by Arthur Kleiner, Elizabeth Lyon. (Duffner, Brendan) (Filed on 6/24/2026) (Entered: 06/24/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72046160/45/lyon-v-adobe-inc/)
+
+### 📄 Doc #44 — 2026-06-22
+
+ORDER VACATING HEARING ON PLAINTIFF'S MOTION TO CONSOLIDATE. Signed by Judge Jacqueline Scott Corley on 6/22/2026. (ahm, COURT STAFF) (Filed on 6/22/2026) (Entered: 06/22/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72046160/44/lyon-v-adobe-inc/)
+
+### 📄 Doc #43 — 2026-06-19
+
+MOTION to Consolidate Cases and Appoint Interim Lead Counsel filed by Arthur Kleiner, Elizabeth Lyon. Motion Hearing set for 6/25/2026 10:00 AM in San Francisco, Courtroom 08, 19th Floor before Judge Jacqueline Scott Corley. Responses due by 7/6/2026. Replies due by 7/13/2026. (Attachments: # 1 Declaration of L. Timothy Fisher, # 2 Declaration of David L. Gerbie, # 3 Proposed Order)(Duffner, Brendan) (Filed on 6/19/2026) (Entered: 06/19/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72046160/43/3/lyon-v-adobe-inc/)
+
+### 📄 Doc #40 — 2026-06-11
+
+CLERK'S NOTICE SETTING ZOOM HEARING. The Further Case Management Conference set for 6/17/2026 is reset to 7/1/2026 at 2:00 p.m. by a Zoom webinar. Updated joint statement is due by 6/24/2026.Webinar Access: All counsel, members of the public, and media may access the webinar information at https://www.cand.uscourts.gov/jsc Court Appearances: Advanced notice is required of counsel or parties who wish to be identified by the court as making an appearance or will be participating in the argument at the hearing. A list of names must be sent to the CRD at jsccrd@cand.uscourts.gov no later than noon on 6/30/2026.Civ LR 77-3(d). Persons granted access to court proceedings held by telephone or videoconference are reminded that photographing, recording, and rebroadcasting of court proceedings, including screenshots or other visual copying of a hearing, is absolutely prohibited.Zoom Guidance and Setup: https://cand.uscourts.gov/zoom. (This is a text-only entry generated by the court. There is no …(truncated)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72046160/40/lyon-v-adobe-inc/)
+
+### 📄 Doc #39 — 2026-06-11
+
+ORDER RELATING CASE AND CONTINUING CASE MANAGEMENT CONFERENCE. Signed by Judge Jacqueline Scott Corley on 6/11/2026. 26-cv-471-HSG is related to 25-cv-10732-JSC. (ahm, COURT STAFF) (Filed on 6/11/2026) (Entered: 06/11/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72046160/39/lyon-v-adobe-inc/)
+
+### 📄 Doc #— — 2026-06-11
+
+Clerk's Notice Setting Zoom Hearing
+
+### 📄 Doc #38 — 2026-06-10
+
+JOINT CASE MANAGEMENT STATEMENT filed by Elizabeth Lyon. (Frysinger, Jordan) (Filed on 6/10/2026) (Entered: 06/10/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72046160/38/lyon-v-adobe-inc/)
+
+### 📄 Doc #37 — 2026-06-09
+
+ADMINISTRATIVE MOTION To Consider Whether Cases Should Be Related Under LR 3-12(b) and 7-11(a) filed by Adobe Inc.. Responses due by 6/15/2026. (Attachments: # 1 Declaration of Joseph Farris, # 2 Proposed Order)(Farris, Joseph) (Filed on 6/9/2026) (Entered: 06/09/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72046160/37/2/lyon-v-adobe-inc/)
+
+### 📄 Doc #36 — 2026-05-22
+
+Answer to Amended Complaint 34 Amended Complaint [ADOBE INC.'S ANSWER TO PLAINTIFFS' CONSOLIDATED CLASS ACTION COMPLAINT] by Adobe Inc.. (Winthrop, Douglas) (Filed on 5/22/2026) (Entered: 05/22/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72046160/36/lyon-v-adobe-inc/)
 
 ### 📄 Doc #— — 2026-04-23
 
@@ -45,7 +159,7 @@ Notice of Appearance/Substitution/Change/Withdrawal of Attorney
 
 ### 📄 Doc #34 — 2026-04-22
 
-Exhibit Redlined Complaint
+AMENDED COMPLAINT, consolidated, against Adobe Inc.. Filed by Elizabeth Lyon. (Attachments: # 1 Exhibit Redlined Complaint)(Cuba, Donald) (Filed on 4/22/2026) (Entered: 04/22/2026)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/72046160/34/1/lyon-v-adobe-inc/)
 
@@ -91,7 +205,7 @@ ORDER by Judge Jacqueline Scott Corley granting (26) Administrative Motion to Re
 
 ADMINISTRATIVE MOTION TO CONSIDER WHETHER CASES SHOULD BE RELATED UNDER LR 3-12(b) AND 7-11(a) filed by Adobe Inc.. Responses due by 3/13/2026. (Attachments: # 1 Declaration of Joseph Farris, # 2 Proposed Order)(Farris, Joseph) (Filed on 3/9/2026) (Entered: 03/09/2026)
 
-[CourtListener 連結](https://www.courtlistener.com/docket/72046160/26/lyon-v-adobe-inc/)
+[CourtListener 連結](https://www.courtlistener.com/docket/72046160/26/2/lyon-v-adobe-inc/)
 
 ### 📄 Doc #21 — 2026-02-26
 
@@ -218,8 +332,11 @@ COMPLAINT with Jury Demand (No Process) against Adobe Inc. ( Filing fee $ 405, r
 [CourtListener 連結](https://www.courtlistener.com/docket/72046160/1/lyon-v-adobe-inc/)
 
 <details>
-<summary>已過濾的 11 筆程序性 entries（點擊展開）</summary>
+<summary>已過濾的 14 筆程序性 entries（點擊展開）</summary>
 
+- **Doc #42** (2026-06-11): ORDER by Judge Jacqueline Scott Corley granting 41 Motion for Pro Hac Vice as to Julian C. Diamond. (ahm, COURT STAFF) (Filed on 6/11/2026) (Entered: 06/11/2026)
+- **Doc #41** (2026-06-11): MOTION for leave to appear in Pro Hac Vice ( Filing fee $ 328, receipt number ACANDC-22089568.) filed by Arthur Kleiner, Elizabeth Lyon. (Diamond, Julian) (Filed on 6/11/2026) (Entered: 06/11/2026)
+- **Doc #35** (2026-04-23): NOTICE of Appearance filed by L. Timothy Fisher on behalf of Arthur Kleiner (Fisher, L.) (Filed on 4/23/2026) (Entered: 04/23/2026)
 - **Doc #32** (2026-03-31): NOTICE of Change of Address by Douglas Andrew Winthrop (Winthrop, Douglas) (Filed on 3/31/2026) (Entered: 03/31/2026)
 - **Doc #31** (2026-03-16): Corporate Disclosure Statement by Adobe Inc. (Winthrop, Douglas) (Filed on 3/16/2026) (Entered: 03/16/2026)
 - **Doc #25** (2026-02-27): ORDER by Judge Jacqueline Scott Corley granting 22 Motion for Pro Hac Vice as to Davi Gerbie. (ahm, COURT STAFF) (Filed on 2/27/2026) (Entered: 02/27/2026)
@@ -236,4 +353,4 @@ COMPLAINT with Jury Demand (No Process) against Adobe Inc. ( Filing fee $ 405, r
 
 ---
 
-*產生時間：2026-04-27 03:18 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-09-01 01:26 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

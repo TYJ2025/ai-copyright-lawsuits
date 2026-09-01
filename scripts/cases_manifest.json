@@ -124,22 +124,22 @@
  {
   "case_id": 13,
   "name": "Doe v. GitHub (Copilot Litigation)",
-  "court": "N.D. Cal. → Ninth Circuit Appeal",
-  "judge": "Tigar / Ninth Circuit",
+  "court": "N.D. Cal. 4:22-cv-06823 → 9th Cir. 24-6136（§1292(b) 許可上訴）／24-7700（本案上訴審）",
+  "judge": "Tigar（N.D. Cal. 原審）／9th Cir. panel: S. Thomas、Miller、Blumenfeld",
   "status": "appeal",
   "primary_docket_id": 65669506,
   "secondary_docket_ids": [],
-  "progress_excerpt": "2024 年 1 月，Tigar 法官駁回大部分主張。2024 年 9 月，法官核准中間上訴（interlocutory appeal）至第九巡迴法院。第九巡迴法院於 2024 年 12 月接受上訴（No. 24-6136），地院程序暫停。\n\n【2026 年 2 月 11 日】第九巡迴法院在舊金山舉行言詞辯論。\n\n上訴審理中，被告（AI 公司聯盟）敦促第九巡迴法院就 DMCA 在 AI 脈絡下的適用範圍作出明確裁判。\n\n截至 2026 年 4 月，第九巡迴法院尚未作出裁定。判決未決。"
+  "progress_excerpt": "2024 年 1 月，Tigar 法官駁回大部分主張。2024 年 9 月，法官核准中間上訴（interlocutory appeal）至第九巡迴法院；許可上訴聲請程序另編 9th Cir. 24-6136，2024/12/19 由 S. Thomas、Tallman 兩位法官裁定准許，本案上訴審則編為 9th Cir. 24-7700，地院程序暫停。\n\n【2026/2/11】第九巡迴法院於舊金山第一法庭進行言詞辯論後 ARGUED AND SUBMITTED，合議庭為 Sidney R. Thomas、Eric D. Miller、Stanley Blumenfeld。被告（AI 業者聯盟）敦促法院就 DMCA §1202 於 AI 脈絡之適用範圍作出明確裁判。\n\n截至 2026/8/16，24-7700 卷宗最後書狀為 2026/5/26 之律師退出通知，判決尚未作成。"
  },
  {
   "case_id": 14,
   "name": "Raw Story Media v. OpenAI (DMCA CMI — Second Circuit)",
-  "court": "S.D.N.Y. → Second Circuit",
-  "judge": "McMahon / Second Circuit",
+  "court": "S.D.N.Y. 1:24-cv-01514 → 2d Cir. 25-1756（案名 In Re: OpenAI, Inc. Copyright Infringement Litigation）",
+  "judge": "McMahon（S.D.N.Y. 原審）／2d Cir. panel: Jacobs、Wesley、E. Lee",
   "status": "appeal",
   "primary_docket_id": 68290709,
   "secondary_docket_ids": [],
-  "progress_excerpt": "原告已上訴至第二巡迴法院。\n\n【2026 年 3 月 18 日】第二巡迴法院舉行言詞辯論，審理核心問題為：DMCA §1202(b) 的 CMI 主張是否需要證明「傳播」才具有當事人適格？\n\n截至 2026 年 4 月，第二巡迴法院尚未作出判決。判決待決。本案的結果將影響所有基於 DMCA §1202 向 AI 公司提起訴訟的原告之當事人適格認定。"
+  "progress_excerpt": "原告已上訴至第二巡迴法院。\n\n【2026 年 3 月 18 日】第二巡迴法院舉行言詞辯論，審理核心問題為：DMCA §1202(b) 的 CMI 主張是否需要證明「傳播」才具有當事人適格？\n\n截至 2026 年 4 月，第二巡迴法院尚未作出判決。判決待決。本案的結果將影響所有基於 DMCA §1202 向 AI 公司提起訴訟的原告之當事人適格認定。\n\n【2026/3/18】第二巡迴 25-1756（2025/7/16 提起上訴）於 3/18 言詞辯論並 HEARD，合議庭為 Dennis Jacobs、Richard C. Wesley、Eunice C. Lee，核心爭點為 DMCA §1202(b) CMI 主張是否須證明「傳播」始具 Article III 當事人適格；截至 2026/8/16 判決尚未作成。"
  },
  {
   "case_id": 15,
@@ -359,7 +359,7 @@
   "status": "active",
   "primary_docket_id": 68878608,
   "secondary_docket_ids": [],
-  "progress_excerpt": "案件於 2025 年 10 月在波士頓聯邦地院提起。Suno 於 1 月提交動議駁回州法主張，法院預計於 4 月作出部分決定。聯邦主張預計進入事證開示階段。"
+  "progress_excerpt": "案件於 2025 年 10 月在波士頓聯邦地院提起。Suno 於 1 月提交動議駁回州法主張，法院預計於 4 月作出部分決定。聯邦主張預計進入事證開示階段。\n\n【2026/8/21】Saylor 法官駁回 Suno 大部分駁回聲請，著作權侵害與 DMCA §1202 主張存活，僅田納西州消費者保護法請求遭駁回。"
  },
  {
   "case_id": 37,
@@ -369,7 +369,7 @@
   "status": "active",
   "primary_docket_id": 70549282,
   "secondary_docket_ids": [],
-  "progress_excerpt": "案件於 2025 年 12 月提起。Garnett 法官已發出初期案件管理令（initial case management order），要求雙方於 2026 年 5 月前完成初期法律爭點討論。預計將與 UMG 案進行協調。\n\n【2026/6/22】Hagens Berman 與 Delgado Entertainment Law 聯手提交修正訴狀，升級代表遭 AI 訓練未授權使用錄音之獨立音樂人，指控 Udio「對音樂社群最脆弱創作者之野蠻攻擊」。本案原由鄉村音樂人 Tony Justice 2025/6 提起，大型訴訟事務所介入標誌獨立藝人對 AI 音樂平台之法律壓力顯著升級。"
+  "progress_excerpt": "案件於 2025 年 12 月提起。Garnett 法官已發出初期案件管理令（initial case management order），要求雙方於 2026 年 5 月前完成初期法律爭點討論。預計將與 UMG 案進行協調。\n\n【2026/6/22】Hagens Berman 與 Delgado Entertainment Law 聯手提交修正訴狀，升級代表遭 AI 訓練未授權使用錄音之獨立音樂人，指控 Udio「對音樂社群最脆弱創作者之野蠻攻擊」。本案原由鄉村音樂人 Tony Justice 2025/6 提起，大型訴訟事務所介入標誌獨立藝人對 AI 音樂平台之法律壓力顯著升級。\n\n【2026/8/17】Hellerstein 法官駁回獨立音樂人重新考量聲請：田納西州消費者保護法及普通法不公平競爭主張因遭《著作權法》優先排除，維持先前駁回"
  },
  {
   "case_id": 38,
@@ -389,7 +389,7 @@
   "status": "active",
   "primary_docket_id": 71271014,
   "secondary_docket_ids": [],
-  "progress_excerpt": "案件於 2023 年 11 月在加州中區提起，Kronstadt 法官主持。經過訴訟律師會議，預計於 2026 年 7 月進行第一次駁回動議聽證會。原告已提交修正訴狀，擴大索賠範圍至商品化權侵害。\n\n【2026/7/21】Midjourney 7/21 就 Disney 與 Warner Bros. 之著作權主張提出即決判決聲請，主張線上服務提供者不因部分使用者生成侵權內容而當然負間接侵權責任，並指「引誘侵權」要件未經舉證。"
+  "progress_excerpt": "案件於 2023 年 11 月在加州中區提起，Kronstadt 法官主持。經過訴訟律師會議，預計於 2026 年 7 月進行第一次駁回動議聽證會。原告已提交修正訴狀，擴大索賠範圍至商品化權侵害。\n\n【2026/7/21】Midjourney 7/21 就 Disney 與 Warner Bros. 之著作權主張提出即決判決聲請，主張線上服務提供者不因部分使用者生成侵權內容而當然負間接侵權責任，並指「引誘侵權」要件未經舉證。\n\n【2026/8/12】Disney/Warner Bros./NBCUniversal 具狀反對 Midjourney 縮減訴訟之聲請，主張 Midjourney 誤讀最高法院 3 月間接侵權判決、未排除故意助長侵權主張\n\n【2026/8/25】Midjourney 就 Disney/Warner Bros. 之即決判決聲請提出答辯回覆狀，稱片廠對代位侵權理論之主張為「答辯狀未載之曲解」，未能舉證引誘侵權之積極鼓勵要件"
  },
  {
   "case_id": 41,
@@ -409,7 +409,7 @@
   "status": "active",
   "primary_docket_id": 70338311,
   "secondary_docket_ids": [],
-  "progress_excerpt": "案件於 2024 年在特拉華州提起，2025 年 3 月轉入南紐約 MDL。已提交修正訴狀，納入關於 AI 訓練透明度的更多具體主張。預計於 2026 年 7 月進行駁回動議聽證會。"
+  "progress_excerpt": "案件於 2024 年在特拉華州提起，2025 年 3 月轉入南紐約 MDL。已提交修正訴狀，納入關於 AI 訓練透明度的更多具體主張。預計於 2026 年 7 月進行駁回動議聽證會。\n\n【2026/8/17】對 OpenAI 提出第二次修正訴狀，指控其持續重製並衍生原告著作用於訓練資料與 ChatGPT 產品輸出。"
  },
  {
   "case_id": 43,
@@ -564,12 +564,12 @@
  {
   "case_id": 59,
   "name": "Amazon.com Services v. Perplexity AI",
-  "court": "W.D. Wash.",
-  "judge": "Maxine M. Chesney",
+  "court": "N.D. Cal. 3:25-cv-09514 → 9th Cir. 26-1444（初步禁制令上訴，已發回）",
+  "judge": "Maxine M. Chesney（N.D. Cal.）／9th Cir. panel: M. Smith、Tung、Hinderaker",
   "status": "active",
   "primary_docket_id": 71874820,
   "secondary_docket_ids": [],
-  "progress_excerpt": "【2026 年 3 月 9 日】Amazon 獲得初步禁止令（preliminary injunction），禁止 Perplexity 以代理方式訪問 Amazon 系統。本案為 Perplexity 面臨的最嚴重訴訟，涉及其核心業務模式的合法性。Perplexity 同時面臨 NYT、Dow Jones、Chicago Tribune、Reddit 及其他出版商的訴訟。"
+  "progress_excerpt": "【2026 年 3 月 9 日】Amazon 獲得初步禁止令（preliminary injunction），禁止 Perplexity 以代理方式訪問 Amazon 系統。本案為 Perplexity 面臨的最嚴重訴訟，涉及其核心業務模式的合法性。Perplexity 同時面臨 NYT、Dow Jones、Chicago Tribune、Reddit 及其他出版商的訴訟。\n\n【2026/8/4】第九巡迴上訴法院撤銷地院對 Perplexity「Comet」瀏覽器之初步禁制令，認定 CFAA 責任應歸屬於使用者本人而非開發商 Perplexity。\n\n【2026/8/4】第九巡迴 26-1444 作成判決（Milan D. Smith, Jr. 主筆，另 Eric C. Tung、John Charles Hinderaker）：Amazon 就 CFAA 與 CDAFA「access」要件勝訴可能性不足，撤銷（VACATE）地院 3/9 初步禁制令並發回續行。判決認定使用者指示 AI 代理人行動時，「存取」Amazon 電腦者係使用者本人而非 Perplexity。"
  },
  {
   "case_id": 60,
@@ -994,12 +994,12 @@
  {
   "case_id": 112,
   "name": "Thaler v. Perlmutter (Supreme Court Cert Denied)",
-  "court": "D.D.C. → D.C. Circuit → U.S. Supreme Court",
-  "judge": "Howell / D.C. Circuit / Supreme Court",
+  "court": "D.D.C. 1:22-cv-01564 → D.C. Cir. 23-5233 → U.S. Supreme Court No. 25-449（cert 駁回）",
+  "judge": "Beryl A. Howell（D.D.C. 原審）／D.C. Cir. panel: Millett、Wilkins、Rogers",
   "status": "dismissed",
   "primary_docket_id": 63356475,
   "secondary_docket_ids": [],
-  "progress_excerpt": "2026 年 3 月 2 日，美國最高法院駁回上訴許可（certiorari petition）。最高法院的裁定確認了材料必須具有人類著作權才能受著作權保護的原則。值得注意的是，此裁定並未禁止人類有創意貢獻的 AI 輔助作品的著作權保護。瑟勒案明確聲明排除所有人類投入，因此不適用於混合創作的情形。"
+  "progress_excerpt": "2023/8/18 D.D.C. Howell 法官維持著作權局否准登記之處分，認人類著作為著作權保護之要件；Thaler 於 2023/10/11 提起上訴。\n\n【2024/9/19】哥倫比亞特區巡迴上訴法院（D.C. Cir. 23-5233）言詞辯論，合議庭為 Millett、Wilkins、Rogers。\n\n【2025/3/18】D.C. Cir. 維持原判，確認著作權法之人類著作要件，純 AI 生成且無任何人類創意投入之作品不得登記。\n\n【2025/10/14】Thaler 向聯邦最高法院聲請移審（certiorari），案號 No. 25-449。\n\n【2026/3/2】最高法院駁回移審聲請，D.C. Cir. 判決確定。惟本案效力限於「明確聲明排除所有人類投入」之情形，並未否定人類有創意貢獻之 AI 輔助作品之著作權保護，混合創作之界線仍未經上級審處理。"
  },
  {
   "case_id": 134,
@@ -1049,7 +1049,7 @@
   "status": "active",
   "primary_docket_id": 73402641,
   "secondary_docket_ids": [],
-  "progress_excerpt": "【2026/5/28】CNN 於紐約南區聯邦地院（S.D.N.Y.）提起訴訟，案號 1:26-cv-04427，由 Rothwell, Figg, Ernst & Manbeck 律所代理、Steven Lieberman 律師具名。Nature of Suit 820（著作權），cause 17 U.S.C. §501（著作權侵害）。截至立案時法官尚未指派（Unassigned）。\n\nCNN 主張曾於 2025 年與 Perplexity 進行授權談判但破裂，其後續商業利用屬「明知未獲授權」之故意侵權，請求法定損害賠償與永久禁制令。Perplexity 通訊長 Jesse Dwyer 回應「事實無從受著作權保護」。\n\n本案與同院的 NYT v. Perplexity（1:25-cv-10106）、Chicago Tribune v. Perplexity（1:25-cv-10094）相關，並與 Dow Jones（WSJ／NY Post）、Encyclopaedia Britannica、Reddit、Amazon 等對 Perplexity 之多線訴訟共構壓力——新聞媒體 ↔ AI 答案引擎戰線首度延伸至電視網領域。"
+  "progress_excerpt": "【2026/5/28】CNN 於紐約南區聯邦地院（S.D.N.Y.）提起訴訟，案號 1:26-cv-04427，由 Rothwell, Figg, Ernst & Manbeck 律所代理、Steven Lieberman 律師具名。Nature of Suit 820（著作權），cause 17 U.S.C. §501（著作權侵害）。截至立案時法官尚未指派（Unassigned）。\n\nCNN 主張曾於 2025 年與 Perplexity 進行授權談判但破裂，其後續商業利用屬「明知未獲授權」之故意侵權，請求法定損害賠償與永久禁制令。Perplexity 通訊長 Jesse Dwyer 回應「事實無從受著作權保護」。\n\n本案與同院的 NYT v. Perplexity（1:25-cv-10106）、Chicago Tribune v. Perplexity（1:25-cv-10094）相關，並與 Dow Jones（WSJ／NY Post）、Encyclopaedia Britannica、Reddit、Amazon 等對 Perplexity 之多線訴訟共構壓力——新聞媒體 ↔ AI 答案引擎戰線首度延伸至電視網領域。\n\n【2026/8/24】Perplexity 具狀聲請大幅刪減 CNN 著作權訴訟，主張其 answer engine 自動生成回覆不負侵權責任"
  },
  {
   "case_id": 140,
@@ -1169,7 +1169,7 @@
   "status": "active",
   "primary_docket_id": 73446028,
   "secondary_docket_ids": [],
-  "progress_excerpt": "【2026/6/5】AFM 於紐約南區聯邦地院對 UMG 與 WMG 提起集體談判協議違約訴訟，主張兩大唱片公司於與 Suno、Udio 之和解暨授權交易中未依 CBA「new use」條款補償 session musicians，亦拒絕揭露實際被授權用於 AI 訓練之錄音名單。起訴狀稱被告「為自身利益創造重大新收入來源、卻拒絕補償以自己樂器、才華與努力創作出供 AI 機器吞食營利之音樂家」。\n\n【2026/7/21】AFM 就 UMG、WMG 之撤銷之訴聲請提出反對書狀，主張兩大唱片公司與 Suno、Udio 之 AI 授權和解已觸發 SRLA 第 21(a) 條「新用途」條款，須對授權供 AI 訓練錄音之樂手給付報酬；UMG 反主張該條款僅為既有費率轉換條款。\n\n【2026/7/24】AFM 提交第一次修正訴狀，增列 Warner Records, Inc. 與 Atlantic Recording Corp. 為被告。"
+  "progress_excerpt": "【2026/6/5】AFM 於紐約南區聯邦地院對 UMG 與 WMG 提起集體談判協議違約訴訟，主張兩大唱片公司於與 Suno、Udio 之和解暨授權交易中未依 CBA「new use」條款補償 session musicians，亦拒絕揭露實際被授權用於 AI 訓練之錄音名單。起訴狀稱被告「為自身利益創造重大新收入來源、卻拒絕補償以自己樂器、才華與努力創作出供 AI 機器吞食營利之音樂家」。\n\n【2026/7/21】AFM 就 UMG、WMG 之撤銷之訴聲請提出反對書狀，主張兩大唱片公司與 Suno、Udio 之 AI 授權和解已觸發 SRLA 第 21(a) 條「新用途」條款，須對授權供 AI 訓練錄音之樂手給付報酬；UMG 反主張該條款僅為既有費率轉換條款。\n\n【2026/7/24】AFM 提交第一次修正訴狀，增列 Warner Records, Inc. 與 Atlantic Recording Corp. 為被告。\n\n【2026/8/5】UMG、WMG 對 AFM 7/24 提出之修正訴狀再次聲請駁回，主張 SRLA 第 21(a)條「新用途」條款不涵蓋 AI 訓練授權；AFM 先前 7/21 已就原訴狀撤銷聲請提反對書狀。"
  },
  {
   "case_id": 158,
@@ -1190,5 +1190,35 @@
   "primary_docket_id": 73547746,
   "secondary_docket_ids": [],
   "progress_excerpt": "【2026/6/29】Jamendo 於麻州聯邦地院對 Suno 提起著作權侵害及 CC 授權違約訴訟，主張 Suno 以「非商業學術資料集」訓練商業音樂生成模型逾越授權範圍，求償約 US$2,000 萬。訴前 Jamendo 曾於 2025/9 致函要求授權並開立約 €1,600 萬請款單，Suno 確認收件後未回應。"
+ },
+ {
+  "case_id": 163,
+  "name": "Round Hill Music v. Anthropic",
+  "court": "N.D. Cal. 5:26-cv-08505",
+  "judge": "Nathanael M. Cousins",
+  "status": "active",
+  "primary_docket_id": 74658311,
+  "secondary_docket_ids": [],
+  "progress_excerpt": "【2026/8/17】Round Hill Music 於加州北區聯邦地院對 Anthropic 提起訴訟（5:26-cv-08505），主張直接侵害著作權、規避技術保護措施（§1201）及移除或變更著作權管理資訊（§1202），案件分由 Nathanael M. Cousins 法官承辦。同日 Round Hill 另對 Suno 及 Bright Data 提起平行訴訟（5:26-cv-08507）。"
+ },
+ {
+  "case_id": 164,
+  "name": "Round Hill Music v. Suno & Bright Data",
+  "court": "N.D. Cal. 5:26-cv-08507",
+  "judge": "Joseph C. Spero",
+  "status": "active",
+  "primary_docket_id": 74658569,
+  "secondary_docket_ids": [],
+  "progress_excerpt": "【2026/8/17】Round Hill Music 於加州北區聯邦地院對 Suno、Bright Data Ltd. 及 Bright Data, Inc. 提起訴訟（5:26-cv-08507），主張直接侵害、輔助侵害、規避技術保護措施（§1201）及移除或變更 CMI（§1202），案件分由 Joseph C. Spero 法官承辦。"
+ },
+ {
+  "case_id": 165,
+  "name": "Sullivan v. OpenAI (Textbook Authors Class Action)",
+  "court": "S.D.N.Y. 1:26-cv-06966",
+  "judge": "待分派",
+  "status": "active",
+  "primary_docket_id": 74652896,
+  "secondary_docket_ids": [],
+  "progress_excerpt": "【2026/8/14】教科書作者 Michael Sullivan 等 7 名具名原告於紐約南區聯邦地院對 OpenAI 各關係企業及 Microsoft 提起集體訴訟（1:26-cv-06966），主張自盜版影子圖書館取得教科書訓練 GPT-N，訴因含直接侵害、輔助侵害、對 Microsoft 之代位侵害及 DMCA §1202 移除 CMI 後散布，並請求陪審團審理。案件尚未分案（Unassigned）。"
  }
 ]

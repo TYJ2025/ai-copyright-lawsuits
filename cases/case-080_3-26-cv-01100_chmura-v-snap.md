@@ -1,6 +1,6 @@
 # Case 80 — Youngblood v. Meta Platforms, Inc.
 
-> 最後更新（CourtListener fetch）：2026-04-27 03:20 UTC
+> 最後更新（CourtListener fetch）：2026-09-01 01:32 UTC
 
 ---
 
@@ -26,14 +26,14 @@
 > Dashboard 卡片宣告：
 
 > - Court=C.D. Cal.
-> - Judge=Birotte Jr.
+> - Judge=James Donato
 > - Status=active
 > - Progress=Birotte Jr. 法官审理，與 Ted Entertainment v. Snap 可能協調進行。2026 年進行中。
 
 **自動比對結果：**
 
 - ⚠️ Court 可能不一致：dashboard 寫「C.D. Cal.」，CourtListener 為「N.D. California」
-- ⚠️ Judge 可能不一致：dashboard 寫「Birotte Jr.」，CourtListener 為「James Donato」
+- ✅ Judge 一致：dashboard 寫「James Donato」，CourtListener 為「James Donato」
 - ℹ️ Dashboard progress 內找不到【YYYY/M/D】格式日期；CourtListener 最後 entry: 2026-02-19
 
 ## 3. Docket Entries（最新優先，已過濾程序性 entries）
@@ -129,4 +129,4 @@ CERTIFICATION of Conflicts and Interested Entities or Persons Pursuant to F.R.C.
 
 ---
 
-*產生時間：2026-04-27 03:20 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-09-01 01:32 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

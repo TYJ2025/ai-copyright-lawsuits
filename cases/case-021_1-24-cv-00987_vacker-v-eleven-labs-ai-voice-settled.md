@@ -1,6 +1,6 @@
 # Case 21 — Vacker v. ElevenLabs, Inc.
 
-> 最後更新（CourtListener fetch）：2026-04-27 03:11 UTC
+> 最後更新（CourtListener fetch）：2026-09-01 01:14 UTC
 
 ---
 
@@ -26,14 +26,14 @@
 > Dashboard 卡片宣告：
 
 > - Court=D. Del.
-> - Judge=Andrews
+> - Judge=Richard G. Andrews
 > - Status=settled
 > - Progress=案件已和解。和解條件未公開。本案是首批涉及 AI 語音合成並達成和解的案件之一。
 
 **自動比對結果：**
 
 - ✅ Court 一致：dashboard 寫「D. Del.」，CourtListener 為「D. Delaware」
-- ✅ Judge 一致：dashboard 寫「Andrews」，CourtListener 為「Richard G. Andrews」
+- ✅ Judge 一致：dashboard 寫「Richard G. Andrews」，CourtListener 為「Richard G. Andrews」
 - ℹ️ Dashboard progress 內找不到【YYYY/M/D】格式日期；CourtListener 最後 entry: 2025-11-06
 
 ## 3. Docket Entries（最新優先，已過濾程序性 entries）
@@ -443,4 +443,4 @@ Notice, Consent and Referral forms re: U.S. Magistrate Judge jurisdiction. (jfm)
 
 ---
 
-*產生時間：2026-04-27 03:11 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-09-01 01:14 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

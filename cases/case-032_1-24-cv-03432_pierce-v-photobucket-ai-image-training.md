@@ -1,6 +1,6 @@
 # Case 32 — Pierce v. Photobucket, Inc.
 
-> 最後更新（CourtListener fetch）：2026-04-27 03:13 UTC
+> 最後更新（CourtListener fetch）：2026-09-01 01:17 UTC
 
 ---
 
@@ -27,14 +27,14 @@
 > Dashboard 卡片宣告：
 
 > - Court=D. Colo.
-> - Judge=Brimmer
+> - Judge=Philip A. Brimmer
 > - Status=active
 > - Progress=案件由 Brimmer 法官審理中。
 
 **自動比對結果：**
 
 - ✅ Court 一致：dashboard 寫「D. Colo.」，CourtListener 為「D. Colorado」
-- ✅ Judge 一致：dashboard 寫「Brimmer」，CourtListener 為「Philip A. Brimmer」
+- ✅ Judge 一致：dashboard 寫「Philip A. Brimmer」，CourtListener 為「Philip A. Brimmer」
 - ℹ️ Dashboard progress 內找不到【YYYY/M/D】格式日期；CourtListener 最後 entry: 2026-03-10
 
 ## 3. Docket Entries（最新優先，已過濾程序性 entries）
@@ -458,4 +458,4 @@ COMPLAINT against Photobucket, Inc., Unknown Defendants (Filing fee $ 405,Receip
 
 ---
 
-*產生時間：2026-04-27 03:13 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-09-01 01:17 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

@@ -1,6 +1,6 @@
 # Case 85 — Atlantic Recording Corporation v. Anna's Archive
 
-> 最後更新（CourtListener fetch）：2026-04-27 03:21 UTC
+> 最後更新（CourtListener fetch）：2026-09-01 01:33 UTC
 
 ---
 
@@ -26,14 +26,14 @@
 > Dashboard 卡片宣告：
 
 > - Court=S.D.N.Y.
-> - Judge=Rakoff
+> - Judge=Jed S. Rakoff
 > - Status=settled
 > - Progress=2026 年 1 月 2 日於 SDNY 提起。2026 年 1 月 20 日簽發初步禁止令。Anna's Archive 未應訴，2026 年 2 月 2 日被判缺席。缺席判決：3.22 億美元總損賠（Spotify 3 億、Sony 750 萬、UMG 750 萬、Atlantic 720 萬）。本案具有重大意義，因 Anna's Archive 為 AI 公司盜版訓練資料的關鍵來源。
 
 **自動比對結果：**
 
 - ✅ Court 一致：dashboard 寫「S.D.N.Y.」，CourtListener 為「S.D. New York」
-- ✅ Judge 一致：dashboard 寫「Rakoff」，CourtListener 為「Jed S. Rakoff」
+- ✅ Judge 一致：dashboard 寫「Jed S. Rakoff」，CourtListener 為「Jed S. Rakoff」
 - ℹ️ Dashboard progress 內找不到【YYYY/M/D】格式日期；CourtListener 最後 entry: 2026-04-24
 
 ## 3. Docket Entries（最新優先，已過濾程序性 entries）
@@ -42,13 +42,13 @@
 
 ### 📄 Doc #42 — 2026-04-24
 
-Transcript
+TRANSCRIPT of Proceedings re: CONFERENCE held on 4/14/2026 before Judge Jed S. Rakoff. Court Reporter/Transcriber: Raquel Robles, (212) 805-0300. Transcript may be viewed at the court public terminal or purchased through the Court Reporter/Transcriber before the deadline for Release of Transcript Restriction. After that date it may be obtained through PACER. Redaction Request due 5/15/2026. Redacted Transcript Deadline set for 5/26/2026. Release of Transcript Restriction set for 7/23/2026..(Moya, Goretti) (Entered: 04/24/2026)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/72161605/42/atlantic-recording-corporation-v-annas-archive/)
 
 ### 📄 Doc #43 — 2026-04-24
 
-Notice of Filing Transcript
+NOTICE OF FILING OF OFFICIAL TRANSCRIPT Notice is hereby given that an official transcript of a CONFERENCE proceeding held on 4/14/26 has been filed by the court reporter/transcriber in the above-captioned matter. The parties have seven (7) calendar days to file with the court a Notice of Intent to Request Redaction of this transcript. If no such Notice is filed, the transcript may be made remotely electronically available to the public without redaction after 90 calendar days....(Moya, Goretti) (Entered: 04/24/2026)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/72161605/43/atlantic-recording-corporation-v-annas-archive/)
 
@@ -327,4 +327,4 @@ Magistrate Judge Sarah Netburn is designated to handle matters that may be refer
 
 ---
 
-*產生時間：2026-04-27 03:21 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-09-01 01:33 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

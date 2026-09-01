@@ -1,6 +1,6 @@
 # Case 24 — James v. Snowflake Inc
 
-> 最後更新（CourtListener fetch）：2026-04-27 03:11 UTC
+> 最後更新（CourtListener fetch）：2026-09-01 01:15 UTC
 
 ---
 
@@ -13,7 +13,7 @@
 | Court | District Court, D. Montana (`mtd`) |
 | Judge Assigned | Brian Morris |
 | Date Filed | 2025-11-21 |
-| Date Last Filing | 2026-03-05 |
+| Date Last Filing | 2026-08-28 |
 | Cause | 17:501 Copyright Infringement |
 | Nature of Suit | 820 Copyright |
 | Jury Demand | Both |
@@ -25,19 +25,25 @@
 > Dashboard 卡片宣告：
 
 > - Court=D. Mont.
-> - Judge=Morris
+> - Judge=Brian Morris
 > - Status=active
 > - Progress=案件由 Morris 法官審理中，處於初步程序階段。
 
 **自動比對結果：**
 
 - ✅ Court 一致：dashboard 寫「D. Mont.」，CourtListener 為「D. Montana」
-- ✅ Judge 一致：dashboard 寫「Morris」，CourtListener 為「Brian Morris」
-- ℹ️ Dashboard progress 內找不到【YYYY/M/D】格式日期；CourtListener 最後 entry: 2026-03-05
+- ✅ Judge 一致：dashboard 寫「Brian Morris」，CourtListener 為「Brian Morris」
+- ℹ️ Dashboard progress 內找不到【YYYY/M/D】格式日期；CourtListener 最後 entry: 2026-08-28
 
 ## 3. Docket Entries（最新優先，已過濾程序性 entries）
 
-**實質性 entries**：12 筆／**已過濾程序性 entries**：20 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+**實質性 entries**：13 筆／**已過濾程序性 entries**：20 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+
+### 📄 Doc #31 — 2026-08-28
+
+Notice (Other) - SDM
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71946179/31/james-v-snowflake-inc/)
 
 ### 📄 Doc #30 — 2026-03-05
 
@@ -135,4 +141,4 @@ Filing Fee Received
 
 ---
 
-*產生時間：2026-04-27 03:11 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-09-01 01:15 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

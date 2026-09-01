@@ -1,6 +1,6 @@
 # Case 73 — Bird v. Microsoft Corporation
 
-> 最後更新（CourtListener fetch）：2026-04-27 03:19 UTC
+> 最後更新（CourtListener fetch）：2026-09-01 01:30 UTC
 
 ---
 
@@ -25,14 +25,14 @@
 > Dashboard 卡片宣告：
 
 > - Court=SDNY
-> - Judge=Stein
+> - Judge=Sidney H. Stein
 > - Status=active
 > - Progress=案件由 Stein 法官審理，與多件 Microsoft 著作權案件協調進行。目前進行中，未有重大動議裁定。
 
 **自動比對結果：**
 
 - ⚠️ Court 可能不一致：dashboard 寫「SDNY」，CourtListener 為「S.D. New York」
-- ✅ Judge 一致：dashboard 寫「Stein」，CourtListener 為「Sidney H. Stein」
+- ✅ Judge 一致：dashboard 寫「Sidney H. Stein」，CourtListener 為「Sidney H. Stein」
 - ℹ️ Dashboard progress 內找不到【YYYY/M/D】格式日期；CourtListener 最後 entry: 2025-09-09
 
 ## 3. Docket Entries（最新優先，已過濾程序性 entries）
@@ -186,4 +186,4 @@ FILING ERROR - DEFICIENT PLEADING - PDF ERROR - AO 121 FORM COPYRIGHT - NOTICE O
 
 ---
 
-*產生時間：2026-04-27 03:19 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-09-01 01:30 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

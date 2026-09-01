@@ -1,6 +1,6 @@
 # Case 33 — Chicago Tribune Company, LLC v. Perplexity AI, Inc.
 
-> 最後更新（CourtListener fetch）：2026-04-27 03:13 UTC
+> 最後更新（CourtListener fetch）：2026-09-01 01:17 UTC
 
 ---
 
@@ -13,7 +13,7 @@
 | Court | District Court, S.D. New York (`nysd`) |
 | Judge Assigned | Loretta A. Preska |
 | Date Filed | 2025-12-04 |
-| Date Last Filing | 2026-04-17 |
+| Date Last Filing | 2026-08-31 |
 | Cause | 17:501 Copyright Infringement |
 | Nature of Suit | 820 Copyright |
 | Jury Demand | Plaintiff |
@@ -25,19 +25,97 @@
 > Dashboard 卡片宣告：
 
 > - Court=S.D.N.Y.
-> - Judge=TBA
+> - Judge=Loretta A. Preska
 > - Status=active
 > - Progress=案件於 2025 年提起，目前正在初期訴訟階段。被告已提交答辯狀，主張合理使用。原告於 2026 年 2 月提交補充訴狀，擴大被告範圍至 Perplexity 的融資方。法院預計於 2026 年上半年作出是否駁回的決定。
 
 **自動比對結果：**
 
 - ✅ Court 一致：dashboard 寫「S.D.N.Y.」，CourtListener 為「S.D. New York」
-- ⚠️ Judge 可能不一致：dashboard 寫「TBA」，CourtListener 為「Loretta A. Preska」
-- ℹ️ Dashboard progress 內找不到【YYYY/M/D】格式日期；CourtListener 最後 entry: 2026-04-17
+- ✅ Judge 一致：dashboard 寫「Loretta A. Preska」，CourtListener 為「Loretta A. Preska」
+- ℹ️ Dashboard progress 內找不到【YYYY/M/D】格式日期；CourtListener 最後 entry: 2026-08-31
 
 ## 3. Docket Entries（最新優先，已過濾程序性 entries）
 
-**實質性 entries**：46 筆／**已過濾程序性 entries**：20 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+**實質性 entries**：60 筆／**已過濾程序性 entries**：31 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+
+### 📄 Doc #60 — 2026-08-31
+
+Protective Order
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71996467/60/chicago-tribune-company-llc-v-perplexity-ai-inc/)
+
+### 📄 Doc #59 — 2026-08-31
+
+PROPOSED PROTECTIVE ORDER. Document filed by Chicago Tribune Company, LLC..(Lieberman, Steven) (Entered: 08/31/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71996467/59/chicago-tribune-company-llc-v-perplexity-ai-inc/)
+
+### 📄 Doc #58 — 2026-08-07
+
+LETTER addressed to Judge Loretta A. Preska from Joseph R. Wetzel dated August 7, 2026 re: Perplexity preservation efforts - technical clarifications. Document filed by Perplexity AI, Inc...(Wetzel, Joseph) (Entered: 08/07/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71996467/58/chicago-tribune-company-llc-v-perplexity-ai-inc/)
+
+### 📄 Doc #57 — 2026-08-05
+
+LETTER addressed to Judge Loretta A. Preska from Steven Lieberman dated August 5, 2026 re: Response to Defendant Perplexity AI, Inc.s Notice of Supplemental Authority, Tribune Dkt. 55; Times Dkt. 72. Document filed by Chicago Tribune Company, LLC..(Lieberman, Steven) (Entered: 08/05/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71996467/57/chicago-tribune-company-llc-v-perplexity-ai-inc/)
+
+### 📄 Doc #56 — 2026-07-28
+
+NOTICE of Supplemental Authority re: 41 MOTION to Dismiss // Notice of Defendant's Motion to Dismiss Counts II and III of the First Amended Complaint.. Document filed by Perplexity AI, Inc.. (Attachments: # 1 Exhibit 1 - Epidemic Sound, AB v. Meta Platforms, Inc., 2026 WL 2001154, # 2 Exhibit 2 - Epidemic Sound, AB v. Meta Platforms, Inc., 2026 WL 2021347, # 3 Exhibit 3 - Art Records LLC v. Youtube LLC, 2026 WL 1669167).(Wetzel, Joseph) (Entered: 07/28/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71996467/56/chicago-tribune-company-llc-v-perplexity-ai-inc/)
+
+### 📄 Doc #55 — 2026-06-17
+
+NOTICE of Supplemental authority in connection with Plaintiffs Consolidated Memorandum of Law in Opposition to Defendants Motion to Dismiss re: 43 Memorandum of Law in Opposition to Motion. Document filed by Chicago Tribune Company, LLC. (Attachments: # 1 Exhibit 1 - Strike 3 Holdings, LLC, et al. v. Meta Platforms, Inc., 5:25-cv-06213-EKL, Dkt. No. 61).(Lieberman, Steven) (Entered: 06/17/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71996467/55/1/chicago-tribune-company-llc-v-perplexity-ai-inc/)
+
+### 📄 Doc #52 — 2026-06-09
+
+REPLY MEMORANDUM OF LAW in Support re: 41 MOTION to Dismiss // Notice of Defendant's Motion to Dismiss Counts II and III of the First Amended Complaint. // Consolidated Reply in Further Support of Defendant's Motions to Dismiss Plaintiffs' First Amended Complaints. Document filed by Perplexity AI, Inc...(Wetzel, Joseph) (Entered: 06/09/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71996467/52/chicago-tribune-company-llc-v-perplexity-ai-inc/)
+
+### 📄 Doc #53 — 2026-06-09
+
+LETTER MOTION for Oral Argument on Defendant Perplexity AI, Inc.'s Motion to Dismiss (Dkt. 41) addressed to Judge Loretta A. Preska from Joseph R. Wetzel dated June 9, 2026. Document filed by Perplexity AI, Inc...(Wetzel, Joseph) (Entered: 06/09/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71996467/53/chicago-tribune-company-llc-v-perplexity-ai-inc/)
+
+### 📄 Doc #— — 2026-06-08
+
+Notice Regarding Pro Hac Vice Motion
+
+### 📄 Doc #50 — 2026-06-02
+
+RULE 26(f) REPORT AND CASE MANAGEMENT PLAN: Motion for leave to amend or join parities: June 17, 2026. Completion of fact depositions February 26, 2027. Fact Discovery due by 2/26/2027. Expert Discovery due by 1/30/2027. Discovery due by 7/30/2027.Summary judgment motions: September 15, 2027. Oppositions to summary judgment motions: 10/15/2026Replies in support of summary judgment motions: November 8, 2027. The parties' proposed schedule is adopted. To the extent the parties have outstanding disputes regarding preservation or other discovery matters, those disputes should be raised via letter motion pursuant to the process outlined in Local Civil Rule 37.2 and the Court's Individual Rules of Practice. (Signed by Judge Loretta A. Preska on 6/2/2026) (rro) (Entered: 06/02/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71996467/50/chicago-tribune-company-llc-v-perplexity-ai-inc/)
+
+### 📄 Doc #49 — 2026-05-26
+
+PROPOSED CASE MANAGEMENT PLAN. Document filed by Chicago Tribune Company, LLC..(Lieberman, Steven) (Entered: 05/26/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71996467/49/chicago-tribune-company-llc-v-perplexity-ai-inc/)
+
+### 📄 Doc #— — 2026-05-20
+
+Notice Regarding Deficient Motion to Appear Pro Hac Vice
+
+### 📄 Doc #— — 2026-05-20
+
+Notice Regarding Pro Hac Vice Motion
+
+### 📄 Doc #43 — 2026-05-15
+
+MEMORANDUM OF LAW in Opposition re: 41 MOTION to Dismiss // Notice of Defendant's Motion to Dismiss Counts II and III of the First Amended Complaint. . Document filed by Chicago Tribune Company, LLC..(Lieberman, Steven) (Entered: 05/15/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71996467/43/chicago-tribune-company-llc-v-perplexity-ai-inc/)
 
 ### 📄 Doc #41 — 2026-04-17
 
@@ -73,6 +151,18 @@ FIRST AMENDED COMPLAINT amending 1 Complaint, against Perplexity AI, Inc. with J
 
 [CourtListener 連結](https://www.courtlistener.com/docket/71996467/37/2/chicago-tribune-company-llc-v-perplexity-ai-inc/)
 
+### 📄 Doc #35 — 2026-02-27
+
+DECLARATION of Joseph R. Wetzel in Support re: 33 MOTION to Dismiss .. Document filed by Perplexity AI, Inc.. (Attachments: # 1 Exhibit A - 2025.10.14 MediaNews Group Letter to Perplexity).(Wetzel, Joseph) (Entered: 02/27/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71996467/35/1/chicago-tribune-company-llc-v-perplexity-ai-inc/)
+
+### 📄 Doc #36 — 2026-02-27
+
+DECLARATION of Kathleen E. McCarthy in Support re: 33 MOTION to Dismiss .. Document filed by Perplexity AI, Inc.. (Attachments: # 1 Exhibit A - Trademark Reg. No. 227,904, # 2 Exhibit B - Trademark Reg. No. 2,035,130, # 3 Exhibit C - Trademark Reg. No. 2,120,865, # 4 Exhibit D - Trademark Reg. No. 3,613,821, # 5 Exhibit E - Trademark Reg. No. 3,934,612, # 6 Exhibit F - Trademark Reg. No. 3,934,613, # 7 Exhibit G - Trademark Reg. No. 4,454,848, # 8 Exhibit H - Trademark Reg. No. 4,643,760, # 9 Exhibit I - Trademark Reg. No. 5,912,366, # 10 Exhibit J - Trademark Reg. No. 6,032,528, # 11 Exhibit K - Trademark Reg. No. 6,227,251, # 12 Exhibit L - WIRECUTTER Assignments, # 13 Exhibit M - TSDR Record Reg. No. 4,643,760, # 14 Exhibit N - TSDR Record Reg. No. 6,227,251, # 15 Exhibit O - TSDR Record Reg. No. 6,032,528, # 16 Exhibit P - 2024.03.29 NYT Letter to Perplexity, # 17 Exhibit Q - 2024.05.10 NYT Letter to Perplexity, # 18 Exhibit R - 2024.10.02 NYT Letter to Perplexity, # 19 Exhibit S - …(truncated)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71996467/36/19/chicago-tribune-company-llc-v-perplexity-ai-inc/)
+
 ### 📄 Doc #33 — 2026-02-27
 
 MOTION to Dismiss . Document filed by Perplexity AI, Inc...(Wetzel, Joseph) (Entered: 02/27/2026)
@@ -84,18 +174,6 @@ MOTION to Dismiss . Document filed by Perplexity AI, Inc...(Wetzel, Joseph) (Ent
 MEMORANDUM OF LAW in Support re: 33 MOTION to Dismiss . . Document filed by Perplexity AI, Inc...(Wetzel, Joseph) (Entered: 02/27/2026)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/71996467/34/chicago-tribune-company-llc-v-perplexity-ai-inc/)
-
-### 📄 Doc #35 — 2026-02-27
-
-DECLARATION of Joseph R. Wetzel in Support re: 33 MOTION to Dismiss .. Document filed by Perplexity AI, Inc.. (Attachments: # 1 Exhibit A - 2025.10.14 MediaNews Group Letter to Perplexity).(Wetzel, Joseph) (Entered: 02/27/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/71996467/35/chicago-tribune-company-llc-v-perplexity-ai-inc/)
-
-### 📄 Doc #36 — 2026-02-27
-
-DECLARATION of Kathleen E. McCarthy in Support re: 33 MOTION to Dismiss .. Document filed by Perplexity AI, Inc.. (Attachments: # 1 Exhibit A - Trademark Reg. No. 227,904, # 2 Exhibit B - Trademark Reg. No. 2,035,130, # 3 Exhibit C - Trademark Reg. No. 2,120,865, # 4 Exhibit D - Trademark Reg. No. 3,613,821, # 5 Exhibit E - Trademark Reg. No. 3,934,612, # 6 Exhibit F - Trademark Reg. No. 3,934,613, # 7 Exhibit G - Trademark Reg. No. 4,454,848, # 8 Exhibit H - Trademark Reg. No. 4,643,760, # 9 Exhibit I - Trademark Reg. No. 5,912,366, # 10 Exhibit J - Trademark Reg. No. 6,032,528, # 11 Exhibit K - Trademark Reg. No. 6,227,251, # 12 Exhibit L - WIRECUTTER Assignments, # 13 Exhibit M - TSDR Record Reg. No. 4,643,760, # 14 Exhibit N - TSDR Record Reg. No. 6,227,251, # 15 Exhibit O - TSDR Record Reg. No. 6,032,528, # 16 Exhibit P - 2024.03.29 NYT Letter to Perplexity, # 17 Exhibit Q - 2024.05.10 NYT Letter to Perplexity, # 18 Exhibit R - 2024.10.02 NYT Letter to Perplexity, # 19 Exhibit S - …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/71996467/36/chicago-tribune-company-llc-v-perplexity-ai-inc/)
 
 ### 📄 Doc #32 — 2026-02-24
 
@@ -117,7 +195,7 @@ LETTER addressed to Judge Loretta A. Preska from Steven Lieberman dated January 
 
 ### 📄 Doc #29 — 2026-01-12
 
-ORDER: As discussed at the January 5, 2026 Status Conference, and as stipulated to by the parties, the Court adopts the following deadlines with respect to Defendant's response to the Complaint: 1. Defendant shall respond to the Complaint on or before February 27, 2026. 2. If Defendant files a motion to dismiss, Plaintiff's opposition to such motion shall be due on March 30, 2026. 3. Defendant's reply in support of its motion to dismiss shall be due on April 20, 2026. SO ORDERED. (Motions due by 2/27/2026., Replies due by 4/20/2026., Responses due by 3/30/2026.) (Signed by Judge Loretta A. Preska on 1/12/2026) (mml) (Entered: 01/13/2026)
+ORDER: As discussed at the January 5, 2026 Status Conference, and as stipulated  to by the parties, the Court adopts the following deadlines with respect to Defendant's response to  the Complaint: 1. Defendant shall respond to the Complaint on  or before February 27, 2026. 2. If Defendant files a motion to dismiss, Plaintiff's opposition to such motion shall be due on March 30, 2026. 3. Defendant's reply in support of its motion to dismiss shall be due on  April 20, 2026. SO ORDERED.   (Motions due by 2/27/2026.,  Replies due by 4/20/2026.,  Responses due by 3/30/2026.)  (Signed by Judge Loretta A. Preska on 1/12/2026)   (mml)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/71996467/29/chicago-tribune-company-llc-v-perplexity-ai-inc/)
 
@@ -185,7 +263,7 @@ MEMO ENDORSEMENT on re: (14 in 1:25-cv-10106-LAP-GWG) Letter, filed by The New Y
 
 LETTER addressed to Judge Loretta A. Preska from Steven Lieberman dated December 24, 2025 re: Requesting one of the two above-referenced cases be transferred to the judge handling the other case pursuant to Rule 14, Rules for the Division of Business Among District Judges, S.D.N.Y. (Oct. 16, 2023).. Document filed by Chicago Tribune Company, LLC. (Attachments: # 1 Exhibit A - December 23 2025 Response from Counsel for Perplexity).(Lieberman, Steven) (Entered: 12/24/2025)
 
-[CourtListener 連結](https://www.courtlistener.com/docket/71996467/16/chicago-tribune-company-llc-v-perplexity-ai-inc/)
+[CourtListener 連結](https://www.courtlistener.com/docket/71996467/16/1/chicago-tribune-company-llc-v-perplexity-ai-inc/)
 
 ### 📄 Doc #15 — 2025-12-23
 
@@ -280,17 +358,28 @@ AO 121 FORM COPYRIGHT - NOTICE OF SUBMISSION BY ATTORNEY. AO 121 Form Copyright 
 [CourtListener 連結](https://www.courtlistener.com/docket/71996467/6/chicago-tribune-company-llc-v-perplexity-ai-inc/)
 
 <details>
-<summary>已過濾的 20 筆程序性 entries（點擊展開）</summary>
+<summary>已過濾的 31 筆程序性 entries（點擊展開）</summary>
 
+- **Doc #54** (2026-06-10): ORDER FOR ADMISSION PRO HAC VICE granting 51 Motion for Jenny L. Colgate to Appear Pro Hac Vice. (Signed by Judge Loretta A. Preska on 6/10/2026) (rro) Transmission to Attorney Services/Help Desk. (En…
+- **Doc #51** (2026-06-08): MOTION for Jenny L. Colgate to Appear Pro Hac Vice . Motion and supporting papers to be reviewed by Clerk's Office staff. Document filed by Chicago Tribune Company, LLC. (Attachments: # 1 Affidavit of…
+- **Doc #—** (2026-06-08): >>>NOTICE REGARDING PRO HAC VICE MOTION. Regarding Document No. 51 MOTION for Jenny L. Colgate to Appear Pro Hac Vice . Motion and supporting papers to be reviewed by Clerk's Office staff.. The docume…
+- **Doc #48** (2026-05-21): ORDER FOR ADMISSION PRO HAC VICE granting 46 Motion to Appear Pro Hac Vice. The motion of Kristen Logan, for admission to practice Pro Hac Vice to appear as in the above-captioned action is granted. A…
+- **Doc #47** (2026-05-21): ORDER FOR ADMISSION PRO HAC VICE granting 45 Motion to Appear Pro Hac Vice. The motion of Robert P. Parker, for admission to practice Pro Hac Vice to appear as in the above-captioned action is granted…
+- **Doc #44** (2026-05-20): FILING ERROR - DEFICIENT DOCKET ENTRY - MOTION for Jenny L. Colgate to Appear Pro Hac Vice . Filing fee $ 200.00, receipt number ANYSDC-32875419. Motion and supporting papers to be reviewed by Clerk's…
+- **Doc #46** (2026-05-20): MOTION for Kristen Logan to Appear Pro Hac Vice . Filing fee $ 200.00, receipt number ANYSDC-32875534. Motion and supporting papers to be reviewed by Clerk's Office staff. Document filed by Chicago Tr…
+- **Doc #45** (2026-05-20): MOTION for Robert P. Parker to Appear Pro Hac Vice . Filing fee $ 200.00, receipt number ANYSDC-32875487. Motion and supporting papers to be reviewed by Clerk's Office staff. Document filed by Chicago…
+- **Doc #—** (2026-05-20): >>>NOTICE REGARDING PRO HAC VICE MOTION. Regarding Document No. 46 MOTION for Kristen Logan to Appear Pro Hac Vice . Filing fee $ 200.00, receipt number ANYSDC-32875534. Motion and supporting papers t…
+- **Doc #—** (2026-05-20): >>>NOTICE REGARDING PRO HAC VICE MOTION. Regarding Document No. 45 MOTION for Robert P. Parker to Appear Pro Hac Vice . Filing fee $ 200.00, receipt number ANYSDC-32875487. Motion and supporting paper…
+- **Doc #—** (2026-05-20): >>>NOTICE REGARDING DEFICIENT MOTION TO APPEAR PRO HAC VICE. Notice to RE-FILE Document No. 44 MOTION for Jenny L. Colgate to Appear Pro Hac Vice . Filing fee $ 200.00, receipt number ANYSDC-32875419.…
 - **Doc #40** (2026-04-06): ORDER GRANTING MOTION TO ADMIT COUNSEL PRO HAC VICE granting 23 Motion to Appear Pro Hac Vice. The motion of Andrew M. Gass for admission to practice pro hac vice in the above-captioned action is gran…
 - **Doc #—** (2026-01-05): >>>NOTICE REGARDING PRO HAC VICE MOTION. Regarding Document No. 23 MOTION for Andrew M. Gass to Appear Pro Hac Vice (Approval Code: 181384). Motion and supporting papers to be reviewed by Clerk's Offi…
 - **Doc #—** (2026-01-05): >>>NOTICE REGARDING PRO HAC VICE MOTION. Regarding Document No. 24 MOTION for Brett M. Sandford to Appear Pro Hac Vice . Filing fee $ 200.00, receipt number ANYSDC-32203859. Motion and supporting pape…
 - **Doc #—** (2026-01-05): Pro Hac Vice Fee Payment: for 23 MOTION for Andrew M. Gass to Appear Pro Hac Vice (Approval Code: 181384). Motion and supporting papers to be reviewed by Clerk's Office staff.. Filing fee $ 200.00, re…
+- **Doc #23** (2026-01-02): MOTION for Andrew M. Gass to Appear Pro Hac Vice (Approval Code: 181384). Motion and supporting papers to be reviewed by Clerk's Office staff. Document filed by Perplexity AI, Inc.. (Attachments: # 1 …
+- **Doc #24** (2026-01-02): MOTION for Brett M. Sandford to Appear Pro Hac Vice . Filing fee $ 200.00, receipt number ANYSDC-32203859. Motion and supporting papers to be reviewed by Clerk's Office staff. Document filed by Perple…
 - **Doc #26** (2026-01-02): ORDER GRANTING MOTION TO ADMIT COUNSEL PRO HAC VICE granting 24 Motion for Brett M. Sandford to Appear Pro Hac Vice. (Signed by Judge Loretta A. Preska on 1/2/2026) (rro) (Entered: 01/05/2026)
 - **Doc #—** (2026-01-02): Pro Hac Vice Fee Due: for 23 MOTION for Andrew M. Gass to Appear Pro Hac Vice (Approval Code: 181384). Motion and supporting papers to be reviewed by Clerk's Office staff...(bc)
 - **Doc #—** (2026-01-02): >>>NOTICE REGARDING DEFICIENT MOTION TO APPEAR PRO HAC VICE. Notice re: Document No. 23 MOTION for Andrew M. Gass to Appear Pro Hac Vice (Approval Code: 181384). Motion and supporting papers to be rev…
-- **Doc #23** (2026-01-02): MOTION for Andrew M. Gass to Appear Pro Hac Vice (Approval Code: 181384). Motion and supporting papers to be reviewed by Clerk's Office staff. Document filed by Perplexity AI, Inc.. (Attachments: # 1 …
-- **Doc #24** (2026-01-02): MOTION for Brett M. Sandford to Appear Pro Hac Vice . Filing fee $ 200.00, receipt number ANYSDC-32203859. Motion and supporting papers to be reviewed by Clerk's Office staff. Document filed by Perple…
 - **Doc #19** (2025-12-31): NOTICE OF APPEARANCE by Joseph Richard Wetzel, Jr on behalf of Perplexity AI, Inc...(Wetzel, Joseph) (Entered: 12/31/2025)
 - **Doc #20** (2025-12-31): NOTICE OF APPEARANCE by Sarang Damle on behalf of Perplexity AI, Inc...(Damle, Sarang) (Entered: 12/31/2025)
 - **Doc #21** (2025-12-31): NOTICE OF APPEARANCE by Cory Daniel Struble on behalf of Perplexity AI, Inc...(Struble, Cory) (Entered: 12/31/2025)
@@ -307,4 +396,4 @@ AO 121 FORM COPYRIGHT - NOTICE OF SUBMISSION BY ATTORNEY. AO 121 Form Copyright 
 
 ---
 
-*產生時間：2026-04-27 03:13 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-09-01 01:17 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

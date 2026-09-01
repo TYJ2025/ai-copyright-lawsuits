@@ -1,6 +1,6 @@
 # Case 20 — Lehrman v. Lovo, Inc.
 
-> 最後更新（CourtListener fetch）：2026-04-27 03:02 UTC
+> 最後更新（CourtListener fetch）：2026-09-01 01:14 UTC
 
 ---
 
@@ -13,7 +13,7 @@
 | Court | District Court, S.D. New York (`nysd`) |
 | Judge Assigned | Paul Oetken |
 | Date Filed | 2024-05-16 |
-| Date Last Filing | 2026-03-02 |
+| Date Last Filing | 2026-07-30 |
 | Cause | 15:1114 Trademark Infringement (Lanham Act) |
 | Nature of Suit | 840 Trademark |
 | Jury Demand | Plaintiff |
@@ -25,19 +25,81 @@
 > Dashboard 卡片宣告：
 
 > - Court=S.D.N.Y.
-> - Judge=Oetken
+> - Judge=Paul Oetken
 > - Status=active
 > - Progress=案件由 Oetken 法官審理中。本案是少數涉及 AI 語音合成著作權問題的案件之一。
 
 **自動比對結果：**
 
 - ✅ Court 一致：dashboard 寫「S.D.N.Y.」，CourtListener 為「S.D. New York」
-- ✅ Judge 一致：dashboard 寫「Oetken」，CourtListener 為「Paul Oetken」
-- ℹ️ Dashboard progress 內找不到【YYYY/M/D】格式日期；CourtListener 最後 entry: 2026-03-02
+- ✅ Judge 一致：dashboard 寫「Paul Oetken」，CourtListener 為「Paul Oetken」
+- ℹ️ Dashboard progress 內找不到【YYYY/M/D】格式日期；CourtListener 最後 entry: 2026-07-30
 
 ## 3. Docket Entries（最新優先，已過濾程序性 entries）
 
-**實質性 entries**：89 筆／**已過濾程序性 entries**：8 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+**實質性 entries**：101 筆／**已過濾程序性 entries**：8 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+
+### 📄 Doc #— — 2026-07-30
+
+Order on Motion to Withdraw as Attorney
+
+### 📄 Doc #68 — 2026-07-30
+
+ORDER granting 67 Motion to Withdraw as Attorney: GRANTED. Attorney Emily Grace Leen Hockett is hereby terminated in this action, and the Clerk of Court is requested to terminate Ms. Hockett on the docket. (HEREBY ORDERED by Judge J. Paul Oetken)(Text Only Order) (kh) Transmission to Office of the Clerk of Court for processing. (Entered: 07/30/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68535780/68/lehrman-v-lovo-inc/)
+
+### 📄 Doc #67 — 2026-07-29
+
+MOTION for Emily Grace Leen Hockett to Withdraw as Attorney for Plaintiffs. Document filed by John Doe, Paul Lehrman, Linnea Sage. (Attachments: # 1 Affidavit of Service, # 2 Proposed Order Granting Motion to Withdraw as Counsel).(Hockett, Emily) (Entered: 07/29/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68535780/67/lehrman-v-lovo-inc/)
+
+### 📄 Doc #— — 2026-05-28
+
+Case Stayed (vfr)
+
+### 📄 Doc #— — 2026-05-28
+
+Order
+
+### 📄 Doc #66 — 2026-05-28
+
+ORDER : In light of the bankruptcy filing noted at ECF 65, this case is hereby stayed. All conferences and deadlines are adjourned pending further order. The Clerk of Court is directed to mark this case as Stayed. (HEREBY ORDERED by Judge J. Paul Oetken) (Text Only Order) (clf) Transmission to Office of the Clerk of Court for processing. (Entered: 05/28/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68535780/66/lehrman-v-lovo-inc/)
+
+### 📄 Doc #65 — 2026-05-27
+
+SUGGESTION OF BANKRUPTCY upon the record as to defendant Lovo, Inc. . Document filed by Lovo, Inc. (Attachments: # 1 Exhibit A - Notice of Bankruptcy Case Filing).(Lazaroff, Michael) (Entered: 05/27/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68535780/65/lehrman-v-lovo-inc/)
+
+### 📄 Doc #64 — 2026-05-22
+
+ORDER: The Court will hear oral argument on the pending motion to dismiss in person on June 16, 2026 at 3:00 p.m. in Courtroom 706, Thurgood Marshall United States Courthouse, 40 Foley Sq., New York, New York, 10007. Each side will have 20 minutes to present argument. If any party has a conflict with that date they must notify the Court within 2 business days. (HEREBY ORDERED by Judge J. Paul Oetken) (Text Only Order) (nm) (Entered: 05/22/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68535780/64/lehrman-v-lovo-inc/)
+
+### 📄 Doc #— — 2026-05-22
+
+Order
+
+### 📄 Doc #63 — 2026-05-05
+
+ORDER granting 62 Letter Motion for Extension of Time to Complete Discovery: GRANTED. The parties' joint request for an extension of time to complete discovery is granted. The Court adopts the parties' discovery schedule as follows: (a) the deadline for the completion of all fact discovery is extended to August 21, 2026; (b) the deadline for completion of depositions is extended to August 21, 2026; (c) the deadline for expert disclosures by both Plaintiffs and Defendant is extended to October 12, 2026; and (d) the deadline for the completion of all expert discovery (including expert depositions) is extended to December 1, 2026. (HEREBY ORDERED by Judge J. Paul Oetken)(Text Only Order) (clf) (Entered: 05/05/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68535780/63/lehrman-v-lovo-inc/)
+
+### 📄 Doc #62 — 2026-05-05
+
+JOINT LETTER MOTION for Extension of Time to Complete Discovery addressed to Judge J. Paul Oetken from Steve Cohen dated May 5, 2026. Document filed by Paul Lehrman, Linnea Sage..(Cohen, Steve) (Entered: 05/05/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68535780/62/lehrman-v-lovo-inc/)
+
+### 📄 Doc #— — 2026-05-05
+
+Order on Motion for Extension of Time to Complete Discovery
 
 ### 📄 Doc #61 — 2026-03-02
 
@@ -517,4 +579,4 @@ COMPLAINT against Lovo, Inc.. (Filing Fee $ 405.00, Receipt Number ANYSDC-293627
 
 ---
 
-*產生時間：2026-04-27 03:02 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-09-01 01:14 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

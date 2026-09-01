@@ -1,6 +1,6 @@
 # Case 45 — Huckabee v. Bloomberg L.P.
 
-> 最後更新（CourtListener fetch）：2026-04-27 03:15 UTC
+> 最後更新（CourtListener fetch）：2026-09-01 01:21 UTC
 
 ---
 
@@ -25,23 +25,23 @@
 > Dashboard 卡片宣告：
 
 > - Court=S.D.N.Y.
-> - Judge=Garnett
+> - Judge=Margaret M. Garnett
 > - Status=active
 > - Progress=案件於 2025 年在南紐約地院提起，Garnett 法官主持。已提交駁回動議，預計於 2026 年 5 月進行聽證會。
 
 **自動比對結果：**
 
 - ✅ Court 一致：dashboard 寫「S.D.N.Y.」，CourtListener 為「S.D. New York」
-- ✅ Judge 一致：dashboard 寫「Garnett」，CourtListener 為「Margaret M. Garnett」
+- ✅ Judge 一致：dashboard 寫「Margaret M. Garnett」，CourtListener 為「Margaret M. Garnett」
 - ℹ️ Dashboard progress 內找不到【YYYY/M/D】格式日期；CourtListener 最後 entry: 2026-03-24
 
 ## 3. Docket Entries（最新優先，已過濾程序性 entries）
 
-**實質性 entries**：74 筆／**已過濾程序性 entries**：26 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+**實質性 entries**：137 筆／**已過濾程序性 entries**：63 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
 
 ### 📄 Doc #136 — 2026-03-23
 
-ESI PROTOCOL AND ORDER: This Order regarding the Production of Documents, Electronically Stored Information and Paper Documents ("ESI Protocol" or "Protocol") shall govern the production of documents and electronically stored information ("ESI") by the parties and their counsel of record (collectively, the "Parties") in the above captioned litigation (the "Matter"). I. ESI DISCLOSURES Within 30 days of entry of this Order, or at a later time if agreed to by the parties, each party shall disclose, as further set forth. SO ORDERED. (Signed by Judge Margaret M. Garnett on 3/23/2026) (mml) (Entered: 03/23/2026)
+ESI PROTOCOL AND ORDER:    This Order regarding the Production of Documents, Electronically Stored Information and Paper Documents ("ESI Protocol" or "Protocol") shall govern the production of  documents and electronically stored  information ("ESI") by the parties and their counsel of record (collectively,  the "Parties") in the above captioned litigation (the "Matter"). I. ESI DISCLOSURES  Within 30 days of entry of this Order, or at a later time if agreed to by the  parties, each party shall disclose, as further set forth.  SO ORDERED.   (Signed by Judge Margaret M. Garnett on 3/23/2026)   (mml)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/67890942/136/huckabee-v-bloomberg-lp/)
 
@@ -85,13 +85,13 @@ MOTION for Paul M. Schoenhard, Nicole M. Jantzi, and Amir R. Ghavi to Withdraw a
 
 ### 📄 Doc #128 — 2026-02-20
 
-ORDER granting 126 Letter Motion for Extension of Time to File. GRANTED. The parties' deadline for submissions related to the ESI protocol (see Dkt. Nos. 112-1 & 119) is hereby EXTENDED until March 5, 2026. This order does not affect any other deadlines in this case. Dkt. No. 126. SO ORDERED. (Signed by Judge Margaret M. Garnett on 2/20/2026) (mml) (Entered: 02/20/2026)
+ORDER granting  126  Letter Motion for Extension of Time to File. GRANTED.  The parties' deadline for submissions related to the ESI protocol (see Dkt. Nos. 112-1 & 119) is hereby EXTENDED until    March 5, 2026.  This order does not affect any other deadlines in this case.  Dkt. No. 126. SO ORDERED.   (Signed by Judge Margaret M. Garnett on 2/20/2026)    (mml)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/67890942/128/huckabee-v-bloomberg-lp/)
 
 ### 📄 Doc #129 — 2026-02-20
 
-PROTECTIVE ORDER...regarding procedures to be followed that shall govern the handling of confidential material... SO ORDERED. (Signed by Judge Margaret M. Garnett on 2/20/2026) (mml) (Entered: 02/20/2026)
+PROTECTIVE ORDER...regarding procedures to be followed that shall govern the handling of confidential material... SO ORDERED.   (Signed by Judge Margaret M. Garnett on 2/20/2026)   (mml)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/67890942/129/huckabee-v-bloomberg-lp/)
 
@@ -153,7 +153,7 @@ FILING ERROR - WRONG EVENT TYPE SELECTED FROM MENU - PROPOSED ORDER. Document fi
 
 ### 📄 Doc #119 — 2026-01-13
 
-ORDER: As discussed on the record at the conference on January 13, 2026, the Court hereby LIFTS the stay on discovery (Dkt. No. 85) and ADOPTS the below discovery schedule: Amended Pleadings due by 2/27/2026., Expert Discovery due by 4/16/2027., Fact Discovery due by 2/26/2027., Status Conference set for 5/25/2027 at 09:30 AM in Courtroom 906, 40 Centre Street, New York, NY 10007 before Judge Margaret M. Garnett. The parties are hereby ORDERED to meet and confer regarding interim dates to ensure the timely completion of merits expert discovery, given the deadline above. The agreed-upon schedule for interim dates shall be filed on the docket by January 23, 2026. (And as further set forth herein.) SO ORDERED. (Signed by Judge Margaret M. Garnett on 1/13/2026) (jca) (Entered: 01/13/2026)
+ORDER: As discussed on the record at the conference on January 13, 2026, the  Court hereby LIFTS the stay on discovery (Dkt. No. 85) and ADOPTS the below  discovery schedule: Amended Pleadings due by 2/27/2026.,  Expert Discovery due by 4/16/2027.,   Fact Discovery due by 2/26/2027.,  Status Conference set for 5/25/2027 at 09:30 AM in Courtroom 906, 40 Centre Street, New York, NY 10007 before Judge Margaret M. Garnett. The parties are hereby ORDERED to meet and  confer regarding interim dates to  ensure the timely completion of merits expert discovery, given the deadline above. The  agreed-upon schedule for interim dates shall be filed on the docket by January  23, 2026. (And as further set forth herein.) SO ORDERED.   (Signed by Judge Margaret M. Garnett on 1/13/2026)   (jca)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/67890942/119/huckabee-v-bloomberg-lp/)
 
@@ -235,7 +235,7 @@ NOTICE OF INITIAL PRETRIAL CONFERENCE: Initial Conference set for 1/13/2026 at 0
 
 ### 📄 Doc #98 — 2025-11-24
 
-OPINION AND ORDER re: 86 MOTION to Dismiss ("Notice of Bloomberg L.P. and Bloomberg Finance L.P's Motion to Dismiss"). filed by Bloomberg Finance, L.P., Bloomberg L.P.. For the foregoing reasons, Bloomberg's motion to dismiss is DENIED. A separate Order will issue setting a conference date to discuss a plan for discovery. The Clerk of Court is respectfully directed to terminate Dkt. No. 86. SO ORDERED. (Signed by Judge Margaret M. Garnett on 11/24/2025) (tg) (Entered: 11/25/2025)
+OPINION AND ORDER   re:  86     MOTION  to Dismiss ("Notice of Bloomberg L.P. and Bloomberg Finance L.P's Motion to Dismiss"). filed by   Bloomberg Finance, L.P.,   Bloomberg L.P.. For the foregoing reasons, Bloomberg's mot ion to dismiss is DENIED.  A separate Order will issue setting a conference date to discuss a plan for discovery. The Clerk of Court is respectfully directed to terminate Dkt. No. 86. SO ORDERED.   (Signed by Judge Margaret M. Garnett on 11/24/2025)   (tg)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/67890942/98/huckabee-v-meta-platforms-inc/)
 
@@ -435,8 +435,330 @@ Received e-mail from the United States District Court - Northern District of Cal
 
 Received Acknowledgment (Electronic Case Transfer)
 
+### 📄 Doc #— — 2024-01-02
+
+Received e-mail from the United States District Court - Northern District of California acknowledging receipt of transferred case. Assigned Case Number: 3:23-cv-06663, filed on 12/28/2023. (bc)
+
+### 📄 Doc #— — 2023-12-28
+
+Party Transferred Out - District Transfer
+
+### 📄 Doc #— — 2023-12-28
+
+PARTY TRANSFERRED OUT ELECTRONICALLY pertaining to Meta Platforms, Inc and Microsoft Corporation only, from the U.S.D.C. Southern District of New York to the United States District Court - Northern District of California. (mml)
+
+### 📄 Doc #— — 2023-12-28
+
+PARTY TRANSFERRED OUT ELECTRONICALLY pertaining to Meta Platforms, Inc and Microsoft Corporation only, from the U.S.D.C. Southern District of New York to the United States District Court - Northern District of California. (mml)
+
+### 📄 Doc #68 — 2023-12-28
+
+PLAINTIFF'S NOTICE OF VOLUNTARY DISMISSAL WITHOUT PREJUDICE OF DEFENDANT THE ELEUTHERAI INSTITUTE Comes now, through undersigned counsel, Mike Huckabee, Relevate Group, David Kinnaman, Tsh Oxenreider, Lysa TerKeurst, and John Blase (Plaintiffs), and pursuant Rule 41(a)(1)(A) of the Federal Rules of Civil Procedure, hereby voluntarily dismiss this action, without prejudice, reserving the right to refile according to law, as against Defendant The EleutherAI Institute, only, each side to bear its own costs and fees. This dismissal is not based upon the merits. So Ordered. The EleutherAI Institute terminated. (Signed by Judge Lorna G. Schofield on 12/27/2023) (jca) (Entered: 12/28/2023)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67890942/68/huckabee-v-meta-platforms-inc/)
+
+### 📄 Doc #69 — 2023-12-28
+
+JOINT STIPULATION AND ORDER SEVERING AND TRANSFERRING CLAIMS AGAINST DEFENDANTS META PLATFORMS, INC. AND MICROSOFT CORPORATION: NOW, THEREFORE, in consideration of the foregoing, which are incorporated into this Stipulation, the Parties hereby stipulate and agree as follows: 1. The Parties consent and stipulate to severing all of Plaintiffs' claims against the Stipulating Defendants, and transferring those claims to the United States District Court for the Northern District of California, pursuant to the Court's authority under 28 U.S.C. § 1404(a) and Rule 21 of the Federal Rules of Civil Procedure. 2. The relief stipulated to herein shall not affect Plaintiffs' claims against defendant The EleutherAI Institute (which Plaintiffs have agreed to dismiss without prejudice) or defendants Bloomberg L.P. and Bloomberg Finance, L.P. (as to whom Plaintiffs intend to continue to pursue their claims in this Court). So Ordered. The Clerk of Court is respectfully directed to sever the claims again …(truncated)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67890942/69/huckabee-v-meta-platforms-inc/)
+
+### 📄 Doc #— — 2023-12-27
+
+Notice to Court Regarding Voluntary Dismissal
+
+### 📄 Doc #— — 2023-12-27
+
+***NOTICE TO COURT REGARDING NOTICE OF VOLUNTARY DISMISSAL Document No. 67 Notice of Voluntary Dismissal,, was reviewed and referred to Judge Lorna G. Schofield for approval for the following reason(s): the plaintiff(s) filed their voluntary dismissal and it did not dismiss all of the parties or the action in its entirety. (nd)
+
+### 📄 Doc #— — 2023-12-27
+
+***NOTICE TO COURT REGARDING NOTICE OF VOLUNTARY DISMISSAL Document No. 67 Notice of Voluntary Dismissal,, was reviewed and referred to Judge Lorna G. Schofield for approval for the following reason(s): the plaintiff(s) filed their voluntary dismissal and it did not dismiss all of the parties or the action in its entirety. (nd)
+
+### 📄 Doc #— — 2023-12-26
+
+Notice to Attorney Regarding Deficient Voluntary Dismissal
+
+### 📄 Doc #— — 2023-12-26
+
+***NOTICE TO ATTORNEY REGARDING DEFICIENT VOLUNTARY DISMISSAL. Notice to Attorney Amy Keller. RE-FILE Document No. 65 Notice of Voluntary Dismissal,,. The filing is deficient for the following reason(s): the individual filers were NOT selected for the voluntary dismissal;. Re-file the document using the event type Notice of Voluntary Dismissal found under the event list Notices - select the correct filer/filers - select the correct party/parties the voluntary dismissal is against - and attach the correct signed PDF. (nd)
+
+### 📄 Doc #67 — 2023-12-26
+
+NOTICE OF VOLUNTARY DISMISSAL pursuant to Rule 41(a)(1)(A)(i) of the Federal Rules of Civil Procedure, the plaintiff(s) and or their counsel(s), hereby give notice that the above-captioned action is voluntarily dismissed, without prejudice against the defendant(s) The EleutherAI Institute. Document filed by John Blase, David Kinnaman, Relevate Group, Mike Huckabee, Tsh Oxenreider, Lysa Terkeurst. Proposed document to be reviewed and processed by Clerk's Office staff (No action required by chambers)...(Keller, Amy) (Entered: 12/26/2023)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67890942/67/huckabee-v-meta-platforms-inc/)
+
+### 📄 Doc #— — 2023-12-26
+
+***NOTICE TO ATTORNEY REGARDING DEFICIENT VOLUNTARY DISMISSAL. Notice to Attorney Amy Keller. RE-FILE Document No. 65 Notice of Voluntary Dismissal,,. The filing is deficient for the following reason(s): the individual filers were NOT selected for the voluntary dismissal;. Re-file the document using the event type Notice of Voluntary Dismissal found under the event list Notices - select the correct filer/filers - select the correct party/parties the voluntary dismissal is against - and attach the correct signed PDF. (nd)
+
+### 📄 Doc #66 — 2023-12-22
+
+LETTER addressed to Judge Lorna G. Schofield from Amy Keller dated 12/22/2023 re: Opposition to Bloomberg Defendants' Proposed Motion to Dismiss. Document filed by John Blase, Mike Huckabee, David Kinnaman, Tsh Oxenreider, Relevate Group, Lysa Terkeurst..(Keller, Amy) (Entered: 12/22/2023)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67890942/66/huckabee-v-meta-platforms-inc/)
+
+### 📄 Doc #64 — 2023-12-22
+
+PROPOSED STIPULATION AND ORDER. Document filed by John Blase, Mike Huckabee, David Kinnaman, Tsh Oxenreider, Relevate Group, Lysa Terkeurst..(Keller, Amy) (Entered: 12/22/2023)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67890942/64/huckabee-v-meta-platforms-inc/)
+
+### 📄 Doc #65 — 2023-12-22
+
+FILING ERROR - DEFICIENT DOCKET ENTRY - FILER ERROR - NOTICE OF VOLUNTARY DISMISSAL pursuant to Rule 41(a)(1)(A)(i) of the Federal Rules of Civil Procedure, the plaintiff(s) and or their counsel(s), hereby give notice that the above-captioned action is voluntarily dismissed, without prejudice against the defendant(s) The EleutherAI Institute. Document filed by All Plaintiffs. Proposed document to be reviewed and processed by Clerk's Office staff (No action required by chambers)...(Keller, Amy) Modified on 12/26/2023 (nd). (Entered: 12/22/2023)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67890942/65/huckabee-v-meta-platforms-inc/)
+
+### 📄 Doc #63 — 2023-12-22
+
+PROPOSED STIPULATION AND ORDER. Document filed by Bloomberg Finance, L.P., Bloomberg L.P...(Jantzi, Nicole) (Entered: 12/22/2023)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67890942/63/huckabee-v-meta-platforms-inc/)
+
+### 📄 Doc #— — 2023-12-21
+
+Order on Motion to Appear Pro Hac Vice AND Order on Motion to Appear Pro Hac Vice AND Order on Motion to Appear Pro Hac Vice AND Order on Motion to Appear Pro Hac Vice AND Order on Motion to Appear Pro Hac Vice
+
+### 📄 Doc #61 — 2023-12-18
+
+MEMO ENDORSEMENT on re: 57 Letter, filed by Lysa Terkeurst, Tsh Oxenreider, Relevate Group, David Kinnaman, John Blase, Mike Huckabee. ENDORSEMENT: The parties shall file proposed stipulations memorializing their agreements by December 22, 2023. So Ordered. (Signed by Judge Lorna G. Schofield on 12/18/2023) (mml) (Entered: 12/18/2023)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67890942/61/huckabee-v-meta-platforms-inc/)
+
+### 📄 Doc #— — 2023-12-15
+
+Notice Regarding Pro Hac Vice Motion
+
+### 📄 Doc #57 — 2023-12-15
+
+LETTER addressed to Judge Lorna G. Schofield from Amy Keller dated December 15, 2023 re: the Court's December 6, 2023 Order. Document filed by John Blase, Mike Huckabee, David Kinnaman, Tsh Oxenreider, Relevate Group, Lysa Terkeurst..(Keller, Amy) (Entered: 12/15/2023)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67890942/57/huckabee-v-meta-platforms-inc/)
+
+### 📄 Doc #58 — 2023-12-15
+
+LETTER addressed to Judge Lorna G. Schofield from Angela L. Dunning dated December 15, 2023 re: the Court's December 6, 2023 Order. Document filed by Meta Platforms, Inc...(Dunning, Angela) (Entered: 12/15/2023)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67890942/58/huckabee-v-meta-platforms-inc/)
+
+### 📄 Doc #59 — 2023-12-15
+
+LETTER addressed to Judge Lorna G. Schofield from Aaron K. Williamson dated December 15, 2023 re: the Court's December 6, 2023 Order. Document filed by The EleutherAI Institute..(Williamson, Aaron) (Entered: 12/15/2023)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67890942/59/huckabee-v-meta-platforms-inc/)
+
+### 📄 Doc #60 — 2023-12-15
+
+LETTER addressed to Judge Lorna G. Schofield from Jeffrey S. Jacobson dated December 15, 2023 re: the Court's December 6, 2023 Order. Document filed by Microsoft Corporation..(Jacobson, Jeffrey) (Entered: 12/15/2023)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67890942/60/huckabee-v-meta-platforms-inc/)
+
+### 📄 Doc #54 — 2023-12-15
+
+LETTER addressed to Judge Lorna G. Schofield from Nicole Jantzi dated December 15, 2023 re: Bloomberg Defendants Motion to Dismiss. Document filed by Bloomberg Finance, L.P., Bloomberg L.P...(Jantzi, Nicole) (Entered: 12/15/2023)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67890942/54/huckabee-v-meta-platforms-inc/)
+
+### 📄 Doc #55 — 2023-12-15
+
+LETTER addressed to Judge Lorna G. Schofield from Nicole Jantzi dated December 15, 2023 re: Discovery Stay. Document filed by Bloomberg Finance, L.P., Bloomberg L.P...(Jantzi, Nicole) (Entered: 12/15/2023)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67890942/55/huckabee-v-meta-platforms-inc/)
+
+### 📄 Doc #53 — 2023-12-06
+
+ORDER granting 52 Letter Motion to Adjourn Conference. The initial pre-trial conference in this matter is adjourned to January 17, 2024, at 4:20 P.M. The parties shall confer and attempt to resolve the venue and jurisdictional disputes without motions practice. If no resolution is achieved, by December 15, 2023, any Defendant wishing to contest venue or jurisdiction shall file a letter, not to exceed three pages, stating the basis for its challenge. By December 22, 2023, Plaintiffs shall file a single letter, not to exceed six pages, stating the basis for their opposition. If it is the intent of the Bloomberg Defendants to file a motion to dismiss, they shall file a letter in accordance with the Court's Individual Rule III.C.2 by December 15, 2023. Plaintiffs shall file a responsive letter by December 22, 2023. The parties shall jointly complete and file the case management papers required by the Order at Dkt. 8 no later than January 10, 2024. The Court typically does not stay discover …(truncated)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67890942/53/huckabee-v-meta-platforms-inc/)
+
+### 📄 Doc #52 — 2023-12-05
+
+JOINT LETTER MOTION to Adjourn Conference addressed to Judge Lorna G. Schofield from Angela L. Dunning dated December 5, 2023. Document filed by Meta Platforms, Inc...(Dunning, Angela) (Entered: 12/05/2023)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67890942/52/huckabee-v-meta-platforms-inc/)
+
+### 📄 Doc #— — 2023-12-04
+
+Notice Regarding Pro Hac Vice Motion
+
+### 📄 Doc #51 — 2023-12-04
+
+RULE 7.1 CORPORATE DISCLOSURE STATEMENT. No Corporate Parent. Document filed by Meta Platforms, Inc...(Herrington, David) (Entered: 12/04/2023)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67890942/51/huckabee-v-meta-platforms-inc/)
+
+### 📄 Doc #— — 2023-12-01
+
+Notice Regarding Pro Hac Vice Motion
+
+### 📄 Doc #— — 2023-12-01
+
+Notice Regarding Pro Hac Vice Motion
+
+### 📄 Doc #— — 2023-11-30
+
+Notice to Attorney Regarding Deficient Rule 7.1 Corporate Disclosure Statement
+
+### 📄 Doc #— — 2023-11-30
+
+***NOTICE TO ATTORNEY REGARDING DEFICIENT RULE 7.1 CORPORATE DISCLOSURE STATEMENT. Notice to Attorney Nicole M. Jantzi to RE-FILE Document No. 38 Rule 7.1 Corporate Disclosure Statement,. The filing is deficient for the following reason(s): the corporate parent/other affiliate was not added;. Re-file the document using the event type Rule 7.1 Corporate Disclosure Statement found under the event list Other Documents - select the correct filer/filers - attach the correct signed PDF - when prompted with the message "Are there any corporate parents or other affiliates?", select the Yes or No radio button - If Yes - enter the corporate parent/other affiliate, click the Search button - select the correct corporate parent/other affiliate name from the search results list or if no person found, create a new corporate parent/other affiliate - select the party to whom the corporate parent/other affiliate should be linked - add corporate parent/other affiliate names one at a time. (lb)
+
+### 📄 Doc #45 — 2023-11-30
+
+RULE 7.1 CORPORATE DISCLOSURE STATEMENT. No Corporate Parent. Document filed by The EleutherAI Institute..(Williamson, Aaron) (Entered: 11/30/2023)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67890942/45/huckabee-v-meta-platforms-inc/)
+
+### 📄 Doc #39 — 2023-11-30
+
+RULE 7.1 CORPORATE DISCLOSURE STATEMENT. Identifying Corporate Parent Bloomberg Inc. for Bloomberg L.P.; Corporate Parent Bloomberg (GP) Finance LLC for Bloomberg Finance, L.P.. Document filed by Bloomberg Finance, L.P., Bloomberg L.P...(Jantzi, Nicole) (Entered: 11/30/2023)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67890942/39/huckabee-v-meta-platforms-inc/)
+
+### 📄 Doc #38 — 2023-11-29
+
+FILING ERROR - CORPORATE PARENT/OTHER AFFILIATE NOT ADDED - RULE 7.1 CORPORATE DISCLOSURE STATEMENT. No Corporate Parent. Document filed by Bloomberg Finance, L.P., Bloomberg L.P...(Jantzi, Nicole) Modified on 11/30/2023 (lb). (Entered: 11/29/2023)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67890942/38/huckabee-v-meta-platforms-inc/)
+
+### 📄 Doc #— — 2023-11-22
+
+Set/Reset Deadlines
+
+### 📄 Doc #— — 2023-11-22
+
+Set/Reset Deadlines: Bloomberg Finance, L.P. answer due 1/26/2024; Bloomberg L.P. answer due 1/26/2024; Meta Platforms, Inc. answer due 1/26/2024; Microsoft Corporation answer due 1/26/2024; The EleutherAI Institute answer due 1/26/2024. (mml)
+
+### 📄 Doc #— — 2023-11-22
+
+Set/Reset Deadlines: Bloomberg Finance, L.P. answer due 1/26/2024; Bloomberg L.P. answer due 1/26/2024; Meta Platforms, Inc. answer due 1/26/2024; Microsoft Corporation answer due 1/26/2024; The EleutherAI Institute answer due 1/26/2024. (mml)
+
+### 📄 Doc #36 — 2023-11-22
+
+ORDER granting 34 Letter Motion for Extension of Time. Application GRANTED. Defendants shall answer, move or otherwise respond to the Complaint by January 26, 2024. The initial pretrial conference will proceed as scheduled, and Defendants shall enter their appearances no later than December 4, 2023. (Signed by Judge Lorna G. Schofield on 11/22/2023) (mml) (Entered: 11/22/2023)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67890942/36/huckabee-v-meta-platforms-inc/)
+
+### 📄 Doc #34 — 2023-11-21
+
+LETTER MOTION for Extension of Time to Respond to Plaintiff's Complaint addressed to Judge Lorna G. Schofield from James A. Ulwick dated November 21, 2023. Document filed by John Blase, Mike Huckabee, David Kinnaman, Tsh Oxenreider, Relevate Group, Lysa Terkeurst..(Ulwick, James) (Entered: 11/21/2023)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67890942/34/huckabee-v-meta-platforms-inc/)
+
+### 📄 Doc #— — 2023-11-14
+
+Notice Regarding Deficient Motion to Appear Pro Hac vice
+
+### 📄 Doc #— — 2023-11-14
+
+Notice Regarding Deficient Motion to Appear Pro Hac vice
+
+### 📄 Doc #— — 2023-11-14
+
+Notice Regarding Deficient Motion to Appear Pro Hac Vice
+
+### 📄 Doc #32 — 2023-11-13
+
+AO 121 FORM COPYRIGHT - CASE OPENING - SUBMITTED. In compliance with the provisions of 17 U.S.C. 508, the Register of Copyrights is hereby advised that a court action has been filed on the following copyright(s) in the U.S. District Court Southern District of New York. Form e-mailed to Register of Copyrights..(jgo) (Entered: 11/13/2023)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67890942/32/huckabee-v-meta-platforms-inc/)
+
+### 📄 Doc #31 — 2023-11-13
+
+AO 121 FORM COPYRIGHT - CASE OPENING - SUBMITTED. In compliance with the provisions of 17 U.S.C. 508, the Register of Copyrights is hereby advised that a court action has been filed on the following copyright(s) in the U.S. District Court Southern District of New York. Form e-mailed to Register of Copyrights..(jgo) (Entered: 11/13/2023)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67890942/31/huckabee-v-meta-platforms-inc/)
+
+### 📄 Doc #30 — 2023-11-13
+
+AO 121 FORM COPYRIGHT - CASE OPENING - SUBMITTED. In compliance with the provisions of 17 U.S.C. 508, the Register of Copyrights is hereby advised that a court action has been filed on the following copyright(s) in the U.S. District Court Southern District of New York. Form e-mailed to Register of Copyrights..(jgo) (Entered: 11/13/2023)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67890942/30/huckabee-v-meta-platforms-inc/)
+
+### 📄 Doc #29 — 2023-11-13
+
+AO 121 FORM COPYRIGHT - CASE OPENING - SUBMITTED. In compliance with the provisions of 17 U.S.C. 508, the Register of Copyrights is hereby advised that a court action has been filed on the following copyright(s) in the U.S. District Court Southern District of New York. Form e-mailed to Register of Copyrights..(jgo) (Entered: 11/13/2023)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67890942/29/huckabee-v-meta-platforms-inc/)
+
+### 📄 Doc #28 — 2023-11-10
+
+AO 121 FORM COPYRIGHT - NOTICE OF SUBMISSION BY ATTORNEY. AO 121 Form Copyright for additional pleading submitted to court for review..(Ulwick, James) (Entered: 11/10/2023)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67890942/28/huckabee-v-meta-platforms-inc/)
+
+### 📄 Doc #25 — 2023-11-10
+
+AO 121 FORM COPYRIGHT - NOTICE OF SUBMISSION BY ATTORNEY. AO 121 Form Copyright for additional pleading submitted to court for review..(Ulwick, James) (Entered: 11/10/2023)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67890942/25/huckabee-v-meta-platforms-inc/)
+
+### 📄 Doc #26 — 2023-11-10
+
+AO 121 FORM COPYRIGHT - NOTICE OF SUBMISSION BY ATTORNEY. AO 121 Form Copyright for additional pleading submitted to court for review..(Ulwick, James) (Entered: 11/10/2023)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67890942/26/huckabee-v-meta-platforms-inc/)
+
+### 📄 Doc #27 — 2023-11-10
+
+AO 121 FORM COPYRIGHT - NOTICE OF SUBMISSION BY ATTORNEY. AO 121 Form Copyright for additional pleading submitted to court for review..(Ulwick, James) (Entered: 11/10/2023)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67890942/27/huckabee-v-meta-platforms-inc/)
+
+### 📄 Doc #— — 2023-11-06
+
+Order on Motion to Appear Pro Hac Vice AND Order on Motion to Appear Pro Hac Vice AND Order on Motion to Appear Pro Hac Vice AND Order on Motion to Appear Pro Hac Vice
+
+### 📄 Doc #— — 2023-11-03
+
+Notice Regarding Pro Hac Vice Motion
+
+### 📄 Doc #— — 2023-10-26
+
+Notice Regarding Pro Hac Vice Motion
+
+### 📄 Doc #— — 2023-10-24
+
+Notice Regarding Pro Hac Vice Motion
+
+### 📄 Doc #17 — 2023-10-24
+
+ELECTRONIC SUMMONS ISSUED as to Meta Platforms, Inc. (vf) (Entered: 10/24/2023)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67890942/17/huckabee-v-meta-platforms-inc/)
+
+### 📄 Doc #18 — 2023-10-24
+
+ELECTRONIC SUMMONS ISSUED as to Bloomberg Finance, L.P.. (vf) (Entered: 10/24/2023)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67890942/18/huckabee-v-meta-platforms-inc/)
+
+### 📄 Doc #19 — 2023-10-24
+
+ELECTRONIC SUMMONS ISSUED as to Bloomberg L.P.. (vf) (Entered: 10/24/2023)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67890942/19/huckabee-v-meta-platforms-inc/)
+
+### 📄 Doc #20 — 2023-10-24
+
+ELECTRONIC SUMMONS ISSUED as to Microsoft Corporation. (vf) (Entered: 10/24/2023)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67890942/20/huckabee-v-meta-platforms-inc/)
+
+### 📄 Doc #21 — 2023-10-24
+
+ELECTRONIC SUMMONS ISSUED as to The EleutherAI Institute. (vf) (Entered: 10/24/2023)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67890942/21/huckabee-v-meta-platforms-inc/)
+
+### 📄 Doc #— — 2023-10-23
+
+Notice Regarding Pro Hac Vice Motion
+
 <details>
-<summary>已過濾的 26 筆程序性 entries（點擊展開）</summary>
+<summary>已過濾的 63 筆程序性 entries（點擊展開）</summary>
 
 - **Doc #137** (2026-03-24): NOTICE OF APPEARANCE by Evan Gourvitz on behalf of Bloomberg Finance, L.P., Bloomberg L.P...(Gourvitz, Evan) (Entered: 03/24/2026)
 - **Doc #131** (2026-02-24): CERTIFICATE OF SERVICE of Motion to Withdraw Paul M. Schoenhard, NicoleI M. Jantzi, and Amir R. Ghavi as Counsel of Record served on BLOOMBERG L.P. and BLOOMBERG FINANCE L.P. on February 24, 2026. Doc…
@@ -464,9 +786,46 @@ Received Acknowledgment (Electronic Case Transfer)
 - **Doc #103** (2025-12-15): ORDER granting 100 Motion for Nada Djordjevic to Appear Pro Hac Vice. (HEREBY ORDERED by Judge Margaret M. Garnett)(Text Only Order) (kv) (Entered: 12/15/2025)
 - **Doc #—** (2025-12-05): >>>NOTICE REGARDING PRO HAC VICE MOTION. Regarding Document No. 100 MOTION for Nada Djordjevic to Appear Pro Hac Vice . Filing fee $ 200.00, receipt number ANYSDC-32086969. Motion and supporting paper…
 - **Doc #100** (2025-12-04): MOTION for Nada Djordjevic to Appear Pro Hac Vice . Filing fee $ 200.00, receipt number ANYSDC-32086969. Motion and supporting papers to be reviewed by Clerk's Office staff. Document filed by John Bla…
+- **Doc #62** (2023-12-21): ORDER granting 40 Motion for Paul M. Schoenhard to Appear Pro Hac Vice; granting 41 Motion for Annette L. Hurst to Appear Pro Hac Vice; granting 48 Motion for Bobby A. Ghajar to Appear Pro Hac Vice; g…
+- **Doc #—** (2023-12-15): >>>NOTICE REGARDING PRO HAC VICE MOTION. Regarding Document No. 56 MOTION for Jared B. Briant to Appear Pro Hac Vice . Filing fee $ 200.00, receipt number ANYSDC-28701168. Motion and supporting papers…
+- **Doc #—** (2023-12-15): >>>NOTICE REGARDING PRO HAC VICE MOTION. Regarding Document No. 56 MOTION for Jared B. Briant to Appear Pro Hac Vice . Filing fee $ 200.00, receipt number ANYSDC-28701168. Motion and supporting papers…
+- **Doc #56** (2023-12-15): MOTION for Jared B. Briant to Appear Pro Hac Vice . Filing fee $ 200.00, receipt number ANYSDC-28701168. Motion and supporting papers to be reviewed by Clerk's Office staff. Document filed by Microsof…
+- **Doc #—** (2023-12-04): >>>NOTICE REGARDING PRO HAC VICE MOTION. Regarding Document No. 48 MOTION for Bobby A. Ghajar to Appear Pro Hac Vice . Filing fee $ 200.00, receipt number ANYSDC-28648167. Motion and supporting papers…
+- **Doc #—** (2023-12-04): >>>NOTICE REGARDING PRO HAC VICE MOTION. Regarding Document No. 49 MOTION for Angela L. Dunning to Appear Pro Hac Vice . Filing fee $ 200.00, receipt number ANYSDC-28648493. Motion and supporting pape…
+- **Doc #49** (2023-12-04): MOTION for Angela L. Dunning to Appear Pro Hac Vice . Filing fee $ 200.00, receipt number ANYSDC-28648493. Motion and supporting papers to be reviewed by Clerk's Office staff. Document filed by Meta P…
+- **Doc #48** (2023-12-04): MOTION for Bobby A. Ghajar to Appear Pro Hac Vice . Filing fee $ 200.00, receipt number ANYSDC-28648167. Motion and supporting papers to be reviewed by Clerk's Office staff. Document filed by Meta Pla…
+- **Doc #—** (2023-12-04): >>>NOTICE REGARDING PRO HAC VICE MOTION. Regarding Document No. 48 MOTION for Bobby A. Ghajar to Appear Pro Hac Vice . Filing fee $ 200.00, receipt number ANYSDC-28648167. Motion and supporting papers…
+- **Doc #—** (2023-12-04): >>>NOTICE REGARDING PRO HAC VICE MOTION. Regarding Document No. 49 MOTION for Angela L. Dunning to Appear Pro Hac Vice . Filing fee $ 200.00, receipt number ANYSDC-28648493. Motion and supporting pape…
+- **Doc #50** (2023-12-04): NOTICE OF APPEARANCE by Ye Eun Chun on behalf of Meta Platforms, Inc...(Chun, Ye Eun) (Entered: 12/04/2023)
+- **Doc #47** (2023-12-04): NOTICE OF APPEARANCE by David H. Herrington on behalf of Meta Platforms, Inc...(Herrington, David) (Entered: 12/04/2023)
+- **Doc #—** (2023-12-01): >>>NOTICE REGARDING PRO HAC VICE MOTION. Regarding Document No. 41 MOTION for Annette L. Hurst to Appear Pro Hac Vice . Filing fee $ 200.00, receipt number ANYSDC-28634206. Motion and supporting paper…
+- **Doc #—** (2023-12-01): >>>NOTICE REGARDING PRO HAC VICE MOTION. Regarding Document No. 40 MOTION for Paul M. Schoenhard to Appear Pro Hac Vice . Filing fee $ 200.00, receipt number ANYSDC-28631438. Motion and supporting pap…
+- **Doc #—** (2023-12-01): >>>NOTICE REGARDING PRO HAC VICE MOTION. Regarding Document No. 41 MOTION for Annette L. Hurst to Appear Pro Hac Vice . Filing fee $ 200.00, receipt number ANYSDC-28634206. Motion and supporting paper…
+- **Doc #—** (2023-12-01): >>>NOTICE REGARDING PRO HAC VICE MOTION. Regarding Document No. 40 MOTION for Paul M. Schoenhard to Appear Pro Hac Vice . Filing fee $ 200.00, receipt number ANYSDC-28631438. Motion and supporting pap…
+- **Doc #46** (2023-12-01): NOTICE OF APPEARANCE by Jeffrey S. Jacobson on behalf of Microsoft Corporation..(Jacobson, Jeffrey) (Entered: 12/01/2023)
+- **Doc #41** (2023-11-30): MOTION for Annette L. Hurst to Appear Pro Hac Vice . Filing fee $ 200.00, receipt number ANYSDC-28634206. Motion and supporting papers to be reviewed by Clerk's Office staff. Document filed by Microso…
+- **Doc #40** (2023-11-30): MOTION for Paul M. Schoenhard to Appear Pro Hac Vice . Filing fee $ 200.00, receipt number ANYSDC-28631438. Motion and supporting papers to be reviewed by Clerk's Office staff. Document filed by Bloom…
+- **Doc #44** (2023-11-30): NOTICE OF APPEARANCE by Aaron Kyle Williamson on behalf of The EleutherAI Institute..(Williamson, Aaron) (Entered: 11/30/2023)
+- **Doc #43** (2023-11-30): NOTICE OF APPEARANCE by Marc Shapiro on behalf of Microsoft Corporation..(Shapiro, Marc) (Entered: 11/30/2023)
+- **Doc #42** (2023-11-30): NOTICE OF APPEARANCE by Christopher Cariello on behalf of Microsoft Corporation..(Cariello, Christopher) (Entered: 11/30/2023)
+- **Doc #37** (2023-11-27): NOTICE OF APPEARANCE by Amir Ghavi on behalf of Bloomberg Finance, L.P., Bloomberg L.P...(Ghavi, Amir) (Entered: 11/27/2023)
+- **Doc #35** (2023-11-21): NOTICE OF APPEARANCE by Nicole M. Jantzi on behalf of Bloomberg Finance, L.P., Bloomberg L.P...(Jantzi, Nicole) (Entered: 11/21/2023)
+- **Doc #—** (2023-11-14): >>>NOTICE REGARDING DEFICIENT MOTION TO APPEAR PRO HAC VICE. Notice to RE-FILE Document No. 33 MOTION for Amy E. Keller to Appear Pro Hac Vice . Motion and supporting papers to be reviewed by Clerk's …
+- **Doc #33** (2023-11-13): MOTION for Amy E. Keller to Appear Pro Hac Vice . Motion and supporting papers to be reviewed by Clerk's Office staff. Document filed by John Blase, Mike Huckabee, David Kinnaman, Tsh Oxenreider, Rele…
+- **Doc #24** (2023-11-06): ORDER granting 16 Motion for Seth M. Haines to Appear Pro Hac Vice; granting 22 Motion for Timothy Chad Hutchinson to Appear Pro Hac Vice; granting 23 Motion for James A. Ulwick to Appear Pro Hac Vice…
+- **Doc #—** (2023-11-03): >>>NOTICE REGARDING PRO HAC VICE MOTION. Regarding Document No. 23 MOTION for James A. Ulwick to Appear Pro Hac Vice . Filing fee $ 200.00, receipt number ANYSDC-28523757. Motion and supporting papers…
+- **Doc #23** (2023-11-03): MOTION for James A. Ulwick to Appear Pro Hac Vice . Filing fee $ 200.00, receipt number ANYSDC-28523757. Motion and supporting papers to be reviewed by Clerk's Office staff. Document filed by John Bla…
+- **Doc #—** (2023-10-26): >>>NOTICE REGARDING PRO HAC VICE MOTION. Regarding Document No. 22 MOTION for Timothy Chad Hutchinson to Appear Pro Hac Vice . Filing fee $ 200.00, receipt number ANYSDC-28482981. Motion and supportin…
+- **Doc #22** (2023-10-26): MOTION for Timothy Chad Hutchinson to Appear Pro Hac Vice . Filing fee $ 200.00, receipt number ANYSDC-28482981. Motion and supporting papers to be reviewed by Clerk's Office staff. Document filed by …
+- **Doc #—** (2023-10-26): >>>NOTICE REGARDING PRO HAC VICE MOTION. Regarding Document No. 22 MOTION for Timothy Chad Hutchinson to Appear Pro Hac Vice . Filing fee $ 200.00, receipt number ANYSDC-28482981. Motion and supportin…
+- **Doc #—** (2023-10-24): >>>NOTICE REGARDING PRO HAC VICE MOTION. Regarding Document No. 16 MOTION for Seth M. Haines to Appear Pro Hac Vice . Filing fee $ 200.00, receipt number ANYSDC-28470019. Motion and supporting papers …
+- **Doc #16** (2023-10-24): MOTION for Seth M. Haines to Appear Pro Hac Vice . Filing fee $ 200.00, receipt number ANYSDC-28470019. Motion and supporting papers to be reviewed by Clerk's Office staff. Document filed by John Blas…
+- **Doc #—** (2023-10-24): >>>NOTICE REGARDING PRO HAC VICE MOTION. Regarding Document No. 16 MOTION for Seth M. Haines to Appear Pro Hac Vice . Filing fee $ 200.00, receipt number ANYSDC-28470019. Motion and supporting papers …
+- **Doc #—** (2023-10-23): >>>NOTICE REGARDING PRO HAC VICE MOTION. Regarding Document No. 15 MOTION for Lisa M. Geary to Appear Pro Hac Vice . Filing fee $ 200.00, receipt number ANYSDC-28462901. Motion and supporting papers t…
+- **Doc #15** (2023-10-23): MOTION for Lisa M. Geary to Appear Pro Hac Vice . Filing fee $ 200.00, receipt number ANYSDC-28462901. Motion and supporting papers to be reviewed by Clerk's Office staff. Document filed by John Blase…
 
 </details>
 
 ---
 
-*產生時間：2026-04-27 03:15 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-09-01 01:21 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

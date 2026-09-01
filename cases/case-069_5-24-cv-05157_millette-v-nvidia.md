@@ -1,6 +1,6 @@
 # Case 69 — Millette v. Nvidia Corporation
 
-> 最後更新（CourtListener fetch）：2026-04-27 03:19 UTC
+> 最後更新（CourtListener fetch）：2026-09-01 01:28 UTC
 
 ---
 
@@ -27,14 +27,14 @@
 > Dashboard 卡片宣告：
 
 > - Court=N.D. Cal.
-> - Judge=Davila
+> - Judge=Edward J. Davila
 > - Status=dismissed
 > - Progress=原告自願駁回訴訟。Davila 法官已准許撤銷。本案結案。
 
 **自動比對結果：**
 
 - ✅ Court 一致：dashboard 寫「N.D. Cal.」，CourtListener 為「N.D. California」
-- ✅ Judge 一致：dashboard 寫「Davila」，CourtListener 為「Edward J. Davila」
+- ✅ Judge 一致：dashboard 寫「Edward J. Davila」，CourtListener 為「Edward J. Davila」
 - ℹ️ Dashboard progress 內找不到【YYYY/M/D】格式日期；CourtListener 最後 entry: 2025-03-24
 
 ## 3. Docket Entries（最新優先，已過濾程序性 entries）
@@ -206,4 +206,4 @@ Proposed Summons. (Fisher, L.) (Filed on 8/14/2024) (Entered: 08/14/2024)
 
 ---
 
-*產生時間：2026-04-27 03:19 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-09-01 01:28 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

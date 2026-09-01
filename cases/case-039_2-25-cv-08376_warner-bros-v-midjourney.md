@@ -1,6 +1,6 @@
 # Case 39 — Warner Bros. Entertainment Inc. v. Midjourney, Inc.
 
-> 最後更新（CourtListener fetch）：2026-04-27 03:14 UTC
+> 最後更新（CourtListener fetch）：2026-09-01 01:19 UTC
 
 ---
 
@@ -27,15 +27,15 @@
 > Dashboard 卡片宣告：
 
 > - Court=C.D. Cal.
-> - Judge=Kronstadt
+> - Judge=John A. Kronstadt
 > - Status=active
-> - Progress=案件於 2023 年 11 月在加州中區提起，Kronstadt 法官主持。經過訴訟律師會議，預計於 2026 年 7 月進行第一次駁回動議聽證會。原告已提交修正訴狀，擴大索賠範圍至商品化權侵害。
+> - Progress=案件於 2023 年 11 月在加州中區提起，Kronstadt 法官主持。經過訴訟律師會議，預計於 2026 年 7 月進行第一次駁回動議聽證會。原告已提交修正訴狀，擴大索賠範圍至商品化權侵害。 【2026/7/21】Midjourney 7/21 就 Disney 與 Warner Bros. 之著作權主張提出即決判決聲請，主張線上服務提供者不因部分使用者生成侵權內容而當然負間接侵權責任，並指「引誘侵權」要件未經舉證。 【2026/8/12】Disney/Warner Bros./NBCUniversal 具狀反對 Midjourney 縮減訴訟之聲請，主張 Midjourney 誤讀最高法院 3 月間接侵權判決、未排除故意助長侵權主張 【2026/8/25】Midjourney 就 Disney/Warner Bros. 之即決判決聲請提出答辯回覆狀，稱片廠對代位侵權理論之主張為「答辯狀未載之曲解」，未能舉證引誘侵權之積極鼓勵要件
 
 **自動比對結果：**
 
 - ✅ Court 一致：dashboard 寫「C.D. Cal.」，CourtListener 為「C.D. California」
-- ✅ Judge 一致：dashboard 寫「Kronstadt」，CourtListener 為「John A. Kronstadt」
-- ℹ️ Dashboard progress 內找不到【YYYY/M/D】格式日期；CourtListener 最後 entry: 2025-11-12
+- ✅ Judge 一致：dashboard 寫「John A. Kronstadt」，CourtListener 為「John A. Kronstadt」
+- ✅ Dashboard progress 同步：dashboard 最新日期 2026-08-25，CourtListener 最後 entry 2025-11-12（dashboard 不落後）
 
 ## 3. Docket Entries（最新優先，已過濾程序性 entries）
 
@@ -162,4 +162,4 @@ Request for Clerk to Issue Summons on Complaint (Attorney Civil Case Opening),, 
 
 ---
 
-*產生時間：2026-04-27 03:14 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-09-01 01:19 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

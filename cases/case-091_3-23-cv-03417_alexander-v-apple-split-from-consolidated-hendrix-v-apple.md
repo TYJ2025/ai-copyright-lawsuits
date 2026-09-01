@@ -1,6 +1,6 @@
 # Case 91 — Kadrey v. Meta Platforms, Inc.
 
-> 最後更新（CourtListener fetch）：2026-04-27 03:22 UTC
+> 最後更新（CourtListener fetch）：2026-09-01 01:35 UTC
 
 ---
 
@@ -14,7 +14,7 @@
 | Judge Assigned | Vince Chhabria |
 | Judge Referred | Thomas S. Hixson |
 | Date Filed | 2023-07-07 |
-| Date Last Filing | 2026-04-21 |
+| Date Last Filing | 2026-08-25 |
 | Cause | 17:504 Copyright Infringement |
 | Nature of Suit | 820 Copyright |
 | Jury Demand | Both |
@@ -26,19 +26,687 @@
 > Dashboard 卡片宣告：
 
 > - Court=N.D. Cal.
-> - Judge=Gonzalez Rogers
+> - Judge=Vince Chhabria
 > - Status=active
 > - Progress=與 Hendrix v. Apple（ID 28）合併。以合併案件身分進行。
 
 **自動比對結果：**
 
 - ✅ Court 一致：dashboard 寫「N.D. Cal.」，CourtListener 為「N.D. California」
-- ⚠️ Judge 可能不一致：dashboard 寫「Gonzalez Rogers」，CourtListener 為「Vince Chhabria」
-- ℹ️ Dashboard progress 內找不到【YYYY/M/D】格式日期；CourtListener 最後 entry: 2026-04-21
+- ✅ Judge 一致：dashboard 寫「Vince Chhabria」，CourtListener 為「Vince Chhabria」
+- ℹ️ Dashboard progress 內找不到【YYYY/M/D】格式日期；CourtListener 最後 entry: 2026-08-25
 
 ## 3. Docket Entries（最新優先，已過濾程序性 entries）
 
-**實質性 entries**：94 筆／**已過濾程序性 entries**：6 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+**實質性 entries**：188 筆／**已過濾程序性 entries**：12 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+
+### 📄 Doc #— — 2026-08-25
+
+Clerk's Notice AND ~Util - Teleconference Zoom
+
+### 📄 Doc #821 — 2026-08-25
+
+CLERK'S NOTICE SCHEDULING FURTHER CASE MANAGEMENT CONFERENCE AND REQUIRING ADVANCE REGISTRATION OF COUNSEL. Case Management Statement due by 9/8/2026. Further Case Management Conference set for 9/9/2026 at 09:00 AM by Videoconference Only. This proceeding will be held via a Zoom webinar.Webinar Access: All counsel, members of the public, and media may access the webinar information at https://www.cand.uscourts.gov/vc Court Appearances: Advanced notice is required of counsel or parties who wish to be identified by the court as making an appearance or will be participating in the argument at the hearing. One list of names and emails must be sent to the CRD at vccrd@cand.uscourts.gov no later than Tuesday, September 8, 2026 by no later than 12:00PM. Civ LR 77-3(d). Persons granted access to court proceedings held by telephone or videoconference are reminded that photographing, recording, and rebroadcasting of court proceedings, including screenshots or other visual copying of a hearing, i …(truncated)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67569326/821/kadrey-v-meta-platforms-inc/)
+
+### 📄 Doc #820 — 2026-08-24
+
+TRANSCRIPT ORDER for proceedings held on 08/19/2026 before Magistrate Judge Thomas S. Hixson by BCP Literary, Inc., Ta-Nehisi Coates, Daring Greatly Corporation, Junot Diaz, Eleven Eleven O' Clock Corporation, Christopher Farnsworth, Christopher Golden, Andrew Sean Greer, David Henry Hwang, Richard Kadrey, Matthew Klam, Laura Lippman, Sarah Silverman, Rachel Louise Snyder, Lysa TerKeurst, Jacqueline Woodson, for Recorded Proceeding - San Francisco. (Stein, Joshua) (Filed on 8/24/2026) (Entered: 08/24/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67569326/820/kadrey-v-meta-platforms-inc/)
+
+### 📄 Doc #816 — 2026-08-20
+
+TRANSCRIPT ORDER for proceedings held on August 14, 2026 before Judge Vince Chhabria for Court Reporter Marla Knox (S Pak) (Knox, Marla) (Filed on 8/20/2026) (Entered: 08/20/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67569326/816/kadrey-v-meta-platforms-inc/)
+
+### 📄 Doc #817 — 2026-08-20
+
+Transcript of Proceedings held on August 14, 2026, before Judge Vince Chhabria. Court Reporter, Marla F. Knox, RPR, CRR, RMR, telephone number (602) 391-6990/email marla_knox@cand.uscourts.gov. Per General Order No. 59 and Judicial Conference policy, this transcript may be viewed only at the Clerk's Office public terminal or may be purchased through the Court Reporter/Transcriber until the deadline for the Release of Transcript Restriction. After that date it may be obtained through PACER. Any Notice of Intent to Request Redaction, if required, is due no later than 5 business days from date of this filing. (Re 816 Transcript Order ) Release of Transcript Restriction set for 11/18/2026. (Related documents(s) 816 ) (Knox, Marla) (Filed on 8/20/2026) (Entered: 08/20/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67569326/817/kadrey-v-meta-platforms-inc/)
+
+### 📄 Doc #814 — 2026-08-19
+
+Minute Entry for proceedings held before Magistrate Judge Thomas S. Hixson: Discovery Hearing held on 8/19/2026. Zoom Recording Time: 2:03 - 3:43. :23-cv-03417-VC Kadrey et al v. Meta Platforms, Inc.Attorneys for Plaintiffs: Maxwell PrittAttorneys for Defendant: Maryl Governski, Phillip Morton3:25-cv-09579-VCEntrepreneur Media, LLC v. Meta Platforms, Inc. Attorney for Plaintiff: Lee Linderman, Harlye CarltonAttorneys for Defendant: Maryl Governski, Phillip Morton3:26-cv-02333-VCChicken Soup for the Soul, LLC v. Meta Platforms Inc. Attorneys for Plaintiff: Kyle Roche, Elizabeth Brannen Attorneys for Defendant: Maryl Governski, Phillip Morton3:26-cv-03725-VCCambronne Inc. et al v. Meta Platforms, Inc. Attorneys for Plaintiff: Kyle Roche, Elizabeth Brannen Attorneys for Defendant: Maryl Governski, Phillip Morton3:26-cv-04053-VCCognella, Inc. v. Meta Platforms, Inc. Attorneys for Plaintiff: Kyle Roche, Elizabeth Brannen Attorneys for Defendant: Maryl Governski, Phillip Morton3:26-cv-06793- …(truncated)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67569326/814/kadrey-v-meta-platforms-inc/)
+
+### 📄 Doc #815 — 2026-08-19
+
+TRANSCRIPT ORDER for proceedings held on 08/14/2026 before Judge Vince Chhabria by BCP Literary, Inc., Ta-Nehisi Coates, Daring Greatly Corporation, Junot Diaz, Eleven Eleven O' Clock Corporation, Christopher Farnsworth, Christopher Golden, Andrew Sean Greer, David Henry Hwang, Richard Kadrey, Matthew Klam, Laura Lippman, Sarah Silverman, Rachel Louise Snyder, Lysa TerKeurst, Jacqueline Woodson, for Court Reporter Marla Knox. (Stein, Joshua) (Filed on 8/19/2026) (Entered: 08/19/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67569326/815/kadrey-v-meta-platforms-inc/)
+
+### 📄 Doc #— — 2026-08-19
+
+Discovery Hearing AND ~Util - Set Deadlines/Hearings
+
+### 📄 Doc #— — 2026-08-19
+
+Clerk's Notice Setting Zoom Hearing
+
+### 📄 Doc #813 — 2026-08-19
+
+CLERKS NOTICE CHANGING ZOOM DISCOVERY HEARING TIME. Notice is hereby given that the Discovery Hearing previously set for 8/19/2026 will now be heard at 02:00 PM in San Francisco, - Videoconference Only before Magistrate Judge Thomas S. Hixson. This proceeding will be held via a Zoom webinar.Webinar Access: All counsel, members of the public, and media may access the webinar information at https://www.cand.uscourts.gov/tsh Civ LR 77-3(d). Persons granted access to court proceedings held by telephone or videoconference are reminded that photographing, recording, and rebroadcasting of court proceedings, including screenshots or other visual copying of a hearing, is absolutely prohibited.Zoom Guidance and Setup: https://cand.uscourts.gov/zoom. (This is a text-only entry generated by the court. There is no document associated with this entry.) (amg, COURT STAFF) (Filed on 8/19/2026)Any non-CM/ECF Participants have been served by First Class Mail to the addresses of record listed on the Noti …(truncated)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67569326/813/kadrey-v-meta-platforms-inc/)
+
+### 📄 Doc #812 — 2026-08-18
+
+STATUS REPORT Jointly Filed re Discovery Hearing by BCP Literary, Inc., Ta-Nehisi Coates, Daring Greatly Corporation, Junot Diaz, Eleven Eleven O' Clock Corporation, Christopher Farnsworth, Christopher Golden, Andrew Sean Greer, David Henry Hwang, Richard Kadrey, Matthew Klam, Laura Lippman, Sarah Silverman, Rachel Louise Snyder, Lysa TerKeurst, Jacqueline Woodson. (Attachments: # 1 Exhibit A, # 2 Exhibit B)(Weinbach, Annabel) (Filed on 8/18/2026) (Entered: 08/18/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67569326/812/2/kadrey-v-meta-platforms-inc/)
+
+### 📄 Doc #— — 2026-08-17
+
+Case Management Conference - Further
+
+### 📄 Doc #810 — 2026-08-17
+
+EXHIBITS re 805 Order on Administrative Motion to Consider Whether Another Partys Material Should Be Sealed,, Re Dkt. 781 filed byMeta Platforms, Inc.. (Attachments: # 1 Exhibit B, # 2 Exhibit D, # 3 Exhibit E, # 4 Exhibit F, # 5 Exhibit G, # 6 Exhibit H)(Related document(s) 805 ) (Morton, Phillip) (Filed on 8/17/2026) (Entered: 08/17/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67569326/810/6/kadrey-v-meta-platforms-inc/)
+
+### 📄 Doc #811 — 2026-08-14
+
+Minute Entry for proceedings held before Judge Vince Chhabria: Further Case Management Conference held via Zoom on 8/14/2026. Court clarified the amount of time Mr. Zuckerberg will sit for a deposition will be 4 hours. Court granted Plaintiff's request to extend the duration of the Rule 30(b)(6) deposition from 14 hours to 21 hours. The sequencing of the motions for class certification and summary judgment in Sullivan to be addressed at the next case management conference. Parties to meet and confer and inform the Court what time works for all parties for the next case management conference that will be held on 8/26/2026. Parties do not need to follow the same format for the case management statements. Parties may file an issue list, with no arguments, the day prior to the hearing. Total Time in Court: 1 hour, 6 minutes. Court Reporter: Marla Knox. Plaintiff Attorney: Margaux Poueymirou, David Simons (Kadrey), Lee Linderman, Harlye Carlton (Entrepreneur), Lauren Martin, Kyle Roche, Eli …(truncated)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67569326/811/kadrey-v-meta-platforms-inc/)
+
+### 📄 Doc #809 — 2026-08-13
+
+CLERK'S NOTICE ADVANCING TIME RE 8/14/2026 CASE MANAGEMENT CONFERENCE. Further Case Management Conference set for 8/14/2026 at 11:00 AM by Videoconference Only. This proceeding will be held via a Zoom webinar.Webinar Access: All counsel, members of the public, and media may access the webinar information at https://www.cand.uscourts.gov/vc Civ LR 77-3(d). Persons granted access to court proceedings held by telephone or videoconference are reminded that photographing, recording, and rebroadcasting of court proceedings, including screenshots or other visual copying of a hearing, is absolutely prohibited.Zoom Guidance and Setup: https://cand.uscourts.gov/zoom. (This is a text-only entry generated by the court. There is no document associated with this entry.)(bxs, COURT STAFF) (Filed on 8/13/2026)Any non-CM/ECF Participants have been served by First Class Mail to the addresses of record listed on the Notice of Electronic Filing (NEF) (Entered: 08/13/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67569326/809/kadrey-v-meta-platforms-inc/)
+
+### 📄 Doc #— — 2026-08-13
+
+Clerk's Notice AND ~Util - Teleconference Zoom
+
+### 📄 Doc #808 — 2026-08-12
+
+JOINT CASE MANAGEMENT STATEMENT filed by BCP Literary, Inc., Ta-Nehisi Coates, Daring Greatly Corporation, Junot Diaz, Eleven Eleven O' Clock Corporation, Christopher Farnsworth, Christopher Golden, Andrew Sean Greer, David Henry Hwang, Richard Kadrey, Matthew Klam, Laura Lippman, Sarah Silverman, Rachel Louise Snyder, Lysa TerKeurst, Jacqueline Woodson. (Pritt, Maxwell) (Filed on 8/12/2026) (Entered: 08/12/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67569326/808/kadrey-v-meta-platforms-inc/)
+
+### 📄 Doc #807 — 2026-08-11
+
+Order denying (113) motion in case 3:25-cv-09579-VC; (92) motion in case 3:26-cv-02333-VC; (215) motion in case 3:26-cv-03725-VC; (63) motion in case 3:26-cv-04053-VC. For the reasons stated in the plaintiffs' opposition briefs, Meta's motion to quash is denied. Signed Vince Chhabria on 8/11/2026. (This is a text-only entry generated by the court. There is no document associated with this entry.) Associated Cases: 3:25-cv-09579-VC, 3:23-cv-03417-VC, 3:26-cv-02333-VC, 3:26-cv-03725-VC, 3:26-cv-04053-VC, 3:26-cv-06793-VC(vclc1, COURT STAFF) (Filed on 8/11/2026)Any non-CM/ECF Participants have been served by First Class Mail to the addresses of record listed on the Notice of Electronic Filing (NEF) (Entered: 08/11/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67569326/807/kadrey-v-meta-platforms-inc/)
+
+### 📄 Doc #— — 2026-08-11
+
+Order on Administrative Motion per Civil Local Rule 7-11
+
+### 📄 Doc #806 — 2026-08-10
+
+Order granting (784) Administrative Motion in case 3:23-cv-03417-VC. Meta's motion for leave to serve discovery is granted. From the materials submitted by the parties (including the sample RFPs and interrogatories), Meta's proposed discovery requests appear reasonable. If any particular requests are especially burdensome or greatly exceed the scope of the samples, the plaintiffs are free to make a more specific objection. Signed by Judge Vince Chhabria on 8/10/2026. (This is a text-only entry generated by the court. There is no document associated with this entry.) Associated Cases: 3:23-cv-03417-VC, 3:23-cv-04663-VC, 3:23-cv-06663-VC, 3:24-cv-06893-VC, 3:25-cv-09579-VC, 3:26-cv-02333-VC, 3:26-cv-03725-VC, 3:26-cv-04053-VC, 3:26-cv-06793-VC(vclc1, COURT STAFF) (Filed on 8/10/2026)Any non-CM/ECF Participants have been served by First Class Mail to the addresses of record listed on the Notice of Electronic Filing (NEF) (Entered: 08/10/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67569326/806/kadrey-v-meta-platforms-inc/)
+
+### 📄 Doc #805 — 2026-08-10
+
+ORDER. The 781 motion to consider whether another party's material should be sealed is granted as to the limited redactions specified in the 796 declaration. Within 7 days, Meta must file public copies of all the documents attached to the 781 motion, including entirely unredacted versions of documents not mentioned in the 796 declaration. Signed by Judge Vince Chhabria on 8/10/2026. (This is a text-only entry generated by the court. There is no document associated with this entry.) (vclc1, COURT STAFF) (Filed on 8/10/2026)Any non-CM/ECF Participants have been served by First Class Mail to the addresses of record listed on the Notice of Electronic Filing (NEF) (Entered: 08/10/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67569326/805/kadrey-v-meta-platforms-inc/)
+
+### 📄 Doc #— — 2026-08-10
+
+Order on Administrative Motion to Consider Whether Another Partys Material Should Be Sealed
+
+### 📄 Doc #— — 2026-08-10
+
+Order on Administrative Motion per Civil Local Rule 7-11
+
+### 📄 Doc #804 — 2026-08-10
+
+Transcript of Proceedings held on August 5, 2026, before Judge Thomas S. Hixson. Court Reporter/Transcriber Velvet Quill Communications, telephone number 855-615-1385. Per General Order No. 59 and Judicial Conference policy, this transcript may be viewed only at the Clerk's Office public terminal or may be purchased through the Court Reporter/Transcriber until the deadline for the Release of Transcript Restriction. After that date it may be obtained through PACER. Any Notice of Intent to Request Redaction, if required, is due no later than 5 business days from date of this filing. (Re 798 Transcript Order ) Release of Transcript Restriction set for 11/9/2026. (Related documents(s) 798 ) (Bazier, Jaquetta) (Filed on 8/10/2026) (Entered: 08/10/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67569326/804/kadrey-v-meta-platforms-inc/)
+
+### 📄 Doc #802 — 2026-08-07
+
+TRANSCRIPT ORDER for proceedings held on July 31, 2026 before Judge Vince Chhabria for Court Reporter Layli Phillips (Phillips, Layli) (Filed on 8/7/2026) (Entered: 08/07/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67569326/802/kadrey-v-meta-platforms-inc/)
+
+### 📄 Doc #803 — 2026-08-07
+
+TRANSCRIPT ORDER for proceedings held on July 31, 2026 before Judge Vince Chhabria for Court Reporter Layli Phillips (Phillips, Layli) (Filed on 8/7/2026) (Entered: 08/07/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67569326/803/kadrey-v-meta-platforms-inc/)
+
+### 📄 Doc #801 — 2026-08-06
+
+TRANSCRIPT ORDER for proceedings held on 08/05/2026 before Magistrate Judge Thomas S. Hixson by BCP Literary, Inc., Ta-Nehisi Coates, Daring Greatly Corporation, Junot Diaz, Eleven Eleven O' Clock Corporation, Christopher Farnsworth, Christopher Golden, Andrew Sean Greer, David Henry Hwang, Richard Kadrey, Matthew Klam, Laura Lippman, Sarah Silverman, Rachel Louise Snyder, Lysa TerKeurst, Jacqueline Woodson, for Recorded Proceeding - San Francisco. (Stein, Joshua) (Filed on 8/6/2026) (Entered: 08/06/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67569326/801/kadrey-v-meta-platforms-inc/)
+
+### 📄 Doc #800 — 2026-08-06
+
+TRANSCRIPT ORDER for proceedings held on 8/5/2026 before Magistrate Judge Thomas S. Hixson for Recorded Proceeding - San Francisco. (mkl, COURT STAFF) (Filed on 8/6/2026) (Entered: 08/06/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67569326/800/kadrey-v-meta-platforms-inc/)
+
+### 📄 Doc #799 — 2026-08-05
+
+Minute Entry for proceedings held before Magistrate Judge Thomas S. Hixson: Discovery Hearing held via Zoom on 8/5/2026. Zoom Recording Time: 1:05 - 1:55. :23-cv-03417-VC Kadrey et al v. Meta Platforms, Inc. Attorneys for Plaintiffs: Maxwell Pritt, Annabel WeinbachAttorneys for Defendant: Kyle Smith, Jessica Phillips, Phillip Morton, Mark Weinstein 3:25-cv-09579-VCEntrepreneur Media, LLC v. Meta Platforms, Inc. Attorney for Plaintiff: Lee Linderman, Harlye CarltonAttorneys for Defendant: Kyle Smith, Jessica Phillips, Phillip Morton, Mark Weinstein3:26-cv-02333-VCChicken Soup for the Soul, LLC v. Meta Platforms Inc. Attorneys for Plaintiff: Kyle Roche, Lauren Martin Attorneys for Defendant: Kyle Smith, Jessica Phillips, Phillip Morton, Mark Weinstein3:26-cv-03725-VCCambronne Inc. et al v. Meta Platforms, Inc. Attorneys for Plaintiff: Kyle Roche, Lauren MartinAttorneys for Defendant: Kyle Smith, Jessica Phillips, Phillip Morton, Mark Weinstein3:26-cv-04053-VCCognella, Inc. v. Meta Platfo …(truncated)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67569326/799/kadrey-v-meta-platforms-inc/)
+
+### 📄 Doc #— — 2026-08-05
+
+Discovery Hearing AND ~Util - Set Deadlines/Hearings AND ~Util - Teleconference Zoom
+
+### 📄 Doc #798 — 2026-08-05
+
+TRANSCRIPT ORDER for proceedings held on 08/05/2026 before Magistrate Judge Thomas S. Hixson by Meta Platforms, Inc., for Recorded Proceeding - San Francisco. (Stameshkin, Elizabeth) (Filed on 8/5/2026) (Entered: 08/05/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67569326/798/kadrey-v-meta-platforms-inc/)
+
+### 📄 Doc #796 — 2026-08-04
+
+Declaration of Kyanna Sabanoglu in Support of 781 Administrative Motion to Consider Whether Another Party's Material Should Be Sealed Re: Administrative Motion Re: Roller Deposition filed byMeta Platforms, Inc.. (Attachments: # 1 Exhibit 1, # 2 Exhibit 2, # 3 Exhibit 3)(Related document(s) 781 ) (Stameshkin, Elizabeth) (Filed on 8/4/2026) (Entered: 08/04/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67569326/796/3/kadrey-v-meta-platforms-inc/)
+
+### 📄 Doc #797 — 2026-08-04
+
+OPPOSITION/RESPONSE (re 784 ADMINISTRATIVE MOTION For Leave To Serve Discovery Relating To Plaintiffs Newly Added Contributory Infringement Claim And Loan Out Companies ) filed byBCP Literary, Inc., Ta-Nehisi Coates, Daring Greatly Corporation, Junot Diaz, Eleven Eleven O' Clock Corporation, Christopher Farnsworth, Christopher Golden, Andrew Sean Greer, David Henry Hwang, Richard Kadrey, Matthew Klam, Laura Lippman, Sarah Silverman, Rachel Louise Snyder, Lysa TerKeurst, Jacqueline Woodson. (Attachments: # 1 Exhibit A, # 2 Exhibit B, # 3 Exhibit C, # 4 Exhibit D, # 5 Exhibit E, # 6 Exhibit F, # 7 Exhibit G, # 8 Exhibit H, # 9 Exhibit I)(Simons, David) (Filed on 8/4/2026) (Entered: 08/04/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67569326/797/9/kadrey-v-meta-platforms-inc/)
+
+### 📄 Doc #795 — 2026-08-04
+
+Order by Judge Vince Chhabria granting 780 Plaintiffs' Administrative Motion RE: Roller Deposition. (bxs, COURT STAFF) (Filed on 8/4/2026)Any non-CM/ECF Participants have been served by First Class Mail to the addresses of record listed on the Notice of Electronic Filing (NEF) (Entered: 08/04/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67569326/795/kadrey-v-meta-platforms-inc/)
+
+### 📄 Doc #794 — 2026-08-04
+
+STATUS REPORT Re: Discovery Status Hearing by BCP Literary, Inc., Ta-Nehisi Coates, Daring Greatly Corporation, Junot Diaz, Eleven Eleven O' Clock Corporation, Christopher Farnsworth, Christopher Golden, Andrew Sean Greer, David Henry Hwang, Richard Kadrey, Matthew Klam, Laura Lippman, Sarah Silverman, Rachel Louise Snyder, Lysa TerKeurst, Jacqueline Woodson. (Pritt, Maxwell) (Filed on 8/4/2026) (Entered: 08/04/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67569326/794/kadrey-v-meta-platforms-inc/)
+
+### 📄 Doc #793 — 2026-08-03
+
+OPPOSITION/RESPONSE (re 780 ADMINISTRATIVE MOTION for Leave Re: Roller Deposition ) filed byMeta Platforms, Inc.. (Morton, Phillip) (Filed on 8/3/2026) (Entered: 08/03/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67569326/793/kadrey-v-meta-platforms-inc/)
+
+### 📄 Doc #792 — 2026-08-03
+
+TRANSCRIPT ORDER for proceedings held on July 31, 2026 before Judge Vince Chhabria for Court Reporter Layli Phillips (Phillips, Layli) (Filed on 8/3/2026) (Entered: 08/03/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67569326/792/kadrey-v-meta-platforms-inc/)
+
+### 📄 Doc #791 — 2026-08-03
+
+TRANSCRIPT ORDER for proceedings held on 07/31/2026 before Judge Vince Chhabria by BCP Literary, Inc., Ta-Nehisi Coates, Daring Greatly Corporation, Junot Diaz, Eleven Eleven O' Clock Corporation, Christopher Farnsworth, Christopher Golden, Andrew Sean Greer, David Henry Hwang, Richard Kadrey, Matthew Klam, Laura Lippman, Sarah Silverman, Rachel Louise Snyder, Lysa TerKeurst, Jacqueline Woodson, for Court Reporter Layli Phillips. (Stein, Joshua) (Filed on 8/3/2026) (Entered: 08/03/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67569326/791/kadrey-v-meta-platforms-inc/)
+
+### 📄 Doc #790 — 2026-08-03
+
+Transcript of Proceedings held on July 31, 2026, before Judge Vince Chhabria. Court Reporter Layli Phillips, RPR, CRR, CSR No. 14402, email/telephone number Layli_Phillips@cand.uscourts.gov/847-271-5476. Per General Order No. 59 and Judicial Conference policy, this transcript may be viewed only at the Clerk's Office public terminal or may be purchased through the Court Reporter until the deadline for the Release of Transcript Restriction. After that date it may be obtained through PACER. Any Notice of Intent to Request Redaction, if required, is due no later than 5 business days from date of this filing. (Re (789 in 3:23-cv-03417-VC) Transcript Order ) Release of Transcript Restriction set for 11/2/2026. (Phillips, Layli) (Filed on 8/3/2026) (Entered: 08/03/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67569326/790/kadrey-v-meta-platforms-inc/)
+
+### 📄 Doc #— — 2026-08-03
+
+Case Management Conference - Further AND Case Management Conference - Initial AND ~Util - Set Deadlines/Hearings
+
+### 📄 Doc #789 — 2026-08-03
+
+TRANSCRIPT ORDER for proceedings held on 07/31/2026 before Judge Vince Chhabria by Meta Platforms, Inc., for Court Reporter Layli Phillips. (Stameshkin, Elizabeth) (Filed on 8/3/2026) (Entered: 08/03/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67569326/789/kadrey-v-meta-platforms-inc/)
+
+### 📄 Doc #787 — 2026-08-03
+
+Order by Judge Vince Chhabria granting 782 Motion to Substitute Firm. (bxs, COURT STAFF) (Filed on 8/3/2026)Any non-CM/ECF Participants have been served by First Class Mail to the addresses of record listed on the Notice of Electronic Filing (NEF) (Entered: 08/03/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67569326/787/kadrey-v-meta-platforms-inc/)
+
+### 📄 Doc #788 — 2026-07-31
+
+Minute Entry for proceedings held before Judge Vince Chhabria: Case Management Conference held via Zoom on 7/31/2026. Court directed parties in Sullivan to implement a protective order and protocol in advance of the next case management conference. The case management statement in Sullivan to include a proposed case schedule. Meta ordered to identify all 30(b)(6) witnesses by Thursday, August 6. Ms. Lu's custodial documents to be produced no later than Wednesday, August 12. Mr. Zuckerberg's deposition shall be calendared to occur no later than August 26. If the deposition date has not been set by the next case management conference, the Court will set the date at that time. Meta may also file an administrative motion addressing the issue for the Court's consideration. Case Management Statement due by 8/12/2026. Further Case Management Conference set for 8/14/2026 at 01:00 PM by Videoconference Only. Conference may be advanced to 10:00AM, subject to the Court's 10:00AM CMC calendar. Tot …(truncated)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67569326/788/kadrey-v-meta-platforms-inc/)
+
+### 📄 Doc #786 — 2026-07-31
+
+Administrative Motion to File Under Seal re Joint Letter Brief filed by Meta Platforms, Inc.. (Attachments: # 1 Declaration Kyanna Sabanoglu, # 2 Exhibit 1, # 3 Exhibit 2, # 4 Proposed Order)(Morton, Phillip) (Filed on 7/31/2026) (Entered: 07/31/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67569326/786/4/kadrey-v-meta-platforms-inc/)
+
+### 📄 Doc #784 — 2026-07-31
+
+ADMINISTRATIVE MOTION For Leave To Serve Discovery Relating To Plaintiffs Newly Added Contributory Infringement Claim And Loan Out Companies filed by Meta Platforms, Inc.. Responses due by 8/4/2026. (Attachments: # 1 Exhibit A, # 2 Exhibit B, # 3 Exhibit C, # 4 Proposed Order)(Ghajar, Bobby) (Filed on 7/31/2026) Modified on 8/4/2026 (slh, COURT STAFF). (Entered: 07/31/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67569326/784/4/kadrey-v-meta-platforms-inc/)
+
+### 📄 Doc #785 — 2026-07-31
+
+Joint Discovery Letter Brief Re: Command History Files and ML Hub filed by BCP Literary, Inc., Ta-Nehisi Coates, Daring Greatly Corporation, Junot Diaz, Eleven Eleven O' Clock Corporation, Christopher Farnsworth, Christopher Golden, Andrew Sean Greer, David Henry Hwang, Richard Kadrey, Matthew Klam, Laura Lippman, Sarah Silverman, Rachel Louise Snyder, Lysa TerKeurst, Jacqueline Woodson. (Attachments: # 1 Exhibit A, # 2 Exhibit B, # 3 Exhibit C, # 4 Exhibit D, # 5 Exhibit E)(Pritt, Maxwell) (Filed on 7/31/2026) (Entered: 07/31/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67569326/785/5/kadrey-v-meta-platforms-inc/)
+
+### 📄 Doc #783 — 2026-07-30
+
+JOINT CASE MANAGEMENT STATEMENT filed by BCP Literary, Inc., Ta-Nehisi Coates, Daring Greatly Corporation, Junot Diaz, Eleven Eleven O' Clock Corporation, Christopher Farnsworth, Christopher Golden, Andrew Sean Greer, David Henry Hwang, Richard Kadrey, Matthew Klam, Laura Lippman, Sarah Silverman, Rachel Louise Snyder, Lysa TerKeurst, Jacqueline Woodson. (Weinbach, Annabel) (Filed on 7/30/2026) (Entered: 07/30/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67569326/783/kadrey-v-meta-platforms-inc/)
+
+### 📄 Doc #782 — 2026-07-29
+
+MOTION to Substitute Attorney and Proposed Order filed by Meta Platforms, Inc.. (Stapleton, Anna) (Filed on 7/29/2026) (Entered: 07/29/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67569326/782/kadrey-v-meta-platforms-inc/)
+
+### 📄 Doc #780 — 2026-07-28
+
+ADMINISTRATIVE MOTION for Leave Re: Roller Deposition filed by BCP Literary, Inc., Ta-Nehisi Coates, Daring Greatly Corporation, Junot Diaz, Eleven Eleven O' Clock Corporation, Christopher Farnsworth, Christopher Golden, Andrew Sean Greer, David Henry Hwang, Richard Kadrey, Matthew Klam, Laura Lippman, Sarah Silverman, Rachel Louise Snyder, Lysa TerKeurst, Jacqueline Woodson. Responses due by 8/3/2026. (Attachments: # 1 Exhibit A, # 2 Exhibit B, # 3 Exhibit C, # 4 Exhibit D, # 5 Exhibit E, # 6 Exhibit F, # 7 Exhibit G, # 8 Exhibit H, # 9 Proposed Order)(Pritt, Maxwell) (Filed on 7/28/2026) (Entered: 07/28/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67569326/780/9/kadrey-v-meta-platforms-inc/)
+
+### 📄 Doc #781 — 2026-07-28
+
+Administrative Motion to Consider Whether Another Party's Material Should Be Sealed Re: Administrative Motion Re: Roller Deposition filed by BCP Literary, Inc., Ta-Nehisi Coates, Daring Greatly Corporation, Junot Diaz, Eleven Eleven O' Clock Corporation, Christopher Farnsworth, Christopher Golden, Andrew Sean Greer, David Henry Hwang, Richard Kadrey, Matthew Klam, Laura Lippman, Sarah Silverman, Rachel Louise Snyder, Lysa TerKeurst, Jacqueline Woodson. (Attachments: # 1 Administration Motion Re: Roller Deposition, # 2 Exhibit B, # 3 Exhibit C, # 4 Exhibit D, # 5 Exhibit E, # 6 Exhibit F, # 7 Exhibit G, # 8 Exhibit H, # 9 Proposed Order)(Pritt, Maxwell) (Filed on 7/28/2026) (Entered: 07/28/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67569326/781/9/kadrey-v-meta-platforms-inc/)
+
+### 📄 Doc #779 — 2026-07-28
+
+ORDER RELATING CASES 23-cv-03417-VC & 26-cv-06793-AMO. Signed by Judge Vince Chhabria on 7/28/2026. (bxs, COURT STAFF) (Filed on 7/28/2026)Any non-CM/ECF Participants have been served by First Class Mail to the addresses of record listed on the Notice of Electronic Filing (NEF) (Entered: 07/28/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67569326/779/kadrey-v-meta-platforms-inc/)
+
+### 📄 Doc #778 — 2026-07-28
+
+DISCOVERY ORDER.  Signed by Judge Thomas S. Hixson on 7/28/2026.   Discovery Status Report due by 8/4/2026.  Discovery Hearing set for 8/5/2026 01:00 PM in San Francisco, - Videoconference Only before Magistrate Judge Thomas S. Hixson. This procee ding will be held via a Zoom  webinar.Webinar Access: All counsel, members of the public, and  media may access the webinar information at https://www.cand.uscourts.gov/tsh Court Appearances: Advanced notice is required of counsel or parties who wish to be identified by the court as making an appearance or will be participating in the argument at the hearing. A list of names and emails must be sent to the CRD  at tshcrd@cand.uscourts.gov no later than August 4, 2026 at 5:00 pm.Civ LR 77-3(d). Persons granted access to court proceedings held by telephone or videoconference are reminded that photographing, recording, and rebroadcasting of  court proceedings, including screenshots or other visual copying of a hearing, is absolutely prohibited.Zo …(truncated)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67569326/778/kadrey-v-meta-platforms-inc/)
+
+### 📄 Doc #777 — 2026-07-28
+
+ORDER  by Judge Thomas S. Hixson Granting  776   JOINT STIPULATION TO AMEND STIPULATED PROTECTIVE ORDER.  (amg, COURT STAFF) (Filed on 7/28/2026)Any non-CM/ECF Participants have been served by First Class Mail to the addresses of record listed on the Notice of Electronic Filing (NEF)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67569326/777/kadrey-v-meta-platforms-inc/)
+
+### 📄 Doc #776 — 2026-07-27
+
+STIPULATION WITH PROPOSED ORDER Amended Stipulated Protective Order filed by Meta Platforms, Inc.. (Attachments: # 1 Proposed Amended Stipulated Protective Order)(Dunn, Karen) (Filed on 7/27/2026) (Entered: 07/27/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67569326/776/1/kadrey-v-meta-platforms-inc/)
+
+### 📄 Doc #775 — 2026-07-27
+
+CLERK'S NOTICE ADVANCING TIME RE 7/31/2026 FURTHER CASE MANAGEMENT CONFERENCE. Further Case Management Conference set for 7/31/2026 at 10:00 AM by Videoconference Only. (This is a text-only entry generated by the court. There is no document associated with this entry.) (bxs, COURT STAFF) (Filed on 7/27/2026)Any non-CM/ECF Participants have been served by First Class Mail to the addresses of record listed on the Notice of Electronic Filing (NEF) (Entered: 07/27/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67569326/775/kadrey-v-meta-platforms-inc/)
+
+### 📄 Doc #— — 2026-07-27
+
+Clerk's Notice
+
+### 📄 Doc #774 — 2026-07-25
+
+Transcript of Proceedings held on July 20, 2026, before Judge Vince Chhabria. Court Reporter Kendra Steppler, email at kendra_steppler@cand.uscourts.gov. Per General Order No. 59 and Judicial Conference policy, this transcript may be viewed only at the Clerk's Office public terminal or may be purchased through the Court Reporter until the deadline for the Release of Transcript Restriction. After that date, it may be obtained through PACER. Any Notice of Intent to Request Redaction, if required, is due no later than 5 business days from date of this filing. (Re (83 in 3:25-cv-09579-VC) Transcript Order ) Release of Transcript Restriction set for 10/23/2026. (Steppler, Kendra) (Filed on 7/25/2026) (Entered: 07/25/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67569326/774/kadrey-v-meta-platforms-inc/)
+
+### 📄 Doc #— — 2026-07-21
+
+Case Management Conference - Further AND ~Util - Set Deadlines/Hearings
+
+### 📄 Doc #772 — 2026-07-21
+
+TRANSCRIPT ORDER for proceedings held on 07/20/2026 before Judge Vince Chhabria by BCP Literary, Inc., Ta-Nehisi Coates, Daring Greatly Corporation, Junot Diaz, Eleven Eleven O' Clock Corporation, Christopher Farnsworth, Christopher Golden, Andrew Sean Greer, David Henry Hwang, Richard Kadrey, Matthew Klam, Laura Lippman, Sarah Silverman, Rachel Louise Snyder, Lysa TerKeurst, Jacqueline Woodson, for Recorded Proceeding - San Francisco. (Stein, Joshua) (Filed on 7/21/2026) (Entered: 07/21/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67569326/772/kadrey-v-meta-platforms-inc/)
+
+### 📄 Doc #773 — 2026-07-20
+
+Minute Entry for proceedings held before Judge Vince Chhabria: Further Case Management Conference held via Zoom on 7/20/2026. Documents to be produced for the following witnesses, Mr. Frazier, Mr. Shea, and Mr. Strain, by Thursday. Depositions to take place as scheduled. For the remaining 7 witnesses, documents must be produced within at least 4 calendar days prior to the scheduled depositions. Depositions will still take place if the documents are not produced timely. Depositions may be reopened based on additional documents that were produced later. Anyone who was not a document custodian in Kadrey who is being deposed, will have the same deadline of producing their documents no later than 4 calendar days prior to the scheduled depositions. Case schedule/discussion re how to proceed in Sullivan to occur at the next case management conference. Case Management Statement due by 7/29/2026. Statement does not need to abide by the formatting requirements. Parties may file a joint statement …(truncated)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67569326/773/kadrey-v-meta-platforms-inc/)
+
+### 📄 Doc #771 — 2026-07-15
+
+CLERK'S NOTICE PROVIDING ZOOM ACCESS AND REQUIRING ADVANCED REGISTRATION OF COUNSEL RE 7/20/2026 CASE MANAGEMENT CONFERENCE. Further Case Management Conference set for 7/20/2026 at 02:30 PM in San Francisco, - Videoconference Only. This proceeding will be held via a Zoom webinar.Webinar Access: All counsel, members of the public, and media may access the webinar information at https://www.cand.uscourts.gov/vc Court Appearances: Advanced notice is required of counsel or parties who wish to be identified by the court as making an appearance or will be participating in the argument at the hearing. One list of names and emails must be sent to the CRD at vccrd@cand.uscourts.gov no later than July 17, 2026 at 2:00 PM PST.Civ LR 77-3(d). Persons granted access to court proceedings held by telephone or videoconference are reminded that photographing, recording, and rebroadcasting of court proceedings, including screenshots or other visual copying of a hearing, is absolutely prohibited.Zoom Gui …(truncated)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67569326/771/kadrey-v-meta-platforms-inc/)
+
+### 📄 Doc #— — 2026-07-15
+
+Clerk's Notice AND ~Util - Teleconference Zoom
+
+### 📄 Doc #770 — 2026-07-15
+
+ORDER. The 752 motion to consider whether another party's material should be sealed is granted as to the narrow set of redactions specified by the 763 declaration. Within 7 days, Meta must file under separate docket numbers any public redacted copies that are not already attached as exhibits to the 763 declaration (if any). Signed by Judge Vince Chhabria on 7/15/2026. (This is a text-only entry generated by the court. There is no document associated with this entry.) (vclc1, COURT STAFF) (Filed on 7/15/2026)Any non-CM/ECF Participants have been served by First Class Mail to the addresses of record listed on the Notice of Electronic Filing (NEF) Modified on 7/15/2026 (vclc1, COURT STAFF). (Entered: 07/15/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67569326/770/kadrey-v-meta-platforms-inc/)
+
+### 📄 Doc #— — 2026-07-15
+
+Order on Administrative Motion to Consider Whether Another Partys Material Should Be Sealed
+
+### 📄 Doc #769 — 2026-07-14
+
+ADMINISTRATIVE MOTION to Relate Case filed by Michael Sullivan. Responses due by 7/20/2026. (Attachments: # 1 Declaration Slarskey, # 2 Exhibit A - Complaint, # 3 Proposed Order Granting Plaintiffs' Administrative Motion)(Slarskey, David) (Filed on 7/14/2026) (Entered: 07/14/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67569326/769/3/kadrey-v-meta-platforms-inc/)
+
+### 📄 Doc #768 — 2026-07-10
+
+CASE MANAGEMENT STATEMENT Joint filed by Meta Platforms, Inc.. (Morton, Phillip) (Filed on 7/10/2026) (Entered: 07/10/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67569326/768/kadrey-v-meta-platforms-inc/)
+
+### 📄 Doc #767 — 2026-07-08
+
+Order denying (741) Motion for Leave to Appeal in case 3:23-cv-03417-VC: The motion for leave to file an interlocutory appeal is denied. To be sure, the issue presented in the motion is a difficult one, and Judge Alsup's opinion makes a good point. But it won't be long before a final judgment is entered in at least one of the Meta cases before this Court. That judgment will allow the issue presented in the current motion, along with many other important issues relating to the use of copyrighted materials in the training of AI models, to be presented to the Court of Appeals as part of a tidy package. Signed by Judge Vince Chhabria on 7/8/2026. (This is a text-only entry generated by the court. There is no document associated with this entry.) Associated Cases: 3:23-cv-03417-VC, 3:23-cv-04663-VC, 3:23-cv-06663-VC, 3:24-cv-06893-VC, 3:25-cv-09579-VC, 3:26-cv-02333-VC, 3:26-cv-03725-VC, 3:26-cv-04053-VC(vclc1, COURT STAFF) (Filed on 7/8/2026)Any non-CM/ECF Participants have been served by  …(truncated)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67569326/767/kadrey-v-meta-platforms-inc/)
+
+### 📄 Doc #— — 2026-07-08
+
+Order on Motion for Leave to Appeal
+
+### 📄 Doc #766 — 2026-07-08
+
+NOTICE of Withdrawal filed by William Thomas Marks, no longer appearing on behalf of Meta Platforms, Inc. in this case (Marks, William) (Filed on 7/8/2026) (Entered: 07/08/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67569326/766/kadrey-v-meta-platforms-inc/)
+
+### 📄 Doc #— — 2026-07-08
+
+Notice of Appearance/Substitution/Change/Withdrawal of Attorney
+
+### 📄 Doc #765 — 2026-07-06
+
+CLERK'S NOTICE VACATING 7/16/2026 MOTION HEARING RE 741 Motion for Leave to Appeal Pursuant to 28 U.S.C. § 1292(b). The Court will issue a written ruling based on the motion and responsive briefs. (This is a text-only entry generated by the court. There is no document associated with this entry.) (bxs, COURT STAFF) (Filed on 7/6/2026)Any non-CM/ECF Participants have been served by First Class Mail to the addresses of record listed on the Notice of Electronic Filing (NEF) (Entered: 07/06/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67569326/765/kadrey-v-meta-platforms-inc/)
+
+### 📄 Doc #— — 2026-07-06
+
+Clerk's Notice
+
+### 📄 Doc #764 — 2026-07-03
+
+Transcript of Proceedings held on 07/01/26, before Judge Vince Chhabria. Court Reporter/Transcriber Echo Reporting, Inc., telephone number echoreporting@yahoo.com. Tape Number: 11:02 - 11:51. Per General Order No. 59 and Judicial Conference policy, this transcript may be viewed only at the Clerk's Office public terminal or may be purchased through the Court Reporter/Transcriber until the deadline for the Release of Transcript Restriction. After that date it may be obtained through PACER. Any Notice of Intent to Request Redaction, if required, is due no later than 5 business days from date of this filing. (Re (760 in 3:23-cv-03417-VC) Transcript Order, (759 in 3:23-cv-03417-VC) Transcript Order, (762 in 3:23-cv-03417-VC) Transcript Order, (75 in 3:25-cv-09579-VC) Transcript Order, (43 in 3:26-cv-04053-VC) Transcript Order ) Redaction Request due 7/24/2026. Redacted Transcript Deadline set for 8/3/2026. Release of Transcript Restriction set for 10/1/2026. (Jauregui, Tara) (Filed on 7/3/2 …(truncated)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67569326/764/kadrey-v-meta-platforms-inc/)
+
+### 📄 Doc #763 — 2026-07-02
+
+Declaration of Kyanna Sabanoglu in Support of 752 Administrative Motion to Consider Whether Another Party's Material Should Be Sealed Re: Administrative Motion Re: Limited Custodial Searches and Depositions filed byMeta Platforms, Inc.. (Attachments: # 1 Exhibit 1, # 2 Exhibit 2, # 3 Exhibit 3, # 4 Exhibit 4, # 5 Exhibit 5, # 6 Exhibit 6, # 7 Exhibit 7, # 8 Exhibit 8, # 9 Exhibit 9, # 10 Exhibit 10, # 11 Exhibit 11, # 12 Exhibit 12, # 13 Exhibit 13)(Related document(s) 752 ) (Morton, Phillip) (Filed on 7/2/2026) (Entered: 07/02/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67569326/763/13/kadrey-v-meta-platforms-inc/)
+
+### 📄 Doc #761 — 2026-07-01
+
+Minute Entry for proceedings held before Judge Vince Chhabria: Further Case Management Conference held on 7/1/2026 in cases 3:23-cv-03417-VC, 3:25-cv-09579-VC, 3:26-cv-02333-VC, 3:26-cv-03725-VC, 3:26-cv-04053-VC. Discussion held regarding changing the caption of 3:26-cv-03725-VC Carreyrou et al v. Meta Platforms, Inc. Clerk's office is directed to change the caption to Cambronne Inc. et al v. Meta Platforms, Inc. Discussion held regarding related case order, Dkt. 70, that was filed in 3:26-cv-02333-VC Chicken Soup for the Soul, LLC v. Meta Platforms Inc. Counsel informed the Court that the case number listed in the order was in error and does not pertain to this case. Counsel to rectify the inadvertent filing. Court denied (751) Administrative Motion in case 3:23-cv-03417-VC for the reasons as stated in Meta's brief. Court granted the request for 20 depositions for 30(b)(1) witnesses and the 9 hours for those witnesses. Court granted the request for 14 hours for the 30(b)(6) witnesses …(truncated)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67569326/761/kadrey-v-meta-platforms-inc/)
+
+### 📄 Doc #762 — 2026-07-01
+
+TRANSCRIPT ORDER for proceedings held on 7/1/2026 before Judge Vince Chhabria for Recorded Proceeding - San Francisco. (mkl, COURT STAFF) (Filed on 7/1/2026) (Entered: 07/01/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67569326/762/kadrey-v-meta-platforms-inc/)
+
+### 📄 Doc #— — 2026-07-01
+
+Case Management Conference - Further AND Order on Administrative Motion per Civil Local Rule 7-11 AND ~Util - Set Deadlines/Hearings
+
+### 📄 Doc #760 — 2026-07-01
+
+TRANSCRIPT ORDER for proceedings held on 07/01/2026 before Judge Vince Chhabria by Meta Platforms, Inc., for Recorded Proceeding - San Francisco. (Stameshkin, Elizabeth) (Filed on 7/1/2026) (Entered: 07/01/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67569326/760/kadrey-v-meta-platforms-inc/)
+
+### 📄 Doc #759 — 2026-07-01
+
+TRANSCRIPT ORDER for proceedings held on 07/01/2026 before Judge Vince Chhabria by BCP Literary, Inc., Ta-Nehisi Coates, Daring Greatly Corporation, Junot Diaz, Eleven Eleven O' Clock Corporation, Christopher Farnsworth, Christopher Golden, Andrew Sean Greer, David Henry Hwang, Richard Kadrey, Matthew Klam, Laura Lippman, Sarah Silverman, Rachel Louise Snyder, Lysa TerKeurst, Jacqueline Woodson, for Recorded Proceeding - San Francisco. (Stein, Joshua) (Filed on 7/1/2026) (Entered: 07/01/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67569326/759/kadrey-v-meta-platforms-inc/)
+
+### 📄 Doc #758 — 2026-06-29
+
+OPPOSITION/RESPONSE (re 751 ADMINISTRATIVE MOTION Re: Limited Custodial Searches and Depositions ) filed byMeta Platforms, Inc.. (Morton, Phillip) (Filed on 6/29/2026) (Entered: 06/29/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67569326/758/kadrey-v-meta-platforms-inc/)
+
+### 📄 Doc #757 — 2026-06-29
+
+REPLY (re 741 MOTION for Leave to Appeal Pursuant to 28 U.S.C. § 1292(b) [CORRECTED] ) filed byBCP Literary, Inc., Ta-Nehisi Coates, Daring Greatly Corporation, Junot Diaz, Eleven Eleven O' Clock Corporation, Christopher Farnsworth, Christopher Golden, Andrew Sean Greer, David Henry Hwang, Richard Kadrey, Matthew Klam, Laura Lippman, Sarah Silverman, Rachel Louise Snyder, Lysa TerKeurst, Jacqueline Woodson. (Attachments: # 1 Exhibit A)(Pritt, Maxwell) (Filed on 6/29/2026) (Entered: 06/29/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67569326/757/1/kadrey-v-meta-platforms-inc/)
+
+### 📄 Doc #— — 2026-06-29
+
+Notice of Appearance/Substitution/Change/Withdrawal of Attorney
+
+### 📄 Doc #753 — 2026-06-26
+
+ORDER. The 750 stipulation is denied. The plaintiffs' deadline to file a motion for relief from Judge Hixsons 743 discovery order is 14 days from the date of this order. Signed by Judge Vince Chhabria on 6/26/2026. (This is a text-only entry generated by the court. There is no document associated with this entry.) (vclc1, COURT STAFF) (Filed on 6/26/2026)Any non-CM/ECF Participants have been served by First Class Mail to the addresses of record listed on the Notice of Electronic Filing (NEF) (Entered: 06/26/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67569326/753/kadrey-v-meta-platforms-inc/)
+
+### 📄 Doc #— — 2026-06-26
+
+Order on Stipulation
+
+### 📄 Doc #752 — 2026-06-25
+
+Administrative Motion to Consider Whether Another Party's Material Should Be Sealed Re: Administrative Motion Re: Limited Custodial Searches and Depositions filed by BCP Literary, Inc., Ta-Nehisi Coates, Daring Greatly Corporation, Junot Diaz, Eleven Eleven O' Clock Corporation, Christopher Farnsworth, Christopher Golden, Andrew Sean Greer, David Henry Hwang, Richard Kadrey, Matthew Klam, Laura Lippman, Sarah Silverman, Rachel Louise Snyder, Lysa TerKeurst, Jacqueline Woodson. (Attachments: # 1 Administrative Motion Re: Limited Custodial Searches and Depositions, # 2 Exhibit A, # 3 Exhibit B, # 4 Exhibit C, # 5 Exhibit D, # 6 Exhibit E, # 7 Exhibit F, # 8 Exhibit G, # 9 Exhibit H, # 10 Exhibit I, # 11 Exhibit J, # 12 Exhibit K, # 13 Exhibit L, # 14 Exhibit M, # 15 Exhibit N, # 16 Proposed Order)(Pritt, Maxwell) (Filed on 6/25/2026) (Entered: 06/25/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67569326/752/16/kadrey-v-meta-platforms-inc/)
+
+### 📄 Doc #751 — 2026-06-25
+
+ADMINISTRATIVE MOTION Re: Limited Custodial Searches and Depositions filed by BCP Literary, Inc., Ta-Nehisi Coates, Daring Greatly Corporation, Junot Diaz, Eleven Eleven O' Clock Corporation, Christopher Farnsworth, Christopher Golden, Andrew Sean Greer, David Henry Hwang, Richard Kadrey, Matthew Klam, Laura Lippman, Sarah Silverman, Rachel Louise Snyder, Lysa TerKeurst, Jacqueline Woodson. Responses due by 6/29/2026. (Attachments: # 1 Exhibit A, # 2 Exhibit B, # 3 Exhibit C, # 4 Exhibit D, # 5 Exhibit E, # 6 Exhibit F, # 7 Exhibit G, # 8 Exhibit H, # 9 Exhibit I, # 10 Exhibit J, # 11 Exhibit K, # 12 Exhibit L, # 13 Exhibit M, # 14 Exhibit N, # 15 Proposed Order)(Pritt, Maxwell) (Filed on 6/25/2026) (Entered: 06/25/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67569326/751/15/kadrey-v-meta-platforms-inc/)
+
+### 📄 Doc #750 — 2026-06-25
+
+STIPULATION WITH PROPOSED ORDER re Extension of Time to File Motion for Relief re Dkt. 743 filed by BCP Literary, Inc., Ta-Nehisi Coates, Daring Greatly Corporation, Junot Diaz, Eleven Eleven O' Clock Corporation, Christopher Farnsworth, Christopher Golden, Andrew Sean Greer, David Henry Hwang, Richard Kadrey, Matthew Klam, Laura Lippman, Sarah Silverman, Rachel Louise Snyder, Lysa TerKeurst, Jacqueline Woodson. (Pritt, Maxwell) (Filed on 6/25/2026) (Entered: 06/25/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67569326/750/kadrey-v-meta-platforms-inc/)
+
+### 📄 Doc #749 — 2026-06-25
+
+JOINT CASE MANAGEMENT STATEMENT filed by BCP Literary, Inc., Ta-Nehisi Coates, Daring Greatly Corporation, Junot Diaz, Eleven Eleven O' Clock Corporation, Christopher Farnsworth, Christopher Golden, Andrew Sean Greer, David Henry Hwang, Richard Kadrey, Matthew Klam, Laura Lippman, Sarah Silverman, Rachel Louise Snyder, Lysa TerKeurst, Jacqueline Woodson. (Attachments: # 1 Exhibit A, # 2 Exhibit B)(Pritt, Maxwell) (Filed on 6/25/2026) (Entered: 06/25/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67569326/749/2/kadrey-v-meta-platforms-inc/)
+
+### 📄 Doc #748 — 2026-06-22
+
+OPPOSITION/RESPONSE (re 741 MOTION for Leave to Appeal Pursuant to 28 U.S.C. § 1292(b) [CORRECTED] ) filed byMeta Platforms, Inc.. (Morton, Phillip) (Filed on 6/22/2026) (Entered: 06/22/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67569326/748/kadrey-v-meta-platforms-inc/)
+
+### 📄 Doc #747 — 2026-06-18
+
+CLERK'S NOTICE PROVIDING ZOOM ACCESS AND REQUIRING ADVANCED REGISTRATION OF COUNSEL RE 7/1/2026 CASE MANAGEMENT CONFERENCE. Joint Case Management Statement due by 6/24/2026. Further Case Management Conference set for 7/1/2026 at 11:00 AM by Videoconference Only. This proceeding will be held via a Zoom webinar.Webinar Access: All counsel, members of the public, and media may access the webinar information at https://www.cand.uscourts.gov/vc Court Appearances: Advanced notice is required of counsel or parties who wish to be identified by the court as making an appearance or will be participating in the argument at the hearing. One list of names of all counsel appearing for all parties must be sent in one email to the CRD at vccrd@cand.uscourts.gov no later than Monday, June 29, 2026, by no later than 12:00PM.Civ LR 77-3(d). Persons granted access to court proceedings held by telephone or videoconference are reminded that photographing, recording, and rebroadcasting of court proceedings,  …(truncated)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67569326/747/kadrey-v-meta-platforms-inc/)
+
+### 📄 Doc #745 — 2026-06-18
+
+EXHIBITS re 744 Order on Administrative Motion to File Under Seal,, SABANOGLU EXHIBITS 8 AND 9 PURSUANT TO ORDER RE MOTION TO SEAL [DKT. 744] RE DKT. 722 filed byMeta Platforms, Inc.. (Attachments: # 1 Exhibit 8, # 2 Exhibit 9)(Related document(s) 744 ) (Morton, Phillip) (Filed on 6/18/2026) (Entered: 06/18/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67569326/745/2/kadrey-v-meta-platforms-inc/)
+
+### 📄 Doc #— — 2026-06-18
+
+Clerk's Notice AND ~Util - Teleconference Zoom
+
+### 📄 Doc #— — 2026-06-18
+
+Amended Document (NOT Motion)
+
+### 📄 Doc #744 — 2026-06-12
+
+ORDER by Judge Thomas S. Hixson granting in part and denying in part 722 Administrative Motion to File Under Seal. The Court GRANTS the motion as to Sabanoglu Exhibits 1-7 and 10-12 but DENIES it as to Sabanoglu Exhibits 8 and 9. The Court ORDERS Meta to file Sabanoglu Exhibits 8 and 9 unredacted in the public record within five days. (tshlc1, COURT STAFF) (Filed on 6/12/2026)Any non-CM/ECF Participants have been served by First Class Mail to the addresses of record listed on the Notice of Electronic Filing (NEF) (Entered: 06/12/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67569326/744/kadrey-v-meta-platforms-inc/)
+
+### 📄 Doc #743 — 2026-06-12
+
+Discovery Order re: 721 Joint Discovery Letter Brief re Crime Fraud Exception. Signed by Judge Thomas S. Hixson on 6/12/2026. (tshlc1, COURT STAFF) (Filed on 6/12/2026)Any non-CM/ECF Participants have been served by First Class Mail to the addresses of record listed on the Notice of Electronic Filing (NEF) (Entered: 06/12/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67569326/743/kadrey-v-meta-platforms-inc/)
+
+### 📄 Doc #742 — 2026-06-09
+
+TRANSCRIPT ORDER for proceedings held on 5/22/2026 before Judge Vince Chhabria for Recorded Proceeding - San Francisco. (mkl, COURT STAFF) (Filed on 6/9/2026) (Entered: 06/09/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67569326/742/kadrey-v-meta-platforms-inc/)
+
+### 📄 Doc #740 — 2026-06-09
+
+ERRATA re Dkt. 739 by Ta-Nehisi Coates, Junot Diaz, Christopher Farnsworth, Christopher Golden, Andrew Sean Greer, David Henry Hwang, Richard Kadrey, Matthew Klam, Laura Lippman, Sarah Silverman, Rachel Louise Snyder, Lysa TerKeurst, Jacqueline Woodson. (Pritt, Maxwell) (Filed on 6/9/2026) (Entered: 06/09/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67569326/740/kadrey-v-meta-platforms-inc/)
+
+### 📄 Doc #741 — 2026-06-09
+
+MOTION for Leave to Appeal Pursuant to 28 U.S.C. § 1292(b) [CORRECTED] filed by Ta-Nehisi Coates, Junot Diaz, Christopher Farnsworth, Christopher Golden, Andrew Sean Greer, David Henry Hwang, Richard Kadrey, Matthew Klam, Laura Lippman, Sarah Silverman, Rachel Louise Snyder, Lysa TerKeurst, Jacqueline Woodson. Motion Hearing set for 7/16/2026 10:00 AM before Judge Vince Chhabria. Responses due by 6/22/2026. Replies due by 6/29/2026. (Pritt, Maxwell) (Filed on 6/9/2026) (Entered: 06/09/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67569326/741/kadrey-v-meta-platforms-inc/)
+
+### 📄 Doc #739 — 2026-06-08
+
+MOTION for Leave to Appeal Pursuant to 28 U.S.C. § 1292(b) filed by Ta-Nehisi Coates, Junot Diaz, Christopher Farnsworth, Christopher Golden, Andrew Sean Greer, David Henry Hwang, Richard Kadrey, Matthew Klam, Laura Lippman, Sarah Silverman, Rachel Louise Snyder, Lysa TerKeurst, Jacqueline Woodson. Motion Hearing set for 7/16/2026 10:00 AM before Judge Vince Chhabria. Responses due by 6/22/2026. Replies due by 6/29/2026. (Attachments: # 1 Proposed Order)(Pritt, Maxwell) (Filed on 6/8/2026) (Entered: 06/08/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67569326/739/1/kadrey-v-meta-platforms-inc/)
+
+### 📄 Doc #737 — 2026-06-02
+
+ORDER by Judge Thomas S. Hixson. The Court ORDERS the parties to lodge hard copy versions of ECF Nos. 721, 722 and 723 by June 5, 2026. Separately, the Court ORDERS Meta to submit a binder for in camera review of all the documents whose privileged status is the subject of the current challenge by June 5, 2026.(tshlc1, COURT STAFF) (Filed on 6/2/2026)Any non-CM/ECF Participants have been served by First Class Mail to the addresses of record listed on the Notice of Electronic Filing (NEF) (Entered: 06/02/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67569326/737/kadrey-v-meta-platforms-inc/)
+
+### 📄 Doc #736 — 2026-05-29
+
+Transcript of Proceedings held on 05/22/26, before Judge Vince Chhabria. Court Reporter/Transcriber Echo Reporting, Inc., telephone number echoreporting@yahoo.com. Tape Number: 11:10 - 12:07. Per General Order No. 59 and Judicial Conference policy, this transcript may be viewed only at the Clerk's Office public terminal or may be purchased through the Court Reporter/Transcriber until the deadline for the Release of Transcript Restriction. After that date it may be obtained through PACER. Any Notice of Intent to Request Redaction, if required, is due no later than 5 business days from date of this filing. (Re (67 in 3:25-cv-09579-VC) Transcript Order ) Redaction Request due 6/22/2026. Redacted Transcript Deadline set for 6/29/2026. Release of Transcript Restriction set for 8/27/2026. (Jauregui, Tara) (Filed on 5/29/2026) (Entered: 05/29/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67569326/736/kadrey-v-meta-platforms-inc/)
+
+### 📄 Doc #— — 2026-05-26
+
+Case Management Conference - Further AND ~Util - Set Hearings AND ~Util - Teleconference Zoom
+
+### 📄 Doc #746 — 2026-05-22
+
+AMENDED MINUTE ORDER: Minute Entry for proceedings held before Judge Vince Chhabria: Further case management conference held and recorded by Zoom videoconference on May 22, 2026. A further case management conference is set for August 7, 2026 at 10:00 a.m. by a Zoom videoconference.Further Case Management is also set for July 1, 2026 at 11:00AM by a Zoom videoconference. Joint Case Management Statement due by 6/24/2026. Amended complaint in 3:26-cv-03725-VC Carreyrou et al v. Meta Platforms, Inc. and 3:26-cv-02333-VC Chicken Soup for the Soul, LLC v. Meta Platforms Inc. due within 14 days. Deadline for supplemental initial disclosures, in 3:23-cv-03417-VC Kadrey et al v. Meta Platforms, Inc., due within 14 days. Zoom recording time 11:10-12:07 Attorneys for Entrepreneur Media: Moez Kaba/Lee Linderman. Attorneys for Meta: Karen Dunn/Jessica Phillips/Kyle Smith/Mark Weinstein/Phillip Morton/Anna StapletonWebinar Access: All counsel, members of the public, and media may access the webinar  …(truncated)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67569326/746/kadrey-v-meta-platforms-inc/)
+
+### 📄 Doc #735 — 2026-05-22
+
+Minute Entry for proceedings held before Judge Vince Chhabria: Further case management conference held and recorded by Zoom videoconference on May 22, 2026. Parties are ordered to supplement their initial disclosures by June 5, 2026. A further case management conference is set for August 7, 2026 at 10:00 a.m. by a Zoom videoconference.Zoom recording time 11:10-12:07Attorneys for Kadrey Plaintiffs: Maxwell V. Pritt/Jesse Panuccio/Rahcel Geman/Nada DjordjevicAttorneys for Meta: Karen Dunn/Jessica Phillips/Kyle Smith/Mark Weinstein/Phillip Morton/Anna Stapleton Webinar Access: All counsel, members of the public, and media may access the webinar information at https://www.cand.uscourts.gov/vc Court Appearances: Advanced notice is required of counsel or parties who wish to be identified by the court as making an appearance or will be participating in the argument at the hearing. One list of names of all counsel appearing for all parties must be sent in one email to the CRD at vccrd@cand.usc …(truncated)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67569326/735/kadrey-v-meta-platforms-inc/)
+
+### 📄 Doc #734 — 2026-05-22
+
+TRANSCRIPT ORDER for proceedings held on 05/22/2026 before Judge Vince Chhabria by BCP Literary, Inc., Ta-Nehisi Coates, Daring Greatly Corporation, Junot Diaz, Eleven Eleven O' Clock Corporation, Christopher Farnsworth, Christopher Golden, Andrew Sean Greer, David Henry Hwang, Richard Kadrey, Matthew Klam, Laura Lippman, Sarah Silverman, Rachel Louise Snyder, Lysa TerKeurst, Jacqueline Woodson, for Recorded Proceeding - San Francisco. (Stein, Joshua) (Filed on 5/22/2026) (Entered: 05/22/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67569326/734/kadrey-v-meta-platforms-inc/)
+
+### 📄 Doc #733 — 2026-05-22
+
+TRANSCRIPT ORDER for proceedings held on 05/22/2026 before Judge Vince Chhabria by Meta Platforms, Inc., for Recorded Proceeding - San Francisco. (Stameshkin, Elizabeth) (Filed on 5/22/2026) (Entered: 05/22/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67569326/733/kadrey-v-meta-platforms-inc/)
+
+### 📄 Doc #732 — 2026-05-15
+
+JOINT CASE MANAGEMENT STATEMENT filed by BCP Literary, Inc., Ta-Nehisi Coates, Daring Greatly Corporation, Junot Diaz, Eleven Eleven O' Clock Corporation, Christopher Farnsworth, Christopher Golden, Andrew Sean Greer, David Henry Hwang, Richard Kadrey, Matthew Klam, Laura Lippman, Sarah Silverman, Rachel Louise Snyder, Lysa TerKeurst, Jacqueline Woodson. (Attachments: # 1 Appendix 1, # 2 Appendix 2)(Pritt, Maxwell) (Filed on 5/15/2026) (Entered: 05/15/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67569326/732/2/kadrey-v-meta-platforms-inc/)
+
+### 📄 Doc #731 — 2026-05-12
+
+TRANSCRIPT ORDER for proceedings held on May 8, 2026 before Judge Vince Chhabria for Court Reporter Marla Knox (Knox, Marla) (Filed on 5/12/2026) (Entered: 05/12/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67569326/731/kadrey-v-meta-platforms-inc/)
+
+### 📄 Doc #730 — 2026-05-11
+
+ORDER RELATING CASES: 23-cv-03417-VC, 26-cv-02333-VC, 26-cv-03725-PCP, 26-cv-04053-JST. Signed by Judge Vince Chhabria on 5/11/2026. (bxs, COURT STAFF) (Filed on 5/11/2026)Any non-CM/ECF Participants have been served by First Class Mail to the addresses of record listed on the Notice of Electronic Filing (NEF) (Entered: 05/11/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67569326/730/kadrey-v-meta-platforms-inc/)
+
+### 📄 Doc #729 — 2026-05-07
+
+EXHIBITS re 728 MOTION to Relate Case filed byCognella, Inc.. (Attachments: # 1 Exhibit Complaint in Cognella, Inc. v. Meta Platforms, Inc.)(Related document(s) 728 ) (Rigali, Christopher) (Filed on 5/7/2026) (Entered: 05/07/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67569326/729/1/kadrey-v-meta-platforms-inc/)
+
+### 📄 Doc #728 — 2026-05-07
+
+MOTION to Relate Case filed by Cognella, Inc.. (Attachments: # 1 Declaration Declaration of Christopher M. Rigali, # 2 Proposed Order)(Rigali, Christopher) (Filed on 5/7/2026) (Entered: 05/07/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67569326/728/2/kadrey-v-meta-platforms-inc/)
+
+### 📄 Doc #727 — 2026-05-06
+
+Notice of Motion and Motion for Leave to File Fourth Amended Consolidated Complaint re Public Refiling of Dkt. 659 filed byTa-Nehisi Coates, Junot Diaz, Christopher Farnsworth, Christopher Golden, Andrew Sean Greer, David Henry Hwang, Richard Kadrey, Matthew Klam, Laura Lippman, Sarah Silverman, Rachel Louise Snyder, Lysa TerKeurst, Jacqueline Woodson. (Attachments: # 1 Declaration of David R. Choffnes)(Pritt, Maxwell) (Filed on 5/6/2026) Modified on 5/7/2026 (amf, COURT STAFF). (Entered: 05/06/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67569326/727/1/kadrey-v-meta-platforms-inc/)
+
+### 📄 Doc #726 — 2026-05-05
+
+MOTION to Relate Case filed by Meta Platforms, Inc.. (Attachments: # 1 Declaration of Jessica Phillips ISO Motion, # 2 Proposed Order)(Dunn, Karen) (Filed on 5/5/2026) (Entered: 05/05/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67569326/726/2/kadrey-v-meta-platforms-inc/)
+
+### 📄 Doc #725 — 2026-05-04
+
+NOTICE by Meta Platforms, Inc. re 722 Administrative Motion to File Under Seal re Dkt. 721 of Partial Withdrawal (Stameshkin, Elizabeth) (Filed on 5/4/2026) (Entered: 05/04/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67569326/725/kadrey-v-meta-platforms-inc/)
+
+### 📄 Doc #724 — 2026-05-04
+
+ORDER by Judge Thomas S. Hixson Granting 720 STIPULATION RE: FILING OF ENLARGED DISCOVERY LETTER BRIEF. (amg, COURT STAFF) (Filed on 5/4/2026) (Entered: 05/04/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67569326/724/kadrey-v-meta-platforms-inc/)
+
+### 📄 Doc #723 — 2026-05-04
+
+OPPOSITION/RESPONSE (re 722 Administrative Motion to File Under Seal re Dkt. 721 ) filed byBCP Literary, Inc., Ta-Nehisi Coates, Daring Greatly Corporation, Junot Diaz, Eleven Eleven O' Clock Corporation, Christopher Farnsworth, Christopher Golden, Andrew Sean Greer, David Henry Hwang, Richard Kadrey, Matthew Klam, Laura Lippman, Sarah Silverman, Rachel Louise Snyder, Lysa TerKeurst, Jacqueline Woodson. (Stein, Joshua) (Filed on 5/4/2026) (Entered: 05/04/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67569326/723/kadrey-v-meta-platforms-inc/)
+
+### 📄 Doc #721 — 2026-05-01
+
+Joint Discovery Letter Brief re Crime Fraud Exception filed by BCP Literary, Inc., Ta-Nehisi Coates, Daring Greatly Corporation, Junot Diaz, Eleven Eleven O' Clock Corporation, Christopher Farnsworth, Christopher Golden, Andrew Sean Greer, David Henry Hwang, Richard Kadrey, Matthew Klam, Laura Lippman, Sarah Silverman, Rachel Louise Snyder, Lysa TerKeurst, Jacqueline Woodson. (Attachments: # 1 Appendix A (Redacted), # 2 Exhibit A (Redacted), # 3 Exhibit B, # 4 Exhibit C (Redacted), # 5 Exhibit D (Redacted), # 6 Exhibit E (Redacted), # 7 Exhibit F (Redacted), # 8 Exhibit G (Redacted), # 9 Exhibit H (Redacted), # 10 Exhibit I (Redacted), # 11 Exhibit J, # 12 Exhibit K (Redacted), # 13 Exhibit L (Redacted), # 14 Exhibit M (Redacted), # 15 Exhibit N (Redacted))(Stein, Joshua) (Filed on 5/1/2026) (Entered: 05/01/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67569326/721/15/kadrey-v-meta-platforms-inc/)
+
+### 📄 Doc #722 — 2026-05-01
+
+Administrative Motion to File Under Seal re Dkt. 721 filed by Meta Platforms, Inc.. (Attachments: # 1 Declaration of K. Sabanoglu, # 2 Proposed Order, # 3 Exhibit A-1 to Motion to File Under Seal, # 4 Exhibit 1 to Sabanoglu Declaration, # 5 Exhibit 2 to Sabanoglu Declaration, # 6 Exhibit 3 to Sabanoglu Declaration, # 7 Exhibit 4 to Sabanoglu Declaration, # 8 Exhibit 5 to Sabanoglu Declaration, # 9 Exhibit 6 to Sabanoglu Declaration, # 10 Exhibit 7 to Sabanoglu Declaration, # 11 Exhibit 8 to Sabanoglu Declaration, # 12 Exhibit 9 to Sabanoglu Declaration, # 13 Exhibit 10 to Sabanoglu Declaration, # 14 Exhibit 11 to Sabanoglu Declaration, # 15 Exhibit 12 to Sabanoglu Declaration)(Morton, Phillip) (Filed on 5/1/2026) (Entered: 05/01/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67569326/722/3/kadrey-v-meta-platforms-inc/)
+
+### 📄 Doc #720 — 2026-05-01
+
+STIPULATION WITH PROPOSED ORDER to Enlarge Page Limit for Parties Joint Letter Brief filed by BCP Literary, Inc., Ta-Nehisi Coates, Daring Greatly Corporation, Junot Diaz, Eleven Eleven O' Clock Corporation, Christopher Farnsworth, Christopher Golden, Andrew Sean Greer, David Henry Hwang, Richard Kadrey, Matthew Klam, Laura Lippman, Sarah Silverman, Rachel Louise Snyder, Lysa TerKeurst, Jacqueline Woodson. (Stein, Joshua) (Filed on 5/1/2026) (Entered: 05/01/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67569326/720/kadrey-v-meta-platforms-inc/)
 
 ### 📄 Doc #719 — 2026-04-21
 
@@ -172,17 +840,17 @@ Order Granting 658 Motion for Leave to File Fourth Amended Complaint; Denying 66
 
 [CourtListener 連結](https://www.courtlistener.com/docket/67569326/700/kadrey-v-meta-platforms-inc/)
 
+### 📄 Doc #699 — 2026-03-24
+
+Administrative Motion to File Under Seal filed by Meta Platforms, Inc.. (Attachments: # 1 Declaration Michelle Woodhouse, # 2 Proposed Order, # 3 Exhibit 1)(Morton, Phillip) (Filed on 3/24/2026) (Entered: 03/24/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67569326/699/2/kadrey-v-meta-platforms-inc/)
+
 ### 📄 Doc #698 — 2026-03-24
 
 RESPONSE re 697 Order by Meta Platforms, Inc.. (Attachments: # 1 Exhibit D)(Morton, Phillip) (Filed on 3/24/2026) (Entered: 03/24/2026)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/67569326/698/1/kadrey-v-meta-platforms-inc/)
-
-### 📄 Doc #699 — 2026-03-24
-
-Administrative Motion to File Under Seal filed by Meta Platforms, Inc.. (Attachments: # 1 Declaration Michelle Woodhouse, # 2 Proposed Order, # 3 Exhibit 1)(Morton, Phillip) (Filed on 3/24/2026) (Entered: 03/24/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/67569326/699/kadrey-v-meta-platforms-inc/)
 
 ### 📄 Doc #697 — 2026-03-23
 
@@ -406,17 +1074,17 @@ STIPULATION WITH PROPOSED ORDER Regarding Case Schedule filed by Meta Platforms,
 
 [CourtListener 連結](https://www.courtlistener.com/docket/67569326/660/kadrey-v-meta-platforms-inc/)
 
+### 📄 Doc #659 — 2025-12-11
+
+Administrative Motion to Consider Whether Another Party's Material Should Be Sealed re Motion for Leave to File Fourth Amended Complaint filed by Ta-Nehisi Coates, Junot Diaz, Christopher Farnsworth, Christopher Golden, Andrew Sean Greer, David Henry Hwang, Richard Kadrey, Matthew Klam, Laura Lippman, Sarah Silverman, Rachel Louise Snyder, Lysa TerKeurst, Jacqueline Woodson. (Attachments: # 1 Motion for Leave to Amend, # 2 Declaration of David R. Choffnes, # 3 Exhibit 1, # 4 Exhibit 2, # 5 Exhibit 3, # 6 Exhibit 4, # 7 Exhibit 5, # 8 Exhibit 9, # 9 Exhibit 10, # 10 Exhibit 11, # 11 Exhibit 12, # 12 Exhibit 13, # 13 Appendix A - Proposed Fourth Amended Complaint, # 14 Appendix B - Redline, # 15 Proposed Order)(Pritt, Maxwell) (Filed on 12/11/2025) (Entered: 12/11/2025)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67569326/659/15/kadrey-v-meta-platforms-inc/)
+
 ### 📄 Doc #658 — 2025-12-11
 
 MOTION to Amend/Correct re Leave to File Fourth Amended Complaint filed by Ta-Nehisi Coates, Junot Diaz, Christopher Farnsworth, Christopher Golden, Andrew Sean Greer, David Henry Hwang, Richard Kadrey, Matthew Klam, Laura Lippman, Sarah Silverman, Rachel Louise Snyder, Lysa TerKeurst, Jacqueline Woodson. Motion Hearing set for 1/15/2026 10:00 AM in San Francisco, Courtroom 04, 17th Floor before Judge Vince Chhabria. Responses due by 12/26/2025. Replies due by 1/2/2026. (Attachments: # 1 Declaration of David R. Choffnes, # 2 Declaration of Joshua M. Stein, # 3 Exhibit 1 [Filed Under Seal], # 4 Exhibit 2 [Filed Under Seal], # 5 Exhibit 3 [Filed Under Seal], # 6 Exhibit 4 [Filed Under Seal], # 7 Exhibit 5 [Filed Under Seal], # 8 Exhibit 6, # 9 Exhibit 7, # 10 Exhibit 8, # 11 Exhibit 9 [Filed Under Seal], # 12 Exhibit 10 [Filed Under Seal], # 13 Exhibit 11 [Filed Under Seal], # 14 Exhibit 12 [Filed Under Seal], # 15 Exhibit 13 [Filed Under Seal], # 16 Appendix A, # 17 Appendix B, # 18 Pro …(truncated)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/67569326/658/18/kadrey-v-meta-platforms-inc/)
-
-### 📄 Doc #659 — 2025-12-11
-
-Administrative Motion to Consider Whether Another Party's Material Should Be Sealed re Motion for Leave to File Fourth Amended Complaint filed by Ta-Nehisi Coates, Junot Diaz, Christopher Farnsworth, Christopher Golden, Andrew Sean Greer, David Henry Hwang, Richard Kadrey, Matthew Klam, Laura Lippman, Sarah Silverman, Rachel Louise Snyder, Lysa TerKeurst, Jacqueline Woodson. (Attachments: # 1 Motion for Leave to Amend, # 2 Declaration of David R. Choffnes, # 3 Exhibit 1, # 4 Exhibit 2, # 5 Exhibit 3, # 6 Exhibit 4, # 7 Exhibit 5, # 8 Exhibit 9, # 9 Exhibit 10, # 10 Exhibit 11, # 11 Exhibit 12, # 12 Exhibit 13, # 13 Appendix A - Proposed Fourth Amended Complaint, # 14 Appendix B - Redline, # 15 Proposed Order)(Pritt, Maxwell) (Filed on 12/11/2025) (Entered: 12/11/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/67569326/659/kadrey-v-meta-platforms-inc/)
 
 ### 📄 Doc #— — 2025-12-09
 
@@ -432,153 +1100,15 @@ CLERK'S NOTICE SCHEDULING FURTHER CASE MANAGEMENT CONFERENCE. Joint Case Managem
 
 Clerk's Notice AND ~Util - Teleconference Zoom
 
-### 📄 Doc #655 — 2025-11-25
-
-ORDER RELATING CASES: 23-cv-03417-VC & 25-cv-09579-BLF. Signed by Judge Vince Chhabria on 11/25/2025. (bxs, COURT STAFF) (Filed on 11/25/2025) (Entered: 11/25/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/67569326/655/kadrey-v-meta-platforms-inc/)
-
-### 📄 Doc #654 — 2025-11-20
-
-Brief re Public Refiling of Dkt. 635 (Administrative Motion Requesting Leave to Obtain Limited Additional Discovery) filed byTa-Nehisi Coates, Junot Diaz, Christopher Farnsworth, Christopher Golden, Andrew Sean Greer, David Henry Hwang, Richard Kadrey, Matthew Klam, Laura Lippman, Sarah Silverman, Rachel Louise Snyder, Lysa TerKeurst, Jacqueline Woodson. (Attachments: # 1 Declaration David R. Choffnes, # 2 Declaration Maxwell V. Pritt, # 3 Appendix A, # 4 Appendix B, # 5 Appendix C, # 6 Exhibit A, # 7 Exhibit B, # 8 Exhibit C, # 9 Exhibit D, # 10 Exhibit E, # 11 Exhibit F, # 12 Exhibit G, # 13 Exhibit H, # 14 Exhibit I, # 15 Exhibit J, # 16 Exhibit K, # 17 Exhibit L, # 18 Exhibit M, # 19 Exhibit N, # 20 Exhibit O, # 21 Exhibit P, # 22 Exhibit Q, # 23 Exhibit R, # 24 Exhibit S, # 25 Exhibit T, # 26 Exhibit U)(Pritt, Maxwell) (Filed on 11/20/2025) (Entered: 11/20/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/67569326/654/26/kadrey-v-meta-platforms-inc/)
-
-### 📄 Doc #653 — 2025-11-19
-
-Letter from Kathleen R. Hartnett to Court. (Hartnett, Kathleen) (Filed on 11/19/2025) (Entered: 11/19/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/67569326/653/kadrey-v-meta-platforms-inc/)
-
-### 📄 Doc #650 — 2025-11-18
-
-ADMINISTRATIVE MOTION to Relate Case Entrepreneur Media, LLC v. Meta Platforms, LLC, 3:25-CV-3579-BLF filed by Entrepreneur Media LLC. Responses due by 11/24/2025. (Attachments: # 1 Declaration of Moez Kaba ISO Administrative Motion to Relate Case, # 2 Proposed Order)(Kaba, Moez) (Filed on 11/18/2025) (Entered: 11/18/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/67569326/650/2/kadrey-v-meta-platforms-inc/)
-
-### 📄 Doc #652 — 2025-11-18
-
-CORRECTION OF DOCKET # 650, [650-1] and [650-2Statement of Non-Opposition re 651 ADMINISTRATIVE MOTION to Relate Case Entrepreneur Media, LLC v. Meta Platforms, LLC, 5:25-cv-09579-BLF filed by Ta-Nehisi Coates, Junot Diaz, Christopher Farnsworth, Christopher Golden, Andrew Sean Greer, David Henry Hwang, Richard Kadrey, Matthew Klam, Laura Lippman, Sarah Silverman, Rachel Louise Snyder, Lysa TerKeurst, Jacqueline Woodson. (Related document(s) 651 ) (Pritt, Maxwell) (Filed on 11/18/2025) Modified on 11/21/2025 (kmg, COURT STAFF). (Entered: 11/18/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/67569326/652/kadrey-v-meta-platforms-inc/)
-
-### 📄 Doc #651 — 2025-11-18
-
-(CORRECTION OF DOCKET # 650, [650-1] and [650-2]) filed by Entrepreneur Media LLC. ADMINISTRATIVE MOTION to Relate Case Entrepreneur Media, LLC v. Meta Platforms, LLC, 5:25-cv-09579-BLF Responses due by 11/24/2025. (Attachments: # 1 Declaration of Moez Kaba ISO Corrected Administrative Motion to Relate Case, # 2 Proposed Order)(Kaba, Moez) (Filed on 11/18/2025) Modified on 11/21/2025 (kmg, COURT STAFF). (Entered: 11/18/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/67569326/651/2/kadrey-v-meta-platforms-inc/)
-
-### 📄 Doc #649 — 2025-11-14
-
-Transcript of Proceedings held on November 10, 2025, before Judge Vince Chhabria. Court Reporter Kendra Steppler, email at kendra_steppler@cand.uscourts.gov. Per General Order No. 59 and Judicial Conference policy, this transcript may be viewed only at the Clerk's Office public terminal or may be purchased through the Court Reporter until the deadline for the Release of Transcript Restriction. After that date, it may be obtained through PACER. Any Notice of Intent to Request Redaction, if required, is due no later than 5 business days from date of this filing. (Re 645 Transcript Order, ) Release of Transcript Restriction set for 2/12/2026. (Related documents(s) 645 ) (Steppler, Kendra) (Filed on 11/14/2025) (Entered: 11/14/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/67569326/649/kadrey-v-meta-platforms-inc/)
-
-### 📄 Doc #648 — 2025-11-13
-
-TRANSCRIPT ORDER for proceedings held on 11/10/2025 before Judge Vince Chhabria by Meta Platforms, Inc., for Court Reporter Kendra Steppler. (Stameshkin, Elizabeth) (Filed on 11/13/2025) (Entered: 11/13/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/67569326/648/kadrey-v-meta-platforms-inc/)
-
-### 📄 Doc #647 — 2025-11-13
-
-Order Granting Plaintiffs' Motion for Additional Discovery; Order re Sealing. Signed by Judge Vince Chhabria on 11/13/25. (vclc2, COURT STAFF) (Filed on 11/13/2025) (Entered: 11/13/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/67569326/647/kadrey-v-meta-platforms-inc/)
-
-### 📄 Doc #646 — 2025-11-11
-
-Letter from Counsel for Meta Regarding Docket 644. (Hartnett, Kathleen) (Filed on 11/11/2025) (Entered: 11/11/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/67569326/646/kadrey-v-meta-platforms-inc/)
-
-### 📄 Doc #644 — 2025-11-11
-
-Letter from Plaintiffs' Interim Lead Counsel Regarding Dkt. 635 . (Attachments: # 1 Exhibit 1)(Pritt, Maxwell) (Filed on 11/11/2025) (Entered: 11/11/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/67569326/644/1/kadrey-v-meta-platforms-inc/)
-
-### 📄 Doc #645 — 2025-11-11
-
-TRANSCRIPT ORDER for proceedings held on 11/10/2025 before Judge Vince Chhabria by Ta-Nehisi Coates, Junot Diaz, Christopher Farnsworth, Christopher Golden, Andrew Sean Greer, David Henry Hwang, Richard Kadrey, Matthew Klam, Laura Lippman, Sarah Silverman, Rachel Louise Snyder, Lysa TerKeurst, Jacqueline Woodson, for Court Reporter Kendra Steppler. (Stein, Joshua) (Filed on 11/11/2025) (Entered: 11/11/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/67569326/645/kadrey-v-meta-platforms-inc/)
-
-### 📄 Doc #643 — 2025-11-10
-
-Minute Entry for proceedings held before Judge Vince Chhabria: Motion Hearing held on 11/10/2025 re 635 ADMINISTRATIVE MOTION Requesting Leave to Obtain Limited Additional Discovery filed by Christopher Farnsworth, Sarah Silverman, Junot Diaz, Christopher Golden, Laura Lippman, Lysa TerKeurst, Matthew Klam, Ta-Nehisi Coates, Andrew Sean Greer, Jacqueline Woodson, Richard Kadrey, David Henry Hwang, Rachel Louise Snyder. Oral arguments made and heard. Court to issue written ruling. Total Time in Court: 59 minutes. Court Reporter: Kendra Steppler. Plaintiff Attorney: Maxwell Pritt, Daniel Hutchinson, Margaux Poueymirou. Defendant Attorney: Kathleen Hartnett, Bobby Ghajar, Anna Stapleton, Phillip Morton, Elizabeth Stameshkin. (This is a text-only entry generated by the court. There is no document associated with this entry.) (bxs, COURT STAFF) (Date Filed: 11/10/2025) (Entered: 11/10/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/67569326/643/kadrey-v-meta-platforms-inc/)
-
-### 📄 Doc #— — 2025-11-10
-
-Motion Hearing
-
-### 📄 Doc #642 — 2025-11-07
-
-CLERK'S NOTICE ADVANCING MOTION HEARING RE 635 . 635 ADMINISTRATIVE MOTION Requesting Leave to Obtain Limited Additional Discovery Hearing advanced to 11/10/2025 at 02:00 PM in San Francisco, Courtroom 04, 17th Floor before Judge Vince Chhabria. (This is a text-only entry generated by the court. There is no document associated with this entry.)(bxs, COURT STAFF) (Filed on 11/7/2025) (Entered: 11/07/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/67569326/642/kadrey-v-meta-platforms-inc/)
-
-### 📄 Doc #— — 2025-11-07
-
-Clerk's Notice AND ~Util - Set Motion and Deadlines/Hearings
-
-### 📄 Doc #641 — 2025-11-06
-
-Order by Judge Vince Chhabria granting 638 Stipulation Modifying Scheduling Order. Designation of Experts due by 12/19/2025. Rebuttal Reports due by 1/22/2026. Expert Depositions Deadline 02/06/2026. Brief #1 due 2/12/2026. Brief #2 due 3/12/2026. Brief #3 due 4/2/2026. Brief #4 due 4/16/2026. Motion Hearing reset to 4/30/2026 at 10:00 AM in San Francisco, Courtroom 04, 17th Floor before Judge Vince Chhabria. (bxs, COURT STAFF) (Filed on 11/6/2025) (Entered: 11/06/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/67569326/641/kadrey-v-meta-platforms-inc/)
-
-### 📄 Doc #640 — 2025-11-06
-
-CLERK'S NOTICE SCHEDULING MOTION HEARING RE 635 Administrative Motion Requesting Leave to Obtain Limited Additional Discovery. Motion Hearing set for 11/12/2025 at 10:00 AM in San Francisco, Courtroom 04, 17th Floor before Judge Vince Chhabria. (This is a text-only entry generated by the court. There is no document associated with this entry.)(bxs, COURT STAFF) (Filed on 11/6/2025) (Entered: 11/06/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/67569326/640/kadrey-v-meta-platforms-inc/)
-
-### 📄 Doc #— — 2025-11-06
-
-Clerk's Notice AND ~Util - Set Motion and Deadlines/Hearings
-
-### 📄 Doc #639 — 2025-11-05
-
-Declaration of Michelle Woodhouse in Support of 636 Administrative Motion to Consider Whether Another Party's Material Should Be Sealed re Plaintiffs' Administrative Motion Requesting Leave to Obtain Limited Additional Discovery filed byMeta Platforms, Inc.. (Attachments: # 1 Exhibit 1, # 2 Exhibit 2, # 3 Exhibit 3, # 4 Exhibit 4)(Related document(s) 636 ) (Stameshkin, Elizabeth) (Filed on 11/5/2025) (Entered: 11/05/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/67569326/639/4/kadrey-v-meta-platforms-inc/)
-
-### 📄 Doc #638 — 2025-11-05
-
-STIPULATION WITH PROPOSED ORDER re 628 Order, Modifying Scheduling Order filed by Ta-Nehisi Coates, Junot Diaz, Christopher Farnsworth, Christopher Golden, Andrew Sean Greer, David Henry Hwang, Richard Kadrey, Matthew Klam, Laura Lippman, Sarah Silverman, Rachel Louise Snyder, Lysa TerKeurst, Jacqueline Woodson. (Pritt, Maxwell) (Filed on 11/5/2025) (Entered: 11/05/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/67569326/638/kadrey-v-meta-platforms-inc/)
-
-### 📄 Doc #637 — 2025-11-03
-
-OPPOSITION/RESPONSE (re 635 ADMINISTRATIVE MOTION Requesting Leave to Obtain Limited Additional Discovery ) filed byMeta Platforms, Inc.. (Attachments: # 1 Declaration Elizabeth L. Stameshkin, # 2 Exhibit 1, # 3 Proposed Order)(Hartnett, Kathleen) (Filed on 11/3/2025) (Entered: 11/03/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/67569326/637/3/kadrey-v-meta-platforms-inc/)
-
-### 📄 Doc #636 — 2025-10-29
-
-Administrative Motion to Consider Whether Another Party's Material Should Be Sealed re Plaintiffs' Administrative Motion Requesting Leave to Obtain Limited Additional Discovery filed by Ta-Nehisi Coates, Junot Diaz, Christopher Farnsworth, Christopher Golden, Andrew Sean Greer, David Henry Hwang, Richard Kadrey, Matthew Klam, Laura Lippman, Sarah Silverman, Rachel Louise Snyder, Lysa TerKeurst, Jacqueline Woodson. (Attachments: # 1 Administrative Motion Requesting Leave to Obtain Limited Additional Discovery, # 2 Declaration of David R. Choffnes, # 3 Appendix A, # 4 Appendix B, # 5 Appendix C, # 6 Exhibit A, # 7 Exhibit B, # 8 Exhibit C, # 9 Exhibit D, # 10 Exhibit E, # 11 Exhibit G, # 12 Exhibit I, # 13 Exhibit J, # 14 Exhibit K, # 15 Exhibit L, # 16 Exhibit M, # 17 Exhibit P, # 18 Exhibit Q, # 19 Exhibit R, # 20 Exhibit S, # 21 Exhibit T, # 22 Exhibit U, # 23 Proposed Order)(Pritt, Maxwell) (Filed on 10/29/2025) (Entered: 10/29/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/67569326/636/23/kadrey-v-meta-platforms-inc/)
-
-### 📄 Doc #635 — 2025-10-29
-
-ADMINISTRATIVE MOTION Requesting Leave to Obtain Limited Additional Discovery filed by Ta-Nehisi Coates, Junot Diaz, Christopher Farnsworth, Christopher Golden, Andrew Sean Greer, David Henry Hwang, Richard Kadrey, Matthew Klam, Laura Lippman, Sarah Silverman, Rachel Louise Snyder, Lysa TerKeurst, Jacqueline Woodson. Responses due by 11/3/2025. (Attachments: # 1 Declaration of David R. Choffnes, # 2 Declaration of Maxwell V. Pritt, # 3 Appendix A, # 4 Appendix B, # 5 Appendix C, # 6 Exhibit A, # 7 Exhibit B, # 8 Exhibit C, # 9 Exhibit D, # 10 Exhibit E, # 11 Exhibit F, # 12 Exhibit G, # 13 Exhibit H, # 14 Exhibit I, # 15 Exhibit J, # 16 Exhibit K, # 17 Exhibit L, # 18 Exhibit M, # 19 Exhibit N, # 20 Exhibit O, # 21 Exhibit P, # 22 Exhibit Q, # 23 Exhibit R, # 24 Exhibit S, # 25 Exhibit T, # 26 Exhibit U, # 27 Proposed Order)(Pritt, Maxwell) (Filed on 10/29/2025) (Entered: 10/29/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/67569326/635/27/kadrey-v-meta-platforms-inc/)
-
-### 📄 Doc #634 — 2025-10-10
-
-ORDER. The Court apologizes for missing the stipulation to toll the deadline to seek relief from Judge Hixson's order. The Court would like Meta to file a response to the motion for relief, but it may make sense to wait for Meta to complete its investigation of the Strike Three issue. The parties should confer and submit another stipulation about the schedule for adjudication of the plaintiffs' motion for relief. Signed by Judge Vince Chhabria on 10/10/25. (This is a text-only entry generated by the court. There is no document associated with this entry.) (vclc2, COURT STAFF) (Filed on 10/10/2025) (Entered: 10/10/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/67569326/634/kadrey-v-meta-platforms-inc/)
-
 <details>
-<summary>已過濾的 6 筆程序性 entries（點擊展開）</summary>
+<summary>已過濾的 12 筆程序性 entries（點擊展開）</summary>
 
+- **Doc #819** (2026-08-20): Order by Judge Vince Chhabria granting 818 Motion for Pro Hac Vice as to Isha Agarwal. (bxs, COURT STAFF) (Filed on 8/20/2026)Any non-CM/ECF Participants have been served by First Class Mail to the ad…
+- **Doc #818** (2026-08-20): MOTION for leave to appear in Pro Hac Vice ( Filing fee $ 328, receipt number ACANDC-22363265.) filed by Meta Platforms, Inc.. (Agarwal, Isha) (Filed on 8/20/2026) (Entered: 08/20/2026)
+- **Doc #754** (2026-06-29): MOTION for leave to appear in Pro Hac Vice ( Filing fee $ 328, receipt number ACANDC-22152605.) filed by BCP Literary, Inc., Ta-Nehisi Coates, Daring Greatly Corporation, Junot Diaz, Eleven Eleven O' …
+- **Doc #755** (2026-06-29): NOTICE of Appearance filed by Jake Glendenning on behalf of BCP Literary, Inc., Ta-Nehisi Coates, Daring Greatly Corporation, Junot Diaz, Eleven Eleven O' Clock Corporation, Christopher Farnsworth, Ch…
+- **Doc #756** (2026-06-29): Order by Judge Vince Chhabria granting 754 Motion for Pro Hac Vice as to Annabel Weinbach. (bxs, COURT STAFF) (Filed on 6/29/2026)Any non-CM/ECF Participants have been served by First Class Mail to th…
+- **Doc #738** (2026-06-05): NOTICE of Change of Address by Angela Dunning (Dunning, Angela) (Filed on 6/5/2026) (Entered: 06/05/2026)
 - **Doc #710** (2026-04-10): Order by Judge Vince Chhabria granting 704 Motion for Pro Hac Vice as to Sean Petterson. (bxs, COURT STAFF) (Filed on 4/10/2026) (Entered: 04/10/2026)
 - **Doc #704** (2026-04-03): MOTION for leave to appear in Pro Hac Vice ( Filing fee $ 328, receipt number ACANDC-21830568.) filed by Christopher Farnsworth. (Attachments: # 1 Certificate of Good Standing for Sean A. Petterson)(P…
 - **Doc #693** (2026-03-04): NOTICE of Change of Address by Joseph R. Saveri Change of Firm Name and Address (Saveri, Joseph) (Filed on 3/4/2026) (Entered: 03/04/2026)
@@ -590,4 +1120,4 @@ ORDER. The Court apologizes for missing the stipulation to toll the deadline to 
 
 ---
 
-*產生時間：2026-04-27 03:22 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-09-01 01:35 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

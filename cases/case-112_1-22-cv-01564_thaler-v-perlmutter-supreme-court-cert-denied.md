@@ -1,6 +1,6 @@
 # Case 112 — THALER v. PERLMUTTER
 
-> 最後更新（CourtListener fetch）：2026-04-27 03:25 UTC
+> 最後更新（CourtListener fetch）：2026-09-01 01:42 UTC
 
 ---
 
@@ -25,16 +25,16 @@
 
 > Dashboard 卡片宣告：
 
-> - Court=D.D.C. → D.C. Circuit → U.S. Supreme Court
-> - Judge=Howell / D.C. Circuit / Supreme Court
+> - Court=D.D.C. 1:22-cv-01564 → D.C. Cir. 23-5233 → U.S. Supreme Court No. 25-449（cert 駁回）
+> - Judge=Beryl A. Howell（D.D.C. 原審）／D.C. Cir. panel: Millett、Wilkins、Rogers
 > - Status=dismissed
-> - Progress=2026 年 3 月 2 日，美國最高法院駁回上訴許可（certiorari petition）。最高法院的裁定確認了材料必須具有人類著作權才能受著作權保護的原則。值得注意的是，此裁定並未禁止人類有創意貢獻的 AI 輔助作品的著作權保護。瑟勒案明確聲明排除所有人類投入，因此不適用於混合創作的情形。
+> - Progress=2023/8/18 D.D.C. Howell 法官維持著作權局否准登記之處分，認人類著作為著作權保護之要件；Thaler 於 2023/10/11 提起上訴。 【2024/9/19】哥倫比亞特區巡迴上訴法院（D.C. Cir. 23-5233）言詞辯論，合議庭為 Millett、Wilkins、Rogers。 【2025/3/18】D.C. Cir. 維持原判，確認著作權法之人類著作要件，純 AI 生成且無任何人類創意投入之作品不得登記。 【2025/10/14】Thaler 向聯邦最高法院聲請移審（certiorari），案號 No. 25-449。 【2026/3/2】最高法院駁回移審聲請，D.C. Cir. 判決確定。惟本案效力限於「明確聲明排除所有人類投入」之情形，並未否定人類有創意貢獻之 AI 輔助作品之著作權保護，混合創作之界線仍未經上級審處理。
 
 **自動比對結果：**
 
-- ⚠️ Court 可能不一致：dashboard 寫「D.D.C. → D.C. Circuit → U.S. Supreme Court」，CourtListener 為「District of Columbia」
-- ✅ Judge 一致：dashboard 寫「Howell / D.C. Circuit / Supreme Court」，CourtListener 為「Beryl A. Howell」
-- ℹ️ Dashboard progress 內找不到【YYYY/M/D】格式日期；CourtListener 最後 entry: 2025-05-20
+- ⚠️ Court 可能不一致：dashboard 寫「D.D.C. 1:22-cv-01564 → D.C. Cir. 23-5233 → U.S. Supreme Court No. 25-449（cert 駁回）」，CourtListener 為「District of Columbia」
+- ✅ Judge 一致：dashboard 寫「Beryl A. Howell（D.D.C. 原審）／D.C. Cir. panel: Millett、Wilkins、Rogers」，CourtListener 為「Beryl A. Howell」
+- ✅ Dashboard progress 同步：dashboard 最新日期 2026-03-02，CourtListener 最後 entry 2025-05-20（dashboard 不落後）
 
 ## 3. Docket Entries（最新優先，已過濾程序性 entries）
 
@@ -236,4 +236,4 @@ COMPLAINT against SHIRA PERLMUTTER, THE UNITED STATES COPYRIGHT OFFICE ( Filing 
 
 ---
 
-*產生時間：2026-04-27 03:25 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-09-01 01:42 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
