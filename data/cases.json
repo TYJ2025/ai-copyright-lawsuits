@@ -4280,7 +4280,9 @@
    "judge": "Dolly M. Gee",
    "status": "active",
    "claims": [
-    "DMCA §1201"
+    "DMCA §1201",
+    "Unfair Competition",
+    "Unjust Enrichment"
    ],
    "plaintiffs": "Businessing LLC、Ace Cam（影像製作公司）",
    "plaintiffEntities": [
@@ -4300,9 +4302,29 @@
    "sourceCount": 2,
    "docket": 72318854,
    "filedAt": null,
-   "updatedAt": null,
-   "claimsDetail": null,
-   "claimsVerifiedAt": null
+   "updatedAt": "2026-09-01",
+   "claimsDetail": [
+    {
+     "count": "FIRST",
+     "title": "VIOLATION OF 17 U.S.C. § 1201(A),",
+     "canonical": "dmca-1201"
+    },
+    {
+     "count": "SECOND",
+     "title": "Violations of the California Unfair Competition Law,",
+     "canonical": "unfair-competition"
+    },
+    {
+     "count": "THIRD",
+     "title": "24 Unjust Enrichment 25",
+     "canonical": "unjust-enrichment"
+    }
+   ],
+   "claimsVerifiedAt": "2026-09-01",
+   "claimsSource": "https://www.courtlistener.com/docket/72318854/1/david-vance-gardner-v-runway-ai-inc/",
+   "claimsPrevious": [
+    "DMCA §1201"
+   ]
   },
   {
    "id": 78,
@@ -4312,7 +4334,8 @@
    "status": "active",
    "claims": [
     "DMCA §1201",
-    "State Law"
+    "Unfair Competition",
+    "Unjust Enrichment"
    ],
    "plaintiffs": "Gardner 等影像創作者（集體訴訟）",
    "plaintiffEntities": [],
@@ -4329,9 +4352,30 @@
    "sourceCount": 2,
    "docket": 72318854,
    "filedAt": null,
-   "updatedAt": null,
-   "claimsDetail": null,
-   "claimsVerifiedAt": null
+   "updatedAt": "2026-09-01",
+   "claimsDetail": [
+    {
+     "count": "FIRST",
+     "title": "VIOLATION OF 17 U.S.C. § 1201(A),",
+     "canonical": "dmca-1201"
+    },
+    {
+     "count": "SECOND",
+     "title": "Violations of the California Unfair Competition Law,",
+     "canonical": "unfair-competition"
+    },
+    {
+     "count": "THIRD",
+     "title": "24 Unjust Enrichment 25",
+     "canonical": "unjust-enrichment"
+    }
+   ],
+   "claimsVerifiedAt": "2026-09-01",
+   "claimsSource": "https://www.courtlistener.com/docket/72318854/1/david-vance-gardner-v-runway-ai-inc/",
+   "claimsPrevious": [
+    "DMCA §1201",
+    "State Law"
+   ]
   },
   {
    "id": 79,
@@ -4359,9 +4403,16 @@
    "sourceCount": 2,
    "docket": 72185144,
    "filedAt": null,
-   "updatedAt": null,
-   "claimsDetail": null,
-   "claimsVerifiedAt": null
+   "updatedAt": "2026-09-01",
+   "claimsDetail": [
+    {
+     "count": "FIRST",
+     "title": "Violation of the DMCA (Anti-Circumvention) 17 U.S.C. § 1201(a",
+     "canonical": "dmca-1201"
+    }
+   ],
+   "claimsVerifiedAt": "2026-09-01",
+   "claimsSource": "https://www.courtlistener.com/docket/72185144/1/ted-entertainment-inc-v-snap-inc/"
   },
   {
    "id": 80,
@@ -4387,9 +4438,16 @@
    "sourceCount": 2,
    "docket": 72234164,
    "filedAt": null,
-   "updatedAt": null,
-   "claimsDetail": null,
-   "claimsVerifiedAt": null
+   "updatedAt": "2026-09-01",
+   "claimsDetail": [
+    {
+     "count": "FIRST",
+     "title": "VIOLATION OF 17 U.S.C. § 1201(a",
+     "canonical": "dmca-1201"
+    }
+   ],
+   "claimsVerifiedAt": "2026-09-01",
+   "claimsSource": "https://www.courtlistener.com/docket/72234164/1/youngblood-v-meta-platforms-inc/"
   },
   {
    "id": 81,
@@ -4417,9 +4475,21 @@
    "sourceCount": 2,
    "docket": 72059948,
    "filedAt": null,
-   "updatedAt": null,
-   "claimsDetail": null,
-   "claimsVerifiedAt": null
+   "updatedAt": "2026-09-01",
+   "claimsDetail": [
+    {
+     "count": "FIRST",
+     "title": "VIOLATION OF THE DMCA, 17 U.S.C. § 1201(A)(1)(A",
+     "canonical": "dmca-1201"
+    },
+    {
+     "count": "SECOND",
+     "title": "VIOLATION OF THE DMCA, 17 U.S.C. § 1201(A)(2",
+     "canonical": "dmca-1201"
+    }
+   ],
+   "claimsVerifiedAt": "2026-09-01",
+   "claimsSource": "https://www.courtlistener.com/docket/72059948/1/google-llc-v-serpapi-llc/"
   },
   {
    "id": 82,
@@ -4447,9 +4517,16 @@
    "sourceCount": 2,
    "docket": 72074891,
    "filedAt": null,
-   "updatedAt": null,
-   "claimsDetail": null,
-   "claimsVerifiedAt": null
+   "updatedAt": "2026-09-01",
+   "claimsDetail": [
+    {
+     "count": "FIRST",
+     "title": "Violation of the DMCA (Anti-Circumvention) 17 U.S.C. § 1201(a",
+     "canonical": "dmca-1201"
+    }
+   ],
+   "claimsVerifiedAt": "2026-09-01",
+   "claimsSource": "https://www.courtlistener.com/docket/72074891/1/ted-entertainment-inc-v-meta-platforms-inc/"
   },
   {
    "id": 83,
@@ -4475,9 +4552,16 @@
    "sourceCount": 2,
    "docket": 72234164,
    "filedAt": null,
-   "updatedAt": null,
-   "claimsDetail": null,
-   "claimsVerifiedAt": null
+   "updatedAt": "2026-09-01",
+   "claimsDetail": [
+    {
+     "count": "FIRST",
+     "title": "VIOLATION OF 17 U.S.C. § 1201(a",
+     "canonical": "dmca-1201"
+    }
+   ],
+   "claimsVerifiedAt": "2026-09-01",
+   "claimsSource": "https://www.courtlistener.com/docket/72234164/1/youngblood-v-meta-platforms-inc/"
   },
   {
    "id": 84,
@@ -4486,7 +4570,7 @@
    "judge": "Jon S. Tigar",
    "status": "dismissed",
    "claims": [
-    "DMCA §1201"
+    "Direct Copyright"
    ],
    "plaintiffs": "Youngblood 等創作者（集體訴訟）",
    "plaintiffEntities": [],
@@ -4503,9 +4587,19 @@
    "sourceCount": 2,
    "docket": 68325563,
    "filedAt": null,
-   "updatedAt": null,
-   "claimsDetail": null,
-   "claimsVerifiedAt": null
+   "updatedAt": "2026-09-01",
+   "claimsDetail": [
+    {
+     "count": "1",
+     "title": "Direct Copyright Infringement (17 U.S.C. § 501",
+     "canonical": "direct-copyright"
+    }
+   ],
+   "claimsVerifiedAt": "2026-09-01",
+   "claimsSource": "https://www.courtlistener.com/docket/68325563/1/nazemian-v-nvidia-corporation/",
+   "claimsPrevious": [
+    "DMCA §1201"
+   ]
   },
   {
    "id": 85,
@@ -4515,6 +4609,8 @@
    "status": "settled",
    "claims": [
     "Direct Copyright",
+    "Breach of Contract",
+    "CFAA",
     "DMCA §1201"
    ],
    "plaintiffs": "Atlantic Recording Corp.、UMG、Sony Music、Warner Music 及 Spotify",
@@ -4537,9 +4633,35 @@
    "sourceCount": 3,
    "docket": 72161605,
    "filedAt": null,
-   "updatedAt": null,
-   "claimsDetail": null,
-   "claimsVerifiedAt": null
+   "updatedAt": "2026-09-01",
+   "claimsDetail": [
+    {
+     "count": "FIRST",
+     "title": "Direct Copyright Infringement",
+     "canonical": "direct-copyright"
+    },
+    {
+     "count": "SECOND",
+     "title": "Breach of Contract",
+     "canonical": "breach-contract"
+    },
+    {
+     "count": "THIRD",
+     "title": "Violation of the Computer Fraud and Abuse Act, 18 U.S.C. § 1030",
+     "canonical": "cfaa"
+    },
+    {
+     "count": "FOURTH",
+     "title": "Violation of the Digital Millennium Copyright Act, 17 U.S.C. § 1201",
+     "canonical": "dmca-1201"
+    }
+   ],
+   "claimsVerifiedAt": "2026-09-01",
+   "claimsSource": "https://www.courtlistener.com/docket/72161605/8/atlantic-recording-corporation-v-annas-archive/",
+   "claimsPrevious": [
+    "Direct Copyright",
+    "DMCA §1201"
+   ]
   },
   {
    "id": 86,
@@ -4548,7 +4670,10 @@
    "judge": "Trina L. Thompson",
    "status": "active",
    "claims": [
-    "Direct Copyright"
+    "Direct Copyright",
+    "DMCA §1202",
+    "Lanham Act",
+    "Unfair Competition"
    ],
    "plaintiffs": "Beaulier 等 3D 藝術家與視效創作者（集體訴訟）",
    "plaintiffEntities": [],
@@ -4565,9 +4690,49 @@
    "sourceCount": 3,
    "docket": 71112094,
    "filedAt": null,
-   "updatedAt": null,
-   "claimsDetail": null,
-   "claimsVerifiedAt": null
+   "updatedAt": "2026-09-01",
+   "claimsDetail": [
+    {
+     "count": "I",
+     "title": "Copyright Infringement in Violation of 17 U.S.C. § 101 et seq",
+     "canonical": "direct-copyright"
+    },
+    {
+     "count": "II",
+     "title": "Providing False Copyright Management Information in Violation of 17 U.S.C. § 1202(a",
+     "canonical": "dmca-1202"
+    },
+    {
+     "count": "III",
+     "title": "Trademark Infringement in Violation of Section 32 of the Lanham Act, 15 U.S.C. § 1114(1",
+     "canonical": "lanham"
+    },
+    {
+     "count": "IV",
+     "title": "Unfair Competition in Violation of Section 43(a) of the Lanham Act, 15 U.S.C. § 1125(a",
+     "canonical": "lanham"
+    },
+    {
+     "count": "V",
+     "title": "Trademark Dilution in Violation of Section 43(c) of the Lanham Act, 15 U.S.C. § 1125(c",
+     "canonical": "lanham"
+    },
+    {
+     "count": "VI",
+     "title": "Unfair Competition in Violation of Cal. Bus. & Prof. Code. §§ 17200, et seq",
+     "canonical": "unfair-competition"
+    },
+    {
+     "count": "VII",
+     "title": "Trademark Dilution in Violation of Cal. Bus. & Prof. Code § 14247",
+     "canonical": "lanham"
+    }
+   ],
+   "claimsVerifiedAt": "2026-09-01",
+   "claimsSource": "https://www.courtlistener.com/docket/71112094/1/getty-images-us-inc-v-stability-ai-ltd/",
+   "claimsPrevious": [
+    "Direct Copyright"
+   ]
   },
   {
    "id": 87,
@@ -4576,7 +4741,10 @@
    "judge": "Trina L. Thompson",
    "status": "active",
    "claims": [
-    "Direct Copyright"
+    "Direct Copyright",
+    "DMCA §1202",
+    "Lanham Act",
+    "Unfair Competition"
    ],
    "plaintiffs": "Beaulier 等 3D 藝術家與視效創作者（集體訴訟）",
    "plaintiffEntities": [],
@@ -4593,9 +4761,49 @@
    "sourceCount": 2,
    "docket": 71112094,
    "filedAt": null,
-   "updatedAt": null,
-   "claimsDetail": null,
-   "claimsVerifiedAt": null
+   "updatedAt": "2026-09-01",
+   "claimsDetail": [
+    {
+     "count": "I",
+     "title": "Copyright Infringement in Violation of 17 U.S.C. § 101 et seq",
+     "canonical": "direct-copyright"
+    },
+    {
+     "count": "II",
+     "title": "Providing False Copyright Management Information in Violation of 17 U.S.C. § 1202(a",
+     "canonical": "dmca-1202"
+    },
+    {
+     "count": "III",
+     "title": "Trademark Infringement in Violation of Section 32 of the Lanham Act, 15 U.S.C. § 1114(1",
+     "canonical": "lanham"
+    },
+    {
+     "count": "IV",
+     "title": "Unfair Competition in Violation of Section 43(a) of the Lanham Act, 15 U.S.C. § 1125(a",
+     "canonical": "lanham"
+    },
+    {
+     "count": "V",
+     "title": "Trademark Dilution in Violation of Section 43(c) of the Lanham Act, 15 U.S.C. § 1125(c",
+     "canonical": "lanham"
+    },
+    {
+     "count": "VI",
+     "title": "Unfair Competition in Violation of Cal. Bus. & Prof. Code. §§ 17200, et seq",
+     "canonical": "unfair-competition"
+    },
+    {
+     "count": "VII",
+     "title": "Trademark Dilution in Violation of Cal. Bus. & Prof. Code § 14247",
+     "canonical": "lanham"
+    }
+   ],
+   "claimsVerifiedAt": "2026-09-01",
+   "claimsSource": "https://www.courtlistener.com/docket/71112094/1/getty-images-us-inc-v-stability-ai-ltd/",
+   "claimsPrevious": [
+    "Direct Copyright"
+   ]
   },
   {
    "id": 88,
@@ -4604,7 +4812,10 @@
    "judge": "Trina L. Thompson",
    "status": "active",
    "claims": [
-    "Direct Copyright"
+    "Direct Copyright",
+    "DMCA §1202",
+    "Lanham Act",
+    "Unfair Competition"
    ],
    "plaintiffs": "Beaulier 等 3D 藝術家與視效創作者（集體訴訟）",
    "plaintiffEntities": [],
@@ -4621,9 +4832,49 @@
    "sourceCount": 2,
    "docket": 71112094,
    "filedAt": null,
-   "updatedAt": null,
-   "claimsDetail": null,
-   "claimsVerifiedAt": null
+   "updatedAt": "2026-09-01",
+   "claimsDetail": [
+    {
+     "count": "I",
+     "title": "Copyright Infringement in Violation of 17 U.S.C. § 101 et seq",
+     "canonical": "direct-copyright"
+    },
+    {
+     "count": "II",
+     "title": "Providing False Copyright Management Information in Violation of 17 U.S.C. § 1202(a",
+     "canonical": "dmca-1202"
+    },
+    {
+     "count": "III",
+     "title": "Trademark Infringement in Violation of Section 32 of the Lanham Act, 15 U.S.C. § 1114(1",
+     "canonical": "lanham"
+    },
+    {
+     "count": "IV",
+     "title": "Unfair Competition in Violation of Section 43(a) of the Lanham Act, 15 U.S.C. § 1125(a",
+     "canonical": "lanham"
+    },
+    {
+     "count": "V",
+     "title": "Trademark Dilution in Violation of Section 43(c) of the Lanham Act, 15 U.S.C. § 1125(c",
+     "canonical": "lanham"
+    },
+    {
+     "count": "VI",
+     "title": "Unfair Competition in Violation of Cal. Bus. & Prof. Code. §§ 17200, et seq",
+     "canonical": "unfair-competition"
+    },
+    {
+     "count": "VII",
+     "title": "Trademark Dilution in Violation of Cal. Bus. & Prof. Code § 14247",
+     "canonical": "lanham"
+    }
+   ],
+   "claimsVerifiedAt": "2026-09-01",
+   "claimsSource": "https://www.courtlistener.com/docket/71112094/1/getty-images-us-inc-v-stability-ai-ltd/",
+   "claimsPrevious": [
+    "Direct Copyright"
+   ]
   },
   {
    "id": 89,
@@ -4632,7 +4883,10 @@
    "judge": "Trina L. Thompson",
    "status": "active",
    "claims": [
-    "Direct Copyright"
+    "Direct Copyright",
+    "DMCA §1202",
+    "Lanham Act",
+    "Unfair Competition"
    ],
    "plaintiffs": "Beaulier 等 3D 藝術家與視效創作者（集體訴訟）",
    "plaintiffEntities": [],
@@ -4649,9 +4903,49 @@
    "sourceCount": 2,
    "docket": 71112094,
    "filedAt": null,
-   "updatedAt": "2026-08-03",
-   "claimsDetail": null,
-   "claimsVerifiedAt": null
+   "updatedAt": "2026-09-01",
+   "claimsDetail": [
+    {
+     "count": "I",
+     "title": "Copyright Infringement in Violation of 17 U.S.C. § 101 et seq",
+     "canonical": "direct-copyright"
+    },
+    {
+     "count": "II",
+     "title": "Providing False Copyright Management Information in Violation of 17 U.S.C. § 1202(a",
+     "canonical": "dmca-1202"
+    },
+    {
+     "count": "III",
+     "title": "Trademark Infringement in Violation of Section 32 of the Lanham Act, 15 U.S.C. § 1114(1",
+     "canonical": "lanham"
+    },
+    {
+     "count": "IV",
+     "title": "Unfair Competition in Violation of Section 43(a) of the Lanham Act, 15 U.S.C. § 1125(a",
+     "canonical": "lanham"
+    },
+    {
+     "count": "V",
+     "title": "Trademark Dilution in Violation of Section 43(c) of the Lanham Act, 15 U.S.C. § 1125(c",
+     "canonical": "lanham"
+    },
+    {
+     "count": "VI",
+     "title": "Unfair Competition in Violation of Cal. Bus. & Prof. Code. §§ 17200, et seq",
+     "canonical": "unfair-competition"
+    },
+    {
+     "count": "VII",
+     "title": "Trademark Dilution in Violation of Cal. Bus. & Prof. Code § 14247",
+     "canonical": "lanham"
+    }
+   ],
+   "claimsVerifiedAt": "2026-09-01",
+   "claimsSource": "https://www.courtlistener.com/docket/71112094/1/getty-images-us-inc-v-stability-ai-ltd/",
+   "claimsPrevious": [
+    "Direct Copyright"
+   ]
   },
   {
    "id": 90,
@@ -4660,7 +4954,12 @@
    "judge": "Vince Chhabria",
    "status": "active",
    "claims": [
-    "Direct Copyright"
+    "Direct Copyright",
+    "Vicarious Infringement",
+    "DMCA §1202",
+    "Unfair Competition",
+    "Unjust Enrichment",
+    "Negligence"
    ],
    "plaintiffs": "Martinez-Conde 等作者（集體訴訟）",
    "plaintiffEntities": [],
@@ -4677,9 +4976,44 @@
    "sourceCount": 2,
    "docket": 67569326,
    "filedAt": null,
-   "updatedAt": null,
-   "claimsDetail": null,
-   "claimsVerifiedAt": null
+   "updatedAt": "2026-09-01",
+   "claimsDetail": [
+    {
+     "count": "1",
+     "title": "Direct Copyright Infringement 17 U.S.C. § 106",
+     "canonical": "direct-copyright"
+    },
+    {
+     "count": "2",
+     "title": "Vicarious Copyright Infringement",
+     "canonical": "vicarious"
+    },
+    {
+     "count": "3",
+     "title": "Removal of Copyright-Management Information",
+     "canonical": "dmca-1202"
+    },
+    {
+     "count": "4",
+     "title": "Unfair Competition Cal. Bus. & Prof. Code §§ 17200, et seq",
+     "canonical": "unfair-competition"
+    },
+    {
+     "count": "5",
+     "title": "Unjust Enrichment California Common Law",
+     "canonical": "unjust-enrichment"
+    },
+    {
+     "count": "6",
+     "title": "Negligence California Common Law",
+     "canonical": "negligence"
+    }
+   ],
+   "claimsVerifiedAt": "2026-09-01",
+   "claimsSource": "https://www.courtlistener.com/docket/67569326/1/kadrey-v-meta-platforms-inc/",
+   "claimsPrevious": [
+    "Direct Copyright"
+   ]
   },
   {
    "id": 91,
@@ -4688,7 +5022,12 @@
    "judge": "Vince Chhabria",
    "status": "active",
    "claims": [
-    "Direct Copyright"
+    "Direct Copyright",
+    "Vicarious Infringement",
+    "DMCA §1202",
+    "Unfair Competition",
+    "Unjust Enrichment",
+    "Negligence"
    ],
    "plaintiffs": "Alexander 等作者（集體訴訟）",
    "plaintiffEntities": [],
@@ -4705,9 +5044,44 @@
    "sourceCount": 2,
    "docket": 67569326,
    "filedAt": null,
-   "updatedAt": null,
-   "claimsDetail": null,
-   "claimsVerifiedAt": null
+   "updatedAt": "2026-09-01",
+   "claimsDetail": [
+    {
+     "count": "1",
+     "title": "Direct Copyright Infringement 17 U.S.C. § 106",
+     "canonical": "direct-copyright"
+    },
+    {
+     "count": "2",
+     "title": "Vicarious Copyright Infringement",
+     "canonical": "vicarious"
+    },
+    {
+     "count": "3",
+     "title": "Removal of Copyright-Management Information",
+     "canonical": "dmca-1202"
+    },
+    {
+     "count": "4",
+     "title": "Unfair Competition Cal. Bus. & Prof. Code §§ 17200, et seq",
+     "canonical": "unfair-competition"
+    },
+    {
+     "count": "5",
+     "title": "Unjust Enrichment California Common Law",
+     "canonical": "unjust-enrichment"
+    },
+    {
+     "count": "6",
+     "title": "Negligence California Common Law",
+     "canonical": "negligence"
+    }
+   ],
+   "claimsVerifiedAt": "2026-09-01",
+   "claimsSource": "https://www.courtlistener.com/docket/67569326/1/kadrey-v-meta-platforms-inc/",
+   "claimsPrevious": [
+    "Direct Copyright"
+   ]
   },
   {
    "id": 92,
@@ -4716,7 +5090,14 @@
    "judge": "Eumi K. Lee",
    "status": "active",
    "claims": [
-    "Direct Copyright"
+    "Unfair Competition",
+    "Negligence",
+    "Invasion of Privacy",
+    "Conversion",
+    "Unjust Enrichment",
+    "Direct Copyright",
+    "Vicarious Infringement",
+    "DMCA §1202"
    ],
    "plaintiffs": "Alexander 等作者（集體訴訟）",
    "plaintiffEntities": [],
@@ -4733,9 +5114,64 @@
    "sourceCount": 2,
    "docket": 67599029,
    "filedAt": null,
-   "updatedAt": null,
-   "claimsDetail": null,
-   "claimsVerifiedAt": null
+   "updatedAt": "2026-09-01",
+   "claimsDetail": [
+    {
+     "count": "",
+     "title": "VIOLATION OF CALIFORNIA UNFAIR COMPETITION LAW (Cal. Bus. & Prof. Code",
+     "canonical": "unfair-competition"
+    },
+    {
+     "count": "",
+     "title": "NEGLIGENCE (on behalf of all Plaintiffs and all Classes",
+     "canonical": "negligence"
+    },
+    {
+     "count": "",
+     "title": "INVASION OF PRIVACY UNDER CALIFORNIA CONSTITUTION",
+     "canonical": "privacy"
+    },
+    {
+     "count": "",
+     "title": "INTRUSION UPON SECLUSION",
+     "canonical": "privacy"
+    },
+    {
+     "count": "",
+     "title": "LARCENY/RECEIPT OF STOLEN PROPERTY",
+     "canonical": "conversion"
+    },
+    {
+     "count": "",
+     "title": "CONVERSION (on behalf of all Plaintiffs and all Classes",
+     "canonical": "conversion"
+    },
+    {
+     "count": "",
+     "title": "UNJUST ENRICHMENT",
+     "canonical": "unjust-enrichment"
+    },
+    {
+     "count": "",
+     "title": "DIRECT COPYRIGHT INFRINGEMENT",
+     "canonical": "direct-copyright"
+    },
+    {
+     "count": "",
+     "title": "VICARIOUS COPYRIGHT INFRINGEMENT",
+     "canonical": "vicarious"
+    },
+    {
+     "count": "",
+     "title": "VIOLATION OF DIGITAL MILLENNIUM COPYRIGHT ACT (17 U.S.C. § 1202(b",
+     "canonical": "dmca-1202"
+    }
+   ],
+   "claimsVerifiedAt": "2026-09-01",
+   "claimsSource": "https://www.courtlistener.com/docket/67599029/1/in-re-google-generative-ai-copyright-litigation/",
+   "claimsPrevious": [
+    "Direct Copyright"
+   ]
   },
   {
    "id": 93,
@@ -4744,7 +5180,14 @@
    "judge": "Eumi K. Lee",
    "status": "active",
    "claims": [
-    "Direct Copyright"
+    "Unfair Competition",
+    "Negligence",
+    "Invasion of Privacy",
+    "Conversion",
+    "Unjust Enrichment",
+    "Direct Copyright",
+    "Vicarious Infringement",
+    "DMCA §1202"
    ],
    "plaintiffs": "Zhang 等作者（集體訴訟）",
    "plaintiffEntities": [],
@@ -4761,9 +5204,64 @@
    "sourceCount": 2,
    "docket": 67599029,
    "filedAt": null,
-   "updatedAt": null,
-   "claimsDetail": null,
-   "claimsVerifiedAt": null
+   "updatedAt": "2026-09-01",
+   "claimsDetail": [
+    {
+     "count": "",
+     "title": "VIOLATION OF CALIFORNIA UNFAIR COMPETITION LAW (Cal. Bus. & Prof. Code",
+     "canonical": "unfair-competition"
+    },
+    {
+     "count": "",
+     "title": "NEGLIGENCE (on behalf of all Plaintiffs and all Classes",
+     "canonical": "negligence"
+    },
+    {
+     "count": "",
+     "title": "INVASION OF PRIVACY UNDER CALIFORNIA CONSTITUTION",
+     "canonical": "privacy"
+    },
+    {
+     "count": "",
+     "title": "INTRUSION UPON SECLUSION",
+     "canonical": "privacy"
+    },
+    {
+     "count": "",
+     "title": "LARCENY/RECEIPT OF STOLEN PROPERTY",
+     "canonical": "conversion"
+    },
+    {
+     "count": "",
+     "title": "CONVERSION (on behalf of all Plaintiffs and all Classes",
+     "canonical": "conversion"
+    },
+    {
+     "count": "",
+     "title": "UNJUST ENRICHMENT",
+     "canonical": "unjust-enrichment"
+    },
+    {
+     "count": "",
+     "title": "DIRECT COPYRIGHT INFRINGEMENT",
+     "canonical": "direct-copyright"
+    },
+    {
+     "count": "",
+     "title": "VICARIOUS COPYRIGHT INFRINGEMENT",
+     "canonical": "vicarious"
+    },
+    {
+     "count": "",
+     "title": "VIOLATION OF DIGITAL MILLENNIUM COPYRIGHT ACT (17 U.S.C. § 1202(b",
+     "canonical": "dmca-1202"
+    }
+   ],
+   "claimsVerifiedAt": "2026-09-01",
+   "claimsSource": "https://www.courtlistener.com/docket/67599029/1/in-re-google-generative-ai-copyright-litigation/",
+   "claimsPrevious": [
+    "Direct Copyright"
+   ]
   },
   {
    "id": 94,
@@ -4772,7 +5270,14 @@
    "judge": "Eumi K. Lee",
    "status": "active",
    "claims": [
-    "Direct Copyright"
+    "Unfair Competition",
+    "Negligence",
+    "Invasion of Privacy",
+    "Conversion",
+    "Unjust Enrichment",
+    "Direct Copyright",
+    "Vicarious Infringement",
+    "DMCA §1202"
    ],
    "plaintiffs": "Leovy 等作者（集體訴訟）",
    "plaintiffEntities": [],
@@ -4789,9 +5294,64 @@
    "sourceCount": 2,
    "docket": 67599029,
    "filedAt": null,
-   "updatedAt": null,
-   "claimsDetail": null,
-   "claimsVerifiedAt": null
+   "updatedAt": "2026-09-01",
+   "claimsDetail": [
+    {
+     "count": "",
+     "title": "VIOLATION OF CALIFORNIA UNFAIR COMPETITION LAW (Cal. Bus. & Prof. Code",
+     "canonical": "unfair-competition"
+    },
+    {
+     "count": "",
+     "title": "NEGLIGENCE (on behalf of all Plaintiffs and all Classes",
+     "canonical": "negligence"
+    },
+    {
+     "count": "",
+     "title": "INVASION OF PRIVACY UNDER CALIFORNIA CONSTITUTION",
+     "canonical": "privacy"
+    },
+    {
+     "count": "",
+     "title": "INTRUSION UPON SECLUSION",
+     "canonical": "privacy"
+    },
+    {
+     "count": "",
+     "title": "LARCENY/RECEIPT OF STOLEN PROPERTY",
+     "canonical": "conversion"
+    },
+    {
+     "count": "",
+     "title": "CONVERSION (on behalf of all Plaintiffs and all Classes",
+     "canonical": "conversion"
+    },
+    {
+     "count": "",
+     "title": "UNJUST ENRICHMENT",
+     "canonical": "unjust-enrichment"
+    },
+    {
+     "count": "",
+     "title": "DIRECT COPYRIGHT INFRINGEMENT",
+     "canonical": "direct-copyright"
+    },
+    {
+     "count": "",
+     "title": "VICARIOUS COPYRIGHT INFRINGEMENT",
+     "canonical": "vicarious"
+    },
+    {
+     "count": "",
+     "title": "VIOLATION OF DIGITAL MILLENNIUM COPYRIGHT ACT (17 U.S.C. § 1202(b",
+     "canonical": "dmca-1202"
+    }
+   ],
+   "claimsVerifiedAt": "2026-09-01",
+   "claimsSource": "https://www.courtlistener.com/docket/67599029/1/in-re-google-generative-ai-copyright-litigation/",
+   "claimsPrevious": [
+    "Direct Copyright"
+   ]
   },
   {
    "id": 95,
@@ -4800,7 +5360,12 @@
    "judge": "Vince Chhabria",
    "status": "active",
    "claims": [
-    "Direct Copyright"
+    "Direct Copyright",
+    "Vicarious Infringement",
+    "DMCA §1202",
+    "Unfair Competition",
+    "Unjust Enrichment",
+    "Negligence"
    ],
    "plaintiffs": "Michael Chabon 等作家（集體訴訟）",
    "plaintiffEntities": [],
@@ -4817,9 +5382,44 @@
    "sourceCount": 2,
    "docket": 67569326,
    "filedAt": null,
-   "updatedAt": null,
-   "claimsDetail": null,
-   "claimsVerifiedAt": null
+   "updatedAt": "2026-09-01",
+   "claimsDetail": [
+    {
+     "count": "1",
+     "title": "Direct Copyright Infringement 17 U.S.C. § 106",
+     "canonical": "direct-copyright"
+    },
+    {
+     "count": "2",
+     "title": "Vicarious Copyright Infringement",
+     "canonical": "vicarious"
+    },
+    {
+     "count": "3",
+     "title": "Removal of Copyright-Management Information",
+     "canonical": "dmca-1202"
+    },
+    {
+     "count": "4",
+     "title": "Unfair Competition Cal. Bus. & Prof. Code §§ 17200, et seq",
+     "canonical": "unfair-competition"
+    },
+    {
+     "count": "5",
+     "title": "Unjust Enrichment California Common Law",
+     "canonical": "unjust-enrichment"
+    },
+    {
+     "count": "6",
+     "title": "Negligence California Common Law",
+     "canonical": "negligence"
+    }
+   ],
+   "claimsVerifiedAt": "2026-09-01",
+   "claimsSource": "https://www.courtlistener.com/docket/67569326/1/kadrey-v-meta-platforms-inc/",
+   "claimsPrevious": [
+    "Direct Copyright"
+   ]
   },
   {
    "id": 96,
@@ -4828,7 +5428,12 @@
    "judge": "Vince Chhabria",
    "status": "active",
    "claims": [
-    "Direct Copyright"
+    "Direct Copyright",
+    "Vicarious Infringement",
+    "DMCA §1202",
+    "Unfair Competition",
+    "Unjust Enrichment",
+    "Negligence"
    ],
    "plaintiffs": "Farnsworth 等作家（集體訴訟）",
    "plaintiffEntities": [],
@@ -4845,9 +5450,44 @@
    "sourceCount": 2,
    "docket": 67569326,
    "filedAt": null,
-   "updatedAt": null,
-   "claimsDetail": null,
-   "claimsVerifiedAt": null
+   "updatedAt": "2026-09-01",
+   "claimsDetail": [
+    {
+     "count": "1",
+     "title": "Direct Copyright Infringement 17 U.S.C. § 106",
+     "canonical": "direct-copyright"
+    },
+    {
+     "count": "2",
+     "title": "Vicarious Copyright Infringement",
+     "canonical": "vicarious"
+    },
+    {
+     "count": "3",
+     "title": "Removal of Copyright-Management Information",
+     "canonical": "dmca-1202"
+    },
+    {
+     "count": "4",
+     "title": "Unfair Competition Cal. Bus. & Prof. Code §§ 17200, et seq",
+     "canonical": "unfair-competition"
+    },
+    {
+     "count": "5",
+     "title": "Unjust Enrichment California Common Law",
+     "canonical": "unjust-enrichment"
+    },
+    {
+     "count": "6",
+     "title": "Negligence California Common Law",
+     "canonical": "negligence"
+    }
+   ],
+   "claimsVerifiedAt": "2026-09-01",
+   "claimsSource": "https://www.courtlistener.com/docket/67569326/1/kadrey-v-meta-platforms-inc/",
+   "claimsPrevious": [
+    "Direct Copyright"
+   ]
   },
   {
    "id": 97,
@@ -4856,7 +5496,8 @@
    "judge": "John A. Kronstadt",
    "status": "active",
    "claims": [
-    "Direct Copyright"
+    "Direct Copyright",
+    "Secondary Infringement"
    ],
    "plaintiffs": "Dubus 等作家（集體訴訟）",
    "plaintiffEntities": [],
@@ -4873,9 +5514,24 @@
    "sourceCount": 2,
    "docket": 70513159,
    "filedAt": null,
-   "updatedAt": "2026-08-03",
-   "claimsDetail": null,
-   "claimsVerifiedAt": null
+   "updatedAt": "2026-09-01",
+   "claimsDetail": [
+    {
+     "count": "FIRST",
+     "title": "Direct Copyright Infringement",
+     "canonical": "direct-copyright"
+    },
+    {
+     "count": "SECOND",
+     "title": "Secondary Copyright Infringement",
+     "canonical": "secondary-copyright"
+    }
+   ],
+   "claimsVerifiedAt": "2026-09-01",
+   "claimsSource": "https://www.courtlistener.com/docket/70513159/1/disney-enterprises-inc-v-midjourney-inc/",
+   "claimsPrevious": [
+    "Direct Copyright"
+   ]
   },
   {
    "id": 98,
@@ -4885,7 +5541,11 @@
    "status": "active",
    "claims": [
     "Direct Copyright",
-    "Vicarious Infringement"
+    "Vicarious Infringement",
+    "DMCA §1202",
+    "Conversion",
+    "Negligence",
+    "Unjust Enrichment"
    ],
    "plaintiffs": "Makkai 等作家（集體訴訟）",
    "plaintiffEntities": [],
@@ -4902,9 +5562,45 @@
    "sourceCount": 2,
    "docket": 67890942,
    "filedAt": null,
-   "updatedAt": null,
-   "claimsDetail": null,
-   "claimsVerifiedAt": null
+   "updatedAt": "2026-09-01",
+   "claimsDetail": [
+    {
+     "count": "FIRST",
+     "title": "DIRECT COPYRIGHT INFRINGEMENT, 17 U.S.C. § 106, et seq",
+     "canonical": "direct-copyright"
+    },
+    {
+     "count": "SECOND",
+     "title": "VICARIOUS COPYRIGHT INFRINGEMENT, 17 U.S.C. § 106",
+     "canonical": "vicarious"
+    },
+    {
+     "count": "THIRD",
+     "title": "DIGITAL MILLENNIUM COPYRIGHT ACT – REMOVAL OF COPYRIGHT",
+     "canonical": "dmca-1202"
+    },
+    {
+     "count": "FOURTH",
+     "title": "CONVERSION Brought on behalf of Plaintiffs, individually and on behalf of the Class,",
+     "canonical": "conversion"
+    },
+    {
+     "count": "FIFTH",
+     "title": "NEGLIGENCE Brought on behalf of Plaintiffs, individually and on behalf of the Class,",
+     "canonical": "negligence"
+    },
+    {
+     "count": "SIXTH",
+     "title": "UNJUST ENRICHMENT",
+     "canonical": "unjust-enrichment"
+    }
+   ],
+   "claimsVerifiedAt": "2026-09-01",
+   "claimsSource": "https://www.courtlistener.com/docket/67890942/1/huckabee-v-bloomberg-lp/",
+   "claimsPrevious": [
+    "Direct Copyright",
+    "Vicarious Infringement"
+   ]
   },
   {
    "id": 99,
