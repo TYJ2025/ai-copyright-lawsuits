@@ -604,7 +604,7 @@
    ],
    "defendants": "Microsoft Corp., OpenAI Inc.",
    "issues": "紐約時報對 Microsoft 及 OpenAI 提起訴訟，主張其未經授權使用數百萬篇新聞文章訓練 GPT 模型及 Bing Chat（Copilot），構成著作權侵害及商標侵害。\n\n本案已與 Daily News v. Microsoft 及 Center for Investigative Reporting v. OpenAI 合併，統稱「Newspapers Action」。\n\n核心爭點：(1) 新聞內容用於 AI 訓練的合理使用；(2) AI 對新聞產業商業模式的市場替代效果；(3) AI 輸出中的新聞內容是否構成不正競爭。",
-   "progress": "【2025 年 3 月】Stein 法官允許大部分訴訟主張繼續審理，駁回被告的駁回動議核心部分。\n\n【2026 年 1 月 5 日】重大事證開示裁定——法院確認 OpenAI 須提交全部 2,000 萬筆匿名化 ChatGPT 對話記錄樣本，拒絕 OpenAI 僅提供涉及原告作品的對話之請求。法院認為即使不涉及原告作品的對話記錄，對於判斷合理使用抗辯中的「市場替代效果」仍具相關性。\n\n【2026 年 3 月 9 日】法院進一步准許原告的強制開示動議。案件最近更新日期為 2026 年 3 月 20 日。\n\n【2026/6/25】《紐約時報》提出第三次修正起訴狀動議，雙線戰略調整：依 2026/3/25 最高法院 Cox v. Sony 提高 contributory infringement 門檻，對 OpenAI 撤回 contributory infringement 主張，同時大幅強化對 Microsoft 相同主張，指控微軟主動建置逾 285,000 顆 CPU 核心與 10,000 顆 GPU 之客製化超算基礎設施、以定製算力服務積極引誘 OpenAI 侵權。\n\n【2026/7/9】《紐約時報》等 14 家媒體向曼哈頓聯邦地院提制裁動議，指控 OpenAI 在 discovery 中刻意隱匿內部工具「Project Giraffe」（Bloom filter，偵測 ChatGPT 輸出著作權素材洩漏程度）及約 7,800 萬筆去識別化 ChatGPT 對話資料庫，並指員工庭外證詞與公司陳述矛盾；請求禁止 OpenAI 以已提供之 2,000 萬筆對話樣本作為證據並命負擔律師費。\n\n【2026/8/5】Stein 法官駁回《紐約時報》聲請追加對 Microsoft 提出「引誘侵權」（inducement）主張之修正動議，理由為提出時機過晚。\n\n【2026/8/14】OpenAI 就新聞機構聯合體制裁動議提出答辯狀，主張刪除對話紀錄未違反保存令、且原告就 ChatGPT 系統性重製其文章一節「無任何證據」",
+   "progress": "【2025 年 3 月】Stein 法官允許大部分訴訟主張繼續審理，駁回被告的駁回動議核心部分。\n\n【2026 年 1 月 5 日】重大事證開示裁定——法院確認 OpenAI 須提交全部 2,000 萬筆匿名化 ChatGPT 對話記錄樣本，拒絕 OpenAI 僅提供涉及原告作品的對話之請求。法院認為即使不涉及原告作品的對話記錄，對於判斷合理使用抗辯中的「市場替代效果」仍具相關性。\n\n【2026 年 3 月 9 日】法院進一步准許原告的強制開示動議。案件最近更新日期為 2026 年 3 月 20 日。\n\n【2026/6/25】《紐約時報》提出第三次修正起訴狀動議，雙線戰略調整：依 2026/3/25 最高法院 Cox v. Sony 提高 contributory infringement 門檻，對 OpenAI 撤回 contributory infringement 主張，同時大幅強化對 Microsoft 相同主張，指控微軟主動建置逾 285,000 顆 CPU 核心與 10,000 顆 GPU 之客製化超算基礎設施、以定製算力服務積極引誘 OpenAI 侵權。\n\n【2026/7/9】《紐約時報》等 14 家媒體向曼哈頓聯邦地院提制裁動議，指控 OpenAI 在 discovery 中刻意隱匿內部工具「Project Giraffe」（Bloom filter，偵測 ChatGPT 輸出著作權素材洩漏程度）及約 7,800 萬筆去識別化 ChatGPT 對話資料庫，並指員工庭外證詞與公司陳述矛盾；請求禁止 OpenAI 以已提供之 2,000 萬筆對話樣本作為證據並命負擔律師費。\n\n【2026/8/5】Stein 法官駁回《紐約時報》聲請追加對 Microsoft 提出「引誘侵權」（inducement）主張之修正動議，理由為提出時機過晚。\n\n【2026/8/14】OpenAI 就新聞機構聯合體制裁動議提出答辯狀，主張刪除對話紀錄未違反保存令、且原告就 ChatGPT 系統性重製其文章一節「無任何證據」\n\n【2026/9/2】美國司法部（川普政府）於 In re OpenAI MDL 遞交法庭意見書力挺 OpenAI 合理使用主張，稱限制 AI 訓練資料取用將損及美國科學進展與 AI 產業競爭力，為聯邦政府首次就 AI 著作權訴訟表態",
    "taiwan": "本案對台灣的啟示：\n\n1. 台灣新聞媒體（如聯合報系、中時集團）面臨相同問題——新聞內容被 AI 公司用於訓練。本案的判決結果將影響台灣媒體是否有法律基礎向 AI 公司求償。\n2. 台灣可參考歐盟《新聞出版者鄰接權指令》(DSM Directive Art. 15) 及澳洲《新聞媒體議價法》(News Media Bargaining Code)，研議是否立法保障新聞業者對 AI 公司的議價權。\n3. 本案 2,000 萬筆對話記錄的事證開示，展示了美國 discovery 制度在 AI 訴訟中的威力。台灣民事訴訟法的證據保全與文書提出命令（第 342-349 條）是否足以因應 AI 訴訟中的舉證需求，值得檢討。",
    "jurisdiction": "us",
    "country": "🇺🇸 美國",
@@ -615,7 +615,7 @@
    "sourceCount": 3,
    "docket": 68117049,
    "filedAt": null,
-   "updatedAt": "2026-08-29",
+   "updatedAt": "2026-09-03",
    "rulings": {
     "fairUse": "pending",
     "fairUseNote": "合理使用抗辯待審，事證開示階段對原告有利發展",
@@ -2146,7 +2146,7 @@
    ],
    "defendants": "OpenAI L.P.",
    "issues": "本案以《攔截媒體》（The Intercept）為原告，控告 OpenAI 在訓練 ChatGPT 期間移除或忽視著作權管理資訊（CMI），違反《數位千禧年著作權法》第 1202(b) 條款。本案與《原始故事》訴訟策略類似，但聚焦於調查新聞內容。\n\nRakoff 法官以在 OpenAI 相關多案中表現嚴格聞名。本案核心爭點為：OpenAI 是否在其 Common Crawl 資料集中有意忽視或移除了新聞文章中的著作權聲明？移除 CMI 的「意圖」（intent）在法律上的舉證標準為何？",
-   "progress": "案件於 2026 年 1 月提起。OpenAI 已於 3 月提交駁回動議（motion to dismiss），主張 CMI 條款不適用於 AI 訓練資料集。法院預計於 2026 年 5 月作出決定。原告亦已向第二巡迴法院提交法庭之友意見書。",
+   "progress": "案件於 2026 年 1 月提起。OpenAI 已於 3 月提交駁回動議（motion to dismiss），主張 CMI 條款不適用於 AI 訓練資料集。法院預計於 2026 年 5 月作出決定。原告亦已向第二巡迴法院提交法庭之友意見書。\n\n【2026/9/2】美國司法部（川普政府）於 In re OpenAI 著作權訴訟 MDL 遞交法庭意見書力挺 OpenAI，主張 AI 訓練屬高度轉化之合理使用，為聯邦政府首次就 AI 著作權訴訟表態",
    "taiwan": "台灣著作權管理的啟示：台灣著作權法第 80 條至 80-3 條規定了著作權管理電子資訊（EMI），但在 AI 訓練環境中的適用尚無實例。本案若成立，將影響台灣 AI 公司在訓練資料中保留或移除著作權聲明的義務。",
    "jurisdiction": "us",
    "country": "🇺🇸 美國",
@@ -2157,7 +2157,7 @@
    "sourceCount": 3,
    "docket": 68290804,
    "filedAt": null,
-   "updatedAt": "2026-08-11",
+   "updatedAt": "2026-09-03",
    "claimsDetail": [
     {
      "count": "I",
