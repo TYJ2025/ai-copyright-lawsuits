@@ -6,10 +6,27 @@
   "data": {
     "items": [
       {
+        "addedAt": "2026-09-04",
+        "text": "【2026/9/1】Isbell v. Suno（D. Mass.）：鄉村歌手 Jason Isbell 偕 David Lowery、Guy Forsyth、Eduardo Calle 提起集體訴訟，主張 Suno 將音樂人姓名與音樂人格編碼為 AI 模型 token，侵害紐約、加州、田納西等州公開權（right of publicity）法律，非著作權主張",
+        "url": "https://www.hollywoodreporter.com/music/music-industry-news/jason-isbell-files-class-action-lawsuit-against-suno-1236687285/"
+      },
+      {
+        "addedAt": "2026-09-04",
+        "text": "【2026/8/31】Gerencia 360 Music v. Suno（N.D. Cal. 5:26-cv-09248）：墨西哥獨立廠牌暨出版商 Gerencia 360 提告，指控 Suno 未經授權以其西語流行音樂目錄訓練模型，使用戶得以一鍵生成西語 AI 歌曲",
+        "url": "https://www.digitalmusicnews.com/2026/09/01/gerencia-suno-lawsuit/"
+      },
+      {
+        "addedAt": "2026-09-04",
+        "text": "【2026/9/2】SOCAN v. Suno（加拿大聯邦法院）：加拿大最大音樂著作權集體管理組織 SOCAN 對 Suno 提起著作權訴訟，指控其未經授權重製並串流 AI 生成音樂輸出（含 Nickelback〈Photograph〉等 150 首公開曲目為例證），求償並要求停止侵權輸出",
+        "url": "https://www.bnnbloomberg.ca/business/artificial-intelligence/2026/09/02/socan-sues-suno-alleges-ai-company-copies-canadian-music-without-paying-creators/"
+      },
+      {
         "addedAt": "2026-09-03",
         "text": "【2026/9/2】川普政府司法部首度就 AI 著作權訴訟遞交法庭意見書，於 In re OpenAI 著作權訴訟 MDL（S.D.N.Y., Stein 法官）力挺 OpenAI：主張以受著作權保護內容訓練大型語言模型屬高度轉化之合理使用，攸關美國科學進展與 AI 產業競爭優勢，為聯邦政府首次介入 AI 著作權訴訟表態",
         "url": "https://theintercept.com/2026/09/02/trump-openai-copyright-lawsuit-news-articles/"
-      },
+      }
+    ],
+    "archive": [
       {
         "addedAt": "2026-08-30",
         "text": "【2026/8/24】CNN v. Perplexity AI（S.D.N.Y.）：Perplexity 具狀聲請大幅刪減 CNN 著作權訴訟，主張其「answer engine」自動生成回覆不負侵權責任",
@@ -19,9 +36,7 @@
         "addedAt": "2026-08-30",
         "text": "【2026/8/29】Sony Music Publishing、Warner Chappell Music v. Anthropic（N.D. Cal.）：兩大音樂出版商提告，並將 CEO Dario Amodei、共同創辦人 Benjamin Mann 列為個人被告，指控非法 torrenting 數百萬本書籍（含歌詞樂譜）訓練 Claude、移除著作權管理資訊",
         "url": "https://techcrunch.com/2026/08/29/sony-music-warner-sue-anthropic-alleging-a-brazen-campaign-of-intellectual-property-theft/"
-      }
-    ],
-    "archive": [
+      },
       {
         "addedAt": "2026-08-29",
         "text": "【2026/8/24】Folha de S.Paulo v. Perplexity AI（巴西聖保羅法院）：繼先前對 OpenAI 提告後，再對 Perplexity 提起著作權與不正競爭訴訟，主張規避付費牆並要求即時禁令",
@@ -455,5 +470,5 @@
     ]
   },
   "lastUpdatedBy": "add_news.py",
-  "lastUpdatedAt": "2026-09-03T07:10:10.111374+08:00"
+  "lastUpdatedAt": "2026-09-04T07:09:51.017766+08:00"
 }
