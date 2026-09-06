@@ -6,6 +6,11 @@
   "data": {
     "items": [
       {
+        "addedAt": "2026-09-07",
+        "text": "【2026/9/4】Seattle Times、Newsday v. OpenAI, Microsoft（S.D.N.Y.）：兩家地方報業聯合提告，指控被告繞過付費牆大量抓取文章訓練 ChatGPT、Copilot 與 Bing AI，並主張商標淡化（AI 生成不實內容遭誤植為該媒體出品），求償並要求銷毀相關訓練資料集與模型副本",
+        "url": "https://techcrunch.com/2026/09/05/seattle-times-and-newsday-are-the-latest-publications-to-sue-openai-and-microsoft/"
+      },
+      {
         "addedAt": "2026-09-06",
         "text": "【2026/9/4】Bartz v. Anthropic（N.D. Cal. 3:24-cv-05417）和解執行進度：原告律師團提交進度報告，確認權利歸屬無爭議著作將於 2026/11/15 前開始首波分配，每件約 2,203.56 美元",
         "url": "https://blog.taaonline.net/2026/09/next-steps-in-bartz-v-anthropic-settlement-resolving-claim-percentage-differences/"
@@ -14,7 +19,9 @@
         "addedAt": "2026-09-06",
         "text": "【2026/9/4】NYT v. OpenAI 及 In re OpenAI MDL（S.D.N.Y., Stein 法官）：OpenAI、Microsoft 與紐約時報等新聞原告同步遞交交互即決判決聲請，聚焦訓練轉化性與市場替代性兩爭點，為本波訴訟首件進入即決判決實體攻防之案件",
         "url": "https://ppc.land/openai-and-microsoft-ask-judge-to-end-10-8-million-article-copyright-case/"
-      },
+      }
+    ],
+    "archive": [
       {
         "addedAt": "2026-09-04",
         "text": "【2026/9/1】Isbell v. Suno（D. Mass.）：鄉村歌手 Jason Isbell 偕 David Lowery、Guy Forsyth、Eduardo Calle 提起集體訴訟，主張 Suno 將音樂人姓名與音樂人格編碼為 AI 模型 token，侵害紐約、加州、田納西等州公開權（right of publicity）法律，非著作權主張",
@@ -29,9 +36,7 @@
         "addedAt": "2026-09-04",
         "text": "【2026/9/2】SOCAN v. Suno（加拿大聯邦法院）：加拿大最大音樂著作權集體管理組織 SOCAN 對 Suno 提起著作權訴訟，指控其未經授權重製並串流 AI 生成音樂輸出（含 Nickelback〈Photograph〉等 150 首公開曲目為例證），求償並要求停止侵權輸出",
         "url": "https://www.bnnbloomberg.ca/business/artificial-intelligence/2026/09/02/socan-sues-suno-alleges-ai-company-copies-canadian-music-without-paying-creators/"
-      }
-    ],
-    "archive": [
+      },
       {
         "addedAt": "2026-09-03",
         "text": "【2026/9/2】川普政府司法部首度就 AI 著作權訴訟遞交法庭意見書，於 In re OpenAI 著作權訴訟 MDL（S.D.N.Y., Stein 法官）力挺 OpenAI：主張以受著作權保護內容訓練大型語言模型屬高度轉化之合理使用，攸關美國科學進展與 AI 產業競爭優勢，為聯邦政府首次介入 AI 著作權訴訟表態",
@@ -480,5 +485,5 @@
     ]
   },
   "lastUpdatedBy": "add_news.py",
-  "lastUpdatedAt": "2026-09-06T07:11:27.494926+08:00"
+  "lastUpdatedAt": "2026-09-07T07:13:11.375631+08:00"
 }
