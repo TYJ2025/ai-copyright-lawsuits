@@ -19,7 +19,7 @@
    ],
    "defendants": "ROSS Intelligence Inc.",
    "issues": "本案核心爭點在於：以受著作權保護的 Westlaw 法律摘要（headnotes）訓練 AI 法律研究工具，是否構成合理使用（fair use）。\n\n2025年2月，Bibas 法官裁定 ROSS Intelligence 以 Thomson Reuters 的 2,243 份著作權摘要訓練 AI 模型構成侵權，且不符合合理使用要件。法院認為該使用並非「轉化性使用」（transformative use），因為 ROSS 的產品直接與 Westlaw 競爭。\n\n本案是美國首件就 AI 訓練資料的合理使用問題作出實質裁判的案件。",
-   "progress": "【第三巡迴上訴中】ROSS Intelligence 於 2025 年上訴至第三巡迴法院，主張其使用具有轉化性。Thomson Reuters 於 2025 年 11 月提交答辯書狀，稱 ROSS 的行為是「竊取而非創新」。\n\n2026 年 3 月 12 日，ROSS 提交補充函件。2025 年 9-10 月，Free Law Project 及其他十一家阿密庫斯聲明人代表支持 ROSS Intelligence 提交簡報。截至 2026 年 4 月，第三巡迴法院尚未安排言詞辯論，但預計於 2026 年進行。此案將是巡迴法院層級首次就 AI 訓練的合理使用問題表態。\n\n【2026/5/15】雙方依法院命令於 5/11 就第三巡迴 American Society for Testing v. UpCodes 新判決提交補充辯狀：ROSS（White & Case / Pillsbury）援引 UpCodes 主張應簡易撤銷原審不利合理使用裁定，並指 Westlaw 無實際訂閱流失或營收損失等市場損害證據；Thomson Reuters（Kirkland & Ellis）反主張 UpCodes 反證 ROSS 屬商業替代性使用。\n\n【2026/6/11】第三巡迴口頭辯論於費城 James A. Maris Courtroom 完成，為全美首件 AI 訓練資料合理使用上訴聽證。三大訊號：（一）合議庭明顯鎖定合理使用、跳過著作權性，對 ROSS 主張 headnotes 不具 originality 不感興趣；（二）連環追問 ROSS 產品與 Westlaw 有何不同、是否以 Westlaw 策劃內容打造替代品，傾向認定屬第四因素市場替代；（三）對 ROSS 援引 UpCodes 之轉換性論述未予正面回應。書面判決預估 3 至 6 個月作成。",
+   "progress": "【第三巡迴上訴中】ROSS Intelligence 於 2025 年上訴至第三巡迴法院，主張其使用具有轉化性。Thomson Reuters 於 2025 年 11 月提交答辯書狀，稱 ROSS 的行為是「竊取而非創新」。\n\n2026 年 3 月 12 日，ROSS 提交補充函件。2025 年 9-10 月，Free Law Project 及其他十一家阿密庫斯聲明人代表支持 ROSS Intelligence 提交簡報。截至 2026 年 4 月，第三巡迴法院尚未安排言詞辯論，但預計於 2026 年進行。此案將是巡迴法院層級首次就 AI 訓練的合理使用問題表態。\n\n【2026/5/15】雙方依法院命令於 5/11 就第三巡迴 American Society for Testing v. UpCodes 新判決提交補充辯狀：ROSS（White & Case / Pillsbury）援引 UpCodes 主張應簡易撤銷原審不利合理使用裁定，並指 Westlaw 無實際訂閱流失或營收損失等市場損害證據；Thomson Reuters（Kirkland & Ellis）反主張 UpCodes 反證 ROSS 屬商業替代性使用。\n\n【2026/6/11】第三巡迴口頭辯論於費城 James A. Maris Courtroom 完成，為全美首件 AI 訓練資料合理使用上訴聽證。三大訊號：（一）合議庭明顯鎖定合理使用、跳過著作權性，對 ROSS 主張 headnotes 不具 originality 不感興趣；（二）連環追問 ROSS 產品與 Westlaw 有何不同、是否以 Westlaw 策劃內容打造替代品，傾向認定屬第四因素市場替代；（三）對 ROSS 援引 UpCodes 之轉換性論述未予正面回應。書面判決預估 3 至 6 個月作成。\n\n【2026/9/9】Thomson Reuters 就 ROSS 援引美國司法部 AI 訓練合理使用意見書一事，向第三巡迴上訴法院提交答覆狀，主張該意見書不影響本案上訴爭點。",
    "taiwan": "本案對台灣智慧財產實務具有重要參考價值：\n\n1. 台灣著作權法第 65 條之合理使用判斷可參考本案四要件分析框架，特別是「使用目的」與「對市場影響」兩要件。\n2. 若第三巡迴法院維持原判，將強化「以受保護作品訓練商業競爭產品不構成合理使用」的法則，台灣法院在審理類似案件時可作為比較法參考。\n3. 台灣法律資料庫業者（如月旦、Lawsnote）應注意其內容被 AI 公司用於訓練的風險，並考慮透過授權契約或技術措施保護其資料庫著作權。",
    "jurisdiction": "us",
    "country": "🇺🇸 美國",
@@ -30,7 +30,7 @@
    "sourceCount": 4,
    "docket": 17131648,
    "filedAt": null,
-   "updatedAt": "2026-08-11",
+   "updatedAt": "2026-09-10",
    "rulings": {
     "fairUse": "unfavorable",
     "fairUseNote": "Bibas 法官認定以 Westlaw 摘要訓練非轉化性使用；第三巡迴上訴中",
@@ -484,7 +484,7 @@
    ],
    "defendants": "Anthropic PBC",
    "issues": "Concord Music Group、Universal Music Corp. 等音樂出版商控告 Anthropic 的 Claude AI 聊天機器人在回應使用者詢問時，大量輸出受著作權保護的歌詞，構成著作權侵害。\n\n核心爭點：(1) AI 模型輸出歌詞是否構成直接侵害；(2) Anthropic 是否因使用者利用 Claude 生成歌詞而構成代位侵害或輔助侵害；(3) AI 公司是否有義務建立有效的著作權過濾機制。",
-   "progress": "【2025 年初期裁定】法院駁回禁止令聲請（preliminary injunction），認為範圍過廣且未能證明不可回復之損害；並准許 Anthropic 的駁回動議，但允許原告修正訴狀。\n\n【2026 年 1 月】原告提起第二件更大規模訴訟，涵蓋超過 20,000 首歌曲，求償逾 31 億美元法定損害賠償。\n\n【2026/3/25】UMG、Concord、ABKCO 提交部分即決判決動議（partial summary judgment），附 47 頁聲明列舉 218 項「不爭事實」，主張 Anthropic 侵權證據「壓倒性」，要求法院駁回合理使用抗辯。\n\n【2026/3/30】RIAA、NMPA、AAP、新聞/媒體聯盟、STM 及 Authors Guild 等提交支持原告的法庭之友簡報（amicus briefs）。\n\n【2026/4/7】原告援引最高法院 Cox Communications 判決及 Bartz v. Anthropic 解封文件，將蓄意輔助侵權（intentional contributory infringement）被告從 Anthropic 公司變更為 CEO Dario Amodei 及共同創辦人 Benjamin Mann 個人。\n\n【2026/4/24】法院依職權將即決判決聽證改期至 2026 年 10 月 21 日。本案仍最有可能在 2026 年獲得合理使用判決。\n\n【2026/5/28】音樂出版商以 voluntary dismissal 主動撤回「替代侵權」（vicarious infringement）主張——此前 Lee 法官曾否准 Anthropic 就該項所提撤銷之訴聲請，原告反於即決判決完整答辯前自願撤銷此爭點，戰略上集中火力於 DMCA § 1202 移除 CMI 與 BitTorrent 取得盜版訓練資料兩條主軸。案件本體（直接侵權、誘引侵權、DMCA、torrent）續行。\n\n【2026/7/22】音樂出版商提出第二次修正訴狀，援引證據開示所得 Anthropic 內部紀錄，指控共同創辦人曾主動查詢特定歌曲歌詞、疑似使用工具移除著作權管理資訊；訴狀稱 2023 年 9 月某 9 天內 Claude 紀錄中「lyric」一詞出現逾 17 萬次。",
+   "progress": "【2025 年初期裁定】法院駁回禁止令聲請（preliminary injunction），認為範圍過廣且未能證明不可回復之損害；並准許 Anthropic 的駁回動議，但允許原告修正訴狀。\n\n【2026 年 1 月】原告提起第二件更大規模訴訟，涵蓋超過 20,000 首歌曲，求償逾 31 億美元法定損害賠償。\n\n【2026/3/25】UMG、Concord、ABKCO 提交部分即決判決動議（partial summary judgment），附 47 頁聲明列舉 218 項「不爭事實」，主張 Anthropic 侵權證據「壓倒性」，要求法院駁回合理使用抗辯。\n\n【2026/3/30】RIAA、NMPA、AAP、新聞/媒體聯盟、STM 及 Authors Guild 等提交支持原告的法庭之友簡報（amicus briefs）。\n\n【2026/4/7】原告援引最高法院 Cox Communications 判決及 Bartz v. Anthropic 解封文件，將蓄意輔助侵權（intentional contributory infringement）被告從 Anthropic 公司變更為 CEO Dario Amodei 及共同創辦人 Benjamin Mann 個人。\n\n【2026/4/24】法院依職權將即決判決聽證改期至 2026 年 10 月 21 日。本案仍最有可能在 2026 年獲得合理使用判決。\n\n【2026/5/28】音樂出版商以 voluntary dismissal 主動撤回「替代侵權」（vicarious infringement）主張——此前 Lee 法官曾否准 Anthropic 就該項所提撤銷之訴聲請，原告反於即決判決完整答辯前自願撤銷此爭點，戰略上集中火力於 DMCA § 1202 移除 CMI 與 BitTorrent 取得盜版訓練資料兩條主軸。案件本體（直接侵權、誘引侵權、DMCA、torrent）續行。\n\n【2026/7/22】音樂出版商提出第二次修正訴狀，援引證據開示所得 Anthropic 內部紀錄，指控共同創辦人曾主動查詢特定歌曲歌詞、疑似使用工具移除著作權管理資訊；訴狀稱 2023 年 9 月某 9 天內 Claude 紀錄中「lyric」一詞出現逾 17 萬次。\n\n【2026/9/9】Eumi K. Lee 法官將新提起之 Sony Music Publishing／Warner Chappell v. Anthropic（音樂出版商 torrenting 訴訟）與本案 related，統一由其審理以求程序效率。",
    "taiwan": "本案對台灣的啟示：\n\n1. 台灣的 MÜST（社團法人中華音樂著作權協會）等音樂著作權集管團體應密切關注本案發展，思考如何就 AI 輸出歌詞問題向台灣 AI 服務業者主張權利。\n2. AI 聊天機器人輸出歌詞在台灣可能構成著作權法第 92 條「公開傳輸」或第 91 條「重製」侵害。\n3. 本案凸顯的「過濾義務」問題，可與台灣著作權法第 90-4 條（ISP 責任限制）的通知取下機制類比思考——AI 平台業者是否應建立類似機制？",
    "jurisdiction": "us",
    "country": "🇺🇸 美國",
@@ -495,7 +495,7 @@
    "sourceCount": 5,
    "docket": 68889092,
    "filedAt": null,
-   "updatedAt": "2026-08-05",
+   "updatedAt": "2026-09-10",
    "rulings": {
     "fairUse": "pending",
     "fairUseNote": "即決判決聽證改期至 2026/10/21，最可能產出音樂訓練合理使用判決",
@@ -3017,7 +3017,7 @@
    ],
    "defendants": "Anthropic PBC",
    "issues": "Concord Music Group、Universal Music、ABKCO 等音樂出版商於 2026/1/28 在 N.D. Cal. 對 Anthropic 提起第二波訴訟（5:26-cv-00880），同時將 CEO Dario Amodei 與共同創辦人 Benjamin Mann 列為個人被告。\n\n主要訴因：原告主張 Anthropic 透過 BitTorrent 從 Library Genesis（LibGen）、Pirate Library Mirror（PiLiMi）等「影子圖書館」(shadow libraries) 下載並上傳數百萬本書籍，其中包含**歌詞集、樂譜書與音樂相關書籍**——這些書籍嵌入了原告所控制的音樂著作；訴狀附件 A 列出 714 首作品（含 Wild Horses、Sweet Caroline、Bennie and the Jets、Eye of the Tiger 等），附件 B 另列 20,517 首。本案與第一波 Concord v. Anthropic（歌詞輸出訴訟）並非同一案件，但訴因事實互有重疊。\n\n法律爭點：(1) Anthropic 透過 P2P／盜版電子書庫取得訓練資料是否構成獨立侵權；(2) 來自盜版管道的訓練資料是否影響合理使用抗辯（特別參酌 Bartz v. Anthropic 對「盜版書」的處理）；(3) Amodei、Mann 個人責任的成立要件；(4) 「不潔之手」（unclean hands）原則對合理使用主張的限制。",
-   "progress": "Anthropic 已提交動議請求暫停本案，等待第一波 Concord v. Anthropic 即決判決結果。Concord I 的即決判決聽證定於 2026 年 7 月 15 日。法院尚未裁定暫停動議。\n\n【2026/5/20】Anthropic 向加州北區聯邦地院（Eumi K. Lee 法官、Susan van Keulen 治安法官）提交 Motion to Stay，請求於 Concord I（5:24-cv-03811）最終裁判前停止本案全部訴訟程序，備位主張為等待 Concord I 即決判決與後續上訴終結；理由為兩案被告同一、爭點實質相同，續行將造成重複防禦負擔且判決恐相互衝突。\n\n【2026/8/3】Anthropic 聲請一部駁回輸出侵權與 DMCA CMI 主張（欠缺具體侵權範例），CEO Dario Amodei 另聲請駁回對其個人之直接侵權（torrenting）指控（欠缺事實基礎）；11/4 Lee 法官開庭審理。",
+   "progress": "Anthropic 已提交動議請求暫停本案，等待第一波 Concord v. Anthropic 即決判決結果。Concord I 的即決判決聽證定於 2026 年 7 月 15 日。法院尚未裁定暫停動議。\n\n【2026/5/20】Anthropic 向加州北區聯邦地院（Eumi K. Lee 法官、Susan van Keulen 治安法官）提交 Motion to Stay，請求於 Concord I（5:24-cv-03811）最終裁判前停止本案全部訴訟程序，備位主張為等待 Concord I 即決判決與後續上訴終結；理由為兩案被告同一、爭點實質相同，續行將造成重複防禦負擔且判決恐相互衝突。\n\n【2026/8/3】Anthropic 聲請一部駁回輸出侵權與 DMCA CMI 主張（欠缺具體侵權範例），CEO Dario Amodei 另聲請駁回對其個人之直接侵權（torrenting）指控（欠缺事實基礎）；11/4 Lee 法官開庭審理。\n\n【2026/9/9】Eumi K. Lee 法官將新提起之 Sony Music Publishing／Warner Chappell v. Anthropic（音樂出版商 torrenting 訴訟）與本案 related，統一由其審理以求程序效率。",
    "taiwan": "台灣著作權法與盜版訓練資料：若 AI 公司使用透過盜版管道取得的台灣作品進行訓練，台灣權利人可主張更強的侵權論據。台灣刑法第 91 條（著作權法）對於利用盜版軟體的行為有較嚴格的處罰。",
    "jurisdiction": "us",
    "country": "🇺🇸 美國",
@@ -3028,7 +3028,7 @@
    "sourceCount": 2,
    "docket": 72199828,
    "filedAt": null,
-   "updatedAt": "2026-08-11",
+   "updatedAt": "2026-09-10",
    "claimsDetail": [
     {
      "count": "I",
