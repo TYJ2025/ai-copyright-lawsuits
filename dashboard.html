@@ -1951,7 +1951,7 @@
 </div>
 
 <footer>
-  &copy; 2026 AI Copyright Litigation Tracker &mdash; 案件資料來源：美國聯邦法院公開紀錄、CourtListener   每日快訊最近更新: 2026-09-10
+  &copy; 2026 AI Copyright Litigation Tracker &mdash; 案件資料來源：美國聯邦法院公開紀錄、CourtListener   每日快訊最近更新: 2026-09-11
 </footer>
 
 <script>
@@ -13812,6 +13812,11 @@ buildRegionMap();
 // 每筆需含 addedAt（YYYY-MM-DD，台北時區），代表「條目加入 dashboard 之日期」
 const newsItems = [
   {
+    "addedAt": "2026-09-11",
+    "text": "【2026/9/9】Thomson Reuters v. ROSS Intelligence：TR 於第三巡迴上訴補充回應 ROSS 引用 DOJ 合理使用意見之 Rule 28(j) 函，上訴仍待裁判。",
+    "url": "https://chatgptiseatingtheworld.com/2026/09/09/thomson-reuters-responds-to-ross-intelligence-letter-re-united-states-statement-of-interest-on-fair-use/"
+  },
+  {
     "addedAt": "2026-09-10",
     "text": "【2026/9/9】Concord Music v. Anthropic：Eumi K. Lee 法官將新提起之 Sony Music／Warner Chappell v. Anthropic torrenting 訴訟與 Concord 系列音樂著作權案 related，統一由其審理",
     "url": "https://chatgptiseatingtheworld.com/2026/09/09/judge-lee-relates-sony-music-v-anthropic-to-concord-music-v-anthropic/"
@@ -13820,17 +13825,17 @@ const newsItems = [
     "addedAt": "2026-09-08",
     "text": "【2026/9/1】美國司法部（DOJ）於 NYT v. OpenAI／In re OpenAI 著作權 MDL（S.D.N.Y., Stein 法官）遞交 Statement of Interest，主張 AI 訓練使用著作權文字構成高度轉化性之合理使用，並以國家安全與經濟競爭力為由力挺 OpenAI、Microsoft；為聯邦政府首次就 AI 訓練著作權議題正式表態，不具拘束力",
     "url": "https://www.pymnts.com/legal/2026/doj-sides-with-openai-against-the-ny-times-in-high-stakes-copyright-case/"
-  },
-  {
-    "addedAt": "2026-09-08",
-    "text": "【2026/9/8】Andersen v. Stability AI（N.D. Cal. 3:23-cv-00201）陪審團審判開庭：全美首件就 AI 圖像生成著作權「model-as-copy」理論（主張 Stable Diffusion 模型本身即內含訓練圖像之壓縮重製物）進入陪審團審理之案件，另含 Lanham Act 商標主張，被告含 Stability AI、Midjourney、DeviantArt、Runway AI",
-    "url": "https://sigmalawgroup.com/blog/2026-09-06-andersen-stability-ai-jury-trial/"
   }
 ];
 
 // newsArchive: 已超過 3 天而從 newsItems 移除之歷史快訊（新者在上）
 // 由 daily-brief.sh 每日自動 prepend；展開於畫面下方「歷史快訊 Archive」區塊
 const newsArchive = [
+  {
+    "addedAt": "2026-09-08",
+    "text": "【2026/9/8】Andersen v. Stability AI（N.D. Cal. 3:23-cv-00201）陪審團審判開庭：全美首件就 AI 圖像生成著作權「model-as-copy」理論（主張 Stable Diffusion 模型本身即內含訓練圖像之壓縮重製物）進入陪審團審理之案件，另含 Lanham Act 商標主張，被告含 Stability AI、Midjourney、DeviantArt、Runway AI",
+    "url": "https://sigmalawgroup.com/blog/2026-09-06-andersen-stability-ai-jury-trial/"
+  },
   {
     "addedAt": "2026-09-07",
     "text": "【2026/9/4】Seattle Times、Newsday v. OpenAI, Microsoft（S.D.N.Y.）：兩家地方報業聯合提告，指控被告繞過付費牆大量抓取文章訓練 ChatGPT、Copilot 與 Bing AI，並主張商標淡化（AI 生成不實內容遭誤植為該媒體出品），求償並要求銷毀相關訓練資料集與模型副本",
