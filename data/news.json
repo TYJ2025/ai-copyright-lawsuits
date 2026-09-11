@@ -6,6 +6,11 @@
   "data": {
     "items": [
       {
+        "addedAt": "2026-09-12",
+        "text": "【2026/9/10】BMG Rights Management v. Anthropic（N.D. Cal., Lee 法官）：BMG 提出第一次修正訴狀，案件已與 Concord Music、Sony Music 音樂出版商集團訴訟併案由 Eumi K. Lee 法官統一審理，修正內容細節尚未明朗。",
+        "url": "https://chatgptiseatingtheworld.com/2026/09/11/bmg-files-first-amended-complaint-v-anthropic/"
+      },
+      {
         "addedAt": "2026-09-11",
         "text": "【2026/9/9】Thomson Reuters v. ROSS Intelligence：TR 於第三巡迴上訴補充回應 ROSS 引用 DOJ 合理使用意見之 Rule 28(j) 函，上訴仍待裁判。",
         "url": "https://chatgptiseatingtheworld.com/2026/09/09/thomson-reuters-responds-to-ross-intelligence-letter-re-united-states-statement-of-interest-on-fair-use/"
@@ -14,14 +19,14 @@
         "addedAt": "2026-09-10",
         "text": "【2026/9/9】Concord Music v. Anthropic：Eumi K. Lee 法官將新提起之 Sony Music／Warner Chappell v. Anthropic torrenting 訴訟與 Concord 系列音樂著作權案 related，統一由其審理",
         "url": "https://chatgptiseatingtheworld.com/2026/09/09/judge-lee-relates-sony-music-v-anthropic-to-concord-music-v-anthropic/"
-      },
+      }
+    ],
+    "archive": [
       {
         "addedAt": "2026-09-08",
         "text": "【2026/9/1】美國司法部（DOJ）於 NYT v. OpenAI／In re OpenAI 著作權 MDL（S.D.N.Y., Stein 法官）遞交 Statement of Interest，主張 AI 訓練使用著作權文字構成高度轉化性之合理使用，並以國家安全與經濟競爭力為由力挺 OpenAI、Microsoft；為聯邦政府首次就 AI 訓練著作權議題正式表態，不具拘束力",
         "url": "https://www.pymnts.com/legal/2026/doj-sides-with-openai-against-the-ny-times-in-high-stakes-copyright-case/"
-      }
-    ],
-    "archive": [
+      },
       {
         "addedAt": "2026-09-08",
         "text": "【2026/9/8】Andersen v. Stability AI（N.D. Cal. 3:23-cv-00201）陪審團審判開庭：全美首件就 AI 圖像生成著作權「model-as-copy」理論（主張 Stable Diffusion 模型本身即內含訓練圖像之壓縮重製物）進入陪審團審理之案件，另含 Lanham Act 商標主張，被告含 Stability AI、Midjourney、DeviantArt、Runway AI",
@@ -505,5 +510,5 @@
     ]
   },
   "lastUpdatedBy": "add_news.py",
-  "lastUpdatedAt": "2026-09-11T07:10:20.474478+08:00"
+  "lastUpdatedAt": "2026-09-12T07:09:16.312848+08:00"
 }
