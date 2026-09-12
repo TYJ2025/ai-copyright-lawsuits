@@ -6,6 +6,21 @@
   "data": {
     "items": [
       {
+        "addedAt": "2026-09-13",
+        "text": "【2026/9/3】Kneschke v. LAION e.V.（德國聯邦最高法院 BGH 言詞辯論）：負責著作權案件之第一民事庭於言詞辯論中透露可能將歐盟文本資料探勘（TDM）例外（DSM 指令第 4 條／德國著作權法第 44b 條）之解釋問題移送歐盟法院（CJEU）先行裁決，尚未作成終局裁判。",
+        "url": "https://www.lto.de/recht/presseschau/p/presseschau-2026-09-04-mindestlohn-werkstatt-behinderung-metall-auf-metall-pastiche-bgh-ki-training-foto"
+      },
+      {
+        "addedAt": "2026-09-13",
+        "text": "【2026/9/7】EVOX Productions v. Stability AI, Runway AI, DeviantArt & Hugging Face（C.D. Cal. 2:26-cv-07201）：被告 Hugging Face（近期由 NVIDIA 收購）未於期限內答辯，EVOX 取得對其之缺席判決（default judgment）；其餘三名被告 Stability AI、Runway AI、DeviantArt 已答辯，訴訟繼續進行。",
+        "url": "https://chatgptiseatingtheworld.com/2026/09/07/evox-productions-wins-copyright-suit-v-hugging-face-recently-acquired-by-nvidia-by-default-judgment-hugging-face-failed-to-answer/"
+      },
+      {
+        "addedAt": "2026-09-13",
+        "text": "【2026/9/11】Hobbs v. Meta Platforms（S.D.N.Y. 1:26-cv-04314）：原告作者群撤回對前 Meta FAIR 副總 Joelle Pineau、前研究員 Guillaume Lample 兩名個人被告之訴訟請求，理由為兩人分居法國、加拿大，依海牙送達公約完成境外送達成本過高不符效益，Meta 公司本身及 Zuckerberg 之訴訟不受影響。",
+        "url": "https://chatgptiseatingtheworld.com/2026/09/11/book-authors-dismiss-claims-against-former-meta-ai-researchers-guillaume-lample-joelle-pineau-who-live-outside-us/"
+      },
+      {
         "addedAt": "2026-09-12",
         "text": "【2026/9/10】BMG Rights Management v. Anthropic（N.D. Cal., Lee 法官）：BMG 提出第一次修正訴狀，案件已與 Concord Music、Sony Music 音樂出版商集團訴訟併案由 Eumi K. Lee 法官統一審理，修正內容細節尚未明朗。",
         "url": "https://chatgptiseatingtheworld.com/2026/09/11/bmg-files-first-amended-complaint-v-anthropic/"
@@ -14,14 +29,14 @@
         "addedAt": "2026-09-11",
         "text": "【2026/9/9】Thomson Reuters v. ROSS Intelligence：TR 於第三巡迴上訴補充回應 ROSS 引用 DOJ 合理使用意見之 Rule 28(j) 函，上訴仍待裁判。",
         "url": "https://chatgptiseatingtheworld.com/2026/09/09/thomson-reuters-responds-to-ross-intelligence-letter-re-united-states-statement-of-interest-on-fair-use/"
-      },
+      }
+    ],
+    "archive": [
       {
         "addedAt": "2026-09-10",
         "text": "【2026/9/9】Concord Music v. Anthropic：Eumi K. Lee 法官將新提起之 Sony Music／Warner Chappell v. Anthropic torrenting 訴訟與 Concord 系列音樂著作權案 related，統一由其審理",
         "url": "https://chatgptiseatingtheworld.com/2026/09/09/judge-lee-relates-sony-music-v-anthropic-to-concord-music-v-anthropic/"
-      }
-    ],
-    "archive": [
+      },
       {
         "addedAt": "2026-09-08",
         "text": "【2026/9/1】美國司法部（DOJ）於 NYT v. OpenAI／In re OpenAI 著作權 MDL（S.D.N.Y., Stein 法官）遞交 Statement of Interest，主張 AI 訓練使用著作權文字構成高度轉化性之合理使用，並以國家安全與經濟競爭力為由力挺 OpenAI、Microsoft；為聯邦政府首次就 AI 訓練著作權議題正式表態，不具拘束力",
@@ -510,5 +525,5 @@
     ]
   },
   "lastUpdatedBy": "add_news.py",
-  "lastUpdatedAt": "2026-09-12T07:09:16.312848+08:00"
+  "lastUpdatedAt": "2026-09-13T07:10:42.891992+08:00"
 }

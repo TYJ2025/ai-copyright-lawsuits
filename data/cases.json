@@ -6171,7 +6171,7 @@
    "plaintiffEntities": [],
    "defendants": "LAION e.V. (Large-scale Artificial Intelligence Open Network)",
    "issues": "攝影師 Robert Kneschke 對非營利組織 LAION e.V. 提起訴訟，主張 LAION 未經同意將其攝影作品納入 LAION-5B 資料集（包含 50 億張網路爬取圖像，用於訓練 Stable Diffusion 等 AI 模型）。\n\n關鍵法律爭點：(1) 文本與資料探勘（TDM）例外之適用範圍——非營利研究機構是否可援引《德國著作權法》第60d條（科學研究例外）進行 AI 訓練資料集之建構；(2) 機器可讀退出（machine-readable opt-out）之定義——以自然語言表達的退出聲明是否構成有效的機器可讀權利保留；(3) AI 訓練資料集的「複製」性質——下載及處理圖像是否構成著作權法上的重製行為。",
-   "progress": "漢堡地方法院於 2024 年 9 月駁回原告請求，認定 LAION 可援引科學研究例外。漢堡高等地區法院於 2025 年 12 月 10 日駁回上訴，維持原判。法院認定：(1) LAION 作為非營利研究機構可援引 TDM 例外；(2) Kneschke 以純文字（自然語言）表達的 TDM 退出聲明不構成有效的「機器可讀」權利保留。法院允許向聯邦最高法院（BGH）上訴，該案尚未完結。本案為歐盟 TDM 例外適用於 AI 訓練的關鍵判例。",
+   "progress": "漢堡地方法院於 2024 年 9 月駁回原告請求，認定 LAION 可援引科學研究例外。漢堡高等地區法院於 2025 年 12 月 10 日駁回上訴，維持原判。法院認定：(1) LAION 作為非營利研究機構可援引 TDM 例外；(2) Kneschke 以純文字（自然語言）表達的 TDM 退出聲明不構成有效的「機器可讀」權利保留。法院允許向聯邦最高法院（BGH）上訴，該案尚未完結。本案為歐盟 TDM 例外適用於 AI 訓練的關鍵判例。\n\n【2026/9/3】德國聯邦最高法院（BGH）言詞辯論：第一民事庭透露可能將 TDM 例外（DSM 指令第 4 條／德國著作權法第 44b 條）解釋問題移送歐盟法院（CJEU）先行裁決，尚未作成終局裁判。",
    "taiwan": "本案對台灣具有重大參考意義：(1) 台灣目前缺乏明確的 TDM 例外規定，本案凸顯立法上需要考慮是否引入類似歐盟的 TDM 例外；(2)「機器可讀退出」的定義直接影響著作權人的實際保護力度——台灣創作者如欲保留 AI 訓練排除權，須注意技術性退出機制（如 robots.txt、metadata 標記）的重要性；(3) 非營利研究機構與商業 AI 公司的區別處理，亦為台灣未來立法應考量的面向。",
    "jurisdiction": "eu",
    "country": "🇩🇪 德國",
@@ -6182,7 +6182,7 @@
    "sourceCount": 4,
    "docket": null,
    "filedAt": null,
-   "updatedAt": null,
+   "updatedAt": "2026-09-13",
    "rulings": {
     "fairUse": "na",
     "fairUseNote": "適用歐盟 TDM 科研例外",
@@ -7196,7 +7196,7 @@
    "plaintiffEntities": [],
    "defendants": "Meta Platforms, Inc.；Mark Zuckerberg；Joelle Pineau；Guillaume Lample",
    "issues": "作家 Jeff Hobbs（《The Short and Tragic Life of Robert Peace》作者）與 A. Douglas Stone（Yale 應用物理教授）於 2026 年 5 月 22 日於紐約南區聯邦地院對 Meta 提起集體訴訟，主張 Meta 以盜版書籍（shadow library）訓練 Llama 系列模型構成故意著作權侵害。\n\n本案最受矚目之處在於被告範圍：除 Meta Platforms 與 CEO Mark Zuckerberg 外，更首次將 Meta AI 研究科學家列為個人被告——Meta FAIR（Fundamental AI Research）實驗室前副總裁 Joelle Pineau、前研究員 Guillaume Lample。\n\n核心爭點：(1) 以盜版來源書籍訓練 LLM 是否構成故意侵權；(2) AI 研究人員個人是否須就職務上參與之訓練決策負輔助侵權／個人責任——此為 AI 訓練訴訟首見之「科學家個人責任」戰線。",
-   "progress": "【2026/5/22】Jeff Hobbs、A. Douglas Stone 於 S.D.N.Y. 提起集體訴訟（1:26-cv-04314）。Nature of Suit 820（著作權）。截至立案時法官尚未指派（Unassigned）。\n\n本案為追蹤站 ChatGPT Is Eating the World 所列之第 113 件美國 AI 著作權訴訟。與同期出版商聯盟 + Scott Turow v. Meta（1:26-cv-03689，2026/5/5）同屬「出版界對 Meta／Llama」之訴訟波，惟本案獨以「點名 AI 科學家個人」為特色。",
+   "progress": "【2026/5/22】Jeff Hobbs、A. Douglas Stone 於 S.D.N.Y. 提起集體訴訟（1:26-cv-04314）。Nature of Suit 820（著作權）。截至立案時法官尚未指派（Unassigned）。\n\n本案為追蹤站 ChatGPT Is Eating the World 所列之第 113 件美國 AI 著作權訴訟。與同期出版商聯盟 + Scott Turow v. Meta（1:26-cv-03689，2026/5/5）同屬「出版界對 Meta／Llama」之訴訟波，惟本案獨以「點名 AI 科學家個人」為特色。\n\n【2026/9/11】原告撤回對前 Meta FAIR 副總 Joelle Pineau、前研究員 Guillaume Lample 兩名個人被告之請求，因兩人居於法國、加拿大境外送達成本過高不符效益；Meta 公司及 Zuckerberg 部分不受影響。",
    "taiwan": "本案對台灣的啟示：\n\n1. **AI 研究人員個人責任之先例**——本案將 Meta FAIR 前副總 Joelle Pineau、研究員 Guillaume Lample 列為個人被告，開「受僱研究人員須就訓練決策負個人侵權責任」之先河。台灣 AI 研發團隊（學界與產業之研究主管、資料工程師）若於訓練資料來源決策有可證實之直接參與，未來可能面臨民法第 185 條共同侵權之個人責任主張。\n\n2. **盜版庫訓練之故意侵權強化**——本案延續 shadow library（LibGen、Anna's Archive 等）爭點，主張使用盜版來源即構成故意侵權。國內 AI 業者與研究機構應建立資料來源驗證（data provenance）與盡職調查流程，避免使用來源不明之訓練語料。\n\n3. **個人被告對和解與舉證之影響**——將個人列為被告可能改變訴訟動態：增加被告和解壓力、擴大文件揭示（discovery）範圍至個人通訊。台灣企業於 AI 專案治理時，應留意內部 email、會議紀錄等可能成為個人責任證據。",
    "jurisdiction": "us",
    "country": "🇺🇸 美國",
@@ -7207,7 +7207,7 @@
    "sourceCount": 0,
    "docket": 73384790,
    "filedAt": null,
-   "updatedAt": "2026-09-08",
+   "updatedAt": "2026-09-13",
    "claimsDetail": [
     {
      "count": "I",
@@ -7779,7 +7779,7 @@
    ],
    "defendants": "Stability AI, Inc.、Runway AI、DeviantArt、Hugging Face",
    "issues": "汽車商業攝影公司 EVOX Productions 控告四家 AI 業者（2:26-cv-07201，2026/7/2 立案），主張逾 10 萬張汽車攝影作品遭未經授權用於 AI 訓練，並首次將開源平台 Hugging Face 列為被告——指其網站直接存放並散布含 225 張 EVOX 照片的 Stanford Cars 資料集（下載逾 9 萬次）。EVOX 此前已就 ImageNet 資料集控告 Stanford 大學。本案為美國第 125 件 AI 著作權訴訟。",
-   "progress": "剛立案。起訴狀附有註冊攝影作品與 AI 生成輸出的並列比對。\n\n【2026/7/2】汽車商業攝影圖庫 EVOX 控告 Stability AI、Runway AI、DeviantArt 與 Hugging Face，主張逾 10 萬張受著作權保護汽車攝影作品經由 Stanford Cars／ImageNet 衍生資料集未經授權用於訓練圖像生成模型；首次將開源模型代管平台 Hugging Face 列為直接侵權被告，指其代管並散布含 225 張 EVOX 照片之資料集、下載逾 9 萬次。",
+   "progress": "剛立案。起訴狀附有註冊攝影作品與 AI 生成輸出的並列比對。\n\n【2026/7/2】汽車商業攝影圖庫 EVOX 控告 Stability AI、Runway AI、DeviantArt 與 Hugging Face，主張逾 10 萬張受著作權保護汽車攝影作品經由 Stanford Cars／ImageNet 衍生資料集未經授權用於訓練圖像生成模型；首次將開源模型代管平台 Hugging Face 列為直接侵權被告，指其代管並散布含 225 張 EVOX 照片之資料集、下載逾 9 萬次。\n\n【2026/9/7】被告 Hugging Face（近期由 NVIDIA 收購）未答辯，EVOX 取得對其缺席判決（default judgment）；Stability AI、Runway AI、DeviantArt 已答辯，訴訟繼續進行。",
    "taiwan": "資料集「代管平台」（而非模型開發商）被列為直接侵權被告屬重大擴張，對台灣的資料集分享平台與學術機構是明確警訊。",
    "jurisdiction": "us",
    "country": "🇺🇸 美國",
@@ -7790,7 +7790,7 @@
    "sourceCount": 1,
    "docket": null,
    "filedAt": null,
-   "updatedAt": "2026-08-03",
+   "updatedAt": "2026-09-13",
    "claimsDetail": null,
    "claimsVerifiedAt": null
   },
