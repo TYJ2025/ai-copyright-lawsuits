@@ -7314,7 +7314,7 @@
    "plaintiffEntities": [],
    "defendants": "Anthropic PBC",
    "issues": "Pro se（本人訴訟）原告 Daniel Benjamin Gilbert 於麻州聯邦地院對 Anthropic 提起著作權侵權訴訟（17 U.S.C. §501），起訴狀附 Exhibit A–G 共七份證據附件。具體侵權主張內容（涉及著作類型、是否與 Bartz 和解 opt-out 相關）待起訴狀全文公開後確認（待查）。",
-   "progress": "2026/5/26 立案。原告同日聲請 pro se 電子提交許可。案件在 D. Mass.（而非多數 Anthropic 訴訟集中之 N.D. Cal.），管轄與移轉動向值得觀察。",
+   "progress": "2026/5/26 立案。原告同日聲請 pro se 電子提交許可。案件在 D. Mass.（而非多數 Anthropic 訴訟集中之 N.D. Cal.），管轄與移轉動向值得觀察。\n\n【2026/9/11】Anthropic 具狀反對 Gilbert 撤銷其合理使用反訴（counterclaim）之聲請；Gilbert 曾提議訴訟範圍限於「盜版來源」訓練複本。",
    "taiwan": "個人創作者以本人訴訟對 AI 公司求償之案例。台灣著作權人亦可不委任律師自行起訴，但 AI 訓練侵權案件之技術舉證門檻高，本案後續可觀察 pro se 原告在此類案件之實際存活率。",
    "jurisdiction": "us",
    "country": "🇺🇸 美國",
@@ -7325,7 +7325,7 @@
    "sourceCount": 0,
    "docket": 73391700,
    "filedAt": null,
-   "updatedAt": "2026-09-08",
+   "updatedAt": "2026-09-15",
    "claimsDetail": [
     {
      "count": "",
