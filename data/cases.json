@@ -8018,7 +8018,7 @@
    "status": "active",
    "claims": [
     "Direct Copyright",
-    "Breach of CC License",
+    "Breach of Contract",
     "Unjust Enrichment"
    ],
    "plaintiffs": "S.A. Jamendo（盧森堡音樂平台，Winamp 子公司）",
@@ -8038,9 +8038,41 @@
    "sourceCount": 3,
    "docket": 73547746,
    "filedAt": "2026-06-29",
-   "updatedAt": "2026-08-04",
-   "claimsDetail": null,
-   "claimsVerifiedAt": null
+   "updatedAt": "2026-09-15",
+   "claimsDetail": [
+    {
+     "count": "I",
+     "title": "Copyright Infringement in Violation of 17 U.S.C. §§ 101 et seq",
+     "canonical": "direct-copyright"
+    },
+    {
+     "count": "III",
+     "title": "Breach of Contract - CC BY-NC 4.0 License",
+     "canonical": "breach-contract"
+    },
+    {
+     "count": "IV",
+     "title": "Breach of Contract - Terms of Use",
+     "canonical": "breach-contract"
+    },
+    {
+     "count": "V",
+     "title": "Unjust Enrichment",
+     "canonical": "unjust-enrichment"
+    },
+    {
+     "count": "VI",
+     "title": "Unfair and Deceptive Acts - Mass. Gen. Laws ch. 93A, § 11",
+     "canonical": null
+    }
+   ],
+   "claimsVerifiedAt": "2026-09-15",
+   "claimsSource": "https://www.courtlistener.com/docket/73547746/1/sa-jamendo-v-suno-inc/",
+   "claimsPrevious": [
+    "Direct Copyright",
+    "Breach of CC License",
+    "Unjust Enrichment"
+   ]
   },
   {
    "id": 160,
