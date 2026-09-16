@@ -6,6 +6,36 @@
   "data": {
     "items": [
       {
+        "addedAt": "2026-09-17",
+        "text": "【2026/9/7】中國最高人民法院發布全國首份 AI 相關案件裁判規則（24 條）：涵蓋訓練資料使用、AI 生成內容侵權判斷及命業者揭露訓練資料之舉證規則，惟明確迴避 AI 訓練合理使用及生成物可著作權性之定性問題",
+        "url": "https://chinaiplawupdate.com/2026/09/chinas-supreme-peoples-court-issues-first-national-judicial-rules-on-ai-disputes-but-sidesteps-copyrightability-of-ai-generated-works/"
+      },
+      {
+        "addedAt": "2026-09-17",
+        "text": "【2026/9/8】American Federation of Musicians v. UMG/Warner Music Group（S.D.N.Y.）：AFM 就兩大唱片公司續行聲請駁回提出反對書狀，持續爭執勞動協議新用途條款是否涵蓋 AI 訓練授權收入分潤",
+        "url": "https://www.digitalmusicnews.com/2026/09/08/afm-universal-music-lawsuit-dismissal-retort/"
+      },
+      {
+        "addedAt": "2026-09-17",
+        "text": "【2026/9/15】UMG Recordings v. DistroKid（D. Del. 新案）：UMG 對音樂發行平台 DistroKid 提告，指控其縱容 AI slop 量產歌曲冒充人類創作發行、並散布未授權混音與取樣，構成著作權侵害及不實表示",
+        "url": "https://variety.com/2026/music/news/universal-music-group-sues-distrokid-ai-slop-pipeline-1236863076/"
+      },
+      {
+        "addedAt": "2026-09-17",
+        "text": "【2026/9/1】UMG/Sony Music v. Suno（D. Mass.）：Suno 提出答辯狀首度承認以數千萬筆錄音訓練模型、並以 yt-dlp 工具自 YouTube 取得音源，但抗辯原告就串流盜錄主張欠缺當事人適格",
+        "url": "https://www.musicbusinessworldwide.com/suno-admits-it-obtained-youtube-audio-to-train-its-ai-but-challenges-umg-and-sonys-standing-to-bring-stream-ripping-claim/"
+      },
+      {
+        "addedAt": "2026-09-17",
+        "text": "【2026/9/15】ANI Media v. OpenAI（德里高等法院合議庭）：法院命 OpenAI 就 ANI 不服 7/24 駁回暫時禁制令裁定所提上訴具狀答辯，下次庭期訂 12/5，ANI 主張印度著作權法合理交易標準較美國合理使用更為限縮",
+        "url": "https://www.business-standard.com/india-news/delhi-high-court-seeks-openai-reply-on-ani-challenge-to-copyright-ruling-126091501292_1.html"
+      },
+      {
+        "addedAt": "2026-09-17",
+        "text": "【2026/9/15】Concord Music v. Anthropic I（N.D. Cal. 5:24-cv-03811，Lee 法官）：雙方即決判決攻防書狀提交完畢，聽證定 10/21，為音樂出版商歌詞著作權訴訟首件進入即決判決實體審理階段之案件",
+        "url": "https://chatgptiseatingtheworld.com/2026/09/15/summary-judgment-briefing-completed-in-concord-music-v-anthropic-i/"
+      },
+      {
         "addedAt": "2026-09-16",
         "text": "【2026/8/31】NYT v. OpenAI（S.D.N.Y. MDL，Stein 法官）：法官命原告紐約時報於 9/11 前具狀說明本案是否應停止程序、以待 MDL 內其他案件即決判決結果，被告回應期限訂 9/18，程序進度尚待裁定",
         "url": "https://deadline.com/2026/09/new-york-times-justice-department-openai-1237066310/"
@@ -540,5 +570,5 @@
     ]
   },
   "lastUpdatedBy": "add_news.py",
-  "lastUpdatedAt": "2026-09-16T07:10:35.560204+08:00"
+  "lastUpdatedAt": "2026-09-17T07:12:15.808769+08:00"
 }
