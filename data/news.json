@@ -6,6 +6,21 @@
   "data": {
     "items": [
       {
+        "addedAt": "2026-09-18",
+        "text": "【2026/9/16】Times Publishing Company v. Microsoft/OpenAI（S.D.N.Y. 新案）：報業再對 OpenAI、Microsoft 提起著作權侵害、代位侵權及 DMCA 移除著作權管理資訊訴訟，為美國第 143 起 AI 著作權訴訟，預期併入 Stein 法官主導之 MDL",
+        "url": "https://chatgptiseatingtheworld.com/2026/09/16/more-newspapers-sue-openai-microsoft-complaint-in-times-publishing-v-microsoft/"
+      },
+      {
+        "addedAt": "2026-09-18",
+        "text": "【2026/9/16】Doe v. GitHub（Copilot 訴訟，9th Cir. 24-7700）：第九巡迴上訴法院三人合議庭維持地院駁回裁定，認開源程式設計師無法就 Copilot 輸出程式碼未附正確歸屬主張 DMCA § 1202(b)，AI 業者於此爭點全面勝訴",
+        "url": "https://news.bloomberglaw.com/us-law-week/openai-github-seal-win-in-copyright-case-over-ai-coding-tool"
+      },
+      {
+        "addedAt": "2026-09-18",
+        "text": "【2026/9/17】NYT v. Microsoft/OpenAI（S.D.N.Y. MDL）：解封文件揭露 Microsoft 應用科學總監私訊稱 AI 抓取為「人類史上最大規模的勞動竊取」，並顯示逾 9.1 萬篇 NYT／Daily News 文章遭訓練使用、涉繞過付費牆及移除著作權標示",
+        "url": "https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal/"
+      },
+      {
         "addedAt": "2026-09-17",
         "text": "【2026/9/7】中國最高人民法院發布全國首份 AI 相關案件裁判規則（24 條）：涵蓋訓練資料使用、AI 生成內容侵權判斷及命業者揭露訓練資料之舉證規則，惟明確迴避 AI 訓練合理使用及生成物可著作權性之定性問題",
         "url": "https://chinaiplawupdate.com/2026/09/chinas-supreme-peoples-court-issues-first-national-judicial-rules-on-ai-disputes-but-sidesteps-copyrightability-of-ai-generated-works/"
@@ -44,14 +59,14 @@
         "addedAt": "2026-09-16",
         "text": "【2026/9/5】Authors Guild v. OpenAI（S.D.N.Y. MDL）：原告作家團體具狀聲請即決判決，主張 OpenAI「built the foundations of its business on mass piracy」、GPT 模型對作家出版業構成「existential threat」，訴請認定被告下載盜版書籍及訓練模型不構成合理使用",
         "url": "https://torrentfreak.com/openais-chatgpt-was-built-on-concealed-mass-piracy-authors-tell-court/"
-      },
+      }
+    ],
+    "archive": [
       {
         "addedAt": "2026-09-15",
         "text": "【2026/9/11】Gilbert v. Anthropic（D. Mass. 3:26-cv-30081）：Anthropic 具狀反對原告 pro se 作者 Gilbert 撤銷其合理使用反訴（counterclaim）之聲請；Gilbert 先前曾提議訴訟範圍限於「盜版來源」訓練複本。",
         "url": "https://chatgptiseatingtheworld.com/2026/09/11/anthropic-opposes-gilberts-motion-to-dismiss-counterclaim-of-fair-use/"
-      }
-    ],
-    "archive": [
+      },
       {
         "addedAt": "2026-09-13",
         "text": "【2026/9/3】Kneschke v. LAION e.V.（德國聯邦最高法院 BGH 言詞辯論）：負責著作權案件之第一民事庭於言詞辯論中透露可能將歐盟文本資料探勘（TDM）例外（DSM 指令第 4 條／德國著作權法第 44b 條）之解釋問題移送歐盟法院（CJEU）先行裁決，尚未作成終局裁判。",
@@ -570,5 +585,5 @@
     ]
   },
   "lastUpdatedBy": "add_news.py",
-  "lastUpdatedAt": "2026-09-17T07:12:15.808769+08:00"
+  "lastUpdatedAt": "2026-09-18T07:09:56.999760+08:00"
 }
