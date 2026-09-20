@@ -26,7 +26,7 @@ from __future__ import annotations
 import argparse
 import json
 import sys
-from datetime import date, datetime
+from datetime import date, datetime, timezone, timedelta
 from pathlib import Path
 
 PROJECT_DIR = Path(__file__).resolve().parent.parent
@@ -119,7 +119,7 @@ def check_cases(check_links: bool):
 
     CLAIMS_ENUM = claims_enum()
 
-    today = date.today()
+    today = (datetime.now(timezone.utc) + timedelta(hours=8)).date()  # 資料為台北日期，以台北今日為界
     no_src, no_formal, no_dates = [], [], []
     for c in cases:
         cid = c.get("id")
