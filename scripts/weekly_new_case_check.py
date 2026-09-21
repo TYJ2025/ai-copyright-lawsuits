@@ -144,6 +144,16 @@ def signature_tokens(side: str) -> set[str]:
     return {t for t in side.split() if len(t) > 3 and t not in STOP_TOKENS}
 
 
+def load_known_dockets() -> set[str]:
+    """cases.json 內已收錄案件的 CourtListener docket id（精準去重用）。"""
+    try:
+        cj = json.loads((REPO_ROOT / "data" / "cases.json").read_text(encoding="utf-8"))
+    except Exception:
+        return set()
+    return {str(x.get("docket")) for x in cj.get("data", [])
+            if x.get("docket") not in (None, "")}
+
+
 def is_already_tracked(new_name: str, existing: set[str]) -> bool:
     """判斷 new_name 是否已在 existing 中。
 
@@ -605,9 +615,20 @@ def main() -> int:
     candidates: list[dict] = []
     already_tracked: list[dict] = []
     rejected_skipped: list[dict] = []
+    known_dockets = load_known_dockets()
     for c in results:
         name = c.get("caseName") or c.get("case_name") or ""
-        if is_already_tracked(name, existing):
+        cl_id = str(c.get("docket_id") or c.get("id") or "").strip()
+        # docket 精準去重優先：有 docket_id 即以它為準，避免案名共用 token
+        # （如 times / music）把全新案件誤判為已列載而靜默漏掉。
+        if cl_id and cl_id in known_dockets:
+            already_tracked.append(c)
+        elif cl_id:
+            if case_url(c) in rejected_urls:
+                rejected_skipped.append(c)
+            else:
+                candidates.append(c)
+        elif is_already_tracked(name, existing):
             already_tracked.append(c)
         elif case_url(c) in rejected_urls:
             rejected_skipped.append(c)

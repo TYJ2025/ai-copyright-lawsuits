@@ -61,7 +61,7 @@ SOURCES = [
     },
     {
         "name": "ChatGPT Is Eating The World — Substack",
-        "url": "https://chatgptiseatingtheworld.substack.com/",
+        "url": "https://chatgptiseatingtheworld.com/2024/08/27/master-list-of-lawsuits-v-ai-chatgpt-openai-microsoft-meta-midjourney-other-ai-cos/",
     },
 ]
 
