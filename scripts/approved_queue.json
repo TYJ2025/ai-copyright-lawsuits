@@ -113,5 +113,14 @@
     "decidedAt": "2026-09-07T08:00:06+08:00",
     "appliedAt": "2026-09-07T08:00:06+08:00",
     "decidedBy": "auto-triage"
+  },
+  {
+    "title": "UMG Recordings, Inc. v. Suno, Inc.",
+    "url": "https://www.courtlistener.com/docket/74812464/umg-recordings-inc-v-suno-inc/",
+    "subtitle": "District Court, D. Massachusetts · 1:26-cv-14275 · filed 2026-09-18",
+    "note": "自動分流：當事人含 AI 業者：Suno",
+    "decidedAt": "2026-09-21T08:00:13+08:00",
+    "appliedAt": "2026-09-21T08:00:13+08:00",
+    "decidedBy": "auto-triage"
   }
 ]
