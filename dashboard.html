@@ -1951,7 +1951,7 @@
 </div>
 
 <footer>
-  &copy; 2026 AI Copyright Litigation Tracker &mdash; 案件資料來源：美國聯邦法院公開紀錄、CourtListener   每日快訊最近更新: 2026-09-22
+  &copy; 2026 AI Copyright Litigation Tracker &mdash; 案件資料來源：美國聯邦法院公開紀錄、CourtListener   每日快訊最近更新: 2026-09-23
 </footer>
 
 <script>
@@ -3825,7 +3825,7 @@ const cases = [
     "plaintiffEntities": [],
     "defendants": "Stability AI, Midjourney, DeviantArt",
     "issues": "本案為藝術家集體訴訟，由 Sarah Andersen 等藝術家對 Stability AI、Midjourney 及 DeviantArt 提起，主張被告使用 LAION-5B 資料集（包含 50 億張網路爬取圖像）訓練 AI 圖像生成器，侵害藝術家著作權。\n\n關鍵法律爭點：(1) 直接著作權侵害——訓練資料的使用；(2) 引誘侵權（inducement）——使用者利用 AI 生成近似受保護作品的圖像；(3) DMCA §1202——移除著作權管理資訊。",
-    "progress": "2024 年 8 月，Orrick 法官駁回被告的駁回動議（motion to dismiss），允許著作權侵害主張進入事證開示階段。\n\n2026 年 2 月 27 日，原告提交第三次修正訴狀（Third Amended Complaint）。案件目前進入全面事證開示階段，審判日期定為 2026 年 9 月 8 日。\n\n本案若進入審判，將是美國首批就 AI 圖像生成著作權問題進行完整審理的案件之一。\n\n【2026/9/8】全美首件測試 AI 圖像訓練「model-as-copy」理論之陪審團審判於今日開庭，被告 Stability AI、Midjourney、DeviantArt、Runway AI，另含 Lanham Act 主張",
+    "progress": "2024 年 8 月，Orrick 法官駁回被告的駁回動議（motion to dismiss），允許著作權侵害主張進入事證開示階段。\n\n2026 年 2 月 27 日，原告提交第三次修正訴狀（Third Amended Complaint）。案件目前進入全面事證開示階段，審判日期定為 2026 年 9 月 8 日。\n\n本案若進入審判，將是美國首批就 AI 圖像生成著作權問題進行完整審理的案件之一。\n\n【2026/9/8】全美首件測試 AI 圖像訓練「model-as-copy」理論之陪審團審判於今日開庭，被告 Stability AI、Midjourney、DeviantArt、Runway AI，另含 Lanham Act 主張\n\n【2026/9/14】更正：原定 2026/9/8 開庭之陪審團審判實依法院先前變更命令延至 2027/4/5 開庭，並未如期於 9/8 開庭；案件仍處事證開示後期，尚待實體審理",
     "taiwan": "本案對台灣的啟示：\n\n1. 台灣數位藝術家面臨相同困境——作品被爬蟲程式大量蒐集用於 AI 訓練。本案結果將影響台灣創作者是否有可能援引著作權法維權。\n2. 「引誘侵權」理論在台灣著作權法中對應條文為第87條第1項第7款「未經著作財產權人同意而輸入著作原件或其重製物者」，但適用範圍有限，未來修法時可參考美國引誘侵權理論。\n3. 台灣藝術家團體可參考本案的集體訴訟模式，思考如何透過著作權集體管理團體（如 TAICCA）進行維權。",
     "jurisdiction": "us",
     "country": "🇺🇸 美國",
@@ -3836,7 +3836,7 @@ const cases = [
     "sourceCount": 3,
     "docket": 66732129,
     "filedAt": null,
-    "updatedAt": "2026-09-08",
+    "updatedAt": "2026-09-23",
     "rulings": {
       "fairUse": "pending",
       "fairUseNote": "尚未進入合理使用實質審理，審判定 2026/9/8",
@@ -14102,6 +14102,11 @@ buildRegionMap();
 // 每筆需含 addedAt（YYYY-MM-DD，台北時區），代表「條目加入 dashboard 之日期」
 const newsItems = [
   {
+    "addedAt": "2026-09-23",
+    "text": "【2026/9/14】Andersen v. Stability AI（N.D. Cal., Orrick 法官）更正：原定 9/8 開庭之全美首件 AI 圖像訓練陪審團審判，實依先前變更命令（ECF No. 240、282）延至 2027 年 4 月 5 日開庭，先前快訊誤植審判已如期開庭，特此更正",
+    "url": "https://www.wionews.com/world/the-first-jury-trial-over-ai-image-training-has-been-pushed-back-to-april-2027-1789333333936"
+  },
+  {
     "addedAt": "2026-09-20",
     "text": "【2026/9/19】Alcon Entertainment v. Warner Bros. Discovery／Musk／Tesla（C.D. Cal.）：WBD 就其部分達成和解並具狀請求以有偏見駁回，對 Musk、Tesla 之 AI 生成影像侵權訴訟仍繼續進行",
     "url": "https://chatgptiseatingtheworld.com/2026/09/19/warner-brothers-discovery-settles-copyright-claims-by-alcon-entmt-case-v-elon-musk-tesla-continues/"
@@ -14110,7 +14115,12 @@ const newsItems = [
     "addedAt": "2026-09-20",
     "text": "【2026/9/18】UMG／Sony Music v. Suno（D. Mass. 第二案，1:26-cv-14275）：控 Suno 標榜「已授權」之新款 v6 模型仍承繼舊模型侵權訓練資料（毒樹之果理論），列名逾 6 萬件錄音，求償逾 90 億美元",
     "url": "https://www.digitalmusicnews.com/2026/09/18/universal-music-suno-lawsuit-second/"
-  },
+  }
+];
+
+// newsArchive: 已超過 3 天而從 newsItems 移除之歷史快訊（新者在上）
+// 由 daily-brief.sh 每日自動 prepend；展開於畫面下方「歷史快訊 Archive」區塊
+const newsArchive = [
   {
     "addedAt": "2026-09-18",
     "text": "【2026/9/16】Times Publishing Company v. Microsoft/OpenAI（S.D.N.Y. 新案）：報業再對 OpenAI、Microsoft 提起著作權侵害、代位侵權及 DMCA 移除著作權管理資訊訴訟，為美國第 143 起 AI 著作權訴訟，預期併入 Stein 法官主導之 MDL",
@@ -14125,12 +14135,7 @@ const newsItems = [
     "addedAt": "2026-09-18",
     "text": "【2026/9/17】NYT v. Microsoft/OpenAI（S.D.N.Y. MDL）：解封文件揭露 Microsoft 應用科學總監私訊稱 AI 抓取為「人類史上最大規模的勞動竊取」，並顯示逾 9.1 萬篇 NYT／Daily News 文章遭訓練使用、涉繞過付費牆及移除著作權標示",
     "url": "https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal/"
-  }
-];
-
-// newsArchive: 已超過 3 天而從 newsItems 移除之歷史快訊（新者在上）
-// 由 daily-brief.sh 每日自動 prepend；展開於畫面下方「歷史快訊 Archive」區塊
-const newsArchive = [
+  },
   {
     "addedAt": "2026-09-17",
     "text": "【2026/9/7】中國最高人民法院發布全國首份 AI 相關案件裁判規則（24 條）：涵蓋訓練資料使用、AI 生成內容侵權判斷及命業者揭露訓練資料之舉證規則，惟明確迴避 AI 訓練合理使用及生成物可著作權性之定性問題",

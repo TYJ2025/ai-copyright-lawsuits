@@ -6,6 +6,11 @@
   "data": {
     "items": [
       {
+        "addedAt": "2026-09-23",
+        "text": "【2026/9/14】Andersen v. Stability AI（N.D. Cal., Orrick 法官）更正：原定 9/8 開庭之全美首件 AI 圖像訓練陪審團審判，實依先前變更命令（ECF No. 240、282）延至 2027 年 4 月 5 日開庭，先前快訊誤植審判已如期開庭，特此更正",
+        "url": "https://www.wionews.com/world/the-first-jury-trial-over-ai-image-training-has-been-pushed-back-to-april-2027-1789333333936"
+      },
+      {
         "addedAt": "2026-09-20",
         "text": "【2026/9/19】Alcon Entertainment v. Warner Bros. Discovery／Musk／Tesla（C.D. Cal.）：WBD 就其部分達成和解並具狀請求以有偏見駁回，對 Musk、Tesla 之 AI 生成影像侵權訴訟仍繼續進行",
         "url": "https://chatgptiseatingtheworld.com/2026/09/19/warner-brothers-discovery-settles-copyright-claims-by-alcon-entmt-case-v-elon-musk-tesla-continues/"
@@ -14,7 +19,9 @@
         "addedAt": "2026-09-20",
         "text": "【2026/9/18】UMG／Sony Music v. Suno（D. Mass. 第二案，1:26-cv-14275）：控 Suno 標榜「已授權」之新款 v6 模型仍承繼舊模型侵權訓練資料（毒樹之果理論），列名逾 6 萬件錄音，求償逾 90 億美元",
         "url": "https://www.digitalmusicnews.com/2026/09/18/universal-music-suno-lawsuit-second/"
-      },
+      }
+    ],
+    "archive": [
       {
         "addedAt": "2026-09-18",
         "text": "【2026/9/16】Times Publishing Company v. Microsoft/OpenAI（S.D.N.Y. 新案）：報業再對 OpenAI、Microsoft 提起著作權侵害、代位侵權及 DMCA 移除著作權管理資訊訴訟，為美國第 143 起 AI 著作權訴訟，預期併入 Stein 法官主導之 MDL",
@@ -29,9 +36,7 @@
         "addedAt": "2026-09-18",
         "text": "【2026/9/17】NYT v. Microsoft/OpenAI（S.D.N.Y. MDL）：解封文件揭露 Microsoft 應用科學總監私訊稱 AI 抓取為「人類史上最大規模的勞動竊取」，並顯示逾 9.1 萬篇 NYT／Daily News 文章遭訓練使用、涉繞過付費牆及移除著作權標示",
         "url": "https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal/"
-      }
-    ],
-    "archive": [
+      },
       {
         "addedAt": "2026-09-17",
         "text": "【2026/9/7】中國最高人民法院發布全國首份 AI 相關案件裁判規則（24 條）：涵蓋訓練資料使用、AI 生成內容侵權判斷及命業者揭露訓練資料之舉證規則，惟明確迴避 AI 訓練合理使用及生成物可著作權性之定性問題",
@@ -595,5 +600,5 @@
     ]
   },
   "lastUpdatedBy": "add_news.py",
-  "lastUpdatedAt": "2026-09-20T07:11:35.309058+08:00"
+  "lastUpdatedAt": "2026-09-23T07:10:07.803536+08:00"
 }

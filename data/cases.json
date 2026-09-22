@@ -154,7 +154,7 @@
    "plaintiffEntities": [],
    "defendants": "Stability AI, Midjourney, DeviantArt",
    "issues": "本案為藝術家集體訴訟，由 Sarah Andersen 等藝術家對 Stability AI、Midjourney 及 DeviantArt 提起，主張被告使用 LAION-5B 資料集（包含 50 億張網路爬取圖像）訓練 AI 圖像生成器，侵害藝術家著作權。\n\n關鍵法律爭點：(1) 直接著作權侵害——訓練資料的使用；(2) 引誘侵權（inducement）——使用者利用 AI 生成近似受保護作品的圖像；(3) DMCA §1202——移除著作權管理資訊。",
-   "progress": "2024 年 8 月，Orrick 法官駁回被告的駁回動議（motion to dismiss），允許著作權侵害主張進入事證開示階段。\n\n2026 年 2 月 27 日，原告提交第三次修正訴狀（Third Amended Complaint）。案件目前進入全面事證開示階段，審判日期定為 2026 年 9 月 8 日。\n\n本案若進入審判，將是美國首批就 AI 圖像生成著作權問題進行完整審理的案件之一。\n\n【2026/9/8】全美首件測試 AI 圖像訓練「model-as-copy」理論之陪審團審判於今日開庭，被告 Stability AI、Midjourney、DeviantArt、Runway AI，另含 Lanham Act 主張",
+   "progress": "2024 年 8 月，Orrick 法官駁回被告的駁回動議（motion to dismiss），允許著作權侵害主張進入事證開示階段。\n\n2026 年 2 月 27 日，原告提交第三次修正訴狀（Third Amended Complaint）。案件目前進入全面事證開示階段，審判日期定為 2026 年 9 月 8 日。\n\n本案若進入審判，將是美國首批就 AI 圖像生成著作權問題進行完整審理的案件之一。\n\n【2026/9/8】全美首件測試 AI 圖像訓練「model-as-copy」理論之陪審團審判於今日開庭，被告 Stability AI、Midjourney、DeviantArt、Runway AI，另含 Lanham Act 主張\n\n【2026/9/14】更正：原定 2026/9/8 開庭之陪審團審判實依法院先前變更命令延至 2027/4/5 開庭，並未如期於 9/8 開庭；案件仍處事證開示後期，尚待實體審理",
    "taiwan": "本案對台灣的啟示：\n\n1. 台灣數位藝術家面臨相同困境——作品被爬蟲程式大量蒐集用於 AI 訓練。本案結果將影響台灣創作者是否有可能援引著作權法維權。\n2. 「引誘侵權」理論在台灣著作權法中對應條文為第87條第1項第7款「未經著作財產權人同意而輸入著作原件或其重製物者」，但適用範圍有限，未來修法時可參考美國引誘侵權理論。\n3. 台灣藝術家團體可參考本案的集體訴訟模式，思考如何透過著作權集體管理團體（如 TAICCA）進行維權。",
    "jurisdiction": "us",
    "country": "🇺🇸 美國",
@@ -165,7 +165,7 @@
    "sourceCount": 3,
    "docket": 66732129,
    "filedAt": null,
-   "updatedAt": "2026-09-08",
+   "updatedAt": "2026-09-23",
    "rulings": {
     "fairUse": "pending",
     "fairUseNote": "尚未進入合理使用實質審理，審判定 2026/9/8",
