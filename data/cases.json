@@ -8321,9 +8321,7 @@
     "DMCA §1201",
     "DMCA §1202"
    ],
-   "defendants": [
-    "Suno, Inc."
-   ],
+   "defendants": "Suno, Inc.",
    "issues": "拉丁音樂廠牌 Gerencia 360 Music 指 Suno 未經授權重製其錄音以訓練生成式音樂 AI，並生成實質近似之音樂，主張錄音著作之重製及衍生侵權（17 U.S.C. §101 et seq.）。",
    "progress": "2026-08-31 起訴，繫屬中。",
    "taiwan": "屬「未授權以錄音訓練生成式音樂 AI」類型，與 UMG／Sony 對 Suno、Udio 系列案同軸。台灣著作權法下，以受保護錄音重製供訓練是否構成重製、能否主張第 65 條合理使用尚無明確見解，可觀察美國法院就音樂類訓練之合理使用四因素（尤其市場替代）如何權衡。",
@@ -8363,6 +8361,10 @@
    "claimsSource": "https://www.courtlistener.com/docket/74725556/1/gerencia-360-music-inc-v-suno-inc/",
    "claimsPrevious": [
     "Direct Copyright"
+   ],
+   "plaintiffs": "Gerencia 360 Music, Inc.（拉丁音樂廠牌）",
+   "plaintiffEntities": [
+    "Gerencia 360 Music"
    ]
   },
   {
@@ -8374,9 +8376,7 @@
    "claims": [
     "DMCA §1201"
    ],
-   "defendants": [
-    "Suno, Inc."
-   ],
+   "defendants": "Suno, Inc.",
    "issues": "UMG 與 Sony Music 對 Suno 之第二案，主張 Suno 新版 v6 模型仍以先前未授權模型與使用者互動所生資料訓練，侵權未因改版中斷；起訴狀點名逾六萬件錄音、求償逾 90 億美元。核心爭點為模型迭代能否切斷侵權訓練來源之因果。",
    "progress": "2026-09-18 起訴，繫屬中。",
    "taiwan": "「改版是否洗淨侵權訓練來源」之爭點對台灣生成式服務業者具警示：以侵權資料訓練之模型，縱經蒸餾或改版，若仍承繼原始未授權語料之表達，侵權責任恐難以模型更新為由脫免。值得追蹤法院對衍生模型責任之界定。",
@@ -8411,6 +8411,11 @@
    "claimsSource": "https://www.courtlistener.com/docket/74812464/1/umg-recordings-inc-v-suno-inc/",
    "claimsPrevious": [
     "Direct Copyright"
+   ],
+   "plaintiffs": "UMG Recordings, Inc.、Sony Music Entertainment（唱片公司）",
+   "plaintiffEntities": [
+    "UMG Recordings",
+    "Sony Music Entertainment"
    ]
   },
   {
@@ -8425,9 +8430,7 @@
     "DMCA §1202",
     "Lanham Act"
    ],
-   "defendants": [
-    "OpenAI, Inc."
-   ],
+   "defendants": "OpenAI, Inc.",
    "issues": "新聞出版商指 OpenAI 未經授權以其新聞內容訓練，並於 ChatGPT 輸出實質重現，主張著作權侵權，涉及訓練重製與輸出重現是否分別成立侵權及市場替代。",
    "progress": "2026-09-04 起訴，繫屬中；承審 Rakoff 法官。",
    "taiwan": "新聞媒體對生成式 AI 之未授權訓練與輸出爭議，與台灣新聞有價、媒體與數位平台議價之政策討論相呼應；可觀察美國法院是否將「訓練重製」與「輸出重現」分階段認定侵權。",
@@ -8482,6 +8485,10 @@
    "claimsSource": "https://www.courtlistener.com/docket/74754553/11/the-seattle-times-company-v-openai-inc/",
    "claimsPrevious": [
     "Direct Copyright"
+   ],
+   "plaintiffs": "The Seattle Times Company（新聞出版商）",
+   "plaintiffEntities": [
+    "The Seattle Times"
    ]
   },
   {
@@ -8495,9 +8502,7 @@
     "Contributory Infringement",
     "DMCA §1202"
    ],
-   "defendants": [
-    "Anthropic PBC"
-   ],
+   "defendants": "Anthropic PBC",
    "issues": "音樂出版商 Sony Music Publishing 指 Anthropic 未經授權重製並輸出其管理之歌詞著作，主張著作權侵權；與庫內 Concord、UMG 對 Anthropic 之歌詞系列案同脈絡，爭點含歌詞作為語文著作於 LLM 訓練與輸出之侵權與合理使用。",
    "progress": "2026-08-28 起訴，繫屬中。",
    "taiwan": "歌詞屬語文著作，於 LLM 訓練與輸出之重製認定與台灣著作權法重製權及第 65 條合理使用判斷高度相關；可與庫內既有歌詞類案併觀，追蹤法院對「訓練輸入」與「生成輸出」兩階段之區分。",
@@ -8537,6 +8542,10 @@
    "claimsSource": "https://www.courtlistener.com/docket/74720572/1/sony-music-publishing-us-llc-v-anthropic-pbc/",
    "claimsPrevious": [
     "Direct Copyright"
+   ],
+   "plaintiffs": "Sony Music Publishing (US) LLC（音樂出版商）",
+   "plaintiffEntities": [
+    "Sony Music Publishing"
    ]
   }
  ]
