@@ -3268,7 +3268,7 @@
    "plaintiffEntities": [],
    "defendants": "Anthropic PBC",
    "issues": "書籍作者（含《Bad Blood》作者、調查記者 John Carreyrou 等）控告 Anthropic 使用其著作訓練 Claude AI 模型。本案為 Bartz v. Anthropic 和解後書籍作者訴訟潮的指標案件（案名先後以 Cambronne 與 Carreyrou 稱之，同一案件）。\n\n法律爭點：AI 訓練是否構成合理使用、模型輸出是否構成衍生著作、Bartz 和解退出者的個別求償策略。",
-   "progress": "【2026/7/1、7/9 最新】Pitts 法官正式將 Bartz 後陸續起訴的書籍作者及出版社訴訟（含 Shakespeare v. Anthropic）認定為本案之關聯案件，統一由其審理；音樂類案件（Concord I、II、BMG）則由 Lee 法官審理。本案成為 N.D. Cal. Anthropic 書籍作者案件群的錨定案件。",
+   "progress": "【2026/7/1、7/9 最新】Pitts 法官正式將 Bartz 後陸續起訴的書籍作者及出版社訴訟（含 Shakespeare v. Anthropic）認定為本案之關聯案件，統一由其審理；音樂類案件（Concord I、II、BMG）則由 Lee 法官審理。本案成為 N.D. Cal. Anthropic 書籍作者案件群的錨定案件。\n\n【2026/9/25】Anthropic 對退出 Bartz 和解之作者（含 John Carreyrou、Angie Cruz、R.O. Kwon）另提之個別訴訟聲請駁回，主張已罹三年時效；原告 Kimberly Kay Hoang 已自願撤回告訴。",
    "taiwan": "台灣書籍作者維權參考：台灣作者可參考此類針對 Anthropic 的訴訟，評估自身著作被 AI 訓練使用的可能性。",
    "jurisdiction": "us",
    "country": "🇺🇸 美國",
@@ -3279,7 +3279,7 @@
    "sourceCount": 3,
    "docket": 72069211,
    "filedAt": null,
-   "updatedAt": "2026-08-18",
+   "updatedAt": "2026-09-26",
    "claimsDetail": [
     {
      "count": "I",

@@ -1951,7 +1951,7 @@
 </div>
 
 <footer>
-  &copy; 2026 AI Copyright Litigation Tracker &mdash; 案件資料來源：美國聯邦法院公開紀錄、CourtListener   每日快訊最近更新: 2026-09-25
+  &copy; 2026 AI Copyright Litigation Tracker &mdash; 案件資料來源：美國聯邦法院公開紀錄、CourtListener   每日快訊最近更新: 2026-09-26
 </footer>
 
 <script>
@@ -6939,7 +6939,7 @@ const cases = [
     "plaintiffEntities": [],
     "defendants": "Anthropic PBC",
     "issues": "書籍作者（含《Bad Blood》作者、調查記者 John Carreyrou 等）控告 Anthropic 使用其著作訓練 Claude AI 模型。本案為 Bartz v. Anthropic 和解後書籍作者訴訟潮的指標案件（案名先後以 Cambronne 與 Carreyrou 稱之，同一案件）。\n\n法律爭點：AI 訓練是否構成合理使用、模型輸出是否構成衍生著作、Bartz 和解退出者的個別求償策略。",
-    "progress": "【2026/7/1、7/9 最新】Pitts 法官正式將 Bartz 後陸續起訴的書籍作者及出版社訴訟（含 Shakespeare v. Anthropic）認定為本案之關聯案件，統一由其審理；音樂類案件（Concord I、II、BMG）則由 Lee 法官審理。本案成為 N.D. Cal. Anthropic 書籍作者案件群的錨定案件。",
+    "progress": "【2026/7/1、7/9 最新】Pitts 法官正式將 Bartz 後陸續起訴的書籍作者及出版社訴訟（含 Shakespeare v. Anthropic）認定為本案之關聯案件，統一由其審理；音樂類案件（Concord I、II、BMG）則由 Lee 法官審理。本案成為 N.D. Cal. Anthropic 書籍作者案件群的錨定案件。\n\n【2026/9/25】Anthropic 對退出 Bartz 和解之作者（含 John Carreyrou、Angie Cruz、R.O. Kwon）另提之個別訴訟聲請駁回，主張已罹三年時效；原告 Kimberly Kay Hoang 已自願撤回告訴。",
     "taiwan": "台灣書籍作者維權參考：台灣作者可參考此類針對 Anthropic 的訴訟，評估自身著作被 AI 訓練使用的可能性。",
     "jurisdiction": "us",
     "country": "🇺🇸 美國",
@@ -6950,7 +6950,7 @@ const cases = [
     "sourceCount": 3,
     "docket": 72069211,
     "filedAt": null,
-    "updatedAt": "2026-08-18",
+    "updatedAt": "2026-09-26",
     "claimsDetail": [
       {
         "count": "I",
@@ -14111,6 +14111,11 @@ buildRegionMap();
 // 每筆需含 addedAt（YYYY-MM-DD，台北時區），代表「條目加入 dashboard 之日期」
 const newsItems = [
   {
+    "addedAt": "2026-09-26",
+    "text": "【2026/9/25】Cambronne (Carreyrou) v. Anthropic（N.D. Cal., Pitts 法官）：Anthropic 對 Bartz 和解退出作者（含 John Carreyrou、Angie Cruz、R.O. Kwon 等）另提訴訟聲請駁回，主張已罹三年時效；原告 Kimberly Kay Hoang 已自願撤回告訴",
+    "url": "https://chatgptiseatingtheworld.com/2026/09/25/anthropic-moves-to-dismiss-post-bartz-suit-by-authors-who-opted-out-including-john-carreyrou-angie-cruz-r-o-kwon-meanwhile-kimberly-kay-hoang-drops-out-of-suit/"
+  },
+  {
     "addedAt": "2026-09-25",
     "text": "【2026/9/17】Reddit v. Anthropic PBC（舊金山高等法院 CGC-25-624813，Kahn 法官）：裁定違約、契約干涉、加州不公平競爭法三訴因續行，不當得利與動產侵占訴因經駁回、限 10/16 前補正",
     "url": "https://www.yahoo.com/news/us/articles/judge-allows-most-reddits-lawsuit-155921694.html"
@@ -14119,17 +14124,17 @@ const newsItems = [
     "addedAt": "2026-09-23",
     "text": "【2026/9/14】Andersen v. Stability AI（N.D. Cal., Orrick 法官）更正：原定 9/8 開庭之全美首件 AI 圖像訓練陪審團審判，實依先前變更命令（ECF No. 240、282）延至 2027 年 4 月 5 日開庭，先前快訊誤植審判已如期開庭，特此更正",
     "url": "https://www.wionews.com/world/the-first-jury-trial-over-ai-image-training-has-been-pushed-back-to-april-2027-1789333333936"
-  },
-  {
-    "addedAt": "2026-09-20",
-    "text": "【2026/9/19】Alcon Entertainment v. Warner Bros. Discovery／Musk／Tesla（C.D. Cal.）：WBD 就其部分達成和解並具狀請求以有偏見駁回，對 Musk、Tesla 之 AI 生成影像侵權訴訟仍繼續進行",
-    "url": "https://chatgptiseatingtheworld.com/2026/09/19/warner-brothers-discovery-settles-copyright-claims-by-alcon-entmt-case-v-elon-musk-tesla-continues/"
   }
 ];
 
 // newsArchive: 已超過 3 天而從 newsItems 移除之歷史快訊（新者在上）
 // 由 daily-brief.sh 每日自動 prepend；展開於畫面下方「歷史快訊 Archive」區塊
 const newsArchive = [
+  {
+    "addedAt": "2026-09-20",
+    "text": "【2026/9/19】Alcon Entertainment v. Warner Bros. Discovery／Musk／Tesla（C.D. Cal.）：WBD 就其部分達成和解並具狀請求以有偏見駁回，對 Musk、Tesla 之 AI 生成影像侵權訴訟仍繼續進行",
+    "url": "https://chatgptiseatingtheworld.com/2026/09/19/warner-brothers-discovery-settles-copyright-claims-by-alcon-entmt-case-v-elon-musk-tesla-continues/"
+  },
   {
     "addedAt": "2026-09-20",
     "text": "【2026/9/18】UMG／Sony Music v. Suno（D. Mass. 第二案，1:26-cv-14275）：控 Suno 標榜「已授權」之新款 v6 模型仍承繼舊模型侵權訓練資料（毒樹之果理論），列名逾 6 萬件錄音，求償逾 90 億美元",
