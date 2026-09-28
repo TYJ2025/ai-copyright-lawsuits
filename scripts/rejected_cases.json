@@ -646,5 +646,41 @@
     "decidedAt": "2026-09-21T08:00:13+08:00",
     "appliedAt": "2026-09-21T08:00:13+08:00",
     "decidedBy": "auto-triage"
+  },
+  {
+    "title": "SMIRNOVA v. SCHEDULE A",
+    "url": "https://www.courtlistener.com/docket/74837270/smirnova-v-schedule-a/",
+    "subtitle": "District Court, W.D. Pennsylvania · 2:26-cv-02095 · filed 2026-09-23",
+    "note": "自動分流：起訴狀全文無任何 AI 關鍵詞（非 AI 案）",
+    "decidedAt": "2026-09-28T08:00:05+08:00",
+    "appliedAt": "2026-09-28T08:00:05+08:00",
+    "decidedBy": "auto-triage"
+  },
+  {
+    "title": "Adessi v. Bystrom",
+    "url": "https://www.courtlistener.com/docket/74835104/adessi-v-bystrom/",
+    "subtitle": "District Court, N.D. Florida · 5:26-cv-00266 · filed 2026-09-22",
+    "note": "自動分流：起訴狀全文無任何 AI 關鍵詞（非 AI 案）",
+    "decidedAt": "2026-09-28T08:00:05+08:00",
+    "appliedAt": "2026-09-28T08:00:05+08:00",
+    "decidedBy": "auto-triage"
+  },
+  {
+    "title": "Deposki v. Mitrev",
+    "url": "https://www.courtlistener.com/docket/74830089/deposki-v-mitrev/",
+    "subtitle": "District Court, D. Delaware · 1:26-cv-01184 · filed 2026-09-22",
+    "note": "自動分流：起訴狀全文無任何 AI 關鍵詞（非 AI 案）",
+    "decidedAt": "2026-09-28T08:00:05+08:00",
+    "appliedAt": "2026-09-28T08:00:05+08:00",
+    "decidedBy": "auto-triage"
+  },
+  {
+    "title": "Larosiere v. Wilson",
+    "url": "https://www.courtlistener.com/docket/74829121/larosiere-v-wilson/",
+    "subtitle": "District Court, M.D. Florida · 6:26-cv-02173 · filed 2026-09-21",
+    "note": "自動分流：起訴狀全文未提及著作權",
+    "decidedAt": "2026-09-28T08:00:05+08:00",
+    "appliedAt": "2026-09-28T08:00:05+08:00",
+    "decidedBy": "auto-triage"
   }
 ]
