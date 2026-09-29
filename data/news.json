@@ -6,6 +6,11 @@
   "data": {
     "items": [
       {
+        "addedAt": "2026-09-30",
+        "text": "【2026/9/29】Thomson Reuters v. ROSS Intelligence（3d Cir. 25-2153）：第三巡迴上訴法院維持地院不利合理使用認定，為全美首件 AI 訓練合理使用之聯邦上訴判決，意見書暫予封存",
+        "url": "https://chatgptiseatingtheworld.com/2026/09/29/third-circuit-affirms-summary-judgment-rejection-of-fair-use-defense-by-ross-intelligence-opinion-under-seal-for-now/"
+      },
+      {
         "addedAt": "2026-09-29",
         "text": "【2026/9/28】Andersen v. Stability AI（N.D. Cal., Orrick 法官）：核准原告展延排程命令，交互聲請即決判決審理時程再延約 3 個月，最快須至 2027 年底始能終局裁定",
         "url": "https://chatgptiseatingtheworld.com/2026/09/28/sarah-andersens-copyright-case-schedule-gets-extended-by-3-months/"
@@ -14,14 +19,14 @@
         "addedAt": "2026-09-27",
         "text": "【2026/9/25】SEIU Pension Plan Master Trust v. Adobe（股東代位訴訟）：原告提出合併訴狀，指控 Adobe 高層明知以含盜版文學作品資料集訓練 SlimLM 模型，仍採「先做後求原諒」策略致公司暴露鉅額著作權侵權責任",
         "url": "https://chatgptiseatingtheworld.com/2026/09/25/plaintiffs-in-copyright-shareholder-derivative-suit-v-adobe-officers-file/"
-      },
+      }
+    ],
+    "archive": [
       {
         "addedAt": "2026-09-27",
         "text": "【2026/9/25】Elsevier v. Meta（原 S.D.N.Y. 1:26-cv-03689）：Castel 法官裁定將本案移轉至加州北區地院，可能併入 Chhabria 法官審理之 Kadrey v. Meta 訴訟群統一處理",
         "url": "https://chatgptiseatingtheworld.com/2026/09/25/judge-castel-transfers-elsevier-v-meta-to-nd-california-likely-to-be-related-to-kadrey-v-meta/"
-      }
-    ],
-    "archive": [
+      },
       {
         "addedAt": "2026-09-26",
         "text": "【2026/9/25】Cambronne (Carreyrou) v. Anthropic（N.D. Cal., Pitts 法官）：Anthropic 對 Bartz 和解退出作者（含 John Carreyrou、Angie Cruz、R.O. Kwon 等）另提訴訟聲請駁回，主張已罹三年時效；原告 Kimberly Kay Hoang 已自願撤回告訴",
@@ -625,5 +630,5 @@
     ]
   },
   "lastUpdatedBy": "add_news.py",
-  "lastUpdatedAt": "2026-09-29T07:08:59.905828+08:00"
+  "lastUpdatedAt": "2026-09-30T07:09:46.977998+08:00"
 }
