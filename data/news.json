@@ -6,6 +6,31 @@
   "data": {
     "items": [
       {
+        "addedAt": "2026-10-01",
+        "text": "【2026/9/30】Tsuda v. TikTok（東京地方裁判所）：日本聲優津田健次郎控 TikTok AI 聲音模仿案，法院首度認人聲受公開權（肖像權）保護，惟移除影片請求因已下架未准",
+        "url": "https://www.malaymail.com/news/showbiz/2026/09/30/tokyo-court-defends-human-voice-anime-star-wins-landmark-fight-against-tiktoks-ai-clones/237131"
+      },
+      {
+        "addedAt": "2026-10-01",
+        "text": "【2026/9/28】Beaulier v. Microsoft（3D Models，W.D. Wash.）：雙方就聯合案件管理報告中「類別認證應否先於實體審理審查」之時程安排意見不一",
+        "url": "https://chatgptiseatingtheworld.com/2026/09/28/beaulier-microsoft-disagree-on-when-court-should-consider-class-certification"
+      },
+      {
+        "addedAt": "2026-10-01",
+        "text": "【2026/9/25】CNN v. Perplexity AI（S.D.N.Y.）：CNN 就 Perplexity 聲請駁回提出答辯意見書，反對其全案駁回主張",
+        "url": "https://chatgptiseatingtheworld.com/2026/09/28/cnn-opposes-perplexitys-motion-to-dismiss-copyright-suit/"
+      },
+      {
+        "addedAt": "2026-10-01",
+        "text": "【2026/9/28】NYT v. Microsoft/OpenAI（S.D.N.Y., Stein 法官）：新聞原告具狀請法官對 DOJ 支持 OpenAI 合理使用之意見書從輕採認，質疑政府立場受政治因素影響",
+        "url": "https://thehill.com/policy/technology/6116254-news-outlets-doj-openai-copyright/"
+      },
+      {
+        "addedAt": "2026-10-01",
+        "text": "【2026/9/30】Hachette Book Group v. Google（S.D.N.Y.）：Google 引用 Castel 法官將 Elsevier v. Meta 移轉加州北區之裁定為依據，主張本案亦應同樣移轉",
+        "url": "https://chatgptiseatingtheworld.com/2026/09/30/google-cites-judge-castels-decision-to-transfer-elsevier-v-meta-to-nd-california/"
+      },
+      {
         "addedAt": "2026-09-30",
         "text": "【2026/9/29】Thomson Reuters v. ROSS Intelligence（3d Cir. 25-2153）：第三巡迴上訴法院維持地院不利合理使用認定，為全美首件 AI 訓練合理使用之聯邦上訴判決，意見書暫予封存",
         "url": "https://chatgptiseatingtheworld.com/2026/09/29/third-circuit-affirms-summary-judgment-rejection-of-fair-use-defense-by-ross-intelligence-opinion-under-seal-for-now/"
@@ -14,14 +39,14 @@
         "addedAt": "2026-09-29",
         "text": "【2026/9/28】Andersen v. Stability AI（N.D. Cal., Orrick 法官）：核准原告展延排程命令，交互聲請即決判決審理時程再延約 3 個月，最快須至 2027 年底始能終局裁定",
         "url": "https://chatgptiseatingtheworld.com/2026/09/28/sarah-andersens-copyright-case-schedule-gets-extended-by-3-months/"
-      },
+      }
+    ],
+    "archive": [
       {
         "addedAt": "2026-09-27",
         "text": "【2026/9/25】SEIU Pension Plan Master Trust v. Adobe（股東代位訴訟）：原告提出合併訴狀，指控 Adobe 高層明知以含盜版文學作品資料集訓練 SlimLM 模型，仍採「先做後求原諒」策略致公司暴露鉅額著作權侵權責任",
         "url": "https://chatgptiseatingtheworld.com/2026/09/25/plaintiffs-in-copyright-shareholder-derivative-suit-v-adobe-officers-file/"
-      }
-    ],
-    "archive": [
+      },
       {
         "addedAt": "2026-09-27",
         "text": "【2026/9/25】Elsevier v. Meta（原 S.D.N.Y. 1:26-cv-03689）：Castel 法官裁定將本案移轉至加州北區地院，可能併入 Chhabria 法官審理之 Kadrey v. Meta 訴訟群統一處理",
@@ -630,5 +655,5 @@
     ]
   },
   "lastUpdatedBy": "add_news.py",
-  "lastUpdatedAt": "2026-09-30T07:09:46.977998+08:00"
+  "lastUpdatedAt": "2026-10-01T07:11:44.926523+08:00"
 }

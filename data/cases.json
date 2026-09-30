@@ -609,7 +609,7 @@
    ],
    "defendants": "Microsoft Corp., OpenAI Inc.",
    "issues": "紐約時報對 Microsoft 及 OpenAI 提起訴訟，主張其未經授權使用數百萬篇新聞文章訓練 GPT 模型及 Bing Chat（Copilot），構成著作權侵害及商標侵害。\n\n本案已與 Daily News v. Microsoft 及 Center for Investigative Reporting v. OpenAI 合併，統稱「Newspapers Action」。\n\n核心爭點：(1) 新聞內容用於 AI 訓練的合理使用；(2) AI 對新聞產業商業模式的市場替代效果；(3) AI 輸出中的新聞內容是否構成不正競爭。",
-   "progress": "【2025 年 3 月】Stein 法官允許大部分訴訟主張繼續審理，駁回被告的駁回動議核心部分。\n\n【2026 年 1 月 5 日】重大事證開示裁定——法院確認 OpenAI 須提交全部 2,000 萬筆匿名化 ChatGPT 對話記錄樣本，拒絕 OpenAI 僅提供涉及原告作品的對話之請求。法院認為即使不涉及原告作品的對話記錄，對於判斷合理使用抗辯中的「市場替代效果」仍具相關性。\n\n【2026 年 3 月 9 日】法院進一步准許原告的強制開示動議。案件最近更新日期為 2026 年 3 月 20 日。\n\n【2026/6/25】《紐約時報》提出第三次修正起訴狀動議，雙線戰略調整：依 2026/3/25 最高法院 Cox v. Sony 提高 contributory infringement 門檻，對 OpenAI 撤回 contributory infringement 主張，同時大幅強化對 Microsoft 相同主張，指控微軟主動建置逾 285,000 顆 CPU 核心與 10,000 顆 GPU 之客製化超算基礎設施、以定製算力服務積極引誘 OpenAI 侵權。\n\n【2026/7/9】《紐約時報》等 14 家媒體向曼哈頓聯邦地院提制裁動議，指控 OpenAI 在 discovery 中刻意隱匿內部工具「Project Giraffe」（Bloom filter，偵測 ChatGPT 輸出著作權素材洩漏程度）及約 7,800 萬筆去識別化 ChatGPT 對話資料庫，並指員工庭外證詞與公司陳述矛盾；請求禁止 OpenAI 以已提供之 2,000 萬筆對話樣本作為證據並命負擔律師費。\n\n【2026/8/5】Stein 法官駁回《紐約時報》聲請追加對 Microsoft 提出「引誘侵權」（inducement）主張之修正動議，理由為提出時機過晚。\n\n【2026/8/14】OpenAI 就新聞機構聯合體制裁動議提出答辯狀，主張刪除對話紀錄未違反保存令、且原告就 ChatGPT 系統性重製其文章一節「無任何證據」\n\n【2026/8/31】Stein 法官命原告於 9/11 前具狀說明本案是否應停止程序、以待 MDL 內其他案件即決判決結果，被告回應期限訂 9/18\n\n【2026/9/1】美國司法部遞交 Statement of Interest 力挺 OpenAI、Microsoft，主張 AI 訓練文字資料構成高度轉化性合理使用，為聯邦政府首次就此議題表態（不具拘束力）\n\n【2026/9/2】美國司法部（川普政府）於 In re OpenAI MDL 遞交法庭意見書力挺 OpenAI 合理使用主張，稱限制 AI 訓練資料取用將損及美國科學進展與 AI 產業競爭力，為聯邦政府首次就 AI 著作權訴訟表態\n\n【2026/9/4】OpenAI、Microsoft 與紐約時報等原告同步遞交交互即決判決聲請，聚焦 AI 訓練轉化性與市場替代性兩爭點，Stein 法官預計數週內裁定\n\n【2026/9/17】解封文件揭露 Microsoft 應用科學總監 Brent Hecht 私訊稱 AI 抓取為「人類史上最大規模的勞動竊取」，卷證另顯示逾 9.1 萬篇 NYT／Daily News 文章遭訓練使用，並涉繞過付費牆、移除著作權標示，證據矛頭指向削弱合理使用「市場損害」抗辯。",
+   "progress": "【2025 年 3 月】Stein 法官允許大部分訴訟主張繼續審理，駁回被告的駁回動議核心部分。\n\n【2026 年 1 月 5 日】重大事證開示裁定——法院確認 OpenAI 須提交全部 2,000 萬筆匿名化 ChatGPT 對話記錄樣本，拒絕 OpenAI 僅提供涉及原告作品的對話之請求。法院認為即使不涉及原告作品的對話記錄，對於判斷合理使用抗辯中的「市場替代效果」仍具相關性。\n\n【2026 年 3 月 9 日】法院進一步准許原告的強制開示動議。案件最近更新日期為 2026 年 3 月 20 日。\n\n【2026/6/25】《紐約時報》提出第三次修正起訴狀動議，雙線戰略調整：依 2026/3/25 最高法院 Cox v. Sony 提高 contributory infringement 門檻，對 OpenAI 撤回 contributory infringement 主張，同時大幅強化對 Microsoft 相同主張，指控微軟主動建置逾 285,000 顆 CPU 核心與 10,000 顆 GPU 之客製化超算基礎設施、以定製算力服務積極引誘 OpenAI 侵權。\n\n【2026/7/9】《紐約時報》等 14 家媒體向曼哈頓聯邦地院提制裁動議，指控 OpenAI 在 discovery 中刻意隱匿內部工具「Project Giraffe」（Bloom filter，偵測 ChatGPT 輸出著作權素材洩漏程度）及約 7,800 萬筆去識別化 ChatGPT 對話資料庫，並指員工庭外證詞與公司陳述矛盾；請求禁止 OpenAI 以已提供之 2,000 萬筆對話樣本作為證據並命負擔律師費。\n\n【2026/8/5】Stein 法官駁回《紐約時報》聲請追加對 Microsoft 提出「引誘侵權」（inducement）主張之修正動議，理由為提出時機過晚。\n\n【2026/8/14】OpenAI 就新聞機構聯合體制裁動議提出答辯狀，主張刪除對話紀錄未違反保存令、且原告就 ChatGPT 系統性重製其文章一節「無任何證據」\n\n【2026/8/31】Stein 法官命原告於 9/11 前具狀說明本案是否應停止程序、以待 MDL 內其他案件即決判決結果，被告回應期限訂 9/18\n\n【2026/9/1】美國司法部遞交 Statement of Interest 力挺 OpenAI、Microsoft，主張 AI 訓練文字資料構成高度轉化性合理使用，為聯邦政府首次就此議題表態（不具拘束力）\n\n【2026/9/2】美國司法部（川普政府）於 In re OpenAI MDL 遞交法庭意見書力挺 OpenAI 合理使用主張，稱限制 AI 訓練資料取用將損及美國科學進展與 AI 產業競爭力，為聯邦政府首次就 AI 著作權訴訟表態\n\n【2026/9/4】OpenAI、Microsoft 與紐約時報等原告同步遞交交互即決判決聲請，聚焦 AI 訓練轉化性與市場替代性兩爭點，Stein 法官預計數週內裁定\n\n【2026/9/17】解封文件揭露 Microsoft 應用科學總監 Brent Hecht 私訊稱 AI 抓取為「人類史上最大規模的勞動竊取」，卷證另顯示逾 9.1 萬篇 NYT／Daily News 文章遭訓練使用，並涉繞過付費牆、移除著作權標示，證據矛頭指向削弱合理使用「市場損害」抗辯。\n\n【2026/9/28】新聞原告具狀請 Stein 法官對 DOJ 支持 OpenAI 合理使用之意見書從輕採認，質疑政府立場受政治因素影響",
    "taiwan": "本案對台灣的啟示：\n\n1. 台灣新聞媒體（如聯合報系、中時集團）面臨相同問題——新聞內容被 AI 公司用於訓練。本案的判決結果將影響台灣媒體是否有法律基礎向 AI 公司求償。\n2. 台灣可參考歐盟《新聞出版者鄰接權指令》(DSM Directive Art. 15) 及澳洲《新聞媒體議價法》(News Media Bargaining Code)，研議是否立法保障新聞業者對 AI 公司的議價權。\n3. 本案 2,000 萬筆對話記錄的事證開示，展示了美國 discovery 制度在 AI 訴訟中的威力。台灣民事訴訟法的證據保全與文書提出命令（第 342-349 條）是否足以因應 AI 訴訟中的舉證需求，值得檢討。",
    "jurisdiction": "us",
    "country": "🇺🇸 美國",
@@ -620,7 +620,7 @@
    "sourceCount": 3,
    "docket": 68117049,
    "filedAt": null,
-   "updatedAt": "2026-09-18",
+   "updatedAt": "2026-10-01",
    "rulings": {
     "fairUse": "pending",
     "fairUseNote": "合理使用抗辯待審，事證開示階段對原告有利發展",
@@ -4901,7 +4901,7 @@
    "plaintiffEntities": [],
    "defendants": "Microsoft Corporation",
    "issues": "Beaulier 於華盛頓西區控告 Microsoft 未經授權使用 3D 模型訓練 AI 系統。於 Microsoft 所在司法管轄區提起訴訟。",
-   "progress": "2026 年 3 月提起（2:26-cv-01031 W.D. Wash.）。早期階段。\n\n【2026/6/9】Microsoft 向華盛頓西區聯邦地院聲請 12(b)(6) 駁回，主張原告未陳述微軟曾自其 3D 模型移除著作權管理資訊（§1202(b)）或散布原告受保護作品之必要事實要件。起訴狀核心主張為被告於使用 Objaverse-XL（含原告以 Creative Commons 授權公開之 3D 模型）訓練生成式 AI 過程中系統性剝離作者署名等 CMI。為 Beaulier 系列 4 件子訴訟首件被告實體動議。",
+   "progress": "2026 年 3 月提起（2:26-cv-01031 W.D. Wash.）。早期階段。\n\n【2026/6/9】Microsoft 向華盛頓西區聯邦地院聲請 12(b)(6) 駁回，主張原告未陳述微軟曾自其 3D 模型移除著作權管理資訊（§1202(b)）或散布原告受保護作品之必要事實要件。起訴狀核心主張為被告於使用 Objaverse-XL（含原告以 Creative Commons 授權公開之 3D 模型）訓練生成式 AI 過程中系統性剝離作者署名等 CMI。為 Beaulier 系列 4 件子訴訟首件被告實體動議。\n\n【2026/9/28】雙方就聯合案件管理報告中「類別認證應否先於實體審理審查」之時程安排意見不一",
    "taiwan": "Microsoft 的 Azure AI 服務在台灣廣泛使用。本案可能影響 3D 內容授權要求。",
    "jurisdiction": "us",
    "country": "🇺🇸 美國",
@@ -4912,7 +4912,7 @@
    "sourceCount": 2,
    "docket": 71112094,
    "filedAt": null,
-   "updatedAt": "2026-09-01",
+   "updatedAt": "2026-10-01",
    "claimsDetail": [
     {
      "count": "I",
@@ -7141,7 +7141,7 @@
    ],
    "defendants": "Perplexity AI, Inc.",
    "issues": "CNN（Cable News Network）於 2026 年 5 月 28 日對 AI 答案引擎 Perplexity 提起訴訟，為全美首件由電視新聞網對 AI 公司發動的著作權訴訟。CNN 指控 Perplexity 未經授權「爬取、抓取、複製並散布」逾 17,000 件 CNN 新聞報導、照片與影片，用以建構其「AI 優先搜尋索引（AI-first search index）」，即時供大型語言模型形成查詢回應。\n\n核心爭點：(1) AI 搜尋引擎即時擷取並重述新聞內容，是否構成著作權侵害與市場替代；(2) Perplexity 主張的「事實不受著作權保護（you can't copyright facts）」抗辯能否成立；(3) 依《Lanham Act》，Perplexity 使用 CNN 聯邦註冊商標是否致生混淆、誤認或欺騙。",
-   "progress": "【2026/5/28】CNN 於紐約南區聯邦地院（S.D.N.Y.）提起訴訟，案號 1:26-cv-04427，由 Rothwell, Figg, Ernst & Manbeck 律所代理、Steven Lieberman 律師具名。Nature of Suit 820（著作權），cause 17 U.S.C. §501（著作權侵害）。截至立案時法官尚未指派（Unassigned）。\n\nCNN 主張曾於 2025 年與 Perplexity 進行授權談判但破裂，其後續商業利用屬「明知未獲授權」之故意侵權，請求法定損害賠償與永久禁制令。Perplexity 通訊長 Jesse Dwyer 回應「事實無從受著作權保護」。\n\n本案與同院的 NYT v. Perplexity（1:25-cv-10106）、Chicago Tribune v. Perplexity（1:25-cv-10094）相關，並與 Dow Jones（WSJ／NY Post）、Encyclopaedia Britannica、Reddit、Amazon 等對 Perplexity 之多線訴訟共構壓力——新聞媒體 ↔ AI 答案引擎戰線首度延伸至電視網領域。\n\n【2026/8/24】Perplexity 具狀聲請大幅刪減 CNN 著作權訴訟，主張其 answer engine 自動生成回覆不負侵權責任",
+   "progress": "【2026/5/28】CNN 於紐約南區聯邦地院（S.D.N.Y.）提起訴訟，案號 1:26-cv-04427，由 Rothwell, Figg, Ernst & Manbeck 律所代理、Steven Lieberman 律師具名。Nature of Suit 820（著作權），cause 17 U.S.C. §501（著作權侵害）。截至立案時法官尚未指派（Unassigned）。\n\nCNN 主張曾於 2025 年與 Perplexity 進行授權談判但破裂，其後續商業利用屬「明知未獲授權」之故意侵權，請求法定損害賠償與永久禁制令。Perplexity 通訊長 Jesse Dwyer 回應「事實無從受著作權保護」。\n\n本案與同院的 NYT v. Perplexity（1:25-cv-10106）、Chicago Tribune v. Perplexity（1:25-cv-10094）相關，並與 Dow Jones（WSJ／NY Post）、Encyclopaedia Britannica、Reddit、Amazon 等對 Perplexity 之多線訴訟共構壓力——新聞媒體 ↔ AI 答案引擎戰線首度延伸至電視網領域。\n\n【2026/8/24】Perplexity 具狀聲請大幅刪減 CNN 著作權訴訟，主張其 answer engine 自動生成回覆不負侵權責任\n\n【2026/9/25】CNN 就 Perplexity 聲請駁回提出答辯意見書，反對其全案駁回主張",
    "taiwan": "本案對台灣的啟示：\n\n1. **「AI 答案引擎即時重述新聞」之定性**——Perplexity 模式不同於以新聞訓練 LLM，而是即時擷取、摘要並取代使用者點閱原文。台灣新聞媒體（中央社、聯合報系、三立、TVBS）若面臨類似 AI 摘要服務，可參考本案爭點主張著作權法第 22 條重製權與第 26 條之 1 公開傳輸權之侵害，並評估「市場替代」對訂閱與廣告收益之衝擊。\n\n2. **「事實不受著作權保護」抗辯之界線**——Perplexity 之核心抗辯為事實與時事報導不受保護，呼應台灣著作權法第 9 條第 1 項第 4 款「單純為傳達事實之新聞報導所作成之語文著作」不得為著作權標的。惟新聞之編輯、評論、攝影、影片仍受保護，台灣實務須區辨「事實」與「具原創性表達」之界線。\n\n3. **商標與著作權交錯**——CNN 並依《Lanham Act》主張商標侵害。台灣媒體品牌（新聞台台徽、欄目名稱）若遭 AI 服務於生成結果中使用致生來源混淆，可併行主張商標法第 68 條侵害與公平交易法爭議。\n\n4. **授權談判破裂後之故意侵權**——本案凸顯「先談授權、破裂後仍使用」可能強化故意侵權與懲罰性賠償之認定。台灣 AI 業者與內容方協商授權時，應留存談判紀錄並審慎評估談判破裂後之資料使用風險。",
    "jurisdiction": "us",
    "country": "🇺🇸 美國",
@@ -7152,7 +7152,7 @@
    "sourceCount": 0,
    "docket": 73402641,
    "filedAt": null,
-   "updatedAt": "2026-09-08",
+   "updatedAt": "2026-10-01",
    "claimsDetail": [
     {
      "count": "I",
@@ -7704,7 +7704,7 @@
    ],
    "defendants": "Google LLC",
    "issues": "Hachette 出版集團控告 Google（1:26-cv-05870，2026/7/10 立案），主張其書籍遭未經授權用於 Google AI 模型訓練。同日另有同名關聯 docket（1:26-cv-05869）待確認關係。Hachette 此前已參與對 Meta 的出版商聯合訴訟，此為其對 Google 的新戰線。",
-   "progress": "剛立案。\n\n【2026/7/10】Hachette、Cengage、Elsevier 等出版商及作家 Scott Turow 對 Google 提告，指控 Google Books 與 Google Play 書籍資料未經授權用於訓練 Gemini 模型，並主張 Google 蓄意移除或竄改著作權管理資訊（CMI）以掩蓋訓練來源，內部文件據稱曾示警恐面臨鉅額法定賠償風險。法官尚未分派。",
+   "progress": "剛立案。\n\n【2026/7/10】Hachette、Cengage、Elsevier 等出版商及作家 Scott Turow 對 Google 提告，指控 Google Books 與 Google Play 書籍資料未經授權用於訓練 Gemini 模型，並主張 Google 蓄意移除或竄改著作權管理資訊（CMI）以掩蓋訓練來源，內部文件據稱曾示警恐面臨鉅額法定賠償風險。法官尚未分派。\n\n【2026/9/30】Google 引用 Castel 法官將 Elsevier v. Meta 移轉加州北區之裁定為依據，主張本案亦應同樣移轉",
    "taiwan": "大型出版集團對各 AI 巨頭逐一開闢戰線的策略，顯示出版業已將訴訟作為授權談判籌碼，台灣出版業可觀察其談判與訴訟並行模式。",
    "jurisdiction": "us",
    "country": "🇺🇸 美國",
@@ -7715,7 +7715,7 @@
    "sourceCount": 1,
    "docket": 73603888,
    "filedAt": null,
-   "updatedAt": "2026-09-08",
+   "updatedAt": "2026-10-01",
    "claimsDetail": [
     {
      "count": "I",
