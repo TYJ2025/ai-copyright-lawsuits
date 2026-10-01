@@ -1,6 +1,6 @@
 # Case 61 — Anders v. Stability AI US Services Corporation
 
-> 最後更新（CourtListener fetch）：2026-09-01 01:25 UTC
+> 最後更新（CourtListener fetch）：2026-10-01 01:29 UTC
 
 ---
 
@@ -327,4 +327,4 @@ REPORT on the filing of a copyright action regarding copyright numbers SR 631-92
 
 ---
 
-*產生時間：2026-09-01 01:25 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-10-01 01:29 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

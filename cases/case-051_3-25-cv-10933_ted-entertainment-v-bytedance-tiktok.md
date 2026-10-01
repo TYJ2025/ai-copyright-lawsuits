@@ -1,6 +1,6 @@
 # Case 51 — Ted Entertainment, Inc. v. ByteDance Inc
 
-> 最後更新（CourtListener fetch）：2026-09-01 01:23 UTC
+> 最後更新（CourtListener fetch）：2026-10-01 01:27 UTC
 
 ---
 
@@ -13,7 +13,7 @@
 | Court | District Court, N.D. California (`cand`) |
 | Judge Assigned | Jacqueline Scott Corley |
 | Date Filed | 2025-12-23 |
-| Date Last Filing | 2026-08-27 |
+| Date Last Filing | 2026-09-30 |
 | Cause | 17:101 Copyright Infringement |
 | Nature of Suit | 820 Copyright |
 | Jury Demand | Plaintiff |
@@ -33,15 +33,43 @@
 
 - ⚠️ Court 可能不一致：dashboard 寫「C.D. Cal.」，CourtListener 為「N.D. California」
 - ✅ Judge 一致：dashboard 寫「Jacqueline Scott Corley」，CourtListener 為「Jacqueline Scott Corley」
-- ℹ️ Dashboard progress 內找不到【YYYY/M/D】格式日期；CourtListener 最後 entry: 2026-08-27
+- ℹ️ Dashboard progress 內找不到【YYYY/M/D】格式日期；CourtListener 最後 entry: 2026-09-30
 
 ## 3. Docket Entries（最新優先，已過濾程序性 entries）
 
-**實質性 entries**：48 筆／**已過濾程序性 entries**：17 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+**實質性 entries**：53 筆／**已過濾程序性 entries**：18 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+
+### 📄 Doc #53 — 2026-09-30
+
+Transcript Order
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72075006/53/ted-entertainment-inc-v-bytedance-inc/)
+
+### 📄 Doc #— — 2026-09-24
+
+Motion Hearing
+
+### 📄 Doc #51 — 2026-09-22
+
+Notice of Voluntary Dismissal
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72075006/51/ted-entertainment-inc-v-bytedance-inc/)
+
+### 📄 Doc #50 — 2026-09-18
+
+ADR Certification (ADR L.R. 3-5 b) of discussion of ADR options
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72075006/50/ted-entertainment-inc-v-bytedance-inc/)
+
+### 📄 Doc #49 — 2026-09-18
+
+ADR Certification (ADR L.R. 3-5 b) of discussion of ADR options
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72075006/49/ted-entertainment-inc-v-bytedance-inc/)
 
 ### 📄 Doc #47 — 2026-08-27
 
-Reply to Opposition/Response
+REPLY (re 40 MOTION to Dismiss Plaintiffs' First Amended Complaint ) filed byByteDance Inc. (Voigts, Anne) (Filed on 8/27/2026) (Entered: 08/27/2026)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/72075006/47/ted-entertainment-inc-v-bytedance-inc/)
 
@@ -292,8 +320,9 @@ Proposed Summons. (Bar-Nissim, Rom) (Filed on 12/23/2025) (Entered: 12/23/2025)
 [CourtListener 連結](https://www.courtlistener.com/docket/72075006/2/ted-entertainment-inc-v-bytedance-inc/)
 
 <details>
-<summary>已過濾的 17 筆程序性 entries（點擊展開）</summary>
+<summary>已過濾的 18 筆程序性 entries（點擊展開）</summary>
 
+- **Doc #48** (2026-09-10): ORDER by Judge Jacqueline Scott Corley granting 44 Motion for Pro Hac Vice as to Justin Nelson. (ahm, COURT STAFF) (Filed on 9/10/2026) (Entered: 09/10/2026)
 - **Doc #44** (2026-08-11): MOTION for leave to appear in Pro Hac Vice ( Filing fee $ 328, receipt number ACANDC-22322883.) filed by Matt Fisher, Golfholics, Inc., Ted Entertainment, Inc.. (Attachments: # 1 Exhibit Certificate o…
 - **Doc #41** (2026-07-07): Certificate of Interested Entities by Matt Fisher, Golfholics, Inc., Ted Entertainment, Inc. Certification of Conflicts (Ellzey, Jarrett) (Filed on 7/7/2026) (Entered: 07/07/2026)
 - **Doc #38** (2026-06-05): MOTION for leave to appear in Pro Hac Vice ( Filing fee $ 328, receipt number ACANDC-22066262.) Filing fee previously paid on June 4, 2026 filed by Matt Fisher, Golfholics, Inc., Ted Entertainment, In…
@@ -316,4 +345,4 @@ Proposed Summons. (Bar-Nissim, Rom) (Filed on 12/23/2025) (Entered: 12/23/2025)
 
 ---
 
-*產生時間：2026-09-01 01:23 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-10-01 01:27 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

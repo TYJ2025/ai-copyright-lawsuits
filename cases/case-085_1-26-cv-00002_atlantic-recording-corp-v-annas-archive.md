@@ -1,6 +1,6 @@
 # Case 85 — Atlantic Recording Corporation v. Anna's Archive
 
-> 最後更新（CourtListener fetch）：2026-09-01 01:33 UTC
+> 最後更新（CourtListener fetch）：2026-10-01 01:37 UTC
 
 ---
 
@@ -327,4 +327,4 @@ Magistrate Judge Sarah Netburn is designated to handle matters that may be refer
 
 ---
 
-*產生時間：2026-09-01 01:33 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-10-01 01:37 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

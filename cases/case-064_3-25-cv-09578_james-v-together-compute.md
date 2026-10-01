@@ -1,6 +1,6 @@
 # Case 64 — James v. Together Computer, Inc.
 
-> 最後更新（CourtListener fetch）：2026-09-01 01:26 UTC
+> 最後更新（CourtListener fetch）：2026-10-01 01:30 UTC
 
 ---
 
@@ -13,7 +13,7 @@
 | Court | District Court, N.D. California (`cand`) |
 | Judge Assigned | Rita F. Lin |
 | Date Filed | 2025-11-06 |
-| Date Last Filing | 2026-06-30 |
+| Date Last Filing | 2026-09-30 |
 | Cause | 17:501 Copyright Infringement |
 | Nature of Suit | 820 Copyright |
 | Jury Demand | Plaintiff |
@@ -33,11 +33,23 @@
 
 - ✅ Court 一致：dashboard 寫「N.D. Cal.」，CourtListener 為「N.D. California」
 - ✅ Judge 一致：dashboard 寫「Rita F. Lin」，CourtListener 為「Rita F. Lin」
-- ℹ️ Dashboard progress 內找不到【YYYY/M/D】格式日期；CourtListener 最後 entry: 2026-06-30
+- ℹ️ Dashboard progress 內找不到【YYYY/M/D】格式日期；CourtListener 最後 entry: 2026-09-30
 
 ## 3. Docket Entries（最新優先，已過濾程序性 entries）
 
-**實質性 entries**：43 筆／**已過濾程序性 entries**：28 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+**實質性 entries**：45 筆／**已過濾程序性 entries**：28 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+
+### 📄 Doc #58 — 2026-09-30
+
+Order on Motion for Pro Hac Vice
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71883095/58/james-v-together-computer-inc/)
+
+### 📄 Doc #57 — 2026-09-30
+
+Pro Hac Vice
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71883095/57/james-v-together-computer-inc/)
 
 ### 📄 Doc #54 — 2026-06-03
 
@@ -305,4 +317,4 @@ REPORT on the filing or determination of an action regarding a copyright (cc: fo
 
 ---
 
-*產生時間：2026-09-01 01:26 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-10-01 01:30 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

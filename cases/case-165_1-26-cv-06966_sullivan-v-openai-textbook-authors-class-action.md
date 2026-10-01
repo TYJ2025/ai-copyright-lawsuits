@@ -1,6 +1,6 @@
 # Case 165 — Sullivan v. OpenAI Foundation
 
-> 最後更新（CourtListener fetch）：2026-09-01 01:45 UTC
+> 最後更新（CourtListener fetch）：2026-10-01 01:52 UTC
 
 ---
 
@@ -13,7 +13,7 @@
 | Court | District Court, S.D. New York (`nysd`) |
 | Judge Assigned | Sidney H. Stein |
 | Date Filed | 2026-08-14 |
-| Date Last Filing | 2026-08-28 |
+| Date Last Filing | 2026-09-24 |
 | Cause | 17:501 Copyright Infringement |
 | Nature of Suit | 820 Copyright |
 | Jury Demand | Plaintiff |
@@ -33,15 +33,73 @@
 
 - ⚠️ Court 可能不一致：dashboard 寫「S.D.N.Y. 1:26-cv-06966」，CourtListener 為「S.D. New York」
 - ⚠️ Judge 可能不一致：dashboard 寫「待分派」，CourtListener 為「Sidney H. Stein」
-- ℹ️ Dashboard progress 略落後 14 天：dashboard 最新日期 2026-08-14，CourtListener 最後 entry 2026-08-28
+- ⚠️ Dashboard progress **落後 41 天**：dashboard 最新日期 2026-08-14，CourtListener 最後 entry 2026-09-24——建議查看新近 entries 並補充 progress
 
 ## 3. Docket Entries（最新優先，已過濾程序性 entries）
 
-**實質性 entries**：22 筆／**已過濾程序性 entries**：7 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+**實質性 entries**：32 筆／**已過濾程序性 entries**：9 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+
+### 📄 Doc #24 — 2026-09-24
+
+Order on Motion for Extension of Time to File
+
+[CourtListener 連結](https://www.courtlistener.com/docket/74652896/24/sullivan-v-openai-foundation/)
+
+### 📄 Doc #23 — 2026-09-16
+
+Order Staying Case
+
+[CourtListener 連結](https://www.courtlistener.com/docket/74652896/23/sullivan-v-openai-foundation/)
+
+### 📄 Doc #21 — 2026-09-14
+
+Notice of Appearance
+
+[CourtListener 連結](https://www.courtlistener.com/docket/74652896/21/sullivan-v-openai-foundation/)
+
+### 📄 Doc #22 — 2026-09-14
+
+Notice of Appearance
+
+[CourtListener 連結](https://www.courtlistener.com/docket/74652896/22/sullivan-v-openai-foundation/)
+
+### 📄 Doc #20 — 2026-09-11
+
+Order
+
+[CourtListener 連結](https://www.courtlistener.com/docket/74652896/20/sullivan-v-openai-foundation/)
+
+### 📄 Doc #19 — 2026-09-11
+
+Response to Order to Show Cause
+
+[CourtListener 連結](https://www.courtlistener.com/docket/74652896/19/sullivan-v-openai-foundation/)
+
+### 📄 Doc #18 — 2026-09-04
+
+Redacted Document
+
+[CourtListener 連結](https://www.courtlistener.com/docket/74652896/18/sullivan-v-openai-foundation/)
+
+### 📄 Doc #17 — 2026-09-03
+
+Stipulation and Order AND ~Util - Set Deadlines
+
+[CourtListener 連結](https://www.courtlistener.com/docket/74652896/17/sullivan-v-openai-foundation/)
+
+### 📄 Doc #— — 2026-09-02
+
+Notice Regarding Pro Hac Vice Motion
+
+### 📄 Doc #15 — 2026-09-01
+
+LETTER addressed to Judge Sidney H. Stein from United States of America dated September 1, 2026 re: STATEMENT OF INTEREST OF UNITED STATES OF AMERICA. Document filed by United States of America.Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Weisbuch, Michael) (Entered: 09/01/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/74652896/15/sullivan-v-openai-foundation/)
 
 ### 📄 Doc #14 — 2026-08-28
 
-Order to Show Cause
+ORDER : Plaintiffs are ordered to show cause in writing on or before September 11, 2026, why this action should not be stayed pending resolution of summary judgment motions in the other active cases in this multidistrict litigation. Defendants' response, if any,shall be filed by September 18, 2026. SO ORDERED. Show Cause Response due by 9/11/2026. (Signed by Judge Sidney H. Stein on 8/28/2026) Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:26-cv-06966-SHS (jca) (Entered: 08/28/2026)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/74652896/14/sullivan-v-openai-foundation/)
 
@@ -144,8 +202,10 @@ STATEMENT OF RELATEDNESS re: that this action be filed as related to 1:25-md-031
 [CourtListener 連結](https://www.courtlistener.com/docket/74652896/5/sullivan-v-openai-foundation-fka-openai-inc/)
 
 <details>
-<summary>已過濾的 7 筆程序性 entries（點擊展開）</summary>
+<summary>已過濾的 9 筆程序性 entries（點擊展開）</summary>
 
+- **Doc #—** (2026-09-02): >>>NOTICE REGARDING PRO HAC VICE MOTION. Regarding Document No. 16 MOTION for Randolph Gaw to Appear Pro Hac Vice . Motion and supporting papers to be reviewed by Clerk's Office staff.. The document h…
+- **Doc #16** (2026-09-01): MOTION for Randolph Gaw to Appear Pro Hac Vice . Motion and supporting papers to be reviewed by Clerk's Office staff. Document filed by Zvi Bodie, Lion Den, Inc., Dana Loewy, Alan J. Marcus, Kevin T. …
 - **Doc #—** (2026-08-24): >>>NOTICE REGARDING DEFICIENT MOTION TO APPEAR PRO HAC VICE. Notice to RE-FILE Document No. 13 MOTION for Randolph Gaw to Appear Pro Hac Vice . Filing fee $ 200.00, receipt number ANYSDC-33326519. Mot…
 - **Doc #13** (2026-08-21): FILING ERROR - DEFICIENT DOCKET ENTRY - MOTION for Randolph Gaw to Appear Pro Hac Vice . Filing fee $ 200.00, receipt number ANYSDC-33326519. Motion and supporting papers to be reviewed by Clerk's Off…
 - **Doc #2** (2026-08-14): CIVIL COVER SHEET filed..(Slarskey, David) (Entered: 08/14/2026)
@@ -158,4 +218,4 @@ STATEMENT OF RELATEDNESS re: that this action be filed as related to 1:25-md-031
 
 ---
 
-*產生時間：2026-09-01 01:45 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-10-01 01:52 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

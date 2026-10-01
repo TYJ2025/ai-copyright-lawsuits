@@ -1,6 +1,6 @@
 # Case 71 — Basbanes v. Microsoft Corporation
 
-> 最後更新（CourtListener fetch）：2026-09-01 01:29 UTC
+> 最後更新（CourtListener fetch）：2026-10-01 01:33 UTC
 
 ---
 
@@ -14,7 +14,7 @@
 | Judge Assigned | Sidney H. Stein |
 | Judge Referred | Ona T. Wang |
 | Date Filed | 2024-01-05 |
-| Date Last Filing | 2026-08-12 |
+| Date Last Filing | 2026-09-24 |
 | Cause | 17:501 Copyright Infringement |
 | Nature of Suit | 820 Copyright |
 | Jury Demand | Plaintiff |
@@ -34,39 +34,69 @@
 
 - ⚠️ Court 可能不一致：dashboard 寫「SDNY」，CourtListener 為「S.D. New York」
 - ✅ Judge 一致：dashboard 寫「Sidney H. Stein」，CourtListener 為「Sidney H. Stein」
-- ℹ️ Dashboard progress 內找不到【YYYY/M/D】格式日期；CourtListener 最後 entry: 2026-08-12
+- ℹ️ Dashboard progress 內找不到【YYYY/M/D】格式日期；CourtListener 最後 entry: 2026-09-24
 
 ## 3. Docket Entries（最新優先，已過濾程序性 entries）
 
-**實質性 entries**：181 筆／**已過濾程序性 entries**：19 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+**實質性 entries**：179 筆／**已過濾程序性 entries**：21 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
 
-### 📄 Doc #400 — 2026-08-12
+### 📄 Doc #407 — 2026-09-24
 
-Memo Endorsement
+Order on Motion for Extension of Time to File
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68138737/407/basbanes-v-microsoft-corporation/)
+
+### 📄 Doc #404 — 2026-09-11
+
+NOTICE TO THE PARTIES: It has come to my attention that I own stock in Microsoft Corporation. My ownership of this stock has not affected or impacted any decision in this case. Although my ownership of this stock would ordinarily require recusal, Canon 3C(4) of the Code of Conduct for United States Judges states that a magistrate judge is not disqualified because of "a financial interest in a party" if the magistrate judge "divests the interest that provides the grounds for disqualification," unless the interest could be substantially affected by the outcome of the proceeding. Advisory Opinion No. 69 from the Judicial Conference's Committee on Codes of Conduct explains that a magistrate judge may divest the disqualifying interest under Canon 3C(4) at the beginning of the case, after the judge has spent substantial time on the case, or anytime in between. Based on the issues presented in this case, I have concluded that my interest in Microsoft Corporation could not be substantially aff …(truncated)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68138737/404/basbanes-v-microsoft-corporation/)
+
+### 📄 Doc #403 — 2026-09-04
+
+REDACTION to (1700 in 1:25-md-03143-SHS-OTW) MOTION for Summary Judgment . by Daily News LP, The New York Times Company, Ziff Davis Inc.Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Crosby, Ian) (Entered: 09/04/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68138737/403/basbanes-v-microsoft-corporation/)
+
+### 📄 Doc #402 — 2026-09-03
+
+STIPULATED OMNIBUS SEALING ORDER FOR SUMMARY JUDGMENT AND DAUBERT BRIEFING: IT IS HEREBY ORDERED that sealing issues relating to summary judgment and Daubert briefing will be handled as follows: 1. The Parties may provisionally seal portions of briefing and exhibits (including expert reports and declarations) relating to Daubert briefing that contain or refer to material produced in this case that is designated Protected Discovery Material. 2. The Parties may provisionally seal exhibits ( or portions thereof) relating to summary judgment briefing (including expert reports and declarations) that contain or refer to material produced in this case that is designated Protected Discovery Material. 3. For the material addressed in paragraphs 1 and 2 above (the "Provisionally Sealed Material"), the Parties are relieved from the requirement set forth in paragraph 5(8) of Judge Stein's Individual Practices to file a motion to seal contemporaneously with the sealed filings, and the Parties and t …(truncated)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68138737/402/basbanes-v-microsoft-corporation/)
+
+### 📄 Doc #401 — 2026-09-01
+
+LETTER addressed to Judge Sidney H. Stein from United States of America dated September 1, 2026 re: STATEMENT OF INTEREST OF UNITED STATES OF AMERICA. Document filed by United States of America.Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Weisbuch, Michael) (Entered: 09/01/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68138737/401/basbanes-v-microsoft-corporation/)
+
+### 📄 Doc #400 — 2026-08-11
+
+MEMO ENDORSEMENT granting on re: (1383 in 1:23-cv-11195-SHS-OTW, 1162 in 1:23-cv-08292-SHS-OTW, 527 in 1:25-cv-04315-SHS-OTW) MOTION for Rose S. Lee to Withdraw as Attorney . filed by OpenAI, Inc., OpenAI GP LLC, OpenAI Startup Fund GP I LLC, OpenAI LP, OAI Corporation LLC, OpenAI Group PBC, OpenAI OpCo, L.L.C., OpenAI Startup Fund I LP, OpenAI GP, LLC, OpenAI Holdings LLC, OpenAI OpCo LLC, OpenAI, LLC, OpenAI Holdings, LLC, OpenAI Global LLC, OpenAI Inc., OpenAI LLC, OpenAI Startup Fund Management LLC, OpenAI Global, L.L.C., OAI Corporation, OAI Corporation, LLC. ENDORSEMENT: Accordingly, Rose S. Lee requests that her withdrawal as counsel be granted and that she be removed from this actions electronic case filing (ECF) service list. Application GRANTED. SO ORDERED. (Signed by Magistrate Judge Ona T. Wang on 8/11/2026) (jjc) (Entered: 08/12/2026)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/68138737/400/basbanes-v-microsoft-corporation/)
 
 ### 📄 Doc #398 — 2026-08-07
 
-Order AND ~Util - Set Deadlines
+ORDER: Anyone wishing to file an amicus brief in connection with the summary judgment motions in this multidistrict litigation shall file a motion requesting leave to file an amicus brief no later than October 16, 2026. The motion requesting such leave shall include the proposed amicus brief, which shall be no more than 6,000 words. SO ORDERED. (Motions due by 10/16/2026.) (Signed by Judge Sidney H. Stein on 8/7/2026) Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al. (jca) (Entered: 08/07/2026)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/68138737/398/basbanes-v-microsoft-corporation/)
 
 ### 📄 Doc #399 — 2026-08-07
 
-Order AND ~Util - Set Deadlines
+ORDER: The following word limits shall apply to summary judgment motions in the News Cases: Opening Briefs: 8,750 words for Microsoft; 8,750 words for OpenAI; 17,500 words for News Plaintiffs/ divided as they see fit. Opposition Briefs: 17,500 words for defendants, divided as they see fit; 17,500 words for News Plaintiffs, divided as they see fit. Reply Briefs: 8,750 words for defendants, divided as they see fit; 8,750 words for News Plaintiffs, divided as they see fit. The following limits shall apply to summary judgment motions in the consolidated class cases: Class plaintiffs, OpenAI, and Microsoft may each make only one motion for summary judgment. Class plaintiffs, OpenAI, and Microsoft shall each have 12,500 words for opening and opposition briefs, and 7,500 words each for replies. The following limits and schedule shall apply for Daubert motions in all cases: The Court adopts plaintiffs' proposal for a global word count to cover all Dabuert motions, with all plaintiffs sharing a …(truncated)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/68138737/399/basbanes-v-microsoft-corporation/)
 
 ### 📄 Doc #396 — 2026-08-05
 
-Letter
+JOINT LETTER addressed to Judge Sidney H. Stein from Davida Brook, Justin A. Nelson, Lisa T. Simpson & R. James Slaughter dated 08/05/2026 re: word limits for summary judgment briefs on class plaintiffs' claims and limitations on Daubert briefs. Document filed by The New York Times Company.Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Brook, Davida) (Entered: 08/05/2026)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/68138737/396/basbanes-v-microsoft-corporation/)
 
 ### 📄 Doc #397 — 2026-08-05
 
-Proposed Stipulation and Order
+PROPOSED STIPULATION AND ORDER. Document filed by The New York Times Company..(Brook, Davida) (Entered: 08/05/2026)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/68138737/397/basbanes-v-microsoft-corporation/)
 
@@ -1002,47 +1032,11 @@ ORDER denying as moot (507) Motion for Discovery in case 1:23-cv-08292-SHS-OTW; 
 
 [CourtListener 連結](https://www.courtlistener.com/docket/68138737/252/basbanes-v-microsoft-corporation/)
 
-### 📄 Doc #— — 2025-09-03
-
-Status Conference
-
-### 📄 Doc #— — 2025-09-03
-
-Settlement Conference
-
-### 📄 Doc #251 — 2025-08-29
-
-REDACTION to (611 in 1:23-cv-08292-SHS-OTW, 162 in 1:25-cv-03483-SHS-OTW, 122 in 1:25-cv-03291-SHS-OTW, 567 in 1:25-cv-03482-SHS-OTW, 504 in 1:25-md-03143-SHS-OTW, 250 in 1:24-cv-00084-SHS-OTW, 485 in 1:23-cv-10211-SHS-OTW) Letter,,,,, by OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.L.C., OpenAI Holdings LLC, OpenAI Holdings, LLC, OpenAI Inc., OpenAI LLC, OpenAI LP, OpenAI OpCo LLC, OpenAI OpCo LLC(a Delaware limited liability corporation), OpenAI OpCo, L.L.C., OpenAI Startup Fund GP I LLC, OpenAI Startup Fund GP I LLC(a Delaware limited liability company), OpenAI Startup Fund I LP, OpenAI Startup Fund I LP(a Delaware limited partnership), OpenAI Startup Fund Management LLC, OpenAI Startup Fund Management LLC(a Delaware limited liability company), OpenAI, Inc., OpenAI, Inc. Copyright Infringement Litigation, OpenAI, LLC, OpenAI GP LLC, OpenAI Inc., OpenAI LP(a Delaware limited partnership) (Attachments: # …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68138737/251/2/basbanes-v-microsoft-corporation/)
-
-### 📄 Doc #250 — 2025-08-29
-
-***SELECTED PARTIES*** LETTER addressed to Magistrate Judge Ona T. Wang from R. James Slaughter, Margaret Graham, Caitlin Sinclaire Blythe dated August 29, 2025 Document filed by OpenAI, Inc., OpenAI Startup Fund GP I LLC, OpenAI LP, OpenAI Holdings LLC, OpenAI Startup Fund Management LLC, OAI Corporation, LLC, OpenAI Startup Fund I LP, OpenAI GP, LLC, OpenAI Global, L.L.C., OpenAI Startup Fund GP I LLC(a Delaware limited liability company), OpenAI OpCo LLC, OAI Corporation, OpenAI Startup Fund Management LLC(a Delaware limited liability company), OpenAI, LLC, OpenAI Inc., OpenAI Global LLC, OpenAI Holdings, LLC, OpenAI OpCo, L.L.C., OpenAI Startup Fund I LP(a Delaware limited partnership), OAI Corporation LLC, OpenAI LLC, OpenAI GP LLC, OpenAI, Inc. Copyright Infringement Litigation, OpenAI OpCo LLC(a Delaware limited liability corporation), OpenAI GP LLC, OpenAI Inc., OpenAI LP(a Delaware limited partnership), OpenAI Startup Fund Mangement, LLC. (Attachments: # 1 Exhibit 1 - UNDER SE …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68138737/250/basbanes-v-microsoft-corporation/)
-
-### 📄 Doc #248 — 2025-08-28
-
-REPLY MEMORANDUM OF LAW in Support re: (118 in 1:25-cv-03483-SHS-OTW, 206 in 1:24-cv-00084-SHS-OTW, 336 in 1:25-md-03143-SHS-OTW, 430 in 1:23-cv-10211-SHS-OTW, 535 in 1:23-cv-08292-SHS-OTW) MOTION to Strike Document No. (183) as to Portions of the Consolidated Class Action Complaint . . Document filed by OpenAI Inc., OpenAI OpCo LLC, OAI Corporation, OAI Corporation LLC, OpenAI GP LLC, OpenAI Global LLC, OpenAI Holdings LLC, OpenAI OpCo LLC(a Delaware limited liability corporation), OpenAI Startup Fund GP I LLC, OpenAI Startup Fund I LP(a Delaware limited partnership), OpenAI Startup Fund Management LLC(a Delaware limited liability company), OpenAI, LLC, OpenAI GP LLC, OpenAI Inc., OpenAI Startup Fund GP I LLC(a Delaware limited liability company), OAI Corporation, LLC, OpenAI GP, LLC, OpenAI Holdings, LLC, OpenAI LLC, OpenAI, Inc., OpenAI Startup Fund I LP, OpenAI Startup Fund Management LLC, OpenAI Startup Fund Mangement, LLC. Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..( …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68138737/248/basbanes-v-microsoft-corporation/)
-
-### 📄 Doc #249 — 2025-08-28
-
-DECLARATION of Joseph C. Gratz in Support re: (118 in 1:25-cv-03483-SHS-OTW, 206 in 1:24-cv-00084-SHS-OTW, 336 in 1:25-md-03143-SHS-OTW, 430 in 1:23-cv-10211-SHS-OTW, 535 in 1:23-cv-08292-SHS-OTW) MOTION to Strike Document No. (183) as to Portions of the Consolidated Class Action Complaint .. Document filed by OpenAI Inc., OpenAI OpCo LLC, OAI Corporation LLC, OpenAI GP LLC, OpenAI Global LLC, OpenAI Holdings LLC, OpenAI LLC, OpenAI OpCo LLC(a Delaware limited liability corporation), OpenAI Startup Fund GP I LLC, OpenAI Startup Fund I LP(a Delaware limited partnership), OpenAI Startup Fund Management LLC(a Delaware limited liability company), OpenAI GP LLC, OpenAI Inc., OpenAI Startup Fund GP I LLC(a Delaware limited liability company), OAI Corporation, LLC, OpenAI GP, LLC, OpenAI Holdings, LLC, OpenAI, Inc., OpenAI Startup Fund I LP, OpenAI Startup Fund Management LLC, OpenAI, LLC, OpenAI Startup Fund Mangement, LLC. Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Gratz, Jose …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68138737/249/basbanes-v-microsoft-corporation/)
-
-### 📄 Doc #247 — 2025-08-28
-
-REPLY MEMORANDUM OF LAW in Support re: (326 in 1:25-md-03143-SHS-OTW) MOTION to Strike Document No. (183) as to Portions of the Consolidated Class Action Complaint. . Document filed by Microsoft Corporation, Microsoft Corporation, Microsoft Corporation. Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Najemy, Laura) (Entered: 08/28/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68138737/247/basbanes-v-microsoft-corporation/)
-
 <details>
-<summary>已過濾的 19 筆程序性 entries（點擊展開）</summary>
+<summary>已過濾的 21 筆程序性 entries（點擊展開）</summary>
 
+- **Doc #405** (2026-09-14): NOTICE OF APPEARANCE by Marc Holden Axelbaum on behalf of Benjamin Chess. Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Axelbaum, Marc) (Entered: 09/14/2026)
+- **Doc #406** (2026-09-14): NOTICE OF APPEARANCE by Marc Holden Axelbaum on behalf of Ermira Murati. Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Axelbaum, Marc) (Entered: 09/14/2026)
 - **Doc #—** (2026-07-13): >>>NOTICE REGARDING PRO HAC VICE MOTION. Regarding Document No. (615 in 1:24-cv-04872-SHS-OTW, 43 in 1:26-cv-02097-SHS, 440 in 1:24-cv-01514-SHS-OTW, 306 in 1:25-cv-03483-SHS-OTW, 144 in 1:25-cv-06286…
 - **Doc #391** (2026-07-10): MOTION for Johnathan J. Vaknin to Appear Pro Hac Vice . Filing fee $ 200.00, receipt number NYSDC-33120648. Motion and supporting papers to be reviewed by Clerk's Office staff. Document filed by Micro…
 - **Doc #356** (2026-03-06): CERTIFICATE OF SERVICE of Letter Brief in Response Response to Plaintiffs Discovery Dispute Brief (ECF 1383) and Related Exhibits A-C served on All Plaintiffs and Open AI Defendants on March 5, 2026. …
@@ -1067,4 +1061,4 @@ REPLY MEMORANDUM OF LAW in Support re: (326 in 1:25-md-03143-SHS-OTW) MOTION to 
 
 ---
 
-*產生時間：2026-09-01 01:29 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-10-01 01:33 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

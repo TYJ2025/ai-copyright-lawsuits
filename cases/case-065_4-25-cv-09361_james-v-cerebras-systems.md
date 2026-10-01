@@ -1,6 +1,6 @@
 # Case 65 — James v. Cerebras Systems Inc.
 
-> 最後更新（CourtListener fetch）：2026-09-01 01:26 UTC
+> 最後更新（CourtListener fetch）：2026-10-01 01:30 UTC
 
 ---
 
@@ -14,7 +14,7 @@
 | Judge Assigned | Araceli Martinez-Olguin |
 | Judge Referred | Robert M. Illman |
 | Date Filed | 2025-10-30 |
-| Date Last Filing | 2026-08-25 |
+| Date Last Filing | 2026-09-30 |
 | Cause | 17:501 Copyright Infringement |
 | Nature of Suit | 820 Copyright |
 | Jury Demand | Both |
@@ -34,15 +34,77 @@
 
 - ✅ Court 一致：dashboard 寫「N.D. Cal.」，CourtListener 為「N.D. California」
 - ✅ Judge 一致：dashboard 寫「Araceli Martinez-Olguin」，CourtListener 為「Araceli Martinez-Olguin」
-- ℹ️ Dashboard progress 內找不到【YYYY/M/D】格式日期；CourtListener 最後 entry: 2026-08-25
+- ℹ️ Dashboard progress 內找不到【YYYY/M/D】格式日期；CourtListener 最後 entry: 2026-09-30
 
 ## 3. Docket Entries（最新優先，已過濾程序性 entries）
 
-**實質性 entries**：82 筆／**已過濾程序性 entries**：31 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+**實質性 entries**：93 筆／**已過濾程序性 entries**：31 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+
+### 📄 Doc #93 — 2026-09-30
+
+Pro Hac Vice
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71827684/93/james-v-cerebras-systems-inc/)
+
+### 📄 Doc #92 — 2026-09-22
+
+NOTICE by Christopher Farnsworth, Darius H. James, Gary Morgenstein re 87 Order on Discovery Letter Brief,,,, Joint Notice as to Progress re RFP No. 35 (Shaver, Anne) (Filed on 9/22/2026) (Entered: 09/22/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71827684/92/james-v-cerebras-systems-inc/)
+
+### 📄 Doc #91 — 2026-09-15
+
+NOTICE by Christopher Farnsworth, Darius H. James, Gary Morgenstein re 87 Order on Discovery Letter Brief,,,, as to progress on RFP 35 (Joint) (Shaver, Anne) (Filed on 9/15/2026) (Entered: 09/15/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71827684/91/james-v-cerebras-systems-inc/)
+
+### 📄 Doc #90 — 2026-09-14
+
+Transcript of Proceedings held on September 1, 2026, before Judge Robert M. Illman. Court Reporter/Transcriber Velvet Quill Communications, telephone number info@velvetquill.com. Per General Order No. 59 and Judicial Conference policy, this transcript may be viewed only at the Clerk's Office public terminal or may be purchased through the Court Reporter/Transcriber until the deadline for the Release of Transcript Restriction. After that date it may be obtained through PACER. Any Notice of Intent to Request Redaction, if required, is due no later than 5 business days from date of this filing. (Re 86 Transcript Order ) Release of Transcript Restriction set for 12/14/2026. (Related documents(s) 86 ) (Bazier, Jaquetta) (Filed on 9/14/2026) (Entered: 09/14/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71827684/90/james-v-cerebras-systems-inc/)
+
+### 📄 Doc #89 — 2026-09-08
+
+Answer to 82 Second Amended Complaint by Cerebras Systems Inc.. (Van Nest, Robert) (Filed on 9/8/2026) Modified on 9/10/2026 (slh, COURT STAFF). (Entered: 09/08/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71827684/89/james-v-cerebras-systems-inc/)
+
+### 📄 Doc #87 — 2026-09-02
+
+Order by Magistrate Judge Robert M. Illman: Upon consideration of the parties Joint Letter Brief 84, and for the reasons stated on the record, it is ORDERED that the letter brief is GRANTED in part and DENIED in part as follows: As to the RedPajama dataset, if Cerebras is unable to find the dataset by September 15, 2026, it will provide Plaintiff with a statement outlining the attempts it has made in search of it. As to Interrogatory No. 15, Plaintiff's request here is denied as premature and without prejudice to Plaintiff being able to re-raise the request after further discovery has occurred. As to Request for Production No. 35, the parties are to meet and confer about the designation of a custodian and search terms in order to search for responsive documents. The parties are to report on the outcome of the meet and confer either by filing a notice of agreement, or a joint letter brief of no more than 3 pages outlining each parties position on the Request. (This is a text-only entry  …(truncated)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71827684/87/james-v-cerebras-systems-inc/)
+
+### 📄 Doc #85 — 2026-09-02
+
+Minute Entry for proceedings held before Magistrate Judge Robert M. Illman: Discovery Hearing held on 9/1/2026. Discovery Hearing set for 10/27/2026 11:00 AM in McKinleyville, Videoconference Only before Magistrate Judge Robert M. Illman. This proceeding will be held via a Zoom webinar.Webinar Access: All counsel, members of the public, and media may access the webinar information at https://www.cand.uscourts.gov/rmi Court Appearances: Advanced notice is required of counsel or parties who wish to be identified by the court as making an appearance or will be participating in the argument at the hearing. A list of names and emails must be sent to the CRD at rmicrd@cand.uscourts.gov no later than 10/23/2026 at 12:00 p.m.Civ LR 77-3(d). Persons granted access to court proceedings held by telephone or videoconference are reminded that photographing, recording, and rebroadcasting of court proceedings, including screenshots or other visual copying of a hearing, is absolutely prohibited.Zoom G …(truncated)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71827684/85/james-v-cerebras-systems-inc/)
+
+### 📄 Doc #88 — 2026-09-02
+
+TRANSCRIPT ORDER for proceedings held on 9/1/2026 before Magistrate Judge Robert M. Illman by Christopher Farnsworth, Darius H. James, Charles Kaiser, Gary Morgenstein, Mary Pilon, for Recorded Proceeding - San Francisco. (Shaver, Anne) (Filed on 9/2/2026) (Entered: 09/02/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71827684/88/james-v-cerebras-systems-inc/)
+
+### 📄 Doc #— — 2026-09-02
+
+Discovery Hearing AND ~Util - Set Hearings AND ~Util - Teleconference Zoom
+
+### 📄 Doc #86 — 2026-09-02
+
+TRANSCRIPT ORDER for proceedings held on September 1, 2026 before Magistrate Judge Robert M. Illman by Cerebras Systems Inc., for Recorded Proceeding - San Francisco. (Porto, Catherine) (Filed on 9/2/2026) (Entered: 09/02/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71827684/86/james-v-cerebras-systems-inc/)
+
+### 📄 Doc #— — 2026-09-02
+
+Order on Discovery Letter Brief
 
 ### 📄 Doc #84 — 2026-08-25
 
-JOINT CASE MANAGEMENT STATEMENT filed by Darius H. James. (Shaver, Anne) (Filed on 8/25/2026) (Entered: 08/25/2026)
+JOINT CASE MANAGEMENT STATEMENT filed by Darius H. James. (Shaver, Anne) (Filed on 8/25/2026) Modified on 9/2/2026 (rmilc2, COURT STAFF). (Entered: 08/25/2026)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/71827684/84/james-v-cerebras-systems-inc/)
 
@@ -513,4 +575,4 @@ Proposed Summons. (Turin, Yevgeniy) (Filed on 10/30/2025) (Entered: 10/30/2025)
 
 ---
 
-*產生時間：2026-09-01 01:26 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-10-01 01:30 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

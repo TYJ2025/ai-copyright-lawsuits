@@ -4,7 +4,7 @@
   "name": "Thomson Reuters v. ROSS Intelligence",
   "court": "D. Del. 1:20-cv-00613 → 3d Cir. 25-2153（merits appeal）",
   "judge": "Bibas（D. Del. 原審）／3d Cir. panel: Restrepo、Montgomery-Reeves、Bove",
-  "status": "appeal",
+  "status": "decided",
   "primary_docket_id": 17131648,
   "secondary_docket_ids": [],
   "progress_excerpt": "【第三巡迴上訴中】ROSS Intelligence 於 2025 年上訴至第三巡迴法院，主張其使用具有轉化性。Thomson Reuters 於 2025 年 11 月提交答辯書狀，稱 ROSS 的行為是「竊取而非創新」。\n\n2026 年 3 月 12 日，ROSS 提交補充函件。2025 年 9-10 月，Free Law Project 及其他十一家阿密庫斯聲明人代表支持 ROSS Intelligence 提交簡報。截至 2026 年 4 月，第三巡迴法院尚未安排言詞辯論，但預計於 2026 年進行。此案將是巡迴法院層級首次就 AI 訓練的合理使用問題表態。\n\n【2026/5/15】雙方依法院命令於 5/11 就第三巡迴 American Society for Testing v. UpCodes 新判決提交補充辯狀：ROSS（White & Case / Pillsbury）援引 UpCodes 主張應簡易撤銷原審不利合理使用裁定，並指 Westlaw 無實際訂閱流失或營收損失等市場損害證據；Thomson Reuters（Kirkland & Ellis）反主張 UpCodes 反證 ROSS 屬商業替代性使用。\n\n【2026/6/11】第三巡迴口頭辯論於費城 James A. Maris Courtroom 完成，為全美首件 AI 訓練資料合理使用上訴聽證。三大訊號"
@@ -27,7 +27,7 @@
   "status": "active",
   "primary_docket_id": 66732129,
   "secondary_docket_ids": [],
-  "progress_excerpt": "2024 年 8 月，Orrick 法官駁回被告的駁回動議（motion to dismiss），允許著作權侵害主張進入事證開示階段。\n\n2026 年 2 月 27 日，原告提交第三次修正訴狀（Third Amended Complaint）。案件目前進入全面事證開示階段，審判日期定為 2026 年 9 月 8 日。\n\n本案若進入審判，將是美國首批就 AI 圖像生成著作權問題進行完整審理的案件之一。"
+  "progress_excerpt": "2024 年 8 月，Orrick 法官駁回被告的駁回動議（motion to dismiss），允許著作權侵害主張進入事證開示階段。\n\n2026 年 2 月 27 日，原告提交第三次修正訴狀（Third Amended Complaint）。案件目前進入全面事證開示階段，審判日期定為 2026 年 9 月 8 日。\n\n本案若進入審判，將是美國首批就 AI 圖像生成著作權問題進行完整審理的案件之一。\n\n【2026/9/8】全美首件測試 AI 圖像訓練「model-as-copy」理論之陪審團審判於今日開庭，被告 Stability AI、Midjourney、DeviantArt、Runway AI，另含 Lanham Act 主張\n\n【2026/9/14】更正：原定 2026/9/8 開庭之陪審團審判實依法院先前變更命令延至 2027/4/5 開庭，並未如期於 9/8 開庭；案件仍處事證開示後期，尚待實體審理\n\n【2026/9/28】Orrick 法官核准原告展延排程命令，交互聲請即決判決審理時程再延約 3 個月，最快須至 2027 年底始能終局裁定"
  },
  {
   "case_id": 4,
@@ -79,7 +79,7 @@
   "status": "active",
   "primary_docket_id": 67810584,
   "secondary_docket_ids": [],
-  "progress_excerpt": "【集體訴訟認定】2026 年 2 月 20 日，集體訴訟資格認定聽證會在聖荷西舉行。法院目前正在審議是否准許集體訴訟資格。\n\n【Basbanes v. Microsoft】已因應 Authors Guild 案的集體訴訟認定進度而暫停審理。\n\n本案集體訴訟資格的認定將是關鍵——若獲准許，將使數千名作者得以共同主張權利，對 OpenAI 形成巨大賠償壓力。"
+  "progress_excerpt": "【集體訴訟認定】2026 年 2 月 20 日，集體訴訟資格認定聽證會在聖荷西舉行。法院目前正在審議是否准許集體訴訟資格。\n\n【Basbanes v. Microsoft】已因應 Authors Guild 案的集體訴訟認定進度而暫停審理。\n\n本案集體訴訟資格的認定將是關鍵——若獲准許，將使數千名作者得以共同主張權利，對 OpenAI 形成巨大賠償壓力。\n\n【2026/9/5】原告具狀聲請即決判決，主張 OpenAI 建立於「mass piracy」之上、GPT 模型對作家出版業構成「existential threat」，訴請認定被告下載盜版書籍及訓練模型不構成合理使用"
  },
  {
   "case_id": 9,
@@ -129,7 +129,7 @@
   "status": "appeal",
   "primary_docket_id": 65669506,
   "secondary_docket_ids": [],
-  "progress_excerpt": "2024 年 1 月，Tigar 法官駁回大部分主張。2024 年 9 月，法官核准中間上訴（interlocutory appeal）至第九巡迴法院；許可上訴聲請程序另編 9th Cir. 24-6136，2024/12/19 由 S. Thomas、Tallman 兩位法官裁定准許，本案上訴審則編為 9th Cir. 24-7700，地院程序暫停。\n\n【2026/2/11】第九巡迴法院於舊金山第一法庭進行言詞辯論後 ARGUED AND SUBMITTED，合議庭為 Sidney R. Thomas、Eric D. Miller、Stanley Blumenfeld。被告（AI 業者聯盟）敦促法院就 DMCA §1202 於 AI 脈絡之適用範圍作出明確裁判。\n\n截至 2026/8/16，24-7700 卷宗最後書狀為 2026/5/26 之律師退出通知，判決尚未作成。"
+  "progress_excerpt": "2024 年 1 月，Tigar 法官駁回大部分主張。2024 年 9 月，法官核准中間上訴（interlocutory appeal）至第九巡迴法院；許可上訴聲請程序另編 9th Cir. 24-6136，2024/12/19 由 S. Thomas、Tallman 兩位法官裁定准許，本案上訴審則編為 9th Cir. 24-7700，地院程序暫停。\n\n【2026/2/11】第九巡迴法院於舊金山第一法庭進行言詞辯論後 ARGUED AND SUBMITTED，合議庭為 Sidney R. Thomas、Eric D. Miller、Stanley Blumenfeld。被告（AI 業者聯盟）敦促法院就 DMCA §1202 於 AI 脈絡之適用範圍作出明確裁判。\n\n截至 2026/8/16，24-7700 卷宗最後書狀為 2026/5/26 之律師退出通知，判決尚未作成。\n\n【2026/9/16】第九巡迴上訴法院三人合議庭（S. Thomas、Miller、Blumenfeld）維持地院駁回裁定，認開源程式設計師無法就 Copilot 輸出程式碼未附正確歸屬（attribution）主張 DMCA § 1202(b)，AI 業者於此爭點全面勝訴。"
  },
  {
   "case_id": 14,
@@ -159,7 +159,7 @@
   "status": "active",
   "primary_docket_id": 69280385,
   "secondary_docket_ids": [],
-  "progress_excerpt": "案件由 Wu 法官審理中，目前處於審理前程序階段。Tesla 尚未提出合理使用抗辯的具體論述。"
+  "progress_excerpt": "案件由 Wu 法官審理中，目前處於審理前程序階段。Tesla 尚未提出合理使用抗辯的具體論述。\n\n【2026/9/19】Warner Bros. Discovery 就其部分與 Alcon 達成和解，具狀請求法院以有偏見駁回（with prejudice）並保留和解條款管轄權；對共同被告 Musk、Tesla 之 AI 生成影像侵權訴訟仍繼續進行"
  },
  {
   "case_id": 17,
@@ -339,7 +339,7 @@
   "status": "active",
   "primary_docket_id": 71313411,
   "secondary_docket_ids": [],
-  "progress_excerpt": "案件於 2025 年 6 月提起。Rochon 法官已駁回被告的當事人適格異議。目前案件進入事證開示階段，原告已針對 Perplexity 的訓練資料集及答案生成邏輯提交廣泛的文件索取請求。被告預計於 2026 年 5 月提交答辯摘要。"
+  "progress_excerpt": "案件於 2025 年 6 月提起。Rochon 法官已駁回被告的當事人適格異議。目前案件進入事證開示階段，原告已針對 Perplexity 的訓練資料集及答案生成邏輯提交廣泛的文件索取請求。被告預計於 2026 年 5 月提交答辯摘要。\n\n【2026/9/2】Cave 治安法官（Magistrate Judge）就 discovery 爭議部分准許原告聲請，命 Perplexity 提出一份額外 RAG snapshot 及 6 個月（2025/8-2026/1）額外 UAL 使用紀錄資料（少於原告請求之 10 個月），並命雙方分攤費用。"
  },
  {
   "case_id": 35,
@@ -349,7 +349,7 @@
   "status": "active",
   "primary_docket_id": 68290804,
   "secondary_docket_ids": [],
-  "progress_excerpt": "案件於 2026 年 1 月提起。OpenAI 已於 3 月提交駁回動議（motion to dismiss），主張 CMI 條款不適用於 AI 訓練資料集。法院預計於 2026 年 5 月作出決定。原告亦已向第二巡迴法院提交法庭之友意見書。"
+  "progress_excerpt": "案件於 2026 年 1 月提起。OpenAI 已於 3 月提交駁回動議（motion to dismiss），主張 CMI 條款不適用於 AI 訓練資料集。法院預計於 2026 年 5 月作出決定。原告亦已向第二巡迴法院提交法庭之友意見書。\n\n【2026/9/2】美國司法部（川普政府）於 In re OpenAI 著作權訴訟 MDL 遞交法庭意見書力挺 OpenAI，主張 AI 訓練屬高度轉化之合理使用，為聯邦政府首次就 AI 著作權訴訟表態"
  },
  {
   "case_id": 36,
@@ -429,7 +429,7 @@
   "status": "active",
   "primary_docket_id": 72505829,
   "secondary_docket_ids": [],
-  "progress_excerpt": "【訴訟進展（截至 2026/4/8）】\n\n• 2026/3/17：BMG 在 N.D. Cal. 提起訴訟，由 Magistrate Judge Alex G. Tse 受理。\n• 2026/3/20：Anthropic 送達完成，答辯截止日為 2026/4/10。\n• 2026/4/6：BMG 聲請本案與 Concord Music v. Anthropic（同法院）合併審理，回應期限 2026/4/10。\n• 2026/4/7：Anthropic 正式出庭，委任 WilmerHale 律師事務所（Sonal Mehta、Ari Holtzblatt 等），並提交公司揭露聲明，列明 Amazon、Google/Alphabet、AWS 為其關係企業。雙方已提交聯合排程協議草案。\n• 初次案件管理會議（Case Management Conference）定於 2026/6/26 下午 2 時（視訊）。\n\n⚠️ 【2026/4/10】Anthropic 答辯狀截止，密切關注是否提出駁回動議。"
+  "progress_excerpt": "【訴訟進展（截至 2026/4/8）】\n\n• 2026/3/17：BMG 在 N.D. Cal. 提起訴訟，由 Magistrate Judge Alex G. Tse 受理。\n• 2026/3/20：Anthropic 送達完成，答辯截止日為 2026/4/10。\n• 2026/4/6：BMG 聲請本案與 Concord Music v. Anthropic（同法院）合併審理，回應期限 2026/4/10。\n• 2026/4/7：Anthropic 正式出庭，委任 WilmerHale 律師事務所（Sonal Mehta、Ari Holtzblatt 等），並提交公司揭露聲明，列明 Amazon、Google/Alphabet、AWS 為其關係企業。雙方已提交聯合排程協議草案。\n• 初次案件管理會議（Case Management Conference）定於 2026/6/26 下午 2 時（視訊）。\n\n⚠️ 【2026/4/10】Anthropic 答辯狀截止，密切關注是否提出駁回動議。\n\n【2026/9/10】提出第一次修正訴狀（First Amended Complaint）；案件已與 Concord Music、Sony Music 音樂出版商集團訴訟併案，統一由 Eumi K. Lee 法官審理，修正內容細節尚未明朗。"
  },
  {
   "case_id": 45,
@@ -509,7 +509,7 @@
   "status": "active",
   "primary_docket_id": 72199828,
   "secondary_docket_ids": [],
-  "progress_excerpt": "Anthropic 已提交動議請求暫停本案，等待第一波 Concord v. Anthropic 即決判決結果。Concord I 的即決判決聽證定於 2026 年 7 月 15 日。法院尚未裁定暫停動議。\n\n【2026/5/20】Anthropic 向加州北區聯邦地院（Eumi K. Lee 法官、Susan van Keulen 治安法官）提交 Motion to Stay，請求於 Concord I（5:24-cv-03811）最終裁判前停止本案全部訴訟程序，備位主張為等待 Concord I 即決判決與後續上訴終結；理由為兩案被告同一、爭點實質相同，續行將造成重複防禦負擔且判決恐相互衝突。\n\n【2026/8/3】Anthropic 聲請一部駁回輸出侵權與 DMCA CMI 主張（欠缺具體侵權範例），CEO Dario Amodei 另聲請駁回對其個人之直接侵權（torrenting）指控（欠缺事實基礎）；11/4 Lee 法官開庭審理。"
+  "progress_excerpt": "Anthropic 已提交動議請求暫停本案，等待第一波 Concord v. Anthropic 即決判決結果。Concord I 的即決判決聽證定於 2026 年 7 月 15 日。法院尚未裁定暫停動議。\n\n【2026/5/20】Anthropic 向加州北區聯邦地院（Eumi K. Lee 法官、Susan van Keulen 治安法官）提交 Motion to Stay，請求於 Concord I（5:24-cv-03811）最終裁判前停止本案全部訴訟程序，備位主張為等待 Concord I 即決判決與後續上訴終結；理由為兩案被告同一、爭點實質相同，續行將造成重複防禦負擔且判決恐相互衝突。\n\n【2026/8/3】Anthropic 聲請一部駁回輸出侵權與 DMCA CMI 主張（欠缺具體侵權範例），CEO Dario Amodei 另聲請駁回對其個人之直接侵權（torrenting）指控（欠缺事實基礎）；11/4 Lee 法官開庭審理。\n\n【2026/9/9】Eumi K. Lee 法官將新提起之 Sony Music Publishing／Warner Chappell v. Anthropic（音樂出版商 torrenting 訴訟）與本案 related，統一由其審理以求程序效率。"
  },
  {
   "case_id": 53,
@@ -549,7 +549,7 @@
   "status": "active",
   "primary_docket_id": 72069211,
   "secondary_docket_ids": [],
-  "progress_excerpt": "【2026/7/1、7/9 最新】Pitts 法官正式將 Bartz 後陸續起訴的書籍作者及出版社訴訟（含 Shakespeare v. Anthropic）認定為本案之關聯案件，統一由其審理；音樂類案件（Concord I、II、BMG）則由 Lee 法官審理。本案成為 N.D. Cal. Anthropic 書籍作者案件群的錨定案件。"
+  "progress_excerpt": "【2026/7/1、7/9 最新】Pitts 法官正式將 Bartz 後陸續起訴的書籍作者及出版社訴訟（含 Shakespeare v. Anthropic）認定為本案之關聯案件，統一由其審理；音樂類案件（Concord I、II、BMG）則由 Lee 法官審理。本案成為 N.D. Cal. Anthropic 書籍作者案件群的錨定案件。\n\n【2026/9/25】Anthropic 對退出 Bartz 和解之作者（含 John Carreyrou、Angie Cruz、R.O. Kwon）另提之個別訴訟聲請駁回，主張已罹三年時效；原告 Kimberly Kay Hoang 已自願撤回告訴。"
  },
  {
   "case_id": 58,
@@ -869,7 +869,7 @@
   "status": "active",
   "primary_docket_id": 71112094,
   "secondary_docket_ids": [],
-  "progress_excerpt": "2026 年 3 月提起（2:26-cv-01031 W.D. Wash.）。早期階段。\n\n【2026/6/9】Microsoft 向華盛頓西區聯邦地院聲請 12(b)(6) 駁回，主張原告未陳述微軟曾自其 3D 模型移除著作權管理資訊（§1202(b)）或散布原告受保護作品之必要事實要件。起訴狀核心主張為被告於使用 Objaverse-XL（含原告以 Creative Commons 授權公開之 3D 模型）訓練生成式 AI 過程中系統性剝離作者署名等 CMI。為 Beaulier 系列 4 件子訴訟首件被告實體動議。"
+  "progress_excerpt": "2026 年 3 月提起（2:26-cv-01031 W.D. Wash.）。早期階段。\n\n【2026/6/9】Microsoft 向華盛頓西區聯邦地院聲請 12(b)(6) 駁回，主張原告未陳述微軟曾自其 3D 模型移除著作權管理資訊（§1202(b)）或散布原告受保護作品之必要事實要件。起訴狀核心主張為被告於使用 Objaverse-XL（含原告以 Creative Commons 授權公開之 3D 模型）訓練生成式 AI 過程中系統性剝離作者署名等 CMI。為 Beaulier 系列 4 件子訴訟首件被告實體動議。\n\n【2026/9/28】雙方就聯合案件管理報告中「類別認證應否先於實體審理審查」之時程安排意見不一"
  },
  {
   "case_id": 90,
@@ -1049,7 +1049,7 @@
   "status": "active",
   "primary_docket_id": 73402641,
   "secondary_docket_ids": [],
-  "progress_excerpt": "【2026/5/28】CNN 於紐約南區聯邦地院（S.D.N.Y.）提起訴訟，案號 1:26-cv-04427，由 Rothwell, Figg, Ernst & Manbeck 律所代理、Steven Lieberman 律師具名。Nature of Suit 820（著作權），cause 17 U.S.C. §501（著作權侵害）。截至立案時法官尚未指派（Unassigned）。\n\nCNN 主張曾於 2025 年與 Perplexity 進行授權談判但破裂，其後續商業利用屬「明知未獲授權」之故意侵權，請求法定損害賠償與永久禁制令。Perplexity 通訊長 Jesse Dwyer 回應「事實無從受著作權保護」。\n\n本案與同院的 NYT v. Perplexity（1:25-cv-10106）、Chicago Tribune v. Perplexity（1:25-cv-10094）相關，並與 Dow Jones（WSJ／NY Post）、Encyclopaedia Britannica、Reddit、Amazon 等對 Perplexity 之多線訴訟共構壓力——新聞媒體 ↔ AI 答案引擎戰線首度延伸至電視網領域。\n\n【2026/8/24】Perplexity 具狀聲請大幅刪減 CNN 著作權訴訟，主張其 answer engine 自動生成回覆不負侵權責任"
+  "progress_excerpt": "【2026/5/28】CNN 於紐約南區聯邦地院（S.D.N.Y.）提起訴訟，案號 1:26-cv-04427，由 Rothwell, Figg, Ernst & Manbeck 律所代理、Steven Lieberman 律師具名。Nature of Suit 820（著作權），cause 17 U.S.C. §501（著作權侵害）。截至立案時法官尚未指派（Unassigned）。\n\nCNN 主張曾於 2025 年與 Perplexity 進行授權談判但破裂，其後續商業利用屬「明知未獲授權」之故意侵權，請求法定損害賠償與永久禁制令。Perplexity 通訊長 Jesse Dwyer 回應「事實無從受著作權保護」。\n\n本案與同院的 NYT v. Perplexity（1:25-cv-10106）、Chicago Tribune v. Perplexity（1:25-cv-10094）相關，並與 Dow Jones（WSJ／NY Post）、Encyclopaedia Britannica、Reddit、Amazon 等對 Perplexity 之多線訴訟共構壓力——新聞媒體 ↔ AI 答案引擎戰線首度延伸至電視網領域。\n\n【2026/8/24】Perplexity 具狀聲請大幅刪減 CNN 著作權訴訟，主張其 answer engine 自動生成回覆不負侵權責任\n\n【2026/9"
  },
  {
   "case_id": 140,
@@ -1059,7 +1059,7 @@
   "status": "active",
   "primary_docket_id": 73384790,
   "secondary_docket_ids": [],
-  "progress_excerpt": "【2026/5/22】Jeff Hobbs、A. Douglas Stone 於 S.D.N.Y. 提起集體訴訟（1:26-cv-04314）。Nature of Suit 820（著作權）。截至立案時法官尚未指派（Unassigned）。\n\n本案為追蹤站 ChatGPT Is Eating the World 所列之第 113 件美國 AI 著作權訴訟。與同期出版商聯盟 + Scott Turow v. Meta（1:26-cv-03689，2026/5/5）同屬「出版界對 Meta／Llama」之訴訟波，惟本案獨以「點名 AI 科學家個人」為特色。"
+  "progress_excerpt": "【2026/5/22】Jeff Hobbs、A. Douglas Stone 於 S.D.N.Y. 提起集體訴訟（1:26-cv-04314）。Nature of Suit 820（著作權）。截至立案時法官尚未指派（Unassigned）。\n\n本案為追蹤站 ChatGPT Is Eating the World 所列之第 113 件美國 AI 著作權訴訟。與同期出版商聯盟 + Scott Turow v. Meta（1:26-cv-03689，2026/5/5）同屬「出版界對 Meta／Llama」之訴訟波，惟本案獨以「點名 AI 科學家個人」為特色。\n\n【2026/9/11】原告撤回對前 Meta FAIR 副總 Joelle Pineau、前研究員 Guillaume Lample 兩名個人被告之請求，因兩人居於法國、加拿大境外送達成本過高不符效益；Meta 公司及 Zuckerberg 部分不受影響。"
  },
  {
   "case_id": 141,
@@ -1079,7 +1079,7 @@
   "status": "active",
   "primary_docket_id": 73391700,
   "secondary_docket_ids": [],
-  "progress_excerpt": "2026/5/26 立案。原告同日聲請 pro se 電子提交許可。案件在 D. Mass.（而非多數 Anthropic 訴訟集中之 N.D. Cal.），管轄與移轉動向值得觀察。"
+  "progress_excerpt": "2026/5/26 立案。原告同日聲請 pro se 電子提交許可。案件在 D. Mass.（而非多數 Anthropic 訴訟集中之 N.D. Cal.），管轄與移轉動向值得觀察。\n\n【2026/9/11】Anthropic 具狀反對 Gilbert 撤銷其合理使用反訴（counterclaim）之聲請；Gilbert 曾提議訴訟範圍限於「盜版來源」訓練複本。"
  },
  {
   "case_id": 143,
@@ -1159,7 +1159,7 @@
   "status": "active",
   "primary_docket_id": 73603888,
   "secondary_docket_ids": [],
-  "progress_excerpt": "剛立案。\n\n【2026/7/10】Hachette、Cengage、Elsevier 等出版商及作家 Scott Turow 對 Google 提告，指控 Google Books 與 Google Play 書籍資料未經授權用於訓練 Gemini 模型，並主張 Google 蓄意移除或竄改著作權管理資訊（CMI）以掩蓋訓練來源，內部文件據稱曾示警恐面臨鉅額法定賠償風險。法官尚未分派。"
+  "progress_excerpt": "剛立案。\n\n【2026/7/10】Hachette、Cengage、Elsevier 等出版商及作家 Scott Turow 對 Google 提告，指控 Google Books 與 Google Play 書籍資料未經授權用於訓練 Gemini 模型，並主張 Google 蓄意移除或竄改著作權管理資訊（CMI）以掩蓋訓練來源，內部文件據稱曾示警恐面臨鉅額法定賠償風險。法官尚未分派。\n\n【2026/9/30】Google 引用 Castel 法官將 Elsevier v. Meta 移轉加州北區之裁定為依據，主張本案亦應同樣移轉"
  },
  {
   "case_id": 157,
@@ -1169,7 +1169,7 @@
   "status": "active",
   "primary_docket_id": 73446028,
   "secondary_docket_ids": [],
-  "progress_excerpt": "【2026/6/5】AFM 於紐約南區聯邦地院對 UMG 與 WMG 提起集體談判協議違約訴訟，主張兩大唱片公司於與 Suno、Udio 之和解暨授權交易中未依 CBA「new use」條款補償 session musicians，亦拒絕揭露實際被授權用於 AI 訓練之錄音名單。起訴狀稱被告「為自身利益創造重大新收入來源、卻拒絕補償以自己樂器、才華與努力創作出供 AI 機器吞食營利之音樂家」。\n\n【2026/7/21】AFM 就 UMG、WMG 之撤銷之訴聲請提出反對書狀，主張兩大唱片公司與 Suno、Udio 之 AI 授權和解已觸發 SRLA 第 21(a) 條「新用途」條款，須對授權供 AI 訓練錄音之樂手給付報酬；UMG 反主張該條款僅為既有費率轉換條款。\n\n【2026/7/24】AFM 提交第一次修正訴狀，增列 Warner Records, Inc. 與 Atlantic Recording Corp. 為被告。\n\n【2026/8/5】UMG、WMG 對 AFM 7/24 提出之修正訴狀再次聲請駁回，主張 SRLA 第 21(a)條「新用途」條款不涵蓋 AI 訓練授權；AFM 先前 7/21 已就原訴狀撤銷聲請提反對書狀。"
+  "progress_excerpt": "【2026/6/5】AFM 於紐約南區聯邦地院對 UMG 與 WMG 提起集體談判協議違約訴訟，主張兩大唱片公司於與 Suno、Udio 之和解暨授權交易中未依 CBA「new use」條款補償 session musicians，亦拒絕揭露實際被授權用於 AI 訓練之錄音名單。起訴狀稱被告「為自身利益創造重大新收入來源、卻拒絕補償以自己樂器、才華與努力創作出供 AI 機器吞食營利之音樂家」。\n\n【2026/7/21】AFM 就 UMG、WMG 之撤銷之訴聲請提出反對書狀，主張兩大唱片公司與 Suno、Udio 之 AI 授權和解已觸發 SRLA 第 21(a) 條「新用途」條款，須對授權供 AI 訓練錄音之樂手給付報酬；UMG 反主張該條款僅為既有費率轉換條款。\n\n【2026/7/24】AFM 提交第一次修正訴狀，增列 Warner Records, Inc. 與 Atlantic Recording Corp. 為被告。\n\n【2026/8/5】UMG、WMG 對 AFM 7/24 提出之修正訴狀再次聲請駁回，主張 SRLA 第 21(a)條「新用途」條款不涵蓋 AI 訓練授權；AFM 先前 7/21 已就原訴狀撤銷聲請提反對書狀。\n\n【2026/9/8】【2026/9/8】AFM 就兩大唱片公司續行聲請駁回提出反對書狀，持續爭執勞動協議新用途條款是否涵蓋 AI 訓練授權收入分潤"
  },
  {
   "case_id": 158,
@@ -1220,5 +1220,45 @@
   "primary_docket_id": 74652896,
   "secondary_docket_ids": [],
   "progress_excerpt": "【2026/8/14】教科書作者 Michael Sullivan 等 7 名具名原告於紐約南區聯邦地院對 OpenAI 各關係企業及 Microsoft 提起集體訴訟（1:26-cv-06966），主張自盜版影子圖書館取得教科書訓練 GPT-N，訴因含直接侵害、輔助侵害、對 Microsoft 之代位侵害及 DMCA §1202 移除 CMI 後散布，並請求陪審團審理。案件尚未分案（Unassigned）。"
+ },
+ {
+  "case_id": 167,
+  "name": "Gerencia 360 Music, Inc. v. Suno, Inc.",
+  "court": "N.D. Cal.",
+  "judge": "Charles R. Breyer",
+  "status": "active",
+  "primary_docket_id": 74725556,
+  "secondary_docket_ids": [],
+  "progress_excerpt": "2026-08-31 起訴，繫屬中。"
+ },
+ {
+  "case_id": 168,
+  "name": "UMG Recordings, Inc. v. Suno, Inc.",
+  "court": "D. Mass.",
+  "judge": "F. Dennis Saylor IV",
+  "status": "active",
+  "primary_docket_id": 74812464,
+  "secondary_docket_ids": [],
+  "progress_excerpt": "2026-09-18 起訴，繫屬中。"
+ },
+ {
+  "case_id": 169,
+  "name": "The Seattle Times Company v. OpenAI, Inc.",
+  "court": "S.D.N.Y.",
+  "judge": "Jed Saul Rakoff",
+  "status": "active",
+  "primary_docket_id": 74754553,
+  "secondary_docket_ids": [],
+  "progress_excerpt": "2026-09-04 起訴，繫屬中；承審 Rakoff 法官。"
+ },
+ {
+  "case_id": 170,
+  "name": "Sony Music Publishing (US) LLC v. Anthropic PBC",
+  "court": "N.D. Cal.",
+  "judge": "Eumi K. Lee",
+  "status": "active",
+  "primary_docket_id": 74720572,
+  "secondary_docket_ids": [],
+  "progress_excerpt": "2026-08-28 起訴，繫屬中。"
  }
 ]

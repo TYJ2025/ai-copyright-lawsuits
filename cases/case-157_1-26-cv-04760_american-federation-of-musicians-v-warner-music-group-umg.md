@@ -1,6 +1,6 @@
 # Case 157 — American Federation of Musicians of the United States and Canada v. Warner Music Group Corp.
 
-> 最後更新（CourtListener fetch）：2026-09-01 01:44 UTC
+> 最後更新（CourtListener fetch）：2026-10-01 01:52 UTC
 
 ---
 
@@ -13,7 +13,7 @@
 | Court | District Court, S.D. New York (`nysd`) |
 | Judge Assigned | Edgardo Ramos |
 | Date Filed | 2026-06-05 |
-| Date Last Filing | 2026-08-27 |
+| Date Last Filing | 2026-09-11 |
 | Cause | 29:185 Labor: Suits by and against Labor Organizations |
 | Nature of Suit | 720 Labor: Labor/Mgt. Relations |
 | Jury Demand | Plaintiff |
@@ -33,11 +33,29 @@
 
 - ⚠️ Court 可能不一致：dashboard 寫「S.D.N.Y. 1:26-cv-04760」，CourtListener 為「S.D. New York」
 - ✅ Judge 一致：dashboard 寫「Edgardo Ramos」，CourtListener 為「Edgardo Ramos」
-- ℹ️ Dashboard progress 略落後 22 天：dashboard 最新日期 2026-08-05，CourtListener 最後 entry 2026-08-27
+- ⚠️ Dashboard progress **落後 37 天**：dashboard 最新日期 2026-08-05，CourtListener 最後 entry 2026-09-11——建議查看新近 entries 並補充 progress
 
 ## 3. Docket Entries（最新優先，已過濾程序性 entries）
 
-**實質性 entries**：52 筆／**已過濾程序性 entries**：14 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+**實質性 entries**：55 筆／**已過濾程序性 entries**：14 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+
+### 📄 Doc #52 — 2026-09-11
+
+Reply Memorandum of Law in Support of Motion
+
+[CourtListener 連結](https://www.courtlistener.com/docket/73446028/52/american-federation-of-musicians-of-the-united-states-and-canada-v-warner/)
+
+### 📄 Doc #51 — 2026-09-11
+
+Reply Memorandum of Law in Support of Motion
+
+[CourtListener 連結](https://www.courtlistener.com/docket/73446028/51/american-federation-of-musicians-of-the-united-states-and-canada-v-warner/)
+
+### 📄 Doc #50 — 2026-09-04
+
+Response in Opposition to Motion
+
+[CourtListener 連結](https://www.courtlistener.com/docket/73446028/50/american-federation-of-musicians-of-the-united-states-and-canada-v-warner/)
 
 ### 📄 Doc #49 — 2026-08-27
 
@@ -339,4 +357,4 @@ RULE 7.1 CORPORATE DISCLOSURE STATEMENT. No Corporate Parent. Document filed by 
 
 ---
 
-*產生時間：2026-09-01 01:44 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-10-01 01:52 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

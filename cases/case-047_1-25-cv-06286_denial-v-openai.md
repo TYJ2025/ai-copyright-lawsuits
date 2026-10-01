@@ -1,6 +1,6 @@
 # Case 47 — DENIAL v. OpenAI, Inc.
 
-> 最後更新（CourtListener fetch）：2026-09-01 01:22 UTC
+> 最後更新（CourtListener fetch）：2026-10-01 01:26 UTC
 
 ---
 
@@ -14,7 +14,7 @@
 | Judge Assigned | Sidney H. Stein |
 | Judge Referred | Ona T. Wang |
 | Date Filed | 2025-07-30 |
-| Date Last Filing | 2026-08-12 |
+| Date Last Filing | 2026-09-24 |
 | Cause | 17:501 Copyright Infringement |
 | Nature of Suit | Copyright |
 | Jury Demand | Plaintiff |
@@ -34,11 +34,53 @@
 
 - ⚠️ Court 可能不一致：dashboard 寫「MDL Before Judge Stein (Originally N.D. Cal.)」，CourtListener 為「S.D. New York」
 - ✅ Judge 一致：dashboard 寫「Sidney H. Stein」，CourtListener 為「Sidney H. Stein」
-- ℹ️ Dashboard progress 內找不到【YYYY/M/D】格式日期；CourtListener 最後 entry: 2026-08-12
+- ℹ️ Dashboard progress 內找不到【YYYY/M/D】格式日期；CourtListener 最後 entry: 2026-09-24
 
 ## 3. Docket Entries（最新優先，已過濾程序性 entries）
 
-**實質性 entries**：183 筆／**已過濾程序性 entries**：17 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+**實質性 entries**：184 筆／**已過濾程序性 entries**：16 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+
+### 📄 Doc #158 — 2026-09-24
+
+Order on Motion for Extension of Time to File
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70970233/158/denial-v-openai-inc/)
+
+### 📄 Doc #156 — 2026-09-14
+
+Notice of Appearance
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70970233/156/denial-v-openai-inc/)
+
+### 📄 Doc #157 — 2026-09-14
+
+Notice of Appearance
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70970233/157/denial-v-openai-inc/)
+
+### 📄 Doc #155 — 2026-09-11
+
+Order
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70970233/155/denial-v-openai-inc/)
+
+### 📄 Doc #154 — 2026-09-04
+
+Redacted Document
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70970233/154/denial-v-openai-inc/)
+
+### 📄 Doc #153 — 2026-09-03
+
+Stipulation and Order AND ~Util - Set Deadlines
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70970233/153/denial-v-openai-inc/)
+
+### 📄 Doc #152 — 2026-09-01
+
+Letter
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70970233/152/denial-v-openai-inc/)
 
 ### 📄 Doc #151 — 2026-08-12
 
@@ -1004,42 +1046,8 @@ CASE TRANSFERRED IN from the United States District Court - District of Californ
 
 Case Opening Initial Assignment Notice - Transfer Case
 
-### 📄 Doc #— — 2025-07-30
-
-Note to Out of State Attorneys
-
-### 📄 Doc #8 — 2025-07-24
-
-ORDER TRANSFERRING CASE to Southern District of New York. (kam2, COURT STAFF) (Filed on 7/24/2025) [Transferred from California Northern on 7/30/2025.] (Entered: 07/24/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/70970233/8/denial-v-openai-inc/)
-
-### 📄 Doc #7 — 2025-07-02
-
-REPORT on the filing or determination of an action regarding Copyright CORRECTION OF ECF #6 (cc: form mailed to register). (Saveri, Joseph) (Filed on 7/2/2025) [Transferred from California Northern on 7/30/2025.] (Entered: 07/02/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/70970233/7/denial-v-openai-inc/)
-
-### 📄 Doc #6 — 2025-07-02
-
-DISREGARD - ERRONEOUSLY FILED REPORT on the filing or determination of an action regarding Copyright (cc: form mailed to register). (Saveri, Joseph) (Filed on 7/2/2025) Modified on 7/3/2025 (kam2, COURT STAFF). [Transferred from California Northern on 7/30/2025.] (Entered: 07/02/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/70970233/6/denial-v-openai-inc/)
-
-### 📄 Doc #4 — 2025-07-01
-
-Proposed Summons. (Saveri, Joseph) (Filed on 7/1/2025) [Transferred from California Northern on 7/30/2025.] (Entered: 07/01/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/70970233/4/denial-v-openai-inc/)
-
-### 📄 Doc #3 — 2025-07-01
-
-Initial Case Management Scheduling Order with ADR Deadlines: Case Management Statement due by 9/23/2025. Initial Case Management Conference set for 9/30/2025 01:30 PM in San Francisco, - Videoconference Only. (kam2, COURT STAFF) (Filed on 7/1/2025) [Transferred from California Northern on 7/30/2025.] (Entered: 07/01/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/70970233/3/denial-v-openai-inc/)
-
 <details>
-<summary>已過濾的 17 筆程序性 entries（點擊展開）</summary>
+<summary>已過濾的 16 筆程序性 entries（點擊展開）</summary>
 
 - **Doc #112** (2026-03-06): CERTIFICATE OF SERVICE of Letter Brief in Response Response to Plaintiffs Discovery Dispute Brief (ECF 1383) and Related Exhibits A-C served on All Plaintiffs and Open AI Defendants on March 5, 2026. …
 - **Doc #105** (2026-02-23): CERTIFICATE OF SERVICE of ECF Doc. No. 1335 served on Plaintiffs on 2/20/2026. Document filed by OAI Corporation, OAI Corporation LLC, OpenAI GP LLC, OpenAI Global LLC, OpenAI Holdings LLC, OpenAI Inc…
@@ -1057,10 +1065,9 @@ Initial Case Management Scheduling Order with ADR Deadlines: Case Management Sta
 - **Doc #29** (2025-08-26): ORDER GRANTING MOTION TO ADMIT COUNSEL PRO HAC VICE granting (582) Motion for Eleanor Frances Brock to Appear Pro Hac Vice in case 1:23-cv-08292-SHS-OTW; granting (817) Motion for Eleanor Frances Broc…
 - **Doc #26** (2025-08-26): ORDER GRANTING MOTION TO ADMIT COUNSEL PRO HAC VICE granting (469) Motion for Reid Patrick Mullen to Appear Pro Hac Vice in case 1:23-cv-08292-SHS-OTW; granting (398) Motion for Reid Patrick Mullen to…
 - **Doc #27** (2025-08-26): ORDER FOR ATTORNEY ADMISSION PRO HAC VICE in case 1:23-cv-08292-SHS-OTW; granting (85) Motion for Guy Ruttenberg to Appear Pro Hac Vice in case 1:25-md-03143-SHS-OTW. IT IS HEREBY ORDERED that Guy Rut…
-- **Doc #5** (2025-07-01): Summons Issued as to Microsoft Corporation, OpenAI GP, L.L.C., OpenAI OpCo, L.L.C., OpenAI Startup Fund GP I, L.L.C., OpenAI Startup Fund I, L.P., OpenAI Startup Fund Management, LLC, OpenAI, Inc., Op…
 
 </details>
 
 ---
 
-*產生時間：2026-09-01 01:22 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-10-01 01:26 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

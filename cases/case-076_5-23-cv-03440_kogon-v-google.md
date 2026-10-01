@@ -1,6 +1,6 @@
 # Case 76 — In re Google Generative AI Copyright Litigation
 
-> 最後更新（CourtListener fetch）：2026-09-01 01:32 UTC
+> 最後更新（CourtListener fetch）：2026-10-01 01:36 UTC
 
 ---
 
@@ -14,7 +14,7 @@
 | Judge Assigned | Eumi K. Lee |
 | Judge Referred | Susan Van Keulen |
 | Date Filed | 2023-07-11 |
-| Date Last Filing | 2026-08-25 |
+| Date Last Filing | 2026-09-29 |
 | Cause | 28:1331 Fed. Question |
 | Nature of Suit | 370 Other Fraud |
 | Jury Demand | Both |
@@ -34,15 +34,115 @@
 
 - ⚠️ Court 可能不一致：dashboard 寫「N.D. Ill.」，CourtListener 為「N.D. California」
 - ✅ Judge 一致：dashboard 寫「Eumi K. Lee」，CourtListener 為「Eumi K. Lee」
-- ⚠️ Dashboard progress **落後 74 天**：dashboard 最新日期 2026-06-12，CourtListener 最後 entry 2026-08-25——建議查看新近 entries 並補充 progress
+- ⚠️ Dashboard progress **落後 109 天**：dashboard 最新日期 2026-06-12，CourtListener 最後 entry 2026-09-29——建議查看新近 entries 並補充 progress
 
 ## 3. Docket Entries（最新優先，已過濾程序性 entries）
 
 **實質性 entries**：178 筆／**已過濾程序性 entries**：22 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
 
+### 📄 Doc #499 — 2026-09-29
+
+ORDER denying  394   Discovery Letter Brief; denying  395   Administrative Motion to Consider Whether Another Party's Material Should Be Sealed.  Signed by Judge Susan van Keulen on 9/29/2026.    (rap, COURT STAFF) (Filed on 9/29/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67599029/499/in-re-google-generative-ai-copyright-litigation/)
+
+### 📄 Doc #495 — 2026-09-28
+
+Order on Motion for Pro Hac Vice
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67599029/495/in-re-google-generative-ai-copyright-litigation/)
+
+### 📄 Doc #496 — 2026-09-28
+
+Order on Motion for Pro Hac Vice
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67599029/496/in-re-google-generative-ai-copyright-litigation/)
+
+### 📄 Doc #497 — 2026-09-28
+
+Order on Motion for Pro Hac Vice
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67599029/497/in-re-google-generative-ai-copyright-litigation/)
+
+### 📄 Doc #498 — 2026-09-28
+
+Order on Motion for Pro Hac Vice
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67599029/498/in-re-google-generative-ai-copyright-litigation/)
+
+### 📄 Doc #491 — 2026-09-28
+
+Pro Hac Vice
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67599029/491/in-re-google-generative-ai-copyright-litigation/)
+
+### 📄 Doc #492 — 2026-09-28
+
+Pro Hac Vice
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67599029/492/in-re-google-generative-ai-copyright-litigation/)
+
+### 📄 Doc #493 — 2026-09-28
+
+Pro Hac Vice
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67599029/493/in-re-google-generative-ai-copyright-litigation/)
+
+### 📄 Doc #494 — 2026-09-28
+
+Pro Hac Vice
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67599029/494/in-re-google-generative-ai-copyright-litigation/)
+
+### 📄 Doc #490 — 2026-09-28
+
+Exhibit 1 to Slarskey Declaration (Proposed Complaint in Intervention)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67599029/490/3/in-re-google-generative-ai-copyright-litigation/)
+
+### 📄 Doc #489 — 2026-09-21
+
+Administrative Motion to File Under Seal Pursuant to Dkt. No. 479 re Plaintiffs' Motion for Relief, Dkt. Nos. 410, 412 filed by Google LLC. (Attachments: # 1 Exhibit 1 - [Filed Under Seal] Google's Proposed Redactions, # 2 Proposed Order, # 3 Certificate/Proof of Service)(Sampson, Paul) (Filed on 9/21/2026) (Entered: 09/21/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67599029/489/3/in-re-google-generative-ai-copyright-litigation/)
+
+### 📄 Doc #488 — 2026-09-18
+
+OPPOSITION/RESPONSE (re 486 ADMINISTRATIVE MOTION Plaintiffs' Administrative Motion for Leave to File Reply to Google LLC's Response to Plaintiffs' Supplemental Authority re 480 Order on Administrative Motion per Civil Local Rule 7-11, 484 Response < ) filed byGoogle LLC. (Kramer, David) (Filed on 9/18/2026) (Entered: 09/18/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67599029/488/in-re-google-generative-ai-copyright-litigation/)
+
+### 📄 Doc #487 — 2026-09-16
+
+NOTICE of Change in Counsel: Attorney Evan Creutz no longer representing Steve Almond, Sarah Andersen, Burl Barer, Jessica Fink, Hope Larson, Jill Leovy, Connie McLennan, Jingna Zhang in this case (Saveri, Joseph) (Filed on 9/16/2026) (Entered: 09/16/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67599029/487/in-re-google-generative-ai-copyright-litigation/)
+
+### 📄 Doc #486 — 2026-09-16
+
+ADMINISTRATIVE MOTION Plaintiffs' Administrative Motion for Leave to File Reply to Google LLC's Response to Plaintiffs' Supplemental Authority re 480 Order on Administrative Motion per Civil Local Rule 7-11, 484 Response filed by Consolidated Plaintiffs. Responses due by 9/21/2026. (Attachments: # 1 Declaration of Stephen J. Teti, # 2 Exhibit A - Plaintiffs' Proposed Reply to Google LLC's Response to Plaintiffs' Supplemental Authority, # 3 Proposed Order)(Teti, Stephen) (Filed on 9/16/2026) (Entered: 09/16/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67599029/486/3/in-re-google-generative-ai-copyright-litigation/)
+
+### 📄 Doc #— — 2026-09-16
+
+Notice of Appearance/Substitution/Change/Withdrawal of Attorney
+
+### 📄 Doc #485 — 2026-09-09
+
+RELATED CASE ORDER. Case No. 26-cv-7013-TLT is related to Case No. 23-cv-03440-EKL and shall be reassigned to Judge Eumi K. Lee. Signed by Judge Eumi K. Lee on 9/9/2026. (lrt, COURT STAFF) (Filed on 9/9/2026) (Entered: 09/09/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67599029/485/in-re-google-generative-ai-copyright-litigation/)
+
+### 📄 Doc #484 — 2026-09-08
+
+Response re 480 Order on Administrative Motion per Civil Local Rule 7-11 to Plaintiffs' Supplemental Authority by Google LLC. (Kramer, David) (Filed on 9/8/2026) (Entered: 09/08/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67599029/484/in-re-google-generative-ai-copyright-litigation/)
+
 ### 📄 Doc #483 — 2026-08-25
 
-Opposition/Response to Motion
+OPPOSITION/RESPONSE (re 478 ADMINISTRATIVE MOTION to Consider Whether Cases Should be Related ) filed byEvox Productions LLC. (Sabovich, James) (Filed on 8/25/2026) (Entered: 08/25/2026)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/67599029/483/in-re-google-generative-ai-copyright-litigation/)
 
@@ -984,106 +1084,6 @@ ORDER Granting in part and Denying in part 303 Administrative Motion to Consider
 
 [CourtListener 連結](https://www.courtlistener.com/docket/67599029/312/in-re-google-generative-ai-copyright-litigation/)
 
-### 📄 Doc #— — 2025-12-19
-
-Order on Discovery Letter Brief
-
-### 📄 Doc #311 — 2025-12-19
-
-ORDER Regarding 302 Discovery Letter Brief. Signed by Judge Susan van Keulen on December 19, 2025. (svklc2, COURT STAFF) (Filed on 12/19/2025) (Entered: 12/19/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/67599029/311/in-re-google-generative-ai-copyright-litigation/)
-
-### 📄 Doc #309 — 2025-12-11
-
-REPLY (re 298 MOTION for Sanctions ) filed byGoogle LLC. (Rees, Maura) (Filed on 12/11/2025) (Entered: 12/11/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/67599029/309/in-re-google-generative-ai-copyright-litigation/)
-
-### 📄 Doc #310 — 2025-12-11
-
-Declaration of Paul N. Harold in Support of 309 Reply to Opposition/Response re Motion for Sanctions filed byGoogle LLC. (Related document(s) 309 ) (Rees, Maura) (Filed on 12/11/2025) (Entered: 12/11/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/67599029/310/in-re-google-generative-ai-copyright-litigation/)
-
-### 📄 Doc #307 — 2025-12-04
-
-Declaration of Gregory S. Mullens in Support of 306 Opposition/Response to Motion filed byConsolidated Plaintiffs. (Attachments: # 1 Exhibit A)(Related document(s) 306 ) (Weaver, Lesley) (Filed on 12/4/2025) (Entered: 12/04/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/67599029/307/1/in-re-google-generative-ai-copyright-litigation/)
-
-### 📄 Doc #306 — 2025-12-04
-
-OPPOSITION/RESPONSE (re 298 MOTION for Sanctions ) (Redacted) filed byConsolidated Plaintiffs. (Attachments: # 1 Proposed Order)(Weaver, Lesley) (Filed on 12/4/2025) (Entered: 12/04/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/67599029/306/1/in-re-google-generative-ai-copyright-litigation/)
-
-### 📄 Doc #308 — 2025-12-04
-
-Administrative Motion to Consider Whether Another Party's Material Should Be Sealed Re Plaintiffs' Opposition to Google's Motion for Sanctions filed by Consolidated Plaintiffs. (Attachments: # 1 Plaintiffs' Opposition to Google's Motion for Sanctions (Sealed), # 2 Proposed Order re Sealing)(Weaver, Lesley) (Filed on 12/4/2025) (Entered: 12/04/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/67599029/308/in-re-google-generative-ai-copyright-litigation/)
-
-### 📄 Doc #305 — 2025-12-03
-
-OPPOSITION/RESPONSE (re 303 Administrative Motion to Consider Whether Another Party's Material Should Be Sealed Re Joint Discovery Letter Brief Regarding Named Plaintiff and Class Discovery ) filed byGoogle LLC. (Attachments: # 1 Proposed Order)(Sampson, Paul) (Filed on 12/3/2025) (Entered: 12/03/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/67599029/305/in-re-google-generative-ai-copyright-litigation/)
-
-### 📄 Doc #304 — 2025-12-01
-
-Corrected Joint Declaration of Mark Richards, Gregory Mullens, and Christopher Young Regarding Plaintiffs' Google Accounts. Amendment to 278 Declaration in Support by Consolidated Plaintiffs. (Richards, Mark) (Filed on 12/1/2025) (Entered: 12/01/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/67599029/304/in-re-google-generative-ai-copyright-litigation/)
-
-### 📄 Doc #302 — 2025-11-26
-
-Joint Discovery Letter Brief Regarding Named Plaintiff and Class Discovery (Redacted) filed by Consolidated Plaintiffs. (Attachments: # 1 Exhibit 1 - Parties' Joint Chart Regarding Google's Production of Named Plaintiff and Class Discovery (Redacted), # 2 Plaintiffs' Proposed Order, # 3 Defendant's Proposed Order)(Weaver, Lesley) (Filed on 11/26/2025) (Entered: 11/26/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/67599029/302/3/in-re-google-generative-ai-copyright-litigation/)
-
-### 📄 Doc #303 — 2025-11-26
-
-Administrative Motion to Consider Whether Another Party's Material Should Be Sealed Re Joint Discovery Letter Brief Regarding Named Plaintiff and Class Discovery filed by Consolidated Plaintiffs. (Attachments: # 1 Proposed Order, # 2 Joint Discovery Letter Brief Regarding Named Plaintiff and Class Discovery (Sealed), # 3 Exhibit 1 - Parties' Joint Chart Regarding Google's Production of Named Plaintiff and Class Discovery (Sealed))(Weaver, Lesley) (Filed on 11/26/2025) (Entered: 11/26/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/67599029/303/in-re-google-generative-ai-copyright-litigation/)
-
-### 📄 Doc #301 — 2025-11-21
-
-Interim Administrative Motion to File Under Seal [Corrected] re Motions to Exclude Testimony from Plaintiffs' Proposed Experts filed by Google LLC. (Attachments: # 1 Google's Motion to Exclude Testimony from Plaintiffs' Proposed Experts David S. Doermann, Michael D. Smith, and Victoria Furniss [Sealed], # 2 Exhibit A to Knoll Declaration [Sealed], # 3 Exhibit B to Knoll Declaration [Sealed], # 4 Exhibit C to Knoll Declaration [Sealed], # 5 Exhibit D to Knoll Declaration [Sealed])(Sampson, Paul) (Filed on 11/21/2025) (Entered: 11/21/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/67599029/301/in-re-google-generative-ai-copyright-litigation/)
-
-### 📄 Doc #300 — 2025-11-21
-
-Interim Administrative Motion to File Under Seal re Motion for Sanctions filed by Google LLC. (Attachments: # 1 Motion for Sanctions [Sealed], # 2 Certificate/Proof of Service)(Rees, Maura) (Filed on 11/21/2025) (Entered: 11/21/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/67599029/300/in-re-google-generative-ai-copyright-litigation/)
-
-### 📄 Doc #287 — 2025-11-20
-
-ADDITIONAL EXHIBITS to re 286 Declaration in Support filed by Google LLC. (Attachments: # 1 Exhibit 61, # 2 Exhibit 62, # 3 Exhibit 63, # 4 Exhibit 64, # 5 Exhibit 65, # 6 Exhibit 66, # 7 Exhibit 67, # 8 Exhibit 68, # 9 Exhibit 69, # 10 Exhibit 70, # 11 Exhibit 71, # 12 Exhibit 72, # 13 Exhibit 73, # 14 Exhibit 74, # 15 Exhibit 75, # 16 Exhibit 76, # 17 Exhibit 77, # 18 Exhibit 78, # 19 Exhibit 79, # 20 Exhibit 80, # 21 Exhibit 81, # 22 Exhibit 82 [Public], # 23 Exhibit 83 [Public], # 24 Exhibit 84 [Public], # 25 Exhibit 85 [Public], # 26 Exhibit 86 [Public], # 27 Exhibit 87 [Public], # 28 Exhibit 88, # 29 Exhibit 89, # 30 Exhibit 90, # 31 Exhibit 91, # 32 Exhibit 92, # 33 Exhibit 93, # 34 Exhibit 94, # 35 Exhibit 95, # 36 Exhibit 96, # 37 Exhibit 97, # 38 Exhibit 98, # 39 Exhibit 99, # 40 Exhibit 100, # 41 Exhibit 101, # 42 Exhibit 102, # 43 Exhibit 103 [Public], # 44 Exhibit 104, # 45 Exhibit 105, # 46 Exhibit 106, # 47 Exhibit 107, # 48 Exhibit 108, # 49 Exhibit 109, # 50 Exhibit 11 …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/67599029/287/60/in-re-google-generative-ai-copyright-litigation/)
-
-### 📄 Doc #286 — 2025-11-20
-
-Declaration of Jeremy P. Auster in Support of 282 Opposition/Response to Motion filed byGoogle LLC. (Attachments: # 1 Exhibit 1, # 2 Exhibit 2, # 3 Exhibit 3, # 4 Exhibit 4, # 5 Exhibit 5 [Public], # 6 Exhibit 6 [Public], # 7 Exhibit 7 [Public], # 8 Exhibit 8, # 9 Exhibit 9, # 10 Exhibit 10 [Public], # 11 Exhibit 11 [Public], # 12 Exhibit 12 [Public], # 13 Exhibit 13 [Public], # 14 Exhibit 14, # 15 Exhibit 15, # 16 Exhibit 16, # 17 Exhibit 17, # 18 Exhibit 18, # 19 Exhibit 19, # 20 Exhibit 20, # 21 Exhibit 21, # 22 Exhibit 22, # 23 Exhibit 23, # 24 Exhibit 24, # 25 Exhibit 25, # 26 Exhibit 26, # 27 Exhibit 27 [Public], # 28 Exhibit 28 [Public], # 29 Exhibit 29, # 30 Exhibit 30, # 31 Exhibit 31, # 32 Exhibit 32, # 33 Exhibit 33, # 34 Exhibit 34, # 35 Exhibit 35, # 36 Exhibit 36, # 37 Exhibit 37, # 38 Exhibit 38, # 39 Exhibit 39, # 40 Exhibit 40 [Public], # 41 Exhibit 41 [Public], # 42 Exhibit 42 [Public], # 43 Exhibit 43 [Public], # 44 Exhibit 44, # 45 Exhibit 45, # 46 Exhibit 46, # 47  …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/67599029/286/60/in-re-google-generative-ai-copyright-litigation/)
-
-### 📄 Doc #284 — 2025-11-20
-
-Declaration of David Price in Support of 282 Opposition/Response to Motion filed byGoogle LLC. (Attachments: # 1 Exhibit A, # 2 Exhibit B [Public], # 3 Exhibit C [Public], # 4 Exhibit D [Public], # 5 Exhibit E [Public], # 6 Exhibit F [Public], # 7 Exhibit G [Public], # 8 Exhibit H, # 9 Exhibit I, # 10 Exhibit J, # 11 Exhibit K, # 12 Exhibit L)(Related document(s) 282 ) (Kramer, David) (Filed on 11/20/2025) (Entered: 11/20/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/67599029/284/12/in-re-google-generative-ai-copyright-litigation/)
-
-### 📄 Doc #299 — 2025-11-20
-
-Declaration of Paul Harold in Support of 298 MOTION for Sanctions filed byGoogle LLC. (Attachments: # 1 Exhibit A, # 2 Exhibit B, # 3 Exhibit C, # 4 Exhibit D)(Related document(s) 298 ) (Rees, Maura) (Filed on 11/20/2025) (Entered: 11/21/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/67599029/299/4/in-re-google-generative-ai-copyright-litigation/)
-
 <details>
 <summary>已過濾的 22 筆程序性 entries（點擊展開）</summary>
 
@@ -1114,4 +1114,4 @@ Declaration of Paul Harold in Support of 298 MOTION for Sanctions filed byGoogle
 
 ---
 
-*產生時間：2026-09-01 01:32 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-10-01 01:36 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

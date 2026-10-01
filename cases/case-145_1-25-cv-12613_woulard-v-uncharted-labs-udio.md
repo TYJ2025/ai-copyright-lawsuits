@@ -1,6 +1,6 @@
 # Case 145 — Woulard v. Uncharted Labs, Inc.
 
-> 最後更新（CourtListener fetch）：2026-09-01 01:43 UTC
+> 最後更新（CourtListener fetch）：2026-10-01 01:51 UTC
 
 ---
 
@@ -14,7 +14,7 @@
 | Judge Assigned | Sara L. Ellis |
 | Date Filed | 2025-10-15 |
 | Date Terminated | 2026-08-04 |
-| Date Last Filing | 2026-08-11 |
+| Date Last Filing | 2026-09-14 |
 | Cause | 17:101 Copyright Infringement |
 | Nature of Suit | 820 Copyright |
 | Jury Demand | Both |
@@ -34,11 +34,21 @@
 
 - ⚠️ Court 可能不一致：dashboard 寫「N.D. Ill. (1:25-cv-12613)」，CourtListener 為「N.D. Illinois」
 - ✅ Judge 一致：dashboard 寫「Sara Lee Ellis」，CourtListener 為「Sara L. Ellis」
-- ℹ️ Dashboard progress 內找不到【YYYY/M/D】格式日期；CourtListener 最後 entry: 2026-08-11
+- ℹ️ Dashboard progress 內找不到【YYYY/M/D】格式日期；CourtListener 最後 entry: 2026-09-14
 
 ## 3. Docket Entries（最新優先，已過濾程序性 entries）
 
-**實質性 entries**：37 筆／**已過濾程序性 entries**：2 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+**實質性 entries**：39 筆／**已過濾程序性 entries**：2 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+
+### 📄 Doc #— — 2026-09-14
+
+ELECTRONIC ACKNOWLEDGMENT: Case transferred from Illinois Northern has been opened in Southern District of New York as case 1:26-cv-07968, filed 09/12/2026. (gcy, )
+
+### 📄 Doc #39 — 2026-09-08
+
+TRANSFERRED to the Southern District of New York the electronic record. (qrtr, ) (Entered: 09/08/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71659116/39/woulard-v-uncharted-labs-inc/)
 
 ### 📄 Doc #37 — 2026-08-03
 
@@ -268,4 +278,4 @@ COMPLAINT filed by Hamza Jilani, Stan Burjek, Maatkara Wilson, Magnus Fiennes, A
 
 ---
 
-*產生時間：2026-09-01 01:43 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-10-01 01:51 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

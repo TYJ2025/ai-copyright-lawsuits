@@ -1,6 +1,6 @@
 # Case 158 — S.A. Jamendo v. Nvidia Corporation
 
-> 最後更新（CourtListener fetch）：2026-09-01 01:44 UTC
+> 最後更新（CourtListener fetch）：2026-10-01 01:52 UTC
 
 ---
 
@@ -184,4 +184,4 @@ Proposed Summons. (Isaacson, Kevin) (Filed on 6/22/2026) (Entered: 06/22/2026)
 
 ---
 
-*產生時間：2026-09-01 01:44 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-10-01 01:52 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

@@ -1,6 +1,6 @@
 # Case 14 — Raw Story Media, Inc. v. OpenAI Inc.
 
-> 最後更新（CourtListener fetch）：2026-09-01 01:10 UTC
+> 最後更新（CourtListener fetch）：2026-10-01 01:10 UTC
 
 ---
 
@@ -15,7 +15,7 @@
 | Judge Referred | Ona T. Wang |
 | Date Filed | 2024-02-28 |
 | Date Terminated | 2025-06-18 |
-| Date Last Filing | 2026-08-12 |
+| Date Last Filing | 2026-09-24 |
 | Cause | 17:1201 Digital Millennium Copyright Act |
 | Nature of Suit | 820 Copyright |
 | Jury Demand | Plaintiff |
@@ -35,45 +35,75 @@
 
 - ⚠️ Court 可能不一致：dashboard 寫「S.D.N.Y. 1:24-cv-01514 → 2d Cir. 25-1756（案名 In Re: OpenAI, Inc. Copyright Infringement Litigation）」，CourtListener 為「S.D. New York」
 - ⚠️ Judge 可能不一致：dashboard 寫「McMahon（S.D.N.Y. 原審）／2d Cir. panel: Jacobs、Wesley、E. Lee」，CourtListener 為「Sidney H. Stein」
-- ⚠️ Dashboard progress **落後 147 天**：dashboard 最新日期 2026-03-18，CourtListener 最後 entry 2026-08-12——建議查看新近 entries 並補充 progress
+- ⚠️ Dashboard progress **落後 190 天**：dashboard 最新日期 2026-03-18，CourtListener 最後 entry 2026-09-24——建議查看新近 entries 並補充 progress
 
 ## 3. Docket Entries（最新優先，已過濾程序性 entries）
 
-**實質性 entries**：147 筆／**已過濾程序性 entries**：53 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+**實質性 entries**：146 筆／**已過濾程序性 entries**：54 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
 
-### 📄 Doc #448 — 2026-08-12
+### 📄 Doc #455 — 2026-09-24
 
-Memo Endorsement
+Order on Motion for Extension of Time to File
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68290709/455/raw-story-media-inc-v-openai-inc/)
+
+### 📄 Doc #452 — 2026-09-11
+
+NOTICE TO THE PARTIES: It has come to my attention that I own stock in Microsoft Corporation. My ownership of this stock has not affected or impacted any decision in this case. Although my ownership of this stock would ordinarily require recusal, Canon 3C(4) of the Code of Conduct for United States Judges states that a magistrate judge is not disqualified because of "a financial interest in a party" if the magistrate judge "divests the interest that provides the grounds for disqualification," unless the interest could be substantially affected by the outcome of the proceeding. Advisory Opinion No. 69 from the Judicial Conference's Committee on Codes of Conduct explains that a magistrate judge may divest the disqualifying interest under Canon 3C(4) at the beginning of the case, after the judge has spent substantial time on the case, or anytime in between. Based on the issues presented in this case, I have concluded that my interest in Microsoft Corporation could not be substantially aff …(truncated)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68290709/452/raw-story-media-inc-v-openai-inc/)
+
+### 📄 Doc #451 — 2026-09-04
+
+REDACTION to (1700 in 1:25-md-03143-SHS-OTW) MOTION for Summary Judgment . by Daily News LP, The New York Times Company, Ziff Davis Inc.Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Crosby, Ian) (Entered: 09/04/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68290709/451/raw-story-media-inc-v-openai-inc/)
+
+### 📄 Doc #450 — 2026-09-03
+
+STIPULATED OMNIBUS SEALING ORDER FOR SUMMARY JUDGMENT AND DAUBERT BRIEFING: IT IS HEREBY ORDERED that sealing issues relating to summary judgment and Daubert briefing will be handled as follows: 1. The Parties may provisionally seal portions of briefing and exhibits (including expert reports and declarations) relating to Daubert briefing that contain or refer to material produced in this case that is designated Protected Discovery Material. 2. The Parties may provisionally seal exhibits ( or portions thereof) relating to summary judgment briefing (including expert reports and declarations) that contain or refer to material produced in this case that is designated Protected Discovery Material. 3. For the material addressed in paragraphs 1 and 2 above (the "Provisionally Sealed Material"), the Parties are relieved from the requirement set forth in paragraph 5(8) of Judge Stein's Individual Practices to file a motion to seal contemporaneously with the sealed filings, and the Parties and t …(truncated)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68290709/450/raw-story-media-inc-v-openai-inc/)
+
+### 📄 Doc #449 — 2026-09-01
+
+LETTER addressed to Judge Sidney H. Stein from United States of America dated September 1, 2026 re: STATEMENT OF INTEREST OF UNITED STATES OF AMERICA. Document filed by United States of America.Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Weisbuch, Michael) (Entered: 09/01/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68290709/449/raw-story-media-inc-v-openai-inc/)
+
+### 📄 Doc #448 — 2026-08-11
+
+MEMO ENDORSEMENT granting on re: (1383 in 1:23-cv-11195-SHS-OTW, 1162 in 1:23-cv-08292-SHS-OTW, 527 in 1:25-cv-04315-SHS-OTW) MOTION for Rose S. Lee to Withdraw as Attorney . filed by OpenAI, Inc., OpenAI GP LLC, OpenAI Startup Fund GP I LLC, OpenAI LP, OAI Corporation LLC, OpenAI Group PBC, OpenAI OpCo, L.L.C., OpenAI Startup Fund I LP, OpenAI GP, LLC, OpenAI Holdings LLC, OpenAI OpCo LLC, OpenAI, LLC, OpenAI Holdings, LLC, OpenAI Global LLC, OpenAI Inc., OpenAI LLC, OpenAI Startup Fund Management LLC, OpenAI Global, L.L.C., OAI Corporation, OAI Corporation, LLC. ENDORSEMENT: Accordingly, Rose S. Lee requests that her withdrawal as counsel be granted and that she be removed from this actions electronic case filing (ECF) service list. Application GRANTED. SO ORDERED. (Signed by Magistrate Judge Ona T. Wang on 8/11/2026) (jjc) (Entered: 08/12/2026)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/68290709/448/raw-story-media-inc-v-openai-inc/)
 
 ### 📄 Doc #446 — 2026-08-07
 
-Order AND ~Util - Set Deadlines
+ORDER: Anyone wishing to file an amicus brief in connection with the summary judgment motions in this multidistrict litigation shall file a motion requesting leave to file an amicus brief no later than October 16, 2026. The motion requesting such leave shall include the proposed amicus brief, which shall be no more than 6,000 words. SO ORDERED. (Motions due by 10/16/2026.) (Signed by Judge Sidney H. Stein on 8/7/2026) Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al. (jca) (Entered: 08/07/2026)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/68290709/446/raw-story-media-inc-v-openai-inc/)
 
 ### 📄 Doc #447 — 2026-08-07
 
-Order AND ~Util - Set Deadlines
+ORDER: The following word limits shall apply to summary judgment motions in the News Cases: Opening Briefs: 8,750 words for Microsoft; 8,750 words for OpenAI; 17,500 words for News Plaintiffs/ divided as they see fit. Opposition Briefs: 17,500 words for defendants, divided as they see fit; 17,500 words for News Plaintiffs, divided as they see fit. Reply Briefs: 8,750 words for defendants, divided as they see fit; 8,750 words for News Plaintiffs, divided as they see fit. The following limits shall apply to summary judgment motions in the consolidated class cases: Class plaintiffs, OpenAI, and Microsoft may each make only one motion for summary judgment. Class plaintiffs, OpenAI, and Microsoft shall each have 12,500 words for opening and opposition briefs, and 7,500 words each for replies. The following limits and schedule shall apply for Daubert motions in all cases: The Court adopts plaintiffs' proposal for a global word count to cover all Dabuert motions, with all plaintiffs sharing a …(truncated)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/68290709/447/raw-story-media-inc-v-openai-inc/)
 
 ### 📄 Doc #444 — 2026-08-05
 
-Letter
+JOINT LETTER addressed to Judge Sidney H. Stein from Davida Brook, Justin A. Nelson, Lisa T. Simpson & R. James Slaughter dated 08/05/2026 re: word limits for summary judgment briefs on class plaintiffs' claims and limitations on Daubert briefs. Document filed by The New York Times Company.Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Brook, Davida) (Entered: 08/05/2026)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/68290709/444/raw-story-media-inc-v-openai-inc/)
 
 ### 📄 Doc #445 — 2026-08-05
 
-Proposed Stipulation and Order
+PROPOSED STIPULATION AND ORDER. Document filed by The New York Times Company..(Brook, Davida) (Entered: 08/05/2026)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/68290709/445/raw-story-media-inc-v-openai-inc/)
 
 ### 📄 Doc #443 — 2026-07-16
 
-MEMO ENDORSEMENT on MOTION TO WITHDRAW AS COUNSEL OF RECORD  1546 . ENDORSEMENT: Application Granted. SO ORDERED.   (Signed by Magistrate Judge Ona T. Wang on 7/16/2026) Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:24-cv-01514-SHS-OTW, 1:24-cv-01515-SHS-OTW, 1:25-cv-04315-SHS-OTW  (rro)
+MEMO ENDORSEMENT on MOTION TO WITHDRAW AS COUNSEL OF RECORD 1546 . ENDORSEMENT: Application Granted. SO ORDERED. (Signed by Magistrate Judge Ona T. Wang on 7/16/2026) Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:24-cv-01514-SHS-OTW, 1:24-cv-01515-SHS-OTW, 1:25-cv-04315-SHS-OTW (rro) (Entered: 07/17/2026)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/68290709/443/raw-story-media-inc-v-openai-inc/)
 
@@ -815,45 +845,11 @@ ORDER: OpenAI defendants are directed to file an updated memorandum of law in su
 
 Minute Entry for proceedings held before Magistrate Judge Ona T. Wang: Status Conference held on 12/4/2025. Associated Cases: 1:25-md-03143-SHS-OTW et al.(Quinn, Diane)
 
-### 📄 Doc #305 — 2025-12-03
-
-OPINION & ORDER RE: PRODUCTION OF TEXT AND SOCIAL MEDIA MESSAGES (ECF NOS. 390, 391, 432, 528, 529, 584, 586, 642, 643, 665) re: (642 in 1:25-md-03143-SHS-OTW, 471 in 1:24-cv-03285-SHS-OTW) LETTER MOTION to Compel Daily News Plaintiffs to Collect and Search Potentially Responsive Text and Social Media Communications addressed to Magistrate Judge Ona T. Wang from Michelle S. Ybarra, Elana Nightingale Dawson, and Rose S. Lee d filed by OpenAI, Inc., OpenAI, LLC, OpenAI Holdings, LLC, OpenAI LP, OpenAI OpCo, L.L.C., OpenAI Global, L.L.C., OpenAI GP, LLC, OAI Corporation, LLC, (643 in 1:25-md-03143-SHS-OTW, 472 in 1:24-cv-03285-SHS-OTW) LETTER MOTION to Compel Daily News Plaintiffs to Collect and Search Potentially Responsive Text and Social Media Communications addressed to Magistrate Judge Ona T. Wang from Michelle S. Ybarra, Elana Nightingale Dawson, and Rose S. Lee d filed by OpenAI, Inc., OpenAI, LLC, OpenAI Holdings, LLC, OpenAI LP, OpenAI Global, L.L.C., OpenAI OpCo, L.L.C., OpenAI  …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68290709/305/raw-story-media-inc-v-openai-inc/)
-
-### 📄 Doc #300 — 2025-12-02
-
-LETTER MOTION to Seal re ECF Nos. 831, [831-9] addressed to Magistrate Judge Ona T. Wang from Caitlin S. Blythe, Christopher S. Sun, and Allison S. Blanco dated 12/2/2025. Document filed by OpenAI Inc., OpenAI OpCo LLC, OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.L.C., OpenAI Holdings LLC, OpenAI Holdings, LLC, OpenAI LLC, OpenAI LP, OpenAI OpCo LLC(a Delaware limited liability corporation), OpenAI OpCo, L.L.C., OpenAI Startup Fund GP I LLC, OpenAI Startup Fund GP I LLC(a Delaware limited liability company), OpenAI Startup Fund I LP, OpenAI Startup Fund I LP(a Delaware limited partnership), OpenAI Startup Fund Management LLC, OpenAI Startup Fund Management LLC(a Delaware limited liability company), OpenAI, Inc., OpenAI, LLC, OpenAI GP LLC, OpenAI Inc., OpenAI LP(a Delaware limited partnership). (Attachments: # 1 Proposed Order Granting OpenAI Sealing Motion)Filed In Associated Cases: 1:25-md-03143-SHS-OT …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68290709/300/1/raw-story-media-inc-v-openai-inc/)
-
-### 📄 Doc #304 — 2025-12-02
-
-OPINION & ORDER: For the foregoing reasons, OpenAI's motion for reconsideration is DENIED. OpenAI is directed to produce the 20 Million ChatGPT Logs within 7 days of completing the de-identification process. Again, the parties are directed to continue meeting and conferring regarding any additional measures that the parties can take to effectively protect the privacy interests of OpenAI's consumers without further delaying discovery in this case. (Signed by Magistrate Judge Ona T. Wang on 12/2/2025) Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al. (rro) (Entered: 12/03/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68290709/304/raw-story-media-inc-v-openai-inc/)
-
-### 📄 Doc #301 — 2025-12-02
-
-***EX-PARTE***DECLARATION of Maile Yeats-Rowe in Support re: (1045 in 1:23-cv-11195-SHS-OTW, 808 in 1:23-cv-08292-SHS-OTW, 657 in 1:25-cv-03482-SHS-OTW, 240 in 1:25-cv-03297-SHS-OTW, 273 in 1:25-cv-04315-SHS-OTW, 300 in 1:24-cv-01514-SHS-OTW, 327 in 1:24-cv-01515-SHS-OTW, 888 in 1:25-md-03143-SHS-OTW) LETTER MOTION to Seal re ECF Nos. (831), [831-9] addressed to Magistrate Judge Ona T. Wang from Caitlin S. Blythe, Christopher S. Sun, and Allison S. Blanco dated 12/2/2025.. Document filed by OpenAI Inc., OpenAI OpCo LLC, OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.L.C., OpenAI Holdings LLC, OpenAI Holdings, LLC, OpenAI LLC, OpenAI LP, OpenAI OpCo LLC(a Delaware limited liability corporation), OpenAI OpCo, L.L.C., OpenAI Startup Fund GP I LLC, OpenAI Startup Fund GP I LLC(a Delaware limited liability company), OpenAI Startup Fund I LP, OpenAI Startup Fund I LP(a Delaware limited partnership), OpenAI Startu …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68290709/301/raw-story-media-inc-v-openai-inc/)
-
-### 📄 Doc #302 — 2025-12-02
-
-DECLARATION of Maile Yeats-Rowe in Support re: (1045 in 1:23-cv-11195-SHS-OTW, 808 in 1:23-cv-08292-SHS-OTW, 657 in 1:25-cv-03482-SHS-OTW, 240 in 1:25-cv-03297-SHS-OTW, 273 in 1:25-cv-04315-SHS-OTW, 300 in 1:24-cv-01514-SHS-OTW, 327 in 1:24-cv-01515-SHS-OTW, 888 in 1:25-md-03143-SHS-OTW) LETTER MOTION to Seal re ECF Nos. (831), [831-9] addressed to Magistrate Judge Ona T. Wang from Caitlin S. Blythe, Christopher S. Sun, and Allison S. Blanco dated 12/2/2025.. Document filed by OpenAI Inc., OpenAI OpCo LLC, OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.L.C., OpenAI Holdings LLC, OpenAI Holdings, LLC, OpenAI LLC, OpenAI LP, OpenAI OpCo LLC(a Delaware limited liability corporation), OpenAI OpCo, L.L.C., OpenAI Startup Fund GP I LLC, OpenAI Startup Fund GP I LLC(a Delaware limited liability company), OpenAI Startup Fund I LP, OpenAI Startup Fund I LP(a Delaware limited partnership), OpenAI Startup Fund Managem …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68290709/302/raw-story-media-inc-v-openai-inc/)
-
-### 📄 Doc #299 — 2025-11-24
-
-OPINION & ORDER re: (727 in 1:25-md-03143-SHS-OTW) JOINT LETTER MOTION for Discovery Concerning Plaintiffs Rule 30(b)(6) Notices addressed to Magistrate Judge Ona T. Wang from Andrew S. Bruns, Davida Brook, Justin A. Nelson dated November 5, 2025. filed by OpenAI OpCo LLC, OpenAI Inc., OpenAI LP, OpenAI Global LLC, OpenAI LLC, OpenAI Holdings LLC, OpenAI GP, LLC, OAI Corporation, LLC. Accordingly, for the foregoing reasons, OpenAI's request for a protective order is DENIED. The language "high-level" should be stricken from Topic 1, and the remaining disputed language should be retained for Topics 2 - 9. The Clerk of Court is respectfully directed to close ECF Nos. 727 and 747. SO ORDERED. (Signed by Magistrate Judge Ona T. Wang on 11/24/2025) Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al. (rro) (Entered: 11/24/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68290709/299/raw-story-media-inc-v-openai-inc/)
-
 <details>
-<summary>已過濾的 53 筆程序性 entries（點擊展開）</summary>
+<summary>已過濾的 54 筆程序性 entries（點擊展開）</summary>
 
+- **Doc #453** (2026-09-14): NOTICE OF APPEARANCE by Marc Holden Axelbaum on behalf of Benjamin Chess. Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Axelbaum, Marc) (Entered: 09/14/2026)
+- **Doc #454** (2026-09-14): NOTICE OF APPEARANCE by Marc Holden Axelbaum on behalf of Ermira Murati. Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Axelbaum, Marc) (Entered: 09/14/2026)
 - **Doc #—** (2026-07-13): >>>NOTICE REGARDING PRO HAC VICE MOTION. Regarding Document No. (615 in 1:24-cv-04872-SHS-OTW, 43 in 1:26-cv-02097-SHS, 440 in 1:24-cv-01514-SHS-OTW, 306 in 1:25-cv-03483-SHS-OTW, 144 in 1:25-cv-06286…
 - **Doc #440** (2026-07-10): MOTION for Johnathan J. Vaknin to Appear Pro Hac Vice . Filing fee $ 200.00, receipt number NYSDC-33120648. Motion and supporting papers to be reviewed by Clerk's Office staff. Document filed by Micro…
 - **Doc #425** (2026-03-31): ORDER GRANTING MOTION TO ADMIT COUNSEL PRO HAC VICE granting (1042) Motion for David Rosenstein to Appear Pro Hac Vice in case 1:23-cv-08292-SHS-OTW; granting (1246) Motion for David Rosenstein to App…
@@ -906,10 +902,9 @@ OPINION & ORDER re: (727 in 1:25-md-03143-SHS-OTW) JOINT LETTER MOTION for Disco
 - **Doc #325** (2026-01-05): NOTICE OF APPEARANCE by Franco W. Benyamin on behalf of OAI Corporation, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Holdings, LLC, OpenAI LP, OpenAI OpCo LLC, OpenAI Startup Fund GP I LLC, OpenAI Start…
 - **Doc #318** (2025-12-12): ORDER: It has come to the Court's attention that there are multiple outstanding motions in the above-captioned cases that have already been addressed at the Court's periodic discovery status conferenc…
 - **Doc #317** (2025-12-11): ORDER: It has come to the Court's attention that there are multiple outstanding motions in the above-captioned cases that have already been addressed at the Court's periodic discovery status conferenc…
-- **Doc #303** (2025-12-02): CERTIFICATE OF SERVICE of Documents Filed Under Seal at ECF (889), [889-1], and [889-2] served on Plaintiffs in related actions on 12/2/2025. Service was made by Electronic Service. Document filed by …
 
 </details>
 
 ---
 
-*產生時間：2026-09-01 01:10 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-10-01 01:10 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

@@ -1,6 +1,6 @@
 # Case 23 — Dow Jones & Company, Inc. v. Perplexity AI, Inc.
 
-> 最後更新（CourtListener fetch）：2026-09-01 01:15 UTC
+> 最後更新（CourtListener fetch）：2026-10-01 01:15 UTC
 
 ---
 
@@ -13,7 +13,7 @@
 | Court | District Court, S.D. New York (`nysd`) |
 | Judge Assigned | Katherine Polk Failla |
 | Date Filed | 2024-10-21 |
-| Date Last Filing | 2026-08-31 |
+| Date Last Filing | 2026-09-23 |
 | Cause | 17:101 Copyright Infringement |
 | Nature of Suit | 820 Copyright |
 | Jury Demand | Plaintiff |
@@ -33,11 +33,83 @@
 
 - ✅ Court 一致：dashboard 寫「S.D.N.Y.」，CourtListener 為「S.D. New York」
 - ✅ Judge 一致：dashboard 寫「Katherine Polk Failla」，CourtListener 為「Katherine Polk Failla」
-- ℹ️ Dashboard progress 內找不到【YYYY/M/D】格式日期；CourtListener 最後 entry: 2026-08-31
+- ℹ️ Dashboard progress 內找不到【YYYY/M/D】格式日期；CourtListener 最後 entry: 2026-09-23
 
 ## 3. Docket Entries（最新優先，已過濾程序性 entries）
 
 **實質性 entries**：161 筆／**已過濾程序性 entries**：39 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+
+### 📄 Doc #— — 2026-09-23
+
+Notice Regarding Pro Hac Vice Motion
+
+### 📄 Doc #— — 2026-09-15
+
+Telephone Conference
+
+### 📄 Doc #— — 2026-09-15
+
+Minute Entry for proceedings held before Judge Katherine Polk Failla: Telephone Conference held on 9/15/2026. Attorneys Susann Joan Kohlmann and Gianni P. Servodidio representing Plaintiffs present. Attorneys Andrew H. Schapiro, Moon Hee Lee, and Katy Akopjan, representing Defendant present. As set forth on the record, Plaintiffs' motion to compel was resolved as outlined during the conference. (Court Reporter recorded) (tn)
+
+### 📄 Doc #205 — 2026-09-15
+
+THIRD AMENDED CIVIL CASE MANAGEMENT PLAN AND SCHEDULING ORDER: All parties do not consent to conducting all further proceedings before a United States Magistrate Judge, including motions and trial. 28 U.S.C. § 636(c). All document discovery shall be completed no later than May 18, 2026, All fact discovery shall be completed no later than December 10, 2026. All expert discovery, including reports, production of underlyingdocuments, and depositions, shall be completed no later thanMarch 16, 2027. Depositions of fact witnesses shall be completed by December 10,2026. This case is to be tried to a jury. Counsel for the parties have conferred and the present best estimate of the length of trial is 10 to 14 days. Telephone Conference set for 12/14/2026 at 10:00 AM before Judge Katherine Polk Failla. At the scheduled time, the parties are to dial in to the conference by calling (855) 244-8681 and entering access code 2315 780 7370#. Note that the conference line will not be available before th …(truncated)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/69280523/205/dow-jones-company-inc-v-perplexity-ai-inc/)
+
+### 📄 Doc #204 — 2026-09-15
+
+ORDER granting 203 Letter Motion for Extension of Time. Application GRANTED. The Court will submit an endorsement of the Third Amended Civil Case Management Plan under separate cover. The Clerk of Court is directed to terminate the pending motion at docket entry 203. (Signed by Judge Katherine Polk Failla on 9/15/2026) (rro) (Entered: 09/15/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/69280523/204/dow-jones-company-inc-v-perplexity-ai-inc/)
+
+### 📄 Doc #203 — 2026-09-14
+
+JOINT LETTER MOTION for Extension of Time to Complete Depositions addressed to Judge Katherine Polk Failla from Andrew H. Schapiro and Gianni P. Servodidio dated September 14, 2026. Document filed by Perplexity AI, Inc.. (Attachments: # 1 Proposed Order Amended Civil Case Management Plan and Scheduling Order).(Schapiro, Andrew) (Entered: 09/14/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/69280523/203/dow-jones-company-inc-v-perplexity-ai-inc/)
+
+### 📄 Doc #201 — 2026-09-08
+
+ORDER granting 200 Motion to Withdraw as Attorney. Application GRANTED. The Court wishes Mr. Cappuccio the best in his future endeavors. The Clerk of Court is directed to terminate the pending motion at docket entry 200, and to terminate Mr. Cappuccio from the docket. Attorney Paul T Cappuccio terminated. (Signed by Judge Katherine Polk Failla on 9/8/2026) (rro) (Entered: 09/08/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/69280523/201/dow-jones-company-inc-v-perplexity-ai-inc/)
+
+### 📄 Doc #200 — 2026-09-04
+
+MOTION for PAUL T. CAPPUCCIO to Withdraw as Attorney for Plaintiffs. Document filed by Dow Jones & Company, Inc., NYP Holdings, Inc...(Cappuccio, Paul) (Entered: 09/04/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/69280523/200/dow-jones-company-inc-v-perplexity-ai-inc/)
+
+### 📄 Doc #199 — 2026-09-03
+
+***Sealed*** SEALED SCHEDULING ORDER:The Clerk of Court is directed to file this Order under seal, viewable only to the Court and the parties. SO ORDERED. (Signed by Judge Katherine Polk Failla on 9/3/2026) (sgz) (Entered: 09/04/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/69280523/199/dow-jones-company-inc-v-perplexity-ai-inc/)
+
+### 📄 Doc #198 — 2026-09-03
+
+ORDER granting 194 Letter Motion to Seal. Application GRANTED.The Clerk of Court is directed to maintain docket entry 195 under seal, viewable only to the parties and the Court. Further, the Clerk of Court is directed to terminate the pending motion at docket entry 194.. (Signed by Judge Katherine Polk Failla on 9/3/2026) (rro) (Entered: 09/03/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/69280523/198/dow-jones-company-inc-v-perplexity-ai-inc/)
+
+### 📄 Doc #195 — 2026-09-02
+
+***SEALED***LETTER RESPONSE in Opposition to Motion addressed to Judge Katherine Polk Failla from Andrew H. Schapiro dated September 2, 2026 re: 191 LETTER MOTION to Compel Defendant Perplexity AI, Inc. to Produce (Corrected Filing of ECF 188 ) addressed to Judge Katherine Polk Failla from Susan J. Kohlmann dated August 27, 2026. . Document filed by Perplexity AI, Inc.. Motion or Order to File Under Seal: 194 .(Schapiro, Andrew) (Entered: 09/02/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/69280523/195/dow-jones-company-inc-v-perplexity-ai-inc/)
+
+### 📄 Doc #196 — 2026-09-02
+
+REDACTION to 195 Response in Opposition to Motion, by Perplexity AI, Inc..(Schapiro, Andrew) (Entered: 09/02/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/69280523/196/dow-jones-company-inc-v-perplexity-ai-inc/)
+
+### 📄 Doc #194 — 2026-09-02
+
+LETTER MOTION to Seal Letter Response in Opposition to Plaintiffs' Letter Motion to Compel addressed to Judge Katherine Polk Failla from Andrew H. Schapiro dated September 2, 2026. Document filed by Perplexity AI, Inc...(Schapiro, Andrew) (Entered: 09/02/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/69280523/194/dow-jones-company-inc-v-perplexity-ai-inc/)
 
 ### 📄 Doc #193 — 2026-08-31
 
@@ -53,21 +125,21 @@ ORDER: Based on recent correspondence, the Court understands that Plaintiffs' Au
 
 ### 📄 Doc #190 — 2026-08-28
 
-***STRICKEN DOCUMENT. Document number 190 has been stricken from the case record. The document was stricken from this case pursuant to 193 Order . ORDER granting 187 Letter Motion to Seal. Application GRANTED. The Clerk of Court is directed to maintain docket entry 188 under seal, viewable only to the parties and the Court. Further, the Clerk of Court is directed to terminate the pending motion at docket entry 187. SO ORDERED. (Signed by Judge Katherine Polk Failla on 8/28/2026) (vfr) Modified on 8/31/2026 (rro). (Entered: 08/28/2026)
+***STRICKEN DOCUMENT. Document number  190  has been stricken from the case record. The document was stricken from this case pursuant to   193   Order .   ORDER granting  187  Letter Motion to Seal.     Application GRA NTED. The Clerk of Court is directed to maintain docket entry 188 under seal, viewable only to the parties and the Court. Further, the Clerk of Court is directed to terminate the pending motion at docket entry 187. SO ORDERED.    (Signed by Judge Katherine Polk Failla on 8/28/2026)    (vfr) Modified on 8/31/2026 (rro).
 
 [CourtListener 連結](https://www.courtlistener.com/docket/69280523/190/dow-jones-company-inc-v-perplexity-ai-inc/)
+
+### 📄 Doc #189 — 2026-08-27
+
+REDACTION to 188 LETTER MOTION to Compel Defendant Perplexity AI, Inc. to Produce addressed to Judge Katherine Polk Failla from Susan J. Kohlmann dated August 27, 2026. by Dow Jones & Company, Inc., NYP Holdings, Inc. (Attachments: # 1 Exhibit A, # 2 Exhibit B).(Kohlmann, Susan) (Entered: 08/27/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/69280523/189/2/dow-jones-company-inc-v-perplexity-ai-inc/)
 
 ### 📄 Doc #188 — 2026-08-27
 
 ***STRICKEN DOCUMENT. Document number 188 has been stricken from the case record. The document was stricken from this case pursuant to 193 Order . ***SEALED*** LETTER MOTION to Compel Defendant Perplexity AI, Inc. to Produce addressed to Judge Katherine Polk Failla from Susan J. Kohlmann dated August 27, 2026. Document filed by Dow Jones & Company, Inc., NYP Holdings, Inc.. (Attachments: # 1 Exhibit A, # 2 Exhibit B)Motion or Order to File Under Seal: 187 .(Kohlmann, Susan) Modified on 8/31/2026 (rro). (Entered: 08/27/2026)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/69280523/188/dow-jones-company-inc-v-perplexity-ai-inc/)
-
-### 📄 Doc #189 — 2026-08-27
-
-REDACTION to 188 LETTER MOTION to Compel Defendant Perplexity AI, Inc. to Produce addressed to Judge Katherine Polk Failla from Susan J. Kohlmann dated August 27, 2026. by Dow Jones & Company, Inc., NYP Holdings, Inc. (Attachments: # 1 Exhibit A, # 2 Exhibit B).(Kohlmann, Susan) (Entered: 08/27/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/69280523/189/dow-jones-company-inc-v-perplexity-ai-inc/)
 
 ### 📄 Doc #187 — 2026-08-27
 
@@ -155,7 +227,7 @@ ENDORSED LETTER addressed to Judge Katherine Polk Failla from Andrew H. Schapiro
 
 ### 📄 Doc #171 — 2026-07-14
 
-ORDER terminating  140   Letter Motion to Compel; granting  165  Letter Motion to Seal. Application GRANTED. The Clerk of Court is directed to terminate the  pending motion at docket entry 165. The Clerk of Court is further directed to terminate the  pending motion at docket entry 140, which was granted in the Court's July 8, 2026 endorsement (see Dkt. #153), and to terminate the pending motion at docket entry 163, which the Court addressed in its July 10, 2026 endorsement (see Dkt #164). Finally, the Clerk of Court is directed to maintain docket entries 166 and 167 under seal.  (Signed by Judge Katherine Polk Failla on 7/14/2026)    (rro)
+ORDER terminating 140 Letter Motion to Compel; granting 165 Letter Motion to Seal. Application GRANTED. The Clerk of Court is directed to terminate the pending motion at docket entry 165. The Clerk of Court is further directed to terminate the pending motion at docket entry 140, which was granted in the Court's July 8, 2026 endorsement (see Dkt. #153), and to terminate the pending motion at docket entry 163, which the Court addressed in its July 10, 2026 endorsement (see Dkt #164). Finally, the Clerk of Court is directed to maintain docket entries 166 and 167 under seal. (Signed by Judge Katherine Polk Failla on 7/14/2026) (rro) (Entered: 07/14/2026)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/69280523/171/dow-jones-company-inc-v-perplexity-ai-inc/)
 
@@ -889,81 +961,22 @@ TRANSCRIPT of Proceedings re: CONFERNECE held on 1/14/2025 before Judge Katherin
 
 [CourtListener 連結](https://www.courtlistener.com/docket/69280523/44/dow-jones-company-inc-v-perplexity-ai-inc/)
 
-### 📄 Doc #45 — 2025-01-21
-
-NOTICE OF FILING OF OFFICIAL TRANSCRIPT Notice is hereby given that an official transcript of a CONFERNECE proceeding held on 1/14/2025 has been filed by the court reporter/transcriber in the above-captioned matter. The parties have seven (7) calendar days to file with the court a Notice of Intent to Request Redaction of this transcript. If no such Notice is filed, the transcript may be made remotely electronically available to the public without redaction after 90 calendar days....(McGuirk, Kelly) (Entered: 01/21/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/69280523/45/dow-jones-company-inc-v-perplexity-ai-inc/)
-
-### 📄 Doc #43 — 2025-01-21
-
-MEMO ENDORSEMENT on re: 42 Letter, filed by Dow Jones & Company, Inc., NYP Holdings, Inc. ENDORSEMENT: Application GRANTED. The parties shall adhere to the above schedule. ( Amended Pleadings due by 1/28/2025., Motions due by 2/18/2025., Responses due by 3/11/2025, Replies due by 3/25/2025.) (Signed by Judge Katherine Polk Failla on 1/21/2025) (rro) (Entered: 01/21/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/69280523/43/dow-jones-company-inc-v-perplexity-ai-inc/)
-
-### 📄 Doc #42 — 2025-01-16
-
-JOINT LETTER addressed to Judge Katherine Polk Failla from Paul T. Cappuccio and James L. Day dated January 16, 2025 re: Proposed Deadlines for Second Amended Complaint and Motion to Dismiss. Document filed by Dow Jones & Company, Inc., NYP Holdings, Inc...(Cappuccio, Paul) (Entered: 01/16/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/69280523/42/dow-jones-company-inc-v-perplexity-ai-inc/)
-
-### 📄 Doc #— — 2025-01-14
-
-Pretrial Conference - Initial
-
-### 📄 Doc #— — 2025-01-14
-
-Minute Entry for proceedings held before Judge Katherine Polk Failla: Initial Pretrial/Pre-motion Conference held on 1/14/2025. Attorneys Paul T. Cappuccio and Justin M. Romeo representing Plaintiffs present. Attorneys James L. Day and Eugene Y. Mar representing Defendant present. The parties shall file a joint proposed schedule by 1/17/2025. Plaintiffs shall order a copy of today's transcript. (Court Reporter Alena Lynch) (tn)
-
-### 📄 Doc #41 — 2025-01-03
-
-ORDER granting 39 Letter Motion for Conference. The Court is in receipt of Defendant's letter requesting a pre-motion conference regarding its anticipated motion to dismiss or, in the alternative, to transfer this action to the Norther District of California. (Dkt. #39). The Court is also in receipt of Plaintiffs' response in opposition. (Dkt. #40). In light of the parties' submissions, the initial pretrial conference currently scheduled for January 14, 2025, at 2:30 p.m., is hereby converted to a pre-motion conference to address the issues raised by the parties. As before, the conference will be telephonic. The dial-in information is as follows: On January 14, 2025, at 2:30 p.m., the parties shall call (855) 244-8681 and enter access code 2315 780 7370. The Clerk of Court is directed to terminate the pending motion at docket entry 39. Telephone Conference set for 1/14/2025 at 02:30 PM before Judge Katherine Polk Failla. Signed by Judge Katherine Polk Failla on 1/3/2025) (rro) (Entered …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/69280523/41/dow-jones-company-inc-v-perplexity-ai-inc/)
-
-### 📄 Doc #40 — 2025-01-02
-
-LETTER RESPONSE to Motion addressed to Judge Katherine Polk Failla from Paul T. Cappuccio dated January 2, 2025 re: 39 LETTER MOTION for Conference Perplexity's Request for Pre-Motion Conference addressed to Judge Katherine Polk Failla from James Day dated 12/26/24. . Document filed by Dow Jones & Company, Inc., NYP Holdings, Inc...(Cappuccio, Paul) (Entered: 01/02/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/69280523/40/dow-jones-company-inc-v-perplexity-ai-inc/)
-
-### 📄 Doc #39 — 2024-12-26
-
-LETTER MOTION for Conference Perplexity's Request for Pre-Motion Conference addressed to Judge Katherine Polk Failla from James Day dated 12/26/24. Document filed by Perplexity AI, Inc...(Day, James) (Entered: 12/26/2024)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/69280523/39/dow-jones-company-inc-v-perplexity-ai-inc/)
-
-### 📄 Doc #37 — 2024-12-11
-
-AO 121 FORM COPYRIGHT - NOTICE OF SUBMISSION BY ATTORNEY. AO 121 Form Copyright for additional pleading submitted to court for review..(Cappuccio, Paul) (Entered: 12/11/2024)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/69280523/37/dow-jones-company-inc-v-perplexity-ai-inc/)
-
-### 📄 Doc #36 — 2024-12-11
-
-FIRST AMENDED COMPLAINT amending 1 Complaint, against Perplexity AI, Inc. with JURY DEMAND.Document filed by Dow Jones & Company, Inc., NYP Holdings, Inc.. Related document: 1 Complaint,. (Attachments: # 1 Appendix 1: Letter to Perplexity, # 2 Appendix 2: Email from Perplexity, # 3 Appendix 3: WSJ Copyright Registration Nos., # 4 Appendix 4: NYP Copyright Registration Nos., # 5 Appendix 5: NYP June 2024 Article, # 6 Appendix 6: WSJ July 2024 Article, # 7 Appendix 7: NYP August 2024 Article).(Cappuccio, Paul) (Entered: 12/11/2024)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/69280523/36/7/dow-jones-company-inc-v-perplexity-ai-inc/)
-
-### 📄 Doc #34 — 2024-12-05
-
-RULE 7.1 CORPORATE DISCLOSURE STATEMENT. Identifying Other Affiliate Perplexity AI Portugal, Unipessoal LDA, Other Affiliate Perplexity AI Ltd., Other Affiliate Perplexity Management Co., LLC, Other Affiliate Perplexity F7 Fund I LP for Perplexity AI, Inc.. Document filed by Perplexity AI, Inc...(Kao, Michelle) (Entered: 12/05/2024)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/69280523/34/dow-jones-company-inc-v-perplexity-ai-inc/)
-
-### 📄 Doc #27 — 2024-11-22
-
-NOTICE OF INITIAL PRETRIAL CONFERENCE: This case has been assigned to me for all purposes. It is hereby ORDERED that counsel for all parties appear for an initial pretrial conference with the Court on January 14, 2025, at 2:30 p.m. The conference will be held telephonically. At the scheduled date and time, the parties are to call (855) 244-8681 and enter access code 2315 780 7370. SO ORDERED. (Signed by Judge Katherine Polk Failla on 11/22/2024) Initial Conference set for 1/14/2025 at 02:30 PM in telephone conference before Judge Katherine Polk Failla. (ar) (Entered: 11/22/2024)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/69280523/27/dow-jones-company-inc-v-perplexity-ai-inc/)
-
-### 📄 Doc #— — 2024-11-22
-
-Notice Regarding Deficient Motion to Appear Pro Hac Vice
-
 <details>
 <summary>已過濾的 39 筆程序性 entries（點擊展開）</summary>
 
+- **Doc #213** (2026-09-23): ORDER GRANTING MOTION TO ADMIT COUNSEL PRO HAC VICE granting 212 Motion for Brett M. Sandford to Appear Pro Hac Vice. The Clerk of Court is directed to terminate the pending motion at docket entry 212…
+- **Doc #214** (2026-09-23): ORDER GRANTING MOTION TO ADMIT COUNSEL PRO HAC VICE granting 211 Motion for Andrew M. Gass to Appear Pro Hac Vice. The Clerk of Court is directed to terminate the pending motion at docket entry 211.. …
+- **Doc #—** (2026-09-23): >>>NOTICE REGARDING PRO HAC VICE MOTION. Regarding Document No. 212 MOTION for Brett M. Sandford to Appear Pro Hac Vice . Filing fee $ 200.00, receipt number ANYSDC-33480234. Motion and supporting pap…
+- **Doc #—** (2026-09-23): >>>NOTICE REGARDING PRO HAC VICE MOTION. Regarding Document No. 211 MOTION for Andrew M. Gass to Appear Pro Hac Vice . Filing fee $ 200.00, receipt number ANYSDC-33480220. Motion and supporting papers…
+- **Doc #206** (2026-09-22): NOTICE OF APPEARANCE by Joseph Richard Wetzel, Jr on behalf of Perplexity AI, Inc...(Wetzel, Joseph) (Entered: 09/22/2026)
+- **Doc #207** (2026-09-22): NOTICE OF APPEARANCE by Sarang Damle on behalf of Perplexity AI, Inc...(Damle, Sarang) (Entered: 09/22/2026)
+- **Doc #208** (2026-09-22): NOTICE OF APPEARANCE by Margaret Graham on behalf of Perplexity AI, Inc...(Graham, Margaret) (Entered: 09/22/2026)
+- **Doc #209** (2026-09-22): NOTICE OF APPEARANCE by Cory Daniel Struble on behalf of Perplexity AI, Inc...(Struble, Cory) (Entered: 09/22/2026)
+- **Doc #210** (2026-09-22): NOTICE OF APPEARANCE by Julia Rose Miller on behalf of Perplexity AI, Inc...(Miller, Julia) (Entered: 09/22/2026)
+- **Doc #211** (2026-09-22): MOTION for Andrew M. Gass to Appear Pro Hac Vice . Filing fee $ 200.00, receipt number ANYSDC-33480220. Motion and supporting papers to be reviewed by Clerk's Office staff. Document filed by Perplexit…
+- **Doc #212** (2026-09-22): MOTION for Brett M. Sandford to Appear Pro Hac Vice . Filing fee $ 200.00, receipt number ANYSDC-33480234. Motion and supporting papers to be reviewed by Clerk's Office staff. Document filed by Perple…
+- **Doc #202** (2026-09-14): NOTICE OF APPEARANCE by Katy Akopjan on behalf of Perplexity AI, Inc...(Akopjan, Katy) (Entered: 09/14/2026)
+- **Doc #197** (2026-09-03): CERTIFICATE OF SERVICE of ECF No. 195 served on Dow Jones & Company, Inc. and NYP Holdings, Inc. on September 2, 2026. Document filed by Perplexity AI, Inc...(Schapiro, Andrew) (Entered: 09/03/2026)
 - **Doc #192** (2026-08-28): CERTIFICATE OF SERVICE of ECF Nos. 188 and 191 served on Perplexity AI, Inc. on August 27 and August 28, 2026. Document filed by Dow Jones & Company, Inc., NYP Holdings, Inc...(Kohlmann, Susan) (Enter…
 - **Doc #184** (2026-07-31): CERTIFICATE OF SERVICE of ECF No. 182. Document filed by Perplexity AI, Inc...(Schapiro, Andrew) (Entered: 08/01/2026)
 - **Doc #179** (2026-07-29): CERTIFICATE OF SERVICE of 174 Plaintiffs' Letter Motion to Compel Production of Discord Communications on July 28, 2026. Document filed by Dow Jones & Company, Inc., NYP Holdings, Inc...(Kohlmann, Sus…
@@ -990,22 +1003,9 @@ Notice Regarding Deficient Motion to Appear Pro Hac Vice
 - **Doc #57** (2025-05-06): NOTICE OF APPEARANCE by Alison Irene Stein on behalf of Dow Jones & Company, Inc., NYP Holdings, Inc...(Stein, Alison) (Entered: 05/06/2025)
 - **Doc #58** (2025-05-06): NOTICE OF APPEARANCE by Susan Joan Kohlmann on behalf of Dow Jones & Company, Inc., NYP Holdings, Inc...(Kohlmann, Susan) (Entered: 05/06/2025)
 - **Doc #59** (2025-05-06): NOTICE OF APPEARANCE by Gianni P. Servodidio on behalf of Dow Jones & Company, Inc., NYP Holdings, Inc...(Servodidio, Gianni) (Entered: 05/06/2025)
-- **Doc #38** (2024-12-16): CERTIFICATE OF SERVICE of Notice of Initial Pretrial Conference and Individual Court Rules served on Perplexity AI on 12/16/2024. Document filed by Dow Jones & Company, Inc., NYP Holdings, Inc...(Kell…
-- **Doc #35** (2024-12-09): CERTIFICATE OF SERVICE. Document filed by Perplexity AI, Inc...(Gibbs, Cameron) (Entered: 12/09/2024)
-- **Doc #—** (2024-12-04): >>>NOTICE REGARDING PRO HAC VICE MOTION. Regarding Document No. 30 MOTION for James Leon Day, Jr. to Appear Pro Hac Vice . Motion and supporting papers to be reviewed by Clerk's Office staff.. The doc…
-- **Doc #—** (2024-12-04): >>>NOTICE REGARDING PRO HAC VICE MOTION. Regarding Document No. 29 MOTION for Eugene Y. Mar to Appear Pro Hac Vice . Motion and supporting papers to be reviewed by Clerk's Office staff.. The document …
-- **Doc #—** (2024-12-04): >>>NOTICE REGARDING PRO HAC VICE MOTION. Regarding Document No. 28 MOTION for Michelle Kao to Appear Pro Hac Vice . Motion and supporting papers to be reviewed by Clerk's Office staff.. The document h…
-- **Doc #33** (2024-12-04): ORDER GRANTING MOTION FOR ADMISSION PRO HAC VICE granting 30 Motion for James L. Day to Appear Pro Hac Vice. The Clerk of Court is directed to terminate the pending motion at docket entry 30. (Signed …
-- **Doc #32** (2024-12-04): ORDER GRANTING MOTION FOR ADMISSION PRO HAC VICE granting 29 Motion for Eugene Y. Mar to Appear Pro Hac Vice. The Clerk of Court is directed to terminate the pending motion at docket entry 29. (Signed…
-- **Doc #31** (2024-12-04): ORDER GRANTING MOTION FOR ADMISSION PRO HAC VICE granting 28 Motion for Michelle Kao to Appear Pro Hac Vice. The Clerk of Court is directed to terminate the pending motion at docket entry 28. (Signed …
-- **Doc #30** (2024-12-03): MOTION for James Leon Day, Jr. to Appear Pro Hac Vice . Motion and supporting papers to be reviewed by Clerk's Office staff. Document filed by Perplexity AI, Inc.. (Attachments: # 1 Affidavit in Suppo…
-- **Doc #29** (2024-12-03): MOTION for Eugene Y. Mar to Appear Pro Hac Vice . Motion and supporting papers to be reviewed by Clerk's Office staff. Document filed by Perplexity AI, Inc.. (Attachments: # 1 Affidavit in Support of …
-- **Doc #28** (2024-12-03): MOTION for Michelle Kao to Appear Pro Hac Vice . Motion and supporting papers to be reviewed by Clerk's Office staff. Document filed by Perplexity AI, Inc.. (Attachments: # 1 Affidavit in Support of M…
-- **Doc #—** (2024-11-22): >>>NOTICE REGARDING DEFICIENT MOTION TO APPEAR PRO HAC VICE. Notice to RE-FILE Document No. 26 MOTION for Eugene Y. Mar to Appear Pro Hac Vice . Filing fee $ 200.00, receipt number ANYSDC-30222064. Mo…
-- **Doc #—** (2024-11-22): >>>NOTICE REGARDING DEFICIENT MOTION TO APPEAR PRO HAC VICE. Notice to RE-FILE Document No. 25 MOTION for James Leon Day to Appear Pro Hac Vice . Filing fee $ 200.00, receipt number ANYSDC-30221846. M…
 
 </details>
 
 ---
 
-*產生時間：2026-09-01 01:15 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-10-01 01:15 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

@@ -1,6 +1,6 @@
 # Case 21 — Vacker v. ElevenLabs, Inc.
 
-> 最後更新（CourtListener fetch）：2026-09-01 01:14 UTC
+> 最後更新（CourtListener fetch）：2026-10-01 01:14 UTC
 
 ---
 
@@ -443,4 +443,4 @@ Notice, Consent and Referral forms re: U.S. Magistrate Judge jurisdiction. (jfm)
 
 ---
 
-*產生時間：2026-09-01 01:14 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-10-01 01:14 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

@@ -1,6 +1,6 @@
 # Case 20 — Lehrman v. Lovo, Inc.
 
-> 最後更新（CourtListener fetch）：2026-09-01 01:14 UTC
+> 最後更新（CourtListener fetch）：2026-10-01 01:14 UTC
 
 ---
 
@@ -579,4 +579,4 @@ COMPLAINT against Lovo, Inc.. (Filing Fee $ 405.00, Receipt Number ANYSDC-293627
 
 ---
 
-*產生時間：2026-09-01 01:14 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-10-01 01:14 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

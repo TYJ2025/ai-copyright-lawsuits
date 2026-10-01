@@ -1,6 +1,6 @@
 # Case 37 — Justice v. Uncharted Labs, Inc.
 
-> 最後更新（CourtListener fetch）：2026-09-01 01:18 UTC
+> 最後更新（CourtListener fetch）：2026-10-01 01:21 UTC
 
 ---
 
@@ -13,7 +13,7 @@
 | Court | District Court, S.D. New York (`nysd`) |
 | Judge Assigned | Alvin K. Hellerstein |
 | Date Filed | 2025-06-16 |
-| Date Last Filing | 2026-08-17 |
+| Date Last Filing | 2026-09-17 |
 | Cause | 17:101 Copyright Infringement |
 | Nature of Suit | 820 Copyright |
 | Jury Demand | Plaintiff |
@@ -33,15 +33,33 @@
 
 - ✅ Court 一致：dashboard 寫「S.D.N.Y.」，CourtListener 為「S.D. New York」
 - ✅ Judge 一致：dashboard 寫「Alvin K. Hellerstein」，CourtListener 為「Alvin K. Hellerstein」
-- ✅ Dashboard progress 同步：dashboard 最新日期 2026-08-17，CourtListener 最後 entry 2026-08-17（dashboard 不落後）
+- ⚠️ Dashboard progress **落後 31 天**：dashboard 最新日期 2026-08-17，CourtListener 最後 entry 2026-09-17——建議查看新近 entries 並補充 progress
 
 ## 3. Docket Entries（最新優先，已過濾程序性 entries）
 
-**實質性 entries**：85 筆／**已過濾程序性 entries**：48 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+**實質性 entries**：88 筆／**已過濾程序性 entries**：48 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+
+### 📄 Doc #84 — 2026-09-17
+
+STIPULATION AND ORDER: IT IS HEREBY STIPULATED AND AGREED as follows: 1. Pursuant to the Court's August 17, 2026 Order and Opinion [Dkt. 81], the deadline for Plaintiffs, Anthony Justice, 5th Wheel Records, Inc., My Heartland Publishing, LLC ("Plaintiffs") to file a motion for leave to amend Count 4 of Plaintiffs Second Amended Complaint ("Count 4"), together with a proposed amended complaint, is currently set for September 16, 2026. 2. The parties are currently engaged in discussions that may narrow or resolve the issues in this action. In light of which, the parties believe that a brief extension would promote judicial economy and potentially avoid unnecessary motion practice while the parties continue to explore a resolution of this action. Therefore, the Parties believe that good cause exists to extend the deadline for seeking leave to amend Count 4 by thirty (30) days, to October 16, 2026. 3. If Plaintiffs elect not to seek leave to amend Count 4, Plaintiffs shall inform Defendant …(truncated)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70549282/84/justice-v-uncharted-labs-inc/)
+
+### 📄 Doc #83 — 2026-09-17
+
+NOTICE of Errata re: 82 Proposed Stipulation and Order. Document filed by 5th Wheel Records, Inc., Anthony Justice, My Heartland Publishing, LLC. (Attachments: # 1 Exhibit A).(Delgado, Krystle) (Entered: 09/17/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70549282/83/justice-v-uncharted-labs-inc/)
+
+### 📄 Doc #82 — 2026-09-16
+
+PROPOSED STIPULATION AND ORDER. Document filed by 5th Wheel Records, Inc., Anthony Justice, My Heartland Publishing, LLC..(Delgado, Krystle) (Entered: 09/16/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70549282/82/justice-v-uncharted-labs-inc/)
 
 ### 📄 Doc #81 — 2026-08-17
 
-ORDER AND OPINION DENYING PLAINTIFFS' MOTION FOR RECONSIDERATION re: 58 MOTION for Reconsideration re; 52 Memorandum & Opinion . filed by 5th Wheel Records, Inc., My Heartland Publishing, LLC, Anthony Justice. For the reasons stated above, Plaintiffs' motion for reconsideration is denied. As noted, should Plaintiffs wish to amend their complaint on the basis outlined in their motion for reconsideration, they may file a motion to do so within 30 days of the issuance of this Order. The parties will appear at a telephonic status conference to be held on October 16, 2026, at 10:00 a.m. Dial-in information will be made available in advance. The Clerk shall terminate ECF No. 58. SO ORDERED. (Signed by Judge Alvin K. Hellerstein on 8/17/2026) (jjc) (Entered: 08/17/2026)
+ORDER AND OPINION DENYING PLAINTIFFS' MOTION FOR RECONSIDERATION   re:  58     MOTION   for Reconsideration  re;  52   Memorandum & Opinion    . filed by   5th Wheel Records, Inc.,   My Heartland Publishing, LLC,   Anthony Justice. For th e reasons stated above, Plaintiffs' motion for reconsideration is denied. As noted, should Plaintiffs wish to amend their complaint on the basis outlined in their motion for reconsideration, they may file a motion to do so within 30 days of the  issuance of this Order. The parties will appear at a telephonic status conference to be held on October 16, 2026, at 10:00 a.m. Dial-in information will be made available in advance. The Clerk shall terminate ECF No. 58. SO ORDERED.   (Signed by Judge Alvin K. Hellerstein on 8/17/2026)   (jjc)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/70549282/81/justice-v-uncharted-labs-inc/)
 
@@ -51,7 +69,7 @@ Notice Regarding Pro Hac Vice Motion
 
 ### 📄 Doc #78 — 2026-07-07
 
-ORDER REGULATING PROCEEDINGS re:  58     MOTION   for Reconsideration  re;  52   Memorandum &  Opinion. Set Hearings.    . filed by   5th Wheel Records, Inc.,   My  Heartland Publishing, LLC,   Anthony Justice.  1. The conference previously   scheduled for July 17, 2026, is canceled pending resolution of Plaintiffs'  motion for reconsideration. See ECF No. 58. 2. The Clerk shall terminate ECF No. 73. SO ORDERED.     (Signed by Judge Alvin K. Hellerstein on 7/7/2026) Motions terminated:    73     LETTER MOTION  for Extension of Time to File Answer     addressed to Judge Alvin K. Hellerstein from Andrew Schapiro dated July 2, 2026. filed by   Uncharted Labs, Inc..  (ar)
+ORDER REGULATING PROCEEDINGS re: 58 MOTION for Reconsideration re; 52 Memorandum & Opinion. Set Hearings. . filed by 5th Wheel Records, Inc., My Heartland Publishing, LLC, Anthony Justice. 1. The conference previously scheduled for July 17, 2026, is canceled pending resolution of Plaintiffs' motion for reconsideration. See ECF No. 58. 2. The Clerk shall terminate ECF No. 73. SO ORDERED. (Signed by Judge Alvin K. Hellerstein on 7/7/2026) Motions terminated: 73 LETTER MOTION for Extension of Time to File Answer addressed to Judge Alvin K. Hellerstein from Andrew Schapiro dated July 2, 2026. filed by Uncharted Labs, Inc.. (ar) (Entered: 07/07/2026)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/70549282/78/justice-v-uncharted-labs-inc/)
 
@@ -175,7 +193,7 @@ MOTION for Joshua Sanford to Withdraw as Attorney . Document filed by 5th Wheel 
 
 ### 📄 Doc #52 — 2026-05-21
 
-ORDER AND OPINION GRANTING IN PART AND DENYING IN PART DEFENDANT'S MOTION TO DISMISS re:  41  MOTION to Dismiss Counts Two, Three, and Four of the First Amended Complaint Pursuant to Federal Rules of Civil Procedure 12(b)(6). filed by Uncharted  Labs, Inc. For the reasons stated above, Defendant's motion to dismiss Plaintiffs' Second Cause of Action is granted and Plaintiffs are given leave to amend their Complaint as to this Cause of Action within 30 days of the issuance of this o pinion; Defendant's motion to dismiss Plaintiffs' Third Cause of Action is denied; and Defendant's motion to dismiss Plaintiffs' Fourth Cause of Action is granted. The parties will appear at a telephonic status conference to be he ld on July 17, 2026, at 10:00 a.m. Dial-in information will be made available in advance. The Clerk shall terminate ECF No. 41. SO ORDERED.   (Signed by Judge Alvin K. Hellerstein on 5/21/2026) (Status Conference set for 7/17/2026 at 10:00 AM before Judge Alvin K. Hellerstein.)  (a …(truncated)
+ORDER AND OPINION GRANTING IN PART AND DENYING IN PART DEFENDANT'S MOTION TO DISMISS re: 41 MOTION to Dismiss Counts Two, Three, and Four of the First Amended Complaint Pursuant to Federal Rules of Civil Procedure 12(b)(6). filed by Uncharted Labs, Inc. For the reasons stated above, Defendant's motion to dismiss Plaintiffs' Second Cause of Action is granted and Plaintiffs are given leave to amend their Complaint as to this Cause of Action within 30 days of the issuance of this opinion; Defendant's motion to dismiss Plaintiffs' Third Cause of Action is denied; and Defendant's motion to dismiss Plaintiffs' Fourth Cause of Action is granted. The parties will appear at a telephonic status conference to be held on July 17, 2026, at 10:00 a.m. Dial-in information will be made available in advance. The Clerk shall terminate ECF No. 41. SO ORDERED. (Signed by Judge Alvin K. Hellerstein on 5/21/2026) (Status Conference set for 7/17/2026 at 10:00 AM before Judge Alvin K. Hellerstein.) (ar) (Ente …(truncated)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/70549282/52/justice-v-uncharted-labs-inc/)
 
@@ -531,4 +549,4 @@ FILING ERROR - DEFICIENT PLEADING - SUMMONS REQUEST PDF ERROR - REQUEST FOR ISSU
 
 ---
 
-*產生時間：2026-09-01 01:18 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-10-01 01:21 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

@@ -1,6 +1,6 @@
 # Case 89 — Getty Images (US), Inc. v. Stability AI, Ltd.
 
-> 最後更新（CourtListener fetch）：2026-09-01 01:34 UTC
+> 最後更新（CourtListener fetch）：2026-10-01 01:38 UTC
 
 ---
 
@@ -14,7 +14,7 @@
 | Judge Assigned | Trina L. Thompson |
 | Judge Referred | Sallie Kim |
 | Date Filed | 2025-08-14 |
-| Date Last Filing | 2026-08-27 |
+| Date Last Filing | 2026-09-04 |
 | Cause | 17:501 Copyright Infringement |
 | Nature of Suit | 820 Copyright |
 | Jury Demand | Plaintiff |
@@ -28,17 +28,17 @@
 > - Court=W.D. Wash.
 > - Judge=Trina L. Thompson
 > - Status=active
-> - Progress=2026 年 3 月提起（2:26-cv-01031 W.D. Wash.）。早期階段。 【2026/6/9】Microsoft 向華盛頓西區聯邦地院聲請 12(b)(6) 駁回，主張原告未陳述微軟曾自其 3D 模型移除著作權管理資訊（§1202(b)）或散布原告受保護作品之必要事實要件。起訴狀核心主張為被告於使用 Objaverse-XL（含原告以 Creative Commons 授權公開之 3D 模型）訓練生成式 AI 過程中系統性剝離作者署名等 CMI。為 Beaulier 系列 4 件子訴訟首件被告實體動議。
+> - Progress=2026 年 3 月提起（2:26-cv-01031 W.D. Wash.）。早期階段。 【2026/6/9】Microsoft 向華盛頓西區聯邦地院聲請 12(b)(6) 駁回，主張原告未陳述微軟曾自其 3D 模型移除著作權管理資訊（§1202(b)）或散布原告受保護作品之必要事實要件。起訴狀核心主張為被告於使用 Objaverse-XL（含原告以 Creative Commons 授權公開之 3D 模型）訓練生成式 AI 過程中系統性剝離作者署名等 CMI。為 Beaulier 系列 4 件子訴訟首件被告實體動議。 【2026/9/28】雙方就聯合案件管理報告中「類別認證應否先於實體審理審查」之時程安排意見不一
 
 **自動比對結果：**
 
 - ⚠️ Court 可能不一致：dashboard 寫「W.D. Wash.」，CourtListener 為「N.D. California」
 - ✅ Judge 一致：dashboard 寫「Trina L. Thompson」，CourtListener 為「Trina L. Thompson」
-- ⚠️ Dashboard progress **落後 79 天**：dashboard 最新日期 2026-06-09，CourtListener 最後 entry 2026-08-27——建議查看新近 entries 並補充 progress
+- ✅ Dashboard progress 同步：dashboard 最新日期 2026-09-28，CourtListener 最後 entry 2026-09-04（dashboard 不落後）
 
 ## 3. Docket Entries（最新優先，已過濾程序性 entries）
 
-**實質性 entries**：75 筆／**已過濾程序性 entries**：18 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+**實質性 entries**：75 筆／**已過濾程序性 entries**：20 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
 
 ### 📄 Doc #76 — 2026-08-27
 
@@ -457,8 +457,10 @@ COMPLAINT against Stability AI US Services Corporation, Stability AI, Inc., Stab
 [CourtListener 連結](https://www.courtlistener.com/docket/71112094/1/3/getty-images-us-inc-v-stability-ai-ltd/)
 
 <details>
-<summary>已過濾的 18 筆程序性 entries（點擊展開）</summary>
+<summary>已過濾的 20 筆程序性 entries（點擊展開）</summary>
 
+- **Doc #78** (2026-09-04): Order GRANTING 77 Motion for Pro Hac Vice as to Kathryn C. Thornton. Signed by Judge Trina L Thompson on 9/4/2026. (rfm, COURT USER) (Filed on 9/4/2026) (Entered: 09/04/2026)
+- **Doc #77** (2026-09-04): MOTION for leave to appear in Pro Hac Vice ( Filing fee $ 328, receipt number ACANDC-22426203.) filed by Stability AI US Services Corporation, Stability AI, Inc., Stability AI, Ltd.. (Thornton, Kathry…
 - **Doc #46** (2026-04-02): Order GRANTING 45 Motion for Pro Hac Vice as to Evan Gourvitz. Signed by Judge Trina L Thompson on 4/2/2026. (rfm, COURT USER) (Filed on 4/2/2026) (Entered: 04/02/2026)
 - **Doc #45** (2026-04-01): MOTION for leave to appear in Pro Hac Vice ( Filing fee $ 328, receipt number ACANDC-21824626.) filed by Stability AI US Services Corporation, Stability AI, Inc., Stability AI, Ltd.. (Attachments: # 1…
 - **Doc #42** (2026-01-16): NOTICE of Appearance filed by Jackson Lane on behalf of Stability AI US Services Corporation, Stability AI, Inc., Stability AI, Ltd. (Lane, Jackson) (Filed on 1/16/2026) (Entered: 01/16/2026)
@@ -482,4 +484,4 @@ COMPLAINT against Stability AI US Services Corporation, Stability AI, Inc., Stab
 
 ---
 
-*產生時間：2026-09-01 01:34 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-10-01 01:38 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

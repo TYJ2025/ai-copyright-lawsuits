@@ -1,6 +1,6 @@
 # Case 100 — Reddit, Inc. v. SerpApi LLC
 
-> 最後更新（CourtListener fetch）：2026-09-01 01:41 UTC
+> 最後更新（CourtListener fetch）：2026-10-01 01:48 UTC
 
 ---
 
@@ -13,10 +13,10 @@
 | Court | District Court, S.D. New York (`nysd`) |
 | Judge Assigned | Paul A. Engelmayer |
 | Date Filed | 2025-10-22 |
-| Date Last Filing | 2026-08-28 |
+| Date Last Filing | 2026-09-30 |
 | Cause | 17:1201 Digital Millennium Copyright Act |
 | Nature of Suit | 820 Copyright |
-| Jury Demand | Plaintiff |
+| Jury Demand | Both |
 | CourtListener ID | `71720563` |
 | CourtListener URL | <https://www.courtlistener.com/docket/71720563/reddit-inc-v-serpapi-llc/> |
 
@@ -33,29 +33,231 @@
 
 - ✅ Court 一致：dashboard 寫「S.D.N.Y.」，CourtListener 為「S.D. New York」
 - ✅ Judge 一致：dashboard 寫「Paul A. Engelmayer」，CourtListener 為「Paul A. Engelmayer」
-- ℹ️ Dashboard progress 內找不到【YYYY/M/D】格式日期；CourtListener 最後 entry: 2026-08-28
+- ℹ️ Dashboard progress 內找不到【YYYY/M/D】格式日期；CourtListener 最後 entry: 2026-09-30
 
 ## 3. Docket Entries（最新優先，已過濾程序性 entries）
 
-**實質性 entries**：104 筆／**已過濾程序性 entries**：58 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+**實質性 entries**：142 筆／**已過濾程序性 entries**：58 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+
+### 📄 Doc #154 — 2026-09-30
+
+Extension of Time to File Response/Reply
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71720563/154/reddit-inc-v-serpapi-llc/)
+
+### 📄 Doc #155 — 2026-09-30
+
+Letter
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71720563/155/reddit-inc-v-serpapi-llc/)
+
+### 📄 Doc #153 — 2026-09-30
+
+Response in Opposition to Motion
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71720563/153/reddit-inc-v-serpapi-llc/)
+
+### 📄 Doc #— — 2026-09-28
+
+Notice Regarding Deficient Motion to Appear Pro Hac Vice
+
+### 📄 Doc #148 — 2026-09-25
+
+Seal
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71720563/148/reddit-inc-v-serpapi-llc/)
+
+### 📄 Doc #149 — 2026-09-25
+
+Declaration in Support of Motion
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71720563/149/reddit-inc-v-serpapi-llc/)
+
+### 📄 Doc #150 — 2026-09-25
+
+Memorandum of Law (non-motion)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71720563/150/reddit-inc-v-serpapi-llc/)
+
+### 📄 Doc #151 — 2026-09-25
+
+Declaration (non-motion)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71720563/151/reddit-inc-v-serpapi-llc/)
+
+### 📄 Doc #152 — 2026-09-25
+
+Certificate of Service Other
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71720563/152/reddit-inc-v-serpapi-llc/)
+
+### 📄 Doc #147 — 2026-09-25
+
+Exhibit A - SerpApi's Motion to Stay Discovery
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71720563/147/1/reddit-inc-v-serpapi-llc/)
+
+### 📄 Doc #144 — 2026-09-25
+
+Dismiss
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71720563/144/reddit-inc-v-serpapi-llc/)
+
+### 📄 Doc #145 — 2026-09-25
+
+Memorandum of Law in Support of Motion
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71720563/145/reddit-inc-v-serpapi-llc/)
+
+### 📄 Doc #146 — 2026-09-25
+
+Letter
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71720563/146/reddit-inc-v-serpapi-llc/)
+
+### 📄 Doc #143 — 2026-09-25
+
+Appear Pro Hac Vice
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71720563/143/reddit-inc-v-serpapi-llc/)
+
+### 📄 Doc #140 — 2026-09-24
+
+Letter
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71720563/140/reddit-inc-v-serpapi-llc/)
+
+### 📄 Doc #141 — 2026-09-24
+
+Proposed Case Management Plan
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71720563/141/reddit-inc-v-serpapi-llc/)
+
+### 📄 Doc #142 — 2026-09-24
+
+Letter
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71720563/142/reddit-inc-v-serpapi-llc/)
+
+### 📄 Doc #139 — 2026-09-23
+
+Letter
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71720563/139/reddit-inc-v-serpapi-llc/)
+
+### 📄 Doc #138 — 2026-09-21
+
+ORDER: In a joint letter dated September 18, 2026, plaintiff Reddit, Inc. and non-party Proskauer Rose LLP, propose a briefing schedule with respect to the representation issue presented by the motion of defendant Perplexity AI, Inc. to retain Prosk auer. See Dkt. 13 7. The Court approves the briefing schedule proposed in that letter. In a motion filed September 15, 2026, Perplexity's current counsel, the law firm of Keker, Van Nest, & Peters LLP, moves to withdraw, in anticipation of the p ossibility that Proskauer will appear as successor counsel. See Dkt. 132; see also Dkt. 133 (memorandum of law in support). The Court will reserve ruling on that motion pending a determination whether Proskauer will be permitted to appear. Neither Pe rplexity nor Keker indicates that there has been a breakdown in the attorney-client relationship, so as to impede Keker's continuing representation of Perplexity pending that determination. In the interest of maintaining forward progress in this  case,  …(truncated)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71720563/138/reddit-inc-v-serpapi-llc/)
+
+### 📄 Doc #136 — 2026-09-18
+
+Notice of Appearance
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71720563/136/reddit-inc-v-serpapi-llc/)
+
+### 📄 Doc #137 — 2026-09-18
+
+Letter
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71720563/137/reddit-inc-v-serpapi-llc/)
+
+### 📄 Doc #132 — 2026-09-15
+
+MOTION to Withdraw Keker, Van Nest & Peters LLP as Counsel of Record. Document filed by Perplexity AI, Inc...(MacMichael, Eric) (Entered: 09/15/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71720563/132/reddit-inc-v-serpapi-llc/)
+
+### 📄 Doc #133 — 2026-09-15
+
+MEMORANDUM OF LAW in Support re: 132 MOTION to Withdraw Keker, Van Nest & Peters LLP as Counsel of Record. . Document filed by Perplexity AI, Inc...(MacMichael, Eric) (Entered: 09/15/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71720563/133/reddit-inc-v-serpapi-llc/)
+
+### 📄 Doc #134 — 2026-09-15
+
+DECLARATION of Eric H. MacMichael in Support re: 132 MOTION to Withdraw Keker, Van Nest & Peters LLP as Counsel of Record.. Document filed by Perplexity AI, Inc...(MacMichael, Eric) (Entered: 09/15/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71720563/134/reddit-inc-v-serpapi-llc/)
+
+### 📄 Doc #135 — 2026-09-15
+
+LETTER MOTION for Extension of Time of Initial Pretrial Conference addressed to Judge Paul A. Engelmayer from Eric H. MacMichael dated September 15, 2026. Document filed by Perplexity AI, Inc...(MacMichael, Eric) (Entered: 09/15/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71720563/135/reddit-inc-v-serpapi-llc/)
+
+### 📄 Doc #131 — 2026-09-11
+
+ORDER  re:  127   Memorandum of Law in Support of Motion filed by   Perplexity AI, Inc.. For avoidance of doubt, the initial pretrial conference scheduled for October 1, 2026-at which the  Court will put in place a case management plan -  remains as  scheduled, as does the deadline for submissions in advance of that conference.  Perplexity is one party among five in this case;  Perplexity is currently represented by able counsel, whose withdrawal it does not seek;  and the representation issue that has arisen as to Perplexity, which may take time to resolve, is not a reason to defer that important conference. SO ORDERED. ( Replies due by 10/2/2026.,  Responses due by 9/25/2026)  (Signed by Judge Paul A. Engelmayer on 9/11/2026)   (jjc)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71720563/131/reddit-inc-v-serpapi-llc/)
+
+### 📄 Doc #126 — 2026-09-11
+
+MOTION to Authorize Proskauer Rose LLP to Appear as Counsel for Defendant Perplexity AI, Inc. Document filed by Perplexity AI, Inc...(Read, Nathaniel) (Entered: 09/11/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71720563/126/reddit-inc-v-serpapi-llc/)
+
+### 📄 Doc #127 — 2026-09-11
+
+MEMORANDUM OF LAW in Support re: 126 MOTION to Authorize Proskauer Rose LLP to Appear as Counsel for Defendant Perplexity AI, Inc. . Document filed by Perplexity AI, Inc...(Read, Nathaniel) (Entered: 09/11/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71720563/127/reddit-inc-v-serpapi-llc/)
+
+### 📄 Doc #128 — 2026-09-11
+
+DECLARATION of Nathan Barksdale in Support re: 126 MOTION to Authorize Proskauer Rose LLP to Appear as Counsel for Defendant Perplexity AI, Inc.. Document filed by Perplexity AI, Inc...(Read, Nathaniel) (Entered: 09/11/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71720563/128/reddit-inc-v-serpapi-llc/)
+
+### 📄 Doc #129 — 2026-09-11
+
+DECLARATION of Colin R. Kass in Support re: 126 MOTION to Authorize Proskauer Rose LLP to Appear as Counsel for Defendant Perplexity AI, Inc.. Document filed by Perplexity AI, Inc...(Read, Nathaniel) (Entered: 09/11/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71720563/129/reddit-inc-v-serpapi-llc/)
+
+### 📄 Doc #130 — 2026-09-11
+
+LETTER MOTION for Oral Argument on Motion for An Order Authorizing Proskauer Rose LLP to Appear as Counsel addressed to Judge Paul A. Engelmayer from Nathaniel P. T. Read dated September 11, 2026. Document filed by Perplexity AI, Inc...(Read, Nathaniel) (Entered: 09/11/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71720563/130/reddit-inc-v-serpapi-llc/)
+
+### 📄 Doc #124 — 2026-09-08
+
+REPLY MEMORANDUM OF LAW in Support re: 96 MOTION to Dismiss . (Correcting ECF No. 123 Docket Entry Title). Document filed by Oxylabs UAB. (Attachments: # 1 Affidavit Declaration of Winston Liaw, # 2 Exhibit 5, # 3 Exhibit 6, # 4 Exhibit 7, # 5 Exhibit 8, # 6 Exhibit 9, # 7 Exhibit 10, # 8 Exhibit 11).(Cassidy, Kate) (Entered: 09/08/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71720563/124/8/reddit-inc-v-serpapi-llc/)
+
+### 📄 Doc #123 — 2026-09-04
+
+FILING ERROR - WRONG EVENT TYPE SELECTED FROM MENU - (SEE DOCUMENT#124) - MEMORANDUM OF LAW in Opposition re: 96 MOTION to Dismiss . . Document filed by Oxylabs UAB. (Attachments: # 1 Affidavit Declaration of Winton Liaw In Support of Defendant's Memorandum of Law in Opposition to Defendant OxyLabs UAB's Motion to Dismiss, # 2 Exhibit 5, # 3 Exhibit 6, # 4 Exhibit 7, # 5 Exhibit 8, # 6 Exhibit 9, # 7 Exhibit 10, # 8 Exhibit 11).(Cassidy, Kate) Modified on 9/8/2026 (lb). (Entered: 09/04/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71720563/123/8/reddit-inc-v-serpapi-llc/)
+
+### 📄 Doc #121 — 2026-09-03
+
+ORDER granting 120 Letter Motion for Extension of Time. GRANTED. SO ORDERED. (Signed by Judge Paul A. Engelmayer on 9/3/2026) (jca) (Entered: 09/03/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71720563/121/reddit-inc-v-serpapi-llc/)
+
+### 📄 Doc #120 — 2026-09-03
+
+LETTER MOTION for Extension of Time addressed to Judge Paul A. Engelmayer from William A. Maher dated September 3, 2026. Document filed by Reddit, Inc...(Maher, William) (Entered: 09/03/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71720563/120/reddit-inc-v-serpapi-llc/)
 
 ### 📄 Doc #119 — 2026-08-28
 
-Exhibit 4 - Google Reddit Agreement
+ANSWER to 55 Amended Complaint, with JURY DEMAND., COUNTERCLAIM against Reddit, Inc.. Document filed by SerpApi LLC. (Attachments: # 1 Exhibit 1 - Reddit User Agreement, # 2 Exhibit 2 - Reddit Public Content Policy, # 3 Exhibit 3 - Reddit Privacy Policy, # 4 Exhibit 4 - Google Reddit Agreement).(Homrig, Jeffrey) (Entered: 08/28/2026)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/71720563/119/4/reddit-inc-v-serpapi-llc/)
 
 ### 📄 Doc #118 — 2026-08-28
 
-Answer to Amended Complaint
+ANSWER to 55 Amended Complaint,. Document filed by Perplexity AI, Inc...(Rothstein, Benjamin) (Entered: 08/28/2026)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/71720563/118/reddit-inc-v-serpapi-llc/)
-
-### 📄 Doc #117 — 2026-08-26
-
-Order on Motion to Appear Pro Hac Vice
-
-[CourtListener 連結](https://www.courtlistener.com/docket/71720563/117/reddit-inc-v-serpapi-llc/)
 
 ### 📄 Doc #— — 2026-08-25
 
@@ -129,7 +331,7 @@ ORDER: Accordingly, the Court orders as follows: Reddit's opposition to OxyLabs'
 
 ### 📄 Doc #104 — 2026-07-31
 
-OPINION & ORDER re: 61 MOTION to Dismiss Defendant Perplexity AI, Inc.s Notice of Motion to Dismiss the First Amended Complaint. filed by Perplexity AI, Inc. For the foregoing reasons, the Court predominantly denies the motions to dismiss. It sustains the claims (1) brought against both defendants under section 1201(a)(l) (A) of the DMCA, (2) against SerpApi under 1201(a)(2) of the DMCA, and (3) against both defendants for civil conspiracy under New York law. The Court, however, dismisses the claim under section 120l(b) of the DMCA against SerpApi, and the state-law unjust emichment and unfair competition claims brought against both defendants. The Clerk of Court is respectfully directed to terminate the motions pending at dockets 5 8 and 61. An order will issue shortly as to next steps in this litigation. (Signed by Judge Paul A. Engelmayer on 7/31/2026) (rro) (Entered: 07/31/2026)
+OPINION & ORDER   re:  61     MOTION  to Dismiss Defendant Perplexity AI,  Inc.s Notice of Motion to Dismiss the First Amended Complaint. filed by    Perplexity AI, Inc. For the foregoing reasons, the Court predominantly denies  the motions to  dismiss. It sustains the claims (1) brought against both defendants under section 1201(a)(l) (A) of the DMCA, (2) against SerpApi under 1201(a)(2) of the DMCA, and (3) against both  defendants for civil conspiracy under New York law. The Court, howe ver, dismisses the claim  under section 120l(b) of the DMCA against SerpApi, and the state-law unjust emichment  and unfair competition claims brought against both defendants. The Clerk of Court is respectfully directed to terminate the motions pending at  dockets 5 8 and 61. An order will issue shortly as to next steps in this litigation.      (Signed by Judge Paul A. Engelmayer on 7/31/2026)    (rro)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/71720563/104/reddit-inc-v-serpapi-llc/)
 
@@ -155,9 +357,13 @@ Oral Argument
 
 ### 📄 Doc #100 — 2026-07-27
 
-MEMO ENDORSEMENT with respect to 96 Motion to Dismiss. ENDORSEMENT: The Court has received Oxylabs's motion to dismiss. Because there is substantial overlap between the arguments made by Oxylabs and those made by SerpApi and Perplexity in their earlier filed and pending motions to dismiss, the Court anticipates that resolution of those motions will enable a more efficient resolution of Oxylabs's motion. Accordingly, the Court stays briefing on Oxylabs's motion pending resolution of its co-defendants' motions to dismiss. Upon the issuance of a decision as to those motions, the Court will issue an order as to next steps with respect to Oxylabs's motion. (Signed by Judge Paul A. Engelmayer on 7/27/2026) (rro) (Entered: 07/27/2026)
+MEMO ENDORSEMENT with respect to  96   Motion to Dismiss. ENDORSEMENT: The Court has  received Oxylabs's motion to dismiss. Because there is substantial overlap between the arguments made by Oxylabs and those made by SerpApi and Perplexity in t heir earlier filed and pending motions to dismiss, the Court anticipates that resolution of those motions will enable a more efficient resolution of Oxylabs's motion. Accordingly, the Court stays briefing on Oxylabs's motion pending resolution of its co-defendants' motions to dismiss. Upon the issuance of a decision as to those motions, the Court will issue an order as to next steps with respect to Oxylabs's motion.  (Signed by Judge Paul A. Engelmayer on 7/27/2026)    (rro)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/71720563/100/reddit-inc-v-serpapi-llc/)
+
+### 📄 Doc #— — 2026-07-23
+
+Oral Argument
 
 ### 📄 Doc #— — 2026-07-23
 
@@ -216,6 +422,10 @@ LETTER addressed to Judge Paul A. Engelmayer from Kate E. Cassidy dated July 20,
 ### 📄 Doc #— — 2026-07-14
 
 Notice Regarding Pro Hac Vice Motion
+
+### 📄 Doc #— — 2026-07-02
+
+Set/Reset Deadlines
 
 ### 📄 Doc #— — 2026-07-02
 
@@ -287,6 +497,10 @@ MEMORANDUM OF LAW in Opposition re: 58 MOTION to Dismiss Plaintiff's First Amend
 
 ### 📄 Doc #— — 2026-04-16
 
+Set/Reset Hearings
+
+### 📄 Doc #— — 2026-04-16
+
 Set/Reset Hearings: Oral Argument set for 6/30/2026 at 10:00 AM in Courtroom 1305, 40 Centre Street, New York, NY 10007 before Judge Paul A. Engelmayer. (tg)
 
 ### 📄 Doc #67 — 2026-04-16
@@ -294,6 +508,14 @@ Set/Reset Hearings: Oral Argument set for 6/30/2026 at 10:00 AM in Courtroom 130
 ORDER granting 51 Letter Motion for Oral Argument. GRANTED. The Court schedules oral argument for Tuesday, June 30, 2026 at 10 a.m. in Courtroom 1305 of the Thurgood Marshall United States Courthouse, 40 Foley Square, New York, New York 10007. The Clerk of Court is respectfully directed to terminate the motion pending at docket 51. SO ORDERED. (Signed by Judge Paul A. Engelmayer on 4/16/2026) (tg) (Entered: 04/16/2026)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/71720563/67/reddit-inc-v-serpapi-llc/)
+
+### 📄 Doc #— — 2026-04-01
+
+Transmission to Attorney Services/Help Desk
+
+### 📄 Doc #— — 2026-03-23
+
+Set/Reset Deadlines
 
 ### 📄 Doc #— — 2026-03-23
 
@@ -346,6 +568,10 @@ MEMORANDUM OF LAW in Support re: 58 MOTION to Dismiss Plaintiff's First Amended 
 LETTER addressed to Judge Paul A. Engelmayer from Jessica L. Falk dated May 13, 2026 re: Motion to Dismiss Oral Argument Request. Document filed by SerpApi LLC..(Falk, Jessica) (Entered: 03/13/2026)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/71720563/60/reddit-inc-v-serpapi-llc/)
+
+### 📄 Doc #— — 2026-02-13
+
+Set/Reset Deadlines
 
 ### 📄 Doc #— — 2026-02-13
 
@@ -591,21 +817,12 @@ ELECTRONIC SUMMONS ISSUED as to Perplexity AI, Inc.. (vf) (Entered: 10/23/2025)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/71720563/11/reddit-inc-v-serpapi-llc/)
 
-### 📄 Doc #3 — 2025-10-22
-
-RULE 7.1 CORPORATE DISCLOSURE STATEMENT. No Corporate Parent. Document filed by Reddit, Inc...(Maher, William) (Entered: 10/22/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/71720563/3/reddit-inc-v-serpapi-llc/)
-
-### 📄 Doc #1 — 2025-10-22
-
-COMPLAINT against AWMProxy, Oxylabs UAB, Perplexity AI, Inc., SerpApi LLC. (Filing Fee $ 405.00, Receipt Number ANYSDC-31884453)Document filed by Reddit, Inc.. (Attachments: # 1 Exhibit A - SerpApi Webpage).(Maher, William) (Entered: 10/22/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/71720563/1/1/reddit-inc-v-serpapi-llc/)
-
 <details>
 <summary>已過濾的 58 筆程序性 entries（點擊展開）</summary>
 
+- **Doc #125** (2026-09-11): NOTICE OF APPEARANCE by Nathaniel P. T. Read on behalf of Perplexity AI, Inc...(Read, Nathaniel) (Entered: 09/11/2026)
+- **Doc #122** (2026-09-04): NOTICE OF APPEARANCE by Winston Liaw on behalf of Oxylabs UAB..(Liaw, Winston) (Entered: 09/04/2026)
+- **Doc #117** (2026-08-26): ORDER GRANTING MOTION FOR ADMISSION PRO HAC VICE granting 116 Motion to Appear Pro Hac Vice. The Mot ion for Admission Pro Hac Vice of Winston Liaw, in the above-captioned action is GRANTED. SO ORDERE…
 - **Doc #—** (2026-08-25): >>>NOTICE REGARDING PRO HAC VICE MOTION. Regarding Document No. 116 MOTION for Winston Liaw to Appear Pro Hac Vice . Filing fee $ 200.00, receipt number ANYSDC-33336321. Motion and supporting papers t…
 - **Doc #116** (2026-08-25): MOTION for Winston Liaw to Appear Pro Hac Vice . Filing fee $ 200.00, receipt number ANYSDC-33336321. Motion and supporting papers to be reviewed by Clerk's Office staff. Document filed by Oxylabs UAB…
 - **Doc #103** (2026-07-29): NOTICE OF APPEARANCE by Jeffrey M. Fisher on behalf of Oxylabs UAB..(Fisher, Jeffrey) (Entered: 07/29/2026)
@@ -661,12 +878,9 @@ COMPLAINT against AWMProxy, Oxylabs UAB, Perplexity AI, Inc., SerpApi LLC. (Fili
 - **Doc #12** (2025-10-30): NOTICE OF APPEARANCE by Justin Zimnoch on behalf of Reddit, Inc...(Zimnoch, Justin) (Entered: 10/30/2025)
 - **Doc #4** (2025-10-22): REQUEST FOR ISSUANCE OF SUMMONS as to SerpApi LLC, re: 1 Complaint. Document filed by Reddit, Inc...(Maher, William) (Entered: 10/22/2025)
 - **Doc #5** (2025-10-22): REQUEST FOR ISSUANCE OF SUMMONS as to Oxylabs UAB, re: 1 Complaint. Document filed by Reddit, Inc...(Maher, William) (Entered: 10/22/2025)
-- **Doc #6** (2025-10-22): REQUEST FOR ISSUANCE OF SUMMONS as to AWMProxy, re: 1 Complaint. Document filed by Reddit, Inc...(Maher, William) (Entered: 10/22/2025)
-- **Doc #7** (2025-10-22): REQUEST FOR ISSUANCE OF SUMMONS as to Perplexity AI, Inc., re: 1 Complaint. Document filed by Reddit, Inc...(Maher, William) (Entered: 10/22/2025)
-- **Doc #2** (2025-10-22): CIVIL COVER SHEET filed..(Maher, William) (Entered: 10/22/2025)
 
 </details>
 
 ---
 
-*產生時間：2026-09-01 01:41 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-10-01 01:48 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

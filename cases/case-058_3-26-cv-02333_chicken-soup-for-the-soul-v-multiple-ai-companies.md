@@ -1,6 +1,6 @@
 # Case 58 — Chicken Soup for the Soul, LLC v. Meta Platforms Inc.
 
-> 最後更新（CourtListener fetch）：2026-09-01 01:25 UTC
+> 最後更新（CourtListener fetch）：2026-10-01 01:28 UTC
 
 ---
 
@@ -14,7 +14,7 @@
 | Judge Assigned | Vince Chhabria |
 | Judge Referred | Thomas S. Hixson |
 | Date Filed | 2026-03-17 |
-| Date Last Filing | 2026-08-25 |
+| Date Last Filing | 2026-09-30 |
 | Cause | 17:501 Copyright Infringement |
 | Nature of Suit | 820 Copyright |
 | Jury Demand | Plaintiff |
@@ -34,11 +34,201 @@
 
 - ✅ Court 一致：dashboard 寫「N.D. Cal.」，CourtListener 為「N.D. California」
 - ✅ Judge 一致：dashboard 寫「Vince Chhabria」，CourtListener 為「Vince Chhabria」
-- ⚠️ Dashboard progress **落後 161 天**：dashboard 最新日期 2026-03-17，CourtListener 最後 entry 2026-08-25——建議查看新近 entries 並補充 progress
+- ⚠️ Dashboard progress **落後 197 天**：dashboard 最新日期 2026-03-17，CourtListener 最後 entry 2026-09-30——建議查看新近 entries 並補充 progress
 
 ## 3. Docket Entries（最新優先，已過濾程序性 entries）
 
-**實質性 entries**：106 筆／**已過濾程序性 entries**：44 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+**實質性 entries**：139 筆／**已過濾程序性 entries**：49 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+
+### 📄 Doc #153 — 2026-09-30
+
+Discovery Order re: (117 in 3:26-cv-04053-VC) Joint Discovery Letter Brief, (139 in 3:26-cv-02333-VC) Joint Discovery Letter Brief, (264 in 3:26-cv-03725-VC). Signed by Judge Thomas S. Hixson on 9/30/2026. (tshlc1, COURT STAFF) (Filed on 9/30/2026) (Entered: 09/30/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72505713/153/chicken-soup-for-the-soul-llc-v-meta-platforms-inc/)
+
+### 📄 Doc #152 — 2026-09-29
+
+TRANSCRIPT ORDER for proceedings held on 09/09/2026 before Judge Vince Chhabria for Court Reporter Stephen Franklin (Franklin, Stephen) (Filed on 9/29/2026) (Entered: 09/29/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72505713/152/chicken-soup-for-the-soul-llc-v-meta-platforms-inc/)
+
+### 📄 Doc #151 — 2026-09-25
+
+NOTICE by Meta Platforms Inc. of Transfer Order (Attachments: # 1 Exhibit A - SDNY Order Granting Motion to Transfer)(Smith, Kyle) (Filed on 9/25/2026) (Entered: 09/25/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72505713/151/1/chicken-soup-for-the-soul-llc-v-meta-platforms-inc/)
+
+### 📄 Doc #— — 2026-09-25
+
+Case Management Conference - Further AND Order on Motion for Miscellaneous Relief AND Order on Motion for Miscellaneous Relief AND Order on Motion for Miscellaneous Relief AND ~Util - Set Deadlines/Hearings
+
+### 📄 Doc #150 — 2026-09-25
+
+Minute Entry for proceedings held before Judge Vince Chhabria: Further Case Management Conference held via Zoom on 9/25/2026 in case 3:23-cv-03417-VC; 3:25-cv-09579-VC; 3:26-cv-02333-VC; 3:26-cv-03725-VC; :26-cv-04053-VC; 3:26-cv-06793-VC. Court granted request to continue the deadline for Meta to file a motion to compel in Cognella . Motion due by 10/2/2026. Court denied Motion for Relief from Nondispositive Pretrial Order of Magistrate Judge for the reasons as stated on the record. Court put parties on notice about potentially advancing the May 2027 trial date by a few weeks. Motion to Appoint Counsel for Putative Class in Sullivan to be continued to the 2:00PM Zoom calendar on 10/29/2026. In Sullivan, parties to meet and confer and file a stipulated proposed schedule re a hearing on both summary judgment and class certification in spring of 2028. Case Management Statement due by 10/27/2026. Further Case Management Conference set for 10/29/2026 at 02:00 PM by Videoconference Only. To …(truncated)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72505713/150/chicken-soup-for-the-soul-llc-v-meta-platforms-inc/)
+
+### 📄 Doc #149 — 2026-09-24
+
+Letter from Kyle N. Smith - Meta's Status Update RE: Meta's Motion to Compel Plaintiff's Responses to Meta's Second Set of Interrogatories (Dkt. 137). (Smith, Kyle) (Filed on 9/24/2026) (Entered: 09/24/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72505713/149/chicken-soup-for-the-soul-llc-v-meta-platforms-inc/)
+
+### 📄 Doc #147 — 2026-09-23
+
+NOTICE by Chicken Soup for the Soul, LLC re 145 MOTION FOR RELIEF FROM NONDISPOSITIVE PRETRIAL ORDER OF MAGISTRATE JUDGE (Notice of Supplemental Authority and Evidence) (Attachments: # 1 Exhibit A)(Brannen, Elizabeth) (Filed on 9/23/2026) (Entered: 09/23/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72505713/147/1/chicken-soup-for-the-soul-llc-v-meta-platforms-inc/)
+
+### 📄 Doc #148 — 2026-09-23
+
+JOINT CASE MANAGEMENT STATEMENT filed by Meta Platforms Inc.. (Morton, Phillip) (Filed on 9/23/2026) (Entered: 09/23/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72505713/148/chicken-soup-for-the-soul-llc-v-meta-platforms-inc/)
+
+### 📄 Doc #146 — 2026-09-18
+
+ORDER by Judge Thomas S. Hixson granting (134) Administrative Motion for Alternative Service in case 3:26-cv-02333-VC; granting (261) Administrative Motion in case 3:26-cv-03725-VC; granting (111) Administrative Motion in case 3:26-cv-04053-VC. (tshlc1, COURT STAFF) (Filed on 9/18/2026) (Entered: 09/18/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72505713/146/chicken-soup-for-the-soul-llc-v-meta-platforms-inc/)
+
+### 📄 Doc #145 — 2026-09-17
+
+MOTION FOR RELIEF FROM NONDISPOSITIVE PRETRIAL ORDER OF MAGISTRATE JUDGE filed by Chicken Soup for the Soul, LLC. Responses due by 10/1/2026. Replies due by 10/8/2026. (Attachments: # 1 Proposed Order)(Roche, Kyle) (Filed on 9/17/2026) (Entered: 09/17/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72505713/145/1/chicken-soup-for-the-soul-llc-v-meta-platforms-inc/)
+
+### 📄 Doc #144 — 2026-09-16
+
+Order by Judge Vince Chhabria granting 142 Stipulation TO EXTEND EXPERT REPORT DEADLINES. Opening Reports due by 10/2/2026. Rebuttal Reports due by 10/30/2026. Reply Expert Reports due by 11/13/2026. Close of Expert Discovery due by 12/2/2026. Summary Judgment Brief 1 (Plaintiff's Opening Brief) due by 12/16/2026. Summary Judgment Brief 2 (Defendant's Opening Brief & Opposition) due by 1/12/2027. (bxs, COURT STAFF) (Filed on 9/16/2026) (Entered: 09/16/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72505713/144/chicken-soup-for-the-soul-llc-v-meta-platforms-inc/)
+
+### 📄 Doc #143 — 2026-09-16
+
+Order by Judge Vince Chhabria granting Stipulation Extending Time to Present Privilege Log Disputes. Associated Cases: 3:25-cv-09579-VC, 3:26-cv-02333-VC, 3:26-cv-03725-VC, 3:26-cv-04053-VC. (bxs, COURT STAFF) (Filed on 9/16/2026) (Entered: 09/16/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72505713/143/chicken-soup-for-the-soul-llc-v-meta-platforms-inc/)
+
+### 📄 Doc #142 — 2026-09-14
+
+STIPULATION WITH PROPOSED ORDER TO EXTEND EXPERT REPORT DEADLINES filed by Meta Platforms Inc.. (Morton, Phillip) (Filed on 9/14/2026) (Entered: 09/14/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72505713/142/chicken-soup-for-the-soul-llc-v-meta-platforms-inc/)
+
+### 📄 Doc #141 — 2026-09-14
+
+Transcript of Proceedings held on 09/09/2026, before Judge Vince Chhabria. Court Reporter/Transcriber Stephen W. Franklin, telephone number (561)313-8439. Per General Order No. 59 and Judicial Conference policy, this transcript may be viewed only at the Clerk's Office public terminal or may be purchased through the Court Reporter/Transcriber until the deadline for the Release of Transcript Restriction. After that date it may be obtained through PACER. Any Notice of Intent to Request Redaction, if required, is due no later than 5 business days from date of this filing. (Re (149 in 3:25-cv-09579-VC) Transcript Order, (148 in 3:25-cv-09579-VC) Transcript Order ) Release of Transcript Restriction set for 12/14/2026. (Franklin, Stephen) (Filed on 9/14/2026) (Entered: 09/14/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72505713/141/chicken-soup-for-the-soul-llc-v-meta-platforms-inc/)
+
+### 📄 Doc #140 — 2026-09-12
+
+ERRATA re 138 Joint Discovery Letter Brief Re: Plaintiffs' Motion to Compel Defendant's Interrogatory Responses (Conformed Exhibits F, G, H, J, K, L) by Chicken Soup for the Soul, LLC. (Attachments: # 1 Declaration in Support of Notice of Errata, # 2 Exhibit 1, # 3 Exhibit F, # 4 Exhibit G, # 5 Exhibit H, # 6 Exhibit J, # 7 Exhibit K, # 8 Exhibit L)(Brannen, Elizabeth) (Filed on 9/12/2026) (Entered: 09/12/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72505713/140/8/chicken-soup-for-the-soul-llc-v-meta-platforms-inc/)
+
+### 📄 Doc #139 — 2026-09-12
+
+Joint Discovery Letter Brief re: Metas Motion to Compel Plaintiffs Responses to Requests for Admission filed by Meta Platforms Inc.. (Attachments: # 1 Exhibit A Chicken Soup's Responses and Objections to Meta's First Set of Requests for Admission (served 8.31.2026), # 2 Exhibit CSS Exhibit A 2026-09-04 Chicken Soup - Meta's 2nd Supp. Resp to 1st Set of Rogs PDF (002))(Smith, Kyle) (Filed on 9/12/2026) (Entered: 09/12/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72505713/139/2/chicken-soup-for-the-soul-llc-v-meta-platforms-inc/)
+
+### 📄 Doc #138 — 2026-09-11
+
+Joint Discovery Letter Brief Re: Plaintiffs' Motion to Compel Defendant's Interrogatory Responses filed by Chicken Soup for the Soul, LLC. (Attachments: # 1 Exhibit A, # 2 Exhibit B, # 3 Exhibit C, # 4 Exhibit D, # 5 Exhibit E, # 6 Exhibit I, # 7 Exhibit M, # 8 Exhibit N, # 9 Exhibit O, # 10 Exhibit P)(Regan, Christopher) (Filed on 9/11/2026) (Entered: 09/11/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72505713/138/10/chicken-soup-for-the-soul-llc-v-meta-platforms-inc/)
+
+### 📄 Doc #134 — 2026-09-11
+
+ADMINISTRATIVE MOTION TO AUTHORIZE ALTERNATIVE SERVICE OF SUBPOENAS AND COMPEL COMPLIANCE filed by Chicken Soup for the Soul, LLC. Responses due by 9/15/2026. (Attachments: # 1 Exhibit A, # 2 Exhibit B, # 3 Exhibit C, # 4 Exhibit D, # 5 Exhibit E, # 6 Proposed Order)(Roche, Kyle) (Filed on 9/11/2026) (Entered: 09/11/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72505713/134/6/chicken-soup-for-the-soul-llc-v-meta-platforms-inc/)
+
+### 📄 Doc #136 — 2026-09-11
+
+Joint Discovery Letter Brief RE: Metas Motion to Compel Plaintiffs Interrogatory Responses filed by Meta Platforms Inc.. (Attachments: # 1 Exhibit A Chicken Soup's Responses and Objections to Meta's First Set of Interrogatories, # 2 Exhibit B Chicken Soup's Supplemental Responses and Objections (served 8.18.2026))(Smith, Kyle) (Filed on 9/11/2026) (Entered: 09/11/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72505713/136/2/chicken-soup-for-the-soul-llc-v-meta-platforms-inc/)
+
+### 📄 Doc #137 — 2026-09-11
+
+Joint Discovery Letter Brief RE: Metas Motion to Compel Plaintiffs Responses to Metas Second Set of Interrogatories filed by Meta Platforms Inc.. (Attachments: # 1 Exhibit A Chicken Soup's Responses and Objections to Meta's Second Set of Interrogatories (served 8.31.2026))(Smith, Kyle) (Filed on 9/11/2026) (Entered: 09/11/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72505713/137/1/chicken-soup-for-the-soul-llc-v-meta-platforms-inc/)
+
+### 📄 Doc #135 — 2026-09-11
+
+STIPULATION WITH PROPOSED ORDER EXTENDING TIME TO PRESENT PRIVILEGE LOG DISPUTES filed by Meta Platforms Inc.. (Stameshkin, Elizabeth) (Filed on 9/11/2026) (Entered: 09/11/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72505713/135/chicken-soup-for-the-soul-llc-v-meta-platforms-inc/)
+
+### 📄 Doc #— — 2026-09-11
+
+Case Management Conference - Further AND ~Util - Set Deadlines/Hearings
+
+### 📄 Doc #132 — 2026-09-10
+
+Discovery Order re (100 in 3:26-cv-04053-VC) Status Report, (127 in 3:26-cv-02333-VC) Status Report, (255 in 3:26-cv-03725-VC) Status Report, (142 in 3:25-cv-09579-VC) Status Report, (103 in 3:26-cv-04053-VC) Status Report, (250 in 3:26-cv-03725-VC) Status Report, (124 in 3:26-cv-02333-VC) Status Report, (143 in 3:25-cv-09579-VC) Status Report (tshlc1, COURT STAFF) (Filed on 9/10/2026) (Entered: 09/10/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72505713/132/chicken-soup-for-the-soul-llc-v-meta-platforms-inc/)
+
+### 📄 Doc #131 — 2026-09-10
+
+Discovery Order re: (126 in 3:26-cv-02333-VC), (252 in 3:26-cv-03725-VC), (251 in 3:26-cv-03725-VC), (102 in 3:26-cv-04053-VC), (101 in 3:26-cv-04053-VC), (125 in 3:26-cv-02333-VC). Signed by Judge Thomas S. Hixson on 9/10/2026. (tshlc1, COURT STAFF) (Filed on 9/10/2026) (Entered: 09/10/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72505713/131/chicken-soup-for-the-soul-llc-v-meta-platforms-inc/)
+
+### 📄 Doc #133 — 2026-09-09
+
+Minute Entry for proceedings held before Judge Vince Chhabria: Further Case Management Conference held via Zoom on 9/9/2026. Discussion held regarding issues teed up in the joint case management statements. Discussion held regarding whether to proceed with summary judgment or class certification first in Sullivan . Court provided In the next case management statement, parties to provide concrete examples of how effort would be duplicated by proceeding in two phases as opposed to one. Court will make a final decision at the next case management conference. Case Management Statement due by 9/23/2026. Further Case Management Conference set for 9/25/2026 at 09:00 AM by Videoconference Only. Total Time in Court: 1 hour. Court Reporter: Stephen Franklin. Plaintiff Attorney: Karen Dunn, Mark Weinstein, Phil Morton, Kyle Smith, Meryl Governsk. Defendant Attorney: Margaux Poueymirou, David Simons (Kadrey) Lee Linderman, Harlye Carlton, Moez Kaba (Entrepreneur) Kyle Roche, Elizabeth Brannen (Chi …(truncated)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72505713/133/chicken-soup-for-the-soul-llc-v-meta-platforms-inc/)
+
+### 📄 Doc #130 — 2026-09-09
+
+CASE MANAGEMENT STATEMENT filed by Chicken Soup for the Soul, LLC. (Brannen, Elizabeth) (Filed on 9/9/2026) (Entered: 09/09/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72505713/130/chicken-soup-for-the-soul-llc-v-meta-platforms-inc/)
+
+### 📄 Doc #129 — 2026-09-08
+
+CASE MANAGEMENT STATEMENT filed by Meta Platforms Inc.. (Stameshkin, Elizabeth) (Filed on 9/8/2026) (Entered: 09/08/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72505713/129/chicken-soup-for-the-soul-llc-v-meta-platforms-inc/)
+
+### 📄 Doc #— — 2026-09-08
+
+Notice of Appearance/Substitution/Change/Withdrawal of Attorney
+
+### 📄 Doc #127 — 2026-09-02
+
+STATUS REPORT by Chicken Soup for the Soul, LLC. (Attachments: # 1 Exhibit A, # 2 Exhibit B, # 3 Exhibit C)(Roche, Kyle) (Filed on 9/2/2026) (Entered: 09/02/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72505713/127/3/chicken-soup-for-the-soul-llc-v-meta-platforms-inc/)
+
+### 📄 Doc #125 — 2026-09-02
+
+Joint Discovery Letter Brief regarding Plaintiffs motion to compel OpenAI filed by Chicken Soup for the Soul, LLC. (Roche, Kyle) (Filed on 9/2/2026) (Entered: 09/02/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72505713/125/chicken-soup-for-the-soul-llc-v-meta-platforms-inc/)
+
+### 📄 Doc #126 — 2026-09-02
+
+Joint Discovery Letter Brief regarding Plaintiffs motion to compel Anthropic filed by Chicken Soup for the Soul, LLC. (Roche, Kyle) (Filed on 9/2/2026) (Entered: 09/02/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72505713/126/chicken-soup-for-the-soul-llc-v-meta-platforms-inc/)
+
+### 📄 Doc #124 — 2026-09-02
+
+STATUS REPORT by Meta Platforms Inc.. (Dunn, Karen) (Filed on 9/2/2026) (Entered: 09/02/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72505713/124/chicken-soup-for-the-soul-llc-v-meta-platforms-inc/)
+
+### 📄 Doc #— — 2026-09-01
+
+Notice of Appearance/Substitution/Change/Withdrawal of Attorney
 
 ### 📄 Doc #119 — 2026-08-25
 
@@ -615,8 +805,13 @@ COMPLAINT against All Defendants ( Filing fee $ 405, receipt number ACANDC-21766
 [CourtListener 連結](https://www.courtlistener.com/docket/72505713/1/1/chicken-soup-for-the-soul-llc-v-anthropic-pbc/)
 
 <details>
-<summary>已過濾的 44 筆程序性 entries（點擊展開）</summary>
+<summary>已過濾的 49 筆程序性 entries（點擊展開）</summary>
 
+- **Doc #128** (2026-09-08): NOTICE of Appearance filed by Elizabeth Lee Stameshkin on behalf of Meta Platforms Inc. (Stameshkin, Elizabeth) (Filed on 9/8/2026) (Entered: 09/08/2026)
+- **Doc #123** (2026-09-01): NOTICE of Appearance filed by Amir Jabbari on behalf of Anthropic PBC (Jabbari, Amir) (Filed on 9/1/2026) (Entered: 09/01/2026)
+- **Doc #122** (2026-09-01): NOTICE of Appearance filed by Paven Malhotra on behalf of OpenAI OpCo, LLC (Malhotra, Paven) (Filed on 9/1/2026) (Entered: 09/01/2026)
+- **Doc #121** (2026-09-01): NOTICE of Appearance filed by Andy M. LeGolvan on behalf of Anthropic PBC (LeGolvan, Andy) (Filed on 9/1/2026) (Entered: 09/01/2026)
+- **Doc #120** (2026-09-01): NOTICE of Appearance filed by Emily Lu Wang on behalf of OpenAI OpCo, LLC (Wang, Emily) (Filed on 9/1/2026) (Entered: 09/01/2026)
 - **Doc #117** (2026-08-20): Order by Judge Vince Chhabria granting 116 Motion for Pro Hac Vice as to Isha Agarwal. (bxs, COURT STAFF) (Filed on 8/20/2026) (Entered: 08/20/2026)
 - **Doc #116** (2026-08-20): MOTION for leave to appear in Pro Hac Vice ( Filing fee $ 328, receipt number ACANDC-22363743.) filed by Meta Platforms Inc.. (Agarwal, Isha) (Filed on 8/20/2026) (Entered: 08/20/2026)
 - **Doc #112** (2026-08-19): MOTION for leave to appear in Pro Hac Vice ( Filing fee $ 328, receipt number ACANDC-22354861.) filed by Chicken Soup for the Soul, LLC. (Attachments: # 1 Certificate of Good Standing)(Regan, Christop…
@@ -666,4 +861,4 @@ COMPLAINT against All Defendants ( Filing fee $ 405, receipt number ACANDC-21766
 
 ---
 
-*產生時間：2026-09-01 01:25 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-10-01 01:28 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

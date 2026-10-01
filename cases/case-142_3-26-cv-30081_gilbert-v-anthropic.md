@@ -1,6 +1,6 @@
 # Case 142 — Gilbert v. Anthropic PBC
 
-> 最後更新（CourtListener fetch）：2026-09-01 01:43 UTC
+> 最後更新（CourtListener fetch）：2026-10-01 01:50 UTC
 
 ---
 
@@ -14,7 +14,7 @@
 | Judge Assigned | Mark G. Mastroianni |
 | Judge Referred | Christopher L. Morgan |
 | Date Filed | 2026-05-26 |
-| Date Last Filing | 2026-08-27 |
+| Date Last Filing | 2026-09-28 |
 | Cause | 17:501 Copyright Infringement |
 | Nature of Suit | 820 Copyright |
 | Jury Demand | Both |
@@ -28,21 +28,85 @@
 > - Court=D. Mass. (3:26-cv-30081)
 > - Judge=Christopher L. Morgan
 > - Status=active
-> - Progress=2026/5/26 立案。原告同日聲請 pro se 電子提交許可。案件在 D. Mass.（而非多數 Anthropic 訴訟集中之 N.D. Cal.），管轄與移轉動向值得觀察。
+> - Progress=2026/5/26 立案。原告同日聲請 pro se 電子提交許可。案件在 D. Mass.（而非多數 Anthropic 訴訟集中之 N.D. Cal.），管轄與移轉動向值得觀察。 【2026/9/11】Anthropic 具狀反對 Gilbert 撤銷其合理使用反訴（counterclaim）之聲請；Gilbert 曾提議訴訟範圍限於「盜版來源」訓練複本。
 
 **自動比對結果：**
 
 - ⚠️ Court 可能不一致：dashboard 寫「D. Mass. (3:26-cv-30081)」，CourtListener 為「D. Massachusetts」
 - ⚠️ Judge 可能不一致：dashboard 寫「Christopher L. Morgan」，CourtListener 為「Mark G. Mastroianni」
-- ℹ️ Dashboard progress 內找不到【YYYY/M/D】格式日期；CourtListener 最後 entry: 2026-08-27
+- ℹ️ Dashboard progress 略落後 17 天：dashboard 最新日期 2026-09-11，CourtListener 最後 entry 2026-09-28
 
 ## 3. Docket Entries（最新優先，已過濾程序性 entries）
 
-**實質性 entries**：39 筆／**已過濾程序性 entries**：16 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+**實質性 entries**：51 筆／**已過濾程序性 entries**：16 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+
+### 📄 Doc #— — 2026-09-28
+
+Notice Resetting Hearings
+
+### 📄 Doc #51 — 2026-09-28
+
+NOTICE Resetting a Hearing Time ISSUED: ***CHANGE AS TO TIME ONLY***Scheduling Conference reset for 10/1/2026 at 11:30 AM in Hampshire Courtroom (In person) before Magistrate Judge Christopher L. Morgan. (MPZ) (Entered: 09/28/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/73391700/51/gilbert-v-anthropic-pbc/)
+
+### 📄 Doc #50 — 2026-09-17
+
+REPLY to Response to 42 MOTION to Dismiss for Lack of Jurisdiction in Part as to the Amended Counterclaim (ECF No. 36) or, in the Alternative MOTION for Judgment on the Pleadings in Part - Leave to file granted on September 17, 2026 (ECF No. 49) - filed by Daniel Benjamin Gilbert. (Gilbert, Daniel) (Entered: 09/17/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/73391700/50/gilbert-v-anthropic-pbc/)
+
+### 📄 Doc #— — 2026-09-17
+
+Order on Motion for Leave to File Document
+
+### 📄 Doc #49 — 2026-09-17
+
+Judge Mark G. Mastroianni: ELECTRONIC ORDER entered granting 48 Motion for Leave to File Document ; Counsel using the Electronic Case Filing System should now file the document for which leave to file has been granted in accordance with the CM/ECF Administrative Procedures. Counsel must include - Leave to file granted on (date of order)- in the caption of the document. (TRL) (Entered: 09/17/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/73391700/49/gilbert-v-anthropic-pbc/)
+
+### 📄 Doc #48 — 2026-09-12
+
+Assented to MOTION for Leave to File Reply in Support of Motion to Dismiss Counterclaim in Part (ECF No. 42) by Daniel Benjamin Gilbert. (Attachments: # 1 Exhibit A - Proposed Reply)(Gilbert, Daniel) (Entered: 09/12/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/73391700/48/1/gilbert-v-anthropic-pbc/)
+
+### 📄 Doc #47 — 2026-09-10
+
+Opposition re 42 MOTION to Dismiss for Lack of Jurisdiction in Part as to the Amended Counterclaim (ECF No. 36) or, in the Alternative MOTION for Judgment on the Pleadings in Part filed by Anthropic PBC. (Chaikovsky, Yar) (Entered: 09/10/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/73391700/47/gilbert-v-anthropic-pbc/)
+
+### 📄 Doc #46 — 2026-09-09
+
+ELECTRONIC NOTICE OF RESCHEDULING ISSUED: Scheduling Conference reset for 10/1/2026 at 11:00 AM in Hampshire Courtroom (In person) before Magistrate Judge Christopher L. Morgan. (MPZ) Modified on 9/10/2026 correcting the Judge to Magistrate Judge Christopher L. Morgan (MPZ). (Entered: 09/09/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/73391700/46/gilbert-v-anthropic-pbc/)
+
+### 📄 Doc #— — 2026-09-09
+
+Order on Motion for Miscellaneous Relief
+
+### 📄 Doc #— — 2026-09-09
+
+Notice of Rescheduling
+
+### 📄 Doc #45 — 2026-09-09
+
+Magistrate Judge Christopher L. Morgan: ELECTRONIC ORDER entered granting 44 Motion to Reschedule September 14, 2026 Scheduling Conference. (MPZ) (Entered: 09/09/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/73391700/45/gilbert-v-anthropic-pbc/)
+
+### 📄 Doc #44 — 2026-09-08
+
+Assented to MOTION to Reschedule September 14, 2026 Scheduling Conference re 38 Notice of Scheduling Conference, by Anthropic PBC.(Papenhausen, Lauren) (Entered: 09/08/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/73391700/44/gilbert-v-anthropic-pbc/)
 
 ### 📄 Doc #43 — 2026-08-27
 
-MEMORANDUM in Support re [42] MOTION to Dismiss for Lack of Jurisdiction in Part as to the Amended Counterclaim (ECF No. 36) or, in the Alternative MOTION for Judgment on the Pleadings in Part filed by Daniel Benjamin Gilbert. (Gilbert, Daniel)
+MEMORANDUM in Support re 42 MOTION to Dismiss for Lack of Jurisdiction in Part as to the Amended Counterclaim (ECF No. 36) or, in the Alternative MOTION for Judgment on the Pleadings in Part filed by Daniel Benjamin Gilbert. (Gilbert, Daniel) (Entered: 08/27/2026)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/73391700/43/gilbert-v-anthropic-pbc/)
 
@@ -274,4 +338,4 @@ REPORT on the filing/termination of copyright case. (TRL) (Entered: 05/26/2026)
 
 ---
 
-*產生時間：2026-09-01 01:43 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-10-01 01:50 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

@@ -1,6 +1,6 @@
 # Case 29 — In re Salesforce LLM Copyright Infringement Litigation
 
-> 最後更新（CourtListener fetch）：2026-09-01 01:16 UTC
+> 最後更新（CourtListener fetch）：2026-10-01 01:18 UTC
 
 ---
 
@@ -332,8 +332,8 @@ REPORT on the filing or determination of an action regarding Copyright Infringem
 <summary>已過濾的 26 筆程序性 entries（點擊展開）</summary>
 
 - **Doc #65** (2026-08-05): MOTION for leave to appear in Pro Hac Vice ( Filing fee $ 328, receipt number ACANDC-22299829.) filed by Tasha Alexander, Jennifer Gilmore, Art Kleiner, Jon McGoran, E. Molly Tanzer. (Attachments: # 1…
-- **Doc #66** (2026-08-05): ORDER  by Judge Charles R. Breyer:   Granting  65   Motion for Pro Hac Vice, Ivy Arai Tabbara.  (ls, COURT STAFF) (Filed on 8/5/2026)
-- **Doc #63** (2026-07-15): ORDER  by Judge Charles R. Breyer:   Granting  62   Motion for Pro Hac Vice, Jacob Morris Alhadeff.  (ls, COURT STAFF) (Filed on 7/15/2026)
+- **Doc #66** (2026-08-05): ORDER by Judge Charles R. Breyer: Granting 65 Motion for Pro Hac Vice, Ivy Arai Tabbara. (ls, COURT STAFF) (Filed on 8/5/2026) (Entered: 08/05/2026)
+- **Doc #63** (2026-07-15): ORDER by Judge Charles R. Breyer: Granting 62 Motion for Pro Hac Vice, Jacob Morris Alhadeff. (ls, COURT STAFF) (Filed on 7/15/2026) (Entered: 07/15/2026)
 - **Doc #62** (2026-07-14): MOTION for leave to appear in Pro Hac Vice for Jacob Alhadeff ( Filing fee $ 328, receipt number ACANDC-22213041.) filed by Tasha Alexander, Jennifer Gilmore, Art Kleiner, Jon McGoran, E. Molly Tanzer…
 - **Doc #54** (2026-05-29): ORDER by Judge Charles R. Breyer: Granting 52 Motion for Pro Hac Vice, Ellen J. Wen. (ls, COURT STAFF) (Filed on 5/29/2026) (Entered: 05/29/2026)
 - **Doc #52** (2026-05-28): MOTION for leave to appear in Pro Hac Vice for Ellen J Wen ( Filing fee $ 328, receipt number ACANDC-22035809.) filed by Jon McGoran. (Attachments: # 1 Exhibit CERTIFICATE OF GOOD STANDING)(Wen, Ellen…
@@ -362,4 +362,4 @@ REPORT on the filing or determination of an action regarding Copyright Infringem
 
 ---
 
-*產生時間：2026-09-01 01:16 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-10-01 01:18 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

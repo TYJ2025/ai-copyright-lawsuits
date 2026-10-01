@@ -1,6 +1,6 @@
 # Case 147 — SCI SPARK LLC v. SCHEDULE A
 
-> 最後更新（CourtListener fetch）：2026-09-01 01:44 UTC
+> 最後更新（CourtListener fetch）：2026-10-01 01:51 UTC
 
 ---
 
@@ -13,7 +13,7 @@
 | Court | District Court, W.D. Pennsylvania (`pawd`) |
 | Judge Assigned | W. Scott Hardy |
 | Date Filed | 2026-06-05 |
-| Date Last Filing | 2026-08-06 |
+| Date Last Filing | 2026-09-28 |
 | Cause | 17:501 Copyright Infringement |
 | Nature of Suit | 820 Copyright |
 | Jury Demand | None |
@@ -33,11 +33,17 @@
 
 - ⚠️ Court 可能不一致：dashboard 寫「W.D. Pa.」，CourtListener 為「W.D. Pennsylvania」
 - ⚠️ Judge 可能不一致：dashboard 寫「待分派」，CourtListener 為「W. Scott Hardy」
-- ℹ️ Dashboard progress 內找不到【YYYY/M/D】格式日期；CourtListener 最後 entry: 2026-08-06
+- ℹ️ Dashboard progress 內找不到【YYYY/M/D】格式日期；CourtListener 最後 entry: 2026-09-28
 
 ## 3. Docket Entries（最新優先，已過濾程序性 entries）
 
-**實質性 entries**：24 筆／**已過濾程序性 entries**：3 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+**實質性 entries**：25 筆／**已過濾程序性 entries**：3 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+
+### 📄 Doc #40 — 2026-09-28
+
+Clerk's Entry of Default
+
+[CourtListener 連結](https://www.courtlistener.com/docket/73448787/40/sci-spark-llc-v-schedule-a/)
 
 ### 📄 Doc #35 — 2026-08-06
 
@@ -192,4 +198,4 @@ MOTION for Leave to File Excess Pages by SCI SPARK LLC. (Attachments: # 1 Propos
 
 ---
 
-*產生時間：2026-09-01 01:44 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-10-01 01:51 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

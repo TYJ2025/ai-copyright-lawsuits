@@ -1,6 +1,6 @@
 # Case 148 — Will-Burn Recordings & Publishing Co. v. UMG Recordings, Inc.
 
-> 最後更新（CourtListener fetch）：2026-09-01 01:44 UTC
+> 最後更新（CourtListener fetch）：2026-10-01 01:51 UTC
 
 ---
 
@@ -14,7 +14,7 @@
 | Judge Assigned | Kristi K. Dubose |
 | Judge Referred | Bert W. Milling Jr. |
 | Date Filed | 2026-05-13 |
-| Date Last Filing | 2026-08-21 |
+| Date Last Filing | 2026-09-14 |
 | Cause | 17:101 Copyright Infringement |
 | Nature of Suit | 820 Copyright |
 | Jury Demand | Plaintiff |
@@ -34,11 +34,37 @@
 
 - ⚠️ Court 可能不一致：dashboard 寫「S.D. Ala.」，CourtListener 為「S.D. Alabama」
 - ⚠️ Judge 可能不一致：dashboard 寫「待確認」，CourtListener 為「Kristi K. Dubose」
-- ℹ️ Dashboard progress 內找不到【YYYY/M/D】格式日期；CourtListener 最後 entry: 2026-08-21
+- ℹ️ Dashboard progress 內找不到【YYYY/M/D】格式日期；CourtListener 最後 entry: 2026-09-14
 
 ## 3. Docket Entries（最新優先，已過濾程序性 entries）
 
-**實質性 entries**：44 筆／**已過濾程序性 entries**：2 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+**實質性 entries**：49 筆／**已過濾程序性 entries**：2 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+
+### 📄 Doc #— — 2026-09-14
+
+Document Referred
+
+### 📄 Doc #42 — 2026-09-11
+
+Reply to Response to Motion
+
+[CourtListener 連結](https://www.courtlistener.com/docket/73338991/42/will-burn-recordings-publishing-co-v-umg-recordings-inc/)
+
+### 📄 Doc #— — 2026-09-08
+
+Document Referred
+
+### 📄 Doc #41 — 2026-09-04
+
+Response in Opposition to Motion
+
+[CourtListener 連結](https://www.courtlistener.com/docket/73338991/41/will-burn-recordings-publishing-co-v-umg-recordings-inc/)
+
+### 📄 Doc #40 — 2026-09-03
+
+Response to Motion
+
+[CourtListener 連結](https://www.courtlistener.com/docket/73338991/40/will-burn-recordings-publishing-co-v-umg-recordings-inc/)
 
 ### 📄 Doc #39 — 2026-08-21
 
@@ -278,4 +304,4 @@ COMPLAINT against All Defendants ( Filing fee $405 receipt number AALSDC-3814173
 
 ---
 
-*產生時間：2026-09-01 01:44 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-10-01 01:51 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

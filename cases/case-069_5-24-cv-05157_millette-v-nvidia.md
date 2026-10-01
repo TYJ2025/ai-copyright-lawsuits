@@ -1,6 +1,6 @@
 # Case 69 — Millette v. Nvidia Corporation
 
-> 最後更新（CourtListener fetch）：2026-09-01 01:28 UTC
+> 最後更新（CourtListener fetch）：2026-10-01 01:32 UTC
 
 ---
 
@@ -206,4 +206,4 @@ Proposed Summons. (Fisher, L.) (Filed on 8/14/2024) (Entered: 08/14/2024)
 
 ---
 
-*產生時間：2026-09-01 01:28 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-10-01 01:32 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

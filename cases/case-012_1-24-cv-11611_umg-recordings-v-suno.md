@@ -1,6 +1,6 @@
 # Case 12 — UMG Recordings, Inc. v. Suno, Inc.
 
-> 最後更新（CourtListener fetch）：2026-09-01 01:09 UTC
+> 最後更新（CourtListener fetch）：2026-10-01 01:09 UTC
 
 ---
 
@@ -11,10 +11,10 @@
 | Case Name | UMG Recordings, Inc. v. Suno, Inc. |
 | Docket Number | `1:24-cv-11611` |
 | Court | District Court, D. Massachusetts (`mad`) |
-| Judge Assigned | F. Dennis Saylor IV |
+| Judge Assigned | F. Dennis Saylor, IV |
 | Judge Referred | Paul G. Levenson |
 | Date Filed | 2024-06-24 |
-| Date Last Filing | 2026-08-26 |
+| Date Last Filing | 2026-09-30 |
 | Cause | 17:101 Copyright Infringement |
 | Nature of Suit | 820 Copyright |
 | Jury Demand | Plaintiff |
@@ -33,12 +33,54 @@
 **自動比對結果：**
 
 - ✅ Court 一致：dashboard 寫「D. Mass.」，CourtListener 為「D. Massachusetts」
-- ✅ Judge 一致：dashboard 寫「Saylor IV / Hellerstein / Garnett」，CourtListener 為「F. Dennis Saylor IV」
-- ⚠️ Dashboard progress **落後 107 天**：dashboard 最新日期 2026-05-11，CourtListener 最後 entry 2026-08-26——建議查看新近 entries 並補充 progress
+- ✅ Judge 一致：dashboard 寫「Saylor IV / Hellerstein / Garnett」，CourtListener 為「F. Dennis Saylor, IV」
+- ⚠️ Dashboard progress **落後 142 天**：dashboard 最新日期 2026-05-11，CourtListener 最後 entry 2026-09-30——建議查看新近 entries 並補充 progress
 
 ## 3. Docket Entries（最新優先，已過濾程序性 entries）
 
 **實質性 entries**：172 筆／**已過濾程序性 entries**：28 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+
+### 📄 Doc #— — 2026-09-30
+
+Status Conference
+
+### 📄 Doc #286 — 2026-09-30
+
+Electronic Clerk's Notes for proceedings held before Magistrate Judge Paul G. Levenson: Status Conference held on 9/30/2026. Plaintiffs to produce the AI output testing reports. As to UMG & AI presentations, parties indicated that additional documents have been produced, and they agreed this issue is not ripe for the Courts intervention. Plaintiffs to re-review the AI task force meeting minutes with respect to both responsiveness as to market impact and appropriateness of assertions of privilege, per guidance as discussed on the record. Plaintiffs to provide verification of interrogatories by Friday, October 2. As to additional financial data, parties to confer and notify the court by Friday, October 9, as to whether there are outstanding issues requiring the Courts attention. On Defendants challenge to Plaintiffs log, parties to submit selected documents for in camera review by Friday, October 2, per protocol discussed on the record. On Plaintiffs' challenge to Defendant's log, Defend …(truncated)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68878608/286/umg-recordings-inc-v-suno-inc/)
+
+### 📄 Doc #— — 2026-09-28
+
+Notice of Hearing
+
+### 📄 Doc #285 — 2026-09-28
+
+ELECTRONIC NOTICE of Hearing. Status Conference set for 9/30/2026 at 12:00 PM in Courtroom 25 (Remote hearing; no public remote access - held in courtroom) before Magistrate Judge Paul G. Levenson. (AT) (Entered: 09/28/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68878608/285/umg-recordings-inc-v-suno-inc/)
+
+### 📄 Doc #— — 2026-09-22
+
+Order on Motion to Amend
+
+### 📄 Doc #284 — 2026-09-22
+
+District Judge F. Dennis Saylor, IV: ELECTRONIC ORDER entered granting 283 Joint MOTION to Amend the Amended Scheduling Order.AMENDED ORDERED DEADLINES:Deadline for service of all written discovery targeted to Plaintiffs' § 1201 claim: 9/21/26.Deadline to raise any outstanding discovery disputes pertaining to claims and defenses other than Plaintiffs' § 1201 claim with Chief Magistrate Judge Levenson: 9/25/26.Close of fact discovery not implicated by Plaintiffs' § 1201 claim: 9/30/26.Deadline for service of all third-party subpoenas pertaining solely to Plaintiffs' § 1201 claim: 10/2/26.Deadline to raise any outstanding third-party discovery disputes not implicated by Plaintiffs' §1201 claim: 10/14/26.Deadline for completion of third-party depositions not implicated by Plaintiffs' § 1201 claim: 10/30/26.Close of fact discovery related to Plaintiffs' § 1201 claim: 11/20/26.Serve RFAs: 12/4/26.Trial Expert Disclosure and Initial Expert Reports: 1/28/27.Rebuttal Expert Reports: 2/25/27.Re …(truncated)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68878608/284/umg-recordings-inc-v-suno-inc/)
+
+### 📄 Doc #283 — 2026-09-18
+
+Joint MOTION to Amend the Amended Scheduling Order by Capitol Records, LLC, Sony Music Entertainment, UMG Recordings, Inc..(Perry, Alexander) (Entered: 09/18/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68878608/283/umg-recordings-inc-v-suno-inc/)
+
+### 📄 Doc #281 — 2026-09-01
+
+ANSWER to 277 Amended Complaint, by Suno, Inc..(Lovejoy, Brittany) (Entered: 09/01/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68878608/281/umg-recordings-inc-v-suno-inc/)
 
 ### 📄 Doc #— — 2026-08-26
 
@@ -926,50 +968,6 @@ MOTION for Extension of Time to October 20, 2025 to File Response/Reply as to 12
 
 [CourtListener 連結](https://www.courtlistener.com/docket/68878608/137/umg-recordings-inc-v-suno-inc/)
 
-### 📄 Doc #135 — 2025-10-08
-
-MEMORANDUM in Support re 134 MOTION to Amend 1 Complaint,, filed by Atlantic Recording Corporation, Atlantic Records Group LLC, Capitol Records, LLC, Rhino Entertainment LLC, Sony Music Entertainment, The All Blacks U.S.A., Inc., UMG Recordings, Inc., Warner Music International Services Limited, Warner Records Inc.. (Trehan, Rajan) (Entered: 10/08/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68878608/135/umg-recordings-inc-v-suno-inc/)
-
-### 📄 Doc #134 — 2025-10-08
-
-MOTION to Amend 1 Complaint,, by Atlantic Recording Corporation, Atlantic Records Group LLC, Capitol Records, LLC, Rhino Entertainment LLC, Sony Music Entertainment, The All Blacks U.S.A., Inc., UMG Recordings, Inc., Warner Music International Services Limited, Warner Records Inc.. (Attachments: # 1 Text of Proposed Order Granting Plaintiffs' Motion for Leave to Amend the Complaint, # 2 Affidavit of Rajan Trehan in Support of Plaintiffs' Motion for Leave to Amend, # 3 Exhibit A - Amended Complaint, # 4 Exhibit B - Amended Complaint Redline, # 5 Exhibit C - Plaintiffs' First Set of Interrogatories to Defendant, # 6 Exhibit D - Defendant's Responses and Objections to Plaintiffs' First Set of Interrogatories, # 7 Exhibit E - Defendant's Second Amended Responses and Objections to Plaintiffs' First Set of Interrogatories [REDACTED], # 8 Exhibit F - Defendant's First Supplemental Responses and Objections to Plaintiffs' First Set of Interrogatories [REDACTED], # 9 Exhibit G - Plaintiffs' Seco …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68878608/134/12/umg-recordings-inc-v-suno-inc/)
-
-### 📄 Doc #— — 2025-10-06
-
-Notice of Hearing
-
-### 📄 Doc #133 — 2025-10-06
-
-ELECTRONIC NOTICE of Hearing. Status Conference set for 10/10/2025 at 12:00 PM in Courtroom 25 (Remote only) before Magistrate Judge Paul G. Levenson, re: discovery conference. (AT) Modified on 10/6/2025 (AT). (Entered: 10/06/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68878608/133/umg-recordings-inc-v-suno-inc/)
-
-### 📄 Doc #— — 2025-10-03
-
-Order on Motion to Amend
-
-### 📄 Doc #132 — 2025-10-03
-
-District Judge F. Dennis Saylor, IV: ELECTRONIC ORDER entered granting 124 Joint MOTION to Amend the Amended Scheduling Order. AMENDED ORDERED DEADLINES:Fact Discovery (except for RFAs) andDepositions completed by 1/9/26.RFA's by 1/23/26.Remaining Discovery disputes (exceptfor RFAs and experts) by 1/30/26.Trial Expert Disclosure 2/20/26.Rebuttal Experts by 3/20/26.Trial Expert Depositions by 5/15/26.Dispositive Motions by 6/19/26. (MMM) (Entered: 10/03/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68878608/132/umg-recordings-inc-v-suno-inc/)
-
-### 📄 Doc #131 — 2025-10-03
-
-Opposition re 126 MOTION to Amend 1 Complaint,, filed by Suno, Inc.. (Gass, Andrew) (Entered: 10/03/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68878608/131/umg-recordings-inc-v-suno-inc/)
-
-### 📄 Doc #130 — 2025-10-03
-
-District Judge F. Dennis Saylor, IV: ORDER entered GRANTING 125 Motion to Seal. Counsel will receive an email within twenty-four (24) hours of this order with instructions for submitting sealed documents for which leave has been granted in accordance with the Local Rules of the U.S. District Court of Massachusetts. Counsel must include - Leave to file granted on (date of order)- in the caption of the document. (MAC) (Entered: 10/03/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68878608/130/umg-recordings-inc-v-suno-inc/)
-
 <details>
 <summary>已過濾的 28 筆程序性 entries（點擊展開）</summary>
 
@@ -1006,4 +1004,4 @@ District Judge F. Dennis Saylor, IV: ORDER entered GRANTING 125 Motion to Seal. 
 
 ---
 
-*產生時間：2026-09-01 01:09 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-10-01 01:09 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

@@ -1,6 +1,6 @@
 # Case 24 — James v. Snowflake Inc
 
-> 最後更新（CourtListener fetch）：2026-09-01 01:15 UTC
+> 最後更新（CourtListener fetch）：2026-10-01 01:15 UTC
 
 ---
 
@@ -41,7 +41,7 @@
 
 ### 📄 Doc #31 — 2026-08-28
 
-Notice (Other) - SDM
+NOTICE Of Filing of Proposed Protective Order by Snowflake Inc. (McClafferty, Brianne) (Entered: 08/28/2026)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/71946179/31/james-v-snowflake-inc/)
 
@@ -141,4 +141,4 @@ Filing Fee Received
 
 ---
 
-*產生時間：2026-09-01 01:15 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-10-01 01:15 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

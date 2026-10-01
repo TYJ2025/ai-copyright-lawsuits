@@ -1,6 +1,6 @@
 # Case 33 — Chicago Tribune Company, LLC v. Perplexity AI, Inc.
 
-> 最後更新（CourtListener fetch）：2026-09-01 01:17 UTC
+> 最後更新（CourtListener fetch）：2026-10-01 01:19 UTC
 
 ---
 
@@ -41,7 +41,7 @@
 
 ### 📄 Doc #60 — 2026-08-31
 
-Protective Order
+STIPULATED CONFIDENTIALITY AND PROTECTIVE ORDER...regarding procedures to be followed that shall govern the handling of confidential material... SO ORDERED.   (Signed by Judge Loretta A. Preska on 8/31/2026)   (ar)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/71996467/60/chicago-tribune-company-llc-v-perplexity-ai-inc/)
 
@@ -195,7 +195,7 @@ LETTER addressed to Judge Loretta A. Preska from Steven Lieberman dated January 
 
 ### 📄 Doc #29 — 2026-01-12
 
-ORDER: As discussed at the January 5, 2026 Status Conference, and as stipulated  to by the parties, the Court adopts the following deadlines with respect to Defendant's response to  the Complaint: 1. Defendant shall respond to the Complaint on  or before February 27, 2026. 2. If Defendant files a motion to dismiss, Plaintiff's opposition to such motion shall be due on March 30, 2026. 3. Defendant's reply in support of its motion to dismiss shall be due on  April 20, 2026. SO ORDERED.   (Motions due by 2/27/2026.,  Replies due by 4/20/2026.,  Responses due by 3/30/2026.)  (Signed by Judge Loretta A. Preska on 1/12/2026)   (mml)
+ORDER: As discussed at the January 5, 2026 Status Conference, and as stipulated to by the parties, the Court adopts the following deadlines with respect to Defendant's response to the Complaint: 1. Defendant shall respond to the Complaint on or before February 27, 2026. 2. If Defendant files a motion to dismiss, Plaintiff's opposition to such motion shall be due on March 30, 2026. 3. Defendant's reply in support of its motion to dismiss shall be due on April 20, 2026. SO ORDERED. (Motions due by 2/27/2026., Replies due by 4/20/2026., Responses due by 3/30/2026.) (Signed by Judge Loretta A. Preska on 1/12/2026) (mml) (Entered: 01/13/2026)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/71996467/29/chicago-tribune-company-llc-v-perplexity-ai-inc/)
 
@@ -396,4 +396,4 @@ AO 121 FORM COPYRIGHT - NOTICE OF SUBMISSION BY ATTORNEY. AO 121 Form Copyright 
 
 ---
 
-*產生時間：2026-09-01 01:17 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-10-01 01:19 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

@@ -1,6 +1,6 @@
 # Case 68 — Millette v. Google LLC
 
-> 最後更新（CourtListener fetch）：2026-09-01 01:28 UTC
+> 最後更新（CourtListener fetch）：2026-10-01 01:32 UTC
 
 ---
 
@@ -325,4 +325,4 @@ Proposed Summons. (Fisher, L.) (Filed on 8/2/2024) (Entered: 08/02/2024)
 
 ---
 
-*產生時間：2026-09-01 01:28 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-10-01 01:32 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

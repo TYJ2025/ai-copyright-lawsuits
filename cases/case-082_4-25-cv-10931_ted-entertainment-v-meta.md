@@ -1,6 +1,6 @@
 # Case 82 — Ted Entertainment, Inc. v. Meta Platforms, Inc.
 
-> 最後更新（CourtListener fetch）：2026-09-01 01:32 UTC
+> 最後更新（CourtListener fetch）：2026-10-01 01:36 UTC
 
 ---
 
@@ -13,7 +13,7 @@
 | Court | District Court, N.D. California (`cand`) |
 | Judge Assigned | Jon S. Tigar |
 | Date Filed | 2025-12-23 |
-| Date Last Filing | 2026-08-27 |
+| Date Last Filing | 2026-09-28 |
 | Cause | 17:101 Copyright Infringement |
 | Nature of Suit | 820 Copyright |
 | Jury Demand | Plaintiff |
@@ -33,15 +33,21 @@
 
 - ✅ Court 一致：dashboard 寫「N.D. Cal.」，CourtListener 為「N.D. California」
 - ✅ Judge 一致：dashboard 寫「Jon S. Tigar」，CourtListener 為「Jon S. Tigar」
-- ℹ️ Dashboard progress 內找不到【YYYY/M/D】格式日期；CourtListener 最後 entry: 2026-08-27
+- ℹ️ Dashboard progress 內找不到【YYYY/M/D】格式日期；CourtListener 最後 entry: 2026-09-28
 
 ## 3. Docket Entries（最新優先，已過濾程序性 entries）
 
-**實質性 entries**：46 筆／**已過濾程序性 entries**：19 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+**實質性 entries**：47 筆／**已過濾程序性 entries**：19 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+
+### 📄 Doc #53 — 2026-09-28
+
+Notice of Voluntary Dismissal
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72074891/53/ted-entertainment-inc-v-meta-platforms-inc/)
 
 ### 📄 Doc #52 — 2026-08-27
 
-Notice (Other)
+NOTICE by Meta Platforms, Inc. re 51 Judicial Referral for Purpose of Determining Relationship of Cases (Attachments: # 1 Exhibit A)(Wetzel, Joseph) (Filed on 8/27/2026) (Entered: 08/27/2026)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/72074891/52/ted-entertainment-inc-v-meta-platforms-inc/)
 
@@ -316,4 +322,4 @@ Proposed Summons. (Bar-Nissim, Rom) (Filed on 12/23/2025) (Entered: 12/23/2025)
 
 ---
 
-*產生時間：2026-09-01 01:32 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-10-01 01:36 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

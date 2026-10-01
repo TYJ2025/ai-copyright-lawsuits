@@ -1,6 +1,6 @@
 # Case 136 — Wixen Music Publishing, Inc v. Meta Platforms, Inc.
 
-> 最後更新（CourtListener fetch）：2026-09-01 01:42 UTC
+> 最後更新（CourtListener fetch）：2026-10-01 01:49 UTC
 
 ---
 
@@ -14,7 +14,7 @@
 | Judge Assigned | John F. Walter |
 | Judge Referred | Alka Sagar |
 | Date Filed | 2026-01-23 |
-| Date Last Filing | 2026-08-14 |
+| Date Last Filing | 2026-09-25 |
 | Cause | 17:101 Copyright Infringement |
 | Nature of Suit | 820 Copyright |
 | Jury Demand | Plaintiff |
@@ -34,11 +34,41 @@
 
 - ⚠️ Court 可能不一致：dashboard 寫「C.D. Cal. 2:26-cv-00752」，CourtListener 為「C.D. California」
 - ✅ Judge 一致：dashboard 寫「John F. Walter（District Judge）／Alka Sagar（Magistrate）」，CourtListener 為「John F. Walter」
-- ⚠️ Dashboard progress **落後 87 天**：dashboard 最新日期 2026-05-19，CourtListener 最後 entry 2026-08-14——建議查看新近 entries 並補充 progress
+- ⚠️ Dashboard progress **落後 129 天**：dashboard 最新日期 2026-05-19，CourtListener 最後 entry 2026-09-25——建議查看新近 entries 並補充 progress
 
 ## 3. Docket Entries（最新優先，已過濾程序性 entries）
 
-**實質性 entries**：37 筆／**已過濾程序性 entries**：9 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+**實質性 entries**：42 筆／**已過濾程序性 entries**：9 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+
+### 📄 Doc #48 — 2026-09-25
+
+Extending Answer Due Deadline
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72184965/48/wixen-music-publishing-inc-v-meta-platforms-inc/)
+
+### 📄 Doc #47 — 2026-09-23
+
+Extending Time to Answer (More than 30 days)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72184965/47/wixen-music-publishing-inc-v-meta-platforms-inc/)
+
+### 📄 Doc #46 — 2026-09-18
+
+Amended Complaint/Petition
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72184965/46/wixen-music-publishing-inc-v-meta-platforms-inc/)
+
+### 📄 Doc #45 — 2026-09-18
+
+Amended Complaint/Petition
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72184965/45/wixen-music-publishing-inc-v-meta-platforms-inc/)
+
+### 📄 Doc #44 — 2026-09-04
+
+Dismiss
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72184965/44/wixen-music-publishing-inc-v-meta-platforms-inc/)
 
 ### 📄 Doc #43 — 2026-08-14
 
@@ -273,4 +303,4 @@ REPORT ON THE FILING OF AN ACTION regarding a copyright (Initial Notification) f
 
 ---
 
-*產生時間：2026-09-01 01:42 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-10-01 01:49 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

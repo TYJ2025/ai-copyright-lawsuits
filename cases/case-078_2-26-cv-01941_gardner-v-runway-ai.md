@@ -1,6 +1,6 @@
 # Case 78 — David Vance Gardner v. Runway AI, Inc.
 
-> 最後更新（CourtListener fetch）：2026-09-01 01:32 UTC
+> 最後更新（CourtListener fetch）：2026-10-01 01:36 UTC
 
 ---
 
@@ -152,4 +152,4 @@ COMPLAINT with filing fee previously paid ($405.00 paid on 02/23/2026, receipt n
 
 ---
 
-*產生時間：2026-09-01 01:32 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-10-01 01:36 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

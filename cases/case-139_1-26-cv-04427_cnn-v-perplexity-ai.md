@@ -1,6 +1,6 @@
 # Case 139 — Cable News Network Inc v. Perplexity AI, Inc.
 
-> 最後更新（CourtListener fetch）：2026-09-01 01:43 UTC
+> 最後更新（CourtListener fetch）：2026-10-01 01:50 UTC
 
 ---
 
@@ -13,7 +13,7 @@
 | Court | District Court, S.D. New York (`nysd`) |
 | Judge Assigned | Loretta A. Preska |
 | Date Filed | 2026-05-28 |
-| Date Last Filing | 2026-08-31 |
+| Date Last Filing | 2026-09-29 |
 | Cause | 17:501 Copyright Infringement |
 | Nature of Suit | 820 Copyright |
 | Jury Demand | Plaintiff |
@@ -33,15 +33,37 @@
 
 - ⚠️ Court 可能不一致：dashboard 寫「S.D.N.Y. 1:26-cv-04427」，CourtListener 為「S.D. New York」
 - ✅ Judge 一致：dashboard 寫「Loretta A. Preska」，CourtListener 為「Loretta A. Preska」
-- ⚠️ Dashboard progress **落後 95 天**：dashboard 最新日期 2026-05-28，CourtListener 最後 entry 2026-08-31——建議查看新近 entries 並補充 progress
+- ⚠️ Dashboard progress **落後 124 天**：dashboard 最新日期 2026-05-28，CourtListener 最後 entry 2026-09-29——建議查看新近 entries 並補充 progress
 
 ## 3. Docket Entries（最新優先，已過濾程序性 entries）
 
-**實質性 entries**：35 筆／**已過濾程序性 entries**：23 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+**實質性 entries**：39 筆／**已過濾程序性 entries**：25 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+
+### 📄 Doc #39 — 2026-09-29
+
+ORDER granting 38 Letter Motion for Extension of Time to File Response/Reply. SO ORDERED. Replies due by 10/23/2026.. (Signed by Judge Loretta A. Preska on 9/29/2026) (rro) (Entered: 09/29/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/73402641/39/cable-news-network-inc-v-perplexity-ai-inc/)
+
+### 📄 Doc #38 — 2026-09-28
+
+CONSENT LETTER MOTION for Extension of Time to File Response/Reply addressed to Judge Loretta A. Preska from John Quinn dated September 28, 2026. Document filed by Perplexity AI, Inc...(Quinn, John) (Entered: 09/28/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/73402641/38/cable-news-network-inc-v-perplexity-ai-inc/)
+
+### 📄 Doc #37 — 2026-09-25
+
+MEMORANDUM OF LAW in Opposition re: 30 MOTION to Dismiss Counts II, III, IV and V of Plaintiff's Complaint. . Document filed by Cable News Network Inc..(Lieberman, Steven) (Entered: 09/25/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/73402641/37/cable-news-network-inc-v-perplexity-ai-inc/)
+
+### 📄 Doc #— — 2026-08-31
+
+Set/Reset Deadlines: Responses due by 9/25/2026 (ar)
 
 ### 📄 Doc #34 — 2026-08-31
 
-Order on Motion for Extension of Time
+ORDER granting 33 Letter Motion for Extension of Time. SO ORDERED. (Signed by Judge Loretta A. Preska on 8/31/2026) (ar) (Entered: 08/31/2026)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/73402641/34/cable-news-network-inc-v-perplexity-ai-inc/)
 
@@ -214,8 +236,10 @@ RULE 7.1 CORPORATE DISCLOSURE STATEMENT. Identifying Corporate Parent Warner Bro
 [CourtListener 連結](https://www.courtlistener.com/docket/73402641/4/cable-news-network-inc-v-perplexity-ai-inc/)
 
 <details>
-<summary>已過濾的 23 筆程序性 entries（點擊展開）</summary>
+<summary>已過濾的 25 筆程序性 entries（點擊展開）</summary>
 
+- **Doc #35** (2026-09-16): ORDER FOR ADMISSION PRO HAC VICE granting 28 Motion for Trisha Anderson to Appear Pro Hac Vice. The motion of Trisha Anderson for admission to practice Pro Hac Vice in the above-captioned action is gr…
+- **Doc #36** (2026-09-16): ORDER FOR ADMISSION PRO HAC VICE granting 29 Motion for Jason A. Petty to Appear Pro Hac Vice. The motion of Jason A. Petty for admission to practice Pro Hac Vice in the above-captioned action is gran…
 - **Doc #32** (2026-08-21): NOTICE OF APPEARANCE by Tyler Rhoads on behalf of Perplexity AI, Inc...(Rhoads, Tyler) (Entered: 08/21/2026)
 - **Doc #28** (2026-08-20): MOTION for Trisha Anderson to Appear Pro Hac Vice . Filing fee $ 200.00, receipt number ANYSDC-33318260. Motion and supporting papers to be reviewed by Clerk's Office staff. Document filed by Perplexi…
 - **Doc #29** (2026-08-20): MOTION for Jason A. Petty to Appear Pro Hac Vice . Filing fee $ 200.00, receipt number ANYSDC-33318353. Motion and supporting papers to be reviewed by Clerk's Office staff. Document filed by Perplexit…
@@ -244,4 +268,4 @@ RULE 7.1 CORPORATE DISCLOSURE STATEMENT. Identifying Corporate Parent Warner Bro
 
 ---
 
-*產生時間：2026-09-01 01:43 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-10-01 01:50 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

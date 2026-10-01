@@ -1,6 +1,6 @@
 # Case 22 — In Re Mosaic LLM Litigation
 
-> 最後更新（CourtListener fetch）：2026-09-01 01:14 UTC
+> 最後更新（CourtListener fetch）：2026-10-01 01:14 UTC
 
 ---
 
@@ -14,7 +14,7 @@
 | Judge Assigned | Charles R. Breyer |
 | Judge Referred | Lisa J. Cisneros |
 | Date Filed | 2024-03-08 |
-| Date Last Filing | 2026-08-31 |
+| Date Last Filing | 2026-09-21 |
 | Cause | 17:501 Copyright Infringement |
 | Nature of Suit | 820 Copyright |
 | Jury Demand | Both |
@@ -34,125 +34,175 @@
 
 - ✅ Court 一致：dashboard 寫「N.D. Cal.」，CourtListener 為「N.D. California」
 - ✅ Judge 一致：dashboard 寫「Charles R. Breyer」，CourtListener 為「Charles R. Breyer」
-- ℹ️ Dashboard progress 內找不到【YYYY/M/D】格式日期；CourtListener 最後 entry: 2026-08-31
+- ℹ️ Dashboard progress 內找不到【YYYY/M/D】格式日期；CourtListener 最後 entry: 2026-09-21
 
 ## 3. Docket Entries（最新優先，已過濾程序性 entries）
 
-**實質性 entries**：156 筆／**已過濾程序性 entries**：44 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+**實質性 entries**：147 筆／**已過濾程序性 entries**：53 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+
+### 📄 Doc #469 — 2026-09-21
+
+OPPOSITION/RESPONSE (re 467 Administrative Motion to Consider Whether Another Party's Material Should Be Sealed Re Plaintiffs' Reply in support of Motion for Partial Summary Judgment ) filed byDatabricks, Inc., Mosaic ML, Inc.. (Attachments: # 1 Declaration of Eric Berger, # 2 Proposed Order)(Wakefield, Jedediah) (Filed on 9/21/2026) (Entered: 09/21/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68325564/469/in-re-mosaic-llm-litigation/)
+
+### 📄 Doc #463 — 2026-09-14
+
+REPLY (re 308 MOTION to Exclude Testimony of Shawn Shan, Ph.D. ) filed byDatabricks, Inc., Mosaic ML, Inc.. (Attachments: # 1 Supplemental Declaration of Jonathan T. McMichael in Support of Defendants' Reply in Support of Motion to Exclude Testimony of Shawn Shan, Ph.D., # 2 Exhibit 1 to Supplemental Declaration of Jonathan T. McMichael)(Wakefield, Jedediah) (Filed on 9/14/2026) (Entered: 09/14/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68325564/463/2/in-re-mosaic-llm-litigation/)
+
+### 📄 Doc #466 — 2026-09-14
+
+REPLY (re 321 MOTION for Summary Judgment ) filed byDatabricks, Inc., Mosaic ML, Inc.. (Attachments: # 1 Supplemental Declaration of Jedediah Wakefield in Support of Defendants' Reply in Support of Summary Judgment, # 2 Exhibit 1, # 3 Exhibit 2, # 4 Exhibit 3, # 5 Exhibit 4, # 6 Exhibit 5, # 7 Exhibit 6, # 8 Exhibit 7, # 9 Exhibit 8, # 10 Exhibit 9)(Wakefield, Jedediah) (Filed on 9/14/2026) (Entered: 09/14/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68325564/466/10/in-re-mosaic-llm-litigation/)
+
+### 📄 Doc #468 — 2026-09-14
+
+REPLY (re 379 MOTION for Partial Summary Judgment CORRECTION OF DOCKET # 324 ) filed byBrian Keene, Rebecca Makkai, Abdi Nazemian, Stewart ONan, Jason Reynolds. (Attachments: # 1 Declaration of W. Castillo Guardado in Support of, # 2 Exhibit 1)(Saveri, Joseph) (Filed on 9/14/2026) (Entered: 09/14/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68325564/468/2/in-re-mosaic-llm-litigation/)
+
+### 📄 Doc #467 — 2026-09-14
+
+Administrative Motion to Consider Whether Another Party's Material Should Be Sealed Re Plaintiffs' Reply in support of Motion for Partial Summary Judgment filed by Brian Keene, Rebecca Makkai, Abdi Nazemian, Stewart ONan, Jason Reynolds. (Attachments: # 1 Declaration of W. Castillo Guardado in Support of, # 2 Proposed Order, # 3 Plaintiffs' Reply in support of Motion for Partial Summary Judgement (Sealed))(Saveri, Joseph) (Filed on 9/14/2026) (Entered: 09/14/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68325564/467/in-re-mosaic-llm-litigation/)
+
+### 📄 Doc #464 — 2026-09-14
+
+Administrative Motion to File Under Seal Re Defendants' Reply in Support of Summary Judgment filed by Databricks, Inc., Mosaic ML, Inc.. (Attachments: # 1 Declaration of Eric Berger in Support of Defendants' Administrative Motion to File Under Seal re Defendants' Reply in Support of Summary Judgment, # 2 Proposed Order, # 3 Unredacted Version of Defendants' Reply in Support of Summary Judgment)(Wakefield, Jedediah) (Filed on 9/14/2026) (Entered: 09/14/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68325564/464/in-re-mosaic-llm-litigation/)
+
+### 📄 Doc #465 — 2026-09-14
+
+Administrative Motion to Consider Whether Another Party's Material Should Be Sealed re HarperCollins Publishers LLC re Defendants' Reply in Support of Motion for Summary Judgment filed by Databricks, Inc., Mosaic ML, Inc.. (Attachments: # 1 Proposed Order, # 2 Unredacted Version of Defendants' Reply in Support of Summary Judgment)(Wakefield, Jedediah) (Filed on 9/14/2026) (Entered: 09/14/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68325564/465/in-re-mosaic-llm-litigation/)
+
+### 📄 Doc #462 — 2026-09-14
+
+REPLY (re 310 MOTION to Exclude Testimony of Mark L. Seeley re 309 Administrative Motion to File Under Seal re Defendants' Motion to Exclude Testimony of Mark L. Seeley ) (Defendants' Reply in Support of Motion to Exclude Testimony of Mark L. Seeley) filed byDatabricks, Inc., Mosaic ML, Inc.. (Wakefield, Jedediah) (Filed on 9/14/2026) (Entered: 09/14/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68325564/462/in-re-mosaic-llm-litigation/)
+
+### 📄 Doc #461 — 2026-09-11
+
+OPPOSITION/RESPONSE (re 393 Administrative Motion to Consider Whether Another Party's Material Should Be Sealed for Microsoft Corporation, 339 Administrative Motion to Consider Whether Another Party's Material Should Be Sealed for Microsoft Corporation ) (Supplemental) filed byMicrosoft. (Attachments: # 1 Proposed Order)(Jacobson, Jeffrey) (Filed on 9/11/2026) (Entered: 09/11/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68325564/461/in-re-mosaic-llm-litigation/)
+
+### 📄 Doc #459 — 2026-09-08
+
+Administrative Motion to File Under Seal Portions of the Confidential Declaration of Trina Hunn filed by HarperCollins Publishers L.L.C.. (Attachments: # 1 Declaration of Timothy J. Quill, Jr. in Support of HarperCollins Publishers LLC's Administrative Motion to File Under Seal Portions of the Confidential Declaration of Trina Hunn, # 2 Proposed Order Granting HarperCollins Publishers LLC's Administrative Motion to File Under Seal Portions of the Confidential Declaration of Trina Hunn, # 3 Declaration Unredacted Version of Confidential Declaration of Trina Hunn, with Highlighting to be Filed Under Seal, # 4 Declaration Redacted Version of Confidential Declaration of Trina Hunn to be Filed Publicly)(Quill, Timothy) (Filed on 9/8/2026) (Entered: 09/08/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68325564/459/4/in-re-mosaic-llm-litigation/)
+
+### 📄 Doc #460 — 2026-09-08
+
+OPPOSITION/RESPONSE (re 456 Administrative Motion to Consider Whether Another Party's Material Should Be Sealed (HarperCollins, Second Corrected) ) filed byHarperCollins Publishers L.L.C.. (Quill, Timothy) (Filed on 9/8/2026) (Entered: 09/08/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68325564/460/in-re-mosaic-llm-litigation/)
+
+### 📄 Doc #458 — 2026-09-08
+
+Statement of Non-Opposition re 445 MOTION to File Amicus Curiae Brief filed byDatabricks, Inc., Mosaic ML, Inc.. (Related document(s) 445 ) (Wakefield, Jedediah) (Filed on 9/8/2026) (Entered: 09/08/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68325564/458/in-re-mosaic-llm-litigation/)
+
+### 📄 Doc #457 — 2026-09-04
+
+NOTICE of Withdrawal filed by Trevor David Nystrom, no longer appearing on behalf of Brian Keene, Rebecca Makkai, Abdi Nazemian, Stewart ONan, Jason Reynolds in this case (Nystrom, Trevor) (Filed on 9/4/2026) (Entered: 09/04/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68325564/457/in-re-mosaic-llm-litigation/)
+
+### 📄 Doc #— — 2026-09-04
+
+Notice of Appearance/Substitution/Change/Withdrawal of Attorney
+
+### 📄 Doc #456 — 2026-09-03
+
+Administrative Motion to Consider Whether Another Party's Material Should Be Sealed (HarperCollins, Second Corrected) filed by Brian Keene, Rebecca Makkai, Abdi Nazemian, Stewart ONan, Jason Reynolds. (Attachments: # 1 Affidavit Declaration of Rohit Nath, # 2 Proposed Order)(Nath, Rohit) (Filed on 9/3/2026) (Entered: 09/03/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68325564/456/in-re-mosaic-llm-litigation/)
+
+### 📄 Doc #455 — 2026-09-03
+
+Notice of Withdrawal of Motion to Consider Whether Another Party's Materials Should be Sealed for HarperCollins Publishing LLC, Dkt. 453 (Nath, Rohit) (Filed on 9/3/2026) (Entered: 09/03/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68325564/455/in-re-mosaic-llm-litigation/)
+
+### 📄 Doc #454 — 2026-09-01
+
+NOTICE of Withdrawal filed by Michael David Kibler, no longer appearing on behalf of Association of American Publishers, Inc., International Association of Scientific, Technical & Medical Publishers, News/Media Alliance in this case (Kibler, Michael) (Filed on 9/1/2026) (Entered: 09/01/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68325564/454/in-re-mosaic-llm-litigation/)
+
+### 📄 Doc #— — 2026-09-01
+
+Notice of Appearance/Substitution/Change/Withdrawal of Attorney
 
 ### 📄 Doc #453 — 2026-08-31
 
-Administrative Motion to Consider Whether Another Partys Material Should Be Sealed
+Administrative Motion to Consider Whether Another Party's Material Should Be Sealed [Corrected] filed by Brian Keene, Rebecca Makkai, Abdi Nazemian, Stewart ONan, Jason Reynolds. (Attachments: # 1 Declaration of Rohit Nath, # 2 Proposed Order)(Nath, Rohit) (Filed on 8/31/2026) (Entered: 08/31/2026)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/68325564/453/in-re-mosaic-llm-litigation/)
 
-### 📄 Doc #452 — 2026-08-28
-
-Order on Motion for Pro Hac Vice
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68325564/452/in-re-mosaic-llm-litigation/)
-
-### 📄 Doc #450 — 2026-08-28
-
-Order on Motion for Pro Hac Vice
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68325564/450/in-re-mosaic-llm-litigation/)
-
-### 📄 Doc #451 — 2026-08-28
-
-Order on Motion for Pro Hac Vice
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68325564/451/in-re-mosaic-llm-litigation/)
-
 ### 📄 Doc #430 — 2026-08-27
 
-Exhibit B - Proposed Order Granting Amici Curiae's Motion for Leave to File
+MOTION to File Amicus Curiae Brief in Opposition to Defendants' Motion for Summary Judgment and in Support of Plaintiffs' Motion for Partial Summary Judgment filed by American Association of Independent Music, Artist Rights Alliance, Black Music Action Coalition, Music Artists Coalition, National Academy of Recording Arts & Sciences, Inc., Recording Industry Association of America, Songwriters of North America. Motion Hearing set for 10/30/2026 10:00 AM before Judge Charles R. Breyer. Responses due by 9/10/2026. Replies due by 9/17/2026. (Attachments: # 1 Exhibit A - Proposed Amicus Brief, # 2 Exhibit B - Proposed Order Granting Amici Curiae's Motion for Leave to File Amicus Brief)(Akley, Benjamin) (Filed on 8/27/2026) (Entered: 08/27/2026)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/68325564/430/2/in-re-mosaic-llm-litigation/)
 
 ### 📄 Doc #431 — 2026-08-27
 
-Proposed Order
+MOTION to File Amicus Curiae Brief filed by Association of American Publishers, Inc., International Association of Scientific, Technical & Medical Publishers, News/Media Alliance. Motion Hearing set for 10/30/2026 10:00 AM in San Francisco, Courtroom 06, 17th Floor before Judge Charles R. Breyer. Responses due by 9/10/2026. Replies due by 9/17/2026. (Attachments: # 1 Declaration of Lucy Grace D. Noyola, # 2 Exhibit A - Amici Curiae Brief, # 3 Proposed Order)(Noyola, Lucy) (Filed on 8/27/2026) (Entered: 08/27/2026)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/68325564/431/3/in-re-mosaic-llm-litigation/)
 
 ### 📄 Doc #437 — 2026-08-27
 
-Proposed Order Granting Leave to File
+MOTION to File Amicus Curiae Brief filed by Copyright Alliance. Motion Hearing set for 10/30/2026 10:00 AM in San Francisco, - To be determined before Judge Charles R. Breyer. Responses due by 9/10/2026. Replies due by 9/17/2026. (Attachments: # 1 Supplement Proposed Amicus Brief, # 2 Proposed Order Granting Leave to File)(Gould, Benjamin) (Filed on 8/27/2026) (Entered: 08/27/2026)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/68325564/437/2/in-re-mosaic-llm-litigation/)
 
 ### 📄 Doc #439 — 2026-08-27
 
-Proposed Amicus Curiae Brief
+MOTION to File Amicus Curiae Brief filed by Linda Bloss-Baum. Motion Hearing set for 10/30/2026 10:00 AM in San Francisco, Courtroom 06, 17th Floor before Judge Charles R. Breyer. Responses due by 9/10/2026. Replies due by 9/17/2026. (Attachments: # 1 Proposed Amicus Curiae Brief)(Rosen, Jeremy) (Filed on 8/27/2026) (Entered: 08/27/2026)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/68325564/439/1/in-re-mosaic-llm-litigation/)
 
 ### 📄 Doc #445 — 2026-08-27
 
-Amici Brief
+MOTION to File Amicus Curiae Brief filed by The Authors Guild, Inc., the National Press Photographers Association, The American Society of Media Photographers, Romance Writers of America, Inc., The Digital Media Leadership Alliance, The Association of American Literary Agents, The American Society for Collective Rights Licensing, The Society of Composers & Lyricists, The Dramatists Guild of America, Inc., The Graphic Artists Guild, American Photographic Artists. Motion Hearing set for 10/30/2026 10:00 AM in San Francisco, Courtroom 06, 17th Floor before Judge Charles R. Breyer. Responses due by 9/10/2026. Replies due by 9/17/2026. (Attachments: # 1 Amici Brief)(Grinsell, Timothy) (Filed on 8/27/2026) (Entered: 08/27/2026)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/68325564/445/1/in-re-mosaic-llm-litigation/)
 
 ### 📄 Doc #448 — 2026-08-27
 
-Proposed Order
+MOTION to File Amicus Curiae Brief filed by A.I. Progress, Inc., Computer and Communications Industry Association, NetChoice, LLC. Motion Hearing set for 10/30/2026 10:00 AM in San Francisco, Courtroom 06, 17th Floor before Judge Charles R. Breyer. Responses due by 9/10/2026. Replies due by 9/17/2026. (Attachments: # 1 Exhibit A - Proposed Amici Brief of CCIA, AI Progress, and NetChoice, # 2 Proposed Order)(Tuttle, Eric) (Filed on 8/27/2026) (Entered: 08/27/2026)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/68325564/448/2/in-re-mosaic-llm-litigation/)
 
-### 📄 Doc #449 — 2026-08-27
-
-Certificate of Interested Entities, Corporate Disclosure Statement, or Rule 7.1 Disclosures
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68325564/449/in-re-mosaic-llm-litigation/)
-
 ### 📄 Doc #446 — 2026-08-27
 
-Amicus Curiae Appearance
+Amicus Curiae APPEARANCE entered by Eric Preston Tuttle on behalf of Computer and Communications Industry Association, A.I. Progress, Inc., NetChoice, LLC. (Tuttle, Eric) (Filed on 8/27/2026) (Entered: 08/27/2026)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/68325564/446/in-re-mosaic-llm-litigation/)
 
 ### 📄 Doc #447 — 2026-08-27
 
-Amicus Curiae Appearance
+Notice of (Amicus Curiae) APPEARANCE entered by Paul Nicholas Harold on behalf of A.I. Progress, Inc., Computer and Communications Industry Association, NetChoice, LLC. (Harold, Paul) (Filed on 8/27/2026) Modified on 8/28/2026 (amf, COURT STAFF). (Entered: 08/27/2026)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/68325564/447/in-re-mosaic-llm-litigation/)
 
 ### 📄 Doc #443 — 2026-08-27
 
-Proposed Order
+MOTION to File Amicus Curiae Brief filed by Chamber of Progress, Electronic Frontier Foundation. Motion Hearing set for 10/30/2026 10:00 AM in San Francisco, Courtroom 06, 17th Floor before Judge Charles R. Breyer. Responses due by 9/10/2026. Replies due by 9/17/2026. (Attachments: # 1 Exhibit Exhibit A - Amicus Brief, # 2 Proposed Order)(McSherry, Corynne) (Filed on 8/27/2026) (Entered: 08/27/2026)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/68325564/443/2/in-re-mosaic-llm-litigation/)
-
-### 📄 Doc #440 — 2026-08-27
-
-Certificate of Interested Entities, Corporate Disclosure Statement, or Rule 7.1 Disclosures
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68325564/440/in-re-mosaic-llm-litigation/)
-
-### 📄 Doc #442 — 2026-08-27
-
-Certificate of Interested Entities, Corporate Disclosure Statement, or Rule 7.1 Disclosures
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68325564/442/in-re-mosaic-llm-litigation/)
-
-### 📄 Doc #438 — 2026-08-27
-
-Certificate of Interested Entities, Corporate Disclosure Statement, or Rule 7.1 Disclosures
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68325564/438/in-re-mosaic-llm-litigation/)
-
-### 📄 Doc #434 — 2026-08-27
-
-Certificate of Interested Entities, Corporate Disclosure Statement, or Rule 7.1 Disclosures
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68325564/434/in-re-mosaic-llm-litigation/)
-
-### 📄 Doc #436 — 2026-08-27
-
-Certificate of Interested Entities, Corporate Disclosure Statement, or Rule 7.1 Disclosures
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68325564/436/in-re-mosaic-llm-litigation/)
 
 ### 📄 Doc #— — 2026-08-27
 
@@ -160,7 +210,7 @@ Notice of Appearance/Substitution/Change/Withdrawal of Attorney
 
 ### 📄 Doc #423 — 2026-08-27
 
-Amicus Curiae APPEARANCE entered by Jeremy Brooks Rosen on behalf of Linda Bloss-Baum, Jon M. Garon, Philippa Loengard, Adam Mossoff, Loren E. Mulraine, Chris Newman, Sean Pager, Eric Priest, Zvi Rosen, Mark F. Schultz, Bhamati Viswanathan. (Rosen, Jeremy) (Filed on 8/27/2026) (Entered: 08/27/2026)
+***DISREGARD ENTRY***REFER TO ECF NO. 439***Amicus Curiae APPEARANCE entered by Jeremy Brooks Rosen on behalf of Linda Bloss-Baum, Jon M. Garon, Philippa Loengard, Adam Mossoff, Loren E. Mulraine, Chris Newman, Sean Pager, Eric Priest, Zvi Rosen, Mark F. Schultz, Bhamati Viswanathan. (Rosen, Jeremy) (Filed on 8/27/2026) Modified on 8/28/2026 (ls, COURT STAFF). (Entered: 08/27/2026)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/68325564/423/in-re-mosaic-llm-litigation/)
 
@@ -172,7 +222,7 @@ Amended MOTION to File Amicus Curiae Brief filed by Copyright Law Professors. Mo
 
 ### 📄 Doc #421 — 2026-08-27
 
-MOTION to File Amicus Curiae Brief filed by Copyright Law Professors. Motion Hearing set for 10/30/2026 10:00 AM in San Francisco, Courtroom 06, 17th Floor before Judge Charles R. Breyer. Responses due by 9/10/2026. Replies due by 9/17/2026. (Attachments: # 1 Exhibit Amici brief, # 2 Proposed Order)(Falk, Donald) (Filed on 8/27/2026) (Entered: 08/27/2026)
+**DISREGARD, CORRECTED VERSION FILED AS DOCUMENT 422** MOTION to File Amicus Curiae Brief filed by Copyright Law Professors. Motion Hearing set for 10/30/2026 10:00 AM in San Francisco, Courtroom 06, 17th Floor before Judge Charles R. Breyer. Responses due by 9/10/2026. Replies due by 9/17/2026. (Attachments: # 1 Exhibit Amici brief, # 2 Proposed Order)(Falk, Donald) (Filed on 8/27/2026) Modified on 8/28/2026 (amf, COURT STAFF). (Entered: 08/27/2026)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/68325564/421/2/in-re-mosaic-llm-litigation/)
 
@@ -346,7 +396,7 @@ Administrative Motion to Consider Whether Another Party's Material Should Be Sea
 
 ### 📄 Doc #387 — 2026-08-05
 
-ORDER REGARDING PLAINTIFFS ADMINISTRATIVE MOTION TO CONSIDER WHETHER ANOTHER PARTYS MATERIAL SHOULD BE FILED UNDER SEAL by Judge Charles R. Breyer:   Granting  340   Administrative Motion to Consider Whether Another Party's Material Should Be Sealed.  (ls, COURT STAFF) (Filed on 8/5/2026)
+ORDER REGARDING PLAINTIFFS ADMINISTRATIVE MOTION TO CONSIDER WHETHER ANOTHER PARTYS MATERIAL SHOULD BE FILED UNDER SEAL by Judge Charles R. Breyer: Granting 340 Administrative Motion to Consider Whether Another Party's Material Should Be Sealed. (ls, COURT STAFF) (Filed on 8/5/2026) (Entered: 08/05/2026)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/68325564/387/in-re-mosaic-llm-litigation/)
 
@@ -398,13 +448,13 @@ Brief re 337 Administrative Motion to Consider Whether Another Party's Material 
 
 ### 📄 Doc #373 — 2026-07-17
 
-STIPULATION AND ORDER EXTENDING TIME FOR NON-PARTY HARPERCOLLINS PUBLISHERS L.L.C. TO  RESPOND TO ADMINISTRATIVE SEALING MOTIONS [ECF Nos. 312, 336]  by Judge Charles R. Breyer:  Granting  371   Stipulation.  (ls, COURT STAFF) (Filed on 7/17/2026)
+STIPULATION AND ORDER EXTENDING TIME FOR NON-PARTY HARPERCOLLINS PUBLISHERS L.L.C. TO RESPOND TO ADMINISTRATIVE SEALING MOTIONS [ECF Nos. 312, 336] by Judge Charles R. Breyer: Granting 371 Stipulation. (ls, COURT STAFF) (Filed on 7/17/2026) (Entered: 07/17/2026)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/68325564/373/in-re-mosaic-llm-litigation/)
 
 ### 📄 Doc #372 — 2026-07-17
 
-STIPULATION AND ORDER EXTENDING TIME FOR NON-PARTY JOHN WILEY & SONS TO RESPOND TO ADMINISTRATIVE SEALING MOTIONS [ECF Nos. 316 & 337]  by Judge Charles R. Breyer:   Granting  370   Stipulation.  (ls, COURT STAFF) (Filed on 7/17/2026)
+STIPULATION AND ORDER EXTENDING TIME FOR NON-PARTY JOHN WILEY & SONS TO RESPOND TO ADMINISTRATIVE SEALING MOTIONS [ECF Nos. 316 & 337] by Judge Charles R. Breyer: Granting 370 Stipulation. (ls, COURT STAFF) (Filed on 7/17/2026) (Entered: 07/17/2026)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/68325564/372/in-re-mosaic-llm-litigation/)
 
@@ -428,13 +478,13 @@ Declaration of Michelle Woodhouse in Support of 338 Administrative Motion to Con
 
 ### 📄 Doc #368 — 2026-07-15
 
-STIPULATION AND ORDER EXTENDING TIME FOR NON-PARTY OPENAI TO RESPOND TO  ADMINISTRATIVE SEALING MOTION [ECF No. 340] by Judge Charles R. Breyer:   Granting  366   Stipulation.  (ls, COURT STAFF) (Filed on 7/15/2026)
+STIPULATION AND ORDER EXTENDING TIME FOR NON-PARTY OPENAI TO RESPOND TO ADMINISTRATIVE SEALING MOTION [ECF No. 340] by Judge Charles R. Breyer: Granting 366 Stipulation. (ls, COURT STAFF) (Filed on 7/15/2026) (Entered: 07/15/2026)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/68325564/368/in-re-mosaic-llm-litigation/)
 
 ### 📄 Doc #367 — 2026-07-14
 
-STIPULATION AND ORDER EXTENDING TIME FOR NON-PARTY META PLATFORMS TO RESPOND TO  ADMINISTRATIVE SEALING MOTION [ECF No. 338]  by Judge Charles R. Breyer:   Granting  355   Stipulation.  (ls, COURT STAFF) (Filed on 7/14/2026)
+STIPULATION AND ORDER EXTENDING TIME FOR NON-PARTY META PLATFORMS TO RESPOND TO ADMINISTRATIVE SEALING MOTION [ECF No. 338] by Judge Charles R. Breyer: Granting 355 Stipulation. (ls, COURT STAFF) (Filed on 7/14/2026) (Entered: 07/14/2026)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/68325564/367/in-re-mosaic-llm-litigation/)
 
@@ -464,7 +514,7 @@ STIPULATION WITH PROPOSED ORDER re 338 Administrative Motion to Consider Whether
 
 ### 📄 Doc #354 — 2026-07-10
 
-STIPULATION AND ORDER EXTENDING TIME FOR NON-PARTY SIMON & SCHUSTER TO RESPOND TO  ADMINISTRATIVE SEALING MOTION by Judge Charles R. Breyer:  Granting  351   Stipulation.  (ls, COURT STAFF) (Filed on 7/10/2026)
+STIPULATION AND ORDER EXTENDING TIME FOR NON-PARTY SIMON & SCHUSTER TO RESPOND TO ADMINISTRATIVE SEALING MOTION by Judge Charles R. Breyer: Granting 351 Stipulation. (ls, COURT STAFF) (Filed on 7/10/2026) (Entered: 07/10/2026)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/68325564/354/in-re-mosaic-llm-litigation/)
 
@@ -504,13 +554,13 @@ Notice of Appearance/Substitution/Change/Withdrawal of Attorney
 
 ### 📄 Doc #345 — 2026-07-06
 
-STIPULATION AND ORDER RE DAUBERT BRIEFING  by Judge Charles R. Breyer:   Granting  334   Stipulation.  Responses due by 8/13/2026.    Replies due by 9/14/2026. (ls, COURT STAFF) (Filed on 7/6/2026)
+STIPULATION AND ORDER RE DAUBERT BRIEFING by Judge Charles R. Breyer: Granting 334 Stipulation. Responses due by 8/13/2026. Replies due by 9/14/2026. (ls, COURT STAFF) (Filed on 7/6/2026) (Entered: 07/06/2026)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/68325564/345/in-re-mosaic-llm-litigation/)
 
 ### 📄 Doc #344 — 2026-07-06
 
-STIPULATION AND ORDER RE RESPONSES TO ADMINISTRATIVE MOTIONS TO SEAL SCHEDULE by Judge Charles R. Breyer:   Granting  333   Stipulation.  (ls, COURT STAFF) (Filed on 7/6/2026)
+STIPULATION AND ORDER RE RESPONSES TO ADMINISTRATIVE MOTIONS TO SEAL SCHEDULE by Judge Charles R. Breyer: Granting 333 Stipulation. (ls, COURT STAFF) (Filed on 7/6/2026) (Entered: 07/06/2026)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/68325564/344/in-re-mosaic-llm-litigation/)
 
@@ -854,111 +904,23 @@ CLERK'S NOTICE VACATING Motion to Dismiss Second Amended Consolidated Complaint 
 
 Clerk's Notice
 
-### 📄 Doc #278 — 2026-02-27
-
-ORDER GRANTING PLAINTIFFS ADMINISTRATIVE MOTION TO CONSIDER WHETHER ANOTHER PARTYS MATERIAL SHOULD BE FILED UNDER SEAL by Judge Charles R. Breyer: Granting 271 Administrative Motion to Consider Whether Another Party's Material Should Be Sealed. (ls, COURT STAFF) (Filed on 2/27/2026) (Entered: 02/27/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68325564/278/in-re-mosaic-llm-litigation/)
-
-### 📄 Doc #277 — 2026-02-26
-
-ORDER REGARDING DEFENDANTS ADMINISTRATIVE MOTION TO FILE UNDER SEAL REPLY IN SUPPORT OF MOTION TO DISMISS SECOND AMENDED CONSOLIDATED COMPLAINT AND MOTION TO STRIKE by Judge Charles R. Breyer: Granting 274 Administrative Motion to File Under Seal. (ls, COURT STAFF) (Filed on 2/26/2026) (Entered: 02/26/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68325564/277/in-re-mosaic-llm-litigation/)
-
-### 📄 Doc #274 — 2026-02-25
-
-Administrative Motion to File Under Seal filed by Databricks, Inc., Mosaic ML, Inc.. (Attachments: # 1 Declaration of Eric Berger in Support of Defendants' Administrative Motion to File Under Seal Defendants' Reply in Support of Motion to Dismiss Second Amended Consolidated Complaint and Motion to Stirke, # 2 Proposed Order Regarding Defendants' Administrative Motion to File Under Seal Reply in Support of Motion to Dismiss Second Amended Consolidated Complaint and Motion to Strike, # 3 Unredacted Version of Defendants' Reply in Support of Motion to Dismiss Second Amended Consolidated Complaint and Motion to Strike)(Wakefield, Jedediah) (Filed on 2/25/2026) (Entered: 02/25/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68325564/274/2/in-re-mosaic-llm-litigation/)
-
-### 📄 Doc #273 — 2026-02-25
-
-OPPOSITION/RESPONSE (re 271 Administrative Motion to Consider Whether Another Party's Material Should Be Sealed re Plaintiffs' Opposition to Defendants' Motion to Dismiss Second Amended Consolidated Complaint and Motion to Strike ) filed byDatabricks, Inc., Mosaic ML, Inc.. (Attachments: # 1 Declaration of Eric Berger in Support of Defendants' Response to Plaintiffs' Administrative Motion to Consider Whether Another Party's Material Should be Filed Under Seal Re: Plaintiffs' Opposition to Defendants' Motion to Dismiss Second Amended Consolidated Complaint and Motion to Strike, # 2 Proposed Order Regarding Plaintiffs' Administrative Motion to Consider Whether Another Party's Material Should be Filed Under Seal Re: Plaintiffs' Opposition to Defendants' Motion to Dismiss Second Amended Consolidated Complaint and Motion to Strike)(Wakefield, Jedediah) (Filed on 2/25/2026) (Entered: 02/25/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68325564/273/2/in-re-mosaic-llm-litigation/)
-
-### 📄 Doc #275 — 2026-02-25
-
-REPLY (re 264 MOTION to Dismiss Second Amended Consolidated Complaint and Motion to Strike ) filed byDatabricks, Inc., Mosaic ML, Inc.. (Wakefield, Jedediah) (Filed on 2/25/2026) (Entered: 02/25/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68325564/275/in-re-mosaic-llm-litigation/)
-
-### 📄 Doc #272 — 2026-02-18
-
-OPPOSITION/RESPONSE (re 264 MOTION to Dismiss Second Amended Consolidated Complaint and Motion to Strike ) filed byBrian Keene, Rebecca Makkai, Abdi Nazemian, Stewart ONan, Jason Reynolds. (Attachments: # 1 Proposed Order)(Saveri, Joseph) (Filed on 2/18/2026) (Entered: 02/18/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68325564/272/1/in-re-mosaic-llm-litigation/)
-
-### 📄 Doc #271 — 2026-02-18
-
-Administrative Motion to Consider Whether Another Party's Material Should Be Sealed re Plaintiffs' Opposition to Defendants' Motion to Dismiss Second Amended Consolidated Complaint and Motion to Strike filed by Brian Keene, Rebecca Makkai, Abdi Nazemian, Stewart ONan, Jason Reynolds. (Attachments: # 1 Declaration of W. Castillo Guardado in support of, # 2 Proposed Order, # 3 Plaintiffs' Opposition to Defendants' Motion to Dismiss Second Amended Consolidated Complaint and Motion to Strike (sealed))(Saveri, Joseph) (Filed on 2/18/2026) (Entered: 02/18/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68325564/271/in-re-mosaic-llm-litigation/)
-
-### 📄 Doc #270 — 2026-02-18
-
-STIPULATION AND ORDER TO AMEND SCHEDULE by Judge Charles R. Breyer Granting 269 Stipulation. Close of Expert Discovery due by 3/16/2026. Designation of Rebuttal Experts due by 4/17/2026. Discovery due by 6/1/2026. Motions due by 6/29/2026. Motion hearing set for October 30, 2026 at 10:00 a.m. by video conference. Replies due by 9/14/2026. Responses due by 8/13/2026. (ls, COURT STAFF) (Filed on 2/18/2026) (Entered: 02/18/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68325564/270/in-re-mosaic-llm-litigation/)
-
-### 📄 Doc #269 — 2026-02-13
-
-STIPULATION WITH PROPOSED ORDER TO AMEND CASE SCHEDULE filed by Brian Keene, Rebecca Makkai, Abdi Nazemian, Stewart ONan, Jason Reynolds. (Nystrom, Trevor) (Filed on 2/13/2026) (Entered: 02/13/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68325564/269/in-re-mosaic-llm-litigation/)
-
-### 📄 Doc #— — 2026-02-11
-
-Notice of Appearance/Substitution/Change/Withdrawal of Attorney
-
-### 📄 Doc #266 — 2026-02-05
-
-CLERK'S NOTICE VACATING MOTION to Dismiss Second Amended Consolidated Complaint and Motion to Strike hearing set for March 6, 2026 before the Honorable Charles R. Breyer. (This is a text-only entry generated by the court. There is no document associated with this entry.). Motion Hearing set for 3/20/2026 at 10:00 AM in San Francisco - Videoconference Only before Judge Charles R. Breyer. This proceeding will be held via a Zoom webinar.Webinar Access: All counsel, members of the public, and media may access the webinar information at https://www.cand.uscourts.gov/crb Court Appearances: Advanced notice is required of counsel or parties who wish to be identified by the court as making an appearance or will be participating in the argument at the hearing. A list of names and emails must be sent to the CRD at crbcrd@cand.uscourts.gov no later than March 17, 2026 at 3:00 PM PST.Civ LR 77-3(d). Persons granted access to court proceedings held by telephone or videoconference are reminded that p …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68325564/266/in-re-mosaic-llm-litigation/)
-
-### 📄 Doc #267 — 2026-02-05
-
-ORDER REGARDING DEFENDANTS ADMINISTRATIVE MOTION TO FILE UNDER SEAL MOTION TO DISMISS SECOND AMENDED CONSOLIDATED COMPLAINT AND MOTION TO STRIKE by Judge Charles R. Breyer: Granting 263 Administrative Motion to File Under Seal. (ls, COURT STAFF) (Filed on 2/5/2026) (Entered: 02/05/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68325564/267/in-re-mosaic-llm-litigation/)
-
-### 📄 Doc #— — 2026-02-05
-
-Clerk's Notice AND ~Util - Teleconference Zoom
-
-### 📄 Doc #263 — 2026-02-04
-
-Administrative Motion to File Under Seal Defendants' Motion to Dismiss Second Amended Consolidated Complaint and Motion to Strike filed by Databricks, Inc., Mosaic ML, Inc.. (Attachments: # 1 Declaration of Eric Berger in Support of Defendants' Administrative Motion to File Under Seal Defendants' Motion to Dismiss Second Amended Consolidated Complaint and Motion to Strike, # 2 Proposed Order, # 3 Unredacted Version of Notice of Motion; Motion to Dismiss Second Amended Consolidated Complaint and Motion to Strike, # 4 Unredacted Version of Declaration of Diana C. Buck in Support of Motion to Dismiss Second Amended Consolidated Complaint and Motion to Strike, # 5 Unredacted Version of Exhibit 2 to Declaration of Diana C. Buck, # 6 Unredacted Version of Exhibit 3 to Declaration of Diana C. Buck, # 7 Unredacted Version of Exhibit 4 to Declaration of Diana C. Buck)(Wakefield, Jedediah) (Filed on 2/4/2026) (Entered: 02/04/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68325564/263/2/in-re-mosaic-llm-litigation/)
-
-### 📄 Doc #264 — 2026-02-04
-
-MOTION to Dismiss Second Amended Consolidated Complaint and Motion to Strike filed by Databricks, Inc., Mosaic ML, Inc.. Motion to Dismiss Hearing set for 2/6/2026 10:00 AM in San Francisco, - Videoconference Only. Responses due by 2/18/2026. Replies due by 2/25/2026. (Attachments: # 1 Declaration of Diana C. Buck in Support of Motion to Dismiss Second Amended Consolidated Complaint and Motion to Strike, # 2 Exhibit 1 to Declaration of Diana C. Buck, # 3 Exhibit 2 to Declaration of Diana C. Buck, # 4 Exhibit 3 to Declaration of Diana C. Buck, # 5 Exhibit 4 to Declaration of Diana C. Buck, # 6 Proposed Order)(Wakefield, Jedediah) (Filed on 2/4/2026) (Entered: 02/04/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68325564/264/6/in-re-mosaic-llm-litigation/)
-
-### 📄 Doc #260 — 2026-01-30
-
-NOTICE of Change in Counsel: Attorney Brian D. Buckley no longer representing Databricks, Inc., Mosaic ML, Inc. in this case (Wakefield, Jedediah) (Filed on 1/30/2026) (Entered: 01/30/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68325564/260/in-re-mosaic-llm-litigation/)
-
-### 📄 Doc #— — 2026-01-30
-
-Notice of Appearance/Substitution/Change/Withdrawal of Attorney
-
-### 📄 Doc #258 — 2026-01-26
-
-Administrative Motion to File Under Seal and Redact Transcript of December 4, 2025 Proceedings filed by Databricks, Inc., Mosaic ML, Inc.. (Attachments: # 1 Declaration of Eric Berger, # 2 Declaration of Diana C. Buck, # 3 Proposed Order, # 4 Exhibit 1 - Redacted Transcript, # 5 Exhibit 2 - [FUS] Unredacted Transcript)(Wakefield, Jedediah) (Filed on 1/26/2026) (Entered: 01/26/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68325564/258/4/in-re-mosaic-llm-litigation/)
-
 <details>
-<summary>已過濾的 44 筆程序性 entries（點擊展開）</summary>
+<summary>已過濾的 53 筆程序性 entries（點擊展開）</summary>
 
+- **Doc #452** (2026-08-28): ORDER  by Judge Charles R. Breyer:   Granting  428   Motion for Pro Hac Vice, Nathaniel Kazlow.  (ls, COURT STAFF) (Filed on 8/28/2026)
+- **Doc #450** (2026-08-28): ORDER  by Judge Charles R. Breyer:   Granting  426   Motion for Pro Hac Vice, Frank P. Scibilia.  (ls, COURT STAFF) (Filed on 8/28/2026)
+- **Doc #451** (2026-08-28): ORDER  by Judge Charles R. Breyer:   Granting  427   Motion for Pro Hac Vice, Joshua Weigensberg.  (ls, COURT STAFF) (Filed on 8/28/2026)
+- **Doc #444** (2026-08-27): NOTICE of Appearance filed by Victoria Jane Noble on behalf of Chamber of Progress, Electronic Frontier Foundation (Noble, Victoria) (Filed on 8/27/2026) (Entered: 08/27/2026)
+- **Doc #441** (2026-08-27): NOTICE of Appearance filed by Corynne McSherry on behalf of Electronic Frontier Foundation, Chamber of Progress (McSherry, Corynne) (Filed on 8/27/2026) (Entered: 08/27/2026)
+- **Doc #435** (2026-08-27): NOTICE of Appearance filed by Benjamin Blystad Gould on behalf of Copyright Alliance (Gould, Benjamin) (Filed on 8/27/2026) (Entered: 08/27/2026)
+- **Doc #433** (2026-08-27): NOTICE of Appearance filed by Kevin Cammiso on behalf of Association of American Publishers, Inc., International Association of Scientific, Technical & Medical Publishers, News/Media Alliance (Cammiso…
+- **Doc #432** (2026-08-27): NOTICE of Appearance filed by Michael David Kibler on behalf of Association of American Publishers, Inc., International Association of Scientific, Technical & Medical Publishers, News/Media Alliance (…
+- **Doc #449** (2026-08-27): Corporate Disclosure Statement by A.I. Progress, Inc., Computer and Communications Industry Association, NetChoice, LLC and Certification of Interested Entities or Persons (Tuttle, Eric) (Filed on 8/2…
+- **Doc #440** (2026-08-27): Corporate Disclosure Statement by Copyright Alliance and Certification of Interested Parties (Gould, Benjamin) (Filed on 8/27/2026) (Entered: 08/27/2026)
+- **Doc #442** (2026-08-27): Corporate Disclosure Statement by Chamber of Progress, Electronic Frontier Foundation (McSherry, Corynne) (Filed on 8/27/2026) (Entered: 08/27/2026)
+- **Doc #438** (2026-08-27): Certificate of Interested Entities by American Association of Independent Music, Artist Rights Alliance, Black Music Action Coalition, Music Artists Coalition, National Academy of Recording Arts & Sci…
+- **Doc #434** (2026-08-27): Corporate Disclosure Statement by American Association of Independent Music, International Association of Scientific, Technical & Medical Publishers, News/Media Alliance and Certification of Intereste…
+- **Doc #436** (2026-08-27): Corporate Disclosure Statement by American Association of Independent Music, Artist Rights Alliance, Black Music Action Coalition, Music Artists Coalition, National Academy of Recording Arts & Science…
 - **Doc #429** (2026-08-27): NOTICE of Appearance filed by Dominique Caamano on behalf of Association of American Publishers, Inc., International Association of Scientific, Technical & Medical Publishers, News/Media Alliance (Caa…
 - **Doc #428** (2026-08-27): MOTION for leave to appear in Pro Hac Vice ( Filing fee $ 328, receipt number ACANDC-22391634.) filed by American Association of Independent Music, Artist Rights Alliance, Black Music Action Coalition…
 - **Doc #425** (2026-08-27): NOTICE of Appearance filed by Donald Falk on behalf of Copyright Law Professors (Falk, Donald) (Filed on 8/27/2026) (Entered: 08/27/2026)
@@ -966,11 +928,11 @@ Administrative Motion to File Under Seal and Redact Transcript of December 4, 20
 - **Doc #426** (2026-08-27): MOTION for leave to appear in Pro Hac Vice ( Filing fee $ 328, receipt number ACANDC-22391113.) filed by Recording Industry Association of America, American Association of Independent Music, Songwrite…
 - **Doc #427** (2026-08-27): MOTION for leave to appear in Pro Hac Vice ( Filing fee $ 328, receipt number ACANDC-22391455.) filed by American Association of Independent Music, Artist Rights Alliance, Black Music Action Coalition…
 - **Doc #415** (2026-08-24): MOTION for leave to appear in Pro Hac Vice ( Filing fee $ 328, receipt number ACANDC-22373619.) filed by Association of American Publishers, Inc.. (Attachments: # 1 Certificate of Good Standing)(Noyol…
-- **Doc #416** (2026-08-24): ORDER  by Judge Charles R. Breyer:  Granting  415   Motion for Pro Hac Vice, Lucy Grace D. Noyola.  (ls, COURT STAFF) (Filed on 8/24/2026)
+- **Doc #416** (2026-08-24): ORDER by Judge Charles R. Breyer: Granting 415 Motion for Pro Hac Vice, Lucy Grace D. Noyola. (ls, COURT STAFF) (Filed on 8/24/2026) (Entered: 08/24/2026)
 - **Doc #413** (2026-08-20): CERTIFICATE OF SERVICE by OpenAI OpCo, LLC re 410 Exhibits to an Administrative Motion to File Under Seal, (Blythe, Caitlin) (Filed on 8/20/2026) (Entered: 08/20/2026)
-- **Doc #405** (2026-08-17): ORDER  by Judge Charles R. Breyer:   Granting  404   Motion for Pro Hac Vice, Jim W. Ko.  (ls, COURT STAFF) (Filed on 8/17/2026)
+- **Doc #405** (2026-08-17): ORDER by Judge Charles R. Breyer: Granting 404 Motion for Pro Hac Vice, Jim W. Ko. (ls, COURT STAFF) (Filed on 8/17/2026) (Entered: 08/17/2026)
 - **Doc #404** (2026-08-14): MOTION for leave to appear in Pro Hac Vice ( Filing fee $ 328, receipt number 000000.) Filing fee previously paid on 08/14/26 filed by The AI Rights Project. (Attachments: # 1 Exhibit Certificate of G…
-- **Doc #384** (2026-07-28): ORDER  by Judge Charles R. Breyer:   Granting  382   Motion for Pro Hac Vice, Steven G. Mintz.  (ls, COURT STAFF) (Filed on 7/28/2026)
+- **Doc #384** (2026-07-28): ORDER by Judge Charles R. Breyer: Granting 382 Motion for Pro Hac Vice, Steven G. Mintz. (ls, COURT STAFF) (Filed on 7/28/2026) (Entered: 07/28/2026)
 - **Doc #382** (2026-07-27): MOTION for leave to appear in Pro Hac Vice ( Filing fee $ 328, receipt number ACANDC-22260486.) filed by HarperCollins Publishers L.L.C.. (Attachments: # 1 Exhibit Certificate of Good Standing of Stev…
 - **Doc #381** (2026-07-27): MOTION for leave to appear in Pro Hac Vice ( Filing fee $ 328, receipt number ACANDC-22260153.) filed by HarperCollins Publishers L.L.C.. (Attachments: # 1 Exhibit Certificate of Good Standing of Timo…
 - **Doc #383** (2026-07-27): ORDER by Judge Charles R. Breyer: Granting 381 Motion for Pro Hac Vice, Timothy J. Quill, Jr. (ls, COURT STAFF) (Filed on 7/27/2026) (Entered: 07/27/2026)
@@ -998,14 +960,9 @@ Administrative Motion to File Under Seal and Redact Transcript of December 4, 20
 - **Doc #296** (2026-05-19): NOTICE of Appearance filed by Jonathan Thomas McMichael on behalf of Databricks, Inc., Mosaic ML, Inc. (McMichael, Jonathan) (Filed on 5/19/2026) (Entered: 05/19/2026)
 - **Doc #294** (2026-05-11): CERTIFICATE OF SERVICE by Databricks, Inc., Mosaic ML, Inc. re 291 Administrative Motion to File Under Seal Defendants' Answer to Second Amended Consolidated Complaint (Wakefield, Jedediah) (Filed on …
 - **Doc #279** (2026-03-04): NOTICE of Change of Address by Joseph R. Saveri Change of Firm Name and Address (Saveri, Joseph) (Filed on 3/4/2026) (Entered: 03/04/2026)
-- **Doc #276** (2026-02-25): CERTIFICATE OF SERVICE by Databricks, Inc., Mosaic ML, Inc. re 274 Administrative Motion to File Under Seal (Wakefield, Jedediah) (Filed on 2/25/2026) (Entered: 02/25/2026)
-- **Doc #268** (2026-02-11): NOTICE of Appearance filed by Drew Moss Morgan on behalf of Brian Keene, Rebecca Makkai, Abdi Nazemian, Stewart ONan, Jason Reynolds (Morgan, Drew) (Filed on 2/11/2026) (Entered: 02/11/2026)
-- **Doc #265** (2026-02-05): CERTIFICATE OF SERVICE by Databricks, Inc., Mosaic ML, Inc. re 263 Administrative Motion to File Under Seal Defendants' Motion to Dismiss Second Amended Consolidated Complaint and Motion to Strike (Wa…
-- **Doc #261** (2026-02-04): NOTICE of Change of Address by Jedediah Wakefield (Wakefield, Jedediah) (Filed on 2/4/2026) (Entered: 02/04/2026)
-- **Doc #262** (2026-02-04): NOTICE of Change of Address by Ryan Kwock (Kwock, Ryan) (Filed on 2/4/2026) (Entered: 02/04/2026)
 
 </details>
 
 ---
 
-*產生時間：2026-09-01 01:14 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-10-01 01:14 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

@@ -1,6 +1,6 @@
 # Case 59 — Amazon.com Services LLC v. Perplexity AI, Inc.
 
-> 最後更新（CourtListener fetch）：2026-09-01 01:25 UTC
+> 最後更新（CourtListener fetch）：2026-10-01 01:29 UTC
 
 ---
 
@@ -13,7 +13,7 @@
 | Court | District Court, N.D. California (`cand`) |
 | Judge Assigned | Maxine M. Chesney |
 | Date Filed | 2025-11-04 |
-| Date Last Filing | 2026-08-20 |
+| Date Last Filing | 2026-09-30 |
 | Cause | 28:1331 Fed. Question |
 | Nature of Suit | 890 Other Statutory Actions |
 | Jury Demand | Plaintiff |
@@ -33,11 +33,67 @@
 
 - ⚠️ Court 可能不一致：dashboard 寫「N.D. Cal. 3:25-cv-09514 → 9th Cir. 26-1444（初步禁制令上訴，已發回）」，CourtListener 為「N.D. California」
 - ✅ Judge 一致：dashboard 寫「Maxine M. Chesney（N.D. Cal.）／9th Cir. panel: M. Smith、Tung、Hinderaker」，CourtListener 為「Maxine M. Chesney」
-- ℹ️ Dashboard progress 略落後 16 天：dashboard 最新日期 2026-08-04，CourtListener 最後 entry 2026-08-20
+- ⚠️ Dashboard progress **落後 57 天**：dashboard 最新日期 2026-08-04，CourtListener 最後 entry 2026-09-30——建議查看新近 entries 並補充 progress
 
 ## 3. Docket Entries（最新優先，已過濾程序性 entries）
 
-**實質性 entries**：123 筆／**已過濾程序性 entries**：26 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+**實質性 entries**：133 筆／**已過濾程序性 entries**：26 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+
+### 📄 Doc #126 — 2026-09-30
+
+Order
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71874820/126/amazoncom-services-llc-v-perplexity-ai-inc/)
+
+### 📄 Doc #124 — 2026-09-30
+
+Order AND ~Util - Terminate Motions
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71874820/124/amazoncom-services-llc-v-perplexity-ai-inc/)
+
+### 📄 Doc #125 — 2026-09-30
+
+Order AND ~Util - Terminate Motions
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71874820/125/amazoncom-services-llc-v-perplexity-ai-inc/)
+
+### 📄 Doc #123 — 2026-09-29
+
+Stipulation and Proposed Order
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71874820/123/amazoncom-services-llc-v-perplexity-ai-inc/)
+
+### 📄 Doc #122 — 2026-09-21
+
+AMENDED COMPLAINT against Perplexity AI, Inc.. Filed by Amazon.com Services LLC. (Attachments: # 1 1, # 2 2, # 3 3, # 4 4, # 5 5, # 6 Exhibit 6, # 7 Exhibit 7, # 8 Exhibit 8, # 9 Exhibit 9, # 10 Exhibit 10, # 11 Exhibit 11, # 12 Exhibit 12, # 13 Exhibit 13, # 14 Exhibit 14, # 15 Exhibit 15, # 16 Exhibit 16)(Kaba, Moez) (Filed on 9/21/2026) (Entered: 09/21/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71874820/122/16/amazoncom-services-llc-v-perplexity-ai-inc/)
+
+### 📄 Doc #121 — 2026-09-18
+
+MANDATE of USCA as to 82 Notice of Appeal to the Ninth Circuit, filed by Perplexity AI, Inc. (jnk, COURT STAFF) (Filed on 9/18/2026) (Entered: 09/18/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71874820/121/amazoncom-services-llc-v-perplexity-ai-inc/)
+
+### 📄 Doc #— — 2026-09-15
+
+Set/Reset Deadlines as to 119 MOTION to Dismiss Complaint and Memorandum of Points and Authorities in Support Thereof, 120 Order., ***Deadlines terminated. 120 Order. Motion Hearing reset to 11/20/2026 at 09:00 AM in San Francisco, Courtroom 07, 19th Floor before Judge Maxine M. Chesney. (tl, COURT STAFF) (Filed on 9/15/2026)
+
+### 📄 Doc #— — 2026-09-15
+
+Set Motion and Deadlines/Hearings No NEF AND Terminate Deadlines
+
+### 📄 Doc #120 — 2026-09-14
+
+ORDER CONTINUING HEARING ON DEFENDANT'S MOTION TO DISMISS Signed by Judge Maxine M. Chesney on 9/14/2026.(mmcalc, COURT STAFF) (Filed on 9/14/2026) (Entered: 09/14/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71874820/120/amazoncom-services-llc-v-perplexity-ai-inc/)
+
+### 📄 Doc #119 — 2026-09-11
+
+MOTION to Dismiss Complaint and Memorandum of Points and Authorities in Support Thereof filed by Perplexity AI, Inc.. Motion to Dismiss Hearing set for 10/16/2026 09:00 AM in San Francisco, Courtroom 07, 19th Floor. Responses due by 9/25/2026. Replies due by 10/2/2026. (Attachments: # 1 Proposed Order)(Quinn, John) (Filed on 9/11/2026) (Entered: 09/11/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71874820/119/1/amazoncom-services-llc-v-perplexity-ai-inc/)
 
 ### 📄 Doc #118 — 2026-08-20
 
@@ -751,4 +807,4 @@ Proposed Summons. (Kaba, Moez) (Filed on 11/4/2025) (Entered: 11/04/2025)
 
 ---
 
-*產生時間：2026-09-01 01:25 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-10-01 01:29 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

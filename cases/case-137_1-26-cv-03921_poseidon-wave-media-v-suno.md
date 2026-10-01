@@ -1,6 +1,6 @@
 # Case 137 — Poseidon Wave Media LLC v. Suno, Inc.
 
-> 最後更新（CourtListener fetch）：2026-09-01 01:42 UTC
+> 最後更新（CourtListener fetch）：2026-10-01 01:49 UTC
 
 ---
 
@@ -182,4 +182,4 @@ COMPLAINT against Suno, Inc.. (Filing Fee $ 405.00, Receipt Number ANYSDC-328359
 
 ---
 
-*產生時間：2026-09-01 01:42 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-10-01 01:49 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

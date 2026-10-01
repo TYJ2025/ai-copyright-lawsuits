@@ -1,6 +1,6 @@
 # Case 55 — Gracenote Media Services, LLC v. OpenAI Foundation
 
-> 最後更新（CourtListener fetch）：2026-09-01 01:24 UTC
+> 最後更新（CourtListener fetch）：2026-10-01 01:27 UTC
 
 ---
 
@@ -13,7 +13,7 @@
 | Court | District Court, S.D. New York (`nysd`) |
 | Judge Assigned | Sidney H. Stein |
 | Date Filed | 2026-03-10 |
-| Date Last Filing | 2026-08-12 |
+| Date Last Filing | 2026-09-24 |
 | Cause | 17:501 Copyright Infringement |
 | Nature of Suit | 820 Copyright |
 | Jury Demand | Plaintiff |
@@ -33,11 +33,53 @@
 
 - ✅ Court 一致：dashboard 寫「S.D.N.Y.」，CourtListener 為「S.D. New York」
 - ✅ Judge 一致：dashboard 寫「Sidney H. Stein」，CourtListener 為「Sidney H. Stein」
-- ℹ️ Dashboard progress 內找不到【YYYY/M/D】格式日期；CourtListener 最後 entry: 2026-08-12
+- ℹ️ Dashboard progress 內找不到【YYYY/M/D】格式日期；CourtListener 最後 entry: 2026-09-24
 
 ## 3. Docket Entries（最新優先，已過濾程序性 entries）
 
-**實質性 entries**：86 筆／**已過濾程序性 entries**：16 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+**實質性 entries**：93 筆／**已過濾程序性 entries**：16 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+
+### 📄 Doc #71 — 2026-09-24
+
+Order on Motion for Extension of Time to File
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72384605/71/gracenote-media-services-llc-v-openai-foundation/)
+
+### 📄 Doc #69 — 2026-09-14
+
+Notice of Appearance
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72384605/69/gracenote-media-services-llc-v-openai-foundation/)
+
+### 📄 Doc #70 — 2026-09-14
+
+Notice of Appearance
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72384605/70/gracenote-media-services-llc-v-openai-foundation/)
+
+### 📄 Doc #68 — 2026-09-11
+
+Order
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72384605/68/gracenote-media-services-llc-v-openai-foundation/)
+
+### 📄 Doc #67 — 2026-09-04
+
+Redacted Document
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72384605/67/gracenote-media-services-llc-v-openai-foundation/)
+
+### 📄 Doc #66 — 2026-09-03
+
+Stipulation and Order AND ~Util - Set Deadlines
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72384605/66/gracenote-media-services-llc-v-openai-foundation/)
+
+### 📄 Doc #65 — 2026-09-01
+
+Letter
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72384605/65/gracenote-media-services-llc-v-openai-foundation/)
 
 ### 📄 Doc #64 — 2026-08-12
 
@@ -515,4 +557,4 @@ AO 121 FORM COPYRIGHT - NOTICE OF SUBMISSION BY ATTORNEY. AO 121 Form Copyright 
 
 ---
 
-*產生時間：2026-09-01 01:24 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-10-01 01:27 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

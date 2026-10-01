@@ -1,6 +1,6 @@
 # Case 6 — Bartz v. Anthropic PBC
 
-> 最後更新（CourtListener fetch）：2026-09-01 01:04 UTC
+> 最後更新（CourtListener fetch）：2026-10-01 01:04 UTC
 
 ---
 
@@ -14,7 +14,7 @@
 | Judge Assigned | Araceli Martinez-Olguin |
 | Date Filed | 2024-08-19 |
 | Date Terminated | 2026-07-20 |
-| Date Last Filing | 2026-08-31 |
+| Date Last Filing | 2026-09-29 |
 | Cause | 17:501 Copyright Infringement |
 | Nature of Suit | 820 Copyright |
 | Jury Demand | Both |
@@ -34,11 +34,63 @@
 
 - ⚠️ Court 可能不一致：dashboard 寫「N.D. Cal. (3:24-cv-05417)」，CourtListener 為「N.D. California」
 - ⚠️ Judge 可能不一致：dashboard 寫「Martinez-Olguin（現審；Alsup 為 2025/6 fair use 裁定原審法官）」，CourtListener 為「Araceli Martinez-Olguin」
-- ⚠️ Dashboard progress **落後 135 天**：dashboard 最新日期 2026-04-18，CourtListener 最後 entry 2026-08-31——建議查看新近 entries 並補充 progress
+- ⚠️ Dashboard progress **落後 164 天**：dashboard 最新日期 2026-04-18，CourtListener 最後 entry 2026-09-29——建議查看新近 entries 並補充 progress
 
 ## 3. Docket Entries（最新優先，已過濾程序性 entries）
 
-**實質性 entries**：192 筆／**已過濾程序性 entries**：8 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+**實質性 entries**：193 筆／**已過濾程序性 entries**：7 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+
+### 📄 Doc #693 — 2026-09-29
+
+Settlement Notification (dms, COURT STAFF) (Filed on 9/29/2026) (Entered: 09/29/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/69058235/693/bartz-v-anthropic-pbc/)
+
+### 📄 Doc #692 — 2026-09-15
+
+Order by Judge Araceli Martinez-Olguin granting 691 Stipulation Approving Updates to the Settlement Website. (ads, COURT STAFF) (Filed on 9/15/2026)Any non-CM/ECF Participants have been served by First Class Mail to the addresses of record listed on the Notice of Electronic Filing (NEF) (Entered: 09/15/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/69058235/692/bartz-v-anthropic-pbc/)
+
+### 📄 Doc #691 — 2026-09-11
+
+STIPULATION WITH PROPOSED ORDER re Updates to the Settlement Website filed by Andrea Bartz, Andrea Bartz, Inc., Charles Graeber, Kirk Wallace Johnson, MJ + KJ, Inc.. (Attachments: # 1 Exhibit A - Proposed Changes to Settlement Website Homepage, # 2 Exhibit B - Proposed Changes to Settlement Website FAQ)(Geman, Rachel) (Filed on 9/11/2026) (Entered: 09/11/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/69058235/691/2/bartz-v-anthropic-pbc/)
+
+### 📄 Doc #689 — 2026-09-03
+
+NOTICE of Withdrawal filed by Kathleen R. Hartnett, no longer appearing on behalf of Anthropic PBC in this case (Hartnett, Kathleen) (Filed on 9/3/2026) (Entered: 09/03/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/69058235/689/bartz-v-anthropic-pbc/)
+
+### 📄 Doc #— — 2026-09-03
+
+Notice of Appearance/Substitution/Change/Withdrawal of Attorney
+
+### 📄 Doc #688 — 2026-09-02
+
+STATUS REPORT by Andrea Bartz, Andrea Bartz, Inc., Charles Graeber, Kirk Wallace Johnson, MJ + KJ, Inc.. (Geman, Rachel) (Filed on 9/2/2026) (Entered: 09/02/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/69058235/688/bartz-v-anthropic-pbc/)
+
+### 📄 Doc #— — 2026-09-02
+
+Electronic filing error. Please use the correct form to file Notice of Appeal. The correct form can be found at; https://cand.uscourts.gov/rules-forms-fees/forms?combine=appeal&field_category_target_id=All Please use the following event when filing the Notice of Appeal:Civil Events > Other Filings > Appeal Documents > Notice of Appeal to the Ninth Circuit Re: 687 Objector's Request to Appeal/Intervene in Appeal by Stacy Lynn Werner, Esq. (kxo, COURT STAFF) (Filed on 9/2/2026) Modified on 9/2/2026 (kxo, COURT STAFF).
+
+### 📄 Doc #— — 2026-09-02
+
+Electronic filing error. Please use the correct form to file Notice of Appeal. The correct form can be found at; https://cand.uscourts.gov/rules-forms-fees/forms?combine=appeal&field_category_target_id=All Please use the following event when filing the Notice of Appeal:Civil Events > Other Filings > Appeal Documents > Notice of Appeal to the Ninth Circuit Per Chambers- No need to pay filing fee Re: 687 Objector's Request to Appeal/Intervene in Appeal by Stacy Lynn Werner, Esq. (kxo, COURT STAFF) (Filed on 9/2/2026)
+
+### 📄 Doc #— — 2026-09-02
+
+Electronic Filing Error
+
+### 📄 Doc #687 — 2026-08-31
+
+NOTICE OF APPEAL: Objector's Request to Appeal/Intervene in Appeal by Stacy Lynn Werner, Esq. Objector. (kmg, COURT STAFF) (Filed on 8/31/2026) Modified text on 9/2/2026 (kxo, COURT STAFF). (Entered: 09/01/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/69058235/687/bartz-v-anthropic-pbc/)
 
 ### 📄 Doc #686 — 2026-08-31
 
@@ -51,6 +103,12 @@ Transcript Designation Form (Silverkorn, Brandt) (Filed on 8/31/2026) (Entered: 
 USCA Case Number 26-5455 Court of Appeals for the Ninth Circuit for 683 Notice of Appeal to the Ninth Circuit filed by Cowan DeBaets Abrahams & Sheppard LLP. (kmg, COURT STAFF) (Filed on 8/24/2026) (Entered: 08/25/2026)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/69058235/685/bartz-v-anthropic-pbc/)
+
+### 📄 Doc #690 — 2026-08-20
+
+Letter from Karen S. Gordon dated 8/20/2026. (kmg, COURT STAFF) (Filed on 8/20/2026) (Entered: 09/03/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/69058235/690/bartz-v-anthropic-pbc/)
 
 ### 📄 Doc #684 — 2026-08-20
 
@@ -1100,66 +1158,8 @@ MOTION to Intervene filed by Textbook and Academic Authors Association. Motion H
 
 [CourtListener 連結](https://www.courtlistener.com/docket/69058235/513/3/bartz-v-anthropic-pbc/)
 
-### 📄 Doc #— — 2025-12-19
-
-Response ( Non Motion )
-
-### 📄 Doc #512 — 2025-12-19
-
-RESPONSE re 490 Order Attestation re Court's Order Regarding Class Members who Requested to Remove Legal Name from Works List Lookup by Andrea Bartz, Andrea Bartz, Inc., Charles Graeber, Kirk Wallace Johnson, MJ + KJ, Inc.. (Geman, Rachel) (Filed on 12/19/2025) (Entered: 12/19/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/69058235/512/bartz-v-anthropic-pbc/)
-
-### 📄 Doc #511 — 2025-12-17
-
-OPPOSITION/RESPONSE (re 505 MOTION for Attorney Fees, Reimbursement Of Expenses, And Plaintiff Service Awards ) filed byAnthropic PBC. (Winthrop, Douglas) (Filed on 12/17/2025) (Entered: 12/17/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/69058235/511/bartz-v-anthropic-pbc/)
-
-### 📄 Doc #510 — 2025-12-11
-
-ORDER RE 509 LETTER FROM ATTORNEY CULPEPPER. Signed by Judge Alsup. (whalc2, COURT STAFF) (Filed on 12/11/2025) (Entered: 12/11/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/69058235/510/bartz-v-anthropic-pbc/)
-
-### 📄 Doc #509 — 2025-12-10
-
-NOTICE by Anthropic PBC Notice Pursuant to November 13, 2025 Order of the Court Regarding Communication from Class Member (Attachments: # 1 Exhibit A)(Durie, Daralyn) (Filed on 12/10/2025) (Entered: 12/10/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/69058235/509/1/bartz-v-anthropic-pbc/)
-
-### 📄 Doc #508 — 2025-12-07
-
-TRANSCRIPT ORDER for proceedings held on November 13, 2025 before Judge William Alsup for Court Reporter Ana Dub (Dub, Ana) (Filed on 12/7/2025) (Entered: 12/07/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/69058235/508/bartz-v-anthropic-pbc/)
-
-### 📄 Doc #506 — 2025-12-04
-
-ERRATA re 505 MOTION for Attorney Fees, Reimbursement Of Expenses, And Plaintiff Service Awards by Andrea Bartz, Andrea Bartz, Inc., Charles Graeber, Kirk Wallace Johnson, MJ + KJ, Inc.. (Attachments: # 1 Exhibit A)(Nelson, Justin) (Filed on 12/4/2025) (Entered: 12/04/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/69058235/506/1/bartz-v-anthropic-pbc/)
-
-### 📄 Doc #507 — 2025-12-04
-
-TRANSCRIPT ORDER for proceedings held on November 25, 2025 before Judge William Alsup for Court Reporter April Brott (Brott, April) (Filed on 12/4/2025) (Entered: 12/04/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/69058235/507/bartz-v-anthropic-pbc/)
-
-### 📄 Doc #505 — 2025-12-03
-
-MOTION for Attorney Fees, Reimbursement Of Expenses, And Plaintiff Service Awards filed by Andrea Bartz, Andrea Bartz, Inc., Charles Graeber, Kirk Wallace Johnson, MJ + KJ, Inc.. Motion for Attorney Fees Hearing set for 4/23/2026 12:00 PM in San Francisco, Courtroom 12, 19th Floor before Judge William Alsup. Responses due by 12/17/2025. Replies due by 12/24/2025. (Attachments: # 1 Declaration of Justin Nelson, # 2 Exhibit 1, # 3 Declaration of Rachel Geman, # 4 Declaration of Edelson and M. Oppenheim, # 5 Declaration of Nancy E. Wolf, # 6 Declaration of Professor Samuel Issacharoff, # 7 Declaration of Professor Brian T. Fitzpatrick, # 8 Declaration of Professor William B. Rubenstein, # 9 Proposed Order)(Nelson, Justin) (Filed on 12/3/2025) (Entered: 12/04/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/69058235/505/9/bartz-v-anthropic-pbc/)
-
-### 📄 Doc #503 — 2025-11-30
-
-Transcript of Proceedings held on November 25, 2025, before Judge William H. Alsup. Court Reporter/Transcriber April Wood Brott, telephone number 510-225-8350 april_brott@cand.uscourts.gov. Per General Order No. 59 and Judicial Conference policy, this transcript may be viewed only at the Clerk's Office public terminal or may be purchased through the Court Reporter/Transcriber until the deadline for the Release of Transcript Restriction. After that date it may be obtained through PACER. Any Notice of Intent to Request Redaction, if required, is due no later than 5 business days from date of this filing. (Re 491 Transcript Order - Future Trial with Daily Transcripts, 493 Transcript Order - Future Trial with Daily Transcripts, 492 Transcript Order - Future Trial with Daily Transcripts ) Release of Transcript Restriction set for 3/2/2026. (Related documents(s) 491, 493, 492 ) (Brott, April) (Filed on 11/30/2025) (Entered: 11/30/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/69058235/503/bartz-v-anthropic-pbc/)
-
 <details>
-<summary>已過濾的 8 筆程序性 entries（點擊展開）</summary>
+<summary>已過濾的 7 筆程序性 entries（點擊展開）</summary>
 
 - **Doc #677** (2026-07-01): NOTICE of Appearance filed by Kenneth David Freundlich on behalf of Donald S. Passman (Freundlich, Kenneth) (Filed on 7/1/2026) (Entered: 07/01/2026)
 - **Doc #647** (2026-05-01): CERTIFICATE OF SERVICE by Andrea Bartz, Andrea Bartz, Inc., Charles Graeber, Kirk Wallace Johnson, MJ + KJ, Inc. (Geman, Rachel) (Filed on 5/1/2026) (Entered: 05/01/2026)
@@ -1168,10 +1168,9 @@ Transcript of Proceedings held on November 25, 2025, before Judge William H. Als
 - **Doc #624** (2026-03-25): NOTICE of Appearance filed by Yar R. Chaikovsky on behalf of Anthropic PBC (Chaikovsky, Yar) (Filed on 3/25/2026) (Entered: 03/25/2026)
 - **Doc #520** (2025-12-30): ORDER by Judge William Alsup granting 514 Motion for Pro Hac Vice. (afm, COURT STAFF) (Filed on 12/30/2025) (Entered: 12/30/2025)
 - **Doc #514** (2025-12-23): MOTION for leave to appear in Pro Hac Vice ( Filing fee $ 328, receipt number ACANDC-21482751.) filed by Textbook and Academic Authors Association. (Slarskey, David) (Filed on 12/23/2025) (Entered: 12…
-- **Doc #502** (2025-11-26): NOTICE of Appearance filed by Elizabeth Joan Cabraser on behalf of Andrea Bartz, Andrea Bartz, Inc., Charles Graeber, Kirk Wallace Johnson, MJ + KJ, Inc. (Cabraser, Elizabeth) (Filed on 11/26/2025) (E…
 
 </details>
 
 ---
 
-*產生時間：2026-09-01 01:04 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-10-01 01:04 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

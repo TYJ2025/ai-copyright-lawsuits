@@ -1,6 +1,6 @@
 # Case 150 — Hachette Book Group, Inc. v. Google LLC
 
-> 最後更新（CourtListener fetch）：2026-09-01 01:44 UTC
+> 最後更新（CourtListener fetch）：2026-10-01 01:51 UTC
 
 ---
 
@@ -13,7 +13,7 @@
 | Court | District Court, S.D. New York (`nysd`) |
 | Judge Assigned | Loretta A. Preska |
 | Date Filed | 2026-07-10 |
-| Date Last Filing | 2026-08-31 |
+| Date Last Filing | 2026-09-29 |
 | Cause | 17:101 Copyright Infringement |
 | Nature of Suit | 820 Copyright |
 | Jury Demand | Plaintiff |
@@ -27,33 +27,61 @@
 > - Court=S.D.N.Y.
 > - Judge=待分派
 > - Status=active
-> - Progress=剛立案。 【2026/7/10】Hachette、Cengage、Elsevier 等出版商及作家 Scott Turow 對 Google 提告，指控 Google Books 與 Google Play 書籍資料未經授權用於訓練 Gemini 模型，並主張 Google 蓄意移除或竄改著作權管理資訊（CMI）以掩蓋訓練來源，內部文件據稱曾示警恐面臨鉅額法定賠償風險。法官尚未分派。
+> - Progress=剛立案。 【2026/7/10】Hachette、Cengage、Elsevier 等出版商及作家 Scott Turow 對 Google 提告，指控 Google Books 與 Google Play 書籍資料未經授權用於訓練 Gemini 模型，並主張 Google 蓄意移除或竄改著作權管理資訊（CMI）以掩蓋訓練來源，內部文件據稱曾示警恐面臨鉅額法定賠償風險。法官尚未分派。 【2026/9/30】Google 引用 Castel 法官將 Elsevier v. Meta 移轉加州北區之裁定為依據，主張本案亦應同樣移轉
 
 **自動比對結果：**
 
 - ✅ Court 一致：dashboard 寫「S.D.N.Y.」，CourtListener 為「S.D. New York」
 - ⚠️ Judge 可能不一致：dashboard 寫「待分派」，CourtListener 為「Loretta A. Preska」
-- ⚠️ Dashboard progress **落後 52 天**：dashboard 最新日期 2026-07-10，CourtListener 最後 entry 2026-08-31——建議查看新近 entries 並補充 progress
+- ✅ Dashboard progress 同步：dashboard 最新日期 2026-09-30，CourtListener 最後 entry 2026-09-29（dashboard 不落後）
 
 ## 3. Docket Entries（最新優先，已過濾程序性 entries）
 
-**實質性 entries**：30 筆／**已過濾程序性 entries**：21 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+**實質性 entries**：35 筆／**已過濾程序性 entries**：21 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+
+### 📄 Doc #37 — 2026-09-29
+
+Letter
+
+[CourtListener 連結](https://www.courtlistener.com/docket/73603888/37/hachette-book-group-inc-v-google-llc/)
+
+### 📄 Doc #36 — 2026-09-08
+
+MEMO ENDORSEMENT on re: 33 Letter, filed by Hope Larson, Jessica Fink, Burl Barer, Jingna Zhang, Sarah Andersen, Connie McLennan, Steve Almond, Jill Leovy. ENDORSEMENT: The Court parties to line with record or way.will permit counsel for the interested listen to the conference via telephone. In this District's rules, counsel shall not otherwise broadcast the proceeding in anyCounsel shall contact Chambers by email one day prior to the conference and provide telephone numbers for each attendee. (Signed by Judge Loretta A. Preska on 9/8/2026) (rro) (Entered: 09/08/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/73603888/36/hachette-book-group-inc-v-google-llc/)
+
+### 📄 Doc #— — 2026-09-03
+
+Set/Reset Deadlines: Google LLC answer due 10/29/2026. (rro)
+
+### 📄 Doc #35 — 2026-09-03
+
+ORDER granting 34 Letter Motion for Extension of Time. SO ORDERED.. (Signed by Judge Loretta A. Preska on 9/3/2026) (rro) (Entered: 09/03/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/73603888/35/hachette-book-group-inc-v-google-llc/)
+
+### 📄 Doc #34 — 2026-09-01
+
+CONSENT LETTER MOTION for Extension of Time to Respond to the Complaint addressed to Judge Loretta A. Preska from Paul J. Sampson dated September 1, 2026. Document filed by Google LLC..(Sampson, Paul) (Entered: 09/01/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/73603888/34/hachette-book-group-inc-v-google-llc/)
 
 ### 📄 Doc #33 — 2026-08-31
 
-Letter
+LETTER addressed to Judge Loretta A. Preska from Lesley E. Weaver dated August 31, 2026 re: Remote Access to Upcoming Hearing. Document filed by Steve Almond, Sarah Andersen, Burl Barer, Jessica Fink, Hope Larson, Jill Leovy, Connie McLennan, Jingna Zhang..(Mullens, Gregory) (Entered: 08/31/2026)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/73603888/33/hachette-book-group-inc-v-google-llc/)
 
 ### 📄 Doc #32 — 2026-08-27
 
-Reply to Response to Motion
+LETTER REPLY to Response to Motion addressed to Judge Loretta A. Preska from Paul J. Sampson dated August 27, 2026 re: 28 LETTER MOTION for Conference concerning Defendant Google LLC's anticipated motion to stay proceedings in this case addressed to Judge Loretta A. Preska from Paul J. Sampson dated August 21, 2026. . Document filed by Google LLC..(Sampson, Paul) (Entered: 08/27/2026)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/73603888/32/hachette-book-group-inc-v-google-llc/)
 
 ### 📄 Doc #31 — 2026-08-26
 
-Response (non-motion)
+RESPONSE re: 28 LETTER MOTION for Conference concerning Defendant Google LLC's anticipated motion to stay proceedings in this case addressed to Judge Loretta A. Preska from Paul J. Sampson dated August 21, 2026. . Document filed by Cengage Learning, Inc., Elsevier Inc., Hachette Book Group, Inc., S.C.R.I.B.E., Inc., Scott Turow..(Gould, Jeffrey) (Entered: 08/26/2026)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/73603888/31/hachette-book-group-inc-v-google-llc/)
 
@@ -226,4 +254,4 @@ RULE 7.1 CORPORATE DISCLOSURE STATEMENT. Identifying Corporate Parent Louis Hach
 
 ---
 
-*產生時間：2026-09-01 01:44 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-10-01 01:51 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

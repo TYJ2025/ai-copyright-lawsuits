@@ -1,6 +1,6 @@
 # Case 15 — The New York Times Company v. Perplexity AI, Inc.
 
-> 最後更新（CourtListener fetch）：2026-09-01 01:12 UTC
+> 最後更新（CourtListener fetch）：2026-10-01 01:12 UTC
 
 ---
 
@@ -42,7 +42,7 @@
 
 ### 📄 Doc #76 — 2026-08-31
 
-Protective Order
+STIPULATED CONFIDENTIALITY AND PROTECTIVE ORDER...regarding procedures to be followed that shall govern the handling of confidential material... SO ORDERED. (Signed by Judge Loretta A. Preska on 8/31/2026) (ar) (Entered: 08/31/2026)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/71997720/76/the-new-york-times-company-v-perplexity-ai-inc/)
 
@@ -578,4 +578,4 @@ STATEMENT OF RELATEDNESS re: that this action be filed as related to Dow Jones &
 
 ---
 
-*產生時間：2026-09-01 01:12 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-10-01 01:12 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

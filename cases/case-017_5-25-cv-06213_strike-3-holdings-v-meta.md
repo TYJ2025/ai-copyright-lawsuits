@@ -1,6 +1,6 @@
 # Case 17 — Strike 3 Holdings, LLC v. Meta Platforms, Inc.
 
-> 最後更新（CourtListener fetch）：2026-09-01 01:13 UTC
+> 最後更新（CourtListener fetch）：2026-10-01 01:13 UTC
 
 ---
 
@@ -14,7 +14,7 @@
 | Judge Assigned | Eumi K. Lee |
 | Judge Referred | Susan Van Keulen |
 | Date Filed | 2025-07-23 |
-| Date Last Filing | 2026-08-30 |
+| Date Last Filing | 2026-09-04 |
 | Cause | 17:101 Copyright Infringement |
 | Nature of Suit | 820 Copyright |
 | Jury Demand | Plaintiff |
@@ -34,11 +34,29 @@
 
 - ✅ Court 一致：dashboard 寫「N.D. Cal.」，CourtListener 為「N.D. California」
 - ✅ Judge 一致：dashboard 寫「Eumi K. Lee」，CourtListener 為「Eumi K. Lee」
-- ℹ️ Dashboard progress 內找不到【YYYY/M/D】格式日期；CourtListener 最後 entry: 2026-08-30
+- ℹ️ Dashboard progress 內找不到【YYYY/M/D】格式日期；CourtListener 最後 entry: 2026-09-04
 
 ## 3. Docket Entries（最新優先，已過濾程序性 entries）
 
-**實質性 entries**：88 筆／**已過濾程序性 entries**：15 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+**實質性 entries**：91 筆／**已過濾程序性 entries**：15 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+
+### 📄 Doc #82 — 2026-09-04
+
+Order on Administrative Motion per Civil Local Rule 7-11 AND Order on Administrative Motion per Civil Local Rule 7-11
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70899478/82/strike-3-holdings-llc-v-meta-platforms-inc/)
+
+### 📄 Doc #81 — 2026-09-03
+
+Proposed Order
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70899478/81/1/strike-3-holdings-llc-v-meta-platforms-inc/)
+
+### 📄 Doc #80 — 2026-09-01
+
+Opposition/Response to Motion
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70899478/80/strike-3-holdings-llc-v-meta-platforms-inc/)
 
 ### 📄 Doc #79 — 2026-08-30
 
@@ -48,9 +66,9 @@ Administrative Motion per Civil Local Rule 7-11
 
 ### 📄 Doc #78 — 2026-08-28
 
-Administrative Motion per Civil Local Rule 7-11
+Proposed Order Granting Motion
 
-[CourtListener 連結](https://www.courtlistener.com/docket/70899478/78/strike-3-holdings-llc-v-meta-platforms-inc/)
+[CourtListener 連結](https://www.courtlistener.com/docket/70899478/78/3/strike-3-holdings-llc-v-meta-platforms-inc/)
 
 ### 📄 Doc #77 — 2026-08-18
 
@@ -80,7 +98,7 @@ Certification of ADR Session
 
 ### 📄 Doc #74 — 2026-07-27
 
-ORDER Re Protective Order for Non-Party Discovery re Dkt. 72 . Signed by Judge Susan van Keulen on July 27, 2026. (svklc2, COURT STAFF) (Filed on 7/27/2026) (Entered: 07/27/2026)
+ORDER Re Protective Order for Non-Party Discovery re Dkt.  72 . Signed by Judge Susan van Keulen on July 27, 2026.  (svklc2, COURT STAFF) (Filed on 7/27/2026)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/70899478/74/strike-3-holdings-llc-v-meta-platforms-inc/)
 
@@ -543,4 +561,4 @@ Rule 7.1 Disclosures by Strike 3 Holdings, LLC, Counterlife Media, LLC identifyi
 
 ---
 
-*產生時間：2026-09-01 01:13 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-10-01 01:13 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

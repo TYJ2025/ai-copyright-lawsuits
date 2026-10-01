@@ -1,6 +1,6 @@
 # Case 164 — Round Hill Music LP v. Suno, Inc.
 
-> 最後更新（CourtListener fetch）：2026-09-01 01:45 UTC
+> 最後更新（CourtListener fetch）：2026-10-01 01:52 UTC
 
 ---
 
@@ -13,7 +13,7 @@
 | Court | District Court, N.D. California (`cand`) |
 | Judge Assigned | Rita F. Lin |
 | Date Filed | 2026-08-17 |
-| Date Last Filing | 2026-08-28 |
+| Date Last Filing | 2026-09-29 |
 | Cause | 17:101 Copyright Infringement |
 | Nature of Suit | 820 Copyright |
 | Jury Demand | Plaintiff |
@@ -33,11 +33,67 @@
 
 - ⚠️ Court 可能不一致：dashboard 寫「N.D. Cal. 5:26-cv-08507」，CourtListener 為「N.D. California」
 - ⚠️ Judge 可能不一致：dashboard 寫「Joseph C. Spero」，CourtListener 為「Rita F. Lin」
-- ℹ️ Dashboard progress 略落後 11 天：dashboard 最新日期 2026-08-17，CourtListener 最後 entry 2026-08-28
+- ⚠️ Dashboard progress **落後 43 天**：dashboard 最新日期 2026-08-17，CourtListener 最後 entry 2026-09-29——建議查看新近 entries 並補充 progress
 
 ## 3. Docket Entries（最新優先，已過濾程序性 entries）
 
-**實質性 entries**：25 筆／**已過濾程序性 entries**：9 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+**實質性 entries**：35 筆／**已過濾程序性 entries**：9 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+
+### 📄 Doc #— — 2026-09-29
+
+Notice of Appearance/Substitution/Change/Withdrawal of Attorney
+
+### 📄 Doc #35 — 2026-09-18
+
+Order on Motion for Pro Hac Vice
+
+[CourtListener 連結](https://www.courtlistener.com/docket/74658569/35/round-hill-music-lp-v-suno-inc/)
+
+### 📄 Doc #32 — 2026-09-18
+
+Pro Hac Vice
+
+[CourtListener 連結](https://www.courtlistener.com/docket/74658569/32/round-hill-music-lp-v-suno-inc/)
+
+### 📄 Doc #33 — 2026-09-18
+
+Order on Motion for Pro Hac Vice
+
+[CourtListener 連結](https://www.courtlistener.com/docket/74658569/33/round-hill-music-lp-v-suno-inc/)
+
+### 📄 Doc #34 — 2026-09-18
+
+Pro Hac Vice
+
+[CourtListener 連結](https://www.courtlistener.com/docket/74658569/34/round-hill-music-lp-v-suno-inc/)
+
+### 📄 Doc #— — 2026-09-17
+
+Notice of Appearance/Substitution/Change/Withdrawal of Attorney
+
+### 📄 Doc #31 — 2026-09-17
+
+Certificate of Interested Entities, Corporate Disclosure Statement, or Rule 7.1 Disclosures
+
+[CourtListener 連結](https://www.courtlistener.com/docket/74658569/31/round-hill-music-lp-v-suno-inc/)
+
+### 📄 Doc #29 — 2026-09-08
+
+Order on Motion for Pro Hac Vice
+
+[CourtListener 連結](https://www.courtlistener.com/docket/74658569/29/round-hill-music-lp-v-suno-inc/)
+
+### 📄 Doc #28 — 2026-09-08
+
+Pro Hac Vice
+
+[CourtListener 連結](https://www.courtlistener.com/docket/74658569/28/round-hill-music-lp-v-suno-inc/)
+
+### 📄 Doc #27 — 2026-09-02
+
+Order
+
+[CourtListener 連結](https://www.courtlistener.com/docket/74658569/27/round-hill-music-lp-v-suno-inc/)
 
 ### 📄 Doc #26 — 2026-08-28
 
@@ -190,4 +246,4 @@ Case assigned to Magistrate Judge Joseph C. Spero. Counsel for plaintiff or the 
 
 ---
 
-*產生時間：2026-09-01 01:45 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-10-01 01:52 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

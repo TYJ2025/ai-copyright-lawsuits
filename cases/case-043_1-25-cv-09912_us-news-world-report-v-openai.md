@@ -1,6 +1,6 @@
 # Case 43 — U.S. News & World Report, L.P. v. OpenAI, Inc.
 
-> 最後更新（CourtListener fetch）：2026-09-01 01:21 UTC
+> 最後更新（CourtListener fetch）：2026-10-01 01:25 UTC
 
 ---
 
@@ -13,7 +13,7 @@
 | Court | District Court, S.D. New York (`nysd`) |
 | Judge Assigned | Sidney H. Stein |
 | Date Filed | 2025-11-26 |
-| Date Last Filing | 2026-08-12 |
+| Date Last Filing | 2026-09-24 |
 | Cause | 17:501 Copyright Infringement |
 | Nature of Suit | 820 Copyright |
 | Jury Demand | Plaintiff |
@@ -33,45 +33,93 @@
 
 - ✅ Court 一致：dashboard 寫「S.D.N.Y.」，CourtListener 為「S.D. New York」
 - ✅ Judge 一致：dashboard 寫「Sidney H. Stein」，CourtListener 為「Sidney H. Stein」
-- ℹ️ Dashboard progress 內找不到【YYYY/M/D】格式日期；CourtListener 最後 entry: 2026-08-12
+- ℹ️ Dashboard progress 內找不到【YYYY/M/D】格式日期；CourtListener 最後 entry: 2026-09-24
 
 ## 3. Docket Entries（最新優先，已過濾程序性 entries）
 
-**實質性 entries**：159 筆／**已過濾程序性 entries**：24 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+**實質性 entries**：166 筆／**已過濾程序性 entries**：26 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
 
-### 📄 Doc #121 — 2026-08-12
+### 📄 Doc #128 — 2026-09-24
 
-Memo Endorsement
+Order on Motion for Extension of Time to File
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71970530/128/us-news-world-report-lp-v-openai-inc/)
+
+### 📄 Doc #126 — 2026-09-14
+
+Notice of Appearance
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71970530/126/us-news-world-report-lp-v-openai-inc/)
+
+### 📄 Doc #127 — 2026-09-14
+
+Notice of Appearance
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71970530/127/us-news-world-report-lp-v-openai-inc/)
+
+### 📄 Doc #125 — 2026-09-11
+
+Order
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71970530/125/us-news-world-report-lp-v-openai-inc/)
+
+### 📄 Doc #124 — 2026-09-04
+
+REDACTION to (1700 in 1:25-md-03143-SHS-OTW) MOTION for Summary Judgment . by Daily News LP, The New York Times Company, Ziff Davis Inc.Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Crosby, Ian) (Entered: 09/04/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71970530/124/us-news-world-report-lp-v-openai-inc/)
+
+### 📄 Doc #123 — 2026-09-03
+
+STIPULATED OMNIBUS SEALING ORDER FOR SUMMARY JUDGMENT AND DAUBERT BRIEFING: IT IS HEREBY ORDERED that sealing issues relating to summary judgment and Daubert briefing will be handled as follows: 1. The Parties may provisionally seal portions of briefing and exhibits (including expert reports and declarations) relating to Daubert briefing that contain or refer to material produced in this case that is designated Protected Discovery Material. 2. The Parties may provisionally seal exhibits ( or portions thereof) relating to summary judgment briefing (including expert reports and declarations) that contain or refer to material produced in this case that is designated Protected Discovery Material. 3. For the material addressed in paragraphs 1 and 2 above (the "Provisionally Sealed Material"), the Parties are relieved from the requirement set forth in paragraph 5(8) of Judge Stein's Individual Practices to file a motion to seal contemporaneously with the sealed filings, and the Parties and t …(truncated)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71970530/123/us-news-world-report-lp-v-openai-inc/)
+
+### 📄 Doc #122 — 2026-09-01
+
+LETTER addressed to Judge Sidney H. Stein from United States of America dated September 1, 2026 re: STATEMENT OF INTEREST OF UNITED STATES OF AMERICA. Document filed by United States of America.Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Weisbuch, Michael) (Entered: 09/01/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71970530/122/us-news-world-report-lp-v-openai-inc/)
+
+### 📄 Doc #121 — 2026-08-11
+
+MEMO ENDORSEMENT granting on re: (1383 in 1:23-cv-11195-SHS-OTW, 1162 in 1:23-cv-08292-SHS-OTW, 527 in 1:25-cv-04315-SHS-OTW) MOTION for Rose S. Lee to Withdraw as Attorney . filed by OpenAI, Inc., OpenAI GP LLC, OpenAI Startup Fund GP I LLC, OpenAI LP, OAI Corporation LLC, OpenAI Group PBC, OpenAI OpCo, L.L.C., OpenAI Startup Fund I LP, OpenAI GP, LLC, OpenAI Holdings LLC, OpenAI OpCo LLC, OpenAI, LLC, OpenAI Holdings, LLC, OpenAI Global LLC, OpenAI Inc., OpenAI LLC, OpenAI Startup Fund Management LLC, OpenAI Global, L.L.C., OAI Corporation, OAI Corporation, LLC. ENDORSEMENT: Accordingly, Rose S. Lee requests that her withdrawal as counsel be granted and that she be removed from this actions electronic case filing (ECF) service list. Application GRANTED. SO ORDERED. (Signed by Magistrate Judge Ona T. Wang on 8/11/2026) (jjc) (Entered: 08/12/2026)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/71970530/121/us-news-world-report-lp-v-openai-inc/)
 
 ### 📄 Doc #119 — 2026-08-07
 
-Order AND ~Util - Set Deadlines
+ORDER: Anyone wishing to file an amicus brief in connection with the summary judgment motions in this multidistrict litigation shall file a motion requesting leave to file an amicus brief no later than October 16, 2026. The motion requesting such leave shall include the proposed amicus brief, which shall be no more than 6,000 words. SO ORDERED. (Motions due by 10/16/2026.) (Signed by Judge Sidney H. Stein on 8/7/2026) Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al. (jca) (Entered: 08/07/2026)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/71970530/119/us-news-world-report-lp-v-openai-inc/)
 
 ### 📄 Doc #120 — 2026-08-07
 
-Order AND ~Util - Set Deadlines
+ORDER: The following word limits shall apply to summary judgment motions in the News Cases: Opening Briefs: 8,750 words for Microsoft; 8,750 words for OpenAI; 17,500 words for News Plaintiffs/ divided as they see fit. Opposition Briefs: 17,500 words for defendants, divided as they see fit; 17,500 words for News Plaintiffs, divided as they see fit. Reply Briefs: 8,750 words for defendants, divided as they see fit; 8,750 words for News Plaintiffs, divided as they see fit. The following limits shall apply to summary judgment motions in the consolidated class cases: Class plaintiffs, OpenAI, and Microsoft may each make only one motion for summary judgment. Class plaintiffs, OpenAI, and Microsoft shall each have 12,500 words for opening and opposition briefs, and 7,500 words each for replies. The following limits and schedule shall apply for Daubert motions in all cases: The Court adopts plaintiffs' proposal for a global word count to cover all Dabuert motions, with all plaintiffs sharing a …(truncated)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/71970530/120/us-news-world-report-lp-v-openai-inc/)
 
 ### 📄 Doc #117 — 2026-08-05
 
-Letter
+JOINT LETTER addressed to Judge Sidney H. Stein from Davida Brook, Justin A. Nelson, Lisa T. Simpson & R. James Slaughter dated 08/05/2026 re: word limits for summary judgment briefs on class plaintiffs' claims and limitations on Daubert briefs. Document filed by The New York Times Company.Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Brook, Davida) (Entered: 08/05/2026)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/71970530/117/us-news-world-report-lp-v-openai-inc/)
 
 ### 📄 Doc #118 — 2026-08-05
 
-Proposed Stipulation and Order
+PROPOSED STIPULATION AND ORDER. Document filed by The New York Times Company..(Brook, Davida) (Entered: 08/05/2026)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/71970530/118/us-news-world-report-lp-v-openai-inc/)
 
+### 📄 Doc #115 — 2026-07-14
+
+ORDER in case 1:23-cv-08292-SHS-OTW; granting (1617) Letter Motion for Leave to File Document in case 1:25-md-03143-SHS-OTW. Leave to file excess pages in regards to the motion for sanctions is GRANTED. (HEREBY ORDERED by Magistrate Judge Ona T. Wang)(Text Only Order) Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al. (Entered: 07/14/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71970530/115/us-news-world-report-lp-v-openai-inc/)
+
 ### 📄 Doc #116 — 2026-07-14
 
-Order
+ORDER: The Court is in receipt of News Plaintiffs' motion for sanctions against Defendant OpenAI at ECF 1618. Parties are directed to meet and confer and file a proposed briefing schedule for the reply and response briefs by Friday, July 17, 2026. (Signed by Magistrate Judge Ona T. Wang on 7/14/2026) Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al. (rro) (Entered: 07/14/2026)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/71970530/116/us-news-world-report-lp-v-openai-inc/)
 
@@ -83,21 +131,15 @@ Order on Motion for Leave to File Document
 
 Notice Regarding Pro Hac Vice Motion
 
-### 📄 Doc #114 — 2026-07-10
-
-Proposed Order admitting Johnathan J. Vaknin Pro Hac Vice
-
-[CourtListener 連結](https://www.courtlistener.com/docket/71970530/114/3/us-news-world-report-lp-v-openai-inc/)
-
 ### 📄 Doc #112 — 2026-07-01
 
-Transcript
+TRANSCRIPT of Proceedings re: conference held on 5/12/2026 before Magistrate Judge Ona T. Wang. Court Reporter/Transcriber: Rebecca Forman, (212) 805-0300. Transcript may be viewed at the court public terminal or purchased through the Court Reporter/Transcriber before the deadline for Release of Transcript Restriction. After that date it may be obtained through PACER. Redaction Request due 7/22/2026. Redacted Transcript Deadline set for 8/3/2026. Release of Transcript Restriction set for 9/29/2026.Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Moya, Goretti) (Entered: 07/01/2026)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/71970530/112/us-news-world-report-lp-v-openai-inc/)
 
 ### 📄 Doc #113 — 2026-07-01
 
-Notice of Filing Transcript
+NOTICE OF FILING OF OFFICIAL TRANSCRIPT Notice is hereby given that an official transcript of a conference proceeding held on 5/12/26 has been filed by the court reporter/transcriber in the above-captioned matter. The parties have seven (7) calendar days to file with the court a Notice of Intent to Request Redaction of this transcript. If no such Notice is filed, the transcript may be made remotely electronically available to the public without redaction after 90 calendar days...Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Moya, Goretti) (Entered: 07/01/2026)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/71970530/113/us-news-world-report-lp-v-openai-inc/)
 
@@ -872,8 +914,10 @@ FILING ERROR - PDF ERROR - CIVIL COVER SHEET filed..(Lieberman, Steven) Modified
 [CourtListener 連結](https://www.courtlistener.com/docket/71970530/2/us-news-world-report-lp-v-openai-inc/)
 
 <details>
-<summary>已過濾的 24 筆程序性 entries（點擊展開）</summary>
+<summary>已過濾的 26 筆程序性 entries（點擊展開）</summary>
 
+- **Doc #—** (2026-07-13): >>>NOTICE REGARDING PRO HAC VICE MOTION. Regarding Document No. (615 in 1:24-cv-04872-SHS-OTW, 43 in 1:26-cv-02097-SHS, 440 in 1:24-cv-01514-SHS-OTW, 306 in 1:25-cv-03483-SHS-OTW, 144 in 1:25-cv-06286…
+- **Doc #114** (2026-07-10): MOTION for Johnathan J. Vaknin to Appear Pro Hac Vice . Filing fee $ 200.00, receipt number NYSDC-33120648. Motion and supporting papers to be reviewed by Clerk's Office staff. Document filed by Micro…
 - **Doc #82** (2026-03-06): CERTIFICATE OF SERVICE of Letter Brief in Response Response to Plaintiffs Discovery Dispute Brief (ECF 1383) and Related Exhibits A-C served on All Plaintiffs and Open AI Defendants on March 5, 2026. …
 - **Doc #75** (2026-02-23): CERTIFICATE OF SERVICE of ECF Doc. No. 1335 served on Plaintiffs on 2/20/2026. Document filed by OAI Corporation, OAI Corporation LLC, OpenAI GP LLC, OpenAI Global LLC, OpenAI Holdings LLC, OpenAI Inc…
 - **Doc #66** (2026-02-04): ORDER GRANTING MOTION TO ADMIT COUNSEL PRO HAC VICE granting (982) Motion for Nathaniel H. Brown to Appear Pro Hac Vice in case 1:23-cv-08292-SHS-OTW; granting (653) Motion for Nathaniel H. Brown to A…
@@ -903,4 +947,4 @@ FILING ERROR - PDF ERROR - CIVIL COVER SHEET filed..(Lieberman, Steven) Modified
 
 ---
 
-*產生時間：2026-09-01 01:21 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-10-01 01:25 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

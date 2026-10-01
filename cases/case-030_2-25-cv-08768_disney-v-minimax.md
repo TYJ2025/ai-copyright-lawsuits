@@ -1,6 +1,6 @@
 # Case 30 — Disney Enterprises, Inc. v. Minimax
 
-> 最後更新（CourtListener fetch）：2026-09-01 01:16 UTC
+> 最後更新（CourtListener fetch）：2026-10-01 01:18 UTC
 
 ---
 
@@ -14,7 +14,7 @@
 | Judge Assigned | Stanley Blumenfeld Jr. |
 | Judge Referred | Charles F. Eick |
 | Date Filed | 2025-09-16 |
-| Date Last Filing | 2026-08-07 |
+| Date Last Filing | 2026-09-16 |
 | Cause | 17:501 Copyright Infringement |
 | Nature of Suit | 820 Copyright |
 | Jury Demand | Plaintiff |
@@ -34,21 +34,21 @@
 
 - ✅ Court 一致：dashboard 寫「C.D. Cal.」，CourtListener 為「C.D. California」
 - ✅ Judge 一致：dashboard 寫「Stanley Blumenfeld Jr.」，CourtListener 為「Stanley Blumenfeld Jr.」
-- ⚠️ Dashboard progress **落後 73 天**：dashboard 最新日期 2026-05-26，CourtListener 最後 entry 2026-08-07——建議查看新近 entries 並補充 progress
+- ⚠️ Dashboard progress **落後 113 天**：dashboard 最新日期 2026-05-26，CourtListener 最後 entry 2026-09-16——建議查看新近 entries 並補充 progress
 
 ## 3. Docket Entries（最新優先，已過濾程序性 entries）
 
-**實質性 entries**：56 筆／**已過濾程序性 entries**：11 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+**實質性 entries**：56 筆／**已過濾程序性 entries**：12 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
 
 ### 📄 Doc #64 — 2026-08-07
 
-STIPULATED PROTECTIVE ORDER  by Magistrate Judge Charles F. Eick re  Stipulation for Protective Order,  63   (SEE DOCUMENT FOR FURTHER DETAILS)   (sh)
+STIPULATED PROTECTIVE ORDER by Magistrate Judge Charles F. Eick re Stipulation for Protective Order, 63 (SEE DOCUMENT FOR FURTHER DETAILS) (sh) (Entered: 08/11/2026)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/71357247/64/disney-enterprises-inc-v-minimax/)
 
 ### 📄 Doc #63 — 2026-08-07
 
-Joint STIPULATION for Protective Order filed by Plaintiffs and Counterclaim Defendants DC Comics, Disney Enterprises, Inc., Dreamworks Animation L.L.C., Hanna-Barbera Productions, Inc., Lucasfilm Ltd. LLC, MVL Film Finance LLC, Marvel Characters, Inc, The Cartoon Network, Inc., Turner Entertainment Co., Twentieth Century Fox Film Corporation, Universal City Studios Productions LLLP, Warner Bros. Entertainment Inc..(Singer, David)
+Joint STIPULATION for Protective Order filed by Plaintiffs and Counterclaim Defendants DC Comics, Disney Enterprises, Inc., Dreamworks Animation L.L.C., Hanna-Barbera Productions, Inc., Lucasfilm Ltd. LLC, MVL Film Finance LLC, Marvel Characters, Inc, The Cartoon Network, Inc., Turner Entertainment Co., Twentieth Century Fox Film Corporation, Universal City Studios Productions LLLP, Warner Bros. Entertainment Inc..(Singer, David) (Entered: 08/07/2026)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/71357247/63/disney-enterprises-inc-v-minimax/)
 
@@ -74,7 +74,7 @@ ORDER DENYING MOTIONS TO DISMISS [DKT. NOS. 34, 35 ] by Judge Stanley Blumenfeld
 
 APPLICATION to Allow More than One Attorney to Argue at the May 29, 2026 Hearing filed by Defendants Nanonoble Pte. Ltd., Shanghai Xiyu Jizhi Technology Co. Ltd.. (Attachments: # 1 Proposed Order) (Schwartz, Robert) (Entered: 05/21/2026)
 
-[CourtListener 連結](https://www.courtlistener.com/docket/71357247/56/disney-enterprises-inc-v-minimax/)
+[CourtListener 連結](https://www.courtlistener.com/docket/71357247/56/1/disney-enterprises-inc-v-minimax/)
 
 ### 📄 Doc #54 — 2026-05-15
 
@@ -371,8 +371,9 @@ Request for Clerk to Issue Summons on Complaint (Attorney Civil Case Opening),,,
 [CourtListener 連結](https://www.courtlistener.com/docket/71357247/3/disney-enterprises-inc-v-minimax/)
 
 <details>
-<summary>已過濾的 11 筆程序性 entries（點擊展開）</summary>
+<summary>已過濾的 12 筆程序性 entries（點擊展開）</summary>
 
+- **Doc #65** (2026-09-16): NOTICE of Appearance filed by attorney Mark D. Marciszewski on behalf of Plaintiffs DC Comics, Disney Enterprises, Inc., Dreamworks Animation L.L.C., Hanna-Barbera Productions, Inc., Lucasfilm Ltd. LL…
 - **Doc #62** (2026-07-29): Notice of Appearance or Withdrawal of Counsel: for attorney Haiyan Tang counsel for Counter Claimant Nanonoble Pte. Ltd., Defendants Nanonoble Pte. Ltd., Shanghai Xiyu Jizhi Technology Co. Ltd.. Addin…
 - **Doc #58** (2026-05-22): Notice of Appearance or Withdrawal of Counsel: for attorney Andrew Jackson Thomas counsel for Plaintiffs DC Comics, Disney Enterprises, Inc., Dreamworks Animation L.L.C., Hanna-Barbera Productions, In…
 - **Doc #59** (2026-05-22): Notice of Appearance or Withdrawal of Counsel: for attorney Andrew Gregory Sullivan counsel for Plaintiffs DC Comics, Disney Enterprises, Inc., Dreamworks Animation L.L.C., Hanna-Barbera Productions, …
@@ -389,4 +390,4 @@ Request for Clerk to Issue Summons on Complaint (Attorney Civil Case Opening),,,
 
 ---
 
-*產生時間：2026-09-01 01:16 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-10-01 01:18 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

@@ -1,6 +1,6 @@
 # Case 16 — Alcon Entertainment, LLC v. Tesla, Inc.
 
-> 最後更新（CourtListener fetch）：2026-09-01 01:12 UTC
+> 最後更新（CourtListener fetch）：2026-10-01 01:12 UTC
 
 ---
 
@@ -11,10 +11,10 @@
 | Case Name | Alcon Entertainment, LLC v. Tesla, Inc. |
 | Docket Number | `2:24-cv-09033` |
 | Court | District Court, C.D. California (`cacd`) |
-| Judge Assigned | George H. Wu |
+| Judge Assigned | George H Wu |
 | Judge Referred | Rozella A. Oliver |
 | Date Filed | 2024-10-21 |
-| Date Last Filing | 2026-08-26 |
+| Date Last Filing | 2026-09-30 |
 | Cause | 17:501 Copyright Infringement |
 | Nature of Suit | 820 Copyright |
 | Jury Demand | Plaintiff |
@@ -28,17 +28,131 @@
 > - Court=C.D. Cal.
 > - Judge=George H. Wu
 > - Status=active
-> - Progress=案件由 Wu 法官審理中，目前處於審理前程序階段。Tesla 尚未提出合理使用抗辯的具體論述。
+> - Progress=案件由 Wu 法官審理中，目前處於審理前程序階段。Tesla 尚未提出合理使用抗辯的具體論述。 【2026/9/19】Warner Bros. Discovery 就其部分與 Alcon 達成和解，具狀請求法院以有偏見駁回（with prejudice）並保留和解條款管轄權；對共同被告 Musk、Tesla 之 AI 生成影像侵權訴訟仍繼續進行
 
 **自動比對結果：**
 
 - ✅ Court 一致：dashboard 寫「C.D. Cal.」，CourtListener 為「C.D. California」
-- ✅ Judge 一致：dashboard 寫「George H. Wu」，CourtListener 為「George H. Wu」
-- ℹ️ Dashboard progress 內找不到【YYYY/M/D】格式日期；CourtListener 最後 entry: 2026-08-26
+- ✅ Judge 一致：dashboard 寫「George H. Wu」，CourtListener 為「George H Wu」
+- ℹ️ Dashboard progress 略落後 11 天：dashboard 最新日期 2026-09-19，CourtListener 最後 entry 2026-09-30
 
 ## 3. Docket Entries（最新優先，已過濾程序性 entries）
 
-**實質性 entries**：158 筆／**已過濾程序性 entries**：42 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+**實質性 entries**：161 筆／**已過濾程序性 entries**：39 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+
+### 📄 Doc #208 — 2026-09-30
+
+Amend/Correct
+
+[CourtListener 連結](https://www.courtlistener.com/docket/69280385/208/alcon-entertainment-llc-v-tesla-inc/)
+
+### 📄 Doc #207 — 2026-09-30
+
+Proposed Order
+
+[CourtListener 連結](https://www.courtlistener.com/docket/69280385/207/2/alcon-entertainment-llc-v-tesla-inc/)
+
+### 📄 Doc #206 — 2026-09-29
+
+Reply
+
+[CourtListener 連結](https://www.courtlistener.com/docket/69280385/206/alcon-entertainment-llc-v-tesla-inc/)
+
+### 📄 Doc #205 — 2026-09-28
+
+MOTION RE: INFORMAL DISCOVERY DISPUTE: Zoom Hearing set for October 19, 2026 at 10:00 a.m. The Court Clerk to send out Zoom link via email. Letter briefing schedule as follows: Plaintiff's opening letter brief to be filed by October 5, 2026 (5 page limit). Defendants' responsive letter brief to be filed by October 9, 2026 (5 page limit). Plaintiff's reply letter brief to be filed by October 13, 2026 (2 page limit). (cio) (Entered: 09/28/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/69280385/205/alcon-entertainment-llc-v-tesla-inc/)
+
+### 📄 Doc #204 — 2026-09-25
+
+STATUS REPORT DEFENDANT TESLA, INC.S FURTHER STATUS REPORT PURSUANT TO SEPTEMBER 18, 2026 ORDER (DKT. NO. 202) filed by Defendants Elon Musk, Tesla, Inc.. (Johnson, Arwen) (Entered: 09/25/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/69280385/204/alcon-entertainment-llc-v-tesla-inc/)
+
+### 📄 Doc #203 — 2026-09-21
+
+ORDER RE JOINT STIPULATION FOR DISMISSAL WITH PREJUDICE OF PLAINTIFF'S THIRD AMENDED COMPLAINT AS AGAINST DEFENDANT WARNER BROS. DISCOVERY, INC. PURSUANT TO FED. R. CIV. PRO. 41(a)(1)(A)(ii) 200 by Judge George H Wu. (es) (Entered: 09/21/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/69280385/203/alcon-entertainment-llc-v-tesla-inc/)
+
+### 📄 Doc #200 — 2026-09-18
+
+Joint STIPULATION to Dismiss Defendant Warner Bros Discovery Inc filed by Defendant Warner Bros Discovery Inc. (Attachments: # 1 Proposed Order)(Kline, Matthew) (Entered: 09/18/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/69280385/200/1/alcon-entertainment-llc-v-tesla-inc/)
+
+### 📄 Doc #202 — 2026-09-18
+
+ORDER RE: DISCOVERY DISPUTES 191 197 201 by Magistrate Judge Rozella A. Oliver. This Order resolves the IDC disputes addressed by the September 17, 2026 letter briefing, addresses the most recent joint status report, and directs further meet and confer regarding Tesla's request for a modification to the Court's prior order regarding settlement agreements involving the Non-parties. See document for details. (RAO) (Entered: 09/18/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/69280385/202/alcon-entertainment-llc-v-tesla-inc/)
+
+### 📄 Doc #201 — 2026-09-18
+
+STIPULATION for Extension of Time to File Application to Seal, Supporting Sealed Declaration and Exhibits and Their Attachments filed by Plaintiff Alcon Entertainment, LLC. (Attachments: # 1 Declaration of Edward M. Anderson in Support of Joint Stipulation and Request to Excuse Late Sealing Filings, # 2 Proposed Order Granting Joint Stipulation to Excuse Late Sealing Filings)(Irey, James) (Entered: 09/18/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/69280385/201/alcon-entertainment-llc-v-tesla-inc/)
+
+### 📄 Doc #198 — 2026-09-18
+
+SEALED DECLARATION IN SUPPORT OF APPLICATION to file document Exhibits 1 and 8 to Plaintiff's Letter Brief Dkt 196 under seal 197 filed by Plaintiff Alcon Entertainment, LLC. (Attachments: # 1 Exhibit 1 SEALED VERSION, # 2 Exhibit 8 UNREDACTED)(Anderson, Edward) (Entered: 09/18/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/69280385/198/alcon-entertainment-llc-v-tesla-inc/)
+
+### 📄 Doc #197 — 2026-09-18
+
+APPLICATION to file document Exhibits 1 and 8 to Plaintiff's Letter Brief Dkt 196 under seal filed by Plaintiff Alcon Entertainment, LLC. (Attachments: # 1 Exhibit 8 Public Version, # 2 Proposed Order Proposed Order)(Anderson, Edward) (Entered: 09/18/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/69280385/197/alcon-entertainment-llc-v-tesla-inc/)
+
+### 📄 Doc #196 — 2026-09-17
+
+BRIEF filed by Plaintiff Alcon Entertainment, LLC. Letter Brief regarding MOTION for Order 191 . (Attachments: # 1 Exhibit 1, # 2 Exhibit 2, # 3 Exhibit 3, # 4 Exhibit 4, # 5 Exhibit 5, # 6 Exhibit 6, # 7 Exhibit 7, # 8 Exhibit 8)(Anderson, Edward) (Entered: 09/17/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/69280385/196/alcon-entertainment-llc-v-tesla-inc/)
+
+### 📄 Doc #195 — 2026-09-17
+
+LETTER BRIEF filed by Defendants Elon Musk, Tesla, Inc.. REGARDING ALCON'S REQUESTS FOR INFORMAL TELEPHONIC DISCOVERY CONFERENCES (Johnson, Arwen) (Entered: 09/17/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/69280385/195/alcon-entertainment-llc-v-tesla-inc/)
+
+### 📄 Doc #193 — 2026-09-15
+
+LETTER BRIEF filed by Non-Parties AUTOMOBILES PEUGEOT S.A. (FRANCE), PUBLICIS MEDIA FRANCE, S.A.. regarding Order 189 . (Raygor, Kent) (Entered: 09/15/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/69280385/193/alcon-entertainment-llc-v-tesla-inc/)
+
+### 📄 Doc #192 — 2026-09-15
+
+STATUS REPORT JOINTLY SUBMITTED BY PLAINTIFF AND DEFENDANTS ELON MUSK AND TESLA, INC. Per July 14 and 29, 2026 and August 12 and 26, 2026 and September 8, 2026 Orders filed by Plaintiff Alcon Entertainment, LLC. (Anderson, Edward) (Entered: 09/15/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/69280385/192/alcon-entertainment-llc-v-tesla-inc/)
+
+### 📄 Doc #191 — 2026-09-11
+
+MOTION RE: INFORMAL DISCOVERY DISPUTE: No hearing required. The Court sets a single letter briefing schedule for both IDC requests that have been emailed to chambers. Each side shall file a single letter brief, up to 5 pages in length, by September 17, 2026, in support of their positions on the disputes raised in both IDC requests. The Court will take the matters under submission thereafter and issue a written ruling. (cio) (Entered: 09/11/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/69280385/191/alcon-entertainment-llc-v-tesla-inc/)
+
+### 📄 Doc #190 — 2026-09-10
+
+STATUS REPORT Pursuant to September 8, 2026 Order filed by Defendants Elon Musk, Tesla, Inc.. (Johnson, Arwen) (Entered: 09/10/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/69280385/190/alcon-entertainment-llc-v-tesla-inc/)
+
+### 📄 Doc #189 — 2026-09-08
+
+ORDER by Magistrate Judge Rozella A. Oliver, Re: September 4, 2026 Joint Status Report. See document for details. (RAO) (Entered: 09/08/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/69280385/189/alcon-entertainment-llc-v-tesla-inc/)
+
+### 📄 Doc #188 — 2026-09-04
+
+STATUS REPORT JOINTLY SUBMITTED BY PLAINTIFF AND DEFENDANTS ELON MUSK AND TESLA, INC. Per July 14 and 29, 2026 and August 12 and 26, 2026 Orders filed by Plaintiff Alcon Entertainment, LLC. (Anderson, Edward) (Entered: 09/04/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/69280385/188/alcon-entertainment-llc-v-tesla-inc/)
 
 ### 📄 Doc #187 — 2026-08-26
 
@@ -864,105 +978,11 @@ NOTICE OF MOTION AND MOTION to Dismiss Plaintiffs second claim for relief of vic
 
 [CourtListener 連結](https://www.courtlistener.com/docket/69280385/23/4/alcon-entertainment-llc-v-tesla-inc/)
 
-### 📄 Doc #25 — 2025-02-04
-
-NOTICE OF LODGING filed re Declaration (Motion related),, 24 (Marchese, Christopher) (Entered: 02/04/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/69280385/25/alcon-entertainment-llc-v-tesla-inc/)
-
-### 📄 Doc #17 — 2024-12-03
-
-PROOF OF SERVICE Executed by Plaintiff Alcon Entertainment, LLC, upon Defendant Elon Musk served on 12/3/2024, answer due 2/4/2025. Service of the Summons and Complaint were executed upon A. Louis Dorney as attorney for Tesla, Inc. and Elon Musk authorized to accept service for Elon Musk by email in compliance with California Code of Civil Procedure by substituted service at business address and no service by mail was executed (Anderson, Edward) (Entered: 12/03/2024)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/69280385/17/alcon-entertainment-llc-v-tesla-inc/)
-
-### 📄 Doc #16 — 2024-11-27
-
-ORDER REGARDING JOINT STIPULATION REGARDING (1) ACCEPTANCE OF SERVICE ON BEHALF OF DEFENDANT ELON MUSK WITH AN AGREED RESPONSE DATE OF FEBRUARY 4, 2025 AND (2) SECOND EXTENSION OF TIME FOR DEFENDANTS TESLA, INC. AND WARNER BROS. DISCOVERY, INC. TO RESPOND TO INITIAL COMPLAINT TO FEBRUARY 4, 2025 by Judge George H Wu. The Court hereby GRANTS the Parties Joint Stipulation Regarding (1) Acceptance Of Service On Behalf Defendant Elon Musk With An Agreed Response Date Of February 4, 2025 And (2) Second Extension Of Time For Defendants Tesla, Inc. And Warner Bros. Discovery, Inc. To Respond To Initial Complaint To February 4, 2025 as follows: Defendant Tesla agrees to accept service on behalf of Defendant Elon Musk by email delivery from Plaintiff's counsel to Tesla's counsel of the Summons, Complaint and related initial service documents. Defendant Elon Musk shall have until February 4, 2025 to respond to the Complaint; Defendants Tesla's and WBD's time to respond to the Complaint shall be  …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/69280385/16/alcon-entertainment-llc-v-tesla-inc/)
-
-### 📄 Doc #15 — 2024-11-26
-
-Joint STIPULATION for Extension of Time to File Answer to February 4, 2025 re Complaint (Attorney Civil Case Opening), 1 filed by Defendant Tesla, Inc.. (Attachments: # 1 Proposed Order)(Attorney A. Louis Dorny added to party Tesla, Inc.(pty:dft))(Dorny, A.) (Entered: 11/26/2024)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/69280385/15/1/alcon-entertainment-llc-v-tesla-inc/)
-
-### 📄 Doc #13 — 2024-11-12
-
-STIPULATION Extending Time to Answer the complaint as to Tesla, Inc. answer now due 12/13/2024, re Service of Summons and Complaint Returned Executed (21 days), 11, Complaint (Attorney Civil Case Opening), 1 filed by Plaintiff Alcon Entertainment, LLC.(Anderson, Edward) (Entered: 11/12/2024)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/69280385/13/alcon-entertainment-llc-v-tesla-inc/)
-
-### 📄 Doc #14 — 2024-11-12
-
-STIPULATION Extending Time to Answer the complaint as to Warner Bros Discovery Inc answer now due 12/13/2024, re Service of Summons and Complaint Returned Executed (21 days),, 12, Complaint (Attorney Civil Case Opening), 1 filed by Plaintiff Alcon Entertainment, LLC.(Anderson, Edward) (Entered: 11/12/2024)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/69280385/14/alcon-entertainment-llc-v-tesla-inc/)
-
-### 📄 Doc #11 — 2024-10-24
-
-PROOF OF SERVICE Executed by Plaintiff Alcon Entertainment, LLC, upon Defendant Tesla, Inc. served on 10/24/2024, answer due 11/14/2024. Service of the Summons and Complaint were executed upon Jessie Gastelum Authorized Agent for CT Corporation Systems Registered Agent for Service in compliance with Federal Rules of Civil Procedure by service on a domestic corporation, unincorporated association, or public entity (Attachments: # 1 Declaration of Process Server)(Anderson, Edward) (Entered: 10/24/2024)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/69280385/11/1/alcon-entertainment-llc-v-tesla-inc/)
-
-### 📄 Doc #12 — 2024-10-24
-
-PROOF OF SERVICE Executed by Plaintiff Alcon Entertainment, LLC, upon Defendant Warner Bros Discovery Inc served on 10/24/2024, answer due 11/14/2024. Service of the Summons and Complaint were executed upon Jessie Gastelum Authorized Agent for CT Corporation Systems Registered Agent for Service in compliance with Federal Rules of Civil Procedure by service on a domestic corporation, unincorporated association, or public entity (Attachments: # 1 Declaration of Process Server)(Anderson, Edward) (Entered: 10/24/2024)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/69280385/12/1/alcon-entertainment-llc-v-tesla-inc/)
-
-### 📄 Doc #10 — 2024-10-24
-
-STANDING ORDER RE FINAL PRE-TRIAL CONFERENCES FOR CIVIL JURY TRIALS BEFORE JUDGE GEORGE H. WU by Judge George H Wu, You are instructed to read and to follow (unless otherwise superseded herein) the Central District of California Local Rules (henceforth Local Rules) 16-1 through 16-15 regarding pre-trial requirements. (PLEASE SEE ATTACHED FOR FURTHER DETAILS) (pj) (Entered: 10/24/2024)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/69280385/10/alcon-entertainment-llc-v-tesla-inc/)
-
-### 📄 Doc #9 — 2024-10-22
-
-21 DAY Summons Issued re Complaint (Attorney Civil Case Opening), 1 as to Defendants Elon Musk, Tesla, Inc., Warner Bros Discovery Inc. (Attachments: # 1 Summons for Elon Musk, # 2 Summons for Warner Bros.) (ghap) (Entered: 10/22/2024)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/69280385/9/2/alcon-entertainment-llc-v-tesla-inc/)
-
-### 📄 Doc #6 — 2024-10-22
-
-NOTICE OF ASSIGNMENT to District Judge George H. Wu and Magistrate Judge Rozella A. Oliver. (ghap) (Entered: 10/22/2024)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/69280385/6/alcon-entertainment-llc-v-tesla-inc/)
-
-### 📄 Doc #7 — 2024-10-22
-
-NOTICE TO PARTIES OF COURT-DIRECTED ADR PROGRAM filed. (ghap) (Entered: 10/22/2024)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/69280385/7/alcon-entertainment-llc-v-tesla-inc/)
-
-### 📄 Doc #8 — 2024-10-22
-
-Notice to Counsel Re Consent to Proceed Before a United States Magistrate Judge. (ghap) (Entered: 10/22/2024)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/69280385/8/alcon-entertainment-llc-v-tesla-inc/)
-
-### 📄 Doc #1 — 2024-10-21
-
-COMPLAINT Receipt No: ACACDC-38430506 - Fee: $405, filed by Plaintiff Alcon Entertainment, LLC. (Attachments: # 1 Exhibit A, # 2 Exhibit B, # 3 Exhibit C) (Attorney Edward Muir Anderson added to party Alcon Entertainment, LLC(pty:pla))(Anderson, Edward) (Entered: 10/21/2024)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/69280385/1/3/alcon-entertainment-llc-v-tesla-inc/)
-
-### 📄 Doc #2 — 2024-10-21
-
-Request for Clerk to Issue Summons on Complaint (Attorney Civil Case Opening), 1 filed by Plaintiff Alcon Entertainment, LLC. (Attachments: # 1 Exhibit, # 2 Exhibit)(Anderson, Edward) (Entered: 10/21/2024)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/69280385/2/2/alcon-entertainment-llc-v-tesla-inc/)
-
-### 📄 Doc #4 — 2024-10-21
-
-NOTICE of Interested Parties filed by Plaintiff Alcon Entertainment, LLC, (Anderson, Edward) (Entered: 10/21/2024)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/69280385/4/alcon-entertainment-llc-v-tesla-inc/)
-
 <details>
-<summary>已過濾的 42 筆程序性 entries（點擊展開）</summary>
+<summary>已過濾的 39 筆程序性 entries（點擊展開）</summary>
 
+- **Doc #199** (2026-09-18): CERTIFICATE OF SERVICE filed by Plaintiff Alcon Entertainment, LLC, re Sealed Declaration in SupportDeclaration, 198 served on September 18, 2026. (Anderson, Edward) (Entered: 09/18/2026)
+- **Doc #194** (2026-09-17): Notice of Appearance or Withdrawal of Counsel: for attorney James W Irey counsel for Plaintiff Alcon Entertainment, LLC. Celeste Sofia Del Rio is no longer counsel of record for the aforementioned par…
 - **Doc #183** (2026-08-17): ORDER by Judge George H Wu: granting 181 Non-Resident Attorney Betsy G. Zyrkowski APPLICATION to Appear Pro Hac Vice on behalf of Movant PUBLICIS MEDIA FRANCE, S.A., designating Brennen J. Sharp-Polos…
 - **Doc #182** (2026-08-17): ORDER by Judge George H Wu: granting 180 Non-Resident Attorney Michael R. Dockterman APPLICATION to Appear Pro Hac Vice on behalf of Movant PUBLICIS MEDIA FRANCE, S.A., designating Brennen J. Sharp-Po…
 - **Doc #180** (2026-08-14): APPLICATION of Non-Resident Attorney Michael R. Dockterman to Appear Pro Hac Vice on behalf of Movant PUBLICIS MEDIA FRANCE, S.A. (Pro Hac Vice Fee - $450 Fee Paid, Receipt No. ACACDC-43063452) filed …
@@ -1000,14 +1020,9 @@ NOTICE of Interested Parties filed by Plaintiff Alcon Entertainment, LLC, (Ander
 - **Doc #36** (2025-02-13): APPLICATION of Non-Resident Attorney Vivian Cheng to Appear Pro Hac Vice on behalf of Defendants Tesla, Inc., Elon Musk, Warner Bros Discovery Inc (Pro Hac Vice Fee - $500 Fee Paid, Receipt No. ACACDC…
 - **Doc #31** (2025-02-07): ORDER by Judge George H Wu: granting 30 Non-Resident Attorney Kristen McCallion APPLICATION to Appear Pro Hac Vice on behalf of Defendants Tesla, Inc., Elon Musk, Warner Bros Discovery Inc, designatin…
 - **Doc #30** (2025-02-06): APPLICATION of Non-Resident Attorney Kristen McCallion to Appear Pro Hac Vice on behalf of Defendants Tesla, Inc., Elon Musk, Warner Bros Discovery Inc (Pro Hac Vice Fee - $500 Fee Paid, Receipt No. A…
-- **Doc #20** (2025-02-04): Notice of Appearance or Withdrawal of Counsel: for attorney Christopher S. Marchese counsel for Defendants Tesla, Inc., Elon Musk. Adding A. Louis Dorny as counsel of record for Tesla, Inc. and Elon M…
-- **Doc #21** (2025-02-04): Notice of Appearance or Withdrawal of Counsel: for attorney Christopher S. Marchese counsel for Defendants Tesla, Inc., Elon Musk. Adding Terry W. Ahearn as counsel of record for Tesla, Inc. and Elon …
-- **Doc #18** (2025-02-04): Notice of Appearance or Withdrawal of Counsel: for attorney Christopher S. Marchese counsel for Defendants Tesla, Inc., Elon Musk, Warner Bros Discovery Inc. Adding Christopher S. Marchese as counsel …
-- **Doc #19** (2025-02-04): Notice of Appearance or Withdrawal of Counsel: for attorney Christopher S. Marchese counsel for Defendants Tesla, Inc., Elon Musk. Adding Krista M. Carter as counsel of record for Tesla, Inc. and Elon…
-- **Doc #3** (2024-10-21): CIVIL COVER SHEET filed by Plaintiff Alcon Entertainment, LLC. (Anderson, Edward) (Entered: 10/21/2024)
 
 </details>
 
 ---
 
-*產生時間：2026-09-01 01:12 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-10-01 01:12 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

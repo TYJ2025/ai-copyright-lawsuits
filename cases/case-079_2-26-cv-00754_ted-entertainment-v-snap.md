@@ -1,6 +1,6 @@
 # Case 79 — Ted Entertainment, Inc. v. Snap Inc.
 
-> 最後更新（CourtListener fetch）：2026-09-01 01:32 UTC
+> 最後更新（CourtListener fetch）：2026-10-01 01:36 UTC
 
 ---
 
@@ -14,7 +14,7 @@
 | Judge Assigned | Andre Birotte Jr. |
 | Judge Referred | Michael B. Kaufman |
 | Date Filed | 2026-01-23 |
-| Date Last Filing | 2026-08-28 |
+| Date Last Filing | 2026-09-28 |
 | Cause | 17:101 Copyright Infringement |
 | Nature of Suit | 820 Copyright |
 | Jury Demand | Plaintiff |
@@ -34,17 +34,23 @@
 
 - ✅ Court 一致：dashboard 寫「C.D. Cal.」，CourtListener 為「C.D. California」
 - ✅ Judge 一致：dashboard 寫「Andre Birotte Jr.」，CourtListener 為「Andre Birotte Jr.」
-- ℹ️ Dashboard progress 內找不到【YYYY/M/D】格式日期；CourtListener 最後 entry: 2026-08-28
+- ℹ️ Dashboard progress 內找不到【YYYY/M/D】格式日期；CourtListener 最後 entry: 2026-09-28
 
 ## 3. Docket Entries（最新優先，已過濾程序性 entries）
 
-**實質性 entries**：45 筆／**已過濾程序性 entries**：35 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+**實質性 entries**：46 筆／**已過濾程序性 entries**：36 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
 
-### 📄 Doc #71 — 2026-08-28
+### 📄 Doc #73 — 2026-09-28
 
-Notice of Appearance or Withdrawal of Counsel (G-123)
+Joint STIPULATION to Reset Initial Case Management Conference filed by Plaintiffs Nicole Chmura, Matt Fisher, Golfholics, Inc., Ted Entertainment, Inc.. (Attachments: # 1 Proposed Order)(McCollum, Morgan) (Entered: 09/28/2026)
 
-[CourtListener 連結](https://www.courtlistener.com/docket/72185144/71/ted-entertainment-inc-v-snap-inc/)
+[CourtListener 連結](https://www.courtlistener.com/docket/72185144/73/ted-entertainment-inc-v-snap-inc/)
+
+### 📄 Doc #72 — 2026-09-02
+
+ANSWER to Consolidated Complaint 36 filed by Defendant Snap Inc..(Gratz, Joseph) (Entered: 09/02/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72185144/72/ted-entertainment-inc-v-snap-inc/)
 
 ### 📄 Doc #70 — 2026-08-19
 
@@ -293,8 +299,9 @@ Request for Clerk to Issue Summons on Complaint (Attorney Civil Case Opening), 1
 [CourtListener 連結](https://www.courtlistener.com/docket/72185144/2/ted-entertainment-inc-v-snap-inc/)
 
 <details>
-<summary>已過濾的 35 筆程序性 entries（點擊展開）</summary>
+<summary>已過濾的 36 筆程序性 entries（點擊展開）</summary>
 
+- **Doc #71** (2026-08-28): Notice of Appearance or Withdrawal of Counsel: for attorney Aditya Vijay Kamdar counsel for Defendant Snap Inc.. Aditya V. Kamdar is no longer counsel of record for the aforementioned party in this ca…
 - **Doc #69** (2026-08-13): ORDER by Judge Andre Birotte Jr: granting 68 Non-Resident Attorney Justin A. Nelson APPLICATION to Appear Pro Hac Vice on behalf of Plaintiffs Nicole Chmura, Matt Fisher, Golfholics, Inc., Ted Enterta…
 - **Doc #68** (2026-08-12): APPLICATION of Non-Resident Attorney Justin A. Nelson to Appear Pro Hac Vice on behalf of Plaintiffs Nicole Chmura, Matt Fisher, Golfholics, Inc., Ted Entertainment, Inc. (Pro Hac Vice Fee - $450 Fee …
 - **Doc #56** (2026-07-16): Notice of Appearance or Withdrawal of Counsel: for attorney Daniel R. Mello, Jr counsel for Defendant Snap Inc.. Adding Daniel R. Mello, Jr. as counsel of record for SNAP, INC. for the reason indicate…
@@ -335,4 +342,4 @@ Request for Clerk to Issue Summons on Complaint (Attorney Civil Case Opening), 1
 
 ---
 
-*產生時間：2026-09-01 01:32 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-10-01 01:36 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

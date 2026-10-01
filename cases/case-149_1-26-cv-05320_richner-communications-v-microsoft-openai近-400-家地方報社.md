@@ -1,6 +1,6 @@
 # Case 149 — Richner Communications, Inc. v. Microsoft Corporation
 
-> 最後更新（CourtListener fetch）：2026-09-01 01:44 UTC
+> 最後更新（CourtListener fetch）：2026-10-01 01:51 UTC
 
 ---
 
@@ -13,7 +13,7 @@
 | Court | District Court, S.D. New York (`nysd`) |
 | Judge Assigned | — |
 | Date Filed | 2026-06-24 |
-| Date Last Filing | 2026-08-12 |
+| Date Last Filing | 2026-09-24 |
 | Cause | 17:501 Copyright Infringement |
 | Nature of Suit | 820 Copyright |
 | Jury Demand | Plaintiff |
@@ -33,11 +33,53 @@
 
 - ⚠️ Court 可能不一致：dashboard 寫「S.D.N.Y. 1:26-cv-05320」，CourtListener 為「S.D. New York」
 - ⚠️ Judge 可能不一致：dashboard 寫「待確認」，CourtListener 為「」
-- ⚠️ Dashboard progress **落後 49 天**：dashboard 最新日期 2026-06-24，CourtListener 最後 entry 2026-08-12——建議查看新近 entries 並補充 progress
+- ⚠️ Dashboard progress **落後 92 天**：dashboard 最新日期 2026-06-24，CourtListener 最後 entry 2026-09-24——建議查看新近 entries 並補充 progress
 
 ## 3. Docket Entries（最新優先，已過濾程序性 entries）
 
-**實質性 entries**：63 筆／**已過濾程序性 entries**：4 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+**實質性 entries**：70 筆／**已過濾程序性 entries**：4 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+
+### 📄 Doc #65 — 2026-09-24
+
+Order on Motion for Extension of Time to File
+
+[CourtListener 連結](https://www.courtlistener.com/docket/73528019/65/richner-communications-inc-v-microsoft-corporation/)
+
+### 📄 Doc #63 — 2026-09-14
+
+Notice of Appearance
+
+[CourtListener 連結](https://www.courtlistener.com/docket/73528019/63/richner-communications-inc-v-microsoft-corporation/)
+
+### 📄 Doc #64 — 2026-09-14
+
+Notice of Appearance
+
+[CourtListener 連結](https://www.courtlistener.com/docket/73528019/64/richner-communications-inc-v-microsoft-corporation/)
+
+### 📄 Doc #62 — 2026-09-11
+
+Order
+
+[CourtListener 連結](https://www.courtlistener.com/docket/73528019/62/richner-communications-inc-v-microsoft-corporation/)
+
+### 📄 Doc #61 — 2026-09-04
+
+Redacted Document
+
+[CourtListener 連結](https://www.courtlistener.com/docket/73528019/61/richner-communications-inc-v-microsoft-corporation/)
+
+### 📄 Doc #60 — 2026-09-03
+
+Stipulation and Order AND ~Util - Set Deadlines
+
+[CourtListener 連結](https://www.courtlistener.com/docket/73528019/60/richner-communications-inc-v-microsoft-corporation/)
+
+### 📄 Doc #59 — 2026-09-01
+
+Letter
+
+[CourtListener 連結](https://www.courtlistener.com/docket/73528019/59/richner-communications-inc-v-microsoft-corporation/)
 
 ### 📄 Doc #58 — 2026-08-12
 
@@ -409,4 +451,4 @@ STATEMENT OF RELATEDNESS re: that this action be filed as related to 25-md-3143.
 
 ---
 
-*產生時間：2026-09-01 01:44 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-10-01 01:51 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

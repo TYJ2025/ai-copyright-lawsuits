@@ -1,6 +1,6 @@
 # Case 44 — BMG Rights Management (US) LLC v. Anthropic PBC
 
-> 最後更新（CourtListener fetch）：2026-09-01 01:21 UTC
+> 最後更新（CourtListener fetch）：2026-10-01 01:25 UTC
 
 ---
 
@@ -14,7 +14,7 @@
 | Judge Assigned | Eumi K. Lee |
 | Judge Referred | Susan Van Keulen |
 | Date Filed | 2026-03-17 |
-| Date Last Filing | 2026-08-31 |
+| Date Last Filing | 2026-09-29 |
 | Cause | 17:101 Copyright Infringement |
 | Nature of Suit | 820 Copyright |
 | Jury Demand | Plaintiff |
@@ -28,21 +28,89 @@
 > - Court=N.D. Cal.
 > - Judge=Alex G. Tse (Magistrate Judge)
 > - Status=active
-> - Progress=【訴訟進展（截至 2026/4/8）】 • 2026/3/17：BMG 在 N.D. Cal. 提起訴訟，由 Magistrate Judge Alex G. Tse 受理。 • 2026/3/20：Anthropic 送達完成，答辯截止日為 2026/4/10。 • 2026/4/6：BMG 聲請本案與 Concord Music v. Anthropic（同法院）合併審理，回應期限 2026/4/10。 • 2026/4/7：Anthropic 正式出庭，委任 WilmerHale 律師事務所（Sonal Mehta、Ari Holtzblatt 等），並提交公司揭露聲明，列明 Amazon、Google/Alphabet、AWS 為其關係企業。雙方已提交聯合排程協議草案。 • 初次案件管理會議（Case Management Conference）定於 2026/6/26 下午 2 時（視訊）。 ⚠️ 【2026/4/10】Anthropic 答辯狀截止，密切關注是否提出駁回動議。
+> - Progress=【訴訟進展（截至 2026/4/8）】 • 2026/3/17：BMG 在 N.D. Cal. 提起訴訟，由 Magistrate Judge Alex G. Tse 受理。 • 2026/3/20：Anthropic 送達完成，答辯截止日為 2026/4/10。 • 2026/4/6：BMG 聲請本案與 Concord Music v. Anthropic（同法院）合併審理，回應期限 2026/4/10。 • 2026/4/7：Anthropic 正式出庭，委任 WilmerHale 律師事務所（Sonal Mehta、Ari Holtzblatt 等），並提交公司揭露聲明，列明 Amazon、Google/Alphabet、AWS 為其關係企業。雙方已提交聯合排程協議草案。 • 初次案件管理會議（Case Management Conference）定於 2026/6/26 下午 2 時（視訊）。 ⚠️ 【2026/4/10】Anthropic 答辯狀截止，密切關注是否提出駁回動議。 【2026/9/10】提出第一次修正訴狀（First Amended Complaint）；案件已
 
 **自動比對結果：**
 
 - ✅ Court 一致：dashboard 寫「N.D. Cal.」，CourtListener 為「N.D. California」
 - ⚠️ Judge 可能不一致：dashboard 寫「Alex G. Tse (Magistrate Judge)」，CourtListener 為「Eumi K. Lee」
-- ⚠️ Dashboard progress **落後 143 天**：dashboard 最新日期 2026-04-10，CourtListener 最後 entry 2026-08-31——建議查看新近 entries 並補充 progress
+- ℹ️ Dashboard progress 略落後 19 天：dashboard 最新日期 2026-09-10，CourtListener 最後 entry 2026-09-29
 
 ## 3. Docket Entries（最新優先，已過濾程序性 entries）
 
-**實質性 entries**：29 筆／**已過濾程序性 entries**：21 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+**實質性 entries**：41 筆／**已過濾程序性 entries**：31 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+
+### 📄 Doc #60 — 2026-09-29
+
+Order on Motion for Pro Hac Vice
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72505829/60/bmg-rights-management-us-llc-v-anthropic-pbc/)
+
+### 📄 Doc #59 — 2026-09-29
+
+Pro Hac Vice
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72505829/59/bmg-rights-management-us-llc-v-anthropic-pbc/)
+
+### 📄 Doc #58 — 2026-09-29
+
+Order on Motion for Pro Hac Vice
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72505829/58/bmg-rights-management-us-llc-v-anthropic-pbc/)
+
+### 📄 Doc #48 — 2026-09-21
+
+ORDER Granting Stipulations Regarding Parties' Proposed Coordination and Case Management Order, (126) in Case No. 5:26-cv-00880-EKL and (47) in Case No. 5:26-cv-02334-EKL. Signed by Judge Eumi K. Lee. (lrt, COURT STAFF) (Filed on 9/21/2026) (Entered: 09/21/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72505829/48/bmg-rights-management-us-llc-v-anthropic-pbc/)
+
+### 📄 Doc #47 — 2026-09-18
+
+STIPULATION WITH PROPOSED ORDER Regarding Parties' Proposed Coordination and Case Management Order filed by Anthropic PBC. (Attachments: # 1 Declaration of Robin C. Burrell in Support)(Mehta, Sonal) (Filed on 9/18/2026) (Entered: 09/18/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72505829/47/bmg-rights-management-us-llc-v-anthropic-pbc/)
+
+### 📄 Doc #46 — 2026-09-11
+
+Statement - Position Statement Regarding Destructive-Scanning Discovery by BMG Rights Management (US) LLC. (Jacobs, Robert) (Filed on 9/11/2026) (Entered: 09/11/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72505829/46/bmg-rights-management-us-llc-v-anthropic-pbc/)
+
+### 📄 Doc #45 — 2026-09-11
+
+Statement - Issue Statement Regarding Book Scanning Discovery by Anthropic PBC. (Mehta, Sonal) (Filed on 9/11/2026) (Entered: 09/11/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72505829/45/bmg-rights-management-us-llc-v-anthropic-pbc/)
+
+### 📄 Doc #44 — 2026-09-10
+
+AMENDED COMPLAINT and Demand for Jury Trial against Anthropic PBC. Filed by BMG Rights Management (US) LLC. (Attachments: # 1 Exhibit A, # 2 Exhibit B, # 3 Exhibit C - Redline)(Jacobs, Robert) (Filed on 9/10/2026) (Entered: 09/10/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72505829/44/3/bmg-rights-management-us-llc-v-anthropic-pbc/)
+
+### 📄 Doc #42 — 2026-09-03
+
+TRANSCRIPT ORDER for proceedings held on 9/2/2026 before Judge Eumi K. Lee by BMG Rights Management (US) LLC, for Court Reporter Irene Rodriguez. (Cooper, Evan) (Filed on 9/3/2026) (Entered: 09/03/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72505829/42/bmg-rights-management-us-llc-v-anthropic-pbc/)
+
+### 📄 Doc #— — 2026-09-03
+
+Status Conference
+
+### 📄 Doc #41 — 2026-09-02
+
+Minute Entry for proceedings held before Judge Eumi K. Lee: Status Conference held on 9/2/2026. The Court adopted its tentative ruling regarding phased discovery. The Court ordered the parties to meet and confer and file a proposed coordination and case management order by 9/23/2026. The Court ordered the parties to meet and confer regarding discovery relating to book scanning and allowed each side to file an issue statement of no more than three (3) pages by 9/11/2026. The Court ordered the parties to meet and confer regarding which of the pending Daubert motions must be addressed in connection with the pending motions for summary judgment. The parties are to notify the Court by filing a joint status report or by emailing the Courtroom Deputy by 9/11/2026. Plaintiffs' Attorneys: Matthew Oppenheim, Corey Miller, Michelle Gomez-Reichman; Robert Jacobs, Nathaniel Bach, Prana Topper, Evan Cooper.. Defendants' Attorneys: Sonal Mehta, Louis Tompros, Ari Holtzblatt, Robin Burrell; Miranda Ka …(truncated)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72505829/41/bmg-rights-management-us-llc-v-anthropic-pbc/)
+
+### 📄 Doc #— — 2026-09-01
+
+Notice of Appearance/Substitution/Change/Withdrawal of Attorney
 
 ### 📄 Doc #39 — 2026-08-31
 
-Notice (Other)
+NOTICE by Sony Music Publishing (US) LLC, Warner Chappell Music, Inc. re Administrative Motion To Consider Whether Cases Should Be Related (Attachments: # 1 Exhibit A)(Akley, Benjamin) (Filed on 8/31/2026) (Entered: 08/31/2026)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/72505829/39/bmg-rights-management-us-llc-v-anthropic-pbc/)
 
@@ -193,8 +261,18 @@ Proposed Summons. (Jacobs, Robert) (Filed on 3/17/2026) (Entered: 03/17/2026)
 [CourtListener 連結](https://www.courtlistener.com/docket/72505829/2/bmg-rights-management-us-llc-v-anthropic-pbc/)
 
 <details>
-<summary>已過濾的 21 筆程序性 entries（點擊展開）</summary>
+<summary>已過濾的 31 筆程序性 entries（點擊展開）</summary>
 
+- **Doc #57** (2026-09-28): MOTION for leave to appear in Pro Hac Vice ( Filing fee $ 328, receipt number ACANDC-22522740.) filed by BMG Rights Management (US) LLC. (Miller, Corey) (Filed on 9/28/2026) (Entered: 09/28/2026)
+- **Doc #55** (2026-09-28): ORDER Granting 53 Motion for Pro Hac Vice as to attorney Timothy S. Chung. Signed by Judge Eumi K. Lee. (lrt, COURT STAFF) (Filed on 9/28/2026) (Entered: 09/28/2026)
+- **Doc #56** (2026-09-28): ORDER Granting 54 Motion for Pro Hac Vice as to attorney Bret Matera. Signed by Judge Eumi K. Lee. (lrt, COURT STAFF) (Filed on 9/28/2026) (Entered: 09/28/2026)
+- **Doc #53** (2026-09-28): MOTION for leave to appear in Pro Hac Vice ( Filing fee $ 328, receipt number ACANDC-22520784.) filed by BMG Rights Management (US) LLC. (Chung, Timothy) (Filed on 9/28/2026) (Entered: 09/28/2026)
+- **Doc #54** (2026-09-28): MOTION for leave to appear in Pro Hac Vice ( Filing fee $ 328, receipt number ACANDC-22520832.) filed by BMG Rights Management (US) LLC. (Matera, Bret) (Filed on 9/28/2026) (Entered: 09/28/2026)
+- **Doc #52** (2026-09-28): ORDER Granting 51 Motion for Pro Hac Vice as to attorney Nicholas C. Hailey. Signed by Judge Eumi K. Lee. (lrt, COURT STAFF) (Filed on 9/28/2026) (Entered: 09/28/2026)
+- **Doc #51** (2026-09-28): MOTION for leave to appear in Pro Hac Vice ( Filing fee $ 328, receipt number ACANDC-22520281.) filed by BMG Rights Management (US) LLC. (Hailey, Nicholas) (Filed on 9/28/2026) (Entered: 09/28/2026)
+- **Doc #50** (2026-09-28): ORDER Granting 49 Motion for Pro Hac Vice as to attorney Matthew J. Oppenheim. Signed by Judge Eumi K. Lee. (lrt, COURT STAFF) (Filed on 9/28/2026) (Entered: 09/28/2026)
+- **Doc #49** (2026-09-28): MOTION for leave to appear in Pro Hac Vice ( Filing fee $ 328, receipt number ACANDC-22519719.) filed by BMG Rights Management (US) LLC. (Oppenheim, Matthew) (Filed on 9/28/2026) (Entered: 09/28/2026)
+- **Doc #40** (2026-09-01): NOTICE of Appearance filed by Savannah Levin on behalf of BMG Rights Management (US) LLC (Levin, Savannah) (Filed on 9/1/2026) (Entered: 09/01/2026)
 - **Doc #37** (2026-08-28): NOTICE of Appearance filed by Richard Steven Busch on behalf of Round Hill Music LP, Round Hill Music Royalty Fund II, LP, Round Hill Music Royalty Fund III Plus, LP, Round Hill Music Royalty Fund III…
 - **Doc #36** (2026-08-26): ORDER Granting 35 Motion for Pro Hac Vice as to attorney Alex W. Miller. Signed by Judge Eumi K. Lee. (lrt, COURT STAFF) (Filed on 8/26/2026) (Entered: 08/26/2026)
 - **Doc #35** (2026-08-25): MOTION for leave to appear in Pro Hac Vice ( Filing fee $ 328, receipt number ACANDC-22381474.) filed by Anthropic PBC. (Miller, Alex) (Filed on 8/25/2026) (Entered: 08/25/2026)
@@ -221,4 +299,4 @@ Proposed Summons. (Jacobs, Robert) (Filed on 3/17/2026) (Entered: 03/17/2026)
 
 ---
 
-*產生時間：2026-09-01 01:21 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-10-01 01:25 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

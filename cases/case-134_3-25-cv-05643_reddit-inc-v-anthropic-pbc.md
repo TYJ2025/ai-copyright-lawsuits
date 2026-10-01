@@ -1,6 +1,6 @@
 # Case 134 — Reddit, Inc. v. Anthropic PBC
 
-> 最後更新（CourtListener fetch）：2026-09-01 01:42 UTC
+> 最後更新（CourtListener fetch）：2026-10-01 01:49 UTC
 
 ---
 
@@ -434,4 +434,4 @@ Rule 7.1 Disclosures by Anthropic PBC (Tangri, Ragesh) (Filed on 7/3/2025) (Ente
 
 ---
 
-*產生時間：2026-09-01 01:42 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-10-01 01:49 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

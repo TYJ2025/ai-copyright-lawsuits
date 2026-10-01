@@ -1,6 +1,6 @@
 # Case 73 — Bird v. Microsoft Corporation
 
-> 最後更新（CourtListener fetch）：2026-09-01 01:30 UTC
+> 最後更新（CourtListener fetch）：2026-10-01 01:34 UTC
 
 ---
 
@@ -186,4 +186,4 @@ FILING ERROR - DEFICIENT PLEADING - PDF ERROR - AO 121 FORM COPYRIGHT - NOTICE O
 
 ---
 
-*產生時間：2026-09-01 01:30 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-10-01 01:34 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

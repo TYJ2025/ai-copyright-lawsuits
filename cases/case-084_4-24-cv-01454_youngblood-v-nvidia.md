@@ -1,6 +1,6 @@
 # Case 84 — Nazemian v. NVIDIA Corporation
 
-> 最後更新（CourtListener fetch）：2026-09-01 01:33 UTC
+> 最後更新（CourtListener fetch）：2026-10-01 01:37 UTC
 
 ---
 
@@ -14,7 +14,7 @@
 | Judge Assigned | Jon S. Tigar |
 | Judge Referred | Sallie Kim |
 | Date Filed | 2024-03-08 |
-| Date Last Filing | 2026-08-28 |
+| Date Last Filing | 2026-09-30 |
 | Cause | 17:501 Copyright Infringement |
 | Nature of Suit | 820 Copyright |
 | Jury Demand | Both |
@@ -34,15 +34,235 @@
 
 - ✅ Court 一致：dashboard 寫「N.D. Cal.」，CourtListener 為「N.D. California」
 - ✅ Judge 一致：dashboard 寫「Jon S. Tigar」，CourtListener 為「Jon S. Tigar」
-- ℹ️ Dashboard progress 內找不到【YYYY/M/D】格式日期；CourtListener 最後 entry: 2026-08-28
+- ℹ️ Dashboard progress 內找不到【YYYY/M/D】格式日期；CourtListener 最後 entry: 2026-09-30
 
 ## 3. Docket Entries（最新優先，已過濾程序性 entries）
 
-**實質性 entries**：175 筆／**已過濾程序性 entries**：25 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+**實質性 entries**：179 筆／**已過濾程序性 entries**：21 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+
+### 📄 Doc #433 — 2026-09-30
+
+Stipulation and Proposed Order
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68325563/433/nazemian-v-nvidia-corporation/)
+
+### 📄 Doc #432 — 2026-09-29
+
+Statement
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68325563/432/nazemian-v-nvidia-corporation/)
+
+### 📄 Doc #431 — 2026-09-29
+
+Order on Administrative Motion per Civil Local Rule 7-11
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68325563/431/nazemian-v-nvidia-corporation/)
+
+### 📄 Doc #430 — 2026-09-29
+
+Order AND ~Util - Terminate Motions
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68325563/430/nazemian-v-nvidia-corporation/)
+
+### 📄 Doc #429 — 2026-09-28
+
+Order on Stipulation
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68325563/429/nazemian-v-nvidia-corporation/)
+
+### 📄 Doc #428 — 2026-09-28
+
+STIPULATION WITH PROPOSED ORDER RE LETTER BRIEF DUE DATE filed by Nvidia Corporation. (Biddinger, Brian) (Filed on 9/28/2026) (Entered: 09/28/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68325563/428/nazemian-v-nvidia-corporation/)
+
+### 📄 Doc #427 — 2026-09-24
+
+Joint ADMINISTRATIVE MOTION re 422 Discovery Hearing,,, for access to Sealed Transcript filed by Andre Dubus, III, Brian Keene, Abdi Nazemian, Stewart ONan, Susan Orlean. Responses due by 9/28/2026. (Attachments: # 1 Proposed Order)(Salzman, Dylan) (Filed on 9/24/2026) (Entered: 09/24/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68325563/427/1/nazemian-v-nvidia-corporation/)
+
+### 📄 Doc #426 — 2026-09-24
+
+ORDER PLAINTIFFS' ADMINISTRATIVE MOTION TO CONSIDER WHETHER ANOTHER PARTY'S MATERIAL SHOULD BE FILED UNDER SEAL: JOINT CASE MANAGEMENT STATEMENT by Judge Jon S. Tigar granting 406 Administrative Motion to Consider Whether Another Party's Material Should Be Sealed; granting 414 Administrative Motion to Consider Whether Another Party's Material Should Be Sealed. (dms, COURT STAFF) (Filed on 9/24/2026) (Entered: 09/24/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68325563/426/nazemian-v-nvidia-corporation/)
+
+### 📄 Doc #425 — 2026-09-24
+
+ORDER REGARDING SEPTEMBER 21, 2026 DISCOVERY CONFERENCE. Signed by Judge Sallie Kim on 9/24/2026. (bxl, COURT STAFF) (Filed on 9/24/2026) (Entered: 09/24/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68325563/425/nazemian-v-nvidia-corporation/)
+
+### 📄 Doc #424 — 2026-09-22
+
+TRANSCRIPT ORDER for proceedings held on September 21, 2026 before Magistrate Judge Sallie Kim by Nvidia Corporation, for Recorded Proceeding - Oakland. (McCracken, Rachael) (Filed on 9/22/2026) (Entered: 09/22/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68325563/424/nazemian-v-nvidia-corporation/)
+
+### 📄 Doc #423 — 2026-09-22
+
+TRANSCRIPT ORDER for proceedings held on September 21, 2026 before Magistrate Judge Sallie Kim by Andre Dubus, III, Brian Keene, Abdi Nazemian, Stewart ONan, Susan Orlean, for Recorded Proceeding - San Francisco. (Nath, Rohit) (Filed on 9/22/2026) (Entered: 09/22/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68325563/423/nazemian-v-nvidia-corporation/)
+
+### 📄 Doc #— — 2026-09-22
+
+Discovery Hearing
+
+### 📄 Doc #421 — 2026-09-21
+
+Administrative Motion to File Under Seal Statement re 415 Plaintiffs' Administrative Motion to Consider Whether Another Party's Material Should Be Filed Under Seal; Joint Status Report filed by Nvidia Corporation. (Attachments: # 1 Declaration of Ron Hagiz, # 2 Joint Status Report (sealed), # 3 Exhibit A (sealed), # 4 Proposed Order)(Hagiz, Ron) (Filed on 9/21/2026) (Entered: 09/21/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68325563/421/4/nazemian-v-nvidia-corporation/)
+
+### 📄 Doc #422 — 2026-09-21
+
+Minute Entry for proceedings held by Zoom before Magistrate Judge Sallie Kim: Discovery Hearing held on 9/21/2026. The Court will issue a written order. Discovery Hearing set for 10/19/2026 at 2:30 PM in San Francisco - Videoconference Only before Magistrate Judge Sallie Kim. A joint list of names of counsel attending the hearing must be sent to the CRD at skcrd@cand.uscourts.gov no later than 2:00 pm on 10/15/2026.Zoom Recording Time: 2:31-3:22, 3:22-3:35 SEALED. Plaintiff Attorneys: Diane Rice, William Castillo Guardado, Rohit Nath, Michael Brightman, Dylan Salzman, Anne Shaver, Nabihah Maqbool, Nada Djordjevic. Defendant Attorneys: Rachcel McCracken, Brian Biddinger, Alyssa Olson, David Myre, Valerie Roddy, Scott Anderson. (This is a text-only entry generated by the court. There is no document associated with this entry.) (bxl, COURT STAFF) (Date Filed: 9/21/2026) (Entered: 09/22/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68325563/422/nazemian-v-nvidia-corporation/)
+
+### 📄 Doc #420 — 2026-09-21
+
+ORDER CONTINUING CASE MANAGEMENT CONFERENCE. Signed by Judge Jon S. Tigar on 09/21/2026. An Updated Joint Case Management Statement due by 1/29/2027. Further Case Management Conference set for 2/5/2027 at 01:30 PM - Videoconference Only. This proceeding will be held via a Zoom webinar.Webinar Access: All counsel, members of the public, and media may access the webinar information at https://www.cand.uscourts.gov/jst Court Appearances: Advanced notice is required of counsel or parties who wish to be identified by the court as making an appearance or will be participating in the argument at the hearing. One list of names of all counsel appearing for all parties must be sent in one email to the CRD at jstcrd@cand.uscourts.gov no later than 02/04/2027 at 1:30PM PST.Civ LR 77-3(d). Persons granted access to court proceedings held by telephone or videoconference are reminded that photographing, recording, and rebroadcasting of court proceedings, including screenshots or other visual copying  …(truncated)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68325563/420/nazemian-v-nvidia-corporation/)
+
+### 📄 Doc #— — 2026-09-18
+
+Electronic filing error. Incorrect event used. Please re-file in its entirety using correct event. Re: 416 Redacted Document, filed by Abdi Nazemian, Brian Keene, Stewart ONan (dso, COURT STAFF) (Filed on 9/18/2026)
+
+### 📄 Doc #419 — 2026-09-18
+
+STATUS REPORT (Joint) by Andre Dubus, III, Brian Keene, Abdi Nazemian, Stewart ONan, Susan Orlean. (Attachments: # 1 Exhibit A, # 2 Exhibit B)(Salzman, Dylan) (Filed on 9/18/2026) (Entered: 09/18/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68325563/419/nazemian-v-nvidia-corporation/)
+
+### 📄 Doc #— — 2026-09-18
+
+Electronic Filing Error
+
+### 📄 Doc #— — 2026-09-17
+
+Notice of Appearance/Substitution/Change/Withdrawal of Attorney
+
+### 📄 Doc #417 — 2026-09-16
+
+JOINT CASE MANAGEMENT STATEMENT filed by Nvidia Corporation. (McCracken, Rachael) (Filed on 9/16/2026) (Entered: 09/16/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68325563/417/nazemian-v-nvidia-corporation/)
+
+### 📄 Doc #416 — 2026-09-14
+
+REDACTION to 415 Administrative Motion to Consider Whether Another Party's Material Should Be Sealed JOINT STATUS REPORT by Abdi Nazemian, Stewart ONan, Brian Keene. (Attachments: # 1 Exhibit A, # 2 Exhibit B)(Salzman, Dylan) (Filed on 9/14/2026) (Entered: 09/14/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68325563/416/2/nazemian-v-nvidia-corporation/)
+
+### 📄 Doc #415 — 2026-09-14
+
+Administrative Motion to Consider Whether Another Party's Material Should Be Sealed filed by Brian Keene, Abdi Nazemian, Stewart ONan. (Attachments: # 1 Declaration of D. Salzman, # 2 Proposed Order, # 3 Joint Status Report, # 4 Exhibit A, # 5 Exhibit B)(Salzman, Dylan) (Filed on 9/14/2026) (Entered: 09/14/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68325563/415/2/nazemian-v-nvidia-corporation/)
+
+### 📄 Doc #414 — 2026-09-11
+
+Administrative Motion to Consider Whether Another Party's Material Should Be Sealed : Response to Plaintiff Administrative Motion 406 filed by Nvidia Corporation. (Attachments: # 1 Declaration of Ron Hagiz, # 2 Joint Case Management Statement [Sealed], # 3 Proposed Order)(Hagiz, Ron) (Filed on 9/11/2026) (Entered: 09/11/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68325563/414/3/nazemian-v-nvidia-corporation/)
+
+### 📄 Doc #413 — 2026-09-11
+
+Statement re 408 Order on Administrative Motion to Consider Whether Another Partys Material Should Be Sealed, Public Version of Plaintiffs' Motion for Relief from Nondispositive Pretrial Order of Magistrate Judge, Dkt. 344 by Andre Dubus, III, Brian Keene, Abdi Nazemian, Stewart ONan, Susan Orlean. (Barron, Elisha) (Filed on 9/11/2026) (Entered: 09/11/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68325563/413/nazemian-v-nvidia-corporation/)
+
+### 📄 Doc #411 — 2026-09-10
+
+ORDER SEALING NVIDIA'S MATERIAL IN PLAINTIFFS' SUPPLEMENTAL BRIEF REGARDING PLAINTIFFS' MOTION FOR RELIEF FROM A NONDISPOSITIVE PRETRIAL ORDER by Judge Jon S. Tigar granting 384 Administrative Motion to Consider Whether Another Party's Material Should Be Sealed; granting 392 Administrative Motion to File Under Seal. (dms, COURT STAFF) (Filed on 9/10/2026) (Entered: 09/10/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68325563/411/nazemian-v-nvidia-corporation/)
+
+### 📄 Doc #412 — 2026-09-10
+
+ORDER SEALING NVIDIA'S MATERIAL IN PLAINTIFFS' REPLY IN SUPPORT OF MOTION TO MODIFY THE SCHEDULING ORDER AND FOR LEAVE TO FILE A SECOND CONSOLIDATED AMENDED COMPLAINT by Judge Jon S. Tigar granting 399 Administrative Motion to Consider Whether Another Party's Material Should Be Sealed. (dms, COURT STAFF) (Filed on 9/10/2026) (Entered: 09/10/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68325563/412/nazemian-v-nvidia-corporation/)
+
+### 📄 Doc #410 — 2026-09-10
+
+ORDER SEALING NVIDIAS MATERIAL IN NVIDIA'S OPPOSITION TO PLAINTIFFS' MOTION TO MODIFY THE SCHEDULE ORDER AND FOR LEAVE TO FILE A SECOND CONSOLIDATED AMENDED COMPLAINT by Judge Jon S. Tigar granting 387 Administrative Motion to File Under Seal. (dms, COURT STAFF) (Filed on 9/10/2026) (Entered: 09/10/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68325563/410/nazemian-v-nvidia-corporation/)
+
+### 📄 Doc #409 — 2026-09-10
+
+ORDER GRANTING PLAINTIFFS' ADMINISTRATIVE MOTION TO CONSIDER WHETHER ANOTHER PARTY'S MATERIAL SHOULD BE SEALED: MOTION TO MODIFY THE SCHEDULING ORDER AND FOR LEAVE TO FILE A SECOND CONSOLIDATED AMENDED COMPLAINT by Judge Jon S. Tigar granting 367 Administrative Motion to Consider Whether Another Party's Material Should Be Sealed; granting 394 Administrative Motion to Consider Whether Another Party's Material Should Be Sealed. (dms, COURT STAFF) (Filed on 9/10/2026) (Entered: 09/10/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68325563/409/nazemian-v-nvidia-corporation/)
+
+### 📄 Doc #408 — 2026-09-10
+
+ORDER RE: MOTION TO FILE UNDER SEAL by Judge Jon S. Tigar denying 344 Administrative Motion to Consider Whether Another Party's Material Should Be Sealed. Renewed motion or Filing of the Unsealed Documents due by 9/17/2026. (dms, COURT STAFF) (Filed on 9/10/2026) (Entered: 09/10/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68325563/408/nazemian-v-nvidia-corporation/)
+
+### 📄 Doc #405 — 2026-09-04
+
+CLERK'S NOTICE CONTINUING CASE MANAGEMENT CONFERENCE. You are hereby notified that the 09/11/2026 at 1:30PM Case Management Conference is CONTINUED due to the Court's availability. An Updated Joint Case Management Statement due by 9/16/2026. Further Case Management Conference set for 9/23/2026 at 09:30 AM - Videoconference Only. This proceeding will be held via a Zoom webinar.Webinar Access: All counsel, members of the public, and media may access the webinar information at https://www.cand.uscourts.gov/jst Court Appearances: Advanced notice is required of counsel or parties who wish to be identified by the court as making an appearance or will be participating in the argument at the hearing. One list of names of all counsel appearing for all parties must be sent in one email to the CRD at jstcrd@cand.uscourts.gov no later than 09/22/2026 at 9:30AM PST.Civ LR 77-3(d). Persons granted access to court proceedings held by telephone or videoconference are reminded that photographing, recor …(truncated)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68325563/405/nazemian-v-nvidia-corporation/)
+
+### 📄 Doc #404 — 2026-09-04
+
+NOTICE of Withdrawal filed by Trevor David Nystrom, no longer appearing on behalf of Brian Keene, Abdi Nazemian, Stewart ONan in this case (Nystrom, Trevor) (Filed on 9/4/2026) (Entered: 09/04/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68325563/404/nazemian-v-nvidia-corporation/)
+
+### 📄 Doc #406 — 2026-09-04
+
+Administrative Motion to Consider Whether Another Party's Material Should Be Sealed filed by Andre Dubus, III, Brian Keene, Abdi Nazemian, Stewart ONan, Susan Orlean. (Attachments: # 1 Declaration of William W. Castillo Guardado ISO Plaintiffs' Admin Motion to Consider Whether Another Party's Material Should Be Sealed, # 2 Proposed Order, # 3 Joint Case Management Statement)(Castillo Guardado, William) (Filed on 9/4/2026) (Entered: 09/04/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68325563/406/2/nazemian-v-nvidia-corporation/)
+
+### 📄 Doc #407 — 2026-09-04
+
+JOINT CASE MANAGEMENT STATEMENT (redacted) filed by Andre Dubus, III, Brian Keene, Abdi Nazemian, Stewart ONan, Susan Orlean. (Rice, Diane) (Filed on 9/4/2026) (Entered: 09/04/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68325563/407/nazemian-v-nvidia-corporation/)
+
+### 📄 Doc #— — 2026-09-04
+
+1 - Terminate Hearings AND Clerk's Notice Setting Zoom Hearing
+
+### 📄 Doc #— — 2026-09-04
+
+Notice of Appearance/Substitution/Change/Withdrawal of Attorney
+
+### 📄 Doc #403 — 2026-09-03
+
+JOINT STIPULATION AND ORDER RE CASE SCHEDULE by Judge Jon S. Tigar granting 370 Stipulation. (dms, COURT STAFF) (Filed on 9/3/2026) (Entered: 09/03/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68325563/403/nazemian-v-nvidia-corporation/)
+
+### 📄 Doc #— — 2026-09-03
+
+Notice of Appearance/Substitution/Change/Withdrawal of Attorney
+
+### 📄 Doc #401 — 2026-09-03
+
+JOINT STIPULATION AND ORDER RE PRIVILEGE LOG DEADLINE by Judge Jon S. Tigar granting 400 Stipulation. Production of Privilege Logs due by 09/24/2026. (dms, COURT STAFF) (Filed on 9/3/2026) (Entered: 09/03/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68325563/401/nazemian-v-nvidia-corporation/)
+
+### 📄 Doc #400 — 2026-09-01
+
+STIPULATION WITH PROPOSED ORDER (Joint) Re Privilege Log Deadline filed by Nvidia Corporation. (McCracken, Rachael) (Filed on 9/1/2026) (Entered: 09/01/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68325563/400/nazemian-v-nvidia-corporation/)
 
 ### 📄 Doc #399 — 2026-08-28
 
-Proposed Order
+Administrative Motion to Consider Whether Another Party's Material Should Be Sealed / Statement In Response to Plaintiffs' Administrative Motion to Consider Whether Another Party's Material Should Be Filed Under Seal: Plaintiffs' Reply in Support of Plaintiffs' Motion to Modify the Scheduling Order and for Leave to File a Second Consolidated Amended Complaint ECF No. 394 filed by Nvidia Corporation. (Attachments: # 1 Declaration of Ron Hagiz, # 2 Proposed Order, # 3 Reply ISO Motion to Modify Scheduling Order and For Leave to File SAC (Sealed)(Hagiz, Ron) (Filed on 8/28/2026) (Entered: 08/28/2026)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/68325563/399/2/nazemian-v-nvidia-corporation/)
 
@@ -838,209 +1058,11 @@ Joint Discovery Letter Brief filed by Andre Dubus, III, Brian Keene, Abdi Nazemi
 
 Notice of Appearance/Substitution/Change/Withdrawal of Attorney
 
-### 📄 Doc #260 — 2026-02-25
-
-EXHIBITS re 256 Order, Terminate Motions filed byBrian Keene, Abdi Nazemian, Stewart ONan. (Attachments: # 1 Exhibit C (Redacted))(Related document(s) 256 ) (Saveri, Joseph) (Filed on 2/25/2026) (Entered: 02/25/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68325563/260/1/nazemian-v-nvidia-corporation/)
-
-### 📄 Doc #257 — 2026-02-19
-
-Minute Entry for proceedings held before Judge Jon S. Tigar: Motion Hearing held on 2/19/2026. Arguments heard by the parties. Court denies Defendant's 241 Motion to Stay. Parties seeking to review the Court's oral ruling may request a copy of the transcript. Total Time in Court: 53 minutes. Court Reporter: Marla Knox via zoom. Plaintiff Attorney: Rohit Nath; Dylan Salzman; Joseph Saveri; Diane Rice; Nada Djordjevic; Bryan Clobes; William Castillo Guardado. Defendant Attorney: Sean Pak; Andrew Schapiro. (This is a text-only entry generated by the court. There is no document associated with this entry.) (dms, COURT STAFF) (Date Filed: 2/19/2026) (Entered: 02/19/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68325563/257/nazemian-v-nvidia-corporation/)
-
-### 📄 Doc #259 — 2026-02-19
-
-TRANSCRIPT ORDER for proceedings held on 02/19/2026 before Judge Jon S. Tigar by NVIDIA Corporation, for Court Reporter Marla Knox. (Pak, Sean) (Filed on 2/19/2026) (Entered: 02/19/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68325563/259/nazemian-v-nvidia-corporation/)
-
-### 📄 Doc #258 — 2026-02-19
-
-TRANSCRIPT ORDER for proceedings held on 2/19/2026 before Judge Jon S. Tigar by Brian Keene, Abdi Nazemian, Stewart ONan, for Court Reporter Marla Knox. (Castillo Guardado, William) (Filed on 2/19/2026) (Entered: 02/19/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68325563/258/nazemian-v-nvidia-corporation/)
-
-### 📄 Doc #— — 2026-02-19
-
-1 - Terminate Deadlines and Hearings AND Motion Hearing AND Order on Motion to Stay
-
-### 📄 Doc #256 — 2026-02-19
-
-ORDER DENYING IN PART AND GRANTING IN PART PLAINTIFFS ADMINISTRATIVE MOTION TO CONSIDER WHETHER ANOTHER PARTYS MATERIAL SHOULD BE SEALED. Signed by Judge Sallie Kim on 2/19/2026. (bxl, COURT STAFF) (Filed on 2/19/2026) (Entered: 02/19/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68325563/256/nazemian-v-nvidia-corporation/)
-
-### 📄 Doc #255 — 2026-02-18
-
-REPLY (re 240 MOTION to Dismiss First Amended Complaint and Memorandum of Points and Authorities in Support of Thereof ) filed byNVIDIA Corporation. (Attachments: # 1 Declaration of Rachael L. McCracken, # 2 Exhibit 1)(Schapiro, Andrew) (Filed on 2/18/2026) (Entered: 02/18/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68325563/255/2/nazemian-v-nvidia-corporation/)
-
-### 📄 Doc #253 — 2026-02-12
-
-Administrative Motion to File Under Seal IN RESPONSE TO PLAINTIFFS ADMINISTRATIVE MOTION TO CONSIDER WHETHER ANOTHER PARTYS MATERIAL SHOULD BE FILED UNDER SEAL 244 filed by NVIDIA Corporation. (Attachments: # 1 Declaration of Ron Hagiz, # 2 Exhibit C, # 3 Proposed Order)(Hagiz, Ron) (Filed on 2/12/2026) (Entered: 02/12/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68325563/253/3/nazemian-v-nvidia-corporation/)
-
-### 📄 Doc #254 — 2026-02-12
-
-OPPOSITION/RESPONSE (re 240 MOTION to Dismiss First Amended Complaint and Memorandum of Points and Authorities in Support of Thereof ) filed byBrian Keene, Abdi Nazemian, Stewart ONan. (Barron, Elisha) (Filed on 2/12/2026) (Entered: 02/12/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68325563/254/nazemian-v-nvidia-corporation/)
-
-### 📄 Doc #— — 2026-02-11
-
-Notice of Appearance/Substitution/Change/Withdrawal of Attorney
-
-### 📄 Doc #251 — 2026-02-11
-
-JOINT STIPULATION AND ORDER RE CASE SCHEDULE by Judge Jon S. Tigar granting 249 Stipulation. Discovery due by 4/10/2026. Motions due by 4/17/2026. Pre-Class Certification Fact Discovery due by 5/5/2026. (dms, COURT STAFF) (Filed on 2/11/2026) (Entered: 02/11/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68325563/251/nazemian-v-nvidia-corporation/)
-
-### 📄 Doc #250 — 2026-02-10
-
-REPLY (re 241 MOTION to Stay Discovery on Claims and Allegations Subject to Defendant's Motion to Dismiss ) filed byNVIDIA Corporation. (Attachments: # 1 Declaration of Andrew Schapiro, # 2 Exhibit 1)(Schapiro, Andrew) (Filed on 2/10/2026) (Entered: 02/10/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68325563/250/2/nazemian-v-nvidia-corporation/)
-
-### 📄 Doc #249 — 2026-02-10
-
-STIPULATION WITH PROPOSED ORDER re Case Schedule filed by NVIDIA Corporation. (Schapiro, Andrew) (Filed on 2/10/2026) (Entered: 02/10/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68325563/249/nazemian-v-nvidia-corporation/)
-
-### 📄 Doc #— — 2026-02-06
-
-Notice of Appearance/Substitution/Change/Withdrawal of Attorney
-
-### 📄 Doc #247 — 2026-02-06
-
-ORDER RE DISCOVERY LETTER BRIEF by Judge Jon S. Tigar re 245 Joint Discovery Letter Brief filed by Abdi Nazemian, Susan Orlean, Andre Dubus, III, Brian Keene, Stewart ONan. (dms, COURT STAFF) (Filed on 2/6/2026) (Entered: 02/06/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68325563/247/nazemian-v-nvidia-corporation/)
-
-### 📄 Doc #245 — 2026-02-05
-
-Joint Discovery Letter Brief filed by Andre Dubus, III, Brian Keene, Abdi Nazemian, Stewart ONan, Susan Orlean. (Attachments: # 1 Exhibit A - NVIDIA's Responses and Objections re Plaintiffs' Fourth Set of Requests for Production to NVIDIA, # 2 Exhibit B - Filed Under Seal, # 3 Exhibit C - Filed Under Seal, # 4 Exhibit D - Plaintiffs Fifth Set of Requests for Production to NVIDIA, # 5 Exhibit E - Plaintiffs Fifth Set of Interrogatories to NVIDIA)(Saveri, Joseph) (Filed on 2/5/2026) (Entered: 02/05/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68325563/245/5/nazemian-v-nvidia-corporation/)
-
-### 📄 Doc #246 — 2026-02-05
-
-OPPOSITION/RESPONSE (re 241 MOTION to Stay Discovery on Claims and Allegations Subject to Defendant's Motion to Dismiss ) filed byAndre Dubus, III, Brian Keene, Abdi Nazemian, Stewart ONan, Susan Orlean. (Attachments: # 1 Declaration of Dylan Salzman, # 2 Exhibit A, # 3 Exhibit B, # 4 Exhibit C, # 5 Exhibit D, # 6 Exhibit E, # 7 Proposed Order)(Barron, Elisha) (Filed on 2/5/2026) (Entered: 02/05/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68325563/246/7/nazemian-v-nvidia-corporation/)
-
-### 📄 Doc #244 — 2026-02-05
-
-Administrative Motion to Consider Whether Another Party's Material Should Be Sealed filed by Andre Dubus, III, Brian Keene, Abdi Nazemian, Stewart ONan, Susan Orlean. (Attachments: # 1 Declaration of William W. Castillo Guardado ISO Plaintiffs' Admin Motion to Consider Whether Another Party's Material Should Be Sealed, # 2 Exhibit B, # 3 Exhibit C, # 4 Proposed Order)(Saveri, Joseph) (Filed on 2/5/2026) (Entered: 02/05/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68325563/244/nazemian-v-nvidia-corporation/)
-
-### 📄 Doc #243 — 2026-02-02
-
-JOINT STIPULATION AND ORDER TO SHORTEN TIME FOR BRIEFING AND HEARING ON NVIDIA'S MOTION TO STAY DISCOVERY ON CLAIMS AND ALLEGATIONS SUBJECT TO DEFENDANT'S MOTION TO DISMISS (ECF NO. 241 ) by Judge Jon S. Tigar re 242 STIPULATION WITH PROPOSED ORDER re 241 MOTION to Stay Discovery on Claims and Allegations Subject to Defendant's Motion to Dismiss filed by NVIDIA Corporation. Opposition due by 2/5/2026. Reply due by 2/10/2026. Motion Hearing set for 2/19/2026 at 02:00 PM - Videoconference Only before Judge Jon S. Tigar. This proceeding will be held via a Zoom webinar.Webinar Access: All counsel, members of the public, and media may access the webinar information at https://www.cand.uscourts.gov/jst Court Appearances: Advanced notice is required of counsel or parties who wish to be identified by the court as making an appearance or will be participating in the argument at the hearing. One list of names of all counsel appearing for all parties must be sent in one email to the CRD at jstcrd …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68325563/243/nazemian-v-nvidia-corporation/)
-
-### 📄 Doc #242 — 2026-01-29
-
-STIPULATION WITH PROPOSED ORDER re 241 MOTION to Stay Discovery on Claims and Allegations Subject to Defendant's Motion to Dismiss filed by NVIDIA Corporation. (Attachments: # 1 Declaration of Cary E. Adickman)(McCracken, Rachael) (Filed on 1/29/2026) (Entered: 01/29/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68325563/242/1/nazemian-v-nvidia-corporation/)
-
-### 📄 Doc #241 — 2026-01-29
-
-MOTION to Stay Discovery on Claims and Allegations Subject to Defendant's Motion to Dismiss filed by NVIDIA Corporation. Motion Hearing set for 4/2/2026 02:00 PM in Oakland, Courtroom 6, 2nd Floor before Judge Jon S. Tigar. Responses due by 2/12/2026. Replies due by 2/19/2026. (Attachments: # 1 Declaration of Rachael L. McCracken, # 2 Exhibit 1, # 3 Exhibit 2, # 4 Exhibit 3, # 5 Exhibit 4, # 6 Exhibit 5, # 7 Exhibit 6, # 8 Exhibit 7, # 9 Exhibit 8, # 10 Exhibit 9, # 11 Exhibit 10, # 12 Proposed Order)(McCracken, Rachael) (Filed on 1/29/2026) (Entered: 01/29/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68325563/241/12/nazemian-v-nvidia-corporation/)
-
-### 📄 Doc #240 — 2026-01-29
-
-MOTION to Dismiss First Amended Complaint and Memorandum of Points and Authorities in Support of Thereof filed by NVIDIA Corporation. Motion to Dismiss Hearing set for 4/2/2026 02:00 PM in Oakland, Courtroom 6, 2nd Floor. Responses due by 2/12/2026. Replies due by 2/19/2026. (Attachments: # 1 Declaration of Rachael L. McCracken, # 2 Exhibit 1, # 3 Exhibit 2, # 4 Proposed Order)(McCracken, Rachael) (Filed on 1/29/2026) (Entered: 01/29/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68325563/240/4/nazemian-v-nvidia-corporation/)
-
-### 📄 Doc #— — 2026-01-22
-
-Notice of Appearance/Substitution/Change/Withdrawal of Attorney
-
-### 📄 Doc #236 — 2026-01-20
-
-JOINT STIPULATION AND ORDER RE PRIVILEGE LOG DEADLINE by Judge Jon S. Tigar granting 234 Stipulation. Privilege Logs due by 1/30/2026. (dms, COURT STAFF) (Filed on 1/20/2026) (Entered: 01/20/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68325563/236/nazemian-v-nvidia-corporation/)
-
-### 📄 Doc #235 — 2026-01-16
-
-AMENDED COMPLAINT First Consolidated Amended Complaint against NVIDIA Corporation. Filed by Abdi Nazemian, Stewart ONan, Brian Keene, Susan Orlean, Andre Dubus, III. (Attachments: # 1 Exhibit A)(Nath, Rohit) (Filed on 1/16/2026) (Entered: 01/16/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68325563/235/1/nazemian-v-nvidia-corporation/)
-
-### 📄 Doc #234 — 2026-01-15
-
-STIPULATION WITH PROPOSED ORDER RE PRIVILEGE LOG DEADLINE filed by NVIDIA Corporation. (McCracken, Rachael) (Filed on 1/15/2026) (Entered: 01/15/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68325563/234/nazemian-v-nvidia-corporation/)
-
-### 📄 Doc #233 — 2026-01-15
-
-Order by Magistrate Judge Sallie Kim granting in part and denying in part 230 Discovery Letter Brief. (sklc2, COURT STAFF) (Filed on 1/15/2026) (Entered: 01/15/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68325563/233/nazemian-v-nvidia-corporation/)
-
-### 📄 Doc #232 — 2026-01-15
-
-ORDER GRANTING MOTION TO MODIFY SCHEDULING ORDER AND FOR LEAVE TO FILE FIRST AMENDED COMPLAINT by Judge Jon S. Tigar granting 193 Motion. (dms, COURT STAFF) (Filed on 1/15/2026) (Entered: 01/15/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68325563/232/nazemian-v-nvidia-corporation/)
-
-### 📄 Doc #231 — 2026-01-09
-
-Supplemental Brief re 193 MOTION Notice of Motion and Motion to Modify Scheduling Order and for Leave to File First Amended Consolidated Complaint re 192 Administrative Motion to Consider Whether Another Party's Material Should Be Sealed filed byAndre Dubus, III, Brian Keene, Abdi Nazemian, Stewart ONan, Susan Orlean. (Attachments: # 1 Declaration of William W. Castillo Guardado ISO Motion for Leave to Modify Case Schedule, # 2 Exhibit A, # 3 Exhibit B, # 4 Exhibit C)(Related document(s) 193 ) (Saveri, Joseph) (Filed on 1/9/2026) (Entered: 01/09/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68325563/231/4/nazemian-v-nvidia-corporation/)
-
-### 📄 Doc #230 — 2026-01-07
-
-Joint Discovery Letter Brief filed by NVIDIA Corporation. (Attachments: # 1 Exhibit 1., # 2 Exhibit 2., # 3 Exhibit 3., # 4 Exhibit 4., # 5 Exhibit 5., # 6 Exhibit 6., # 7 Exhibit 7.)(McCracken, Rachael) (Filed on 1/7/2026) (Entered: 01/07/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68325563/230/7/nazemian-v-nvidia-corporation/)
-
-### 📄 Doc #229 — 2025-12-31
-
-ORDER REQUIRING SUPPLEMENTAL BRIEFING. Signed by Judge Jon S. Tigar on 12/31/2025. Supplemental Brief due by 1/9/2026. (dms, COURT STAFF) (Filed on 12/31/2025) (Entered: 12/31/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68325563/229/nazemian-v-nvidia-corporation/)
-
-### 📄 Doc #228 — 2025-12-23
-
-CLERK'S NOTICE VACATING MOTION HEARING. Before the Court is 193 MOTION Notice of Motion and Motion to Modify Scheduling Order and for Leave to File First Amended Consolidated Complaint re 192 Administrative Motion to Consider Whether Another Party's Material Should Be Sealed filed by Abdi Nazemian, Brian Keene, Stewart ONan, Andre Dubus, III, Susan Orlean. Pursuant to Federal Rule of Civil Procedure 78(b) and Civil Local Rule 7-1(b), the Court finds the matter suitable for disposition without oral argument. The hearing on this matter that is currently scheduled for 01/08/2026 at 2:00 PM is hereby VACATED. (This is a text-only entry generated by the court. There is no document associated with this entry.) (dms, COURT STAFF) (Filed on 12/23/2025) (Entered: 12/23/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68325563/228/nazemian-v-nvidia-corporation/)
-
-### 📄 Doc #— — 2025-12-23
-
-Clerk's Notice
-
-### 📄 Doc #227 — 2025-12-08
-
-NOTICE by Andre Dubus, III, Brian Keene, Abdi Nazemian, Stewart ONan, Susan Orlean re 222 Order (Attachments: # 1 Exhibit 1 - [proposed] Amended Complaint dkt 192-4, # 2 Exhibit 2 - [proposed] Amended Complaint redline dkt 192-5, # 3 Exhibit 3 - Exhibit F dkt 192-8, # 4 Exhibit 4 - Response dkt 198, # 5 Exhibit 5 - Reply dkt 212)(Nath, Rohit) (Filed on 12/8/2025) Modified on 12/8/2025 (cv, COURT STAFF). (Entered: 12/08/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68325563/227/5/nazemian-v-nvidia-corporation/)
-
-### 📄 Doc #226 — 2025-12-08
-
-AMENDED COMPLAINT CORRECTION OF DOCKET #[192-5] against NVIDIA Corporation. Filed by Abdi Nazemian, Stewart ONan, Brian Keene, Susan Orlean, Andre Dubus, III. (Nath, Rohit) (Filed on 12/8/2025) Modified on 12/8/2025 (cv, COURT STAFF). (Entered: 12/08/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68325563/226/nazemian-v-nvidia-corporation/)
-
 <details>
-<summary>已過濾的 25 筆程序性 entries（點擊展開）</summary>
+<summary>已過濾的 21 筆程序性 entries（點擊展開）</summary>
 
+- **Doc #418** (2026-09-17): NOTICE of Appearance filed by Scott Nicholas Anderson on behalf of Nvidia Corporation (Anderson, Scott) (Filed on 9/17/2026) (Entered: 09/17/2026)
+- **Doc #402** (2026-09-03): NOTICE of Appearance filed by Regina R Wang on behalf of Brian Keene, Abdi Nazemian, Stewart ONan (Wang, Regina) (Filed on 9/3/2026) (Entered: 09/03/2026)
 - **Doc #381** (2026-08-11): APPLICATION FOR ADMISSION OF ATTORNEY PRO HAC VICE; ORDER by Judge Jon S. Tigar granting 371 Motion for Pro Hac Vice as to Abigail E. Clark. (dms, COURT STAFF) (Filed on 8/11/2026) (Entered: 08/11/202…
 - **Doc #371** (2026-08-03): MOTION for leave to appear in Pro Hac Vice ( Filing fee $ 328, receipt number ACANDC-22292260.) filed by Nvidia Corporation. (Clark, Abigail) (Filed on 8/3/2026) (Entered: 08/03/2026)
 - **Doc #365** (2026-07-30): APPLICATION FOR ADMISSION OF ATTORNEY PRO HAC VICE; ORDER by Judge Jon S. Tigar granting 361 Motion for Pro Hac Vice as to Michael Brightman. (dms, COURT STAFF) (Filed on 7/30/2026) (Entered: 07/30/20…
@@ -1060,15 +1082,9 @@ AMENDED COMPLAINT CORRECTION OF DOCKET #[192-5] against NVIDIA Corporation. File
 - **Doc #264** (2026-02-27): NOTICE of Appearance filed by Valerie Suzanne Roddy on behalf of NVIDIA Corporation (Roddy, Valerie) (Filed on 2/27/2026) (Entered: 02/27/2026)
 - **Doc #263** (2026-02-27): NOTICE of Appearance filed by Brian Paul Biddinger on behalf of NVIDIA Corporation (Biddinger, Brian) (Filed on 2/27/2026) (Entered: 02/27/2026)
 - **Doc #262** (2026-02-27): NOTICE of Appearance filed by Shon Morgan on behalf of NVIDIA Corporation (Morgan, Shon) (Filed on 2/27/2026) (Entered: 02/27/2026)
-- **Doc #261** (2026-02-27): NOTICE of Appearance filed by Kevin P.B. Johnson on behalf of NVIDIA Corporation (Johnson, Kevin) (Filed on 2/27/2026) (Entered: 02/27/2026)
-- **Doc #252** (2026-02-11): NOTICE of Appearance filed by Drew Moss Morgan on behalf of Brian Keene, Abdi Nazemian, Stewart ONan (Morgan, Drew) (Filed on 2/11/2026) (Entered: 02/11/2026)
-- **Doc #248** (2026-02-06): NOTICE of Appearance filed by Michael Gervais on behalf of Andre Dubus, III, Brian Keene, Abdi Nazemian, Stewart ONan, Susan Orlean (Gervais, Michael) (Filed on 2/6/2026) (Entered: 02/06/2026)
-- **Doc #237** (2026-01-22): MOTION for leave to appear in Pro Hac Vice ( Filing fee $ 328, receipt number ACANDC-21569531.) filed by Andre Dubus, III, Brian Keene, Abdi Nazemian, Stewart ONan, Susan Orlean. (Attachments: # 1 Cer…
-- **Doc #238** (2026-01-22): NOTICE of Appearance filed by Diane Sue Rice on behalf of Brian Keene, Abdi Nazemian, Stewart ONan (Rice, Diane) (Filed on 1/22/2026) (Entered: 01/22/2026)
-- **Doc #239** (2026-01-22): APPLICATION FOR ADMISSION OF ATTORNEY PRO HAC VICE; ORDER by Judge Jon S. Tigar granting 237 Motion for Pro Hac Vice as to Kenneth S. Byrd. (dms, COURT STAFF) (Filed on 1/22/2026) (Entered: 01/22/2026…
 
 </details>
 
 ---
 
-*產生時間：2026-09-01 01:33 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-10-01 01:37 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

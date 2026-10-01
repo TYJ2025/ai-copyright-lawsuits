@@ -1,6 +1,6 @@
 # Case 60 — Getty Images (US), Inc. v. Stability AI, Inc.
 
-> 最後更新（CourtListener fetch）：2026-09-01 01:25 UTC
+> 最後更新（CourtListener fetch）：2026-10-01 01:29 UTC
 
 ---
 
@@ -584,4 +584,4 @@ COMPLAINT filed with Jury Demand against Stability AI, Inc. ( Filing fee $ 402, 
 
 ---
 
-*產生時間：2026-09-01 01:25 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-10-01 01:29 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

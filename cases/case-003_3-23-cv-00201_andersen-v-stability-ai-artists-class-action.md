@@ -1,6 +1,6 @@
 # Case 3 — Andersen v. Stability AI Ltd.
 
-> 最後更新（CourtListener fetch）：2026-09-01 01:01 UTC
+> 最後更新（CourtListener fetch）：2026-10-01 01:01 UTC
 
 ---
 
@@ -14,7 +14,7 @@
 | Judge Assigned | William H. Orrick |
 | Judge Referred | Lisa J. Cisneros |
 | Date Filed | 2023-01-13 |
-| Date Last Filing | 2026-08-31 |
+| Date Last Filing | 2026-09-30 |
 | Cause | 17:504 Copyright Infringement |
 | Nature of Suit | 190 Contract: Other |
 | Jury Demand | Plaintiff |
@@ -28,21 +28,317 @@
 > - Court=N.D. Cal.
 > - Judge=William H. Orrick
 > - Status=active
-> - Progress=2024 年 8 月，Orrick 法官駁回被告的駁回動議（motion to dismiss），允許著作權侵害主張進入事證開示階段。 2026 年 2 月 27 日，原告提交第三次修正訴狀（Third Amended Complaint）。案件目前進入全面事證開示階段，審判日期定為 2026 年 9 月 8 日。 本案若進入審判，將是美國首批就 AI 圖像生成著作權問題進行完整審理的案件之一。
+> - Progress=2024 年 8 月，Orrick 法官駁回被告的駁回動議（motion to dismiss），允許著作權侵害主張進入事證開示階段。 2026 年 2 月 27 日，原告提交第三次修正訴狀（Third Amended Complaint）。案件目前進入全面事證開示階段，審判日期定為 2026 年 9 月 8 日。 本案若進入審判，將是美國首批就 AI 圖像生成著作權問題進行完整審理的案件之一。 【2026/9/8】全美首件測試 AI 圖像訓練「model-as-copy」理論之陪審團審判於今日開庭，被告 Stability AI、Midjourney、DeviantArt、Runway AI，另含 Lanham Act 主張 【2026/9/14】更正：原定 2026/9/8 開庭之陪審團審判實依法院先前變更命令延至 2027/4/5 開庭，並未如期於 9/8 開庭；案件仍處事證開示後期，尚待實體審理 【2026/9/28】Orrick 法官核准原告展延排程命令，交互聲請即決判決審理時程再延約 3 個月，最快須至 2027 年底始能終局裁定
 
 **自動比對結果：**
 
 - ✅ Court 一致：dashboard 寫「N.D. Cal.」，CourtListener 為「N.D. California」
 - ✅ Judge 一致：dashboard 寫「William H. Orrick」，CourtListener 為「William H. Orrick」
-- ℹ️ Dashboard progress 內找不到【YYYY/M/D】格式日期；CourtListener 最後 entry: 2026-08-31
+- ℹ️ Dashboard progress 略落後 2 天：dashboard 最新日期 2026-09-28，CourtListener 最後 entry 2026-09-30
 
 ## 3. Docket Entries（最新優先，已過濾程序性 entries）
 
 **實質性 entries**：190 筆／**已過濾程序性 entries**：10 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
 
-### 📄 Doc #724 — 2026-08-31
+### 📄 Doc #772 — 2026-09-30
 
 Declaration in Support
+
+[CourtListener 連結](https://www.courtlistener.com/docket/66732129/772/andersen-v-stability-ai-ltd/)
+
+### 📄 Doc #— — 2026-09-30
+
+Order on Administrative Motion to Consider Whether Another Partys Material Should Be Sealed
+
+### 📄 Doc #770 — 2026-09-30
+
+Certificate/Proof of Service
+
+[CourtListener 連結](https://www.courtlistener.com/docket/66732129/770/andersen-v-stability-ai-ltd/)
+
+### 📄 Doc #768 — 2026-09-29
+
+Leave to File Document
+
+[CourtListener 連結](https://www.courtlistener.com/docket/66732129/768/andersen-v-stability-ai-ltd/)
+
+### 📄 Doc #769 — 2026-09-29
+
+Administrative Motion to File Under Seal
+
+[CourtListener 連結](https://www.courtlistener.com/docket/66732129/769/andersen-v-stability-ai-ltd/)
+
+### 📄 Doc #767 — 2026-09-29
+
+Attachments to an Administrative Motion to File Under Seal
+
+[CourtListener 連結](https://www.courtlistener.com/docket/66732129/767/andersen-v-stability-ai-ltd/)
+
+### 📄 Doc #766 — 2026-09-29
+
+Declaration in Support
+
+[CourtListener 連結](https://www.courtlistener.com/docket/66732129/766/andersen-v-stability-ai-ltd/)
+
+### 📄 Doc #— — 2026-09-29
+
+Order on Administrative Motion to Consider Whether Another Partys Material Should Be Sealed
+
+### 📄 Doc #764 — 2026-09-28
+
+Order on Motion for Miscellaneous Relief
+
+[CourtListener 連結](https://www.courtlistener.com/docket/66732129/764/andersen-v-stability-ai-ltd/)
+
+### 📄 Doc #763 — 2026-09-25
+
+Opposition/Response to Motion
+
+[CourtListener 連結](https://www.courtlistener.com/docket/66732129/763/andersen-v-stability-ai-ltd/)
+
+### 📄 Doc #762 — 2026-09-24
+
+Order on Motion to Remove Incorrectly Filed Document
+
+[CourtListener 連結](https://www.courtlistener.com/docket/66732129/762/andersen-v-stability-ai-ltd/)
+
+### 📄 Doc #758 — 2026-09-23
+
+Proposed Order
+
+[CourtListener 連結](https://www.courtlistener.com/docket/66732129/758/1/andersen-v-stability-ai-ltd/)
+
+### 📄 Doc #759 — 2026-09-23
+
+Declaration of M. McCarron in Support of (Redacted)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/66732129/759/1/andersen-v-stability-ai-ltd/)
+
+### 📄 Doc #760 — 2026-09-23
+
+Order on Motion for Pro Hac Vice
+
+[CourtListener 連結](https://www.courtlistener.com/docket/66732129/760/andersen-v-stability-ai-ltd/)
+
+### 📄 Doc #761 — 2026-09-23
+
+Remove Incorrectly Filed Document
+
+[CourtListener 連結](https://www.courtlistener.com/docket/66732129/761/andersen-v-stability-ai-ltd/)
+
+### 📄 Doc #757 — 2026-09-22
+
+Exhibit F (Filed Under Seal)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/66732129/757/7/andersen-v-stability-ai-ltd/)
+
+### 📄 Doc #756 — 2026-09-22
+
+Administrative Motion to Consider Whether Another Partys Material Should Be Sealed
+
+[CourtListener 連結](https://www.courtlistener.com/docket/66732129/756/andersen-v-stability-ai-ltd/)
+
+### 📄 Doc #753 — 2026-09-22
+
+Administrative Motion to Consider Whether Another Party's Material Should Be Sealed Re Plaintiffs' Motion to Modify Case Schedule ECF 752 filed by Sarah Andersen, Gerald Brom, Adam Ellis, Julia Kaye, Gregory Manchess, Karla Ortiz, Grzegorz Rutkowski, Jingna Zhang. (Attachments: # 1 Proposed Order, # 2 Declaration of Louis Kessler in Support of Plaintiffs' Motion to Modify Case Schedule (Sealed))(Saveri, Joseph) (Filed on 9/22/2026) (Entered: 09/22/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/66732129/753/andersen-v-stability-ai-ltd/)
+
+### 📄 Doc #754 — 2026-09-22
+
+Declaration of Louis Kessler in Support of 752 MOTION TO MODIFY CASE SCHEDULE (Redacted) (CORRECTION OF DOCKET # [752-1]) filed bySarah Andersen, Gerald Brom, Adam Ellis, Julia Kaye, Gregory Manchess, Karla Ortiz, Grzegorz Rutkowski, Jingna Zhang. (Related document(s) 752 ) (Saveri, Joseph) (Filed on 9/22/2026) (Entered: 09/22/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/66732129/754/andersen-v-stability-ai-ltd/)
+
+### 📄 Doc #752 — 2026-09-21
+
+MOTION TO MODIFY CASE SCHEDULE filed by Sarah Andersen, Gerald Brom, Adam Ellis, Julia Kaye, Gregory Manchess, Karla Ortiz, Grzegorz Rutkowski, Jingna Zhang. Responses due by 9/25/2026. (Attachments: # 1 Declaration of L. Kessler in Support of, # 2 Declaration of M. McCarron in Support of, # 3 Proposed Order)(Saveri, Joseph) (Filed on 9/21/2026) (Entered: 09/21/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/66732129/752/3/andersen-v-stability-ai-ltd/)
+
+### 📄 Doc #751 — 2026-09-21
+
+RESPONSE re 750 Response ( Non Motion ) by Sarah Andersen, Gerald Brom, Adam Ellis, Julia Kaye, Gregory Manchess, Karla Ortiz, Grzegorz Rutkowski, Jingna Zhang. (Saveri, Joseph) (Filed on 9/21/2026) (Entered: 09/21/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/66732129/751/andersen-v-stability-ai-ltd/)
+
+### 📄 Doc #— — 2026-09-18
+
+Set Hearing as to 730 Motion for Sanctions Against DeviantArt, Inc., See Docket No. 746 : Motion Hearing set for 10/20/2026 at 10:30 AM in San Francisco, Courtroom G, 15th Floor before Magistrate Judge Lisa J. Cisneros. (bns, COURT STAFF) (Filed on 9/18/2026)
+
+### 📄 Doc #— — 2026-09-18
+
+Set Motion and Deadlines/Hearings
+
+### 📄 Doc #749 — 2026-09-17
+
+STATEMENT OF RECENT DECISION pursuant to Civil Local Rule 7-3.d filed bySarah Andersen, Gerald Brom, Adam Ellis, Julia Kaye, Gregory Manchess, Karla Ortiz, Grzegorz Rutkowski, Jingna Zhang. (Attachments: # 1 Exhibit A)(Related document(s) 713, 711 ) (Saveri, Joseph) (Filed on 9/17/2026) (Entered: 09/17/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/66732129/749/1/andersen-v-stability-ai-ltd/)
+
+### 📄 Doc #750 — 2026-09-17
+
+RESPONSE re 749 Statement of Recent Decision, by Runway AI, Inc.. (Silbert, David) (Filed on 9/17/2026) (Entered: 09/17/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/66732129/750/andersen-v-stability-ai-ltd/)
+
+### 📄 Doc #747 — 2026-09-16
+
+NOTICE by Sarah Andersen, Gerald Brom, Adam Ellis, Julia Kaye, Gregory Manchess, Karla Ortiz, Grzegorz Rutkowski, Jingna Zhang of Withdrawal of Evan Creutz as Counsel for Plaintiffs (Attachments: # 1 Proposed Order)(Saveri, Joseph) (Filed on 9/16/2026) (Entered: 09/16/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/66732129/747/1/andersen-v-stability-ai-ltd/)
+
+### 📄 Doc #748 — 2026-09-16
+
+NOTICE of Change in Counsel: Attorney Evan Creutz no longer representing Sarah Andersen, Gerald Brom, Adam Ellis, Julia Kaye, Gregory Manchess, Karla Ortiz, Grzegorz Rutkowski, Jingna Zhang in this case (Saveri, Joseph) (Filed on 9/16/2026) (Entered: 09/16/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/66732129/748/andersen-v-stability-ai-ltd/)
+
+### 📄 Doc #746 — 2026-09-16
+
+ORDER by Magistrate Judge Lisa J. Cisneros: A hearing on Plaintiffs' 730 motion for sanctions is set for 10/20/2026 at 10:30 a.m. in San Francisco, Courtroom G, 15th Floor, before Magistrate Judge Lisa J. Cisneros. (This is a text-only entry generated by the court. There is no document associated with this entry.) (ljclc1, COURT STAFF) (Filed on 9/16/2026) (Entered: 09/16/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/66732129/746/andersen-v-stability-ai-ltd/)
+
+### 📄 Doc #— — 2026-09-16
+
+Notice of Appearance/Substitution/Change/Withdrawal of Attorney
+
+### 📄 Doc #— — 2026-09-16
+
+Order
+
+### 📄 Doc #744 — 2026-09-15
+
+Administrative Motion to File Under Seal Portions of Opposition Brief, Declarations, and Exhibits filed by DeviantArt, Inc.. (Attachments: # 1 Declaration of Simeon Botwinick, # 2 Proposed Order, # 3 Opposition to Motion for Sanctions [Unredacted], # 4 Declaration of Simeon Botwinick ISO Opp. to Mot. for Sanctions [Unredacted], # 5 Exhibit A to Botwinick Decl. [Unredacted], # 6 Exhibit B to Botwinick Decl. [Unredacted], # 7 Exhibit C to Botwinick Decl. [Unredacted], # 8 Exhibit D to Botwinick Decl. [Unredacted], # 9 Exhibit F to Botwinick Decl. [Unredacted], # 10 Declaration of Peter Gorniak ISO Opp. to Mot. for Sanctions [Unredacted])(Lovejoy, Brittany) (Filed on 9/15/2026) (Entered: 09/15/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/66732129/744/2/andersen-v-stability-ai-ltd/)
+
+### 📄 Doc #743 — 2026-09-15
+
+OPPOSITION/RESPONSE (re 730 MOTION for Sanctions Against DeviantArt, Inc. ) [Redacted] filed byDeviantArt, Inc.. (Attachments: # 1 Declaration of Simeon Botwinick [Redacted], # 2 Exhibit A to Botwinick Decl. [Redacted], # 3 Exhibit B to Botwinick Decl. [Redacted], # 4 Exhibit C to Botwinick Decl. [Redacted], # 5 Exhibit D to Botwinick Decl. [Redacted], # 6 Exhibit E to Botwinick Decl., # 7 Exhibit F to Botwinick Decl. [Redacted], # 8 Declaration of Peter Gorniak [Redacted])(Lovejoy, Brittany) (Filed on 9/15/2026) (Entered: 09/15/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/66732129/743/8/andersen-v-stability-ai-ltd/)
+
+### 📄 Doc #742 — 2026-09-15
+
+Declaration of Angela L. Dunning in Support of 732 Administrative Motion to Consider Whether Another Party's Material Should Be Sealed filed byMidjourney, Inc.. (Related document(s) 732 ) (Dunning, Angela) (Filed on 9/15/2026) (Entered: 09/15/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/66732129/742/andersen-v-stability-ai-ltd/)
+
+### 📄 Doc #741 — 2026-09-14
+
+ORDER by Magistrate Judge Lisa J. Cisneros: Having considered Plaintiffs' 738 unilateral discovery letter and Midjourney's 739 response, it appears that Midjourney does not plainly and substantively dispute that the ambiguity between the scheduling order and the protective order should be resolved in favor of the protective order, with respect to clawbacks. Given this threshold agreement, notwithstanding the impropriety of Plaintiffs' 738 unilateral letter and conferral efforts, the Order at Dkt. No. 734 is WITHDRAWN. The Court will rule on the merits of the 733 discovery letter. (This is a text-only entry generated by the court. There is no document associated with this entry.) (ljclc1, COURT STAFF) (Filed on 9/14/2026) (Entered: 09/14/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/66732129/741/andersen-v-stability-ai-ltd/)
+
+### 📄 Doc #740 — 2026-09-14
+
+CLERK'S NOTICE - Hearing set for 10/7/2026 on 730 Motion VACATED. (This is a text-only entry generated by the court. There is no document associated with this entry.) (jmd, COURT STAFF) (Filed on 9/14/2026) (Entered: 09/14/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/66732129/740/andersen-v-stability-ai-ltd/)
+
+### 📄 Doc #— — 2026-09-14
+
+Order
+
+### 📄 Doc #— — 2026-09-14
+
+Clerk's Notice
+
+### 📄 Doc #739 — 2026-09-14
+
+Letter Brief re 738 Letter Brief, /Letter Response to Plaintiffs' Letter Brief ECF 738 filed byMidjourney, Inc.. (Related document(s) 738 ) (Dunning, Angela) (Filed on 9/14/2026) (Entered: 09/14/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/66732129/739/andersen-v-stability-ai-ltd/)
+
+### 📄 Doc #738 — 2026-09-11
+
+Letter Brief re 734 Order on Discovery Letter Brief,,, and 733 Joint Letter Brief regarding Clawback of a Document at the Deposition of David Holz filed bySarah Andersen, Gerald Brom, Adam Ellis, Julia Kaye, Gregory Manchess, Karla Ortiz, Grzegorz Rutkowski, Jingna Zhang. (Related document(s) 734 ) (Saveri, Joseph) (Filed on 9/11/2026) (Entered: 09/11/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/66732129/738/andersen-v-stability-ai-ltd/)
+
+### 📄 Doc #736 — 2026-09-08
+
+EXHIBITS re 729 Administrative Motion to Consider Whether Another Party's Material Should Be Sealed Regarding Plaintiffs' Motion for Discovery Sanctions (Declaration of Simeon Botwinick in Support of 729 Administrative Motion to Consider Whether Another Party's Material Should Be Sealed) filed byDeviantArt, Inc.. (Attachments: # 1 Exhibit 1 [Sealed], # 2 Exhibit 2 [Sealed], # 3 Exhibit 3 [Sealed], # 4 Proposed Order, # 5 Certificate of Service)(Related document(s) 729 ) (Botwinick, Simeon) (Filed on 9/8/2026) (Entered: 09/08/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/66732129/736/andersen-v-stability-ai-ltd/)
+
+### 📄 Doc #734 — 2026-09-04
+
+Order withdrawn per ECF 746 ORDER by Magistrate Judge Lisa J. Cisneros: Plaintiffs' and Defendant Midjourney's 733 joint discovery dispute letter and the accompanying 732 motion to seal are hereby STRUCK for untimeliness. The Court recently 728 granted Plaintiffs' and Defendant DeviantArt's 725 stipulation for an extension to file a limited discovery dispute letter regarding the testimony of a DeviantArt witness. That deadline has since passed and remains firmly closed. Those serial stipulations did not include Midjourney as a party. Plaintiffs' and Midjourney's deadline to bring discovery disputes related to fact depositions was, and remains, August 24, 2026. See ECF No. 597. That deadline has long-since passed. (This is a text-only entry generated by the court. There is no document associated with this entry.) (ljclc1, COURT STAFF) (Filed on 9/4/2026) Modified on 9/16/2026 (bjw, COURT STAFF). (Entered: 09/04/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/66732129/734/andersen-v-stability-ai-ltd/)
+
+### 📄 Doc #— — 2026-09-04
+
+Order on Discovery Letter Brief
+
+### 📄 Doc #733 — 2026-09-03
+
+Joint Discovery Letter Brief (Redacted) filed by Sarah Andersen, Gerald Brom, Adam Ellis, Julia Kaye, Gregory Manchess, Karla Ortiz, Grzegorz Rutkowski, Jingna Zhang. (Attachments: # 1 Declaration Louis A. Kessler Declaration in Support of Plaintiffs Position, # 2 Kessler Exhibit A, # 3 Kessler Exhibit B, # 4 Kessler Exhibit C, # 5 Kessler Exhibit D, # 6 Angela A. Dunning Declaration in Support of Midjourney Inc.s Position, # 7 Dunning Exhibit A, # 8 of Max Sills in Support of Midjourney Inc.s Position in the Joint Letter Brief (filed under seal))(Saveri, Joseph) (Filed on 9/3/2026) (Entered: 09/03/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/66732129/733/8/andersen-v-stability-ai-ltd/)
+
+### 📄 Doc #732 — 2026-09-03
+
+Administrative Motion to Consider Whether Another Party's Material Should Be Sealed filed by Sarah Andersen, Gerald Brom, Adam Ellis, Julia Kaye, Gregory Manchess, Karla Ortiz, Grzegorz Rutkowski, Jingna Zhang. (Attachments: # 1 Proposed Order, # 2 Joint Letter Brief Regarding Midjourneys Clawback of a Certain Document at the Deposition of Midjourneys Founder and CEO, David Holz (sealed), # 3 Declaration Louis A. Kessler Declaration in Support of Plaintiffs Position (sealed), # 4 Kessler Exhibit A (sealed), # 5 Kessler Exhibit B (sealed), # 6 Kessler Exhibit C (sealed), # 7 Kessler Exhibit D (sealed), # 8 Dunning Exhibit A (sealed), # 9 Declaration Max Sills Declaration in Support of Midjourney Inc.s Position (sealed))(Saveri, Joseph) (Filed on 9/3/2026) (Entered: 09/03/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/66732129/732/andersen-v-stability-ai-ltd/)
+
+### 📄 Doc #731 — 2026-09-03
+
+ORDER REFERRING MOTIONS to Hon. Lisa J. Cisneros for a Report and Recommendation: 729 Administrative Motion to Consider Whether Another Party's Material Should Be Sealed Regarding Plaintiffs' Motion for Discovery Sanctions filed by Karla Ortiz, Gerald Brom, Sarah Andersen, Julia Kaye, Adam Ellis, Jingna Zhang, Grzegorz Rutkowski, Gregory Manchess, 730 MOTION for Sanctions Against DeviantArt, Inc. filed by Karla Ortiz, Gerald Brom, Sarah Andersen, Julia Kaye, Adam Ellis, Jingna Zhang, Grzegorz Rutkowski, Gregory Manchess. Signed by Judge William H. Orrick on 09/03/2026. (This is a text-only entry generated by the court. There is no document associated with this entry.) (wholc3, COURT STAFF) (Filed on 9/3/2026) (Entered: 09/03/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/66732129/731/andersen-v-stability-ai-ltd/)
+
+### 📄 Doc #— — 2026-09-03
+
+Order Referring Motion
+
+### 📄 Doc #728 — 2026-09-01
+
+ORDER by Magistrate Judge Lisa J. Cisneros: The 725 Stipulation is GRANTED. Plaintiffs and DeviantArt will have through September 1, 2026 to file a joint discovery dispute letter related to fact discovery. The parties have submitted near-daily requests for extension and the Court will not consider further extension requests. This will be the final extension of the deadline. (This is a text-only entry generated by the court. There is no document associated with this entry.) (ljclc1, COURT STAFF) (Filed on 9/1/2026) (Entered: 09/01/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/66732129/728/andersen-v-stability-ai-ltd/)
+
+### 📄 Doc #730 — 2026-09-01
+
+MOTION for Sanctions Against DeviantArt, Inc. filed by Sarah Andersen, Gerald Brom, Adam Ellis, Julia Kaye, Gregory Manchess, Karla Ortiz, Grzegorz Rutkowski, Jingna Zhang. Motion Hearing set for 10/7/2026 02:00 PM in San Francisco, Courtroom 02, 17th Floor before Judge William H. Orrick. Responses due by 9/15/2026. Replies due by 9/22/2026. (Attachments: # 1 Declaration of Holden Benon in Support of, # 2 Exhibit A (Filed Under Seal), # 3 Exhibit B (Filed Under Seal), # 4 Exhibit C (Filed Under Seal), # 5 Exhibit D (Public), # 6 Proposed Order)(Saveri, Joseph) (Filed on 9/1/2026) (Entered: 09/01/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/66732129/730/6/andersen-v-stability-ai-ltd/)
+
+### 📄 Doc #729 — 2026-09-01
+
+Administrative Motion to Consider Whether Another Party's Material Should Be Sealed Regarding Plaintiffs' Motion for Discovery Sanctions filed by Sarah Andersen, Gerald Brom, Adam Ellis, Julia Kaye, Gregory Manchess, Karla Ortiz, Grzegorz Rutkowski, Jingna Zhang. (Attachments: # 1 Proposed Order, # 2 Plaintiffs' Motion for Discovery Sanctions Against DeviantArt (Sealed), # 3 Exhibit A (Sealed), # 4 Exhibit B (Sealed), # 5 Exhibit C (Sealed))(Saveri, Joseph) (Filed on 9/1/2026) (Entered: 09/01/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/66732129/729/andersen-v-stability-ai-ltd/)
+
+### 📄 Doc #— — 2026-09-01
+
+Order on Stipulation
+
+### 📄 Doc #726 — 2026-08-31
+
+Declaration of Aaron Cera in Support of 705 Administrative Motion to Consider Whether Another Party's Material Should Be Sealed filed bySarah Andersen, Gerald Brom, Adam Ellis, Julia Kaye, Gregory Manchess, Karla Ortiz, Grzegorz Rutkowski, Jingna Zhang. (Related document(s) 705 ) (Saveri, Joseph) (Filed on 8/31/2026) (Entered: 08/31/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/66732129/726/andersen-v-stability-ai-ltd/)
+
+### 📄 Doc #727 — 2026-08-31
+
+EXHIBITS re 707 Administrative Motion to Consider Whether Another Party's Material Should Be Sealed Regarding Joint Letter Brief Re Stability AI's 30(b)(6) Designees, 712 Administrative Motion to Consider Whether Another Party's Material Should Be Sealed Regarding Stability AI's Failure to Preserve Evidence Declaration of Chad Fawcett in Support of Plaintiffs' Administrative Motions to Consider Whether Another Party's Material Should be Sealed Regarding Stability AI's Failure to Preserve Evidence and Stability AI's 30(b)(6) Designees [Dkts. 707, 712] filed byStability AI Ltd., Stability AI, Inc.. (Attachments: # 1 Redacted Ex. 1, # 2 Unredacted Ex. 1, # 3 Redacted Ex. 2, # 4 Unredacted Ex. 2, # 5 Redacted Ex. 3, # 6 Unredacted Ex. 3, # 7 Redacted Ex. 4, # 8 Unredacted Ex. 4, # 9 Redacted Ex. 5, # 10 Unredacted Ex. 5, # 11 Redacted Ex. 6, # 12 Unredacted Ex. 6, # 13 Redacted Ex. 7, # 14 Unredacted Ex. 7, # 15 Redacted Ex. 8, # 16 Unredacted Ex. 8)(Related document(s) 707, 712 ) (Gratz,  …(truncated)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/66732129/727/andersen-v-stability-ai-ltd/)
+
+### 📄 Doc #725 — 2026-08-31
+
+STIPULATION WITH PROPOSED ORDER Regarding Limited Extension of Deadline for Plaintiffs and DeviantArt to Resolve a Certain Dispute filed by DeviantArt, Inc.. (Botwinick, Simeon) (Filed on 8/31/2026) (Entered: 08/31/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/66732129/725/andersen-v-stability-ai-ltd/)
+
+### 📄 Doc #724 — 2026-08-31
+
+Declaration of Yegina Whang in Support of 710 Administrative Motion to Consider Whether Another Party's Material Should Be Sealed Regarding Joint Letter Brief Re Runway AI's Discovery Violations filed byRunway AI, Inc.. (Related document(s) 710 ) (Whang, Yegina) (Filed on 8/31/2026) (Entered: 08/31/2026)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/66732129/724/andersen-v-stability-ai-ltd/)
 
@@ -122,7 +418,7 @@ STIPULATION WITH PROPOSED ORDER Regarding Limited Extension of Deadline for Plai
 
 ### 📄 Doc #714 — 2026-08-25
 
-Order by Magistrate Judge Lisa J. Cisneros granting 632 Administrative Motion to File Under Seal to Maintain Under Seal Portions of the Court's June 30, 2026 Order (ECF 619 ).(bns, COURT STAFF) (Filed on 8/25/2026) (Entered: 08/25/2026)
+Order  by Magistrate Judge Lisa J. Cisneros  granting  632   Administrative Motion to File Under Seal to Maintain Under Seal Portions of the Court's June 30, 2026 Order (ECF  619 ).(bns, COURT STAFF) (Filed on 8/25/2026)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/66732129/714/andersen-v-stability-ai-ltd/)
 
@@ -656,7 +952,7 @@ Administrative Motion to Consider Whether Another Party's Material Should Be Sea
 
 ### 📄 Doc #623 — 2026-07-01
 
-ORDER  by Judge Lisa J. Cisneros granting  622   Stipulation Regarding Case Schedule.  (bns, COURT STAFF) (Filed on 7/1/2026)
+ORDER by Judge Lisa J. Cisneros granting 622 Stipulation Regarding Case Schedule. (bns, COURT STAFF) (Filed on 7/1/2026) (Entered: 07/01/2026)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/66732129/623/andersen-v-stability-ai-ltd/)
 
@@ -824,330 +1120,22 @@ ORDER REGARDING CASE SCHEDULE by Judge William H. Orrick granting 587 Stipulatio
 
 [CourtListener 連結](https://www.courtlistener.com/docket/66732129/597/andersen-v-stability-ai-ltd/)
 
-### 📄 Doc #596 — 2026-06-15
-
-Order by Magistrate Judge Lisa J. Cisneros granting 472 Administrative Motion to Consider Whether Another Party's Material Should Be Sealed.(bns, COURT STAFF) (Filed on 6/15/2026) (Entered: 06/15/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/66732129/596/andersen-v-stability-ai-ltd/)
-
-### 📄 Doc #595 — 2026-06-15
-
-ORDER by Judge Lisa J. Cisneros granting 594 Stipulation Extending Deadline to File Joint Letter Brief Regarding DeviantArt Source Code. (bns, COURT STAFF) (Filed on 6/15/2026) (Entered: 06/15/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/66732129/595/andersen-v-stability-ai-ltd/)
-
-### 📄 Doc #594 — 2026-06-11
-
-STIPULATION WITH PROPOSED ORDER re 555 Status Conference,,,,,,, Set Deadlines/Hearings,,,,,,, Util - Teleconference Zoom,,,,,, Extending Deadline to File Joint Letter Brief Regarding DeviantArt Source Code filed by Sarah Andersen, Gerald Brom, Adam Ellis, Julia Kaye, Gregory Manchess, Karla Ortiz, Grzegorz Rutkowski, Jingna Zhang. (Saveri, Joseph) (Filed on 6/11/2026) (Entered: 06/11/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/66732129/594/andersen-v-stability-ai-ltd/)
-
-### 📄 Doc #593 — 2026-06-11
-
-STATUS REPORT Jointly filed pursuant to ECF No. 555 by Sarah Andersen, Gerald Brom, Adam Ellis, Julia Kaye, Gregory Manchess, Karla Ortiz, Grzegorz Rutkowski, Jingna Zhang. (Saveri, Joseph) (Filed on 6/11/2026) (Entered: 06/11/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/66732129/593/andersen-v-stability-ai-ltd/)
-
-### 📄 Doc #592 — 2026-06-09
-
-ORDER by Magistrate Judge Lisa J. Cisneros: The Court has reviewed 588 Plaintiffs' and 591 Stability's filings regarding Plaintiffs' 30(b)(1) notices. No later June 10, 2026 at 2:00pm, Stability shall provide a substantive reply in writing to Plaintiffs regarding the 30(b)(1) notices served on June 3, 2026. Plaintiffs and Stability shall meet and confer by June 12, 2026, and file either a joint letter brief following Judge Cisneros's Civil Standing Order or a joint status report informing the Court that the matter has been resolved by June 16, 2026. (This is a text-only entry generated by the court. There is no document associated with this entry.) (ljclc1, COURT STAFF) (Filed on 6/9/2026) (Entered: 06/09/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/66732129/592/andersen-v-stability-ai-ltd/)
-
-### 📄 Doc #— — 2026-06-09
-
-Order on Discovery Letter Brief
-
-### 📄 Doc #591 — 2026-06-08
-
-Letter Brief re 588 Discovery Letter Brief Regarding Plaintiffs' 30(b)(1) Notices on Defendants Stability AI, Ltd. and Stability AI, Inc. filed byStability AI Ltd., Stability AI, Inc.. (Attachments: # 1 Declaration of Aditya V. Kamdar in Support of Defendants Stability AI's Responsive Letter Brief, # 2 Exhibit A to the Declaration of Aditya V. Kamdar)(Related document(s) 588 ) (Kamdar, Aditya) (Filed on 6/8/2026) (Entered: 06/08/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/66732129/591/2/andersen-v-stability-ai-ltd/)
-
-### 📄 Doc #590 — 2026-06-08
-
-ORDER by Judge Lisa J. Cisneros granting 585 Stipulation.(ljclc1, COURT STAFF) (Filed on 6/8/2026) (Entered: 06/08/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/66732129/590/andersen-v-stability-ai-ltd/)
-
-### 📄 Doc #588 — 2026-06-05
-
-Discovery Letter Brief Regarding Plaintiffs' 30(b)(1) Notices on Defendants Stability AI, Ltd. and Stability AI, Inc. filed by Sarah Andersen, Gerald Brom, Adam Ellis, Julia Kaye, Gregory Manchess, Karla Ortiz, Grzegorz Rutkowski, Jingna Zhang. (Attachments: # 1 Exhibit - Disputed Deposition Notices, # 2 Declaration of Alexandra Fernandez in Support of, # 3 Exhibit A, # 4 Exhibit B, # 5 Exhibit C, # 6 Exhibit D, # 7 Exhibit E)(Saveri, Joseph) (Filed on 6/5/2026) (Entered: 06/05/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/66732129/588/7/andersen-v-stability-ai-ltd/)
-
-### 📄 Doc #589 — 2026-06-05
-
-Declaration of Charity E. Lee in Support of 577 Administrative Motion to Consider Whether Another Party's Material Should Be Sealed filed byMidjourney, Inc.. (Related document(s) 577 ) (Lee, Charity) (Filed on 6/5/2026) (Entered: 06/05/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/66732129/589/andersen-v-stability-ai-ltd/)
-
-### 📄 Doc #587 — 2026-06-05
-
-STIPULATION WITH PROPOSED ORDER re 499 Order on Motion for Miscellaneous Relief Regarding Case Schedule filed by Sarah Andersen, Gerald Brom, Adam Ellis, Julia Kaye, Gregory Manchess, Karla Ortiz, Grzegorz Rutkowski, Jingna Zhang. (Saveri, Joseph) (Filed on 6/5/2026) (Entered: 06/05/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/66732129/587/andersen-v-stability-ai-ltd/)
-
-### 📄 Doc #585 — 2026-06-05
-
-SECOND STIPULATION WITH PROPOSED ORDER re 555 Status Conference, Util - Teleconference Zoom, Extending Deadline to File Joint Letter Brief Regarding Stability Source Code and Requests for Production, Set Five filed by Sarah Andersen, Gerald Brom, Adam Ellis, Julia Kaye, Gregory Manchess, Karla Ortiz, Grzegorz Rutkowski, Jingna Zhang. (Saveri, Joseph) (Filed on 6/5/2026) (Entered: 06/05/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/66732129/585/andersen-v-stability-ai-ltd/)
-
-### 📄 Doc #584 — 2026-06-05
-
-TRANSCRIPT ORDER for proceedings held on 05/14/2026 before Magistrate Judge Lisa J. Cisneros by DeviantArt, Inc., for Recorded Proceeding - San Francisco. (Botwinick, Simeon) (Filed on 6/5/2026) (Entered: 06/05/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/66732129/584/andersen-v-stability-ai-ltd/)
-
-### 📄 Doc #583 — 2026-06-05
-
-ORDER by Judge Lisa J. Cisneros granting 582 Stipulation Extending Deadline to File Joint Letter Brief Regarding Midjourney's End Use Training Data. (bns, COURT STAFF) (Filed on 6/5/2026) (Entered: 06/05/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/66732129/583/andersen-v-stability-ai-ltd/)
-
-### 📄 Doc #582 — 2026-06-04
-
-STIPULATION WITH PROPOSED ORDER re 555 Status Conference,,,,,,, Set Deadlines/Hearings,,,,,,, Util - Teleconference Zoom,,,,,, Extending Deadline to File Joint Letter Brief Regarding Midjourneys End Use Training Data filed by Sarah Andersen, Gerald Brom, Adam Ellis, Julia Kaye, Gregory Manchess, Karla Ortiz, Grzegorz Rutkowski, Jingna Zhang. (Saveri, Joseph) (Filed on 6/4/2026) (Entered: 06/04/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/66732129/582/andersen-v-stability-ai-ltd/)
-
-### 📄 Doc #581 — 2026-06-03
-
-Joint Discovery Letter Brief filed by Stability AI Ltd., Stability AI, Inc.. (Attachments: # 1 Exhibit Re Disputed Discovery Requests to Joint Letter Brief, # 2 Declaration of Christopher R. Adler in Support of Defendants' Joint Letter Brief, # 3 Exhibit 1 to Declaration of Christopher R. Adler, # 4 Exhibit 2 to Declaration of Christopher R. Adler, # 5 Declaration of Alexander Zeng in Opposition to Defendants' Joint Letter Brief, # 6 Exhibit A to Declaration of Alexander Zeng, # 7 Exhibit B to Declaration of Alexander Zeng)(Gratz, Joseph) (Filed on 6/3/2026) (Entered: 06/03/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/66732129/581/7/andersen-v-stability-ai-ltd/)
-
-### 📄 Doc #— — 2026-06-02
-
-Notice of Appearance/Substitution/Change/Withdrawal of Attorney
-
-### 📄 Doc #578 — 2026-05-29
-
-Letter Brief re 562 Order,, Set Deadlines/Hearings, (Redacted) filed bySarah Andersen, Gerald Brom, Adam Ellis, Julia Kaye, Gregory Manchess, Karla Ortiz, Grzegorz Rutkowski, Jingna Zhang. (Attachments: # 1 Declaration of Louis Kessler in Support of, # 2 Exhibit 1, # 3 Exhibit 2 (Filed Under Seal), # 4 Exhibit 3 (Filed Under Seal), # 5 Exhibit 4 (Filed Under Seal), # 6 Exhibit 5 (Filed Under Seal), # 7 Exhibit 6 (Filed Under Seal), # 8 Exhibit 7 (Filed Under Seal), # 9 Exhibit 8 (Filed Under Seal), # 10 Exhibit 9 (Filed Under Seal), # 11 Exhibit 10 (Filed Under Seal))(Related document(s) 562 ) (Saveri, Joseph) (Filed on 5/29/2026) (Entered: 05/29/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/66732129/578/11/andersen-v-stability-ai-ltd/)
-
-### 📄 Doc #577 — 2026-05-29
-
-Administrative Motion to Consider Whether Another Party's Material Should Be Sealed filed by Sarah Andersen, Gerald Brom, Adam Ellis, Julia Kaye, Gregory Manchess, Karla Ortiz, Grzegorz Rutkowski, Jingna Zhang. (Attachments: # 1 Plaintiffs Response to Midjourneys Supplemental Letter Brief (sealed), # 2 Exhibit 2 (sealed), # 3 Exhibit 3 (sealed), # 4 Exhibit 4 (sealed), # 5 Exhibit 5 (sealed), # 6 Exhibit 6 (sealed), # 7 Exhibit 7 (sealed), # 8 Exhibit 8 (sealed), # 9 Exhibit 9 (sealed), # 10 Exhibit 10 (sealed), # 11 Proposed Order)(Saveri, Joseph) (Filed on 5/29/2026) (Entered: 05/29/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/66732129/577/andersen-v-stability-ai-ltd/)
-
-### 📄 Doc #576 — 2026-05-29
-
-ORDER by Judge Lisa J. Cisneros granting 575 Stipulation Extending Deadline to File Joint Letter Brief Regarding Stability Source Code and Request for Production, Set Five. (bns, COURT STAFF) (Filed on 5/29/2026) (Entered: 05/29/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/66732129/576/andersen-v-stability-ai-ltd/)
-
-### 📄 Doc #575 — 2026-05-28
-
-STIPULATION WITH PROPOSED ORDER Extending Deadline to File Joint Letter Brief Regarding Stability Source Code and Request for Production, Set Five re 555 Status Conference, Set Deadlines/Hearings, Util - Teleconference Zoom, filed by Sarah Andersen, Gerald Brom, Adam Ellis, Julia Kaye, Gregory Manchess, Karla Ortiz, Grzegorz Rutkowski, Jingna Zhang. (Saveri, Joseph) (Filed on 5/28/2026) Modified on 5/29/2026 (anj, COURT STAFF). (Entered: 05/28/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/66732129/575/andersen-v-stability-ai-ltd/)
-
-### 📄 Doc #574 — 2026-05-27
-
-ORDER by Judge Lisa J. Cisneros granting 572 Stipulation Extending Deadline To File Joint Letter Brief Regarding Midjourney's Response To Plaintiff's Interrogatory No. 15. (bns, COURT STAFF) (Filed on 5/27/2026) (Entered: 05/27/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/66732129/574/andersen-v-stability-ai-ltd/)
-
-### 📄 Doc #573 — 2026-05-26
-
-Letter Brief re 562 Order,, Set Deadlines/Hearings, filed byMidjourney, Inc.. (Attachments: # 1 Declaration of Angela L. Dunning, # 2 Exhibit 1 [FILED UNDER SEAL], # 3 Exhibit 2 [FILED UNDER SEAL], # 4 Exhibit 3 [FILED UNDER SEAL], # 5 Exhibit 4 [FILED UNDER SEAL], # 6 Exhibit 5 [FILED UNDER SEAL])(Related document(s) 562 ) (Dunning, Angela) (Filed on 5/26/2026) (Entered: 05/26/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/66732129/573/6/andersen-v-stability-ai-ltd/)
-
-### 📄 Doc #571 — 2026-05-26
-
-Administrative Motion to File Under Seal filed by Midjourney, Inc.. (Attachments: # 1 Declaration of Angela L. Dunning, # 2 Exhibit : Supplemental Letter Brief to the Court Dated May 26, 2026, # 3 Exhibit 1, # 4 Exhibit 2, # 5 Exhibit 3, # 6 Exhibit 4, # 7 Exhibit 5, # 8 Proposed Order, # 9 Certificate/Proof of Service)(Dunning, Angela) (Filed on 5/26/2026) (Entered: 05/26/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/66732129/571/9/andersen-v-stability-ai-ltd/)
-
-### 📄 Doc #569 — 2026-05-26
-
-Order by Magistrate Judge Lisa J. Cisneros: The Court has reviewed Plaintiffs and Stability's 567 status report regarding negotiating search terms for William Cusick's custodial file. If Plaintiffs and Stability are unable to reach a resolution through their meet and confer efforts by June 2, 2026, they shall file a joint letter brief regarding any outstanding issues no later than June 5, 2026. (This is a text-only entry generated by the court. There is no document associated with this entry.) (ljclc1, COURT STAFF) (Filed on 5/26/2026) (Entered: 05/26/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/66732129/569/andersen-v-stability-ai-ltd/)
-
-### 📄 Doc #572 — 2026-05-26
-
-STIPULATION WITH PROPOSED ORDER Extending Deadline To File Joint Letter Brief Regarding Midjourneys Response To Plaintiffs Interrogatory No. 15 re 555 Status Conference, Set Deadlines/Hearings, Util - Teleconference Zoom, filed by Sarah Andersen, Gerald Brom, Adam Ellis, Julia Kaye, Gregory Manchess, Karla Ortiz, Grzegorz Rutkowski, Jingna Zhang. (Saveri, Joseph) (Filed on 5/26/2026) Modified on 5/27/2026 (anj, COURT STAFF). (Entered: 05/26/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/66732129/572/andersen-v-stability-ai-ltd/)
-
-### 📄 Doc #570 — 2026-05-26
-
-ORDER by Judge Lisa J. Cisneros granting 568 Stipulation Extending Deadline to File Joint Letter Brief Regarding DeviantArts Response to Plaintiffs Interrogatory No. 14. (bns, COURT STAFF) (Filed on 5/26/2026) (Entered: 05/26/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/66732129/570/andersen-v-stability-ai-ltd/)
-
-### 📄 Doc #— — 2026-05-26
-
-Order
-
-### 📄 Doc #568 — 2026-05-22
-
-STIPULATION WITH PROPOSED ORDER Extending Deadline to File Joint Letter Brief Regarding DeviantArts Response to Plaintiffs Interrogatory No. 14 filed by DeviantArt, Inc.. (Lovejoy, Brittany) (Filed on 5/22/2026) (Entered: 05/22/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/66732129/568/andersen-v-stability-ai-ltd/)
-
-### 📄 Doc #567 — 2026-05-22
-
-STATUS REPORT [JOINT] by Sarah Andersen, Gerald Brom, Adam Ellis, Julia Kaye, Gregory Manchess, Karla Ortiz, Grzegorz Rutkowski, Jingna Zhang. (Saveri, Joseph) (Filed on 5/22/2026) (Entered: 05/22/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/66732129/567/andersen-v-stability-ai-ltd/)
-
-### 📄 Doc #566 — 2026-05-20
-
-TRANSCRIPT ORDER for proceedings held on 5/14/2026 before Magistrate Judge Lisa J. Cisneros by Midjourney, Inc., for Recorded Proceeding - San Francisco. (Dunning, Angela) (Filed on 5/20/2026) (Entered: 05/20/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/66732129/566/andersen-v-stability-ai-ltd/)
-
-### 📄 Doc #565 — 2026-05-20
-
-Transcript of Proceedings held on 05/14/26, before Judge Lisa J. Cisneros. Court Reporter/Transcriber Echo Reporting, Inc., telephone number echoreporting@yahoo.com. Tape Number: 3:16 - 3:59. Per General Order No. 59 and Judicial Conference policy, this transcript may be viewed only at the Clerk's Office public terminal or may be purchased through the Court Reporter/Transcriber until the deadline for the Release of Transcript Restriction. After that date it may be obtained through PACER. Any Notice of Intent to Request Redaction, if required, is due no later than 5 business days from date of this filing. (Re 560 Transcript Order, ) Redaction Request due 6/10/2026. Redacted Transcript Deadline set for 6/22/2026. Release of Transcript Restriction set for 8/18/2026. (Related documents(s) 560 ) (Jauregui, Tara) (Filed on 5/20/2026) (Entered: 05/20/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/66732129/565/andersen-v-stability-ai-ltd/)
-
-### 📄 Doc #563 — 2026-05-19
-
-Transcript of Proceedings held on 05/14/26, before Judge Lisa J. Cisneros. Court Reporter/Transcriber Echo Reporting, Inc., telephone number echoreporting@yahoo.com. Tape Number: 4:00 - 4:53. Per General Order No. 59 and Judicial Conference policy, this transcript may be viewed only at the Clerk's Office public terminal or may be purchased through the Court Reporter/Transcriber until the deadline for the Release of Transcript Restriction. After that date it may be obtained through PACER. Any Notice of Intent to Request Redaction, if required, is due no later than 5 business days from date of this filing. (Re 561 Transcript Order, 559 Transcript Order, 558 Transcript Order ) Redaction Request due 6/9/2026. Redacted Transcript Deadline set for 6/22/2026. Release of Transcript Restriction set for 8/17/2026. (Related documents(s) 561, 559, 558 ) (Jauregui, Tara) (Filed on 5/19/2026) (Entered: 05/19/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/66732129/563/andersen-v-stability-ai-ltd/)
-
-### 📄 Doc #564 — 2026-05-19
-
-Declaration of Charity E. Lee in Support of 547 Administrative Motion to Consider Whether Another Party's Material Should Be Sealed Regarding the Proper Start Date for the Search of the Gmail of David Holz filed byMidjourney, Inc.. (Related document(s) 547 ) (Lee, Charity) (Filed on 5/19/2026) (Entered: 05/19/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/66732129/564/andersen-v-stability-ai-ltd/)
-
-### 📄 Doc #562 — 2026-05-19
-
-ORDER REQUESTING FURTHER BRIEFING. Signed by Judge Lisa J. Cisneros on 5/19/2026. Letter Brief due by 5/25/2026. Response due by 5/29/2026. (bns, COURT STAFF) (Filed on 5/19/2026) (Additional attachment(s) added on 5/19/2026: # 1 ORDER REQUESTING FURTHER BRIEFING) (bns, COURT STAFF). (Entered: 05/19/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/66732129/562/andersen-v-stability-ai-ltd/)
-
-### 📄 Doc #561 — 2026-05-18
-
-TRANSCRIPT ORDER for proceedings held on 05/14/2026 before Magistrate Judge Lisa J. Cisneros by Sarah Andersen, Gerald Brom, Adam Ellis, Julia Kaye, Gregory Manchess, Karla Ortiz, Grzegorz Rutkowski, Jingna Zhang, for Recorded Proceeding - San Francisco. (Saveri, Joseph) (Filed on 5/18/2026) (Entered: 05/18/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/66732129/561/andersen-v-stability-ai-ltd/)
-
-### 📄 Doc #560 — 2026-05-18
-
-TRANSCRIPT ORDER for proceedings held on 05/14/2026 before Magistrate Judge Lisa J. Cisneros by Sarah Andersen, Gerald Brom, Adam Ellis, Julia Kaye, Gregory Manchess, Karla Ortiz, Grzegorz Rutkowski, Jingna Zhang, for Recorded Proceeding - San Francisco. (Saveri, Joseph) (Filed on 5/18/2026) (Entered: 05/18/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/66732129/560/andersen-v-stability-ai-ltd/)
-
-### 📄 Doc #559 — 2026-05-18
-
-TRANSCRIPT ORDER for proceedings held on 5/14/2026 before Magistrate Judge Lisa J. Cisneros by DeviantArt, Inc., for Recorded Proceeding - San Francisco. (Botwinick, Simeon) (Filed on 5/18/2026) (Entered: 05/18/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/66732129/559/andersen-v-stability-ai-ltd/)
-
-### 📄 Doc #557 — 2026-05-18
-
-TRANSCRIPT ORDER for proceedings held on 4/23/2026 before Magistrate Judge Lisa J. Cisneros by Midjourney, Inc., for Recorded Proceeding - San Francisco. (Dunning, Angela) (Filed on 5/18/2026) (Entered: 05/18/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/66732129/557/andersen-v-stability-ai-ltd/)
-
-### 📄 Doc #558 — 2026-05-18
-
-TRANSCRIPT ORDER for proceedings held on 5/14/2026 before Magistrate Judge Lisa J. Cisneros by Midjourney, Inc., for Recorded Proceeding - San Francisco. (Dunning, Angela) (Filed on 5/18/2026) (Entered: 05/18/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/66732129/558/andersen-v-stability-ai-ltd/)
-
-### 📄 Doc #551 — 2026-05-14
-
-Administrative Motion to File Under Seal filed by Midjourney, Inc.. (Attachments: # 1 Declaration of Angela L. Dunning, # 2 Exhibit 2, # 3 Exhibit 3, # 4 Exhibit 4, # 5 Exhibit 4A, # 6 Exhibit 5, # 7 Exhibit 5A, # 8 Proposed Order)(Dunning, Angela) (Filed on 5/14/2026) (Entered: 05/14/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/66732129/551/8/andersen-v-stability-ai-ltd/)
-
-### 📄 Doc #554 — 2026-05-14
-
-Amended Administrative Motion to File Under Seal filed by Midjourney, Inc.. (Attachments: # 1 Declaration of Angela L. Dunning (Amended), # 2 Proposed Order (Amended))(Dunning, Angela) (Filed on 5/14/2026) (Entered: 05/14/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/66732129/554/2/andersen-v-stability-ai-ltd/)
-
-### 📄 Doc #550 — 2026-05-14
-
-ORDER by Magistrate Judge Lisa J. Cisneros: The Court has reviewed Plaintiffs and Stability's 548 status report. Based on their progress negotiating search terms and their representation that they "expect to conclude negotiations next week," the Court shall not require Plaintiffs and Stability to attend an in-person meet and confer session on May 15, 2026. Plaintiffs and Stability shall continue their negotiation efforts and file a further joint status report by May 22, 2026. (This is a text-only entry generated by the court. There is no document associated with this entry.) (ljclc1, COURT STAFF) (Filed on 5/14/2026) (Entered: 05/14/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/66732129/550/andersen-v-stability-ai-ltd/)
-
-### 📄 Doc #555 — 2026-05-14
-
-Minute Entry for proceedings held before Magistrate Judge Lisa J. Cisneros: Discovery Status Conference held on 5/14/2026. Zoom Recording Time: 3:16 p.m.- 3:59 p.m. (43 minutes). Plaintiff Attorney: Holden Benon and Alexandra Fernandez, Saveri Law Firm, LLP.For Defendant Stability AI Ltd. and Stability AI, Inc.: Evan Gourvitz, Morrison & Foerster LLP.For Defendant Midjourney Inc.: Angela Dunning and Charity E. Lee, Cleary Gottlieb Steen & Hamilton LLP.For Defendant Runway AI, Inc: Paven Malhotra and Yegina Whang, Keker Van Nest and Peters LLP.For Defendant DeviantArt: Simeon Botwinick, Latham and Watkins LLP.Proceedings: See Attachment. Further Discovery Status Conference set for 6/18/2026 at 03:00 PM in San Francisco, - Videoconference Only before Magistrate Judge Lisa J. Cisneros. This proceeding will be held via a Zoom webinar.Webinar Access: All counsel, members of the public, and media may access the webinar information at https://www.cand.uscourts.gov/lisa-j-cisneros/Civ LR 77-3( …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/66732129/555/andersen-v-stability-ai-ltd/)
-
-### 📄 Doc #556 — 2026-05-14
-
-Minute Entry for proceedings held before Magistrate Judge Lisa J. Cisneros: Discovery Hearing held on 5/14/2026.Zoom Recording Time: 4:00 p.m.- 4:53 p.m. (53 minutes). Plaintiff Attorney: Holden Benon and Alexandra Fernandez, Saveri Law Firm, LLP. Defendant Attorney: Midjourney Inc.: Angela Dunning and Charity E. Lee, Cleary Gottlieb Steen & Hamilton LLP.Proceedings: The Court heard argument on Plaintiffs and Midjourney's joint letter briefs at ECF Nos. 531 and 546 . The Court may issue a written order directing the parties to submit supplemental briefing regarding ECF No. 531 .The Court denied Plaintiffs' request at ECF No. 546 that Midjourney search David Holz's Gmail account beginning on January 1, 2021. Midjourney shall search Mr. Holzs Gmail account beginning on August 1, 2021. The Courts denial is without prejudice to Plaintiffs requesting an earlier start date for this discovery if they present evidence supporting their claim that Midjourney or Mr. Holz was involved with LAION's …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/66732129/556/andersen-v-stability-ai-ltd/)
-
-### 📄 Doc #552 — 2026-05-14
-
-Letter Brief re 549 Order,, filed byMidjourney, Inc.. (Attachments: # 1 Exhibit 1, # 2 Exhibit 2 (Redacted), # 3 Exhibit 3 (Filed Under Seal), # 4 Exhibit 4 (Filed Under Seal), # 5 Exhibit 4A (Filed Under Seal), # 6 Exhibit 5 (Filed Under Seal), # 7 Exhibit 5A (Filed Under Seal))(Related document(s) 549 ) (Dunning, Angela) (Filed on 5/14/2026) (Entered: 05/14/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/66732129/552/7/andersen-v-stability-ai-ltd/)
-
-### 📄 Doc #— — 2026-05-14
-
-Order
-
-### 📄 Doc #549 — 2026-05-13
-
-ORDER by Magistrate Judge Lisa J. Cisneros re Joint Discovery Letter 531 : By 12:00 pm on May 14, 2026, Midjourney is directed to file up to five illustrative documents that support its representation that "the style reference model has noting to do with emulating artists or their work." See ECF No. 531 at 6. Signed by Judge Lisa J. Cisneros on 5/13/2026. (This is a text-only entry generated by the court. There is no document associated with this entry.) (Cisneros, Lisa) (Filed on 5/13/2026) (Entered: 05/13/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/66732129/549/andersen-v-stability-ai-ltd/)
-
-### 📄 Doc #— — 2026-05-13
-
-Order
-
-### 📄 Doc #548 — 2026-05-13
-
-STATUS REPORT Jointly Filed Pursuant to ECF No. 541 Regarding the Scope of the Collection and Production of Mr. Cusicks Custodial Records by Sarah Andersen, Gerald Brom, Adam Ellis, Julia Kaye, Gregory Manchess, Karla Ortiz, Grzegorz Rutkowski, Jingna Zhang. (Saveri, Joseph) (Filed on 5/13/2026) (Entered: 05/13/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/66732129/548/andersen-v-stability-ai-ltd/)
-
-### 📄 Doc #546 — 2026-05-12
-
-Joint Discovery Letter BriefRegarding a Dispute regarding the Proper Start Date for the Search of the Gmail of David Holz (Redacted) filed by Sarah Andersen, Gerald Brom, Adam Ellis, Julia Kaye, Gregory Manchess, Karla Ortiz, Grzegorz Rutkowski, Jingna Zhang. (Attachments: # 1 Declaration of Louis Kessler in Support of Plaintiff's Position, # 2 Kessler Exhibit A, # 3 Kessler Exhibit B, # 4 Kessler Exhibit C, # 5 Kessler Exhibit D, # 6 Kessler Exhibit E, # 7 Kessler Exhibit F (Filed Under Seal), # 8 Kessler Exhibit G (Filed Under Seal), # 9 Kessler Exhibit H (Filed Under Seal), # 10 Declaration of Charity Lee in Support of Midjourney's Position (Redacted), # 11 Lee Exhibit 1 (Redacted))(Saveri, Joseph) (Filed on 5/12/2026) Modified on 6/26/2026 (bns, COURT STAFF). (Entered: 05/12/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/66732129/546/11/andersen-v-stability-ai-ltd/)
-
-### 📄 Doc #547 — 2026-05-12
-
-Administrative Motion to Consider Whether Another Party's Material Should Be Sealed Regarding the Proper Start Date for the Search of the Gmail of David Holz filed by Sarah Andersen, Gerald Brom, Adam Ellis, Julia Kaye, Gregory Manchess, Karla Ortiz, Grzegorz Rutkowski, Jingna Zhang. (Attachments: # 1 Proposed Order, # 2 Joint Letter Brief dispute over the proper start date for the search of the Gmail of David Holz (Sealed), # 3 Kessler Exhibit F (Sealed), # 4 Kessler Exhibit G (Sealed), # 5 Kessler Exhibit H (Sealed), # 6 Declaration of Charity Lee in Support of Midjourney's Position (Sealed), # 7 Lee Exhibit 1 (Sealed))(Saveri, Joseph) (Filed on 5/12/2026) (Entered: 05/12/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/66732129/547/andersen-v-stability-ai-ltd/)
-
-### 📄 Doc #545 — 2026-05-12
-
-Declaration of Peter ODonoghue in Support of 528 Administrative Motion to Consider Whether Another Party's Material Should Be Sealed, 526 Administrative Motion to Consider Whether Another Party's Material Should Be Sealed Re: Joint Letter Brief regarding a Dispute over whether Stability AI will designate former employee William (Bill) Cusick as a Custodian filed byStability AI Ltd., Stability AI, Inc.. (Related document(s) 528, 526 ) (Kamdar, Aditya) (Filed on 5/12/2026) (Entered: 05/12/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/66732129/545/andersen-v-stability-ai-ltd/)
-
 <details>
 <summary>已過濾的 10 筆程序性 entries（點擊展開）</summary>
 
+- **Doc #755** (2026-09-22): MOTION for leave to appear in Pro Hac Vice ( Filing fee $ 328, receipt number ACANDC-22497881.) filed by Midjourney, Inc.. (Attachments: # 1 Certificate of Good Standing)(Naydonov, Anna) (Filed on 9/2…
+- **Doc #745** (2026-09-15): CERTIFICATE OF SERVICE by DeviantArt, Inc. re 744 Administrative Motion to File Under Seal Portions of Opposition Brief, Declarations, and Exhibits (Lovejoy, Brittany) (Filed on 9/15/2026) (Entered: 0…
+- **Doc #737** (2026-09-09): Order by Judge William H. Orrick granting 735 Motion for Pro Hac Vice by Kathryn C. Thornton. (jmd, COURT STAFF) (Filed on 9/9/2026) (Entered: 09/09/2026)
+- **Doc #735** (2026-09-04): MOTION for leave to appear in Pro Hac Vice ( Filing fee $ 328, receipt number ACANDC-22426473.) filed by Stability AI Ltd., Stability AI, Inc.. (Thornton, Kathryn) (Filed on 9/4/2026) (Entered: 09/04/…
 - **Doc #691** (2026-07-30): CERTIFICATE OF SERVICE by Stability AI Ltd., Stability AI, Inc. re 688 Administrative Motion to File Under Seal (Lane, Jackson) (Filed on 7/30/2026) (Entered: 07/30/2026)
 - **Doc #675** (2026-07-23): CERTIFICATE OF SERVICE by Stability AI Ltd., Stability AI, Inc. re 674 Administrative Motion to File Under Seal (Kamdar, Aditya) (Filed on 7/23/2026) (Entered: 07/23/2026)
 - **Doc #670** (2026-07-22): CERTIFICATE OF SERVICE by Stability AI Ltd., Stability AI, Inc. re 668 Administrative Motion to File Under Seal (Kamdar, Aditya) (Filed on 7/22/2026) (Entered: 07/22/2026)
 - **Doc #664** (2026-07-17): NOTICE of Appearance filed by Deeva V Shah on behalf of Runway AI, Inc. (Shah, Deeva) (Filed on 7/17/2026) (Entered: 07/17/2026)
 - **Doc #650** (2026-07-13): Order by Judge William H. Orrick granting 647 Motion for Pro Hac Vice by Michael M. Buchman. (jmd, COURT STAFF) (Filed on 7/13/2026) Modified on 7/16/2026 to correct spelling of attorney's name (jmd, …
 - **Doc #647** (2026-07-09): MOTION for leave to appear in Pro Hac Vice for Michael Buchman ( Filing fee $ 328, receipt number ACANDC-22196280.) filed by Sarah Andersen, Gerald Brom, Adam Ellis, Julia Kaye, Gregory Manchess, Karl…
-- **Doc #586** (2026-06-05): NOTICE of Change of Address by Angela Dunning and Samuel Blankenship (Dunning, Angela) (Filed on 6/5/2026) (Entered: 06/05/2026)
-- **Doc #580** (2026-06-02): NOTICE of Appearance filed by Alaina L. Gilchrist on behalf of Sarah Andersen, Gerald Brom, Adam Ellis, Julia Kaye, Gregory Manchess, Karla Ortiz, Grzegorz Rutkowski, Jingna Zhang (Gilchrist, Alaina) …
-- **Doc #579** (2026-06-02): NOTICE of Appearance filed by Lora Faraj on behalf of Sarah Andersen, Gerald Brom, Adam Ellis, Julia Kaye, Gregory Manchess, Karla Ortiz, Grzegorz Rutkowski, Jingna Zhang (Faraj, Lora) (Filed on 6/2/2…
-- **Doc #553** (2026-05-14): CERTIFICATE OF SERVICE by Midjourney, Inc. re 551 Administrative Motion to File Under Seal (Dunning, Angela) (Filed on 5/14/2026) (Entered: 05/14/2026)
 
 </details>
 
 ---
 
-*產生時間：2026-09-01 01:01 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-10-01 01:01 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

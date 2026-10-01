@@ -1,6 +1,6 @@
 # Case 48 — Ted Entertainment, Inc. v. Nvidia Corporation
 
-> 最後更新（CourtListener fetch）：2026-09-01 01:22 UTC
+> 最後更新（CourtListener fetch）：2026-10-01 01:26 UTC
 
 ---
 
@@ -14,7 +14,7 @@
 | Judge Assigned | Edward J. Davila |
 | Judge Referred | Susan Van Keulen |
 | Date Filed | 2025-11-26 |
-| Date Last Filing | 2026-08-27 |
+| Date Last Filing | 2026-09-23 |
 | Cause | 17:101 Copyright Infringement |
 | Nature of Suit | 820 Copyright |
 | Jury Demand | Plaintiff |
@@ -34,15 +34,33 @@
 
 - ⚠️ Court 可能不一致：dashboard 寫「C.D. Cal.」，CourtListener 為「N.D. California」
 - ✅ Judge 一致：dashboard 寫「Edward J. Davila」，CourtListener 為「Edward J. Davila」
-- ℹ️ Dashboard progress 內找不到【YYYY/M/D】格式日期；CourtListener 最後 entry: 2026-08-27
+- ℹ️ Dashboard progress 內找不到【YYYY/M/D】格式日期；CourtListener 最後 entry: 2026-09-23
 
 ## 3. Docket Entries（最新優先，已過濾程序性 entries）
 
-**實質性 entries**：55 筆／**已過濾程序性 entries**：32 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+**實質性 entries**：58 筆／**已過濾程序性 entries**：32 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+
+### 📄 Doc #80 — 2026-09-23
+
+Notice of Voluntary Dismissal
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71972050/80/ted-entertainment-inc-v-nvidia-corporation/)
+
+### 📄 Doc #79 — 2026-09-08
+
+ORDER DECLINING TO RELATE CASES. Signed by Judge Edward J. Davila on 9/8/2026. (ejdlc1, COURT STAFF) (Filed on 9/8/2026) (Entered: 09/08/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71972050/79/ted-entertainment-inc-v-nvidia-corporation/)
+
+### 📄 Doc #78 — 2026-08-31
+
+Response re 76 Judicial Referral for Purpose of Determining Relationship of Cases by Matt Fisher, Golfholics, Inc., Ted Entertainment, Inc.. (Nath, Rohit) (Filed on 8/31/2026) (Entered: 08/31/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71972050/78/ted-entertainment-inc-v-nvidia-corporation/)
 
 ### 📄 Doc #77 — 2026-08-27
 
-Response ( Non Motion )
+RESPONSE re 76 Judicial Referral for Purpose of Determining Relationship of Cases by Meta Platforms, Inc.. (Wetzel, Joseph) (Filed on 8/27/2026) (Entered: 08/27/2026)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/71972050/77/ted-entertainment-inc-v-nvidia-corporation/)
 
@@ -54,7 +72,7 @@ REFERRAL FOR PURPOSE OF DETERMINING RELATIONSHIP.  Signed by Judge Jon S. Tigar 
 
 ### 📄 Doc #75 — 2026-08-25
 
-Order on Motion for Leave to File
+ORDER GRANTING 72 MOTION FOR LEAVE TO FILE STATEMENT OF RECENT DECISION. Signed by Judge Edward J. Davila on 8/25/2026. (ejdlc1, COURT STAFF) (Filed on 8/25/2026) (Entered: 08/25/2026)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/71972050/75/ted-entertainment-inc-v-nvidia-corporation/)
 
@@ -390,4 +408,4 @@ Proposed Summons. (Bar-Nissim, Rom) (Filed on 11/26/2025) (Entered: 11/26/2025)
 
 ---
 
-*產生時間：2026-09-01 01:22 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-10-01 01:26 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

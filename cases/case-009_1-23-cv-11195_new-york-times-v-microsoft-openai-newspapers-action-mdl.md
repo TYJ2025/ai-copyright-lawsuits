@@ -1,6 +1,6 @@
 # Case 9 — The New York Times Company v. Microsoft Corporation
 
-> 最後更新（CourtListener fetch）：2026-09-01 01:07 UTC
+> 最後更新（CourtListener fetch）：2026-10-01 01:08 UTC
 
 ---
 
@@ -14,7 +14,7 @@
 | Judge Assigned | Sidney H. Stein |
 | Judge Referred | Ona T. Wang |
 | Date Filed | 2023-12-27 |
-| Date Last Filing | 2026-08-31 |
+| Date Last Filing | 2026-09-30 |
 | Cause | 17:501 Copyright Infringement |
 | Nature of Suit | 820 Copyright |
 | Jury Demand | Both |
@@ -34,15 +34,995 @@
 
 - ✅ Court 一致：dashboard 寫「S.D.N.Y.」，CourtListener 為「S.D. New York」
 - ✅ Judge 一致：dashboard 寫「Sidney H. Stein」，CourtListener 為「Sidney H. Stein」
-- ⚠️ Dashboard progress **落後 53 天**：dashboard 最新日期 2026-07-09，CourtListener 最後 entry 2026-08-31——建議查看新近 entries 並補充 progress
+- ⚠️ Dashboard progress **落後 83 天**：dashboard 最新日期 2026-07-09，CourtListener 最後 entry 2026-09-30——建議查看新近 entries 並補充 progress
 
 ## 3. Docket Entries（最新優先，已過濾程序性 entries）
 
-**實質性 entries**：173 筆／**已過濾程序性 entries**：27 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+**實質性 entries**：184 筆／**已過濾程序性 entries**：16 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+
+### 📄 Doc #1638 — 2026-09-30
+
+Rule 7.1 Corporate Disclosure Statement
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1638/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1636 — 2026-09-29
+
+DECLARATION of Annelise Levy in Support re: (1635 in 1:23-cv-11195-SHS-OTW) MOTION to Intervene for Limited Purpose of Unsealing and Un-redacting Certain Documents.. Document filed by Bloomberg Industry Group, Inc.. (Attachments: # 1 Exhibit 2026.08.24 - Email to Microsoft & NYT's counsel, # 2 Exhibit 2026.08.28 - Email from Microsoft's counsel)Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:23-cv-11195-SHS-OTW.(Mitchell, Jeffrey) (Entered: 09/29/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1636/2/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1635 — 2026-09-29
+
+MOTION to Intervene for Limited Purpose of Unsealing and Un-redacting Certain Documents. Document filed by Bloomberg Industry Group, Inc..Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:23-cv-11195-SHS-OTW.(Mitchell, Jeffrey) (Entered: 09/29/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1635/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1637 — 2026-09-29
+
+MEMORANDUM OF LAW in Support re: (1635 in 1:23-cv-11195-SHS-OTW) MOTION to Intervene for Limited Purpose of Unsealing and Un-redacting Certain Documents. . Document filed by Bloomberg Industry Group, Inc.. Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:23-cv-11195-SHS-OTW.(Mitchell, Jeffrey) (Entered: 09/29/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1637/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #— — 2026-09-28
+
+Set/Reset Deadlines: Motions due by 10/2/2026. Responses due by 10/16/2026 Replies due by 10/30/2026. Associated Cases: 1:25-md-03143-SHS-OTW, 1:23-cv-11195-SHS-OTW(rro)
+
+### 📄 Doc #1634 — 2026-09-28
+
+ORDER terminating (1588)  Motion to Intervene in case 1:23-cv-11195-SHS-OTW.  Proposed intervenor Bloomberg Industry Group is directed to re-file their motion on  the MDL docket (25-MD-3143) by October 2, 2026, and review the case management  order  referenced above. This will not impact any of the deadlines set forth below. The briefing schedule on Bloomberg Industry Group's motion to intervene is hereby  ORDERED as follows: 1. Any opposition to be filed no later than October 16, 2026;  an d 2. Bloomberg Industry Group's reply is to be filed no later than October 30,  2026.  The Clerk of the Court is respectfully directed to close ECF 1588 in 23- CV-11195. SO ORDERED.   (Signed by Magistrate Judge Ona T. Wang on 9/28/2026)  Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:23-cv-11195-SHS-OTW  (rro)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1634/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1633 — 2026-09-28
+
+BRIEF re: (1464 in 1:23-cv-11195-SHS-OTW, 1682 in 1:25-md-03143-SHS-OTW) Letter, . Document filed by Chicago Tribune Company, LLC, DP Media Network, LLC, Daily News LP, Northwest Publications, LLC, ORB Publishing, LLC, Orlando Sentinel Communications Company, LLC, San Jose Mercury-News, LLC, Sun-sentinel Company, LLC, The New York Times Company.Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:23-cv-11195-SHS-OTW.(Lieberman, Steven) (Entered: 09/28/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1633/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1632 — 2026-09-25
+
+MEMORANDUM OF LAW in Opposition re: (2054 in 1:25-md-03143-SHS-OTW) MOTION for Leave to File Sur-Reply in Response to News Plaintiffs' Reply (MDL ECF 1932) . . Document filed by Chicago Tribune Company, LLC, DP Media Network, LLC, Daily News LP, Northwest Publications, LLC, ORB Publishing, LLC, Orlando Sentinel Communications Company, LLC, San Jose Mercury-News, LLC, Sun-sentinel Company, LLC, The New York Times Company. Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:23-cv-11195-SHS-OTW.(Lieberman, Steven) (Entered: 09/25/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1632/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1626 — 2026-09-24
+
+DECLARATION of Paven Malhotra in Support re: (2050 in 1:25-md-03143-SHS-OTW) JOINT MOTION to Exclude Expert Testimony Pursuant to Rule 702 .. Document filed by OAI Corporation, LLC, OpenAI GP, LLC, OpenAI Global, LLC, OpenAI Holdings, LLC, OpenAI Inc., OpenAI LLC, OpenAI OpCo LLC(a Delaware limited liability corporation). (Attachments: # 1 Exhibit 1, # 2 Exhibit 2, # 3 Exhibit 3, # 4 Exhibit 4, # 5 Exhibit 5, # 6 Exhibit 6, # 7 Exhibit 7, # 8 Exhibit 8, # 9 Exhibit 9, # 10 Exhibit 10, # 11 Exhibit 11, # 12 Exhibit 12, # 13 Exhibit 13, # 14 Exhibit 14, # 15 Exhibit 15, # 16 Exhibit 16, # 17 Exhibit 17, # 18 Exhibit 18, # 19 Exhibit 19, # 20 Exhibit 20, # 21 Exhibit 21, # 22 Exhibit 22, # 23 Exhibit 23, # 24 Exhibit 24, # 25 Exhibit 25, # 26 Exhibit 26, # 27 Exhibit 27, # 28 Exhibit 28, # 29 Exhibit 29, # 30 Exhibit 30, # 31 Exhibit 31, # 32 Exhibit 32, # 33 Exhibit 33, # 34 Exhibit 34, # 35 Exhibit 35, # 36 Exhibit 36, # 37 Exhibit 37, # 38 Exhibit 38, # 39 Exhibit 39, # 40 Exhibit 40,  …(truncated)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1626/58/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1625 — 2026-09-24
+
+DECLARATION of On Amir in Support re: (585 in 1:24-cv-01515-SHS-OTW, 1345 in 1:23-cv-08292-SHS-OTW, 840 in 1:23-cv-10211-SHS-OTW, 893 in 1:24-cv-03285-SHS-OTW, 757 in 1:24-cv-04872-SHS-OTW, 2050 in 1:25-md-03143-SHS-OTW, 671 in 1:25-cv-04315-SHS-OTW, 1620 in 1:23-cv-11195-SHS-OTW) JOINT MOTION to Exclude Expert Testimony Pursuant to Rule 702 .. Document filed by Microsoft Corporation. (Attachments: # 1 Exhibit A - Filed Under Seal, # 2 Exhibit B - Filed Under Seal, # 3 Exhibit C - Filed Under Seal, # 4 Exhibit D - Filed Under Seal, # 5 Exhibit E - Filed Under Seal, # 6 Exhibit F - Filed Under Seal, # 7 Exhibit G - Filed Under Seal, # 8 Exhibit H - Filed Under Seal, # 9 Exhibit I - Filed Under Seal, # 10 Exhibit J - Filed Under Seal, # 11 Exhibit K - Filed Under Seal, # 12 Exhibit L - Filed Under Seal, # 13 Exhibit M - Filed Under Seal, # 14 Exhibit N - Filed Under Seal)Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Simpson, Lisa) (Entered: 09/24/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1625/14/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1624 — 2026-09-24
+
+DECLARATION of Padma Gaggara in Support re: (585 in 1:24-cv-01515-SHS-OTW, 1345 in 1:23-cv-08292-SHS-OTW, 840 in 1:23-cv-10211-SHS-OTW, 893 in 1:24-cv-03285-SHS-OTW, 757 in 1:24-cv-04872-SHS-OTW, 2050 in 1:25-md-03143-SHS-OTW, 671 in 1:25-cv-04315-SHS-OTW, 1620 in 1:23-cv-11195-SHS-OTW) JOINT MOTION to Exclude Expert Testimony Pursuant to Rule 702 .. Document filed by Microsoft Corporation. (Attachments: # 1 Appendix A - Analysis of Daily News Plaintiffs URL Crawl Dates)Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Simpson, Lisa) (Entered: 09/24/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1624/1/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1620 — 2026-09-24
+
+JOINT MOTION to Exclude Expert Testimony Pursuant to Rule 702 . Document filed by Microsoft Corporation.Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Simpson, Lisa) (Entered: 09/24/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1620/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1621 — 2026-09-24
+
+MEMORANDUM OF LAW in Support re: (2050 in 1:25-md-03143-SHS-OTW, 757 in 1:24-cv-04872-SHS-OTW, 1345 in 1:23-cv-08292-SHS-OTW, 840 in 1:23-cv-10211-SHS-OTW, 1620 in 1:23-cv-11195-SHS-OTW, 671 in 1:25-cv-04315-SHS-OTW, 585 in 1:24-cv-01515-SHS-OTW, 893 in 1:24-cv-03285-SHS-OTW) JOINT MOTION to Exclude Expert Testimony Pursuant to Rule 702 . . Document filed by Microsoft Corporation. Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Simpson, Lisa) (Entered: 09/24/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1621/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1622 — 2026-09-24
+
+***SEALED*** MEMORANDUM OF LAW in Support re: (585 in 1:24-cv-01515-SHS-OTW, 1345 in 1:23-cv-08292-SHS-OTW, 840 in 1:23-cv-10211-SHS-OTW, 893 in 1:24-cv-03285-SHS-OTW, 757 in 1:24-cv-04872-SHS-OTW, 2050 in 1:25-md-03143-SHS-OTW, 671 in 1:25-cv-04315-SHS-OTW, 1620 in 1:23-cv-11195-SHS-OTW) JOINT MOTION to Exclude Expert Testimony Pursuant to Rule 702 . . Document filed by Microsoft Corporation. Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al.Motion or Order to File Under Seal: 1685 .(Simpson, Lisa) (Entered: 09/24/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1622/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1623 — 2026-09-24
+
+DECLARATION of Fabrice Canel in Support re: (585 in 1:24-cv-01515-SHS-OTW, 1345 in 1:23-cv-08292-SHS-OTW, 840 in 1:23-cv-10211-SHS-OTW, 893 in 1:24-cv-03285-SHS-OTW, 757 in 1:24-cv-04872-SHS-OTW, 2050 in 1:25-md-03143-SHS-OTW, 671 in 1:25-cv-04315-SHS-OTW, 1620 in 1:23-cv-11195-SHS-OTW) JOINT MOTION to Exclude Expert Testimony Pursuant to Rule 702 .. Document filed by Microsoft Corporation. Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Simpson, Lisa) (Entered: 09/24/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1623/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1627 — 2026-09-24
+
+***SEALED***DECLARATION of On Amir in Support re: (585 in 1:24-cv-01515-SHS-OTW, 1345 in 1:23-cv-08292-SHS-OTW, 840 in 1:23-cv-10211-SHS-OTW, 893 in 1:24-cv-03285-SHS-OTW, 757 in 1:24-cv-04872-SHS-OTW, 2050 in 1:25-md-03143-SHS-OTW, 671 in 1:25-cv-04315-SHS-OTW, 1620 in 1:23-cv-11195-SHS-OTW) JOINT MOTION to Exclude Expert Testimony Pursuant to Rule 702 .. Document filed by Microsoft Corporation. (Attachments: # 1 Exhibit A - Filed Under Seal, # 2 Exhibit B - Filed Under Seal, # 3 Exhibit C - Filed Under Seal, # 4 Exhibit D - Filed Under Seal, # 5 Exhibit E - Filed Under Seal, # 6 Exhibit F - Filed Under Seal, # 7 Exhibit G - Filed Under Seal, # 8 Exhibit H - Filed Under Seal, # 9 Exhibit I - Filed Under Seal, # 10 Exhibit J - Filed Under Seal, # 11 Exhibit K - Filed Under Seal, # 12 Exhibit L - Filed Under Seal, # 13 Exhibit M - Filed Under Seal, # 14 Exhibit N - Filed Under Seal)Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al.Motion or Order to File Under Seal: 1685 .(Simpson, …(truncated)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1627/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1628 — 2026-09-24
+
+JOINT LETTER MOTION for Oral Argument addressed to Judge Sidney H. Stein from Annette L. Hurst and Robert A. Van Nest dated September 24, 2026. Document filed by Microsoft Corporation.Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Hurst, Annette) (Entered: 09/24/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1628/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1629 — 2026-09-24
+
+***SEALED***DECLARATION of Paven Malhotra in Support re: (2050 in 1:25-md-03143-SHS-OTW) JOINT MOTION to Exclude Expert Testimony Pursuant to Rule 702 .. Document filed by OAI Corporation, LLC, OpenAI GP, LLC, OpenAI Global, LLC, OpenAI Holdings, LLC, OpenAI Inc., OpenAI LLC, OpenAI OpCo, LLC. (Attachments: # 1 Exhibit 1, # 2 Exhibit 2, # 3 Exhibit 3, # 4 Exhibit 4, # 5 Exhibit 5, # 6 Exhibit 6, # 7 Exhibit 7, # 8 Exhibit 8, # 9 Exhibit 9, # 10 Exhibit 11, # 11 Exhibit 12, # 12 Exhibit 13, # 13 Exhibit 14, # 14 Exhibit 15, # 15 Exhibit 18, # 16 Exhibit 19, # 17 Exhibit 21, # 18 Exhibit 22, # 19 Exhibit 23, # 20 Exhibit 25, # 21 Exhibit 26, # 22 Exhibit 27, # 23 Exhibit 28, # 24 Exhibit 30, # 25 Exhibit 33, # 26 Exhibit 34, # 27 Exhibit 35, # 28 Exhibit 36, # 29 Exhibit 37, # 30 Exhibit 38, # 31 Exhibit 39, # 32 Exhibit 41, # 33 Exhibit 42, # 34 Exhibit 43, # 35 Exhibit 44, # 36 Exhibit 45, # 37 Exhibit 47, # 38 Exhibit 48, # 39 Exhibit 49, # 40 Exhibit 52, # 41 Exhibit 53, # 42 Exhibit …(truncated)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1629/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #— — 2026-09-24
+
+Set/Reset Deadlines: Brief due by 10/30/2026. Responses due by 10/23/2026 Replies due by 11/20/2026. Associated Cases: 1:25-md-03143-SHS-OTW et al.(jca)
+
+### 📄 Doc #1619 — 2026-09-24
+
+LETTER addressed to Magistrate Judge Ona T. Wang from Jeffrey A. Mitchell dated September 24, 2026 re: Briefing Schedule for Bloomberg Industry Group, Inc.'s Motion to Intervene. Document filed by Bloomberg Industry Group, Inc...(Mitchell, Jeffrey) (Entered: 09/24/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1619/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1618 — 2026-09-24
+
+ORDER in case 1:23-cv-08292-SHS-OTW; granting (2041) Letter Motion for Extension of Time to File in case 1:25-md-03143-SHS-OTW.The schedule as set forth above is granted. SO ORDERED.. (Signed by Judge Sidney H. Stein on 9/24/2026) Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al. (jca) (Entered: 09/24/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1618/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1617 — 2026-09-23
+
+MOTION for Ana Mendez-Villamil to Withdraw as Attorney . Document filed by Microsoft Corporation, Microsoft Corporation, Microsoft Corporation.Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Mendez-Villamil, Ana) (Entered: 09/23/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1617/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1616 — 2026-09-21
+
+DECLARATION of Annette L. Hurst in Support re: (889 in 1:24-cv-03285-SHS-OTW, 582 in 1:24-cv-01515-SHS-OTW, 668 in 1:25-cv-04315-SHS-OTW, 1615 in 1:23-cv-11195-SHS-OTW, 2041 in 1:25-md-03143-SHS-OTW, 753 in 1:24-cv-04872-SHS-OTW) JOINT LETTER MOTION for Extension of Time to File Opposition to News Plaintiffs' Motion for Partial Summary Judgment addressed to Judge Sidney H. Stein from Annette L. Hurst and Robert A. Van Nest dated September 21, 2026.. Document filed by Microsoft Corporation. (Attachments: # 1 Exhibit A - September 13, 2026 Email from Microsoft's counsel to News Plaintiffs' counsel, # 2 Exhibit B - September 18, 2026 Email among lead counsel regarding Defendants' requested extention)Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Hurst, Annette) (Entered: 09/21/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1616/2/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1615 — 2026-09-21
+
+JOINT LETTER MOTION for Extension of Time to File Opposition to News Plaintiffs' Motion for Partial Summary Judgment addressed to Judge Sidney H. Stein from Annette L. Hurst and Robert A. Van Nest dated September 21, 2026. Document filed by Microsoft Corporation.Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Hurst, Annette) (Entered: 09/21/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1615/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1614 — 2026-09-21
+
+ORDER: The Court is in receipt of the motion to intervene by Bloomberg Industry Group, Inc. for the limited purpose of opposing the sealing and redactions of certain documents in this case. (ECF 1588 in 23-cv-11195). Parties are directed to meet and confer and propose a briefing schedule on the motion to intervene, by Friday, September 25, 2026. SO ORDERED. (Signed by Magistrate Judge Ona T. Wang on 9/21/2026) Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:23-cv-11195-SHS-OTW. (mml) (Entered: 09/21/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1614/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1613 — 2026-09-18
+
+RULE 56.1 STATEMENT. Document filed by Daily News LP, The Center for Investigative Reporting, Inc., The Intercept Media, Inc., The New York Times Company, Ziff Davis Inc.. Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Topic, Matthew) (Entered: 09/18/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1613/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1612 — 2026-09-18
+
+RULE 56.1 STATEMENT. Document filed by Microsoft Corporation. Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:23-cv-11195-SHS-OTW, 1:24-cv-03285-SHS-OTW, 1:24-cv-04872-SHS-OTW.(Hurst, Annette) (Entered: 09/18/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1612/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1590 — 2026-09-17
+
+DECLARATION of Annelise Levy in Support re: 1588 MOTION to Intervene for Limited Purpose of Unsealing and Un-redacting Certain Documents.. Document filed by Bloomberg Industry Group, Inc.. (Attachments: # 1 Exhibit 2026.08.24 - Email to Microsoft & NYT's counsel, # 2 Exhibit 2026.08.28 - Email from Microsoft's counsel).(Mitchell, Jeffrey) (Entered: 09/17/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1590/2/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1608 — 2026-09-17
+
+LETTER MOTION to Seal ECF 1935 and [1932-1] addressed to Magistrate Judge Ona T. Wang from Caitlin Sinclaire Blythe, Thomas E. Gorman, Herman H. Yue dated September 17, 2026. Document filed by OAI Corporation, OpenAI Foundation, OpenAI GP, LLC, OpenAI Global, LLC, OpenAI Group PBC, OpenAI LLC, OpenAI OpCo, LLC, OpenAI Startup Fund GP I LLC, OpenAI Startup Fund I LP, OpenAI Startup Fund Management LLC(a Delaware limited liability company). (Attachments: # 1 Proposed Order )Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Blythe, Caitlin) (Entered: 09/17/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1608/1/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1610 — 2026-09-17
+
+DECLARATION of Maile Yeats-Rowe in Support re: (663 in 1:25-cv-04315-SHS-OTW, 883 in 1:24-cv-03285-SHS-OTW, 577 in 1:24-cv-01515-SHS-OTW, 2008 in 1:25-md-03143-SHS-OTW, 1608 in 1:23-cv-11195-SHS-OTW, 747 in 1:24-cv-04872-SHS-OTW) LETTER MOTION to Seal ECF (1935) and [1932-1] addressed to Magistrate Judge Ona T. Wang from Caitlin Sinclaire Blythe, Thomas E. Gorman, Herman H. Yue dated September 17, 2026.. Document filed by OAI Corporation, OpenAI Foundation, OpenAI GP, LLC, OpenAI Global, LLC, OpenAI Group PBC, OpenAI LLC, OpenAI OpCo, LLC, OpenAI Startup Fund GP I LLC, OpenAI Startup Fund I LP, OpenAI Startup Fund Management LLC(a Delaware limited liability company). (Attachments: # 1 Exhibit A, # 2 Exhibit B)Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Blythe, Caitlin) (Entered: 09/17/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1610/2/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1609 — 2026-09-17
+
+***SEALED***DECLARATION of Maile Yeats-Rowe in Support re: (663 in 1:25-cv-04315-SHS-OTW, 883 in 1:24-cv-03285-SHS-OTW, 577 in 1:24-cv-01515-SHS-OTW, 2008 in 1:25-md-03143-SHS-OTW, 1608 in 1:23-cv-11195-SHS-OTW, 747 in 1:24-cv-04872-SHS-OTW) LETTER MOTION to Seal ECF (1935) and [1932-1] addressed to Magistrate Judge Ona T. Wang from Caitlin Sinclaire Blythe, Thomas E. Gorman, Herman H. Yue dated September 17, 2026.. Document filed by OAI Corporation, OpenAI Foundation, OpenAI GP, LLC, OpenAI Global, LLC, OpenAI Group PBC, OpenAI LLC, OpenAI OpCo, LLC, OpenAI Startup Fund GP I LLC, OpenAI Startup Fund I LP, OpenAI Startup Fund Management LLC(a Delaware limited liability company). (Attachments: # 1 Exhibit A, # 2 Exhibit B)Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al.Motion or Order to File Under Seal: 2008 .(Blythe, Caitlin) (Entered: 09/17/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1609/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1598 — 2026-09-17
+
+***SEALED***DECLARATION of Davida Brook re: (1728 in 1:25-md-03143-SHS-OTW) MOTION for Summary Judgment ., (1688 in 1:25-md-03143-SHS-OTW) MOTION to Seal and Redact Portions of News Plaintiffs' Combined Summary Judgment Brief and Rule 56.1 Statement of Material Undisputed Facts. . Document filed by The New York Times Company. (Attachments: # 1 Exhibit 0324.7 - DNP Copyright Registrations, # 2 Exhibit 0324.8 - DNP Copyright Registrations, # 3 Exhibit 0324.9 - DNP Copyright Registrations, # 4 Exhibit 0324.10 - DNP Copyright Registrations, # 5 Exhibit 0324.11 - DNP Copyright Registrations, # 6 Exhibit 0324.12 - DNP Copyright Registrations)Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al.Motion or Order to File Under Seal: 1688 .(Brook, Davida) (Entered: 09/17/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1598/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1599 — 2026-09-17
+
+***SEALED***DECLARATION of Davida Brook re: (1728 in 1:25-md-03143-SHS-OTW) MOTION for Summary Judgment ., (1688 in 1:25-md-03143-SHS-OTW) MOTION to Seal and Redact Portions of News Plaintiffs' Combined Summary Judgment Brief and Rule 56.1 Statement of Material Undisputed Facts. . Document filed by The New York Times Company. (Attachments: # 1 Exhibit 0324.13 - DNP Copyright Registrations, # 2 Exhibit 0324.14 - DNP Copyright Registrations, # 3 Exhibit 0324.15 - DNP Copyright Registrations, # 4 Exhibit 0324.16 - DNP Copyright Registrations, # 5 Exhibit 0371 - Yang, Hannah 022726 Condensed (30b6), # 6 Exhibit 0426 - DNP-00636034, # 7 Exhibit 0433 - DNP-00364973, # 8 Exhibit 0445 NYT_00815634)Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al.Motion or Order to File Under Seal: 1688 .(Brook, Davida) (Entered: 09/17/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1599/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1600 — 2026-09-17
+
+***SEALED***DECLARATION of Davida Brook re: (1728 in 1:25-md-03143-SHS-OTW) MOTION for Summary Judgment ., (1688 in 1:25-md-03143-SHS-OTW) MOTION to Seal and Redact Portions of News Plaintiffs' Combined Summary Judgment Brief and Rule 56.1 Statement of Material Undisputed Facts. . Document filed by The New York Times Company. (Attachments: # 1 Exhibit 0456.1 - Radford depo transcript, # 2 Exhibit 0456.1 - Radford depo transcript, # 3 Exhibit 0456.1 - Radford depo transcript, # 4 Exhibit 0456.1 - Radford depo transcript, # 5 Exhibit 0462 - OpenAI's Supp Resp to NYT Rogs (Nos. 7 and 21), # 6 Exhibit 0491 - 2026-03-23 CIR OAI Second Supplemental ROs to Rog No. 14, # 7 Exhibit 0537 - OPCO_MDL_001005468, # 8 Exhibit 0544 - NYT_01017922, # 9 Exhibit 0546 - NYT_01017936, # 10 Exhibit 0604 - MSFT AI_MDL_002758532 native slipsheet, # 11 Exhibit 0608 - MSFT_AI_MDL_000169501, # 12 Errata 0627 - Sohl, Ian 121025 Condensed - 30(b)(1), # 13 Exhibit 0657 - Abib, Elbio 111825 Condensed (30b6), # 14 Ex …(truncated)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1600/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1601 — 2026-09-17
+
+***SEALED***DECLARATION of Davida Brook re: (1728 in 1:25-md-03143-SHS-OTW) MOTION for Summary Judgment ., (1688 in 1:25-md-03143-SHS-OTW) MOTION to Seal and Redact Portions of News Plaintiffs' Combined Summary Judgment Brief and Rule 56.1 Statement of Material Undisputed Facts. . Document filed by The New York Times Company. (Attachments: # 1 Exhibit 0745 - OPCO_MDL_0002207731, # 2 Exhibit 0771 - OPCO_MDL_000480333, # 3 Exhibit 0782 - OPCO_MDL_004619015, # 4 Exhibit 0787 - OPCO_MDL_000207987, # 5 Exhibit 0799 - OPCO_MDL_001682605, # 6 Exhibit 0801 - OPCO_MDL_004754577, # 7 Exhibit 0803 - OPCO_MDL_004760465, # 8 Exhibit 0805.1 - OPCO_MDL_001705863, # 9 Exhibit 0805.2 - OPCO_MDL_001705863, # 10 Exhibit 0805.3 - OPCO_MDL_001705863, # 11 Exhibit 0806.1 - MSFT_AI_MDL_002882532, # 12 Exhibit 0806.2 - MSFT_AI_MDL_002882532, # 13 Exhibit 0806.3 - MSFT_AI_MDL_002882532, # 14 Exhibit 0806.4 - MSFT_AI_MDL_002882532, # 15 Exhibit 0806.5 - MSFT_AI_MDL_002882532)Filed In Associated Cases: 1:25-md-0 …(truncated)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1601/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1602 — 2026-09-17
+
+***SEALED***DECLARATION of Davida Brook re: (1728 in 1:25-md-03143-SHS-OTW) MOTION for Summary Judgment ., (1688 in 1:25-md-03143-SHS-OTW) MOTION to Seal and Redact Portions of News Plaintiffs' Combined Summary Judgment Brief and Rule 56.1 Statement of Material Undisputed Facts. . Document filed by The New York Times Company. (Attachments: # 1 Exhibit 0807 - OPCO_MDL_001700392, # 2 Exhibit 0809 - OPCO_MDL_004771719, # 3 Exhibit 0815 - OPCO_OAI_OUTPUT00007151, # 4 Exhibit 0817 - OPCO_MDL_000157541, # 5 Exhibit 0819 - OPCO_OAI_OUTPUT00009143, # 6 Exhibit 0821 - OPCO_OAI_OUTPUT00009131, # 7 Exhibit 0823 - OPCO_OAI_OUTPUT00009183, # 8 Exhibit 0825 - OPCO_OAI_OUTPUT00006440, # 9 Exhibit 0827 - OPCO_OAI_OUTPUT00006740, # 10 Exhibit 0831 - OPCO_OAI_OUTPUT00006563, # 11 Exhibit 0833 - OPCO_OAI_OUTPUT00006515, # 12 Exhibit 0835 - OPCO_OAI_OUTPUT00006565, # 13 Exhibit 0837 - OPCO_OAI_OUTPUT00006651, # 14 Exhibit 0839 - OPCO_OAI_OUTPUT00004962, # 15 Exhibit 0839 - OPCO_OAI_OUTPUT00004962 F, # 16  …(truncated)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1602/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1603 — 2026-09-17
+
+***SEALED***DECLARATION of Davida Brook re: (1728 in 1:25-md-03143-SHS-OTW) MOTION for Summary Judgment ., (1688 in 1:25-md-03143-SHS-OTW) MOTION to Seal and Redact Portions of News Plaintiffs' Combined Summary Judgment Brief and Rule 56.1 Statement of Material Undisputed Facts. . Document filed by The New York Times Company. (Attachments: # 1 Exhibit 0871 - OPCO_OAI_OUTPUT00004276, # 2 Exhibit 0873 - OPCO_OAI_OUTPUT00009137, # 3 Exhibit 0874.1, # 4 Exhibit 0874.2, # 5 Exhibit 0874.3, # 6 Exhibit 0876, # 7 Exhibit 0878, # 8 Exhibit 0879 - OPCO_OAI_OUTPUT00009090, # 9 Exhibit 0880, # 10 Exhibit 0882.1, # 11 Exhibit 0882.2)Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al.Motion or Order to File Under Seal: 1668 .(Brook, Davida) (Entered: 09/17/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1603/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1604 — 2026-09-17
+
+***SEALED***DECLARATION of Davida Brook re: (1728 in 1:25-md-03143-SHS-OTW) MOTION for Summary Judgment ., (1688 in 1:25-md-03143-SHS-OTW) MOTION to Seal and Redact Portions of News Plaintiffs' Combined Summary Judgment Brief and Rule 56.1 Statement of Material Undisputed Facts. . Document filed by The New York Times Company. (Attachments: # 1 Exhibit 0884.1, # 2 Exhibit 0884.2, # 3 Exhibit 0886.1, # 4 Exhibit 0886.2, # 5 Exhibit 0886.3, # 6 Exhibit 0886.4, # 7 Exhibit 0886.5)Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al.Motion or Order to File Under Seal: 1688 .(Brook, Davida) (Entered: 09/17/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1604/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1605 — 2026-09-17
+
+***SEALED***DECLARATION of Davida Brook re: (1728 in 1:25-md-03143-SHS-OTW) MOTION for Summary Judgment ., (1688 in 1:25-md-03143-SHS-OTW) MOTION to Seal and Redact Portions of News Plaintiffs' Combined Summary Judgment Brief and Rule 56.1 Statement of Material Undisputed Facts. . Document filed by The New York Times Company. (Attachments: # 1 Exhibit 0888.1, # 2 Exhibit 0888.2, # 3 Exhibit 0888.3, # 4 Exhibit 0890, # 5 Exhibit 0891 - OPCO_MDL_001899968, # 6 Exhibit 0896.1 - DNP-00001187 - DNP-00001331, # 7 Exhibit 0896.2 - DNP-00001187 - DNP-00001331, # 8 Exhibit 0898, # 9 Exhibit 0911 - OPCO_MDL_004820692 PDFA, # 10 Exhibit 1045 - OPCO_MDL_004401106 PDFA)Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al.Motion or Order to File Under Seal: 1668 .(Brook, Davida) (Entered: 09/17/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1605/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1606 — 2026-09-17
+
+***SEALED***DECLARATION of Davida Brook re: (1728 in 1:25-md-03143-SHS-OTW) MOTION for Summary Judgment ., (1688 in 1:25-md-03143-SHS-OTW) MOTION to Seal and Redact Portions of News Plaintiffs' Combined Summary Judgment Brief and Rule 56.1 Statement of Material Undisputed Facts. . Document filed by The New York Times Company. (Attachments: # 1 Exhibit 1053 - OPCO_MDL_000158237, # 2 Exhibit 1054 - OPCO_MDL_004591496, # 3 Exhibit 1055 - OPCO_MDL_002118849, # 4 Exhibit 1057 - OPCO_MDL_004591556, # 5 Exhibit 1119 - Poferl Ex. 10 - slipsheet, # 6 Exhibit 1126, # 7 Exhibit 1149, # 8 Exhibit 1154, # 9 Exhibit 1157 WENGER APPENDIX 29 - HC AEO intercept_cc_overlaps_deciles, # 10 Exhibit 1158 WENGER APPENDIX 31 - HC AEO mj_cc_overlaps_deciles, # 11 Exhibit 1159 WENGER APPENDIX 33 - HC AEO reveal_cc_overlaps_deciles, # 12 Exhibit 1167 Krishnan Response to Delorey, # 13 Exhibit 1168 Lafferty Sur-Reply, # 14 Exhibit 1214 NYT_01018244 - Slipsheet, # 15 Exhibit 1250 - DNP-00597371, # 16 Exhibit 1253  …(truncated)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1606/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1607 — 2026-09-17
+
+***SEALED***DECLARATION of Davida Brook re: (1728 in 1:25-md-03143-SHS-OTW) MOTION for Summary Judgment ., (1688 in 1:25-md-03143-SHS-OTW) MOTION to Seal and Redact Portions of News Plaintiffs' Combined Summary Judgment Brief and Rule 56.1 Statement of Material Undisputed Facts. . Document filed by The New York Times Company. (Attachments: # 1 Exhibit 1254.1 - Yang 13, # 2 Exhibit 1254.1 - Yang 13, # 3 Exhibit 1255 Yang 30b1, # 4 Exhibit 1256 - Gaffney 10, # 5 Exhibit 1258 MSFT_AI_MDL_000211987, # 6 Exhibit 1259 OPCO_MDL_004602292, # 7 Exhibit 1260 LDC-NYT_000046, # 8 Exhibit 1261 OPCO_OAI_OUTPUT00006728, # 9 Exhibit 1263 DNP-00534490, # 10 Exhibit 1265 Cromwell 06, # 11 Exhibit 1269 - 30(b)(6) Depo Tr. of Karen Oh VOLUME 2, # 12 Exhibit 1270 - Depo Tr. of Lindsey Turrentine)Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al.Motion or Order to File Under Seal: 1688 .(Brook, Davida) (Entered: 09/17/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1607/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1596 — 2026-09-17
+
+***SEALED***DECLARATION of Davida Brook re: (1728 in 1:25-md-03143-SHS-OTW) MOTION for Summary Judgment ., (1688 in 1:25-md-03143-SHS-OTW) MOTION to Seal and Redact Portions of News Plaintiffs' Combined Summary Judgment Brief and Rule 56.1 Statement of Material Undisputed Facts. . Document filed by The New York Times Company. (Attachments: # 1 Exhibit 0048.1 ZD0534639 (FY 2024), # 2 Exhibit 0048.2 ZD0534639 (FY 2024), # 3 Exhibit 0073 - Jacobs, CJ 021326 Condensed 615719 (30b6), # 4 Exhibit 0144 - OPCO_MDL_004590266, # 5 Exhibit 0181 - OPCO_MDL_004591302, # 6 Exhibit 0216 - MSFT_AI_MDL_001286869, # 7 Exhibit 0231 - Lightcap 17, # 8 Exhibit 0334 - DNP-00636447, DNP-00636773, DNP-00636829, # 9 Exhibit 0335.1 - DNP Certificates, # 10 Exhibit 0335.2 - DNP Certificates, # 11 Exhibit 0335.3 - DNP Certificates)Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al.Motion or Order to File Under Seal: 1688 .(Brook, Davida) (Entered: 09/17/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1596/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1597 — 2026-09-17
+
+***SEALED***DECLARATION of Davida Brook re: (1728 in 1:25-md-03143-SHS-OTW) MOTION for Summary Judgment ., (1688 in 1:25-md-03143-SHS-OTW) MOTION to Seal and Redact Portions of News Plaintiffs' Combined Summary Judgment Brief and Rule 56.1 Statement of Material Undisputed Facts. . Document filed by The New York Times Company. (Attachments: # 1 Exhibit 0324.1 - DNP Copyright Registrations, # 2 Exhibit 0324.2 - DNP Copyright Registrations, # 3 Exhibit 0324.3 - DNP Copyright Registrations, # 4 Exhibit 0324.4 - DNP Copyright Registrations, # 5 Exhibit 0324.5 - DNP Copyright Registrations, # 6 Exhibit 0324.6 - DNP Copyright Registrations)Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al.Motion or Order to File Under Seal: 1688 .(Brook, Davida) (Entered: 09/17/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1597/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1595 — 2026-09-17
+
+JOINT LETTER addressed to Judge Sidney H. Stein from Davida Brook dated 09/17/2026 re: Updated Rule 56.1 Statement. Document filed by Daily News LP, The Center for Investigative Reporting, Inc., The Intercept Media, Inc., The New York Times Company, Ziff Davis, LLC. (Attachments: # 1 Exhibit A - News Plaintiffs' Corrected Rule 56.1 Statement - redacted)Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Brook, Davida) Modified on 9/18/2026 (db). As per ECF-ERROR Email Correspondence Received on 9/18/2026 @ 7:58am. (Entered: 09/17/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1595/1/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1591 — 2026-09-17
+
+RULE 7.1 CORPORATE DISCLOSURE STATEMENT. Identifying Corporate Parent Bloomberg, Inc., Other Affiliate Bloomberg-BNA Holdings, Inc. for Bloomberg Industry Group, Inc.. Document filed by Bloomberg Industry Group, Inc...(Mitchell, Jeffrey) (Entered: 09/17/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1591/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1592 — 2026-09-17
+
+REDACTION to (1738 in 1:25-md-03143-SHS-OTW) Rule 56.1 Statement, (1735 in 1:25-md-03143-SHS-OTW) Rule 56.1 Statement, Revised Redacted Rule 56.1 Statement filed pursuant to Order 1685 by OAI Corporation, OpenAI Foundation, OpenAI GP, LLC, OpenAI Global, LLC, OpenAI Group PBC, OpenAI LLC, OpenAI OpCo, LLC, OpenAI Startup Fund GP I LLC, OpenAI Startup Fund I LP, OpenAI Startup Fund Management LLC(a Delaware limited liability company)Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Gratz, Joseph) (Entered: 09/17/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1592/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1593 — 2026-09-17
+
+LETTER addressed to Judge Sidney H. Stein from Jeffrey A. Mitchell dated September 17, 2026 re: request for oral argument on Bloomberg Industry Group, Inc.'s Motion to Intervene. Document filed by Bloomberg Industry Group, Inc...(Mitchell, Jeffrey) (Entered: 09/17/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1593/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1594 — 2026-09-17
+
+REDACTION to (1749 in 1:25-md-03143-SHS-OTW) Memorandum of Law in Support of Motion,,, (1753 in 1:25-md-03143-SHS-OTW) Memorandum of Law in Support of Motion, Revised Redacted version of Defendants' MPA in Support of Motion for Summary Judgment (News Plaintiffs) filed pursuant to Order 1685 by OAI Corporation, OpenAI Foundation, OpenAI GP, LLC, OpenAI Global, LLC, OpenAI Group PBC, OpenAI LLC, OpenAI OpCo, LLC, OpenAI Startup Fund GP I LLC, OpenAI Startup Fund I LP, OpenAI Startup Fund Management LLCFiled In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Gratz, Joseph) (Entered: 09/17/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1594/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1588 — 2026-09-17
+
+MOTION to Intervene for Limited Purpose of Unsealing and Un-redacting Certain Documents. Document filed by Bloomberg Industry Group, Inc...(Mitchell, Jeffrey) (Entered: 09/17/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1588/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1589 — 2026-09-17
+
+MEMORANDUM OF LAW in Support re: 1588 MOTION to Intervene for Limited Purpose of Unsealing and Un-redacting Certain Documents. . Document filed by Bloomberg Industry Group, Inc...(Mitchell, Jeffrey) (Entered: 09/17/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1589/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1587 — 2026-09-17
+
+LETTER addressed to Judge Sidney H. Stein from Davida Brook dated September 17, 2026 re: Public, Redacted Version of News' Plaintiffs' Memorandum of Law. Document filed by Daily News LP, The Center for Investigative Reporting, Inc., The Intercept Media, Inc., The New York Times Company, Ziff Davis, LLC. (Attachments: # 1 Exhibit Public Redacted Memorandum of Law)Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Brook, Davida) (Entered: 09/17/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1587/1/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1585 — 2026-09-17
+
+MEMORANDUM OF LAW in Support re: (1473 in 1:23-cv-11195-SHS-OTW) MOTION for Summary Judgment in News Plaintiffs' Consolidated Cases. Re-filed pursuant to ECF 1685. Document filed by Microsoft Corporation. Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:23-cv-11195-SHS-OTW, 1:24-cv-03285-SHS-OTW, 1:24-cv-04872-SHS-OTW.(Hurst, Annette) (Entered: 09/17/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1585/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1586 — 2026-09-17
+
+RULE 56.1 STATEMENT. Document filed by Microsoft Corporation. Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:23-cv-11195-SHS-OTW, 1:24-cv-03285-SHS-OTW, 1:24-cv-04872-SHS-OTW.(Hurst, Annette) Modified on 9/18/2026 (db). As per ECF-ERROR Email Correspondence Received on 9/18/2026 @ 8:17am. (Entered: 09/17/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1586/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1584 — 2026-09-16
+
+RESPONSE to Motion re: (1931 in 1:25-md-03143-SHS-OTW, 1566 in 1:23-cv-11195-SHS-OTW) MOTION to Seal News Plaintiffs' Reply to Microsoft Corporations Opposition to News Plaintiffs Motion for Sanctions. . Document filed by Microsoft Corporation, Microsoft Corporation, Microsoft Corporation. (Attachments: # 1 Exhibit A (Declaration of Lucky Vidmar))Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:23-cv-11195-SHS-OTW, 1:24-cv-03285-SHS-OTW, 1:24-cv-04872-SHS-OTW.(Briant, Jared) (Entered: 09/16/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1584/1/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1583 — 2026-09-16
+
+ORDER: The following discovery motions are DENIED as moot: Case No. 23-CV-8292: ECF Nos. 866, 889, 896, 897, 899, 900, 901, 902, 977, and 980; Case No. 23-CV-10211: ECF Nos. 650 and 651; Case No. 23-CV-11195: ECF Nos. 1090, 1094, 1099, 1104, 1179, 1180, 1187, 1192; and Case No. 24-CV-3285: ECF Nos. 561, 566, 615, 616. For the reasons discussed in 25-MD-3143, ECF 1926, the following sealing motions are GRANTED: Case No. 23-CV-10211: ECF Nos. 599, 600, 610, and 618; Case No. 23-CV-11195: ECF Nos. 1141, 1152, 1159, 1216, 1248, and 1256; Case No. 24-CV-1515: ECF Nos. 350 and 399; Case No. 24-CV-3285: ECF Nos. 671; and Case No. 25-CV-3482: ECF Nos. 689, 696, 700, 722, 740, 756. The Clerk of Court is respectfully directed to close the following ECF Nos. in each respective case: Case No. 23-CV-8292: ECF Nos. 866, 889, 896, 897, 899, 900, 901, 902, 977, and 980; Case No. 23-CV-10211: ECF Nos. 599, 600, 610, 618, 650, 651; Case No. 23-CV-11195: ECF Nos. 1090, 1094, 1099, 1104, 1141, 1152, 1159, …(truncated)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1583/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1579 — 2026-09-14
+
+DECLARATION of Maile Yeats-Rowe in Support re: (1301 in 1:23-cv-08292-SHS-OTW, 857 in 1:24-cv-03285-SHS-OTW, 1577 in 1:23-cv-11195-SHS-OTW, 1951 in 1:25-md-03143-SHS-OTW, 553 in 1:24-cv-01515-SHS-OTW, 722 in 1:24-cv-04872-SHS-OTW, 639 in 1:25-cv-04315-SHS-OTW) LETTER MOTION to Seal ECF 1728, 1742, 1848, 1868, 1702, 1694 addressed to Judge Sidney H. Stein from Caitlin Sinclaire Blythe, Thomas E. Gorman, Allison S. Blanco dated September 14, 2026.. Document filed by OAI Corporation, OpenAI Foundation, OpenAI GP, LLC, OpenAI Global, LLC, OpenAI Group PBC, OpenAI LLC, OpenAI OpCo, LLC, OpenAI Startup Fund GP I LLC, OpenAI Startup Fund I LP, OpenAI Startup Fund Management LLC(a Delaware limited liability company). (Attachments: # 1 Exhibit A, # 2 Exhibit B, # 3 Exhibit C, # 4 Exhibit D, # 5 Exhibit E, # 6 Exhibit F)Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Blythe, Caitlin) (Entered: 09/14/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1579/6/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1577 — 2026-09-14
+
+LETTER MOTION to Seal ECF 1728, 1742, 1848, 1868, 1702, 1694 addressed to Judge Sidney H. Stein from Caitlin Sinclaire Blythe, Thomas E. Gorman, Allison S. Blanco dated September 14, 2026. Document filed by OAI Corporation, OpenAI Foundation, OpenAI GP, LLC, OpenAI Global, LLC, OpenAI Group PBC, OpenAI LLC, OpenAI OpCo, LLC, OpenAI Startup Fund GP I LLC, OpenAI Startup Fund I LP, OpenAI Startup Fund Management LLC(a Delaware limited liability company). (Attachments: # 1 Proposed Order )Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Blythe, Caitlin) (Entered: 09/14/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1577/1/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1576 — 2026-09-14
+
+RESPONSE to Motion re: (1688 in 1:25-md-03143-SHS-OTW, 784 in 1:24-cv-03285-SHS-OTW, 1469 in 1:23-cv-11195-SHS-OTW) MOTION to Seal and Redact Portions of News Plaintiffs' Combined Summary Judgment Brief and Rule 56.1 Statement of Material Undisputed Facts., (1468 in 1:23-cv-11195-SHS-OTW, 783 in 1:24-cv-03285-SHS-OTW, 1687 in 1:25-md-03143-SHS-OTW) MOTION to Seal and Redact Portions of News Plaintiffs' Combined Summary Judgment Brief and Rule 56.1 Statement of Material Undisputed Facts., (1267 in 1:23-cv-08292-SHS-OTW, 1835 in 1:25-md-03143-SHS-OTW) MOTION to Seal . . Document filed by Microsoft Corporation, Microsoft Corporation, Microsoft Corporation. (Attachments: # 1 Exhibit (Declaration of Lucky Vidmar))Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Briant, Jared) (Entered: 09/14/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1576/1/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1578 — 2026-09-14
+
+***SEALED***DECLARATION of Maile Yeats-Rowe in Support re: (1301 in 1:23-cv-08292-SHS-OTW, 857 in 1:24-cv-03285-SHS-OTW, 1577 in 1:23-cv-11195-SHS-OTW, 1951 in 1:25-md-03143-SHS-OTW, 553 in 1:24-cv-01515-SHS-OTW, 722 in 1:24-cv-04872-SHS-OTW, 639 in 1:25-cv-04315-SHS-OTW) LETTER MOTION to Seal ECF 1728, 1742, 1848, 1868, 1702, 1694 addressed to Judge Sidney H. Stein from Caitlin Sinclaire Blythe, Thomas E. Gorman, Allison S. Blanco dated September 14, 2026.. Document filed by OAI Corporation, OpenAI Foundation, OpenAI GP, LLC, OpenAI Global, LLC, OpenAI Group PBC, OpenAI LLC, OpenAI OpCo, LLC, OpenAI Startup Fund GP I LLC, OpenAI Startup Fund I LP, OpenAI Startup Fund Management LLC(a Delaware limited liability company). (Attachments: # 1 Exhibit A, # 2 Exhibit B, # 3 Exhibit C, # 4 Exhibit D, # 5 Exhibit E, # 6 Exhibit F)Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al.Motion or Order to File Under Seal: 1951 .(Blythe, Caitlin) (Entered: 09/14/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1578/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1574 — 2026-09-14
+
+RESPONSE to Motion re: (1689 in 1:25-md-03143-SHS-OTW, 1470 in 1:23-cv-11195-SHS-OTW, 785 in 1:24-cv-03285-SHS-OTW, 645 in 1:24-cv-04872-SHS-OTW) MOTION to Seal ., (675 in 1:24-cv-04872-SHS-OTW) LETTER MOTION to Seal re: Summary Judgment and Daubert Briefing addressed to Judge Sidney H. Stein from Caitlin Sinclaire Blythe, Robert A. Van Nest, Sarang V. Damle dated September 4, 2026., (1703 in 1:25-md-03143-SHS-OTW, 1478 in 1:23-cv-11195-SHS-OTW, 588 in 1:25-cv-04315-SHS-OTW) LETTER MOTION to Seal re: Summary Judgment and Daubert Briefing addressed to Judge Sidney H. Stein from Caitlin Sinclaire Blythe, Robert A. Van Nest, Sarang V. Damle dated September 4, 2026., (816 in 1:24-cv-03285-SHS-OTW) LETTER MOTION to Seal re: Summary Judgment and Daubert Briefing addressed to Judge Sidney H. Stein from Caitlin Sinclaire Blythe, Robert A. Van Nest, Sarang V. Damle dated September 4, 2026. // NEWS PLAINTIFFS' STATEMENT IN SUPPORT OF MAINTAINING UNDER SEAL PORTIONS OF DEFENDANTS SUMMARY JUDGMENT …(truncated)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1574/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1575 — 2026-09-14
+
+DECLARATION of Demetri Blaisdell in Support re: (1942 in 1:25-md-03143-SHS-OTW) Response to Motion,,,,,,. Document filed by The New York Times Company. Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:23-cv-11195-SHS-OTW, 1:25-cv-04315-SHS-OTW.(Brook, Davida) (Entered: 09/14/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1575/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1573 — 2026-09-11
+
+NOTICE TO THE PARTIES: It has come to my attention that I own stock in Microsoft Corporation. My ownership of this stock has not affected or impacted any decision in this case. Although my ownership of this stock would ordinarily require recusal, Canon 3C(4) of the Code of Conduct for United States Judges states that a magistrate judge is not disqualified because of "a financial interest in a party" if the magistrate judge "divests the interest that provides the grounds for disqualification," unless the interest could be substantially affected by the outcome of the proceeding. Advisory Opinion No. 69 from the Judicial Conference's Committee on Codes of Conduct explains that a magistrate judge may divest the disqualifying interest under Canon 3C(4) at the beginning of the case, after the judge has spent substantial time on the case, or anytime in between. Based on the issues presented in this case, I have concluded that my interest in Microsoft Corporation could not be substantially aff …(truncated)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1573/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1568 — 2026-09-10
+
+REPLY MEMORANDUM OF LAW in Support re: (1428 in 1:23-cv-11195-SHS-OTW, 1618 in 1:25-md-03143-SHS-OTW) MOTION for Sanctions Against OpenAI. . Document filed by Chicago Tribune Company, LLC, DP Media Network, LLC, Daily News LP, Northwest Publications, LLC, ORB Publishing, LLC, Orlando Sentinel Communications Company, LLC, San Jose Mercury-News, LLC, Sun-sentinel Company, LLC, The New York Times Company. (Attachments: # 1 Affidavit J. Maisel Declaration, # 2 Exhibit 69 - T. Goldstein Supplemental Output Log Report)Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:23-cv-11195-SHS-OTW.(Lieberman, Steven) (Entered: 09/10/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1568/2/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1565 — 2026-09-10
+
+REPLY MEMORANDUM OF LAW in Support re: (1428 in 1:23-cv-11195-SHS-OTW, 1618 in 1:25-md-03143-SHS-OTW) MOTION for Sanctions Against OpenAI. Relating to Microsoft Corp.'s Opposition. Document filed by Chicago Tribune Company, LLC, DP Media Network, LLC, Daily News LP, Northwest Publications, LLC, ORB Publishing, LLC, Orlando Sentinel Communications Company, LLC, San Jose Mercury-News, LLC, Sun-sentinel Company, LLC, The New York Times Company. (Attachments: # 1 Affidavit J. Maisel Declaration, # 2 Exhibit 68 - Nadella, S 02-04-2026 Transcript)Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:23-cv-11195-SHS-OTW.(Lieberman, Steven) (Entered: 09/10/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1565/2/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1566 — 2026-09-10
+
+MOTION to Seal News Plaintiffs' Reply to Microsoft Corporations Opposition to News Plaintiffs Motion for Sanctions. Document filed by Chicago Tribune Company, LLC, DP Media Network, LLC, Daily News LP, Northwest Publications, LLC, ORB Publishing, LLC, Orlando Sentinel Communications Company, LLC, San Jose Mercury-News, LLC, Sun-sentinel Company, LLC, The New York Times Company.Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:23-cv-11195-SHS-OTW.(Lieberman, Steven) (Entered: 09/10/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1566/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1567 — 2026-09-10
+
+***SEALED*** REPLY MEMORANDUM OF LAW in Support re: (1428 in 1:23-cv-11195-SHS-OTW, 1618 in 1:25-md-03143-SHS-OTW) MOTION for Sanctions Against OpenAI. Relating to Microsoft Corp.'s Opposition. Document filed by Chicago Tribune Company, LLC, DP Media Network, LLC, Daily News LP, Northwest Publications, LLC, ORB Publishing, LLC, Orlando Sentinel Communications Company, LLC, San Jose Mercury-News, LLC, Sun-sentinel Company, LLC, The New York Times Company. (Attachments: # 1 Exhibit 68 - Nadella Satya 02-04-2026 Transcript)Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:23-cv-11195-SHS-OTWMotion or Order to File Under Seal: 1931 .(Lieberman, Steven) (Entered: 09/10/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1567/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1569 — 2026-09-10
+
+MOTION to Seal News Plaintiffs' Reply to OpenAI Defendants Opposition to News Plaintiffs Motion for Sanctions. Document filed by Chicago Tribune Company, LLC, DP Media Network, LLC, Daily News LP, Northwest Publications, LLC, ORB Publishing, LLC, Orlando Sentinel Communications Company, LLC, San Jose Mercury-News, LLC, Sun-sentinel Company, LLC, The New York Times Company.Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:23-cv-11195-SHS-OTW.(Lieberman, Steven) (Entered: 09/10/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1569/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1570 — 2026-09-10
+
+***SEALED*** REPLY MEMORANDUM OF LAW in Support re: (1428 in 1:23-cv-11195-SHS-OTW, 1618 in 1:25-md-03143-SHS-OTW) MOTION for Sanctions Against OpenAI. . Document filed by ORB Publishing, LLC, Orlando Sentinel Communications Company, LLC, San Jose Mercury-News, LLC, Sun-sentinel Company, LLC, The New York Times Company. (Attachments: # 1 Exhibit T. Goldstein Supplemental Output Log Report)Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:23-cv-11195-SHS-OTWMotion or Order to File Under Seal: 1934 .(Lieberman, Steven) (Entered: 09/10/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1570/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1563 — 2026-09-09
+
+***SEALED***DECLARATION of Annette L. Hurst in Support re: (1473 in 1:23-cv-11195-SHS-OTW) MOTION for Summary Judgment in News Plaintiffs' Consolidated Cases., (777 in 1:23-cv-10211-SHS-OTW) MOTION for Summary Judgment in Books Plaintiffs' Consolidated Cases.. Document filed by Microsoft Corporation. (Attachments: # 1 Exhibit 9.A)Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al.Motion or Order to File Under Seal: 1685 .(Hurst, Annette) (Entered: 09/09/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1563/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1559 — 2026-09-04
+
+DECLARATION of Robert Taylor (redacted) in Support re: (1700 in 1:25-md-03143-SHS-OTW) MOTION for Summary Judgment .. Document filed by CNET MEDIA, INC., Everyday Health Media LLC, IGN Entertainment Inc., Mashable, Inc., Ziff Davis Inc., Ziff Davis, LLC, Mashable, Inc.. (Attachments: # 1 Exhibit A - Filed Under Seal, # 2 Exhibit B - Filed Under Seal, # 3 Exhibit C - Filed Under Seal, # 4 Exhibit D - Filed Under Seal, # 5 Exhibit E, # 6 Exhibit F, # 7 Exhibit G, # 8 Exhibit H, # 9 Exhibit I, # 10 Exhibit J, # 11 Exhibit K, # 12 Exhibit L, # 13 Exhibit M, # 14 Exhibit N, # 15 Exhibit O, # 16 Exhibit P, # 17 Exhibit Q, # 18 Exhibit R, # 19 Exhibit S)Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Koonce, Lacy) (Entered: 09/04/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1559/19/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1524 — 2026-09-04
+
+DECLARATION of Defendants' Expert Nick Feamster (Redacted) in Support re: (1712 in 1:25-md-03143-SHS-OTW) MOTION for Summary Judgment on News Plaintiffs' Claims., (646 in 1:24-cv-04872-SHS-OTW) MOTION for Summary Judgment on News Plaintiffs' Claims., (587 in 1:25-cv-04315-SHS-OTW) MOTION for Summary Judgment on News Plaintiffs' Claims., (1471 in 1:23-cv-11195-SHS-OTW) MOTION for Summary Judgment on News Plaintiffs' Claims., (511 in 1:24-cv-01515-SHS-OTW) MOTION for Summary Judgment on News Plaintiffs' Claims., (786 in 1:24-cv-03285-SHS-OTW) MOTION for Summary Judgment on News Plaintiffs' Claims.. Document filed by OAI Corporation, LLC, OpenAI GP, LLC, OpenAI Global, L.L.C., OpenAI Group PBC, OpenAI OpCo, L.L.C., OpenAI, Inc., OpenAI, LLC. (Attachments: # 1 Exhibit 1 - Browse Conversation Log Examples, # 2 Exhibit 2 - Feamster Opening Appendix F, # 3 Exhibit 3 - Feamster Opening Appendix D)Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Blanco, Allison) (Entered: 09/04/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1524/3/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1554 — 2026-09-04
+
+DECLARATION of Joseph C. Gratz (Vol. 4) in Support re: (1712 in 1:25-md-03143-SHS-OTW) MOTION for Summary Judgment on News Plaintiffs' Claims., (1715 in 1:25-md-03143-SHS-OTW) MOTION for Summary Judgment on Consolidated Class Plaintiffs' Claims.. Document filed by OAI Corporation, OpenAI Foundation, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Group PBC, OpenAI LLC, OpenAI OpCo, LLC, OpenAI Startup Fund GP I LLC, OpenAI Startup Fund I LP, OpenAI Startup Fund Management LLC(a Delaware limited liability company). (Attachments: # 1 Exhibit 260, # 2 Exhibit 261, # 3 Exhibit 262, # 4 Exhibit 263, # 5 Exhibit 264, # 6 Exhibit 265, # 7 Exhibit 266, # 8 Exhibit 267, # 9 Exhibit 268, # 10 Exhibit 269, # 11 Exhibit 270, # 12 Exhibit 271, # 13 Exhibit 272, # 14 Exhibit 273, # 15 Exhibit 274, # 16 Exhibit 275, # 17 Exhibit 276, # 18 Exhibit 277, # 19 Exhibit 278, # 20 Exhibit 279, # 21 Exhibit 280, # 22 Exhibit 281, # 23 Exhibit 282, # 24 Exhibit 283, # 25 Exhibit 284, # 26 Exhibit 285, # 27 Exhibit  …(truncated)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1554/46/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1552 — 2026-09-04
+
+DECLARATION of Joseph C. Gratz (Vol. 3) in Support re: (1712 in 1:25-md-03143-SHS-OTW) MOTION for Summary Judgment on News Plaintiffs' Claims., (1715 in 1:25-md-03143-SHS-OTW) MOTION for Summary Judgment on Consolidated Class Plaintiffs' Claims.. Document filed by OAI Corporation, OpenAI Foundation, OpenAI GP, LLC, OpenAI Global, LLC, OpenAI Group PBC, OpenAI LLC, OpenAI OpCo, LLC, OpenAI Startup Fund GP I LLC, OpenAI Startup Fund I LP, OpenAI Startup Fund Management LLC(a Delaware limited liability company). (Attachments: # 1 Exhibit 205, # 2 Exhibit 206, # 3 Exhibit 207, # 4 Exhibit 208, # 5 Exhibit 209, # 6 Exhibit 210, # 7 Exhibit 211, # 8 Exhibit 212, # 9 Exhibit 213, # 10 Exhibit 214, # 11 Exhibit 215, # 12 Exhibit 216, # 13 Exhibit 217, # 14 Exhibit 218, # 15 Exhibit 219, # 16 Exhibit 220, # 17 Exhibit 221, # 18 Exhibit 222, # 19 Exhibit 223, # 20 Exhibit 224, # 21 Exhibit 225, # 22 Exhibit 226, # 23 Exhibit 227, # 24 Exhibit 228, # 25 Exhibit 229, # 26 Exhibit 230, # 27 Exhibit …(truncated)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1552/55/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1551 — 2026-09-04
+
+DECLARATION of Annette L. Hurst (Part 6) in Support re: (1473 in 1:23-cv-11195-SHS-OTW) MOTION for Summary Judgment in News Plaintiffs' Consolidated Cases., (777 in 1:23-cv-10211-SHS-OTW) MOTION for Summary Judgment in Books Plaintiffs' Consolidated Cases.. Document filed by Microsoft Corporation. (Attachments: # 1 Exhibit 252, # 2 Exhibit 253, # 3 Exhibit 254, # 4 Exhibit 255, # 5 Exhibit 256, # 6 Exhibit 257, # 7 Exhibit 258, # 8 Exhibit 259, # 9 Exhibit 260, # 10 Exhibit 261, # 11 Exhibit 262, # 12 Exhibit 263, # 13 Exhibit 264, # 14 Exhibit 265, # 15 Exhibit 266, # 16 Exhibit 267, # 17 Exhibit 268, # 18 Exhibit 269, # 19 Exhibit 270, # 20 Exhibit 271, # 21 Exhibit 272, # 22 Exhibit 273, # 23 Exhibit 274, # 24 Exhibit 275, # 25 Exhibit 276, # 26 Exhibit 277, # 27 Exhibit 278, # 28 Exhibit 279, # 29 Exhibit 280, # 30 Exhibit 281, # 31 Exhibit 283, # 32 Exhibit 289, # 33 Exhibit 291, # 34 Exhibit 292, # 35 Exhibit 293, # 36 Exhibit 294, # 37 Exhibit 295)Filed In Associated Cases: 1:25 …(truncated)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1551/37/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1547 — 2026-09-04
+
+DECLARATION of Annette L. Hurst (Part 5) in Support re: (1473 in 1:23-cv-11195-SHS-OTW) MOTION for Summary Judgment in News Plaintiffs' Consolidated Cases., (777 in 1:23-cv-10211-SHS-OTW) MOTION for Summary Judgment in Books Plaintiffs' Consolidated Cases.. Document filed by Microsoft Corporation. (Attachments: # 1 Exhibit 180, # 2 Exhibit 182, # 3 Exhibit 183, # 4 Exhibit 184, # 5 Exhibit 185, # 6 Exhibit 186, # 7 Exhibit 193, # 8 Exhibit 196, # 9 Exhibit 198, # 10 Exhibit 199, # 11 Exhibit 200, # 12 Exhibit 202, # 13 Exhibit 203, # 14 Exhibit 206, # 15 Exhibit 207, # 16 Exhibit 208, # 17 Exhibit 209, # 18 Exhibit 210, # 19 Exhibit 211, # 20 Exhibit 212, # 21 Exhibit 213, # 22 Exhibit 214, # 23 Exhibit 215, # 24 Exhibit 220, # 25 Exhibit 221, # 26 Exhibit 226, # 27 Exhibit 227, # 28 Exhibit 228, # 29 Exhibit 229, # 30 Exhibit 230, # 31 Exhibit 231, # 32 Exhibit 232, # 33 Exhibit 233, # 34 Exhibit 234, # 35 Exhibit 235, # 36 Exhibit 236, # 37 Exhibit 238, # 38 Exhibit 239, # 39 Exhibit …(truncated)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1547/50/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1542 — 2026-09-04
+
+DECLARATION of Annette L. Hurst (Part 4) in Support re: (1473 in 1:23-cv-11195-SHS-OTW) MOTION for Summary Judgment in News Plaintiffs' Consolidated Cases., (777 in 1:23-cv-10211-SHS-OTW) MOTION for Summary Judgment in Books Plaintiffs' Consolidated Cases.. Document filed by Microsoft Corporation. (Attachments: # 1 Exhibit 123, # 2 Exhibit 124, # 3 Exhibit 125, # 4 Exhibit 126, # 5 Exhibit 127, # 6 Exhibit 128, # 7 Exhibit 129, # 8 Exhibit 130, # 9 Exhibit 131, # 10 Exhibit 132, # 11 Exhibit 133, # 12 Exhibit 134, # 13 Exhibit 135, # 14 Exhibit 136, # 15 Exhibit 137, # 16 Exhibit 138, # 17 Exhibit 139, # 18 Exhibit 140, # 19 Exhibit 141, # 20 Exhibit 142, # 21 Exhibit 143, # 22 Exhibit 144, # 23 Exhibit 145, # 24 Exhibit 146, # 25 Exhibit 147, # 26 Exhibit 148, # 27 Exhibit 149, # 28 Exhibit 150, # 29 Exhibit 151, # 30 Exhibit 152, # 31 Exhibit 153, # 32 Exhibit 154, # 33 Exhibit 155, # 34 Exhibit 156, # 35 Exhibit 157, # 36 Exhibit 158, # 37 Exhibit 159, # 38 Exhibit 160, # 39 Exhibit …(truncated)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1542/50/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1538 — 2026-09-04
+
+DECLARATION of Annette L. Hurst (Part 3) in Support re: (1473 in 1:23-cv-11195-SHS-OTW) MOTION for Summary Judgment in News Plaintiffs' Consolidated Cases., (777 in 1:23-cv-10211-SHS-OTW) MOTION for Summary Judgment in Books Plaintiffs' Consolidated Cases.. Document filed by Microsoft Corporation. (Attachments: # 1 Exhibit 80, # 2 Exhibit 81, # 3 Exhibit 81.A, # 4 Exhibit 82, # 5 Exhibit 84, # 6 Exhibit 84.A, # 7 Exhibit 84.B, # 8 Exhibit 85, # 9 Exhibit 85.A, # 10 Exhibit 86, # 11 Exhibit 87, # 12 Exhibit 88, # 13 Exhibit 89, # 14 Exhibit 90, # 15 Exhibit 91, # 16 Exhibit 92, # 17 Exhibit 93, # 18 Exhibit 93.A, # 19 Exhibit 94, # 20 Exhibit 95, # 21 Exhibit 96, # 22 Exhibit 97, # 23 Exhibit 98, # 24 Exhibit 99, # 25 Exhibit 100, # 26 Exhibit 101, # 27 Exhibit 102, # 28 Exhibit 103, # 29 Exhibit 104, # 30 Exhibit 105, # 31 Exhibit 106, # 32 Exhibit 107, # 33 Exhibit 108, # 34 Exhibit 108.A, # 35 Exhibit 109, # 36 Exhibit 110, # 37 Exhibit 111, # 38 Exhibit 111.A, # 39 Exhibit 112, # 40 …(truncated)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1538/50/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1536 — 2026-09-04
+
+DECLARATION of Annette L. Hurst (Part 2) in Support re: (1473 in 1:23-cv-11195-SHS-OTW) MOTION for Summary Judgment in News Plaintiffs' Consolidated Cases., (777 in 1:23-cv-10211-SHS-OTW) MOTION for Summary Judgment in Books Plaintiffs' Consolidated Cases.. Document filed by Microsoft Corporation. (Attachments: # 1 Exhibit 42, # 2 Exhibit 43, # 3 Exhibit 44, # 4 Exhibit 45, # 5 Exhibit 46, # 6 Exhibit 47, # 7 Exhibit 48, # 8 Exhibit 51, # 9 Exhibit 52, # 10 Exhibit 53, # 11 Exhibit 54, # 12 Exhibit 55, # 13 Exhibit 56, # 14 Exhibit 57, # 15 Exhibit 57.A, # 16 Exhibit 57.B, # 17 Exhibit 58, # 18 Exhibit 59, # 19 Exhibit 60, # 20 Exhibit 61, # 21 Exhibit 62, # 22 Exhibit 63, # 23 Exhibit 63.A, # 24 Exhibit 63.B, # 25 Exhibit 64, # 26 Exhibit 64.A, # 27 Exhibit 64.B, # 28 Exhibit 65, # 29 Exhibit 66, # 30 Exhibit 67, # 31 Exhibit 68, # 32 Exhibit 69, # 33 Exhibit 70, # 34 Exhibit 71, # 35 Exhibit 71.A, # 36 Exhibit 72, # 37 Exhibit 73, # 38 Exhibit 74, # 39 Exhibit 75, # 40 Exhibit 76, #  …(truncated)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1536/50/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1533 — 2026-09-04
+
+DECLARATION of Annette L. Hurst in Support re: (1473 in 1:23-cv-11195-SHS-OTW) MOTION for Summary Judgment in News Plaintiffs' Consolidated Cases., (777 in 1:23-cv-10211-SHS-OTW) MOTION for Summary Judgment in Books Plaintiffs' Consolidated Cases.. Document filed by Microsoft Corporation. (Attachments: # 1 Exhibit 1, # 2 Exhibit 1.A, # 3 Exhibit 2, # 4 Exhibit 3, # 5 Exhibit 4, # 6 Exhibit 5, # 7 Exhibit 6, # 8 Exhibit 7, # 9 Exhibit 8, # 10 Exhibit 9, # 11 Exhibit 9.A, # 12 Exhibit 10, # 13 Exhibit 11, # 14 Exhibit 12, # 15 Exhibit 12.A, # 16 Exhibit 13, # 17 Exhibit 14, # 18 Exhibit 15, # 19 Exhibit 16, # 20 Exhibit 17, # 21 Exhibit 17.A, # 22 Exhibit 18, # 23 Exhibit 19, # 24 Exhibit 20, # 25 Exhibit 21, # 26 Exhibit 21.A, # 27 Exhibit 22, # 28 Exhibit 23, # 29 Exhibit 24, # 30 Exhibit 25, # 31 Exhibit 25.A, # 32 Exhibit 25.B, # 33 Exhibit 25.C, # 34 Exhibit 26, # 35 Exhibit 27, # 36 Exhibit 28, # 37 Exhibit 29, # 38 Exhibit 30, # 39 Exhibit 31, # 40 Exhibit 32, # 41 Exhibit 33, # 4 …(truncated)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1533/50/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1530 — 2026-09-04
+
+DECLARATION of Joseph C. Gratz (Vol. 2) in Support re: (1712 in 1:25-md-03143-SHS-OTW) MOTION for Summary Judgment on News Plaintiffs' Claims., (1715 in 1:25-md-03143-SHS-OTW) MOTION for Summary Judgment on Consolidated Class Plaintiffs' Claims.. Document filed by OAI Corporation, OpenAI Foundation, OpenAI GP, LLC, OpenAI Global, LLC, OpenAI Group PBC, OpenAI LLC, OpenAI OpCo, L.L.C., OpenAI Startup Fund GP I LLC, OpenAI Startup Fund I LP, OpenAI Startup Fund Management LLC. (Attachments: # 1 Exhibit 103, # 2 Exhibit 104, # 3 Exhibit 105, # 4 Exhibit 106, # 5 Exhibit 107, # 6 Exhibit 108, # 7 Exhibit 109, # 8 Exhibit 110, # 9 Exhibit 111, # 10 Exhibit 112, # 11 Exhibit 113, # 12 Exhibit 114, # 13 Exhibit 115, # 14 Exhibit 116, # 15 Exhibit 117, # 16 Exhibit 118, # 17 Exhibit 119, # 18 Exhibit 120, # 19 Exhibit 121, # 20 Exhibit 122, # 21 Exhibit 123, # 22 Exhibit 124, # 23 Exhibit 125, # 24 Exhibit 126, # 25 Exhibit 127, # 26 Exhibit 128, # 27 Exhibit 129, # 28 Exhibit 130, # 29 Exhibi …(truncated)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1530/102/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1548 — 2026-09-04
+
+DECLARATION of Timothy Wu in Support re: (1700 in 1:25-md-03143-SHS-OTW) MOTION for Summary Judgment .. Document filed by CNET MEDIA, INC., Everyday Health Media LLC, IGN Entertainment Inc., Mashable, Inc., Ziff Davis Inc., Ziff Davis, LLC, Mashable, Inc.. (Attachments: # 1 Exhibit A - Rebuttal Report (filed under seal))Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Koonce, Lacy) (Entered: 09/04/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1548/1/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1561 — 2026-09-04
+
+DECLARATION of Lacy H. Koonce, III in Support re: (1700 in 1:25-md-03143-SHS-OTW) MOTION for Summary Judgment .. Document filed by CNET MEDIA, INC., Everyday Health Media LLC, IGN Entertainment Inc., Mashable, Inc., Ziff Davis Inc., Ziff Davis, LLC, Mashable, Inc.. (Attachments: # 1 Exhibit A - Hard Drive Slipsheet, # 2 Exhibit AA, # 3 Exhibit BB, # 4 Exhibit CC, # 5 Exhibit DD, # 6 Exhibit EE, # 7 Exhibit FF, # 8 Exhibit GG, # 9 Exhibit HH, # 10 Exhibit II, # 11 Exhibit JJ, # 12 Exhibit KK, # 13 Exhibit LL, # 14 Exhibit MM, # 15 Exhibit NN, # 16 Exhibit OO, # 17 Exhibit PP, # 18 Exhibit QQ, # 19 Exhibit RR, # 20 Exhibit SS, # 21 Exhibit TT, # 22 Exhibit B ZD Training Match Spreadsheets, # 23 Exhibit C - ZD CMI Spreadsheets)Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Koonce, Lacy) (Entered: 09/04/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1561/23/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1518 — 2026-09-04
+
+DECLARATION of Joseph C. Gratz (Vol. 1) in Support re: (1712 in 1:25-md-03143-SHS-OTW) MOTION for Summary Judgment on News Plaintiffs' Claims., (1715 in 1:25-md-03143-SHS-OTW) MOTION for Summary Judgment on Consolidated Class Plaintiffs' Claims.. Document filed by OAI Corporation, OpenAI Foundation, OpenAI GP, LLC, OpenAI Global, LLC, OpenAI Group PBC, OpenAI LLC, OpenAI OpCo, LLC, OpenAI Startup Fund GP I LLC, OpenAI Startup Fund I LP, OpenAI Startup Fund Management LLC(a Delaware limited liability company). (Attachments: # 1 Exhibit 1, # 2 Exhibit 2, # 3 Exhibit 3, # 4 Exhibit 4, # 5 Exhibit 5, # 6 Exhibit 6, # 7 Exhibit 7, # 8 Exhibit 8, # 9 Exhibit 9, # 10 Exhibit 10, # 11 Exhibit 11, # 12 Exhibit 12, # 13 Exhibit 13, # 14 Exhibit 14, # 15 Exhibit 15, # 16 Exhibit 16, # 17 Exhibit 17, # 18 Exhibit 18, # 19 Exhibit 19, # 20 Exhibit 20, # 21 Exhibit 21, # 22 Exhibit 22, # 23 Exhibit 23, # 24 Exhibit 24, # 25 Exhibit 25, # 26 Exhibit 26, # 27 Exhibit 27, # 28 Exhibit 28, # 29 Exhibit  …(truncated)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1518/102/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1560 — 2026-09-04
+
+DECLARATION of George Wukoson in Support re: (1688 in 1:25-md-03143-SHS-OTW, 586 in 1:25-cv-04315-SHS-OTW, 784 in 1:24-cv-03285-SHS-OTW, 1469 in 1:23-cv-11195-SHS-OTW) MOTION to Seal and Redact Portions of News Plaintiffs' Combined Summary Judgment Brief and Rule 56.1 Statement of Material Undisputed Facts.. Document filed by CNET MEDIA, INC., Everyday Health Media LLC, IGN Entertainment Inc., Mashable, Inc., Ziff Davis Inc., Ziff Davis, LLC, Mashable, Inc.. Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Koonce, Lacy) (Entered: 09/04/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1560/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1535 — 2026-09-04
+
+***SEALED***DECLARATION of Adam Alter in Support re: (1728 in 1:25-md-03143-SHS-OTW) MOTION for Summary Judgment .. Document filed by Chicago Tribune Company, LLC, DP Media Network, LLC, Daily News LP, Northwest Publications, LLC, ORB Publishing, LLC, Orlando Sentinel Communications Company, LLC, San Jose Mercury-News, LLC, Sun-sentinel Company, LLC, The New York Times Company. Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:23-cv-11195-SHS-OTWMotion or Order to File Under Seal: 1687 .(Lieberman, Steven) (Entered: 09/04/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1535/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1537 — 2026-09-04
+
+***SEALED***DECLARATION of Emily Bell in Support re: (1728 in 1:25-md-03143-SHS-OTW) MOTION for Summary Judgment .. Document filed by Chicago Tribune Company, LLC, DP Media Network, LLC, Daily News LP, Northwest Publications, LLC, ORB Publishing, LLC, Orlando Sentinel Communications Company, LLC, San Jose Mercury-News, LLC, Sun-sentinel Company, LLC, The New York Times Company. Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:23-cv-11195-SHS-OTWMotion or Order to File Under Seal: 1687 .(Lieberman, Steven) (Entered: 09/04/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1537/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1540 — 2026-09-04
+
+***SEALED***DECLARATION of Jessie Stricchiola in Support re: (1728 in 1:25-md-03143-SHS-OTW) MOTION for Summary Judgment .. Document filed by Chicago Tribune Company, LLC, DP Media Network, LLC, Daily News LP, Northwest Publications, LLC, ORB Publishing, LLC, Orlando Sentinel Communications Company, LLC, San Jose Mercury-News, LLC, Sun-sentinel Company, LLC, The New York Times Company. Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:23-cv-11195-SHS-OTWMotion or Order to File Under Seal: 1687 .(Lieberman, Steven) (Entered: 09/04/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1540/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1541 — 2026-09-04
+
+***SEALED***DECLARATION of Jim Malackowski in Support re: (1728 in 1:25-md-03143-SHS-OTW) MOTION for Summary Judgment .. Document filed by Chicago Tribune Company, LLC, DP Media Network, LLC, Daily News LP, Northwest Publications, LLC, ORB Publishing, LLC, Orlando Sentinel Communications Company, LLC, San Jose Mercury-News, LLC, Sun-sentinel Company, LLC, The New York Times Company. Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:23-cv-11195-SHS-OTWMotion or Order to File Under Seal: 1687 .(Lieberman, Steven) (Entered: 09/04/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1541/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1543 — 2026-09-04
+
+***SEALED***DECLARATION of Karen Oh in Support re: (1700 in 1:25-md-03143-SHS-OTW) MOTION for Summary Judgment .. Document filed by CNET MEDIA, INC., Everyday Health Media LLC, IGN Entertainment Inc., Mashable, Inc., Ziff Davis Inc., Ziff Davis, LLC, Mashable, Inc.. Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al.Motion or Order to File Under Seal: 1685 .(Koonce, Lacy) (Entered: 09/04/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1543/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1544 — 2026-09-04
+
+DECLARATION of Karen Oh (Redacted) in Support re: (1700 in 1:25-md-03143-SHS-OTW) MOTION for Summary Judgment .. Document filed by CNET MEDIA, INC., Everyday Health Media LLC, IGN Entertainment Inc., Mashable, Inc., Ziff Davis Inc., Ziff Davis, LLC, Mashable, Inc.. Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Koonce, Lacy) (Entered: 09/04/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1544/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1545 — 2026-09-04
+
+***SEALED***DECLARATION of Oren Etzioni in Support re: (1728 in 1:25-md-03143-SHS-OTW) MOTION for Summary Judgment .. Document filed by Chicago Tribune Company, LLC, DP Media Network, LLC, Daily News LP, Northwest Publications, LLC, ORB Publishing, LLC, Orlando Sentinel Communications Company, LLC, San Jose Mercury-News, LLC, Sun-sentinel Company, LLC, The New York Times Company. Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:23-cv-11195-SHS-OTWMotion or Order to File Under Seal: 1687 .(Lieberman, Steven) (Entered: 09/04/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1545/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1546 — 2026-09-04
+
+***SEALED***DECLARATION of Ziff Davis's Expert Timothy Wu in Support re: (1700 in 1:25-md-03143-SHS-OTW) MOTION for Summary Judgment .. Document filed by CNET MEDIA, INC., Everyday Health Media LLC, IGN Entertainment Inc., Mashable, Inc., Ziff Davis Inc., Ziff Davis, LLC, Mashable, Inc.. (Attachments: # 1 Exhibit A - Rebuttal Report)Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al.Motion or Order to File Under Seal: 1685 .(Koonce, Lacy) (Entered: 09/04/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1546/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1549 — 2026-09-04
+
+***SEALED***DECLARATION of Jennifer B. Maisel in Support re: (1728 in 1:25-md-03143-SHS-OTW) MOTION for Summary Judgment .. Document filed by Chicago Tribune Company, LLC, DP Media Network, LLC, Daily News LP, Northwest Publications, LLC, ORB Publishing, LLC, Orlando Sentinel Communications Company, LLC, San Jose Mercury-News, LLC, Sun-sentinel Company, LLC, The New York Times Company. Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:23-cv-11195-SHS-OTWMotion or Order to File Under Seal: 1687 .(Lieberman, Steven) (Entered: 09/04/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1549/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1550 — 2026-09-04
+
+***SEALED***DECLARATION of Annette L. Hurst in Support re: (777 in 1:23-cv-10211-SHS-OTW) MOTION for Summary Judgment in Books Plaintiffs' Consolidated Cases., (1473 in 1:23-cv-11195-SHS-OTW) MOTION for Summary Judgment in News Plaintiffs' Consolidated Cases.. Document filed by Microsoft Corporation. (Attachments: # 1 Exhibit 1, # 2 Exhibit 1.A, # 3 Exhibit 3, # 4 Exhibit 4, # 5 Exhibit 5, # 6 Exhibit 6, # 7 Exhibit 7, # 8 Exhibit 8, # 9 Exhibit 9, # 10 Exhibit 10, # 11 Exhibit 11, # 12 Exhibit 12, # 13 Exhibit 13, # 14 Exhibit 15, # 15 Exhibit 16, # 16 Exhibit 17, # 17 Exhibit 17.A, # 18 Exhibit 18, # 19 Exhibit 19, # 20 Exhibit 20, # 21 Exhibit 21, # 22 Exhibit 22, # 23 Exhibit 23, # 24 Exhibit 24, # 25 Exhibit 25, # 26 Exhibit 25.A, # 27 Exhibit 25.B, # 28 Exhibit 25.C, # 29 Exhibit 26, # 30 Exhibit 27, # 31 Exhibit 28, # 32 Exhibit 29, # 33 Exhibit 31, # 34 Exhibit 32, # 35 Exhibit 33, # 36 Exhibit 34.A, # 37 Exhibit 35, # 38 Exhibit 37, # 39 Exhibit 37.A, # 40 Exhibit 38, # 41 Exh …(truncated)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1550/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1553 — 2026-09-04
+
+***SEALED***DECLARATION of Tom Goldstein in Support re: (1728 in 1:25-md-03143-SHS-OTW) MOTION for Summary Judgment .. Document filed by Chicago Tribune Company, LLC, DP Media Network, LLC, Daily News LP, Northwest Publications, LLC, ORB Publishing, LLC, Orlando Sentinel Communications Company, LLC, San Jose Mercury-News, LLC, Sun-sentinel Company, LLC, The New York Times Company. (Attachments: # 1 Appendix Tom Goldstein Declaration - Part 2 of 3, # 2 Appendix Tom Goldstein Declaration - Part 3 of 3)Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:23-cv-11195-SHS-OTWMotion or Order to File Under Seal: 1687 .(Lieberman, Steven) (Entered: 09/04/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1553/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1556 — 2026-09-04
+
+***SEALED***DECLARATION of Robert Taylor in Support re: (1700 in 1:25-md-03143-SHS-OTW) MOTION for Summary Judgment .. Document filed by CNET MEDIA, INC., Everyday Health Media LLC, IGN Entertainment Inc., Mashable, Inc., Ziff Davis Inc., Ziff Davis, LLC, Mashable, Inc.. (Attachments: # 1 Exhibit A - Filed Under Seal, # 2 Exhibit B - Filed Under Seal, # 3 Exhibit C - Filed Under Seal, # 4 Exhibit D- Filed Under Seal, # 5 Exhibit E, # 6 Exhibit F, # 7 Exhibit G, # 8 Exhibit H, # 9 Exhibit I, # 10 Exhibit J, # 11 Exhibit K, # 12 Exhibit L, # 13 Exhibit M, # 14 Exhibit N, # 15 Exhibit O, # 16 Exhibit P, # 17 Exhibit Q, # 18 Exhibit R, # 19 Exhibit S)Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al.Motion or Order to File Under Seal: 1685 .(Koonce, Lacy) (Entered: 09/04/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1556/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1557 — 2026-09-04
+
+RULE 56.1 STATEMENT. Document filed by Microsoft Corporation. Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:23-cv-11195-SHS-OTW, 1:24-cv-03285-SHS-OTW, 1:24-cv-04872-SHS-OTW.(Hurst, Annette) (Entered: 09/04/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1557/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1517 — 2026-09-04
+
+DECLARATION of Peer Schneider in Support re: (1700 in 1:25-md-03143-SHS-OTW) MOTION for Summary Judgment .. Document filed by CNET MEDIA, INC., Everyday Health Media LLC, IGN Entertainment Inc., Mashable, Inc., Ziff Davis Inc., Ziff Davis, LLC, Mashable, Inc.. Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Koonce, Lacy) (Entered: 09/04/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1517/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1519 — 2026-09-04
+
+DECLARATION of Adam Alter in Support re: (1728 in 1:25-md-03143-SHS-OTW) MOTION for Summary Judgment .. Document filed by Chicago Tribune Company, LLC, DP Media Network, LLC, Daily News LP, Northwest Publications, LLC, ORB Publishing, LLC, Orlando Sentinel Communications Company, LLC, San Jose Mercury-News, LLC, Sun-sentinel Company, LLC, The New York Times Company. Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:23-cv-11195-SHS-OTW.(Lieberman, Steven) (Entered: 09/04/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1519/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1520 — 2026-09-04
+
+DECLARATION of Rachel Warren in Support re: (1700 in 1:25-md-03143-SHS-OTW) MOTION for Summary Judgment .. Document filed by CNET MEDIA, INC., Everyday Health Media LLC, IGN Entertainment Inc., Mashable, Inc., Ziff Davis Inc., Ziff Davis, LLC, Mashable, Inc.. Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Koonce, Lacy) (Entered: 09/04/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1520/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1521 — 2026-09-04
+
+***SEALED***DECLARATION of Defendants' Expert Avi Goldfarb in Support re: (1712 in 1:25-md-03143-SHS-OTW) MOTION for Summary Judgment on News Plaintiffs' Claims., (646 in 1:24-cv-04872-SHS-OTW) MOTION for Summary Judgment on News Plaintiffs' Claims., (587 in 1:25-cv-04315-SHS-OTW) MOTION for Summary Judgment on News Plaintiffs' Claims., (1471 in 1:23-cv-11195-SHS-OTW) MOTION for Summary Judgment on News Plaintiffs' Claims., (511 in 1:24-cv-01515-SHS-OTW) MOTION for Summary Judgment on News Plaintiffs' Claims., (786 in 1:24-cv-03285-SHS-OTW) MOTION for Summary Judgment on News Plaintiffs' Claims.. Document filed by OAI Corporation, LLC, OpenAI GP, LLC, OpenAI Global, L.L.C., OpenAI Group PBC, OpenAI OpCo, L.L.C., OpenAI, Inc., OpenAI, LLC. Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al.Motion or Order to File Under Seal: 1685 .(Gass, Andrew) (Entered: 09/04/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1521/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1522 — 2026-09-04
+
+DECLARATION of Emily Bell in Support re: (1728 in 1:25-md-03143-SHS-OTW) MOTION for Summary Judgment .. Document filed by Chicago Tribune Company, LLC, DP Media Network, LLC, Daily News LP, Northwest Publications, LLC, ORB Publishing, LLC, Orlando Sentinel Communications Company, LLC, San Jose Mercury-News, LLC, Sun-sentinel Company, LLC, The New York Times Company. Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:23-cv-11195-SHS-OTW.(Lieberman, Steven) (Entered: 09/04/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1522/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1523 — 2026-09-04
+
+DECLARATION of Robert Parisi in Support re: (1700 in 1:25-md-03143-SHS-OTW) MOTION for Summary Judgment .. Document filed by CNET MEDIA, INC., Everyday Health Media LLC, IGN Entertainment Inc., Mashable, Inc., Ziff Davis Inc., Ziff Davis, LLC, Mashable, Inc.. Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Koonce, Lacy) (Entered: 09/04/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1523/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1525 — 2026-09-04
+
+DECLARATION of Jessie Stricchiola in Support re: (1728 in 1:25-md-03143-SHS-OTW) MOTION for Summary Judgment .. Document filed by Chicago Tribune Company, LLC, DP Media Network, LLC, Daily News LP, Northwest Publications, LLC, ORB Publishing, LLC, Orlando Sentinel Communications Company, LLC, San Jose Mercury-News, LLC, Sun-sentinel Company, LLC, The New York Times Company. Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:23-cv-11195-SHS-OTW.(Lieberman, Steven) (Entered: 09/04/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1525/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1526 — 2026-09-04
+
+DECLARATION of Jim Malackowski in Support re: (1728 in 1:25-md-03143-SHS-OTW) MOTION for Summary Judgment .. Document filed by Chicago Tribune Company, LLC, DP Media Network, LLC, Daily News LP, Northwest Publications, LLC, ORB Publishing, LLC, Orlando Sentinel Communications Company, LLC, San Jose Mercury-News, LLC, Sun-sentinel Company, LLC, The New York Times Company. Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:23-cv-11195-SHS-OTW.(Lieberman, Steven) (Entered: 09/04/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1526/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1527 — 2026-09-04
+
+DECLARATION of Oren Etzioni in Support re: (1728 in 1:25-md-03143-SHS-OTW) MOTION for Summary Judgment .. Document filed by Chicago Tribune Company, LLC, DP Media Network, LLC, Daily News LP, Northwest Publications, LLC, ORB Publishing, LLC, Orlando Sentinel Communications Company, LLC, San Jose Mercury-News, LLC, Sun-sentinel Company, LLC, The New York Times Company. Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:23-cv-11195-SHS-OTW.(Lieberman, Steven) (Entered: 09/04/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1527/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1528 — 2026-09-04
+
+DECLARATION of Tom Goldstein in Support re: (1728 in 1:25-md-03143-SHS-OTW) MOTION for Summary Judgment .. Document filed by Chicago Tribune Company, LLC, DP Media Network, LLC, Daily News LP, Northwest Publications, LLC, ORB Publishing, LLC, San Jose Mercury-News, LLC, Sun-sentinel Company, LLC, The New York Times Company. Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:23-cv-11195-SHS-OTW.(Lieberman, Steven) (Entered: 09/04/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1528/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1529 — 2026-09-04
+
+DECLARATION of Jennifer B. Maisel in Support re: (1728 in 1:25-md-03143-SHS-OTW) MOTION for Summary Judgment .. Document filed by Chicago Tribune Company, LLC, DP Media Network, LLC, Daily News LP, Northwest Publications, LLC, ORB Publishing, LLC, Orlando Sentinel Communications Company, LLC, San Jose Mercury-News, LLC, Sun-sentinel Company, LLC, The New York Times Company. Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:23-cv-11195-SHS-OTW.(Lieberman, Steven) (Entered: 09/04/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1529/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1531 — 2026-09-04
+
+DECLARATION of Simone Procas in Support re: (1728 in 1:25-md-03143-SHS-OTW) MOTION for Summary Judgment .. Document filed by DP Media Network, LLC, Daily News LP, Northwest Publications, LLC, ORB Publishing, LLC, Orlando Sentinel Communications Company, LLC, San Jose Mercury-News, LLC, Sun-sentinel Company, LLC, The New York Times Company. Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:23-cv-11195-SHS-OTW.(Lieberman, Steven) (Entered: 09/04/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1531/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1532 — 2026-09-04
+
+DECLARATION of Jeffrey Sisson in Support re: (1728 in 1:25-md-03143-SHS-OTW) MOTION for Summary Judgment .. Document filed by Chicago Tribune Company, LLC, DP Media Network, LLC, Daily News LP, Northwest Publications, LLC, ORB Publishing, LLC, Orlando Sentinel Communications Company, LLC, San Jose Mercury-News, LLC, Sun-sentinel Company, LLC, The New York Times Company. Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:23-cv-11195-SHS-OTW.(Lieberman, Steven) (Entered: 09/04/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1532/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1534 — 2026-09-04
+
+DECLARATION of Louise McKenna in Support re: (1728 in 1:25-md-03143-SHS-OTW) MOTION for Summary Judgment .. Document filed by Chicago Tribune Company, LLC, DP Media Network, LLC, Daily News LP, Northwest Publications, LLC, ORB Publishing, LLC, Orlando Sentinel Communications Company, LLC, San Jose Mercury-News, LLC, Sun-sentinel Company, LLC, The New York Times Company. Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:23-cv-11195-SHS-OTW.(Lieberman, Steven) (Entered: 09/04/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1534/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1516 — 2026-09-04
+
+DECLARATION of Lindsey Turrentine in Support re: (1700 in 1:25-md-03143-SHS-OTW) MOTION for Summary Judgment .. Document filed by CNET MEDIA, INC., Everyday Health Media LLC, IGN Entertainment Inc., Mashable, Inc., Ziff Davis Inc., Ziff Davis, LLC, Mashable, Inc.. Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Koonce, Lacy) (Entered: 09/04/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1516/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1515 — 2026-09-04
+
+***SEALED***DECLARATION of Defendants' Expert Nick Feamster in Support re: (1712 in 1:25-md-03143-SHS-OTW) MOTION for Summary Judgment on News Plaintiffs' Claims., (646 in 1:24-cv-04872-SHS-OTW) MOTION for Summary Judgment on News Plaintiffs' Claims., (587 in 1:25-cv-04315-SHS-OTW) MOTION for Summary Judgment on News Plaintiffs' Claims., (1471 in 1:23-cv-11195-SHS-OTW) MOTION for Summary Judgment on News Plaintiffs' Claims., (511 in 1:24-cv-01515-SHS-OTW) MOTION for Summary Judgment on News Plaintiffs' Claims., (786 in 1:24-cv-03285-SHS-OTW) MOTION for Summary Judgment on News Plaintiffs' Claims.. Document filed by OAI Corporation, LLC, OpenAI GP, LLC, OpenAI Global, L.L.C., OpenAI Group PBC, OpenAI OpCo, L.L.C., OpenAI, Inc., OpenAI, LLC. Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al.Motion or Order to File Under Seal: 1685 .(Blanco, Allison) (Entered: 09/04/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1515/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1514 — 2026-09-04
+
+DECLARATION of Christine Mattheis in Support re: (1700 in 1:25-md-03143-SHS-OTW) MOTION for Summary Judgment .. Document filed by CNET MEDIA, INC., Everyday Health Media LLC, IGN Entertainment Inc., Mashable, Inc., Ziff Davis Inc., Ziff Davis, LLC, Mashable, Inc.. Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Koonce, Lacy) (Entered: 09/04/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1514/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1513 — 2026-09-04
+
+DECLARATION of Defendants' Expert Avi Goldfarb in Support re: (1712 in 1:25-md-03143-SHS-OTW) MOTION for Summary Judgment on News Plaintiffs' Claims., (646 in 1:24-cv-04872-SHS-OTW) MOTION for Summary Judgment on News Plaintiffs' Claims., (1715 in 1:25-md-03143-SHS-OTW) MOTION for Summary Judgment on Consolidated Class Plaintiffs' Claims., (587 in 1:25-cv-04315-SHS-OTW) MOTION for Summary Judgment on News Plaintiffs' Claims., (1471 in 1:23-cv-11195-SHS-OTW) MOTION for Summary Judgment on News Plaintiffs' Claims., (1209 in 1:23-cv-08292-SHS-OTW) MOTION for Summary Judgment on Consolidated Class Plaintiffs' Claims., (511 in 1:24-cv-01515-SHS-OTW) MOTION for Summary Judgment on News Plaintiffs' Claims., (786 in 1:24-cv-03285-SHS-OTW) MOTION for Summary Judgment on News Plaintiffs' Claims.. Document filed by OAI Corporation, LLC, OpenAI GP, LLC, OpenAI Global, L.L.C., OpenAI Group PBC, OpenAI OpCo, L.L.C., OpenAI, Inc., OpenAI, LLC. Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..( …(truncated)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1513/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1512 — 2026-09-04
+
+***SEALED***DECLARATION of Joseph C. Gratz (SEALED Vol. 4) in Support re: (1712 in 1:25-md-03143-SHS-OTW) MOTION for Summary Judgment on News Plaintiffs' Claims., (1715 in 1:25-md-03143-SHS-OTW) MOTION for Summary Judgment on Consolidated Class Plaintiffs' Claims.. Document filed by OAI Corporation, OpenAI Foundation, OpenAI GP, LLC, OpenAI Global, LLC, OpenAI Group PBC, OpenAI LLC, OpenAI OpCo, LLC, OpenAI Startup Fund GP I LLC, OpenAI Startup Fund I LP, OpenAI Startup Fund Management LLC(a Delaware limited liability company). (Attachments: # 1 Exhibit 241 (SEALED), # 2 Exhibit 242 (SEALED), # 3 Exhibit 243 (SEALED), # 4 Exhibit 245 (SEALED), # 5 Exhibit 246 (SEALED), # 6 Exhibit 247 (SEALED), # 7 Exhibit 248 (SEALED), # 8 Exhibit 249 (SEALED), # 9 Exhibit 250 (SEALED), # 10 Exhibit 251 (SEALED), # 11 Exhibit 252 (SEALED), # 12 Exhibit 253 (SEALED), # 13 Exhibit 254 (SEALED), # 14 Exhibit 255 (SEALED), # 15 Exhibit 256 (SEALED), # 16 Exhibit 262 (SEALED), # 17 Exhibit 263 (SEALED), #  …(truncated)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1512/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1503 — 2026-09-04
+
+LETTER MOTION for Oral Argument on OpenAI's Motion for Summary Judgment (News) addressed to Judge Sidney H. Stein from Robert A. Van Nest, Sarang V. Damle, and Joseph C. Gratz dated September 4, 2026. Document filed by OAI Corporation, LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Group PBC, OpenAI OpCo LLC, OpenAI, Inc., OpenAI, LLC.Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Gass, Andrew) (Entered: 09/04/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1503/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1504 — 2026-09-04
+
+LETTER MOTION for Oral Argument on Microsoft's Motion for Summary Judgment in the Books Plaintiffs' Consolidated Cases, Microsoft's Motion for Summary Judgment in the News Plaintiffs' Consolidated Cases, and Microsoft's Motion for Judgment on the Pleadings on Books Plaintiffs' Contributory Infringement Claims addressed to Judge Sidney H. Stein from Annette L. Hurst dated September 4, 2026. Document filed by Microsoft Corporation.Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Hurst, Annette) (Entered: 09/04/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1504/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1505 — 2026-09-04
+
+RULE 56.1 STATEMENT. Document filed by OAI Corporation, OpenAI Foundation (f/k/a OpenAI Inc.), OpenAI GP, LLC, OpenAI Global, LLC, OpenAI Group PBC, OpenAI LLC, OpenAI OpCo, LLC, OpenAI Startup Fund GP I LLC, OpenAI Startup Fund I LP, OpenAI Startup Fund Management LLC(a Delaware limited liability company). Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:23-cv-08292-SHS-OTW, 1:23-cv-11195-SHS-OTW, 1:25-cv-04315-SHS-OTW.(Gratz, Joseph) (Entered: 09/04/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1505/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1506 — 2026-09-04
+
+***SEALED***DECLARATION of Joseph C. Gratz (SEALED Vol. 1) in Support re: (1712 in 1:25-md-03143-SHS-OTW) MOTION for Summary Judgment on News Plaintiffs' Claims., (1715 in 1:25-md-03143-SHS-OTW) MOTION for Summary Judgment on Consolidated Class Plaintiffs' Claims.. Document filed by OAI Corporation, OpenAI Foundation, OpenAI GP, LLC, OpenAI Global, LLC, OpenAI Group PBC, OpenAI LLC, OpenAI OpCo, LLC, OpenAI Startup Fund GP I LLC, OpenAI Startup Fund I LP, OpenAI Startup Fund Management LLC(a Delaware limited liability company). (Attachments: # 1 Exhibit 15 (SEALED), # 2 Exhibit 16 (SEALED), # 3 Exhibit 17 (SEALED), # 4 Exhibit 18 (SEALED), # 5 Exhibit 24 (SEALED), # 6 Exhibit 25 (SEALED), # 7 Exhibit 27 (SEALED), # 8 Exhibit 35 (SEALED), # 9 Exhibit 48 (SEALED), # 10 Exhibit 53 (SEALED), # 11 Exhibit 56 (SEALED), # 12 Exhibit 64 (SEALED), # 13 Exhibit 71 (SEALED), # 14 Exhibit 72 (SEALED), # 15 Exhibit 77 (SEALED))Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:23-cv-08292-SHS-OTW, …(truncated)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1506/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1507 — 2026-09-04
+
+***SEALED***DECLARATION of Joseph C. Gratz (SEALED Vol. 2) in Support re: (1712 in 1:25-md-03143-SHS-OTW) MOTION for Summary Judgment on News Plaintiffs' Claims., (1715 in 1:25-md-03143-SHS-OTW) MOTION for Summary Judgment on Consolidated Class Plaintiffs' Claims.. Document filed by OAI Corporation, OpenAI Foundation, OpenAI GP, LLC, OpenAI Global, L.L.C., OpenAI Group PBC, OpenAI LLC, OpenAI OpCo, LLC, OpenAI Startup Fund GP I LLC, OpenAI Startup Fund I LP, OpenAI Startup Fund Management LLC(a Delaware limited liability company). (Attachments: # 1 Exhibit 78 (SEALED), # 2 Exhibit 79 (SEALED), # 3 Exhibit 85 (SEALED), # 4 Exhibit 86 (SEALED), # 5 Exhibit 89 (SEALED), # 6 Exhibit 92 (SEALED), # 7 Exhibit 93 (SEALED), # 8 Exhibit 94 (SEALED), # 9 Exhibit 95 (SEALED), # 10 Exhibit 96 (SEALED), # 11 Exhibit 97 (SEALED), # 12 Exhibit 98 (SEALED), # 13 Exhibit 99 (SEALED), # 14 Exhibit 100 (SEALED), # 15 Exhibit 101 (SEALED), # 16 Exhibit 103 (SEALED), # 17 Exhibit 104 (SEALED), # 18 Exhibit …(truncated)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1507/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1509 — 2026-09-04
+
+DECLARATION of Defendants' Expert Chris Callison-Burch in Support re: (1712 in 1:25-md-03143-SHS-OTW) MOTION for Summary Judgment on News Plaintiffs' Claims., (646 in 1:24-cv-04872-SHS-OTW) MOTION for Summary Judgment on News Plaintiffs' Claims., (1715 in 1:25-md-03143-SHS-OTW) MOTION for Summary Judgment on Consolidated Class Plaintiffs' Claims., (587 in 1:25-cv-04315-SHS-OTW) MOTION for Summary Judgment on News Plaintiffs' Claims., (1471 in 1:23-cv-11195-SHS-OTW) MOTION for Summary Judgment on News Plaintiffs' Claims., (1209 in 1:23-cv-08292-SHS-OTW) MOTION for Summary Judgment on Consolidated Class Plaintiffs' Claims., (511 in 1:24-cv-01515-SHS-OTW) MOTION for Summary Judgment on News Plaintiffs' Claims., (786 in 1:24-cv-03285-SHS-OTW) MOTION for Summary Judgment on News Plaintiffs' Claims.. Document filed by OAI Corporation, LLC, OpenAI GP, LLC, OpenAI Global, L.L.C., OpenAI Group PBC, OpenAI OpCo, L.L.C., OpenAI, Inc., OpenAI, LLC. Filed In Associated Cases: 1:25-md-03143-SHS-OTW  …(truncated)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1509/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1510 — 2026-09-04
+
+***SEALED***DECLARATION of Joseph C. Gratz (SEALED Vol. 3) in Support re: (1712 in 1:25-md-03143-SHS-OTW) MOTION for Summary Judgment on News Plaintiffs' Claims., (1715 in 1:25-md-03143-SHS-OTW) MOTION for Summary Judgment on Consolidated Class Plaintiffs' Claims.. Document filed by OAI Corporation, OpenAI Foundation, OpenAI GP, LLC, OpenAI Global, LLC, OpenAI Group PBC, OpenAI LLC, OpenAI OpCo, LLC, OpenAI Startup Fund GP I LLC, OpenAI Startup Fund I LP, OpenAI Startup Fund Management LLC(a Delaware limited liability company). (Attachments: # 1 Exhibit 161 (SEALED), # 2 Exhibit 163 (SEALED), # 3 Exhibit 164 (SEALED), # 4 Exhibit 165 (SEALED), # 5 Exhibit 166 (SEALED), # 6 Exhibit 168 (SEALED), # 7 Exhibit 169 (SEALED), # 8 Exhibit 182 (SEALED), # 9 Exhibit 183 (SEALED), # 10 Exhibit 184 (SEALED), # 11 Exhibit 186 (SEALED), # 12 Exhibit 187 (SEALED), # 13 Exhibit 197 (SEALED), # 14 Exhibit 199 (SEALED), # 15 Exhibit 202 (SEALED), # 16 Exhibit 204 (SEALED), # 17 Exhibit 207 (SEALED), #  …(truncated)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1510/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1511 — 2026-09-04
+
+***SEALED***DECLARATION of Defendants' Expert Chris Callison-Burch in Support re: (1712 in 1:25-md-03143-SHS-OTW) MOTION for Summary Judgment on News Plaintiffs' Claims., (646 in 1:24-cv-04872-SHS-OTW) MOTION for Summary Judgment on News Plaintiffs' Claims., (1715 in 1:25-md-03143-SHS-OTW) MOTION for Summary Judgment on Consolidated Class Plaintiffs' Claims., (587 in 1:25-cv-04315-SHS-OTW) MOTION for Summary Judgment on News Plaintiffs' Claims., (1471 in 1:23-cv-11195-SHS-OTW) MOTION for Summary Judgment on News Plaintiffs' Claims., (1209 in 1:23-cv-08292-SHS-OTW) MOTION for Summary Judgment on Consolidated Class Plaintiffs' Claims., (511 in 1:24-cv-01515-SHS-OTW) MOTION for Summary Judgment on News Plaintiffs' Claims., (786 in 1:24-cv-03285-SHS-OTW) MOTION for Summary Judgment on News Plaintiffs' Claims.. Document filed by OAI Corporation, LLC, OpenAI GP, LLC, OpenAI Global, L.L.C., OpenAI Group PBC, OpenAI OpCo, L.L.C., OpenAI, Inc., OpenAI, LLC. Filed In Associated Cases: 1:25-md-03 …(truncated)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1511/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1497 — 2026-09-04
+
+DECLARATION of Defendants' Expert Taylor Berg-Kirkpatrick in Support of Motion for Summary Judgment in Support re: 1471 MOTION for Summary Judgment on News Plaintiffs' Claims.. Document filed by OAI Corporation, LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Group PBC, OpenAI LLC, OpenAI OpCo LLC, OpenAI, Inc...(Blanco, Allison) (Entered: 09/04/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1497/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1498 — 2026-09-04
+
+DECLARATION of Maile Yeats-Rowe in Support re: (1703 in 1:25-md-03143-SHS-OTW) LETTER MOTION to Seal re: Summary Judgment and Daubert Briefing addressed to Judge Sidney H. Stein from Caitlin Sinclaire Blythe, Robert A. Van Nest, Sarang V. Damle dated September 4, 2026.. Document filed by OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI Foundation, OpenAI Foundation (f/k/a OpenAI Inc.), OpenAI GP LLC, OpenAI GP, LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.L.C., OpenAI Global, LLC, OpenAI Group PBC, OpenAI Group PBC, OpenAI Holdings LLC, OpenAI Holdings, LLC, OpenAI Inc., OpenAI LLC, OpenAI LP, OpenAI OpCo LLC, OpenAI OpCo LLC(a Delaware limited liability corporation), OpenAI OpCo, L.L.C., OpenAI OpCo, LLC, OpenAI Startup Fund GP I LLC, OpenAI Startup Fund GP I LLC(a Delaware limited liability company), OpenAI Startup Fund I LP, OpenAI Startup Fund I LP(a Delaware limited partnership), OpenAI Startup Fund Management LLC, OpenAI Startup Fund Management LLC(a …(truncated)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1498/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1500 — 2026-09-04
+
+DECLARATION of Catherine Tucker in Support re: (1473 in 1:23-cv-11195-SHS-OTW) MOTION for Summary Judgment in News Plaintiffs' Consolidated Cases.. Document filed by Microsoft Corporation. Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:23-cv-11195-SHS-OTW, 1:24-cv-03285-SHS-OTW, 1:24-cv-04872-SHS-OTW.(Hurst, Annette) (Entered: 09/04/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1500/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1501 — 2026-09-04
+
+***SEALED***DECLARATION of Catherine Tucker in Support re: (1473 in 1:23-cv-11195-SHS-OTW) MOTION for Summary Judgment in News Plaintiffs' Consolidated Cases.. Document filed by Microsoft Corporation. Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:23-cv-11195-SHS-OTW, 1:24-cv-03285-SHS-OTW, 1:24-cv-04872-SHS-OTWMotion or Order to File Under Seal: 1685 .(Hurst, Annette) (Entered: 09/04/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1501/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1499 — 2026-09-04
+
+***SEALED*** MEMORANDUM OF LAW in Support re: 1471 MOTION for Summary Judgment on News Plaintiffs' Claims. . Document filed by OAI Corporation, LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Group PBC, OpenAI OpCo LLC, OpenAI, Inc., OpenAI, LLC. Motion or Order to File Under Seal: 1478 .(Damle, Sarang) (Entered: 09/04/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1499/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1502 — 2026-09-04
+
+***SEALED***RULE 56.1 STATEMENT. Document filed by OAI Corporation, OpenAI Foundation (f/k/a OpenAI Inc.), OpenAI GP, LLC, OpenAI Global, LLC, OpenAI Group PBC, OpenAI LLC, OpenAI OpCo, LLC, OpenAI Startup Fund GP I LLC, OpenAI Startup Fund I LP, OpenAI Startup Fund Management LLC(a Delaware limited liability company). Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:23-cv-08292-SHS-OTW, 1:23-cv-11195-SHS-OTW, 1:25-cv-04315-SHS-OTWMotion or Order to File Under Seal: 1703 .(Gratz, Joseph) (Entered: 09/04/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1502/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1496 — 2026-09-04
+
+MEMORANDUM OF LAW in Support re: 1471 MOTION for Summary Judgment on News Plaintiffs' Claims. (Redacted). Document filed by OAI Corporation, LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Group PBC, OpenAI OpCo LLC, OpenAI, Inc., OpenAI, LLC..(Damle, Sarang) (Entered: 09/04/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1496/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1495 — 2026-09-04
+
+***SEALED***DECLARATION of Barbara Frederiksen-Cross in Support re: (1715 in 1:25-md-03143-SHS-OTW) MOTION for Summary Judgment on Consolidated Class Plaintiffs' Claims.. Document filed by OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI Foundation, OpenAI Foundation (f/k/a OpenAI Inc.), OpenAI GP LLC, OpenAI GP, LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.L.C., OpenAI Global, LLC, OpenAI Group PBC, OpenAI Group PBC, OpenAI Holdings LLC, OpenAI Holdings, LLC, OpenAI Inc., OpenAI LLC, OpenAI LP, OpenAI OpCo LLC(a Delaware limited liability corporation), OpenAI OpCo LLC, OpenAI OpCo, L.L.C., OpenAI OpCo, LLC, OpenAI Startup Fund GP I LLC, OpenAI Startup Fund GP I LLC(a Delaware limited liability company), OpenAI Startup Fund I LP, OpenAI Startup Fund I LP(a Delaware limited partnership), OpenAI Startup Fund Management LLC(a Delaware limited liability company), OpenAI Startup Fund Management LLC, OpenAI, Inc., OpenAI, Inc., OpenAI, LLC. Filed In Associated C …(truncated)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1495/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1494 — 2026-09-04
+
+***SEALED***DECLARATION of John D. Lafferty in Support re: (1473 in 1:23-cv-11195-SHS-OTW) MOTION for Summary Judgment in News Plaintiffs' Consolidated Cases., (777 in 1:23-cv-10211-SHS-OTW) MOTION for Summary Judgment in Books Plaintiffs' Consolidated Cases.. Document filed by Microsoft Corporation. Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al.Motion or Order to File Under Seal: 1685 .(Hurst, Annette) (Entered: 09/04/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1494/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1493 — 2026-09-04
+
+DECLARATION of John D. Lafferty in Support re: (1473 in 1:23-cv-11195-SHS-OTW) MOTION for Summary Judgment in News Plaintiffs' Consolidated Cases., (777 in 1:23-cv-10211-SHS-OTW) MOTION for Summary Judgment in Books Plaintiffs' Consolidated Cases.. Document filed by Microsoft Corporation. Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Hurst, Annette) (Entered: 09/04/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1493/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1492 — 2026-09-04
+
+DECLARATION of Barbara Frederiksen-Cross in Support re: (1715 in 1:25-md-03143-SHS-OTW) MOTION for Summary Judgment on Consolidated Class Plaintiffs' Claims.. Document filed by OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI Foundation, OpenAI GP LLC, OpenAI GP, LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.L.C., OpenAI Global, LLC, OpenAI Group PBC, OpenAI Group PBC, OpenAI Holdings LLC, OpenAI Holdings, LLC, OpenAI Inc., OpenAI LLC, OpenAI LP, OpenAI OpCo LLC(a Delaware limited liability corporation), OpenAI OpCo LLC, OpenAI OpCo, L.L.C., OpenAI OpCo, LLC, OpenAI Startup Fund GP I LLC, OpenAI Startup Fund GP I LLC(a Delaware limited liability company), OpenAI Startup Fund I LP, OpenAI Startup Fund I LP(a Delaware limited partnership), OpenAI Startup Fund Management LLC(a Delaware limited liability company), OpenAI Startup Fund Management LLC, OpenAI, Inc., OpenAI, Inc., OpenAI, LLC. Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Van Nest, Rober …(truncated)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1492/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1491 — 2026-09-04
+
+***SEALED***DECLARATION of Christopher A. Bail in Support re: (1473 in 1:23-cv-11195-SHS-OTW) MOTION for Summary Judgment in News Plaintiffs' Consolidated Cases., (777 in 1:23-cv-10211-SHS-OTW) MOTION for Summary Judgment in Books Plaintiffs' Consolidated Cases.. Document filed by Microsoft Corporation. Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al.Motion or Order to File Under Seal: 1685 .(Hurst, Annette) (Entered: 09/04/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1491/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1490 — 2026-09-04
+
+DECLARATION of Christopher A. Bail in Support re: (1473 in 1:23-cv-11195-SHS-OTW) MOTION for Summary Judgment in News Plaintiffs' Consolidated Cases., (777 in 1:23-cv-10211-SHS-OTW) MOTION for Summary Judgment in Books Plaintiffs' Consolidated Cases.. Document filed by Microsoft Corporation. Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Hurst, Annette) (Entered: 09/04/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1490/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1489 — 2026-09-04
+
+DECLARATION of On Amir, Ph.D. in Support re: (1473 in 1:23-cv-11195-SHS-OTW) MOTION for Summary Judgment in News Plaintiffs' Consolidated Cases., (777 in 1:23-cv-10211-SHS-OTW) MOTION for Summary Judgment in Books Plaintiffs' Consolidated Cases.. Document filed by Microsoft Corporation. Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Hurst, Annette) (Entered: 09/04/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1489/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1482 — 2026-09-04
+
+***SEALED***DECLARATION of Jordan Usdan in Support re: (1473 in 1:23-cv-11195-SHS-OTW) MOTION for Summary Judgment in News Plaintiffs' Consolidated Cases., (777 in 1:23-cv-10211-SHS-OTW) MOTION for Summary Judgment in Books Plaintiffs' Consolidated Cases.. Document filed by Microsoft Corporation. Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al.Motion or Order to File Under Seal: 1685 .(Hurst, Annette) (Entered: 09/04/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1482/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1483 — 2026-09-04
+
+DECLARATION of Elbio Abib in Support re: (1473 in 1:23-cv-11195-SHS-OTW) MOTION for Summary Judgment in News Plaintiffs' Consolidated Cases.. Document filed by Microsoft Corporation. Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:23-cv-11195-SHS-OTW, 1:24-cv-03285-SHS-OTW, 1:24-cv-04872-SHS-OTW.(Hurst, Annette) (Entered: 09/04/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1483/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1484 — 2026-09-04
+
+REDACTION to (1700 in 1:25-md-03143-SHS-OTW) MOTION for Summary Judgment . by Daily News LP, The New York Times Company, Ziff Davis Inc.Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Crosby, Ian) (Entered: 09/04/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1484/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1485 — 2026-09-04
+
+DECLARATION of Sarah Bird in Support re: (1473 in 1:23-cv-11195-SHS-OTW) MOTION for Summary Judgment in News Plaintiffs' Consolidated Cases.. Document filed by Microsoft Corporation. Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:23-cv-11195-SHS-OTW, 1:24-cv-03285-SHS-OTW, 1:24-cv-04872-SHS-OTW.(Hurst, Annette) (Entered: 09/04/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1485/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1486 — 2026-09-04
+
+DECLARATION of Fabrice Canel in Support re: (1473 in 1:23-cv-11195-SHS-OTW) MOTION for Summary Judgment in News Plaintiffs' Consolidated Cases.. Document filed by Microsoft Corporation. Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:23-cv-11195-SHS-OTW, 1:24-cv-03285-SHS-OTW, 1:24-cv-04872-SHS-OTW.(Hurst, Annette) (Entered: 09/04/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1486/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1487 — 2026-09-04
+
+***SEALED***DECLARATION of Elbio Abib in Support re: (1473 in 1:23-cv-11195-SHS-OTW) MOTION for Summary Judgment in News Plaintiffs' Consolidated Cases.. Document filed by Microsoft Corporation. Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:23-cv-11195-SHS-OTW, 1:24-cv-03285-SHS-OTW, 1:24-cv-04872-SHS-OTWMotion or Order to File Under Seal: 1685 .(Hurst, Annette) (Entered: 09/04/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1487/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1488 — 2026-09-04
+
+DECLARATION of Katherine Cook in Support re: (1473 in 1:23-cv-11195-SHS-OTW) MOTION for Summary Judgment in News Plaintiffs' Consolidated Cases.. Document filed by Microsoft Corporation. Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:23-cv-11195-SHS-OTW, 1:24-cv-03285-SHS-OTW, 1:24-cv-04872-SHS-OTW.(Hurst, Annette) (Entered: 09/04/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1488/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1468 — 2026-09-04
+
+MOTION to Seal and Redact Portions of News Plaintiffs' Combined Summary Judgment Brief and Rule 56.1 Statement of Material Undisputed Facts. Document filed by The New York Times Company, Daily News LP, Ziff Davis, LLC. (Attachments: # 1 Exhibit News Plaintiffs' Memorandum of Law in Support of Motion for Leave to File Under Seal)Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:23-cv-11195-SHS-OTW, 1:24-cv-03285-SHS-OTW, 1:25-cv-04315-SHS-OTW.(Crosby, Ian) (Entered: 09/04/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1468/1/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1469 — 2026-09-04
+
+MOTION to Seal and Redact Portions of News Plaintiffs' Combined Summary Judgment Brief and Rule 56.1 Statement of Material Undisputed Facts. Document filed by The New York Times Company, Daily News LP, Ziff Davis, LLC. (Attachments: # 1 Exhibit News Plaintiffs' Memorandum of Law in Support of Motion for Leave to File Under Seal)Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:23-cv-11195-SHS-OTW, 1:24-cv-03285-SHS-OTW, 1:25-cv-04315-SHS-OTW.(Crosby, Ian) (Entered: 09/04/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1469/1/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1470 — 2026-09-04
+
+MOTION to Seal . Document filed by Microsoft Corporation. (Attachments: # 1 Exhibit A - Declaration of Lucky Vidmar in Support)Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Hurst, Annette) (Entered: 09/04/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1470/1/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1478 — 2026-09-04
+
+LETTER MOTION to Seal re: Summary Judgment and Daubert Briefing addressed to Judge Sidney H. Stein from Caitlin Sinclaire Blythe, Robert A. Van Nest, Sarang V. Damle dated September 4, 2026. Document filed by OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI Foundation, OpenAI Foundation (f/k/a OpenAI Inc.), OpenAI GP LLC, OpenAI GP, LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.L.C., OpenAI Global, LLC, OpenAI Group PBC, OpenAI Group PBC, OpenAI Inc., OpenAI LLC, OpenAI LP, OpenAI OpCo LLC, OpenAI OpCo LLC(a Delaware limited liability corporation), OpenAI OpCo, L.L.C., OpenAI OpCo, LLC, OpenAI Startup Fund GP I LLC, OpenAI Startup Fund GP I LLC(a Delaware limited liability company), OpenAI Startup Fund I LP, OpenAI Startup Fund I LP(a Delaware limited partnership), OpenAI Startup Fund Management LLC, OpenAI Startup Fund Management LLC(a Delaware limited liability company), OpenAI, Inc., OpenAI, Inc., OpenAI, LLC, OpenAI Holdings LLC, OpenAI Holdings, LLC. ( …(truncated)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1478/1/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1481 — 2026-09-04
+
+DECLARATION of Jordan Usdan in Support re: (1473 in 1:23-cv-11195-SHS-OTW) MOTION for Summary Judgment in News Plaintiffs' Consolidated Cases., (777 in 1:23-cv-10211-SHS-OTW) MOTION for Summary Judgment in Books Plaintiffs' Consolidated Cases.. Document filed by Microsoft Corporation. Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Hurst, Annette) (Entered: 09/04/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1481/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1480 — 2026-09-04
+
+***SEALED***DECLARATION of Padma Priya Gaggara in Support re: (1473 in 1:23-cv-11195-SHS-OTW) MOTION for Summary Judgment in News Plaintiffs' Consolidated Cases., (777 in 1:23-cv-10211-SHS-OTW) MOTION for Summary Judgment in Books Plaintiffs' Consolidated Cases.. Document filed by Microsoft Corporation. Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al.Motion or Order to File Under Seal: 1685 .(Hurst, Annette) (Entered: 09/04/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1480/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1479 — 2026-09-04
+
+DECLARATION of Padma Priya Gaggara in Support re: (1473 in 1:23-cv-11195-SHS-OTW) MOTION for Summary Judgment in News Plaintiffs' Consolidated Cases., (777 in 1:23-cv-10211-SHS-OTW) MOTION for Summary Judgment in Books Plaintiffs' Consolidated Cases.. Document filed by Microsoft Corporation. Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Hurst, Annette) (Entered: 09/04/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1479/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1477 — 2026-09-04
+
+***SEALED***RULE 56.1 STATEMENT. Document filed by Microsoft Corporation. Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:23-cv-11195-SHS-OTW, 1:24-cv-03285-SHS-OTW, 1:24-cv-04872-SHS-OTWMotion or Order to File Under Seal: 1689 .(Hurst, Annette) (Entered: 09/04/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1477/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1476 — 2026-09-04
+
+FILING ERROR - DEFICIENT DOCKET ENTRY - (SEE DOCUMENT#1827) RULE 56.1 STATEMENT. Document filed by Microsoft Corporation. Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:23-cv-11195-SHS-OTW, 1:24-cv-03285-SHS-OTW, 1:24-cv-04872-SHS-OTW.(Hurst, Annette) Modified on 9/8/2026 (lb). (Entered: 09/04/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1476/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1475 — 2026-09-04
+
+***SEALED*** MEMORANDUM OF LAW in Support re: (1473 in 1:23-cv-11195-SHS-OTW) MOTION for Summary Judgment in News Plaintiffs' Consolidated Cases. . Document filed by Microsoft Corporation. Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:23-cv-11195-SHS-OTW, 1:24-cv-03285-SHS-OTW, 1:24-cv-04872-SHS-OTWMotion or Order to File Under Seal: 1689 .(Hurst, Annette) (Entered: 09/04/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1475/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1474 — 2026-09-04
+
+MEMORANDUM OF LAW in Support re: (1473 in 1:23-cv-11195-SHS-OTW) MOTION for Summary Judgment in News Plaintiffs' Consolidated Cases. . Document filed by Microsoft Corporation. Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:23-cv-11195-SHS-OTW, 1:24-cv-03285-SHS-OTW, 1:24-cv-04872-SHS-OTW.(Hurst, Annette) (Entered: 09/04/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1474/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1472 — 2026-09-04
+
+DECLARATION of Demetri Blaisdell in Support re: (1468 in 1:23-cv-11195-SHS-OTW) MOTION to Seal and Redact Portions of News Plaintiffs' Combined Summary Judgment Brief and Rule 56.1 Statement of Material Undisputed Facts.. Document filed by The New York Times Company. Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:23-cv-11195-SHS-OTW.(Brook, Davida) (Entered: 09/04/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1472/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1473 — 2026-09-04
+
+MOTION for Summary Judgment in News Plaintiffs' Consolidated Cases. Document filed by Microsoft Corporation..(Hurst, Annette) (Entered: 09/04/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1473/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1471 — 2026-09-04
+
+MOTION for Summary Judgment on News Plaintiffs' Claims. Document filed by OAI Corporation, LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Group PBC, OpenAI LLC, OpenAI OpCo LLC, OpenAI, Inc...(Damle, Sarang) (Entered: 09/04/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1471/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1467 — 2026-09-03
+
+STIPULATED OMNIBUS SEALING ORDER FOR SUMMARY JUDGMENT AND DAUBERT BRIEFING: IT IS HEREBY ORDERED that sealing issues relating to summary judgment and Daubert briefing will be handled as follows: 1. The Parties may provisionally seal portions of briefing and exhibits (including expert reports and declarations) relating to Daubert briefing that contain or refer to material produced in this case that is designated Protected Discovery Material. 2. The Parties may provisionally seal exhibits ( or portions thereof) relating to summary judgment briefing (including expert reports and declarations) that contain or refer to material produced in this case that is designated Protected Discovery Material. 3. For the material addressed in paragraphs 1 and 2 above (the "Provisionally Sealed Material"), the Parties are relieved from the requirement set forth in paragraph 5(8) of Judge Stein's Individual Practices to file a motion to seal contemporaneously with the sealed filings, and the Parties and t …(truncated)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1467/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1465 — 2026-09-03
+
+ANSWER to 1461 Amended Complaint,. Document filed by OAI Corporation, LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Holdings, LLC, OpenAI LLC, OpenAI LP, OpenAI OpCo LLC, OpenAI, Inc., OpenAI, LLC..(Gratz, Joseph) (Entered: 09/03/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1465/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1466 — 2026-09-03
+
+FILING ERROR - DEFICIENT DOCKET ENTRY - (SEE DOCUMENT#1465) ANSWER to 170 Amended Complaint,,,,. Document filed by OAI Corporation, LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Holdings, LLC, OpenAI LLC, OpenAI LP, OpenAI OpCo LLC, OpenAI, Inc., OpenAI, LLC..(Gratz, Joseph) Modified on 9/3/2026 (lb). (Entered: 09/03/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1466/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1464 — 2026-09-01
+
+LETTER addressed to Judge Sidney H. Stein from United States of America dated September 1, 2026 re: STATEMENT OF INTEREST OF UNITED STATES OF AMERICA. Document filed by United States of America.Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Weisbuch, Michael) (Entered: 09/01/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1464/the-new-york-times-company-v-microsoft-corporation/)
+
+### 📄 Doc #1463 — 2026-08-31
+
+PROPOSED STIPULATION AND ORDER. Document filed by Microsoft Corporation, Microsoft Corporation, Microsoft Corporation..(Silverstein, Brianna) (Entered: 08/31/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1463/the-new-york-times-company-v-microsoft-corporation/)
 
 ### 📄 Doc #1462 — 2026-08-31
 
-Answer to Amended Complaint
+ANSWER to 1461 Amended Complaint, with JURY DEMAND. Document filed by Microsoft Corporation..(Hurst, Annette) (Entered: 08/31/2026)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/68117049/1462/the-new-york-times-company-v-microsoft-corporation/)
 
@@ -56,7 +1036,7 @@ Notice to Attorney Regarding Deficient Pleading
 
 ### 📄 Doc #1461 — 2026-08-21
 
-FILING ERROR - DEFICIENT DOCKET ENTRY - FILED AGAINST PARTY ERROR - THIRD AMENDED COMPLAINT amending 170 Amended Complaint,,,, 585 Amended Complaint, against Microsoft Corporation, OAI Corporation, LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Holdings, LLC, OpenAI LLC, OpenAI LP, OpenAI OpCo LLC, OpenAI, Inc. with JURY DEMAND.Document filed by The New York Times Company. Related document: 170 Amended Complaint,,,, 585 Amended Complaint,..(Crosby, Ian) Modified on 8/24/2026 (pc). (Entered: 08/21/2026)
+THIRD AMENDED COMPLAINT amending 170 Amended Complaint,,,, 585 Amended Complaint, against Microsoft Corporation, OAI Corporation, LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Holdings, LLC, OpenAI LLC, OpenAI LP, OpenAI OpCo LLC, OpenAI, Inc. with JURY DEMAND.Document filed by The New York Times Company. Related document: 170 Amended Complaint,,,, 585 Amended Complaint,..(Crosby, Ian) (Entered: 08/21/2026)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/68117049/1461/the-new-york-times-company-v-microsoft-corporation/)
 
@@ -128,21 +1108,15 @@ MEMORANDUM ORDER: Accordingly, the Court finds that the New York Times and Daily
 
 ### 📄 Doc #1446 — 2026-08-05
 
-Letter
+JOINT LETTER addressed to Judge Sidney H. Stein from Davida Brook, Justin A. Nelson, Lisa T. Simpson & R. James Slaughter dated 08/05/2026 re: word limits for summary judgment briefs on class plaintiffs' claims and limitations on Daubert briefs. Document filed by The New York Times Company.Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Brook, Davida) (Entered: 08/05/2026)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/68117049/1446/the-new-york-times-company-v-microsoft-corporation/)
 
 ### 📄 Doc #1447 — 2026-08-05
 
-Proposed Stipulation and Order
+PROPOSED STIPULATION AND ORDER. Document filed by The New York Times Company..(Brook, Davida) (Entered: 08/05/2026)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/68117049/1447/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #1448 — 2026-08-05
-
-Order on Motion to Appear Pro Hac Vice
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1448/the-new-york-times-company-v-microsoft-corporation/)
 
 ### 📄 Doc #1444 — 2026-07-28
 
@@ -156,927 +1130,34 @@ MOTION for Daniel Jordan to Withdraw as Attorney . Document filed by OAI Corpora
 
 [CourtListener 連結](https://www.courtlistener.com/docket/68117049/1445/1/the-new-york-times-company-v-microsoft-corporation/)
 
-### 📄 Doc #1442 — 2026-07-16
-
-DECLARATION of MAILE YEATS-ROWE in Support re: (563 in 1:25-cv-04315-SHS-OTW, 621 in 1:24-cv-04872-SHS-OTW, 1440 in 1:23-cv-11195-SHS-OTW, 1642 in 1:25-md-03143-SHS-OTW, 756 in 1:24-cv-03285-SHS-OTW, 493 in 1:24-cv-01515-SHS-OTW) LETTER MOTION to Seal ECF (1617) addressed to Magistrate Judge Ona T. Wang from Caitlin Sinclaire Blythe, Nicholas S. Goldberg, Herman H. Yue dated July 16, 2026.. Document filed by OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.L.C., OpenAI Group PBC, OpenAI Inc., OpenAI LLC, OpenAI LP, OpenAI OpCo LLC, OpenAI OpCo LLC(a Delaware limited liability corporation), OpenAI OpCo, L.L.C., OpenAI Startup Fund GP I LLC, OpenAI Startup Fund GP I LLC(a Delaware limited liability company), OpenAI Startup Fund I LP, OpenAI Startup Fund I LP(a Delaware limited partnership), OpenAI Startup Fund Management LLC, OpenAI Startup Fund Management LLC(a Delaware limited liability company), OpenAI, Inc. …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/565/11/the-new-york-times-company-v-microsoft-corporation/)
-
 ### 📄 Doc #1440 — 2026-07-16
 
 LETTER MOTION to Seal ECF 1617 addressed to Magistrate Judge Ona T. Wang from Caitlin Sinclaire Blythe, Nicholas S. Goldberg, Herman H. Yue dated July 16, 2026. Document filed by OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.L.C., OpenAI Group PBC, OpenAI Inc., OpenAI LLC, OpenAI LP, OpenAI OpCo LLC, OpenAI OpCo LLC(a Delaware limited liability corporation), OpenAI OpCo, L.L.C., OpenAI Startup Fund GP I LLC, OpenAI Startup Fund GP I LLC(a Delaware limited liability company), OpenAI Startup Fund I LP, OpenAI Startup Fund I LP(a Delaware limited partnership), OpenAI Startup Fund Management LLC, OpenAI Startup Fund Management LLC(a Delaware limited liability company), OpenAI, Inc., OpenAI, Inc., OpenAI, LLC, OpenAI Holdings, LLC, OpenAI Holdings LLC. (Attachments: # 1 Proposed Order )Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Blythe, Caitlin) (Entered: 07/16/2026)
 
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/563/1/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #1441 — 2026-07-16
-
-***SEALED***DECLARATION of MAILE YEATS-ROWE in Support re: (563 in 1:25-cv-04315-SHS-OTW, 621 in 1:24-cv-04872-SHS-OTW, 1440 in 1:23-cv-11195-SHS-OTW, 1642 in 1:25-md-03143-SHS-OTW, 756 in 1:24-cv-03285-SHS-OTW, 493 in 1:24-cv-01515-SHS-OTW) LETTER MOTION to Seal ECF (1617) addressed to Magistrate Judge Ona T. Wang from Caitlin Sinclaire Blythe, Nicholas S. Goldberg, Herman H. Yue dated July 16, 2026.. Document filed by OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.L.C., OpenAI Group PBC, OpenAI Inc., OpenAI LLC, OpenAI LP, OpenAI OpCo LLC, OpenAI OpCo LLC(a Delaware limited liability corporation), OpenAI OpCo, L.L.C., OpenAI Startup Fund GP I LLC, OpenAI Startup Fund GP I LLC(a Delaware limited liability company), OpenAI Startup Fund I LP, OpenAI Startup Fund I LP(a Delaware limited partnership), OpenAI Startup Fund Management LLC, OpenAI Startup Fund Management LLC(a Delaware limited liability company),  …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1441/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #1437 — 2026-07-16
-
-MOTION to Seal . Document filed by Daily News LP, The New York Times Company.Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:23-cv-11195-SHS-OTW, 1:24-cv-03285-SHS-OTW.(Crosby, Ian) (Entered: 07/16/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1437/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #1438 — 2026-07-16
-
-***SEALED*** REPLY News Plaintiffs' Reply in Support of Cross-Motion for Leave to Amend. Document filed by Daily News LP, The New York Times Company. Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:23-cv-11195-SHS-OTW, 1:24-cv-03285-SHS-OTWMotion or Order to File Under Seal: 1637 .(Crosby, Ian) (Entered: 07/16/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1438/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #1439 — 2026-07-16
-
-REPLY News Plaintiffs' Reply in Support of Cross-Motion for Leave to Amend. Document filed by Daily News LP, The New York Times Company. Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:23-cv-11195-SHS-OTW, 1:24-cv-03285-SHS-OTW.(Crosby, Ian) (Entered: 07/16/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1439/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #1435 — 2026-07-15
-
-ORDER REGARDING BRIEFING SCHEDULE FOR NEWS PLAINTIFFS' MOTION FOR SANCTIONS AGAINST OPENAI: IT IS HEREBY STIPULATED AND AGREED, by and between undersigned counsel for News Plaintiffs and OpenAI, subject to approval of the Court, that: 1. New Pl aintiffs' motion for leave to file  a memorandum of law that exceeds this Court's word limits (Dkt. 1617) is GRANTED. 2. News Plaintiffs' motion for sanctions and the accompanying memorandum of law (Dkt. 1617-1; Dkt. 1618) shall be dee med to have been filed on July 9, 2026. 3. OpenAI shall file its opposition to News Plaintiffs' motion for sanctions on or before August 13, 2026, and OpenAI's opposition shall be subject to the same word limit as the word count used by New s Plaintiffs in their opening memorandum of law in support of their motion for sanctions (14,027). 4. News Plaintiffs shall file their reply in further support of their motion for sanctions on or before September 10, 2026, and subject to a word limit  of 5,400. 5. Except as exp …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1435/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #1433 — 2026-07-14
-
-ORDER in case 1:23-cv-08292-SHS-OTW; granting (1617) Letter Motion for Leave to File Document in case 1:25-md-03143-SHS-OTW. Leave to file excess pages in regards to the motion for sanctions is GRANTED. (HEREBY ORDERED by Magistrate Judge Ona T. Wang)(Text Only Order) Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al. (Entered: 07/14/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1433/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #1434 — 2026-07-14
-
-ORDER: The Court is in receipt of News Plaintiffs' motion for sanctions against Defendant OpenAI at ECF 1618. Parties are directed to meet and confer and file a proposed briefing schedule for the reply and response briefs by Friday, July 17, 2026. (Signed by Magistrate Judge Ona T. Wang on 7/14/2026) Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al. (rro) (Entered: 07/14/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1434/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #— — 2026-07-14
-
-Order on Motion for Leave to File Document
-
-### 📄 Doc #1432 — 2026-07-14
-
-PROPOSED ORDER. Document filed by Chicago Tribune Company, LLC, DP Media Network, LLC, Daily News LP, Northwest Publications, LLC, ORB Publishing, LLC, Orlando Sentinel Communications Company, LLC, San Jose Mercury-News, LLC, Sun-sentinel Company, LLC, The New York Times Company. Related Document Number: [1617-1, 1618 (Briefing Schedule for News Plaintiffs Motion For Sanctions)]..(Lieberman, Steven) Proposed Order to be reviewed by Clerk's Office staff. (Entered: 07/14/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1432/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #— — 2026-07-13
-
-Notice Regarding Pro Hac Vice Motion
-
-### 📄 Doc #1427 — 2026-07-09
-
-MOTION for Leave to File Memorandum of Law Exceeding Word Limit . Document filed by Chicago Tribune Company, LLC, DP Media Network, LLC, Daily News LP, Northwest Publications, LLC, ORB Publishing, LLC, Orlando Sentinel Communications Company, LLC, San Jose Mercury-News, LLC, Sun-sentinel Company, LLC, The New York Times Company. (Attachments: # 1 Appendix Memorandum of Law in Support of News Plaintiffs' Motion for Sanctions Against OpenAI, # 2 Affidavit J. Maisel Declaration In Support of News Plaintiffs' Motion for Sanctions, # 3 Exhibit 1 - September 12, 2024 Conference before Magistrate Judge Wang, # 4 Exhibit 2 - April 8, 2026 deposition of John Vincent Monaco, # 5 Exhibit 3 - May 23, 2025 Declaration of John Vincent Monaco, # 6 Exhibit 4 - The New York Timess First Set of Requests for Production of Documents to OpenAI Defendants, # 7 Exhibit 5 - OpenAI blog post titled OpenAI and Journalism, # 8 Exhibit 6 - OpenAIs Responses and Objections to The New York Times First Set of Reques …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1427/68/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #1428 — 2026-07-09
-
-***SEALED*** MOTION for Sanctions Against OpenAI. Document filed by Chicago Tribune Company, LLC, DP Media Network, LLC, Daily News LP, Northwest Publications, LLC, ORB Publishing, LLC, Orlando Sentinel Communications Company, LLC, San Jose Mercury-News, LLC, Sun-sentinel Company, LLC, The New York Times Company. (Attachments: # 1 Affidavit J. Maisel Declaration In Support of News Plaintiffs Motion for Sanctions, # 2 Exhibit 2 - April 8, 2026 deposition of John Vincent Monaco, # 3 Exhibit 3 - Declaration of John Vincent Monaco In Support of OpenAI Defendants Supplemental Opposition to News Plaintiffs Motion Regarding Output Logs, # 4 Exhibit 10 - June 3, 2024 email reflecting OpenAIs initial search terms for the NYT litigation, # 5 Exhibit 11 - Letter dated February 12, 2025, from counsel of The Times on behalf of News Plaintiffs to counsel of the OpenAI Defendants., # 6 Exhibit 17 - Letter dated March 19, 2025 from counsel of the OpenAI Defendants to counsel of the News Plaintiffs, #  …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1428/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #1426 — 2026-07-09
-
-MOTION to Seal Memorandum of Law in Support of News Plaintiffs' Motion for Sanctions Against OpenAI. Document filed by Chicago Tribune Company, LLC, DP Media Network, LLC, Daily News LP, Northwest Publications, LLC, ORB Publishing, LLC, Orlando Sentinel Communications Company, LLC, San Jose Mercury-News, LLC, Sun-sentinel Company, LLC, The New York Times Company.Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:23-cv-11195-SHS-OTW.(Lieberman, Steven) (Entered: 07/09/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1426/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #— — 2026-07-07
-
-Notice Regarding Pro Hac Vice Motion
-
-### 📄 Doc #1421 — 2026-07-02
-
-LETTER MOTION to Seal ECF 1591 1597 addressed to Judge Sidney H. Stein from Caitlin Sinclaire Blythe, Paven Malhotra, Herman H. Yue dated July 2, 2026. Document filed by OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.L.C., OpenAI Group PBC, OpenAI Inc., OpenAI LLC, OpenAI LP, OpenAI OpCo LLC, OpenAI OpCo LLC(a Delaware limited liability corporation), OpenAI OpCo, L.L.C., OpenAI Startup Fund GP I LLC, OpenAI Startup Fund GP I LLC(a Delaware limited liability company), OpenAI Startup Fund I LP, OpenAI Startup Fund I LP(a Delaware limited partnership), OpenAI Startup Fund Management LLC, OpenAI Startup Fund Management LLC(a Delaware limited liability company), OpenAI, Inc., OpenAI, Inc., OpenAI, LLC, OpenAI Holdings, LLC. (Attachments: # 1 Proposed Order )Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:23-cv-11195-SHS-OTW, 1:24-cv-03285-SHS-OTW.(Blythe, Caitlin) (Entered: 07/02/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1421/1/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #1423 — 2026-07-02
-
-DECLARATION of MAILE YEATS-ROWE in Support re: (1421 in 1:23-cv-11195-SHS-OTW, 742 in 1:24-cv-03285-SHS-OTW, 1610 in 1:25-md-03143-SHS-OTW) LETTER MOTION to Seal ECF (1591) (1597) addressed to Judge Sidney H. Stein from Caitlin Sinclaire Blythe, Paven Malhotra, Herman H. Yue dated July 2, 2026.. Document filed by OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.L.C., OpenAI Group PBC, OpenAI Inc., OpenAI LLC, OpenAI LP, OpenAI OpCo LLC, OpenAI OpCo LLC(a Delaware limited liability corporation), OpenAI OpCo, L.L.C., OpenAI Startup Fund GP I LLC, OpenAI Startup Fund GP I LLC(a Delaware limited liability company), OpenAI Startup Fund I LP, OpenAI Startup Fund I LP(a Delaware limited partnership), OpenAI Startup Fund Management LLC, OpenAI Startup Fund Management LLC(a Delaware limited liability company), OpenAI, Inc., OpenAI, Inc., OpenAI, LLC, OpenAI Holdings, LLC. (Attachments: # 1 Exhibit 1, # 2 Exhibit 2, #  …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1423/8/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #1422 — 2026-07-02
-
-***SEALED***DECLARATION of MAILE YEATS-ROWE in Support re: (1421 in 1:23-cv-11195-SHS-OTW, 742 in 1:24-cv-03285-SHS-OTW, 1610 in 1:25-md-03143-SHS-OTW) LETTER MOTION to Seal ECF (1591) (1597) addressed to Judge Sidney H. Stein from Caitlin Sinclaire Blythe, Paven Malhotra, Herman H. Yue dated July 2, 2026.. Document filed by OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.L.C., OpenAI Group PBC, OpenAI Inc., OpenAI LLC, OpenAI LP, OpenAI OpCo LLC, OpenAI OpCo LLC(a Delaware limited liability corporation), OpenAI OpCo, L.L.C., OpenAI Startup Fund GP I LLC, OpenAI Startup Fund GP I LLC(a Delaware limited liability company), OpenAI Startup Fund I LP, OpenAI Startup Fund I LP(a Delaware limited partnership), OpenAI Startup Fund Management LLC, OpenAI Startup Fund Management LLC(a Delaware limited liability company), OpenAI, Inc., OpenAI, Inc., OpenAI, LLC, OpenAI Holdings, LLC. (Attachments: # 1 Exhibit 1, # 2 E …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1422/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #1419 — 2026-07-01
-
-TRANSCRIPT of Proceedings re: conference held on 5/12/2026 before Magistrate Judge Ona T. Wang. Court Reporter/Transcriber: Rebecca Forman, (212) 805-0300. Transcript may be viewed at the court public terminal or purchased through the Court Reporter/Transcriber before the deadline for Release of Transcript Restriction. After that date it may be obtained through PACER. Redaction Request due 7/22/2026. Redacted Transcript Deadline set for 8/3/2026. Release of Transcript Restriction set for 9/29/2026.Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Moya, Goretti) (Entered: 07/01/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1419/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #1420 — 2026-07-01
-
-NOTICE OF FILING OF OFFICIAL TRANSCRIPT Notice is hereby given that an official transcript of a conference proceeding held on 5/12/26 has been filed by the court reporter/transcriber in the above-captioned matter. The parties have seven (7) calendar days to file with the court a Notice of Intent to Request Redaction of this transcript. If no such Notice is filed, the transcript may be made remotely electronically available to the public without redaction after 90 calendar days...Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Moya, Goretti) (Entered: 07/01/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1420/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #1418 — 2026-06-30
-
-RESPONSE to Motion re: (1595 in 1:25-md-03143-SHS-OTW, 735 in 1:24-cv-03285-SHS-OTW) MOTION to Seal ., (1589 in 1:25-md-03143-SHS-OTW, 1414 in 1:23-cv-11195-SHS-OTW) MOTION to Seal . . Document filed by Microsoft Corporation, Microsoft Corporation, Microsoft Corporation. (Attachments: # 1 Exhibit A - Declaration of L. Vidmar)Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:23-cv-11195-SHS-OTW, 1:24-cv-03285-SHS-OTW.(Briant, Jared) (Entered: 06/30/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1418/1/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #1417 — 2026-06-25
-
-NOTICE of Errata re: (1590 in 1:25-md-03143-SHS-OTW) Response to Motion,,,, (1591 in 1:25-md-03143-SHS-OTW) Response to Motion,,,,. Document filed by The New York Times Company, The New York Times Company. Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:23-cv-11195-SHS-OTW.(Crosby, Ian) (Entered: 06/25/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1417/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #1415 — 2026-06-25
-
-RESPONSE to Motion re: (1586 in 1:25-md-03143-SHS-OTW) MOTION for Judgment on the Pleadings . . Document filed by The New York Times Company. (Attachments: # 1 Supplement THE TIMES'S RESPONSE TO OPENAIS MOTION FOR JUDGMENT ON THE PLEADINGS AND CROSS-MOTION FOR LEAVE TO AMEND [REDACTED], # 2 Supplement THIRD AMENDED COMPLAINT [REDACTED], # 3 Supplement REDLINED THIRD AMENDED COMPLAINT [REDACTED], # 4 Exhibit A - FILED UNDER SEAL, # 5 Exhibit B - FILED UNDER SEAL, # 6 Exhibit C - FILED UNDER SEAL, # 7 Exhibit D - FILED UNDER SEAL, # 8 Exhibit E - FILED UNDER SEAL, # 9 Exhibit F - FILED UNDER SEAL, # 10 Exhibit G - FILED UNDER SEAL, # 11 Exhibit H - FILED UNDER SEAL, # 12 Exhibit I - FILED UNDER SEAL, # 13 Exhibit J - FILED UNDER SEAL, # 14 Exhibit K - FILED UNDER SEAL, # 15 Exhibit L - FILED UNDER SEAL, # 16 Exhibit M - FILED UNDER SEAL, # 17 Exhibit N - FILED UNDER SEAL, # 18 Exhibit O - FILED UNDER SEAL)Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:23-cv-11195-SHS-OTW.(Crosby, Ia …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1415/18/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #1414 — 2026-06-25
-
-MOTION to Seal . Document filed by The New York Times Company.Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:23-cv-11195-SHS-OTW.(Crosby, Ian) (Entered: 06/25/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1414/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #1416 — 2026-06-25
-
-***SEALED*** RESPONSE to Motion re: (1586 in 1:25-md-03143-SHS-OTW) MOTION for Judgment on the Pleadings . . Document filed by The New York Times Company. (Attachments: # 1 Supplement THE TIMES'S RESPONSE TO OPENAI'S MOTION FOR JUDGMENT ON THE PLEADINGS AND CROSS-MOTION FOR LEAVE TO AMEND, # 2 Supplement THIRD AMENDED COMPLAINT, # 3 Supplement REDLINED THIRD AMENDED COMPLAINT, # 4 Exhibit A - FILED UNDER SEAL, # 5 Exhibit B - FILED UNDER SEAL, # 6 Exhibit C - FILED UNDER SEAL, # 7 Exhibit D - FILED UNDER SEAL, # 8 Exhibit E - FILED UNDER SEAL, # 9 Exhibit F - FILED UNDER SEAL, # 10 Exhibit G - FILED UNDER SEAL, # 11 Exhibit H - FILED UNDER SEAL, # 12 Exhibit I - FILED UNDER SEAL, # 13 Exhibit J - FILED UNDER SEAL, # 14 Exhibit K - FILED UNDER SEAL, # 15 Exhibit L - FILED UNDER SEAL, # 16 Exhibit M - FILED UNDER SEAL, # 17 Exhibit N - FILED UNDER SEAL, # 18 Exhibit O - FILED UNDER SEAL)Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:23-cv-11195-SHS-OTWMotion or Order to File Under S …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1416/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #1411 — 2026-06-11
-
-MOTION for Judgment on the Pleadings . Document filed by OAI Corporation, LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Group PBC, OpenAI LLC, OpenAI LP, OpenAI OpCo LLC, OpenAI, Inc...(Damle, Sarang) (Entered: 06/11/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1411/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #1412 — 2026-06-11
-
-MEMORANDUM OF LAW in Support re: 1411 MOTION for Judgment on the Pleadings . . Document filed by OAI Corporation, LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Group PBC, OpenAI LLC, OpenAI LP, OpenAI OpCo LLC, OpenAI, Inc...(Damle, Sarang) (Entered: 06/11/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1412/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #1413 — 2026-06-11
-
-LETTER MOTION for Oral Argument addressed to Judge Sidney H. Stein from Sarang V. Damle, Nicholas S. Goldberg, Joseph C. Gratz dated June 11, 2026. Document filed by OAI Corporation, LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Group PBC, OpenAI LLC, OpenAI LP, OpenAI OpCo LLC, OpenAI, Inc...(Damle, Sarang) (Entered: 06/11/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1413/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #1409 — 2026-06-02
-
-ORDER terminating (1184) Letter Motion for Discovery in case 1:23-cv-08292-SHS-OTW; terminating (1582) Letter Motion for Discovery in case 1:25-md-03143-SHS-OTW. OpenAI is directed to produce the Exhibits FORTHWITH. If they are not produced by June 3, 2026 at 5pm Eastern, sanctions shall accrue at the rate of $100/day, without prejudice to any future motion or award of sanctions on this or any other issue. So ordered. (Signed by Magistrate Judge Ona T. Wang on 6/2/2026) Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al. (jjc) (Entered: 06/02/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1409/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #1408 — 2026-06-02
-
-MEMO ENDORSEMENT on [1191 in 1:25-md-03143-SHS-OTW] MOTION TO WITHDRAW AS COUNSEL OF RECORD. ENDORSEMENT: SO ORDERED. Motions terminated: (362 in 1:25-cv-04315-SHS-OTW, 303 in 1:25-cv-03297-SHS-OTW, 749 in 1:25-cv-03482-SHS-OTW, 969 in 1:23-cv-08292-SHS-OTW, 360 in 1:24-cv-01514-SHS-OTW, 1191 in 1:25-md-03143-SHS-OTW, 394 in 1:24-cv-01515-SHS-OTW) MOTION for Andrew L. Perito, Brian M. Kramer, Drew Alan Hillier, John R. Lanham, Alexandra Ward, Joyce C. Li, Allyson Bennett, Vera Ranieri, and Max I. Levy to Withdraw as Attorney . filed by OpenAI, Inc., OpenAI GP LLC, OpenAI Startup Fund GP I LLC, OpenAI LP, OAI Corporation LLC, OpenAI OpCo, L.L.C., OpenAI Startup Fund I LP, OpenAI GP, LLC, OpenAI Holdings LLC, OpenAI OpCo LLC, OpenAI, LLC, OpenAI Holdings, LLC, OpenAI Global LLC, OpenAI Inc., OpenAI LLC, OpenAI Startup Fund Management LLC, OpenAI Global, L.L.C., OAI Corporation, OAI Corporation, LLC. (Signed by Magistrate Judge Ona T. Wang on 6/2/2026) Filed In Associated Cases: 1:25-md-0 …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1408/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #1407 — 2026-05-29
-
-ORDER re: (1574 in 1:25-md-03143-SHS-OTW) Letter, filed by The New York Times Company, (1576 in 1:25-md-03143-SHS-OTW) Letter, filed by Microsoft Corporation. The Court has reviewed ECF 1574 and 1576. If Plaintiffs seek relief, they are directed to file their request as a gaveled motion. (HEREBY ORDERED by Magistrate Judge Ona T. Wang) (Text Only Order) Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al. (Wang, Ona) (Entered: 05/29/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1407/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #— — 2026-05-29
-
-Order
-
-### 📄 Doc #1406 — 2026-05-28
-
-JOINT LETTER addressed to Magistrate Judge Ona T. Wang from Sheryl Koval Garko and Ian Crosby dated May 28, 2026 re: Status of Microsoft's Request for The Times to Produce Brand Tracker Raw Survey Data. Document filed by Microsoft Corporation. (Attachments: # 1 Exhibit A - Counsel Email Exchange)Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:23-cv-11195-SHS-OTW.(Garko, Sheryl) (Entered: 05/28/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1406/1/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #1404 — 2026-05-26
-
-ORDER in case 1:23-cv-08292-SHS-OTW; denying without prejudice (1568) Letter Motion to Compel in case 1:25-md-03143-SHS-OTW. The Court is in receipt of Microsoft's "Emergency letter motion" to compel The New York Times to produce raw brand tracker survey data. (ECF 1570). The parties are directed to continue their meet and confer efforts in accordance with the guidance provided at the May 12, 2026 conference, and to file a joint status letter by Thursday, May 28, 2026. The joint letter shall include any information provided by Kantar. (HEREBY ORDERED by Magistrate Judge Ona T. Wang)(Text Only Order) Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al. (Entered: 05/26/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1404/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #1405 — 2026-05-26
-
-LETTER addressed to Magistrate Judge Ona T. Wang from Nicholas S. Goldberg, Herman H. Yue, Caitlin Sinclaire Blythe dated May 26, 2026 re: Dkt. No. 1574. Document filed by OAI Corporation LLC, OpenAI GP LLC, OpenAI Global LLC, OpenAI Holdings LLC, OpenAI Inc., OpenAI LLC, OpenAI LP, OpenAI OpCo LLC(a Delaware limited liability corporation), OpenAI Startup Fund GP I LLC, OpenAI Startup Fund I LP(a Delaware limited partnership), OpenAI Startup Fund Management LLC(a Delaware limited liability company), OpenAI OpCo LLC, OpenAI Startup Fund I LP, OpenAI Startup Fund Management LLC, OAI Corporation, LLC, OpenAI GP, LLC, OpenAI Holdings, LLC, OpenAI, Inc..Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:23-cv-08292-SHS-OTW, 1:23-cv-11195-SHS-OTW.(Goldberg, Nicholas) (Entered: 05/26/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1405/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #— — 2026-05-26
-
-Order on Motion to Compel
-
-### 📄 Doc #1400 — 2026-05-22
-
-EMERGENCY LETTER MOTION to Compel The New York Times Company to Produce Brand Tracker Raw Survey Data by May 26, 2026 addressed to Magistrate Judge Ona T. Wang from Sheryl Koval Garko dated May 22, 2026. Document filed by Microsoft Corporation, Microsoft Corporation. (Attachments: # 1 Exhibit A: May 12, 2026 Discovery Conference Transcript, # 2 Exhibit B: A. Muttalib 5/14/26 Email, # 3 Exhibit C: Filed Under Seal, # 4 Exhibit D: A. Muttalib 5/22/26 Email, # 5 Exhibit E: C. Porto 12/17/25 Email)Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:23-cv-11195-SHS-OTW.(Garko, Sheryl) (Entered: 05/22/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1400/5/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #1401 — 2026-05-22
-
-MOTION to Seal Exhibit C to Emergency Letter Motion to Compel The New York Times Company to Produce Brand Tracker Raw Survey Data by May 26, 2026 1568 . Document filed by Microsoft Corporation, Microsoft Corporation.Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:23-cv-11195-SHS-OTW.(Garko, Sheryl) (Entered: 05/22/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1401/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #1402 — 2026-05-22
-
-***SEALED***EMERGENCY LETTER MOTION to Compel The New York Times Company to Produce Brand Tracker Raw Survey Data by May 26, 2026 addressed to Magistrate Judge Ona T. Wang from Sheryl Koval Garko dated May 22, 2026. Document filed by Microsoft Corporation, Microsoft Corporation. (Attachments: # 1 Exhibit C - NYT_01075529 (NYT/Kantar MSA))Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:23-cv-11195-SHS-OTWMotion or Order to File Under Seal: 1569 .(Garko, Sheryl) (Entered: 05/22/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1402/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #1399 — 2026-05-22
-
-ORDER: The Court writes to clarify its written Order dated May 15, 2026, which ordered OpenAI to log evaluations that post-date the litigation. (ECF 1551). As reasoned at the May 12, 2026, Conference, this request is DENIED without prejudice for Plaintiffs to raise at a later date. This Order supersedes the directive to log the evaluations at this time. SO ORDERED. (Signed by Magistrate Judge Ona T. Wang on 5/22/2026) Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al. (rro) (Entered: 05/22/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1399/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #1397 — 2026-05-21
-
-SEALING ORDER: Accordingly, the Clerk of the Court is respectfully directed to seal the following docket entries to be visible to the Court only, pending Microsoft's motion to seal the privileged documents: ECF 546 in 25-md-3143; ECF 638 in 23-cv-8292; and ECF 495 in 23-cv-10211. Microsoft is directed to file a motion to seal by Friday, June 5, 2026. The public, redacted version of ECF 546 shall remain unsealed and is found at ECF 547. SO ORDERED. ( Motions due by 6/5/2026.) (Signed by Magistrate Judge Ona T. Wang on 5/21/2026) (vfr) (Entered: 05/21/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1397/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #1398 — 2026-05-21
-
-OPINION & ORDER RE: DEPOSITION TRANSCRIPTS FROM MUSK V. ALTMAN (4:24-cv-4722) (YGR) (N.D. CAL.) re: (1449 in 1:25-md-03143-SHS-OTW) (1120 in 1:23-cv-08292-SHS-OTW LETTER MOTION for Discovery re: Supplemental Brief per Court's Dkt. 1428 Order addressed to Magistrate Judge Ona T. Wang from Justin A. Nelson and Davida Brook dated March 20, 2026. filed by Authors Guild, The New York Times Company. Finally, OpenAI's protestation that "[o]f particular import here, the individual witnesses whose transcripts Plaintiffs seek have already been deposed in this matter," is illogical. (ECF 1451 at 2) (emphasis in original). It is precisely because these witnesses were already deposed in this case that Plaintiffs seek their prior inconsistent statements for impeachment purposes. OpenAI cannot shield from discovery relevant evidence that is uniquely in its possession by claiming that the request constitutes "cross-production;" there is no wholesale bar from producing evidence in one case that was obt …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1398/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #1396 — 2026-05-20
-
-LETTER addressed to Magistrate Judge Ona T. Wang from Edward Bayley, Margaret Graham, Caitlin Sinclaire Blythe dated 5/20/2026 re: Request for Clarification re Order at Dkt. 1551. Document filed by OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.L.C., OpenAI Group PBC, OpenAI Holdings LLC, OpenAI Holdings, LLC, OpenAI Inc., OpenAI LLC, OpenAI LP, OpenAI OpCo LLC(a Delaware limited liability corporation), OpenAI OpCo LLC, OpenAI OpCo, L.L.C., OpenAI Startup Fund GP I LLC, OpenAI Startup Fund GP I LLC(a Delaware limited liability company), OpenAI Startup Fund I LP(a Delaware limited partnership), OpenAI Startup Fund I LP, OpenAI Startup Fund Management LLC(a Delaware limited liability company), OpenAI Startup Fund Management LLC, OpenAI, Inc., OpenAI, Inc.. (Attachments: # 1 Exhibit A)Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:23-cv-08292-SHS-OTW, 1:23-cv-11195-SHS-OTW.(Bayley, Edward) (Entered: 05/20 …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1396/1/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #1395 — 2026-05-15
-
-JOINT LETTER addressed to Magistrate Judge Ona T. Wang from Catilin S. Blythe, Davida Brook, Justin Nelson dated May 15, 2026 re: Joint Status Update. Document filed by OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.L.C., OpenAI Group PBC, OpenAI Holdings LLC, OpenAI Holdings, LLC, OpenAI Inc., OpenAI LLC, OpenAI LP, OpenAI OpCo LLC, OpenAI OpCo LLC(a Delaware limited liability corporation), OpenAI OpCo, L.L.C., OpenAI Startup Fund GP I LLC, OpenAI Startup Fund GP I LLC(a Delaware limited liability company), OpenAI Startup Fund I LP, OpenAI Startup Fund I LP(a Delaware limited partnership), OpenAI Startup Fund Management LLC, OpenAI Startup Fund Management LLC(a Delaware limited liability company), OpenAI, Inc., OpenAI, Inc., OpenAI, LLC. (Attachments: # 1 Exhibit A)Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:23-cv-08292-SHS-OTW, 1:23-cv-11195-SHS-OTW, 1:25-cv-04315-SHS-OTW.(Blythe, Caitlin) (Entere …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1395/1/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #1394 — 2026-05-15
-
-ORDER: in case 1:23-cv-08292-SHS-OTW; denying without prejudice (1358) Letter Motion to Compel; denying as moot (1364) Letter Motion to Compel; terminating (1368) Letter Motion to Compel; granting (1369) Letter Motion to Compel in case 1:23-cv-11195-SHS-OTW; denying as moot (472) Letter Motion to Compel; terminating (474) Letter Motion to Compel in case 1:24-cv-01515-SHS-OTW; denying as moot (712) Letter Motion to Compel; terminating (714) Letter Motion to Compel in case 1:24-cv-03285-SHS-OTW; denying as moot (586) Letter Motion to Compel; terminating (588) Letter Motion to Compel in case 1:24-cv-04872-SHS-OTW; denying without prejudice (1506) Letter Motion to Compel; denying as moot (1513) Letter Motion to Compel; terminating (1518) Letter Motion to Compel; granting (1520) Letter Motion to Compel in case 1:25-md-03143-SHS-OTW; denying as moot (520) Letter Motion to Compel; terminating (522) Letter Motion to Compel in case 1:25-cv-04315-SHS-OTW The Court held a discovery status confere …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1394/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #— — 2026-05-13
-
-Status Conference
-
-### 📄 Doc #— — 2026-05-12
-
-Minute Entry for proceedings held before Magistrate Judge Ona T. Wang: Status Conference held on 5/12/2026. Associated Cases: 1:25-md-03143-SHS-OTW et al.(Quinn, Diane)
-
-### 📄 Doc #1393 — 2026-05-12
-
-ORDER: The Court has reviewed the parties' briefing concerning OpenAI's clawback and redaction of the document related to the "Multimodal Data Sources project." (ECF Nos. 1517, 1519, 1531). OpenAI is hereby directed to file a letter brief in support of its motion for a protective order, not to exceed three pages, along with the disputed document, and the related document if necessary, for in camera review by Friday, May 15, 2026. Opposition to the motion is due Tuesday, May 19, 2026.If parties are able to resolve this issue, they shall file a joint status letter no later than May 15, 2026, apprising the Court of such resolution.SO ORDERED. ( Responses due by 5/19/2026) (Signed by Magistrate Judge Ona T. Wang on 5/12/2026) Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al. (rro) (Entered: 05/12/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1393/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #1392 — 2026-05-06
-
-RESPONSE to Motion re: (711 in 1:24-cv-03285-SHS-OTW, 585 in 1:24-cv-04872-SHS-OTW, 1361 in 1:23-cv-11195-SHS-OTW, 1510 in 1:25-md-03143-SHS-OTW) MOTION to Seal Discovery Motions. . Document filed by Microsoft Corporation, Microsoft Corporation, Microsoft Corporation. (Attachments: # 1 Exhibit A - Declaration of Lucky Vidmar)Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:23-cv-11195-SHS-OTW, 1:24-cv-03285-SHS-OTW, 1:24-cv-04872-SHS-OTW.(Briant, Jared) (Entered: 05/06/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1392/1/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #1391 — 2026-05-06
-
-LETTER addressed to Magistrate Judge Ona T. Wang from Davida Brook dated May 6, 2026 re: Notice of Errata re ECF Nos. 1511 and 1515. Document filed by The New York Times Company.Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Brook, Davida) (Entered: 05/06/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1391/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #1390 — 2026-05-05
-
-LETTER addressed to Magistrate Judge Ona T. Wang from Davida Brook and Justin A. Nelson dated May 5, 2026 re: Discovery Dispute Charts for May Conference. Document filed by David Baldacci. (Attachments: # 1 Exhibit A)Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:23-cv-08292-SHS-OTW, 1:23-cv-11195-SHS-OTW, 1:25-cv-04315-SHS-OTW.(Nelson, Justin) (Entered: 05/05/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1390/1/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #1373 — 2026-05-04
-
-MOTION to Seal . Document filed by The New York Times Company. (Attachments: # 1 Supplement Memorandum of Law in Support of Motion to Seal)Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:23-cv-11195-SHS-OTW.(Crosby, Ian) (Entered: 05/04/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1373/1/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #1376 — 2026-05-04
-
-LETTER MOTION to Seal addressed to Magistrate Judge Ona T. Wang from Caitlin Sinclaire Blythe, Thomas E. Gorman, Margaret Graham dated May 4, 2026. Document filed by OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.L.C., OpenAI Group PBC, OpenAI Inc., OpenAI LLC, OpenAI LP, OpenAI OpCo LLC, OpenAI OpCo LLC(a Delaware limited liability corporation), OpenAI OpCo, L.L.C., OpenAI Startup Fund GP I LLC, OpenAI Startup Fund GP I LLC(a Delaware limited liability company), OpenAI Startup Fund I LP, OpenAI Startup Fund I LP(a Delaware limited partnership), OpenAI Startup Fund Management LLC, OpenAI Startup Fund Management LLC(a Delaware limited liability company), OpenAI, Inc., OpenAI, Inc., OpenAI, LLC, OpenAI Holdings LLC, OpenAI Holdings, LLC. (Attachments: # 1 Proposed Order )Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:23-cv-08292-SHS-OTW, 1:23-cv-11195-SHS-OTW, 1:25-cv-04315-SHS-OTW.(Blythe, Caitlin) (Ent …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1376/1/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #1380 — 2026-05-04
-
-MOTION to Seal . Document filed by Microsoft Corporation, Microsoft Corporation, Microsoft Corporation. (Attachments: # 1 Exhibit A (Declaration of L. Vidmar))Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:23-cv-11195-SHS-OTW, 1:24-cv-03285-SHS-OTW, 1:24-cv-04872-SHS-OTW.(Briant, Jared) (Entered: 05/04/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1380/1/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #1385 — 2026-05-04
-
-LETTER RESPONSE in Opposition to Motion addressed to Magistrate Judge Ona T. Wang from Edward A. Bayley, Margaret Graham, and Caitlin Sinclaire Blythe dated May 4, 2026 re: (1369 in 1:23-cv-11195-SHS-OTW, 1520 in 1:25-md-03143-SHS-OTW) LETTER MOTION to Compel OpenAI Defendants to (1) produce the newly discovered Giraffe evaluations in a remote inspection environment; (2) answer News Plaintiffs questions regarding OpenAIs investigation and delay in identifying Giraffe evaluations . Document filed by OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.L.C., OpenAI Group PBC, OpenAI Holdings LLC, OpenAI Holdings, LLC, OpenAI Inc., OpenAI LLC, OpenAI LP, OpenAI OpCo LLC(a Delaware limited liability corporation), OpenAI OpCo, L.L.C., OpenAI Startup Fund GP I LLC, OpenAI Startup Fund I LP(a Delaware limited partnership), OpenAI Startup Fund Management LLC(a Delaware limited liability company), OpenAI, Inc., OpenAI OpC …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1385/1/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #1388 — 2026-05-04
-
-LETTER RESPONSE to Motion addressed to Magistrate Judge Ona T. Wang from Ryan K. Wong, Elana Nightingale Dawson and Caitlin Sinclaire Blythe dated May 4, 2026 re: (712 in 1:24-cv-03285-SHS-OTW, 1364 in 1:23-cv-11195-SHS-OTW, 472 in 1:24-cv-01515-SHS-OTW, 1513 in 1:25-md-03143-SHS-OTW, 520 in 1:25-cv-04315-SHS-OTW, 586 in 1:24-cv-04872-SHS-OTW) LETTER MOTION to Compel OpenAI to Present a Rule 30(b)(6) Witness addressed to Magistrate Judge Ona T. Wang from Davida Brook dated April 29, 2026. . Document filed by OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Group PBC, OpenAI Holdings LLC, OpenAI Holdings, LLC, OpenAI Inc., OpenAI LLC, OpenAI LP, OpenAI OpCo LLC(a Delaware limited liability corporation), OpenAI OpCo LLC, OpenAI OpCo, L.L.C., OpenAI Startup Fund GP I LLC, OpenAI Startup Fund GP I LLC(a Delaware limited liability company), OpenAI Startup Fund I LP(a Delaware limited partnership), OpenAI Startup Fund I LP,  …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1388/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #1382 — 2026-05-04
-
-***SEALED***LETTER RESPONSE to Motion addressed to Magistrate Judge Ona T. Wang from Annette L. Hurst and Jared B. Briant dated 5/4/2026 re: (1366 in 1:23-cv-11195-SHS-OTW, 1515 in 1:25-md-03143-SHS-OTW) LETTER MOTION to Compel Microsoft Corp. to produce user metrics data for its Refreshed Copilot product addressed to Magistrate Judge Ona T. Wang from Steven Lieberman and Davida Brook dated April 29, 2026. . Document filed by Microsoft Corporation, Microsoft Corporation, Microsoft Corporation. Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:23-cv-11195-SHS-OTW, 1:24-cv-03285-SHS-OTW, 1:24-cv-04872-SHS-OTWMotion or Order to File Under Seal: 1532 .(Briant, Jared) (Entered: 05/04/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1382/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #1383 — 2026-05-04
-
-MOTION for Rose S. Lee to Withdraw as Attorney . Document filed by OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.L.C., OpenAI Group PBC, OpenAI Inc., OpenAI LLC, OpenAI LP, OpenAI OpCo LLC, OpenAI OpCo LLC(a Delaware limited liability corporation), OpenAI OpCo, L.L.C., OpenAI Startup Fund GP I LLC, OpenAI Startup Fund GP I LLC(a Delaware limited liability company), OpenAI Startup Fund I LP, OpenAI Startup Fund I LP(a Delaware limited partnership), OpenAI Startup Fund Management LLC, OpenAI Startup Fund Management LLC(a Delaware limited liability company), OpenAI, Inc., OpenAI, Inc., OpenAI, LLC, OpenAI Holdings LLC, OpenAI Holdings, LLC.Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:23-cv-08292-SHS-OTW, 1:23-cv-11195-SHS-OTW, 1:25-cv-04315-SHS-OTW.(Lee, Rose) (Entered: 05/04/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1383/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #1384 — 2026-05-04
-
-REDACTION to (1382 in 1:23-cv-11195-SHS-OTW, 1534 in 1:25-md-03143-SHS-OTW, 590 in 1:24-cv-04872-SHS-OTW, 716 in 1:24-cv-03285-SHS-OTW) Response to Motion,, by Microsoft Corporation, Microsoft Corporation, Microsoft CorporationFiled In Associated Cases: 1:25-md-03143-SHS-OTW, 1:23-cv-11195-SHS-OTW, 1:24-cv-03285-SHS-OTW, 1:24-cv-04872-SHS-OTW.(Briant, Jared) (Entered: 05/04/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1384/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #1386 — 2026-05-04
-
-***SEALED***LETTER RESPONSE in Opposition to Motion addressed to Magistrate Judge Ona T. Wang from Edward A. Bayley, Margaret Graham, and Caitlin Sinclaire Blythe dated May 4, 2026 re: (1369 in 1:23-cv-11195-SHS-OTW, 1520 in 1:25-md-03143-SHS-OTW) LETTER MOTION to Compel OpenAI Defendants to (1) produce the newly discovered Giraffe evaluations in a remote inspection environment; (2) answer News Plaintiffs questions regarding OpenAIs investigation and delay in identifying Giraffe evaluations . Document filed by OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.L.C., OpenAI Group PBC, OpenAI Holdings LLC, OpenAI Holdings, LLC, OpenAI Inc., OpenAI LLC, OpenAI LP, OpenAI OpCo LLC(a Delaware limited liability corporation), OpenAI OpCo, L.L.C., OpenAI Startup Fund GP I LLC, OpenAI Startup Fund I LP(a Delaware limited partnership), OpenAI Startup Fund Management LLC(a Delaware limited liability company), OpenAI, Inc. …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1386/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #1378 — 2026-05-04
-
-DECLARATION of MAILE YEATS-ROWE in Support re: (523 in 1:25-cv-04315-SHS-OTW, 1527 in 1:25-md-03143-SHS-OTW, 1157 in 1:23-cv-08292-SHS-OTW, 1376 in 1:23-cv-11195-SHS-OTW) LETTER MOTION to Seal addressed to Magistrate Judge Ona T. Wang from Caitlin Sinclaire Blythe, Thomas E. Gorman, Margaret Graham dated May 4, 2026.. Document filed by OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.L.C., OpenAI Group PBC, OpenAI Inc., OpenAI LLC, OpenAI LP, OpenAI OpCo LLC, OpenAI OpCo LLC(a Delaware limited liability corporation), OpenAI OpCo, L.L.C., OpenAI Startup Fund GP I LLC, OpenAI Startup Fund GP I LLC(a Delaware limited liability company), OpenAI Startup Fund I LP, OpenAI Startup Fund I LP(a Delaware limited partnership), OpenAI Startup Fund Management LLC, OpenAI Startup Fund Management LLC(a Delaware limited liability company), OpenAI, Inc., OpenAI, Inc., OpenAI, LLC, OpenAI Holdings LLC, OpenAI Holdings, LLC. (A …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1378/2/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #1374 — 2026-05-04
-
-***SEALED*** OPPOSITION BRIEF re: (1358 in 1:23-cv-11195-SHS-OTW, 1506 in 1:25-md-03143-SHS-OTW) LETTER MOTION to Compel The New York Times Company to Produce Brand Tracker Data Exports addressed to Magistrate Judge Ona T. Wang from Laura Najemy dated April 29, 2026. . Document filed by The New York Times Company. (Attachments: # 1 Exhibit 1)Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:23-cv-11195-SHS-OTWMotion or Order to File Under Seal: 1524 .(Crosby, Ian) (Entered: 05/04/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1374/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #1375 — 2026-05-04
-
-OPPOSITION BRIEF re: (1358 in 1:23-cv-11195-SHS-OTW, 1506 in 1:25-md-03143-SHS-OTW) LETTER MOTION to Compel The New York Times Company to Produce Brand Tracker Data Exports addressed to Magistrate Judge Ona T. Wang from Laura Najemy dated April 29, 2026. . Document filed by The New York Times Company.Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:23-cv-11195-SHS-OTW.(Crosby, Ian) (Entered: 05/04/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1375/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #1377 — 2026-05-04
-
-***SEALED***DECLARATION of MAILE YEATS-ROWE in Opposition re: (523 in 1:25-cv-04315-SHS-OTW, 1527 in 1:25-md-03143-SHS-OTW, 1157 in 1:23-cv-08292-SHS-OTW, 1376 in 1:23-cv-11195-SHS-OTW) LETTER MOTION to Seal addressed to Magistrate Judge Ona T. Wang from Caitlin Sinclaire Blythe, Thomas E. Gorman, Margaret Graham dated May 4, 2026.. Document filed by OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.L.C., OpenAI Group PBC, OpenAI Inc., OpenAI LLC, OpenAI LP, OpenAI OpCo LLC, OpenAI OpCo LLC(a Delaware limited liability corporation), OpenAI OpCo, L.L.C., OpenAI Startup Fund GP I LLC, OpenAI Startup Fund GP I LLC(a Delaware limited liability company), OpenAI Startup Fund I LP, OpenAI Startup Fund I LP(a Delaware limited partnership), OpenAI Startup Fund Management LLC, OpenAI Startup Fund Management LLC(a Delaware limited liability company), OpenAI, Inc., OpenAI, Inc., OpenAI, LLC, OpenAI Holdings LLC, OpenAI Ho …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1377/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #1379 — 2026-05-04
-
-LETTER RESPONSE in Opposition to Motion addressed to Magistrate Judge Ona T. Wang from Caitlin Sinclaire Blythe, R. James Slaughter, and Margaret Graham dated May 4, 2026 re: (1368 in 1:23-cv-11195-SHS-OTW, 1518 in 1:25-md-03143-SHS-OTW) LETTER MOTION to Compel OpenAI to Permit News Executives to Review Expert Reports addressed to Magistrate Judge Ona T. Wang from Davida Brook dated April 29, 2026. . Document filed by OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.L.C., OpenAI Group PBC, OpenAI Inc., OpenAI LLC, OpenAI LP, OpenAI OpCo LLC, OpenAI OpCo LLC(a Delaware limited liability corporation), OpenAI OpCo, L.L.C., OpenAI Startup Fund GP I LLC, OpenAI Startup Fund GP I LLC(a Delaware limited liability company), OpenAI Startup Fund I LP, OpenAI Startup Fund I LP(a Delaware limited partnership), OpenAI Startup Fund Management LLC, OpenAI Startup Fund Management LLC(a Delaware limited liability company), Op …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1379/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #1372 — 2026-05-01
-
-JOINT LETTER addressed to Magistrate Judge Ona T. Wang from Jared B. Briant dated 05/01/2026 re: Joint Notice that Motion to Compel at ECF 1511 is Moot. Document filed by Microsoft Corporation.Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:23-cv-11195-SHS-OTW.(Briant, Jared) (Entered: 05/01/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1372/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #1357 — 2026-04-29
-
-MOTION to Seal . Document filed by The New York Times Company. (Attachments: # 1 Supplement Memorandum of Law in Support of Motion to Seal)Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:23-cv-11195-SHS-OTW.(Crosby, Ian) (Entered: 04/29/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1357/1/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #1370 — 2026-04-29
-
-LETTER MOTION to Compel OpenAI Defendants to (1) produce the newly discovered Giraffe evaluations in a remote inspection environment; (2) answer News Plaintiffs questions regarding OpenAIs investigation and delay in identifying Giraffe evaluations concerning their content, and (3) identify on a privilege log all withheld documents, communications, and data relating to its Project Giraffe analysis of News Plaintiffs content addressed to Magistrate Judge Ona T. Wang from Steven Lieberman and Davida Brook dated April 29, 2026. Document filed by Chicago Tribune Company, LLC, DP Media Network, LLC, Daily News LP, Northwest Publications, LLC, ORB Publishing, LLC, Orlando Sentinel Communications Company, LLC, San Jose Mercury-News, LLC, Sun-sentinel Company, LLC, The New York Times Company. (Attachments: # 1 Exhibit A - V. Monaco April 8 Deposition Transcript, # 2 Exhibit B - April 29 Email Exchange, # 3 Exhibit C - April 24 Email Exchange)Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:2 …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1370/3/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #1368 — 2026-04-29
-
-LETTER MOTION to Compel OpenAI to Permit News Executives to Review Expert Reports addressed to Magistrate Judge Ona T. Wang from Davida Brook dated April 29, 2026. Document filed by The New York Times Company. (Attachments: # 1 Exhibit 1)Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Brook, Davida) (Entered: 04/29/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1368/1/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #1369 — 2026-04-29
-
-***SEALED*** LETTER MOTION to Compel OpenAI Defendants to (1) produce the newly discovered Giraffe evaluations in a remote inspection environment; (2) answer News Plaintiffs questions regarding OpenAIs investigation and delay in identifying Giraffe evaluations concerning their content, and (3) identify on a privilege log all withheld documents, communications, and data relating to its Project Giraffe analysis of News Plaintiffs content addressed to Magistrate Judge Ona T. Wang from Steven Lieberman and Davida Brook dated April 29, 2026. Document filed by Chicago Tribune Company, LLC, DP Media Network, LLC, Daily News LP, Northwest Publications, LLC, ORB Publishing, LLC, Orlando Sentinel Communications Company, LLC, San Jose Mercury-News, LLC, Sun-sentinel Company, LLC, The New York Times Company. (Attachments: # 1 Exhibit A - V. Monaco April 8 Deposition Transcript, # 2 Exhibit B - April 29 2026 Email Exchange, # 3 Exhibit C - April 24 Email Exchange)Filed In Associated Cases: 1:25-md- …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1369/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #1365 — 2026-04-29
-
-REDACTION to (1513 in 1:25-md-03143-SHS-OTW) LETTER MOTION to Compel OpenAI to Present a Rule 30(b)(6) Witness addressed to Magistrate Judge Ona T. Wang from Davida Brook dated April 29, 2026. by The New York Times Company (Attachments: # 1 Exhibit 2, # 2 Exhibit 3)Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Brook, Davida) (Entered: 04/29/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1365/2/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #1367 — 2026-04-29
-
-LETTER MOTION to Compel Microsoft Corp. to produce user metrics data for its Refreshed Copilot product addressed to Magistrate Judge Ona T. Wang from Steven Lieberman and Davida Brook dated April 29, 2026. Document filed by Chicago Tribune Company, LLC, DP Media Network, LLC, Daily News LP, Northwest Publications, LLC, ORB Publishing, LLC, Orlando Sentinel Communications Company, LLC, San Jose Mercury-News, LLC, Sun-sentinel Company, LLC, The New York Times Company. (Attachments: # 1 Exhibit A - D. Levenson Deposition Transcript, # 2 Exhibit B - O. Amir Copilot Expert Report, # 3 Exhibit C - Meet and Confer Emails, # 4 Exhibit D - December 2, 2025 Conference Transcript)Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:23-cv-11195-SHS-OTW.(Lieberman, Steven) (Entered: 04/29/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1367/4/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #1363 — 2026-04-29
-
-REDACTION to (1511 in 1:25-md-03143-SHS-OTW) LETTER MOTION to Compel Microsoft to Produce Documents Related to Microsoft's Express License Defense addressed to Magistrate Judge Ona T. Wang from Davida Brook dated April 29, 2026. by The New York Times Company (Attachments: # 1 Exhibit A)Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:23-cv-11195-SHS-OTW.(Brook, Davida) (Entered: 04/29/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1363/1/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #1361 — 2026-04-29
-
-MOTION to Seal Discovery Motions. Document filed by The New York Times Company.Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Brook, Davida) (Entered: 04/29/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1361/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #1362 — 2026-04-29
-
-***SEALED*** LETTER MOTION to Compel Microsoft to Produce Documents Related to Microsoft's Express License Defense addressed to Magistrate Judge Ona T. Wang from Davida Brook dated April 29, 2026. Document filed by The New York Times Company. (Attachments: # 1 Exhibit A, # 2 Exhibit B, # 3 Exhibit C)Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:23-cv-11195-SHS-OTWMotion or Order to File Under Seal: 1510 .(Brook, Davida) (Entered: 04/29/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1362/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #1364 — 2026-04-29
-
-***SEALED*** LETTER MOTION to Compel OpenAI to Present a Rule 30(b)(6) Witness addressed to Magistrate Judge Ona T. Wang from Davida Brook dated April 29, 2026. Document filed by The New York Times Company. (Attachments: # 1 Exhibit 1, # 2 Exhibit 4)Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al.Motion or Order to File Under Seal: 1510 .(Brook, Davida) (Entered: 04/29/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1364/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #1366 — 2026-04-29
-
-***SEALED*** LETTER MOTION to Compel Microsoft Corp. to produce user metrics data for its Refreshed Copilot product addressed to Magistrate Judge Ona T. Wang from Steven Lieberman and Davida Brook dated April 29, 2026. Document filed by Chicago Tribune Company, LLC, DP Media Network, LLC, Daily News LP, Northwest Publications, LLC, ORB Publishing, LLC, Orlando Sentinel Communications Company, LLC, San Jose Mercury-News, LLC, Sun-sentinel Company, LLC, The New York Times Company. (Attachments: # 1 Exhibit A - D. Levenson Deposition Transcript, # 2 Exhibit B - O. Amir Copilot Expert Report, # 3 Exhibit C - Meet and Confer Emails)Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:23-cv-11195-SHS-OTWMotion or Order to File Under Seal: 367 .(Lieberman, Steven) (Entered: 04/29/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1366/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #1359 — 2026-04-29
-
-LETTER MOTION to Compel The New York Times Company to Produce Brand Tracker Data Exports addressed to Magistrate Judge Ona T. Wang from Laura Najemy dated April 29, 2026. Document filed by Microsoft Corporation, Microsoft Corporation, Microsoft Corporation. (Attachments: # 1 Exhibit A - Filed Under Seal, # 2 Exhibit B, # 3 Exhibit C - Filed Under Seal, # 4 Exhibit D - Filed Under Seal, # 5 Exhibit E - Filed Under Seal, # 6 Exhibit F - Filed Under Seal)Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:23-cv-11195-SHS-OTW.(Najemy, Laura) (Entered: 04/29/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1359/6/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #1356 — 2026-04-29
-
-MOTION for Leave to File a portion of Defendant Microsoft Corporation's letter motion to compel and accompanying exhibits provisionally under seal . Document filed by Microsoft Corporation, Microsoft Corporation, Microsoft Corporation.Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:23-cv-11195-SHS-OTW.(Najemy, Laura) (Entered: 04/29/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1356/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #1358 — 2026-04-29
-
-***SEALED*** LETTER MOTION to Compel The New York Times Company to Produce Brand Tracker Data Exports addressed to Magistrate Judge Ona T. Wang from Laura Najemy dated April 29, 2026. Document filed by Microsoft Corporation, Microsoft Corporation, Microsoft Corporation. (Attachments: # 1 Exhibit A - Sealed, # 2 Exhibit C - Sealed, # 3 Exhibit D - Sealed, # 4 Exhibit E - Sealed, # 5 Exhibit F - Sealed)Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:23-cv-11195-SHS-OTWMotion or Order to File Under Seal: 1504 .(Najemy, Laura) (Entered: 04/29/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1358/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #1355 — 2026-04-07
-
-OPINION AND ORDER RE: MONACO DEPOSITION: Mr. Monaco based his testimony-which should bind the corporation-on his own hazy recollections working on Project Giraffe, a review of source code that he and others wrote (but which he does not remember), and a few other documents: "part of" Lampe's deposition transcript, Lilian Weng's notes (which may or may not be the same as the Project Giraffe "meeting notes"), and "some metrics." (Jan. 27 Rough Tr. 19-21). He spoke to no other individuals to prepare for his deposition. But when asked even the simplest questions relevant to Plaintiffs' output claims, Mr. Monaco failed to answer or provided incomplete or evasive answers. For example, despite admitting that individuals other than he, Lampe, Weng and Goel and members of the legal team worked on Project Giraffe, he was unable to name a single other person who worked on Project Giraffe. Instead, he said he "would have to go back to" the meeting notes that he purportedly reviewed in preparation f …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1355/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #1354 — 2026-04-06
-
-SCHEDULING ORDER: The Court, having received the parties' proposed briefing schedule for an in-person Status Conference (ECF 1490), hereby ORDERS as follows: An in-person Status Conference shall be held on Tuesday, May 12, 2026, at 9:30 AM in Courtroom 20D, 500 Pearl Street, New York, NY 10007. The parties shall adhere to the following briefing schedule in advance of the conference: opening briefs are due by Wednesday, April 29, 2026; opposing briefs are due by Monday, May 4, 2026; and the parties' joint dispute chart is due by Tuesday, May 5, 2026. SO ORDERED. ( Brief due by 4/29/2026., Responses to Brief due by 5/4/2026, Status Conference set for 5/12/2026 at 09:30 AM in Courtroom 20D, 500 Pearl Street, New York, NY 10007 before Magistrate Judge Ona T. Wang.) (Signed by Magistrate Judge Ona T. Wang on 4/6/2026) Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al. (rro) (Entered: 04/06/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1354/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #— — 2026-04-06
-
-Settlement Conference
-
-### 📄 Doc #1353 — 2026-03-31
-
-AMENDED RULE 7.1 CORPORATE DISCLOSURE STATEMENT. Identifying Corporate Parent OpenAI Group PBC for OAI Corporation, OpenAI GP LLC; Corporate Parent OpenAI Startup Fund GP I LLC for OpenAI Startup Fund I LP; Corporate Parent OAI Corporation for OpenAI Global LLC; Corporate Parent OpenAI Global, LLC for OpenAI OpCo LLC; Corporate Parent OpenAI OpCo LLC for OpenAI LLC; Other Affiliate OpenAI Foundation for OpenAI Group PBC. Document filed by OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.L.C., OpenAI Group PBC, OpenAI Inc., OpenAI LLC, OpenAI LP, OpenAI OpCo LLC, OpenAI OpCo LLC(a Delaware limited liability corporation), OpenAI OpCo, L.L.C., OpenAI Startup Fund GP I LLC, OpenAI Startup Fund GP I LLC(a Delaware limited liability company), OpenAI Startup Fund I LP, OpenAI Startup Fund I LP(a Delaware limited partnership), OpenAI Startup Fund Management LLC, OpenAI Startup Fund Management LLC(a Delaware limited l …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1353/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #1351 — 2026-03-31
-
-MEMO ENDORSEMENT on MOTION TO WITHDRAW AS COUNSEL OF RECORD. ENDORSEMENT: SO ORDERED. Motions terminated: (395 in 1:24-cv-01515-SHS-OTW, 329 in 1:24-cv-00084-SHS-OTW, 970 in 1:23-cv-08292-SHS-OTW, 304 in 1:25-cv-03297-SHS-OTW, 241 in 1:25-cv-03483-SHS-OTW, 1178 in 1:23-cv-11195-SHS-OTW, 87 in 1:25-cv-06286-SHS-OTW, 605 in 1:24-cv-03285-SHS-OTW, 196 in 1:25-cv-03291-SHS-OTW, 57 in 1:25-cv-09912-SHS, 750 in 1:25-cv-03482-SHS-OTW, 643 in 1:23-cv-10211-SHS-OTW, 364 in 1:25-cv-04315-SHS-OTW, 506 in 1:24-cv-04872-SHS-OTW, 1193 in 1:25-md-03143-SHS-OTW, 63 in 1:25-cv-09904-SHS, 361 in 1:24-cv-01514-SHS-OTW) MOTION for Allison L. Stillman, Joseph R. Wetzel, Jr., Rachel R. Blitzer, and Michael A. David to Withdraw as Attorney . filed by OpenAI Holdings, LLC, OpenAI Inc., OpenAI LP, OpenAI Startup Fund GP I LLC, OpenAI LLC, OpenAI Startup Fund Management LLC, OpenAI Global, L.L.C., OpenAI OpCo, L.L.C., OpenAI Startup Fund I LP, OpenAI GP, LLC, OAI Corporation, LLC. (Signed by Magistrate Judge On …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1351/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #1348 — 2026-03-31
-
-ORDER GRANTING MOTION FOR ERIC NIKOLAIDES TO WITHDRAW AS COUNSEL OF RECORD: Upon consideration of the motion to withdraw the appearance of Eric Nikolaides, this Court hereby orders that Mr. Nikolaides be withdrawn as counsel of record from this and all related cases, and further orders that Mr. Nikolaides be removed from the Courts electronic service list., Motions terminated: (347 in 1:24- cv-01515-SHS-OTW, 321 in 1:24-cv-01514-SHS-OTW, 606 in 1:23-cv-10211-SHS-OTW, 853 in 1:23-cv-08292-SHS-OTW, 970 in 1:25-md-03143-SHS-OTW, 1076 in 1:23-cv-11195-SHS-OTW, 688 in 1:25-cv-03482-SHS-OTW, 462 in 1:24-cv-04872-SHS-OTW) MOTION for Eric Nikolaides to Withdraw as Attorney . filed by OpenAI, Inc., OpenAI Startup Fund GP I LLC, OpenAI LP, OAI Corporation LLC, OpenAI Startup Fund I LP, OpenAI GP, LLC, OpenAI Holdings LLC, OpenAI OpCo LLC, OpenAI, LLC, OpenAI Holdings, LLC, OpenAI GP LLC, OpenAI Global LLC, OpenAI Inc., OpenAI LLC, OpenAI Startup Fund Management LLC, OAI Corporation, LLC. (Signed …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1348/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #1350 — 2026-03-31
-
-MEMO ENDORSEMENT in case 1:23-cv-08292-SHS-OTW; granting (1177) Motion to Withdraw as Attorney. in case 1:23-cv-11195-SHS-OTW. ENDORSEMENT: SO ORDERED:Application GRANTED. (Signed by Magistrate Judge Ona T. Wang on 3/31/2026) Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al. (rro) (Entered: 03/31/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1350/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #1347 — 2026-03-31
-
-SCHEDULING ORDER: The Court held a confidential discovery settlement conference for all actions in this matter on Monday, March 30, 2026. The Court will conduct another confidential discovery settlement conference on Thursday, April 16, 2026, at 12:00 p.m. ET. The parties shall submit any pre-settlement submissions to Chambers via email no later than Tuesday, April 14, 2026. The parties shall also provide a joint agenda for the conference by emailing it to Chambers by Wednesday, April 15, 2026. Plaintiffs are directed to circulate a Zoom link to all parties in advance of the conference. Parties are directed to meet and confer and propose a briefing schedule and dates for an in-person Status Conference in early May by Friday, April 3, 2026. Settlement Conference set for 4/16/2026 at 12:00 PM before Magistrate Judge Ona T. Wang. (Signed by Magistrate Judge Ona T. Wang on 3/30/2026) Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al. (rro) (Entered: 03/31/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1347/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #1343 — 2026-03-28
-
-LETTER MOTION to Seal ECF 1449 addressed to Magistrate Judge Ona T. Wang from Caitlin Sinclaire Blythe, Christopher S. Sun, Allison S. Blanco dated March 27, 2026. Document filed by OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.L.C., OpenAI Group PBC, OpenAI Inc., OpenAI LLC, OpenAI LP, OpenAI OpCo LLC, OpenAI OpCo LLC(a Delaware limited liability corporation), OpenAI OpCo, L.L.C., OpenAI Startup Fund GP I LLC, OpenAI Startup Fund GP I LLC(a Delaware limited liability company), OpenAI Startup Fund I LP, OpenAI Startup Fund I LP(a Delaware limited partnership), OpenAI Startup Fund Management LLC, OpenAI Startup Fund Management LLC(a Delaware limited liability company), OpenAI, Inc., OpenAI, Inc., OpenAI, LLC, OpenAI Holdings LLC, OpenAI Holdings, LLC. (Attachments: # 1 Proposed Order )Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:23-cv-08292-SHS-OTW, 1:23-cv-11195-SHS-OTW, 1:25-cv-04315-SHS-OTW.(Blyth …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1343/1/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #1345 — 2026-03-28
-
-DECLARATION of Renny Hwang in Support re: (1475 in 1:25-md-03143-SHS-OTW) LETTER MOTION to Seal ECF (1449) addressed to Magistrate Judge Ona T. Wang from Caitlin Sinclaire Blythe, Christopher S. Sun, Allison S. Blanco dated March 27, 2026.. Document filed by OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.L.C., OpenAI Group PBC, OpenAI Inc., OpenAI LLC, OpenAI LP, OpenAI OpCo LLC, OpenAI OpCo LLC(a Delaware limited liability corporation), OpenAI OpCo, L.L.C., OpenAI Startup Fund GP I LLC, OpenAI Startup Fund GP I LLC(a Delaware limited liability company), OpenAI Startup Fund I LP, OpenAI Startup Fund I LP(a Delaware limited partnership), OpenAI Startup Fund Management LLC, OpenAI Startup Fund Management LLC(a Delaware limited liability company), OpenAI, Inc., OpenAI, Inc., OpenAI, LLC, OpenAI Holdings LLC, OpenAI Holdings, LLC. (Attachments: # 1 Exhibit A)Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:2 …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1345/1/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #1344 — 2026-03-28
-
-***SEALED***DECLARATION of Renny Hwang in Support re: (1475 in 1:25-md-03143-SHS-OTW) LETTER MOTION to Seal ECF (1449) addressed to Magistrate Judge Ona T. Wang from Caitlin Sinclaire Blythe, Christopher S. Sun, Allison S. Blanco dated March 27, 2026.. Document filed by OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.L.C., OpenAI Group PBC, OpenAI Inc., OpenAI LLC, OpenAI LP, OpenAI OpCo LLC, OpenAI OpCo LLC(a Delaware limited liability corporation), OpenAI OpCo, L.L.C., OpenAI Startup Fund GP I LLC, OpenAI Startup Fund GP I LLC(a Delaware limited liability company), OpenAI Startup Fund I LP, OpenAI Startup Fund I LP(a Delaware limited partnership), OpenAI Startup Fund Management LLC, OpenAI Startup Fund Management LLC(a Delaware limited liability company), OpenAI, Inc., OpenAI, Inc., OpenAI, LLC, OpenAI Holdings LLC, OpenAI Holdings, LLC. (Attachments: # 1 Exhibit A)Filed In Associated Cases: 1:25-md-03143- …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1344/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #1341 — 2026-03-26
-
-ORDER in case 1:23-cv-08292-SHS-OTW; granting (1385) Motion to Substitute Party. On March 4, 2026, defendant OpenAI Holdings, LLC moved (Dkt. No. 1385) pursuant to Federal Rule of Civil Procedure 25(c) to substitute OpenAI Group PBC in place of OpenAI Holdings, LLC. No party has opposed that motion to date. Accordingly, the motion is granted and OpenAI Group BPC is substituted in the place of defendant OpenAI Holdings, LLC. OpenAI Group PBC, OpenAI Group PBC, OpenAI Group PBC, OpenAI Group PBC, OpenAI Group PBC, OpenAI Group PBC, OpenAI Group PBC, OpenAI Group PBC, OpenAI Group PBC, OpenAI Group PBC, OpenAI Group PBC, OpenAI Group PBC, OpenAI Group PBC, OpenAI Group PBC, OpenAI Group PBC, OpenAI Group PBC, OpenAI Group PBC, OpenAI Group PBC and OpenAI Group PBC added. OpenAI Holdings, LLC, OpenAI Holdings LLC and OpenAI Holdings LLC terminated in case 1:25-md-03143-SHS-OTW. (Signed by Judge Sidney H. Stein on 3/26/2026) Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al. (sgz) (Ent …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1341/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #1342 — 2026-03-26
-
-ORDER in case 1:23-cv-08292-SHS-OTW; granting (1385) Motion to Substitute Party. On March 4, 2026, defendant OpenAI Holdings, LLC moved (Dkt. No. 1385) pursuant to Federal Rule of Civil Procedure 25(c) to substitute OpenAI Group PBC in place of OpenAI Holdings, LLC. No party has opposed that motion to date. Accordingly, the motion is granted and OpenAI Group BPC is substituted in the place of defendant OpenAI Holdings, LLC. OpenAI Group PBC, OpenAI Group PBC, OpenAI Group PBC, OpenAI Group PBC, OpenAI Group PBC, OpenAI Group PBC, OpenAI Group PBC, OpenAI Group PBC, OpenAI Group PBC, OpenAI Group PBC, OpenAI Group PBC, OpenAI Group PBC, OpenAI Group PBC, OpenAI Group PBC, OpenAI Group PBC, OpenAI Group PBC, OpenAI Group PBC, OpenAI Group PBC and OpenAI Group PBC added. OpenAI Holdings, LLC, OpenAI Holdings LLC and OpenAI Holdings LLC terminated in case 1:25-md-03143-SHS-OTW. (Signed by Judge Sidney H. Stein on 3/26/2026) Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al. (sgz) (Ent …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1342/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #1340 — 2026-03-26
-
-MOTION for Emily C. Wood to Withdraw as Attorney . Document filed by OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.L.C., OpenAI Holdings LLC, OpenAI Holdings, LLC, OpenAI Inc., OpenAI LLC, OpenAI LP, OpenAI OpCo LLC, OpenAI OpCo LLC(a Delaware limited liability corporation), OpenAI OpCo, L.L.C., OpenAI Startup Fund GP I LLC, OpenAI Startup Fund GP I LLC(a Delaware limited liability company), OpenAI Startup Fund I LP, OpenAI Startup Fund I LP(a Delaware limited partnership), OpenAI Startup Fund Management LLC, OpenAI Startup Fund Management LLC(a Delaware limited liability company), OpenAI, Inc., OpenAI, Inc., OpenAI, LLC.Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:23-cv-08292-SHS-OTW, 1:23-cv-11195-SHS-OTW, 1:25-cv-04315-SHS-OTW.(Wood, Emily) (Entered: 03/26/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1340/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #1339 — 2026-03-25
-
-SEALING ORDER granting (547) Motion to Seal; granting (553) Motion to Seal; granting (555) Motion to Seal in case 1:23-cv-11195-SHS-OTW; granting (23) Motion to Seal; granting (30) Motion to Seal; granting (35) Letter Motion to Seal; granting (37) Letter Motion to Seal; granting (1093) Letter Motion to Seal in case 1:25-md-03143-SHS-OTW. In sum, the parties' motions to seal (ECF Nos. 23, 30, 35, 37) are GRANTED. The Clerk of Court is respectfully directed to close the following ECF Nos. in Case No. 25-MD-3143: 23, 30, 35, 37, 1093; and in Case No. 23-cv-11195: 547, 553, 555. SO ORDERED. (Signed by Magistrate Judge Ona T. Wang on 3/25/2026) Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al. (mml) (Entered: 03/26/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1339/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #1338 — 2026-03-25
-
-REPLY MEMORANDUM OF LAW in Support re: (1385 in 1:25-md-03143-SHS-OTW) MOTION to Substitute Party. Old Party: OpenAI Holdings, LLC, New Party: OpenAI Group PBC . . Document filed by OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.L.C., OpenAI Holdings LLC, OpenAI Holdings, LLC, OpenAI Inc., OpenAI LLC, OpenAI LP, OpenAI OpCo LLC, OpenAI OpCo LLC(a Delaware limited liability corporation), OpenAI OpCo, L.L.C., OpenAI Startup Fund GP I LLC, OpenAI Startup Fund GP I LLC(a Delaware limited liability company), OpenAI Startup Fund I LP, OpenAI Startup Fund I LP(a Delaware limited partnership), OpenAI Startup Fund Management LLC, OpenAI Startup Fund Management LLC(a Delaware limited liability company), OpenAI, Inc., OpenAI, Inc., OpenAI, LLC. Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:23-cv-08292-SHS-OTW, 1:23-cv-11195-SHS-OTW, 1:25-cv-04315-SHS-OTW.(Lee, Rose) (Entered: 03/25/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1338/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #1337 — 2026-03-23
-
-ORDER: At the request of the parties (Dkt. No. 1441), the Joint Case Schedule in this multidistrict litigation is modified as follows: The last day to serve opening expert reports is April 24, 2026. The last day to serve rebuttal expert reports is May 29, 2026. The last day to serve reply expert reports is June 26, 2026. The close of expert discovery is August 3, 2026. The last day to file motions for summary judgment and Daubert motions pursuant to Federal Rule of Evidence 702 is September 4, 2026. The last day to file oppositions to motions for summary judgment and Daubert motions is October 9, 2026. The last day to file replies in support of motions for summary judgment and Daubert motions is November 6, 2026. Motions due by 9/4/2026. Responses due by 10/9/2026 Replies due by 11/6/2026. Expert Discovery due by 8/3/2026. (Signed by Judge Sidney H. Stein on 3/23/2026) Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al. (sgz) (Entered: 03/24/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1337/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #1336 — 2026-03-23
-
-LETTER addressed to Magistrate Judge Ona T. Wang from Andrew F. Dawson, Herman H. Yue, Rose S. Lee dated March 23, 2026 re: OpenAI's Supplemental Briefing in Opposition to Plaintiffs' Motion to Compel the Production of the Musk Deposition Materials. Document filed by OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.L.C., OpenAI Holdings LLC, OpenAI Holdings, LLC, OpenAI Inc., OpenAI LLC, OpenAI LP, OpenAI OpCo LLC(a Delaware limited liability corporation), OpenAI OpCo LLC, OpenAI OpCo, L.L.C., OpenAI Startup Fund GP I LLC, OpenAI Startup Fund GP I LLC(a Delaware limited liability company), OpenAI Startup Fund I LP(a Delaware limited partnership), OpenAI Startup Fund I LP, OpenAI Startup Fund Management LLC(a Delaware limited liability company), OpenAI Startup Fund Management LLC, OpenAI, Inc., OpenAI, Inc.. (Attachments: # 1 Exhibit A to OpenAI's Supplemental Briefing in Opposition to Plaintiffs' Motion to Compel the Production of the Musk Deposition Materials)Filed I …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1336/1/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #1334 — 2026-03-20
-
-DECLARATION of MAILE YEATS-ROWE in Support re: (1444 in 1:25-md-03143-SHS-OTW) LETTER MOTION to Seal ECF [1434-1] addressed to Magistrate Judge Ona T. Wang from Caitlin Sinclaire Blythe, Christopher S. Sun, Allison S. Blanco dated March 20, 2026.. Document filed by OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.L.C., OpenAI Holdings LLC, OpenAI Holdings, LLC, OpenAI Inc., OpenAI LLC, OpenAI LP, OpenAI OpCo LLC, OpenAI OpCo LLC(a Delaware limited liability corporation), OpenAI OpCo, L.L.C., OpenAI Startup Fund GP I LLC, OpenAI Startup Fund GP I LLC(a Delaware limited liability company), OpenAI Startup Fund I LP, OpenAI Startup Fund I LP(a Delaware limited partnership), OpenAI Startup Fund Management LLC, OpenAI Startup Fund Management LLC(a Delaware limited liability company), OpenAI, Inc., OpenAI, Inc., OpenAI, LLC. (Attachments: # 1 Exhibit 1)Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:23-cv-08292- …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1334/1/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #1332 — 2026-03-20
-
-LETTER MOTION to Seal ECF [1434-1] addressed to Magistrate Judge Ona T. Wang from Caitlin Sinclaire Blythe, Christopher S. Sun, Allison S. Blanco dated March 20, 2026. Document filed by OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.L.C., OpenAI Holdings LLC, OpenAI Holdings, LLC, OpenAI Inc., OpenAI LLC, OpenAI LP, OpenAI OpCo LLC, OpenAI OpCo LLC(a Delaware limited liability corporation), OpenAI OpCo, L.L.C., OpenAI Startup Fund GP I LLC, OpenAI Startup Fund GP I LLC(a Delaware limited liability company), OpenAI Startup Fund I LP, OpenAI Startup Fund I LP(a Delaware limited partnership), OpenAI Startup Fund Management LLC, OpenAI Startup Fund Management LLC(a Delaware limited liability company), OpenAI, Inc., OpenAI, Inc., OpenAI, LLC. (Attachments: # 1 Proposed Order )Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:23-cv-08292-SHS-OTW, 1:23-cv-11195-SHS-OTW, 1:25-cv-04315-SHS-OTW.(Blythe, Caitlin) (E …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1332/1/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #1333 — 2026-03-20
-
-***SEALED***DECLARATION of MAILE YEATS-ROWE in Support re: (1444 in 1:25-md-03143-SHS-OTW) LETTER MOTION to Seal ECF [1434-1] addressed to Magistrate Judge Ona T. Wang from Caitlin Sinclaire Blythe, Christopher S. Sun, Allison S. Blanco dated March 20, 2026.. Document filed by OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.L.C., OpenAI Holdings LLC, OpenAI Holdings, LLC, OpenAI Inc., OpenAI LLC, OpenAI LP, OpenAI OpCo LLC, OpenAI OpCo LLC(a Delaware limited liability corporation), OpenAI OpCo, L.L.C., OpenAI Startup Fund GP I LLC, OpenAI Startup Fund GP I LLC(a Delaware limited liability company), OpenAI Startup Fund I LP, OpenAI Startup Fund I LP(a Delaware limited partnership), OpenAI Startup Fund Management LLC, OpenAI Startup Fund Management LLC(a Delaware limited liability company), OpenAI, Inc., OpenAI, Inc., OpenAI, LLC. (Attachments: # 1 Exhibit 1)Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1: …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1333/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #— — 2026-03-19
-
-Status Conference
-
-### 📄 Doc #— — 2026-03-19
-
-Settlement Conference
-
-### 📄 Doc #1331 — 2026-03-18
-
-JOINT LETTER addressed to Judge Sidney H. Stein from Annette L. Hurst, Robert Van Nest, Justin A. Nelson, and Davida Brook dated March 18, 2026 re: Requesting Slight Modification of Case Deadlines. Document filed by Microsoft Corporation.Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Hurst, Annette) (Entered: 03/18/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1331/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #1328 — 2026-03-17
-
-JOINT LETTER addressed to Magistrate Judge Ona T. Wang from Davida Brook and Andrew Dawson dated March 16, 2026 re: Letter Re: Deposition Disputes. Document filed by The New York Times Company. (Attachments: # 1 Exhibit 1 (filed under seal))Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:23-cv-11195-SHS-OTW.(Brook, Davida) (Entered: 03/17/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1328/1/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #1329 — 2026-03-17
-
-***SEALED***JOINT LETTER addressed to Magistrate Judge Ona T. Wang from Davida Brook and Andrew Dawson dated March 16, 2026 re: Letter Re: Deposition Disputes. Document filed by The New York Times Company. (Attachments: # 1 Exhibit 1)Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:23-cv-11195-SHS-OTWMotion or Order to File Under Seal: 1432 .(Brook, Davida) (Entered: 03/17/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1329/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #1327 — 2026-03-16
-
-LETTER addressed to Magistrate Judge Ona T. Wang from Davida Brook dated March 16, 2026 re: Letter Response to OpenAIs Letter at Dkt. 1427. Document filed by The New York Times Company.Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:23-cv-11195-SHS-OTW.(Brook, Davida) (Entered: 03/16/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1327/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #— — 2026-03-13
-
-Minute Entry for proceedings held before Magistrate Judge Ona T. Wang: Remote Settlement Conference held on 3/13/2026. Associated Cases: 1:25-md-03143-SHS-OTW et al.(Quinn, Diane)
-
-### 📄 Doc #— — 2026-03-13
-
-Minute Entry for proceedings held before Magistrate Judge Ona T. Wang: Pre-Settlement Conference held on 3/13/2026. Associated Cases: 1:25-md-03143-SHS-OTW et al.(Quinn, Diane)
-
-### 📄 Doc #1325 — 2026-03-13
-
-LETTER addressed to Magistrate Judge Ona T. Wang from Andrew Dawson, Herman H. Yue, Rose S. Lee dated March 13, 2026 re: G. Brockman Letter to Court Requesting Extension of Deadline. Document filed by OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.L.C., OpenAI Holdings LLC, OpenAI Holdings, LLC, OpenAI Inc., OpenAI LLC, OpenAI LP, OpenAI OpCo LLC, OpenAI OpCo LLC(a Delaware limited liability corporation), OpenAI OpCo, L.L.C., OpenAI Startup Fund GP I LLC, OpenAI Startup Fund GP I LLC(a Delaware limited liability company), OpenAI Startup Fund I LP, OpenAI Startup Fund I LP(a Delaware limited partnership), OpenAI Startup Fund Management LLC, OpenAI Startup Fund Management LLC(a Delaware limited liability company), OpenAI, Inc., OpenAI, Inc. Copyright Infringement Litigation, OpenAI, LLC, OAI Corporation, LLC, OpenAI Foundation, OpenAI GP, LLC, OpenAI Global, LLC, OpenAI Group PBC, OpenAI LP, OpenAI OpCo, LLC, …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1325/1/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #1326 — 2026-03-13
-
-ORDER: The Court held a confidential discovery settlement conference for all actions in this matter on Friday, March 13, 2026. The Court will conduct another confidential discovery settlement conference on Monday, March 30, 2026, at 2:00 p.m. ET. The parties shall submit any pre-settlement submissions to Chambers via email no later than Friday, March 27, 2026. The parties shall also provide a joint agenda for the conference by emailing it to Chambers no later than 10:00 a.m. ET on Monday, March 30, 2026. Plaintiffs are directed to circulate a Zoom link to all parties in advance of the conference. The Court sets the following briefing schedule for production of the deposition transcripts and companying exhibits in the Musk litigation: Plaintiffs' opening brief due March 20; OpenAI's response due March 23. There shall be no replies. Parties are reminded to refer back to the January 15, 2026, hearing transcript before submitting their briefing. SO ORDERED. ( Brief due by 3/20/2026., Respo …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1326/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #1321 — 2026-03-11
-
-DECLARATION of Maile Yeats-Rowe in Support re: (1420 in 1:25-md-03143-SHS-OTW) LETTER MOTION to Seal re ECF (1383) addressed to Magistrate Judge Ona T. Wang from Caitlin S. Blythe, Christopher S. Sun, Allison S. Blanco dated 03/10/2026.. Document filed by OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.L.C., OpenAI Holdings LLC, OpenAI Holdings, LLC, OpenAI Inc., OpenAI LLC, OpenAI LP, OpenAI OpCo LLC, OpenAI OpCo LLC(a Delaware limited liability corporation), OpenAI OpCo, L.L.C., OpenAI Startup Fund GP I LLC, OpenAI Startup Fund GP I LLC(a Delaware limited liability company), OpenAI Startup Fund I LP, OpenAI Startup Fund I LP(a Delaware limited partnership), OpenAI Startup Fund Management LLC, OpenAI Startup Fund Management LLC(a Delaware limited liability company), OpenAI, Inc., OpenAI, LLC. (Attachments: # 1 Exhibit A (slipsheet), # 2 Exhibit B (slipsheet), # 3 Exhibit C (slipsheet), # 4 Exhibit D (slipsh …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1321/4/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #— — 2026-03-11
-
-Set/Reset Hearings: Settlement Conference set for 3/13/2026 at 12:00 PM before Magistrate Judge Ona T. Wang. Associated Cases: 1:25-md-03143-SHS-OTW et al.(rro)
-
-### 📄 Doc #1324 — 2026-03-11
-
-ORDER in case 1:23-cv-08292-SHS-OTW; denying (1265) Letter Motion for Discovery in case 1:23-cv-11195-SHS-OTW; denying (673) Letter Motion for Discovery in case 1:24-cv-03285-SHS-OTW; terminating (1202) Letter Motion to Compel; terminating (1210) Letter Motion to Compel; terminating (1322) Letter Motion to Compel; denying (1356) Letter Motion for Discovery in case 1:25-md-03143-SHS-OTW; terminating (374) Letter Motion to Compel; terminating (427) Letter Motion to Compel in case 1:25-cv-04315-SHS-OTW. The Court held a discovery status conference for all actions in this matter on Tuesday, March 10, 2026. As ORDERED at the March 10 Conference: A. Confidential discovery settlement conference Friday, March 13, 2026 The Court will conduct a confidential discovery settlement conference on Friday, March 13, 2026, at 12:00 p.m. ET. The parties shall submit any pre-settlement submissions to Chambers via email no later than Thursday, March 12, 2026. The parties shall also provide a joint agenda f …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1324/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #1323 — 2026-03-11
-
-NOTICE of OpenAI's MARCH 10, 2026 Demonstratives Regarding OpenAI's Response in Opposition to Plaintiffs' Motion for Protective Order Re: Tom Goldstein Subpoena [ECF No. 1378] re: (1378 in 1:25-md-03143-SHS-OTW) Response in Opposition to Motion,,,. Document filed by OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.L.C., OpenAI Holdings LLC, OpenAI Holdings, LLC, OpenAI Inc., OpenAI LLC, OpenAI LP, OpenAI OpCo LLC, OpenAI OpCo LLC(a Delaware limited liability corporation), OpenAI OpCo, L.L.C., OpenAI Startup Fund GP I LLC, OpenAI Startup Fund GP I LLC(a Delaware limited liability company), OpenAI Startup Fund I LP, OpenAI Startup Fund I LP(a Delaware limited partnership), OpenAI Startup Fund Management LLC, OpenAI Startup Fund Management LLC(a Delaware limited liability company), OpenAI, Inc., OpenAI, Inc. Copyright Infringement Litigation, OpenAI, LLC. Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:23-cv …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1323/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #1320 — 2026-03-11
-
-***SEALED***DECLARATION of Maile Yeats-Rowe in Support re: (1420 in 1:25-md-03143-SHS-OTW) LETTER MOTION to Seal re ECF (1383) addressed to Magistrate Judge Ona T. Wang from Caitlin S. Blythe, Christopher S. Sun, Allison S. Blanco dated 03/10/2026.. Document filed by OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.L.C., OpenAI Holdings LLC, OpenAI Holdings, LLC, OpenAI Inc., OpenAI LLC, OpenAI LP, OpenAI OpCo LLC, OpenAI OpCo LLC(a Delaware limited liability corporation), OpenAI OpCo, L.L.C., OpenAI Startup Fund GP I LLC, OpenAI Startup Fund GP I LLC(a Delaware limited liability company), OpenAI Startup Fund I LP, OpenAI Startup Fund I LP(a Delaware limited partnership), OpenAI Startup Fund Management LLC, OpenAI Startup Fund Management LLC(a Delaware limited liability company), OpenAI, Inc., OpenAI, LLC. (Attachments: # 1 Exhibit A - Unredacted Highlighted Version of ECF 1383, # 2 Exhibit B - Unredacted Hig …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1320/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #— — 2026-03-10
-
-Minute Entry for proceedings held before Magistrate Judge Ona T. Wang: Status Conference held on 3/10/2026. Associated Cases: 1:25-md-03143-SHS-OTW et al.(Quinn, Diane)
-
-### 📄 Doc #1319 — 2026-03-10
-
-LETTER MOTION to Seal re ECF 1383 addressed to Magistrate Judge Ona T. Wang from Caitlin S. Blythe, Christopher S. Sun, Allison S. Blanco dated 03/10/2026. Document filed by OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.L.C., OpenAI Holdings LLC, OpenAI Holdings, LLC, OpenAI Inc., OpenAI LLC, OpenAI LP, OpenAI OpCo LLC, OpenAI OpCo LLC(a Delaware limited liability corporation), OpenAI OpCo, L.L.C., OpenAI Startup Fund GP I LLC, OpenAI Startup Fund GP I LLC(a Delaware limited liability company), OpenAI Startup Fund I LP, OpenAI Startup Fund I LP(a Delaware limited partnership), OpenAI Startup Fund Management LLC, OpenAI Startup Fund Management LLC(a Delaware limited liability company), OpenAI, Inc., OpenAI, LLC. (Attachments: # 1 Proposed Order Granting OpenAI Sealing Motion)Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:23-cv-08292-SHS-OTW, 1:23-cv-11195-SHS-OTW, 1:25-cv-04315-SHS-OTW.(Blythe, Caitlin …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1319/1/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #1318 — 2026-03-09
-
-ORDER granting (974) Letter Motion to Compel in case 1:23-cv-08292-SHS-OTW; granting (647) Letter Motion to Compel in case 1:23-cv-10211-SHS-OTW; granting (1185) Letter Motion to Compel; granting in part (1241) Letter Motion to Compel in case 1:23-cv-11195-SHS-OTW; granting (333) Letter Motion to Compel in case 1:24-cv-00084-SHS-OTW; granting (365) Letter Motion to Compel in case 1:24-cv-01514-SHS-OTW; granting (400) Letter Motion to Compel in case 1:24-cv-01515-SHS-OTW; granting (611) Letter Motion to Compel in case 1:24-cv-03285-SHS-OTW; granting (512) Letter Motion to Compel in case 1:24-cv-04872-SHS-OTW; granting (1200) Letter Motion to Compel; granting in part (1312) Letter Motion to Compel in case 1:25-md-03143-SHS-OTW; granting (200) Letter Motion to Compel in case 1:25-cv-03291-SHS-OTW; granting (308) Letter Motion to Compel in case 1:25-cv-03297-SHS-OTW; granting (754) Letter Motion to Compel in case 1:25-cv-03482-SHS-OTW; granting (245) Letter Motion to Compel in case 1:25-cv …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1318/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #1317 — 2026-03-09
-
-ORDER SETTING AGENDA FOR MARCH 10 2026 CONFERENCE (Signed by Magistrate Judge Ona T. Wang on 03/9/2026) Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al. (Wang, Ona) (Entered: 03/09/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1317/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #1316 — 2026-03-09
-
-JOINT STIPULATION AND ORDER ON TAKING CERTAIN DEPOSITIONS AFTER THE FEBRUARY 27, 2026 FACT DISCOVERY DEADLINE: Class Plaintiffs and News Plaintiffs (collectively "Plaintiffs"), OpenAI, and Microsoft submit the following stipulation and agreement with respect to the scheduling of depositions after the February 27, 2026 fact discovery deadline, as to which the parties agree there is good cause: Dario Amodei: All parties have consented to taking Mr. Amodei's deposition on March 27, 2026. Mike Trinh: All parties have consented to taking Mr. Trinh's deposition on March 3, 2026. Simone Procas: All parties have consented to taking Ms. Procas's deposition on March 4, 2026. Mira Murati: All parties have consented to taking Ms. Murati's deposition on March 5, 2026. Barret Zoph: All parties have consented to taking Mr. Zoph's deposition on March 6, 2026. Boston Consulting Group: All parties have consented to taking Boston Consulting Group's deposition on March 6, 2026. llya Sutskever: All parties …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1316/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #1312 — 2026-03-09
-
-STIPULATION AND ORDER REGARDING AUTHENTICITY OF AND FOUNDATION FOR CERTAIN MATERIALS: NOW, THEREFORE, IT IS HEREBY STIPULATION AND AGREED by the Parties that: 1. The following podcast episodes and interviews, along with their corresponding transcriptions, are authentic and satisfy the requirements for identification or authentication of the materials under Federal Rule of Evidence 901: i) "ChatGPT Transforms a Classroom. And Is 'M3GAN' Real?", Hard Fork podcast (January 13, 2023) ii) "Bard Fork, and How to Tallc So Chatbots Will Listen", Hard Fork podcast (March 24, 2023) iii) "Is A.I. Already Taking Jobs? + A Filmmaker Tries Sora+ The XZ Backdoor Caper", Hard Fork podcast (April 5, 2024) iv) "Crypto Congress + HBD ChatGPT + What Social Media Platform Should I Be On?", Hard Fork podcast (November 15, 2024) v) "Trnmp's Next Online Speech Cop+ Doctors vs. ChatGPT + Hard Fork Crimes Division", Hard Fork podcast (November 22, 2024) vi) "Sam Altman on the Future of A.I. and Society", interv …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1312/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #1313 — 2026-03-09
-
-JOINT STIPULATION AND ORDER: THEREFORE, the Parties, through counsel, agree that Professor Goldstein's deposition shall be held over until the Court resolves the motion for a protective order. SO ORDERED. (Signed by Magistrate Judge Ona T. Wang on 3/7/2026) Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:23-cv-11195-SHS-OTW, 1:24-cv-03285-SHS-OTW (sgz) (Entered: 03/09/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1313/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #1314 — 2026-03-09
-
-STIPULATION REGARDING DEPOSITION TIME FOR MICROSOFT WITNESSES: Pursuant to the Court's Oral Order during the February 11, 2026 Discovery Conference, Class Plaintiffs and News Plaintiffs ( collectively "Plaintiffs") and Microsoft submit the following stipulation and agreement with respect to deposition time for Microsoft Witnesses ( defined herein to include both cunrrent and former Microsoft employees): Accordingly, Plaintiffs and Microsoft stipulate and agree as follows: 1. Absent good cause arising after February 13, 2026, Plaintiffs will not seek any additional Rule 30(b)(l) time for Microsoft Witnesses; 2. For Microsoft witnesses deposed on or after February 4, 2026, Plaintiffs may collectively reallocate up to 30 hours of Rule 30(b)(l) deposition time to 30(b) (6) deposition time, at Plaintiffs' discretion; 3. Plaintiffs withdraw their requests for depositions of the four witnesses disclosed by Microsoft on January 16, 2026, unless and until those witnesses provide a declaration p …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1314/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #1315 — 2026-03-09
-
-STIPULATION REGARDING DEPOSITION TIME: IT IS HEREBY STIPULATED AND AGREED, by and between Class Plaintiffs, News Plaintiffs and Defendant OpenAI ( collectively, the "Parties"), in each case by and through their respective attorneys, as follows: 1. Plaintiffs may reallocate thirty-five (35) hours from their third-party deposition time caps to be used for depositions of OpenAI's current and former employees. 2. Of the thirty-five (35) reallocated hours described in Paragraph 1, Plaintiffs may use up to fifteen ( 15) hours for Rule 30(b )( 6) depositions of OpenAI witnesses. For clarification purposes, the Parties agree that as of February 13, 2026, Plaintiffs had 15 total Rule 30(b)(6) hours remaining with OpenAI witnesses. 3. OpenAI and Microsoft may reallocate up to thirty-five (3 5) hours from their third-party deposition time caps to be used for depositions of News Plaintiffs' current and former employee witnesses. Of the thirty-five (35) reallocated hours, OpenAI and Microsoft may u …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1315/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #1307 — 2026-03-06
-
-LETTER MOTION to Seal re ECF 1360 addressed to Magistrate Judge Ona T. Wang from Caitlin Sinclaire Blythe, Christopher S. Sun, Margaret Graham dated March 6, 2026. Document filed by OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.L.C., OpenAI Holdings LLC, OpenAI Holdings, LLC, OpenAI Inc., OpenAI LLC, OpenAI LP, OpenAI OpCo LLC, OpenAI OpCo LLC(a Delaware limited liability corporation), OpenAI OpCo, L.L.C., OpenAI Startup Fund GP I LLC, OpenAI Startup Fund GP I LLC(a Delaware limited liability company), OpenAI Startup Fund I LP, OpenAI Startup Fund I LP(a Delaware limited partnership), OpenAI Startup Fund Management LLC, OpenAI Startup Fund Management LLC(a Delaware limited liability company), OpenAI, Inc., OpenAI, LLC. (Attachments: # 1 Proposed Order Granting OpenAI Sealing Motion)Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:23-cv-11195-SHS-OTW.(Blythe, Caitlin) (Entered: 03/06/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1307/1/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #1309 — 2026-03-06
-
-DECLARATION of Maile Yeats-Rowe in Support re: (1407 in 1:25-md-03143-SHS-OTW, 1307 in 1:23-cv-11195-SHS-OTW) LETTER MOTION to Seal re ECF (1360) addressed to Magistrate Judge Ona T. Wang from Caitlin Sinclaire Blythe, Christopher S. Sun, Margaret Graham dated March 6, 2026.. Document filed by OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.L.C., OpenAI Holdings LLC, OpenAI Holdings, LLC, OpenAI Inc., OpenAI LLC, OpenAI LP, OpenAI OpCo LLC, OpenAI OpCo LLC(a Delaware limited liability corporation), OpenAI OpCo, L.L.C., OpenAI Startup Fund GP I LLC, OpenAI Startup Fund GP I LLC(a Delaware limited liability company), OpenAI Startup Fund I LP, OpenAI Startup Fund I LP(a Delaware limited partnership), OpenAI Startup Fund Management LLC, OpenAI Startup Fund Management LLC(a Delaware limited liability company), OpenAI, Inc., OpenAI, LLC. (Attachments: # 1 Exhibit A (slipsheet))Filed In Associated Cases: 1:25-md-03 …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1309/1/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #1306 — 2026-03-06
-
-ORDER in case 1:23-cv-08292-SHS-OTW; granting (1382) Letter Motion for Leave to File Document in case 1:25-md-03143-SHS-OTW. OpenAI's motion to file a sur-reply is GRANTED. (HEREBY ORDERED by Magistrate Judge Ona T. Wang)(Text Only Order) Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al. (Entered: 03/06/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1306/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #1302 — 2026-03-06
-
-LETTER addressed to Magistrate Judge Ona T. Wang from Rose S. Lee, Christopher S. Sun, Luke A. Budiardjo dated March 5, 2026 re: OpenAIs Responsive Case Management Conference Brief to ECF (1383). Document filed by OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.L.C., OpenAI Holdings LLC, OpenAI Holdings, LLC, OpenAI Inc., OpenAI LLC, OpenAI LP, OpenAI OpCo LLC, OpenAI OpCo LLC(a Delaware limited liability corporation), OpenAI OpCo, L.L.C., OpenAI Startup Fund GP I LLC, OpenAI Startup Fund GP I LLC(a Delaware limited liability company), OpenAI Startup Fund I LP, OpenAI Startup Fund I LP(a Delaware limited partnership), OpenAI Startup Fund Management LLC, OpenAI Startup Fund Management LLC(a Delaware limited liability company), OpenAI, Inc., OpenAI, LLC. (Attachments: # 1 Exhibit 1 (slipsheet), # 2 Exhibit 2 - Email, # 3 Exhibit 3 - Rynerson Dep, # 4 Exhibit 4 (slipsheet), # 5 Exhibit 5 - Heidecke Dep, # 6 Exh …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1302/7/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #1308 — 2026-03-06
-
-RESPONSE to Motion re: (1372 in 1:25-md-03143-SHS-OTW, 1064 in 1:23-cv-08292-SHS-OTW) MOTION to Seal . . Document filed by Microsoft Corporation, Microsoft Corporation, Microsoft Corporation. (Attachments: # 1 Exhibit A (Declaration of L. Vidmar))Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Briant, Jared) (Entered: 03/06/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1308/1/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #1310 — 2026-03-06
-
-***SEALED***DECLARATION of Maile Yeats-Rowe in Support re: (1407 in 1:25-md-03143-SHS-OTW, 1307 in 1:23-cv-11195-SHS-OTW) LETTER MOTION to Seal re ECF (1360) addressed to Magistrate Judge Ona T. Wang from Caitlin Sinclaire Blythe, Christopher S. Sun, Margaret Graham dated March 6, 2026.. Document filed by OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.L.C., OpenAI Holdings LLC, OpenAI Holdings, LLC, OpenAI Inc., OpenAI LLC, OpenAI LP, OpenAI OpCo LLC, OpenAI OpCo LLC(a Delaware limited liability corporation), OpenAI OpCo, L.L.C., OpenAI Startup Fund GP I LLC, OpenAI Startup Fund GP I LLC(a Delaware limited liability company), OpenAI Startup Fund I LP, OpenAI Startup Fund I LP(a Delaware limited partnership), OpenAI Startup Fund Management LLC, OpenAI Startup Fund Management LLC(a Delaware limited liability company), OpenAI, Inc., OpenAI, LLC. (Attachments: # 1 Exhibit A - UNREDACTED-HIGHLIGHTED VERSION OF 1 …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1310/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #— — 2026-03-06
-
-Order on Motion for Leave to File Document
-
-### 📄 Doc #1301 — 2026-03-06
-
-LETTER addressed to Magistrate Judge Ona T. Wang from Annette L. Hurst and Jared B. Briant dated March 5, 2026 re: Microsoft's Response to ECF 1383. Document filed by Microsoft Corporation. (Attachments: # 1 Exhibit A - Excerpts of Nov. 5, 2026 Deposition Transcript of Jordan Ribas, # 2 Exhibit B - Deposition Scheduling Email, # 3 Exhibit C - Privilege Log Chart, # 4 Exhibit D - Email Re Plaintiff's Sealed Brief, # 5 Exhibit E - The New York Times Company's First Set of Interrogatories to Microsoft)Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Najemy, Laura) (Entered: 03/06/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1301/5/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #1299 — 2026-03-06
-
-DECLARATION of MAILE YEATS-ROWE in Support re: (1398 in 1:25-md-03143-SHS-OTW) LETTER MOTION to Seal addressed to Magistrate Judge Ona T. Wang from Caitlin Sinclaire Blythe, Christopher S. Sun, Luke A. Budiardjo dated March 5, 2026.. Document filed by OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.L.C., OpenAI Holdings LLC, OpenAI Holdings, LLC, OpenAI Inc., OpenAI LLC, OpenAI LP, OpenAI OpCo LLC, OpenAI OpCo LLC(a Delaware limited liability corporation), OpenAI OpCo, L.L.C., OpenAI Startup Fund GP I LLC, OpenAI Startup Fund GP I LLC(a Delaware limited liability company), OpenAI Startup Fund I LP, OpenAI Startup Fund I LP(a Delaware limited partnership), OpenAI Startup Fund Management LLC, OpenAI Startup Fund Management LLC(a Delaware limited liability company), OpenAI, Inc., OpenAI, LLC. Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:23-cv-08292-SHS-OTW, 1:23-cv-11195-SHS-OTW, 1:25-cv-04315-SHS-OTW.(B …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1299/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #1300 — 2026-03-06
-
-***SEALED*** LETTER addressed to Magistrate Judge Ona T. Wang from Annette L. Hurst and Jared B. Briant dated March 5, 2026 re: Microsoft's Response to ECF 1383. Document filed by Microsoft Corporation. (Attachments: # 1 Exhibit A - Excerpts of Nov. 5, 2026 Deposition Transcript of Jordan Ribas, # 2 Exhibit B - Deposition Scheduling Email, # 3 Exhibit C - Privilege Log Chart, # 4 Exhibit D - Email Re Plaintiff's Sealed Brief, # 5 Exhibit E - The New York Times Company's First Set of Interrogatories to Microsoft)Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al.Motion or Order to File Under Seal: 1396 .(Najemy, Laura) (Entered: 03/06/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1300/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #1303 — 2026-03-06
-
-***SEALED*** LETTER addressed to Magistrate Judge Ona T. Wang from Rose S. Lee, Christopher S. Sun, Luke A. Budiardjo dated March 5, 2026 re: OpenAIs Responsive Case Management Conference Brief to ECF 1383. Document filed by OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.L.C., OpenAI Holdings LLC, OpenAI Holdings, LLC, OpenAI Inc., OpenAI LLC, OpenAI LP, OpenAI OpCo LLC, OpenAI OpCo LLC(a Delaware limited liability corporation), OpenAI OpCo, L.L.C., OpenAI Startup Fund GP I LLC, OpenAI Startup Fund GP I LLC(a Delaware limited liability company), OpenAI Startup Fund I LP, OpenAI Startup Fund I LP(a Delaware limited partnership), OpenAI Startup Fund Management LLC, OpenAI Startup Fund Management LLC(a Delaware limited liability company), OpenAI, Inc., OpenAI, LLC. (Attachments: # 1 Exhibit 1 - OPCO_NEWS_0808328 Excerpt, # 2 Exhibit 4 - Pereleman Dep, # 3 Exhibit 7 - Weng Dep)Filed In Associated Cases: 1:25-md …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1303/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #1293 — 2026-03-05
-
-MOTION to Seal . Document filed by The New York Times Company, Ziff Davis, LLC. (Attachments: # 1 Exhibit Plaintiffs' Memorandum of Law in Support of Motion to Seal)Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:23-cv-11195-SHS-OTW, 1:25-cv-04315-SHS-OTW.(Crosby, Ian) (Entered: 03/05/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1293/1/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #1298 — 2026-03-05
-
-LETTER MOTION to Seal addressed to Magistrate Judge Ona T. Wang from Caitlin Sinclaire Blythe, Christopher S. Sun, Luke A. Budiardjo dated March 5, 2026. Document filed by OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.L.C., OpenAI Holdings LLC, OpenAI Holdings, LLC, OpenAI Inc., OpenAI LLC, OpenAI LP, OpenAI OpCo LLC, OpenAI OpCo LLC(a Delaware limited liability corporation), OpenAI OpCo, L.L.C., OpenAI Startup Fund GP I LLC, OpenAI Startup Fund GP I LLC(a Delaware limited liability company), OpenAI Startup Fund I LP, OpenAI Startup Fund I LP(a Delaware limited partnership), OpenAI Startup Fund Management LLC, OpenAI Startup Fund Management LLC(a Delaware limited liability company), OpenAI, Inc., OpenAI, LLC. (Attachments: # 1 Proposed Order )Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:23-cv-08292-SHS-OTW, 1:23-cv-11195-SHS-OTW, 1:25-cv-04315-SHS-OTW.(Blythe, Caitlin) (Entered: 03/06/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1298/1/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #1295 — 2026-03-05
-
-REDACTION to (1394 in 1:25-md-03143-SHS-OTW) Response in Opposition to Motion,,,, by Ziff Davis, LLC, The New York Times Company (Attachments: # 1 Exhibit C, # 2 Exhibit D, # 3 Exhibit E, # 4 Exhibit O)Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:23-cv-11195-SHS-OTW, 1:25-cv-04315-SHS-OTW.(Crosby, Ian) (Entered: 03/05/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1295/4/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #1294 — 2026-03-05
-
-***SEALED***LETTER RESPONSE in Opposition to Motion addressed to Magistrate Judge Ona T. Wang from Ian B. Crosby, Steven Lieberman, and Lacy H. ("Lance") Koonce, III dated March 5, 2026 re: (1275 in 1:23-cv-11195-SHS-OTW, 1369 in 1:25-md-03143-SHS-OTW) LETTER MOTION to Compel The New York Times Company to Produce Subscriber Data Metrics and Survey Instruments and Accompanying Exhibits addressed to Magistrate Judge Ona T. Wang from Laura B. Najemy dated March 3, 2026. Letter Response in Opposition to 1375 OpenAI's Motion to Compel. Document filed by Ziff Davis, LLC, The New York Times Company. (Attachments: # 1 Exhibit A, # 2 Exhibit B, # 3 Exhibit C, # 4 Exhibit D, # 5 Exhibit E, # 6 Exhibit F, # 7 Exhibit G, # 8 Exhibit H, # 9 Exhibit I, # 10 Exhibit J, # 11 Exhibit K, # 12 Exhibit L, # 13 Exhibit M, # 14 Exhibit N, # 15 Exhibit O)Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:23-cv-11195-SHS-OTW, 1:25-cv-04315-SHS-OTWMotion or Order to File Under Seal: 1393 .(Crosby, Ian) (Enter …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1294/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #1296 — 2026-03-05
-
-MOTION to Seal Response Letter to Plaintiffs' Remaining Discovery Dispute Brief 1383 . Document filed by Microsoft Corporation, Microsoft Corporation, Microsoft Corporation, Microsoft Corporation, Microsoft Corporation.Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Najemy, Laura) (Entered: 03/05/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1296/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #1297 — 2026-03-05
-
-FILING ERROR - DUPLICATE DOCUMENT (SEE 1396 Motion) - MOTION to Seal Response Letter to Plaintiffs' Remaining Discovery Dispute Brief 1383 . Document filed by Microsoft Corporation.Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Najemy, Laura) Modified on 3/6/2026 (db). As per ECF-ERROR Email Correspondence Received on 3/6/2026 @ 9:28am. (Entered: 03/05/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1297/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #1292 — 2026-03-05
-
-LETTER addressed to Magistrate Judge Ona T. Wang from Caitlin Sinclaire Blythe, Christopher S. Sun, and Margaret Graham dated March 5, 2026 re: ECF (1388). Document filed by OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.L.C., OpenAI Holdings LLC, OpenAI Holdings, LLC, OpenAI Inc., OpenAI LLC, OpenAI LP, OpenAI OpCo LLC, OpenAI OpCo LLC(a Delaware limited liability corporation), OpenAI OpCo, L.L.C., OpenAI Startup Fund GP I LLC, OpenAI Startup Fund GP I LLC(a Delaware limited liability company), OpenAI Startup Fund I LP, OpenAI Startup Fund I LP(a Delaware limited partnership), OpenAI Startup Fund Management LLC, OpenAI Startup Fund Management LLC(a Delaware limited liability company), OpenAI, Inc., OpenAI, LLC.Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:23-cv-08292-SHS-OTW, 1:23-cv-11195-SHS-OTW, 1:25-cv-04315-SHS-OTW.(Blythe, Caitlin) (Entered: 03/05/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1292/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #1287 — 2026-03-04
-
-LETTER MOTION for Leave to File Sur-Reply in Response to Plaintiffs' Reply (MDL ECF No. 1360) addressed to Magistrate Judge Ona T. Wang from Edward Bayley, Luke A. Budiardjo, and Joseph C. Gratz dated March 3, 2026. Document filed by OAI Corporation, LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Holdings, LLC, OpenAI LLC, OpenAI LP, OpenAI OpCo LLC(a Delaware limited liability corporation), OpenAI Startup Fund GP I LLC, OpenAI Startup Fund I LP(a Delaware limited partnership), OpenAI Startup Fund Management LLC(a Delaware limited liability company), OpenAI, Inc., OpenAI, LLC. (Attachments: # 1 Exhibit A - Proposed Sur-Reply in Response to MDL ECF No. 1360, # 2 Exhibit B - Email Correspondence, # 3 Affidavit // Certificate of Service)Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:23-cv-08292-SHS-OTW, 1:23-cv-11195-SHS-OTW, 1:25-cv-04315-SHS-OTW.(Budiardjo, Luke) (Entered: 03/04/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1287/3/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #1291 — 2026-03-04
-
-LETTER MOTION to Seal re ECF No. 1351 addressed to Magistrate Judge Ona T. Wang from Caitlin S. Blythe, Christopher S. Sun, and Margaret Graham dated 03/04/2026. Document filed by OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.L.C., OpenAI Holdings LLC, OpenAI Holdings, LLC, OpenAI Inc., OpenAI LLC, OpenAI LP, OpenAI OpCo LLC, OpenAI OpCo LLC(a Delaware limited liability corporation), OpenAI OpCo, L.L.C., OpenAI Startup Fund GP I LLC, OpenAI Startup Fund GP I LLC(a Delaware limited liability company), OpenAI Startup Fund I LP, OpenAI Startup Fund I LP(a Delaware limited partnership), OpenAI Startup Fund Management LLC, OpenAI Startup Fund Management LLC(a Delaware limited liability company), OpenAI, Inc., OpenAI, LLC. (Attachments: # 1 Proposed Order Granting OpenAI Sealing Motion)Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:23-cv-08292-SHS-OTW, 1:23-cv-11195-SHS-OTW, 1:25-cv-04315-SHS-OTW.(Blythe, C …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1291/1/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #1278 — 2026-03-04
-
-LETTER MOTION to Seal addressed to Magistrate Judge Ona T. Wang from Caitlin Sinclaire Blythe, Michelle Ybarra, and Margaret Graham dated March 3, 2026. Document filed by OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.L.C., OpenAI Holdings LLC, OpenAI Holdings, LLC, OpenAI Inc., OpenAI LLC, OpenAI LP, OpenAI OpCo LLC, OpenAI OpCo LLC(a Delaware limited liability corporation), OpenAI OpCo, L.L.C., OpenAI Startup Fund GP I LLC, OpenAI Startup Fund GP I LLC(a Delaware limited liability company), OpenAI Startup Fund I LP, OpenAI Startup Fund I LP(a Delaware limited partnership), OpenAI Startup Fund Management LLC, OpenAI Startup Fund Management LLC(a Delaware limited liability company), OpenAI, Inc., OpenAI, LLC. (Attachments: # 1 Proposed Order )Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:23-cv-08292-SHS-OTW, 1:23-cv-11195-SHS-OTW, 1:25-cv-04315-SHS-OTW.(Blythe, Caitlin) (Entered: 03/04/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1278/1/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #1290 — 2026-03-04
-
-DECLARATION of Michael Trinh in Support re: (1385 in 1:25-md-03143-SHS-OTW) MOTION to Substitute Party. Old Party: OpenAI Holdings, LLC, New Party: OpenAI Group PBC .. Document filed by OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.L.C., OpenAI Holdings LLC, OpenAI Holdings, LLC, OpenAI Inc., OpenAI LLC, OpenAI LP, OpenAI OpCo LLC, OpenAI OpCo LLC(a Delaware limited liability corporation), OpenAI OpCo, L.L.C., OpenAI Startup Fund GP I LLC, OpenAI Startup Fund GP I LLC(a Delaware limited liability company), OpenAI Startup Fund I LP, OpenAI Startup Fund I LP(a Delaware limited partnership), OpenAI Startup Fund Management LLC, OpenAI Startup Fund Management LLC(a Delaware limited liability company), OpenAI, Inc., OpenAI, LLC. Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:23-cv-08292-SHS-OTW, 1:23-cv-11195-SHS-OTW, 1:25-cv-04315-SHS-OTW.(Lee, Rose) (Entered: 03/04/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1290/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #1288 — 2026-03-04
-
-MOTION to Substitute Party. Old Party: OpenAI Holdings, LLC, New Party: OpenAI Group PBC . Document filed by OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.L.C., OpenAI Holdings LLC, OpenAI Holdings, LLC, OpenAI Inc., OpenAI LLC, OpenAI LP, OpenAI OpCo LLC, OpenAI OpCo LLC(a Delaware limited liability corporation), OpenAI OpCo, L.L.C., OpenAI Startup Fund GP I LLC, OpenAI Startup Fund GP I LLC(a Delaware limited liability company), OpenAI Startup Fund I LP, OpenAI Startup Fund I LP(a Delaware limited partnership), OpenAI Startup Fund Management LLC, OpenAI Startup Fund Management LLC(a Delaware limited liability company), OpenAI, Inc., OpenAI, LLC.Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:23-cv-08292-SHS-OTW, 1:23-cv-11195-SHS-OTW, 1:25-cv-04315-SHS-OTW.(Lee, Rose) (Entered: 03/04/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1288/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #1289 — 2026-03-04
-
-MEMORANDUM OF LAW in Support re: (1385 in 1:25-md-03143-SHS-OTW) MOTION to Substitute Party. Old Party: OpenAI Holdings, LLC, New Party: OpenAI Group PBC . . Document filed by OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.L.C., OpenAI Holdings LLC, OpenAI Holdings, LLC, OpenAI Inc., OpenAI LLC, OpenAI LP, OpenAI OpCo LLC, OpenAI OpCo LLC(a Delaware limited liability corporation), OpenAI OpCo, L.L.C., OpenAI Startup Fund GP I LLC, OpenAI Startup Fund GP I LLC(a Delaware limited liability company), OpenAI Startup Fund I LP, OpenAI Startup Fund I LP(a Delaware limited partnership), OpenAI Startup Fund Management LLC, OpenAI Startup Fund Management LLC(a Delaware limited liability company), OpenAI, Inc., OpenAI, LLC. Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:23-cv-08292-SHS-OTW, 1:23-cv-11195-SHS-OTW, 1:25-cv-04315-SHS-OTW.(Lee, Rose) (Entered: 03/04/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1289/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #1279 — 2026-03-04
-
-DECLARATION of Maile Yeats-Rowe in Support re: (1065 in 1:23-cv-08292-SHS-OTW, 1373 in 1:25-md-03143-SHS-OTW, 1278 in 1:23-cv-11195-SHS-OTW, 454 in 1:25-cv-04315-SHS-OTW) LETTER MOTION to Seal addressed to Magistrate Judge Ona T. Wang from Caitlin Sinclaire Blythe, Michelle Ybarra, and Margaret Graham dated March 3, 2026.. Document filed by OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.L.C., OpenAI Holdings LLC, OpenAI Holdings, LLC, OpenAI Inc., OpenAI LLC, OpenAI LP, OpenAI OpCo LLC, OpenAI OpCo LLC(a Delaware limited liability corporation), OpenAI OpCo, L.L.C., OpenAI Startup Fund GP I LLC, OpenAI Startup Fund GP I LLC(a Delaware limited liability company), OpenAI Startup Fund I LP, OpenAI Startup Fund I LP(a Delaware limited partnership), OpenAI Startup Fund Management LLC, OpenAI Startup Fund Management LLC(a Delaware limited liability company), OpenAI, Inc., OpenAI, LLC. Filed In Associated Cases: 1: …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1279/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #1280 — 2026-03-04
-
-***SEALED*** LETTER addressed to Magistrate Judge Ona T. Wang from Rose S. Lee, Michelle Ybarra, Herman H. Yue dated March 3, 2026 re: March 10, 2026 Case Management Conference. Document filed by OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.L.C., OpenAI Holdings LLC, OpenAI Holdings, LLC, OpenAI Inc., OpenAI LLC, OpenAI LP, OpenAI OpCo LLC, OpenAI OpCo LLC(a Delaware limited liability corporation), OpenAI OpCo, L.L.C., OpenAI Startup Fund GP I LLC, OpenAI Startup Fund GP I LLC(a Delaware limited liability company), OpenAI Startup Fund I LP, OpenAI Startup Fund I LP(a Delaware limited partnership), OpenAI Startup Fund Management LLC, OpenAI Startup Fund Management LLC(a Delaware limited liability company), OpenAI, Inc., OpenAI, LLC.Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:23-cv-08292-SHS-OTW, 1:23-cv-11195-SHS-OTW, 1:25-cv-04315-SHS-OTWMotion or Order to File Under Seal: 1373 .(Lee, Rose) (Enter …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1280/the-new-york-times-company-v-microsoft-corporation/)
-
-### 📄 Doc #1282 — 2026-03-04
-
-LETTER addressed to Magistrate Judge Ona T. Wang from Rose S. Lee, Michelle Ybarra, Herman H. Yue dated March 3, 2026 re: March 10, 2026 Case Management Conference. Document filed by OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.L.C., OpenAI Holdings LLC, OpenAI Holdings, LLC, OpenAI Inc., OpenAI LLC, OpenAI LP, OpenAI OpCo LLC, OpenAI OpCo LLC(a Delaware limited liability corporation), OpenAI OpCo, L.L.C., OpenAI Startup Fund GP I LLC, OpenAI Startup Fund GP I LLC(a Delaware limited liability company), OpenAI Startup Fund I LP, OpenAI Startup Fund I LP(a Delaware limited partnership), OpenAI Startup Fund Management LLC, OpenAI Startup Fund Management LLC(a Delaware limited liability company), OpenAI, Inc., OpenAI, LLC.Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:23-cv-08292-SHS-OTW, 1:23-cv-11195-SHS-OTW, 1:25-cv-04315-SHS-OTW.(Lee, Rose) (Entered: 03/04/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1282/the-new-york-times-company-v-microsoft-corporation/)
+[CourtListener 連結](https://www.courtlistener.com/docket/68117049/1440/1/the-new-york-times-company-v-microsoft-corporation/)
 
 <details>
-<summary>已過濾的 27 筆程序性 entries（點擊展開）</summary>
+<summary>已過濾的 16 筆程序性 entries（點擊展開）</summary>
 
+- **Doc #1631** (2026-09-24): CERTIFICATE OF SERVICE of Declaration and Exhibits [doc. no. 2063] served on All Parties on 9/24/26. Service was accepted by Email pursuant to service agreement. Document filed by OAI Corporation, LLC…
+- **Doc #1630** (2026-09-24): CERTIFICATE OF SERVICE of [Unredacted] Memorandum of Law in Support of Defendants Rule 702 Motion to Exclude Expert Testimony, and [Unredacted] Declaration of On Amir, Ph.D. in Support of Defendants R…
+- **Doc #1611** (2026-09-17): CERTIFICATE OF SERVICE of ECF (2010) on September 17, 2026. Document filed by OAI Corporation, OpenAI Foundation, OpenAI GP, LLC, OpenAI Global, LLC, OpenAI Group PBC, OpenAI LLC, OpenAI OpCo, LLC, Op…
+- **Doc #1580** (2026-09-14): CERTIFICATE OF SERVICE of ECF (1952) on September 14, 2026. Document filed by OAI Corporation, OAI Corporation, LLC, OpenAI Foundation, OpenAI GP, LLC, OpenAI Global, LLC, OpenAI Group PBC, OpenAI LLC…
+- **Doc #1581** (2026-09-14): NOTICE OF APPEARANCE by Marc Holden Axelbaum on behalf of Benjamin Chess. Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Axelbaum, Marc) (Entered: 09/14/2026)
+- **Doc #1582** (2026-09-14): NOTICE OF APPEARANCE by Marc Holden Axelbaum on behalf of Ermira Murati. Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Axelbaum, Marc) (Entered: 09/14/2026)
+- **Doc #1571** (2026-09-10): CERTIFICATE OF SERVICE of NEWS PLAINTIFFS REPLY TO MICROSOFT CORPORATIONS MEMORANDUM OF LAW IN OPPOSITION TO NEWS PLAINTIFFS MOTION FOR SANCTIONS AGAINST OPENAI served on OpenAI, Inc.; OpenAI GP, LLC;…
+- **Doc #1572** (2026-09-10): CERTIFICATE OF SERVICE of NEWS PLAINTIFFS REPLY TO OPENAI DEFENDANTS BRIEF IN OPPOSITION TO NEWS PLAINTIFFS MOTION FOR SANCTIONS served on OpenAI, Inc.; OpenAI GP, LLC; OpenAI LP; OpenAI, LLC; OpenAI …
+- **Doc #1564** (2026-09-09): CERTIFICATE OF SERVICE of ***SEALED***DECLARATION of Annette L. Hurst in Support re: (1473 in 1:23-cv-11195-SHS-OTW) MOTION for Summary Judgment in News Plaintiffs' Consolidated Cases., (777 in 1:23-c…
+- **Doc #1562** (2026-09-04): CERTIFICATE OF SERVICE of sealed filings in support of Microsoft's Motion for Summary Judgment in the News Plaintiffs' Consolidated Cases served on Attorneys for Plaintiff The New York Times Company; …
+- **Doc #1558** (2026-09-04): CERTIFICATE OF SERVICE of Sealed Declarations In Support of Motion for Summary Judgment served on OpenAI, Inc.; OpenAI GP, LLC; OpenAI LP; OpenAI, LLC; OpenAI OpCo, LLC; OpenAI Global, LLC; OAI Corpor…
+- **Doc #1539** (2026-09-04): CERTIFICATE OF SERVICE of Defendants' Memorandum in Support of Motion for Summary Judgment and Declarations of Defendants' Experts Chris Callison-Burch, Taylor Berg-Kirkpatrick, Nick Feamster, and Avi…
+- **Doc #1555** (2026-09-04): CERTIFICATE OF SERVICE of ECF 1740, 1741, 1747, 1752 on September 4, 2026. Document filed by OAI Corporation, OpenAI Foundation (f/k/a OpenAI Inc.), OpenAI GP, LLC, OpenAI Global, LLC, OpenAI Group PB…
+- **Doc #1508** (2026-09-04): CERTIFICATE OF SERVICE of Sealed version of Declaration of Barbara Frederiksen-Cross served on The Intercept Media, Inc., The Center for Investigative Reporting, The New York Times, Daily News Plainti…
 - **Doc #1460** (2026-08-14): CERTIFICATE OF SERVICE of ECF 1672 on August 13, 2026. Document filed by OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI Foundation, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC…
-- **Doc #1443** (2026-07-16): CERTIFICATE OF SERVICE of ECF (1643) on July 16, 2026. Document filed by OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.…
-- **Doc #1436** (2026-07-16): ORDER FOR ADMISSION PRO HAC VICE granting (1193) Motion for Johnathan J. Vaknin to Appear Pro Hac Vice in case 1:23-cv-08292-SHS-OTW; granting (761) Motion for Johnathan J. Vaknin to Appear Pro Hac Vi…
-- **Doc #—** (2026-07-13): >>>NOTICE REGARDING PRO HAC VICE MOTION. Regarding Document No. (1193 in 1:23-cv-08292-SHS-OTW, 761 in 1:23-cv-10211-SHS-OTW, 1626 in 1:25-md-03143-SHS-OTW, 616 in 1:24-cv-04872-SHS-OTW, 748 in 1:24-c…
-- **Doc #—** (2026-07-13): >>>NOTICE REGARDING PRO HAC VICE MOTION. Regarding Document No. (615 in 1:24-cv-04872-SHS-OTW, 43 in 1:26-cv-02097-SHS, 440 in 1:24-cv-01514-SHS-OTW, 306 in 1:25-cv-03483-SHS-OTW, 144 in 1:25-cv-06286…
-- **Doc #1431** (2026-07-13): AMENDED MOTION for Johnathan J. Vaknin to Appear Pro Hac Vice Filing fee $ 200.00, receipt number NYSDC-33120648. Motion and supporting papers to be reviewed by Clerk's Office staff. Document filed by…
-- **Doc #1430** (2026-07-10): MOTION for Johnathan J. Vaknin to Appear Pro Hac Vice . Filing fee $ 200.00, receipt number NYSDC-33120648. Motion and supporting papers to be reviewed by Clerk's Office staff. Document filed by Micro…
-- **Doc #1429** (2026-07-09): CERTIFICATE OF SERVICE of Memorandum of Law in Support of News Plaintiffs' Motion for Sanctions Against OpenAI served on OpenAI, Inc.; OpenAI GP, LLC; OpenAI LP; OpenAI, LLC; OpenAI OpCo, LLC; OpenAI …
-- **Doc #1425** (2026-07-07): MOTION for Isaac S. Behnawa to Appear Pro Hac Vice . Filing fee $ 200.00, receipt number NYSDC-33097478. Motion and supporting papers to be reviewed by Clerk's Office staff. Document filed by Microsof…
-- **Doc #—** (2026-07-07): >>>NOTICE REGARDING PRO HAC VICE MOTION. Regarding Document No. (614 in 1:24-cv-04872-SHS-OTW, 746 in 1:24-cv-03285-SHS-OTW, 1190 in 1:23-cv-08292-SHS-OTW, 1425 in 1:23-cv-11195-SHS-OTW, 1615 in 1:25-…
-- **Doc #1424** (2026-07-02): CERTIFICATE OF SERVICE of ECF 1611 on July 2, 2026. Document filed by OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.L.C…
-- **Doc #1410** (2026-06-03): ORDER FOR ADMISSION PRO HAC VICE granting (1017) Motion for Ana Mendez-Villamil to Appear Pro Hac Vice in case 1:23-cv-08292-SHS-OTW; granting (667) Motion for Ana Mendez-Villamil to Appear Pro Hac Vi…
-- **Doc #1403** (2026-05-22): CERTIFICATE OF SERVICE of ***SEALED***Exhibit C to the Letter Motion Seeking an Emergency Order Compelling The Times to Produce Brand Tracker Raw Survey Data, NYT_01075529 served on All Plaintiffs and…
-- **Doc #1389** (2026-05-05): CERTIFICATE OF SERVICE of Microsoft's Sealed Letter Response to News Plaintiffs' Letter Motion to Compel Microsoft to Product User Metrics Data for new Copilot {Dkt No. 1534) served on NEWS PLAINTIFFS…
-- **Doc #1387** (2026-05-04): CERTIFICATE OF SERVICE of ECF (1538) on May 4, 2026. Document filed by OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.L.…
-- **Doc #1381** (2026-05-04): CERTIFICATE OF SERVICE of ECF (1528) on May 4, 2026. Document filed by OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.L.…
-- **Doc #1371** (2026-04-30): CERTIFICATE OF SERVICE of Letter Motions served on Microsoft Corp., OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.L.C.,…
-- **Doc #1360** (2026-04-29): CERTIFICATE OF SERVICE of ***SEALED*** LETTER MOTION to Compel The New York Times to Produce Brand Tracker Data Exports (1506) served on All Plaintiffs and OpenAI Defendants on April 29, 2026. Service…
-- **Doc #1352** (2026-03-31): ORDER GRANTING MOTION TO ADMIT COUNSEL PRO HAC VICE granting (1042) Motion for David Rosenstein to Appear Pro Hac Vice in case 1:23-cv-08292-SHS-OTW; granting (1246) Motion for David Rosenstein to App…
-- **Doc #1349** (2026-03-31): ORDER FOR ADMISSION PRO HAC VICE granting (1015) Motion for Catherine Y. Lui to Appear Pro Hac Vice in case 1:23-cv-08292-SHS-OTW; granting (666) Motion for Catherine Y. Lui to Appear Pro Hac Vice in …
-- **Doc #1346** (2026-03-28): CERTIFICATE OF SERVICE of ECF (1476) on March 27, 2026. Document filed by OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L…
-- **Doc #1335** (2026-03-20): CERTIFICATE OF SERVICE of ECF (1445) on March 20, 2026. Document filed by OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L…
-- **Doc #1330** (2026-03-18): NOTICE OF APPEARANCE by Asim M. Bhansali on behalf of OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.L.C., OpenAI Holdin…
-- **Doc #1322** (2026-03-11): CERTIFICATE OF SERVICE of Documents filed under seal at ECF (1421) on 03/10/2026. Document filed by OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Gl…
-- **Doc #1311** (2026-03-06): CERTIFICATE OF SERVICE of [UNDER SEAL] [HIGHLIGHTED] PLAINTIFFS REPLY LETTER MOTION RE PROJECT GIRAFFE on 3/6/2026. Document filed by OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI…
-- **Doc #1305** (2026-03-06): CERTIFICATE OF SERVICE of Letter Brief in Response Response to Plaintiffs Discovery Dispute Brief (ECF 1383) and Related Exhibits A-C served on All Plaintiffs and Open AI Defendants on March 5, 2026. …
-- **Doc #1304** (2026-03-06): CERTIFICATE OF SERVICE of UNREDACTED VERSIONS OF (1402) on March 5, 2026. Document filed by OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC…
+- **Doc #1448** (2026-08-05): ORDER FOR ADMISSION PRO HAC VICE granting (1190) Motion for Isaac S. Behnawa to Appear Pro Hac Vice in case 1:23-cv-08292-SHS-OTW; granting (758) Motion for Isaac S. Behnawa to Appear Pro Hac Vice in …
 
 </details>
 
 ---
 
-*產生時間：2026-09-01 01:07 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-10-01 01:08 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

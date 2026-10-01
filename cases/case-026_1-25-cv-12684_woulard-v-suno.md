@@ -1,6 +1,6 @@
 # Case 26 — Woulard v. Suno, Inc.
 
-> 最後更新（CourtListener fetch）：2026-09-01 01:15 UTC
+> 最後更新（CourtListener fetch）：2026-10-01 01:16 UTC
 
 ---
 
@@ -260,4 +260,4 @@ COMPLAINT filed by Hamza Jilani, Stan Burjek, Maatkara Wilson, Magnus Fiennes, A
 
 ---
 
-*產生時間：2026-09-01 01:15 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-10-01 01:16 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

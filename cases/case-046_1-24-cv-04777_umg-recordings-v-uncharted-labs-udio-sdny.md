@@ -1,6 +1,6 @@
 # Case 46 — UMG Recordings, Inc. v. Uncharted Labs, Inc.
 
-> 最後更新（CourtListener fetch）：2026-09-01 01:22 UTC
+> 最後更新（CourtListener fetch）：2026-10-01 01:26 UTC
 
 ---
 
@@ -13,7 +13,7 @@
 | Court | District Court, S.D. New York (`nysd`) |
 | Judge Assigned | Alvin K. Hellerstein |
 | Date Filed | 2024-06-24 |
-| Date Last Filing | 2026-08-24 |
+| Date Last Filing | 2026-09-28 |
 | Cause | 17:101 Copyright Infringement |
 | Nature of Suit | 820 Copyright |
 | Jury Demand | Plaintiff |
@@ -33,11 +33,23 @@
 
 - ✅ Court 一致：dashboard 寫「S.D.N.Y.」，CourtListener 為「S.D. New York」
 - ✅ Judge 一致：dashboard 寫「Alvin K. Hellerstein」，CourtListener 為「Alvin K. Hellerstein」
-- ⚠️ Dashboard progress **落後 56 天**：dashboard 最新日期 2026-06-29，CourtListener 最後 entry 2026-08-24——建議查看新近 entries 並補充 progress
+- ⚠️ Dashboard progress **落後 91 天**：dashboard 最新日期 2026-06-29，CourtListener 最後 entry 2026-09-28——建議查看新近 entries 並補充 progress
 
 ## 3. Docket Entries（最新優先，已過濾程序性 entries）
 
-**實質性 entries**：153 筆／**已過濾程序性 entries**：47 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+**實質性 entries**：155 筆／**已過濾程序性 entries**：45 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+
+### 📄 Doc #187 — 2026-09-28
+
+MEMO ENDORSEMENT on re: 186 Letter filed by Uncharted Labs, Inc., d/b/a Udio.com. ENDORSEMENT: SO ORDERED. (Signed by Judge Alvin K. Hellerstein on 9/28/2026) Attorney Jessie Cammack terminated. (ar) (Entered: 09/28/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68878697/187/umg-recordings-inc-v-uncharted-labs-inc/)
+
+### 📄 Doc #186 — 2026-09-24
+
+LETTER addressed to Judge Alvin K. Hellerstein from Jessie A. Cammack dated September 24, 2026 re: Withdrawal of Jessie A. Cammack. Document filed by Uncharted Labs, Inc., d/b/a Udio.com..(Cammack, Jessie) (Entered: 09/24/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68878697/186/umg-recordings-inc-v-uncharted-labs-inc/)
 
 ### 📄 Doc #— — 2026-08-24
 
@@ -906,7 +918,7 @@ ANSWER to 9 Complaint,. Document filed by Uncharted Labs, Inc., d/b/a Udio.com..
 [CourtListener 連結](https://www.courtlistener.com/docket/68878697/26/umg-recordings-inc-v-uncharted-labs-inc/)
 
 <details>
-<summary>已過濾的 47 筆程序性 entries（點擊展開）</summary>
+<summary>已過濾的 45 筆程序性 entries（點擊展開）</summary>
 
 - **Doc #150** (2026-01-07): ORDER GRANTING MOTION TO ADMIT COUNSEL PRO HAC VICE granting 149 Motion for Christopher Campbell to Appear Pro Hac Vice. IT IS HEREBY ORDERED that Applicant is admitted to practice pro hac vice in the…
 - **Doc #—** (2026-01-07): >>>NOTICE REGARDING PRO HAC VICE MOTION. Regarding Document No. 149 MOTION for Christopher Campbell to Appear Pro Hac Vice . Motion and supporting papers to be reviewed by Clerk's Office staff.. The d…
@@ -953,11 +965,9 @@ ANSWER to 9 Complaint,. Document filed by Uncharted Labs, Inc., d/b/a Udio.com..
 - **Doc #27** (2024-08-07): ORDER GRANTING MOTION TO ADMIT COUNSEL PRO HAC VICE granting 19 Motion for Andrew M. Gass to Appear Pro Hac Vice. The motion of Andrew M. Gass for admission to practice pro hac vice in the above-capti…
 - **Doc #23** (2024-07-31): NOTICE OF APPEARANCE by Alex Spiro on behalf of Uncharted Labs, Inc., d/b/a Udio.com..(Spiro, Alex) (Entered: 07/31/2024)
 - **Doc #24** (2024-07-31): NOTICE OF APPEARANCE by Andrew H. Schapiro on behalf of Uncharted Labs, Inc., d/b/a Udio.com..(Schapiro, Andrew) (Entered: 07/31/2024)
-- **Doc #25** (2024-07-31): NOTICE OF APPEARANCE by Jessica Anne Rose on behalf of Uncharted Labs, Inc., d/b/a Udio.com..(Rose, Jessica) (Entered: 07/31/2024)
-- **Doc #—** (2024-07-11): >>>NOTICE REGARDING PRO HAC VICE MOTION. Regarding Document No. 20 MOTION for Brittany N. Lovejoy to Appear Pro Hac Vice . Filing fee $ 200.00, receipt number ANYSDC-29588332. Motion and supporting pa…
 
 </details>
 
 ---
 
-*產生時間：2026-09-01 01:22 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-10-01 01:26 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

@@ -1,6 +1,6 @@
 # Case 159 — S.A. Jamendo v. Suno Inc.
 
-> 最後更新（CourtListener fetch）：2026-09-01 01:44 UTC
+> 最後更新（CourtListener fetch）：2026-10-01 01:52 UTC
 
 ---
 
@@ -108,4 +108,4 @@ REPORT on the filing/termination of copyright case . (Hornat, Alexander) (Entere
 
 ---
 
-*產生時間：2026-09-01 01:44 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-10-01 01:52 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

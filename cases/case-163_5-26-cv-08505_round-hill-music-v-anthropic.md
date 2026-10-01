@@ -1,6 +1,6 @@
 # Case 163 — Round Hill Music LP v. Anthropic PBC
 
-> 最後更新（CourtListener fetch）：2026-09-01 01:44 UTC
+> 最後更新（CourtListener fetch）：2026-10-01 01:52 UTC
 
 ---
 
@@ -13,7 +13,7 @@
 | Court | District Court, N.D. California (`cand`) |
 | Judge Assigned | Charles R. Breyer |
 | Date Filed | 2026-08-17 |
-| Date Last Filing | 2026-08-28 |
+| Date Last Filing | 2026-09-09 |
 | Cause | 17:101 Copyright Infringement |
 | Nature of Suit | 820 Copyright |
 | Jury Demand | Plaintiff |
@@ -33,23 +33,79 @@
 
 - ⚠️ Court 可能不一致：dashboard 寫「N.D. Cal. 5:26-cv-08505」，CourtListener 為「N.D. California」
 - ⚠️ Judge 可能不一致：dashboard 寫「Nathanael M. Cousins」，CourtListener 為「Charles R. Breyer」
-- ℹ️ Dashboard progress 略落後 11 天：dashboard 最新日期 2026-08-17，CourtListener 最後 entry 2026-08-28
+- ℹ️ Dashboard progress 略落後 23 天：dashboard 最新日期 2026-08-17，CourtListener 最後 entry 2026-09-09
 
 ## 3. Docket Entries（最新優先，已過濾程序性 entries）
 
-**實質性 entries**：24 筆／**已過濾程序性 entries**：10 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+**實質性 entries**：34 筆／**已過濾程序性 entries**：11 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
 
-### 📄 Doc #26 — 2026-08-28
+### 📄 Doc #38 — 2026-09-09
 
-Notice (Other)
+Order on Motion for Pro Hac Vice
 
-[CourtListener 連結](https://www.courtlistener.com/docket/74658311/26/round-hill-music-lp-v-anthropic-pbc/)
+[CourtListener 連結](https://www.courtlistener.com/docket/74658311/38/round-hill-music-lp-v-anthropic-pbc/)
 
-### 📄 Doc #25 — 2026-08-26
+### 📄 Doc #37 — 2026-09-08
 
 Pro Hac Vice
 
-[CourtListener 連結](https://www.courtlistener.com/docket/74658311/25/round-hill-music-lp-v-anthropic-pbc/)
+[CourtListener 連結](https://www.courtlistener.com/docket/74658311/37/round-hill-music-lp-v-anthropic-pbc/)
+
+### 📄 Doc #— — 2026-09-03
+
+Clerk's Notice AND Clerk's Notice Setting Zoom Hearing
+
+### 📄 Doc #30 — 2026-09-02
+
+Order on Motion for Pro Hac Vice
+
+[CourtListener 連結](https://www.courtlistener.com/docket/74658311/30/round-hill-music-lp-v-anthropic-pbc/)
+
+### 📄 Doc #31 — 2026-09-02
+
+Order on Motion for Pro Hac Vice
+
+[CourtListener 連結](https://www.courtlistener.com/docket/74658311/31/round-hill-music-lp-v-anthropic-pbc/)
+
+### 📄 Doc #32 — 2026-09-02
+
+Order on Motion for Pro Hac Vice
+
+[CourtListener 連結](https://www.courtlistener.com/docket/74658311/32/round-hill-music-lp-v-anthropic-pbc/)
+
+### 📄 Doc #33 — 2026-09-02
+
+Order on Motion for Pro Hac Vice
+
+[CourtListener 連結](https://www.courtlistener.com/docket/74658311/33/round-hill-music-lp-v-anthropic-pbc/)
+
+### 📄 Doc #34 — 2026-09-02
+
+Order on Motion for Pro Hac Vice
+
+[CourtListener 連結](https://www.courtlistener.com/docket/74658311/34/round-hill-music-lp-v-anthropic-pbc/)
+
+### 📄 Doc #— — 2026-09-02
+
+Case Assigned/Reassigned
+
+### 📄 Doc #29 — 2026-09-02
+
+Order on Administrative Motion per Civil Local Rule 7-11
+
+[CourtListener 連結](https://www.courtlistener.com/docket/74658311/29/round-hill-music-lp-v-anthropic-pbc/)
+
+### 📄 Doc #27 — 2026-09-01
+
+RELATED CASE ORDER. Case No. 26-cv-8505-CRB is related to Case No. 24-cv-3811-EKL and shall be reassigned to Judge Eumi K. Lee. Signed by Judge Eumi K. Lee on 9/1/2026. (lrt, COURT STAFF) (Filed on 9/1/2026) (Entered: 09/01/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/74658311/27/round-hill-music-lp-v-anthropic-pbc/)
+
+### 📄 Doc #26 — 2026-08-28
+
+NOTICE by GFP Co-Invest, LP, RH Carlin Holdings LLC, Round Hill Music LP, Round Hill Music Royalty Fund II, LP, Round Hill Music Royalty Fund III, LP, Round Hill Royalty Fund III Plus, LP re 24 Notice (Other) of Filing Opposition to Civil Local Rule 7-11 Administrative Motion to Consider Whether Cases Should Be Related (Attachments: # 1 Exhibit A)(Busch, Richard) (Filed on 8/28/2026) (Entered: 08/28/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/74658311/26/round-hill-music-lp-v-anthropic-pbc/)
 
 ### 📄 Doc #24 — 2026-08-25
 
@@ -168,8 +224,9 @@ COMPLAINT For Direct Copyright Infringement, Circumvention of Protection Measure
 [CourtListener 連結](https://www.courtlistener.com/docket/74658311/1/3/round-hill-music-lp-v-anthropic-pbc/)
 
 <details>
-<summary>已過濾的 10 筆程序性 entries（點擊展開）</summary>
+<summary>已過濾的 11 筆程序性 entries（點擊展開）</summary>
 
+- **Doc #25** (2026-08-26): MOTION for leave to appear in Pro Hac Vice David Niemierzycki ( Filing fee $ 328, receipt number ACANDC-22382788.) filed by GFP Co-Invest, LP, RH Carlin Holdings LLC, Round Hill Music LP, Round Hill M…
 - **Doc #15** (2026-08-24): NOTICE of Appearance filed by Ari Holtzblatt on behalf of Anthropic PBC (Holtzblatt, Ari) (Filed on 8/24/2026) (Entered: 08/24/2026)
 - **Doc #14** (2026-08-24): NOTICE of Appearance filed by Sonal N. Mehta on behalf of Anthropic PBC (Mehta, Sonal) (Filed on 8/24/2026) (Entered: 08/24/2026)
 - **Doc #16** (2026-08-24): MOTION for leave to appear in Pro Hac Vice ( Filing fee $ 328, receipt number ACANDC-22375939.) filed by Anthropic PBC. (Tompros, Louis) (Filed on 8/24/2026) (Entered: 08/24/2026)
@@ -185,4 +242,4 @@ COMPLAINT For Direct Copyright Infringement, Circumvention of Protection Measure
 
 ---
 
-*產生時間：2026-09-01 01:44 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-10-01 01:52 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

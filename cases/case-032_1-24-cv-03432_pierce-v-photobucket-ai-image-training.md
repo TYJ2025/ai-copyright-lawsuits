@@ -1,6 +1,6 @@
 # Case 32 — Pierce v. Photobucket, Inc.
 
-> 最後更新（CourtListener fetch）：2026-09-01 01:17 UTC
+> 最後更新（CourtListener fetch）：2026-10-01 01:19 UTC
 
 ---
 
@@ -43,7 +43,7 @@
 
 ### 📄 Doc #61 — 2026-03-10
 
-ORDER  by Judge Philip A. Brimmer on 3/10/2026, re:  19  Defendant Photobucket.com Inc.'s Motion to Compel Arbitration and Stay Proceedings, is DENIED as moot. ORDERED that Defendant Photobucket.com Inc.s Amended Motion to Compel A rbitration and Stay Proceedings  25  is GRANTED in part and DENIED.  ORDERED that Defendant Photobucket.com, Inc.'s Motion to Dismiss the Amended Complaint  54  is GRANTED in part.  ORDERED that the portions of plaint iffs' claims that seek monetary damages are DISMISSED without prejudice for lack of subject matter jurisdiction.  ORDERED that Ms. Hughes shall proceed to arbitrate her dispute according to the provision of the arbitration agreement between her and Photobucket in accordance with this order.  ORDERED that this case shall be administratively closed, subject to reopening by any party upon a showing of good cause, pursuant to D.C.COLO.LCivR 41.2.  (sphil, )
+ORDER by Judge Philip A. Brimmer on 3/10/2026, re: 19 Defendant Photobucket.com Inc.'s Motion to Compel Arbitration and Stay Proceedings, is DENIED as moot. ORDERED that Defendant Photobucket.com Inc.s Amended Motion to Compel Arbitration and Stay Proceedings 25 is GRANTED in part and DENIED. ORDERED that Defendant Photobucket.com, Inc.'s Motion to Dismiss the Amended Complaint 54 is GRANTED in part. ORDERED that the portions of plaintiffs' claims that seek monetary damages are DISMISSED without prejudice for lack of subject matter jurisdiction. ORDERED that Ms. Hughes shall proceed to arbitrate her dispute according to the provision of the arbitration agreement between her and Photobucket in accordance with this order. ORDERED that this case shall be administratively closed, subject to reopening by any party upon a showing of good cause, pursuant to D.C.COLO.LCivR 41.2. (sphil, ) (Entered: 03/10/2026)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/69456658/61/pierce-v-photobucket-inc/)
 
@@ -458,4 +458,4 @@ COMPLAINT against Photobucket, Inc., Unknown Defendants (Filing fee $ 405,Receip
 
 ---
 
-*產生時間：2026-09-01 01:17 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-10-01 01:19 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

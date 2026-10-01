@@ -1,6 +1,6 @@
 # Case 146 — Shakespeare v. Anthropic PBC
 
-> 最後更新（CourtListener fetch）：2026-09-01 01:44 UTC
+> 最後更新（CourtListener fetch）：2026-10-01 01:51 UTC
 
 ---
 
@@ -14,7 +14,7 @@
 | Judge Assigned | P. Casey Pitts |
 | Judge Referred | Susan Van Keulen |
 | Date Filed | 2026-06-17 |
-| Date Last Filing | 2026-08-28 |
+| Date Last Filing | 2026-09-29 |
 | Cause | 17:101 Copyright Infringement |
 | Nature of Suit | 820 Copyright |
 | Jury Demand | Plaintiff |
@@ -34,15 +34,53 @@
 
 - ✅ Court 一致：dashboard 寫「N.D. Cal.」，CourtListener 為「N.D. California」
 - ✅ Judge 一致：dashboard 寫「P. Casey Pitts」，CourtListener 為「P. Casey Pitts」
-- ⚠️ Dashboard progress **落後 50 天**：dashboard 最新日期 2026-07-09，CourtListener 最後 entry 2026-08-28——建議查看新近 entries 並補充 progress
+- ⚠️ Dashboard progress **落後 82 天**：dashboard 最新日期 2026-07-09，CourtListener 最後 entry 2026-09-29——建議查看新近 entries 並補充 progress
 
 ## 3. Docket Entries（最新優先，已過濾程序性 entries）
 
-**實質性 entries**：44 筆／**已過濾程序性 entries**：18 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+**實質性 entries**：51 筆／**已過濾程序性 entries**：20 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+
+### 📄 Doc #51 — 2026-09-29
+
+NOTICE of Change in Counsel: Attorney Hayk Esaghoulyan no longer representing Dario Amodei, Benjamin Mann in this case (Yang, Grace) (Filed on 9/29/2026) (Entered: 09/29/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/73494355/51/shakespeare-v-anthropic-pbc/)
+
+### 📄 Doc #— — 2026-09-29
+
+Notice of Appearance/Substitution/Change/Withdrawal of Attorney
+
+### 📄 Doc #49 — 2026-09-18
+
+Joinder
+
+[CourtListener 連結](https://www.courtlistener.com/docket/73494355/49/shakespeare-v-anthropic-pbc/)
+
+### 📄 Doc #50 — 2026-09-18
+
+Joinder re 48 MOTION to Dismiss Anthropic PBC's Motion to Dismiss First Amended Complaint by Benjamin Mann. (Yang, Grace) (Filed on 9/18/2026) (Entered: 09/18/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/73494355/50/shakespeare-v-anthropic-pbc/)
+
+### 📄 Doc #48 — 2026-09-18
+
+Exhibit 5
+
+[CourtListener 連結](https://www.courtlistener.com/docket/73494355/48/6/shakespeare-v-anthropic-pbc/)
+
+### 📄 Doc #47 — 2026-09-01
+
+OPPOSITION/RESPONSE (re 45 MOTION for Extension of Time to File Answer re 37 Amended Complaint,,,,,,,, ) filed byTiffany Aliche, Bert Bates, Vince Beiser, Clara Bingham, Susan Bliler, Barbara Marie Bonneau, Cylin Busby, Busby Ross Inc., Nolan Bushnell, Stephen J. Caldas, Anne Canadeo, Scott Carney, Jordi Castells, Matthew Chase, Wahida Clark, Suzanne Cope, Carey Corp, Julie Cross, Ron Currie, Jr, Victoria David, Marcy Dermansky, Jim DiEugenio, Jamie Dutcher, Jim Dutcher, Ginny Dye, Mara Einstein, Empellon Holdings LLC, Jane Esselstyn, Rip Esselstyn, Ben L. Evridge, Karen Siff Exkorn, Nir Eyal, Jon Fine, Isabelle Gallo, Stanley Ginsberg, Charles Glass, Reyna Gobel, David Goodman, Matt Gross, Thomas Guzman-Sanchez, Minal Hajratwala, Brenda Hampton, Donna Barba Higuera, Human Resource Development Press Inc., Buzzy Jackson, Nick Jamilla, K. W. Jeter, Matthew Kenney, Pamela Keogh, Lynnette Khalfani-Cox, Joe Konrath, Margaret Ratner Kunstler, as Executrix of the Estate of William Moses Kunst …(truncated)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/73494355/47/1/shakespeare-v-anthropic-pbc/)
+
+### 📄 Doc #— — 2026-09-01
+
+Notice of Appearance/Substitution/Change/Withdrawal of Attorney
 
 ### 📄 Doc #45 — 2026-08-28
 
-Proposed Order
+MOTION for Extension of Time to File Answer re 37 Amended Complaint,,,,,,,, filed by Benjamin Mann. (Attachments: # 1 Declaration of Grace Yang, # 2 Exhibit A, # 3 Proposed Order)(Yang, Grace) (Filed on 8/28/2026) (Entered: 08/28/2026)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/73494355/45/3/shakespeare-v-anthropic-pbc/)
 
@@ -271,8 +309,10 @@ Proposed Summons. (Bartolomei, James) (Filed on 6/17/2026) (Entered: 06/17/2026)
 [CourtListener 連結](https://www.courtlistener.com/docket/73494355/2/shakespeare-v-anthropic-pbc/)
 
 <details>
-<summary>已過濾的 18 筆程序性 entries（點擊展開）</summary>
+<summary>已過濾的 20 筆程序性 entries（點擊展開）</summary>
 
+- **Doc #52** (2026-09-29): NOTICE of Appearance filed by Felipe Corredor on behalf of Dario Amodei, Benjamin Mann (Corredor, Felipe) (Filed on 9/29/2026) (Entered: 09/29/2026)
+- **Doc #46** (2026-09-01): NOTICE of Appearance filed by Miranda Kane on behalf of Dario Amodei, Benjamin Mann (Kane, Miranda) (Filed on 9/1/2026) (Entered: 09/01/2026)
 - **Doc #40** (2026-08-25): NOTICE of Appearance filed by Hayk Esaghoulyan on behalf of Dario Amodei, Benjamin Mann (Esaghoulyan, Hayk) (Filed on 8/25/2026) (Entered: 08/25/2026)
 - **Doc #39** (2026-08-25): NOTICE of Appearance filed by Grace Yu-Ting Yang on behalf of Dario Amodei, Benjamin Mann (Yang, Grace) (Filed on 8/25/2026) (Entered: 08/25/2026)
 - **Doc #36** (2026-08-17): Certificate of Interested Entities by Anthropic PBC identifying Other Affiliate Alphabet, Inc., Other Affiliate Google LLC, Other Affiliate Amazon Web Services, Inc., which is a wholly owned subsidiar…
@@ -296,4 +336,4 @@ Proposed Summons. (Bartolomei, James) (Filed on 6/17/2026) (Entered: 06/17/2026)
 
 ---
 
-*產生時間：2026-09-01 01:44 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-10-01 01:51 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

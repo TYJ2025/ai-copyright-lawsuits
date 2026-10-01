@@ -1,6 +1,6 @@
 # Case 42 — Ziff Davis, Inc. v. OpenAI, Inc.
 
-> 最後更新（CourtListener fetch）：2026-09-01 01:20 UTC
+> 最後更新（CourtListener fetch）：2026-10-01 01:24 UTC
 
 ---
 
@@ -14,7 +14,7 @@
 | Judge Assigned | Sidney H. Stein |
 | Judge Referred | Ona T. Wang |
 | Date Filed | 2025-05-22 |
-| Date Last Filing | 2026-08-19 |
+| Date Last Filing | 2026-09-24 |
 | Cause | 17:501 Copyright Infringement |
 | Nature of Suit | 820 Copyright |
 | Jury Demand | Plaintiff |
@@ -34,11 +34,623 @@
 
 - ⚠️ Court 可能不一致：dashboard 寫「MDL Before Judge Stein (Originally D. Del.)」，CourtListener 為「S.D. New York」
 - ✅ Judge 一致：dashboard 寫「Sidney H. Stein」，CourtListener 為「Sidney H. Stein」
-- ℹ️ Dashboard progress 略落後 2 天：dashboard 最新日期 2026-08-17，CourtListener 最後 entry 2026-08-19
+- ⚠️ Dashboard progress **落後 38 天**：dashboard 最新日期 2026-08-17，CourtListener 最後 entry 2026-09-24——建議查看新近 entries 並補充 progress
 
 ## 3. Docket Entries（最新優先，已過濾程序性 entries）
 
-**實質性 entries**：169 筆／**已過濾程序性 entries**：31 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+**實質性 entries**：187 筆／**已過濾程序性 entries**：13 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+
+### 📄 Doc #677 — 2026-09-24
+
+Exhibit 58
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70338311/677/58/ziff-davis-inc-v-openai-inc/)
+
+### 📄 Doc #676 — 2026-09-24
+
+Exhibit N - Filed Under Seal
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70338311/676/14/ziff-davis-inc-v-openai-inc/)
+
+### 📄 Doc #675 — 2026-09-24
+
+Appendix A - Analysis of Daily News Plaintiffs URL Crawl Dates
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70338311/675/1/ziff-davis-inc-v-openai-inc/)
+
+### 📄 Doc #682 — 2026-09-24
+
+Certificate of Service Other
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70338311/682/ziff-davis-inc-v-openai-inc/)
+
+### 📄 Doc #671 — 2026-09-24
+
+Miscellaneous Relief
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70338311/671/ziff-davis-inc-v-openai-inc/)
+
+### 📄 Doc #672 — 2026-09-24
+
+Memorandum of Law in Support of Motion
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70338311/672/ziff-davis-inc-v-openai-inc/)
+
+### 📄 Doc #673 — 2026-09-24
+
+Memorandum of Law in Support of Motion
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70338311/673/ziff-davis-inc-v-openai-inc/)
+
+### 📄 Doc #674 — 2026-09-24
+
+Declaration in Support of Motion
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70338311/674/ziff-davis-inc-v-openai-inc/)
+
+### 📄 Doc #678 — 2026-09-24
+
+Declaration in Support of Motion
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70338311/678/ziff-davis-inc-v-openai-inc/)
+
+### 📄 Doc #679 — 2026-09-24
+
+Oral Argument
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70338311/679/ziff-davis-inc-v-openai-inc/)
+
+### 📄 Doc #680 — 2026-09-24
+
+Declaration in Support of Motion
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70338311/680/ziff-davis-inc-v-openai-inc/)
+
+### 📄 Doc #681 — 2026-09-24
+
+Certificate of Service Other
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70338311/681/ziff-davis-inc-v-openai-inc/)
+
+### 📄 Doc #670 — 2026-09-24
+
+Order on Motion for Extension of Time to File
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70338311/670/ziff-davis-inc-v-openai-inc/)
+
+### 📄 Doc #669 — 2026-09-21
+
+Exhibit B - September 18, 2026 Email among lead counsel regarding Defendants
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70338311/669/2/ziff-davis-inc-v-openai-inc/)
+
+### 📄 Doc #668 — 2026-09-21
+
+Extension of Time to File Document
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70338311/668/ziff-davis-inc-v-openai-inc/)
+
+### 📄 Doc #667 — 2026-09-18
+
+Rule 56.1 Statement
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70338311/667/ziff-davis-inc-v-openai-inc/)
+
+### 📄 Doc #666 — 2026-09-17
+
+Certificate of Service Other
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70338311/666/ziff-davis-inc-v-openai-inc/)
+
+### 📄 Doc #663 — 2026-09-17
+
+Proposed Order
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70338311/663/1/ziff-davis-inc-v-openai-inc/)
+
+### 📄 Doc #665 — 2026-09-17
+
+Exhibit B
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70338311/665/2/ziff-davis-inc-v-openai-inc/)
+
+### 📄 Doc #664 — 2026-09-17
+
+Declaration in Support of Motion
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70338311/664/ziff-davis-inc-v-openai-inc/)
+
+### 📄 Doc #653 — 2026-09-17
+
+Declaration (non-motion)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70338311/653/ziff-davis-inc-v-openai-inc/)
+
+### 📄 Doc #654 — 2026-09-17
+
+Declaration (non-motion)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70338311/654/ziff-davis-inc-v-openai-inc/)
+
+### 📄 Doc #655 — 2026-09-17
+
+Declaration (non-motion)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70338311/655/ziff-davis-inc-v-openai-inc/)
+
+### 📄 Doc #656 — 2026-09-17
+
+Declaration (non-motion)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70338311/656/ziff-davis-inc-v-openai-inc/)
+
+### 📄 Doc #657 — 2026-09-17
+
+Declaration (non-motion)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70338311/657/ziff-davis-inc-v-openai-inc/)
+
+### 📄 Doc #658 — 2026-09-17
+
+Declaration (non-motion)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70338311/658/ziff-davis-inc-v-openai-inc/)
+
+### 📄 Doc #659 — 2026-09-17
+
+Declaration (non-motion)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70338311/659/ziff-davis-inc-v-openai-inc/)
+
+### 📄 Doc #660 — 2026-09-17
+
+Declaration (non-motion)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70338311/660/ziff-davis-inc-v-openai-inc/)
+
+### 📄 Doc #661 — 2026-09-17
+
+Declaration (non-motion)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70338311/661/ziff-davis-inc-v-openai-inc/)
+
+### 📄 Doc #662 — 2026-09-17
+
+Declaration (non-motion)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70338311/662/ziff-davis-inc-v-openai-inc/)
+
+### 📄 Doc #651 — 2026-09-17
+
+Declaration (non-motion)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70338311/651/ziff-davis-inc-v-openai-inc/)
+
+### 📄 Doc #652 — 2026-09-17
+
+Declaration (non-motion)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70338311/652/ziff-davis-inc-v-openai-inc/)
+
+### 📄 Doc #650 — 2026-09-17
+
+Exhibit A - News Plaintiffs' Corrected Rule 56.1 Statement - redacted
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70338311/650/1/ziff-davis-inc-v-openai-inc/)
+
+### 📄 Doc #648 — 2026-09-17
+
+Redacted Document
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70338311/648/ziff-davis-inc-v-openai-inc/)
+
+### 📄 Doc #649 — 2026-09-17
+
+Redacted Document
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70338311/649/ziff-davis-inc-v-openai-inc/)
+
+### 📄 Doc #647 — 2026-09-17
+
+Exhibit Public Redacted Memorandum of Law
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70338311/647/1/ziff-davis-inc-v-openai-inc/)
+
+### 📄 Doc #645 — 2026-09-16
+
+Appendix H (Filed Under Seal)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70338311/645/1/ziff-davis-inc-v-openai-inc/)
+
+### 📄 Doc #646 — 2026-09-16
+
+Notice (Other)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70338311/646/ziff-davis-inc-v-openai-inc/)
+
+### 📄 Doc #641 — 2026-09-14
+
+Exhibit F
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70338311/641/6/ziff-davis-inc-v-openai-inc/)
+
+### 📄 Doc #639 — 2026-09-14
+
+Proposed Order
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70338311/639/1/ziff-davis-inc-v-openai-inc/)
+
+### 📄 Doc #642 — 2026-09-14
+
+Certificate of Service Other
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70338311/642/ziff-davis-inc-v-openai-inc/)
+
+### 📄 Doc #643 — 2026-09-14
+
+Notice of Appearance
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70338311/643/ziff-davis-inc-v-openai-inc/)
+
+### 📄 Doc #644 — 2026-09-14
+
+Notice of Appearance
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70338311/644/ziff-davis-inc-v-openai-inc/)
+
+### 📄 Doc #640 — 2026-09-14
+
+Declaration in Support of Motion
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70338311/640/ziff-davis-inc-v-openai-inc/)
+
+### 📄 Doc #636 — 2026-09-14
+
+Response to Motion
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70338311/636/ziff-davis-inc-v-openai-inc/)
+
+### 📄 Doc #637 — 2026-09-14
+
+Declaration in Support (non-motion)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70338311/637/ziff-davis-inc-v-openai-inc/)
+
+### 📄 Doc #638 — 2026-09-14
+
+Declaration in Support of Motion
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70338311/638/ziff-davis-inc-v-openai-inc/)
+
+### 📄 Doc #635 — 2026-09-11
+
+Order
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70338311/635/ziff-davis-inc-v-openai-inc/)
+
+### 📄 Doc #630 — 2026-09-04
+
+Exhibit S
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70338311/630/19/ziff-davis-inc-v-openai-inc/)
+
+### 📄 Doc #620 — 2026-09-04
+
+Exhibit C (Filed Under Seal)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70338311/620/3/ziff-davis-inc-v-openai-inc/)
+
+### 📄 Doc #619 — 2026-09-04
+
+Exhibit D (Filed Under Seal)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70338311/619/4/ziff-davis-inc-v-openai-inc/)
+
+### 📄 Doc #615 — 2026-09-04
+
+Exhibit 3 - Feamster Opening Appendix D
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70338311/615/3/ziff-davis-inc-v-openai-inc/)
+
+### 📄 Doc #627 — 2026-09-04
+
+Exhibit 305
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70338311/627/46/ziff-davis-inc-v-openai-inc/)
+
+### 📄 Doc #626 — 2026-09-04
+
+Exhibit 259
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70338311/626/55/ziff-davis-inc-v-openai-inc/)
+
+### 📄 Doc #618 — 2026-09-04
+
+Exhibit 204
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70338311/618/102/ziff-davis-inc-v-openai-inc/)
+
+### 📄 Doc #588 — 2026-09-04
+
+Proposed Order
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70338311/588/1/ziff-davis-inc-v-openai-inc/)
+
+### 📄 Doc #625 — 2026-09-04
+
+Exhibit A - Rebuttal Report (filed under seal)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70338311/625/1/ziff-davis-inc-v-openai-inc/)
+
+### 📄 Doc #633 — 2026-09-04
+
+Exhibit C - ZD CMI Spreadsheets
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70338311/633/23/ziff-davis-inc-v-openai-inc/)
+
+### 📄 Doc #611 — 2026-09-04
+
+Exhibit 102
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70338311/611/102/ziff-davis-inc-v-openai-inc/)
+
+### 📄 Doc #634 — 2026-09-04
+
+Certificate of Service Other
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70338311/634/ziff-davis-inc-v-openai-inc/)
+
+### 📄 Doc #631 — 2026-09-04
+
+Declaration in Support of Motion
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70338311/631/ziff-davis-inc-v-openai-inc/)
+
+### 📄 Doc #632 — 2026-09-04
+
+Declaration in Support of Motion
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70338311/632/ziff-davis-inc-v-openai-inc/)
+
+### 📄 Doc #621 — 2026-09-04
+
+Certificate of Service Other
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70338311/621/ziff-davis-inc-v-openai-inc/)
+
+### 📄 Doc #622 — 2026-09-04
+
+Declaration in Support of Motion
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70338311/622/ziff-davis-inc-v-openai-inc/)
+
+### 📄 Doc #623 — 2026-09-04
+
+Declaration in Support of Motion
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70338311/623/ziff-davis-inc-v-openai-inc/)
+
+### 📄 Doc #624 — 2026-09-04
+
+Declaration in Support of Motion
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70338311/624/ziff-davis-inc-v-openai-inc/)
+
+### 📄 Doc #628 — 2026-09-04
+
+Certificate of Service Other
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70338311/628/ziff-davis-inc-v-openai-inc/)
+
+### 📄 Doc #629 — 2026-09-04
+
+Declaration in Support of Motion
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70338311/629/ziff-davis-inc-v-openai-inc/)
+
+### 📄 Doc #605 — 2026-09-04
+
+Declaration in Support of Motion
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70338311/605/ziff-davis-inc-v-openai-inc/)
+
+### 📄 Doc #606 — 2026-09-04
+
+Declaration in Support of Motion
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70338311/606/ziff-davis-inc-v-openai-inc/)
+
+### 📄 Doc #607 — 2026-09-04
+
+Declaration in Support of Motion
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70338311/607/ziff-davis-inc-v-openai-inc/)
+
+### 📄 Doc #608 — 2026-09-04
+
+Declaration in Support of Motion
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70338311/608/ziff-davis-inc-v-openai-inc/)
+
+### 📄 Doc #609 — 2026-09-04
+
+Declaration in Support of Motion
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70338311/609/ziff-davis-inc-v-openai-inc/)
+
+### 📄 Doc #610 — 2026-09-04
+
+Declaration in Support of Motion
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70338311/610/ziff-davis-inc-v-openai-inc/)
+
+### 📄 Doc #612 — 2026-09-04
+
+Declaration in Support of Motion
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70338311/612/ziff-davis-inc-v-openai-inc/)
+
+### 📄 Doc #613 — 2026-09-04
+
+Declaration in Support of Motion
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70338311/613/ziff-davis-inc-v-openai-inc/)
+
+### 📄 Doc #614 — 2026-09-04
+
+Declaration in Support of Motion
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70338311/614/ziff-davis-inc-v-openai-inc/)
+
+### 📄 Doc #616 — 2026-09-04
+
+Declaration in Support of Motion
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70338311/616/ziff-davis-inc-v-openai-inc/)
+
+### 📄 Doc #617 — 2026-09-04
+
+Declaration in Support of Motion
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70338311/617/ziff-davis-inc-v-openai-inc/)
+
+### 📄 Doc #597 — 2026-09-04
+
+Oral Argument
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70338311/597/ziff-davis-inc-v-openai-inc/)
+
+### 📄 Doc #598 — 2026-09-04
+
+Rule 56.1 Statement
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70338311/598/ziff-davis-inc-v-openai-inc/)
+
+### 📄 Doc #599 — 2026-09-04
+
+Declaration in Support of Motion
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70338311/599/ziff-davis-inc-v-openai-inc/)
+
+### 📄 Doc #600 — 2026-09-04
+
+Declaration in Support of Motion
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70338311/600/ziff-davis-inc-v-openai-inc/)
+
+### 📄 Doc #601 — 2026-09-04
+
+Certificate of Service Other
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70338311/601/ziff-davis-inc-v-openai-inc/)
+
+### 📄 Doc #602 — 2026-09-04
+
+Declaration in Support of Motion
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70338311/602/ziff-davis-inc-v-openai-inc/)
+
+### 📄 Doc #603 — 2026-09-04
+
+Declaration in Support of Motion
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70338311/603/ziff-davis-inc-v-openai-inc/)
+
+### 📄 Doc #604 — 2026-09-04
+
+Declaration in Support of Motion
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70338311/604/ziff-davis-inc-v-openai-inc/)
+
+### 📄 Doc #590 — 2026-09-04
+
+Declaration in Support of Motion
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70338311/590/ziff-davis-inc-v-openai-inc/)
+
+### 📄 Doc #591 — 2026-09-04
+
+Declaration in Support of Motion
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70338311/591/ziff-davis-inc-v-openai-inc/)
+
+### 📄 Doc #592 — 2026-09-04
+
+Memorandum of Law in Support of Motion
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70338311/592/ziff-davis-inc-v-openai-inc/)
+
+### 📄 Doc #593 — 2026-09-04
+
+Declaration in Support of Motion
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70338311/593/ziff-davis-inc-v-openai-inc/)
+
+### 📄 Doc #594 — 2026-09-04
+
+Declaration in Support of Motion
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70338311/594/ziff-davis-inc-v-openai-inc/)
+
+### 📄 Doc #595 — 2026-09-04
+
+Rule 56.1 Statement
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70338311/595/ziff-davis-inc-v-openai-inc/)
+
+### 📄 Doc #596 — 2026-09-04
+
+Memorandum of Law in Support of Motion
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70338311/596/ziff-davis-inc-v-openai-inc/)
+
+### 📄 Doc #589 — 2026-09-04
+
+Redacted Document
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70338311/589/ziff-davis-inc-v-openai-inc/)
+
+### 📄 Doc #585 — 2026-09-04
+
+Exhibit News Plaintiffs' Memorandum of Law in Support of Motion for Leave t
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70338311/585/1/ziff-davis-inc-v-openai-inc/)
+
+### 📄 Doc #586 — 2026-09-04
+
+Exhibit News Plaintiffs' Memorandum of Law in Support of Motion for Leave t
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70338311/586/1/ziff-davis-inc-v-openai-inc/)
+
+### 📄 Doc #587 — 2026-09-04
+
+Summary Judgment
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70338311/587/ziff-davis-inc-v-openai-inc/)
+
+### 📄 Doc #584 — 2026-09-03
+
+Stipulation and Order AND ~Util - Set Deadlines
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70338311/584/ziff-davis-inc-v-openai-inc/)
+
+### 📄 Doc #583 — 2026-09-03
+
+Answer to Amended Complaint
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70338311/583/ziff-davis-inc-v-openai-inc/)
+
+### 📄 Doc #582 — 2026-09-01
+
+Letter
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70338311/582/ziff-davis-inc-v-openai-inc/)
+
+### 📄 Doc #581 — 2026-08-31
+
+Proposed Stipulation and Order
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70338311/581/ziff-davis-inc-v-openai-inc/)
 
 ### 📄 Doc #580 — 2026-08-19
 
@@ -532,494 +1144,8 @@ JOINT LETTER addressed to Judge Sidney H. Stein from Annette L. Hurst, Robert Va
 
 [CourtListener 連結](https://www.courtlistener.com/docket/70338311/494/ziff-davis-inc-v-openai-inc/)
 
-### 📄 Doc #492 — 2026-03-14
-
-STATUS REPORT. (Joint) LETTER addressed to Magistrate Judge Ona T. Wang re [1202, 1210, 1322] Document filed by CNET MEDIA, INC., Everyday Health Media LLC, IGN Entertainment Inc., Mashable, Inc., Ziff Davis Inc., Ziff Davis, LLC.Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:25-cv-04315-SHS-OTW.(Ruttenberg, Guy) (Entered: 03/14/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/70338311/492/ziff-davis-inc-v-openai-inc/)
-
-### 📄 Doc #— — 2026-03-13
-
-Minute Entry for proceedings held before Magistrate Judge Ona T. Wang: Remote Settlement Conference held on 3/13/2026. Associated Cases: 1:25-md-03143-SHS-OTW et al.(Quinn, Diane)
-
-### 📄 Doc #— — 2026-03-13
-
-Minute Entry for proceedings held before Magistrate Judge Ona T. Wang: Pre-Settlement Conference held on 3/13/2026. Associated Cases: 1:25-md-03143-SHS-OTW et al.(Quinn, Diane)
-
-### 📄 Doc #490 — 2026-03-13
-
-LETTER addressed to Magistrate Judge Ona T. Wang from Andrew Dawson, Herman H. Yue, Rose S. Lee dated March 13, 2026 re: G. Brockman Letter to Court Requesting Extension of Deadline. Document filed by OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.L.C., OpenAI Holdings LLC, OpenAI Holdings, LLC, OpenAI Inc., OpenAI LLC, OpenAI LP, OpenAI OpCo LLC, OpenAI OpCo LLC(a Delaware limited liability corporation), OpenAI OpCo, L.L.C., OpenAI Startup Fund GP I LLC, OpenAI Startup Fund GP I LLC(a Delaware limited liability company), OpenAI Startup Fund I LP, OpenAI Startup Fund I LP(a Delaware limited partnership), OpenAI Startup Fund Management LLC, OpenAI Startup Fund Management LLC(a Delaware limited liability company), OpenAI, Inc., OpenAI, Inc. Copyright Infringement Litigation, OpenAI, LLC, OAI Corporation, LLC, OpenAI Foundation, OpenAI GP, LLC, OpenAI Global, LLC, OpenAI Group PBC, OpenAI LP, OpenAI OpCo, LLC, …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/70338311/490/1/ziff-davis-inc-v-openai-inc/)
-
-### 📄 Doc #491 — 2026-03-13
-
-ORDER: The Court held a confidential discovery settlement conference for all actions in this matter on Friday, March 13, 2026. The Court will conduct another confidential discovery settlement conference on Monday, March 30, 2026, at 2:00 p.m. ET. The parties shall submit any pre-settlement submissions to Chambers via email no later than Friday, March 27, 2026. The parties shall also provide a joint agenda for the conference by emailing it to Chambers no later than 10:00 a.m. ET on Monday, March 30, 2026. Plaintiffs are directed to circulate a Zoom link to all parties in advance of the conference. The Court sets the following briefing schedule for production of the deposition transcripts and companying exhibits in the Musk litigation: Plaintiffs' opening brief due March 20; OpenAI's response due March 23. There shall be no replies. Parties are reminded to refer back to the January 15, 2026, hearing transcript before submitting their briefing. SO ORDERED. ( Brief due by 3/20/2026., Respo …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/70338311/491/ziff-davis-inc-v-openai-inc/)
-
-### 📄 Doc #487 — 2026-03-11
-
-DECLARATION of Maile Yeats-Rowe in Support re: (1420 in 1:25-md-03143-SHS-OTW) LETTER MOTION to Seal re ECF (1383) addressed to Magistrate Judge Ona T. Wang from Caitlin S. Blythe, Christopher S. Sun, Allison S. Blanco dated 03/10/2026.. Document filed by OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.L.C., OpenAI Holdings LLC, OpenAI Holdings, LLC, OpenAI Inc., OpenAI LLC, OpenAI LP, OpenAI OpCo LLC, OpenAI OpCo LLC(a Delaware limited liability corporation), OpenAI OpCo, L.L.C., OpenAI Startup Fund GP I LLC, OpenAI Startup Fund GP I LLC(a Delaware limited liability company), OpenAI Startup Fund I LP, OpenAI Startup Fund I LP(a Delaware limited partnership), OpenAI Startup Fund Management LLC, OpenAI Startup Fund Management LLC(a Delaware limited liability company), OpenAI, Inc., OpenAI, LLC. (Attachments: # 1 Exhibit A (slipsheet), # 2 Exhibit B (slipsheet), # 3 Exhibit C (slipsheet), # 4 Exhibit D (slipsh …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/70338311/487/4/ziff-davis-inc-v-openai-inc/)
-
-### 📄 Doc #— — 2026-03-11
-
-Set/Reset Hearings: Settlement Conference set for 3/13/2026 at 12:00 PM before Magistrate Judge Ona T. Wang. Associated Cases: 1:25-md-03143-SHS-OTW et al.(rro)
-
-### 📄 Doc #489 — 2026-03-11
-
-ORDER in case 1:23-cv-08292-SHS-OTW; denying (1265) Letter Motion for Discovery in case 1:23-cv-11195-SHS-OTW; denying (673) Letter Motion for Discovery in case 1:24-cv-03285-SHS-OTW; terminating (1202) Letter Motion to Compel; terminating (1210) Letter Motion to Compel; terminating (1322) Letter Motion to Compel; denying (1356) Letter Motion for Discovery in case 1:25-md-03143-SHS-OTW; terminating (374) Letter Motion to Compel; terminating (427) Letter Motion to Compel in case 1:25-cv-04315-SHS-OTW. The Court held a discovery status conference for all actions in this matter on Tuesday, March 10, 2026. As ORDERED at the March 10 Conference: A. Confidential discovery settlement conference Friday, March 13, 2026 The Court will conduct a confidential discovery settlement conference on Friday, March 13, 2026, at 12:00 p.m. ET. The parties shall submit any pre-settlement submissions to Chambers via email no later than Thursday, March 12, 2026. The parties shall also provide a joint agenda f …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/70338311/489/ziff-davis-inc-v-openai-inc/)
-
-### 📄 Doc #486 — 2026-03-11
-
-***SEALED***DECLARATION of Maile Yeats-Rowe in Support re: (1420 in 1:25-md-03143-SHS-OTW) LETTER MOTION to Seal re ECF (1383) addressed to Magistrate Judge Ona T. Wang from Caitlin S. Blythe, Christopher S. Sun, Allison S. Blanco dated 03/10/2026.. Document filed by OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.L.C., OpenAI Holdings LLC, OpenAI Holdings, LLC, OpenAI Inc., OpenAI LLC, OpenAI LP, OpenAI OpCo LLC, OpenAI OpCo LLC(a Delaware limited liability corporation), OpenAI OpCo, L.L.C., OpenAI Startup Fund GP I LLC, OpenAI Startup Fund GP I LLC(a Delaware limited liability company), OpenAI Startup Fund I LP, OpenAI Startup Fund I LP(a Delaware limited partnership), OpenAI Startup Fund Management LLC, OpenAI Startup Fund Management LLC(a Delaware limited liability company), OpenAI, Inc., OpenAI, LLC. (Attachments: # 1 Exhibit A - Unredacted Highlighted Version of ECF 1383, # 2 Exhibit B - Unredacted Hig …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/70338311/486/ziff-davis-inc-v-openai-inc/)
-
-### 📄 Doc #— — 2026-03-10
-
-Minute Entry for proceedings held before Magistrate Judge Ona T. Wang: Status Conference held on 3/10/2026. Associated Cases: 1:25-md-03143-SHS-OTW et al.(Quinn, Diane)
-
-### 📄 Doc #485 — 2026-03-10
-
-LETTER MOTION to Seal re ECF 1383 addressed to Magistrate Judge Ona T. Wang from Caitlin S. Blythe, Christopher S. Sun, Allison S. Blanco dated 03/10/2026. Document filed by OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.L.C., OpenAI Holdings LLC, OpenAI Holdings, LLC, OpenAI Inc., OpenAI LLC, OpenAI LP, OpenAI OpCo LLC, OpenAI OpCo LLC(a Delaware limited liability corporation), OpenAI OpCo, L.L.C., OpenAI Startup Fund GP I LLC, OpenAI Startup Fund GP I LLC(a Delaware limited liability company), OpenAI Startup Fund I LP, OpenAI Startup Fund I LP(a Delaware limited partnership), OpenAI Startup Fund Management LLC, OpenAI Startup Fund Management LLC(a Delaware limited liability company), OpenAI, Inc., OpenAI, LLC. (Attachments: # 1 Proposed Order Granting OpenAI Sealing Motion)Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:23-cv-08292-SHS-OTW, 1:23-cv-11195-SHS-OTW, 1:25-cv-04315-SHS-OTW.(Blythe, Caitlin …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/70338311/485/1/ziff-davis-inc-v-openai-inc/)
-
-### 📄 Doc #484 — 2026-03-09
-
-ORDER granting (974) Letter Motion to Compel in case 1:23-cv-08292-SHS-OTW; granting (647) Letter Motion to Compel in case 1:23-cv-10211-SHS-OTW; granting (1185) Letter Motion to Compel; granting in part (1241) Letter Motion to Compel in case 1:23-cv-11195-SHS-OTW; granting (333) Letter Motion to Compel in case 1:24-cv-00084-SHS-OTW; granting (365) Letter Motion to Compel in case 1:24-cv-01514-SHS-OTW; granting (400) Letter Motion to Compel in case 1:24-cv-01515-SHS-OTW; granting (611) Letter Motion to Compel in case 1:24-cv-03285-SHS-OTW; granting (512) Letter Motion to Compel in case 1:24-cv-04872-SHS-OTW; granting (1200) Letter Motion to Compel; granting in part (1312) Letter Motion to Compel in case 1:25-md-03143-SHS-OTW; granting (200) Letter Motion to Compel in case 1:25-cv-03291-SHS-OTW; granting (308) Letter Motion to Compel in case 1:25-cv-03297-SHS-OTW; granting (754) Letter Motion to Compel in case 1:25-cv-03482-SHS-OTW; granting (245) Letter Motion to Compel in case 1:25-cv …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/70338311/484/ziff-davis-inc-v-openai-inc/)
-
-### 📄 Doc #483 — 2026-03-09
-
-ORDER SETTING AGENDA FOR MARCH 10 2026 CONFERENCE (Signed by Magistrate Judge Ona T. Wang on 03/9/2026) Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al. (Wang, Ona) (Entered: 03/09/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/70338311/483/ziff-davis-inc-v-openai-inc/)
-
-### 📄 Doc #482 — 2026-03-09
-
-JOINT STIPULATION AND ORDER ON TAKING CERTAIN DEPOSITIONS AFTER THE FEBRUARY 27, 2026 FACT DISCOVERY DEADLINE: Class Plaintiffs and News Plaintiffs (collectively "Plaintiffs"), OpenAI, and Microsoft submit the following stipulation and agreement with respect to the scheduling of depositions after the February 27, 2026 fact discovery deadline, as to which the parties agree there is good cause: Dario Amodei: All parties have consented to taking Mr. Amodei's deposition on March 27, 2026. Mike Trinh: All parties have consented to taking Mr. Trinh's deposition on March 3, 2026. Simone Procas: All parties have consented to taking Ms. Procas's deposition on March 4, 2026. Mira Murati: All parties have consented to taking Ms. Murati's deposition on March 5, 2026. Barret Zoph: All parties have consented to taking Mr. Zoph's deposition on March 6, 2026. Boston Consulting Group: All parties have consented to taking Boston Consulting Group's deposition on March 6, 2026. llya Sutskever: All parties …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/70338311/482/ziff-davis-inc-v-openai-inc/)
-
-### 📄 Doc #480 — 2026-03-09
-
-STIPULATION REGARDING DEPOSITION TIME FOR MICROSOFT WITNESSES: Pursuant to the Court's Oral Order during the February 11, 2026 Discovery Conference, Class Plaintiffs and News Plaintiffs ( collectively "Plaintiffs") and Microsoft submit the following stipulation and agreement with respect to deposition time for Microsoft Witnesses ( defined herein to include both cunrrent and former Microsoft employees): Accordingly, Plaintiffs and Microsoft stipulate and agree as follows: 1. Absent good cause arising after February 13, 2026, Plaintiffs will not seek any additional Rule 30(b)(l) time for Microsoft Witnesses; 2. For Microsoft witnesses deposed on or after February 4, 2026, Plaintiffs may collectively reallocate up to 30 hours of Rule 30(b)(l) deposition time to 30(b) (6) deposition time, at Plaintiffs' discretion; 3. Plaintiffs withdraw their requests for depositions of the four witnesses disclosed by Microsoft on January 16, 2026, unless and until those witnesses provide a declaration p …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/70338311/480/ziff-davis-inc-v-openai-inc/)
-
-### 📄 Doc #481 — 2026-03-09
-
-STIPULATION REGARDING DEPOSITION TIME: IT IS HEREBY STIPULATED AND AGREED, by and between Class Plaintiffs, News Plaintiffs and Defendant OpenAI ( collectively, the "Parties"), in each case by and through their respective attorneys, as follows: 1. Plaintiffs may reallocate thirty-five (35) hours from their third-party deposition time caps to be used for depositions of OpenAI's current and former employees. 2. Of the thirty-five (35) reallocated hours described in Paragraph 1, Plaintiffs may use up to fifteen ( 15) hours for Rule 30(b )( 6) depositions of OpenAI witnesses. For clarification purposes, the Parties agree that as of February 13, 2026, Plaintiffs had 15 total Rule 30(b)(6) hours remaining with OpenAI witnesses. 3. OpenAI and Microsoft may reallocate up to thirty-five (3 5) hours from their third-party deposition time caps to be used for depositions of News Plaintiffs' current and former employee witnesses. Of the thirty-five (35) reallocated hours, OpenAI and Microsoft may u …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/70338311/481/ziff-davis-inc-v-openai-inc/)
-
-### 📄 Doc #475 — 2026-03-06
-
-LETTER addressed to Magistrate Judge Ona T. Wang from Rose S. Lee, Christopher S. Sun, Luke A. Budiardjo dated March 5, 2026 re: OpenAIs Responsive Case Management Conference Brief to ECF (1383). Document filed by OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.L.C., OpenAI Holdings LLC, OpenAI Holdings, LLC, OpenAI Inc., OpenAI LLC, OpenAI LP, OpenAI OpCo LLC, OpenAI OpCo LLC(a Delaware limited liability corporation), OpenAI OpCo, L.L.C., OpenAI Startup Fund GP I LLC, OpenAI Startup Fund GP I LLC(a Delaware limited liability company), OpenAI Startup Fund I LP, OpenAI Startup Fund I LP(a Delaware limited partnership), OpenAI Startup Fund Management LLC, OpenAI Startup Fund Management LLC(a Delaware limited liability company), OpenAI, Inc., OpenAI, LLC. (Attachments: # 1 Exhibit 1 (slipsheet), # 2 Exhibit 2 - Email, # 3 Exhibit 3 - Rynerson Dep, # 4 Exhibit 4 (slipsheet), # 5 Exhibit 5 - Heidecke Dep, # 6 Exh …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/70338311/475/7/ziff-davis-inc-v-openai-inc/)
-
-### 📄 Doc #— — 2026-03-06
-
-Order on Motion for Leave to File Document
-
-### 📄 Doc #474 — 2026-03-06
-
-LETTER addressed to Magistrate Judge Ona T. Wang from Annette L. Hurst and Jared B. Briant dated March 5, 2026 re: Microsoft's Response to ECF 1383. Document filed by Microsoft Corporation. (Attachments: # 1 Exhibit A - Excerpts of Nov. 5, 2026 Deposition Transcript of Jordan Ribas, # 2 Exhibit B - Deposition Scheduling Email, # 3 Exhibit C - Privilege Log Chart, # 4 Exhibit D - Email Re Plaintiff's Sealed Brief, # 5 Exhibit E - The New York Times Company's First Set of Interrogatories to Microsoft)Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Najemy, Laura) (Entered: 03/06/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/70338311/474/5/ziff-davis-inc-v-openai-inc/)
-
-### 📄 Doc #472 — 2026-03-06
-
-DECLARATION of MAILE YEATS-ROWE in Support re: (1398 in 1:25-md-03143-SHS-OTW) LETTER MOTION to Seal addressed to Magistrate Judge Ona T. Wang from Caitlin Sinclaire Blythe, Christopher S. Sun, Luke A. Budiardjo dated March 5, 2026.. Document filed by OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.L.C., OpenAI Holdings LLC, OpenAI Holdings, LLC, OpenAI Inc., OpenAI LLC, OpenAI LP, OpenAI OpCo LLC, OpenAI OpCo LLC(a Delaware limited liability corporation), OpenAI OpCo, L.L.C., OpenAI Startup Fund GP I LLC, OpenAI Startup Fund GP I LLC(a Delaware limited liability company), OpenAI Startup Fund I LP, OpenAI Startup Fund I LP(a Delaware limited partnership), OpenAI Startup Fund Management LLC, OpenAI Startup Fund Management LLC(a Delaware limited liability company), OpenAI, Inc., OpenAI, LLC. Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:23-cv-08292-SHS-OTW, 1:23-cv-11195-SHS-OTW, 1:25-cv-04315-SHS-OTW.(B …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/70338311/472/ziff-davis-inc-v-openai-inc/)
-
-### 📄 Doc #473 — 2026-03-06
-
-***SEALED*** LETTER addressed to Magistrate Judge Ona T. Wang from Annette L. Hurst and Jared B. Briant dated March 5, 2026 re: Microsoft's Response to ECF 1383. Document filed by Microsoft Corporation. (Attachments: # 1 Exhibit A - Excerpts of Nov. 5, 2026 Deposition Transcript of Jordan Ribas, # 2 Exhibit B - Deposition Scheduling Email, # 3 Exhibit C - Privilege Log Chart, # 4 Exhibit D - Email Re Plaintiff's Sealed Brief, # 5 Exhibit E - The New York Times Company's First Set of Interrogatories to Microsoft)Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al.Motion or Order to File Under Seal: 1396 .(Najemy, Laura) (Entered: 03/06/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/70338311/473/ziff-davis-inc-v-openai-inc/)
-
-### 📄 Doc #476 — 2026-03-06
-
-***SEALED*** LETTER addressed to Magistrate Judge Ona T. Wang from Rose S. Lee, Christopher S. Sun, Luke A. Budiardjo dated March 5, 2026 re: OpenAIs Responsive Case Management Conference Brief to ECF 1383. Document filed by OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.L.C., OpenAI Holdings LLC, OpenAI Holdings, LLC, OpenAI Inc., OpenAI LLC, OpenAI LP, OpenAI OpCo LLC, OpenAI OpCo LLC(a Delaware limited liability corporation), OpenAI OpCo, L.L.C., OpenAI Startup Fund GP I LLC, OpenAI Startup Fund GP I LLC(a Delaware limited liability company), OpenAI Startup Fund I LP, OpenAI Startup Fund I LP(a Delaware limited partnership), OpenAI Startup Fund Management LLC, OpenAI Startup Fund Management LLC(a Delaware limited liability company), OpenAI, Inc., OpenAI, LLC. (Attachments: # 1 Exhibit 1 - OPCO_NEWS_0808328 Excerpt, # 2 Exhibit 4 - Pereleman Dep, # 3 Exhibit 7 - Weng Dep)Filed In Associated Cases: 1:25-md …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/70338311/476/ziff-davis-inc-v-openai-inc/)
-
-### 📄 Doc #479 — 2026-03-06
-
-ORDER in case 1:23-cv-08292-SHS-OTW; granting (1382) Letter Motion for Leave to File Document in case 1:25-md-03143-SHS-OTW. OpenAI's motion to file a sur-reply is GRANTED. (HEREBY ORDERED by Magistrate Judge Ona T. Wang)(Text Only Order) Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al. (Entered: 03/06/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/70338311/479/in-re-openai-inc-copyright-infringement-litigation/)
-
-### 📄 Doc #466 — 2026-03-05
-
-MOTION to Seal . Document filed by The New York Times Company, Ziff Davis, LLC. (Attachments: # 1 Exhibit Plaintiffs' Memorandum of Law in Support of Motion to Seal)Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:23-cv-11195-SHS-OTW, 1:25-cv-04315-SHS-OTW.(Crosby, Ian) (Entered: 03/05/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/70338311/466/1/ziff-davis-inc-v-openai-inc/)
-
-### 📄 Doc #471 — 2026-03-05
-
-LETTER MOTION to Seal addressed to Magistrate Judge Ona T. Wang from Caitlin Sinclaire Blythe, Christopher S. Sun, Luke A. Budiardjo dated March 5, 2026. Document filed by OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.L.C., OpenAI Holdings LLC, OpenAI Holdings, LLC, OpenAI Inc., OpenAI LLC, OpenAI LP, OpenAI OpCo LLC, OpenAI OpCo LLC(a Delaware limited liability corporation), OpenAI OpCo, L.L.C., OpenAI Startup Fund GP I LLC, OpenAI Startup Fund GP I LLC(a Delaware limited liability company), OpenAI Startup Fund I LP, OpenAI Startup Fund I LP(a Delaware limited partnership), OpenAI Startup Fund Management LLC, OpenAI Startup Fund Management LLC(a Delaware limited liability company), OpenAI, Inc., OpenAI, LLC. (Attachments: # 1 Proposed Order )Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:23-cv-08292-SHS-OTW, 1:23-cv-11195-SHS-OTW, 1:25-cv-04315-SHS-OTW.(Blythe, Caitlin) (Entered: 03/06/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/70338311/471/1/ziff-davis-inc-v-openai-inc/)
-
-### 📄 Doc #468 — 2026-03-05
-
-REDACTION to (1394 in 1:25-md-03143-SHS-OTW) Response in Opposition to Motion,,,, by Ziff Davis, LLC, The New York Times Company (Attachments: # 1 Exhibit C, # 2 Exhibit D, # 3 Exhibit E, # 4 Exhibit O)Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:23-cv-11195-SHS-OTW, 1:25-cv-04315-SHS-OTW.(Crosby, Ian) (Entered: 03/05/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/70338311/468/4/ziff-davis-inc-v-openai-inc/)
-
-### 📄 Doc #467 — 2026-03-05
-
-***SEALED***LETTER RESPONSE in Opposition to Motion addressed to Magistrate Judge Ona T. Wang from Ian B. Crosby, Steven Lieberman, and Lacy H. ("Lance") Koonce, III dated March 5, 2026 re: (1275 in 1:23-cv-11195-SHS-OTW, 1369 in 1:25-md-03143-SHS-OTW) LETTER MOTION to Compel The New York Times Company to Produce Subscriber Data Metrics and Survey Instruments and Accompanying Exhibits addressed to Magistrate Judge Ona T. Wang from Laura B. Najemy dated March 3, 2026. Letter Response in Opposition to 1375 OpenAI's Motion to Compel. Document filed by Ziff Davis, LLC, The New York Times Company. (Attachments: # 1 Exhibit A, # 2 Exhibit B, # 3 Exhibit C, # 4 Exhibit D, # 5 Exhibit E, # 6 Exhibit F, # 7 Exhibit G, # 8 Exhibit H, # 9 Exhibit I, # 10 Exhibit J, # 11 Exhibit K, # 12 Exhibit L, # 13 Exhibit M, # 14 Exhibit N, # 15 Exhibit O)Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:23-cv-11195-SHS-OTW, 1:25-cv-04315-SHS-OTWMotion or Order to File Under Seal: 1393 .(Crosby, Ian) (Enter …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/70338311/467/ziff-davis-inc-v-openai-inc/)
-
-### 📄 Doc #469 — 2026-03-05
-
-MOTION to Seal Response Letter to Plaintiffs' Remaining Discovery Dispute Brief 1383 . Document filed by Microsoft Corporation, Microsoft Corporation, Microsoft Corporation, Microsoft Corporation, Microsoft Corporation.Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Najemy, Laura) (Entered: 03/05/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/70338311/469/ziff-davis-inc-v-openai-inc/)
-
-### 📄 Doc #470 — 2026-03-05
-
-FILING ERROR - DUPLICATE DOCUMENT (SEE 1396 Motion) - MOTION to Seal Response Letter to Plaintiffs' Remaining Discovery Dispute Brief 1383 . Document filed by Microsoft Corporation.Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Najemy, Laura) Modified on 3/6/2026 (db). As per ECF-ERROR Email Correspondence Received on 3/6/2026 @ 9:28am. (Entered: 03/05/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/70338311/470/ziff-davis-inc-v-openai-inc/)
-
-### 📄 Doc #465 — 2026-03-05
-
-LETTER addressed to Magistrate Judge Ona T. Wang from Caitlin Sinclaire Blythe, Christopher S. Sun, and Margaret Graham dated March 5, 2026 re: ECF (1388). Document filed by OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.L.C., OpenAI Holdings LLC, OpenAI Holdings, LLC, OpenAI Inc., OpenAI LLC, OpenAI LP, OpenAI OpCo LLC, OpenAI OpCo LLC(a Delaware limited liability corporation), OpenAI OpCo, L.L.C., OpenAI Startup Fund GP I LLC, OpenAI Startup Fund GP I LLC(a Delaware limited liability company), OpenAI Startup Fund I LP, OpenAI Startup Fund I LP(a Delaware limited partnership), OpenAI Startup Fund Management LLC, OpenAI Startup Fund Management LLC(a Delaware limited liability company), OpenAI, Inc., OpenAI, LLC.Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:23-cv-08292-SHS-OTW, 1:23-cv-11195-SHS-OTW, 1:25-cv-04315-SHS-OTW.(Blythe, Caitlin) (Entered: 03/05/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/70338311/465/ziff-davis-inc-v-openai-inc/)
-
-### 📄 Doc #460 — 2026-03-04
-
-LETTER MOTION for Leave to File Sur-Reply in Response to Plaintiffs' Reply (MDL ECF No. 1360) addressed to Magistrate Judge Ona T. Wang from Edward Bayley, Luke A. Budiardjo, and Joseph C. Gratz dated March 3, 2026. Document filed by OAI Corporation, LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Holdings, LLC, OpenAI LLC, OpenAI LP, OpenAI OpCo LLC(a Delaware limited liability corporation), OpenAI Startup Fund GP I LLC, OpenAI Startup Fund I LP(a Delaware limited partnership), OpenAI Startup Fund Management LLC(a Delaware limited liability company), OpenAI, Inc., OpenAI, LLC. (Attachments: # 1 Exhibit A - Proposed Sur-Reply in Response to MDL ECF No. 1360, # 2 Exhibit B - Email Correspondence, # 3 Affidavit // Certificate of Service)Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:23-cv-08292-SHS-OTW, 1:23-cv-11195-SHS-OTW, 1:25-cv-04315-SHS-OTW.(Budiardjo, Luke) (Entered: 03/04/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/70338311/460/3/ziff-davis-inc-v-openai-inc/)
-
-### 📄 Doc #464 — 2026-03-04
-
-LETTER MOTION to Seal re ECF No. 1351 addressed to Magistrate Judge Ona T. Wang from Caitlin S. Blythe, Christopher S. Sun, and Margaret Graham dated 03/04/2026. Document filed by OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.L.C., OpenAI Holdings LLC, OpenAI Holdings, LLC, OpenAI Inc., OpenAI LLC, OpenAI LP, OpenAI OpCo LLC, OpenAI OpCo LLC(a Delaware limited liability corporation), OpenAI OpCo, L.L.C., OpenAI Startup Fund GP I LLC, OpenAI Startup Fund GP I LLC(a Delaware limited liability company), OpenAI Startup Fund I LP, OpenAI Startup Fund I LP(a Delaware limited partnership), OpenAI Startup Fund Management LLC, OpenAI Startup Fund Management LLC(a Delaware limited liability company), OpenAI, Inc., OpenAI, LLC. (Attachments: # 1 Proposed Order Granting OpenAI Sealing Motion)Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:23-cv-08292-SHS-OTW, 1:23-cv-11195-SHS-OTW, 1:25-cv-04315-SHS-OTW.(Blythe, C …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/70338311/464/1/ziff-davis-inc-v-openai-inc/)
-
-### 📄 Doc #454 — 2026-03-04
-
-LETTER MOTION to Seal addressed to Magistrate Judge Ona T. Wang from Caitlin Sinclaire Blythe, Michelle Ybarra, and Margaret Graham dated March 3, 2026. Document filed by OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.L.C., OpenAI Holdings LLC, OpenAI Holdings, LLC, OpenAI Inc., OpenAI LLC, OpenAI LP, OpenAI OpCo LLC, OpenAI OpCo LLC(a Delaware limited liability corporation), OpenAI OpCo, L.L.C., OpenAI Startup Fund GP I LLC, OpenAI Startup Fund GP I LLC(a Delaware limited liability company), OpenAI Startup Fund I LP, OpenAI Startup Fund I LP(a Delaware limited partnership), OpenAI Startup Fund Management LLC, OpenAI Startup Fund Management LLC(a Delaware limited liability company), OpenAI, Inc., OpenAI, LLC. (Attachments: # 1 Proposed Order )Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:23-cv-08292-SHS-OTW, 1:23-cv-11195-SHS-OTW, 1:25-cv-04315-SHS-OTW.(Blythe, Caitlin) (Entered: 03/04/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/70338311/454/1/ziff-davis-inc-v-openai-inc/)
-
-### 📄 Doc #463 — 2026-03-04
-
-DECLARATION of Michael Trinh in Support re: (1385 in 1:25-md-03143-SHS-OTW) MOTION to Substitute Party. Old Party: OpenAI Holdings, LLC, New Party: OpenAI Group PBC .. Document filed by OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.L.C., OpenAI Holdings LLC, OpenAI Holdings, LLC, OpenAI Inc., OpenAI LLC, OpenAI LP, OpenAI OpCo LLC, OpenAI OpCo LLC(a Delaware limited liability corporation), OpenAI OpCo, L.L.C., OpenAI Startup Fund GP I LLC, OpenAI Startup Fund GP I LLC(a Delaware limited liability company), OpenAI Startup Fund I LP, OpenAI Startup Fund I LP(a Delaware limited partnership), OpenAI Startup Fund Management LLC, OpenAI Startup Fund Management LLC(a Delaware limited liability company), OpenAI, Inc., OpenAI, LLC. Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:23-cv-08292-SHS-OTW, 1:23-cv-11195-SHS-OTW, 1:25-cv-04315-SHS-OTW.(Lee, Rose) (Entered: 03/04/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/70338311/463/ziff-davis-inc-v-openai-inc/)
-
-### 📄 Doc #461 — 2026-03-04
-
-MOTION to Substitute Party. Old Party: OpenAI Holdings, LLC, New Party: OpenAI Group PBC . Document filed by OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.L.C., OpenAI Holdings LLC, OpenAI Holdings, LLC, OpenAI Inc., OpenAI LLC, OpenAI LP, OpenAI OpCo LLC, OpenAI OpCo LLC(a Delaware limited liability corporation), OpenAI OpCo, L.L.C., OpenAI Startup Fund GP I LLC, OpenAI Startup Fund GP I LLC(a Delaware limited liability company), OpenAI Startup Fund I LP, OpenAI Startup Fund I LP(a Delaware limited partnership), OpenAI Startup Fund Management LLC, OpenAI Startup Fund Management LLC(a Delaware limited liability company), OpenAI, Inc., OpenAI, LLC.Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:23-cv-08292-SHS-OTW, 1:23-cv-11195-SHS-OTW, 1:25-cv-04315-SHS-OTW.(Lee, Rose) (Entered: 03/04/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/70338311/461/ziff-davis-inc-v-openai-inc/)
-
-### 📄 Doc #462 — 2026-03-04
-
-MEMORANDUM OF LAW in Support re: (1385 in 1:25-md-03143-SHS-OTW) MOTION to Substitute Party. Old Party: OpenAI Holdings, LLC, New Party: OpenAI Group PBC . . Document filed by OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.L.C., OpenAI Holdings LLC, OpenAI Holdings, LLC, OpenAI Inc., OpenAI LLC, OpenAI LP, OpenAI OpCo LLC, OpenAI OpCo LLC(a Delaware limited liability corporation), OpenAI OpCo, L.L.C., OpenAI Startup Fund GP I LLC, OpenAI Startup Fund GP I LLC(a Delaware limited liability company), OpenAI Startup Fund I LP, OpenAI Startup Fund I LP(a Delaware limited partnership), OpenAI Startup Fund Management LLC, OpenAI Startup Fund Management LLC(a Delaware limited liability company), OpenAI, Inc., OpenAI, LLC. Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:23-cv-08292-SHS-OTW, 1:23-cv-11195-SHS-OTW, 1:25-cv-04315-SHS-OTW.(Lee, Rose) (Entered: 03/04/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/70338311/462/ziff-davis-inc-v-openai-inc/)
-
-### 📄 Doc #455 — 2026-03-04
-
-DECLARATION of Maile Yeats-Rowe in Support re: (1065 in 1:23-cv-08292-SHS-OTW, 1373 in 1:25-md-03143-SHS-OTW, 1278 in 1:23-cv-11195-SHS-OTW, 454 in 1:25-cv-04315-SHS-OTW) LETTER MOTION to Seal addressed to Magistrate Judge Ona T. Wang from Caitlin Sinclaire Blythe, Michelle Ybarra, and Margaret Graham dated March 3, 2026.. Document filed by OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.L.C., OpenAI Holdings LLC, OpenAI Holdings, LLC, OpenAI Inc., OpenAI LLC, OpenAI LP, OpenAI OpCo LLC, OpenAI OpCo LLC(a Delaware limited liability corporation), OpenAI OpCo, L.L.C., OpenAI Startup Fund GP I LLC, OpenAI Startup Fund GP I LLC(a Delaware limited liability company), OpenAI Startup Fund I LP, OpenAI Startup Fund I LP(a Delaware limited partnership), OpenAI Startup Fund Management LLC, OpenAI Startup Fund Management LLC(a Delaware limited liability company), OpenAI, Inc., OpenAI, LLC. Filed In Associated Cases: 1: …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/70338311/455/ziff-davis-inc-v-openai-inc/)
-
-### 📄 Doc #456 — 2026-03-04
-
-***SEALED*** LETTER addressed to Magistrate Judge Ona T. Wang from Rose S. Lee, Michelle Ybarra, Herman H. Yue dated March 3, 2026 re: March 10, 2026 Case Management Conference. Document filed by OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.L.C., OpenAI Holdings LLC, OpenAI Holdings, LLC, OpenAI Inc., OpenAI LLC, OpenAI LP, OpenAI OpCo LLC, OpenAI OpCo LLC(a Delaware limited liability corporation), OpenAI OpCo, L.L.C., OpenAI Startup Fund GP I LLC, OpenAI Startup Fund GP I LLC(a Delaware limited liability company), OpenAI Startup Fund I LP, OpenAI Startup Fund I LP(a Delaware limited partnership), OpenAI Startup Fund Management LLC, OpenAI Startup Fund Management LLC(a Delaware limited liability company), OpenAI, Inc., OpenAI, LLC.Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:23-cv-08292-SHS-OTW, 1:23-cv-11195-SHS-OTW, 1:25-cv-04315-SHS-OTWMotion or Order to File Under Seal: 1373 .(Lee, Rose) (Enter …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/70338311/456/ziff-davis-inc-v-openai-inc/)
-
-### 📄 Doc #457 — 2026-03-04
-
-LETTER addressed to Magistrate Judge Ona T. Wang from Rose S. Lee, Michelle Ybarra, Herman H. Yue dated March 3, 2026 re: March 10, 2026 Case Management Conference. Document filed by OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.L.C., OpenAI Holdings LLC, OpenAI Holdings, LLC, OpenAI Inc., OpenAI LLC, OpenAI LP, OpenAI OpCo LLC, OpenAI OpCo LLC(a Delaware limited liability corporation), OpenAI OpCo, L.L.C., OpenAI Startup Fund GP I LLC, OpenAI Startup Fund GP I LLC(a Delaware limited liability company), OpenAI Startup Fund I LP, OpenAI Startup Fund I LP(a Delaware limited partnership), OpenAI Startup Fund Management LLC, OpenAI Startup Fund Management LLC(a Delaware limited liability company), OpenAI, Inc., OpenAI, LLC.Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:23-cv-08292-SHS-OTW, 1:23-cv-11195-SHS-OTW, 1:25-cv-04315-SHS-OTW.(Lee, Rose) (Entered: 03/04/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/70338311/457/ziff-davis-inc-v-openai-inc/)
-
-### 📄 Doc #459 — 2026-03-04
-
-***SEALED*** LETTER MOTION for Leave to File Sur-Reply in Response to Plaintiffs' Reply (MDL ECF No. 1360) addressed to Magistrate Judge Ona T. Wang from Edward Bayley, Luke A. Budiardjo, and Joseph C. Gratz dated March 3, 2026. Document filed by OAI Corporation, LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Holdings, LLC, OpenAI LLC, OpenAI LP, OpenAI OpCo LLC(a Delaware limited liability corporation), OpenAI Startup Fund GP I LLC, OpenAI Startup Fund I LP(a Delaware limited partnership), OpenAI Startup Fund Management LLC(a Delaware limited liability company), OpenAI, Inc., OpenAI, LLC. (Attachments: # 1 Exhibit B - Email Correspondence)Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:23-cv-08292-SHS-OTW, 1:23-cv-11195-SHS-OTW, 1:25-cv-04315-SHS-OTWMotion or Order to File Under Seal: 1373 .(Budiardjo, Luke) (Entered: 03/04/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/70338311/459/ziff-davis-inc-v-openai-inc/)
-
-### 📄 Doc #— — 2026-03-03
-
-Status Conference
-
-### 📄 Doc #452 — 2026-03-02
-
-TRANSCRIPT of Proceedings re: CONFERENCE held on 2/11/2026 before Magistrate Judge Ona T. Wang. Court Reporter/Transcriber: Nicole DIMasi, (212) 805-0320. Transcript may be viewed at the court public terminal or purchased through the Court Reporter/Transcriber before the deadline for Release of Transcript Restriction. After that date it may be obtained through PACER. Redaction Request due 3/23/2026. Redacted Transcript Deadline set for 4/2/2026. Release of Transcript Restriction set for 6/1/2026.Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Moya, Goretti) (Entered: 03/02/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/70338311/452/ziff-davis-inc-v-openai-inc/)
-
-### 📄 Doc #453 — 2026-03-02
-
-NOTICE OF FILING OF OFFICIAL TRANSCRIPT Notice is hereby given that an official transcript of a CONFERENCE proceeding held on 2/11/26 has been filed by the court reporter/transcriber in the above-captioned matter. The parties have seven (7) calendar days to file with the court a Notice of Intent to Request Redaction of this transcript. If no such Notice is filed, the transcript may be made remotely electronically available to the public without redaction after 90 calendar days...Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Moya, Goretti) (Entered: 03/02/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/70338311/453/ziff-davis-inc-v-openai-inc/)
-
-### 📄 Doc #448 — 2026-02-24
-
-LETTER MOTION to Seal materials submitted at ECF 1322 addressed to Magistrate Judge Ona T. Wang from Caitlin Sinclaire Blythe, Thomas E. Gorman, and Margaret Graham dated February 24, 2026. Document filed by OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.L.C., OpenAI Holdings LLC, OpenAI Holdings, LLC, OpenAI Inc., OpenAI LLC, OpenAI LP, OpenAI OpCo LLC, OpenAI OpCo LLC(a Delaware limited liability corporation), OpenAI OpCo, L.L.C., OpenAI Startup Fund GP I LLC, OpenAI Startup Fund GP I LLC(a Delaware limited liability company), OpenAI Startup Fund I LP, OpenAI Startup Fund I LP(a Delaware limited partnership), OpenAI Startup Fund Management LLC, OpenAI Startup Fund Management LLC(a Delaware limited liability company), OpenAI, Inc., OpenAI, LLC. (Attachments: # 1 Proposed Order )Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:25-cv-04315-SHS-OTW.(Blythe, Caitlin) (Entered: 02/24/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/70338311/448/1/ziff-davis-inc-v-openai-inc/)
-
-### 📄 Doc #450 — 2026-02-24
-
-DECLARATION of Maile Yeats-Rowe in Support re: (1346 in 1:25-md-03143-SHS-OTW, 448 in 1:25-cv-04315-SHS-OTW) LETTER MOTION to Seal materials submitted at ECF (1322) addressed to Magistrate Judge Ona T. Wang from Caitlin Sinclaire Blythe, Thomas E. Gorman, and Margaret Graham dated February 24, 2026.. Document filed by OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.L.C., OpenAI Holdings LLC, OpenAI Holdings, LLC, OpenAI Inc., OpenAI LLC, OpenAI LP, OpenAI OpCo LLC, OpenAI OpCo LLC(a Delaware limited liability corporation), OpenAI OpCo, L.L.C., OpenAI Startup Fund GP I LLC, OpenAI Startup Fund GP I LLC(a Delaware limited liability company), OpenAI Startup Fund I LP, OpenAI Startup Fund I LP(a Delaware limited partnership), OpenAI Startup Fund Management LLC, OpenAI Startup Fund Management LLC(a Delaware limited liability company), OpenAI, Inc., OpenAI, LLC. (Attachments: # 1 Exhibit A, # 2 Exhibit B, # 3 Exhi …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/70338311/450/5/ziff-davis-inc-v-openai-inc/)
-
-### 📄 Doc #446 — 2026-02-24
-
-DECLARATION of Maile Yeats-Rowe in Support re: (1341 in 1:25-md-03143-SHS-OTW, 1054 in 1:23-cv-08292-SHS-OTW, 1256 in 1:23-cv-11195-SHS-OTW, 444 in 1:25-cv-04315-SHS-OTW) LETTER MOTION to Seal addressed to Magistrate Judge Ona T. Wang from Caitlin S. Blythe, Thomas E. Gorman, and Elana Nightingale Dawson dated 02/23/2026.. Document filed by OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.L.C., OpenAI Holdings LLC, OpenAI Holdings, LLC, OpenAI Inc., OpenAI LLC, OpenAI LP, OpenAI OpCo LLC, OpenAI OpCo LLC(a Delaware limited liability corporation), OpenAI OpCo, L.L.C., OpenAI Startup Fund GP I LLC, OpenAI Startup Fund GP I LLC(a Delaware limited liability company), OpenAI Startup Fund I LP, OpenAI Startup Fund I LP(a Delaware limited partnership), OpenAI Startup Fund Management LLC, OpenAI Startup Fund Management LLC(a Delaware limited liability company), OpenAI, Inc., OpenAI, LLC. (Attachments: # 1 Exhibit A - …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/70338311/446/3/ziff-davis-inc-v-openai-inc/)
-
-### 📄 Doc #449 — 2026-02-24
-
-***SEALED***DECLARATION of Maile Yeats-Rowe in Support re: (1346 in 1:25-md-03143-SHS-OTW, 448 in 1:25-cv-04315-SHS-OTW) LETTER MOTION to Seal materials submitted at ECF (1322) addressed to Magistrate Judge Ona T. Wang from Caitlin Sinclaire Blythe, Thomas E. Gorman, and Margaret Graham dated February 24, 2026.. Document filed by OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.L.C., OpenAI Holdings LLC, OpenAI Holdings, LLC, OpenAI Inc., OpenAI LLC, OpenAI LP, OpenAI OpCo LLC, OpenAI OpCo LLC(a Delaware limited liability corporation), OpenAI OpCo, L.L.C., OpenAI Startup Fund GP I LLC, OpenAI Startup Fund GP I LLC(a Delaware limited liability company), OpenAI Startup Fund I LP, OpenAI Startup Fund I LP(a Delaware limited partnership), OpenAI Startup Fund Management LLC, OpenAI Startup Fund Management LLC(a Delaware limited liability company), OpenAI, Inc., OpenAI, LLC. (Attachments: # 1 Exhibit A - Unredacted …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/70338311/449/ziff-davis-inc-v-openai-inc/)
-
-### 📄 Doc #445 — 2026-02-24
-
-***SEALED***DECLARATION of Maile Yeats-Rowe in Support re: (1341 in 1:25-md-03143-SHS-OTW, 1054 in 1:23-cv-08292-SHS-OTW, 1256 in 1:23-cv-11195-SHS-OTW, 444 in 1:25-cv-04315-SHS-OTW) LETTER MOTION to Seal addressed to Magistrate Judge Ona T. Wang from Caitlin S. Blythe, Thomas E. Gorman, and Elana Nightingale Dawson dated 02/23/2026.. Document filed by OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.L.C., OpenAI Holdings LLC, OpenAI Holdings, LLC, OpenAI Inc., OpenAI LLC, OpenAI LP, OpenAI OpCo LLC, OpenAI OpCo LLC(a Delaware limited liability corporation), OpenAI OpCo, L.L.C., OpenAI Startup Fund GP I LLC, OpenAI Startup Fund GP I LLC(a Delaware limited liability company), OpenAI Startup Fund I LP, OpenAI Startup Fund I LP(a Delaware limited partnership), OpenAI Startup Fund Management LLC, OpenAI Startup Fund Management LLC(a Delaware limited liability company), OpenAI, Inc., OpenAI, LLC. (Attachments: # 1 …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/70338311/445/ziff-davis-inc-v-openai-inc/)
-
-### 📄 Doc #444 — 2026-02-23
-
-LETTER MOTION to Seal addressed to Magistrate Judge Ona T. Wang from Caitlin S. Blythe, Thomas E. Gorman, and Elana Nightingale Dawson dated 02/23/2026. Document filed by OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.L.C., OpenAI Holdings LLC, OpenAI Holdings, LLC, OpenAI Inc., OpenAI LLC, OpenAI LP, OpenAI OpCo LLC, OpenAI OpCo LLC(a Delaware limited liability corporation), OpenAI OpCo, L.L.C., OpenAI Startup Fund GP I LLC, OpenAI Startup Fund GP I LLC(a Delaware limited liability company), OpenAI Startup Fund I LP, OpenAI Startup Fund I LP(a Delaware limited partnership), OpenAI Startup Fund Management LLC, OpenAI Startup Fund Management LLC(a Delaware limited liability company), OpenAI, Inc., OpenAI, LLC. (Attachments: # 1 Proposed Order Granting OpenAI Sealing Motion)Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:23-cv-08292-SHS-OTW, 1:23-cv-11195-SHS-OTW, 1:25-cv-04315-SHS-OTW.(Blythe, Caitlin) ( …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/70338311/444/1/ziff-davis-inc-v-openai-inc/)
-
-### 📄 Doc #432 — 2026-02-20
-
-LETTER RESPONSE in Opposition to Motion addressed to Magistrate Judge Ona T. Wang from Thomas E. Gorman dated February 20, 2026 re: (1322 in 1:25-md-03143-SHS-OTW, 427 in 1:25-cv-04315-SHS-OTW) LETTER MOTION to Compel OpenAI Defendants to run n-gram searches or, in the alternative, re-produce its training data in Databricks addressed to Magistrate Judge Ona T. Wang from Ziff Davis dated 02/17/2026. . Document filed by OAI Corporation, OpenAI GP LLC, OpenAI Global LLC, OpenAI Holdings LLC, OpenAI Inc., OpenAI LLC, OpenAI OpCo LLC. (Attachments: # 1 Exhibit A, # 2 Affidavit of J. Monaco)Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:25-cv-04315-SHS-OTW.(Gorman, Thomas) (Entered: 02/20/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/70338311/432/2/ziff-davis-inc-v-openai-inc/)
-
-### 📄 Doc #431 — 2026-02-20
-
-NOTICE of Errata re: (1322 in 1:25-md-03143-SHS-OTW, 427 in 1:25-cv-04315-SHS-OTW) LETTER MOTION to Compel OpenAI Defendants to run n-gram searches or, in the alternative, re-produce its training data in Databricks addressed to Magistrate Judge Ona T. Wang from Ziff Davis dated 02/17/2026.. Document filed by Mashable, Inc., CNET MEDIA, INC., Everyday Health Media LLC, IGN Entertainment Inc., Mashable, Inc., Ziff Davis Inc., Ziff Davis, LLC. (Attachments: # 1 Appendix A to [1322-1] Exhibit 1 to Ziff Davis's Motion to Compel OpenAI)Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:25-cv-04315-SHS-OTW.(Ruttenberg, Guy) (Entered: 02/20/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/70338311/431/1/ziff-davis-inc-v-openai-inc/)
-
-### 📄 Doc #439 — 2026-02-20
-
-MEMORANDUM OF LAW in Opposition re: (1241 in 1:23-cv-11195-SHS-OTW, 1312 in 1:25-md-03143-SHS-OTW) LETTER MOTION to Compel OpenAI Defendants to Re Project Giraffe and V Monaco Deposition addressed to Magistrate Judge Ona T. Wang from Steven Lieberman, Davida Brook and Justin Nelson dated February 13, 2026. . Document filed by OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.L.C., OpenAI Holdings LLC, OpenAI Holdings, LLC, OpenAI Inc., OpenAI LLC, OpenAI LP, OpenAI OpCo LLC, OpenAI OpCo LLC(a Delaware limited liability corporation), OpenAI OpCo, L.L.C., OpenAI Startup Fund GP I LLC, OpenAI Startup Fund GP I LLC(a Delaware limited liability company), OpenAI Startup Fund I LP, OpenAI Startup Fund I LP(a Delaware limited partnership), OpenAI Startup Fund Management LLC, OpenAI Startup Fund Management LLC(a Delaware limited liability company), OpenAI, Inc., OpenAI, LLC. (Attachments: # 1 Exhibit A, # 2 Exhibit B,  …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/70338311/439/9/ziff-davis-inc-v-openai-inc/)
-
-### 📄 Doc #434 — 2026-02-20
-
-LETTER MOTION to Seal addressed to Magistrate Judge Ona T. Wang from Caitlin Sinclaire Blythe, Christopher S. Sun, and Elana Nightingale Dawson dated February 20, 2026. Document filed by OAI Corporation LLC, OpenAI GP LLC, OpenAI Global LLC, OpenAI Holdings LLC, OpenAI Inc., OpenAI LLC, OpenAI LP, OpenAI OpCo LLC, OpenAI Startup Fund GP I LLC, OpenAI Startup Fund I LP, OpenAI Startup Fund Management LLC, OAI Corporation, OAI Corporation, LLC, OpenAI GP, LLC, OpenAI Holdings, LLC, OpenAI, Inc., OpenAI, LLC. (Attachments: # 1 Proposed Order )Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:23-cv-08292-SHS-OTW, 1:23-cv-11195-SHS-OTW, 1:25-cv-04315-SHS-OTW.(Blythe, Caitlin) (Entered: 02/20/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/70338311/434/1/ziff-davis-inc-v-openai-inc/)
-
-### 📄 Doc #435 — 2026-02-20
-
-DECLARATION of Maile Yeats-Rowe in Support re: (1248 in 1:23-cv-11195-SHS-OTW, 434 in 1:25-cv-04315-SHS-OTW, 1331 in 1:25-md-03143-SHS-OTW, 1046 in 1:23-cv-08292-SHS-OTW) LETTER MOTION to Seal addressed to Magistrate Judge Ona T. Wang from Caitlin Sinclaire Blythe, Christopher S. Sun, and Elana Nightingale Dawson dated February 20, 2026.. Document filed by OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.L.C., OpenAI Holdings LLC, OpenAI Holdings, LLC, OpenAI Inc., OpenAI LLC, OpenAI LP, OpenAI OpCo LLC, OpenAI OpCo LLC(a Delaware limited liability corporation), OpenAI OpCo, L.L.C., OpenAI Startup Fund GP I LLC, OpenAI Startup Fund GP I LLC(a Delaware limited liability company), OpenAI Startup Fund I LP, OpenAI Startup Fund I LP(a Delaware limited partnership), OpenAI Startup Fund Management LLC, OpenAI Startup Fund Management LLC(a Delaware limited liability company), OpenAI, Inc., OpenAI, LLC. Filed In Asso …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/70338311/435/ziff-davis-inc-v-openai-inc/)
-
-### 📄 Doc #436 — 2026-02-20
-
-***SEALED***LETTER RESPONSE in Opposition to Motion addressed to Magistrate Judge Ona T. Wang from Thomas E. Gorman dated February 20, 2026 re: (1322 in 1:25-md-03143-SHS-OTW, 427 in 1:25-cv-04315-SHS-OTW) LETTER MOTION to Compel OpenAI Defendants to run n-gram searches or, in the alternative, re-produce its training data in Databricks addressed to Magistrate Judge Ona T. Wang from Ziff Davis dated 02/17/2026. . Document filed by OAI Corporation, OpenAI GP LLC, OpenAI Global LLC, OpenAI Holdings LLC, OpenAI Inc., OpenAI LLC, OpenAI OpCo LLC. (Attachments: # 1 Exhibit A, # 2 Affidavit of J. Monaco)Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:25-cv-04315-SHS-OTWMotion or Order to File Under Seal: 1331 .(Gorman, Thomas) (Entered: 02/20/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/70338311/436/ziff-davis-inc-v-openai-inc/)
-
-### 📄 Doc #438 — 2026-02-20
-
-***SEALED***LETTER RESPONSE in Opposition to Motion addressed to Magistrate Judge Ona T. Wang from Andrew F. Dawson, Rose S. Lee, Herman H. Yue dated 02/20/2026 re: (1200 in 1:25-md-03143-SHS-OTW, 67 in 1:25-cv-09904-SHS, 611 in 1:24-cv-03285-SHS-OTW, 512 in 1:24-cv-04872-SHS-OTW, 200 in 1:25-cv-03291-SHS-OTW, 61 in 1:25-cv-09912-SHS, 91 in 1:25-cv-06286-SHS-OTW, 370 in 1:25-cv-04315-SHS-OTW, 1185 in 1:23-cv-11195-SHS-OTW, 974 in 1:23-cv-08292-SHS-OTW, 245 in 1:25-cv-03483-SHS-OTW, 365 in 1:24-cv-01514-SHS-OTW, 400 in 1:24-cv-01515-SHS-OTW, 308 in 1:25-cv-03297-SHS-OTW, 754 in 1:25-cv-03482-SHS-OTW, 333 in 1:24-cv-00084-SHS-OTW, 647 in 1:23-cv-10211-SHS-OTW) LETTER MOTION to Compel Open AI to Produce Musk Discovery addressed to Magistrate Judge Ona T. Wang from Davida Brook and Justin Nelson dated January 30, 2026. . Document filed by OAI Corporation, OAI Corporation LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Holdings LLC, OpenAI Inc., OpenAI LLC, OpenAI LP, OpenAI O …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/70338311/438/ziff-davis-inc-v-openai-inc/)
-
-### 📄 Doc #440 — 2026-02-20
-
-***SEALED*** MEMORANDUM OF LAW in Opposition re: (1241 in 1:23-cv-11195-SHS-OTW, 1312 in 1:25-md-03143-SHS-OTW) LETTER MOTION to Compel OpenAI Defendants to Re Project Giraffe and V Monaco Deposition addressed to Magistrate Judge Ona T. Wang from Steven Lieberman, Davida Brook and Justin Nelson dated February 13, 2026. . Document filed by OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.L.C., OpenAI Holdings LLC, OpenAI Holdings, LLC, OpenAI Inc., OpenAI LLC, OpenAI LP, OpenAI OpCo LLC, OpenAI OpCo LLC(a Delaware limited liability corporation), OpenAI OpCo, L.L.C., OpenAI Startup Fund GP I LLC, OpenAI Startup Fund GP I LLC(a Delaware limited liability company), OpenAI Startup Fund I LP, OpenAI Startup Fund I LP(a Delaware limited partnership), OpenAI Startup Fund Management LLC, OpenAI Startup Fund Management LLC(a Delaware limited liability company), OpenAI, Inc., OpenAI, LLC. (Attachments: # 1 Exhibit G, #  …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/70338311/440/ziff-davis-inc-v-openai-inc/)
-
-### 📄 Doc #441 — 2026-02-20
-
-DECLARATION of John V. Monaco in Opposition re: (1241 in 1:23-cv-11195-SHS-OTW, 1312 in 1:25-md-03143-SHS-OTW) LETTER MOTION to Compel OpenAI Defendants to Re Project Giraffe and V Monaco Deposition addressed to Magistrate Judge Ona T. Wang from Steven Lieberman, Davida Brook and Justin Nelson dated February 13, 2026.. Document filed by OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.L.C., OpenAI Holdings LLC, OpenAI Holdings, LLC, OpenAI Inc., OpenAI LLC, OpenAI LP, OpenAI OpCo LLC, OpenAI OpCo LLC(a Delaware limited liability corporation), OpenAI OpCo, L.L.C., OpenAI Startup Fund GP I LLC, OpenAI Startup Fund GP I LLC(a Delaware limited liability company), OpenAI Startup Fund I LP, OpenAI Startup Fund I LP(a Delaware limited partnership), OpenAI Startup Fund Management LLC, OpenAI Startup Fund Management LLC(a Delaware limited liability company), OpenAI, Inc., OpenAI, LLC, Daniel Okrent. Filed In Associate …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/70338311/441/ziff-davis-inc-v-openai-inc/)
-
-### 📄 Doc #433 — 2026-02-20
-
-LETTER RESPONSE in Opposition to Motion addressed to Magistrate Judge Ona T. Wang from Andrew F. Dawson, Rose S. Lee, Herman H. Yue dated 02/20/2026 re: (1200 in 1:25-md-03143-SHS-OTW, 67 in 1:25-cv-09904-SHS, 611 in 1:24-cv-03285-SHS-OTW, 512 in 1:24-cv-04872-SHS-OTW, 200 in 1:25-cv-03291-SHS-OTW, 61 in 1:25-cv-09912-SHS, 91 in 1:25-cv-06286-SHS-OTW, 370 in 1:25-cv-04315-SHS-OTW, 1185 in 1:23-cv-11195-SHS-OTW, 974 in 1:23-cv-08292-SHS-OTW, 245 in 1:25-cv-03483-SHS-OTW, 365 in 1:24-cv-01514-SHS-OTW, 400 in 1:24-cv-01515-SHS-OTW, 308 in 1:25-cv-03297-SHS-OTW, 754 in 1:25-cv-03482-SHS-OTW, 333 in 1:24-cv-00084-SHS-OTW, 647 in 1:23-cv-10211-SHS-OTW) LETTER MOTION to Compel Open AI to Produce Musk Discovery addressed to Magistrate Judge Ona T. Wang from Davida Brook and Justin Nelson dated January 30, 2026. . Document filed by OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.L.C., OpenAI Holdings, LLC, OpenAI Inc., OpenAI LLC, Op …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/70338311/433/3/ziff-davis-inc-v-openai-inc/)
-
-### 📄 Doc #— — 2026-02-19
-
-Notice Regarding Pro Hac Vice Motion
-
-### 📄 Doc #428 — 2026-02-18
-
-PROPOSED STIPULATION AND ORDER. Document filed by OAI Corporation, OAI Corporation LLC, OpenAI GP LLC, OpenAI Global LLC, OpenAI Holdings LLC, OpenAI Inc., OpenAI LLC, OpenAI LP, OpenAI OpCo LLC(a Delaware limited liability corporation), OpenAI Startup Fund GP I LLC, OpenAI Startup Fund I LP(a Delaware limited partnership), OpenAI Startup Fund Management LLC(a Delaware limited liability company), OpenAI, Inc...(Slaughter, R.) (Entered: 02/18/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/70338311/428/ziff-davis-inc-v-openai-inc/)
-
-### 📄 Doc #426 — 2026-02-17
-
-LETTER MOTION to Seal addressed to Magistrate Judge Ona T. Wang from Ziff Davis dated 02/17/2026. Document filed by Mashable, Inc., Ziff Davis Inc., Ziff Davis, LLC, CNET MEDIA, INC., Everyday Health Media LLC, IGN Entertainment Inc., Mashable, Inc..Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:25-cv-04315-SHS-OTW.(Ruttenberg, Guy) (Entered: 02/17/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/70338311/426/ziff-davis-inc-v-openai-inc/)
-
-### 📄 Doc #427 — 2026-02-17
-
-***SEALED*** LETTER MOTION to Compel OpenAI Defendants to run n-gram searches or, in the alternative, re-produce its training data in Databricks addressed to Magistrate Judge Ona T. Wang from Ziff Davis dated 02/17/2026. Document filed by Mashable, Inc., Ziff Davis Inc., Ziff Davis, LLC, CNET MEDIA, INC., Everyday Health Media LLC, IGN Entertainment Inc., Mashable, Inc.. (Attachments: # 1 Exhibit 1 - Declaration of D. Delorey, # 2 Exhibit 2, # 3 Exhibit 3, # 4 Exhibit 4, # 5 Exhibit 5, # 6 Exhibit 6, # 7 Exhibit 7, # 8 Exhibit 8, # 9 Exhibit 9, # 10 Exhibit 10, # 11 Exhibit 11, # 12 Exhibit 12, # 13 Exhibit 13, # 14 Exhibit 14, # 15 Exhibit 15, # 16 Exhibit 16, # 17 Exhibit 17, # 18 Exhibit 18, # 19 Exhibit 19)Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:25-cv-04315-SHS-OTWMotion or Order to File Under Seal: 1321 .(Ruttenberg, Guy) (Entered: 02/18/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/70338311/427/ziff-davis-inc-v-openai-inc/)
-
-### 📄 Doc #424 — 2026-02-14
-
-STATUS REPORT. (Joint) re [Dkt. Nos. 550, 778, 1052, 1092, 1202, 1210] Document filed by Ziff Davis Inc., Ziff Davis, LLC, CNET MEDIA, INC., Everyday Health Media LLC, IGN Entertainment Inc., Mashable, Inc..Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:25-cv-04315-SHS-OTW.(Ruttenberg, Guy) (Entered: 02/14/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/70338311/424/ziff-davis-inc-v-openai-inc/)
-
-### 📄 Doc #423 — 2026-02-13
-
-JOINT LETTER addressed to Magistrate Judge Ona T. Wang from Justin Nelson, Davida Brook & R. James Slaughter dated February 13, 2026 re: Plaintiffs Motion for Additional Deposition Hours (Dkt. 1216). Document filed by David Baldacci.Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Nelson, Justin) (Entered: 02/13/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/70338311/423/ziff-davis-inc-v-openai-inc/)
-
-### 📄 Doc #422 — 2026-02-13
-
-ORDER: The Court held a discovery status conference for all actions in this matter on Wednesday, February 11, 2026. As ORDERED at the February 11 Conference: Plaintiffs' motion to compel OpenAI to produce discovery into Project Giraffe and additional deposition time of Mr. Monaco (ECF 1220)Plaintiffs were directed to email Chambers by Friday, February 13, 2026 to request the credentials to a secure site to upload the video footage of Mr. Monaco's 30(b)(1) and 30(b) (6) depositions. Defendants were directed to file under seal responses to Plaintiffs' questions regarding Project Giraffe by 11:59 PM on February 12, 2026. After reviewing Defendant's answers, Plaintiffs may file a new motion to compel by February 13, 2026, at 11:59 PM addressing any remaining document requests. The issue of Monaco's deposition will be resolved separately. Class Plaintiffs' motion seeking in camera review of the two clawed back and four redacted documents (ECF 1205). Plaintiffs' motion seeking in camera revi …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/70338311/422/ziff-davis-inc-v-openai-inc/)
-
-### 📄 Doc #— — 2026-02-11
-
-Minute Entry for proceedings held before Magistrate Judge Ona T. Wang: Status Conference held on 2/11/2026. Associated Cases: 1:25-md-03143-SHS-OTW et al.(Quinn, Diane)
-
-### 📄 Doc #420 — 2026-02-10
-
-ORDER: The Court has reviewed the parties' joint chart at ECF 1274. All motions described herein that require supplemental briefing will not be heard at the February 11, 2026 conference. All supplemental briefs are limited to five pages. On January 22, the parties represented that the Class Plaintiffs' motions at ECF 1055 and 1132 were resolved. Yet two weeks later, the issue resurfaced in the joint chart (ECF 1274-2 at 6), where the parties seem to be arguing about document production related to Project Giraffe. There shall be no new litigation in the joint chart. The parties are directed to continue meeting and conferring on the NEW dispute and, if they cannot resolve the issue, they will file a NEW motion to compel on this specific issue that explains to the Court: what the parties previously agreed to; what Project Giraffe and Okapi-related data mean (and whether the Court should become familiar with other African mammals referenced in the production); and what discovery the partie …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/70338311/420/ziff-davis-inc-v-openai-inc/)
-
-### 📄 Doc #421 — 2026-02-10
-
-ORDER: The Court has reviewed the parties' joint chart at ECF 1274. All motions described herein that require supplemental briefing will not be heard at the February 11, 2026 conference. All supplemental briefs are limited to five pages. On January 22, the parties represented that the Class Plaintiffs' motions at ECF 1055 and 1132 were resolved. Yet two weeks later, the issue resurfaced in the joint chart (ECF 1274-2 at 6), where the parties seem to be arguing about document production related to Project Giraffe. There shall be no new litigation in the joint chart. The parties are directed to continue meeting and conferring on the NEW dispute and, if they cannot resolve the issue, they will file a NEW motion to compel on this specific issue that explains to the Court: what the parties previously agreed to; what Project Giraffe and Okapi-related data mean (and whether the Court should become familiar with other African mammals referenced in the production); and what discovery the partie …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/70338311/421/ziff-davis-inc-v-openai-inc/)
-
-### 📄 Doc #418 — 2026-02-09
-
-LETTER addressed to Magistrate Judge Ona T. Wang from Guy Ruttenberg dated February 9, 2026 re: Ziff Davis's Request for Clarification re Courts Order (Dkt. 1279) issued on Friday, February 6, 2026. Document filed by CNET MEDIA, INC., Everyday Health Media LLC, IGN Entertainment Inc., Mashable, Inc., Ziff Davis Inc., Ziff Davis, LLC.Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:25-cv-04315-SHS-OTW.(Ruttenberg, Guy) (Entered: 02/09/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/70338311/418/ziff-davis-inc-v-openai-inc/)
-
-### 📄 Doc #415 — 2026-02-06
-
-NOTICE of Supplemental Authority Regarding Defendants Letter Motion at Dkt. 381. Document filed by OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.L.C., OpenAI Holdings LLC, OpenAI Holdings, LLC, OpenAI Inc., OpenAI LLC, OpenAI LP, OpenAI OpCo LLC(a Delaware limited liability corporation), OpenAI OpCo LLC, OpenAI OpCo, L.L.C., OpenAI Startup Fund GP I LLC, OpenAI Startup Fund GP I LLC(a Delaware limited liability company), OpenAI Startup Fund I LP(a Delaware limited partnership), OpenAI Startup Fund I LP, OpenAI Startup Fund Management LLC(a Delaware limited liability company), OpenAI Startup Fund Management LLC, OpenAI, Inc.. (Attachments: # 1 Exhibit A, # 2 Exhibit B, # 3 Exhibit C)Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:25-cv-04315-SHS-OTW.(Bruns, Andrew) (Entered: 02/06/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/70338311/415/3/ziff-davis-inc-v-openai-inc/)
-
-### 📄 Doc #412 — 2026-02-06
-
-LETTER addressed to Magistrate Judge Ona T. Wang from Rose S. Lee, Katie Lynn Joyce, and Allison S. Blanco dated February 5, 2026 re: Discovery Dispute Charts for February Conference. Document filed by OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.L.C., OpenAI Holdings LLC, OpenAI Holdings, LLC, OpenAI Inc., OpenAI LLC, OpenAI LP, OpenAI OpCo LLC, OpenAI OpCo LLC(a Delaware limited liability corporation), OpenAI OpCo, L.L.C., OpenAI Startup Fund GP I LLC, OpenAI Startup Fund GP I LLC(a Delaware limited liability company), OpenAI Startup Fund I LP, OpenAI Startup Fund I LP(a Delaware limited partnership), OpenAI Startup Fund Management LLC, OpenAI Startup Fund Management LLC(a Delaware limited liability company), OpenAI, Inc., OpenAI, LLC. (Attachments: # 1 Exhibit A - Joint News and Class Chart, # 2 Exhibit B - Class Chart, # 3 Exhibit C - News Chart)Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:23-c …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/70338311/412/3/ziff-davis-inc-v-openai-inc/)
-
-### 📄 Doc #— — 2026-02-06
-
-Set/Reset Deadlines: Motions due by 2/16/2026. Associated Cases: 1:25-md-03143-SHS-OTW et al.(jjc)
-
-### 📄 Doc #413 — 2026-02-06
-
-ORDER denying as moot (870) Letter Motion to Compel; granting (875) Letter Motion for Discovery; denying as moot (885) Letter Motion to Compel in case 1:23-cv-08292-SHS-OTW; granting (609) Letter Motion for Discovery in case 1:23-cv-10211-SHS-OTW; denying as moot (1030) Letter Motion to Compel; granting (1038) Letter Motion for Discovery; denying as moot (1055) Letter Motion to Compel in case 1:25-md-03143-SHS-OTW; granting (181) Letter Motion for Discovery in case 1:25-cv-03291-SHS-OTW; granting (695) Letter Motion for Discovery; denying as moot (697) Letter Motion to Compel in case 1:25-cv-03482-SHS-OTW; granting (226) Letter Motion for Discovery in case 1:25-cv-03483-SHS-OTW. All supplemental briefs are limited to five pages. I. Class Plaintiffs a. Microsoft Office Financials and the "January 2025 public document" (ECF 1000) The parties are directed to meet and confer in accordance with the Sedona Principles' recommendations to work cooperatively and clearly specify the ESI being so …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/70338311/413/ziff-davis-inc-v-openai-inc/)
-
-### 📄 Doc #414 — 2026-02-06
-
-MOTION to Seal . Document filed by OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.L.C., OpenAI Holdings LLC, OpenAI Holdings, LLC, OpenAI Inc., OpenAI LLC, OpenAI LP, OpenAI OpCo LLC(a Delaware limited liability corporation), OpenAI OpCo LLC, OpenAI OpCo, L.L.C., OpenAI Startup Fund GP I LLC, OpenAI Startup Fund GP I LLC(a Delaware limited liability company), OpenAI Startup Fund I LP(a Delaware limited partnership), OpenAI Startup Fund I LP, OpenAI Startup Fund Management LLC(a Delaware limited liability company), OpenAI Startup Fund Management LLC, OpenAI, Inc..Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:25-cv-04315-SHS-OTW.(Bruns, Andrew) (Entered: 02/06/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/70338311/414/ziff-davis-inc-v-openai-inc/)
-
-### 📄 Doc #416 — 2026-02-06
-
-***SEALED***NOTICE of Supplemental Authority Regarding Defendants Letter Motion at Dkt. 381. Document filed by OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.L.C., OpenAI Holdings LLC, OpenAI Holdings, LLC, OpenAI Inc., OpenAI LLC, OpenAI LP, OpenAI OpCo LLC(a Delaware limited liability corporation), OpenAI OpCo LLC, OpenAI OpCo, L.L.C., OpenAI Startup Fund GP I LLC, OpenAI Startup Fund GP I LLC(a Delaware limited liability company), OpenAI Startup Fund I LP(a Delaware limited partnership), OpenAI Startup Fund I LP, OpenAI Startup Fund Management LLC(a Delaware limited liability company), OpenAI Startup Fund Management LLC, OpenAI, Inc.. (Attachments: # 1 Exhibit A, # 2 Exhibit B, # 3 Exhibit C)Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:25-cv-04315-SHS-OTWMotion or Order to File Under Seal: 1280 .(Bruns, Andrew) (Entered: 02/06/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/70338311/416/ziff-davis-inc-v-openai-inc/)
-
-### 📄 Doc #406 — 2026-02-05
-
-***SEALED***LETTER RESPONSE in Opposition to Motion addressed to Magistrate Judge Ona T. Wang from Joseph C. Gratz, Edward A. Bayley, and Allison S. Blanco dated February 4, 2026 re: (1190 in 1:23-cv-11195-SHS-OTW, 1218 in 1:25-md-03143-SHS-OTW) LETTER MOTION to Compel OpenAI Defendants to Letter Motion to Compel Additional Discovery into OpenAIs Project Giraffe and Additional Deposition Time of Vinnie Monaco addressed to Magistrate Judge Ona T. Wang from Steven Lieberman, Davida, (1220 in 1:25-md-03143-SHS-OTW, 1192 in 1:23-cv-11195-SHS-OTW) LETTER MOTION to Compel OpenAI Defendants to Additional Discovery into OpenAIs Project Giraffe and Additional Deposition Time of Vinnie Monaco addressed to Magistrate Judge Ona T. Wang from Steven Lieberman, Davida Brook and Joshua Michel . Document filed by OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.L.C., OpenAI Holdings LLC, OpenAI Holdings, LLC, OpenAI Inc., Ope …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/70338311/406/ziff-davis-inc-v-openai-inc/)
-
-### 📄 Doc #407 — 2026-02-05
-
-LETTER RESPONSE in Opposition to Motion addressed to Magistrate Judge Ona T. Wang from Joseph C. Gratz, Edward A. Bayley, and Allison S. Blanco dated February 4, 2026 re: (1220 in 1:25-md-03143-SHS-OTW, 1192 in 1:23-cv-11195-SHS-OTW) LETTER MOTION to Compel OpenAI Defendants to Additional Discovery into OpenAIs Project Giraffe and Additional Deposition Time of Vinnie Monaco addressed to Magistrate Judge Ona T. Wang from Steven Lieberman, Davida Brook and Joshua Michel, (1218 in 1:25-md-03143-SHS-OTW) LETTER MOTION to Compel OpenAI Defendants to Letter Motion to Compel Additional Discovery into OpenAIs Project Giraffe and Additional Deposition Time of Vinnie Monaco addressed to Magistrate Judge Ona T. Wang from Steven Lieberman, Davida . Document filed by OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.L.C., OpenAI Holdings LLC, OpenAI Holdings, LLC, OpenAI Inc., OpenAI LLC, OpenAI LP, OpenAI OpCo LLC, OpenAI …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/70338311/407/ziff-davis-inc-v-openai-inc/)
-
-### 📄 Doc #408 — 2026-02-05
-
-***SEALED***LETTER RESPONSE in Opposition to Motion addressed to Magistrate Judge Ona T. Wang from Joseph C. Gratz, Edward A. Bayley, and Allison S. Blanco dated February 4, 2026 re: (1220 in 1:25-md-03143-SHS-OTW, 1192 in 1:23-cv-11195-SHS-OTW) LETTER MOTION to Compel OpenAI Defendants to Additional Discovery into OpenAIs Project Giraffe and Additional Deposition Time of Vinnie Monaco addressed to Magistrate Judge Ona T. Wang from Steven Lieberman, Davida Brook and Joshua Michel, (1218 in 1:25-md-03143-SHS-OTW) LETTER MOTION to Compel OpenAI Defendants to Letter Motion to Compel Additional Discovery into OpenAIs Project Giraffe and Additional Deposition Time of Vinnie Monaco addressed to Magistrate Judge Ona T. Wang from Steven Lieberman, Davida ***CORRECTED***. Document filed by OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.L.C., OpenAI Holdings LLC, OpenAI Holdings, LLC, OpenAI Inc., OpenAI LLC, OpenAI  …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/70338311/408/ziff-davis-inc-v-openai-inc/)
-
-### 📄 Doc #409 — 2026-02-05
-
-LETTER RESPONSE in Opposition to Motion addressed to Magistrate Judge Ona T. Wang from Joseph C. Gratz, Edward A. Bayley, and Allison S. Blanco dated February 4, 2026 re: (1220 in 1:25-md-03143-SHS-OTW, 1192 in 1:23-cv-11195-SHS-OTW) LETTER MOTION to Compel OpenAI Defendants to Additional Discovery into OpenAIs Project Giraffe and Additional Deposition Time of Vinnie Monaco addressed to Magistrate Judge Ona T. Wang from Steven Lieberman, Davida Brook and Joshua Michel, (1218 in 1:25-md-03143-SHS-OTW) LETTER MOTION to Compel OpenAI Defendants to Letter Motion to Compel Additional Discovery into OpenAIs Project Giraffe and Additional Deposition Time of Vinnie Monaco addressed to Magistrate Judge Ona T. Wang from Steven Lieberman, Davida ***CORRECTED***. Document filed by OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.L.C., OpenAI Holdings LLC, OpenAI Holdings, LLC, OpenAI Inc., OpenAI LLC, OpenAI LP, OpenAI O …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/70338311/409/ziff-davis-inc-v-openai-inc/)
-
-### 📄 Doc #405 — 2026-02-04
-
-DECLARATION of Maile Yeats-Rowe in Support re: (1261 in 1:25-md-03143-SHS-OTW, 778 in 1:25-cv-03482-SHS-OTW, 1216 in 1:23-cv-11195-SHS-OTW, 422 in 1:24-cv-01515-SHS-OTW, 327 in 1:25-cv-03297-SHS-OTW, 1005 in 1:23-cv-08292-SHS-OTW, 384 in 1:24-cv-01514-SHS-OTW, 403 in 1:25-cv-04315-SHS-OTW) LETTER MOTION to Seal Omnibus Letter Motion to Seal addressed to Magistrate Judge Ona T. Wang from Caitlin Sinclaire Blythe, Andrew F. Dawson and Elena Nightingale Dawson dated February 4, 2026.. Document filed by OpenAI Inc., OpenAI OpCo LLC, OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.L.C., OpenAI Holdings LLC, OpenAI Holdings, LLC, OpenAI LLC, OpenAI LP, OpenAI OpCo LLC(a Delaware limited liability corporation), OpenAI OpCo, L.L.C., OpenAI Startup Fund GP I LLC, OpenAI Startup Fund GP I LLC(a Delaware limited liability company), OpenAI Startup Fund I LP, OpenAI Startup Fund I LP(a Delaware limited partnership), Open …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/70338311/405/3/ziff-davis-inc-v-openai-inc/)
-
-### 📄 Doc #402 — 2026-02-04
-
-LETTER RESPONSE in Opposition to Motion addressed to Magistrate Judge Ona T. Wang from Christopher S. Sun, Herman H. Yue, Rose S. Lee dated February 4, 2026 re: (514 in 1:24-cv-04872-SHS-OTW, 1206 in 1:25-md-03143-SHS-OTW, 373 in 1:25-cv-04315-SHS-OTW, 1187 in 1:23-cv-11195-SHS-OTW, 614 in 1:24-cv-03285-SHS-OTW) LETTER MOTION to Compel Open AI to Produce Metrics Data Regarding Custom GPTs addressed to Magistrate Judge Ona T. Wang from Davida Brook dated January 30, 2026. . Document filed by OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.L.C., OpenAI Holdings LLC, OpenAI Holdings, LLC, OpenAI Inc., OpenAI LLC, OpenAI LP, OpenAI OpCo LLC, OpenAI OpCo LLC(a Delaware limited liability corporation), OpenAI OpCo, L.L.C., OpenAI Startup Fund GP I LLC, OpenAI Startup Fund GP I LLC(a Delaware limited liability company), OpenAI Startup Fund I LP, OpenAI Startup Fund I LP(a Delaware limited partnership), OpenAI Startu …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/70338311/402/1/ziff-davis-inc-v-openai-inc/)
-
-### 📄 Doc #403 — 2026-02-04
-
-LETTER MOTION to Seal Omnibus Letter Motion to Seal addressed to Magistrate Judge Ona T. Wang from Caitlin Sinclaire Blythe, Andrew F. Dawson and Elena Nightingale Dawson dated February 4, 2026. Document filed by OpenAI Inc., OpenAI OpCo LLC, OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.L.C., OpenAI Holdings LLC, OpenAI Holdings, LLC, OpenAI LLC, OpenAI LP, OpenAI OpCo LLC(a Delaware limited liability corporation), OpenAI OpCo, L.L.C., OpenAI Startup Fund GP I LLC, OpenAI Startup Fund GP I LLC(a Delaware limited liability company), OpenAI Startup Fund I LP, OpenAI Startup Fund I LP(a Delaware limited partnership), OpenAI Startup Fund Management LLC, OpenAI Startup Fund Management LLC(a Delaware limited liability company), OpenAI, Inc., OpenAI, LLC, OpenAI GP LLC, OpenAI Inc., OpenAI LP(a Delaware limited partnership). (Attachments: # 1 Proposed Order )Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/70338311/403/1/ziff-davis-inc-v-openai-inc/)
-
-### 📄 Doc #404 — 2026-02-04
-
-***SEALED***DECLARATION of Maile Yeats-Rowe in Support re: (1261 in 1:25-md-03143-SHS-OTW, 778 in 1:25-cv-03482-SHS-OTW, 1216 in 1:23-cv-11195-SHS-OTW, 422 in 1:24-cv-01515-SHS-OTW, 327 in 1:25-cv-03297-SHS-OTW, 1005 in 1:23-cv-08292-SHS-OTW, 384 in 1:24-cv-01514-SHS-OTW, 403 in 1:25-cv-04315-SHS-OTW) LETTER MOTION to Seal Omnibus Letter Motion to Seal addressed to Magistrate Judge Ona T. Wang from Caitlin Sinclaire Blythe, Andrew F. Dawson and Elena Nightingale Dawson dated February 4, 2026.. Document filed by OpenAI Inc., OpenAI OpCo LLC, OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.L.C., OpenAI Holdings LLC, OpenAI Holdings, LLC, OpenAI LLC, OpenAI LP, OpenAI OpCo LLC(a Delaware limited liability corporation), OpenAI OpCo, L.L.C., OpenAI Startup Fund GP I LLC, OpenAI Startup Fund GP I LLC(a Delaware limited liability company), OpenAI Startup Fund I LP, OpenAI Startup Fund I LP(a Delaware limited partne …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/70338311/404/ziff-davis-inc-v-openai-inc/)
-
 <details>
-<summary>已過濾的 31 筆程序性 entries（點擊展開）</summary>
+<summary>已過濾的 13 筆程序性 entries（點擊展開）</summary>
 
 - **Doc #579** (2026-08-14): CERTIFICATE OF SERVICE of ECF 1672 on August 13, 2026. Document filed by OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI Foundation, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC…
 - **Doc #566** (2026-07-16): CERTIFICATE OF SERVICE of ECF (1643) on July 16, 2026. Document filed by OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.…
@@ -1034,27 +1160,9 @@ LETTER MOTION to Seal Omnibus Letter Motion to Seal addressed to Magistrate Judg
 - **Doc #510** (2026-03-28): CERTIFICATE OF SERVICE of ECF (1476) on March 27, 2026. Document filed by OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L…
 - **Doc #499** (2026-03-20): CERTIFICATE OF SERVICE of ECF (1445) on March 20, 2026. Document filed by OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L…
 - **Doc #493** (2026-03-18): NOTICE OF APPEARANCE by Asim M. Bhansali on behalf of OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.L.C., OpenAI Holdin…
-- **Doc #488** (2026-03-11): CERTIFICATE OF SERVICE of Documents filed under seal at ECF (1421) on 03/10/2026. Document filed by OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Gl…
-- **Doc #478** (2026-03-06): CERTIFICATE OF SERVICE of Letter Brief in Response Response to Plaintiffs Discovery Dispute Brief (ECF 1383) and Related Exhibits A-C served on All Plaintiffs and Open AI Defendants on March 5, 2026. …
-- **Doc #477** (2026-03-06): CERTIFICATE OF SERVICE of UNREDACTED VERSIONS OF (1402) on March 5, 2026. Document filed by OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC…
-- **Doc #458** (2026-03-04): CERTIFICATE OF SERVICE of ECF 1375 on March 3, 2026. Document filed by OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.L.…
-- **Doc #451** (2026-02-24): CERTIFICATE OF SERVICE of ECF (1347). Document filed by OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.L.C., OpenAI Hold…
-- **Doc #447** (2026-02-24): CERTIFICATE OF SERVICE of Documents filed under seal at ECF (1342) on 02/23/2026. Document filed by OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Gl…
-- **Doc #443** (2026-02-23): CERTIFICATE OF SERVICE of ECF Doc. No. 1335 served on Plaintiffs on 2/20/2026. Document filed by OAI Corporation, OAI Corporation LLC, OpenAI GP LLC, OpenAI Global LLC, OpenAI Holdings LLC, OpenAI Inc…
-- **Doc #437** (2026-02-20): CERTIFICATE OF SERVICE of Letter Response and Supporting Exhibits served on Ziff Davis on February 20, 2026. Document filed by OAI Corporation, OAI Corporation LLC, OpenAI GP LLC, OpenAI Global LLC, O…
-- **Doc #442** (2026-02-20): CERTIFICATE OF SERVICE of ECF 1337 on February 20, 2026. Document filed by OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, …
-- **Doc #429** (2026-02-19): MOTION for David Rosenstein to Appear Pro Hac Vice . Filing fee $ 200.00, receipt number NYSDC-32432007. Motion and supporting papers to be reviewed by Clerk's Office staff. Document filed by OAI Corp…
-- **Doc #—** (2026-02-19): >>>NOTICE REGARDING PRO HAC VICE MOTION. Regarding Document No. (429 in 1:25-cv-04315-SHS-OTW, 432 in 1:24-cv-01515-SHS-OTW, 1042 in 1:23-cv-08292-SHS-OTW, 336 in 1:25-cv-03297-SHS-OTW, 1324 in 1:25-m…
-- **Doc #430** (2026-02-19): NOTICE OF APPEARANCE by Yijun Zhong on behalf of OAI Corporation, OpenAI GP LLC, OpenAI Global LLC, OpenAI Holdings LLC, OpenAI Inc., OpenAI LLC, OpenAI OpCo LLC..(Zhong, Yijun) (Entered: 02/19/2026)
-- **Doc #425** (2026-02-17): CERTIFICATE OF SERVICE of OPENAIS EX PARTE SUPPLEMENTAL LETTER REGARDING IN CAMERA REVIEW on February 17, 2026. Document filed by OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP …
-- **Doc #419** (2026-02-10): NOTICE OF APPEARANCE by Maria Fernanda Rodriguez Torres on behalf of OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.L.C.…
-- **Doc #417** (2026-02-06): CERTIFICATE OF SERVICE of (Sealed) Exhibit C to Notice of Supplemental Authority Regarding Defendants Letter Motion at Dkt. 381 served on Ziff Davis Plaintiffs on February 6, 2026. Document filed by O…
-- **Doc #411** (2026-02-05): CERTIFICATE OF SERVICE of Unredacted CORRECTED Letter Response In Opposition to Plaintiffs Motion to Compel Additional Discovery Into OpenAIs Project Giraffe and Additional Deposition Time of Vinnie M…
-- **Doc #410** (2026-02-05): CERTIFICATE OF SERVICE of Unredacted Highlighted Versions of ECF (1262), [1262-1], [1262-2] and [1262-3] on February 4, 2026. Document filed by OAI Corporation, OAI Corporation LLC, OAI Corporation, L…
-- **Doc #—** (2026-02-04): >>>NOTICE REGARDING PRO HAC VICE MOTION. Regarding Document No. (408 in 1:24-cv-01515-SHS-OTW, 983 in 1:23-cv-08292-SHS-OTW, 1196 in 1:23-cv-11195-SHS-OTW, 370 in 1:24-cv-01514-SHS-OTW, 762 in 1:25-cv…
 
 </details>
 
 ---
 
-*產生時間：2026-09-01 01:20 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-10-01 01:24 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

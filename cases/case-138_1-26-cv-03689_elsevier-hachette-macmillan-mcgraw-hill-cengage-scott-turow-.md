@@ -1,6 +1,6 @@
 # Case 138 — Elsevier Inc. v. Meta Platforms, Inc.
 
-> 最後更新（CourtListener fetch）：2026-09-01 01:43 UTC
+> 最後更新（CourtListener fetch）：2026-10-01 01:49 UTC
 
 ---
 
@@ -13,7 +13,7 @@
 | Court | District Court, S.D. New York (`nysd`) |
 | Judge Assigned | P. Kevin Castel |
 | Date Filed | 2026-05-05 |
-| Date Last Filing | 2026-08-18 |
+| Date Last Filing | 2026-09-25 |
 | Cause | 17:101 Copyright Infringement |
 | Nature of Suit | 820 Copyright |
 | Jury Demand | Both |
@@ -33,11 +33,49 @@
 
 - ⚠️ Court 可能不一致：dashboard 寫「S.D.N.Y. 1:26-cv-03689（caption：Elsevier Inc. v. Meta Platforms, Inc.）」，CourtListener 為「S.D. New York」
 - ✅ Judge 一致：dashboard 寫「P. Kevin Castel（District Judge）／Robyn F. Tarnofsky（Magistrate）」，CourtListener 為「P. Kevin Castel」
-- ⚠️ Dashboard progress **落後 103 天**：dashboard 最新日期 2026-05-07，CourtListener 最後 entry 2026-08-18——建議查看新近 entries 並補充 progress
+- ⚠️ Dashboard progress **落後 141 天**：dashboard 最新日期 2026-05-07，CourtListener 最後 entry 2026-09-25——建議查看新近 entries 並補充 progress
 
 ## 3. Docket Entries（最新優先，已過濾程序性 entries）
 
-**實質性 entries**：80 筆／**已過濾程序性 entries**：56 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+**實質性 entries**：87 筆／**已過濾程序性 entries**：56 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+
+### 📄 Doc #101 — 2026-09-25
+
+OPINION AND ORDER  re:  60     MOTION   to Transfer Case Memorandum of Law in Support of Motion to Transfer Venue to N.D. Cal.. filed by   Meta Platforms, Inc.,  59     MOTION   to Transfer Case . filed by Mark  Zuckerberg.   The motion s to transfer this action to the United States District Court for  the Northern District of California are GRANTED. The Clerk is respectfully  requested to terminate t he motions at ECF 59 & 60, transfer the action, and  administratively close the case. SO ORDERED.   (Signed by Judge P. Kevin Castel on 9/25/2026)   (vfr) Transmission to Office of the Clerk of Court for processing.
+
+[CourtListener 連結](https://www.courtlistener.com/docket/73294740/101/elsevier-inc-v-meta-platforms-inc/)
+
+### 📄 Doc #100 — 2026-09-22
+
+NOTICE OF FILING OF OFFICIAL TRANSCRIPT Notice is hereby given that an official transcript of a conference proceeding held on 9/15/26 has been filed by the court reporter/transcriber in the above-captioned matter. The parties have seven (7) calendar days to file with the court a Notice of Intent to Request Redaction of this transcript. If no such Notice is filed, the transcript may be made remotely electronically available to the public without redaction after 90 calendar days....(Moya, Goretti) (Entered: 09/22/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/73294740/100/elsevier-inc-v-meta-platforms-inc/)
+
+### 📄 Doc #99 — 2026-09-22
+
+TRANSCRIPT of Proceedings re: conference held on 9/15/2026 before Judge P. Kevin Castel. Court Reporter/Transcriber: George Malinowski, (212) 805-0300. Transcript may be viewed at the court public terminal or purchased through the Court Reporter/Transcriber before the deadline for Release of Transcript Restriction. After that date it may be obtained through PACER. Redaction Request due 10/13/2026. Redacted Transcript Deadline set for 10/23/2026. Release of Transcript Restriction set for 12/21/2026..(Moya, Goretti) (Entered: 09/22/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/73294740/99/elsevier-inc-v-meta-platforms-inc/)
+
+### 📄 Doc #— — 2026-09-15
+
+Minute Entry for proceedings held before Judge P. Kevin Castel: Oral Argument held on 9/15/2026 re: 58, 59, 60 - Motion to Transfer Venue. Court reserves decision. (Court Reporter George Malinowski) (Rohit Nair) (Nacanther, Florence)
+
+### 📄 Doc #— — 2026-09-15
+
+Oral Argument
+
+### 📄 Doc #98 — 2026-09-10
+
+MEMO ENDORSEMENT on re: 97 Letter filed by Meta Platforms, Inc. ENDORSEMENT: There are no issues relating to a case that are beyond the purview of a case management conference. See Rule 16. SO ORDERED. (Signed by Judge P. Kevin Castel on 9/10/2026) (vfr) (Entered: 09/10/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/73294740/98/elsevier-inc-v-meta-platforms-inc/)
+
+### 📄 Doc #97 — 2026-09-10
+
+LETTER addressed to Judge P. Kevin Castel from Kyle Smith dated September 10, 2026 re: Initial Pretrial Conference. Document filed by Meta Platforms, Inc...(Smith, Kyle) (Entered: 09/10/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/73294740/97/elsevier-inc-v-meta-platforms-inc/)
 
 ### 📄 Doc #96 — 2026-08-18
 
@@ -61,7 +99,7 @@ MEMO ENDORSEMENT granting 93 Motion to Withdraw as Attorney. ENDORSEMENT: SO ORD
 
 MOTION for Samuel L. Rubinstein to Withdraw as Attorney . Document filed by Cengage Learning, Inc., Elsevier Inc., Hachette Book Group, Inc., Macmillan Publishing Group, LLC d/b/a Macmillan Publishers, McGraw Hill LLC, S.C.R.I.B.E., Inc., Scott Turow. (Attachments: # 1 Supplement Certificate of Service).(Rubinstein, Samuel) (Entered: 08/14/2026)
 
-[CourtListener 連結](https://www.courtlistener.com/docket/73294740/93/elsevier-inc-v-meta-platforms-inc/)
+[CourtListener 連結](https://www.courtlistener.com/docket/73294740/93/1/elsevier-inc-v-meta-platforms-inc/)
 
 ### 📄 Doc #92 — 2026-08-07
 
@@ -241,7 +279,7 @@ MEMO ENDORSEMENT on re: 44 Letter, filed by Kenneth Saladin. ENDORSEMENT: Dr Sal
 
 ### 📄 Doc #55 — 2026-06-10
 
-ORDER:    The undersigned hereby discloses that his spouse authored a narrative  nonfiction work published by Kent State University Press in June 2025. The undersigned is  aware that the class definition excludes "any Judge or Magistrate Judge  presiding  over this action and members of their families...." (Complt. Para 168.)Any person seeking additional information regarding the foregoing or seeking to make any application with respect thereto shall do so within fourteen (14) days  from the date of this Order. SO ORDERED.   (Signed by Judge P. Kevin Castel on 6/10/2026)   (vfr)
+ORDER: The undersigned hereby discloses that his spouse authored a narrative nonfiction work published by Kent State University Press in June 2025. The undersigned is aware that the class definition excludes "any Judge or Magistrate Judge presiding over this action and members of their families...." (Complt. Para 168.)Any person seeking additional information regarding the foregoing or seeking to make any application with respect thereto shall do so within fourteen (14) days from the date of this Order. SO ORDERED. (Signed by Judge P. Kevin Castel on 6/10/2026) (vfr) (Entered: 06/10/2026)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/73294740/55/elsevier-inc-v-meta-platforms-inc/)
 
@@ -478,13 +516,13 @@ COMPLAINT against Meta Platforms, Inc., Mark Zuckerberg. (Filing Fee $ 405.00, R
 - **Doc #68** (2026-07-09): ORDER granting 65 Motion for Jessica E. Phillips to Appear Pro Hac Vice (HEREBY ORDERED by Judge P. Kevin Castel)(Text Only Order) (Nacanther, Florence) (Entered: 07/09/2026)
 - **Doc #—** (2026-07-08): >>>NOTICE REGARDING PRO HAC VICE MOTION. Regarding Document No. 67 MOTION for Elizabeth L. Stameshkin to Appear Pro Hac Vice . Filing fee $ 200.00, receipt number ANYSDC-33101868. Motion and supportin…
 - **Doc #—** (2026-07-08): >>>NOTICE REGARDING PRO HAC VICE MOTION. Regarding Document No. 66 MOTION for Mark R. Weinstein to Appear Pro Hac Vice . Filing fee $ 200.00, receipt number ANYSDC-33101858. Motion and supporting pape…
-- **Doc #—** (2026-07-07): >>>NOTICE REGARDING PRO HAC VICE MOTION. Regarding Document No. 65 MOTION for Jessica E. Phillips to Appear Pro Hac Vice . Filing fee $ 200.00, receipt number ANYSDC-33098091. Motion and supporting pa…
-- **Doc #66** (2026-07-07): MOTION for Mark R. Weinstein to Appear Pro Hac Vice . Filing fee $ 200.00, receipt number ANYSDC-33101858. Motion and supporting papers to be reviewed by Clerk's Office staff. Document filed by Meta P…
 - **Doc #67** (2026-07-07): MOTION for Elizabeth L. Stameshkin to Appear Pro Hac Vice . Filing fee $ 200.00, receipt number ANYSDC-33101868. Motion and supporting papers to be reviewed by Clerk's Office staff. Document filed by …
 - **Doc #65** (2026-07-07): MOTION for Jessica E. Phillips to Appear Pro Hac Vice . Filing fee $ 200.00, receipt number ANYSDC-33098091. Motion and supporting papers to be reviewed by Clerk's Office staff. Document filed by Meta…
+- **Doc #66** (2026-07-07): MOTION for Mark R. Weinstein to Appear Pro Hac Vice . Filing fee $ 200.00, receipt number ANYSDC-33101858. Motion and supporting papers to be reviewed by Clerk's Office staff. Document filed by Meta P…
+- **Doc #—** (2026-07-07): >>>NOTICE REGARDING PRO HAC VICE MOTION. Regarding Document No. 65 MOTION for Jessica E. Phillips to Appear Pro Hac Vice . Filing fee $ 200.00, receipt number ANYSDC-33098091. Motion and supporting pa…
 - **Doc #64** (2026-07-02): ORDER granting 63 Motion for Phillip E. Morton to Appear Pro Hac Vice (HEREBY ORDERED by Judge P. Kevin Castel)(Text Only Order) (Nacanther, Florence) (Entered: 07/02/2026)
-- **Doc #—** (2026-07-01): >>>NOTICE REGARDING PRO HAC VICE MOTION. Regarding Document No. 63 MOTION for Phillip E. Morton to Appear Pro Hac Vice . Filing fee $ 200.00, receipt number ANYSDC-33076431. Motion and supporting pape…
 - **Doc #63** (2026-07-01): MOTION for Phillip E. Morton to Appear Pro Hac Vice . Filing fee $ 200.00, receipt number ANYSDC-33076431. Motion and supporting papers to be reviewed by Clerk's Office staff. Document filed by Meta P…
+- **Doc #—** (2026-07-01): >>>NOTICE REGARDING PRO HAC VICE MOTION. Regarding Document No. 63 MOTION for Phillip E. Morton to Appear Pro Hac Vice . Filing fee $ 200.00, receipt number ANYSDC-33076431. Motion and supporting pape…
 - **Doc #52** (2026-06-09): NOTICE OF APPEARANCE by Justin V. Shur on behalf of Mark Zuckerberg..(Shur, Justin) (Entered: 06/09/2026)
 - **Doc #50** (2026-06-05): ORDER granting 42 Motion for Eli Goldman to Appear Pro Hac Vice (HEREBY ORDERED by Judge P. Kevin Castel)(Text Only Order) (Nacanther, Florence) (Entered: 06/05/2026)
 - **Doc #43** (2026-05-29): NOTICE OF APPEARANCE by David Neal Slarskey on behalf of Kenneth Saladin..(Slarskey, David) (Entered: 05/29/2026)
@@ -531,4 +569,4 @@ COMPLAINT against Meta Platforms, Inc., Mark Zuckerberg. (Filing Fee $ 405.00, R
 
 ---
 
-*產生時間：2026-09-01 01:43 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-10-01 01:49 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

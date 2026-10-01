@@ -1,6 +1,6 @@
 # Case 25 — Advance Local Media LLC v. Cohere Inc.
 
-> 最後更新（CourtListener fetch）：2026-09-01 01:15 UTC
+> 最後更新（CourtListener fetch）：2026-10-01 01:15 UTC
 
 ---
 
@@ -14,7 +14,7 @@
 | Judge Assigned | Colleen McMahon |
 | Judge Referred | Ona T. Wang |
 | Date Filed | 2025-02-13 |
-| Date Last Filing | 2026-08-28 |
+| Date Last Filing | 2026-09-30 |
 | Cause | 17:101 Copyright Infringement |
 | Nature of Suit | 820 Copyright |
 | Jury Demand | Both |
@@ -34,11 +34,65 @@
 
 - ✅ Court 一致：dashboard 寫「S.D.N.Y.」，CourtListener 為「S.D. New York」
 - ✅ Judge 一致：dashboard 寫「Colleen McMahon」，CourtListener 為「Colleen McMahon」
-- ℹ️ Dashboard progress 內找不到【YYYY/M/D】格式日期；CourtListener 最後 entry: 2026-08-28
+- ℹ️ Dashboard progress 內找不到【YYYY/M/D】格式日期；CourtListener 最後 entry: 2026-09-30
 
 ## 3. Docket Entries（最新優先，已過濾程序性 entries）
 
-**實質性 entries**：141 筆／**已過濾程序性 entries**：48 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+**實質性 entries**：149 筆／**已過濾程序性 entries**：51 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+
+### 📄 Doc #151 — 2026-09-30
+
+Notice of Appearance
+
+[CourtListener 連結](https://www.courtlistener.com/docket/69636122/151/advance-local-media-llc-v-cohere-inc/)
+
+### 📄 Doc #150 — 2026-09-30
+
+Order on Motion to Appear Pro Hac Vice
+
+[CourtListener 連結](https://www.courtlistener.com/docket/69636122/150/advance-local-media-llc-v-cohere-inc/)
+
+### 📄 Doc #149 — 2026-09-25
+
+Letter
+
+[CourtListener 連結](https://www.courtlistener.com/docket/69636122/149/advance-local-media-llc-v-cohere-inc/)
+
+### 📄 Doc #148 — 2026-09-23
+
+Appear Pro Hac Vice
+
+[CourtListener 連結](https://www.courtlistener.com/docket/69636122/148/advance-local-media-llc-v-cohere-inc/)
+
+### 📄 Doc #— — 2026-09-23
+
+Notice Regarding Pro Hac Vice Motion
+
+### 📄 Doc #147 — 2026-09-14
+
+Notice of Appearance
+
+[CourtListener 連結](https://www.courtlistener.com/docket/69636122/147/advance-local-media-llc-v-cohere-inc/)
+
+### 📄 Doc #146 — 2026-09-11
+
+Order on Motion to Appear Pro Hac Vice
+
+[CourtListener 連結](https://www.courtlistener.com/docket/69636122/146/advance-local-media-llc-v-cohere-inc/)
+
+### 📄 Doc #— — 2026-09-10
+
+Notice Regarding Pro Hac Vice Motion
+
+### 📄 Doc #145 — 2026-09-10
+
+Appear Pro Hac Vice
+
+[CourtListener 連結](https://www.courtlistener.com/docket/69636122/145/advance-local-media-llc-v-cohere-inc/)
+
+### 📄 Doc #— — 2026-09-01
+
+Notice Regarding Pro Hac Vice Motion
 
 ### 📄 Doc #141 — 2026-08-28
 
@@ -48,7 +102,7 @@ JOINT LETTER addressed to Magistrate Judge Ona T. Wang from R. David Hosp and Sc
 
 ### 📄 Doc #140 — 2026-08-21
 
-SEALING ORDER granting 137 Letter Motion to Seal. Accordingly, Defendant's application to redact portions of the transcript at ECF 131 is GRANTED. The Clerk of Court is respectfully directed to close ECF 137 and maintain sealing of ECF Nos. 131 and 138. Defendant is directed to publicly file a redacted transcript of the June 17, 2026, status conference with the redactions approved by the Court by August 28, 2026. SO ORDERED. (Signed by Magistrate Judge Ona T. Wang on 8/21/2026) (jca) (Entered: 08/21/2026)
+SEALING ORDER granting  137  Letter Motion to Seal. Accordingly, Defendant's  application to redact portions of the transcript at ECF 131 is GRANTED. The Clerk of Court is respectfully directed to close ECF 137 and maintain  sealing of ECF Nos.  131 and 138. Defendant is directed to publicly file a  redacted transcript of the June 17, 2026, status conference with the redactions  approved by the Court by August 28, 2026. SO ORDERED.   (Signed by Magistrate Judge Ona T. Wang on 8/21/2026)    (jca)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/69636122/140/advance-local-media-llc-v-cohere-inc/)
 
@@ -804,21 +858,13 @@ RULE 7.1 CORPORATE DISCLOSURE STATEMENT. Identifying Corporate Parent SIJ Interm
 
 [CourtListener 連結](https://www.courtlistener.com/docket/69636122/14/advance-local-media-llc-v-cohere-inc/)
 
-### 📄 Doc #2 — 2025-02-13
-
-FILING ERROR - PDF ERROR - CIVIL COVER SHEET filed..(Zebrak, Scott) Modified on 2/14/2025 (pc). (Entered: 02/13/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/69636122/2/advance-local-media-llc-v-cohere-inc/)
-
-### 📄 Doc #1 — 2025-02-13
-
-COMPLAINT against Cohere Inc.. (Filing Fee $ 405.00, Receipt Number ANYSDC-30611997)Document filed by Insider, Inc., Politico LLC, The Atlantic Monthly Group LLC, Los Angeles Times Communications LLC, Newsday, LLC, Advance Magazine Publishers Inc. d/b/a Cond Nast, The Republican Company, Vox Media, LLC, The McClatchy Company, LLC, Forbes Media LLC, Advance Local Media LLC, Plain Dealer Publishing Co., Toronto Star Newspapers Limited, Guardian News & Media Limited. (Attachments: # 1 Exhibit A - Works in Suit, # 2 Exhibit B - Copyright Infringement, # 3 Exhibit C - Trademarks, # 4 Exhibit D - Trademark Infringement).(Zebrak, Scott) (Entered: 02/13/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/69636122/1/4/advance-local-media-llc-v-cohere-inc/)
-
 <details>
-<summary>已過濾的 48 筆程序性 entries（點擊展開）</summary>
+<summary>已過濾的 51 筆程序性 entries（點擊展開）</summary>
 
+- **Doc #143** (2026-09-02): ORDER FOR ADMISSION PRO HAC VICE granting 142 Motion for Lise Guerrier-Louis to Appear Pro Hac Vice. IT IS HEREBY ORDERED that Lise Guerrier-Louis is admitted to practice pro hac vice in the above cap…
+- **Doc #144** (2026-09-02): ORDER FOR ADMISSION PRO HAC VICE granting 139 Motion for Monica Svetoslavov to Appear Pro Hac Vice. IT IS HEREBY ORDERED that Lise Guerrier-Louis is admitted to practice pro hac vice in the above capt…
+- **Doc #—** (2026-09-01): >>>NOTICE REGARDING PRO HAC VICE MOTION. Regarding Document No. 142 MOTION for Lise Guerrier-Louis to Appear Pro Hac Vice . Filing fee $ 200.00, receipt number ANYSDC-33372397. Motion and supporting p…
+- **Doc #142** (2026-09-01): MOTION for Lise Guerrier-Louis to Appear Pro Hac Vice . Filing fee $ 200.00, receipt number ANYSDC-33372397. Motion and supporting papers to be reviewed by Clerk's Office staff. Document filed by Cohe…
 - **Doc #139** (2026-08-18): MOTION for Monica Svetoslavov to Appear Pro Hac Vice . Filing fee $ 200.00, receipt number ANYSDC-33307150. Motion and supporting papers to be reviewed by Clerk's Office staff. Document filed by Coher…
 - **Doc #—** (2026-08-18): >>>NOTICE REGARDING PRO HAC VICE MOTION. Regarding Document No. 139 MOTION for Monica Svetoslavov to Appear Pro Hac Vice . Filing fee $ 200.00, receipt number ANYSDC-33307150. Motion and supporting pa…
 - **Doc #122** (2026-06-26): CERTIFICATE OF SERVICE of Dkt 116: Letter Opposition to Coheres Letter Brief Regarding Random Sampling Proposal served on Cohere Inc. on June 25, 2026. Document filed by Advance Local Media LLC, Advan…
@@ -866,10 +912,9 @@ COMPLAINT against Cohere Inc.. (Filing Fee $ 405.00, Receipt Number ANYSDC-30611
 - **Doc #25** (2025-02-20): NOTICE OF APPEARANCE by Audrey Adu-Appiah on behalf of Plain Dealer Publishing Co., Politico LLC, The Republican Company, Toronto Star Newspapers Limited, Vox Media, LLC, Advance Local Media LLC, Adva…
 - **Doc #26** (2025-02-20): NOTICE OF APPEARANCE by Yunyi Chen on behalf of Plain Dealer Publishing Co., Politico LLC, The Republican Company, Toronto Star Newspapers Limited, Vox Media, LLC, Advance Local Media LLC, Advance Mag…
 - **Doc #18** (2025-02-14): CIVIL COVER SHEET filed..(Zebrak, Scott) (Entered: 02/14/2025)
-- **Doc #3** (2025-02-13): REQUEST FOR ISSUANCE OF SUMMONS as to Cohere Inc., re: 1 Complaint,,. Document filed by Plain Dealer Publishing Co., Politico LLC, The Republican Company, Toronto Star Newspapers Limited, Vox Media, L…
 
 </details>
 
 ---
 
-*產生時間：2026-09-01 01:15 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-10-01 01:15 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

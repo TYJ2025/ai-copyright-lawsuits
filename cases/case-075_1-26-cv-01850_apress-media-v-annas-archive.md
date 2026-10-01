@@ -1,6 +1,6 @@
 # Case 75 — Apress Media, LLC v. Anna's Archive
 
-> 最後更新（CourtListener fetch）：2026-09-01 01:31 UTC
+> 最後更新（CourtListener fetch）：2026-10-01 01:35 UTC
 
 ---
 
@@ -285,4 +285,4 @@ RULE 7.1 CORPORATE DISCLOSURE STATEMENT. Identifying Corporate Parent Springer N
 
 ---
 
-*產生時間：2026-09-01 01:31 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-10-01 01:35 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

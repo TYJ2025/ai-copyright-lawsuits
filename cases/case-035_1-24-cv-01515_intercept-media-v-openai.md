@@ -1,6 +1,6 @@
 # Case 35 — The Intercept Media, Inc. v. OpenAI, Inc.
 
-> 最後更新（CourtListener fetch）：2026-09-01 01:18 UTC
+> 最後更新（CourtListener fetch）：2026-10-01 01:20 UTC
 
 ---
 
@@ -14,7 +14,7 @@
 | Judge Assigned | Sidney H. Stein |
 | Judge Referred | Ona T. Wang |
 | Date Filed | 2024-02-28 |
-| Date Last Filing | 2026-08-14 |
+| Date Last Filing | 2026-09-24 |
 | Cause | 17:1201 Digital Millennium Copyright Act |
 | Nature of Suit | 820 Copyright |
 | Jury Demand | Plaintiff |
@@ -28,75 +28,555 @@
 > - Court=S.D.N.Y.
 > - Judge=Sidney H. Stein
 > - Status=active
-> - Progress=案件於 2026 年 1 月提起。OpenAI 已於 3 月提交駁回動議（motion to dismiss），主張 CMI 條款不適用於 AI 訓練資料集。法院預計於 2026 年 5 月作出決定。原告亦已向第二巡迴法院提交法庭之友意見書。
+> - Progress=案件於 2026 年 1 月提起。OpenAI 已於 3 月提交駁回動議（motion to dismiss），主張 CMI 條款不適用於 AI 訓練資料集。法院預計於 2026 年 5 月作出決定。原告亦已向第二巡迴法院提交法庭之友意見書。 【2026/9/2】美國司法部（川普政府）於 In re OpenAI 著作權訴訟 MDL 遞交法庭意見書力挺 OpenAI，主張 AI 訓練屬高度轉化之合理使用，為聯邦政府首次就 AI 著作權訴訟表態
 
 **自動比對結果：**
 
 - ✅ Court 一致：dashboard 寫「S.D.N.Y.」，CourtListener 為「S.D. New York」
 - ✅ Judge 一致：dashboard 寫「Sidney H. Stein」，CourtListener 為「Sidney H. Stein」
-- ℹ️ Dashboard progress 內找不到【YYYY/M/D】格式日期；CourtListener 最後 entry: 2026-08-14
+- ℹ️ Dashboard progress 略落後 22 天：dashboard 最新日期 2026-09-02，CourtListener 最後 entry 2026-09-24
 
 ## 3. Docket Entries（最新優先，已過濾程序性 entries）
 
-**實質性 entries**：147 筆／**已過濾程序性 entries**：53 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+**實質性 entries**：175 筆／**已過濾程序性 entries**：25 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
 
-### 📄 Doc #506 — 2026-08-14
+### 📄 Doc #591 — 2026-09-24
 
-Exhibit 20
+Exhibit 58
 
-[CourtListener 連結](https://www.courtlistener.com/docket/68290804/506/22/the-intercept-media-inc-v-openai-inc/)
+[CourtListener 連結](https://www.courtlistener.com/docket/68290804/591/58/the-intercept-media-inc-v-openai-inc/)
 
-### 📄 Doc #505 — 2026-08-14
+### 📄 Doc #590 — 2026-09-24
 
-Response in Opposition to Motion
+Exhibit N - Filed Under Seal
 
-[CourtListener 連結](https://www.courtlistener.com/docket/68290804/505/the-intercept-media-inc-v-openai-inc/)
+[CourtListener 連結](https://www.courtlistener.com/docket/68290804/590/14/the-intercept-media-inc-v-openai-inc/)
 
-### 📄 Doc #507 — 2026-08-14
+### 📄 Doc #589 — 2026-09-24
+
+Appendix A - Analysis of Daily News Plaintiffs URL Crawl Dates
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68290804/589/1/the-intercept-media-inc-v-openai-inc/)
+
+### 📄 Doc #596 — 2026-09-24
 
 Certificate of Service Other
 
-[CourtListener 連結](https://www.courtlistener.com/docket/68290804/507/the-intercept-media-inc-v-openai-inc/)
+[CourtListener 連結](https://www.courtlistener.com/docket/68290804/596/the-intercept-media-inc-v-openai-inc/)
+
+### 📄 Doc #586 — 2026-09-24
+
+Memorandum of Law in Support of Motion
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68290804/586/the-intercept-media-inc-v-openai-inc/)
+
+### 📄 Doc #587 — 2026-09-24
+
+Memorandum of Law in Support of Motion
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68290804/587/the-intercept-media-inc-v-openai-inc/)
+
+### 📄 Doc #588 — 2026-09-24
+
+Declaration in Support of Motion
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68290804/588/the-intercept-media-inc-v-openai-inc/)
+
+### 📄 Doc #592 — 2026-09-24
+
+Declaration in Support of Motion
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68290804/592/the-intercept-media-inc-v-openai-inc/)
+
+### 📄 Doc #593 — 2026-09-24
+
+Oral Argument
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68290804/593/the-intercept-media-inc-v-openai-inc/)
+
+### 📄 Doc #594 — 2026-09-24
+
+Declaration in Support of Motion
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68290804/594/the-intercept-media-inc-v-openai-inc/)
+
+### 📄 Doc #595 — 2026-09-24
+
+Certificate of Service Other
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68290804/595/the-intercept-media-inc-v-openai-inc/)
+
+### 📄 Doc #584 — 2026-09-24
+
+Order on Motion for Extension of Time to File
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68290804/584/the-intercept-media-inc-v-openai-inc/)
+
+### 📄 Doc #583 — 2026-09-21
+
+DECLARATION of Annette L. Hurst in Support re: (889 in 1:24-cv-03285-SHS-OTW, 582 in 1:24-cv-01515-SHS-OTW, 668 in 1:25-cv-04315-SHS-OTW, 1615 in 1:23-cv-11195-SHS-OTW, 2041 in 1:25-md-03143-SHS-OTW, 753 in 1:24-cv-04872-SHS-OTW) JOINT LETTER MOTION for Extension of Time to File Opposition to News Plaintiffs' Motion for Partial Summary Judgment addressed to Judge Sidney H. Stein from Annette L. Hurst and Robert A. Van Nest dated September 21, 2026.. Document filed by Microsoft Corporation. (Attachments: # 1 Exhibit A - September 13, 2026 Email from Microsoft's counsel to News Plaintiffs' counsel, # 2 Exhibit B - September 18, 2026 Email among lead counsel regarding Defendants' requested extention)Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Hurst, Annette) (Entered: 09/21/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68290804/583/2/the-intercept-media-inc-v-openai-inc/)
+
+### 📄 Doc #582 — 2026-09-21
+
+JOINT LETTER MOTION for Extension of Time to File Opposition to News Plaintiffs' Motion for Partial Summary Judgment addressed to Judge Sidney H. Stein from Annette L. Hurst and Robert A. Van Nest dated September 21, 2026. Document filed by Microsoft Corporation.Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Hurst, Annette) (Entered: 09/21/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68290804/582/the-intercept-media-inc-v-openai-inc/)
+
+### 📄 Doc #581 — 2026-09-18
+
+RULE 56.1 STATEMENT. Document filed by Daily News LP, The Center for Investigative Reporting, Inc., The Intercept Media, Inc., The New York Times Company, Ziff Davis Inc.. Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Topic, Matthew) (Entered: 09/18/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68290804/581/the-intercept-media-inc-v-openai-inc/)
+
+### 📄 Doc #577 — 2026-09-17
+
+LETTER MOTION to Seal ECF 1935 and [1932-1] addressed to Magistrate Judge Ona T. Wang from Caitlin Sinclaire Blythe, Thomas E. Gorman, Herman H. Yue dated September 17, 2026. Document filed by OAI Corporation, OpenAI Foundation, OpenAI GP, LLC, OpenAI Global, LLC, OpenAI Group PBC, OpenAI LLC, OpenAI OpCo, LLC, OpenAI Startup Fund GP I LLC, OpenAI Startup Fund I LP, OpenAI Startup Fund Management LLC(a Delaware limited liability company). (Attachments: # 1 Proposed Order )Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Blythe, Caitlin) (Entered: 09/17/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68290804/577/1/the-intercept-media-inc-v-openai-inc/)
+
+### 📄 Doc #579 — 2026-09-17
+
+DECLARATION of Maile Yeats-Rowe in Support re: (663 in 1:25-cv-04315-SHS-OTW, 883 in 1:24-cv-03285-SHS-OTW, 577 in 1:24-cv-01515-SHS-OTW, 2008 in 1:25-md-03143-SHS-OTW, 1608 in 1:23-cv-11195-SHS-OTW, 747 in 1:24-cv-04872-SHS-OTW) LETTER MOTION to Seal ECF (1935) and [1932-1] addressed to Magistrate Judge Ona T. Wang from Caitlin Sinclaire Blythe, Thomas E. Gorman, Herman H. Yue dated September 17, 2026.. Document filed by OAI Corporation, OpenAI Foundation, OpenAI GP, LLC, OpenAI Global, LLC, OpenAI Group PBC, OpenAI LLC, OpenAI OpCo, LLC, OpenAI Startup Fund GP I LLC, OpenAI Startup Fund I LP, OpenAI Startup Fund Management LLC(a Delaware limited liability company). (Attachments: # 1 Exhibit A, # 2 Exhibit B)Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Blythe, Caitlin) (Entered: 09/17/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68290804/579/2/the-intercept-media-inc-v-openai-inc/)
+
+### 📄 Doc #578 — 2026-09-17
+
+***SEALED***DECLARATION of Maile Yeats-Rowe in Support re: (663 in 1:25-cv-04315-SHS-OTW, 883 in 1:24-cv-03285-SHS-OTW, 577 in 1:24-cv-01515-SHS-OTW, 2008 in 1:25-md-03143-SHS-OTW, 1608 in 1:23-cv-11195-SHS-OTW, 747 in 1:24-cv-04872-SHS-OTW) LETTER MOTION to Seal ECF (1935) and [1932-1] addressed to Magistrate Judge Ona T. Wang from Caitlin Sinclaire Blythe, Thomas E. Gorman, Herman H. Yue dated September 17, 2026.. Document filed by OAI Corporation, OpenAI Foundation, OpenAI GP, LLC, OpenAI Global, LLC, OpenAI Group PBC, OpenAI LLC, OpenAI OpCo, LLC, OpenAI Startup Fund GP I LLC, OpenAI Startup Fund I LP, OpenAI Startup Fund Management LLC(a Delaware limited liability company). (Attachments: # 1 Exhibit A, # 2 Exhibit B)Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al.Motion or Order to File Under Seal: 2008 .(Blythe, Caitlin) (Entered: 09/17/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68290804/578/the-intercept-media-inc-v-openai-inc/)
+
+### 📄 Doc #567 — 2026-09-17
+
+***SEALED***DECLARATION of Davida Brook re: (1728 in 1:25-md-03143-SHS-OTW) MOTION for Summary Judgment ., (1688 in 1:25-md-03143-SHS-OTW) MOTION to Seal and Redact Portions of News Plaintiffs' Combined Summary Judgment Brief and Rule 56.1 Statement of Material Undisputed Facts. . Document filed by The New York Times Company. (Attachments: # 1 Exhibit 0324.7 - DNP Copyright Registrations, # 2 Exhibit 0324.8 - DNP Copyright Registrations, # 3 Exhibit 0324.9 - DNP Copyright Registrations, # 4 Exhibit 0324.10 - DNP Copyright Registrations, # 5 Exhibit 0324.11 - DNP Copyright Registrations, # 6 Exhibit 0324.12 - DNP Copyright Registrations)Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al.Motion or Order to File Under Seal: 1688 .(Brook, Davida) (Entered: 09/17/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68290804/567/the-intercept-media-inc-v-openai-inc/)
+
+### 📄 Doc #568 — 2026-09-17
+
+***SEALED***DECLARATION of Davida Brook re: (1728 in 1:25-md-03143-SHS-OTW) MOTION for Summary Judgment ., (1688 in 1:25-md-03143-SHS-OTW) MOTION to Seal and Redact Portions of News Plaintiffs' Combined Summary Judgment Brief and Rule 56.1 Statement of Material Undisputed Facts. . Document filed by The New York Times Company. (Attachments: # 1 Exhibit 0324.13 - DNP Copyright Registrations, # 2 Exhibit 0324.14 - DNP Copyright Registrations, # 3 Exhibit 0324.15 - DNP Copyright Registrations, # 4 Exhibit 0324.16 - DNP Copyright Registrations, # 5 Exhibit 0371 - Yang, Hannah 022726 Condensed (30b6), # 6 Exhibit 0426 - DNP-00636034, # 7 Exhibit 0433 - DNP-00364973, # 8 Exhibit 0445 NYT_00815634)Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al.Motion or Order to File Under Seal: 1688 .(Brook, Davida) (Entered: 09/17/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68290804/568/the-intercept-media-inc-v-openai-inc/)
+
+### 📄 Doc #569 — 2026-09-17
+
+***SEALED***DECLARATION of Davida Brook re: (1728 in 1:25-md-03143-SHS-OTW) MOTION for Summary Judgment ., (1688 in 1:25-md-03143-SHS-OTW) MOTION to Seal and Redact Portions of News Plaintiffs' Combined Summary Judgment Brief and Rule 56.1 Statement of Material Undisputed Facts. . Document filed by The New York Times Company. (Attachments: # 1 Exhibit 0456.1 - Radford depo transcript, # 2 Exhibit 0456.1 - Radford depo transcript, # 3 Exhibit 0456.1 - Radford depo transcript, # 4 Exhibit 0456.1 - Radford depo transcript, # 5 Exhibit 0462 - OpenAI's Supp Resp to NYT Rogs (Nos. 7 and 21), # 6 Exhibit 0491 - 2026-03-23 CIR OAI Second Supplemental ROs to Rog No. 14, # 7 Exhibit 0537 - OPCO_MDL_001005468, # 8 Exhibit 0544 - NYT_01017922, # 9 Exhibit 0546 - NYT_01017936, # 10 Exhibit 0604 - MSFT AI_MDL_002758532 native slipsheet, # 11 Exhibit 0608 - MSFT_AI_MDL_000169501, # 12 Errata 0627 - Sohl, Ian 121025 Condensed - 30(b)(1), # 13 Exhibit 0657 - Abib, Elbio 111825 Condensed (30b6), # 14 Ex …(truncated)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68290804/569/the-intercept-media-inc-v-openai-inc/)
+
+### 📄 Doc #570 — 2026-09-17
+
+***SEALED***DECLARATION of Davida Brook re: (1728 in 1:25-md-03143-SHS-OTW) MOTION for Summary Judgment ., (1688 in 1:25-md-03143-SHS-OTW) MOTION to Seal and Redact Portions of News Plaintiffs' Combined Summary Judgment Brief and Rule 56.1 Statement of Material Undisputed Facts. . Document filed by The New York Times Company. (Attachments: # 1 Exhibit 0745 - OPCO_MDL_0002207731, # 2 Exhibit 0771 - OPCO_MDL_000480333, # 3 Exhibit 0782 - OPCO_MDL_004619015, # 4 Exhibit 0787 - OPCO_MDL_000207987, # 5 Exhibit 0799 - OPCO_MDL_001682605, # 6 Exhibit 0801 - OPCO_MDL_004754577, # 7 Exhibit 0803 - OPCO_MDL_004760465, # 8 Exhibit 0805.1 - OPCO_MDL_001705863, # 9 Exhibit 0805.2 - OPCO_MDL_001705863, # 10 Exhibit 0805.3 - OPCO_MDL_001705863, # 11 Exhibit 0806.1 - MSFT_AI_MDL_002882532, # 12 Exhibit 0806.2 - MSFT_AI_MDL_002882532, # 13 Exhibit 0806.3 - MSFT_AI_MDL_002882532, # 14 Exhibit 0806.4 - MSFT_AI_MDL_002882532, # 15 Exhibit 0806.5 - MSFT_AI_MDL_002882532)Filed In Associated Cases: 1:25-md-0 …(truncated)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68290804/570/the-intercept-media-inc-v-openai-inc/)
+
+### 📄 Doc #571 — 2026-09-17
+
+***SEALED***DECLARATION of Davida Brook re: (1728 in 1:25-md-03143-SHS-OTW) MOTION for Summary Judgment ., (1688 in 1:25-md-03143-SHS-OTW) MOTION to Seal and Redact Portions of News Plaintiffs' Combined Summary Judgment Brief and Rule 56.1 Statement of Material Undisputed Facts. . Document filed by The New York Times Company. (Attachments: # 1 Exhibit 0807 - OPCO_MDL_001700392, # 2 Exhibit 0809 - OPCO_MDL_004771719, # 3 Exhibit 0815 - OPCO_OAI_OUTPUT00007151, # 4 Exhibit 0817 - OPCO_MDL_000157541, # 5 Exhibit 0819 - OPCO_OAI_OUTPUT00009143, # 6 Exhibit 0821 - OPCO_OAI_OUTPUT00009131, # 7 Exhibit 0823 - OPCO_OAI_OUTPUT00009183, # 8 Exhibit 0825 - OPCO_OAI_OUTPUT00006440, # 9 Exhibit 0827 - OPCO_OAI_OUTPUT00006740, # 10 Exhibit 0831 - OPCO_OAI_OUTPUT00006563, # 11 Exhibit 0833 - OPCO_OAI_OUTPUT00006515, # 12 Exhibit 0835 - OPCO_OAI_OUTPUT00006565, # 13 Exhibit 0837 - OPCO_OAI_OUTPUT00006651, # 14 Exhibit 0839 - OPCO_OAI_OUTPUT00004962, # 15 Exhibit 0839 - OPCO_OAI_OUTPUT00004962 F, # 16  …(truncated)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68290804/571/the-intercept-media-inc-v-openai-inc/)
+
+### 📄 Doc #572 — 2026-09-17
+
+***SEALED***DECLARATION of Davida Brook re: (1728 in 1:25-md-03143-SHS-OTW) MOTION for Summary Judgment ., (1688 in 1:25-md-03143-SHS-OTW) MOTION to Seal and Redact Portions of News Plaintiffs' Combined Summary Judgment Brief and Rule 56.1 Statement of Material Undisputed Facts. . Document filed by The New York Times Company. (Attachments: # 1 Exhibit 0871 - OPCO_OAI_OUTPUT00004276, # 2 Exhibit 0873 - OPCO_OAI_OUTPUT00009137, # 3 Exhibit 0874.1, # 4 Exhibit 0874.2, # 5 Exhibit 0874.3, # 6 Exhibit 0876, # 7 Exhibit 0878, # 8 Exhibit 0879 - OPCO_OAI_OUTPUT00009090, # 9 Exhibit 0880, # 10 Exhibit 0882.1, # 11 Exhibit 0882.2)Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al.Motion or Order to File Under Seal: 1668 .(Brook, Davida) (Entered: 09/17/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68290804/572/the-intercept-media-inc-v-openai-inc/)
+
+### 📄 Doc #573 — 2026-09-17
+
+***SEALED***DECLARATION of Davida Brook re: (1728 in 1:25-md-03143-SHS-OTW) MOTION for Summary Judgment ., (1688 in 1:25-md-03143-SHS-OTW) MOTION to Seal and Redact Portions of News Plaintiffs' Combined Summary Judgment Brief and Rule 56.1 Statement of Material Undisputed Facts. . Document filed by The New York Times Company. (Attachments: # 1 Exhibit 0884.1, # 2 Exhibit 0884.2, # 3 Exhibit 0886.1, # 4 Exhibit 0886.2, # 5 Exhibit 0886.3, # 6 Exhibit 0886.4, # 7 Exhibit 0886.5)Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al.Motion or Order to File Under Seal: 1688 .(Brook, Davida) (Entered: 09/17/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68290804/573/the-intercept-media-inc-v-openai-inc/)
+
+### 📄 Doc #574 — 2026-09-17
+
+***SEALED***DECLARATION of Davida Brook re: (1728 in 1:25-md-03143-SHS-OTW) MOTION for Summary Judgment ., (1688 in 1:25-md-03143-SHS-OTW) MOTION to Seal and Redact Portions of News Plaintiffs' Combined Summary Judgment Brief and Rule 56.1 Statement of Material Undisputed Facts. . Document filed by The New York Times Company. (Attachments: # 1 Exhibit 0888.1, # 2 Exhibit 0888.2, # 3 Exhibit 0888.3, # 4 Exhibit 0890, # 5 Exhibit 0891 - OPCO_MDL_001899968, # 6 Exhibit 0896.1 - DNP-00001187 - DNP-00001331, # 7 Exhibit 0896.2 - DNP-00001187 - DNP-00001331, # 8 Exhibit 0898, # 9 Exhibit 0911 - OPCO_MDL_004820692 PDFA, # 10 Exhibit 1045 - OPCO_MDL_004401106 PDFA)Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al.Motion or Order to File Under Seal: 1668 .(Brook, Davida) (Entered: 09/17/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68290804/574/the-intercept-media-inc-v-openai-inc/)
+
+### 📄 Doc #575 — 2026-09-17
+
+***SEALED***DECLARATION of Davida Brook re: (1728 in 1:25-md-03143-SHS-OTW) MOTION for Summary Judgment ., (1688 in 1:25-md-03143-SHS-OTW) MOTION to Seal and Redact Portions of News Plaintiffs' Combined Summary Judgment Brief and Rule 56.1 Statement of Material Undisputed Facts. . Document filed by The New York Times Company. (Attachments: # 1 Exhibit 1053 - OPCO_MDL_000158237, # 2 Exhibit 1054 - OPCO_MDL_004591496, # 3 Exhibit 1055 - OPCO_MDL_002118849, # 4 Exhibit 1057 - OPCO_MDL_004591556, # 5 Exhibit 1119 - Poferl Ex. 10 - slipsheet, # 6 Exhibit 1126, # 7 Exhibit 1149, # 8 Exhibit 1154, # 9 Exhibit 1157 WENGER APPENDIX 29 - HC AEO intercept_cc_overlaps_deciles, # 10 Exhibit 1158 WENGER APPENDIX 31 - HC AEO mj_cc_overlaps_deciles, # 11 Exhibit 1159 WENGER APPENDIX 33 - HC AEO reveal_cc_overlaps_deciles, # 12 Exhibit 1167 Krishnan Response to Delorey, # 13 Exhibit 1168 Lafferty Sur-Reply, # 14 Exhibit 1214 NYT_01018244 - Slipsheet, # 15 Exhibit 1250 - DNP-00597371, # 16 Exhibit 1253  …(truncated)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68290804/575/the-intercept-media-inc-v-openai-inc/)
+
+### 📄 Doc #576 — 2026-09-17
+
+***SEALED***DECLARATION of Davida Brook re: (1728 in 1:25-md-03143-SHS-OTW) MOTION for Summary Judgment ., (1688 in 1:25-md-03143-SHS-OTW) MOTION to Seal and Redact Portions of News Plaintiffs' Combined Summary Judgment Brief and Rule 56.1 Statement of Material Undisputed Facts. . Document filed by The New York Times Company. (Attachments: # 1 Exhibit 1254.1 - Yang 13, # 2 Exhibit 1254.1 - Yang 13, # 3 Exhibit 1255 Yang 30b1, # 4 Exhibit 1256 - Gaffney 10, # 5 Exhibit 1258 MSFT_AI_MDL_000211987, # 6 Exhibit 1259 OPCO_MDL_004602292, # 7 Exhibit 1260 LDC-NYT_000046, # 8 Exhibit 1261 OPCO_OAI_OUTPUT00006728, # 9 Exhibit 1263 DNP-00534490, # 10 Exhibit 1265 Cromwell 06, # 11 Exhibit 1269 - 30(b)(6) Depo Tr. of Karen Oh VOLUME 2, # 12 Exhibit 1270 - Depo Tr. of Lindsey Turrentine)Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al.Motion or Order to File Under Seal: 1688 .(Brook, Davida) (Entered: 09/17/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68290804/576/the-intercept-media-inc-v-openai-inc/)
+
+### 📄 Doc #565 — 2026-09-17
+
+***SEALED***DECLARATION of Davida Brook re: (1728 in 1:25-md-03143-SHS-OTW) MOTION for Summary Judgment ., (1688 in 1:25-md-03143-SHS-OTW) MOTION to Seal and Redact Portions of News Plaintiffs' Combined Summary Judgment Brief and Rule 56.1 Statement of Material Undisputed Facts. . Document filed by The New York Times Company. (Attachments: # 1 Exhibit 0048.1 ZD0534639 (FY 2024), # 2 Exhibit 0048.2 ZD0534639 (FY 2024), # 3 Exhibit 0073 - Jacobs, CJ 021326 Condensed 615719 (30b6), # 4 Exhibit 0144 - OPCO_MDL_004590266, # 5 Exhibit 0181 - OPCO_MDL_004591302, # 6 Exhibit 0216 - MSFT_AI_MDL_001286869, # 7 Exhibit 0231 - Lightcap 17, # 8 Exhibit 0334 - DNP-00636447, DNP-00636773, DNP-00636829, # 9 Exhibit 0335.1 - DNP Certificates, # 10 Exhibit 0335.2 - DNP Certificates, # 11 Exhibit 0335.3 - DNP Certificates)Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al.Motion or Order to File Under Seal: 1688 .(Brook, Davida) (Entered: 09/17/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68290804/565/the-intercept-media-inc-v-openai-inc/)
+
+### 📄 Doc #566 — 2026-09-17
+
+***SEALED***DECLARATION of Davida Brook re: (1728 in 1:25-md-03143-SHS-OTW) MOTION for Summary Judgment ., (1688 in 1:25-md-03143-SHS-OTW) MOTION to Seal and Redact Portions of News Plaintiffs' Combined Summary Judgment Brief and Rule 56.1 Statement of Material Undisputed Facts. . Document filed by The New York Times Company. (Attachments: # 1 Exhibit 0324.1 - DNP Copyright Registrations, # 2 Exhibit 0324.2 - DNP Copyright Registrations, # 3 Exhibit 0324.3 - DNP Copyright Registrations, # 4 Exhibit 0324.4 - DNP Copyright Registrations, # 5 Exhibit 0324.5 - DNP Copyright Registrations, # 6 Exhibit 0324.6 - DNP Copyright Registrations)Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al.Motion or Order to File Under Seal: 1688 .(Brook, Davida) (Entered: 09/17/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68290804/566/the-intercept-media-inc-v-openai-inc/)
+
+### 📄 Doc #564 — 2026-09-17
+
+JOINT LETTER addressed to Judge Sidney H. Stein from Davida Brook dated 09/17/2026 re: Updated Rule 56.1 Statement. Document filed by Daily News LP, The Center for Investigative Reporting, Inc., The Intercept Media, Inc., The New York Times Company, Ziff Davis, LLC. (Attachments: # 1 Exhibit A - News Plaintiffs' Corrected Rule 56.1 Statement - redacted)Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Brook, Davida) Modified on 9/18/2026 (db). As per ECF-ERROR Email Correspondence Received on 9/18/2026 @ 7:58am. (Entered: 09/17/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68290804/564/1/the-intercept-media-inc-v-openai-inc/)
+
+### 📄 Doc #562 — 2026-09-17
+
+REDACTION to (1738 in 1:25-md-03143-SHS-OTW) Rule 56.1 Statement, (1735 in 1:25-md-03143-SHS-OTW) Rule 56.1 Statement, Revised Redacted Rule 56.1 Statement filed pursuant to Order 1685 by OAI Corporation, OpenAI Foundation, OpenAI GP, LLC, OpenAI Global, LLC, OpenAI Group PBC, OpenAI LLC, OpenAI OpCo, LLC, OpenAI Startup Fund GP I LLC, OpenAI Startup Fund I LP, OpenAI Startup Fund Management LLC(a Delaware limited liability company)Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Gratz, Joseph) (Entered: 09/17/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68290804/562/the-intercept-media-inc-v-openai-inc/)
+
+### 📄 Doc #563 — 2026-09-17
+
+REDACTION to (1749 in 1:25-md-03143-SHS-OTW) Memorandum of Law in Support of Motion,,, (1753 in 1:25-md-03143-SHS-OTW) Memorandum of Law in Support of Motion, Revised Redacted version of Defendants' MPA in Support of Motion for Summary Judgment (News Plaintiffs) filed pursuant to Order 1685 by OAI Corporation, OpenAI Foundation, OpenAI GP, LLC, OpenAI Global, LLC, OpenAI Group PBC, OpenAI LLC, OpenAI OpCo, LLC, OpenAI Startup Fund GP I LLC, OpenAI Startup Fund I LP, OpenAI Startup Fund Management LLCFiled In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Gratz, Joseph) (Entered: 09/17/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68290804/563/the-intercept-media-inc-v-openai-inc/)
+
+### 📄 Doc #561 — 2026-09-17
+
+LETTER addressed to Judge Sidney H. Stein from Davida Brook dated September 17, 2026 re: Public, Redacted Version of News' Plaintiffs' Memorandum of Law. Document filed by Daily News LP, The Center for Investigative Reporting, Inc., The Intercept Media, Inc., The New York Times Company, Ziff Davis, LLC. (Attachments: # 1 Exhibit Public Redacted Memorandum of Law)Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Brook, Davida) (Entered: 09/17/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68290804/561/1/the-intercept-media-inc-v-openai-inc/)
+
+### 📄 Doc #560 — 2026-09-16
+
+ORDER: The following discovery motions are DENIED as moot: Case No. 23-CV-8292: ECF Nos. 866, 889, 896, 897, 899, 900, 901, 902, 977, and 980; Case No. 23-CV-10211: ECF Nos. 650 and 651; Case No. 23-CV-11195: ECF Nos. 1090, 1094, 1099, 1104, 1179, 1180, 1187, 1192; and Case No. 24-CV-3285: ECF Nos. 561, 566, 615, 616. For the reasons discussed in 25-MD-3143, ECF 1926, the following sealing motions are GRANTED: Case No. 23-CV-10211: ECF Nos. 599, 600, 610, and 618; Case No. 23-CV-11195: ECF Nos. 1141, 1152, 1159, 1216, 1248, and 1256; Case No. 24-CV-1515: ECF Nos. 350 and 399; Case No. 24-CV-3285: ECF Nos. 671; and Case No. 25-CV-3482: ECF Nos. 689, 696, 700, 722, 740, 756. The Clerk of Court is respectfully directed to close the following ECF Nos. in each respective case: Case No. 23-CV-8292: ECF Nos. 866, 889, 896, 897, 899, 900, 901, 902, 977, and 980; Case No. 23-CV-10211: ECF Nos. 599, 600, 610, 618, 650, 651; Case No. 23-CV-11195: ECF Nos. 1090, 1094, 1099, 1104, 1141, 1152, 1159, …(truncated)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68290804/560/the-intercept-media-inc-v-openai-inc/)
+
+### 📄 Doc #559 — 2026-09-15
+
+DECLARATION of David Bralow in Support re: (1942 in 1:25-md-03143-SHS-OTW, 552 in 1:24-cv-01515-SHS-OTW) Response to Motion,,,,,,. Document filed by The Intercept Media, Inc.. Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:24-cv-01515-SHS-OTW.(Wallenberg, Kyle) (Entered: 09/15/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68290804/559/the-intercept-media-inc-v-openai-inc/)
+
+### 📄 Doc #555 — 2026-09-14
+
+DECLARATION of Maile Yeats-Rowe in Support re: (1301 in 1:23-cv-08292-SHS-OTW, 857 in 1:24-cv-03285-SHS-OTW, 1577 in 1:23-cv-11195-SHS-OTW, 1951 in 1:25-md-03143-SHS-OTW, 553 in 1:24-cv-01515-SHS-OTW, 722 in 1:24-cv-04872-SHS-OTW, 639 in 1:25-cv-04315-SHS-OTW) LETTER MOTION to Seal ECF 1728, 1742, 1848, 1868, 1702, 1694 addressed to Judge Sidney H. Stein from Caitlin Sinclaire Blythe, Thomas E. Gorman, Allison S. Blanco dated September 14, 2026.. Document filed by OAI Corporation, OpenAI Foundation, OpenAI GP, LLC, OpenAI Global, LLC, OpenAI Group PBC, OpenAI LLC, OpenAI OpCo, LLC, OpenAI Startup Fund GP I LLC, OpenAI Startup Fund I LP, OpenAI Startup Fund Management LLC(a Delaware limited liability company). (Attachments: # 1 Exhibit A, # 2 Exhibit B, # 3 Exhibit C, # 4 Exhibit D, # 5 Exhibit E, # 6 Exhibit F)Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Blythe, Caitlin) (Entered: 09/14/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68290804/555/6/the-intercept-media-inc-v-openai-inc/)
+
+### 📄 Doc #553 — 2026-09-14
+
+LETTER MOTION to Seal ECF 1728, 1742, 1848, 1868, 1702, 1694 addressed to Judge Sidney H. Stein from Caitlin Sinclaire Blythe, Thomas E. Gorman, Allison S. Blanco dated September 14, 2026. Document filed by OAI Corporation, OpenAI Foundation, OpenAI GP, LLC, OpenAI Global, LLC, OpenAI Group PBC, OpenAI LLC, OpenAI OpCo, LLC, OpenAI Startup Fund GP I LLC, OpenAI Startup Fund I LP, OpenAI Startup Fund Management LLC(a Delaware limited liability company). (Attachments: # 1 Proposed Order )Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Blythe, Caitlin) (Entered: 09/14/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68290804/553/1/the-intercept-media-inc-v-openai-inc/)
+
+### 📄 Doc #554 — 2026-09-14
+
+***SEALED***DECLARATION of Maile Yeats-Rowe in Support re: (1301 in 1:23-cv-08292-SHS-OTW, 857 in 1:24-cv-03285-SHS-OTW, 1577 in 1:23-cv-11195-SHS-OTW, 1951 in 1:25-md-03143-SHS-OTW, 553 in 1:24-cv-01515-SHS-OTW, 722 in 1:24-cv-04872-SHS-OTW, 639 in 1:25-cv-04315-SHS-OTW) LETTER MOTION to Seal ECF 1728, 1742, 1848, 1868, 1702, 1694 addressed to Judge Sidney H. Stein from Caitlin Sinclaire Blythe, Thomas E. Gorman, Allison S. Blanco dated September 14, 2026.. Document filed by OAI Corporation, OpenAI Foundation, OpenAI GP, LLC, OpenAI Global, LLC, OpenAI Group PBC, OpenAI LLC, OpenAI OpCo, LLC, OpenAI Startup Fund GP I LLC, OpenAI Startup Fund I LP, OpenAI Startup Fund Management LLC(a Delaware limited liability company). (Attachments: # 1 Exhibit A, # 2 Exhibit B, # 3 Exhibit C, # 4 Exhibit D, # 5 Exhibit E, # 6 Exhibit F)Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al.Motion or Order to File Under Seal: 1951 .(Blythe, Caitlin) (Entered: 09/14/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68290804/554/the-intercept-media-inc-v-openai-inc/)
+
+### 📄 Doc #552 — 2026-09-14
+
+RESPONSE to Motion re: (1689 in 1:25-md-03143-SHS-OTW, 1470 in 1:23-cv-11195-SHS-OTW, 785 in 1:24-cv-03285-SHS-OTW, 645 in 1:24-cv-04872-SHS-OTW) MOTION to Seal ., (675 in 1:24-cv-04872-SHS-OTW) LETTER MOTION to Seal re: Summary Judgment and Daubert Briefing addressed to Judge Sidney H. Stein from Caitlin Sinclaire Blythe, Robert A. Van Nest, Sarang V. Damle dated September 4, 2026., (1703 in 1:25-md-03143-SHS-OTW, 1478 in 1:23-cv-11195-SHS-OTW, 588 in 1:25-cv-04315-SHS-OTW) LETTER MOTION to Seal re: Summary Judgment and Daubert Briefing addressed to Judge Sidney H. Stein from Caitlin Sinclaire Blythe, Robert A. Van Nest, Sarang V. Damle dated September 4, 2026., (816 in 1:24-cv-03285-SHS-OTW) LETTER MOTION to Seal re: Summary Judgment and Daubert Briefing addressed to Judge Sidney H. Stein from Caitlin Sinclaire Blythe, Robert A. Van Nest, Sarang V. Damle dated September 4, 2026. // NEWS PLAINTIFFS' STATEMENT IN SUPPORT OF MAINTAINING UNDER SEAL PORTIONS OF DEFENDANTS SUMMARY JUDGMENT …(truncated)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68290804/552/the-intercept-media-inc-v-openai-inc/)
+
+### 📄 Doc #551 — 2026-09-11
+
+NOTICE TO THE PARTIES: It has come to my attention that I own stock in Microsoft Corporation. My ownership of this stock has not affected or impacted any decision in this case. Although my ownership of this stock would ordinarily require recusal, Canon 3C(4) of the Code of Conduct for United States Judges states that a magistrate judge is not disqualified because of "a financial interest in a party" if the magistrate judge "divests the interest that provides the grounds for disqualification," unless the interest could be substantially affected by the outcome of the proceeding. Advisory Opinion No. 69 from the Judicial Conference's Committee on Codes of Conduct explains that a magistrate judge may divest the disqualifying interest under Canon 3C(4) at the beginning of the case, after the judge has spent substantial time on the case, or anytime in between. Based on the issues presented in this case, I have concluded that my interest in Microsoft Corporation could not be substantially aff …(truncated)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68290804/551/the-intercept-media-inc-v-openai-inc/)
+
+### 📄 Doc #549 — 2026-09-05
+
+***SEALED***DECLARATION of Michael McDonald in Support re: (647 in 1:24-cv-04872-SHS-OTW) MOTION for Summary Judgment in News Plaintiffs' Consolidated Cases., (646 in 1:24-cv-04872-SHS-OTW) MOTION for Summary Judgment on News Plaintiffs' Claims.. Document filed by The Center for Investigative Reporting, Inc., The Intercept Media, Inc.. (Attachments: # 1 Exhibit A)Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:24-cv-01515-SHS-OTW, 1:24-cv-04872-SHS-OTWMotion or Order to File Under Seal: 1685 .(Wallenberg, Kyle) (Entered: 09/05/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68290804/549/the-intercept-media-inc-v-openai-inc/)
+
+### 📄 Doc #546 — 2026-09-04
+
+DECLARATION of Emily Wenger in Support re: (647 in 1:24-cv-04872-SHS-OTW) MOTION for Summary Judgment in News Plaintiffs' Consolidated Cases., (646 in 1:24-cv-04872-SHS-OTW) MOTION for Summary Judgment on News Plaintiffs' Claims.. Document filed by The Center for Investigative Reporting, Inc., The Intercept Media, Inc.. (Attachments: # 1 Exhibit A, # 2 Exhibit B, # 3 Exhibit C, # 4 Exhibit D, # 5 Exhibit E, # 6 Exhibit F, # 7 Exhibit G, # 8 Exhibit H, # 9 Exhibit I)Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:24-cv-01515-SHS-OTW, 1:24-cv-04872-SHS-OTW.(Wallenberg, Kyle) (Entered: 09/04/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68290804/546/9/the-intercept-media-inc-v-openai-inc/)
+
+### 📄 Doc #545 — 2026-09-04
+
+DECLARATION of Kyle Wallenberg in Support re: (647 in 1:24-cv-04872-SHS-OTW) MOTION for Summary Judgment in News Plaintiffs' Consolidated Cases., (646 in 1:24-cv-04872-SHS-OTW) MOTION for Summary Judgment on News Plaintiffs' Claims.. Document filed by The Center for Investigative Reporting, Inc., The Intercept Media, Inc.. (Attachments: # 1 Exhibit A)Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:24-cv-01515-SHS-OTW, 1:24-cv-04872-SHS-OTW.(Wallenberg, Kyle) (Entered: 09/04/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68290804/545/1/the-intercept-media-inc-v-openai-inc/)
+
+### 📄 Doc #543 — 2026-09-04
+
+DECLARATION of Michael McDonald in Support re: (647 in 1:24-cv-04872-SHS-OTW) MOTION for Summary Judgment in News Plaintiffs' Consolidated Cases., (646 in 1:24-cv-04872-SHS-OTW) MOTION for Summary Judgment on News Plaintiffs' Claims.. Document filed by The Center for Investigative Reporting, Inc.. (Attachments: # 1 Exhibit A)Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:24-cv-01515-SHS-OTW, 1:24-cv-04872-SHS-OTW.(Wallenberg, Kyle) (Entered: 09/04/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68290804/543/1/the-intercept-media-inc-v-openai-inc/)
+
+### 📄 Doc #540 — 2026-09-04
+
+DECLARATION of Robert Taylor (redacted) in Support re: (1700 in 1:25-md-03143-SHS-OTW) MOTION for Summary Judgment .. Document filed by CNET MEDIA, INC., Everyday Health Media LLC, IGN Entertainment Inc., Mashable, Inc., Ziff Davis Inc., Ziff Davis, LLC, Mashable, Inc.. (Attachments: # 1 Exhibit A - Filed Under Seal, # 2 Exhibit B - Filed Under Seal, # 3 Exhibit C - Filed Under Seal, # 4 Exhibit D - Filed Under Seal, # 5 Exhibit E, # 6 Exhibit F, # 7 Exhibit G, # 8 Exhibit H, # 9 Exhibit I, # 10 Exhibit J, # 11 Exhibit K, # 12 Exhibit L, # 13 Exhibit M, # 14 Exhibit N, # 15 Exhibit O, # 16 Exhibit P, # 17 Exhibit Q, # 18 Exhibit R, # 19 Exhibit S)Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Koonce, Lacy) (Entered: 09/04/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68290804/540/19/the-intercept-media-inc-v-openai-inc/)
+
+### 📄 Doc #537 — 2026-09-04
+
+DECLARATION of Sue Cross in Support re: (647 in 1:24-cv-04872-SHS-OTW) MOTION for Summary Judgment in News Plaintiffs' Consolidated Cases., (646 in 1:24-cv-04872-SHS-OTW) MOTION for Summary Judgment on News Plaintiffs' Claims.. Document filed by The Center for Investigative Reporting, Inc., The Intercept Media, Inc.. (Attachments: # 1 Exhibit A, # 2 Exhibit B, # 3 Exhibit C, # 4 Exhibit D)Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:24-cv-01515-SHS-OTW, 1:24-cv-04872-SHS-OTW.(Wallenberg, Kyle) (Entered: 09/04/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68290804/537/4/the-intercept-media-inc-v-openai-inc/)
+
+### 📄 Doc #531 — 2026-09-04
+
+DECLARATION of Defendants' Expert Nick Feamster (Redacted) in Support re: (1712 in 1:25-md-03143-SHS-OTW) MOTION for Summary Judgment on News Plaintiffs' Claims., (646 in 1:24-cv-04872-SHS-OTW) MOTION for Summary Judgment on News Plaintiffs' Claims., (587 in 1:25-cv-04315-SHS-OTW) MOTION for Summary Judgment on News Plaintiffs' Claims., (1471 in 1:23-cv-11195-SHS-OTW) MOTION for Summary Judgment on News Plaintiffs' Claims., (511 in 1:24-cv-01515-SHS-OTW) MOTION for Summary Judgment on News Plaintiffs' Claims., (786 in 1:24-cv-03285-SHS-OTW) MOTION for Summary Judgment on News Plaintiffs' Claims.. Document filed by OAI Corporation, LLC, OpenAI GP, LLC, OpenAI Global, L.L.C., OpenAI Group PBC, OpenAI OpCo, L.L.C., OpenAI, Inc., OpenAI, LLC. (Attachments: # 1 Exhibit 1 - Browse Conversation Log Examples, # 2 Exhibit 2 - Feamster Opening Appendix F, # 3 Exhibit 3 - Feamster Opening Appendix D)Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Blanco, Allison) (Entered: 09/04/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68290804/531/3/the-intercept-media-inc-v-openai-inc/)
+
+### 📄 Doc #536 — 2026-09-04
+
+DECLARATION of Timothy Wu in Support re: (1700 in 1:25-md-03143-SHS-OTW) MOTION for Summary Judgment .. Document filed by CNET MEDIA, INC., Everyday Health Media LLC, IGN Entertainment Inc., Mashable, Inc., Ziff Davis Inc., Ziff Davis, LLC, Mashable, Inc.. (Attachments: # 1 Exhibit A - Rebuttal Report (filed under seal))Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Koonce, Lacy) (Entered: 09/04/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68290804/536/1/the-intercept-media-inc-v-openai-inc/)
+
+### 📄 Doc #548 — 2026-09-04
+
+DECLARATION of Lacy H. Koonce, III in Support re: (1700 in 1:25-md-03143-SHS-OTW) MOTION for Summary Judgment .. Document filed by CNET MEDIA, INC., Everyday Health Media LLC, IGN Entertainment Inc., Mashable, Inc., Ziff Davis Inc., Ziff Davis, LLC, Mashable, Inc.. (Attachments: # 1 Exhibit A - Hard Drive Slipsheet, # 2 Exhibit AA, # 3 Exhibit BB, # 4 Exhibit CC, # 5 Exhibit DD, # 6 Exhibit EE, # 7 Exhibit FF, # 8 Exhibit GG, # 9 Exhibit HH, # 10 Exhibit II, # 11 Exhibit JJ, # 12 Exhibit KK, # 13 Exhibit LL, # 14 Exhibit MM, # 15 Exhibit NN, # 16 Exhibit OO, # 17 Exhibit PP, # 18 Exhibit QQ, # 19 Exhibit RR, # 20 Exhibit SS, # 21 Exhibit TT, # 22 Exhibit B ZD Training Match Spreadsheets, # 23 Exhibit C - ZD CMI Spreadsheets)Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Koonce, Lacy) (Entered: 09/04/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68290804/548/23/the-intercept-media-inc-v-openai-inc/)
+
+### 📄 Doc #541 — 2026-09-04
+
+***SEALED***DECLARATION of Miroslav Macala in Support re: (511 in 1:24-cv-01515-SHS-OTW) MOTION for Summary Judgment on News Plaintiffs' Claims.. Document filed by The Intercept Media, Inc.. (Attachments: # 1 Exhibit A, # 2 Exhibit B, # 3 Exhibit C, # 4 Exhibit D, # 5 Exhibit E, # 6 Exhibit F, # 7 Exhibit G, # 8 Exhibit H)Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:24-cv-01515-SHS-OTWMotion or Order to File Under Seal: 1685 .(Wallenberg, Kyle) (Entered: 09/04/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68290804/541/the-intercept-media-inc-v-openai-inc/)
+
+### 📄 Doc #542 — 2026-09-04
+
+DECLARATION of George Wukoson in Support re: (1688 in 1:25-md-03143-SHS-OTW, 586 in 1:25-cv-04315-SHS-OTW, 784 in 1:24-cv-03285-SHS-OTW, 1469 in 1:23-cv-11195-SHS-OTW) MOTION to Seal and Redact Portions of News Plaintiffs' Combined Summary Judgment Brief and Rule 56.1 Statement of Material Undisputed Facts.. Document filed by CNET MEDIA, INC., Everyday Health Media LLC, IGN Entertainment Inc., Mashable, Inc., Ziff Davis Inc., Ziff Davis, LLC, Mashable, Inc.. Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Koonce, Lacy) (Entered: 09/04/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68290804/542/the-intercept-media-inc-v-openai-inc/)
+
+### 📄 Doc #544 — 2026-09-04
+
+DECLARATION of Jonathan Robbins in Support re: (647 in 1:24-cv-04872-SHS-OTW) MOTION for Summary Judgment in News Plaintiffs' Consolidated Cases., (646 in 1:24-cv-04872-SHS-OTW) MOTION for Summary Judgment on News Plaintiffs' Claims.. Document filed by The Center for Investigative Reporting, Inc.. Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:24-cv-01515-SHS-OTW, 1:24-cv-04872-SHS-OTW.(Wallenberg, Kyle) (Entered: 09/04/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68290804/544/the-intercept-media-inc-v-openai-inc/)
+
+### 📄 Doc #547 — 2026-09-04
+
+***SEALED***DECLARATION of Emily Wenger in Support re: (587 in 1:25-cv-04315-SHS-OTW) MOTION for Summary Judgment on News Plaintiffs' Claims.. Document filed by The Center for Investigative Reporting, Inc., The Intercept Media, Inc., Ziff Davis Inc.. (Attachments: # 1 Exhibit A, # 2 Exhibit B, # 3 Exhibit C, # 4 Exhibit D, # 5 Exhibit E, # 6 Exhibit F, # 7 Exhibit G, # 8 Exhibit H, # 9 Exhibit I)Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:24-cv-01515-SHS-OTW, 1:24-cv-04872-SHS-OTW, 1:25-cv-04315-SHS-OTWMotion or Order to File Under Seal: 1685 .(Wallenberg, Kyle) (Entered: 09/04/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68290804/547/the-intercept-media-inc-v-openai-inc/)
+
+### 📄 Doc #533 — 2026-09-04
+
+***SEALED***DECLARATION of Karen Oh in Support re: (1700 in 1:25-md-03143-SHS-OTW) MOTION for Summary Judgment .. Document filed by CNET MEDIA, INC., Everyday Health Media LLC, IGN Entertainment Inc., Mashable, Inc., Ziff Davis Inc., Ziff Davis, LLC, Mashable, Inc.. Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al.Motion or Order to File Under Seal: 1685 .(Koonce, Lacy) (Entered: 09/04/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68290804/533/the-intercept-media-inc-v-openai-inc/)
+
+### 📄 Doc #534 — 2026-09-04
+
+DECLARATION of Karen Oh (Redacted) in Support re: (1700 in 1:25-md-03143-SHS-OTW) MOTION for Summary Judgment .. Document filed by CNET MEDIA, INC., Everyday Health Media LLC, IGN Entertainment Inc., Mashable, Inc., Ziff Davis Inc., Ziff Davis, LLC, Mashable, Inc.. Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Koonce, Lacy) (Entered: 09/04/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68290804/534/the-intercept-media-inc-v-openai-inc/)
+
+### 📄 Doc #535 — 2026-09-04
+
+***SEALED***DECLARATION of Ziff Davis's Expert Timothy Wu in Support re: (1700 in 1:25-md-03143-SHS-OTW) MOTION for Summary Judgment .. Document filed by CNET MEDIA, INC., Everyday Health Media LLC, IGN Entertainment Inc., Mashable, Inc., Ziff Davis Inc., Ziff Davis, LLC, Mashable, Inc.. (Attachments: # 1 Exhibit A - Rebuttal Report)Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al.Motion or Order to File Under Seal: 1685 .(Koonce, Lacy) (Entered: 09/04/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68290804/535/the-intercept-media-inc-v-openai-inc/)
+
+### 📄 Doc #538 — 2026-09-04
+
+***SEALED***DECLARATION of Sue Cross in Support re: (647 in 1:24-cv-04872-SHS-OTW) MOTION for Summary Judgment in News Plaintiffs' Consolidated Cases., (646 in 1:24-cv-04872-SHS-OTW) MOTION for Summary Judgment on News Plaintiffs' Claims.. Document filed by The Center for Investigative Reporting, Inc., The Intercept Media, Inc.. (Attachments: # 1 Exhibit A, # 2 Exhibit B, # 3 Exhibit C, # 4 Exhibit D)Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:24-cv-01515-SHS-OTW, 1:24-cv-04872-SHS-OTWMotion or Order to File Under Seal: 1685 .(Wallenberg, Kyle) (Entered: 09/04/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68290804/538/the-intercept-media-inc-v-openai-inc/)
+
+### 📄 Doc #539 — 2026-09-04
+
+***SEALED***DECLARATION of Robert Taylor in Support re: (1700 in 1:25-md-03143-SHS-OTW) MOTION for Summary Judgment .. Document filed by CNET MEDIA, INC., Everyday Health Media LLC, IGN Entertainment Inc., Mashable, Inc., Ziff Davis Inc., Ziff Davis, LLC, Mashable, Inc.. (Attachments: # 1 Exhibit A - Filed Under Seal, # 2 Exhibit B - Filed Under Seal, # 3 Exhibit C - Filed Under Seal, # 4 Exhibit D- Filed Under Seal, # 5 Exhibit E, # 6 Exhibit F, # 7 Exhibit G, # 8 Exhibit H, # 9 Exhibit I, # 10 Exhibit J, # 11 Exhibit K, # 12 Exhibit L, # 13 Exhibit M, # 14 Exhibit N, # 15 Exhibit O, # 16 Exhibit P, # 17 Exhibit Q, # 18 Exhibit R, # 19 Exhibit S)Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al.Motion or Order to File Under Seal: 1685 .(Koonce, Lacy) (Entered: 09/04/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68290804/539/the-intercept-media-inc-v-openai-inc/)
+
+### 📄 Doc #523 — 2026-09-04
+
+DECLARATION of Defendants' Expert Avi Goldfarb in Support re: (1712 in 1:25-md-03143-SHS-OTW) MOTION for Summary Judgment on News Plaintiffs' Claims., (646 in 1:24-cv-04872-SHS-OTW) MOTION for Summary Judgment on News Plaintiffs' Claims., (1715 in 1:25-md-03143-SHS-OTW) MOTION for Summary Judgment on Consolidated Class Plaintiffs' Claims., (587 in 1:25-cv-04315-SHS-OTW) MOTION for Summary Judgment on News Plaintiffs' Claims., (1471 in 1:23-cv-11195-SHS-OTW) MOTION for Summary Judgment on News Plaintiffs' Claims., (1209 in 1:23-cv-08292-SHS-OTW) MOTION for Summary Judgment on Consolidated Class Plaintiffs' Claims., (511 in 1:24-cv-01515-SHS-OTW) MOTION for Summary Judgment on News Plaintiffs' Claims., (786 in 1:24-cv-03285-SHS-OTW) MOTION for Summary Judgment on News Plaintiffs' Claims.. Document filed by OAI Corporation, LLC, OpenAI GP, LLC, OpenAI Global, L.L.C., OpenAI Group PBC, OpenAI OpCo, L.L.C., OpenAI, Inc., OpenAI, LLC. Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..( …(truncated)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68290804/523/the-intercept-media-inc-v-openai-inc/)
+
+### 📄 Doc #524 — 2026-09-04
+
+DECLARATION of Christine Mattheis in Support re: (1700 in 1:25-md-03143-SHS-OTW) MOTION for Summary Judgment .. Document filed by CNET MEDIA, INC., Everyday Health Media LLC, IGN Entertainment Inc., Mashable, Inc., Ziff Davis Inc., Ziff Davis, LLC, Mashable, Inc.. Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Koonce, Lacy) (Entered: 09/04/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68290804/524/the-intercept-media-inc-v-openai-inc/)
+
+### 📄 Doc #525 — 2026-09-04
+
+***SEALED***DECLARATION of Defendants' Expert Nick Feamster in Support re: (1712 in 1:25-md-03143-SHS-OTW) MOTION for Summary Judgment on News Plaintiffs' Claims., (646 in 1:24-cv-04872-SHS-OTW) MOTION for Summary Judgment on News Plaintiffs' Claims., (587 in 1:25-cv-04315-SHS-OTW) MOTION for Summary Judgment on News Plaintiffs' Claims., (1471 in 1:23-cv-11195-SHS-OTW) MOTION for Summary Judgment on News Plaintiffs' Claims., (511 in 1:24-cv-01515-SHS-OTW) MOTION for Summary Judgment on News Plaintiffs' Claims., (786 in 1:24-cv-03285-SHS-OTW) MOTION for Summary Judgment on News Plaintiffs' Claims.. Document filed by OAI Corporation, LLC, OpenAI GP, LLC, OpenAI Global, L.L.C., OpenAI Group PBC, OpenAI OpCo, L.L.C., OpenAI, Inc., OpenAI, LLC. Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al.Motion or Order to File Under Seal: 1685 .(Blanco, Allison) (Entered: 09/04/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68290804/525/the-intercept-media-inc-v-openai-inc/)
+
+### 📄 Doc #526 — 2026-09-04
+
+DECLARATION of Lindsey Turrentine in Support re: (1700 in 1:25-md-03143-SHS-OTW) MOTION for Summary Judgment .. Document filed by CNET MEDIA, INC., Everyday Health Media LLC, IGN Entertainment Inc., Mashable, Inc., Ziff Davis Inc., Ziff Davis, LLC, Mashable, Inc.. Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Koonce, Lacy) (Entered: 09/04/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68290804/526/the-intercept-media-inc-v-openai-inc/)
+
+### 📄 Doc #527 — 2026-09-04
+
+DECLARATION of Peer Schneider in Support re: (1700 in 1:25-md-03143-SHS-OTW) MOTION for Summary Judgment .. Document filed by CNET MEDIA, INC., Everyday Health Media LLC, IGN Entertainment Inc., Mashable, Inc., Ziff Davis Inc., Ziff Davis, LLC, Mashable, Inc.. Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Koonce, Lacy) (Entered: 09/04/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68290804/527/the-intercept-media-inc-v-openai-inc/)
+
+### 📄 Doc #528 — 2026-09-04
+
+DECLARATION of Rachel Warren in Support re: (1700 in 1:25-md-03143-SHS-OTW) MOTION for Summary Judgment .. Document filed by CNET MEDIA, INC., Everyday Health Media LLC, IGN Entertainment Inc., Mashable, Inc., Ziff Davis Inc., Ziff Davis, LLC, Mashable, Inc.. Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Koonce, Lacy) (Entered: 09/04/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68290804/528/the-intercept-media-inc-v-openai-inc/)
+
+### 📄 Doc #529 — 2026-09-04
+
+***SEALED***DECLARATION of Defendants' Expert Avi Goldfarb in Support re: (1712 in 1:25-md-03143-SHS-OTW) MOTION for Summary Judgment on News Plaintiffs' Claims., (646 in 1:24-cv-04872-SHS-OTW) MOTION for Summary Judgment on News Plaintiffs' Claims., (587 in 1:25-cv-04315-SHS-OTW) MOTION for Summary Judgment on News Plaintiffs' Claims., (1471 in 1:23-cv-11195-SHS-OTW) MOTION for Summary Judgment on News Plaintiffs' Claims., (511 in 1:24-cv-01515-SHS-OTW) MOTION for Summary Judgment on News Plaintiffs' Claims., (786 in 1:24-cv-03285-SHS-OTW) MOTION for Summary Judgment on News Plaintiffs' Claims.. Document filed by OAI Corporation, LLC, OpenAI GP, LLC, OpenAI Global, L.L.C., OpenAI Group PBC, OpenAI OpCo, L.L.C., OpenAI, Inc., OpenAI, LLC. Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al.Motion or Order to File Under Seal: 1685 .(Gass, Andrew) (Entered: 09/04/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68290804/529/the-intercept-media-inc-v-openai-inc/)
+
+### 📄 Doc #530 — 2026-09-04
+
+DECLARATION of Robert Parisi in Support re: (1700 in 1:25-md-03143-SHS-OTW) MOTION for Summary Judgment .. Document filed by CNET MEDIA, INC., Everyday Health Media LLC, IGN Entertainment Inc., Mashable, Inc., Ziff Davis Inc., Ziff Davis, LLC, Mashable, Inc.. Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Koonce, Lacy) (Entered: 09/04/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68290804/530/the-intercept-media-inc-v-openai-inc/)
+
+### 📄 Doc #517 — 2026-09-04
+
+LETTER MOTION for Oral Argument on OpenAI's Motion for Summary Judgment (News) addressed to Judge Sidney H. Stein from Robert A. Van Nest, Sarang V. Damle, and Joseph C. Gratz dated September 4, 2026. Document filed by OAI Corporation, LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Group PBC, OpenAI OpCo LLC, OpenAI, Inc., OpenAI, LLC.Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Gass, Andrew) (Entered: 09/04/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68290804/517/the-intercept-media-inc-v-openai-inc/)
+
+### 📄 Doc #519 — 2026-09-04
+
+DECLARATION of Defendants' Expert Chris Callison-Burch in Support re: (1712 in 1:25-md-03143-SHS-OTW) MOTION for Summary Judgment on News Plaintiffs' Claims., (646 in 1:24-cv-04872-SHS-OTW) MOTION for Summary Judgment on News Plaintiffs' Claims., (1715 in 1:25-md-03143-SHS-OTW) MOTION for Summary Judgment on Consolidated Class Plaintiffs' Claims., (587 in 1:25-cv-04315-SHS-OTW) MOTION for Summary Judgment on News Plaintiffs' Claims., (1471 in 1:23-cv-11195-SHS-OTW) MOTION for Summary Judgment on News Plaintiffs' Claims., (1209 in 1:23-cv-08292-SHS-OTW) MOTION for Summary Judgment on Consolidated Class Plaintiffs' Claims., (511 in 1:24-cv-01515-SHS-OTW) MOTION for Summary Judgment on News Plaintiffs' Claims., (786 in 1:24-cv-03285-SHS-OTW) MOTION for Summary Judgment on News Plaintiffs' Claims.. Document filed by OAI Corporation, LLC, OpenAI GP, LLC, OpenAI Global, L.L.C., OpenAI Group PBC, OpenAI OpCo, L.L.C., OpenAI, Inc., OpenAI, LLC. Filed In Associated Cases: 1:25-md-03143-SHS-OTW  …(truncated)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68290804/519/the-intercept-media-inc-v-openai-inc/)
+
+### 📄 Doc #520 — 2026-09-04
+
+LETTER MOTION to Seal re: Summary Judgment and Daubert Briefing addressed to Judge Sidney H. Stein from Caitlin Sinclaire Blythe, Robert A. Van Nest, Sarang V. Damle dated September 4, 2026. Document filed by OAI Corporation, LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Group PBC, OpenAI Holdings, LLC, OpenAI OpCo LLC, OpenAI, Inc., OpenAI, LLC. (Attachments: # 1 Proposed Order Granting OpenAI's Letter Motion to Seal).(Damle, Sarang) (Entered: 09/04/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68290804/520/the-intercept-media-inc-v-openai-inc/)
+
+### 📄 Doc #521 — 2026-09-04
+
+***SEALED***DECLARATION of Defendants' Expert Chris Callison-Burch in Support re: (1712 in 1:25-md-03143-SHS-OTW) MOTION for Summary Judgment on News Plaintiffs' Claims., (646 in 1:24-cv-04872-SHS-OTW) MOTION for Summary Judgment on News Plaintiffs' Claims., (1715 in 1:25-md-03143-SHS-OTW) MOTION for Summary Judgment on Consolidated Class Plaintiffs' Claims., (587 in 1:25-cv-04315-SHS-OTW) MOTION for Summary Judgment on News Plaintiffs' Claims., (1471 in 1:23-cv-11195-SHS-OTW) MOTION for Summary Judgment on News Plaintiffs' Claims., (1209 in 1:23-cv-08292-SHS-OTW) MOTION for Summary Judgment on Consolidated Class Plaintiffs' Claims., (511 in 1:24-cv-01515-SHS-OTW) MOTION for Summary Judgment on News Plaintiffs' Claims., (786 in 1:24-cv-03285-SHS-OTW) MOTION for Summary Judgment on News Plaintiffs' Claims.. Document filed by OAI Corporation, LLC, OpenAI GP, LLC, OpenAI Global, L.L.C., OpenAI Group PBC, OpenAI OpCo, L.L.C., OpenAI, Inc., OpenAI, LLC. Filed In Associated Cases: 1:25-md-03 …(truncated)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68290804/521/the-intercept-media-inc-v-openai-inc/)
+
+### 📄 Doc #522 — 2026-09-04
+
+***SEALED*** MEMORANDUM OF LAW in Support re: (1712 in 1:25-md-03143-SHS-OTW) MOTION for Summary Judgment on News Plaintiffs' Claims., (646 in 1:24-cv-04872-SHS-OTW) MOTION for Summary Judgment on News Plaintiffs' Claims., (511 in 1:24-cv-01515-SHS-OTW) MOTION for Summary Judgment on News Plaintiffs' Claims., (786 in 1:24-cv-03285-SHS-OTW) MOTION for Summary Judgment on News Plaintiffs' Claims. . Document filed by OAI Corporation, LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Group PBC, OpenAI OpCo LLC, OpenAI, Inc., OpenAI, LLC. Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:24-cv-01515-SHS-OTW, 1:24-cv-03285-SHS-OTW, 1:24-cv-04872-SHS-OTWMotion or Order to File Under Seal: 1703 .(Damle, Sarang) (Entered: 09/04/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68290804/522/the-intercept-media-inc-v-openai-inc/)
+
+### 📄 Doc #513 — 2026-09-04
+
+DECLARATION of Barbara Frederiksen-Cross in Support re: (1715 in 1:25-md-03143-SHS-OTW) MOTION for Summary Judgment on Consolidated Class Plaintiffs' Claims.. Document filed by OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI Foundation, OpenAI GP LLC, OpenAI GP, LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.L.C., OpenAI Global, LLC, OpenAI Group PBC, OpenAI Group PBC, OpenAI Holdings LLC, OpenAI Holdings, LLC, OpenAI Inc., OpenAI LLC, OpenAI LP, OpenAI OpCo LLC(a Delaware limited liability corporation), OpenAI OpCo LLC, OpenAI OpCo, L.L.C., OpenAI OpCo, LLC, OpenAI Startup Fund GP I LLC, OpenAI Startup Fund GP I LLC(a Delaware limited liability company), OpenAI Startup Fund I LP, OpenAI Startup Fund I LP(a Delaware limited partnership), OpenAI Startup Fund Management LLC(a Delaware limited liability company), OpenAI Startup Fund Management LLC, OpenAI, Inc., OpenAI, Inc., OpenAI, LLC. Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Van Nest, Rober …(truncated)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68290804/513/the-intercept-media-inc-v-openai-inc/)
+
+### 📄 Doc #514 — 2026-09-04
+
+***SEALED***DECLARATION of Barbara Frederiksen-Cross in Support re: (1715 in 1:25-md-03143-SHS-OTW) MOTION for Summary Judgment on Consolidated Class Plaintiffs' Claims.. Document filed by OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI Foundation, OpenAI Foundation (f/k/a OpenAI Inc.), OpenAI GP LLC, OpenAI GP, LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.L.C., OpenAI Global, LLC, OpenAI Group PBC, OpenAI Group PBC, OpenAI Holdings LLC, OpenAI Holdings, LLC, OpenAI Inc., OpenAI LLC, OpenAI LP, OpenAI OpCo LLC(a Delaware limited liability corporation), OpenAI OpCo LLC, OpenAI OpCo, L.L.C., OpenAI OpCo, LLC, OpenAI Startup Fund GP I LLC, OpenAI Startup Fund GP I LLC(a Delaware limited liability company), OpenAI Startup Fund I LP, OpenAI Startup Fund I LP(a Delaware limited partnership), OpenAI Startup Fund Management LLC(a Delaware limited liability company), OpenAI Startup Fund Management LLC, OpenAI, Inc., OpenAI, Inc., OpenAI, LLC. Filed In Associated C …(truncated)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68290804/514/the-intercept-media-inc-v-openai-inc/)
+
+### 📄 Doc #515 — 2026-09-04
+
+MEMORANDUM OF LAW in Support re: 511 MOTION for Summary Judgment on News Plaintiffs' Claims. (Redacted). Document filed by OAI Corporation, LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Group PBC, OpenAI OpCo LLC, OpenAI, Inc., OpenAI, LLC..(Damle, Sarang) (Entered: 09/04/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68290804/515/the-intercept-media-inc-v-openai-inc/)
+
+### 📄 Doc #516 — 2026-09-04
+
+DECLARATION of Defendants' Expert Taylor Berg-Kirkpatrick in Support of Motion for Summary Judgment in Support re: 511 MOTION for Summary Judgment on News Plaintiffs' Claims.. Document filed by OAI Corporation, LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Group PBC, OpenAI OpCo LLC, OpenAI, Inc., OpenAI, LLC..(Blanco, Allison) (Entered: 09/04/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68290804/516/the-intercept-media-inc-v-openai-inc/)
+
+### 📄 Doc #512 — 2026-09-04
+
+REDACTION to (1700 in 1:25-md-03143-SHS-OTW) MOTION for Summary Judgment . by Daily News LP, The New York Times Company, Ziff Davis Inc.Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Crosby, Ian) (Entered: 09/04/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68290804/512/the-intercept-media-inc-v-openai-inc/)
+
+### 📄 Doc #511 — 2026-09-04
+
+MOTION for Summary Judgment on News Plaintiffs' Claims. Document filed by OAI Corporation, LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Group PBC, OpenAI OpCo LLC, OpenAI, Inc., OpenAI, LLC..(Damle, Sarang) (Entered: 09/04/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68290804/511/the-intercept-media-inc-v-openai-inc/)
+
+### 📄 Doc #510 — 2026-09-03
+
+STIPULATED OMNIBUS SEALING ORDER FOR SUMMARY JUDGMENT AND DAUBERT BRIEFING: IT IS HEREBY ORDERED that sealing issues relating to summary judgment and Daubert briefing will be handled as follows: 1. The Parties may provisionally seal portions of briefing and exhibits (including expert reports and declarations) relating to Daubert briefing that contain or refer to material produced in this case that is designated Protected Discovery Material. 2. The Parties may provisionally seal exhibits ( or portions thereof) relating to summary judgment briefing (including expert reports and declarations) that contain or refer to material produced in this case that is designated Protected Discovery Material. 3. For the material addressed in paragraphs 1 and 2 above (the "Provisionally Sealed Material"), the Parties are relieved from the requirement set forth in paragraph 5(8) of Judge Stein's Individual Practices to file a motion to seal contemporaneously with the sealed filings, and the Parties and t …(truncated)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68290804/510/the-intercept-media-inc-v-openai-inc/)
+
+### 📄 Doc #509 — 2026-09-01
+
+LETTER addressed to Judge Sidney H. Stein from United States of America dated September 1, 2026 re: STATEMENT OF INTEREST OF UNITED STATES OF AMERICA. Document filed by United States of America.Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Weisbuch, Michael) (Entered: 09/01/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68290804/509/the-intercept-media-inc-v-openai-inc/)
+
+### 📄 Doc #508 — 2026-08-31
+
+PROPOSED STIPULATION AND ORDER. Document filed by Microsoft Corporation, Microsoft Corporation, Microsoft Corporation..(Silverstein, Brianna) (Entered: 08/31/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68290804/508/the-intercept-media-inc-v-openai-inc/)
+
+### 📄 Doc #506 — 2026-08-14
+
+RESPONSE in Opposition to Motion re: (1428 in 1:23-cv-11195-SHS-OTW, 1618 in 1:25-md-03143-SHS-OTW) MOTION for Sanctions Against OpenAI. (Public and Redacted Versions). Document filed by OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI Foundation, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.L.C., OpenAI Group PBC, OpenAI Inc., OpenAI LLC, OpenAI LP, OpenAI OpCo LLC, OpenAI OpCo LLC(a Delaware limited liability corporation), OpenAI OpCo, L.L.C., OpenAI Startup Fund GP I LLC, OpenAI Startup Fund GP I LLC(a Delaware limited liability company), OpenAI Startup Fund I LP, OpenAI Startup Fund I LP(a Delaware limited partnership), OpenAI Startup Fund Management LLC, OpenAI Startup Fund Management LLC(a Delaware limited liability company), OpenAI, Inc., OpenAI, Inc., OpenAI, LLC, OpenAI Holdings, LLC, OpenAI Holdings LLC. (Attachments: # 1 Affidavit of Edward Bayley, # 2 Appendix A, # 3 Exhibit 1, # 4 Exhibit 2, # 5 Exhibit 3, # 6 Exhibit 4, # 7 Exhibit  …(truncated)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68290804/506/22/the-intercept-media-inc-v-openai-inc/)
 
 ### 📄 Doc #503 — 2026-08-13
 
-Proposed Order
+LETTER MOTION to Seal materials submitted with OpenAI's Opposition to News Plaintiffs' Motion for Sanctions addressed to Magistrate Judge Ona T. Wang from Caitlin Sinclaire Blythe, Ryan K. Wong, and Allison S. Blanco dated August 13, 2026. Document filed by OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI Foundation, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.L.C., OpenAI Group PBC, OpenAI Holdings LLC, OpenAI Holdings, LLC, OpenAI Inc., OpenAI LLC, OpenAI LP, OpenAI OpCo LLC, OpenAI OpCo LLC(a Delaware limited liability corporation), OpenAI OpCo, L.L.C., OpenAI Startup Fund GP I LLC, OpenAI Startup Fund GP I LLC(a Delaware limited liability company), OpenAI Startup Fund I LP, OpenAI Startup Fund I LP(a Delaware limited partnership), OpenAI Startup Fund Management LLC, OpenAI Startup Fund Management LLC(a Delaware limited liability company), OpenAI, Inc., OpenAI, Inc., OpenAI, LLC. (Attachments: # 1 Proposed Order )Filed In Associated Cases: 1: …(truncated)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/68290804/503/1/the-intercept-media-inc-v-openai-inc/)
 
 ### 📄 Doc #504 — 2026-08-13
 
-Declaration in Support of Motion
+DECLARATION of Maile Yeats-Rowe in Support re: (637 in 1:24-cv-04872-SHS-OTW, 1670 in 1:25-md-03143-SHS-OTW, 575 in 1:25-cv-04315-SHS-OTW, 1456 in 1:23-cv-11195-SHS-OTW, 772 in 1:24-cv-03285-SHS-OTW, 503 in 1:24-cv-01515-SHS-OTW) LETTER MOTION to Seal materials submitted with OpenAI's Opposition to News Plaintiffs' Motion for Sanctions addressed to Magistrate Judge Ona T. Wang from Caitlin Sinclaire Blythe, Ryan K. Wong, and Allison S. Blanco dated August 13. Document filed by OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI Foundation, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.L.C., OpenAI Group PBC, OpenAI Inc., OpenAI LLC, OpenAI LP, OpenAI OpCo LLC, OpenAI OpCo LLC(a Delaware limited liability corporation), OpenAI OpCo, L.L.C., OpenAI Startup Fund GP I LLC, OpenAI Startup Fund GP I LLC(a Delaware limited liability company), OpenAI Startup Fund I LP, OpenAI Startup Fund I LP(a Delaware limited partnership), OpenAI Startup Fund Management LL …(truncated)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/68290804/504/the-intercept-media-inc-v-openai-inc/)
 
-### 📄 Doc #502 — 2026-08-12
+### 📄 Doc #505 — 2026-08-13
 
-Memo Endorsement
+***SEALED*** RESPONSE in Opposition to Motion re: (1428 in 1:23-cv-11195-SHS-OTW, 1618 in 1:25-md-03143-SHS-OTW) MOTION for Sanctions Against OpenAI. . Document filed by OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI Foundation, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.L.C., OpenAI Group PBC, OpenAI Inc., OpenAI LLC, OpenAI LP, OpenAI OpCo LLC, OpenAI OpCo LLC(a Delaware limited liability corporation), OpenAI OpCo, L.L.C., OpenAI Startup Fund GP I LLC, OpenAI Startup Fund GP I LLC(a Delaware limited liability company), OpenAI Startup Fund I LP, OpenAI Startup Fund I LP(a Delaware limited partnership), OpenAI Startup Fund Management LLC, OpenAI Startup Fund Management LLC(a Delaware limited liability company), OpenAI, Inc., OpenAI, Inc., OpenAI, Inc. Copyright Infringement Litigation, OpenAI, LLC, OpenAI Holdings, LLC, OpenAI Holdings LLC. (Attachments: # 1 Affidavit of Edward Bayley, # 2 Appendix A, # 3 Exhibit 1, # 4 Exhibit 2, # 5 Exhibit …(truncated)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68290804/505/the-intercept-media-inc-v-openai-inc/)
+
+### 📄 Doc #502 — 2026-08-11
+
+MEMO ENDORSEMENT granting on re: (1383 in 1:23-cv-11195-SHS-OTW, 1162 in 1:23-cv-08292-SHS-OTW, 527 in 1:25-cv-04315-SHS-OTW) MOTION for Rose S. Lee to Withdraw as Attorney . filed by OpenAI, Inc., OpenAI GP LLC, OpenAI Startup Fund GP I LLC, OpenAI LP, OAI Corporation LLC, OpenAI Group PBC, OpenAI OpCo, L.L.C., OpenAI Startup Fund I LP, OpenAI GP, LLC, OpenAI Holdings LLC, OpenAI OpCo LLC, OpenAI, LLC, OpenAI Holdings, LLC, OpenAI Global LLC, OpenAI Inc., OpenAI LLC, OpenAI Startup Fund Management LLC, OpenAI Global, L.L.C., OAI Corporation, OAI Corporation, LLC. ENDORSEMENT: Accordingly, Rose S. Lee requests that her withdrawal as counsel be granted and that she be removed from this actions electronic case filing (ECF) service list. Application GRANTED. SO ORDERED. (Signed by Magistrate Judge Ona T. Wang on 8/11/2026) (jjc) (Entered: 08/12/2026)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/68290804/502/the-intercept-media-inc-v-openai-inc/)
 
 ### 📄 Doc #500 — 2026-08-07
 
-Order AND ~Util - Set Deadlines
+ORDER: Anyone wishing to file an amicus brief in connection with the summary judgment motions in this multidistrict litigation shall file a motion requesting leave to file an amicus brief no later than October 16, 2026. The motion requesting such leave shall include the proposed amicus brief, which shall be no more than 6,000 words. SO ORDERED. (Motions due by 10/16/2026.) (Signed by Judge Sidney H. Stein on 8/7/2026) Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al. (jca) (Entered: 08/07/2026)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/68290804/500/the-intercept-media-inc-v-openai-inc/)
 
 ### 📄 Doc #501 — 2026-08-07
 
-Order AND ~Util - Set Deadlines
+ORDER: The following word limits shall apply to summary judgment motions in the News Cases: Opening Briefs: 8,750 words for Microsoft; 8,750 words for OpenAI; 17,500 words for News Plaintiffs/ divided as they see fit. Opposition Briefs: 17,500 words for defendants, divided as they see fit; 17,500 words for News Plaintiffs, divided as they see fit. Reply Briefs: 8,750 words for defendants, divided as they see fit; 8,750 words for News Plaintiffs, divided as they see fit. The following limits shall apply to summary judgment motions in the consolidated class cases: Class plaintiffs, OpenAI, and Microsoft may each make only one motion for summary judgment. Class plaintiffs, OpenAI, and Microsoft shall each have 12,500 words for opening and opposition briefs, and 7,500 words each for replies. The following limits and schedule shall apply for Daubert motions in all cases: The Court adopts plaintiffs' proposal for a global word count to cover all Dabuert motions, with all plaintiffs sharing a …(truncated)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/68290804/501/the-intercept-media-inc-v-openai-inc/)
 
 ### 📄 Doc #498 — 2026-08-05
 
-Letter
+JOINT LETTER addressed to Judge Sidney H. Stein from Davida Brook, Justin A. Nelson, Lisa T. Simpson & R. James Slaughter dated 08/05/2026 re: word limits for summary judgment briefs on class plaintiffs' claims and limitations on Daubert briefs. Document filed by The New York Times Company.Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Brook, Davida) (Entered: 08/05/2026)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/68290804/498/the-intercept-media-inc-v-openai-inc/)
 
 ### 📄 Doc #499 — 2026-08-05
 
-Proposed Stipulation and Order
+PROPOSED STIPULATION AND ORDER. Document filed by The New York Times Company..(Brook, Davida) (Entered: 08/05/2026)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/68290804/499/the-intercept-media-inc-v-openai-inc/)
 
@@ -572,289 +1052,17 @@ LETTER RESPONSE in Opposition to Motion addressed to Magistrate Judge Ona T. Wan
 
 [CourtListener 連結](https://www.courtlistener.com/docket/68290804/420/the-intercept-media-inc-v-openai-inc/)
 
-### 📄 Doc #— — 2026-02-04
-
-Notice to Attorney to Re-File Document - Event Type Error
-
-### 📄 Doc #— — 2026-02-04
-
-Notice Regarding Pro Hac Vice Motion
-
-### 📄 Doc #407 — 2026-02-02
-
-LETTER RESPONSE in Opposition to Motion addressed to Magistrate Judge Ona T. Wang from Christopher S. Sun, Allison S. Blanco, Caitlin Sinclaire Blythe dated February 2, 2026 re: (348 in 1:25-cv-04315-SHS-OTW, 1167 in 1:25-md-03143-SHS-OTW, 1159 in 1:23-cv-11195-SHS-OTW, 380 in 1:24-cv-01515-SHS-OTW) LETTER MOTION to Seal ECF (1103) addressed to Magistrate Judge Ona T. Wang from Caitlin Sinclaire Blythe, Christopher S. Sun, and Herman H. Yue dated January 15, 2026. Response to ECF 1189 . Document filed by OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.L.C., OpenAI Holdings LLC, OpenAI Holdings, LLC, OpenAI Inc., OpenAI LLC, OpenAI LP, OpenAI OpCo LLC, OpenAI OpCo LLC(a Delaware limited liability corporation), OpenAI OpCo, L.L.C., OpenAI Startup Fund GP I LLC, OpenAI Startup Fund GP I LLC(a Delaware limited liability company), OpenAI Startup Fund I LP, OpenAI Startup Fund I LP(a Delaware limited partnership), …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68290804/407/the-intercept-media-inc-v-openai-inc/)
-
-### 📄 Doc #— — 2026-02-02
-
-Notice Regarding Pro Hac Vice Motion
-
-### 📄 Doc #405 — 2026-01-31
-
-REDACTION to (514 in 1:24-cv-04872-SHS-OTW, 1206 in 1:25-md-03143-SHS-OTW, 373 in 1:25-cv-04315-SHS-OTW, 402 in 1:24-cv-01515-SHS-OTW, 614 in 1:24-cv-03285-SHS-OTW) LETTER MOTION to Compel Open AI to Produce Metrics Data Regarding Custom GPTs addressed to Magistrate Judge Ona T. Wang from Davida Brook dated January 30, 2026. by The New York Times Company (Attachments: # 1 Exhibit 1, # 2 Exhibit 3, # 3 Exhibit 4, # 4 Exhibit 9, # 5 Exhibit 10)Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:24-cv-01515-SHS-OTW, 1:24-cv-03285-SHS-OTW, 1:24-cv-04872-SHS-OTW, 1:25-cv-04315-SHS-OTW.(Brook, Davida) (Entered: 01/31/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68290804/405/5/the-intercept-media-inc-v-openai-inc/)
-
-### 📄 Doc #403 — 2026-01-31
-
-LETTER MOTION for Discovery Plaintiffs Motion for Additional Deposition Time addressed to Magistrate Judge Ona T. Wang from Davida Brook dated January 30, 2026. Document filed by The New York Times Company. (Attachments: # 1 Exhibit 1, # 2 Exhibit 2, # 3 Appendix A)Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Brook, Davida) (Entered: 01/31/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68290804/403/3/the-intercept-media-inc-v-openai-inc/)
-
-### 📄 Doc #404 — 2026-01-31
-
-LETTER MOTION for Discovery CORRECTED Plaintiffs' Motion for Additional Deposition Time addressed to Magistrate Judge Ona T. Wang from Davida Brook dated January 30, 2026. Document filed by The New York Times Company. (Attachments: # 1 Exhibit 1, # 2 Exhibit 2, # 3 Appendix A)Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Brook, Davida) (Entered: 01/31/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68290804/404/3/the-intercept-media-inc-v-openai-inc/)
-
-### 📄 Doc #401 — 2026-01-30
-
-REDACTION to (61 in 1:25-cv-09912-SHS, 1185 in 1:23-cv-11195-SHS-OTW) LETTER MOTION to Compel Open AI to Produce Musk Discovery addressed to Magistrate Judge Ona T. Wang from Davida Brook and Justin Nelson dated January 30, 2026. by Authors Guild, The New York Times Company (Attachments: # 1 Exhibit A, # 2 Exhibit B, # 3 Exhibit C, # 4 Exhibit D)Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Brook, Davida) (Entered: 01/30/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68290804/401/4/the-intercept-media-inc-v-openai-inc/)
-
-### 📄 Doc #400 — 2026-01-30
-
-***SELECTED PARTIES*** LETTER MOTION to Compel Open AI to Produce Musk Discovery addressed to Magistrate Judge Ona T. Wang from Davida Brook and Justin Nelson dated January 30, 2026. Document filed by Authors Guild, The New York Times Company. (Attachments: # 1 Exhibit B, # 2 Exhibit C, # 3 Exhibit D)Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al.Motion or Order to File Under Seal: 1199 .(Brook, Davida) (Entered: 01/30/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68290804/400/the-intercept-media-inc-v-openai-inc/)
-
-### 📄 Doc #402 — 2026-01-30
-
-***SELECTED PARTIES*** LETTER MOTION to Compel Open AI to Produce Metrics Data Regarding Custom GPTs addressed to Magistrate Judge Ona T. Wang from Davida Brook dated January 30, 2026. Document filed by The New York Times Company, Daily News LP, The Intercept Media, Inc., Ziff Davis, LLC, The Center for Investigative Reporting, Inc., The New York Times Company. (Attachments: # 1 Exhibit 2, # 2 Exhibit 5, # 3 Exhibit 6, # 4 Exhibit 7, # 5 Exhibit 8, # 6 Exhibit 11)Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al.Motion or Order to File Under Seal: 1199 .(Brook, Davida) (Entered: 01/30/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68290804/402/the-intercept-media-inc-v-openai-inc/)
-
-### 📄 Doc #396 — 2026-01-30
-
-LETTER MOTION for Local Rule 37.2 Conference regarding Microsoft's Motion to Enforce Clawback Provisions of Protective Order and Remove Exhibit from Docket addressed to Magistrate Judge Ona T. Wang from Annette L. Hurst and Jared B. Briant dated January 30, 2026. Document filed by Microsoft Corporation, Microsoft Corporation, Microsoft Corporation, Microsoft Corporation, Microsoft Corporation.Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Hurst, Annette) Modified on 2/4/2026 (db). Modified on 2/5/2026 (db). Re-opened as per Chambers Email Correspondence Received on 2/4/26 @ 3:26pm. Modified on 2/5/2026 (db). (Entered: 01/30/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68290804/396/the-intercept-media-inc-v-openai-inc/)
-
-### 📄 Doc #397 — 2026-01-30
-
-DECLARATION of Annette L. Hurst in Support re: (330 in 1:24-cv-00084-SHS-OTW, 607 in 1:24-cv-03285-SHS-OTW, 242 in 1:25-cv-03483-SHS-OTW, 88 in 1:25-cv-06286-SHS-OTW, 971 in 1:23-cv-08292-SHS-OTW, 751 in 1:25-cv-03482-SHS-OTW, 508 in 1:24-cv-04872-SHS-OTW, 64 in 1:25-cv-09904-SHS, 644 in 1:23-cv-10211-SHS-OTW, 362 in 1:24-cv-01514-SHS-OTW, 366 in 1:25-cv-04315-SHS-OTW, 1181 in 1:23-cv-11195-SHS-OTW, 305 in 1:25-cv-03297-SHS-OTW, 396 in 1:24-cv-01515-SHS-OTW, 1196 in 1:25-md-03143-SHS-OTW, 58 in 1:25-cv-09912-SHS, 197 in 1:25-cv-03291-SHS-OTW) LETTER MOTION for Local Rule 37.2 Conference regarding Microsoft's Motion to Enforce Clawback Provisions of Protective Order and Remove Exhibit from Docket addressed to Magistrate Judge Ona T. Wang from Annette L. Hurst and Jared B. Brian. Document filed by Microsoft Corporation, Microsoft Corporation, Microsoft Corporation, Microsoft Corporation, Microsoft Corporation. Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Hurst, Annette) (Ente …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68290804/397/the-intercept-media-inc-v-openai-inc/)
-
-### 📄 Doc #398 — 2026-01-30
-
-DECLARATION of Jared B. Briant in Support re: (330 in 1:24-cv-00084-SHS-OTW, 607 in 1:24-cv-03285-SHS-OTW, 242 in 1:25-cv-03483-SHS-OTW, 88 in 1:25-cv-06286-SHS-OTW, 971 in 1:23-cv-08292-SHS-OTW, 751 in 1:25-cv-03482-SHS-OTW, 508 in 1:24-cv-04872-SHS-OTW, 64 in 1:25-cv-09904-SHS, 644 in 1:23-cv-10211-SHS-OTW, 362 in 1:24-cv-01514-SHS-OTW, 366 in 1:25-cv-04315-SHS-OTW, 1181 in 1:23-cv-11195-SHS-OTW, 305 in 1:25-cv-03297-SHS-OTW, 396 in 1:24-cv-01515-SHS-OTW, 1196 in 1:25-md-03143-SHS-OTW, 58 in 1:25-cv-09912-SHS, 197 in 1:25-cv-03291-SHS-OTW) LETTER MOTION for Local Rule 37.2 Conference regarding Microsoft's Motion to Enforce Clawback Provisions of Protective Order and Remove Exhibit from Docket addressed to Magistrate Judge Ona T. Wang from Annette L. Hurst and Jared B. Brian. Document filed by Microsoft Corporation, Microsoft Corporation, Microsoft Corporation, Microsoft Corporation, Microsoft Corporation. Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Hurst, Annette) (Enter …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68290804/398/the-intercept-media-inc-v-openai-inc/)
-
-### 📄 Doc #399 — 2026-01-30
-
-MOTION to Seal . Document filed by The Center for Investigative Reporting, Inc., The Intercept Media, Inc., The New York Times Company, Daily News LP, Ziff Davis Inc..Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Brook, Davida) (Entered: 01/30/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68290804/399/the-intercept-media-inc-v-openai-inc/)
-
-### 📄 Doc #395 — 2026-01-30
-
-MOTION for Allison L. Stillman, Joseph R. Wetzel, Jr., Rachel R. Blitzer, and Michael A. David to Withdraw as Attorney . Document filed by OAI Corporation, LLC, OpenAI GP, LLC, OpenAI Global, L.L.C., OpenAI Holdings, LLC, OpenAI Inc., OpenAI LLC, OpenAI LP, OpenAI OpCo, L.L.C., OpenAI Startup Fund GP I LLC, OpenAI Startup Fund I LP, OpenAI Startup Fund Management LLC.Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Nightingale Dawson, Elana) (Entered: 01/30/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68290804/395/the-intercept-media-inc-v-openai-inc/)
-
-### 📄 Doc #394 — 2026-01-29
-
-MOTION for Andrew L. Perito, Brian M. Kramer, Drew Alan Hillier, John R. Lanham, Alexandra Ward, Joyce C. Li, Allyson Bennett, Vera Ranieri, and Max I. Levy to Withdraw as Attorney . Document filed by OpenAI Inc., OpenAI OpCo LLC, OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.L.C., OpenAI Holdings LLC, OpenAI Holdings, LLC, OpenAI LLC, OpenAI LP, OpenAI OpCo LLC(a Delaware limited liability corporation), OpenAI OpCo, L.L.C., OpenAI Startup Fund GP I LLC, OpenAI Startup Fund GP I LLC(a Delaware limited liability company), OpenAI Startup Fund I LP, OpenAI Startup Fund I LP(a Delaware limited partnership), OpenAI Startup Fund Management LLC, OpenAI Startup Fund Management LLC(a Delaware limited liability company), OpenAI, Inc., OpenAI, LLC, OpenAI GP LLC, OpenAI Inc., OpenAI LP(a Delaware limited partnership).Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Lee, Rose) (Entered: 01/29/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68290804/394/the-intercept-media-inc-v-openai-inc/)
-
-### 📄 Doc #— — 2026-01-28
-
-Notice Regarding Pro Hac Vice Motion
-
-### 📄 Doc #390 — 2026-01-26
-
-ORDER re: (1182 in 1:25-md-03143-SHS-OTW) Letter, filed by OpenAI. The deadline to produce the two memoranda and deposition transcript referenced in ECF 1182 is EXTENDED to 6:00 PM EST on Tuesday, January 27, 2026. If OpenAI is able to facilitate production of these documents before then, they are encouraged to do so. (HEREBY ORDERED by Magistrate Judge Ona T. Wang) (Text Only Order) Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al. (Entered: 01/26/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68290804/390/the-intercept-media-inc-v-openai-inc/)
-
-### 📄 Doc #— — 2026-01-26
-
-Order
-
-### 📄 Doc #388 — 2026-01-23
-
-ORDER re: (1178 in 1:25-md-03143-SHS-OTW) Letter, filed by The New York Times Company. If OpenAI objects to the production as described in the last paragraph of ECF 1178, it shall file its objection by 11:59pm Eastern time TONIGHT. If no objection is filed, the production shall be made by 6:00pm Eastern on Monday, January 26. The production may also be made at any time before Monday at noon if OpenAI does not object. (HEREBY ORDERED by Magistrate Judge Ona T. Wang) (Text Only Order) Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al. (Wang, Ona) (Entered: 01/23/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68290804/388/the-intercept-media-inc-v-openai-inc/)
-
-### 📄 Doc #389 — 2026-01-23
-
-LETTER addressed to Magistrate Judge Ona T. Wang from Andrew Dawson, Elana Nightingale Dawson, Rose S. Lee dated January 23, 2026 re: OpenAIs Response to January 23, 2026 Order (Dkt. 1181). Document filed by OpenAI GP LLC, OpenAI Global LLC, OpenAI Holdings, LLC, OpenAI Inc., OpenAI LLC, OpenAI OpCo LLC.Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Dawson, Andrew) (Entered: 01/23/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68290804/389/the-intercept-media-inc-v-openai-inc/)
-
-### 📄 Doc #— — 2026-01-23
-
-Order
-
-### 📄 Doc #386 — 2026-01-23
-
-TRANSCRIPT of Proceedings re: CONFERENCE held on 1/15/2026 before Magistrate Judge Ona T. Wang. Court Reporter/Transcriber: Doug Colavito, (212) 805-0320. Transcript may be viewed at the court public terminal or purchased through the Court Reporter/Transcriber before the deadline for Release of Transcript Restriction. After that date it may be obtained through PACER. Redaction Request due 2/13/2026. Redacted Transcript Deadline set for 2/23/2026. Release of Transcript Restriction set for 4/23/2026.Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Moya, Goretti) (Entered: 01/23/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68290804/386/the-intercept-media-inc-v-openai-inc/)
-
-### 📄 Doc #387 — 2026-01-23
-
-NOTICE OF FILING OF OFFICIAL TRANSCRIPT Notice is hereby given that an official transcript of a CONFERENCE proceeding held on 1/15/2026 has been filed by the court reporter/transcriber in the above-captioned matter. The parties have seven (7) calendar days to file with the court a Notice of Intent to Request Redaction of this transcript. If no such Notice is filed, the transcript may be made remotely electronically available to the public without redaction after 90 calendar days...Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Moya, Goretti) (Entered: 01/23/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68290804/387/the-intercept-media-inc-v-openai-inc/)
-
-### 📄 Doc #— — 2026-01-21
-
-Notice Regarding Pro Hac Vice Motion
-
-### 📄 Doc #— — 2026-01-20
-
-Notice Regarding Pro Hac Vice Motion
-
-### 📄 Doc #— — 2026-01-20
-
-Discovery Hearing
-
-### 📄 Doc #— — 2026-01-16
-
-Set/Reset Deadlines: Brief due by 1/30/2026. Responses due by 2/4/2026 Associated Cases: 1:25-md-03143-SHS-OTW et al.(rro)
-
-### 📄 Doc #383 — 2026-01-16
-
-ORDER: The Court held a discovery status conference for all actions in this matter on Thursday, January 15, 2026. As ORDERED at the January 15 Conference: The Court held a discovery status conference for all actions in this matter on Thursday, January 15, 2026. As ORDERED at the January 15 Conference: News Plaintiffs' motion to compel Microsoft's production of output log data (ECF 1014) is DENIED as premature. The parties are directed to continue meeting and conferring and to provide an update in the January 22, 2026, joint status letter. OpenAI's motion for the Times's profit-and-loss statements (ECF Nos. 1028, 1032) is DENIED. News Plaintiffs' motion to compel OpenAI's production of output log data (ECF 1061) is GRANTED in part. OpenAI is directed to amend their PII redactions and re-produce the sample by January 22, 2026. OpenAI's motion for a protective order regarding Greg Brockman's deposition is DENIED. (ECF 1041). The deposition will be capped at 11 hours, however, Mr. Brockman …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68290804/383/the-intercept-media-inc-v-openai-inc/)
-
-### 📄 Doc #— — 2026-01-16
-
-Notice Regarding Pro Hac Vice Motion
-
-### 📄 Doc #380 — 2026-01-15
-
-LETTER MOTION to Seal ECF 1103 addressed to Magistrate Judge Ona T. Wang from Caitlin Sinclaire Blythe, Christopher S. Sun, and Herman H. Yue dated January 15, 2026. Document filed by OpenAI Inc., OpenAI OpCo LLC, OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.L.C., OpenAI Holdings LLC, OpenAI Holdings, LLC, OpenAI LLC, OpenAI LP, OpenAI OpCo LLC(a Delaware limited liability corporation), OpenAI OpCo, L.L.C., OpenAI Startup Fund GP I LLC, OpenAI Startup Fund GP I LLC(a Delaware limited liability company), OpenAI Startup Fund I LP, OpenAI Startup Fund I LP(a Delaware limited partnership), OpenAI Startup Fund Management LLC, OpenAI Startup Fund Management LLC(a Delaware limited liability company), OpenAI, Inc., OpenAI, Inc. Copyright Infringement Litigation, OpenAI, LLC, OpenAI GP LLC, OpenAI Inc., OpenAI LP(a Delaware limited partnership). (Attachments: # 1 Proposed Order )Filed In Associated Cases: 1:25-md- …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68290804/380/1/the-intercept-media-inc-v-openai-inc/)
-
-### 📄 Doc #— — 2026-01-15
-
-Minute Entry for proceedings held before Magistrate Judge Ona T. Wang: Discovery Hearing held on 1/15/2026. Associated Cases: 1:25-md-03143-SHS-OTW et al.(Quinn, Diane)
-
-### 📄 Doc #381 — 2026-01-15
-
-DECLARATION of Maile Yeats-Rowe in Support re: (348 in 1:25-cv-04315-SHS-OTW, 1167 in 1:25-md-03143-SHS-OTW, 1159 in 1:23-cv-11195-SHS-OTW, 346 in 1:24-cv-01514-SHS-OTW, 734 in 1:25-cv-03482-SHS-OTW, 949 in 1:23-cv-08292-SHS-OTW, 289 in 1:25-cv-03297-SHS-OTW, 380 in 1:24-cv-01515-SHS-OTW) LETTER MOTION to Seal ECF (1103) addressed to Magistrate Judge Ona T. Wang from Caitlin Sinclaire Blythe, Christopher S. Sun, and Herman H. Yue dated January 15, 2026.. Document filed by OpenAI Inc., OpenAI OpCo LLC, OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.L.C., OpenAI Holdings LLC, OpenAI Holdings, LLC, OpenAI LLC, OpenAI LP, OpenAI OpCo LLC(a Delaware limited liability corporation), OpenAI OpCo, L.L.C., OpenAI Startup Fund GP I LLC, OpenAI Startup Fund GP I LLC(a Delaware limited liability company), OpenAI Startup Fund I LP, OpenAI Startup Fund I LP(a Delaware limited partnership), OpenAI Startup Fund Management L …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68290804/381/the-intercept-media-inc-v-openai-inc/)
-
-### 📄 Doc #378 — 2026-01-14
-
-ORDER denying without prejudice (1103) Letter Motion for Discovery in case 1:23-cv-11195-SHS-OTW; denying without prejudice (1061) Letter Motion for Discovery in case 1:25-md-03143-SHS-OTW. The Court is in receipt of News Plaintiffs' motion for an evidentiary hearing concerning the production of the 20 million chat logs, and OpenAI's response, discussed at ECF Nos. 1061 and 1126. News Plaintiffs' motion for an evidentiary hearing is DENIED without prejudice. Parties are directed to meet and confer and come to the January 15, 2026, discovery status conference prepared to discuss: (1) the process behind the "substitution" of "user-deleted data," and how the processes for deletion by users were or were not compliant with the May 13, 2025 Preservation Order; (2) the process behind "PII" redactions; and (3) the basis for excluding conversation logs generated for "litigation-related purposes," and the process involved in doing so. (ECF 1126 at 2). This will be the first issue that the Court  …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68290804/378/the-intercept-media-inc-v-openai-inc/)
-
-### 📄 Doc #376 — 2026-01-13
-
-***EX-PARTE***DECLARATION of MAILE YEATS-ROWE in Support re: (1157 in 1:25-md-03143-SHS-OTW, 941 in 1:23-cv-08292-SHS-OTW, 341 in 1:25-cv-04315-SHS-OTW, 374 in 1:24-cv-01515-SHS-OTW, 1152 in 1:23-cv-11195-SHS-OTW, 283 in 1:25-cv-03297-SHS-OTW, 340 in 1:24-cv-01514-SHS-OTW, 728 in 1:25-cv-03482-SHS-OTW) LETTER MOTION to Seal Omnibus addressed to Magistrate Judge Ona T. Wang from Christopher S. Sun, Allison S. Blanco, Caitlin Sinclaire Blythe dated January 12, 2026.. Document filed by OpenAI Inc., OpenAI OpCo LLC, OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.L.C., OpenAI Holdings LLC, OpenAI Holdings, LLC, OpenAI LLC, OpenAI LP, OpenAI OpCo LLC(a Delaware limited liability corporation), OpenAI OpCo, L.L.C., OpenAI Startup Fund GP I LLC, OpenAI Startup Fund GP I LLC(a Delaware limited liability company), OpenAI Startup Fund I LP, OpenAI Startup Fund I LP(a Delaware limited partnership), OpenAI Startup Fund M …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68290804/376/the-intercept-media-inc-v-openai-inc/)
-
-### 📄 Doc #374 — 2026-01-12
-
-LETTER MOTION to Seal Omnibus addressed to Magistrate Judge Ona T. Wang from Christopher S. Sun, Allison S. Blanco, Caitlin Sinclaire Blythe dated January 12, 2026. Document filed by OpenAI Inc., OpenAI OpCo LLC, OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.L.C., OpenAI Holdings LLC, OpenAI Holdings, LLC, OpenAI LLC, OpenAI LP, OpenAI OpCo LLC(a Delaware limited liability corporation), OpenAI OpCo, L.L.C., OpenAI Startup Fund GP I LLC, OpenAI Startup Fund GP I LLC(a Delaware limited liability company), OpenAI Startup Fund I LP, OpenAI Startup Fund I LP(a Delaware limited partnership), OpenAI Startup Fund Management LLC, OpenAI Startup Fund Management LLC(a Delaware limited liability company), OpenAI, Inc., OpenAI, LLC, OpenAI GP LLC, OpenAI Inc., OpenAI LP(a Delaware limited partnership). (Attachments: # 1 Proposed Order )Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Blythe, Caitlin) (Entered:  …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68290804/374/1/the-intercept-media-inc-v-openai-inc/)
-
-### 📄 Doc #375 — 2026-01-12
-
-DECLARATION of MAILE YEATS-ROWE in Support re: (1157 in 1:25-md-03143-SHS-OTW, 941 in 1:23-cv-08292-SHS-OTW, 341 in 1:25-cv-04315-SHS-OTW, 374 in 1:24-cv-01515-SHS-OTW, 1152 in 1:23-cv-11195-SHS-OTW, 283 in 1:25-cv-03297-SHS-OTW, 340 in 1:24-cv-01514-SHS-OTW, 728 in 1:25-cv-03482-SHS-OTW) LETTER MOTION to Seal Omnibus addressed to Magistrate Judge Ona T. Wang from Christopher S. Sun, Allison S. Blanco, Caitlin Sinclaire Blythe dated January 12, 2026.. Document filed by OpenAI Inc., OpenAI OpCo LLC, OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.L.C., OpenAI Holdings LLC, OpenAI Holdings, LLC, OpenAI LLC, OpenAI LP, OpenAI OpCo LLC(a Delaware limited liability corporation), OpenAI OpCo, L.L.C., OpenAI Startup Fund GP I LLC, OpenAI Startup Fund GP I LLC(a Delaware limited liability company), OpenAI Startup Fund I LP, OpenAI Startup Fund I LP(a Delaware limited partnership), OpenAI Startup Fund Management LLC, …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68290804/375/10/the-intercept-media-inc-v-openai-inc/)
-
-### 📄 Doc #370 — 2026-01-08
-
-LETTER MOTION to Seal addressed to Magistrate Judge Ona T. Wang from Caitlin Sinclaire Blythe, Thomas E. Gorman, and Allison S. Blanco dated 01-08-2026. Document filed by OpenAI Inc., OpenAI OpCo LLC, OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.L.C., OpenAI Holdings LLC, OpenAI Holdings, LLC, OpenAI LLC, OpenAI LP, OpenAI OpCo LLC(a Delaware limited liability corporation), OpenAI OpCo, L.L.C., OpenAI Startup Fund GP I LLC, OpenAI Startup Fund GP I LLC(a Delaware limited liability company), OpenAI Startup Fund I LP, OpenAI Startup Fund I LP(a Delaware limited partnership), OpenAI Startup Fund Management LLC, OpenAI Startup Fund Management LLC(a Delaware limited liability company), OpenAI, Inc., OpenAI, LLC, OpenAI GP LLC, OpenAI Inc., OpenAI LP(a Delaware limited partnership). (Attachments: # 1 Proposed Order Granting OpenAI Sealing Motion)Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Blythe, C …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68290804/370/1/the-intercept-media-inc-v-openai-inc/)
-
-### 📄 Doc #372 — 2026-01-08
-
-DECLARATION of Edward Bayley re: (1126 in 1:25-md-03143-SHS-OTW) Response in Opposition to Motion,, // Declaration of Edward Bayley in Support of OpenAI Defendants' Opposition to News Plaintiffs' Motion at MDL ECF 1061., DECLARATION of Edward Bayley in Support re: (1126 in 1:25-md-03143-SHS-OTW) Response in Opposition to Motion,,. Document filed by OAI Corporation, LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Holdings, LLC, OpenAI LLC, OpenAI LP, OpenAI OpCo LLC, OpenAI Startup Fund GP I LLC, OpenAI Startup Fund I LP, OpenAI Startup Fund Management LLC, OpenAI, Inc., OpenAI, LLC. (Attachments: # 1 Exhibit A - September 12, 2025 Letter, # 2 Exhibit B - September 2025 Correspondence with News Plaintiffs, # 3 Exhibit C - December 2025 Correspondence with Class Plaintiffs [Redacted], # 4 Exhibit D - December 2025 Correspondence with News Plaintiffs, # 5 Exhibit E - Responses and Objections to Daily News Interrogatories [Redacted])Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(N …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68290804/372/5/the-intercept-media-inc-v-openai-inc/)
-
-### 📄 Doc #373 — 2026-01-08
-
-LETTER addressed to Magistrate Judge Ona T. Wang from Edward A. Bayley dated January 8, 2026 re: News Plaintiffs' Letter Motion to Compel OpenAI to Produce its User Engagement Metrics on or before January 16, 2026 Dkt. No. 1034. Document filed by OAI Corporation, OAI Corporation LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Holdings LLC, OpenAI Holdings, LLC, OpenAI Inc., OpenAI LLC, OpenAI LP, OpenAI OpCo LLC(a Delaware limited liability corporation), OpenAI OpCo LLC, OpenAI OpCo, L.L.C., OpenAI Startup Fund GP I LLC, OpenAI Startup Fund I LP(a Delaware limited partnership), OpenAI Startup Fund I LP, OpenAI Startup Fund Management LLC(a Delaware limited liability company), OpenAI Startup Fund Management LLC, OpenAI, Inc., OAI Corporation, LLC.Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:23-cv-11195-SHS-OTW, 1:24-cv-01515-SHS-OTW, 1:24-cv-03285-SHS-OTW, 1:24-cv-04872-SHS-OTW.(Bruns, Andrew) (Entered: 01/08/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68290804/373/the-intercept-media-inc-v-openai-inc/)
-
-### 📄 Doc #366 — 2026-01-08
-
-LETTER RESPONSE in Opposition to Motion addressed to Magistrate Judge Ona T. Wang from Rose S. Lee, Christopher S. Sun, and Herman Yue dated January 8, 2026 re: (1043 in 1:25-md-03143-SHS-OTW, 878 in 1:23-cv-08292-SHS-OTW) LETTER MOTION to Compel OpenAI to to Produce discrete responsive, non-custodial, documents that are relevant and pose no burden to produce addressed to Magistrate Judge Ona T. Wang from Davida Brook and Justin Nelson dated January 5, 2026 . Document filed by OAI Corporation, LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Holdings, LLC, OpenAI LLC, OpenAI LP, OpenAI OpCo LLC, OpenAI, Inc., OpenAI, LLC, OAI Corporation, OpenAI GP LLC, OpenAI Holdings LLC, OpenAI Inc.. Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Lee, Rose) (Entered: 01/08/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68290804/366/the-intercept-media-inc-v-openai-inc/)
-
-### 📄 Doc #367 — 2026-01-08
-
-LETTER RESPONSE in Opposition to Motion addressed to Magistrate Judge Ona T. Wang from Joseph C. Gratz, Thomas E. Gorman, and Elana Nightingale Dawson dated January 8, 2026 re: (891 in 1:23-cv-08292-SHS-OTW, 1070 in 1:25-md-03143-SHS-OTW) LETTER MOTION to Compel OPENAI to Produce Documents Improperly Withheld as Privileged addressed to Magistrate Judge Ona T. Wang from Justin A. Nelson and Davida Brook dated January 5, 2026., (1074 in 1:25-md-03143-SHS-OTW, 893 in 1:23-cv-08292-SHS-OTW) LETTER MOTION to Compel OPENAI to Produce Documents Improperly Withheld as Privileged REDACTED DOCKET NUMBER 1070 addressed to Magistrate Judge Ona T. Wang from Justin A. Nelson and Davida Brook dated January 5, 2026. . Document filed by OpenAI Inc., OpenAI OpCo LLC, OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.L.C., OpenAI Holdings LLC, OpenAI Holdings, LLC, OpenAI LLC, OpenAI LP, OpenAI OpCo LLC(a Delaware limited liabil …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68290804/367/the-intercept-media-inc-v-openai-inc/)
-
-### 📄 Doc #368 — 2026-01-08
-
-LETTER RESPONSE in Opposition to Motion addressed to Magistrate Judge Ona T. Wang from Margaret Graham, Edward A. Bayley, and Rose S. Lee dated January 7, 2026 re: (1061 in 1:25-md-03143-SHS-OTW) LETTER MOTION for Discovery addressed to Magistrate Judge Ona T. Wang from Steven Lieberman and Davida Brook dated January 5, 2026. . Document filed by OAI Corporation, LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Holdings, LLC, OpenAI LLC, OpenAI LP, OpenAI OpCo LLC, OpenAI Startup Fund GP I LLC, OpenAI Startup Fund I LP, OpenAI Startup Fund Management LLC, OpenAI, Inc., OpenAI, LLC. Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Nightingale Dawson, Elana) (Entered: 01/08/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68290804/368/the-intercept-media-inc-v-openai-inc/)
-
-### 📄 Doc #369 — 2026-01-08
-
-DECLARATION of John Vincent Monaco re: (1126 in 1:25-md-03143-SHS-OTW) Response in Opposition to Motion,, // Declaration of John Vincent Monaco in Support of OpenAI Defendants' Opposition to News Plaintiffs' Motion at MDL ECF 1061., DECLARATION of John Vincent Monaco in Support re: (1126 in 1:25-md-03143-SHS-OTW) Response in Opposition to Motion,,. Document filed by OAI Corporation, LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Holdings, LLC, OpenAI LLC, OpenAI LP, OpenAI OpCo LLC, OpenAI Startup Fund GP I LLC, OpenAI Startup Fund I LP, OpenAI Startup Fund Management LLC, OpenAI, Inc., OpenAI, LLC. Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Nightingale Dawson, Elana) (Entered: 01/08/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68290804/369/the-intercept-media-inc-v-openai-inc/)
-
-### 📄 Doc #371 — 2026-01-08
-
-DECLARATION of Maile Yeats-Rowe in Support re: (280 in 1:25-cv-03297-SHS-OTW, 1129 in 1:25-md-03143-SHS-OTW, 337 in 1:25-cv-04315-SHS-OTW, 337 in 1:24-cv-01514-SHS-OTW, 1141 in 1:23-cv-11195-SHS-OTW, 718 in 1:25-cv-03482-SHS-OTW, 370 in 1:24-cv-01515-SHS-OTW, 925 in 1:23-cv-08292-SHS-OTW) LETTER MOTION to Seal addressed to Magistrate Judge Ona T. Wang from Caitlin Sinclaire Blythe, Thomas E. Gorman, and Allison S. Blanco dated 01-08-2026.. Document filed by OpenAI Inc., OpenAI OpCo LLC, OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.L.C., OpenAI Holdings LLC, OpenAI Holdings, LLC, OpenAI LLC, OpenAI LP, OpenAI OpCo LLC(a Delaware limited liability corporation), OpenAI OpCo, L.L.C., OpenAI Startup Fund GP I LLC, OpenAI Startup Fund GP I LLC(a Delaware limited liability company), OpenAI Startup Fund I LP, OpenAI Startup Fund I LP(a Delaware limited partnership), OpenAI Startup Fund Management LLC, OpenAI Star …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68290804/371/the-intercept-media-inc-v-openai-inc/)
-
-### 📄 Doc #365 — 2026-01-08
-
-LETTER RESPONSE in Opposition to Motion addressed to Magistrate Judge Ona T. Wang from R. James Slaughter, Allison S. Blanco, Caitlin Sinclaire Blythe dated January 8, 2026 re: (1078 in 1:25-md-03143-SHS-OTW, 897 in 1:23-cv-08292-SHS-OTW) LETTER MOTION to Compel OpenAI to log and produce REDACTED DOCKET NUMBER 1030 addressed to Magistrate Judge Ona T. Wang from Justin A. Nelson dated January 5, 2026., (1030 in 1:25-md-03143-SHS-OTW, 870 in 1:23-cv-08292-SHS-OTW) LETTER MOTION to Compel OpenAI to log and produce addressed to Magistrate Judge Ona T. Wang from Justin A. Nelson dated January 5, 2026. . Document filed by OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.L.C., OpenAI Holdings LLC, OpenAI Holdings, LLC, OpenAI Inc., OpenAI LLC, OpenAI LP, OpenAI OpCo LLC, OpenAI OpCo LLC(a Delaware limited liability corporation), OpenAI OpCo, L.L.C., OpenAI Startup Fund GP I LLC, OpenAI Startup Fund GP I LLC(a Delawa …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68290804/365/the-intercept-media-inc-v-openai-inc/)
-
-### 📄 Doc #— — 2026-01-08
-
-Status Conference
-
-### 📄 Doc #— — 2026-01-08
-
-Notice Regarding Pro Hac Vice Motion
-
-### 📄 Doc #— — 2026-01-07
-
-Notice Regarding Deficient Motion to Appear Pro Hac Vice
-
-### 📄 Doc #361 — 2026-01-06
-
-ORDER in case 1:23-cv-08292-SHS-OTW; granting (1090) Letter Motion for Extension of Time in case 1:25-md-03143-SHS-OTW. SO ORDERED. (Signed by Judge Sidney H. Stein on 1/6/2026) Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al. (jca) (Entered: 01/06/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68290804/361/the-intercept-media-inc-v-openai-inc/)
-
-### 📄 Doc #359 — 2026-01-06
-
-LETTER MOTION for Extension of Time for all parties to respond to contention interrogatories (unopposed) addressed to Judge Sidney H. Stein from Rose S. Lee, Christopher S. Sun, and Allison S. Blanco dated January 6, 2026. Document filed by OpenAI Inc., OpenAI OpCo LLC, OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.L.C., OpenAI Holdings LLC, OpenAI Holdings, LLC, OpenAI LLC, OpenAI LP, OpenAI OpCo LLC(a Delaware limited liability corporation), OpenAI OpCo, L.L.C., OpenAI Startup Fund GP I LLC, OpenAI Startup Fund GP I LLC(a Delaware limited liability company), OpenAI Startup Fund I LP, OpenAI Startup Fund I LP(a Delaware limited partnership), OpenAI Startup Fund Management LLC, OpenAI Startup Fund Management LLC(a Delaware limited liability company), OpenAI, Inc., OpenAI, LLC, OpenAI GP LLC, OpenAI Inc., OpenAI LP(a Delaware limited partnership).Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Lee, …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68290804/359/the-intercept-media-inc-v-openai-inc/)
-
-### 📄 Doc #— — 2026-01-06
-
-Notice Regarding Pro Hac Vice Motion
-
 <details>
-<summary>已過濾的 53 筆程序性 entries（點擊展開）</summary>
+<summary>已過濾的 25 筆程序性 entries（點擊展開）</summary>
 
+- **Doc #580** (2026-09-17): CERTIFICATE OF SERVICE of ECF (2010) on September 17, 2026. Document filed by OAI Corporation, OpenAI Foundation, OpenAI GP, LLC, OpenAI Global, LLC, OpenAI Group PBC, OpenAI LLC, OpenAI OpCo, LLC, Op…
+- **Doc #556** (2026-09-14): CERTIFICATE OF SERVICE of ECF (1952) on September 14, 2026. Document filed by OAI Corporation, OAI Corporation, LLC, OpenAI Foundation, OpenAI GP, LLC, OpenAI Global, LLC, OpenAI Group PBC, OpenAI LLC…
+- **Doc #557** (2026-09-14): NOTICE OF APPEARANCE by Marc Holden Axelbaum on behalf of Benjamin Chess. Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Axelbaum, Marc) (Entered: 09/14/2026)
+- **Doc #558** (2026-09-14): NOTICE OF APPEARANCE by Marc Holden Axelbaum on behalf of Ermira Murati. Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Axelbaum, Marc) (Entered: 09/14/2026)
+- **Doc #550** (2026-09-06): CERTIFICATE OF SERVICE of Sealed Declarations and Exhibits filed in support of Motion for Partial Summary Judgment served on OpenAI Defendants, Microsoft on 9/4/2026. Document filed by The Center for …
+- **Doc #532** (2026-09-04): CERTIFICATE OF SERVICE of Defendants' Memorandum in Support of Motion for Summary Judgment and Declarations of Defendants' Experts Chris Callison-Burch, Taylor Berg-Kirkpatrick, Nick Feamster, and Avi…
+- **Doc #518** (2026-09-04): CERTIFICATE OF SERVICE of Sealed version of Declaration of Barbara Frederiksen-Cross served on The Intercept Media, Inc., The Center for Investigative Reporting, The New York Times, Daily News Plainti…
+- **Doc #507** (2026-08-14): CERTIFICATE OF SERVICE of ECF 1672 on August 13, 2026. Document filed by OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI Foundation, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC…
 - **Doc #496** (2026-07-16): CERTIFICATE OF SERVICE of ECF (1643) on July 16, 2026. Document filed by OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.…
 - **Doc #—** (2026-07-13): >>>NOTICE REGARDING PRO HAC VICE MOTION. Regarding Document No. (615 in 1:24-cv-04872-SHS-OTW, 43 in 1:26-cv-02097-SHS, 440 in 1:24-cv-01514-SHS-OTW, 306 in 1:25-cv-03483-SHS-OTW, 144 in 1:25-cv-06286…
 - **Doc #489** (2026-07-10): MOTION for Johnathan J. Vaknin to Appear Pro Hac Vice . Filing fee $ 200.00, receipt number NYSDC-33120648. Motion and supporting papers to be reviewed by Clerk's Office staff. Document filed by Micro…
@@ -872,45 +1080,9 @@ Notice Regarding Pro Hac Vice Motion
 - **Doc #425** (2026-02-05): CERTIFICATE OF SERVICE of Unredacted Highlighted Versions of ECF (1262), [1262-1], [1262-2] and [1262-3] on February 4, 2026. Document filed by OAI Corporation, OAI Corporation LLC, OAI Corporation, L…
 - **Doc #—** (2026-02-04): >>>NOTICE REGARDING PRO HAC VICE MOTION. Regarding Document No. (408 in 1:24-cv-01515-SHS-OTW, 983 in 1:23-cv-08292-SHS-OTW, 1196 in 1:23-cv-11195-SHS-OTW, 370 in 1:24-cv-01514-SHS-OTW, 762 in 1:25-cv…
 - **Doc #409** (2026-02-04): ORDER FOR ADMISSION PRO HAC VICE granting (983) Motion for Sara Talebian to Appear Pro Hac Vice in case 1:23-cv-08292-SHS-OTW; granting (1196) Motion for Sara Talebian to Appear Pro Hac Vice in case 1…
-- **Doc #410** (2026-02-04): ORDER GRANTING MOTION TO ADMIT COUNSEL PRO HAC VICE granting (966) Motion for Evan H. McIntyre to Appear Pro Hac Vice in case 1:23-cv-08292-SHS-OTW; granting (1174) Motion for Evan H. McIntyre to Appe…
-- **Doc #411** (2026-02-04): ORDER GRANTING MOTION TO ADMIT COUNSEL PRO HAC VICE granting (965) Motion for Amos J.B. Espeland to Appear Pro Hac Vice in case 1:23-cv-08292-SHS-OTW; granting (1173) Motion for Amos J.B. Espeland to …
-- **Doc #412** (2026-02-04): ORDER GRANTING MOTION TO ADMIT COUNSEL PRO HAC VICE granting (964) Motion for Michael K. Deamer to Appear Pro Hac Vice in case 1:23-cv-08292-SHS-OTW; granting (1172) Motion for Michael K. Deamer to Ap…
-- **Doc #413** (2026-02-04): ORDER GRANTING MOTION TO ADMIT COUNSEL PRO HAC VICE granting (954) Motion for Kelly M. Hernandez to Appear Pro Hac Vice in case 1:23-cv-08292-SHS-OTW; granting (1164) Motion for Kelly M. Hernandez to …
-- **Doc #414** (2026-02-04): ORDER GRANTING MOTION TO ADMIT COUNSEL PRO HAC VICE granting (953) Motion for Victor T. Chiu to Appear Pro Hac Vice in case 1:23-cv-08292-SHS-OTW; granting (1163) Motion for Victor T. Chiu to Appear P…
-- **Doc #415** (2026-02-04): ORDER GRANTING MOTION TO ADMIT COUNSEL PRO HAC VICE granting (948) Motion for Daniel T. Nguyen to Appear Pro Hac Vice in case 1:23-cv-08292-SHS-OTW; granting (1158) Motion for Daniel T. Nguyen to Appe…
-- **Doc #416** (2026-02-04): ORDER FOR ADMISSION PRO HAC VICE granting (911) Motion for Lily Yue Li to Appear Pro Hac Vice in case 1:23-cv-08292-SHS-OTW; granting (1120) Motion for Lily Yue Li to Appear Pro Hac Vice in case 1:23-…
-- **Doc #417** (2026-02-04): ORDER GRANTING MOTION TO ADMIT COUNSEL PRO HAC VICE granting (898) Motion for Jennifer M. Barretto to Appear Pro Hac Vice in case 1:23-cv-08292-SHS-OTW; granting (1109) Motion for Jennifer M. Barretto…
-- **Doc #418** (2026-02-04): ORDER GRANTING MOTION TO ADMIT COUNSEL PRO HAC VICE granting (982) Motion for Nathaniel H. Brown to Appear Pro Hac Vice in case 1:23-cv-08292-SHS-OTW; granting (653) Motion for Nathaniel H. Brown to A…
-- **Doc #419** (2026-02-04): ORDER GRANTING MOTION TO ADMIT COUNSEL PRO HAC VICE granting (951) Motion for Emily L. Wang to Appear Pro Hac Vice in case 1:23-cv-08292-SHS-OTW; granting (633) Motion for Emily L. Wang to Appear Pro …
-- **Doc #408** (2026-02-03): MOTION for Sara Talebian to Appear Pro Hac Vice . Filing fee $ 200.00, receipt number NYSDC-32358910. Motion and supporting papers to be reviewed by Clerk's Office staff. Document filed by OpenAI Inc.…
-- **Doc #—** (2026-02-02): >>>NOTICE REGARDING PRO HAC VICE MOTION. Regarding Document No. (378 in 1:25-cv-04315-SHS-OTW, 337 in 1:24-cv-00084-SHS-OTW, 406 in 1:24-cv-01515-SHS-OTW, 982 in 1:23-cv-08292-SHS-OTW, 1222 in 1:25-md…
-- **Doc #406** (2026-02-02): MOTION for Nathaniel H. Brown to Appear Pro Hac Vice . Filing fee $ 200.00, receipt number NYSDC-32351068. Motion and supporting papers to be reviewed by Clerk's Office staff. Document filed by OAI Co…
-- **Doc #393** (2026-01-28): MOTION for Evan McIntyre to Appear Pro Hac Vice receipt no. NYSDC-32322425. Motion and supporting papers to be reviewed by Clerk's Office staff. Document filed by OAI Corporation, OAI Corporation LLC,…
-- **Doc #—** (2026-01-28): >>>NOTICE REGARDING PRO HAC VICE MOTION. Regarding Document No. (503 in 1:24-cv-04872-SHS-OTW, 361 in 1:25-cv-04315-SHS-OTW, 748 in 1:25-cv-03482-SHS-OTW, 602 in 1:24-cv-03285-SHS-OTW, 393 in 1:24-cv-…
-- **Doc #—** (2026-01-28): >>>NOTICE REGARDING PRO HAC VICE MOTION. Regarding Document No. (301 in 1:25-cv-03297-SHS-OTW, 965 in 1:23-cv-08292-SHS-OTW, 360 in 1:25-cv-04315-SHS-OTW, 1186 in 1:25-md-03143-SHS-OTW, 502 in 1:24-cv…
-- **Doc #—** (2026-01-28): >>>NOTICE REGARDING PRO HAC VICE MOTION. Regarding Document No. (600 in 1:24-cv-03285-SHS-OTW, 964 in 1:23-cv-08292-SHS-OTW, 747 in 1:25-cv-03482-SHS-OTW, 300 in 1:25-cv-03297-SHS-OTW, 501 in 1:24-cv-…
-- **Doc #392** (2026-01-27): MOTION for Amos J.B. Espeland to Appear Pro Hac Vice . Filing fee $ 200.00, receipt number NYSDC-32321965. Motion and supporting papers to be reviewed by Clerk's Office staff. Document filed by OAI Co…
-- **Doc #391** (2026-01-27): MOTION for Michael K. Deamer to Appear Pro Hac Vice . Filing fee $ 200.00, receipt number NYSDC-32319457. Motion and supporting papers to be reviewed by Clerk's Office staff. Document filed by OpenAI …
-- **Doc #—** (2026-01-21): >>>NOTICE REGARDING PRO HAC VICE MOTION. Regarding Document No. (739 in 1:25-cv-03482-SHS-OTW, 385 in 1:24-cv-01515-SHS-OTW, 954 in 1:23-cv-08292-SHS-OTW, 351 in 1:24-cv-01514-SHS-OTW, 594 in 1:24-cv-…
-- **Doc #—** (2026-01-21): >>>NOTICE REGARDING PRO HAC VICE MOTION. Regarding Document No. (384 in 1:24-cv-01515-SHS-OTW, 953 in 1:23-cv-08292-SHS-OTW, 593 in 1:24-cv-03285-SHS-OTW, 1171 in 1:25-md-03143-SHS-OTW, 738 in 1:25-cv…
-- **Doc #385** (2026-01-20): MOTION for Kelly Marlene Hernandez to Appear Pro Hac Vice . Filing fee $ 200.00, receipt number NYSDC-32286113. Motion and supporting papers to be reviewed by Clerk's Office staff. Document filed by O…
-- **Doc #384** (2026-01-20): MOTION for Victor T. Chiu to Appear Pro Hac Vice . Filing fee $ 200.00, receipt number NYSDC-32284964. Motion and supporting papers to be reviewed by Clerk's Office staff. Document filed by OpenAI Inc…
-- **Doc #—** (2026-01-20): >>>NOTICE REGARDING PRO HAC VICE MOTION. Regarding Document No. (322 in 1:24-cv-00084-SHS-OTW, 492 in 1:24-cv-04872-SHS-OTW, 1161 in 1:23-cv-11195-SHS-OTW, 382 in 1:24-cv-01515-SHS-OTW, 633 in 1:23-cv…
-- **Doc #—** (2026-01-16): >>>NOTICE REGARDING PRO HAC VICE MOTION. Regarding Document No. (590 in 1:24-cv-03285-SHS-OTW, 1158 in 1:23-cv-11195-SHS-OTW, 948 in 1:23-cv-08292-SHS-OTW, 733 in 1:25-cv-03482-SHS-OTW, 347 in 1:25-cv…
-- **Doc #382** (2026-01-16): MOTION for Emily L. Wang to Appear Pro Hac Vice . Filing fee $ 200.00, receipt number NYSDC-32274446. Motion and supporting papers to be reviewed by Clerk's Office staff. Document filed by OAI Corpora…
-- **Doc #379** (2026-01-15): MOTION for Daniel T. Nguyen to Appear Pro Hac Vice . Filing fee $ 200.00, receipt number NYSDC-32270151. Motion and supporting papers to be reviewed by Clerk's Office staff. Document filed by OpenAI I…
-- **Doc #377** (2026-01-13): CERTIFICATE OF SERVICE of ECF 1159 on January 12, 2026. Document filed by OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L…
-- **Doc #—** (2026-01-08): >>>NOTICE REGARDING PRO HAC VICE MOTION. Regarding Document No. (331 in 1:24-cv-01514-SHS-OTW, 364 in 1:24-cv-01515-SHS-OTW, 1099 in 1:25-md-03143-SHS-OTW, 711 in 1:25-cv-03482-SHS-OTW, 1120 in 1:23-c…
-- **Doc #363** (2026-01-07): FILING ERROR - DEFICIENT DOCKET ENTRY - MOTION for Lily Yue Li to Appear Pro Hac Vice . Filing fee $ 200.00, receipt number NYSDC-32224147. Motion and supporting papers to be reviewed by Clerk's Offic…
-- **Doc #364** (2026-01-07): MOTION for Lily Yue Li to Appear Pro Hac Vice . Motion and supporting papers to be reviewed by Clerk's Office staff. Document filed by OpenAI Inc., OpenAI OpCo LLC, OAI Corporation, OAI Corporation LL…
-- **Doc #—** (2026-01-07): >>>NOTICE REGARDING DEFICIENT MOTION TO APPEAR PRO HAC VICE. Notice to RE-FILE Document No. (1098 in 1:25-md-03143-SHS-OTW) MOTION for Lily Yue Li to Appear Pro Hac Vice . Filing fee $ 200.00, receipt…
-- **Doc #362** (2026-01-07): NOTICE OF APPEARANCE by Zachary Scott Newman on behalf of OAI Corporation, LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Holdings, LLC, OpenAI LP, OpenAI OpCo LLC(a Delaware limited liability corpora…
-- **Doc #—** (2026-01-06): >>>NOTICE REGARDING PRO HAC VICE MOTION. Regarding Document No. (1079 in 1:25-md-03143-SHS-OTW, 1109 in 1:23-cv-11195-SHS-OTW, 565 in 1:24-cv-03285-SHS-OTW, 323 in 1:25-cv-04315-SHS-OTW, 268 in 1:25-c…
-- **Doc #360** (2026-01-06): NOTICE OF APPEARANCE by Gerardo Gomez Galvis on behalf of OpenAI Inc., OpenAI OpCo LLC, OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, Op…
-- **Doc #358** (2026-01-05): MOTION for Jennifer M. Barretto to Appear Pro Hac Vice . Filing fee $ 200.00, receipt number NYSDC-32213071. Motion and supporting papers to be reviewed by Clerk's Office staff. Document filed by OAI …
 
 </details>
 
 ---
 
-*產生時間：2026-09-01 01:18 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-10-01 01:20 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

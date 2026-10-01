@@ -1,6 +1,6 @@
 # Case 1 — Thomson Reuters Enterprise Centre GmbH v. ROSS Intelligence Inc.
 
-> 最後更新（CourtListener fetch）：2026-09-01 01:00 UTC
+> 最後更新（CourtListener fetch）：2026-10-01 01:00 UTC
 
 ---
 
@@ -26,7 +26,7 @@
 
 > - Court=D. Del. 1:20-cv-00613 → 3d Cir. 25-2153（merits appeal）
 > - Judge=Bibas（D. Del. 原審）／3d Cir. panel: Restrepo、Montgomery-Reeves、Bove
-> - Status=appeal
+> - Status=decided
 > - Progress=【第三巡迴上訴中】ROSS Intelligence 於 2025 年上訴至第三巡迴法院，主張其使用具有轉化性。Thomson Reuters 於 2025 年 11 月提交答辯書狀，稱 ROSS 的行為是「竊取而非創新」。 2026 年 3 月 12 日，ROSS 提交補充函件。2025 年 9-10 月，Free Law Project 及其他十一家阿密庫斯聲明人代表支持 ROSS Intelligence 提交簡報。截至 2026 年 4 月，第三巡迴法院尚未安排言詞辯論，但預計於 2026 年進行。此案將是巡迴法院層級首次就 AI 訓練的合理使用問題表態。 【2026/5/15】雙方依法院命令於 5/11 就第三巡迴 American Society for Testing v. UpCodes 新判決提交補充辯狀：ROSS（White & Case / Pillsbury）援引 UpCodes 主張應簡易撤銷原審不利合理使用裁定，並指 Westlaw 無實際訂閱流失或營收損失等市場損害證據；Thomson Reuters（Kirkland & Ellis）反主張 UpCode
 
 **自動比對結果：**
@@ -1051,4 +1051,4 @@ ORAL ORDER: In response to Thomson Reuters' letter at D.I. 665 requesting additi
 
 ---
 
-*產生時間：2026-09-01 01:00 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-10-01 01:00 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

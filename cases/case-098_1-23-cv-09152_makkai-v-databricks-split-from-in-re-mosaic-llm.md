@@ -1,6 +1,6 @@
 # Case 98 — Huckabee v. Bloomberg L.P.
 
-> 最後更新（CourtListener fetch）：2026-09-01 01:40 UTC
+> 最後更新（CourtListener fetch）：2026-10-01 01:46 UTC
 
 ---
 
@@ -41,7 +41,7 @@
 
 ### 📄 Doc #136 — 2026-03-23
 
-ESI PROTOCOL AND ORDER:    This Order regarding the Production of Documents, Electronically Stored Information and Paper Documents ("ESI Protocol" or "Protocol") shall govern the production of  documents and electronically stored  information ("ESI") by the parties and their counsel of record (collectively,  the "Parties") in the above captioned litigation (the "Matter"). I. ESI DISCLOSURES  Within 30 days of entry of this Order, or at a later time if agreed to by the  parties, each party shall disclose, as further set forth.  SO ORDERED.   (Signed by Judge Margaret M. Garnett on 3/23/2026)   (mml)
+ESI PROTOCOL AND ORDER: This Order regarding the Production of Documents, Electronically Stored Information and Paper Documents ("ESI Protocol" or "Protocol") shall govern the production of documents and electronically stored information ("ESI") by the parties and their counsel of record (collectively, the "Parties") in the above captioned litigation (the "Matter"). I. ESI DISCLOSURES Within 30 days of entry of this Order, or at a later time if agreed to by the parties, each party shall disclose, as further set forth. SO ORDERED. (Signed by Judge Margaret M. Garnett on 3/23/2026) (mml) (Entered: 03/23/2026)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/67890942/136/huckabee-v-bloomberg-lp/)
 
@@ -85,13 +85,13 @@ MOTION for Paul M. Schoenhard, Nicole M. Jantzi, and Amir R. Ghavi to Withdraw a
 
 ### 📄 Doc #128 — 2026-02-20
 
-ORDER granting  126  Letter Motion for Extension of Time to File. GRANTED.  The parties' deadline for submissions related to the ESI protocol (see Dkt. Nos. 112-1 & 119) is hereby EXTENDED until    March 5, 2026.  This order does not affect any other deadlines in this case.  Dkt. No. 126. SO ORDERED.   (Signed by Judge Margaret M. Garnett on 2/20/2026)    (mml)
+ORDER granting 126 Letter Motion for Extension of Time to File. GRANTED. The parties' deadline for submissions related to the ESI protocol (see Dkt. Nos. 112-1 & 119) is hereby EXTENDED until March 5, 2026. This order does not affect any other deadlines in this case. Dkt. No. 126. SO ORDERED. (Signed by Judge Margaret M. Garnett on 2/20/2026) (mml) (Entered: 02/20/2026)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/67890942/128/huckabee-v-bloomberg-lp/)
 
 ### 📄 Doc #129 — 2026-02-20
 
-PROTECTIVE ORDER...regarding procedures to be followed that shall govern the handling of confidential material... SO ORDERED.   (Signed by Judge Margaret M. Garnett on 2/20/2026)   (mml)
+PROTECTIVE ORDER...regarding procedures to be followed that shall govern the handling of confidential material... SO ORDERED. (Signed by Judge Margaret M. Garnett on 2/20/2026) (mml) (Entered: 02/20/2026)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/67890942/129/huckabee-v-bloomberg-lp/)
 
@@ -153,7 +153,7 @@ FILING ERROR - WRONG EVENT TYPE SELECTED FROM MENU - PROPOSED ORDER. Document fi
 
 ### 📄 Doc #119 — 2026-01-13
 
-ORDER: As discussed on the record at the conference on January 13, 2026, the  Court hereby LIFTS the stay on discovery (Dkt. No. 85) and ADOPTS the below  discovery schedule: Amended Pleadings due by 2/27/2026.,  Expert Discovery due by 4/16/2027.,   Fact Discovery due by 2/26/2027.,  Status Conference set for 5/25/2027 at 09:30 AM in Courtroom 906, 40 Centre Street, New York, NY 10007 before Judge Margaret M. Garnett. The parties are hereby ORDERED to meet and  confer regarding interim dates to  ensure the timely completion of merits expert discovery, given the deadline above. The  agreed-upon schedule for interim dates shall be filed on the docket by January  23, 2026. (And as further set forth herein.) SO ORDERED.   (Signed by Judge Margaret M. Garnett on 1/13/2026)   (jca)
+ORDER: As discussed on the record at the conference on January 13, 2026, the Court hereby LIFTS the stay on discovery (Dkt. No. 85) and ADOPTS the below discovery schedule: Amended Pleadings due by 2/27/2026., Expert Discovery due by 4/16/2027., Fact Discovery due by 2/26/2027., Status Conference set for 5/25/2027 at 09:30 AM in Courtroom 906, 40 Centre Street, New York, NY 10007 before Judge Margaret M. Garnett. The parties are hereby ORDERED to meet and confer regarding interim dates to ensure the timely completion of merits expert discovery, given the deadline above. The agreed-upon schedule for interim dates shall be filed on the docket by January 23, 2026. (And as further set forth herein.) SO ORDERED. (Signed by Judge Margaret M. Garnett on 1/13/2026) (jca) (Entered: 01/13/2026)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/67890942/119/huckabee-v-bloomberg-lp/)
 
@@ -235,7 +235,7 @@ NOTICE OF INITIAL PRETRIAL CONFERENCE: Initial Conference set for 1/13/2026 at 0
 
 ### 📄 Doc #98 — 2025-11-24
 
-OPINION AND ORDER   re:  86     MOTION  to Dismiss ("Notice of Bloomberg L.P. and Bloomberg Finance L.P's Motion to Dismiss"). filed by   Bloomberg Finance, L.P.,   Bloomberg L.P.. For the foregoing reasons, Bloomberg's mot ion to dismiss is DENIED.  A separate Order will issue setting a conference date to discuss a plan for discovery. The Clerk of Court is respectfully directed to terminate Dkt. No. 86. SO ORDERED.   (Signed by Judge Margaret M. Garnett on 11/24/2025)   (tg)
+OPINION AND ORDER re: 86 MOTION to Dismiss ("Notice of Bloomberg L.P. and Bloomberg Finance L.P's Motion to Dismiss"). filed by Bloomberg Finance, L.P., Bloomberg L.P.. For the foregoing reasons, Bloomberg's motion to dismiss is DENIED. A separate Order will issue setting a conference date to discuss a plan for discovery. The Clerk of Court is respectfully directed to terminate Dkt. No. 86. SO ORDERED. (Signed by Judge Margaret M. Garnett on 11/24/2025) (tg) (Entered: 11/25/2025)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/67890942/98/huckabee-v-meta-platforms-inc/)
 
@@ -828,4 +828,4 @@ Notice Regarding Pro Hac Vice Motion
 
 ---
 
-*產生時間：2026-09-01 01:40 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-10-01 01:46 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

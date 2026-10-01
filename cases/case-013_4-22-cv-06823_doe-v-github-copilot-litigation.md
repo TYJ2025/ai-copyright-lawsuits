@@ -1,6 +1,6 @@
 # Case 13 — DOE 1 v. GitHub, Inc.
 
-> 最後更新（CourtListener fetch）：2026-09-01 01:10 UTC
+> 最後更新（CourtListener fetch）：2026-10-01 01:10 UTC
 
 ---
 
@@ -14,7 +14,7 @@
 | Judge Assigned | Jon S. Tigar |
 | Judge Referred | Ajay S. Krishnan |
 | Date Filed | 2022-11-03 |
-| Date Last Filing | 2026-05-06 |
+| Date Last Filing | 2026-09-16 |
 | Cause | 28:1331 Fed. Question: Breach of Contract |
 | Nature of Suit | 190 Contract: Other |
 | Jury Demand | Plaintiff |
@@ -28,17 +28,23 @@
 > - Court=N.D. Cal. 4:22-cv-06823 → 9th Cir. 24-6136（§1292(b) 許可上訴）／24-7700（本案上訴審）
 > - Judge=Tigar（N.D. Cal. 原審）／9th Cir. panel: S. Thomas、Miller、Blumenfeld
 > - Status=appeal
-> - Progress=2024 年 1 月，Tigar 法官駁回大部分主張。2024 年 9 月，法官核准中間上訴（interlocutory appeal）至第九巡迴法院；許可上訴聲請程序另編 9th Cir. 24-6136，2024/12/19 由 S. Thomas、Tallman 兩位法官裁定准許，本案上訴審則編為 9th Cir. 24-7700，地院程序暫停。 【2026/2/11】第九巡迴法院於舊金山第一法庭進行言詞辯論後 ARGUED AND SUBMITTED，合議庭為 Sidney R. Thomas、Eric D. Miller、Stanley Blumenfeld。被告（AI 業者聯盟）敦促法院就 DMCA §1202 於 AI 脈絡之適用範圍作出明確裁判。 截至 2026/8/16，24-7700 卷宗最後書狀為 2026/5/26 之律師退出通知，判決尚未作成。
+> - Progress=2024 年 1 月，Tigar 法官駁回大部分主張。2024 年 9 月，法官核准中間上訴（interlocutory appeal）至第九巡迴法院；許可上訴聲請程序另編 9th Cir. 24-6136，2024/12/19 由 S. Thomas、Tallman 兩位法官裁定准許，本案上訴審則編為 9th Cir. 24-7700，地院程序暫停。 【2026/2/11】第九巡迴法院於舊金山第一法庭進行言詞辯論後 ARGUED AND SUBMITTED，合議庭為 Sidney R. Thomas、Eric D. Miller、Stanley Blumenfeld。被告（AI 業者聯盟）敦促法院就 DMCA §1202 於 AI 脈絡之適用範圍作出明確裁判。 截至 2026/8/16，24-7700 卷宗最後書狀為 2026/5/26 之律師退出通知，判決尚未作成。 【2026/9/16】第九巡迴上訴法院三人合議庭（S. Thomas、Miller、Blumenfeld）維持地院駁回裁定，認開源程式設計師無法就 Copilot 輸出程式碼未附正確歸屬（attribution）主張
 
 **自動比對結果：**
 
 - ⚠️ Court 可能不一致：dashboard 寫「N.D. Cal. 4:22-cv-06823 → 9th Cir. 24-6136（§1292(b) 許可上訴）／24-7700（本案上訴審）」，CourtListener 為「N.D. California」
 - ⚠️ Judge 可能不一致：dashboard 寫「Tigar（N.D. Cal. 原審）／9th Cir. panel: S. Thomas、Miller、Blumenfeld」，CourtListener 為「Jon S. Tigar」
-- ⚠️ Dashboard progress **落後 84 天**：dashboard 最新日期 2026-02-11，CourtListener 最後 entry 2026-05-06——建議查看新近 entries 並補充 progress
+- ✅ Dashboard progress 同步：dashboard 最新日期 2026-09-16，CourtListener 最後 entry 2026-09-16（dashboard 不落後）
 
 ## 3. Docket Entries（最新優先，已過濾程序性 entries）
 
 **實質性 entries**：179 筆／**已過濾程序性 entries**：21 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+
+### 📄 Doc #296 — 2026-09-16
+
+OPINION of USCA as to 286 USCA Case Number 24-7700. AFFIRMED. (jnk, COURT STAFF) (Filed on 9/16/2026) (Entered: 09/16/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/65669506/296/doe-1-v-github-inc/)
 
 ### 📄 Doc #295 — 2026-05-06
 
@@ -1030,12 +1036,6 @@ ORDER RE: DISCOVERY DISPUTE. Motions terminated: 71 MOTION MAINTAIN CONFIDENTIAL
 
 [CourtListener 連結](https://www.courtlistener.com/docket/65669506/138/doe-1-v-github-inc/)
 
-### 📄 Doc #137 — 2023-07-25
-
-NOTICE OF SETTLEMENT CONFERENCE AND SETTLEMENT CONFERENCE ORDER. Settlement Conference set for 1/19/2024 09:30 AM in San Francisco, Courtroom C, 15th Floor. Signed by Magistrate Judge Sallie Kim on 7/25/2023. (mkl, COURT STAFF) (Filed on 7/25/2023) (Entered: 07/25/2023)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/65669506/137/doe-1-v-github-inc/)
-
 <details>
 <summary>已過濾的 21 筆程序性 entries（點擊展開）</summary>
 
@@ -1065,4 +1065,4 @@ NOTICE OF SETTLEMENT CONFERENCE AND SETTLEMENT CONFERENCE ORDER. Settlement Conf
 
 ---
 
-*產生時間：2026-09-01 01:10 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-10-01 01:10 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

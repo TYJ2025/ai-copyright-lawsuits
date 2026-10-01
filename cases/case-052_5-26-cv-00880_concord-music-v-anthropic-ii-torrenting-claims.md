@@ -1,6 +1,6 @@
 # Case 52 — Concord Music Group, Inc. v. Anthropic PBC
 
-> 最後更新（CourtListener fetch）：2026-09-01 01:23 UTC
+> 最後更新（CourtListener fetch）：2026-10-01 01:27 UTC
 
 ---
 
@@ -14,10 +14,10 @@
 | Judge Assigned | Eumi K. Lee |
 | Judge Referred | Susan Van Keulen |
 | Date Filed | 2026-01-28 |
-| Date Last Filing | 2026-08-31 |
+| Date Last Filing | 2026-09-29 |
 | Cause | 17:101 Copyright Infringement |
 | Nature of Suit | 820 Copyright |
-| Jury Demand | Plaintiff |
+| Jury Demand | Both |
 | CourtListener ID | `72199828` |
 | CourtListener URL | <https://www.courtlistener.com/docket/72199828/concord-music-group-inc-v-anthropic-pbc/> |
 
@@ -28,29 +28,115 @@
 > - Court=N.D. Cal. (5:26-cv-00880)
 > - Judge=Eumi K. Lee
 > - Status=active
-> - Progress=Anthropic 已提交動議請求暫停本案，等待第一波 Concord v. Anthropic 即決判決結果。Concord I 的即決判決聽證定於 2026 年 7 月 15 日。法院尚未裁定暫停動議。 【2026/5/20】Anthropic 向加州北區聯邦地院（Eumi K. Lee 法官、Susan van Keulen 治安法官）提交 Motion to Stay，請求於 Concord I（5:24-cv-03811）最終裁判前停止本案全部訴訟程序，備位主張為等待 Concord I 即決判決與後續上訴終結；理由為兩案被告同一、爭點實質相同，續行將造成重複防禦負擔且判決恐相互衝突。 【2026/8/3】Anthropic 聲請一部駁回輸出侵權與 DMCA CMI 主張（欠缺具體侵權範例），CEO Dario Amodei 另聲請駁回對其個人之直接侵權（torrenting）指控（欠缺事實基礎）；11/4 Lee 法官開庭審理。
+> - Progress=Anthropic 已提交動議請求暫停本案，等待第一波 Concord v. Anthropic 即決判決結果。Concord I 的即決判決聽證定於 2026 年 7 月 15 日。法院尚未裁定暫停動議。 【2026/5/20】Anthropic 向加州北區聯邦地院（Eumi K. Lee 法官、Susan van Keulen 治安法官）提交 Motion to Stay，請求於 Concord I（5:24-cv-03811）最終裁判前停止本案全部訴訟程序，備位主張為等待 Concord I 即決判決與後續上訴終結；理由為兩案被告同一、爭點實質相同，續行將造成重複防禦負擔且判決恐相互衝突。 【2026/8/3】Anthropic 聲請一部駁回輸出侵權與 DMCA CMI 主張（欠缺具體侵權範例），CEO Dario Amodei 另聲請駁回對其個人之直接侵權（torrenting）指控（欠缺事實基礎）；11/4 Lee 法官開庭審理。 【2026/9/9】Eumi K. Lee 法官將新提起之 Sony Music Publishing／Warner Chappell v. An
 
 **自動比對結果：**
 
 - ⚠️ Court 可能不一致：dashboard 寫「N.D. Cal. (5:26-cv-00880)」，CourtListener 為「N.D. California」
 - ✅ Judge 一致：dashboard 寫「Eumi K. Lee」，CourtListener 為「Eumi K. Lee」
-- ℹ️ Dashboard progress 略落後 28 天：dashboard 最新日期 2026-08-03，CourtListener 最後 entry 2026-08-31
+- ℹ️ Dashboard progress 略落後 20 天：dashboard 最新日期 2026-09-09，CourtListener 最後 entry 2026-09-29
 
 ## 3. Docket Entries（最新優先，已過濾程序性 entries）
 
-**實質性 entries**：76 筆／**已過濾程序性 entries**：61 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+**實質性 entries**：91 筆／**已過濾程序性 entries**：63 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+
+### 📄 Doc #— — 2026-09-29
+
+Notice of Appearance/Substitution/Change/Withdrawal of Attorney
+
+### 📄 Doc #130 — 2026-09-22
+
+AMENDED ANSWER to 93 Amended Complaint,,, by Benjamin Mann. (Attachments: # 1 Exhibit A - Redline Comparison of Amended Answer to Initial Answer)(Yang, Grace) (Filed on 9/22/2026) (Entered: 09/22/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72199828/130/1/concord-music-group-inc-v-anthropic-pbc/)
+
+### 📄 Doc #127 — 2026-09-21
+
+ORDER Granting Stipulations Regarding Parties' Proposed Coordination and Case Management Order, (126) in Case No. 5:26-cv-00880-EKL and (47) in Case No. 5:26-cv-02334-EKL. Signed by Judge Eumi K. Lee. (lrt, COURT STAFF) (Filed on 9/21/2026) (Entered: 09/21/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72199828/127/concord-music-group-inc-v-anthropic-pbc/)
+
+### 📄 Doc #126 — 2026-09-18
+
+STIPULATION WITH PROPOSED ORDER Regarding Parties' Proposed Coordination and Case Management Order filed by Anthropic PBC. (Attachments: # 1 Declaration of Robin C. Burrell in Support)(Mehta, Sonal) (Filed on 9/18/2026) (Entered: 09/18/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72199828/126/1/concord-music-group-inc-v-anthropic-pbc/)
+
+### 📄 Doc #125 — 2026-09-17
+
+STATEMENT OF RECENT DECISION pursuant to Civil Local Rule 7-3.d filed byAnthropic PBC. (Attachments: # 1 Exhibit A)(Mehta, Sonal) (Filed on 9/17/2026) (Entered: 09/17/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72199828/125/1/concord-music-group-inc-v-anthropic-pbc/)
+
+### 📄 Doc #124 — 2026-09-14
+
+REPLY (re 103 MOTION to Dismiss (Partial) ) filed byAnthropic PBC. (Mehta, Sonal) (Filed on 9/14/2026) (Entered: 09/14/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72199828/124/concord-music-group-inc-v-anthropic-pbc/)
+
+### 📄 Doc #123 — 2026-09-14
+
+REPLY (re 104 MOTION to Dismiss (Partial) ) filed byDario Amodei. (Yang, Grace) (Filed on 9/14/2026) (Entered: 09/14/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72199828/123/concord-music-group-inc-v-anthropic-pbc/)
+
+### 📄 Doc #121 — 2026-09-11
+
+Statement - Issue Statement Regarding Book Scanning Discovery by Anthropic PBC. (Mehta, Sonal) (Filed on 9/11/2026) (Entered: 09/11/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72199828/121/concord-music-group-inc-v-anthropic-pbc/)
+
+### 📄 Doc #122 — 2026-09-11
+
+Statement - Issue Statement Regarding Destructive Scanning Discovery by ABKCO Legs Music, Inc., ABKCO Music, Inc., Capitol CMG, Inc., Concord Music Group, Inc., Polygram Publishing, Inc., Songs of Universal, Inc., Universal Music MGB NA LLC, Universal Music Z Tunes LLC, Universal Music Corp., Universal Music Publishing AB, Universal Music Publishing BL Ltd., Universal Music Publishing International Ltd., Universal Music Publishing International MGB Ltd., Universal Music Publishing Ltd., Universal Music Publishing MGB Ltd., Universal Musica, Inc., Universal/Dick James Music Limited, Universal/Island Music Ltd., Universal/MCA Music Ltd.. (Matera, Bret) (Filed on 9/11/2026) (Entered: 09/11/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72199828/122/concord-music-group-inc-v-anthropic-pbc/)
+
+### 📄 Doc #119 — 2026-09-04
+
+ORDER Granting 118 Stipulation to Extend Defendant Benjamin Mann's Deadline to Amend Answer. Signed by Judge Eumi K. Lee. (lrt, COURT STAFF) (Filed on 9/4/2026) (Entered: 09/04/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72199828/119/concord-music-group-inc-v-anthropic-pbc/)
+
+### 📄 Doc #118 — 2026-09-03
+
+STIPULATION WITH PROPOSED ORDER to Extend Defendant Benjamin Mann's Deadline to Amend Answer filed by Benjamin Mann. (Yang, Grace) (Filed on 9/3/2026) (Entered: 09/03/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72199828/118/concord-music-group-inc-v-anthropic-pbc/)
+
+### 📄 Doc #— — 2026-09-03
+
+Status Conference
+
+### 📄 Doc #117 — 2026-09-02
+
+Minute Entry for proceedings held before Judge Eumi K. Lee: Status Conference held on 9/2/2026. The Court adopted its tentative ruling regarding phased discovery. The Court ordered the parties to meet and confer and file a proposed coordination and case management order by 9/23/2026. The Court ordered the parties to meet and confer regarding discovery relating to book scanning and allowed each side to file an issue statement of no more than three (3) pages by 9/11/2026. The Court ordered the parties to meet and confer regarding which of the pending Daubert motions must be addressed in connection with the pending motions for summary judgment. The parties are to notify the Court by filing a joint status report or by emailing the Courtroom Deputy by 9/11/2026. Plaintiffs' Attorneys: Matthew Oppenheim, Corey Miller, Michelle Gomez-Reichman; Robert Jacobs, Nathaniel Bach, Prana Topper, Evan Cooper.. Defendants' Attorneys: Sonal Mehta, Louis Tompros, Ari Holtzblatt, Robin Burrell; Miranda Ka …(truncated)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72199828/117/concord-music-group-inc-v-anthropic-pbc/)
 
 ### 📄 Doc #114 — 2026-08-31
 
-Notice (Other)
+NOTICE by Sony Music Publishing (US) LLC, Warner Chappell Music, Inc. re Administrative Motion To Consider Whether Cases Should Be Related (Attachments: # 1 Exhibit A)(Akley, Benjamin) (Filed on 8/31/2026) (Entered: 08/31/2026)
 
-[CourtListener 連結](https://www.courtlistener.com/docket/72199828/114/concord-music-group-inc-v-anthropic-pbc/)
+[CourtListener 連結](https://www.courtlistener.com/docket/72199828/114/1/concord-music-group-inc-v-anthropic-pbc/)
+
+### 📄 Doc #115 — 2026-08-31
+
+OPPOSITION/RESPONSE (re 103 MOTION to Dismiss (Partial) ) filed byABKCO Legs Music, Inc., ABKCO Music, Inc., Capitol CMG, Inc., Concord Music Group, Inc., Polygram Publishing, Inc., Songs of Universal, Inc., Universal Music MGB NA LLC, Universal Music Z Tunes LLC, Universal Music Corp., Universal Music Publishing AB, Universal Music Publishing BL Ltd., Universal Music Publishing International Ltd., Universal Music Publishing International MGB Ltd., Universal Music Publishing Ltd., Universal Music Publishing MGB Ltd., Universal Musica, Inc., Universal/Dick James Music Limited, Universal/Island Music Ltd., Universal/MCA Music Ltd.. (Hailey, Nicholas) (Filed on 8/31/2026) (Entered: 08/31/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72199828/115/concord-music-group-inc-v-anthropic-pbc/)
+
+### 📄 Doc #116 — 2026-08-31
+
+OPPOSITION/RESPONSE (re 104 MOTION to Dismiss (Partial) ) filed byABKCO Legs Music, Inc., ABKCO Music, Inc., Capitol CMG, Inc., Concord Music Group, Inc., Polygram Publishing, Inc., Songs of Universal, Inc., Universal Music MGB NA LLC, Universal Music Z Tunes LLC, Universal Music Corp., Universal Music Publishing AB, Universal Music Publishing BL Ltd., Universal Music Publishing International Ltd., Universal Music Publishing International MGB Ltd., Universal Music Publishing Ltd., Universal Music Publishing MGB Ltd., Universal Musica, Inc., Universal/Dick James Music Limited, Universal/Island Music Ltd., Universal/MCA Music Ltd.. (Hailey, Nicholas) (Filed on 8/31/2026) (Entered: 08/31/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72199828/116/concord-music-group-inc-v-anthropic-pbc/)
 
 ### 📄 Doc #113 — 2026-08-28
 
 NOTICE by GFP Co-Invest, LP, RH Carlin Holdings LLC, Round Hill Music LP, Round Hill Music Royalty Fund II, LP, Round Hill Music Royalty Fund III Plus, LP, Round Hill Music Royalty Fund III, LP of Filing Opposition to Civil Local Rule 7-11 Administrative Motion to Consider Whether Cases Should Be Related (Attachments: # 1 Exhibit A)(Busch, Richard) (Filed on 8/28/2026) (Entered: 08/28/2026)
 
-[CourtListener 連結](https://www.courtlistener.com/docket/72199828/113/concord-music-group-inc-v-anthropic-pbc/)
+[CourtListener 連結](https://www.courtlistener.com/docket/72199828/113/1/concord-music-group-inc-v-anthropic-pbc/)
 
 ### 📄 Doc #— — 2026-08-28
 
@@ -60,7 +146,7 @@ Notice of Appearance/Substitution/Change/Withdrawal of Attorney
 
 NOTICE by Anthropic PBC of Filing of Administrative Motion to Consider Whether Cases Should be Related (Attachments: # 1 Exhibit A)(Mehta, Sonal) (Filed on 8/25/2026) (Entered: 08/25/2026)
 
-[CourtListener 連結](https://www.courtlistener.com/docket/72199828/107/concord-music-group-inc-v-anthropic-pbc/)
+[CourtListener 連結](https://www.courtlistener.com/docket/72199828/107/1/concord-music-group-inc-v-anthropic-pbc/)
 
 ### 📄 Doc #106 — 2026-08-17
 
@@ -128,23 +214,23 @@ ORDER Granting 96 Administrative Motion for Leave to Submit Exhibit in support o
 
 [CourtListener 連結](https://www.courtlistener.com/docket/72199828/98/concord-music-group-inc-v-anthropic-pbc/)
 
-### 📄 Doc #95 — 2026-07-06
-
-Statement (Joint Discovery Dispute Statement Regarding Anthropic's Preservation of Prompt and Output Records) by Anthropic PBC. (Attachments: # 1 [Proposed] Order Regarding the Parties' Joint Discovery Dispute Regarding Anthropic's Preservation of Prompt and Output Records, # 2 [Proposed] Order Regarding Anthropic's Preservation of Prompt and Output Records)(Mehta, Sonal) (Filed on 7/6/2026) (Entered: 07/06/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/72199828/95/2/concord-music-group-inc-v-anthropic-pbc/)
-
 ### 📄 Doc #96 — 2026-07-06
 
 MOTION for Leave to File as Exhibit the Declaration of Sarah Rodriguez in Support of Anthropic's Joint Dispute Statement filed by Anthropic PBC. (Attachments: # 1 Proposed Order, # 2 Declaration of Sarah Rodriguez in Support of Anthropic's Position in Joint Discovery Dispute Statement Regarding Anthropic's Preservation of Prompt and Output Records (Redacted))(Mehta, Sonal) (Filed on 7/6/2026) (Entered: 07/06/2026)
 
-[CourtListener 連結](https://www.courtlistener.com/docket/72199828/96/concord-music-group-inc-v-anthropic-pbc/)
+[CourtListener 連結](https://www.courtlistener.com/docket/72199828/96/2/concord-music-group-inc-v-anthropic-pbc/)
 
 ### 📄 Doc #97 — 2026-07-06
 
 Administrative Motion to File Under Seal Anthropic's Usage Data Information filed by Anthropic PBC. (Attachments: # 1 Declaration of Natalie Naugle in Support, # 2 Proposed Order, # 3 Unredacted Version of Joint Discovery Dispute Statement Regarding Anthropic's Preservation of Prompt and Output Records, # 4 Unredacted Version of Declaration of Sarah Rodriguez in Support of Anthropic's Position in Joint Discovery Dispute Statement Regarding Anthropic's Preservation of Prompt and Output Records)(Mehta, Sonal) (Filed on 7/6/2026) (Entered: 07/06/2026)
 
-[CourtListener 連結](https://www.courtlistener.com/docket/72199828/97/concord-music-group-inc-v-anthropic-pbc/)
+[CourtListener 連結](https://www.courtlistener.com/docket/72199828/97/2/concord-music-group-inc-v-anthropic-pbc/)
+
+### 📄 Doc #95 — 2026-07-06
+
+Statement (Joint Discovery Dispute Statement Regarding Anthropic's Preservation of Prompt and Output Records) by Anthropic PBC. (Attachments: # 1 [Proposed] Order Regarding the Parties' Joint Discovery Dispute Regarding Anthropic's Preservation of Prompt and Output Records, # 2 [Proposed] Order Regarding Anthropic's Preservation of Prompt and Output Records)(Mehta, Sonal) (Filed on 7/6/2026) (Entered: 07/06/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72199828/95/2/concord-music-group-inc-v-anthropic-pbc/)
 
 ### 📄 Doc #94 — 2026-05-22
 
@@ -451,8 +537,10 @@ Proposed Summons. (Knowles, Jeffrey) (Filed on 1/28/2026) (Entered: 01/28/2026)
 [CourtListener 連結](https://www.courtlistener.com/docket/72199828/2/concord-music-group-inc-v-anthropic-pbc/)
 
 <details>
-<summary>已過濾的 61 筆程序性 entries（點擊展開）</summary>
+<summary>已過濾的 63 筆程序性 entries（點擊展開）</summary>
 
+- **Doc #128** (2026-09-22): Certificate of Interested Entities by Dario Amodei (Yang, Grace) (Filed on 9/22/2026) (Entered: 09/22/2026)
+- **Doc #129** (2026-09-22): Certificate of Interested Entities by Benjamin Mann (Yang, Grace) (Filed on 9/22/2026) (Entered: 09/22/2026)
 - **Doc #112** (2026-08-28): NOTICE of Appearance filed by Richard Steven Busch on behalf of Round Hill Music LP, Round Hill Music Royalty Fund II, LP, Round Hill Music Royalty Fund III Plus, LP, Round Hill Music Royalty Fund III…
 - **Doc #111** (2026-08-26): ORDER Granting 109 Motion for Pro Hac Vice as to attorney Jared Vasconcellos Grubow. Signed by Judge Eumi K. Lee (lrt, COURT STAFF) (Filed on 8/26/2026) (Entered: 08/26/2026)
 - **Doc #108** (2026-08-25): MOTION for leave to appear in Pro Hac Vice ( Filing fee $ 328, receipt number ACANDC-22381236.) filed by Anthropic PBC. (Miller, Alex) (Filed on 8/25/2026) (Entered: 08/25/2026)
@@ -519,4 +607,4 @@ Proposed Summons. (Knowles, Jeffrey) (Filed on 1/28/2026) (Entered: 01/28/2026)
 
 ---
 
-*產生時間：2026-09-01 01:23 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-10-01 01:27 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
