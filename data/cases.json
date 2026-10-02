@@ -19,7 +19,7 @@
    ],
    "defendants": "ROSS Intelligence Inc.",
    "issues": "本案核心爭點在於：以受著作權保護的 Westlaw 法律摘要（headnotes）訓練 AI 法律研究工具，是否構成合理使用（fair use）。\n\n2025年2月，Bibas 法官裁定 ROSS Intelligence 以 Thomson Reuters 的 2,243 份著作權摘要訓練 AI 模型構成侵權，且不符合合理使用要件。法院認為該使用並非「轉化性使用」（transformative use），因為 ROSS 的產品直接與 Westlaw 競爭。\n\n本案是美國首件就 AI 訓練資料的合理使用問題作出實質裁判的案件。",
-   "progress": "【第三巡迴上訴中】ROSS Intelligence 於 2025 年上訴至第三巡迴法院，主張其使用具有轉化性。Thomson Reuters 於 2025 年 11 月提交答辯書狀，稱 ROSS 的行為是「竊取而非創新」。\n\n2026 年 3 月 12 日，ROSS 提交補充函件。2025 年 9-10 月，Free Law Project 及其他十一家阿密庫斯聲明人代表支持 ROSS Intelligence 提交簡報。截至 2026 年 4 月，第三巡迴法院尚未安排言詞辯論，但預計於 2026 年進行。此案將是巡迴法院層級首次就 AI 訓練的合理使用問題表態。\n\n【2026/5/15】雙方依法院命令於 5/11 就第三巡迴 American Society for Testing v. UpCodes 新判決提交補充辯狀：ROSS（White & Case / Pillsbury）援引 UpCodes 主張應簡易撤銷原審不利合理使用裁定，並指 Westlaw 無實際訂閱流失或營收損失等市場損害證據；Thomson Reuters（Kirkland & Ellis）反主張 UpCodes 反證 ROSS 屬商業替代性使用。\n\n【2026/6/11】第三巡迴口頭辯論於費城 James A. Maris Courtroom 完成，為全美首件 AI 訓練資料合理使用上訴聽證。三大訊號：（一）合議庭明顯鎖定合理使用、跳過著作權性，對 ROSS 主張 headnotes 不具 originality 不感興趣；（二）連環追問 ROSS 產品與 Westlaw 有何不同、是否以 Westlaw 策劃內容打造替代品，傾向認定屬第四因素市場替代；（三）對 ROSS 援引 UpCodes 之轉換性論述未予正面回應。書面判決預估 3 至 6 個月作成。\n\n【2026/9/9】Thomson Reuters 就 ROSS 援引美國司法部 AI 訓練合理使用意見書一事，向第三巡迴上訴法院提交答覆狀，主張該意見書不影響本案上訴爭點。\n\n【2026/9/29】第三巡迴上訴法院（Montgomery-Reeves 主筆，合議庭含 Restrepo、Bove）維持地院 Bibas 法官原判，駁回 ROSS 合理使用抗辯，為全美首件 AI 訓練合理使用之聯邦上訴法院判決；意見書因涉營業秘密暫予封存，待雙方提出遮蔽建議",
+   "progress": "【第三巡迴上訴中】ROSS Intelligence 於 2025 年上訴至第三巡迴法院，主張其使用具有轉化性。Thomson Reuters 於 2025 年 11 月提交答辯書狀，稱 ROSS 的行為是「竊取而非創新」。\n\n2026 年 3 月 12 日，ROSS 提交補充函件。2025 年 9-10 月，Free Law Project 及其他十一家阿密庫斯聲明人代表支持 ROSS Intelligence 提交簡報。截至 2026 年 4 月，第三巡迴法院尚未安排言詞辯論，但預計於 2026 年進行。此案將是巡迴法院層級首次就 AI 訓練的合理使用問題表態。\n\n【2026/5/15】雙方依法院命令於 5/11 就第三巡迴 American Society for Testing v. UpCodes 新判決提交補充辯狀：ROSS（White & Case / Pillsbury）援引 UpCodes 主張應簡易撤銷原審不利合理使用裁定，並指 Westlaw 無實際訂閱流失或營收損失等市場損害證據；Thomson Reuters（Kirkland & Ellis）反主張 UpCodes 反證 ROSS 屬商業替代性使用。\n\n【2026/6/11】第三巡迴口頭辯論於費城 James A. Maris Courtroom 完成，為全美首件 AI 訓練資料合理使用上訴聽證。三大訊號：（一）合議庭明顯鎖定合理使用、跳過著作權性，對 ROSS 主張 headnotes 不具 originality 不感興趣；（二）連環追問 ROSS 產品與 Westlaw 有何不同、是否以 Westlaw 策劃內容打造替代品，傾向認定屬第四因素市場替代；（三）對 ROSS 援引 UpCodes 之轉換性論述未予正面回應。書面判決預估 3 至 6 個月作成。\n\n【2026/9/9】Thomson Reuters 就 ROSS 援引美國司法部 AI 訓練合理使用意見書一事，向第三巡迴上訴法院提交答覆狀，主張該意見書不影響本案上訴爭點。\n\n【2026/9/29】第三巡迴上訴法院（Montgomery-Reeves 主筆，合議庭含 Restrepo、Bove）維持地院 Bibas 法官原判，駁回 ROSS 合理使用抗辯，為全美首件 AI 訓練合理使用之聯邦上訴法院判決；意見書因涉營業秘密暫予封存，待雙方提出遮蔽建議\n\n【2026/9/30】第三巡迴法院判決書正式公開：Westlaw headnotes 具原創性受著作權保護，ROSS 訓練用重製非屬合理使用，提出「便利不等於必要」原則",
    "taiwan": "本案對台灣智慧財產實務具有重要參考價值：\n\n1. 台灣著作權法第 65 條之合理使用判斷可參考本案四要件分析框架，特別是「使用目的」與「對市場影響」兩要件。\n2. 若第三巡迴法院維持原判，將強化「以受保護作品訓練商業競爭產品不構成合理使用」的法則，台灣法院在審理類似案件時可作為比較法參考。\n3. 台灣法律資料庫業者（如月旦、Lawsnote）應注意其內容被 AI 公司用於訓練的風險，並考慮透過授權契約或技術措施保護其資料庫著作權。",
    "jurisdiction": "us",
    "country": "🇺🇸 美國",
@@ -30,10 +30,10 @@
    "sourceCount": 4,
    "docket": 17131648,
    "filedAt": null,
-   "updatedAt": "2026-09-30",
+   "updatedAt": "2026-10-03",
    "rulings": {
     "fairUse": "unfavorable",
-    "fairUseNote": "Bibas 法官認定以 Westlaw 摘要訓練非轉化性使用；第三巡迴上訴中",
+    "fairUseNote": "第三巡迴判決書公開：Westlaw headnotes 具原創性受著作權保護，ROSS 訓練用重製非屬合理使用，「便利不等於必要」",
     "keyRulings": [
      {
       "date": "2025-02",
@@ -46,9 +46,13 @@
      {
       "date": "2026-09",
       "holding": "第三巡迴上訴法院維持地院不利合理使用認定，全美首件 AI 訓練合理使用之聯邦上訴判決（意見書封存中）"
+     },
+     {
+      "date": "2026-10",
+      "holding": "第三巡迴判決書正式公開（Montgomery-Reeves 主筆）：headnotes 受著作權保護，ROSS 重製非轉化性使用，確立 ease is not necessity 原則"
      }
     ],
-    "outcome": "第三巡迴維持地院判決，ROSS 合理使用抗辯敗訴確定（書面意見尚未公開）"
+    "outcome": "第三巡迴維持地院判決確定：ROSS 合理使用抗辯敗訴，判決書已公開"
    },
    "claimsDetail": [
     {
@@ -6615,7 +6619,7 @@
    "name": "Chegg v. Google (AI Overviews 反壟斷/著作權)",
    "court": "U.S. District Court, District of Columbia, 1:25-cv-00543",
    "judge": "TBA",
-   "status": "active",
+   "status": "dismissed",
    "claims": [
     "Antitrust",
     "Direct Copyright"
@@ -6626,7 +6630,7 @@
    ],
    "defendants": "Google LLC",
    "issues": "教育科技公司 Chegg 控告 Google，主張 Google 的 AI Overviews 功能（在搜尋結果頂部直接顯示 AI 生成答案）非法使用 Chegg 擁有的 1.35 億道問答資料訓練 AI 模型，並以 AI 摘要取代使用者造訪 Chegg 網站的需求。\n\n本案主要以反壟斷法為訴因，但涉及重要的著作權問題：(1) Google 是否以「互惠交易」（reciprocal dealing）方式迫使 Chegg 等內容提供者提供專有內容以換取搜尋排名？(2) AI Overviews 是否構成對原始內容的市場替代？",
-   "progress": "【2025/2/24】Chegg 提起訴訟。\n\n【2025/6/9】原告提交修正訴狀。\n\n【2025/9/19】被告提交更新駁回動議。\n\n【截至 2026/4】Chegg 的非訂閱流量於 2025 年 1 月暴跌至負 49%，2024 年淨虧損 8.37 億美元。案件審理中。\n\n【2026/5/28】交叉參考：慕尼黑第一地方法院（Az. 26 O 869/26）5/28 假處分認定 Google AI Overviews 係綜合多來源後以 Google「自己的話」生成之獨立新陳述，Google 為直接侵害人（unmittelbarer Störer）而非中介者，禁止再散布不實陳述、違者最高罰 €250,000。該件訴因為言論責任而非著作權，惟「AI 摘要＝平台自有內容」之定性邏輯，對本案 AI Overviews 攔截原文流量之著作權爭議具參考價值。",
+   "progress": "【2025/2/24】Chegg 提起訴訟。\n\n【2025/6/9】原告提交修正訴狀。\n\n【2025/9/19】被告提交更新駁回動議。\n\n【截至 2026/4】Chegg 的非訂閱流量於 2025 年 1 月暴跌至負 49%，2024 年淨虧損 8.37 億美元。案件審理中。\n\n【2026/5/28】交叉參考：慕尼黑第一地方法院（Az. 26 O 869/26）5/28 假處分認定 Google AI Overviews 係綜合多來源後以 Google「自己的話」生成之獨立新陳述，Google 為直接侵害人（unmittelbarer Störer）而非中介者，禁止再散布不實陳述、違者最高罰 €250,000。該件訴因為言論責任而非著作權，惟「AI 摘要＝平台自有內容」之定性邏輯，對本案 AI Overviews 攔截原文流量之著作權爭議具參考價值。\n\n【2026/10/1】Mehta 法官裁定駁回 Chegg 與 Penske Media 對 Google AI Overviews 之反壟斷訴訟：出版商與 Google 間無正式流量交換約定，期待不構成契約；Penske 部分未附帶偏見駁回、得重新起訴",
    "taiwan": "台灣啟示：本案凸顯「AI 搜尋」對內容提供者生存的威脅。台灣的知識型網站（如痞客邦、巴哈姆特、Mobile01）面臨 Google AI Overview 及其他 AI 搜尋引擎的類似流量侵蝕風險。台灣公平交易委員會應關注此案對數位市場競爭秩序的影響。",
    "jurisdiction": "us",
    "country": "🇺🇸 美國",
@@ -6637,7 +6641,7 @@
    "sourceCount": 0,
    "docket": null,
    "filedAt": null,
-   "updatedAt": "2026-08-03",
+   "updatedAt": "2026-10-03",
    "claimsDetail": null,
    "claimsVerifiedAt": null
   },

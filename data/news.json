@@ -6,6 +6,16 @@
   "data": {
     "items": [
       {
+        "addedAt": "2026-10-03",
+        "text": "【2026/10/1】Chegg v. Google、Penske Media v. Google（D.D.C., Mehta 法官）：法官裁定駁回兩家出版商對 Google AI Overviews 之反壟斷訴訟，認定出版商與 Google 間並無正式流量交換約定（formal bargain），「期待」不構成契約；Penske Media 部分未附帶偏見駁回、得重新起訴",
+        "url": "https://www.thewrap.com/industry-news/public-policy-legal/penske-media-lawsuit-google-ai-search-dismissed/"
+      },
+      {
+        "addedAt": "2026-10-03",
+        "text": "【2026/9/30】Thomson Reuters v. ROSS Intelligence（3d Cir. 25-2153）：第三巡迴法院判決書正式公開（Montgomery-Reeves 主筆）：認定 Westlaw headnotes 具原創性受著作權保護，ROSS 為訓練目的重製非屬合理使用，提出「便利不等於必要」（ease is not necessity）原則，為全美首件聯邦上訴法院就 AI 訓練合理使用表態之判決",
+        "url": "https://chatgptiseatingtheworld.com/2026/09/30/third-circuits-opinion-in-thomson-reuters-v-ross-intelligence-now-available/"
+      },
+      {
         "addedAt": "2026-10-01",
         "text": "【2026/9/30】Tsuda v. TikTok（東京地方裁判所）：日本聲優津田健次郎控 TikTok AI 聲音模仿案，法院首度認人聲受公開權（肖像權）保護，惟移除影片請求因已下架未准",
         "url": "https://www.malaymail.com/news/showbiz/2026/09/30/tokyo-court-defends-human-voice-anime-star-wins-landmark-fight-against-tiktoks-ai-clones/237131"
@@ -29,7 +39,9 @@
         "addedAt": "2026-10-01",
         "text": "【2026/9/30】Hachette Book Group v. Google（S.D.N.Y.）：Google 引用 Castel 法官將 Elsevier v. Meta 移轉加州北區之裁定為依據，主張本案亦應同樣移轉",
         "url": "https://chatgptiseatingtheworld.com/2026/09/30/google-cites-judge-castels-decision-to-transfer-elsevier-v-meta-to-nd-california/"
-      },
+      }
+    ],
+    "archive": [
       {
         "addedAt": "2026-09-30",
         "text": "【2026/9/29】Thomson Reuters v. ROSS Intelligence（3d Cir. 25-2153）：第三巡迴上訴法院維持地院不利合理使用認定，為全美首件 AI 訓練合理使用之聯邦上訴判決，意見書暫予封存",
@@ -39,9 +51,7 @@
         "addedAt": "2026-09-29",
         "text": "【2026/9/28】Andersen v. Stability AI（N.D. Cal., Orrick 法官）：核准原告展延排程命令，交互聲請即決判決審理時程再延約 3 個月，最快須至 2027 年底始能終局裁定",
         "url": "https://chatgptiseatingtheworld.com/2026/09/28/sarah-andersens-copyright-case-schedule-gets-extended-by-3-months/"
-      }
-    ],
-    "archive": [
+      },
       {
         "addedAt": "2026-09-27",
         "text": "【2026/9/25】SEIU Pension Plan Master Trust v. Adobe（股東代位訴訟）：原告提出合併訴狀，指控 Adobe 高層明知以含盜版文學作品資料集訓練 SlimLM 模型，仍採「先做後求原諒」策略致公司暴露鉅額著作權侵權責任",
@@ -655,5 +665,5 @@
     ]
   },
   "lastUpdatedBy": "add_news.py",
-  "lastUpdatedAt": "2026-10-01T07:11:44.926523+08:00"
+  "lastUpdatedAt": "2026-10-03T07:09:37.808220+08:00"
 }
