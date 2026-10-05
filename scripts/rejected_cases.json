@@ -682,5 +682,32 @@
     "decidedAt": "2026-09-28T08:00:05+08:00",
     "appliedAt": "2026-09-28T08:00:05+08:00",
     "decidedBy": "auto-triage"
+  },
+  {
+    "title": "Oppenheimer v. Vader National Electric LLC",
+    "url": "https://www.courtlistener.com/docket/74907615/oppenheimer-v-vader-national-electric-llc/",
+    "subtitle": "District Court, N.D. Illinois · 1:26-cv-12101 · filed 2026-10-01",
+    "note": "自動分流：起訴狀全文未提及著作權",
+    "decidedAt": "2026-10-05T08:00:11+08:00",
+    "appliedAt": "2026-10-05T08:00:11+08:00",
+    "decidedBy": "auto-triage"
+  },
+  {
+    "title": "Stebbins v. Google LLC",
+    "url": "https://www.courtlistener.com/docket/74904505/stebbins-v-google-llc/",
+    "subtitle": "District Court, D. Delaware · 1:26-mc-00609 · filed 2026-10-01",
+    "note": "自動分流：起訴狀全文未提及著作權",
+    "decidedAt": "2026-10-05T08:00:11+08:00",
+    "appliedAt": "2026-10-05T08:00:11+08:00",
+    "decidedBy": "auto-triage"
+  },
+  {
+    "title": "August Image, LLC v. Jak Media, Inc.",
+    "url": "https://www.courtlistener.com/docket/74867728/august-image-llc-v-jak-media-inc/",
+    "subtitle": "District Court, M.D. Florida · 8:26-cv-02986 · filed 2026-09-29",
+    "note": "自動分流：起訴狀全文無任何 AI 關鍵詞（非 AI 案）",
+    "decidedAt": "2026-10-05T08:00:11+08:00",
+    "appliedAt": "2026-10-05T08:00:11+08:00",
+    "decidedBy": "auto-triage"
   }
 ]

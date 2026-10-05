@@ -122,5 +122,14 @@
     "decidedAt": "2026-09-21T08:00:13+08:00",
     "appliedAt": "2026-09-21T08:00:13+08:00",
     "decidedBy": "auto-triage"
+  },
+  {
+    "title": "Sullivan v. TGP Communications",
+    "url": "https://www.courtlistener.com/docket/74859438/sullivan-v-tgp-communications/",
+    "subtitle": "District Court, D. Utah · 2:26-cv-00899 · filed 2026-09-28",
+    "note": "自動分流：起訴狀含 AI 關鍵詞：diffusion model",
+    "decidedAt": "2026-10-05T08:00:11+08:00",
+    "appliedAt": "2026-10-05T08:00:11+08:00",
+    "decidedBy": "auto-triage"
   }
 ]
