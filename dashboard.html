@@ -1951,7 +1951,7 @@
 </div>
 
 <footer>
-  &copy; 2026 AI Copyright Litigation Tracker &mdash; 案件資料來源：美國聯邦法院公開紀錄、CourtListener   每日快訊最近更新: 2026-10-05
+  &copy; 2026 AI Copyright Litigation Tracker &mdash; 案件資料來源：美國聯邦法院公開紀錄、CourtListener   每日快訊最近更新: 2026-10-06
 </footer>
 
 <script>
@@ -14120,6 +14120,11 @@ buildRegionMap();
 // 每筆需含 addedAt（YYYY-MM-DD，台北時區），代表「條目加入 dashboard 之日期」
 const newsItems = [
   {
+    "addedAt": "2026-10-06",
+    "text": "【2026/10/2】Emmerich Newspapers v. Microsoft/OpenAI（S.D. Miss. 3:26-cv-00791）：密西西比、路易斯安那、阿肯色州地方報業集團對 Microsoft 及十家 OpenAI 法人提告，主張著作權侵害、代位侵權及 DMCA §1202(b) 移除著作權管理資訊，訴請排除已註冊著作自訓練模型中，預期併入 Stein 法官主導之 MDL",
+    "url": "https://chatgptiseatingtheworld.com/2026/10/05/new-suit-v-openai-microsoft-in-mississippi-emmerich-newspapers-inc-v-microsoft-corporation/"
+  },
+  {
     "addedAt": "2026-10-04",
     "text": "【2026/10/2】Cambronne (Carreyrou) v. Anthropic（N.D. Cal.）：選擇退出 Bartz 和解之作者與 Anthropic 選定調解（mediation）履行當地規則 ADR 要求，期限訂 2027/6/14",
     "url": "https://chatgptiseatingtheworld.com/2026/10/02/book-authors-who-opted-out-of-bartz-and-anthropic-select-mediation-to-fulfill-local-rule-requirement/"
@@ -14133,7 +14138,12 @@ const newsItems = [
     "addedAt": "2026-10-04",
     "text": "【2026/10/2】Thomson Reuters v. ROSS Intelligence（3d Cir.）：ROSS Intelligence 對外宣布將向美國最高法院申請調卷令（certiorari），擬聲請審查第三巡迴法院否定其合理使用抗辯之判決",
     "url": "https://www.lawnext.com/2026/10/ross-says-it-will-ask-supreme-court-to-review-3rd-circuit-ruling-for-thomson-reuters-in-copyright-case.html"
-  },
+  }
+];
+
+// newsArchive: 已超過 3 天而從 newsItems 移除之歷史快訊（新者在上）
+// 由 daily-brief.sh 每日自動 prepend；展開於畫面下方「歷史快訊 Archive」區塊
+const newsArchive = [
   {
     "addedAt": "2026-10-03",
     "text": "【2026/10/1】Chegg v. Google、Penske Media v. Google（D.D.C., Mehta 法官）：法官裁定駁回兩家出版商對 Google AI Overviews 之反壟斷訴訟，認定出版商與 Google 間並無正式流量交換約定（formal bargain），「期待」不構成契約；Penske Media 部分未附帶偏見駁回、得重新起訴",
@@ -14143,12 +14153,7 @@ const newsItems = [
     "addedAt": "2026-10-03",
     "text": "【2026/9/30】Thomson Reuters v. ROSS Intelligence（3d Cir. 25-2153）：第三巡迴法院判決書正式公開（Montgomery-Reeves 主筆）：認定 Westlaw headnotes 具原創性受著作權保護，ROSS 為訓練目的重製非屬合理使用，提出「便利不等於必要」（ease is not necessity）原則，為全美首件聯邦上訴法院就 AI 訓練合理使用表態之判決",
     "url": "https://chatgptiseatingtheworld.com/2026/09/30/third-circuits-opinion-in-thomson-reuters-v-ross-intelligence-now-available/"
-  }
-];
-
-// newsArchive: 已超過 3 天而從 newsItems 移除之歷史快訊（新者在上）
-// 由 daily-brief.sh 每日自動 prepend；展開於畫面下方「歷史快訊 Archive」區塊
-const newsArchive = [
+  },
   {
     "addedAt": "2026-10-01",
     "text": "【2026/9/30】Tsuda v. TikTok（東京地方裁判所）：日本聲優津田健次郎控 TikTok AI 聲音模仿案，法院首度認人聲受公開權（肖像權）保護，惟移除影片請求因已下架未准",
