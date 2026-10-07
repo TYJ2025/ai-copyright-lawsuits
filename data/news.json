@@ -6,6 +6,11 @@
   "data": {
     "items": [
       {
+        "addedAt": "2026-10-08",
+        "text": "【2026/10/6】Disney/Warner Bros. v. Midjourney（C.D. Cal.）：雙方以 stipulation 達成協議，Midjourney 同意向原告片商交付其影片訓練資料集，為 discovery 階段重要進展。",
+        "url": "https://chatgptiseatingtheworld.com/2026/10/06/by-stipulation-midjourney-will-share-video-training-data-with-disney-plaintiffs/"
+      },
+      {
         "addedAt": "2026-10-06",
         "text": "【2026/10/2】Emmerich Newspapers v. Microsoft/OpenAI（S.D. Miss. 3:26-cv-00791）：密西西比、路易斯安那、阿肯色州地方報業集團對 Microsoft 及十家 OpenAI 法人提告，主張著作權侵害、代位侵權及 DMCA §1202(b) 移除著作權管理資訊，訴請排除已註冊著作自訓練模型中，預期併入 Stein 法官主導之 MDL",
         "url": "https://chatgptiseatingtheworld.com/2026/10/05/new-suit-v-openai-microsoft-in-mississippi-emmerich-newspapers-inc-v-microsoft-corporation/"
@@ -14,7 +19,9 @@
         "addedAt": "2026-10-04",
         "text": "【2026/10/2】Cambronne (Carreyrou) v. Anthropic（N.D. Cal.）：選擇退出 Bartz 和解之作者與 Anthropic 選定調解（mediation）履行當地規則 ADR 要求，期限訂 2027/6/14",
         "url": "https://chatgptiseatingtheworld.com/2026/10/02/book-authors-who-opted-out-of-bartz-and-anthropic-select-mediation-to-fulfill-local-rule-requirement/"
-      },
+      }
+    ],
+    "archive": [
       {
         "addedAt": "2026-10-04",
         "text": "【2026/10/2】Concord Music v. Anthropic II（N.D. Cal., Lee 法官）：原告具狀陳報將與 BMG v. Anthropic 案協調證據開示程序，就 Anthropic 掃描及 BitTorrent 下載歌曲集部分提升調查效率",
@@ -24,9 +31,7 @@
         "addedAt": "2026-10-04",
         "text": "【2026/10/2】Thomson Reuters v. ROSS Intelligence（3d Cir.）：ROSS Intelligence 對外宣布將向美國最高法院申請調卷令（certiorari），擬聲請審查第三巡迴法院否定其合理使用抗辯之判決",
         "url": "https://www.lawnext.com/2026/10/ross-says-it-will-ask-supreme-court-to-review-3rd-circuit-ruling-for-thomson-reuters-in-copyright-case.html"
-      }
-    ],
-    "archive": [
+      },
       {
         "addedAt": "2026-10-03",
         "text": "【2026/10/1】Chegg v. Google、Penske Media v. Google（D.D.C., Mehta 法官）：法官裁定駁回兩家出版商對 Google AI Overviews 之反壟斷訴訟，認定出版商與 Google 間並無正式流量交換約定（formal bargain），「期待」不構成契約；Penske Media 部分未附帶偏見駁回、得重新起訴",
@@ -685,5 +690,5 @@
     ]
   },
   "lastUpdatedBy": "add_news.py",
-  "lastUpdatedAt": "2026-10-06T07:09:59.108623+08:00"
+  "lastUpdatedAt": "2026-10-08T07:11:40.271863+08:00"
 }
