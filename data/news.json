@@ -6,10 +6,27 @@
   "data": {
     "items": [
       {
+        "addedAt": "2026-10-09",
+        "text": "【2026/10/6】義大利競爭主管機關（AGCM）對 Suno 使用條款展開調查：疑涉不公平條款，包括片面變更費率／終止帳戶、強制廣泛著作權授權及人格權拋棄、強制美國仲裁等",
+        "url": "https://www.digitalmusicnews.com/2026/10/06/suno-italy-investigation"
+      },
+      {
+        "addedAt": "2026-10-09",
+        "text": "【2026/10/6】Elsevier v. Meta（原 S.D.N.Y., Castel 法官移轉裁定執行）：移轉令正式入卷至加州北區地院，預期與 Chhabria 法官審理之 Kadrey v. Meta 訴訟群關連併案",
+        "url": "https://chatgptiseatingtheworld.com/2026/10/08/elsevier-v-meta-transferred-to-nd-california-and-likely-judge-chhabria"
+      },
+      {
+        "addedAt": "2026-10-09",
+        "text": "【2026/10/8】USA Today Co. v. OpenAI（S.D.N.Y. 1:26-cv-08892）：USA Today 及旗下 19 家地方報業對 OpenAI、Microsoft 提告，主張大規模重製逾 16 萬篇文章訓練模型（usatoday.com 占約 8.3 萬篇），求償逾 2.5 億美元並主張故意侵權",
+        "url": "https://www.forbes.com/sites/fionariley/2026/10/08/usa-today-sues-openai-for-over-250-million-alleging-willful-copyright-infringement/"
+      },
+      {
         "addedAt": "2026-10-08",
         "text": "【2026/10/6】Disney/Warner Bros. v. Midjourney（C.D. Cal.）：雙方以 stipulation 達成協議，Midjourney 同意向原告片商交付其影片訓練資料集，為 discovery 階段重要進展。",
         "url": "https://chatgptiseatingtheworld.com/2026/10/06/by-stipulation-midjourney-will-share-video-training-data-with-disney-plaintiffs/"
-      },
+      }
+    ],
+    "archive": [
       {
         "addedAt": "2026-10-06",
         "text": "【2026/10/2】Emmerich Newspapers v. Microsoft/OpenAI（S.D. Miss. 3:26-cv-00791）：密西西比、路易斯安那、阿肯色州地方報業集團對 Microsoft 及十家 OpenAI 法人提告，主張著作權侵害、代位侵權及 DMCA §1202(b) 移除著作權管理資訊，訴請排除已註冊著作自訓練模型中，預期併入 Stein 法官主導之 MDL",
@@ -19,9 +36,7 @@
         "addedAt": "2026-10-04",
         "text": "【2026/10/2】Cambronne (Carreyrou) v. Anthropic（N.D. Cal.）：選擇退出 Bartz 和解之作者與 Anthropic 選定調解（mediation）履行當地規則 ADR 要求，期限訂 2027/6/14",
         "url": "https://chatgptiseatingtheworld.com/2026/10/02/book-authors-who-opted-out-of-bartz-and-anthropic-select-mediation-to-fulfill-local-rule-requirement/"
-      }
-    ],
-    "archive": [
+      },
       {
         "addedAt": "2026-10-04",
         "text": "【2026/10/2】Concord Music v. Anthropic II（N.D. Cal., Lee 法官）：原告具狀陳報將與 BMG v. Anthropic 案協調證據開示程序，就 Anthropic 掃描及 BitTorrent 下載歌曲集部分提升調查效率",
@@ -690,5 +705,5 @@
     ]
   },
   "lastUpdatedBy": "add_news.py",
-  "lastUpdatedAt": "2026-10-08T07:11:40.271863+08:00"
+  "lastUpdatedAt": "2026-10-09T07:09:43.859742+08:00"
 }
