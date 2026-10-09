@@ -6,6 +6,16 @@
   "data": {
     "items": [
       {
+        "addedAt": "2026-10-10",
+        "text": "【2026/10/9】S.A. Jamendo v. NVIDIA（N.D. Cal.）：Jamendo 自願撤回對 NVIDIA 之著作權訴訟，為其繼 8 月撤回 Suno 訴訟後第二件主動撤告之 MTG-Jamendo 資料集案件，撤告原因未附具說明",
+        "url": "https://chatgptiseatingtheworld.com/2026/10/09/sa-jamendo-has-dropped-its-suit-v-nvidia-2d-suit-jamendo-has-dropped/"
+      },
+      {
+        "addedAt": "2026-10-10",
+        "text": "【2026/10/9】EVOX Productions v. Stanford University（N.D. Cal.）：Stanford 經雙方 stipulation 提出修正答辯狀，新增時效抗辯（statute of limitations），主張 ImageNet／Stanford Cars Dataset 部分圖像蒐集逾三年著作權請求時效",
+        "url": "https://chatgptiseatingtheworld.com/2026/10/09/stanford-university-seeks-to-add-statute-of-limitations-defense-in-evox-productions-copyright-suit/"
+      },
+      {
         "addedAt": "2026-10-09",
         "text": "【2026/10/6】義大利競爭主管機關（AGCM）對 Suno 使用條款展開調查：疑涉不公平條款，包括片面變更費率／終止帳戶、強制廣泛著作權授權及人格權拋棄、強制美國仲裁等",
         "url": "https://www.digitalmusicnews.com/2026/10/06/suno-italy-investigation"
@@ -705,5 +715,5 @@
     ]
   },
   "lastUpdatedBy": "add_news.py",
-  "lastUpdatedAt": "2026-10-09T07:09:43.859742+08:00"
+  "lastUpdatedAt": "2026-10-10T07:09:28.555878+08:00"
 }

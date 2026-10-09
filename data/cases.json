@@ -6893,7 +6893,7 @@
    ],
    "defendants": "The Leland Stanford Junior University（共同被告 Michigan、Rice、Baylor College of Medicine 已先後駁回）",
    "issues": "EVOX Productions（汽車攝影圖庫）主張：Stanford AI 研究團隊於 2020 年起與其他大學以「Consortium」形式合作，將近 8,000 張受著作權保護之 EVOX 汽車攝影作品納入 ImageNet 衍生之 AI 訓練資料集，未經授權使用。\n\n模型訓練完成後，被告將該等圖像託管於 Stanford 網站作為「免費可下載 AI 訓練資料」對外散布；2023 年另公開上傳第二批 225 張訓練資料集，同樣未取得授權。\n\n核心爭點：(1) 學術／非營利機構整理、託管並再散布受著作權保護圖像作為 AI 訓練資料集，能否成立合理使用（§107）？(2) 「資料集託管」與「AI 模型訓練」是否屬同一行為鏈中可獨立評價之兩個利用行為？(3) 直接侵害 vs. 貢獻侵害的責任分配。",
-   "progress": "【2024/12/31】EVOX 於 N.D. Cal. 提起本訴，列 Stanford、Michigan、Rice、Baylor College of Medicine 為共同被告。\n\n【2025】法院就 Michigan、Rice、Baylor 部分准予駁回，訴訟僅就 Stanford 繼續進行。\n\n【2025–2026】Stanford 提出駁回動議；法院駁回 Stanford 之 motion to dismiss，本案得以進入實體階段。\n\n【2026/4】法院發布案件管理命令（case-management order），訂定事證開示、專家證人、處置動議及審判期日。陪審審判預定於 2027 年 5 月進行（若未先和解或經處置動議終結）。\n\n本案是少見以「學術／非營利大學」為被告之 AI 訓練資料集著作權訴訟，亦凸顯 ImageNet 系列資料集潛在之「dataset debt」問題。",
+   "progress": "【2024/12/31】EVOX 於 N.D. Cal. 提起本訴，列 Stanford、Michigan、Rice、Baylor College of Medicine 為共同被告。\n\n【2025】法院就 Michigan、Rice、Baylor 部分准予駁回，訴訟僅就 Stanford 繼續進行。\n\n【2025–2026】Stanford 提出駁回動議；法院駁回 Stanford 之 motion to dismiss，本案得以進入實體階段。\n\n【2026/4】法院發布案件管理命令（case-management order），訂定事證開示、專家證人、處置動議及審判期日。陪審審判預定於 2027 年 5 月進行（若未先和解或經處置動議終結）。\n\n本案是少見以「學術／非營利大學」為被告之 AI 訓練資料集著作權訴訟，亦凸顯 ImageNet 系列資料集潛在之「dataset debt」問題。\n\n【2026/10/9】Stanford 經雙方 stipulation 提出第一次修正答辯狀，新增時效抗辯（statute of limitations），主張部分 ImageNet／Stanford Cars Dataset 圖像蒐集已逾三年著作權請求時效",
    "taiwan": "本案對台灣的啟示：\n\n1. **學術機構建置訓練資料集之法律風險**——本案係少見以「學術／非營利大學」為被告之 AI 訓練資料集著作權訴訟。台灣國科會、教育部及各大學 AI 研究中心若建置、釋出大型訓練資料集，應特別注意：(a) 圖像來源之授權盤點；(b) 「重製＋公開傳輸＋再散布」之分層責任；(c) 著作權法第 65 條合理使用四要件中「對市場潛在價值之影響」於商業圖庫之認定。\n\n2. **資料集託管行為與模型訓練行為之分割評價**——本案原告策略上將「託管供下載」與「實際訓練 AI」拆解為兩個獨立侵害行為，並就前者主張直接侵害、後者主張貢獻侵害。此分割方法可供台灣著作權人未來對學研機構或開源平台提起訴訟時參考（對應著作權法第 22 條重製權、第 26 條之 1 公開傳輸權、第 87 條視為侵害之解構）。\n\n3. **「教育研究合理使用」抗辯之邊界**——台灣著作權法第 46 條及第 65 條第 2 項對學術重製傳統上給予較寬解釋空間。本案 Stanford 動議駁回未果，預示美國法院對「學術機構免費再散布商業圖像作 AI 訓練」之合理使用抗辯採嚴格立場；台灣智財法院於未來類案中可比較法參考。\n\n4. **與其他資料集案件比較觀察**——本案應與 LAION-5B 相關之 Andersen v. Stability AI、Kadrey v. Meta（Books3/LibGen）並列觀察，共同形塑「訓練資料集本身（不論最終模型）作為侵害物件」之訴訟趨勢。",
    "jurisdiction": "us",
    "country": "🇺🇸 美國",
@@ -6904,7 +6904,7 @@
    "sourceCount": 0,
    "docket": null,
    "filedAt": null,
-   "updatedAt": null,
+   "updatedAt": "2026-10-10",
    "claimsDetail": null,
    "claimsVerifiedAt": null
   },
@@ -7962,7 +7962,7 @@
    "name": "S.A. Jamendo v. NVIDIA Corporation",
    "court": "N.D. Cal. 5:26-cv-06206",
    "judge": "待分派",
-   "status": "active",
+   "status": "dismissed",
    "claims": [
     "Direct Copyright",
     "Breach of Contract",
@@ -7975,7 +7975,7 @@
    ],
    "defendants": "NVIDIA Corporation",
    "issues": "首件「學術非商業 Creative Commons 資料集遭 AI 公司商業訓練濫用」進入美國聯邦法院之指標案件（5:26-cv-06206，2026/6/22 立案）。盧森堡音樂平台 Jamendo（Winamp 子公司）控告 NVIDIA 以 MTG-Jamendo 資料集（Jamendo 與巴塞隆納 Universitat Pompeu Fabra 學術合作產出、約 55,000 首全長音軌及策展中繼資料，以 CC 非商業授權公開）訓練其商業模型 Fugatto（生成式音訊）與 Audio Flamingo（音訊語言模型），求償約 US$2,030 萬。\n\n核心爭點：以「非商業」為條件之 Creative Commons 授權，能否阻止 AI 業者將資料集轉為商業訓練語料？NVIDIA 已於 Fugatto 技術論文中公開承認引用該資料集，故爭點不在「有無使用」，而在授權範圍逾越與合理使用抗辯。為 NVIDIA 第 8 件 AI 訓練資料著作權訴訟。",
-   "progress": "【2026/6/22】Jamendo 於加州北區聯邦地院對 NVIDIA 提起訴訟，主張 Fugatto 與 Audio Flamingo 未經授權以 MTG-Jamendo 資料集商業訓練，構成直接著作權侵害、CC 非商業授權違約、不當得利及不公平競爭，求償約 US$2,030 萬。Jamendo 稱 2024 年因 NVIDIA 於技術論文公開承認引用該資料集而知悉侵權。",
+   "progress": "【2026/6/22】Jamendo 於加州北區聯邦地院對 NVIDIA 提起訴訟，主張 Fugatto 與 Audio Flamingo 未經授權以 MTG-Jamendo 資料集商業訓練，構成直接著作權侵害、CC 非商業授權違約、不當得利及不公平競爭，求償約 US$2,030 萬。Jamendo 稱 2024 年因 NVIDIA 於技術論文公開承認引用該資料集而知悉侵權。\n\n【2026/10/9】Jamendo 向法院提出自願撤回訴狀，撤告原因未附具說明，為其繼 2026/8 撤回對 Suno 訴訟後第二件主動撤告之 MTG-Jamendo 資料集案件",
    "taiwan": "1) 台灣學研機構釋出之開放資料集（如中研院、國科會補助之語料庫）多附「僅供學術非商業使用」條款，本案將檢驗此類條款對 AI 商業訓練之實際拘束力。2) CC 授權在台灣法下屬定型化授權契約，違反非商業條款究係違約或授權失效而構成侵權，涉及請求權競合，本案美國法院見解具參考價值。3) 對台灣企業使用開源資料集訓練模型之法遵盤點有直接警示作用。",
    "jurisdiction": "us",
    "country": "🇺🇸 美國",
@@ -7986,7 +7986,7 @@
    "sourceCount": 3,
    "docket": 73517096,
    "filedAt": "2026-06-22",
-   "updatedAt": "2026-09-08",
+   "updatedAt": "2026-10-10",
    "claimsDetail": [
     {
      "count": "I",
@@ -8028,7 +8028,7 @@
    "name": "S.A. Jamendo v. Suno, Inc.",
    "court": "D. Mass. 1:26-cv-12966",
    "judge": "待分派",
-   "status": "active",
+   "status": "dismissed",
    "claims": [
     "Direct Copyright",
     "Breach of Contract",
@@ -8040,7 +8040,7 @@
    ],
    "defendants": "Suno, Inc.",
    "issues": "Jamendo 繼 6/22 控告 NVIDIA 後一週再對 Suno 提起之平行訴訟（1:26-cv-12966，2026/6/29 立案於麻州聯邦地院；部分報導誤植為 N.D. Cal.）。涉案標的同為 MTG-Jamendo 學術非商業資料集（約 55,600 首音軌），求償約 US$2,000 萬。\n\n訴前經過：Jamendo 於 2025/9 致函 Suno 要求授權並開立約 €1,600 萬請款單，Suno 於 2025/10/3 確認收件後未再回應。本案與 Jamendo v. NVIDIA 共同構成「CC 非商業授權 ↔ AI 商業訓練」雙案測試，並使 Suno 在 UMG/Sony（D. Mass.）、GEMA（慕尼黑）、Justice 集體訴訟、Poseidon Wave 之外再添一線。",
-   "progress": "【2026/6/29】Jamendo 於麻州聯邦地院對 Suno 提起著作權侵害及 CC 授權違約訴訟，主張 Suno 以「非商業學術資料集」訓練商業音樂生成模型逾越授權範圍，求償約 US$2,000 萬。訴前 Jamendo 曾於 2025/9 致函要求授權並開立約 €1,600 萬請款單，Suno 確認收件後未回應。",
+   "progress": "【2026/6/29】Jamendo 於麻州聯邦地院對 Suno 提起著作權侵害及 CC 授權違約訴訟，主張 Suno 以「非商業學術資料集」訓練商業音樂生成模型逾越授權範圍，求償約 US$2,000 萬。訴前 Jamendo 曾於 2025/9 致函要求授權並開立約 €1,600 萬請款單，Suno 確認收件後未回應。\n\n【2026/8/13】Jamendo 於開庭前提出自願撤回訴狀（without prejudice，得日後再訴），撤告原因未附具說明，亦未提及與 Suno 達成和解",
    "taiwan": "1) 與 Jamendo v. NVIDIA 同一法律爭點，惟被告為終端 AI 服務業者而非晶片／模型供應商，可觀察法院對產業鏈不同層級責任之區辨。2) 台灣音樂科技新創若使用 GitHub 上「僅供研究」之音樂資料集，須就商業化階段重新取得授權，本案為具體風險示例。",
    "jurisdiction": "us",
    "country": "🇺🇸 美國",
@@ -8051,7 +8051,7 @@
    "sourceCount": 3,
    "docket": 73547746,
    "filedAt": "2026-06-29",
-   "updatedAt": "2026-09-15",
+   "updatedAt": "2026-10-10",
    "claimsDetail": [
     {
      "count": "I",
