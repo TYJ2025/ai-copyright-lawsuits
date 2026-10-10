@@ -6,6 +6,21 @@
   "data": {
     "items": [
       {
+        "addedAt": "2026-10-11",
+        "text": "【2026/10/8】In re OpenAI Copyright Infringement Litigation（S.D.N.Y. MDL, Stein 法官）：法院裁定將原告方（Susman Godfrey 資助）Chakrabarty 教授市場稀釋研究報告自卷證中剔除，OpenAI、Microsoft 聲請獲准",
+        "url": "https://news.bloomberglaw.com/ip-law/openai-microsoft-get-ai-books-report-struck-from-copyright-case"
+      },
+      {
+        "addedAt": "2026-10-11",
+        "text": "【2026/10/10】Reddit v. SerpAPI, Perplexity AI（S.D.N.Y., Engelmayer 法官）：承辦律所 Proskauer 具狀聲請准其代理 Perplexity 應訴，惟該所先前曾於另件告發人案件代理原告 Reddit，Reddit 尚未同意拋棄利益衝突異議",
+        "url": "https://chatgptiseatingtheworld.com/2026/10/10/proskauer-motion-to-represent-perplexity-in-defense-v-reddit-despite-past-work-for-reddit"
+      },
+      {
+        "addedAt": "2026-10-11",
+        "text": "【2026/10/10】Shakespeare v. Anthropic（N.D. Cal. 3:26-cv-05931，Pitts 法官）：Anthropic 就 Bartz 和解退出作者另訴案提出答辯重審意見書，重申原告請求權已逾三年時效，應予駁回",
+        "url": "https://chatgptiseatingtheworld.com/2026/10/10/anthropic-files-reply-to-shakespeares-opposition-to-motion-to-dismiss/"
+      },
+      {
         "addedAt": "2026-10-10",
         "text": "【2026/10/9】S.A. Jamendo v. NVIDIA（N.D. Cal.）：Jamendo 自願撤回對 NVIDIA 之著作權訴訟，為其繼 8 月撤回 Suno 訴訟後第二件主動撤告之 MTG-Jamendo 資料集案件，撤告原因未附具說明",
         "url": "https://chatgptiseatingtheworld.com/2026/10/09/sa-jamendo-has-dropped-its-suit-v-nvidia-2d-suit-jamendo-has-dropped/"
@@ -29,14 +44,14 @@
         "addedAt": "2026-10-09",
         "text": "【2026/10/8】USA Today Co. v. OpenAI（S.D.N.Y. 1:26-cv-08892）：USA Today 及旗下 19 家地方報業對 OpenAI、Microsoft 提告，主張大規模重製逾 16 萬篇文章訓練模型（usatoday.com 占約 8.3 萬篇），求償逾 2.5 億美元並主張故意侵權",
         "url": "https://www.forbes.com/sites/fionariley/2026/10/08/usa-today-sues-openai-for-over-250-million-alleging-willful-copyright-infringement/"
-      },
+      }
+    ],
+    "archive": [
       {
         "addedAt": "2026-10-08",
         "text": "【2026/10/6】Disney/Warner Bros. v. Midjourney（C.D. Cal.）：雙方以 stipulation 達成協議，Midjourney 同意向原告片商交付其影片訓練資料集，為 discovery 階段重要進展。",
         "url": "https://chatgptiseatingtheworld.com/2026/10/06/by-stipulation-midjourney-will-share-video-training-data-with-disney-plaintiffs/"
-      }
-    ],
-    "archive": [
+      },
       {
         "addedAt": "2026-10-06",
         "text": "【2026/10/2】Emmerich Newspapers v. Microsoft/OpenAI（S.D. Miss. 3:26-cv-00791）：密西西比、路易斯安那、阿肯色州地方報業集團對 Microsoft 及十家 OpenAI 法人提告，主張著作權侵害、代位侵權及 DMCA §1202(b) 移除著作權管理資訊，訴請排除已註冊著作自訓練模型中，預期併入 Stein 法官主導之 MDL",
@@ -715,5 +730,5 @@
     ]
   },
   "lastUpdatedBy": "add_news.py",
-  "lastUpdatedAt": "2026-10-10T07:09:28.555878+08:00"
+  "lastUpdatedAt": "2026-10-11T07:10:35.498321+08:00"
 }
