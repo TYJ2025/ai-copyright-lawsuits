@@ -7063,8 +7063,8 @@
   {
    "id": 138,
    "name": "Elsevier / Hachette / Macmillan / McGraw Hill / Cengage + Scott Turow v. Meta Platforms",
-   "court": "S.D.N.Y. 1:26-cv-03689（caption：Elsevier Inc. v. Meta Platforms, Inc.）",
-   "judge": "P. Kevin Castel（District Judge）／Robyn F. Tarnofsky（Magistrate）",
+   "court": "N.D. Cal. 4:26-cv-11415（2026/10/6 自 S.D.N.Y. 1:26-cv-03689 移轉；caption：Elsevier Inc. v. Meta Platforms, Inc.）",
+   "judge": "待分派（移轉前：S.D.N.Y. P. Kevin Castel 法官）",
    "status": "active",
    "claims": [
     "Direct Copyright",
@@ -7090,9 +7090,9 @@
    "workType": "其他 Other",
    "isNonUS": false,
    "sourceCount": 0,
-   "docket": 73294740,
+   "docket": "74936906",
    "filedAt": null,
-   "updatedAt": "2026-10-09",
+   "updatedAt": "2026-10-13",
    "claimsDetail": [
     {
      "count": "I",
@@ -8090,8 +8090,8 @@
   {
    "id": 160,
    "name": "AAP 13 家出版商 v. WeLib（盜版影子圖書館）",
-   "court": "S.D.N.Y.",
-   "judge": "待分派",
+   "court": "S.D.N.Y. 1:26-cv-05064（caption：Apress Media, LLC v. WeLib）",
+   "judge": "Victor Marrero",
    "status": "active",
    "claims": [
     "Direct Copyright",
@@ -8123,9 +8123,9 @@
    "workType": "書籍出版 Books",
    "isNonUS": false,
    "sourceCount": 3,
-   "docket": null,
+   "docket": "73488419",
    "filedAt": "2026-06-16",
-   "updatedAt": "2026-08-03",
+   "updatedAt": "2026-10-13",
    "claimsDetail": null,
    "claimsVerifiedAt": null
   },
@@ -8556,6 +8556,55 @@
    "plaintiffEntities": [
     "Sony Music Publishing"
    ]
+  },
+  {
+   "id": 171,
+   "name": "USA Today Co., Inc. v. OpenAI Foundation",
+   "court": "S.D.N.Y. 1:26-cv-08892",
+   "judge": "待分派",
+   "status": "active",
+   "claims": [
+    "Direct Copyright",
+    "Vicarious Infringement",
+    "DMCA §1202"
+   ],
+   "plaintiffs": "USA TODAY Co., Inc. 及旗下 Gannett 系 13 家子公司（USA TODAY、Detroit Free Press、The Arizona Republic、Milwaukee Journal Sentinel 等 19 家報刊）",
+   "plaintiffEntities": [
+    "USA TODAY Co."
+   ],
+   "defendants": "OpenAI Foundation、OpenAI GP, LLC、OAI International, Inc.、OpenAI OpCo, LLC、OpenAI Global, LLC、OAI Corporation、OpenAI Group PBC（Microsoft 未列被告）",
+   "issues": "報業集團主張 OpenAI 爬取及經第三方資料集（Common Crawl／C4、WebText2、Microsoft Bing Index「Project Taxi」）取得逾數十萬篇報導訓練 GPT 模型，模型記憶並於 ChatGPT 輸出重製或改寫摘要，構成直接與代位侵權；另主張以 Dragnet、Newspaper 等擷取工具系統性移除 CMI，違反 DMCA §1202(b)(1)。請求逾 2.5 億美元損害賠償，並依 17 U.S.C. §503(b) 請求銷毀含原告內容之模型與訓練集。",
+   "progress": "【2026/10/8】Rothwell Figg 代理 USA TODAY Co. 及旗下報業於 S.D.N.Y. 起訴 OpenAI 七家關係企業（1:26-cv-08892），求償逾 2.5 億美元；起訴狀大量援引 In re OpenAI MDL（25-md-3143）已解封之內部文件，預期將聲請併入 Stein 法官之 MDL 程序。",
+   "taiwan": "報業以訓練重製、模型記憶與輸出替代三層次主張侵權，並以 CMI 移除另立訴因，與台灣著作權法第 80 條之 1 權利管理電子資訊保護及新聞內容授權議價之討論直接相關；本案亦顯示 MDL 解封證據正被後續原告援用，值得觀察。",
+   "jurisdiction": "us",
+   "country": "US",
+   "technology": "llm",
+   "plaintiffType": "media",
+   "workType": "新聞媒體 News",
+   "isNonUS": false,
+   "sourceCount": 1,
+   "filedAt": "2026-10-08",
+   "updatedAt": "2026-10-13",
+   "docket": 74935682,
+   "claimsDetail": [
+    {
+     "count": "I",
+     "title": "Copyright Infringement (17 U.S.C. § 501)",
+     "canonical": "direct-copyright"
+    },
+    {
+     "count": "II",
+     "title": "Vicarious Copyright Infringement",
+     "canonical": "vicarious"
+    },
+    {
+     "count": "III",
+     "title": "Digital Millennium Copyright Act — Removal of Copyright Management Information (17 U.S.C. § 1202)",
+     "canonical": "dmca-1202"
+    }
+   ],
+   "claimsVerifiedAt": "2026-10-13",
+   "claimsSource": "https://www.courtlistener.com/docket/74935682/1/usa-today-co-inc-v-openai-foundation/"
   }
  ]
 }
