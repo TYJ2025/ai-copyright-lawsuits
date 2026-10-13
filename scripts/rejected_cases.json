@@ -790,5 +790,25 @@
     "decidedAt": "2026-10-13T19:20:00+08:00",
     "appliedAt": "2026-10-13T19:20:00+08:00",
     "decidedBy": "manual (YJ 2026-10-13)"
+  },
+  {
+    "title": "Mapes v. Alibaba Group Holding Limited",
+    "url": "https://www.courtlistener.com/docket/74732723/mapes-v-alibaba-group-holding-limited/",
+    "subtitle": "District Court, S.D. New York · 1:26-cv-07466 · filed 2026-09-01",
+    "note": "人工複核退回（原自動通過屬誤判）：攝影師告 AliExpress 平台商品照侵權，非 AI 案；起訴狀唯一 AI 字樣係描述被告打假工具",
+    "decidedAt": "2026-10-13T19:30:00+08:00",
+    "appliedAt": "2026-10-13T19:30:00+08:00",
+    "decidedBy": "manual (YJ 2026-10-13)",
+    "autoNote": "自動分流：起訴狀含 AI 關鍵詞：artificial intelligence"
+  },
+  {
+    "title": "Sullivan v. TGP Communications",
+    "url": "https://www.courtlistener.com/docket/74859438/sullivan-v-tgp-communications/",
+    "subtitle": "District Court, D. Utah · 2:26-cv-00899 · filed 2026-09-28",
+    "note": "人工複核退回（原自動通過屬誤判）：誹謗為主之訴訟，命中字樣係損害計算之 diffusion modeling，非 AI 案",
+    "decidedAt": "2026-10-13T19:30:00+08:00",
+    "appliedAt": "2026-10-13T19:30:00+08:00",
+    "decidedBy": "manual (YJ 2026-10-13)",
+    "autoNote": "自動分流：起訴狀含 AI 關鍵詞：diffusion model"
   }
 ]

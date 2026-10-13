@@ -394,9 +394,9 @@ def classify_candidate(c: dict, token: str, verbose: bool = False) -> tuple[str,
 
     判準：
       1. 當事人含純 AI 業者 → ai（免讀起訴狀）
-      2. 起訴狀全文可得：含著作權字樣且含任一 AI 關鍵詞 → ai；
-         可得但無 AI 關鍵詞（或未提著作權）→ not_ai（自動退回）
-      3. 全文不可得 → unknown（唯一留給人工的情形）
+      2. 起訴狀全文可得：含著作權字樣且 AI 關鍵詞達門檻（見 score_ai_terms）→ ai；
+         零星提及 → unknown（留人工）；完全無 AI 關鍵詞或未提著作權 → not_ai（自動退回）
+      3. 全文不可得 → unknown
     """
     # word-boundary 比對——子字串會誤殺（實測 "Udio" ⊂ "Studio"、"Suno" ⊂ 人名）
     parties = " | ".join(p or "" for p in (c.get("party") or []))
@@ -408,12 +408,37 @@ def classify_candidate(c: dict, token: str, verbose: bool = False) -> tuple[str,
         return "unknown", "起訴狀全文不可得（RECAP 無文件），留待人工"
     tl = text.lower()
     has_copyright = any(t in tl for t in COPYRIGHT_COMPLAINT_TERMS)
-    ai_hits = [t for t in AI_COMPLAINT_TERMS if t in tl]
-    if has_copyright and ai_hits:
-        return "ai", f"起訴狀含 AI 關鍵詞：{'、'.join(ai_hits[:4])}"
     if not has_copyright:
         return "not_ai", "起訴狀全文未提及著作權"
+    total, hits = score_ai_terms(text)
+    summary = "、".join(f"{t}×{n}" for t, n in sorted(hits.items(), key=lambda kv: -kv[1])[:4])
+    if total >= AI_MIN_TOTAL and len(hits) >= AI_MIN_DISTINCT:
+        return "ai", f"起訴狀含 AI 關鍵詞：{summary}"
+    if total > 0:
+        # 只零星提到（例：被告打假工具「使用 AI」、原告自稱 AI 公司）→ 機器判不了，留人工
+        return "unknown", f"起訴狀僅零星提及 AI（{summary}），留待人工"
     return "not_ai", "起訴狀全文無任何 AI 關鍵詞（非 AI 案）"
+
+
+# 2026-10-13 收緊：原本「子字串命中任一詞即通過」造成誤判——
+#   Mapes v. Alibaba 只因描述被告打假工具用到 artificial intelligence 一次；
+#   Sullivan v. TGP 因誹謗損害計算的 "diffusion modeling" 命中 diffusion model。
+# 改為 word-boundary 比對（diffusion model 不再命中 diffusion modeling），
+# 並要求總次數 ≥ AI_MIN_TOTAL 且相異詞 ≥ AI_MIN_DISTINCT；零星命中改留人工。
+# 校準：USA Today v. OpenAI、Hachette v. Google、Jamendo v. Nvidia、Apress v. WeLib（3 次／2 詞）
+# 皆仍通過；Mapes（1 次）、SCI SPARK（2 次／1 詞）轉人工；Sullivan（0 次）自動退回。
+AI_MIN_TOTAL = 3
+AI_MIN_DISTINCT = 2
+
+
+def score_ai_terms(text: str) -> tuple[int, dict]:
+    """回傳 (總命中次數, {關鍵詞: 次數})，word-boundary、不分大小寫。"""
+    hits = {}
+    for t in AI_COMPLAINT_TERMS:
+        n = len(re.findall(rf"(?<![a-z0-9]){re.escape(t)}(?![a-z0-9])", text, re.IGNORECASE))
+        if n:
+            hits[t] = n
+    return sum(hits.values()), hits
 
 
 def append_ledger(path: Path, records: list[dict]) -> int:
@@ -692,6 +717,34 @@ def main() -> int:
     return 0
 
 
+def carry_over_unreviewed(current: list[dict]) -> list[dict]:
+    """回傳 .pending-review.json new-cases 區段中，本週未重現且尚未審畢的舊項目。"""
+    root = Path(__file__).resolve().parent.parent
+    try:
+        pr = json.loads((root / ".pending-review.json").read_text(encoding="utf-8"))
+        old_items = pr.get("sections", {}).get("new-cases", {}).get("items", [])
+    except Exception:
+        return []
+    decided: set[str] = set()
+    for name in ("approved_queue.json", "rejected_cases.json"):
+        try:
+            for x in json.loads((Path(__file__).resolve().parent / name).read_text(encoding="utf-8")):
+                if x.get("url"):
+                    decided.add(x["url"].rstrip("/"))
+        except Exception:
+            pass
+    seen = {(i.get("url") or "").rstrip("/") for i in current}
+    keep = []
+    for it in old_items:
+        u = (it.get("url") or "").rstrip("/")
+        if u and u not in seen and u not in decided:
+            keep.append(it)
+            seen.add(u)
+    if keep:
+        print(f"  ↻ 沿用 {len(keep)} 件前期未審項目", file=sys.stderr)
+    return keep
+
+
 def write_pending_review(candidates: list[dict], days: int) -> None:
     """寫 .pending-review.json 到 repo root，供 main-board 讀取顯示。
 
@@ -722,6 +775,11 @@ def write_pending_review(candidates: list[dict], days: int) -> None:
         if cl_id:
             item["id"] = str(cl_id)
         items.append(item)
+
+    # 2026-10-13：沿用前幾週尚未審核的項目，避免整段替換時被擠掉
+    #（Dickinson v. Amazon 於 10/5 列入待審，10/12 掃描整段覆寫後從所有清單消失）。
+    # 已進 approved_queue / rejected_cases 的視為審畢，不再沿用。
+    items = items + carry_over_unreviewed(items)
     # 改經 add_pending.py 的多區段合併機制寫入：只整段替換 new-cases 區段，
     # 不會覆蓋其他 producer（如 daily-brief 時間軸候選）的區段。
     import subprocess
