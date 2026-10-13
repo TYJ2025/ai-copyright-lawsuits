@@ -189,7 +189,7 @@
   "status": "active",
   "primary_docket_id": 71720563,
   "secondary_docket_ids": [],
-  "progress_excerpt": "2026 年 1 月，Perplexity 提出駁回動議，主張其位於資料蒐集的「下游」，不應承擔 DMCA 反規避責任。案件審理中。\n\n【2026/7/31】S.D.N.Y. Engelmayer 法官裁定准許 Reddit 對 Perplexity、SerpAPI 之 DMCA § 1201(a) 反規避主張續行（認定 Google SearchGuard 屬受保護接觸控制措施），但駁回 SerpAPI 之 trafficking 主張及不正競爭、不當得利州法請求，案件進入證據開示階段。"
+  "progress_excerpt": "2026 年 1 月，Perplexity 提出駁回動議，主張其位於資料蒐集的「下游」，不應承擔 DMCA 反規避責任。案件審理中。\n\n【2026/7/31】S.D.N.Y. Engelmayer 法官裁定准許 Reddit 對 Perplexity、SerpAPI 之 DMCA § 1201(a) 反規避主張續行（認定 Google SearchGuard 屬受保護接觸控制措施），但駁回 SerpAPI 之 trafficking 主張及不正競爭、不當得利州法請求，案件進入證據開示階段。\n\n【2026/10/10】承辦 Perplexity 應訴之 Proskauer 律所具狀聲請准其代理，惟該所先前曾於另件告發人案件代理原告 Reddit，Reddit 尚未同意拋棄利益衝突異議。"
  },
  {
   "case_id": 20,
@@ -389,7 +389,7 @@
   "status": "active",
   "primary_docket_id": 71271014,
   "secondary_docket_ids": [],
-  "progress_excerpt": "案件於 2023 年 11 月在加州中區提起，Kronstadt 法官主持。經過訴訟律師會議，預計於 2026 年 7 月進行第一次駁回動議聽證會。原告已提交修正訴狀，擴大索賠範圍至商品化權侵害。\n\n【2026/7/21】Midjourney 7/21 就 Disney 與 Warner Bros. 之著作權主張提出即決判決聲請，主張線上服務提供者不因部分使用者生成侵權內容而當然負間接侵權責任，並指「引誘侵權」要件未經舉證。\n\n【2026/8/12】Disney/Warner Bros./NBCUniversal 具狀反對 Midjourney 縮減訴訟之聲請，主張 Midjourney 誤讀最高法院 3 月間接侵權判決、未排除故意助長侵權主張\n\n【2026/8/25】Midjourney 就 Disney/Warner Bros. 之即決判決聲請提出答辯回覆狀，稱片廠對代位侵權理論之主張為「答辯狀未載之曲解」，未能舉證引誘侵權之積極鼓勵要件"
+  "progress_excerpt": "案件於 2023 年 11 月在加州中區提起，Kronstadt 法官主持。經過訴訟律師會議，預計於 2026 年 7 月進行第一次駁回動議聽證會。原告已提交修正訴狀，擴大索賠範圍至商品化權侵害。\n\n【2026/7/21】Midjourney 7/21 就 Disney 與 Warner Bros. 之著作權主張提出即決判決聲請，主張線上服務提供者不因部分使用者生成侵權內容而當然負間接侵權責任，並指「引誘侵權」要件未經舉證。\n\n【2026/8/12】Disney/Warner Bros./NBCUniversal 具狀反對 Midjourney 縮減訴訟之聲請，主張 Midjourney 誤讀最高法院 3 月間接侵權判決、未排除故意助長侵權主張\n\n【2026/8/25】Midjourney 就 Disney/Warner Bros. 之即決判決聲請提出答辯回覆狀，稱片廠對代位侵權理論之主張為「答辯狀未載之曲解」，未能舉證引誘侵權之積極鼓勵要件\n\n【2026/10/6】雙方以 stipulation 達成協議，Midjourney 同意向原告交付其影片訓練資料集，discovery 階段重要進展。"
  },
  {
   "case_id": 41,
@@ -509,7 +509,7 @@
   "status": "active",
   "primary_docket_id": 72199828,
   "secondary_docket_ids": [],
-  "progress_excerpt": "Anthropic 已提交動議請求暫停本案，等待第一波 Concord v. Anthropic 即決判決結果。Concord I 的即決判決聽證定於 2026 年 7 月 15 日。法院尚未裁定暫停動議。\n\n【2026/5/20】Anthropic 向加州北區聯邦地院（Eumi K. Lee 法官、Susan van Keulen 治安法官）提交 Motion to Stay，請求於 Concord I（5:24-cv-03811）最終裁判前停止本案全部訴訟程序，備位主張為等待 Concord I 即決判決與後續上訴終結；理由為兩案被告同一、爭點實質相同，續行將造成重複防禦負擔且判決恐相互衝突。\n\n【2026/8/3】Anthropic 聲請一部駁回輸出侵權與 DMCA CMI 主張（欠缺具體侵權範例），CEO Dario Amodei 另聲請駁回對其個人之直接侵權（torrenting）指控（欠缺事實基礎）；11/4 Lee 法官開庭審理。\n\n【2026/9/9】Eumi K. Lee 法官將新提起之 Sony Music Publishing／Warner Chappell v. Anthropic（音樂出版商 torrenting 訴訟）與本案 related，統一由其審理以求程序效率。"
+  "progress_excerpt": "Anthropic 已提交動議請求暫停本案，等待第一波 Concord v. Anthropic 即決判決結果。Concord I 的即決判決聽證定於 2026 年 7 月 15 日。法院尚未裁定暫停動議。\n\n【2026/5/20】Anthropic 向加州北區聯邦地院（Eumi K. Lee 法官、Susan van Keulen 治安法官）提交 Motion to Stay，請求於 Concord I（5:24-cv-03811）最終裁判前停止本案全部訴訟程序，備位主張為等待 Concord I 即決判決與後續上訴終結；理由為兩案被告同一、爭點實質相同，續行將造成重複防禦負擔且判決恐相互衝突。\n\n【2026/8/3】Anthropic 聲請一部駁回輸出侵權與 DMCA CMI 主張（欠缺具體侵權範例），CEO Dario Amodei 另聲請駁回對其個人之直接侵權（torrenting）指控（欠缺事實基礎）；11/4 Lee 法官開庭審理。\n\n【2026/9/9】Eumi K. Lee 法官將新提起之 Sony Music Publishing／Warner Chappell v. Anthropic（音樂出版商 torrenting 訴訟）與本案 related，統一由其審理以求程序效率。\n\n【2026/10/2】原告具狀陳報將與 BMG v. Anthropic 案協調證據"
  },
  {
   "case_id": 53,
@@ -549,7 +549,7 @@
   "status": "active",
   "primary_docket_id": 72069211,
   "secondary_docket_ids": [],
-  "progress_excerpt": "【2026/7/1、7/9 最新】Pitts 法官正式將 Bartz 後陸續起訴的書籍作者及出版社訴訟（含 Shakespeare v. Anthropic）認定為本案之關聯案件，統一由其審理；音樂類案件（Concord I、II、BMG）則由 Lee 法官審理。本案成為 N.D. Cal. Anthropic 書籍作者案件群的錨定案件。\n\n【2026/9/25】Anthropic 對退出 Bartz 和解之作者（含 John Carreyrou、Angie Cruz、R.O. Kwon）另提之個別訴訟聲請駁回，主張已罹三年時效；原告 Kimberly Kay Hoang 已自願撤回告訴。"
+  "progress_excerpt": "【2026/7/1、7/9 最新】Pitts 法官正式將 Bartz 後陸續起訴的書籍作者及出版社訴訟（含 Shakespeare v. Anthropic）認定為本案之關聯案件，統一由其審理；音樂類案件（Concord I、II、BMG）則由 Lee 法官審理。本案成為 N.D. Cal. Anthropic 書籍作者案件群的錨定案件。\n\n【2026/9/25】Anthropic 對退出 Bartz 和解之作者（含 John Carreyrou、Angie Cruz、R.O. Kwon）另提之個別訴訟聲請駁回，主張已罹三年時效；原告 Kimberly Kay Hoang 已自願撤回告訴。\n\n【2026/10/2】選擇退出 Bartz 和解之作者與 Anthropic 選定調解（mediation）履行當地規則 ADR 要求，期限訂 2027/6/14"
  },
  {
   "case_id": 58,
@@ -1034,10 +1034,10 @@
  {
   "case_id": 138,
   "name": "Elsevier / Hachette / Macmillan / McGraw Hill / Cengage + Scott Turow v. Meta Platforms",
-  "court": "S.D.N.Y. 1:26-cv-03689（caption：Elsevier Inc. v. Meta Platforms, Inc.）",
-  "judge": "P. Kevin Castel（District Judge）／Robyn F. Tarnofsky（Magistrate）",
+  "court": "N.D. Cal. 4:26-cv-11415（2026/10/6 自 S.D.N.Y. 1:26-cv-03689 移轉；caption：Elsevier Inc. v. Meta Platforms, Inc.）",
+  "judge": "待分派（移轉前：S.D.N.Y. P. Kevin Castel 法官）",
   "status": "active",
-  "primary_docket_id": 73294740,
+  "primary_docket_id": "74936906",
   "secondary_docket_ids": [],
   "progress_excerpt": "【2026/5/5】出版商聯盟 + Scott Turow 於 S.D.N.Y. 起訴 Meta 與 Zuckerberg（1:26-cv-03689）。分案 P. Kevin Castel 法官、Robyn F. Tarnofsky 治安法官。\n\n【2026/5/7-12】法院核可多位原告律師 pro hac vice 申請：Jeffrey Gould、Benjamin Blystad Gould、Samuel Lev Rubinstein、Chris Nathaniel Ryder 等。\n\n【2026/5-6】預期 Meta 提出 Motion to Dismiss，爭點預期聚焦：(a) Zuckerberg 個人責任之 piercing；(b) 集體代表性（Authors Alliance 質疑）；(c) 合理使用——對照 Bartz v. Anthropic 已和解、Kadrey v. Meta 仍續審之並行案件。\n\n本案與既有 **Kadrey v. Meta（N.D. Cal.）** 並非同案——Kadrey 為加州北區個別作家集體（Sarah Silverman、Ta-Nehisi Coates 等），本案為紐約南區出版商集體；兩案管轄、集體界定、首席原告皆不同。\n\n【2026/5/6】Authors Alliance 分析指本案集體定義含「擁有 ISBN / DOI"
  },
@@ -1119,7 +1119,7 @@
   "status": "active",
   "primary_docket_id": 73494355,
   "secondary_docket_ids": [],
-  "progress_excerpt": "【2026/7/9】Pitts 法官認定本案與 Cambronne (Carreyrou) v. Anthropic 為關聯案件，併由其審理。"
+  "progress_excerpt": "【2026/7/9】Pitts 法官認定本案與 Cambronne (Carreyrou) v. Anthropic 為關聯案件，併由其審理。\n\n【2026/10/10】Anthropic 就原告（Bartz 和解退出作者）對其駁回聲請之答辯提出重審意見書，重申著作權請求權已逾三年時效，應予駁回。"
  },
  {
   "case_id": 147,
@@ -1176,20 +1176,30 @@
   "name": "S.A. Jamendo v. NVIDIA Corporation",
   "court": "N.D. Cal. 5:26-cv-06206",
   "judge": "待分派",
-  "status": "active",
+  "status": "dismissed",
   "primary_docket_id": 73517096,
   "secondary_docket_ids": [],
-  "progress_excerpt": "【2026/6/22】Jamendo 於加州北區聯邦地院對 NVIDIA 提起訴訟，主張 Fugatto 與 Audio Flamingo 未經授權以 MTG-Jamendo 資料集商業訓練，構成直接著作權侵害、CC 非商業授權違約、不當得利及不公平競爭，求償約 US$2,030 萬。Jamendo 稱 2024 年因 NVIDIA 於技術論文公開承認引用該資料集而知悉侵權。"
+  "progress_excerpt": "【2026/6/22】Jamendo 於加州北區聯邦地院對 NVIDIA 提起訴訟，主張 Fugatto 與 Audio Flamingo 未經授權以 MTG-Jamendo 資料集商業訓練，構成直接著作權侵害、CC 非商業授權違約、不當得利及不公平競爭，求償約 US$2,030 萬。Jamendo 稱 2024 年因 NVIDIA 於技術論文公開承認引用該資料集而知悉侵權。\n\n【2026/10/9】Jamendo 向法院提出自願撤回訴狀，撤告原因未附具說明，為其繼 2026/8 撤回對 Suno 訴訟後第二件主動撤告之 MTG-Jamendo 資料集案件"
  },
  {
   "case_id": 159,
   "name": "S.A. Jamendo v. Suno, Inc.",
   "court": "D. Mass. 1:26-cv-12966",
   "judge": "待分派",
-  "status": "active",
+  "status": "dismissed",
   "primary_docket_id": 73547746,
   "secondary_docket_ids": [],
-  "progress_excerpt": "【2026/6/29】Jamendo 於麻州聯邦地院對 Suno 提起著作權侵害及 CC 授權違約訴訟，主張 Suno 以「非商業學術資料集」訓練商業音樂生成模型逾越授權範圍，求償約 US$2,000 萬。訴前 Jamendo 曾於 2025/9 致函要求授權並開立約 €1,600 萬請款單，Suno 確認收件後未回應。"
+  "progress_excerpt": "【2026/6/29】Jamendo 於麻州聯邦地院對 Suno 提起著作權侵害及 CC 授權違約訴訟，主張 Suno 以「非商業學術資料集」訓練商業音樂生成模型逾越授權範圍，求償約 US$2,000 萬。訴前 Jamendo 曾於 2025/9 致函要求授權並開立約 €1,600 萬請款單，Suno 確認收件後未回應。\n\n【2026/8/13】Jamendo 於開庭前提出自願撤回訴狀（without prejudice，得日後再訴），撤告原因未附具說明，亦未提及與 Suno 達成和解"
+ },
+ {
+  "case_id": 160,
+  "name": "AAP 13 家出版商 v. WeLib（盜版影子圖書館）",
+  "court": "S.D.N.Y. 1:26-cv-05064（caption：Apress Media, LLC v. WeLib）",
+  "judge": "Victor Marrero",
+  "status": "active",
+  "primary_docket_id": "73488419",
+  "secondary_docket_ids": [],
+  "progress_excerpt": "【2026/6/16】13 家出版商經 AAP 統籌於紐約南區聯邦地院對 WeLib 提起著作權侵權訴訟，指控其複製 Anna's Archive 原始碼與內容營運營利型盜版平台、託管逾 4,300 萬本書與 9,800 萬篇論文，並向 AI 公司募款換取供訓練之高速存取；請求對逾 20 家域名註冊商與 ISP 核發全球域名下架永久禁制令。"
  },
  {
   "case_id": 163,
@@ -1260,5 +1270,15 @@
   "primary_docket_id": 74720572,
   "secondary_docket_ids": [],
   "progress_excerpt": "2026-08-28 起訴，繫屬中。"
+ },
+ {
+  "case_id": 171,
+  "name": "USA Today Co., Inc. v. OpenAI Foundation",
+  "court": "S.D.N.Y. 1:26-cv-08892",
+  "judge": "待分派",
+  "status": "active",
+  "primary_docket_id": 74935682,
+  "secondary_docket_ids": [],
+  "progress_excerpt": "【2026/10/8】Rothwell Figg 代理 USA TODAY Co. 及旗下報業於 S.D.N.Y. 起訴 OpenAI 七家關係企業（1:26-cv-08892），求償逾 2.5 億美元；起訴狀大量援引 In re OpenAI MDL（25-md-3143）已解封之內部文件，預期將聲請併入 Stein 法官之 MDL 程序。"
  }
 ]
