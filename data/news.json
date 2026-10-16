@@ -6,6 +6,16 @@
   "data": {
     "items": [
       {
+        "addedAt": "2026-10-17",
+        "text": "【2026/10/16】NYT v. Microsoft/OpenAI（S.D.N.Y. MDL，Stein 法官）：原告出版商揭露較少遮蔽版本之即決判決聲請，載 Microsoft 內部數據顯示 Copilot 答案引擎致 NYT／Daily News 網域點擊率下滑 83%至93%，作為市場替代性證據",
+        "url": "https://www.mlex.com/mlex/intellectual-property/articles/2539176"
+      },
+      {
+        "addedAt": "2026-10-17",
+        "text": "【2026/10/16】BMG Rights Management v. Anthropic（N.D. Cal. 5:26-cv-02334，Lee 法官）：Anthropic 聲請駁回 BMG 部分訴狀，主張 BMG 未能指出 Claude 具體侵權輸出，CEO 本人亦聲請駁回直接侵權指控",
+        "url": "https://chatgptiseatingtheworld.com/2026/10/16/anthropic-seeks-partial-dismissal-of-bmgs-claims/"
+      },
+      {
         "addedAt": "2026-10-15",
         "text": "【2026/10/12】Thomson Reuters v. ROSS Intelligence（3d Cir. 25-2153）：ROSS 具狀聲請展延全院合議庭重審（en banc rehearing）聲請期限，自 10/13 延至 11/3，確認將先聲請全院重審、再考慮向最高法院申請調卷令",
         "url": "https://www.mediapost.com/publications/article/418680/ai-company-plans-to-seek-new-hearing-in-copyright.html"
@@ -14,14 +24,14 @@
         "addedAt": "2026-10-15",
         "text": "【2026/10/12】S.A. Jamendo v. NVIDIA（N.D. Cal. 5:26-cv-11754，新案號）：Jamendo 於 10/9 撤回首次對 NVIDIA 告訴後，三日內以近乎相同主張（Fugatto、Audio Flamingo 模型使用 MTG-Jamendo 55,000 曲資料集逾越非商業授權範圍）重新提起訴訟，撤告與重訴理由均未附具說明",
         "url": "https://chatgptiseatingtheworld.com/2026/10/13/oddy-sa-jamendo-has-filed-a-new-lawsuit-v-nvidia-after-voluntarily-dismissing-the-1st-one-it-filed-v-nvidia/"
-      },
+      }
+    ],
+    "archive": [
       {
         "addedAt": "2026-10-12",
         "text": "【2026/10/11】James v. Together Computer（N.D. Cal., RedPajama 資料集訴訟）：作家 Darius James 具狀自願撤回本案原告資格，為其繼 Cerebras 案後第二次撤告，其他原告續行訴訟",
         "url": "https://chatgptiseatingtheworld.com/2026/10/11/darius-james-drops-out-of-2d-suit-this-one-v-together-computer/"
-      }
-    ],
-    "archive": [
+      },
       {
         "addedAt": "2026-10-12",
         "text": "【2026/10/11】EVOX Productions v. Google（N.D. Cal. 5:26-cv-07013）：Lee 法官裁定本案與 In re Google Gen AI Litigation 關連併案，原告主張 Google 以 LAION-400M 資料集訓練 Imagen 系列模型、逾越授權範圍並違反 DMCA",
@@ -750,5 +760,5 @@
     ]
   },
   "lastUpdatedBy": "add_news.py",
-  "lastUpdatedAt": "2026-10-15T07:10:29.309166+08:00"
+  "lastUpdatedAt": "2026-10-17T07:10:20.776670+08:00"
 }
