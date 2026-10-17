@@ -1951,7 +1951,7 @@
 </div>
 
 <footer>
-  &copy; 2026 AI Copyright Litigation Tracker &mdash; 案件資料來源：美國聯邦法院公開紀錄、CourtListener   每日快訊最近更新: 2026-10-17
+  &copy; 2026 AI Copyright Litigation Tracker &mdash; 案件資料來源：美國聯邦法院公開紀錄、CourtListener   每日快訊最近更新: 2026-10-18
 </footer>
 
 <script>
@@ -11483,7 +11483,7 @@ const cases = [
     ],
     "defendants": "Stability AI, Inc.、Runway AI、DeviantArt、Hugging Face",
     "issues": "汽車商業攝影公司 EVOX Productions 控告四家 AI 業者（2:26-cv-07201，2026/7/2 立案），主張逾 10 萬張汽車攝影作品遭未經授權用於 AI 訓練，並首次將開源平台 Hugging Face 列為被告——指其網站直接存放並散布含 225 張 EVOX 照片的 Stanford Cars 資料集（下載逾 9 萬次）。EVOX 此前已就 ImageNet 資料集控告 Stanford 大學。本案為美國第 125 件 AI 著作權訴訟。",
-    "progress": "剛立案。起訴狀附有註冊攝影作品與 AI 生成輸出的並列比對。\n\n【2026/7/2】汽車商業攝影圖庫 EVOX 控告 Stability AI、Runway AI、DeviantArt 與 Hugging Face，主張逾 10 萬張受著作權保護汽車攝影作品經由 Stanford Cars／ImageNet 衍生資料集未經授權用於訓練圖像生成模型；首次將開源模型代管平台 Hugging Face 列為直接侵權被告，指其代管並散布含 225 張 EVOX 照片之資料集、下載逾 9 萬次。\n\n【2026/9/7】被告 Hugging Face（近期由 NVIDIA 收購）未答辯，EVOX 取得對其缺席判決（default judgment）；Stability AI、Runway AI、DeviantArt 已答辯，訴訟繼續進行。",
+    "progress": "剛立案。起訴狀附有註冊攝影作品與 AI 生成輸出的並列比對。\n\n【2026/7/2】汽車商業攝影圖庫 EVOX 控告 Stability AI、Runway AI、DeviantArt 與 Hugging Face，主張逾 10 萬張受著作權保護汽車攝影作品經由 Stanford Cars／ImageNet 衍生資料集未經授權用於訓練圖像生成模型；首次將開源模型代管平台 Hugging Face 列為直接侵權被告，指其代管並散布含 225 張 EVOX 照片之資料集、下載逾 9 萬次。\n\n【2026/9/7】被告 Hugging Face（近期由 NVIDIA 收購）未答辯，EVOX 取得對其缺席判決（default judgment）；Stability AI、Runway AI、DeviantArt 已答辯，訴訟繼續進行。\n\n【2026/10/12】被告 Stability AI、Runway AI、DeviantArt 同日各自具狀聲請駁回 EVOX 著作權訴狀（Hugging Face 已先遭缺席判決、不在本次動議之列），部分主張時效抗辯",
     "taiwan": "資料集「代管平台」（而非模型開發商）被列為直接侵權被告屬重大擴張，對台灣的資料集分享平台與學術機構是明確警訊。",
     "jurisdiction": "us",
     "country": "🇺🇸 美國",
@@ -11494,7 +11494,7 @@ const cases = [
     "sourceCount": 1,
     "docket": null,
     "filedAt": null,
-    "updatedAt": "2026-09-13",
+    "updatedAt": "2026-10-18",
     "claimsDetail": null,
     "claimsVerifiedAt": null
   },
@@ -14189,6 +14189,11 @@ buildRegionMap();
 // 每筆需含 addedAt（YYYY-MM-DD，台北時區），代表「條目加入 dashboard 之日期」
 const newsItems = [
   {
+    "addedAt": "2026-10-18",
+    "text": "【2026/10/12】EVOX Productions v. Stability AI, Runway AI, DeviantArt（C.D. Cal. 2:26-cv-07201）：三名被告（Hugging Face 已遭缺席判決）同日各自具狀聲請駁回 EVOX 著作權訴狀，部分主張時效抗辯",
+    "url": "https://chatgptiseatingtheworld.com/2026/10/16/stability-ai-deviantart-runway-ai-each-file-motions-to-dismiss-evox-productions-claims/"
+  },
+  {
     "addedAt": "2026-10-17",
     "text": "【2026/10/16】NYT v. Microsoft/OpenAI（S.D.N.Y. MDL，Stein 法官）：原告出版商揭露較少遮蔽版本之即決判決聲請，載 Microsoft 內部數據顯示 Copilot 答案引擎致 NYT／Daily News 網域點擊率下滑 83%至93%，作為市場替代性證據",
     "url": "https://www.mlex.com/mlex/intellectual-property/articles/2539176"
@@ -14197,7 +14202,12 @@ const newsItems = [
     "addedAt": "2026-10-17",
     "text": "【2026/10/16】BMG Rights Management v. Anthropic（N.D. Cal. 5:26-cv-02334，Lee 法官）：Anthropic 聲請駁回 BMG 部分訴狀，主張 BMG 未能指出 Claude 具體侵權輸出，CEO 本人亦聲請駁回直接侵權指控",
     "url": "https://chatgptiseatingtheworld.com/2026/10/16/anthropic-seeks-partial-dismissal-of-bmgs-claims/"
-  },
+  }
+];
+
+// newsArchive: 已超過 3 天而從 newsItems 移除之歷史快訊（新者在上）
+// 由 daily-brief.sh 每日自動 prepend；展開於畫面下方「歷史快訊 Archive」區塊
+const newsArchive = [
   {
     "addedAt": "2026-10-15",
     "text": "【2026/10/12】Thomson Reuters v. ROSS Intelligence（3d Cir. 25-2153）：ROSS 具狀聲請展延全院合議庭重審（en banc rehearing）聲請期限，自 10/13 延至 11/3，確認將先聲請全院重審、再考慮向最高法院申請調卷令",
@@ -14207,12 +14217,7 @@ const newsItems = [
     "addedAt": "2026-10-15",
     "text": "【2026/10/12】S.A. Jamendo v. NVIDIA（N.D. Cal. 5:26-cv-11754，新案號）：Jamendo 於 10/9 撤回首次對 NVIDIA 告訴後，三日內以近乎相同主張（Fugatto、Audio Flamingo 模型使用 MTG-Jamendo 55,000 曲資料集逾越非商業授權範圍）重新提起訴訟，撤告與重訴理由均未附具說明",
     "url": "https://chatgptiseatingtheworld.com/2026/10/13/oddy-sa-jamendo-has-filed-a-new-lawsuit-v-nvidia-after-voluntarily-dismissing-the-1st-one-it-filed-v-nvidia/"
-  }
-];
-
-// newsArchive: 已超過 3 天而從 newsItems 移除之歷史快訊（新者在上）
-// 由 daily-brief.sh 每日自動 prepend；展開於畫面下方「歷史快訊 Archive」區塊
-const newsArchive = [
+  },
   {
     "addedAt": "2026-10-12",
     "text": "【2026/10/11】James v. Together Computer（N.D. Cal., RedPajama 資料集訴訟）：作家 Darius James 具狀自願撤回本案原告資格，為其繼 Cerebras 案後第二次撤告，其他原告續行訴訟",

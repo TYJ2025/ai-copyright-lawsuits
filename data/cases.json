@@ -7792,7 +7792,7 @@
    ],
    "defendants": "Stability AI, Inc.、Runway AI、DeviantArt、Hugging Face",
    "issues": "汽車商業攝影公司 EVOX Productions 控告四家 AI 業者（2:26-cv-07201，2026/7/2 立案），主張逾 10 萬張汽車攝影作品遭未經授權用於 AI 訓練，並首次將開源平台 Hugging Face 列為被告——指其網站直接存放並散布含 225 張 EVOX 照片的 Stanford Cars 資料集（下載逾 9 萬次）。EVOX 此前已就 ImageNet 資料集控告 Stanford 大學。本案為美國第 125 件 AI 著作權訴訟。",
-   "progress": "剛立案。起訴狀附有註冊攝影作品與 AI 生成輸出的並列比對。\n\n【2026/7/2】汽車商業攝影圖庫 EVOX 控告 Stability AI、Runway AI、DeviantArt 與 Hugging Face，主張逾 10 萬張受著作權保護汽車攝影作品經由 Stanford Cars／ImageNet 衍生資料集未經授權用於訓練圖像生成模型；首次將開源模型代管平台 Hugging Face 列為直接侵權被告，指其代管並散布含 225 張 EVOX 照片之資料集、下載逾 9 萬次。\n\n【2026/9/7】被告 Hugging Face（近期由 NVIDIA 收購）未答辯，EVOX 取得對其缺席判決（default judgment）；Stability AI、Runway AI、DeviantArt 已答辯，訴訟繼續進行。",
+   "progress": "剛立案。起訴狀附有註冊攝影作品與 AI 生成輸出的並列比對。\n\n【2026/7/2】汽車商業攝影圖庫 EVOX 控告 Stability AI、Runway AI、DeviantArt 與 Hugging Face，主張逾 10 萬張受著作權保護汽車攝影作品經由 Stanford Cars／ImageNet 衍生資料集未經授權用於訓練圖像生成模型；首次將開源模型代管平台 Hugging Face 列為直接侵權被告，指其代管並散布含 225 張 EVOX 照片之資料集、下載逾 9 萬次。\n\n【2026/9/7】被告 Hugging Face（近期由 NVIDIA 收購）未答辯，EVOX 取得對其缺席判決（default judgment）；Stability AI、Runway AI、DeviantArt 已答辯，訴訟繼續進行。\n\n【2026/10/12】被告 Stability AI、Runway AI、DeviantArt 同日各自具狀聲請駁回 EVOX 著作權訴狀（Hugging Face 已先遭缺席判決、不在本次動議之列），部分主張時效抗辯",
    "taiwan": "資料集「代管平台」（而非模型開發商）被列為直接侵權被告屬重大擴張，對台灣的資料集分享平台與學術機構是明確警訊。",
    "jurisdiction": "us",
    "country": "🇺🇸 美國",
@@ -7803,7 +7803,7 @@
    "sourceCount": 1,
    "docket": null,
    "filedAt": null,
-   "updatedAt": "2026-09-13",
+   "updatedAt": "2026-10-18",
    "claimsDetail": null,
    "claimsVerifiedAt": null
   },
