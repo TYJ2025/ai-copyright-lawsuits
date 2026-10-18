@@ -6,6 +6,21 @@
   "data": {
     "items": [
       {
+        "addedAt": "2026-10-19",
+        "text": "【2026/10/16】In re OpenAI Copyright Infringement Litigation（S.D.N.Y. MDL, 1:25-md-03143）：Wired 雜誌創辦主編、紐時暢銷作家 Kevin Kelly 具狀聲請提交法庭之友意見書，立場罕見地支持 OpenAI 合理使用抗辯，與其他原告作家陣營相反",
+        "url": "https://chatgptiseatingtheworld.com/2026/10/17/kevin-kelly-nyt-bestselling-book-author-founding-executive-editor-of-wired-magazine-files-proposed-amicus-brief-in-support-of-openais-fair-use/"
+      },
+      {
+        "addedAt": "2026-10-19",
+        "text": "【2026/10/17】韓國出版界發起「No Books, No AI」全國連署：158 個團體與 321 位個人（含作家韓江、黃晢暎）要求 AI 業者公開訓練資料來源與法律依據並給予合理補償，連署直接援引 Bartz v. Anthropic 美國和解案及韓江作品列入受償清單為由",
+        "url": "https://thenewpublishingstandard.com/2026/10/17/korean-publishers-ai-compensation-appeal/"
+      },
+      {
+        "addedAt": "2026-10-19",
+        "text": "【2026/10/19】Bartz v. Anthropic（N.D. Cal. 3:24-cv-05417）：韓國中央日報調查報導揭露「Project Panama」計劃細節，Anthropic 經 Better World Books 向南韓 Woongjin Booxen（約 165.69 公噸、逾 41 萬冊韓文書）、日本 Nippan IPS（122 公噸日文書）、台灣 United Distribution Co.（563.143 公噸中文書）大量採購實體書籍供 AI 訓練，三地現行著作權法均未規範 AI 訓練使用",
+        "url": "https://www.koreajoongangdaily.com/lifestyle/korean-japanese-taiwanese-books-targeted-in-anthropics-project-panama-hunt-for-ai-training-material/12925754"
+      },
+      {
         "addedAt": "2026-10-18",
         "text": "【2026/10/12】EVOX Productions v. Stability AI, Runway AI, DeviantArt（C.D. Cal. 2:26-cv-07201）：三名被告（Hugging Face 已遭缺席判決）同日各自具狀聲請駁回 EVOX 著作權訴狀，部分主張時效抗辯",
         "url": "https://chatgptiseatingtheworld.com/2026/10/16/stability-ai-deviantart-runway-ai-each-file-motions-to-dismiss-evox-productions-claims/"
@@ -765,5 +780,5 @@
     ]
   },
   "lastUpdatedBy": "add_news.py",
-  "lastUpdatedAt": "2026-10-18T07:09:52.289579+08:00"
+  "lastUpdatedAt": "2026-10-19T07:11:12.267610+08:00"
 }
