@@ -6,6 +6,21 @@
   "data": {
     "items": [
       {
+        "addedAt": "2026-10-20",
+        "text": "【2026/10/19】加拿大新聞出版商聯盟（Postmedia、Torstar、《環球郵報》、加拿大新聞社等）對 Anthropic 提起新訴（安大略高等法院）：指控 Anthropic 未經授權爬取約 1,350 萬篇付費牆內容訓練 Claude、規避技術保護措施並違反網站使用條款，求償每件最高 2 萬加幣法定賠償；為同一聯盟繼 2024 年控告 OpenAI 案後另一件新訴（起訴狀 10/6 提出，10/19 見諸主流媒體報導）",
+        "url": "https://www.cbc.ca/news/business/anthropic-postmedia-torstar-globe-canadian-press-copyright-lawsuit-9.7387205"
+      },
+      {
+        "addedAt": "2026-10-20",
+        "text": "【2026/10/19】Older v. Meta Platforms（N.D. Cal.，預期併案予 Chhabria 法官）：同日由作家 Daniel José Older 領銜 57 名書籍作者對 Meta 提起平行訴訟，主張理論與 Winspear 案相同（LLaMA 盜版訓練＋Muse／Project Vellum 實體書掃描），為美國第 150 件 AI 著作權訴訟",
+        "url": "https://chatgptiseatingtheworld.com/2026/10/19/historic-moment-copyright-suits-v-ai-cos-hits-150-older-v-meta-another-book-author-suit-filed-on-same-day-as-winspear-v-meta/"
+      },
+      {
+        "addedAt": "2026-10-20",
+        "text": "【2026/10/19】Winspear v. Meta Platforms（N.D. Cal.，預期分案予 Chhabria 法官）：暢銷作家 Jacqueline Winspear 領銜 59 名書籍作者對 Meta 提起新訴，除沿用 LLaMA 訓練盜版書籍（torrenting）理論外，首度主張 Meta「Project Vellum」計畫掃描合法持有實體書籍訓練新款 Muse 模型亦構成侵權，為美國第 149 件 AI 著作權訴訟",
+        "url": "https://chatgptiseatingtheworld.com/2026/10/19/book-authors-jacqueline-winspear-et-al-sue-meta-for-both-llama-and-new-muse-models-infringement-alleged-not-only-for-torrenting-but-also-for-scanning-physical-books-in-project-vellum/"
+      },
+      {
         "addedAt": "2026-10-19",
         "text": "【2026/10/16】In re OpenAI Copyright Infringement Litigation（S.D.N.Y. MDL, 1:25-md-03143）：Wired 雜誌創辦主編、紐時暢銷作家 Kevin Kelly 具狀聲請提交法庭之友意見書，立場罕見地支持 OpenAI 合理使用抗辯，與其他原告作家陣營相反",
         "url": "https://chatgptiseatingtheworld.com/2026/10/17/kevin-kelly-nyt-bestselling-book-author-founding-executive-editor-of-wired-magazine-files-proposed-amicus-brief-in-support-of-openais-fair-use/"
@@ -24,7 +39,9 @@
         "addedAt": "2026-10-18",
         "text": "【2026/10/12】EVOX Productions v. Stability AI, Runway AI, DeviantArt（C.D. Cal. 2:26-cv-07201）：三名被告（Hugging Face 已遭缺席判決）同日各自具狀聲請駁回 EVOX 著作權訴狀，部分主張時效抗辯",
         "url": "https://chatgptiseatingtheworld.com/2026/10/16/stability-ai-deviantart-runway-ai-each-file-motions-to-dismiss-evox-productions-claims/"
-      },
+      }
+    ],
+    "archive": [
       {
         "addedAt": "2026-10-17",
         "text": "【2026/10/16】NYT v. Microsoft/OpenAI（S.D.N.Y. MDL，Stein 法官）：原告出版商揭露較少遮蔽版本之即決判決聲請，載 Microsoft 內部數據顯示 Copilot 答案引擎致 NYT／Daily News 網域點擊率下滑 83%至93%，作為市場替代性證據",
@@ -34,9 +51,7 @@
         "addedAt": "2026-10-17",
         "text": "【2026/10/16】BMG Rights Management v. Anthropic（N.D. Cal. 5:26-cv-02334，Lee 法官）：Anthropic 聲請駁回 BMG 部分訴狀，主張 BMG 未能指出 Claude 具體侵權輸出，CEO 本人亦聲請駁回直接侵權指控",
         "url": "https://chatgptiseatingtheworld.com/2026/10/16/anthropic-seeks-partial-dismissal-of-bmgs-claims/"
-      }
-    ],
-    "archive": [
+      },
       {
         "addedAt": "2026-10-15",
         "text": "【2026/10/12】Thomson Reuters v. ROSS Intelligence（3d Cir. 25-2153）：ROSS 具狀聲請展延全院合議庭重審（en banc rehearing）聲請期限，自 10/13 延至 11/3，確認將先聲請全院重審、再考慮向最高法院申請調卷令",
@@ -780,5 +795,5 @@
     ]
   },
   "lastUpdatedBy": "add_news.py",
-  "lastUpdatedAt": "2026-10-19T07:11:12.267610+08:00"
+  "lastUpdatedAt": "2026-10-20T07:10:47.639197+08:00"
 }
