@@ -810,5 +810,50 @@
     "appliedAt": "2026-10-13T19:30:00+08:00",
     "decidedBy": "manual (YJ 2026-10-13)",
     "autoNote": "自動分流：起訴狀含 AI 關鍵詞：diffusion model"
+  },
+  {
+    "title": "Hirschfield v. Graham",
+    "url": "https://www.courtlistener.com/docket/74978948/hirschfield-v-graham/",
+    "subtitle": "District Court, C.D. California · 2:26-cv-12115 · filed 2026-10-16",
+    "note": "自動分流：起訴狀全文無任何 AI 關鍵詞（非 AI 案）",
+    "decidedAt": "2026-10-19T08:00:16+08:00",
+    "appliedAt": "2026-10-19T08:00:16+08:00",
+    "decidedBy": "auto-triage"
+  },
+  {
+    "title": "Brown v. Estate of Willie C. Cobbs",
+    "url": "https://www.courtlistener.com/docket/74971737/brown-v-estate-of-willie-c-cobbs/",
+    "subtitle": "District Court, N.D. Illinois · 1:26-cv-12656 · filed 2026-10-15",
+    "note": "自動分流：起訴狀全文無任何 AI 關鍵詞（非 AI 案）",
+    "decidedAt": "2026-10-19T08:00:16+08:00",
+    "appliedAt": "2026-10-19T08:00:16+08:00",
+    "decidedBy": "auto-triage"
+  },
+  {
+    "title": "Music L.A.A Inc dba LAA Music v. ONER ACTIVE USA LLC",
+    "url": "https://www.courtlistener.com/docket/74966540/music-laa-inc-dba-laa-music-v-oner-active-usa-llc/",
+    "subtitle": "District Court, E.D. Michigan · 2:26-cv-13928 · filed 2026-10-15",
+    "note": "自動分流：起訴狀全文無任何 AI 關鍵詞（非 AI 案）",
+    "decidedAt": "2026-10-19T08:00:16+08:00",
+    "appliedAt": "2026-10-19T08:00:16+08:00",
+    "decidedBy": "auto-triage"
+  },
+  {
+    "title": "Acute Mastery LLC v. Zexin",
+    "url": "https://www.courtlistener.com/docket/74952150/acute-mastery-llc-v-zexin/",
+    "subtitle": "District Court, W.D. Washington · 2:26-cv-03879 · filed 2026-10-13",
+    "note": "自動分流：起訴狀全文無任何 AI 關鍵詞（非 AI 案）",
+    "decidedAt": "2026-10-19T08:00:16+08:00",
+    "appliedAt": "2026-10-19T08:00:16+08:00",
+    "decidedBy": "auto-triage"
+  },
+  {
+    "title": "Philips North America, LLC. v. Jordan II",
+    "url": "https://www.courtlistener.com/docket/74950637/philips-north-america-llc-v-jordan-ii/",
+    "subtitle": "District Court, N.D. Illinois · 1:26-cv-12494 · filed 2026-10-12",
+    "note": "自動分流：起訴狀全文無任何 AI 關鍵詞（非 AI 案）",
+    "decidedAt": "2026-10-19T08:00:16+08:00",
+    "appliedAt": "2026-10-19T08:00:16+08:00",
+    "decidedBy": "auto-triage"
   }
 ]

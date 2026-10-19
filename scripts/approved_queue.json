@@ -134,5 +134,14 @@
     "decidedBy": "auto-triage",
     "listedAt": "2026-10-13T19:20:00+08:00",
     "listedNote": "case 171"
+  },
+  {
+    "title": "UMG Recordings, Inc. v. Suno, Inc.",
+    "url": "https://www.courtlistener.com/docket/74958474/umg-recordings-inc-v-suno-inc/",
+    "subtitle": "District Court, N.D. California · 3:26-mc-80303 · filed 2026-10-13",
+    "note": "自動分流：當事人含 AI 業者：Suno",
+    "decidedAt": "2026-10-19T08:00:16+08:00",
+    "appliedAt": "2026-10-19T08:00:16+08:00",
+    "decidedBy": "auto-triage"
   }
 ]
