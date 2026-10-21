@@ -6,6 +6,21 @@
   "data": {
     "items": [
       {
+        "addedAt": "2026-10-22",
+        "text": "【2026/10/20】Meta 書籍作者訴訟新策略：原告律所 Freedman Normand Friedland 繼 Older、Winspear 兩訴後再提 3 件近乎相同之個人訴訟（Sheard、Reno 等領銜），5 件合計 292 名作者選擇個別提告而非加入 class action 以避免稀釋賠償，律師稱已代表逾 2,200 名作者、年底前計劃累計提告至千人規模",
+        "url": "https://chatgptiseatingtheworld.com/2026/10/20/after-filing-5-near-identical-suits-for-292-book-authors-v-meta-plaintiffs-firms-say-total-will-reach-1000-plaintiffs-new-strategy-in-ai-copyright-wars-who-needs-class-actions/"
+      },
+      {
+        "addedAt": "2026-10-22",
+        "text": "【2026/10/21】Concord Music v. Anthropic I（N.D. Cal. 5:24-cv-03811，Lee 法官）：就雙方交互即決判決與 Daubert 聲請召開言詞辯論，為 Bartz、Kadrey 二案裁定後一年半以來，首位地院法官就 AI 訓練合理使用召開即決判決庭期",
+        "url": "https://chatgptiseatingtheworld.com/2026/10/21/judge-lee-hears-sj-motions-in-concord-music-v-anthropic-i-the-1st-district-judge-to-consider-fair-use-since-bartz-and-kadrey/"
+      },
+      {
+        "addedAt": "2026-10-22",
+        "text": "【2026/10/20】Kadrey v. Meta Platforms（N.D. Cal.）：Hixson 治安法官裁定命 Meta 揭露核准以 BitTorrent 自 LibGen（約 80.6 公噸）與 Anna's Archive（約 35.7 公噸）下載盜版書籍訓練 LLaMA 之決策者名單，含主管與團體決議層級，不限實際下載之工程師；同一裁定及於 Entrepreneur Media 平行訴訟",
+        "url": "https://www.techtimes.com/articles/329304/20261021/metas-copyright-win-left-seeding-liability-intact-judge-orders-executive-disclosures.htm"
+      },
+      {
         "addedAt": "2026-10-20",
         "text": "【2026/10/19】加拿大新聞出版商聯盟（Postmedia、Torstar、《環球郵報》、加拿大新聞社等）對 Anthropic 提起新訴（安大略高等法院）：指控 Anthropic 未經授權爬取約 1,350 萬篇付費牆內容訓練 Claude、規避技術保護措施並違反網站使用條款，求償每件最高 2 萬加幣法定賠償；為同一聯盟繼 2024 年控告 OpenAI 案後另一件新訴（起訴狀 10/6 提出，10/19 見諸主流媒體報導）",
         "url": "https://www.cbc.ca/news/business/anthropic-postmedia-torstar-globe-canadian-press-copyright-lawsuit-9.7387205"
@@ -19,7 +34,9 @@
         "addedAt": "2026-10-20",
         "text": "【2026/10/19】Winspear v. Meta Platforms（N.D. Cal.，預期分案予 Chhabria 法官）：暢銷作家 Jacqueline Winspear 領銜 59 名書籍作者對 Meta 提起新訴，除沿用 LLaMA 訓練盜版書籍（torrenting）理論外，首度主張 Meta「Project Vellum」計畫掃描合法持有實體書籍訓練新款 Muse 模型亦構成侵權，為美國第 149 件 AI 著作權訴訟",
         "url": "https://chatgptiseatingtheworld.com/2026/10/19/book-authors-jacqueline-winspear-et-al-sue-meta-for-both-llama-and-new-muse-models-infringement-alleged-not-only-for-torrenting-but-also-for-scanning-physical-books-in-project-vellum/"
-      },
+      }
+    ],
+    "archive": [
       {
         "addedAt": "2026-10-19",
         "text": "【2026/10/16】In re OpenAI Copyright Infringement Litigation（S.D.N.Y. MDL, 1:25-md-03143）：Wired 雜誌創辦主編、紐時暢銷作家 Kevin Kelly 具狀聲請提交法庭之友意見書，立場罕見地支持 OpenAI 合理使用抗辯，與其他原告作家陣營相反",
@@ -39,9 +56,7 @@
         "addedAt": "2026-10-18",
         "text": "【2026/10/12】EVOX Productions v. Stability AI, Runway AI, DeviantArt（C.D. Cal. 2:26-cv-07201）：三名被告（Hugging Face 已遭缺席判決）同日各自具狀聲請駁回 EVOX 著作權訴狀，部分主張時效抗辯",
         "url": "https://chatgptiseatingtheworld.com/2026/10/16/stability-ai-deviantart-runway-ai-each-file-motions-to-dismiss-evox-productions-claims/"
-      }
-    ],
-    "archive": [
+      },
       {
         "addedAt": "2026-10-17",
         "text": "【2026/10/16】NYT v. Microsoft/OpenAI（S.D.N.Y. MDL，Stein 法官）：原告出版商揭露較少遮蔽版本之即決判決聲請，載 Microsoft 內部數據顯示 Copilot 答案引擎致 NYT／Daily News 網域點擊率下滑 83%至93%，作為市場替代性證據",
@@ -795,5 +810,5 @@
     ]
   },
   "lastUpdatedBy": "add_news.py",
-  "lastUpdatedAt": "2026-10-20T07:10:47.639197+08:00"
+  "lastUpdatedAt": "2026-10-22T07:09:17.083409+08:00"
 }
