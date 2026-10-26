@@ -143,5 +143,32 @@
     "decidedAt": "2026-10-19T08:00:16+08:00",
     "appliedAt": "2026-10-19T08:00:16+08:00",
     "decidedBy": "auto-triage"
+  },
+  {
+    "title": "Reservoir Media Management, Inc. v. Anthropic PBC",
+    "url": "https://www.courtlistener.com/docket/75002159/reservoir-media-management-inc-v-anthropic-pbc/",
+    "subtitle": "District Court, N.D. California · 5:26-cv-12308 · filed 2026-10-21",
+    "note": "自動分流：當事人含 AI 業者：Anthropic",
+    "decidedAt": "2026-10-26T08:00:11+08:00",
+    "appliedAt": "2026-10-26T08:00:11+08:00",
+    "decidedBy": "auto-triage"
+  },
+  {
+    "title": "Reservoir Media Management, Inc. v. Suno, Inc.",
+    "url": "https://www.courtlistener.com/docket/75002053/reservoir-media-management-inc-v-suno-inc/",
+    "subtitle": "District Court, N.D. California · 3:26-cv-12305 · filed 2026-10-21",
+    "note": "自動分流：當事人含 AI 業者：Suno",
+    "decidedAt": "2026-10-26T08:00:11+08:00",
+    "appliedAt": "2026-10-26T08:00:11+08:00",
+    "decidedBy": "auto-triage"
+  },
+  {
+    "title": "Levine v. Meta Platforms, Inc.",
+    "url": "https://www.courtlistener.com/docket/74987828/levine-v-meta-platforms-inc/",
+    "subtitle": "District Court, N.D. California · 3:26-cv-12137 · filed 2026-10-19",
+    "note": "自動分流：起訴狀含 AI 關鍵詞：generative×23、training data×21、artificial intelligence×8、ai training×6",
+    "decidedAt": "2026-10-26T08:00:11+08:00",
+    "appliedAt": "2026-10-26T08:00:11+08:00",
+    "decidedBy": "auto-triage"
   }
 ]
