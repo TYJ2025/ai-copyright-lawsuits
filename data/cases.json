@@ -2865,8 +2865,8 @@
   {
    "id": 48,
    "name": "Ted Entertainment v. Apple",
-   "court": "C.D. Cal.",
-   "judge": "Edward J. Davila",
+   "court": "N.D. Cal.",
+   "judge": "Richard Seeborg",
    "status": "active",
    "claims": [
     "DMCA §1201"
@@ -2877,7 +2877,7 @@
    ],
    "defendants": "Apple Inc.",
    "issues": "YouTube 影片創作者 Ted Entertainment 控告 Apple 違反 DMCA 第 1201(a) 條的反規避條款（anti-circumvention provision），聲稱 Apple 規避了其影片的技術保護措施以訓練 AI 模型。Ted Entertainment 已先後對 NVIDIA、Meta、Snap、Bytedance 提起類似訴訟，本案為其第五件。\n\n法律爭點：(1) YouTube 影片的 DRM 是否構成 §1201(a) 意義下的「技術保護措施」？(2) AI 公司大規模抓取影片內容是否構成規避行為？(3) §1201(a) 的反規避條款是否可獨立於著作權侵害主張適用？",
-   "progress": "案件於 2026 年 4 月初提起。Ted Entertainment 已累計提起 7 件 DMCA 反規避訴訟，針對多家科技巨頭。此一訴訟策略值得密切關注。",
+   "progress": "案件於 2026 年 4 月初提起。Ted Entertainment 已累計提起 7 件 DMCA 反規避訴訟，針對多家科技巨頭。此一訴訟策略值得密切關注。\n\n【2026/10/9】N.D. Cal.（3:26-cv-02936）Seeborg 法官裁定駁回 Apple 駁回聲請，認 YouTube rolling cipher、proof-of-origin tokens 等措施構成 DMCA 保護之 access control，案件續行",
    "taiwan": "台灣著作權法第 80-2 條關於規避技術保護措施的規定，與 DMCA §1201(a) 類似。台灣 YouTuber 及影片創作者可參考此訴訟策略，評估 AI 爬蟲對其影片的抓取是否構成規避行為。",
    "jurisdiction": "us",
    "country": "🇺🇸 美國",
@@ -2888,7 +2888,7 @@
    "sourceCount": 2,
    "docket": 71972050,
    "filedAt": null,
-   "updatedAt": "2026-08-11",
+   "updatedAt": "2026-10-27",
    "claimsDetail": [
     {
      "count": "FIRST",
@@ -2976,7 +2976,7 @@
   {
    "id": 51,
    "name": "Ted Entertainment v. Bytedance (TikTok)",
-   "court": "C.D. Cal.",
+   "court": "N.D. Cal.",
    "judge": "Jacqueline Scott Corley",
    "status": "active",
    "claims": [
@@ -2988,7 +2988,7 @@
    ],
    "defendants": "Bytedance Ltd.",
    "issues": "Ted Entertainment 對 Bytedance（TikTok 母公司）提起的 DMCA 反規避訴訟。Bytedance 已於 2026 年 4 月提出駁回動議。\n\n本案的關鍵在於 Bytedance 的駁回動議論點——可能挑戰 §1201(a) 在 AI 訓練場景中的適用範圍，以及對「技術保護措施」定義的爭論。",
-   "progress": "Bytedance 已提出駁回動議（motion to dismiss），主張 DMCA 反規避條款不適用於 AI 訓練行為。此駁回動議的裁定將對 Ted Entertainment 其他六件案件產生重大影響。",
+   "progress": "Bytedance 已提出駁回動議（motion to dismiss），主張 DMCA 反規避條款不適用於 AI 訓練行為。此駁回動議的裁定將對 Ted Entertainment 其他六件案件產生重大影響。\n\n【2026/10/2】N.D. Cal.（3:25-cv-10933）Corley 法官裁定駁回 ByteDance 全部駁回聲請，認原告就 YouTube 存取控制措施遭規避已充分陳述 DMCA §1201(a) 請求權要件，案件續行",
    "taiwan": "TikTok/抖音在台灣的合規考量：鑒於 TikTok 在台灣的廣泛使用及其 AI 功能，台灣監管機關應關注本案駁回動議的結果，以評估對台灣短影音平台的潛在影響。",
    "jurisdiction": "us",
    "country": "🇺🇸 美國",
@@ -2999,7 +2999,7 @@
    "sourceCount": 2,
    "docket": 72075006,
    "filedAt": null,
-   "updatedAt": "2026-08-11",
+   "updatedAt": "2026-10-27",
    "claimsDetail": [
     {
      "count": "FIRST",
