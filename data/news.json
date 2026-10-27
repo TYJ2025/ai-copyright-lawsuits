@@ -6,6 +6,11 @@
   "data": {
     "items": [
       {
+        "addedAt": "2026-10-28",
+        "text": "【2026/10/23】Concord Music v. Anthropic I（N.D. Cal. 5:24-cv-03811，Lee 法官）：近 5 小時即決判決言詞辯論後未即時裁定，命雙方 10/26 提交整理後密封文件，Daubert 專家證據聽證續行至 10/30 下午 1 時（Zoom）舉行",
+        "url": "https://chatgptiseatingtheworld.com/2026/10/23/judge-lee-concludes-marathon-hearing-on-summary-judgment-in-concord-music-v-anthropic-i-sets-2d-hearing-to-continue-daubert-hearing-on-oct-30-1-pm/"
+      },
+      {
         "addedAt": "2026-10-27",
         "text": "【2026/10/16】台灣數發部、文化部與經濟部智慧財產局首度共同召開權利人意見交流會議，就 AI 訓練資料利用、授權及合理回饋機制交換意見；智慧局同步研訂「生成式人工智慧著作權指引」草案、數發部研訂「促進資料創新利用發展條例」草案",
         "url": "https://www.cna.com.tw/news/afe/202610220410.aspx"
@@ -14,14 +19,14 @@
         "addedAt": "2026-10-27",
         "text": "【2026/10/2、10/9】Ted Entertainment v. ByteDance（N.D. Cal. 3:25-cv-10933，Corley 法官）、v. Apple（N.D. Cal. 3:26-cv-02936，Seeborg 法官）：YouTube 創作者對六家科技公司併行提起之 DMCA §1201(a) 規避技術保護措施集體訴訟系列中，兩案被告聲請駁回均遭駁回，法院認定 YouTube 之 rolling cipher、CAPTCHA、proof-of-origin tokens 等措施構成 DMCA 保護之「access control」，v. Meta 則已獲准駁回、v. OpenAI／v. Amazon 尚待裁定",
         "url": "https://chatgptiseatingtheworld.com/2026/10/09/apple-loses-bid-to-dismiss-dmca-anti-circumvention-of-youtube-videos-claim/"
-      },
+      }
+    ],
+    "archive": [
       {
         "addedAt": "2026-10-25",
         "text": "【2026/10/23】ABE EPE LLC（Authentic Brands Group 旗下，Elvis Presley 版權管理實體）v. Anthropic（法院與案號待查）：主張 Anthropic 以 274 首 Presley 歌曲訓練 Claude，求償每曲 15 萬美元、合計約 4,100 萬美元，為娛樂遺產權利人首例對 AI 公司提告之著作權案",
         "url": "https://www.rollingstone.com/music/music-news/elvis-presley-rightsholders-anthropic-lawsuit-infringement-1235647682/"
-      }
-    ],
-    "archive": [
+      },
       {
         "addedAt": "2026-10-24",
         "text": "【2026/10/20】UMG Recordings v. Suno（D. Mass. 1:24-cv-11611）：Suno 於 44 頁答辯狀中承認尚未刪除全部用於訓練之錄音母帶，回應 UMG／Sony「洗版（laundering）」侵權主張",
@@ -845,5 +850,5 @@
     ]
   },
   "lastUpdatedBy": "add_news.py",
-  "lastUpdatedAt": "2026-10-27T07:10:48.308825+08:00"
+  "lastUpdatedAt": "2026-10-28T07:11:16.850699+08:00"
 }
