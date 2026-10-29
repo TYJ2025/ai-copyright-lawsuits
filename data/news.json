@@ -6,6 +6,21 @@
   "data": {
     "items": [
       {
+        "addedAt": "2026-10-30",
+        "text": "【2026/10/29】Alcon Entertainment v. Tesla（C.D. Cal.）：雙方就被告 Elon Musk 應否就其疑似使用近似《銀翼殺手 2049》圖像一事受證詞開示提交狀況報告，爭點未解",
+        "url": "https://chatgptiseatingtheworld.com/2026/10/29/should-elon-musk-be-deposed-in-copyright-infringement-case-parties-disagree/"
+      },
+      {
+        "addedAt": "2026-10-30",
+        "text": "【2026/10/29】Ted Entertainment v. OpenAI、NVIDIA、Apple、Amazon、ByteDance、Meta：原告公司 Ted Entertainment 無附帶偏見撤回對六家被告之訴（未附理由），個人原告 Matt Fisher 續列名原告，v. Snap 一案未受影響",
+        "url": "https://chatgptiseatingtheworld.com/2026/10/29/ted-entertainment-abandons-lawsuit-v-openai-but-matt-fisher-remains-as-plaintiff/"
+      },
+      {
+        "addedAt": "2026-10-30",
+        "text": "【2026/10/29】ABG EPE IP LLC v. Anthropic（Elvis 遺產案）：N.D. Cal. 暫分由 Orrick 法官受理，法院評估是否與 Concord Music v. Anthropic 音樂訴訟群關連併案，尚未確定",
+        "url": "https://chatgptiseatingtheworld.com/2026/10/29/abg-epe-ip-llc-v-anthropic-pbc-assigned-to-judge-orrick-for-now-is-it-related-to-concord-music/"
+      },
+      {
         "addedAt": "2026-10-29",
         "text": "【2026/10/27】南韓音樂著作權協會（KOMCA）表態考慮對 Suno 採取法律行動，指逾 6 萬首南韓音樂作品（含 BTS、Psy 等）疑未經授權用於訓練，惟尚未正式提告",
         "url": "https://www.koreajoongangdaily.com/entertainment/bts-psy-songs-among-60000-allegedly-used-by-suno-to-train-ai/12942663"
@@ -24,7 +39,9 @@
         "addedAt": "2026-10-28",
         "text": "【2026/10/23】Concord Music v. Anthropic I（N.D. Cal. 5:24-cv-03811，Lee 法官）：近 5 小時即決判決言詞辯論後未即時裁定，命雙方 10/26 提交整理後密封文件，Daubert 專家證據聽證續行至 10/30 下午 1 時（Zoom）舉行",
         "url": "https://chatgptiseatingtheworld.com/2026/10/23/judge-lee-concludes-marathon-hearing-on-summary-judgment-in-concord-music-v-anthropic-i-sets-2d-hearing-to-continue-daubert-hearing-on-oct-30-1-pm/"
-      },
+      }
+    ],
+    "archive": [
       {
         "addedAt": "2026-10-27",
         "text": "【2026/10/16】台灣數發部、文化部與經濟部智慧財產局首度共同召開權利人意見交流會議，就 AI 訓練資料利用、授權及合理回饋機制交換意見；智慧局同步研訂「生成式人工智慧著作權指引」草案、數發部研訂「促進資料創新利用發展條例」草案",
@@ -34,9 +51,7 @@
         "addedAt": "2026-10-27",
         "text": "【2026/10/2、10/9】Ted Entertainment v. ByteDance（N.D. Cal. 3:25-cv-10933，Corley 法官）、v. Apple（N.D. Cal. 3:26-cv-02936，Seeborg 法官）：YouTube 創作者對六家科技公司併行提起之 DMCA §1201(a) 規避技術保護措施集體訴訟系列中，兩案被告聲請駁回均遭駁回，法院認定 YouTube 之 rolling cipher、CAPTCHA、proof-of-origin tokens 等措施構成 DMCA 保護之「access control」，v. Meta 則已獲准駁回、v. OpenAI／v. Amazon 尚待裁定",
         "url": "https://chatgptiseatingtheworld.com/2026/10/09/apple-loses-bid-to-dismiss-dmca-anti-circumvention-of-youtube-videos-claim/"
-      }
-    ],
-    "archive": [
+      },
       {
         "addedAt": "2026-10-25",
         "text": "【2026/10/23】ABE EPE LLC（Authentic Brands Group 旗下，Elvis Presley 版權管理實體）v. Anthropic（法院與案號待查）：主張 Anthropic 以 274 首 Presley 歌曲訓練 Claude，求償每曲 15 萬美元、合計約 4,100 萬美元，為娛樂遺產權利人首例對 AI 公司提告之著作權案",
@@ -865,5 +880,5 @@
     ]
   },
   "lastUpdatedBy": "add_news.py",
-  "lastUpdatedAt": "2026-10-29T07:10:55.758377+08:00"
+  "lastUpdatedAt": "2026-10-30T07:10:19.790067+08:00"
 }
