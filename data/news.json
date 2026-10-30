@@ -6,6 +6,26 @@
   "data": {
     "items": [
       {
+        "addedAt": "2026-10-31",
+        "text": "【2026/10/30】In re OpenAI Copyright Infringement Litigation（S.D.N.Y. MDL）：聯邦眾議院司法委員會民主黨 Raskin、Nadler、Johnson 提交意見書反對 DOJ 之合理使用立場，指 1976 年著作權法並無國家安全例外",
+        "url": "https://www.shopifreaks.com/house-judiciary-democrats-back-the-new-york-times-against-openai-saying-the-justice-department-overstepped-in-its-fair-use-filing/"
+      },
+      {
+        "addedAt": "2026-10-31",
+        "text": "【2026/10/30】In re OpenAI Copyright Infringement Litigation（S.D.N.Y. MDL）：Cate Blanchett 創辦之 Human Consent Foundation 聯合 CAA 等團體與逾十位好萊塢明星提交意見書，主張現行授權市場已可規模化清理著作權",
+        "url": "https://variety.com/2026/biz/news/cate-blanchett-hollywood-stars-brief-nyt-openai-lawsuit-1236935578/"
+      },
+      {
+        "addedAt": "2026-10-31",
+        "text": "【2026/10/30】In re OpenAI Copyright Infringement Litigation（S.D.N.Y. MDL）：Wikimedia Foundation 提交法庭之友意見書採中間立場，主張 LLM 預訓練應受合理使用保護，惟 ChatGPT 之 RAG 檢索重現原文不應納入保護",
+        "url": "https://wikimediafoundation.org/news/2026/10/30/wikimedia-foundation-amicus-brief-new-york-times-v-open-ai-case/"
+      },
+      {
+        "addedAt": "2026-10-31",
+        "text": "【2026/10/29】In re OpenAI Copyright Infringement Litigation（S.D.N.Y. MDL）：SAG-AFTRA、美國編劇工會（WGA）、美國音樂家聯盟（AFM）聯合提交 34 頁法庭之友意見書，代表逾 25 萬演藝與媒體工作者籲法院駁回合理使用抗辯",
+        "url": "https://deadline.com/2026/10/sag-aftra-wga-afm-openai-copyright-court-battle-brief-1237209138/"
+      },
+      {
         "addedAt": "2026-10-30",
         "text": "【2026/10/29】Alcon Entertainment v. Tesla（C.D. Cal.）：雙方就被告 Elon Musk 應否就其疑似使用近似《銀翼殺手 2049》圖像一事受證詞開示提交狀況報告，爭點未解",
         "url": "https://chatgptiseatingtheworld.com/2026/10/29/should-elon-musk-be-deposed-in-copyright-infringement-case-parties-disagree/"
@@ -34,14 +54,14 @@
         "addedAt": "2026-10-29",
         "text": "【2026/10/27】Anthropic 提交 S-1 首次公開發行（IPO）申報文件，揭露 Bartz v. Anthropic 著作權集體訴訟 15 億美元和解金並未完全為既有責任保險所涵蓋，坦承未來類似著作權求償恐有保險缺口風險，為該和解案首次公開之保險缺口揭露",
         "url": "https://www.theinsurer.com/cyber-risk/news/anthropic-flags-15-billion-copyright-settlement-in-insurance-shortfall-raising-2026-10-27/"
-      },
+      }
+    ],
+    "archive": [
       {
         "addedAt": "2026-10-28",
         "text": "【2026/10/23】Concord Music v. Anthropic I（N.D. Cal. 5:24-cv-03811，Lee 法官）：近 5 小時即決判決言詞辯論後未即時裁定，命雙方 10/26 提交整理後密封文件，Daubert 專家證據聽證續行至 10/30 下午 1 時（Zoom）舉行",
         "url": "https://chatgptiseatingtheworld.com/2026/10/23/judge-lee-concludes-marathon-hearing-on-summary-judgment-in-concord-music-v-anthropic-i-sets-2d-hearing-to-continue-daubert-hearing-on-oct-30-1-pm/"
-      }
-    ],
-    "archive": [
+      },
       {
         "addedAt": "2026-10-27",
         "text": "【2026/10/16】台灣數發部、文化部與經濟部智慧財產局首度共同召開權利人意見交流會議，就 AI 訓練資料利用、授權及合理回饋機制交換意見；智慧局同步研訂「生成式人工智慧著作權指引」草案、數發部研訂「促進資料創新利用發展條例」草案",
@@ -880,5 +900,5 @@
     ]
   },
   "lastUpdatedBy": "add_news.py",
-  "lastUpdatedAt": "2026-10-30T07:10:19.790067+08:00"
+  "lastUpdatedAt": "2026-10-31T07:09:43.431515+08:00"
 }
