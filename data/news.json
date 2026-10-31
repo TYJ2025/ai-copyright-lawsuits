@@ -6,6 +6,11 @@
   "data": {
     "items": [
       {
+        "addedAt": "2026-11-01",
+        "text": "【2026/10/29】挪威媒體聯盟 v. Meta（奧斯陸地院）：NRK、Schibsted、Amedia、Polaris、Aller、NTB 等十家媒體提起訴訟，法院暫時禁止 Meta 新版商業帳戶條款蒐集出版商文章與圖像供 AI 訓練",
+        "url": "https://mlex.com/mlex/antitrust/articles/2543294/meta-sued-by-norwegian-media-publishers-over-ai-scraping"
+      },
+      {
         "addedAt": "2026-10-31",
         "text": "【2026/10/30】In re OpenAI Copyright Infringement Litigation（S.D.N.Y. MDL）：聯邦眾議院司法委員會民主黨 Raskin、Nadler、Johnson 提交意見書反對 DOJ 之合理使用立場，指 1976 年著作權法並無國家安全例外",
         "url": "https://www.shopifreaks.com/house-judiciary-democrats-back-the-new-york-times-against-openai-saying-the-justice-department-overstepped-in-its-fair-use-filing/"
@@ -39,7 +44,9 @@
         "addedAt": "2026-10-30",
         "text": "【2026/10/29】ABG EPE IP LLC v. Anthropic（Elvis 遺產案）：N.D. Cal. 暫分由 Orrick 法官受理，法院評估是否與 Concord Music v. Anthropic 音樂訴訟群關連併案，尚未確定",
         "url": "https://chatgptiseatingtheworld.com/2026/10/29/abg-epe-ip-llc-v-anthropic-pbc-assigned-to-judge-orrick-for-now-is-it-related-to-concord-music/"
-      },
+      }
+    ],
+    "archive": [
       {
         "addedAt": "2026-10-29",
         "text": "【2026/10/27】南韓音樂著作權協會（KOMCA）表態考慮對 Suno 採取法律行動，指逾 6 萬首南韓音樂作品（含 BTS、Psy 等）疑未經授權用於訓練，惟尚未正式提告",
@@ -54,9 +61,7 @@
         "addedAt": "2026-10-29",
         "text": "【2026/10/27】Anthropic 提交 S-1 首次公開發行（IPO）申報文件，揭露 Bartz v. Anthropic 著作權集體訴訟 15 億美元和解金並未完全為既有責任保險所涵蓋，坦承未來類似著作權求償恐有保險缺口風險，為該和解案首次公開之保險缺口揭露",
         "url": "https://www.theinsurer.com/cyber-risk/news/anthropic-flags-15-billion-copyright-settlement-in-insurance-shortfall-raising-2026-10-27/"
-      }
-    ],
-    "archive": [
+      },
       {
         "addedAt": "2026-10-28",
         "text": "【2026/10/23】Concord Music v. Anthropic I（N.D. Cal. 5:24-cv-03811，Lee 法官）：近 5 小時即決判決言詞辯論後未即時裁定，命雙方 10/26 提交整理後密封文件，Daubert 專家證據聽證續行至 10/30 下午 1 時（Zoom）舉行",
@@ -900,5 +905,5 @@
     ]
   },
   "lastUpdatedBy": "add_news.py",
-  "lastUpdatedAt": "2026-10-31T07:09:43.431515+08:00"
+  "lastUpdatedAt": "2026-11-01T07:09:14.983063+08:00"
 }
