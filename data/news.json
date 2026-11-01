@@ -6,6 +6,21 @@
   "data": {
     "items": [
       {
+        "addedAt": "2026-11-02",
+        "text": "【2026/10/30】Rosen v. Pichai 等（N.D. Ill.）：股東 Phil Rosen 對 Google CEO Sundar Pichai 及 Larry Page、Sergey Brin 等董事提起股東代位訴訟，主張渠等明知 AI 訓練涉著作權侵害及 BIPA 生物辨識隱私違規仍未作為，為繼 Rosen v. Cook（Apple）後同一律師之第二件科技公司代位訴訟",
+        "url": "https://chatgptiseatingtheworld.com/2026/10/31/rosen-sues-google-ceo-pichai-and-other-officer-directors-including-larry-page-sergey-brin-john-hennessy-john-doerr-kent-walker-copyright-bipa-shareholder-derivative-suit/"
+      },
+      {
+        "addedAt": "2026-11-02",
+        "text": "【2026/10/31】In re OpenAI Copyright Infringement Litigation（S.D.N.Y. MDL）：美國出版商協會、獨立書商出版商協會、國際 STM 出版商協會與著作權清結中心聯合提交意見書，指 ChatGPT 曾生成與 George R.R. Martin 未出版續作《Winds of Winter》競爭之內容，作為市場替代性損害證據",
+        "url": "https://coralwire.ai/wire/2026-11-01/publishers-tell-court-openais-copying-dilutes-author-markets"
+      },
+      {
+        "addedAt": "2026-11-02",
+        "text": "【2026/10/29】Kadrey v. Meta（N.D. Cal. MDL）：Chhabria 法官裁定將 Hobbs、Older、Sheard 三件書籍作者訴訟關連併入 Kadrey MDL，並預告 Winspear、Reno、Levine 三案將接續併案，統合逾 290 名作者對 Meta LLaMA／Muse 訓練之個別訴訟",
+        "url": "https://chatgptiseatingtheworld.com/2026/10/29/judge-chhabria-relates-hobbs-older-sheard-to-kadrey-v-meta-expect-winspear-reno-levine-to-follow/"
+      },
+      {
         "addedAt": "2026-11-01",
         "text": "【2026/10/29】挪威媒體聯盟 v. Meta（奧斯陸地院）：NRK、Schibsted、Amedia、Polaris、Aller、NTB 等十家媒體提起訴訟，法院暫時禁止 Meta 新版商業帳戶條款蒐集出版商文章與圖像供 AI 訓練",
         "url": "https://mlex.com/mlex/antitrust/articles/2543294/meta-sued-by-norwegian-media-publishers-over-ai-scraping"
@@ -29,7 +44,9 @@
         "addedAt": "2026-10-31",
         "text": "【2026/10/29】In re OpenAI Copyright Infringement Litigation（S.D.N.Y. MDL）：SAG-AFTRA、美國編劇工會（WGA）、美國音樂家聯盟（AFM）聯合提交 34 頁法庭之友意見書，代表逾 25 萬演藝與媒體工作者籲法院駁回合理使用抗辯",
         "url": "https://deadline.com/2026/10/sag-aftra-wga-afm-openai-copyright-court-battle-brief-1237209138/"
-      },
+      }
+    ],
+    "archive": [
       {
         "addedAt": "2026-10-30",
         "text": "【2026/10/29】Alcon Entertainment v. Tesla（C.D. Cal.）：雙方就被告 Elon Musk 應否就其疑似使用近似《銀翼殺手 2049》圖像一事受證詞開示提交狀況報告，爭點未解",
@@ -44,9 +61,7 @@
         "addedAt": "2026-10-30",
         "text": "【2026/10/29】ABG EPE IP LLC v. Anthropic（Elvis 遺產案）：N.D. Cal. 暫分由 Orrick 法官受理，法院評估是否與 Concord Music v. Anthropic 音樂訴訟群關連併案，尚未確定",
         "url": "https://chatgptiseatingtheworld.com/2026/10/29/abg-epe-ip-llc-v-anthropic-pbc-assigned-to-judge-orrick-for-now-is-it-related-to-concord-music/"
-      }
-    ],
-    "archive": [
+      },
       {
         "addedAt": "2026-10-29",
         "text": "【2026/10/27】南韓音樂著作權協會（KOMCA）表態考慮對 Suno 採取法律行動，指逾 6 萬首南韓音樂作品（含 BTS、Psy 等）疑未經授權用於訓練，惟尚未正式提告",
@@ -905,5 +920,5 @@
     ]
   },
   "lastUpdatedBy": "add_news.py",
-  "lastUpdatedAt": "2026-11-01T07:09:14.983063+08:00"
+  "lastUpdatedAt": "2026-11-02T07:11:25.628632+08:00"
 }
