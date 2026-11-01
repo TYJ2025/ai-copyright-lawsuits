@@ -1,6 +1,6 @@
 # Case 18 — Huckabee v. Bloomberg L.P.
 
-> 最後更新（CourtListener fetch）：2026-10-01 01:13 UTC
+> 最後更新（CourtListener fetch）：2026-11-01 01:13 UTC
 
 ---
 
@@ -828,4 +828,4 @@ Notice Regarding Pro Hac Vice Motion
 
 ---
 
-*產生時間：2026-10-01 01:13 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-11-01 01:13 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

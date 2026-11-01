@@ -1,6 +1,6 @@
 # Case 79 — Ted Entertainment, Inc. v. Snap Inc.
 
-> 最後更新（CourtListener fetch）：2026-10-01 01:36 UTC
+> 最後更新（CourtListener fetch）：2026-11-01 01:38 UTC
 
 ---
 
@@ -14,7 +14,7 @@
 | Judge Assigned | Andre Birotte Jr. |
 | Judge Referred | Michael B. Kaufman |
 | Date Filed | 2026-01-23 |
-| Date Last Filing | 2026-09-28 |
+| Date Last Filing | 2026-10-23 |
 | Cause | 17:101 Copyright Infringement |
 | Nature of Suit | 820 Copyright |
 | Jury Demand | Plaintiff |
@@ -34,11 +34,29 @@
 
 - ✅ Court 一致：dashboard 寫「C.D. Cal.」，CourtListener 為「C.D. California」
 - ✅ Judge 一致：dashboard 寫「Andre Birotte Jr.」，CourtListener 為「Andre Birotte Jr.」
-- ℹ️ Dashboard progress 內找不到【YYYY/M/D】格式日期；CourtListener 最後 entry: 2026-09-28
+- ℹ️ Dashboard progress 內找不到【YYYY/M/D】格式日期；CourtListener 最後 entry: 2026-10-23
 
 ## 3. Docket Entries（最新優先，已過濾程序性 entries）
 
-**實質性 entries**：46 筆／**已過濾程序性 entries**：36 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+**實質性 entries**：49 筆／**已過濾程序性 entries**：36 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+
+### 📄 Doc #76 — 2026-10-23
+
+Joint Report Rule 26(f) Discovery Plan
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72185144/76/ted-entertainment-inc-v-snap-inc/)
+
+### 📄 Doc #75 — 2026-10-07
+
+Dismiss Party
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72185144/75/ted-entertainment-inc-v-snap-inc/)
+
+### 📄 Doc #74 — 2026-10-02
+
+Order AND ~Util - Set/Reset Deadlines/Hearings
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72185144/74/ted-entertainment-inc-v-snap-inc/)
 
 ### 📄 Doc #73 — 2026-09-28
 
@@ -342,4 +360,4 @@ Request for Clerk to Issue Summons on Complaint (Attorney Civil Case Opening), 1
 
 ---
 
-*產生時間：2026-10-01 01:36 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-11-01 01:38 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

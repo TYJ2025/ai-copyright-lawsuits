@@ -1,6 +1,6 @@
 # Case 150 — Hachette Book Group, Inc. v. Google LLC
 
-> 最後更新（CourtListener fetch）：2026-10-01 01:51 UTC
+> 最後更新（CourtListener fetch）：2026-11-01 01:51 UTC
 
 ---
 
@@ -13,7 +13,7 @@
 | Court | District Court, S.D. New York (`nysd`) |
 | Judge Assigned | Loretta A. Preska |
 | Date Filed | 2026-07-10 |
-| Date Last Filing | 2026-09-29 |
+| Date Last Filing | 2026-10-29 |
 | Cause | 17:101 Copyright Infringement |
 | Nature of Suit | 820 Copyright |
 | Jury Demand | Plaintiff |
@@ -33,15 +33,69 @@
 
 - ✅ Court 一致：dashboard 寫「S.D.N.Y.」，CourtListener 為「S.D. New York」
 - ⚠️ Judge 可能不一致：dashboard 寫「待分派」，CourtListener 為「Loretta A. Preska」
-- ✅ Dashboard progress 同步：dashboard 最新日期 2026-09-30，CourtListener 最後 entry 2026-09-29（dashboard 不落後）
+- ℹ️ Dashboard progress 略落後 29 天：dashboard 最新日期 2026-09-30，CourtListener 最後 entry 2026-10-29
 
 ## 3. Docket Entries（最新優先，已過濾程序性 entries）
 
-**實質性 entries**：35 筆／**已過濾程序性 entries**：21 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+**實質性 entries**：46 筆／**已過濾程序性 entries**：33 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+
+### 📄 Doc #49 — 2026-10-29
+
+Dismiss
+
+[CourtListener 連結](https://www.courtlistener.com/docket/73603888/49/hachette-book-group-inc-v-google-llc/)
+
+### 📄 Doc #50 — 2026-10-29
+
+Memorandum of Law in Support of Motion
+
+[CourtListener 連結](https://www.courtlistener.com/docket/73603888/50/hachette-book-group-inc-v-google-llc/)
+
+### 📄 Doc #— — 2026-10-22
+
+Notice Regarding Pro Hac Vice Motion
+
+### 📄 Doc #— — 2026-10-19
+
+Notice Regarding Pro Hac Vice Motion
+
+### 📄 Doc #39 — 2026-10-09
+
+TRANSCRIPT of Proceedings re: CONFERENCE held on 10/8/2026 before Judge Loretta A. Preska. Court Reporter/Transcriber: Khristine Sellin, (212) 805-0300. Transcript may be viewed at the court public terminal or purchased through the Court Reporter/Transcriber before the deadline for Release of Transcript Restriction. After that date it may be obtained through PACER. Redaction Request due 10/30/2026. Redacted Transcript Deadline set for 11/9/2026. Release of Transcript Restriction set for 1/7/2027..(Moya, Goretti) (Entered: 10/09/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/73603888/39/hachette-book-group-inc-v-google-llc/)
+
+### 📄 Doc #40 — 2026-10-09
+
+NOTICE OF FILING OF OFFICIAL TRANSCRIPT Notice is hereby given that an official transcript of a CONFERENCE proceeding held on 10/8/26 has been filed by the court reporter/transcriber in the above-captioned matter. The parties have seven (7) calendar days to file with the court a Notice of Intent to Request Redaction of this transcript. If no such Notice is filed, the transcript may be made remotely electronically available to the public without redaction after 90 calendar days....(Moya, Goretti) (Entered: 10/09/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/73603888/40/hachette-book-group-inc-v-google-llc/)
+
+### 📄 Doc #— — 2026-10-08
+
+Oral Argument
+
+### 📄 Doc #— — 2026-10-08
+
+Minute Entry for proceedings held before Judge Loretta A. Preska: Oral Argument held on 10/8/2026 re: 21 LETTER MOTION for Conference concerning Defendant Google LLC's anticipated motion to transfer this action to the Northern District of California addressed to Judge Loretta A. Preska from Eric K. Nikolaides dated August 4, 2026. filed by Google LLC. The Court Reserves Decision. (Court Reporter Khris Sellin) (mph)
+
+### 📄 Doc #— — 2026-10-08
+
+Scheduling Order
+
+### 📄 Doc #— — 2026-10-08
+
+SCHEDULING ORDER: The Court has received a media request for a listen-only teleconference line for the 10:00 AM oral argument. Members of the public may access the Court's conference line at 1-855-244-8681, access code 231-900-63202. All attendees must mute their microphones. Furthermore, all attendees are reminded of this District's prohibitions on recording or broadcasting the conference in any way. (HEREBY ORDERED by Judge Loretta A. Preska) (Text Only Order) (mph)
+
+### 📄 Doc #38 — 2026-10-02
+
+LETTER addressed to Judge Loretta A. Preska from Jeffrey M. Gould dated October 2, 2026 re: Letter Response re ECF 37 Google's LETTER concerning Defendant Google LLC's anticipated motion to transfer and motion to stay dated September 29, 2026. Document filed by Cengage Learning, Inc., Elsevier Inc., Hachette Book Group, Inc., S.C.R.I.B.E., Inc., Scott Turow..(Gould, Jeffrey) (Entered: 10/02/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/73603888/38/hachette-book-group-inc-v-google-llc/)
 
 ### 📄 Doc #37 — 2026-09-29
 
-Letter
+LETTER addressed to Judge Loretta A. Preska from Paul J. Sampson dated September 29, 2026 re: Defendant Google LLC's anticipated motion to transfer and motion to stay. Document filed by Google LLC..(Sampson, Paul) (Entered: 09/29/2026)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/73603888/37/hachette-book-group-inc-v-google-llc/)
 
@@ -226,8 +280,20 @@ RULE 7.1 CORPORATE DISCLOSURE STATEMENT. Identifying Corporate Parent Louis Hach
 [CourtListener 連結](https://www.courtlistener.com/docket/73603888/5/hachette-book-group-inc-v-google-llc/)
 
 <details>
-<summary>已過濾的 21 筆程序性 entries（點擊展開）</summary>
+<summary>已過濾的 33 筆程序性 entries（點擊展開）</summary>
 
+- **Doc #48** (2026-10-22): ORDER FOR ADMISSION PRO HAC VICE OF DAVID H. KRAMER granting 43 Motion for David H. Kramer to Appear Pro Hac Vice. IT IS HEREBY ORDERED that Applicant is admitted to practice Pro Hac Vice in the above…
+- **Doc #47** (2026-10-22): ORDER FOR ADMISSION PRO HAC VICE OF MAURA L. REES granting 44 Motion for Maura L. Rees to Appear Pro Hac Vice. IT IS HEREBY ORDERED that Applicant is admitted to practice Pro Hac Vice in the above-cap…
+- **Doc #46** (2026-10-22): ORDER FOR ADMISSION PRO HAC VICE OF ERIC P. TUTTLE granting 45 Motion for Eric P. Tuttle to Appear Pro Hac Vice. IT IS HEREBY ORDERED that Applicant is admitted to practice Pro Hac Vice in the above-c…
+- **Doc #—** (2026-10-22): >>>NOTICE REGARDING PRO HAC VICE MOTION. Regarding Document No. 45 MOTION for Eric P. Tuttle to Appear Pro Hac Vice . Filing fee $ 200.00, receipt number ANYSDC-33649266. Motion and supporting papers …
+- **Doc #—** (2026-10-22): >>>NOTICE REGARDING PRO HAC VICE MOTION. Regarding Document No. 44 MOTION for Maura L. Rees to Appear Pro Hac Vice . Filing fee $ 200.00, receipt number ANYSDC-33649260. Motion and supporting papers t…
+- **Doc #—** (2026-10-22): >>>NOTICE REGARDING PRO HAC VICE MOTION. Regarding Document No. 43 MOTION for David H. Kramer to Appear Pro Hac Vice . Filing fee $ 200.00, receipt number ANYSDC-33649160. Motion and supporting papers…
+- **Doc #43** (2026-10-21): MOTION for David H. Kramer to Appear Pro Hac Vice . Filing fee $ 200.00, receipt number ANYSDC-33649160. Motion and supporting papers to be reviewed by Clerk's Office staff. Document filed by Google L…
+- **Doc #44** (2026-10-21): MOTION for Maura L. Rees to Appear Pro Hac Vice . Filing fee $ 200.00, receipt number ANYSDC-33649260. Motion and supporting papers to be reviewed by Clerk's Office staff. Document filed by Google LLC…
+- **Doc #45** (2026-10-21): MOTION for Eric P. Tuttle to Appear Pro Hac Vice . Filing fee $ 200.00, receipt number ANYSDC-33649266. Motion and supporting papers to be reviewed by Clerk's Office staff. Document filed by Google LL…
+- **Doc #—** (2026-10-19): >>>NOTICE REGARDING PRO HAC VICE MOTION. Regarding Document No. 41 MOTION for Kylie N. Fisher to Appear Pro Hac Vice . Filing fee $ 200.00, receipt number ANYSDC-33625788. Motion and supporting papers…
+- **Doc #42** (2026-10-19): ORDER GRANTING MOTION FOR ADMISSION PRO HAC VICE OF KYLIE N. FISHER AS ADDITIONAL COUNSEL FOR PLAINTIFFS granting 41 Motion for Kylie N. Fisher to Appear Pro Hac Vice. (Signed by Judge Loretta A. Pres…
+- **Doc #41** (2026-10-16): MOTION for Kylie N. Fisher to Appear Pro Hac Vice . Filing fee $ 200.00, receipt number ANYSDC-33625788. Motion and supporting papers to be reviewed by Clerk's Office staff. Document filed by Cengage …
 - **Doc #29** (2026-08-25): ORDER GRANTING MOTION FOR ADMISSION PRO HAC VICE OF BENJAMIN GOULD AS ADDITIONAL COUNSEL FOR PLAINTIFFS granting 27 Motion for Benjamin Blystad Gould to Appear Pro Hac Vice. (Signed by Judge Loretta A…
 - **Doc #—** (2026-08-21): >>>NOTICE REGARDING PRO HAC VICE MOTION. Regarding Document No. 27 MOTION for Benjamin Blystad Gould to Appear Pro Hac Vice receipt number ANYSDC-33253987. Motion and supporting papers to be reviewed …
 - **Doc #27** (2026-08-20): MOTION for Benjamin Blystad Gould to Appear Pro Hac Vice receipt number ANYSDC-33253987. Motion and supporting papers to be reviewed by Clerk's Office staff. Document filed by Cengage Learning, Inc., …
@@ -254,4 +320,4 @@ RULE 7.1 CORPORATE DISCLOSURE STATEMENT. Identifying Corporate Parent Louis Hach
 
 ---
 
-*產生時間：2026-10-01 01:51 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-11-01 01:51 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

@@ -1,6 +1,6 @@
-# Case 147 — SCI SPARK LLC v. SCHEDULE A
+# Case 147 — SCI SPARK LLC v. AZKIJU
 
-> 最後更新（CourtListener fetch）：2026-10-01 01:51 UTC
+> 最後更新（CourtListener fetch）：2026-11-01 01:50 UTC
 
 ---
 
@@ -8,17 +8,17 @@
 
 | 欄位 | 值 |
 |---|---|
-| Case Name | SCI SPARK LLC v. SCHEDULE A |
+| Case Name | SCI SPARK LLC v. AZKIJU |
 | Docket Number | `2:26-cv-01235` |
 | Court | District Court, W.D. Pennsylvania (`pawd`) |
 | Judge Assigned | W. Scott Hardy |
 | Date Filed | 2026-06-05 |
-| Date Last Filing | 2026-09-28 |
+| Date Last Filing | 2026-10-20 |
 | Cause | 17:501 Copyright Infringement |
 | Nature of Suit | 820 Copyright |
 | Jury Demand | None |
 | CourtListener ID | `73448787` |
-| CourtListener URL | <https://www.courtlistener.com/docket/73448787/sci-spark-llc-v-schedule-a/> |
+| CourtListener URL | <https://www.courtlistener.com/docket/73448787/sci-spark-llc-v-azkiju/> |
 
 ## 2. Dashboard 卡片 vs CourtListener 比對
 
@@ -33,11 +33,27 @@
 
 - ⚠️ Court 可能不一致：dashboard 寫「W.D. Pa.」，CourtListener 為「W.D. Pennsylvania」
 - ⚠️ Judge 可能不一致：dashboard 寫「待分派」，CourtListener 為「W. Scott Hardy」
-- ℹ️ Dashboard progress 內找不到【YYYY/M/D】格式日期；CourtListener 最後 entry: 2026-09-28
+- ℹ️ Dashboard progress 內找不到【YYYY/M/D】格式日期；CourtListener 最後 entry: 2026-10-20
 
 ## 3. Docket Entries（最新優先，已過濾程序性 entries）
 
-**實質性 entries**：25 筆／**已過濾程序性 entries**：3 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+**實質性 entries**：28 筆／**已過濾程序性 entries**：3 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+
+### 📄 Doc #46 — 2026-10-20
+
+Unredacted Complaint (FOR USE IN SCHEDULE A CASES ONLY)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/73448787/46/sci-spark-llc-v-schedule-a/)
+
+### 📄 Doc #— — 2026-10-19
+
+Order to File Unredacted Complaint (for Schedule A Cases)
+
+### 📄 Doc #43 — 2026-10-09
+
+Default Judgment AND Preliminary Injunction
+
+[CourtListener 連結](https://www.courtlistener.com/docket/73448787/43/sci-spark-llc-v-schedule-a/)
 
 ### 📄 Doc #40 — 2026-09-28
 
@@ -198,4 +214,4 @@ MOTION for Leave to File Excess Pages by SCI SPARK LLC. (Attachments: # 1 Propos
 
 ---
 
-*產生時間：2026-10-01 01:51 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-11-01 01:50 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

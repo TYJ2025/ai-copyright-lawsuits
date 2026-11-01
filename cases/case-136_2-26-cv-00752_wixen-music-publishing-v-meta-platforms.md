@@ -1,6 +1,6 @@
 # Case 136 — Wixen Music Publishing, Inc v. Meta Platforms, Inc.
 
-> 最後更新（CourtListener fetch）：2026-10-01 01:49 UTC
+> 最後更新（CourtListener fetch）：2026-11-01 01:48 UTC
 
 ---
 
@@ -14,7 +14,7 @@
 | Judge Assigned | John F. Walter |
 | Judge Referred | Alka Sagar |
 | Date Filed | 2026-01-23 |
-| Date Last Filing | 2026-09-25 |
+| Date Last Filing | 2026-10-09 |
 | Cause | 17:101 Copyright Infringement |
 | Nature of Suit | 820 Copyright |
 | Jury Demand | Plaintiff |
@@ -34,11 +34,23 @@
 
 - ⚠️ Court 可能不一致：dashboard 寫「C.D. Cal. 2:26-cv-00752」，CourtListener 為「C.D. California」
 - ✅ Judge 一致：dashboard 寫「John F. Walter（District Judge）／Alka Sagar（Magistrate）」，CourtListener 為「John F. Walter」
-- ⚠️ Dashboard progress **落後 129 天**：dashboard 最新日期 2026-05-19，CourtListener 最後 entry 2026-09-25——建議查看新近 entries 並補充 progress
+- ⚠️ Dashboard progress **落後 143 天**：dashboard 最新日期 2026-05-19，CourtListener 最後 entry 2026-10-09——建議查看新近 entries 並補充 progress
 
 ## 3. Docket Entries（最新優先，已過濾程序性 entries）
 
-**實質性 entries**：42 筆／**已過濾程序性 entries**：9 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+**實質性 entries**：44 筆／**已過濾程序性 entries**：9 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+
+### 📄 Doc #50 — 2026-10-09
+
+Proposed Order Granting Defendant Meta Platforms, Inc.'s Motion to Dismiss
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72184965/50/7/wixen-music-publishing-inc-v-meta-platforms-inc/)
+
+### 📄 Doc #49 — 2026-10-02
+
+Statement
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72184965/49/wixen-music-publishing-inc-v-meta-platforms-inc/)
 
 ### 📄 Doc #48 — 2026-09-25
 
@@ -303,4 +315,4 @@ REPORT ON THE FILING OF AN ACTION regarding a copyright (Initial Notification) f
 
 ---
 
-*產生時間：2026-10-01 01:49 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-11-01 01:48 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

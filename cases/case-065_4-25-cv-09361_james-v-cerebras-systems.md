@@ -1,6 +1,6 @@
 # Case 65 — James v. Cerebras Systems Inc.
 
-> 最後更新（CourtListener fetch）：2026-10-01 01:30 UTC
+> 最後更新（CourtListener fetch）：2026-11-01 01:32 UTC
 
 ---
 
@@ -14,7 +14,7 @@
 | Judge Assigned | Araceli Martinez-Olguin |
 | Judge Referred | Robert M. Illman |
 | Date Filed | 2025-10-30 |
-| Date Last Filing | 2026-09-30 |
+| Date Last Filing | 2026-10-27 |
 | Cause | 17:501 Copyright Infringement |
 | Nature of Suit | 820 Copyright |
 | Jury Demand | Both |
@@ -34,17 +34,47 @@
 
 - ✅ Court 一致：dashboard 寫「N.D. Cal.」，CourtListener 為「N.D. California」
 - ✅ Judge 一致：dashboard 寫「Araceli Martinez-Olguin」，CourtListener 為「Araceli Martinez-Olguin」
-- ℹ️ Dashboard progress 內找不到【YYYY/M/D】格式日期；CourtListener 最後 entry: 2026-09-30
+- ℹ️ Dashboard progress 內找不到【YYYY/M/D】格式日期；CourtListener 最後 entry: 2026-10-27
 
 ## 3. Docket Entries（最新優先，已過濾程序性 entries）
 
-**實質性 entries**：93 筆／**已過濾程序性 entries**：31 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+**實質性 entries**：99 筆／**已過濾程序性 entries**：34 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
 
-### 📄 Doc #93 — 2026-09-30
+### 📄 Doc #— — 2026-10-27
 
-Pro Hac Vice
+Discovery Hearing AND ~Util - Set Hearings AND ~Util - Teleconference Zoom
 
-[CourtListener 連結](https://www.courtlistener.com/docket/71827684/93/james-v-cerebras-systems-inc/)
+### 📄 Doc #— — 2026-10-21
+
+Notice of Appearance/Substitution/Change/Withdrawal of Attorney
+
+### 📄 Doc #98 — 2026-10-20
+
+Joint Discovery Letter Brief filed by Christopher Farnsworth, Gary Morgenstein. (Shaver, Anne) (Filed on 10/20/2026) (Entered: 10/20/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71827684/98/james-v-cerebras-systems-inc/)
+
+### 📄 Doc #97 — 2026-10-19
+
+NOTICE of Withdrawal filed by Catherine Porto, no longer appearing on behalf of Cerebras Systems Inc. in this case (Porto, Catherine) (Filed on 10/19/2026) (Entered: 10/19/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71827684/97/james-v-cerebras-systems-inc/)
+
+### 📄 Doc #— — 2026-10-19
+
+Notice of Appearance/Substitution/Change/Withdrawal of Attorney
+
+### 📄 Doc #96 — 2026-10-05
+
+Order by Judge Araceli Martinez-Olguin granting 95 Stipulation of Voluntary Dismissal of Claims by Darius H. James and Related Schedule Adjustments. (ads, COURT STAFF) (Filed on 10/5/2026) (Entered: 10/05/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71827684/96/james-v-cerebras-systems-inc/)
+
+### 📄 Doc #95 — 2026-10-02
+
+STIPULATION WITH PROPOSED ORDER filed by Christopher Farnsworth, Darius H. James, Gary Morgenstein. (Attachments: # 1 Proposed Order)(Duffner, Brendan) (Filed on 10/2/2026) (Entered: 10/02/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71827684/95/james-v-cerebras-systems-inc/)
 
 ### 📄 Doc #92 — 2026-09-22
 
@@ -537,8 +567,11 @@ Proposed Summons. (Turin, Yevgeniy) (Filed on 10/30/2025) (Entered: 10/30/2025)
 [CourtListener 連結](https://www.courtlistener.com/docket/71827684/2/james-v-cerebras-systems-inc/)
 
 <details>
-<summary>已過濾的 31 筆程序性 entries（點擊展開）</summary>
+<summary>已過濾的 34 筆程序性 entries（點擊展開）</summary>
 
+- **Doc #99** (2026-10-21): NOTICE of Appearance filed by Claire Celeste Bonelli on behalf of Cerebras Systems Inc. (Bonelli, Claire) (Filed on 10/21/2026) (Entered: 10/21/2026)
+- **Doc #94** (2026-10-01): Order by Judge Araceli Martinez-Olguin granting 93 Motion for Pro Hac Vice as to Elizabeth Hunt. (ads, COURT STAFF) (Filed on 10/1/2026) (Entered: 10/01/2026)
+- **Doc #93** (2026-09-30): MOTION for leave to appear in Pro Hac Vice ( Filing fee $ 328, receipt number ACANDC-22531605.) filed by Christopher Farnsworth, Darius H. James, Gary Morgenstein. (Attachments: # 1 Exhibit Certificat…
 - **Doc #71** (2026-06-30): MOTION for leave to appear in Pro Hac Vice ( Filing fee $ 328, receipt number ACANDC-22158223.) filed by Darius H. James, Charles Kaiser, Mary Pilon. (Attachments: # 1 Certificate of Good Standing)(Su…
 - **Doc #72** (2026-06-30): ORDER GRANTING APPLICATION FOR ADMISSION OF ATTORNEY PRO HAC VICE re 71 Motion for Pro Hac Vice for Betsy Sugar. Signed by Judge Araceli Martinez-Olguin on 6/30/2026. (jlg, COURT STAFF) (Filed on 6/30…
 - **Doc #57** (2026-05-21): NOTICE of Appearance filed by Catherine Porto on behalf of Cerebras Systems Inc. (Porto, Catherine) (Filed on 5/21/2026) (Entered: 05/21/2026)
@@ -575,4 +608,4 @@ Proposed Summons. (Turin, Yevgeniy) (Filed on 10/30/2025) (Entered: 10/30/2025)
 
 ---
 
-*產生時間：2026-10-01 01:30 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-11-01 01:32 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

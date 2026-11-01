@@ -1,6 +1,6 @@
 # Case 43 — U.S. News & World Report, L.P. v. OpenAI, Inc.
 
-> 最後更新（CourtListener fetch）：2026-10-01 01:25 UTC
+> 最後更新（CourtListener fetch）：2026-11-01 01:24 UTC
 
 ---
 
@@ -13,7 +13,7 @@
 | Court | District Court, S.D. New York (`nysd`) |
 | Judge Assigned | Sidney H. Stein |
 | Date Filed | 2025-11-26 |
-| Date Last Filing | 2026-09-24 |
+| Date Last Filing | 2026-10-30 |
 | Cause | 17:501 Copyright Infringement |
 | Nature of Suit | 820 Copyright |
 | Jury Demand | Plaintiff |
@@ -33,11 +33,269 @@
 
 - ✅ Court 一致：dashboard 寫「S.D.N.Y.」，CourtListener 為「S.D. New York」
 - ✅ Judge 一致：dashboard 寫「Sidney H. Stein」，CourtListener 為「Sidney H. Stein」
-- ℹ️ Dashboard progress 內找不到【YYYY/M/D】格式日期；CourtListener 最後 entry: 2026-09-24
+- ℹ️ Dashboard progress 內找不到【YYYY/M/D】格式日期；CourtListener 最後 entry: 2026-10-30
 
 ## 3. Docket Entries（最新優先，已過濾程序性 entries）
 
-**實質性 entries**：166 筆／**已過濾程序性 entries**：26 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+**實質性 entries**：178 筆／**已過濾程序性 entries**：22 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+
+### 📄 Doc #169 — 2026-10-30
+
+Proposed Order Proposed Order
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71970530/169/2/us-news-world-report-lp-v-openai-inc/)
+
+### 📄 Doc #153 — 2026-10-30
+
+Proposed Order Exhibit B - Proposed Order
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71970530/153/2/us-news-world-report-lp-v-openai-inc/)
+
+### 📄 Doc #159 — 2026-10-30
+
+Exhibit - Proposed Order for Admission Pro Hac Vice
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71970530/159/3/us-news-world-report-lp-v-openai-inc/)
+
+### 📄 Doc #166 — 2026-10-30
+
+Exhibit 2[Proposed] Order Granting Gregory Leppert's Motion for Leave to Fi
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71970530/166/2/us-news-world-report-lp-v-openai-inc/)
+
+### 📄 Doc #168 — 2026-10-30
+
+Proposed Order [Proposed] Order Granting Leave to File Amicus Curiae Brief of AI
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71970530/168/2/us-news-world-report-lp-v-openai-inc/)
+
+### 📄 Doc #167 — 2026-10-30
+
+Exhibit IIPSJ Amici Curiae Brief
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71970530/167/1/us-news-world-report-lp-v-openai-inc/)
+
+### 📄 Doc #163 — 2026-10-30
+
+Proposed Order Proposed Order Granting Leave to File Brief of Professor Joseph S
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71970530/163/2/us-news-world-report-lp-v-openai-inc/)
+
+### 📄 Doc #162 — 2026-10-30
+
+File Amicus Brief
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71970530/162/us-news-world-report-lp-v-openai-inc/)
+
+### 📄 Doc #164 — 2026-10-30
+
+Notice of Appearance
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71970530/164/us-news-world-report-lp-v-openai-inc/)
+
+### 📄 Doc #165 — 2026-10-30
+
+Memorandum of Law in Support of Motion
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71970530/165/us-news-world-report-lp-v-openai-inc/)
+
+### 📄 Doc #157 — 2026-10-30
+
+Exhibit B - Proposed Order
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71970530/157/2/us-news-world-report-lp-v-openai-inc/)
+
+### 📄 Doc #158 — 2026-10-30
+
+Proposed Order Proposed Order
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71970530/158/3/us-news-world-report-lp-v-openai-inc/)
+
+### 📄 Doc #160 — 2026-10-30
+
+Proposed Order ([Proposed] Order)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71970530/160/2/us-news-world-report-lp-v-openai-inc/)
+
+### 📄 Doc #161 — 2026-10-30
+
+Memorandum of Law in Support of Motion
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71970530/161/us-news-world-report-lp-v-openai-inc/)
+
+### 📄 Doc #155 — 2026-10-30
+
+Exhibit Proposed Brief of Amicus Curiae
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71970530/155/1/us-news-world-report-lp-v-openai-inc/)
+
+### 📄 Doc #150 — 2026-10-30
+
+Exhibit Proposed Brief of Amici Curiae
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71970530/150/1/us-news-world-report-lp-v-openai-inc/)
+
+### 📄 Doc #152 — 2026-10-30
+
+Notice of Appearance
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71970530/152/us-news-world-report-lp-v-openai-inc/)
+
+### 📄 Doc #154 — 2026-10-30
+
+Memorandum of Law in Support of Motion
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71970530/154/us-news-world-report-lp-v-openai-inc/)
+
+### 📄 Doc #156 — 2026-10-30
+
+Order
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71970530/156/us-news-world-report-lp-v-openai-inc/)
+
+### 📄 Doc #149 — 2026-10-30
+
+Exhibit B - Proposed Order
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71970530/149/2/us-news-world-report-lp-v-openai-inc/)
+
+### 📄 Doc #151 — 2026-10-30
+
+Memorandum of Law in Support of Motion
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71970530/151/us-news-world-report-lp-v-openai-inc/)
+
+### 📄 Doc #148 — 2026-10-30
+
+Exhibit Proposed Order
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71970530/148/2/us-news-world-report-lp-v-openai-inc/)
+
+### 📄 Doc #144 — 2026-10-29
+
+Proposed Order Proposed Order
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71970530/144/3/us-news-world-report-lp-v-openai-inc/)
+
+### 📄 Doc #147 — 2026-10-29
+
+Exhibit A - Proposed Amicus Brief
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71970530/147/1/us-news-world-report-lp-v-openai-inc/)
+
+### 📄 Doc #146 — 2026-10-29
+
+Proposed Order Proposed Order
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71970530/146/2/us-news-world-report-lp-v-openai-inc/)
+
+### 📄 Doc #145 — 2026-10-29
+
+Memorandum of Law in Support of Motion
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71970530/145/us-news-world-report-lp-v-openai-inc/)
+
+### 📄 Doc #143 — 2026-10-29
+
+Proposed Order Granting Leave to File Brief of Professor Matthew Sag as Amicus C
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71970530/143/2/us-news-world-report-lp-v-openai-inc/)
+
+### 📄 Doc #— — 2026-10-29
+
+Notice Regarding Pro Hac Vice Motion
+
+### 📄 Doc #141 — 2026-10-28
+
+Proposed Order for Admission Pro Hac Vice
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71970530/141/3/us-news-world-report-lp-v-openai-inc/)
+
+### 📄 Doc #142 — 2026-10-28
+
+Proposed Order for Admission Pro Hac Vice
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71970530/142/3/us-news-world-report-lp-v-openai-inc/)
+
+### 📄 Doc #139 — 2026-10-28
+
+Proposed Order on Amazon.com, Inc.'s Motion to Seal
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71970530/139/1/us-news-world-report-lp-v-openai-inc/)
+
+### 📄 Doc #140 — 2026-10-28
+
+Declaration in Support of Motion
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71970530/140/us-news-world-report-lp-v-openai-inc/)
+
+### 📄 Doc #— — 2026-10-28
+
+Notice to Attorney to Re-File Document - Deficient Docket Entry Error
+
+### 📄 Doc #138 — 2026-10-28
+
+File Amicus Brief
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71970530/138/us-news-world-report-lp-v-openai-inc/)
+
+### 📄 Doc #137 — 2026-10-28
+
+File Amicus Brief
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71970530/137/us-news-world-report-lp-v-openai-inc/)
+
+### 📄 Doc #136 — 2026-10-27
+
+Proposed Order Granting Pro Hac Vice
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71970530/136/3/us-news-world-report-lp-v-openai-inc/)
+
+### 📄 Doc #— — 2026-10-26
+
+Notice Regarding Pro Hac Vice Motion
+
+### 📄 Doc #135 — 2026-10-26
+
+Proposed Order for Admission Pro Hac Vice
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71970530/135/4/us-news-world-report-lp-v-openai-inc/)
+
+### 📄 Doc #134 — 2026-10-23
+
+Oral Argument
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71970530/134/us-news-world-report-lp-v-openai-inc/)
+
+### 📄 Doc #133 — 2026-10-23
+
+Exhibit Declaration of Lucky Vidmar in Support
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71970530/133/1/us-news-world-report-lp-v-openai-inc/)
+
+### 📄 Doc #132 — 2026-10-23
+
+Notice of Appearance
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71970530/132/us-news-world-report-lp-v-openai-inc/)
+
+### 📄 Doc #131 — 2026-10-14
+
+Stipulation and Order
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71970530/131/us-news-world-report-lp-v-openai-inc/)
+
+### 📄 Doc #130 — 2026-10-07
+
+Order on Motion for Leave to File Document
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71970530/130/us-news-world-report-lp-v-openai-inc/)
+
+### 📄 Doc #129 — 2026-10-06
+
+Exhibit A - Sample Format
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71970530/129/1/us-news-world-report-lp-v-openai-inc/)
 
 ### 📄 Doc #128 — 2026-09-24
 
@@ -769,152 +1027,8 @@ TRANSCRIPT of Proceedings re: ORAL ARGUMENT held on 11/13/2025 before Judge Sidn
 
 [CourtListener 連結](https://www.courtlistener.com/docket/71970530/14/us-news-world-report-lp-v-openai-inc/)
 
-### 📄 Doc #15 — 2025-12-05
-
-NOTICE OF FILING OF OFFICIAL TRANSCRIPT Notice is hereby given that an official transcript of a ORAL ARGUMENT proceeding held on 11/13/2025 has been filed by the court reporter/transcriber in the above-captioned matter. The parties have seven (7) calendar days to file with the court a Notice of Intent to Request Redaction of this transcript. If no such Notice is filed, the transcript may be made remotely electronically available to the public without redaction after 90 calendar days...Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Moya, Goretti) (Entered: 12/05/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/71970530/15/us-news-world-report-lp-v-openai-inc/)
-
-### 📄 Doc #13 — 2025-12-05
-
-ORDER: OpenAI defendants are directed to file an updated memorandum of law in support of their objection (Dkt. No. 840) to Magistrate Judge Wang's November 7, 2025 Order (Dkt. No. 734). The updated memorandum should address (1) Judge Wang's December 3, 2025 Opinion and Order (Dkt. No. 896) denying OpenAI's motion for reconsideration of her November 7, 2025 Order (Dkt. No. 734) and (2) the timeliness of OpenAI defendants' November 24, 2025 objection pursuant to Federal Rule of Civil Procedure 72(a). OpenAI defendants' updated memorandum shall be filed by 5 p.m. on December 10, 2025, and plaintiff's opposition shall be filed by 5 p.m. on December 19, 2025. No reply shall be permitted. The Court will not consider OpenAI defendants' original memorandum filed at Dkt. No. 841. SO ORDERED. (Signed by Judge Sidney H. Stein on 12/5/2025) Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al. (jca) (Entered: 12/05/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/71970530/13/us-news-world-report-lp-v-openai-inc/)
-
-### 📄 Doc #— — 2025-12-04
-
-Minute Entry for proceedings held before Magistrate Judge Ona T. Wang: Status Conference held on 12/4/2025. Associated Cases: 1:25-md-03143-SHS-OTW et al.(Quinn, Diane)
-
-### 📄 Doc #— — 2025-12-04
-
-Status Conference
-
-### 📄 Doc #10 — 2025-12-03
-
-OPINION & ORDER RE: PRODUCTION OF TEXT AND SOCIAL MEDIA MESSAGES (ECF NOS. 390, 391, 432, 528, 529, 584, 586, 642, 643, 665) re: (642 in 1:25-md-03143-SHS-OTW, 471 in 1:24-cv-03285-SHS-OTW) LETTER MOTION to Compel Daily News Plaintiffs to Collect and Search Potentially Responsive Text and Social Media Communications addressed to Magistrate Judge Ona T. Wang from Michelle S. Ybarra, Elana Nightingale Dawson, and Rose S. Lee d filed by OpenAI, Inc., OpenAI, LLC, OpenAI Holdings, LLC, OpenAI LP, OpenAI OpCo, L.L.C., OpenAI Global, L.L.C., OpenAI GP, LLC, OAI Corporation, LLC, (643 in 1:25-md-03143-SHS-OTW, 472 in 1:24-cv-03285-SHS-OTW) LETTER MOTION to Compel Daily News Plaintiffs to Collect and Search Potentially Responsive Text and Social Media Communications addressed to Magistrate Judge Ona T. Wang from Michelle S. Ybarra, Elana Nightingale Dawson, and Rose S. Lee d filed by OpenAI, Inc., OpenAI, LLC, OpenAI Holdings, LLC, OpenAI LP, OpenAI Global, L.L.C., OpenAI OpCo, L.L.C., OpenAI  …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/71970530/10/us-news-world-report-lp-v-openai-inc/)
-
-### 📄 Doc #— — 2025-12-02
-
-Case Consolidation - MDL
-
-### 📄 Doc #— — 2025-12-02
-
-Case Designation
-
-### 📄 Doc #— — 2025-12-02
-
-Case Accepted as Related
-
-### 📄 Doc #9 — 2025-12-02
-
-OPINION & ORDER: For the foregoing reasons, OpenAI's motion for reconsideration is DENIED. OpenAI is directed to produce the 20 Million ChatGPT Logs within 7 days of completing the de-identification process. Again, the parties are directed to continue meeting and conferring regarding any additional measures that the parties can take to effectively protect the privacy interests of OpenAI's consumers without further delaying discovery in this case. (Signed by Magistrate Judge Ona T. Wang on 12/2/2025) Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al. (rro) (Entered: 12/03/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/71970530/9/us-news-world-report-lp-v-openai-inc/)
-
-### 📄 Doc #— — 2025-12-02
-
-Notice of Case Assignment/Reassignment
-
-### 📄 Doc #— — 2025-12-02
-
-CONSOLIDATED MDL CASE: Create association to 1:25-md-03143-SHS-OTW. (vba)
-
-### 📄 Doc #— — 2025-12-02
-
-Magistrate Judge Ona T. Wang is designated to handle matters that may be referred in this case. Pursuant to 28 U.S.C. Section 636(c) and Fed. R. Civ. P. 73(b)(1) parties are notified that they may consent to proceed before a United States Magistrate Judge. Parties who wish to consent may access the necessary form at the following link: https://nysd.uscourts.gov/sites/default/files/2018-06/AO-3.pdf. (vba)
-
-### 📄 Doc #— — 2025-12-02
-
-NOTICE OF CASE REASSIGNMENT to Judge Sidney H. Stein. Judge Unassigned is no longer assigned to the case. (vba)
-
-### 📄 Doc #— — 2025-12-02
-
-CASE ACCEPTED AS RELATED. Create association to 1:25-md-03143-SHS-OTW. Notice of Assignment to follow. (vba)
-
-### 📄 Doc #— — 2025-12-01
-
-Case Referred as Possibly Related
-
-### 📄 Doc #— — 2025-12-01
-
-Case Designated ECF
-
-### 📄 Doc #— — 2025-12-01
-
-***NOTICE TO ATTORNEY TO SUBMIT AO 121 FORM COPYRIGHT. Notice to Attorney Steven M Lieberman to submit a completed AO 121 Form Copyright to court for review. Use the event type AO 121 Copyright - Notice of Submission by Attorney found under the event list Other Documents. (pc)
-
-### 📄 Doc #— — 2025-12-01
-
-***NOTICE TO ATTORNEY REGARDING PARTY MODIFICATION. Notice to attorney Steven M Lieberman. The party information for the following party/parties has been modified: OAI Corporation LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Holdings LLC, OpenAI LLC, OpenAI LP, OpenAI OpCo LLC,, OpenAI, Inc, U.S. News & World Report, L.P.. The information for the party/parties has been modified for the following reason/reasons: party role was entered incorrectly;. (pc)
-
-### 📄 Doc #— — 2025-12-01
-
-***NOTICE TO ATTORNEY REGARDING DEFICIENT CIVIL COVER SHEET. Notice to attorney Steven M Lieberman to RE-FILE Document No. 2 Civil Cover Sheet. The filing is deficient for the following reason(s): civil cover sheet was not signed;. Re-file the document using the event type Civil Cover Sheet found under the event list Other Documents and attach the correct PDF.. (pc)
-
-### 📄 Doc #— — 2025-12-01
-
-***NOTICE TO ATTORNEY REGARDING CIVIL. CASE OPENING STATISTICAL ERROR CORRECTION: Notice to attorney Steven M Lieberman. The following case opening statistical information was erroneously selected/entered: Fee Status code due (due);. The following correction(s) have been made to your case entry: the Fee Status code has been modified to pd (paid);. (pc)
-
-### 📄 Doc #— — 2025-12-01
-
-CASE REFERRED to Judge Sidney H. Stein as possibly related to 25md3143. (pc)
-
-### 📄 Doc #— — 2025-12-01
-
-Case Designated ECF. (pc)
-
-### 📄 Doc #— — 2025-12-01
-
-CASE OPENING INITIAL ASSIGNMENT NOTICE: The above-entitled action is assigned to Judge Unassigned. .(pc)
-
-### 📄 Doc #— — 2025-12-01
-
-Case Opening Initial Assignment Notice
-
-### 📄 Doc #— — 2025-12-01
-
-Notice to Attorney Regarding Case Opening Statistical Error Correction
-
-### 📄 Doc #— — 2025-12-01
-
-Notice to Attorney Regarding Deficient Civil Cover Sheet
-
-### 📄 Doc #— — 2025-12-01
-
-Notice to Attorney Regarding Party Modification
-
-### 📄 Doc #— — 2025-12-01
-
-Notice to Attorney to Submit AO 120 Form/AO 121 Form
-
-### 📄 Doc #4 — 2025-11-26
-
-RULE 7.1 CORPORATE DISCLOSURE STATEMENT. Identifying Corporate Parent U.S. News R&R LLC, Other Affiliate U.S. News & World Report, Inc., Other Affiliate Brand Connex, LLC, Other Affiliate Direct Video, Inc., Other Affiliate USN College Advisor, Inc., Other Affiliate USN College Marketing, Inc., Other Affiliate U.S. News International, LLC, Other Affiliate USN List Acquisition LLC, Other Affiliate U.S. News BREA, LLC, Other Affiliate USN Investment Holdings, LLC, Other Affiliate U.S. News Marketplace LLC, Other Affiliate U.S. News Specialty Marketing, Inc, Other Affiliate Wake Up Here, Inc. for U.S. News & World Report, L.P.. Document filed by U.S. News & World Report, L.P...(Lieberman, Steven) (Entered: 11/26/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/71970530/4/us-news-world-report-lp-v-openai-inc/)
-
-### 📄 Doc #1 — 2025-11-26
-
-COMPLAINT against OAI Corporation LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Holdings LLC, OpenAI LLC, OpenAI LP, OpenAI OpCo LLC,, OpenAI, Inc.. (Filing Fee $ 405.00, Receipt Number ANYSDC-32055251)Document filed by U.S. News & World Report, L.P.. (Attachments: # 1 Exhibit A - Copyright Registrations 1978-present, # 2 Exhibit B - 1948-1954 registrations, # 3 Exhibit C - 1955-1977 registrations., # 4 Exhibit D - 1909-1977 additional registrations, # 5 Exhibit E - USNWR Trademarks).(Lieberman, Steven) (Entered: 11/26/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/71970530/1/5/us-news-world-report-lp-v-openai-inc/)
-
-### 📄 Doc #3 — 2025-11-26
-
-STATEMENT OF RELATEDNESS re: that this action be filed as related to 1:25-md-3143. Document filed by U.S. News & World Report, L.P...(Lieberman, Steven) (Entered: 11/26/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/71970530/3/us-news-world-report-lp-v-openai-inc/)
-
-### 📄 Doc #2 — 2025-11-26
-
-FILING ERROR - PDF ERROR - CIVIL COVER SHEET filed..(Lieberman, Steven) Modified on 12/1/2025 (pc). (Entered: 11/26/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/71970530/2/us-news-world-report-lp-v-openai-inc/)
-
 <details>
-<summary>已過濾的 26 筆程序性 entries（點擊展開）</summary>
+<summary>已過濾的 22 筆程序性 entries（點擊展開）</summary>
 
 - **Doc #—** (2026-07-13): >>>NOTICE REGARDING PRO HAC VICE MOTION. Regarding Document No. (615 in 1:24-cv-04872-SHS-OTW, 43 in 1:26-cv-02097-SHS, 440 in 1:24-cv-01514-SHS-OTW, 306 in 1:25-cv-03483-SHS-OTW, 144 in 1:25-cv-06286…
 - **Doc #114** (2026-07-10): MOTION for Johnathan J. Vaknin to Appear Pro Hac Vice . Filing fee $ 200.00, receipt number NYSDC-33120648. Motion and supporting papers to be reviewed by Clerk's Office staff. Document filed by Micro…
@@ -938,13 +1052,9 @@ FILING ERROR - PDF ERROR - CIVIL COVER SHEET filed..(Lieberman, Steven) Modified
 - **Doc #36** (2026-01-07): NOTICE OF APPEARANCE by Zachary Scott Newman on behalf of OAI Corporation, LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Holdings, LLC, OpenAI LP, OpenAI OpCo LLC(a Delaware limited liability corpora…
 - **Doc #31** (2025-12-21): REQUEST FOR ISSUANCE OF SUMMONS as to OAI Corporation LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Holdings LLC, OpenAI LLC, OpenAI LP, OpenAI OpCo LLC,, OpenAI, Inc., OpenAI Group PBC, OpenAI Found…
 - **Doc #25** (2025-12-11): ORDER: It has come to the Court's attention that there are multiple outstanding motions in the above-captioned cases that have already been addressed at the Court's periodic discovery status conferenc…
-- **Doc #8** (2025-12-01): CIVIL COVER SHEET filed..(Lieberman, Steven) (Entered: 12/01/2025)
-- **Doc #5** (2025-11-26): NOTICE OF APPEARANCE by Steven M Lieberman on behalf of U.S. News & World Report, L.P...(Lieberman, Steven) (Entered: 11/26/2025)
-- **Doc #6** (2025-11-26): NOTICE OF APPEARANCE by Jennifer Maisel on behalf of U.S. News & World Report, L.P...(Maisel, Jennifer) (Entered: 11/26/2025)
-- **Doc #7** (2025-11-26): NOTICE OF APPEARANCE by Bryan Berkeley Thompson on behalf of U.S. News & World Report, L.P...(Thompson, Bryan) (Entered: 11/26/2025)
 
 </details>
 
 ---
 
-*產生時間：2026-10-01 01:25 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-11-01 01:24 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

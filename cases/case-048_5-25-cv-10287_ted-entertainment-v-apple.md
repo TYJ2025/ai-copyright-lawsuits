@@ -1,6 +1,6 @@
-# Case 48 — Ted Entertainment, Inc. v. Nvidia Corporation
+# Case 48 — Fisher v. Nvidia Corporation
 
-> 最後更新（CourtListener fetch）：2026-10-01 01:26 UTC
+> 最後更新（CourtListener fetch）：2026-11-01 01:26 UTC
 
 ---
 
@@ -8,37 +8,61 @@
 
 | 欄位 | 值 |
 |---|---|
-| Case Name | Ted Entertainment, Inc. v. Nvidia Corporation |
+| Case Name | Fisher v. Nvidia Corporation |
 | Docket Number | `5:25-cv-10287` |
 | Court | District Court, N.D. California (`cand`) |
 | Judge Assigned | Edward J. Davila |
 | Judge Referred | Susan Van Keulen |
 | Date Filed | 2025-11-26 |
-| Date Last Filing | 2026-09-23 |
+| Date Last Filing | 2026-10-27 |
 | Cause | 17:101 Copyright Infringement |
 | Nature of Suit | 820 Copyright |
 | Jury Demand | Plaintiff |
 | CourtListener ID | `71972050` |
-| CourtListener URL | <https://www.courtlistener.com/docket/71972050/ted-entertainment-inc-v-nvidia-corporation/> |
+| CourtListener URL | <https://www.courtlistener.com/docket/71972050/fisher-v-nvidia-corporation/> |
 
 ## 2. Dashboard 卡片 vs CourtListener 比對
 
 > Dashboard 卡片宣告：
 
-> - Court=C.D. Cal.
-> - Judge=Edward J. Davila
+> - Court=N.D. Cal.
+> - Judge=Richard Seeborg
 > - Status=active
-> - Progress=案件於 2026 年 4 月初提起。Ted Entertainment 已累計提起 7 件 DMCA 反規避訴訟，針對多家科技巨頭。此一訴訟策略值得密切關注。
+> - Progress=案件於 2026 年 4 月初提起。Ted Entertainment 已累計提起 7 件 DMCA 反規避訴訟，針對多家科技巨頭。此一訴訟策略值得密切關注。 【2026/10/9】N.D. Cal.（3:26-cv-02936）Seeborg 法官裁定駁回 Apple 駁回聲請，認 YouTube rolling cipher、proof-of-origin tokens 等措施構成 DMCA 保護之 access control，案件續行 【2026/10/29】原告公司 Ted Entertainment 無附帶偏見撤回本訴（未附理由），個人原告 Matt Fisher 續列名原告，訴訟續行
 
 **自動比對結果：**
 
-- ⚠️ Court 可能不一致：dashboard 寫「C.D. Cal.」，CourtListener 為「N.D. California」
-- ✅ Judge 一致：dashboard 寫「Edward J. Davila」，CourtListener 為「Edward J. Davila」
-- ℹ️ Dashboard progress 內找不到【YYYY/M/D】格式日期；CourtListener 最後 entry: 2026-09-23
+- ✅ Court 一致：dashboard 寫「N.D. Cal.」，CourtListener 為「N.D. California」
+- ⚠️ Judge 可能不一致：dashboard 寫「Richard Seeborg」，CourtListener 為「Edward J. Davila」
+- ✅ Dashboard progress 同步：dashboard 最新日期 2026-10-29，CourtListener 最後 entry 2026-10-27（dashboard 不落後）
 
 ## 3. Docket Entries（最新優先，已過濾程序性 entries）
 
-**實質性 entries**：58 筆／**已過濾程序性 entries**：32 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+**實質性 entries**：62 筆／**已過濾程序性 entries**：32 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+
+### 📄 Doc #84 — 2026-10-27
+
+Notice of Voluntary Dismissal
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71972050/84/ted-entertainment-inc-v-nvidia-corporation/)
+
+### 📄 Doc #83 — 2026-10-26
+
+Stipulation and Proposed Order
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71972050/83/ted-entertainment-inc-v-nvidia-corporation/)
+
+### 📄 Doc #82 — 2026-10-08
+
+Proposed Order
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71972050/82/3/ted-entertainment-inc-v-nvidia-corporation/)
+
+### 📄 Doc #81 — 2026-10-01
+
+Order on Administrative Motion per Civil Local Rule 7-11
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71972050/81/ted-entertainment-inc-v-nvidia-corporation/)
 
 ### 📄 Doc #80 — 2026-09-23
 
@@ -408,4 +432,4 @@ Proposed Summons. (Bar-Nissim, Rom) (Filed on 11/26/2025) (Entered: 11/26/2025)
 
 ---
 
-*產生時間：2026-10-01 01:26 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-11-01 01:26 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

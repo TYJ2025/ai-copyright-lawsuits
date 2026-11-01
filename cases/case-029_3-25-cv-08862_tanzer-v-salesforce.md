@@ -1,6 +1,6 @@
 # Case 29 — In re Salesforce LLM Copyright Infringement Litigation
 
-> 最後更新（CourtListener fetch）：2026-10-01 01:18 UTC
+> 最後更新（CourtListener fetch）：2026-11-01 01:17 UTC
 
 ---
 
@@ -362,4 +362,4 @@ REPORT on the filing or determination of an action regarding Copyright Infringem
 
 ---
 
-*產生時間：2026-10-01 01:18 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-11-01 01:17 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

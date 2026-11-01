@@ -1,6 +1,6 @@
 # Case 33 — Chicago Tribune Company, LLC v. Perplexity AI, Inc.
 
-> 最後更新（CourtListener fetch）：2026-10-01 01:19 UTC
+> 最後更新（CourtListener fetch）：2026-11-01 01:18 UTC
 
 ---
 
@@ -13,7 +13,7 @@
 | Court | District Court, S.D. New York (`nysd`) |
 | Judge Assigned | Loretta A. Preska |
 | Date Filed | 2025-12-04 |
-| Date Last Filing | 2026-08-31 |
+| Date Last Filing | 2026-10-21 |
 | Cause | 17:501 Copyright Infringement |
 | Nature of Suit | 820 Copyright |
 | Jury Demand | Plaintiff |
@@ -33,15 +33,51 @@
 
 - ✅ Court 一致：dashboard 寫「S.D.N.Y.」，CourtListener 為「S.D. New York」
 - ✅ Judge 一致：dashboard 寫「Loretta A. Preska」，CourtListener 為「Loretta A. Preska」
-- ℹ️ Dashboard progress 內找不到【YYYY/M/D】格式日期；CourtListener 最後 entry: 2026-08-31
+- ℹ️ Dashboard progress 內找不到【YYYY/M/D】格式日期；CourtListener 最後 entry: 2026-10-21
 
 ## 3. Docket Entries（最新優先，已過濾程序性 entries）
 
-**實質性 entries**：60 筆／**已過濾程序性 entries**：31 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+**實質性 entries**：66 筆／**已過濾程序性 entries**：31 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+
+### 📄 Doc #66 — 2026-10-21
+
+ORDER RE: STIPULATED SOURCE CODE PROTOCOL...regarding procedures to be followed that shall govern the handling of confidential material... SO ORDERED. (Signed by Judge Loretta A. Preska on 10/21/2026) (jjc) (Entered: 10/21/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71996467/66/chicago-tribune-company-llc-v-perplexity-ai-inc/)
+
+### 📄 Doc #65 — 2026-10-21
+
+PROPOSED STIPULATION AND ORDER. Document filed by Chicago Tribune Company, LLC..(Lieberman, Steven) (Entered: 10/21/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71996467/65/chicago-tribune-company-llc-v-perplexity-ai-inc/)
+
+### 📄 Doc #64 — 2026-10-20
+
+LETTER addressed to Judge Loretta A. Preska from Steven Lieberman dated October 20, 2026 re: Plaintiffs respond to the Notice of Supplemental Authority. Document filed by Chicago Tribune Company, LLC..(Lieberman, Steven) (Entered: 10/20/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71996467/64/chicago-tribune-company-llc-v-perplexity-ai-inc/)
+
+### 📄 Doc #63 — 2026-10-16
+
+NOTICE of Supplemental Authority re: 41 MOTION to Dismiss // Notice of Defendant's Motion to Dismiss Counts II and III of the First Amended Complaint.. Document filed by Perplexity AI, Inc.. (Attachments: # 1 Exhibit 1 - Decision, Weekend Warrior Clothing, LLC v. Google LLC, No. 1:25-cv-00668).(Wetzel, Joseph) (Entered: 10/16/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71996467/63/chicago-tribune-company-llc-v-perplexity-ai-inc/)
+
+### 📄 Doc #61 — 2026-10-07
+
+PROPOSED STIPULATION AND ORDER. Document filed by Chicago Tribune Company, LLC..(Lieberman, Steven) (Entered: 10/07/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71996467/61/chicago-tribune-company-llc-v-perplexity-ai-inc/)
+
+### 📄 Doc #62 — 2026-10-07
+
+ORDER RE: STIPULATED DOCUMENT PRODUCTION PROTOCOL: Plaintiffs Chicago Tribune Company, LLC ("Chicago Tribune") and The New York TimesCompany ("The Times"), Wirecutter, Inc. ("Wirecutter"), and The Athletic Media Company ("TheAthletic") and Defendant Perplexity AI, Inc. (each a "Party," and collectively, "the Parties"),through counsel of record, hereby submit this proposed Stipulated Document Production Protocol("Protocol" or "Order") for the Court to so order.Whereas, for good cause shown, IT IS HEREBY ORDERED THAT: The agreements set forth herein are without prejudice to the right of a Party torequest additional information about, or production of, additional Electronically Stored Information (ESI), or object to such requests for information or production on grounds relatedto the particular request. The Parties shall confer in good faith and may seek assistance from theCourt to resolve such disputes if agreement cannot be reached. SO ORDERED. (Signed by Judge Loretta A. Preska on 10/7 …(truncated)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71996467/62/chicago-tribune-company-llc-v-perplexity-ai-inc/)
 
 ### 📄 Doc #60 — 2026-08-31
 
-STIPULATED CONFIDENTIALITY AND PROTECTIVE ORDER...regarding procedures to be followed that shall govern the handling of confidential material... SO ORDERED.   (Signed by Judge Loretta A. Preska on 8/31/2026)   (ar)
+STIPULATED CONFIDENTIALITY AND PROTECTIVE ORDER...regarding procedures to be followed that shall govern the handling of confidential material... SO ORDERED. (Signed by Judge Loretta A. Preska on 8/31/2026) (ar) (Entered: 08/31/2026)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/71996467/60/chicago-tribune-company-llc-v-perplexity-ai-inc/)
 
@@ -396,4 +432,4 @@ AO 121 FORM COPYRIGHT - NOTICE OF SUBMISSION BY ATTORNEY. AO 121 Form Copyright 
 
 ---
 
-*產生時間：2026-10-01 01:19 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-11-01 01:18 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

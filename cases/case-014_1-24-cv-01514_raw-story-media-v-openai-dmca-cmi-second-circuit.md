@@ -1,6 +1,6 @@
 # Case 14 — Raw Story Media, Inc. v. OpenAI Inc.
 
-> 最後更新（CourtListener fetch）：2026-10-01 01:10 UTC
+> 最後更新（CourtListener fetch）：2026-11-01 01:10 UTC
 
 ---
 
@@ -15,7 +15,7 @@
 | Judge Referred | Ona T. Wang |
 | Date Filed | 2024-02-28 |
 | Date Terminated | 2025-06-18 |
-| Date Last Filing | 2026-09-24 |
+| Date Last Filing | 2026-10-30 |
 | Cause | 17:1201 Digital Millennium Copyright Act |
 | Nature of Suit | 820 Copyright |
 | Jury Demand | Plaintiff |
@@ -35,11 +35,269 @@
 
 - ⚠️ Court 可能不一致：dashboard 寫「S.D.N.Y. 1:24-cv-01514 → 2d Cir. 25-1756（案名 In Re: OpenAI, Inc. Copyright Infringement Litigation）」，CourtListener 為「S.D. New York」
 - ⚠️ Judge 可能不一致：dashboard 寫「McMahon（S.D.N.Y. 原審）／2d Cir. panel: Jacobs、Wesley、E. Lee」，CourtListener 為「Sidney H. Stein」
-- ⚠️ Dashboard progress **落後 190 天**：dashboard 最新日期 2026-03-18，CourtListener 最後 entry 2026-09-24——建議查看新近 entries 並補充 progress
+- ⚠️ Dashboard progress **落後 226 天**：dashboard 最新日期 2026-03-18，CourtListener 最後 entry 2026-10-30——建議查看新近 entries 並補充 progress
 
 ## 3. Docket Entries（最新優先，已過濾程序性 entries）
 
-**實質性 entries**：146 筆／**已過濾程序性 entries**：54 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+**實質性 entries**：158 筆／**已過濾程序性 entries**：42 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+
+### 📄 Doc #496 — 2026-10-30
+
+Proposed Order Proposed Order
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68290709/496/2/raw-story-media-inc-v-openai-inc/)
+
+### 📄 Doc #486 — 2026-10-30
+
+Exhibit - Proposed Order for Admission Pro Hac Vice
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68290709/486/3/raw-story-media-inc-v-openai-inc/)
+
+### 📄 Doc #480 — 2026-10-30
+
+Proposed Order Exhibit B - Proposed Order
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68290709/480/2/raw-story-media-inc-v-openai-inc/)
+
+### 📄 Doc #493 — 2026-10-30
+
+Exhibit 2[Proposed] Order Granting Gregory Leppert's Motion for Leave to Fi
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68290709/493/2/raw-story-media-inc-v-openai-inc/)
+
+### 📄 Doc #495 — 2026-10-30
+
+Proposed Order [Proposed] Order Granting Leave to File Amicus Curiae Brief of AI
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68290709/495/2/raw-story-media-inc-v-openai-inc/)
+
+### 📄 Doc #494 — 2026-10-30
+
+Exhibit IIPSJ Amici Curiae Brief
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68290709/494/1/raw-story-media-inc-v-openai-inc/)
+
+### 📄 Doc #490 — 2026-10-30
+
+Proposed Order Proposed Order Granting Leave to File Brief of Professor Joseph S
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68290709/490/2/raw-story-media-inc-v-openai-inc/)
+
+### 📄 Doc #489 — 2026-10-30
+
+File Amicus Brief
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68290709/489/raw-story-media-inc-v-openai-inc/)
+
+### 📄 Doc #491 — 2026-10-30
+
+Notice of Appearance
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68290709/491/raw-story-media-inc-v-openai-inc/)
+
+### 📄 Doc #492 — 2026-10-30
+
+Memorandum of Law in Support of Motion
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68290709/492/raw-story-media-inc-v-openai-inc/)
+
+### 📄 Doc #484 — 2026-10-30
+
+Exhibit B - Proposed Order
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68290709/484/2/raw-story-media-inc-v-openai-inc/)
+
+### 📄 Doc #485 — 2026-10-30
+
+Proposed Order Proposed Order
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68290709/485/3/raw-story-media-inc-v-openai-inc/)
+
+### 📄 Doc #487 — 2026-10-30
+
+Proposed Order ([Proposed] Order)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68290709/487/2/raw-story-media-inc-v-openai-inc/)
+
+### 📄 Doc #488 — 2026-10-30
+
+Memorandum of Law in Support of Motion
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68290709/488/raw-story-media-inc-v-openai-inc/)
+
+### 📄 Doc #482 — 2026-10-30
+
+Exhibit Proposed Brief of Amicus Curiae
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68290709/482/1/raw-story-media-inc-v-openai-inc/)
+
+### 📄 Doc #477 — 2026-10-30
+
+Exhibit Proposed Brief of Amici Curiae
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68290709/477/1/raw-story-media-inc-v-openai-inc/)
+
+### 📄 Doc #479 — 2026-10-30
+
+Notice of Appearance
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68290709/479/raw-story-media-inc-v-openai-inc/)
+
+### 📄 Doc #481 — 2026-10-30
+
+Memorandum of Law in Support of Motion
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68290709/481/raw-story-media-inc-v-openai-inc/)
+
+### 📄 Doc #483 — 2026-10-30
+
+Order
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68290709/483/raw-story-media-inc-v-openai-inc/)
+
+### 📄 Doc #476 — 2026-10-30
+
+Exhibit B - Proposed Order
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68290709/476/2/raw-story-media-inc-v-openai-inc/)
+
+### 📄 Doc #478 — 2026-10-30
+
+Memorandum of Law in Support of Motion
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68290709/478/raw-story-media-inc-v-openai-inc/)
+
+### 📄 Doc #475 — 2026-10-30
+
+Exhibit Proposed Order
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68290709/475/2/raw-story-media-inc-v-openai-inc/)
+
+### 📄 Doc #471 — 2026-10-29
+
+Proposed Order Proposed Order
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68290709/471/3/raw-story-media-inc-v-openai-inc/)
+
+### 📄 Doc #474 — 2026-10-29
+
+Exhibit A - Proposed Amicus Brief
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68290709/474/1/raw-story-media-inc-v-openai-inc/)
+
+### 📄 Doc #473 — 2026-10-29
+
+Proposed Order Proposed Order
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68290709/473/2/raw-story-media-inc-v-openai-inc/)
+
+### 📄 Doc #472 — 2026-10-29
+
+Memorandum of Law in Support of Motion
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68290709/472/raw-story-media-inc-v-openai-inc/)
+
+### 📄 Doc #470 — 2026-10-29
+
+Proposed Order Granting Leave to File Brief of Professor Matthew Sag as Amicus C
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68290709/470/2/raw-story-media-inc-v-openai-inc/)
+
+### 📄 Doc #— — 2026-10-29
+
+Notice Regarding Pro Hac Vice Motion
+
+### 📄 Doc #468 — 2026-10-28
+
+Proposed Order for Admission Pro Hac Vice
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68290709/468/3/raw-story-media-inc-v-openai-inc/)
+
+### 📄 Doc #469 — 2026-10-28
+
+Proposed Order for Admission Pro Hac Vice
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68290709/469/3/raw-story-media-inc-v-openai-inc/)
+
+### 📄 Doc #466 — 2026-10-28
+
+Proposed Order on Amazon.com, Inc.'s Motion to Seal
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68290709/466/1/raw-story-media-inc-v-openai-inc/)
+
+### 📄 Doc #467 — 2026-10-28
+
+Declaration in Support of Motion
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68290709/467/raw-story-media-inc-v-openai-inc/)
+
+### 📄 Doc #— — 2026-10-28
+
+Notice to Attorney to Re-File Document - Deficient Docket Entry Error
+
+### 📄 Doc #465 — 2026-10-28
+
+File Amicus Brief
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68290709/465/raw-story-media-inc-v-openai-inc/)
+
+### 📄 Doc #464 — 2026-10-28
+
+File Amicus Brief
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68290709/464/raw-story-media-inc-v-openai-inc/)
+
+### 📄 Doc #463 — 2026-10-27
+
+Proposed Order Granting Pro Hac Vice
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68290709/463/3/raw-story-media-inc-v-openai-inc/)
+
+### 📄 Doc #— — 2026-10-26
+
+Notice Regarding Pro Hac Vice Motion
+
+### 📄 Doc #462 — 2026-10-26
+
+Proposed Order for Admission Pro Hac Vice
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68290709/462/4/raw-story-media-inc-v-openai-inc/)
+
+### 📄 Doc #461 — 2026-10-23
+
+Oral Argument
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68290709/461/raw-story-media-inc-v-openai-inc/)
+
+### 📄 Doc #460 — 2026-10-23
+
+Exhibit Declaration of Lucky Vidmar in Support
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68290709/460/1/raw-story-media-inc-v-openai-inc/)
+
+### 📄 Doc #459 — 2026-10-23
+
+Notice of Appearance
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68290709/459/raw-story-media-inc-v-openai-inc/)
+
+### 📄 Doc #458 — 2026-10-14
+
+Stipulation and Order
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68290709/458/raw-story-media-inc-v-openai-inc/)
+
+### 📄 Doc #457 — 2026-10-07
+
+Order on Motion for Leave to File Document
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68290709/457/raw-story-media-inc-v-openai-inc/)
+
+### 📄 Doc #456 — 2026-10-06
+
+Exhibit A - Sample Format
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68290709/456/1/raw-story-media-inc-v-openai-inc/)
 
 ### 📄 Doc #455 — 2026-09-24
 
@@ -665,188 +923,8 @@ LETTER MOTION to Seal Omnibus addressed to Magistrate Judge Ona T. Wang from Chr
 
 [CourtListener 連結](https://www.courtlistener.com/docket/68290709/340/1/raw-story-media-inc-v-openai-inc/)
 
-### 📄 Doc #341 — 2026-01-12
-
-DECLARATION of MAILE YEATS-ROWE in Support re: (1157 in 1:25-md-03143-SHS-OTW, 941 in 1:23-cv-08292-SHS-OTW, 341 in 1:25-cv-04315-SHS-OTW, 374 in 1:24-cv-01515-SHS-OTW, 1152 in 1:23-cv-11195-SHS-OTW, 283 in 1:25-cv-03297-SHS-OTW, 340 in 1:24-cv-01514-SHS-OTW, 728 in 1:25-cv-03482-SHS-OTW) LETTER MOTION to Seal Omnibus addressed to Magistrate Judge Ona T. Wang from Christopher S. Sun, Allison S. Blanco, Caitlin Sinclaire Blythe dated January 12, 2026.. Document filed by OpenAI Inc., OpenAI OpCo LLC, OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.L.C., OpenAI Holdings LLC, OpenAI Holdings, LLC, OpenAI LLC, OpenAI LP, OpenAI OpCo LLC(a Delaware limited liability corporation), OpenAI OpCo, L.L.C., OpenAI Startup Fund GP I LLC, OpenAI Startup Fund GP I LLC(a Delaware limited liability company), OpenAI Startup Fund I LP, OpenAI Startup Fund I LP(a Delaware limited partnership), OpenAI Startup Fund Management LLC, …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68290709/341/10/raw-story-media-inc-v-openai-inc/)
-
-### 📄 Doc #337 — 2026-01-08
-
-LETTER MOTION to Seal addressed to Magistrate Judge Ona T. Wang from Caitlin Sinclaire Blythe, Thomas E. Gorman, and Allison S. Blanco dated 01-08-2026. Document filed by OpenAI Inc., OpenAI OpCo LLC, OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.L.C., OpenAI Holdings LLC, OpenAI Holdings, LLC, OpenAI LLC, OpenAI LP, OpenAI OpCo LLC(a Delaware limited liability corporation), OpenAI OpCo, L.L.C., OpenAI Startup Fund GP I LLC, OpenAI Startup Fund GP I LLC(a Delaware limited liability company), OpenAI Startup Fund I LP, OpenAI Startup Fund I LP(a Delaware limited partnership), OpenAI Startup Fund Management LLC, OpenAI Startup Fund Management LLC(a Delaware limited liability company), OpenAI, Inc., OpenAI, LLC, OpenAI GP LLC, OpenAI Inc., OpenAI LP(a Delaware limited partnership). (Attachments: # 1 Proposed Order Granting OpenAI Sealing Motion)Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Blythe, C …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68290709/337/1/raw-story-media-inc-v-openai-inc/)
-
-### 📄 Doc #339 — 2026-01-08
-
-DECLARATION of Edward Bayley re: (1126 in 1:25-md-03143-SHS-OTW) Response in Opposition to Motion,, // Declaration of Edward Bayley in Support of OpenAI Defendants' Opposition to News Plaintiffs' Motion at MDL ECF 1061., DECLARATION of Edward Bayley in Support re: (1126 in 1:25-md-03143-SHS-OTW) Response in Opposition to Motion,,. Document filed by OAI Corporation, LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Holdings, LLC, OpenAI LLC, OpenAI LP, OpenAI OpCo LLC, OpenAI Startup Fund GP I LLC, OpenAI Startup Fund I LP, OpenAI Startup Fund Management LLC, OpenAI, Inc., OpenAI, LLC. (Attachments: # 1 Exhibit A - September 12, 2025 Letter, # 2 Exhibit B - September 2025 Correspondence with News Plaintiffs, # 3 Exhibit C - December 2025 Correspondence with Class Plaintiffs [Redacted], # 4 Exhibit D - December 2025 Correspondence with News Plaintiffs, # 5 Exhibit E - Responses and Objections to Daily News Interrogatories [Redacted])Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(N …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68290709/339/5/raw-story-media-inc-v-openai-inc/)
-
-### 📄 Doc #333 — 2026-01-08
-
-LETTER RESPONSE in Opposition to Motion addressed to Magistrate Judge Ona T. Wang from Rose S. Lee, Christopher S. Sun, and Herman Yue dated January 8, 2026 re: (1043 in 1:25-md-03143-SHS-OTW, 878 in 1:23-cv-08292-SHS-OTW) LETTER MOTION to Compel OpenAI to to Produce discrete responsive, non-custodial, documents that are relevant and pose no burden to produce addressed to Magistrate Judge Ona T. Wang from Davida Brook and Justin Nelson dated January 5, 2026 . Document filed by OAI Corporation, LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Holdings, LLC, OpenAI LLC, OpenAI LP, OpenAI OpCo LLC, OpenAI, Inc., OpenAI, LLC, OAI Corporation, OpenAI GP LLC, OpenAI Holdings LLC, OpenAI Inc.. Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Lee, Rose) (Entered: 01/08/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68290709/333/raw-story-media-inc-v-openai-inc/)
-
-### 📄 Doc #334 — 2026-01-08
-
-LETTER RESPONSE in Opposition to Motion addressed to Magistrate Judge Ona T. Wang from Joseph C. Gratz, Thomas E. Gorman, and Elana Nightingale Dawson dated January 8, 2026 re: (891 in 1:23-cv-08292-SHS-OTW, 1070 in 1:25-md-03143-SHS-OTW) LETTER MOTION to Compel OPENAI to Produce Documents Improperly Withheld as Privileged addressed to Magistrate Judge Ona T. Wang from Justin A. Nelson and Davida Brook dated January 5, 2026., (1074 in 1:25-md-03143-SHS-OTW, 893 in 1:23-cv-08292-SHS-OTW) LETTER MOTION to Compel OPENAI to Produce Documents Improperly Withheld as Privileged REDACTED DOCKET NUMBER 1070 addressed to Magistrate Judge Ona T. Wang from Justin A. Nelson and Davida Brook dated January 5, 2026. . Document filed by OpenAI Inc., OpenAI OpCo LLC, OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.L.C., OpenAI Holdings LLC, OpenAI Holdings, LLC, OpenAI LLC, OpenAI LP, OpenAI OpCo LLC(a Delaware limited liabil …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68290709/334/raw-story-media-inc-v-openai-inc/)
-
-### 📄 Doc #335 — 2026-01-08
-
-LETTER RESPONSE in Opposition to Motion addressed to Magistrate Judge Ona T. Wang from Margaret Graham, Edward A. Bayley, and Rose S. Lee dated January 7, 2026 re: (1061 in 1:25-md-03143-SHS-OTW) LETTER MOTION for Discovery addressed to Magistrate Judge Ona T. Wang from Steven Lieberman and Davida Brook dated January 5, 2026. . Document filed by OAI Corporation, LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Holdings, LLC, OpenAI LLC, OpenAI LP, OpenAI OpCo LLC, OpenAI Startup Fund GP I LLC, OpenAI Startup Fund I LP, OpenAI Startup Fund Management LLC, OpenAI, Inc., OpenAI, LLC. Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Nightingale Dawson, Elana) (Entered: 01/08/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68290709/335/raw-story-media-inc-v-openai-inc/)
-
-### 📄 Doc #336 — 2026-01-08
-
-DECLARATION of John Vincent Monaco re: (1126 in 1:25-md-03143-SHS-OTW) Response in Opposition to Motion,, // Declaration of John Vincent Monaco in Support of OpenAI Defendants' Opposition to News Plaintiffs' Motion at MDL ECF 1061., DECLARATION of John Vincent Monaco in Support re: (1126 in 1:25-md-03143-SHS-OTW) Response in Opposition to Motion,,. Document filed by OAI Corporation, LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Holdings, LLC, OpenAI LLC, OpenAI LP, OpenAI OpCo LLC, OpenAI Startup Fund GP I LLC, OpenAI Startup Fund I LP, OpenAI Startup Fund Management LLC, OpenAI, Inc., OpenAI, LLC. Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Nightingale Dawson, Elana) (Entered: 01/08/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68290709/336/raw-story-media-inc-v-openai-inc/)
-
-### 📄 Doc #338 — 2026-01-08
-
-DECLARATION of Maile Yeats-Rowe in Support re: (280 in 1:25-cv-03297-SHS-OTW, 1129 in 1:25-md-03143-SHS-OTW, 337 in 1:25-cv-04315-SHS-OTW, 337 in 1:24-cv-01514-SHS-OTW, 1141 in 1:23-cv-11195-SHS-OTW, 718 in 1:25-cv-03482-SHS-OTW, 370 in 1:24-cv-01515-SHS-OTW, 925 in 1:23-cv-08292-SHS-OTW) LETTER MOTION to Seal addressed to Magistrate Judge Ona T. Wang from Caitlin Sinclaire Blythe, Thomas E. Gorman, and Allison S. Blanco dated 01-08-2026.. Document filed by OpenAI Inc., OpenAI OpCo LLC, OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.L.C., OpenAI Holdings LLC, OpenAI Holdings, LLC, OpenAI LLC, OpenAI LP, OpenAI OpCo LLC(a Delaware limited liability corporation), OpenAI OpCo, L.L.C., OpenAI Startup Fund GP I LLC, OpenAI Startup Fund GP I LLC(a Delaware limited liability company), OpenAI Startup Fund I LP, OpenAI Startup Fund I LP(a Delaware limited partnership), OpenAI Startup Fund Management LLC, OpenAI Star …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68290709/338/raw-story-media-inc-v-openai-inc/)
-
-### 📄 Doc #332 — 2026-01-08
-
-LETTER RESPONSE in Opposition to Motion addressed to Magistrate Judge Ona T. Wang from R. James Slaughter, Allison S. Blanco, Caitlin Sinclaire Blythe dated January 8, 2026 re: (1078 in 1:25-md-03143-SHS-OTW, 897 in 1:23-cv-08292-SHS-OTW) LETTER MOTION to Compel OpenAI to log and produce REDACTED DOCKET NUMBER 1030 addressed to Magistrate Judge Ona T. Wang from Justin A. Nelson dated January 5, 2026., (1030 in 1:25-md-03143-SHS-OTW, 870 in 1:23-cv-08292-SHS-OTW) LETTER MOTION to Compel OpenAI to log and produce addressed to Magistrate Judge Ona T. Wang from Justin A. Nelson dated January 5, 2026. . Document filed by OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.L.C., OpenAI Holdings LLC, OpenAI Holdings, LLC, OpenAI Inc., OpenAI LLC, OpenAI LP, OpenAI OpCo LLC, OpenAI OpCo LLC(a Delaware limited liability corporation), OpenAI OpCo, L.L.C., OpenAI Startup Fund GP I LLC, OpenAI Startup Fund GP I LLC(a Delawa …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68290709/332/raw-story-media-inc-v-openai-inc/)
-
-### 📄 Doc #— — 2026-01-08
-
-Status Conference
-
-### 📄 Doc #— — 2026-01-08
-
-Notice Regarding Pro Hac Vice Motion
-
-### 📄 Doc #— — 2026-01-07
-
-Notice Regarding Deficient Motion to Appear Pro Hac Vice
-
-### 📄 Doc #328 — 2026-01-06
-
-ORDER in case 1:23-cv-08292-SHS-OTW; granting (1090) Letter Motion for Extension of Time in case 1:25-md-03143-SHS-OTW. SO ORDERED. (Signed by Judge Sidney H. Stein on 1/6/2026) Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al. (jca) (Entered: 01/06/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68290709/328/raw-story-media-inc-v-openai-inc/)
-
-### 📄 Doc #— — 2026-01-06
-
-Notice Regarding Pro Hac Vice Motion
-
-### 📄 Doc #323 — 2026-01-05
-
-ORDER: OpenAI's objections (Dkt. Nos. 840 and 934) to Magistrate Judge Wang's discovery orders dated November 7, 2025 (Dkt. No. 734), and December 5, 2025 (Dkt. No. 910), are denied and the orders are affirmed. OpenAI also contends that it was clearly erroneous for Judge Wang to have rejected OpenAI' s purportedly less burdensome proposal to run search terms across the 20 million de-identified log sample in order to identify conversations that implicate News Plaintiffs' works, which would result in the production of far fewer than 20 million conversations. Doing so, according to OpenAI, would better protect ChatGPT users' privacy interests. This argument is largely a repackaging of OpenAI's primary argument that Judge Wang failed adequately to account for users' privacy interests and should have chosen a path that would further minimize the burden on users' privacy interests. OpenAI identifies no caselaw requiring a court to order the least burdensome discovery possible or to explain s …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68290709/323/raw-story-media-inc-v-openai-inc/)
-
-### 📄 Doc #321 — 2025-12-16
-
-MOTION for Eric Nikolaides to Withdraw as Attorney . Document filed by OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Holdings, LLC, OpenAI Inc., OpenAI LLC, OpenAI LP, OpenAI OpCo LLC(a Delaware limited liability corporation), OpenAI OpCo LLC, OpenAI Startup Fund GP I LLC, OpenAI Startup Fund GP I LLC(a Delaware limited liability company), OpenAI Startup Fund I LP(a Delaware limited partnership), OpenAI Startup Fund I LP, OpenAI Startup Fund Management LLC(a Delaware limited liability company), OpenAI Startup Fund Management LLC, OpenAI, Inc., OpenAI, LLC, OpenAI GP LLC, OpenAI Inc., OpenAI LP(a Delaware limited partnership), OpenAI Holdings LLC. (Attachments: # 1 Proposed Order Granting Motion for Eric Nikolaides to Withdraw as Counsel of Record)Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Lee, Rose) (Entered: 12/16/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68290709/688/1/raw-story-media-inc-v-openai-inc/)
-
-### 📄 Doc #322 — 2025-12-16
-
-DECLARATION of Rose S. Lee in Support of Motion to Withdraw Eric Nikolaides as Counsel of Record in Support re: (462 in 1:24-cv-04872-SHS-OTW) MOTION for Eric Nikolaides to Withdraw as Attorney .. Document filed by OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Holdings, LLC, OpenAI Inc., OpenAI LLC, OpenAI LP, OpenAI OpCo LLC(a Delaware limited liability corporation), OpenAI OpCo LLC, OpenAI Startup Fund GP I LLC, OpenAI Startup Fund GP I LLC(a Delaware limited liability company), OpenAI Startup Fund I LP(a Delaware limited partnership), OpenAI Startup Fund I LP, OpenAI Startup Fund Management LLC(a Delaware limited liability company), OpenAI Startup Fund Management LLC, OpenAI, Inc., OpenAI, LLC. Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Lee, Rose) (Entered: 12/16/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68290709/322/raw-story-media-inc-v-openai-inc/)
-
-### 📄 Doc #319 — 2025-12-12
-
-TRANSCRIPT of Proceedings re: CONFERENCE held on 12/4/2025 before Magistrate Judge Ona T. Wang. Court Reporter/Transcriber: Amy Walker, (212) 805-0300. Transcript may be viewed at the court public terminal or purchased through the Court Reporter/Transcriber before the deadline for Release of Transcript Restriction. After that date it may be obtained through PACER. Redaction Request due 1/2/2026. Redacted Transcript Deadline set for 1/12/2026. Release of Transcript Restriction set for 3/12/2026.Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Moya, Goretti) (Entered: 12/12/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68290709/319/raw-story-media-inc-v-openai-inc/)
-
-### 📄 Doc #320 — 2025-12-12
-
-NOTICE OF FILING OF OFFICIAL TRANSCRIPT Notice is hereby given that an official transcript of a CONFERENCE proceeding held on 12/4/2025 has been filed by the court reporter/transcriber in the above-captioned matter. The parties have seven (7) calendar days to file with the court a Notice of Intent to Request Redaction of this transcript. If no such Notice is filed, the transcript may be made remotely electronically available to the public without redaction after 90 calendar days...Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Moya, Goretti) (Entered: 12/12/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68290709/320/raw-story-media-inc-v-openai-inc/)
-
-### 📄 Doc #316 — 2025-12-11
-
-JOINT LETTER addressed to Magistrate Judge Ona T. Wang from Caitlin S. Blythe, Justin A. Nelson, Annette Hurst, Davida Brook dated December 10, 2025 re: Joint Status Letter [ECF 910]. Document filed by OpenAI Inc., OpenAI OpCo LLC, OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.L.C., OpenAI Holdings LLC, OpenAI Holdings, LLC, OpenAI LLC, OpenAI LP, OpenAI OpCo LLC(a Delaware limited liability corporation), OpenAI OpCo, L.L.C., OpenAI Startup Fund GP I LLC, OpenAI Startup Fund GP I LLC(a Delaware limited liability company), OpenAI Startup Fund I LP, OpenAI Startup Fund I LP(a Delaware limited partnership), OpenAI Startup Fund Management LLC, OpenAI Startup Fund Management LLC(a Delaware limited liability company), OpenAI, Inc., OpenAI, LLC, OpenAI GP LLC, OpenAI Inc., OpenAI LP(a Delaware limited partnership). (Attachments: # 1 Exhibit A)Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Blythe, Caitli …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68290709/316/1/raw-story-media-inc-v-openai-inc/)
-
-### 📄 Doc #315 — 2025-12-11
-
-***EX-PARTE***JOINT LETTER addressed to Magistrate Judge Ona T. Wang from Caitlin S. Blythe, Justin A. Nelson, Annette Hurst, Davida Brook dated December 10, 2025 re: Joint Status Letter [ECF 910]. Document filed by OpenAI Inc., OpenAI OpCo LLC, OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.L.C., OpenAI Holdings LLC, OpenAI Holdings, LLC, OpenAI LLC, OpenAI LP, OpenAI OpCo LLC(a Delaware limited liability corporation), OpenAI OpCo, L.L.C., OpenAI Startup Fund GP I LLC, OpenAI Startup Fund GP I LLC(a Delaware limited liability company), OpenAI Startup Fund I LP, OpenAI Startup Fund I LP(a Delaware limited partnership), OpenAI Startup Fund Management LLC, OpenAI Startup Fund Management LLC(a Delaware limited liability company), OpenAI, Inc., OpenAI, LLC, OpenAI GP LLC, OpenAI Inc., OpenAI LP(a Delaware limited partnership). (Attachments: # 1 Exhibit A)Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al.Mo …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68290709/315/raw-story-media-inc-v-openai-inc/)
-
-### 📄 Doc #314 — 2025-12-10
-
-MOTION to Seal Attachment to Joint Status Letter. Document filed by OAI Corporation, LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Holdings, LLC, OpenAI LP, OpenAI OpCo, L.L.C., OpenAI, Inc., OpenAI, LLC.Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Yue, Herman) (Entered: 12/10/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68290709/314/raw-story-media-inc-v-openai-inc/)
-
-### 📄 Doc #313 — 2025-12-10
-
-DECLARATION of Edward Bayley in Support re: (934 in 1:25-md-03143-SHS-OTW) Objection (non-motion),,,,,,,, (840 in 1:25-md-03143-SHS-OTW) Objection (non-motion),. Document filed by OAI Corporation, LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Holdings, LLC, OpenAI OpCo LLC, OpenAI, Inc., OpenAI, LLC. (Attachments: # 1 Exhibit W - Class Plaintiffs' Third Set of RFPs, # 2 Exhibit X - Email Correspondence re Class Plaintiffs' Third Set of RFPs, # 3 Exhibit Y - Notice of Electronic Filing)Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Graham, Margaret) (Entered: 12/10/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68290709/313/3/raw-story-media-inc-v-openai-inc/)
-
-### 📄 Doc #311 — 2025-12-10
-
-Objection re: (910 in 1:25-md-03143-SHS-OTW, 910 in 1:25-md-03143-SHS-OTW, 910 in 1:25-md-03143-SHS-OTW, 910 in 1:25-md-03143-SHS-OTW, 910 in 1:25-md-03143-SHS-OTW, 910 in 1:25-md-03143-SHS-OTW, 910 in 1:25-md-03143-SHS-OTW, 910 in 1:25-md-03143-SHS-OTW, 910 in 1:25-md-03143-SHS-OTW, 910 in 1:25-md-03143-SHS-OTW, 910 in 1:25-md-03143-SHS-OTW, 910 in 1:25-md-03143-SHS-OTW, 910 in 1:25-md-03143-SHS-OTW, 910 in 1:25-md-03143-SHS-OTW, 910 in 1:25-md-03143-SHS-OTW, 910 in 1:25-md-03143-SHS-OTW, 910 in 1:25-md-03143-SHS-OTW, 910 in 1:25-md-03143-SHS-OTW, 910 in 1:25-md-03143-SHS-OTW, 910 in 1:25-md-03143-SHS-OTW, 910 in 1:25-md-03143-SHS-OTW) Order on Motion to Compel,,, Order on Motion for Discovery,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68290709/311/raw-story-media-inc-v-openai-inc/)
-
-### 📄 Doc #312 — 2025-12-10
-
-MEMORANDUM OF LAW in Support re: (934 in 1:25-md-03143-SHS-OTW) Objection (non-motion),,,,,,,, (840 in 1:25-md-03143-SHS-OTW) Objection (non-motion), // Updated Memorandum of Law in Support of OpenAI's Rule 72(a) Objections to the Orders Compelling Production of ChatGPT Conversation Logs at MDL ECF 734, MDL ECF 896, and MDL ECF 910. Document filed by OAI Corporation, LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Holdings, LLC, OpenAI OpCo LLC, OpenAI, Inc., OpenAI, LLC. Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Graham, Margaret) (Entered: 12/10/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68290709/312/raw-story-media-inc-v-openai-inc/)
-
-### 📄 Doc #310 — 2025-12-08
-
-ORDER: OpenAI's request (Dkt. No. 884) for a temporary stay of Magistrate Judge Wang's November 24, 2025 Opinion and Order (Dkt. No. 846) is denied in light of Judge Wang's December 5, 2025 Order (Dkt. No. 910) staying the deadline for OpenAI to produce documents previously withheld on the basis of attorney-client privilege and extending the deadline for OpenAI to make its attorneys available for depositions. If OpenAI files an objection to Judge Wang's November 24, 2025 Opinion and Order (Dkt. No. 846) on December 8, 2025, plaintiffs' opposition shall be filed by December 19, 2025. SO ORDERED. (Signed by Judge Sidney H. Stein on 12/8/2025) Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al. (ar) (Entered: 12/08/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68290709/310/raw-story-media-inc-v-openai-inc/)
-
-### 📄 Doc #— — 2025-12-05
-
-Set/Reset Deadlines: Motions due by 1/5/2026. Responses due by 1/8/2026 Replies due by 1/9/2026. Associated Cases: 1:25-md-03143-SHS-OTW et al.(sgz)
-
-### 📄 Doc #309 — 2025-12-05
-
-ORDER denying (746) Letter Motion for Discovery; denying (747) Letter Motion for Discovery; denying as moot (749) Letter Motion to Compel; denying as moot (751) Letter Motion to Compel; granting in part and denying in part (757) Letter Motion to Compel; denying as moot (760) Letter Motion to Compel; granting in part and denying in part (786) Letter Motion for Discovery; granting in part and denying in part (795) Letter Motion for Discovery in case 1:23-cv-08292-SHS-OTW; denying (311) Letter Motion to Compel; denying (553) Letter Motion for Discovery; denying (554) Letter Motion for Discovery; denying as moot (555) Letter Motion to Compel; granting in part and denying in part (572) Letter Motion for Discovery in case 1:23-cv-10211-SHS-OTW; denying as moot (775) Letter Motion to Compel; granting in part and denying in part (875) Letter Motion to Compel; denying (999) Letter Motion for Discovery; denying (1001) Letter Motion to Compel; denying as moot (1003) Letter Motion to Compel; denyi …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68290709/309/raw-story-media-inc-v-openai-inc/)
-
-### 📄 Doc #307 — 2025-12-05
-
-TRANSCRIPT of Proceedings re: ORAL ARGUMENT held on 11/13/2025 before Judge Sidney H. Stein. Court Reporter/Transcriber: Martha Martin, (212) 805-0300. Transcript may be viewed at the court public terminal or purchased through the Court Reporter/Transcriber before the deadline for Release of Transcript Restriction. After that date it may be obtained through PACER. Redaction Request due 12/26/2025. Redacted Transcript Deadline set for 1/5/2026. Release of Transcript Restriction set for 3/5/2026.Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Moya, Goretti) (Entered: 12/05/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68290709/307/raw-story-media-inc-v-openai-inc/)
-
-### 📄 Doc #308 — 2025-12-05
-
-NOTICE OF FILING OF OFFICIAL TRANSCRIPT Notice is hereby given that an official transcript of a ORAL ARGUMENT proceeding held on 11/13/2025 has been filed by the court reporter/transcriber in the above-captioned matter. The parties have seven (7) calendar days to file with the court a Notice of Intent to Request Redaction of this transcript. If no such Notice is filed, the transcript may be made remotely electronically available to the public without redaction after 90 calendar days...Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Moya, Goretti) (Entered: 12/05/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68290709/308/raw-story-media-inc-v-openai-inc/)
-
-### 📄 Doc #306 — 2025-12-05
-
-ORDER: OpenAI defendants are directed to file an updated memorandum of law in support of their objection (Dkt. No. 840) to Magistrate Judge Wang's November 7, 2025 Order (Dkt. No. 734). The updated memorandum should address (1) Judge Wang's December 3, 2025 Opinion and Order (Dkt. No. 896) denying OpenAI's motion for reconsideration of her November 7, 2025 Order (Dkt. No. 734) and (2) the timeliness of OpenAI defendants' November 24, 2025 objection pursuant to Federal Rule of Civil Procedure 72(a). OpenAI defendants' updated memorandum shall be filed by 5 p.m. on December 10, 2025, and plaintiff's opposition shall be filed by 5 p.m. on December 19, 2025. No reply shall be permitted. The Court will not consider OpenAI defendants' original memorandum filed at Dkt. No. 841. SO ORDERED. (Signed by Judge Sidney H. Stein on 12/5/2025) Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al. (jca) (Entered: 12/05/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68290709/306/raw-story-media-inc-v-openai-inc/)
-
-### 📄 Doc #— — 2025-12-04
-
-Minute Entry for proceedings held before Magistrate Judge Ona T. Wang: Status Conference held on 12/4/2025. Associated Cases: 1:25-md-03143-SHS-OTW et al.(Quinn, Diane)
-
 <details>
-<summary>已過濾的 54 筆程序性 entries（點擊展開）</summary>
+<summary>已過濾的 42 筆程序性 entries（點擊展開）</summary>
 
 - **Doc #453** (2026-09-14): NOTICE OF APPEARANCE by Marc Holden Axelbaum on behalf of Benjamin Chess. Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Axelbaum, Marc) (Entered: 09/14/2026)
 - **Doc #454** (2026-09-14): NOTICE OF APPEARANCE by Marc Holden Axelbaum on behalf of Ermira Murati. Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Axelbaum, Marc) (Entered: 09/14/2026)
@@ -890,21 +968,9 @@ Minute Entry for proceedings held before Magistrate Judge Ona T. Wang: Status Co
 - **Doc #348** (2026-01-16): MOTION for Emily L. Wang to Appear Pro Hac Vice . Filing fee $ 200.00, receipt number NYSDC-32274446. Motion and supporting papers to be reviewed by Clerk's Office staff. Document filed by OAI Corpora…
 - **Doc #345** (2026-01-15): MOTION for Daniel T. Nguyen to Appear Pro Hac Vice . Filing fee $ 200.00, receipt number NYSDC-32270151. Motion and supporting papers to be reviewed by Clerk's Office staff. Document filed by OpenAI I…
 - **Doc #343** (2026-01-13): CERTIFICATE OF SERVICE of ECF 1159 on January 12, 2026. Document filed by OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L…
-- **Doc #—** (2026-01-08): >>>NOTICE REGARDING PRO HAC VICE MOTION. Regarding Document No. (331 in 1:24-cv-01514-SHS-OTW, 364 in 1:24-cv-01515-SHS-OTW, 1099 in 1:25-md-03143-SHS-OTW, 711 in 1:25-cv-03482-SHS-OTW, 1120 in 1:23-c…
-- **Doc #330** (2026-01-07): FILING ERROR - DEFICIENT DOCKET ENTRY - MOTION for Lily Yue Li to Appear Pro Hac Vice . Filing fee $ 200.00, receipt number NYSDC-32224147. Motion and supporting papers to be reviewed by Clerk's Offic…
-- **Doc #331** (2026-01-07): MOTION for Lily Yue Li to Appear Pro Hac Vice . Motion and supporting papers to be reviewed by Clerk's Office staff. Document filed by OpenAI Inc., OpenAI OpCo LLC, OAI Corporation, OAI Corporation LL…
-- **Doc #—** (2026-01-07): >>>NOTICE REGARDING DEFICIENT MOTION TO APPEAR PRO HAC VICE. Notice to RE-FILE Document No. (1098 in 1:25-md-03143-SHS-OTW) MOTION for Lily Yue Li to Appear Pro Hac Vice . Filing fee $ 200.00, receipt…
-- **Doc #329** (2026-01-07): NOTICE OF APPEARANCE by Zachary Scott Newman on behalf of OAI Corporation, LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Holdings, LLC, OpenAI LP, OpenAI OpCo LLC(a Delaware limited liability corpora…
-- **Doc #—** (2026-01-06): >>>NOTICE REGARDING PRO HAC VICE MOTION. Regarding Document No. (1079 in 1:25-md-03143-SHS-OTW, 1109 in 1:23-cv-11195-SHS-OTW, 565 in 1:24-cv-03285-SHS-OTW, 323 in 1:25-cv-04315-SHS-OTW, 268 in 1:25-c…
-- **Doc #327** (2026-01-06): NOTICE OF APPEARANCE by Gerardo Gomez Galvis on behalf of OpenAI Inc., OpenAI OpCo LLC, OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, Op…
-- **Doc #326** (2026-01-05): MOTION for Jennifer M. Barretto to Appear Pro Hac Vice . Filing fee $ 200.00, receipt number NYSDC-32213071. Motion and supporting papers to be reviewed by Clerk's Office staff. Document filed by OAI …
-- **Doc #324** (2026-01-05): NOTICE OF APPEARANCE by Gabrielle Velkes on behalf of OAI Corporation, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Holdings, LLC, OpenAI LP, OpenAI OpCo LLC, OpenAI Startup Fund GP I LLC, OpenAI Startup…
-- **Doc #325** (2026-01-05): NOTICE OF APPEARANCE by Franco W. Benyamin on behalf of OAI Corporation, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Holdings, LLC, OpenAI LP, OpenAI OpCo LLC, OpenAI Startup Fund GP I LLC, OpenAI Start…
-- **Doc #318** (2025-12-12): ORDER: It has come to the Court's attention that there are multiple outstanding motions in the above-captioned cases that have already been addressed at the Court's periodic discovery status conferenc…
-- **Doc #317** (2025-12-11): ORDER: It has come to the Court's attention that there are multiple outstanding motions in the above-captioned cases that have already been addressed at the Court's periodic discovery status conferenc…
 
 </details>
 
 ---
 
-*產生時間：2026-10-01 01:10 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-11-01 01:10 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

@@ -1,6 +1,6 @@
 # Case 34 — Encyclopaedia Britannica, Inc. v. Perplexity AI, Inc.
 
-> 最後更新（CourtListener fetch）：2026-10-01 01:19 UTC
+> 最後更新（CourtListener fetch）：2026-11-01 01:18 UTC
 
 ---
 
@@ -14,7 +14,7 @@
 | Judge Assigned | Jennifer L. Rochon |
 | Judge Referred | Sarah L. Cave |
 | Date Filed | 2025-09-10 |
-| Date Last Filing | 2026-09-29 |
+| Date Last Filing | 2026-10-29 |
 | Cause | 17:101 Copyright Infringement |
 | Nature of Suit | 820 Copyright |
 | Jury Demand | Plaintiff |
@@ -34,11 +34,169 @@
 
 - ✅ Court 一致：dashboard 寫「S.D.N.Y.」，CourtListener 為「S.D. New York」
 - ✅ Judge 一致：dashboard 寫「Jennifer L. Rochon」，CourtListener 為「Jennifer L. Rochon」
-- ℹ️ Dashboard progress 略落後 27 天：dashboard 最新日期 2026-09-02，CourtListener 最後 entry 2026-09-29
+- ⚠️ Dashboard progress **落後 57 天**：dashboard 最新日期 2026-09-02，CourtListener 最後 entry 2026-10-29——建議查看新近 entries 並補充 progress
 
 ## 3. Docket Entries（最新優先，已過濾程序性 entries）
 
-**實質性 entries**：143 筆／**已過濾程序性 entries**：27 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+**實質性 entries**：170 筆／**已過濾程序性 entries**：27 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+
+### 📄 Doc #156 — 2026-10-29
+
+Stipulation and Order
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71313411/156/encyclopaedia-britannica-inc-v-perplexity-ai-inc/)
+
+### 📄 Doc #155 — 2026-10-28
+
+Proposed Stipulation and Order
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71313411/155/encyclopaedia-britannica-inc-v-perplexity-ai-inc/)
+
+### 📄 Doc #153 — 2026-10-28
+
+Transcript
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71313411/153/encyclopaedia-britannica-inc-v-perplexity-ai-inc/)
+
+### 📄 Doc #154 — 2026-10-28
+
+Notice of Filing Transcript
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71313411/154/encyclopaedia-britannica-inc-v-perplexity-ai-inc/)
+
+### 📄 Doc #152 — 2026-10-27
+
+OPINION AND ORDER  re:  142   Letter,  filed by   Encyclopaedia Britannica,   Inc.,   Merriam-Webster, Inc. For the reasons set forth above, the Request is  GRANTED IN PART to the extent that, by November 10, 2026, Plaintiffs shall   provide a suppl emental response to Interrogatory 3 that clarifies which two-dimensional artwork falls within "Materials Excluded" from the Asserted Works,   and is otherwise DENIED.       SO ORDERED.    (Signed by Magistrate Judge Sarah L. Cave on 10/27/2026)    (ar)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71313411/152/encyclopaedia-britannica-inc-v-perplexity-ai-inc/)
+
+### 📄 Doc #151 — 2026-10-27
+
+ORDER granting  149  Letter Motion to Seal,. The Court is in receipt of the letter at Dkt. No.  149 filed by Defendant Perplexity AI, Inc. ("Perplexity") requesting to seal portions of the Transcript of Proceedings held on September 29, 20 26 (Dkt. No. 134 (the  "Transcript")) to protect "information designated by Perplexity as 'Highly Confidential,' and 'Highly Confidential - Inspection Data' pursuant to the Protective Order [Dkt. No. 55] and 'H ighly Confidential - Source Code Data' pursuant to the  Source Code Protocol [Dkt. No. 63] entered in this case" (the "Confidential Information"). (Dkt. No. 149 (the "Sealing  Request")). As part of the Sealing Request,  Perplexity submits a version of the Transcript with the Confidential Information  redacted. (Dkt. No. 149-1). Given that the Confidential Information is designated as "Highly Confidential" and "Highly  Confidential - Inspection Data&qu ot; pursuant to Protective Order (Dkt. No. 55) and "Highly Confidential - Source Code Data"  …(truncated)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71313411/151/encyclopaedia-britannica-inc-v-perplexity-ai-inc/)
+
+### 📄 Doc #150 — 2026-10-26
+
+Redacted Document
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71313411/150/encyclopaedia-britannica-inc-v-perplexity-ai-inc/)
+
+### 📄 Doc #149 — 2026-10-26
+
+Seal
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71313411/149/encyclopaedia-britannica-inc-v-perplexity-ai-inc/)
+
+### 📄 Doc #148 — 2026-10-26
+
+LETTER addressed to Magistrate Judge Sarah L. Cave from Ian Crosby dated October 26, 2026 re: Bates labeled documents supplementing Interrogatory No. 3. Document filed by Encyclopaedia Britannica, Inc.. (Attachments: # 1 Exhibit A).(Crosby, Ian) (Entered: 10/26/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71313411/148/encyclopaedia-britannica-inc-v-perplexity-ai-inc/)
+
+### 📄 Doc #147 — 2026-10-26
+
+ORDER : AND NOW, this 26th day of October, 2026, upon review and consideration of the Notice of Motion to Withdraw of Sarah Hannigan as Counsel for Plaintiffs Encyclopdia Britannica, Inc., and Merriam-Webster, Inc. ("Motion"), it is ORDERED and DECREED that the Motion is GRANTED and that the Clerk of the Court shall terminate the appearance of Sarah Hannigan so that she no longer receives CM/ECF notices.   (Signed by Judge Jennifer L. Rochon on 10/26/2026)   (jca)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71313411/147/encyclopaedia-britannica-inc-v-perplexity-ai-inc/)
+
+### 📄 Doc #146 — 2026-10-26
+
+ORDER granting 145 Motion to Withdraw as Attorney. AND NOW, this 26th day of October, 2026, upon review and consideration of the Notice of Motion to Withdraw of Sarah Hannigan as Counsel for Plaintiffs Encyclopaedia Britannica, Inc., and Merriam-Webster, Inc. ("Motion"), it is ORDERED and DECREED that the Motion is GRANTED and that the Clerk of the Court shall terminate the appearance of Sarah Hannigan so that she no longer receives CM/ECF notices. The Clerk of Court is respectfully directed to close Dkt. No. 145. SO ORDERED. Attorney Sarah Hannigan terminated. (Signed by Magistrate Judge Sarah L. Cave on 10/26/2026) (jjc) (Entered: 10/26/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71313411/146/encyclopaedia-britannica-inc-v-perplexity-ai-inc/)
+
+### 📄 Doc #145 — 2026-10-23
+
+MOTION for Sarah Hannigan to Withdraw as Attorney . Document filed by Encyclopaedia Britannica, Inc., Merriam-Webster, Inc.. (Attachments: # 1 Proposed Order of the Notice of Motion to Withdraw Sarah Hannigan).(Hannigan, Sarah) (Entered: 10/23/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71313411/145/encyclopaedia-britannica-inc-v-perplexity-ai-inc/)
+
+### 📄 Doc #144 — 2026-10-22
+
+ORDER: Following the Conference, the Court ORDERS the following: 1. By October 23, 2026, the parties shall order an expedited copy of the Conference transcript (the "Transcript") by using the annexed form and selecting "Daily" se rvice. By November  16, 2026 at 5:00 p.m. ET, the parties shall file a joint letter setting forth the status of discovery and identifying any issues ripe for the Court's attention with each party's position limited to 1,050 words, for a com bined total of 2,100 words. Another telephone conference to discuss the status of discovery and any discovery issues ripe for the Court's attention is scheduled for November 19, 2026 at 3:30 p.m. ET on the Court's conference line. The parti es are directed to call (855) 244-8681; access code: 2308 226 4654, at the scheduled time. (And as further set forth in this order)  (Telephone Conference set for 11/19/2026 at 03:30 PM before Magistrate Judge Sarah L. Cave.)  (Signed by Magistrate Judge Sarah L. Cave on 10/22/2026)   (n …(truncated)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71313411/144/encyclopaedia-britannica-inc-v-perplexity-ai-inc/)
+
+### 📄 Doc #— — 2026-10-22
+
+Telephone Conference
+
+### 📄 Doc #— — 2026-10-22
+
+Minute Entry for proceedings held before Magistrate Judge Sarah L. Cave: Telephone Conference held on 10/22/2026. Attorneys Ian Crosby, Yoonhee Gloria Park, and Ace Factor appeared on behalf of Plaintiffs. Attorneys Brett Sandford, Cory Struble, and Sara Elisabeth Sampoli appeared on behalf of Defendant. (ne)
+
+### 📄 Doc #143 — 2026-10-20
+
+LETTER addressed to Judge Jennifer L. Rochon from Y. Gloria Park dated October 20, 2026 re: Response to Notice of Supplemental Authority (Dkt. 141). Document filed by Encyclopaedia Britannica, Inc., Merriam-Webster, Inc...(Park, Yoonhee) (Entered: 10/20/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71313411/143/encyclopaedia-britannica-inc-v-perplexity-ai-inc/)
+
+### 📄 Doc #142 — 2026-10-19
+
+JOINT LETTER addressed to Magistrate Judge Sarah L. Cave from Davida Brook dated October 19, 2026 re: Discovery Status and Disputes. Document filed by Encyclopaedia Britannica, Inc., Merriam-Webster, Inc.. (Attachments: # 1 Exhibit A, # 2 Exhibit B, # 3 Exhibit C, # 4 Exhibit D, # 5 Exhibit E, # 6 Exhibit F, # 7 Appendix A).(Brook, Davida) (Entered: 10/19/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71313411/142/7/encyclopaedia-britannica-inc-v-perplexity-ai-inc/)
+
+### 📄 Doc #141 — 2026-10-16
+
+NOTICE of Supplemental Authority re: 44 MOTION to Dismiss // Notice of Defendant's Motion to Dismiss.. Document filed by Perplexity AI, Inc.. (Attachments: # 1 Exhibit 1 - Decision, Weekend Warrior Clothing, LLC v. Google LLC, No. 1:25-cv-00668).(Wetzel, Joseph) (Entered: 10/16/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71313411/141/encyclopaedia-britannica-inc-v-perplexity-ai-inc/)
+
+### 📄 Doc #140 — 2026-10-13
+
+MEMO ENDORSEMENT on re: 139 Notice of Intent to Request Redaction. ENDORSEMENT: The Court is in receipt of Perplexity's notice of intent to request redactions of the September 29, 2026 conference transcript. (Dkt. No. 139). By October 26, 2026, Perplexity shall file its redaction request. (Signed by Magistrate Judge Sarah L. Cave on 10/13/2026) (rro) (Entered: 10/13/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71313411/140/encyclopaedia-britannica-inc-v-perplexity-ai-inc/)
+
+### 📄 Doc #139 — 2026-10-09
+
+NOTICE of Intent to Request Redaction by Joseph Richard Wetzel, Jr re 134 Transcript,,..(Wetzel, Joseph) (Entered: 10/09/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71313411/139/encyclopaedia-britannica-inc-v-perplexity-ai-inc/)
+
+### 📄 Doc #137 — 2026-10-06
+
+DECLARATION of Johnny Ho re: 131 Order, Set Hearings,,,,,,,,,,,, // Declaration of Johnny Ho Submitted Pursuant to ECF 131. Document filed by Perplexity AI, Inc...(Wetzel, Joseph) (Entered: 10/06/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71313411/137/encyclopaedia-britannica-inc-v-perplexity-ai-inc/)
+
+### 📄 Doc #138 — 2026-10-06
+
+DECLARATION of Ryan Foutty re: 131 Order, Set Hearings,,,,,,,,,,,, // Declaration of Ryan Foutty Submitted Pursuant to ECF 131. Document filed by Perplexity AI, Inc...(Wetzel, Joseph) (Entered: 10/06/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71313411/138/encyclopaedia-britannica-inc-v-perplexity-ai-inc/)
+
+### 📄 Doc #136 — 2026-10-05
+
+ORDER granting 132 Letter Motion to Seal. The Court is in receipt of the letter at Dkt. No. 132 filed by Defendant Perplexity AI, Inc. ("Perplexity") requesting to seal portions of the Transcript of Proceedings held on September 8, 2026 (Dkt. No. 120 (the "Transcript")) to protect "information designated by Perplexity as 'Highly Confidential,' and 'Highly Confidential - Inspection Data' pursuant to the Protective Order [Dkt. No. 55] and 'Highly Confidential - Source Code Data' pursuant to the Source Code Protocol [Dkt. No. 63] entered in this case" (the "Confidential Information"). (Dkt. No. 132 (the "Sealing Request")). As part of the Sealing Request, Perplexity submits a version of the Transcript with the Confidential Information redacted. (Dkt. No. 132-1). Given that the Confidential Information is designated as "Highly Confidential" and "Highly Confidential - Inspection Data" pursuant to Protective Order (Dkt. No. 55) and 'Highly Confidential - Source Code Data' pursuant to the Sou …(truncated)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71313411/136/encyclopaedia-britannica-inc-v-perplexity-ai-inc/)
+
+### 📄 Doc #134 — 2026-10-04
+
+TRANSCRIPT of Proceedings re: Status Conference held on 9/29/2026 before Magistrate Judge Sarah L. Cave. Court Reporter/Transcriber: Adrienne Mignano, (212) 805-0300. Transcript may be viewed at the court public terminal or purchased through the Court Reporter/Transcriber before the deadline for Release of Transcript Restriction. After that date it may be obtained through PACER. Redaction Request due 10/26/2026. Redacted Transcript Deadline set for 11/4/2026. Release of Transcript Restriction set for 1/2/2027.(tro) (Entered: 10/04/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71313411/134/encyclopaedia-britannica-inc-v-perplexity-ai-inc/)
+
+### 📄 Doc #135 — 2026-10-04
+
+NOTICE OF FILING OF OFFICIAL TRANSCRIPT Notice is hereby given that an official transcript of a Status Conference proceeding held on 9/29/2026 has been filed by the court reporter/transcriber in the above-captioned matter. The parties have seven (7) calendar days to file with the court a Notice of Intent to Request Redaction of this transcript. If no such Notice is filed, the transcript may be made remotely electronically available to the public without redaction after 90 calendar days....(tro) (Entered: 10/04/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71313411/135/encyclopaedia-britannica-inc-v-perplexity-ai-inc/)
+
+### 📄 Doc #133 — 2026-10-02
+
+***SEALED***REDACTION to Transcript of Proceedings Held on September 8, 2026 by Perplexity AI, Inc.Motion or Order to File Under Seal: 132 .(Sandford, Brett) (Entered: 10/02/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71313411/133/encyclopaedia-britannica-inc-v-perplexity-ai-inc/)
+
+### 📄 Doc #132 — 2026-10-02
+
+LETTER MOTION to Seal Portions of September 8, 2026 Hearing Transcript addressed to Magistrate Judge Sarah L. Cave from Brett M. Sandford dated October 2, 2026. Document filed by Perplexity AI, Inc.. (Attachments: # 1 Exhibit - Redacted Transcript of Proceedings held on September 8, 2026, # 2 Affidavit / Certificate of Service).(Sandford, Brett) (Entered: 10/02/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71313411/132/encyclopaedia-britannica-inc-v-perplexity-ai-inc/)
 
 ### 📄 Doc #131 — 2026-09-29
 
@@ -74,7 +232,7 @@ REDACTION to 127 LETTER MOTION to Seal addressed to Magistrate Judge Sarah L. Ca
 
 ### 📄 Doc #130 — 2026-09-25
 
-ORDER granting  127  Letter Motion to Seal.  The Court is in receipt of the letter at Dkt. No. 127 filed by Plaintiffs requesting to file under seal and in redacted form the parties' joint letter (Dkt. No. 128 (the Joint Letter)) and to file un der seal the supporting exhibits (Dkt. Nos. 129-1; 129-2; 129-3; 129-4; 129-5; 129-6 (the "Exhibits")) to protect "materials that Perplexity designated as Highly Confidential and/or Highly Confidential - Source Code" pursuant to t he Source Code Protocol (Dkt. No. 63) and the Confidentiality and Protective Order (Dkt. No. 55) (the "Confidential Information"). (Dkt. No. 127 (the "Sealing Request")). Given that the Confidential Information is designated as &q uot;Highly Confidential" and/or "Highly Confidential -Source Code" pursuant to the Source Code Protocol (Dkt. No. 63) and Confidentiality and Protective Order (Dkt. No. 55), and "documents containing proprietary information and se nsitive business information are routinely sealed in this [D]i …(truncated)
+ORDER granting 127 Letter Motion to Seal. The Court is in receipt of the letter at Dkt. No. 127 filed by Plaintiffs requesting to file under seal and in redacted form the parties' joint letter (Dkt. No. 128 (the Joint Letter)) and to file under seal the supporting exhibits (Dkt. Nos. 129-1; 129-2; 129-3; 129-4; 129-5; 129-6 (the "Exhibits")) to protect "materials that Perplexity designated as Highly Confidential and/or Highly Confidential - Source Code" pursuant to the Source Code Protocol (Dkt. No. 63) and the Confidentiality and Protective Order (Dkt. No. 55) (the "Confidential Information"). (Dkt. No. 127 (the "Sealing Request")). Given that the Confidential Information is designated as "Highly Confidential" and/or "Highly Confidential -Source Code" pursuant to the Source Code Protocol (Dkt. No. 63) and Confidentiality and Protective Order (Dkt. No. 55), and "documents containing proprietary information and sensitive business information are routinely sealed in this [D]istrict[,]" S …(truncated)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/71313411/130/encyclopaedia-britannica-inc-v-perplexity-ai-inc/)
 
@@ -126,7 +284,7 @@ PROPOSED CASE MANAGEMENT PLAN. Document filed by Encyclopaedia Britannica, Inc.,
 
 ### 📄 Doc #120 — 2026-09-11
 
-TRANSCRIPT of Proceedings re: Status Conference held on 9/8/2026 before Magistrate Judge Sarah L. Cave. Court Reporter/Transcriber: Adrienne Mignano, (212) 805-0300. Transcript may be viewed at the court public terminal or purchased through the Court Reporter/Transcriber before the deadline for Release of Transcript Restriction. After that date it may be obtained through PACER. Redaction Request due 10/2/2026. Redacted Transcript Deadline set for 10/13/2026. Release of Transcript Restriction set for 12/10/2026..(ar) (Entered: 09/19/2026)
+**SEALED** TRANSCRIPT of Proceedings re: Status Conference held on 9/8/2026 before Magistrate Judge Sarah L. Cave. Court Reporter/Transcriber: Adrienne Mignano, (212) 805-0300. Transcript may be viewed at the court public terminal or purchased through the Court Reporter/Transcriber before the deadline for Release of Transcript Restriction. After that date it may be obtained through PACER. Redaction Request due 10/2/2026. Redacted Transcript Deadline set for 10/13/2026. Release of Transcript Restriction set for 12/10/2026..(ar) Modified on 10/5/2026 (ar). (Entered: 09/19/2026)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/71313411/120/encyclopaedia-britannica-inc-v-perplexity-ai-inc/)
 
@@ -867,4 +1025,4 @@ RULE 7.1 CORPORATE DISCLOSURE STATEMENT. Identifying Corporate Parent Aletheia H
 
 ---
 
-*產生時間：2026-10-01 01:19 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-11-01 01:18 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

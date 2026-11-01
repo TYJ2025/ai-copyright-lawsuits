@@ -1,6 +1,6 @@
 # Case 148 — Will-Burn Recordings & Publishing Co. v. UMG Recordings, Inc.
 
-> 最後更新（CourtListener fetch）：2026-10-01 01:51 UTC
+> 最後更新（CourtListener fetch）：2026-11-01 01:50 UTC
 
 ---
 
@@ -304,4 +304,4 @@ COMPLAINT against All Defendants ( Filing fee $405 receipt number AALSDC-3814173
 
 ---
 
-*產生時間：2026-10-01 01:51 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-11-01 01:50 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

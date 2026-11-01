@@ -1,6 +1,6 @@
 # Case 159 — S.A. Jamendo v. Suno Inc.
 
-> 最後更新（CourtListener fetch）：2026-10-01 01:52 UTC
+> 最後更新（CourtListener fetch）：2026-11-01 01:51 UTC
 
 ---
 
@@ -27,14 +27,14 @@
 
 > - Court=D. Mass. 1:26-cv-12966
 > - Judge=待分派
-> - Status=active
-> - Progress=【2026/6/29】Jamendo 於麻州聯邦地院對 Suno 提起著作權侵害及 CC 授權違約訴訟，主張 Suno 以「非商業學術資料集」訓練商業音樂生成模型逾越授權範圍，求償約 US$2,000 萬。訴前 Jamendo 曾於 2025/9 致函要求授權並開立約 €1,600 萬請款單，Suno 確認收件後未回應。
+> - Status=dismissed
+> - Progress=【2026/6/29】Jamendo 於麻州聯邦地院對 Suno 提起著作權侵害及 CC 授權違約訴訟，主張 Suno 以「非商業學術資料集」訓練商業音樂生成模型逾越授權範圍，求償約 US$2,000 萬。訴前 Jamendo 曾於 2025/9 致函要求授權並開立約 €1,600 萬請款單，Suno 確認收件後未回應。 【2026/8/13】Jamendo 於開庭前提出自願撤回訴狀（without prejudice，得日後再訴），撤告原因未附具說明，亦未提及與 Suno 達成和解
 
 **自動比對結果：**
 
 - ⚠️ Court 可能不一致：dashboard 寫「D. Mass. 1:26-cv-12966」，CourtListener 為「D. Massachusetts」
 - ⚠️ Judge 可能不一致：dashboard 寫「待分派」，CourtListener 為「Angel Kelley」
-- ⚠️ Dashboard progress **落後 45 天**：dashboard 最新日期 2026-06-29，CourtListener 最後 entry 2026-08-13——建議查看新近 entries 並補充 progress
+- ✅ Dashboard progress 同步：dashboard 最新日期 2026-08-13，CourtListener 最後 entry 2026-08-13（dashboard 不落後）
 
 ## 3. Docket Entries（最新優先，已過濾程序性 entries）
 
@@ -108,4 +108,4 @@ REPORT on the filing/termination of copyright case . (Hornat, Alexander) (Entere
 
 ---
 
-*產生時間：2026-10-01 01:52 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-11-01 01:51 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

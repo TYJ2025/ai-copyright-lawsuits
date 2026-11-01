@@ -1,6 +1,6 @@
 # Case 143 — Cambronne, Inc. v. Google LLC
 
-> 最後更新（CourtListener fetch）：2026-10-01 01:51 UTC
+> 最後更新（CourtListener fetch）：2026-11-01 01:49 UTC
 
 ---
 
@@ -67,4 +67,4 @@ Case assigned to Judge P. Casey Pitts. Counsel for plaintiff or the removing par
 
 ---
 
-*產生時間：2026-10-01 01:51 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-11-01 01:49 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

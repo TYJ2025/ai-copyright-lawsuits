@@ -1,6 +1,6 @@
 # Case 167 — Gerencia 360 Music, Inc. v. Suno, Inc.
 
-> 最後更新（CourtListener fetch）：2026-10-01 01:52 UTC
+> 最後更新（CourtListener fetch）：2026-11-01 01:52 UTC
 
 ---
 
@@ -13,7 +13,7 @@
 | Court | District Court, N.D. California (`cand`) |
 | Judge Assigned | Charles R. Breyer |
 | Date Filed | 2026-08-31 |
-| Date Last Filing | 2026-09-30 |
+| Date Last Filing | 2026-10-19 |
 | Cause | 17:101 Copyright Infringement |
 | Nature of Suit | 820 Copyright |
 | Jury Demand | Plaintiff |
@@ -33,11 +33,77 @@
 
 - ✅ Court 一致：dashboard 寫「N.D. Cal.」，CourtListener 為「N.D. California」
 - ✅ Judge 一致：dashboard 寫「Charles R. Breyer」，CourtListener 為「Charles R. Breyer」
-- ℹ️ Dashboard progress 內找不到【YYYY/M/D】格式日期；CourtListener 最後 entry: 2026-09-30
+- ℹ️ Dashboard progress 內找不到【YYYY/M/D】格式日期；CourtListener 最後 entry: 2026-10-19
 
 ## 3. Docket Entries（最新優先，已過濾程序性 entries）
 
-**實質性 entries**：30 筆／**已過濾程序性 entries**：4 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+**實質性 entries**：42 筆／**已過濾程序性 entries**：5 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+
+### 📄 Doc #41 — 2026-10-19
+
+Amended Complaint
+
+[CourtListener 連結](https://www.courtlistener.com/docket/74725556/41/gerencia-360-music-inc-v-suno-inc/)
+
+### 📄 Doc #40 — 2026-10-19
+
+Notice of Voluntary Dismissal
+
+[CourtListener 連結](https://www.courtlistener.com/docket/74725556/40/gerencia-360-music-inc-v-suno-inc/)
+
+### 📄 Doc #39 — 2026-10-13
+
+1 - Terminate Deadlines and Hearings AND Order AND ~Util - Set Deadlines/Hearings AND ~Util - Teleconference Zoom
+
+[CourtListener 連結](https://www.courtlistener.com/docket/74725556/39/gerencia-360-music-inc-v-suno-inc/)
+
+### 📄 Doc #38 — 2026-10-13
+
+1 - Terminate Deadlines and Hearings AND Order AND ~Util - Set Deadlines/Hearings AND ~Util - Teleconference Zoom AND ~Util - Terminate Motions
+
+[CourtListener 連結](https://www.courtlistener.com/docket/74725556/38/gerencia-360-music-inc-v-suno-inc/)
+
+### 📄 Doc #37 — 2026-10-12
+
+Stipulation and Proposed Order
+
+[CourtListener 連結](https://www.courtlistener.com/docket/74725556/37/gerencia-360-music-inc-v-suno-inc/)
+
+### 📄 Doc #— — 2026-10-09
+
+Case Assigned/Reassigned
+
+### 📄 Doc #— — 2026-10-09
+
+Clerk's Notice AND ~Util - Teleconference Zoom
+
+### 📄 Doc #34 — 2026-10-09
+
+Order Relating Case
+
+[CourtListener 連結](https://www.courtlistener.com/docket/74725556/34/gerencia-360-music-inc-v-suno-inc/)
+
+### 📄 Doc #33 — 2026-10-07
+
+Notice (Other)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/74725556/33/gerencia-360-music-inc-v-suno-inc/)
+
+### 📄 Doc #31 — 2026-10-07
+
+Certificate of Interested Entities, Corporate Disclosure Statement, or Rule 7.1 Disclosures
+
+[CourtListener 連結](https://www.courtlistener.com/docket/74725556/31/gerencia-360-music-inc-v-suno-inc/)
+
+### 📄 Doc #32 — 2026-10-07
+
+Certificate of Interested Entities, Corporate Disclosure Statement, or Rule 7.1 Disclosures
+
+[CourtListener 連結](https://www.courtlistener.com/docket/74725556/32/gerencia-360-music-inc-v-suno-inc/)
+
+### 📄 Doc #— — 2026-10-07
+
+Notice of Appearance/Substitution/Change/Withdrawal of Attorney
 
 ### 📄 Doc #27 — 2026-09-30
 
@@ -200,8 +266,9 @@ Proposed Summons. (Busch, Richard) (Filed on 8/31/2026) (Entered: 08/31/2026)
 [CourtListener 連結](https://www.courtlistener.com/docket/74725556/4/gerencia-360-music-inc-v-suno-inc/)
 
 <details>
-<summary>已過濾的 4 筆程序性 entries（點擊展開）</summary>
+<summary>已過濾的 5 筆程序性 entries（點擊展開）</summary>
 
+- **Doc #28** (2026-10-01): ORDER  by Judge Charles R. Breyer:   Granting  27   Motion for Pro Hac Vice, Andrew Hunt Davis.  (ls, COURT STAFF) (Filed on 10/1/2026)
 - **Doc #25** (2026-09-24): ORDER  by Judge Charles R. Breyer:   Granting  23   Motion for Pro Hac Vice, David A. Munkittrick.  (ls, COURT STAFF) (Filed on 9/24/2026)
 - **Doc #24** (2026-09-22): ORDER  by Judge Charles R. Breyer:   Granting  22   Motion for Pro Hac Vice, Colin R. Kass.  (ls, COURT STAFF) (Filed on 9/22/2026)
 - **Doc #14** (2026-09-03): ORDER  by Judge Charles R. Breyer:   Granting  8   Motion for Pro Hac Vice, Erin Bolan Hines.  (ls, COURT STAFF) (Filed on 9/3/2026)
@@ -211,4 +278,4 @@ Proposed Summons. (Busch, Richard) (Filed on 8/31/2026) (Entered: 08/31/2026)
 
 ---
 
-*產生時間：2026-10-01 01:52 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-11-01 01:52 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

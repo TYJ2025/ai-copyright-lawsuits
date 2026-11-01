@@ -1,6 +1,6 @@
 # Case 142 — Gilbert v. Anthropic PBC
 
-> 最後更新（CourtListener fetch）：2026-10-01 01:50 UTC
+> 最後更新（CourtListener fetch）：2026-11-01 01:49 UTC
 
 ---
 
@@ -14,7 +14,7 @@
 | Judge Assigned | Mark G. Mastroianni |
 | Judge Referred | Christopher L. Morgan |
 | Date Filed | 2026-05-26 |
-| Date Last Filing | 2026-09-28 |
+| Date Last Filing | 2026-10-26 |
 | Cause | 17:501 Copyright Infringement |
 | Nature of Suit | 820 Copyright |
 | Jury Demand | Both |
@@ -34,11 +34,43 @@
 
 - ⚠️ Court 可能不一致：dashboard 寫「D. Mass. (3:26-cv-30081)」，CourtListener 為「D. Massachusetts」
 - ⚠️ Judge 可能不一致：dashboard 寫「Christopher L. Morgan」，CourtListener 為「Mark G. Mastroianni」
-- ℹ️ Dashboard progress 略落後 17 天：dashboard 最新日期 2026-09-11，CourtListener 最後 entry 2026-09-28
+- ⚠️ Dashboard progress **落後 45 天**：dashboard 最新日期 2026-09-11，CourtListener 最後 entry 2026-10-26——建議查看新近 entries 並補充 progress
 
 ## 3. Docket Entries（最新優先，已過濾程序性 entries）
 
-**實質性 entries**：51 筆／**已過濾程序性 entries**：16 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+**實質性 entries**：57 筆／**已過濾程序性 entries**：16 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+
+### 📄 Doc #— — 2026-10-26
+
+Notice of Filing of Official Transcript
+
+### 📄 Doc #54 — 2026-10-26
+
+Transcript of Scheduling Conference (Digital Recording) held on October 1, 2026, before Magistrate Judge Christopher L. Morgan. The Transcript may be purchased through the Court Reporter, viewed at the public terminal, or viewed through PACER after it is released. Court Reporter Name and Contact Information: Kristin Kelley at kmob929@gmail.com. Redaction Request due 11/13/2026. Redacted Transcript Deadline set for 11/23/2026. Release of Transcript Restriction set for 1/21/2027. (DRK)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/73391700/54/gilbert-v-anthropic-pbc/)
+
+### 📄 Doc #55 — 2026-10-23
+
+NOTICE is hereby given that an official transcript of a proceeding has been filed by the court reporter in the above-captioned matter. Counsel are referred to the Court's Transcript Redaction Policy, available on the court website at https://www.mad.uscourts.gov/caseinfo/transcripts.htm (DRK)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/73391700/55/gilbert-v-anthropic-pbc/)
+
+### 📄 Doc #— — 2026-10-05
+
+Scheduling Conference
+
+### 📄 Doc #53 — 2026-10-05
+
+Magistrate Judge Christopher L. Morgan: ORDER entered. SCHEDULING ORDER ISSUED: Case Management Conference set for 6/30/2027 at 11:00 AM in Hampshire Courtroom (In person) before Magistrate Judge Christopher L. Morgan. See attached Scheduling Order for complete details. (MPZ) (Entered: 10/05/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/73391700/53/gilbert-v-anthropic-pbc/)
+
+### 📄 Doc #52 — 2026-10-01
+
+Electronic Clerk's Notes for proceedings held before Magistrate Judge Christopher L. Morgan: Scheduling Conference held on 10/1/2026. Present: Daniel Benjamin Gilbert (Pro Set), Atty. Lauren Papenhausen, and Atty. Andy LeGolvan.Colloquy re: status of the case. A schedule was established. Scheduling order to issue. If the parties wish to participate in court-sponsored mediation, they must notify the clerk so that a referral order can be issued. (Court Reporter: Digital Recording.) To order a copy of this Digital Recording, please go to https://forms.mad.uscourts.gov/Audio.html. For a transcript of this proceeding, contact mad_transcripts@mad.uscourts.gov. (MPZ) (Entered: 10/05/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/73391700/52/gilbert-v-anthropic-pbc/)
 
 ### 📄 Doc #— — 2026-09-28
 
@@ -112,13 +144,13 @@ MEMORANDUM in Support re 42 MOTION to Dismiss for Lack of Jurisdiction in Part a
 
 ### 📄 Doc #42 — 2026-08-27
 
-MOTION to Dismiss for Lack of Jurisdiction in Part as to the Amended Counterclaim (ECF No. 36) or, in the Alternative, MOTION for Judgment on the Pleadings in Part ( Responses due by 9/10/2026) by Daniel Benjamin Gilbert. (Attachments: (1) Text of Proposed Order)(Gilbert, Daniel)
+MOTION to Dismiss for Lack of Jurisdiction in Part as to the Amended Counterclaim (ECF No. 36) or, in the Alternative, MOTION for Judgment on the Pleadings in Part ( Responses due by 9/10/2026) by Daniel Benjamin Gilbert. (Attachments: # 1 Text of Proposed Order)(Gilbert, Daniel) (Entered: 08/27/2026)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/73391700/42/1/gilbert-v-anthropic-pbc/)
 
 ### 📄 Doc #41 — 2026-08-27
 
-ANSWER to Counterclaim (Amended Counterclaim, ECF No. 36) by Daniel Benjamin Gilbert. (Attachments: (1) Exhibit A - Covenant Not to Sue)(Gilbert, Daniel)
+ANSWER to Counterclaim (Amended Counterclaim, ECF No. 36) by Daniel Benjamin Gilbert. (Attachments: # 1 Exhibit A - Covenant Not to Sue)(Gilbert, Daniel) (Entered: 08/27/2026)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/73391700/41/1/gilbert-v-anthropic-pbc/)
 
@@ -128,7 +160,7 @@ Order on Motion for Miscellaneous Relief
 
 ### 📄 Doc #40 — 2026-08-26
 
-Magistrate Judge Christopher L. Morgan: ELECTRONIC ORDER entered granting [35] Motion for Leave to Bring Electronic Devices into the Courthouse by Daniel Benjamin Gilbert. (MPZ)
+Magistrate Judge Christopher L. Morgan: ELECTRONIC ORDER entered granting 35 Motion for Leave to Bring Electronic Devices into the Courthouse by Daniel Benjamin Gilbert. (MPZ) (Entered: 08/26/2026)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/73391700/40/gilbert-v-anthropic-pbc/)
 
@@ -338,4 +370,4 @@ REPORT on the filing/termination of copyright case. (TRL) (Entered: 05/26/2026)
 
 ---
 
-*產生時間：2026-10-01 01:50 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-11-01 01:49 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

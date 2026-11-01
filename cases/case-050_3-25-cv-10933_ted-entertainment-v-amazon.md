@@ -1,6 +1,6 @@
-# Case 50 — Ted Entertainment, Inc. v. ByteDance Inc
+# Case 50 — Matt Fisher v. ByteDance Inc
 
-> 最後更新（CourtListener fetch）：2026-10-01 01:26 UTC
+> 最後更新（CourtListener fetch）：2026-11-01 01:27 UTC
 
 ---
 
@@ -8,17 +8,17 @@
 
 | 欄位 | 值 |
 |---|---|
-| Case Name | Ted Entertainment, Inc. v. ByteDance Inc |
+| Case Name | Matt Fisher v. ByteDance Inc |
 | Docket Number | `3:25-cv-10933` |
 | Court | District Court, N.D. California (`cand`) |
 | Judge Assigned | Jacqueline Scott Corley |
 | Date Filed | 2025-12-23 |
-| Date Last Filing | 2026-09-30 |
+| Date Last Filing | 2026-10-27 |
 | Cause | 17:101 Copyright Infringement |
 | Nature of Suit | 820 Copyright |
 | Jury Demand | Plaintiff |
 | CourtListener ID | `72075006` |
-| CourtListener URL | <https://www.courtlistener.com/docket/72075006/ted-entertainment-inc-v-bytedance-inc/> |
+| CourtListener URL | <https://www.courtlistener.com/docket/72075006/matt-fisher-v-bytedance-inc/> |
 
 ## 2. Dashboard 卡片 vs CourtListener 比對
 
@@ -27,23 +27,95 @@
 > - Court=C.D. Cal.
 > - Judge=Jacqueline Scott Corley
 > - Status=active
-> - Progress=案件於 2026 年 4 月初提起。合計 Ted Entertainment 已對 NVIDIA、Meta、Snap、Bytedance、Apple、OpenAI、Amazon 七家公司提起訴訟。
+> - Progress=案件於 2026 年 4 月初提起。合計 Ted Entertainment 已對 NVIDIA、Meta、Snap、Bytedance、Apple、OpenAI、Amazon 七家公司提起訴訟。 【2026/10/29】原告公司 Ted Entertainment 無附帶偏見撤回本訴（未附理由），個人原告 Matt Fisher 續列名原告，訴訟續行
 
 **自動比對結果：**
 
 - ⚠️ Court 可能不一致：dashboard 寫「C.D. Cal.」，CourtListener 為「N.D. California」
 - ✅ Judge 一致：dashboard 寫「Jacqueline Scott Corley」，CourtListener 為「Jacqueline Scott Corley」
-- ℹ️ Dashboard progress 內找不到【YYYY/M/D】格式日期；CourtListener 最後 entry: 2026-09-30
+- ✅ Dashboard progress 同步：dashboard 最新日期 2026-10-29，CourtListener 最後 entry 2026-10-27（dashboard 不落後）
 
 ## 3. Docket Entries（最新優先，已過濾程序性 entries）
 
-**實質性 entries**：53 筆／**已過濾程序性 entries**：18 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+**實質性 entries**：66 筆／**已過濾程序性 entries**：18 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+
+### 📄 Doc #— — 2026-10-27
+
+Set/Reset Hearings AND ~Util - Teleconference Zoom
+
+### 📄 Doc #— — 2026-10-27
+
+Terminate Civil Case
+
+### 📄 Doc #63 — 2026-10-27
+
+Notice of Voluntary Dismissal
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72075006/63/ted-entertainment-inc-v-bytedance-inc/)
+
+### 📄 Doc #— — 2026-10-21
+
+Case Management Conference - Initial AND ~Util - Set Hearings AND ~Util - Teleconference Zoom
+
+### 📄 Doc #62 — 2026-10-21
+
+PRETRIAL ORDER NO. 1: CASE SCHEDULE THROUGH CLASS CERTIFICATION HEARING.  Signed by Judge Jacqueline Scott Corley on 10/21/2026.  (ahm, COURT STAFF) (Filed on 10/21/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72075006/62/ted-entertainment-inc-v-bytedance-inc/)
+
+### 📄 Doc #60 — 2026-10-13
+
+JOINT CASE MANAGEMENT STATEMENT filed by ByteDance Inc. (Ghaffari, Kayvan) (Filed on 10/13/2026) (Entered: 10/13/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72075006/60/ted-entertainment-inc-v-bytedance-inc/)
+
+### 📄 Doc #59 — 2026-10-09
+
+STIPULATION Joint Stipulation to Enlarge Time to Answer Plaintiffs' First Amended Complaint filed by ByteDance Inc. (Voigts, Anne) (Filed on 10/9/2026) (Entered: 10/09/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72075006/59/ted-entertainment-inc-v-bytedance-inc/)
+
+### 📄 Doc #58 — 2026-10-08
+
+TRANSCRIPT ORDER for proceedings held on September 24, 2026 before Judge Jacqueline Scott Corley by ByteDance Inc, for Court Reporter Marla Knox. (Voigts, Anne) (Filed on 10/8/2026) (Entered: 10/08/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72075006/58/ted-entertainment-inc-v-bytedance-inc/)
+
+### 📄 Doc #56 — 2026-10-07
+
+Transcript of Proceedings held on September 24, 2026, before Judge Jacqueline S. Corley. Court Reporter, Marla F. Knox, RPR, CRR, RMR, telephone number (602) 391-6990/email marla_knox@cand.uscourts.gov. Per General Order No. 59 and Judicial Conference policy, this transcript may be viewed only at the Clerk's Office public terminal or may be purchased through the Court Reporter/Transcriber until the deadline for the Release of Transcript Restriction. After that date it may be obtained through PACER. Any Notice of Intent to Request Redaction, if required, is due no later than 5 business days from date of this filing. (Re 53 Transcript Order ) Release of Transcript Restriction set for 1/5/2027. (Related documents(s) 53 ) (Knox, Marla) (Filed on 10/7/2026) (Entered: 10/07/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72075006/56/ted-entertainment-inc-v-bytedance-inc/)
+
+### 📄 Doc #57 — 2026-10-07
+
+TRANSCRIPT ORDER for proceedings held on September 24, 2026 before Judge Jacqueline Scott Corley for Court Reporter Marla Knox (Hogan Lovells) (Knox, Marla) (Filed on 10/7/2026) (Entered: 10/07/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72075006/57/ted-entertainment-inc-v-bytedance-inc/)
+
+### 📄 Doc #55 — 2026-10-02
+
+ORDER by Judge Jacqueline Scott Corley denying 40 Motion to Dismiss. (ahm, COURT STAFF) (Filed on 10/2/2026) (Entered: 10/02/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72075006/55/ted-entertainment-inc-v-bytedance-inc/)
+
+### 📄 Doc #54 — 2026-10-02
+
+TRANSCRIPT ORDER for proceedings held on September 24, 2026 before Judge Jacqueline Scott Corley by Matt Fisher, Ted Entertainment, Inc., for Court Reporter Marla Knox. (McCollum, Morgan) (Filed on 10/2/2026) (Entered: 10/02/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72075006/54/ted-entertainment-inc-v-bytedance-inc/)
 
 ### 📄 Doc #53 — 2026-09-30
 
-Transcript Order
+TRANSCRIPT ORDER for proceedings held on September 24, 2026 before Judge Jacqueline Scott Corley for Court Reporter Marla Knox (Knox, Marla) (Filed on 9/30/2026) (Entered: 09/30/2026)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/72075006/53/ted-entertainment-inc-v-bytedance-inc/)
+
+### 📄 Doc #52 — 2026-09-24
+
+Minute Entry for proceedings held before Judge Jacqueline Scott Corley: Motion Hearing re 40 ByteDance Inc.'s Motion to Dismiss Plaintiffs' First Amended Complaint held on 9/24/2026. The motion was argued, submitted, and taken under submission. Court Reporter: Marla KnoxAttorneys for Plaintiff: Morgan McCollum/Rohit Nath/Rom Bar-Nissim/Tom Kherkher/Justin A. NelsonAttorney for Defendant: Anne Voigts/Kayvan Ghaffari/Laura Hurtado (This is a text-only entry generated by the court. There is no document associated with this entry.) (ahm, COURT STAFF) (Date Filed: 9/24/2026) (Entered: 09/24/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72075006/52/ted-entertainment-inc-v-bytedance-inc/)
 
 ### 📄 Doc #— — 2026-09-24
 
@@ -51,19 +123,19 @@ Motion Hearing
 
 ### 📄 Doc #51 — 2026-09-22
 
-Notice of Voluntary Dismissal
+NOTICE of Voluntary Dismissal by Golfholics, Inc. (Nath, Rohit) (Filed on 9/22/2026) (Entered: 09/22/2026)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/72075006/51/ted-entertainment-inc-v-bytedance-inc/)
 
 ### 📄 Doc #50 — 2026-09-18
 
-ADR Certification (ADR L.R. 3-5 b) of discussion of ADR options
+ADR Certification (ADR L.R. 3-5 b) of discussion of ADR options (Voigts, Anne) (Filed on 9/18/2026) (Entered: 09/18/2026)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/72075006/50/ted-entertainment-inc-v-bytedance-inc/)
 
 ### 📄 Doc #49 — 2026-09-18
 
-ADR Certification (ADR L.R. 3-5 b) of discussion of ADR options
+ADR Certification (ADR L.R. 3-5 b) of discussion of ADR options (McCollum, Morgan) (Filed on 9/18/2026) (Entered: 09/18/2026)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/72075006/49/ted-entertainment-inc-v-bytedance-inc/)
 
@@ -345,4 +417,4 @@ Proposed Summons. (Bar-Nissim, Rom) (Filed on 12/23/2025) (Entered: 12/23/2025)
 
 ---
 
-*產生時間：2026-10-01 01:26 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-11-01 01:27 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

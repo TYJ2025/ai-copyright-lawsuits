@@ -1,6 +1,6 @@
 # Case 63 — Lyon v. Adobe Inc.
 
-> 最後更新（CourtListener fetch）：2026-10-01 01:30 UTC
+> 最後更新（CourtListener fetch）：2026-11-01 01:31 UTC
 
 ---
 
@@ -13,7 +13,7 @@
 | Court | District Court, N.D. California (`cand`) |
 | Judge Assigned | Jacqueline Scott Corley |
 | Date Filed | 2025-12-16 |
-| Date Last Filing | 2026-09-30 |
+| Date Last Filing | 2026-10-06 |
 | Cause | 17:501 Copyright Infringement |
 | Nature of Suit | 820 Copyright |
 | Jury Demand | Plaintiff |
@@ -33,17 +33,59 @@
 
 - ✅ Court 一致：dashboard 寫「N.D. Cal.」，CourtListener 為「N.D. California」
 - ✅ Judge 一致：dashboard 寫「Jacqueline Scott Corley」，CourtListener 為「Jacqueline Scott Corley」
-- ℹ️ Dashboard progress 內找不到【YYYY/M/D】格式日期；CourtListener 最後 entry: 2026-09-30
+- ℹ️ Dashboard progress 內找不到【YYYY/M/D】格式日期；CourtListener 最後 entry: 2026-10-06
 
 ## 3. Docket Entries（最新優先，已過濾程序性 entries）
 
-**實質性 entries**：60 筆／**已過濾程序性 entries**：15 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+**實質性 entries**：67 筆／**已過濾程序性 entries**：18 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
 
-### 📄 Doc #59 — 2026-09-30
+### 📄 Doc #68 — 2026-10-06
 
-Pro Hac Vice
+TRANSCRIPT ORDER for proceedings held on 08/20/2026 before Judge Jacqueline Scott Corley by Arthur Kleiner, Elizabeth Lyon, for Court Reporter Layli Phillips. (Hunt, Elizabeth) (Filed on 10/6/2026) (Entered: 10/06/2026)
 
-[CourtListener 連結](https://www.courtlistener.com/docket/72046160/59/lyon-v-adobe-inc/)
+[CourtListener 連結](https://www.courtlistener.com/docket/72046160/68/lyon-v-adobe-inc/)
+
+### 📄 Doc #67 — 2026-10-06
+
+TRANSCRIPT ORDER for proceedings held on 07/01/2026 before Judge Jacqueline Scott Corley by Arthur Kleiner, Elizabeth Lyon, for Recorded Proceeding - San Francisco. (Hunt, Elizabeth) (Filed on 10/6/2026) (Entered: 10/06/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72046160/67/lyon-v-adobe-inc/)
+
+### 📄 Doc #64 — 2026-10-05
+
+Please disregard, see ECF 62 . Stipulated Order Re: Discovery of Electronically Stored Information. Signed by Judge Jacqueline Scott Corley on 10/5/2026. (ahm, COURT STAFF) (Filed on 10/5/2026) Modified on 10/5/2026 (ahm, COURT STAFF). (Entered: 10/05/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72046160/64/lyon-v-adobe-inc/)
+
+### 📄 Doc #65 — 2026-10-05
+
+Please disregard, see ECF 63 . Stipulated Protective Order. Signed by Judge Jacqueline Scott Corley on 10/5/2026. (ahm, COURT STAFF) (Filed on 10/5/2026) Modified on 10/5/2026 (ahm, COURT STAFF). (Entered: 10/05/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72046160/65/lyon-v-adobe-inc/)
+
+### 📄 Doc #62 — 2026-10-02
+
+STIPULATED ORDER RE: DISCOVERY OF TANGIBLE THINGS AND ELECTRONICALLY STORED INFORMATION. Signed by Judge Jacqueline Scott Corley on 10/2/2026. (ahm, COURT STAFF) (Filed on 10/2/2026) (Entered: 10/02/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72046160/62/lyon-v-adobe-inc/)
+
+### 📄 Doc #63 — 2026-10-02
+
+Stipulated Protective Order. Signed by Judge Jacqueline Scott Corley on 10/2/2026. (ahm, COURT STAFF) (Filed on 10/2/2026) (Entered: 10/02/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72046160/63/lyon-v-adobe-inc/)
+
+### 📄 Doc #60 — 2026-10-02
+
+STIPULATION WITH PROPOSED ORDER Stipulated Discovery Order filed by Arthur Kleiner, Elizabeth Lyon. (Attachments: # 1 Exhibit Joint Declaration of Brendan Duffner and Jonathan Swisher)(Cuba, Donald) (Filed on 10/2/2026) (Entered: 10/02/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72046160/60/lyon-v-adobe-inc/)
+
+### 📄 Doc #61 — 2026-10-02
+
+STIPULATION WITH PROPOSED ORDER Stipulated Protective Order filed by Arthur Kleiner, Elizabeth Lyon. (Attachments: # 1 Exhibit Joint Declaration of Brendan Duffner and Jonathan Swisher)(Cuba, Donald) (Filed on 10/2/2026) Modified on 10/2/2026 (ahm, COURT STAFF). (Entered: 10/02/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72046160/61/lyon-v-adobe-inc/)
 
 ### 📄 Doc #— — 2026-09-23
 
@@ -366,8 +408,11 @@ COMPLAINT with Jury Demand (No Process) against Adobe Inc. ( Filing fee $ 405, r
 [CourtListener 連結](https://www.courtlistener.com/docket/72046160/1/lyon-v-adobe-inc/)
 
 <details>
-<summary>已過濾的 15 筆程序性 entries（點擊展開）</summary>
+<summary>已過濾的 18 筆程序性 entries（點擊展開）</summary>
 
+- **Doc #66** (2026-10-05): ORDER by Judge Jacqueline Scott Corley granting 59 Motion for Pro Hac Vice as to Elizabeth Hunt. (ahm, COURT STAFF) (Filed on 10/5/2026) (Entered: 10/05/2026)
+- **Doc #59** (2026-09-30): MOTION for leave to appear in Pro Hac Vice ( Filing fee $ 328, receipt number ACANDC-22532381.) filed by Arthur Kleiner, Elizabeth Lyon. (Attachments: # 1 Certificate of Good Standing)(Hunt, Elizabeth…
+- **Doc #58** (2026-09-23): NOTICE of Appearance filed by Michelle Ban on behalf of Adobe Inc. (Ban, Michelle) (Filed on 9/23/2026) (Entered: 09/23/2026)
 - **Doc #50** (2026-07-14): NOTICE of Appearance filed by Jonathan Swisher on behalf of Adobe Inc. (Swisher, Jonathan) (Filed on 7/14/2026) (Entered: 07/14/2026)
 - **Doc #42** (2026-06-11): ORDER by Judge Jacqueline Scott Corley granting 41 Motion for Pro Hac Vice as to Julian C. Diamond. (ahm, COURT STAFF) (Filed on 6/11/2026) (Entered: 06/11/2026)
 - **Doc #41** (2026-06-11): MOTION for leave to appear in Pro Hac Vice ( Filing fee $ 328, receipt number ACANDC-22089568.) filed by Arthur Kleiner, Elizabeth Lyon. (Diamond, Julian) (Filed on 6/11/2026) (Entered: 06/11/2026)
@@ -388,4 +433,4 @@ COMPLAINT with Jury Demand (No Process) against Adobe Inc. ( Filing fee $ 405, r
 
 ---
 
-*產生時間：2026-10-01 01:30 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-11-01 01:31 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

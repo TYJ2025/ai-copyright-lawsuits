@@ -1,6 +1,6 @@
 # Case 24 — James v. Snowflake Inc
 
-> 最後更新（CourtListener fetch）：2026-10-01 01:15 UTC
+> 最後更新（CourtListener fetch）：2026-11-01 01:16 UTC
 
 ---
 
@@ -13,7 +13,7 @@
 | Court | District Court, D. Montana (`mtd`) |
 | Judge Assigned | Brian Morris |
 | Date Filed | 2025-11-21 |
-| Date Last Filing | 2026-08-28 |
+| Date Last Filing | 2026-10-27 |
 | Cause | 17:501 Copyright Infringement |
 | Nature of Suit | 820 Copyright |
 | Jury Demand | Both |
@@ -33,11 +33,29 @@
 
 - ✅ Court 一致：dashboard 寫「D. Mont.」，CourtListener 為「D. Montana」
 - ✅ Judge 一致：dashboard 寫「Brian Morris」，CourtListener 為「Brian Morris」
-- ℹ️ Dashboard progress 內找不到【YYYY/M/D】格式日期；CourtListener 最後 entry: 2026-08-28
+- ℹ️ Dashboard progress 內找不到【YYYY/M/D】格式日期；CourtListener 最後 entry: 2026-10-27
 
 ## 3. Docket Entries（最新優先，已過濾程序性 entries）
 
-**實質性 entries**：13 筆／**已過濾程序性 entries**：20 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+**實質性 entries**：16 筆／**已過濾程序性 entries**：20 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+
+### 📄 Doc #34 — 2026-10-27
+
+RESPONSE to Motion re 32 MOTION for Leave to File First Amended Complaint filed by Snowflake Inc. (Attachments: # 1 Declaration of Annette L. Hurst, # 2 Declaration of Kristopher R. Wood, # 3 Exhibit A to Decl. of Kristopher R. Wood, # 4 Exhibit B to Decl. of Kristopher R. Wood, # 5 Exhibit C to Decl. of Kristopher R. Wood, # 6 Exhibit D to Decl. of Kristopher R. Wood) (Hurst, Annette) (Entered: 10/27/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71946179/34/6/james-v-snowflake-inc/)
+
+### 📄 Doc #33 — 2026-10-13
+
+Brief/Memorandum in Support re 32 MOTION for Leave to File First Amended Complaint filed by Darius H James. (Attachments: # 1 Exhibit A) (Heenan, John) (Entered: 10/13/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71946179/33/1/james-v-snowflake-inc/)
+
+### 📄 Doc #32 — 2026-10-13
+
+MOTION for Leave to File First Amended Complaint. John C. Heenan appearing for Plaintiff Darius H James. (Heenan, John) (Entered: 10/13/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71946179/32/james-v-snowflake-inc/)
 
 ### 📄 Doc #31 — 2026-08-28
 
@@ -141,4 +159,4 @@ Filing Fee Received
 
 ---
 
-*產生時間：2026-10-01 01:15 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-11-01 01:16 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

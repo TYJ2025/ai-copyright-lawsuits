@@ -1,6 +1,6 @@
 # Case 94 — In re Google Generative AI Copyright Litigation
 
-> 最後更新（CourtListener fetch）：2026-10-01 01:44 UTC
+> 最後更新（CourtListener fetch）：2026-11-01 01:44 UTC
 
 ---
 
@@ -14,7 +14,7 @@
 | Judge Assigned | Eumi K. Lee |
 | Judge Referred | Susan Van Keulen |
 | Date Filed | 2023-07-11 |
-| Date Last Filing | 2026-09-29 |
+| Date Last Filing | 2026-10-23 |
 | Cause | 28:1331 Fed. Question |
 | Nature of Suit | 370 Other Fraud |
 | Jury Demand | Both |
@@ -34,11 +34,51 @@
 
 - ✅ Court 一致：dashboard 寫「N.D. Cal.」，CourtListener 為「N.D. California」
 - ✅ Judge 一致：dashboard 寫「Eumi K. Lee」，CourtListener 為「Eumi K. Lee」
-- ℹ️ Dashboard progress 內找不到【YYYY/M/D】格式日期；CourtListener 最後 entry: 2026-09-29
+- ℹ️ Dashboard progress 內找不到【YYYY/M/D】格式日期；CourtListener 最後 entry: 2026-10-23
 
 ## 3. Docket Entries（最新優先，已過濾程序性 entries）
 
 **實質性 entries**：178 筆／**已過濾程序性 entries**：22 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+
+### 📄 Doc #— — 2026-10-23
+
+Order on Administrative Motion per Civil Local Rule 7-11
+
+### 📄 Doc #505 — 2026-10-19
+
+Opposition/Response to Motion
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67599029/505/in-re-google-generative-ai-copyright-litigation/)
+
+### 📄 Doc #504 — 2026-10-19
+
+Opposition/Response to Motion
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67599029/504/in-re-google-generative-ai-copyright-litigation/)
+
+### 📄 Doc #503 — 2026-10-13
+
+Opposition/Response to Motion
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67599029/503/in-re-google-generative-ai-copyright-litigation/)
+
+### 📄 Doc #502 — 2026-10-09
+
+Proposed Order
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67599029/502/3/in-re-google-generative-ai-copyright-litigation/)
+
+### 📄 Doc #501 — 2026-10-06
+
+Order on Stipulation
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67599029/501/in-re-google-generative-ai-copyright-litigation/)
+
+### 📄 Doc #500 — 2026-10-05
+
+Stipulation and Proposed Order
+
+[CourtListener 連結](https://www.courtlistener.com/docket/67599029/500/in-re-google-generative-ai-copyright-litigation/)
 
 ### 📄 Doc #499 — 2026-09-29
 
@@ -1042,48 +1082,6 @@ REPLY (re 251 MOTION to Certify Class (Redacted) ) (Redacted) filed byConsolidat
 
 [CourtListener 連結](https://www.courtlistener.com/docket/67599029/324/in-re-google-generative-ai-copyright-litigation/)
 
-### 📄 Doc #326 — 2025-12-30
-
-Interim Administrative Motion to Consider Whether Another Party's Material Should Be Sealed re Plaintiffs' Reply in Support of Motion for Class Certification filed by Consolidated Plaintiffs. (Attachments: # 1 Plaintiffs' Reply in Support of Motion for Class Certification (Sealed), # 2 Supplemental Declaration of Gregory S. Mullen (Sealed), # 3 Exhibit 202 (Sealed), # 4 Exhibit 203 (Sealed), # 5 Exhibit 204 (Sealed), # 6 Exhibit 205 (Sealed), # 7 Exhibit 207 (Sealed), # 8 Exhibit 208 (Sealed), # 9 Exhibit 209 (Sealed), # 10 Exhibit 210 (Sealed), # 11 Exhibit 211 (Sealed), # 12 Exhibit 212 (Sealed), # 13 Exhibit 213 (Sealed), # 14 Exhibit 214 (Sealed), # 15 Exhibit 215 (Sealed))(Weaver, Lesley) (Filed on 12/30/2025) (Entered: 12/30/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/67599029/326/in-re-google-generative-ai-copyright-litigation/)
-
-### 📄 Doc #322 — 2025-12-30
-
-Interim Administrative Motion to Consider Whether Another Party's Material Should Be Sealed re Motion to Intervene on Behalf of James Grant (a/k/a Lee Child), Andrew Grant (a/k/a Andrew Child), and Girlcomix Inc. filed by Consolidated Plaintiffs. (Attachments: # 1, # 2 Declaration of Joseph R. Saveri in support (sealed), # 3 Exhibit B (sealed), # 4 Exhibit C (sealed), # 5 Exhibit D (sealed), # 6 Exhibit E (sealed), # 7 Exhibit F (sealed), # 8 Exhibit G (sealed), # 9 Exhibit H (sealed))(Saveri, Joseph) (Filed on 12/30/2025) (Entered: 12/30/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/67599029/322/in-re-google-generative-ai-copyright-litigation/)
-
-### 📄 Doc #323 — 2025-12-30
-
-EXHIBITS re 322 Interim Administrative Motion to Consider Whether Another Party's Material Should Be Sealed re Motion to Intervene on Behalf of James Grant (a/k/a Lee Child), Andrew Grant (a/k/a Andrew Child), and Girlcomix Inc. Attachment: Motion to Intervene Intervene on Behalf of James Grant (a/k/a Lee Child), Andrew Grant (a/k/a Andrew Child), and Girlcomix Inc. (sealed) filed byConsolidated Plaintiffs. (Related document(s) 322 ) (Saveri, Joseph) (Filed on 12/30/2025) (Entered: 12/30/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/67599029/323/in-re-google-generative-ai-copyright-litigation/)
-
-### 📄 Doc #318 — 2025-12-30
-
-Administrative Motion to File Under Seal Re Plaintiffs Opposition to Google LLCs Motion to Exclude Testimony from Plaintiffs Proposed Experts David S. Doermann, Michael D. Smith, and Victoria Furniss filed by Consolidated Plaintiffs. (Attachments: # 1 Exhibit Plaintiffs Opposition to Google LLCs Motion to Exclude Testimony from Plaintiffs Proposed Experts David S. Doermann, Michael D. Smith, and Victoria Furniss, # 2 Exhibit Exhibit 1 to Declaration of Mark I. Richards, # 3 Exhibit Exhibit 2 to Declaration of Mark I. Richards)(Richards, Mark) (Filed on 12/30/2025) Modified on 3/11/2026 (lrt, COURT STAFF). (Entered: 12/30/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/67599029/318/in-re-google-generative-ai-copyright-litigation/)
-
-### 📄 Doc #320 — 2025-12-30
-
-Interim Administrative Motion to Consider Whether Another Party's Material Should Be Sealed re Plaintiffs' Motion to Exclude the Testimony of William Patry and Ryan Sullivan filed by Consolidated Plaintiffs. (Attachments: # 1 Plaintiffs' Notice of Motion and Motion to Exclude the Testimony of William Patry and Ryan Sullivan (Sealed))(Weaver, Lesley) (Filed on 12/30/2025) (Entered: 12/30/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/67599029/320/in-re-google-generative-ai-copyright-litigation/)
-
-### 📄 Doc #315 — 2025-12-30
-
-Interim Administrative Motion to File Under Seal re Plaintiffs' Opposition to Google LLC's Daubert Motion to Exclude Plaintiffs' Expert Meredith McCarron filed by Consolidated Plaintiffs. (Attachments: # 1 Plaintiffs' Opposition to Google LLC's Daubert Motion to Exclude Plaintiffs' Expert Meredith McCarron [Sealed], # 2 Declaration of Stephen J. Teti in Support of Plaintiffs' Opposition to Google LLC's Daubert Motion to Exclude Plaintiffs' Expert Meredith McCarron [Sealed], # 3 Exhibit 1 to Declaration of Stephen J. Teti [Sealed], # 4 Exhibit 2 to Declaration of Stephen J. Teti [Sealed], # 5 Exhibit 3 to Declaration of Stephen J. Teti [Sealed], # 6 Exhibit 4 to Declaration of Stephen J. Teti [Sealed], # 7 Exhibit 5 to Declaration of Stephen J. Teti [Sealed], # 8 Exhibit 6 to Declaration of Stephen J. Teti [Sealed], # 9 Exhibit 7 to Declaration of Stephen J. Teti [Sealed], # 10 Exhibit 8 to Declaration of Stephen J. Teti [Sealed])(Teti, Stephen) (Filed on 12/30/2025) (Entered: 12/30/202 …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/67599029/315/in-re-google-generative-ai-copyright-litigation/)
-
-### 📄 Doc #312 — 2025-12-30
-
-ORDER Granting in part and Denying in part 303 Administrative Motion to Consider Whether Another Party's Material Should Be Sealed. Signed by Judge Susan van Keulen on December 30, 2025. (svklc2, COURT STAFF) (Filed on 12/30/2025) (Entered: 12/30/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/67599029/312/in-re-google-generative-ai-copyright-litigation/)
-
 <details>
 <summary>已過濾的 22 筆程序性 entries（點擊展開）</summary>
 
@@ -1114,4 +1112,4 @@ ORDER Granting in part and Denying in part 303 Administrative Motion to Consider
 
 ---
 
-*產生時間：2026-10-01 01:44 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-11-01 01:44 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

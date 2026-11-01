@@ -1,6 +1,6 @@
-# Case 82 — Ted Entertainment, Inc. v. Meta Platforms, Inc.
+# Case 82 — Fisher v. Meta Platforms, Inc.
 
-> 最後更新（CourtListener fetch）：2026-10-01 01:36 UTC
+> 最後更新（CourtListener fetch）：2026-11-01 01:38 UTC
 
 ---
 
@@ -8,17 +8,17 @@
 
 | 欄位 | 值 |
 |---|---|
-| Case Name | Ted Entertainment, Inc. v. Meta Platforms, Inc. |
+| Case Name | Fisher v. Meta Platforms, Inc. |
 | Docket Number | `4:25-cv-10931` |
 | Court | District Court, N.D. California (`cand`) |
 | Judge Assigned | Jon S. Tigar |
 | Date Filed | 2025-12-23 |
-| Date Last Filing | 2026-09-28 |
+| Date Last Filing | 2026-10-30 |
 | Cause | 17:101 Copyright Infringement |
 | Nature of Suit | 820 Copyright |
 | Jury Demand | Plaintiff |
 | CourtListener ID | `72074891` |
-| CourtListener URL | <https://www.courtlistener.com/docket/72074891/ted-entertainment-inc-v-meta-platforms-inc/> |
+| CourtListener URL | <https://www.courtlistener.com/docket/72074891/fisher-v-meta-platforms-inc/> |
 
 ## 2. Dashboard 卡片 vs CourtListener 比對
 
@@ -27,17 +27,47 @@
 > - Court=N.D. Cal.
 > - Judge=Jon S. Tigar
 > - Status=active
-> - Progress=Tigar 法官審理中。Ted Entertainment 對多個社交媒體與技術平台提起類似訴訟，本案為其中之一。2026 年進行中。
+> - Progress=Tigar 法官審理中。Ted Entertainment 對多個社交媒體與技術平台提起類似訴訟，本案為其中之一。2026 年進行中。 【2026/10/29】原告公司 Ted Entertainment 無附帶偏見撤回本訴（未附理由），個人原告 Matt Fisher 續列名原告，訴訟續行
 
 **自動比對結果：**
 
 - ✅ Court 一致：dashboard 寫「N.D. Cal.」，CourtListener 為「N.D. California」
 - ✅ Judge 一致：dashboard 寫「Jon S. Tigar」，CourtListener 為「Jon S. Tigar」
-- ℹ️ Dashboard progress 內找不到【YYYY/M/D】格式日期；CourtListener 最後 entry: 2026-09-28
+- ℹ️ Dashboard progress 略落後 1 天：dashboard 最新日期 2026-10-29，CourtListener 最後 entry 2026-10-30
 
 ## 3. Docket Entries（最新優先，已過濾程序性 entries）
 
-**實質性 entries**：47 筆／**已過濾程序性 entries**：19 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+**實質性 entries**：52 筆／**已過濾程序性 entries**：19 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+
+### 📄 Doc #58 — 2026-10-30
+
+ORDER REQUIRING SUPPLEMENTAL BRIEFING AND CONTINUING CASE MANAGEMENT CONFERENCE by Judge Jon S. Tigar   re  33     MOTION to Dismiss First Amended Complaint filed by   Meta Platforms, Inc. Joint Supplemental Brief due by 11/19/2026.  Joint  Case Management Statement due by 2/16/2027.    Initial Case Management Conference set for 2/23/2027 at 02:00 PM  - Videoconference Only. This proceeding will be held via a Zoom  webinar.Webinar Access: All counsel, members of the public,  and  media may access the webinar information at https://www.cand.uscourts.gov/jst Court Appearances: Advanced notice is required of counsel or parties who wish to be identif ied by the court as making an appearance or will be participating in the argument at the hearing. One list of names of all counsel appearing for all parties must be sent in one email to the CRD  at jstcrd@cand.uscourts.gov no later than 02/22/20 27 at 2:00PM PST.Civ LR 77-3(d). Persons granted access to court proceedings held by telephone or v …(truncated)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72074891/58/fisher-v-meta-platforms-inc/)
+
+### 📄 Doc #57 — 2026-10-30
+
+Certificate of Interested Entities, Corporate Disclosure Statement, or Rule 7.1 Disclosures
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72074891/57/fisher-v-meta-platforms-inc/)
+
+### 📄 Doc #56 — 2026-10-28
+
+Notice of Voluntary Dismissal
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72074891/56/ted-entertainment-inc-v-meta-platforms-inc/)
+
+### 📄 Doc #55 — 2026-10-14
+
+Statement of Recent Decision
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72074891/55/ted-entertainment-inc-v-meta-platforms-inc/)
+
+### 📄 Doc #54 — 2026-10-05
+
+Statement of Recent Decision
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72074891/54/ted-entertainment-inc-v-meta-platforms-inc/)
 
 ### 📄 Doc #53 — 2026-09-28
 
@@ -322,4 +352,4 @@ Proposed Summons. (Bar-Nissim, Rom) (Filed on 12/23/2025) (Entered: 12/23/2025)
 
 ---
 
-*產生時間：2026-10-01 01:36 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-11-01 01:38 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

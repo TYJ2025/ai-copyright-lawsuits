@@ -1,6 +1,6 @@
 # Case 30 — Disney Enterprises, Inc. v. Minimax
 
-> 最後更新（CourtListener fetch）：2026-10-01 01:18 UTC
+> 最後更新（CourtListener fetch）：2026-11-01 01:17 UTC
 
 ---
 
@@ -14,7 +14,7 @@
 | Judge Assigned | Stanley Blumenfeld Jr. |
 | Judge Referred | Charles F. Eick |
 | Date Filed | 2025-09-16 |
-| Date Last Filing | 2026-09-16 |
+| Date Last Filing | 2026-10-20 |
 | Cause | 17:501 Copyright Infringement |
 | Nature of Suit | 820 Copyright |
 | Jury Demand | Plaintiff |
@@ -34,11 +34,11 @@
 
 - ✅ Court 一致：dashboard 寫「C.D. Cal.」，CourtListener 為「C.D. California」
 - ✅ Judge 一致：dashboard 寫「Stanley Blumenfeld Jr.」，CourtListener 為「Stanley Blumenfeld Jr.」
-- ⚠️ Dashboard progress **落後 113 天**：dashboard 最新日期 2026-05-26，CourtListener 最後 entry 2026-09-16——建議查看新近 entries 並補充 progress
+- ⚠️ Dashboard progress **落後 147 天**：dashboard 最新日期 2026-05-26，CourtListener 最後 entry 2026-10-20——建議查看新近 entries 並補充 progress
 
 ## 3. Docket Entries（最新優先，已過濾程序性 entries）
 
-**實質性 entries**：56 筆／**已過濾程序性 entries**：12 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+**實質性 entries**：56 筆／**已過濾程序性 entries**：13 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
 
 ### 📄 Doc #64 — 2026-08-07
 
@@ -371,8 +371,9 @@ Request for Clerk to Issue Summons on Complaint (Attorney Civil Case Opening),,,
 [CourtListener 連結](https://www.courtlistener.com/docket/71357247/3/disney-enterprises-inc-v-minimax/)
 
 <details>
-<summary>已過濾的 12 筆程序性 entries（點擊展開）</summary>
+<summary>已過濾的 13 筆程序性 entries（點擊展開）</summary>
 
+- **Doc #66** (2026-10-20): CORPORATE DISCLOSURE STATEMENT and Certificate of Interested Parties (Amended) filed by Plaintiffs DC Comics, Hanna-Barbera Productions, Inc., The Cartoon Network, Inc., Turner Entertainment Co., Warn…
 - **Doc #65** (2026-09-16): NOTICE of Appearance filed by attorney Mark D. Marciszewski on behalf of Plaintiffs DC Comics, Disney Enterprises, Inc., Dreamworks Animation L.L.C., Hanna-Barbera Productions, Inc., Lucasfilm Ltd. LL…
 - **Doc #62** (2026-07-29): Notice of Appearance or Withdrawal of Counsel: for attorney Haiyan Tang counsel for Counter Claimant Nanonoble Pte. Ltd., Defendants Nanonoble Pte. Ltd., Shanghai Xiyu Jizhi Technology Co. Ltd.. Addin…
 - **Doc #58** (2026-05-22): Notice of Appearance or Withdrawal of Counsel: for attorney Andrew Jackson Thomas counsel for Plaintiffs DC Comics, Disney Enterprises, Inc., Dreamworks Animation L.L.C., Hanna-Barbera Productions, In…
@@ -390,4 +391,4 @@ Request for Clerk to Issue Summons on Complaint (Attorney Civil Case Opening),,,
 
 ---
 
-*產生時間：2026-10-01 01:18 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-11-01 01:17 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

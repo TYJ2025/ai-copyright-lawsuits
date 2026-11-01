@@ -1,6 +1,6 @@
 # Case 53 — Encyclopaedia Britannica, Inc. v. OpenAI, Inc.
 
-> 最後更新（CourtListener fetch）：2026-10-01 01:27 UTC
+> 最後更新（CourtListener fetch）：2026-11-01 01:28 UTC
 
 ---
 
@@ -13,7 +13,7 @@
 | Court | District Court, S.D. New York (`nysd`) |
 | Judge Assigned | Sidney H. Stein |
 | Date Filed | 2026-03-13 |
-| Date Last Filing | 2026-09-24 |
+| Date Last Filing | 2026-10-30 |
 | Cause | 17:101 Copyright Infringement |
 | Nature of Suit | 820 Copyright |
 | Jury Demand | Plaintiff |
@@ -33,33 +33,239 @@
 
 - ✅ Court 一致：dashboard 寫「S.D.N.Y.」，CourtListener 為「S.D. New York」
 - ✅ Judge 一致：dashboard 寫「Sidney H. Stein」，CourtListener 為「Sidney H. Stein」
-- ℹ️ Dashboard progress 內找不到【YYYY/M/D】格式日期；CourtListener 最後 entry: 2026-09-24
+- ℹ️ Dashboard progress 內找不到【YYYY/M/D】格式日期；CourtListener 最後 entry: 2026-10-30
 
 ## 3. Docket Entries（最新優先，已過濾程序性 entries）
 
-**實質性 entries**：87 筆／**已過濾程序性 entries**：15 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+**實質性 entries**：123 筆／**已過濾程序性 entries**：29 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+
+### 📄 Doc #107 — 2026-10-30
+
+Proposed Order Proposed Order
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72492986/107/2/encyclopaedia-britannica-inc-v-openai-inc/)
+
+### 📄 Doc #91 — 2026-10-30
+
+MOTION to File Amicus Brief . Document filed by Members of Congress. (Attachments: # 1 Exhibit Exhibit A - Amicus Brief, # 2 Proposed Order Exhibit B - Proposed Order)Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Powers, Richard) (Entered: 10/30/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72492986/91/2/encyclopaedia-britannica-inc-v-openai-inc/)
+
+### 📄 Doc #104 — 2026-10-30
+
+LETTER MOTION to File Amicus Brief of Gregory Leppert addressed to Judge Sidney H. Stein from Matthew S. Warren dated 10/30/2026. Document filed by Gregory Leppert. (Attachments: # 1 Exhibit 1[Proposed] Brief of Amicus Curiae Gregory Leppert in Support of Defendants, # 2 Exhibit 2[Proposed] Order Granting Gregory Leppert's Motion for Leave to File Amicus Curiae Brief in Support of Defendants)Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Warren, Matthew) (Entered: 10/30/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72492986/104/2/encyclopaedia-britannica-inc-v-openai-inc/)
+
+### 📄 Doc #106 — 2026-10-30
+
+Proposed Order [Proposed] Order Granting Leave to File Amicus Curiae Brief of AI
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72492986/106/2/encyclopaedia-britannica-inc-v-openai-inc/)
+
+### 📄 Doc #105 — 2026-10-30
+
+LETTER MOTION to File Amicus Brief Institute for Intellectual Property and Social Justic Amici Curiae Brief addressed to Judge Sidney H. Stein from Lateef Mtima dated 10/30/2026. Document filed by Lateef Mtima. (Attachments: # 1 Exhibit IIPSJ Amici Curiae Brief)Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Mtima, Lateef) (Entered: 10/30/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72492986/105/1/encyclopaedia-britannica-inc-v-openai-inc/)
+
+### 📄 Doc #101 — 2026-10-30
+
+MOTION to File Amicus Brief . Document filed by Joseph Stiglitz. (Attachments: # 1 Exhibit Proposed Brief of Professor Joseph Stiglitz As Amicus Curiae In Support of Plaintiffs, # 2 Proposed Order Proposed Order Granting Leave to File Brief of Professor Joseph Stiglitz As Amicus Curiae in Support of Plaintiffs)Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Roller, Jeremy) (Entered: 10/30/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72492986/101/2/encyclopaedia-britannica-inc-v-openai-inc/)
+
+### 📄 Doc #103 — 2026-10-30
+
+MEMORANDUM OF LAW in Support re: (107 in 1:26-cv-01947-SHS, 163 in 1:25-cv-09912-SHS, 80 in 1:26-cv-08892-SHS, 357 in 1:25-cv-03483-SHS-OTW, 906 in 1:25-cv-03482-SHS-OTW, 169 in 1:25-cv-09904-SHS, 932 in 1:23-cv-10211-SHS-OTW, 169 in 1:26-cv-03625-SHS, 490 in 1:24-cv-01514-SHS-OTW, 100 in 1:26-cv-05320-SHS, 63 in 1:26-cv-07171-SHS, 101 in 1:26-cv-02097-SHS, 430 in 1:25-cv-03297-SHS-OTW, 444 in 1:24-cv-00084-SHS-OTW, 835 in 1:25-cv-04315-SHS-OTW, 887 in 1:24-cv-04872-SHS-OTW, 1021 in 1:24-cv-03285-SHS-OTW, 76 in 1:26-cv-08082-SHS, 59 in 1:26-cv-06966-SHS, 2438 in 1:25-md-03143-SHS-OTW, 309 in 1:25-cv-03291-SHS-OTW, 193 in 1:25-cv-06286-SHS-OTW, 701 in 1:24-cv-01515-SHS-OTW, 1504 in 1:23-cv-08292-SHS-OTW, 1817 in 1:23-cv-11195-SHS-OTW) MOTION to File Amicus Brief . . Document filed by Joseph Stiglitz. Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Roller, Jeremy) (Entered: 10/30/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72492986/103/encyclopaedia-britannica-inc-v-openai-inc/)
+
+### 📄 Doc #100 — 2026-10-30
+
+MOTION to File Amicus Brief of Khosla Ventures, LLC. Document filed by Khosla Ventures, LLC.Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Cullen, Brendan) (Entered: 10/30/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72492986/100/encyclopaedia-britannica-inc-v-openai-inc/)
+
+### 📄 Doc #95 — 2026-10-30
+
+MOTION to File Amicus Brief . Document filed by Cate Blanchett, Creative Artists Agency, LLC, Creators Coalition on Artificial Intelligence, Nick Hexum, Music Artists Coalition, National Association of Voice Actors, Steven Soderbergh, The Human Consent Foundation, Writer, Inc.. (Attachments: # 1 Exhibit A - Proposed Brief, # 2 Exhibit B - Proposed Order)Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Ackerman, Marc) (Entered: 10/30/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72492986/95/2/encyclopaedia-britannica-inc-v-openai-inc/)
+
+### 📄 Doc #96 — 2026-10-30
+
+MOTION to File Amicus Brief . Document filed by Progressive Democrats of American, RadicalxChange, The Tech Oversight Project, Walter Scheirer, Young People's Alliance. (Attachments: # 1 Exhibit A Proposed Amicus Brief, # 2 Supplement Memorandum in Support of Motion, # 3 Proposed Order Proposed Order)Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Huff, Kylie) (Entered: 10/30/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72492986/96/3/encyclopaedia-britannica-inc-v-openai-inc/)
+
+### 📄 Doc #98 — 2026-10-30
+
+LETTER MOTION to File Amicus Brief addressed to Judge Sidney H. Stein from Eric K. Nikolaides dated October 30, 2026. Document filed by Computer and Communications Industry Association, NetChoice, LLC, TechNet. (Attachments: # 1 Exhibit A - Amicus Curiae Br. of CCIA, NetChoice, and TechNet, # 2 Proposed Order ([Proposed] Order))Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Nikolaides, Eric) (Entered: 10/30/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72492986/98/2/encyclopaedia-britannica-inc-v-openai-inc/)
+
+### 📄 Doc #99 — 2026-10-30
+
+MEMORANDUM OF LAW in Support re: (94 in 1:26-cv-05320-SHS, 57 in 1:26-cv-07171-SHS, 924 in 1:23-cv-10211-SHS-OTW, 484 in 1:24-cv-01514-SHS-OTW, 74 in 1:26-cv-08892-SHS, 163 in 1:25-cv-09904-SHS, 101 in 1:26-cv-01947-SHS, 900 in 1:25-cv-03482-SHS-OTW, 303 in 1:25-cv-03291-SHS-OTW, 1015 in 1:24-cv-03285-SHS-OTW, 2417 in 1:25-md-03143-SHS-OTW, 436 in 1:24-cv-00084-SHS-OTW, 1495 in 1:23-cv-08292-SHS-OTW, 828 in 1:25-cv-04315-SHS-OTW, 424 in 1:25-cv-03297-SHS-OTW, 187 in 1:25-cv-06286-SHS-OTW, 163 in 1:26-cv-03625-SHS, 351 in 1:25-cv-03483-SHS-OTW, 70 in 1:26-cv-08082-SHS, 695 in 1:24-cv-01515-SHS-OTW, 157 in 1:25-cv-09912-SHS, 1810 in 1:23-cv-11195-SHS-OTW, 95 in 1:26-cv-02097-SHS, 53 in 1:26-cv-06966-SHS, 881 in 1:24-cv-04872-SHS-OTW) MOTION to File Amicus Brief . . Document filed by Cate Blanchett, Creative Artists Agency, LLC, Creators Coalition on Artificial Intelligence, Nick Hexum, Music Artists Coalition, National Association of Voice Actors, Steven Soderbergh, The Human Consent Fou …(truncated)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72492986/99/encyclopaedia-britannica-inc-v-openai-inc/)
+
+### 📄 Doc #93 — 2026-10-30
+
+LETTER MOTION to File Amicus Brief of Electronic Frontier Foundation addressed to Judge Sidney H. Stein from Victoria J. Noble dated October 30, 2026. Document filed by Electronic Frontier Foundation. (Attachments: # 1 Exhibit Proposed Brief of Amicus Curiae)Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Noble, Victoria) (Entered: 10/30/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72492986/93/1/encyclopaedia-britannica-inc-v-openai-inc/)
+
+### 📄 Doc #88 — 2026-10-30
+
+DECLARATION of Tod Cohen in Support re: (2385 in 1:25-md-03143-SHS-OTW) MOTION to File Amicus Brief of Amici Curiae AI Coalition for Data Integrity et al. in Support of Plaintiffs' Motions for Summary Judgment.. Document filed by Microstocksolutions LLC, AI Coalition for Data Integrity, Association of Independent Music Publishers, Association of Medical Illustrators, Digital Media Licensing Association, Inc. d/b/a Digital Media Leadership Alliance, Music Workers Alliance, Inc., National Association of Voice Actors, Transparency Coalition AI, Writers Guild of America East, Inc., Writers Guild of America West Inc. (Attachments: # 1 Exhibit Proposed Brief of Amici Curiae)Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Cohen, Tod) (Entered: 10/30/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72492986/88/1/encyclopaedia-britannica-inc-v-openai-inc/)
+
+### 📄 Doc #92 — 2026-10-30
+
+MEMORANDUM OF LAW in Support re: (70 in 1:26-cv-08892-SHS) MOTION to File Amicus Brief . . Document filed by Members of Congress. Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Powers, Richard) (Entered: 10/30/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72492986/92/encyclopaedia-britannica-inc-v-openai-inc/)
+
+### 📄 Doc #94 — 2026-10-30
+
+ORDER: On October 28, 2026, attorney Brian L. Frye filed a proposed letter motion to file an amicus brief. (Dkt. No. 2282.) However, the filing does not request leave to file the amicus brief, in violation of the Court's Order on amicus filings. (Dkt. No. 1663.) IT IS HEREBY ORDERED that the Clerk of Court is directed to dismiss the motion. Mr. Frye may refile if he chooses. (Signed by Judge Sidney H. Stein on 10/30/2026) Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al. (rro) (Entered: 10/30/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72492986/94/encyclopaedia-britannica-inc-v-openai-inc/)
+
+### 📄 Doc #87 — 2026-10-30
+
+LETTER MOTION to File Amicus Brief addressed to Judge Sidney H. Stein from Andrew J. Pincus dated October 30, 2026. Document filed by Joshua S. Gans. (Attachments: # 1 Exhibit A - Proposed Amicus Brief, # 2 Exhibit B - Proposed Order)Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Pincus, Andrew) (Entered: 10/30/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72492986/87/2/encyclopaedia-britannica-inc-v-openai-inc/)
+
+### 📄 Doc #89 — 2026-10-30
+
+MEMORANDUM OF LAW in Support re: (2385 in 1:25-md-03143-SHS-OTW) MOTION to File Amicus Brief of Amici Curiae AI Coalition for Data Integrity et al. in Support of Plaintiffs' Motions for Summary Judgment. . Document filed by AI Coalition for Data Integrity, Association of Independent Music Publishers, Association of Medical Illustrators, Digital Media Licensing Association, Inc. d/b/a Digital Media Leadership Alliance, Microstocksolutions LLC, Music Workers Alliance, Inc., National Association of Voice Actors, Transparency Coalition AI, Writers Guild of America East, Inc., Writers Guild of America West Inc. Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Cohen, Tod) (Entered: 10/30/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72492986/89/encyclopaedia-britannica-inc-v-openai-inc/)
+
+### 📄 Doc #86 — 2026-10-30
+
+LETTER MOTION to File Amicus Brief of Professors Pamela Samuelson and Christopher Jon Sprigman addressed to Judge Sidney H. Stein from Jason M. Schultz dated October 30, 2026. Document filed by Jason M. Schultz, Pamela Samuelson, Christopher Jon Sprigman. (Attachments: # 1 Exhibit Proposed Brief of Amicus Curiae, # 2 Exhibit Proposed Order)Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Schultz, Jason) (Entered: 10/30/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72492986/86/2/encyclopaedia-britannica-inc-v-openai-inc/)
+
+### 📄 Doc #82 — 2026-10-29
+
+MOTION for Leave to File Amicus Brief . Document filed by Digital Content Next. (Attachments: # 1 Exhibit A, # 2 Exhibit B, # 3 Proposed Order Proposed Order)Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Hill, Jack) (Entered: 10/29/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72492986/82/3/encyclopaedia-britannica-inc-v-openai-inc/)
+
+### 📄 Doc #85 — 2026-10-29
+
+LETTER MOTION to File Amicus Brief of Wikimedia Foundation addressed to Judge Sidney H. Stein from Rhett Millsaps dated 10/29/2026. Document filed by Wikimedia Foundation, Inc.. (Attachments: # 1 Exhibit A - Proposed Amicus Brief)Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Millsaps, Rhett) (Entered: 10/29/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72492986/85/1/encyclopaedia-britannica-inc-v-openai-inc/)
+
+### 📄 Doc #84 — 2026-10-29
+
+LETTER MOTION to File Amicus Brief of Engine Advocacy, et al. addressed to Judge Sidney H. Stein from Marc Hearron dated 10/29/2026. Document filed by Engine Advocacy. (Attachments: # 1 Exhibit Proposed Amicus Brief of Engine Advocacy, et al., # 2 Proposed Order Proposed Order)Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Hearron, Marc) (Entered: 10/29/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72492986/84/2/encyclopaedia-britannica-inc-v-openai-inc/)
+
+### 📄 Doc #83 — 2026-10-29
+
+MEMORANDUM OF LAW in Support re: (423 in 1:24-cv-00084-SHS-OTW, 411 in 1:25-cv-03297-SHS-OTW, 44 in 1:26-cv-07171-SHS, 338 in 1:25-cv-03483-SHS-OTW, 471 in 1:24-cv-01514-SHS-OTW, 2325 in 1:25-md-03143-SHS-OTW, 61 in 1:26-cv-08892-SHS, 793 in 1:25-cv-04315-SHS-OTW, 991 in 1:24-cv-03285-SHS-OTW, 88 in 1:26-cv-01947-SHS, 290 in 1:25-cv-03291-SHS-OTW, 40 in 1:26-cv-06966-SHS, 150 in 1:25-cv-09904-SHS, 174 in 1:25-cv-06286-SHS-OTW, 57 in 1:26-cv-08082-SHS, 671 in 1:24-cv-01515-SHS-OTW, 144 in 1:25-cv-09912-SHS, 81 in 1:26-cv-05320-SHS, 857 in 1:24-cv-04872-SHS-OTW, 898 in 1:23-cv-10211-SHS-OTW, 885 in 1:25-cv-03482-SHS-OTW, 1773 in 1:23-cv-11195-SHS-OTW, 150 in 1:26-cv-03625-SHS, 1457 in 1:23-cv-08292-SHS-OTW, 82 in 1:26-cv-02097-SHS) MOTION for Leave to File Amicus Brief . . Document filed by Digital Content Next. Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Hill, Jack) (Entered: 10/29/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72492986/83/encyclopaedia-britannica-inc-v-openai-inc/)
+
+### 📄 Doc #81 — 2026-10-29
+
+LETTER MOTION to File Amicus Brief of Professor Matthew Sag addressed to Judge Sidney H. Stein from Ethan Jacobs dated October 29, 2026. Document filed by Matthew Sag. (Attachments: # 1 Exhibit Proposed Brief of Amicus Curiae, # 2 Proposed Order Granting Leave to File Brief of Professor Matthew Sag as Amicus Curiae)Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Jacobs, Ethan) (Entered: 10/29/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72492986/81/2/encyclopaedia-britannica-inc-v-openai-inc/)
+
+### 📄 Doc #— — 2026-10-29
+
+Notice Regarding Pro Hac Vice Motion
+
+### 📄 Doc #77 — 2026-10-28
+
+LETTER MOTION to Seal addressed to Judge Sidney H. Stein from Angela L. Dunning dated October 28, 2026. Document filed by Amazon.com, Inc.. (Attachments: # 1 Proposed Order on Amazon.com, Inc.'s Motion to Seal)Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Dunning, Angela) (Entered: 10/28/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72492986/77/1/encyclopaedia-britannica-inc-v-openai-inc/)
+
+### 📄 Doc #— — 2026-10-28
+
+***NOTICE TO ATTORNEY TO RE-FILE DOCUMENT - DEFICIENT DOCKET ENTRY ERROR. Notice to Attorney Brian Lawrence Frye to RE-FILE Document (1744 in 1:23-cv-11195-SHS-OTW, 33 in 1:26-cv-06966-SHS, 137 in 1:25-cv-09912-SHS, 50 in 1:26-cv-08082-SHS, 770 in 1:25-cv-04315-SHS-OTW, 976 in 1:24-cv-03285-SHS-OTW, 404 in 1:25-cv-03297-SHS-OTW, 842 in 1:24-cv-04872-SHS-OTW, 876 in 1:25-cv-03482-SHS-OTW, 143 in 1:25-cv-09904-SHS, 886 in 1:23-cv-10211-SHS-OTW, 1432 in 1:23-cv-08292-SHS-OTW, 167 in 1:25-cv-06286-SHS-OTW, 283 in 1:25-cv-03291-SHS-OTW, 331 in 1:25-cv-03483-SHS-OTW, 74 in 1:26-cv-05320-SHS, 659 in 1:24-cv-01515-SHS-OTW, 80 in 1:26-cv-01947-SHS, 464 in 1:24-cv-01514-SHS-OTW, 37 in 1:26-cv-07171-SHS, 2282 in 1:25-md-03143-SHS-OTW, 75 in 1:26-cv-02097-SHS, 143 in 1:26-cv-03625-SHS, 416 in 1:24-cv-00084-SHS-OTW, 54 in 1:26-cv-08892-SHS) PROPOSED LETTER MOTION to File Amicus Brief on Behalf of Neither Party addressed to Judge Sidney H. Stein from Brian L. Frye dated 10/28/2026. ERROR(S): No sign …(truncated)
+
+### 📄 Doc #78 — 2026-10-28
+
+***SEALED***DECLARATION of Angela L. Dunning in Support re: (56 in 1:26-cv-08892-SHS) LETTER MOTION to Seal addressed to Judge Sidney H. Stein from Angela L. Dunning dated October 28, 2026.. Document filed by Amazon.com, Inc.. (Attachments: # 1 Exhibit A - Proposed Redactions to Defendants' Response to Class Plaintiffs' Rule 56.1 Statement, # 2 Exhibit B - Proposed Redactions to Defendants' Response to News Plaintiffs' Rule 56.1 Statement, # 3 Exhibit C - Proposed Redactions to Defendant Microsoft Corporation's Opposition to Books Plaintiffs' Motion for Partial Summary Judgment, # 4 Exhibit D - Proposed Redactions to Class and News Plaintiffs' Response to OpenAI's Statement of Undisputed Material Facts in Support of its Motion for Summary Judgment, # 5 Exhibit E - Proposed Redactions to Defendant OpenAI, Inc.'s Opposition to Class Plaintiffs' Motion for Summary Judgment, # 6 Exhibit F - Proposed Redactions to Class Plaintiffs' Counterstatement of Material Facts in Opposition to OpenAI' …(truncated)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72492986/78/encyclopaedia-britannica-inc-v-openai-inc/)
+
+### 📄 Doc #— — 2026-10-28
+
+Notice to Attorney to Re-File Document - Deficient Docket Entry Error
+
+### 📄 Doc #76 — 2026-10-28
+
+PROPOSED LETTER MOTION to File Amicus Brief On Behald of Neither Party addressed to Judge Sidney H. Stein from Brian L. Frye dated 10/28/2026. Document filed by Brian L Frye.Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Frye, Brian) (Entered: 10/28/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72492986/76/encyclopaedia-britannica-inc-v-openai-inc/)
+
+### 📄 Doc #75 — 2026-10-28
+
+FILING ERROR - DEFICIENT DOCKET ENTRY - PROPOSED LETTER MOTION to File Amicus Brief on Behalf of Neither Party addressed to Judge Sidney H. Stein from Brian L. Frye dated 10/28/2026. Document filed by Brian L Frye.Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Frye, Brian) Modified on 10/28/2026 (db). (Entered: 10/28/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72492986/75/encyclopaedia-britannica-inc-v-openai-inc/)
+
+### 📄 Doc #— — 2026-10-26
+
+Notice Regarding Pro Hac Vice Motion
+
+### 📄 Doc #72 — 2026-10-23
+
+LETTER MOTION for Oral Argument re Microsoft's Oppositions to Books Plaintiffs and News Plaintiffs Motions for Partial Summary Judgment addressed to Judge Sidney H. Stein from Annette L. Hurst dated 10/23/2026. Document filed by Microsoft Corporation.Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Hurst, Annette) (Entered: 10/23/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72492986/72/encyclopaedia-britannica-inc-v-openai-inc/)
+
+### 📄 Doc #71 — 2026-10-23
+
+MOTION to Seal . Document filed by Microsoft Corporation. (Attachments: # 1 Exhibit Declaration of Lucky Vidmar in Support)Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Simpson, Lisa) (Entered: 10/23/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72492986/71/1/encyclopaedia-britannica-inc-v-openai-inc/)
+
+### 📄 Doc #69 — 2026-10-13
+
+AMENDED STIPULATED OMNIBUS SEALING ORDER FOR SUMMARY JUDGMENT AND DAUBERT BRIEFING: IT IS HEREBY ORDERED that sealing issues relating to summary judgment and Daubert briefing will be handled as follows: 1. The Parties may provisionally seal portions of briefing and exhibits (including expert reports and declarations) relating to Daubert briefing that contain or refer to material produced in this case that is designated Protected Discovery Material. 2. The Parties may provisionally seal exhibits ( or portions thereof) relating to summary judgment briefing (including expert reports and declarations) that contain or refer to material produced in this case that is designated Protected Discovery Material.7. Any response to any omnibus motion to seal shall be filed by January 20, 2027.8. By January 27, 2027, the Parties must publicly file any Provisionally SealedMaterial that no Party or third party moved to seal by January 13, 2027. 10. Nothing herein prevents any Party from challenging ano …(truncated)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72492986/69/encyclopaedia-britannica-inc-v-openai-inc/)
+
+### 📄 Doc #68 — 2026-10-07
+
+ORDER in case 1:23-cv-08292-SHS-OTW; granting (2091) Letter Motion for Leave to File Document in case 1:25-md-03143-SHS-OTW. Request granted. SO ORDERED. (Signed by Judge Sidney H. Stein on 10/7/2026) Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al. (jca) (Entered: 10/07/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72492986/68/encyclopaedia-britannica-inc-v-openai-inc/)
+
+### 📄 Doc #67 — 2026-10-06
+
+LETTER MOTION for Leave to File Defendants' responses to Plaintiffs' Local Civil Rule 56.1 statements in a format that deviates from the format specified in Local Civil Rule 56.1 addressed to Judge Sidney H. Stein from Annette L. Hurst and Allison Blanco dated October 6, 2026. Document filed by Microsoft Corporation. (Attachments: # 1 Exhibit A - Sample Format)Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Hurst, Annette) (Entered: 10/06/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72492986/67/1/encyclopaedia-britannica-inc-v-openai-inc/)
+
+### 📄 Doc #— — 2026-09-24
+
+Set/Reset Deadlines: Brief due by 10/30/2026. Responses due by 10/23/2026 Replies due by 11/20/2026. Associated Cases: 1:25-md-03143-SHS-OTW et al.(jca)
 
 ### 📄 Doc #66 — 2026-09-24
 
-Order on Motion for Extension of Time to File
+ORDER in case 1:23-cv-08292-SHS-OTW; granting (2041) Letter Motion for Extension of Time to File in case 1:25-md-03143-SHS-OTW.The schedule as set forth above is granted. SO ORDERED.. (Signed by Judge Sidney H. Stein on 9/24/2026) Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al. (jca) (Entered: 09/24/2026)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/72492986/66/encyclopaedia-britannica-inc-v-openai-inc/)
 
-### 📄 Doc #64 — 2026-09-14
-
-Notice of Appearance
-
-[CourtListener 連結](https://www.courtlistener.com/docket/72492986/64/encyclopaedia-britannica-inc-v-openai-inc/)
-
-### 📄 Doc #65 — 2026-09-14
-
-Notice of Appearance
-
-[CourtListener 連結](https://www.courtlistener.com/docket/72492986/65/encyclopaedia-britannica-inc-v-openai-inc/)
-
 ### 📄 Doc #63 — 2026-09-11
 
-Order
+NOTICE TO THE PARTIES: It has come to my attention that I own stock in Microsoft Corporation. My ownership of this stock has not affected or impacted any decision in this case. Although my ownership of this stock would ordinarily require recusal, Canon 3C(4) of the Code of Conduct for United States Judges states that a magistrate judge is not disqualified because of "a financial interest in a party" if the magistrate judge "divests the interest that provides the grounds for disqualification," unless the interest could be substantially affected by the outcome of the proceeding. Advisory Opinion No. 69 from the Judicial Conference's Committee on Codes of Conduct explains that a magistrate judge may divest the disqualifying interest under Canon 3C(4) at the beginning of the case, after the judge has spent substantial time on the case, or anytime in between. Based on the issues presented in this case, I have concluded that my interest in Microsoft Corporation could not be substantially aff …(truncated)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/72492986/63/encyclopaedia-britannica-inc-v-openai-inc/)
 
@@ -494,8 +700,22 @@ FILING ERROR - PDF ERROR - CIVIL COVER SHEET filed..(Park, Yoonhee) Modified on 
 Minute Entry for proceedings held before Magistrate Judge Ona T. Wang: Status Conference held on 3/10/2026. Associated Cases: 1:25-md-03143-SHS-OTW et al.(Quinn, Diane)
 
 <details>
-<summary>已過濾的 15 筆程序性 entries（點擊展開）</summary>
+<summary>已過濾的 29 筆程序性 entries（點擊展開）</summary>
 
+- **Doc #97** (2026-10-30): MOTION for Serge A. Voronov to Appear Pro Hac Vice . Filing fee $ 200.00, receipt number NYSDC-33700712. Motion and supporting papers to be reviewed by Clerk's Office staff. Document filed by Mike Kno…
+- **Doc #102** (2026-10-30): NOTICE OF APPEARANCE by Matthew Stewart Warren on behalf of Gregory Leppert. Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Warren, Matthew) (Entered: 10/30/2026)
+- **Doc #90** (2026-10-30): NOTICE OF APPEARANCE by Candice Yandam Riviere on behalf of Mike Knoop, Professor Daniel Lowd, Professor Douglas C Schmidt. Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Yandam Riviere, Can…
+- **Doc #—** (2026-10-29): >>>NOTICE REGARDING PRO HAC VICE MOTION. Regarding Document No. (288 in 1:25-cv-03291-SHS-OTW, 148 in 1:25-cv-09904-SHS, 59 in 1:26-cv-08892-SHS, 776 in 1:25-cv-04315-SHS-OTW, 42 in 1:26-cv-07171-SHS,…
+- **Doc #—** (2026-10-29): >>>NOTICE REGARDING PRO HAC VICE MOTION. Regarding Document No. (2296 in 1:25-md-03143-SHS-OTW) MOTION for Laura K. Oswell to Appear Pro Hac Vice . Filing fee $ 200.00, receipt number NYSDC-33686551. …
+- **Doc #—** (2026-10-29): >>>NOTICE REGARDING PRO HAC VICE MOTION. Regarding Document No. (665 in 1:24-cv-01515-SHS-OTW, 147 in 1:25-cv-09904-SHS, 775 in 1:25-cv-04315-SHS-OTW, 37 in 1:26-cv-06966-SHS, 84 in 1:26-cv-01947-SHS,…
+- **Doc #79** (2026-10-28): MOTION for Brendan P. Cullen to Appear Pro Hac Vice . Motion and supporting papers to be reviewed by Clerk's Office staff. Document filed by Khosla Ventures, LLC. (Attachments: # 1 Affidavit in Suppor…
+- **Doc #80** (2026-10-28): MOTION for Laura K. Oswell to Appear Pro Hac Vice . Filing fee $ 200.00, receipt number NYSDC-33686551. Motion and supporting papers to be reviewed by Clerk's Office staff. Document filed by Khosla Ve…
+- **Doc #74** (2026-10-27): MOTION for John F. Bash to Appear Pro Hac Vice . Filing fee $ 200.00, receipt number NYSDC-33679675. Motion and supporting papers to be reviewed by Clerk's Office staff. Document filed by Rick Santoru…
+- **Doc #73** (2026-10-26): MOTION for Anna B. Chauvet to Appear Pro Hac Vice . Motion and supporting papers to be reviewed by Clerk's Office staff. Document filed by A.I. Progress, Inc.. (Attachments: # 1 Affidavit of Anna B. C…
+- **Doc #—** (2026-10-26): >>>NOTICE REGARDING PRO HAC VICE MOTION. Regarding Document No. (973 in 1:24-cv-03285-SHS-OTW, 52 in 1:26-cv-08892-SHS, 141 in 1:26-cv-03625-SHS, 881 in 1:23-cv-10211-SHS-OTW, 78 in 1:26-cv-01947-SHS,…
+- **Doc #70** (2026-10-23): NOTICE OF APPEARANCE by Matthew Carl Berntsen on behalf of A.I. Progress, Inc.. Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Berntsen, Matthew) (Entered: 10/23/2026)
+- **Doc #64** (2026-09-14): NOTICE OF APPEARANCE by Marc Holden Axelbaum on behalf of Benjamin Chess. Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Axelbaum, Marc) (Entered: 09/14/2026)
+- **Doc #65** (2026-09-14): NOTICE OF APPEARANCE by Marc Holden Axelbaum on behalf of Ermira Murati. Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Axelbaum, Marc) (Entered: 09/14/2026)
 - **Doc #47** (2026-07-24): SUMMONS RETURNED EXECUTED Summons and Complaint,, served. Service was accepted by Robin Hutt-Banks, Authorized to Accept Service for The Corporation Trust Company, Agent for Service of Process. Docume…
 - **Doc #48** (2026-07-24): SUMMONS RETURNED EXECUTED Summons and Complaint,, served. Service was accepted by Robin Hutt-Banks, Authorized to Accept Service for The Corporation Trust Company, Agent for Service of Process. Docume…
 - **Doc #49** (2026-07-24): SUMMONS RETURNED EXECUTED Summons and Complaint,, served. Service was accepted by Robin Hutt-Banks, Authorized to Accept Service for The Corporation Trust Company, Agent for Service of Process for Ope…
@@ -516,4 +736,4 @@ Minute Entry for proceedings held before Magistrate Judge Ona T. Wang: Status Co
 
 ---
 
-*產生時間：2026-10-01 01:27 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-11-01 01:28 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

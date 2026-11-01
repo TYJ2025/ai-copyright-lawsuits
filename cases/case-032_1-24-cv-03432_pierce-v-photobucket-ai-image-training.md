@@ -1,6 +1,6 @@
 # Case 32 — Pierce v. Photobucket, Inc.
 
-> 最後更新（CourtListener fetch）：2026-10-01 01:19 UTC
+> 最後更新（CourtListener fetch）：2026-11-01 01:18 UTC
 
 ---
 
@@ -458,4 +458,4 @@ COMPLAINT against Photobucket, Inc., Unknown Defendants (Filing fee $ 405,Receip
 
 ---
 
-*產生時間：2026-10-01 01:19 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-11-01 01:18 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

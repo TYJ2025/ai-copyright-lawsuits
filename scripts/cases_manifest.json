@@ -159,7 +159,7 @@
   "status": "active",
   "primary_docket_id": 69280385,
   "secondary_docket_ids": [],
-  "progress_excerpt": "案件由 Wu 法官審理中，目前處於審理前程序階段。Tesla 尚未提出合理使用抗辯的具體論述。\n\n【2026/9/19】Warner Bros. Discovery 就其部分與 Alcon 達成和解，具狀請求法院以有偏見駁回（with prejudice）並保留和解條款管轄權；對共同被告 Musk、Tesla 之 AI 生成影像侵權訴訟仍繼續進行"
+  "progress_excerpt": "案件由 Wu 法官審理中，目前處於審理前程序階段。Tesla 尚未提出合理使用抗辯的具體論述。\n\n【2026/9/19】Warner Bros. Discovery 就其部分與 Alcon 達成和解，具狀請求法院以有偏見駁回（with prejudice）並保留和解條款管轄權；對共同被告 Musk、Tesla 之 AI 生成影像侵權訴訟仍繼續進行\n\n【2026/10/29】雙方就是否應傳喚被告 Elon Musk 就其疑似使用近似《銀翼殺手 2049》圖像一事進行證詞開示提交狀況報告，爭點尚未解決"
  },
  {
   "case_id": 17,
@@ -189,7 +189,7 @@
   "status": "active",
   "primary_docket_id": 71720563,
   "secondary_docket_ids": [],
-  "progress_excerpt": "2026 年 1 月，Perplexity 提出駁回動議，主張其位於資料蒐集的「下游」，不應承擔 DMCA 反規避責任。案件審理中。\n\n【2026/7/31】S.D.N.Y. Engelmayer 法官裁定准許 Reddit 對 Perplexity、SerpAPI 之 DMCA § 1201(a) 反規避主張續行（認定 Google SearchGuard 屬受保護接觸控制措施），但駁回 SerpAPI 之 trafficking 主張及不正競爭、不當得利州法請求，案件進入證據開示階段。\n\n【2026/10/10】承辦 Perplexity 應訴之 Proskauer 律所具狀聲請准其代理，惟該所先前曾於另件告發人案件代理原告 Reddit，Reddit 尚未同意拋棄利益衝突異議。"
+  "progress_excerpt": "2026 年 1 月，Perplexity 提出駁回動議，主張其位於資料蒐集的「下游」，不應承擔 DMCA 反規避責任。案件審理中。\n\n【2026/7/31】S.D.N.Y. Engelmayer 法官裁定准許 Reddit 對 Perplexity、SerpAPI 之 DMCA § 1201(a) 反規避主張續行（認定 Google SearchGuard 屬受保護接觸控制措施），但駁回 SerpAPI 之 trafficking 主張及不正競爭、不當得利州法請求，案件進入證據開示階段。\n\n【2026/10/9】Reddit 具狀聲請不准 Proskauer Rose 代理 Perplexity 應訴，主張該所代理 Reddit 處理告發人案件時取得與 Google、OpenAI 授權協議之機密資訊且曾承諾退場後不代理 Perplexity，聲請尚待 Engelmayer 法官裁定\n\n【2026/10/10】承辦 Perplexity 應訴之 Proskauer 律所具狀聲請准其代理，惟該所先前曾於另件告發人案件代理原告 Reddit，Reddit 尚未同意拋棄利益衝突異議。"
  },
  {
   "case_id": 20,
@@ -229,7 +229,7 @@
   "status": "active",
   "primary_docket_id": 69280523,
   "secondary_docket_ids": [],
-  "progress_excerpt": "案件由 Polk Failla 法官審理中，處於初步程序階段。與 NYT v. Perplexity 等案共同構成對 Perplexity 的多線訴訟壓力。"
+  "progress_excerpt": "案件由 Polk Failla 法官審理中，處於初步程序階段。與 NYT v. Perplexity 等案共同構成對 Perplexity 的多線訴訟壓力。\n\n【2026/10/19】專家證據開示期限 10/19 屆至，雙方均估計審判將進行 10 至 14 日，案件邁向陪審團審理"
  },
  {
   "case_id": 24,
@@ -309,7 +309,7 @@
   "status": "active",
   "primary_docket_id": 71972050,
   "secondary_docket_ids": [],
-  "progress_excerpt": "案件由 Davila 法官審理中。Nazemian v. NVIDIA 已合併審理（Tigar 法官）。"
+  "progress_excerpt": "案件由 Davila 法官審理中。Nazemian v. NVIDIA 已合併審理（Tigar 法官）。\n\n【2026/10/29】原告公司 Ted Entertainment 無附帶偏見撤回本訴（未附理由），個人原告 Matt Fisher 續列名原告，訴訟續行"
  },
  {
   "case_id": 32,
@@ -429,7 +429,7 @@
   "status": "active",
   "primary_docket_id": 72505829,
   "secondary_docket_ids": [],
-  "progress_excerpt": "【訴訟進展（截至 2026/4/8）】\n\n• 2026/3/17：BMG 在 N.D. Cal. 提起訴訟，由 Magistrate Judge Alex G. Tse 受理。\n• 2026/3/20：Anthropic 送達完成，答辯截止日為 2026/4/10。\n• 2026/4/6：BMG 聲請本案與 Concord Music v. Anthropic（同法院）合併審理，回應期限 2026/4/10。\n• 2026/4/7：Anthropic 正式出庭，委任 WilmerHale 律師事務所（Sonal Mehta、Ari Holtzblatt 等），並提交公司揭露聲明，列明 Amazon、Google/Alphabet、AWS 為其關係企業。雙方已提交聯合排程協議草案。\n• 初次案件管理會議（Case Management Conference）定於 2026/6/26 下午 2 時（視訊）。\n\n⚠️ 【2026/4/10】Anthropic 答辯狀截止，密切關注是否提出駁回動議。\n\n【2026/9/10】提出第一次修正訴狀（First Amended Complaint）；案件已與 Concord Music、Sony Music 音樂出版商集團訴訟併案，統一由 Eumi K. Lee 法官審理，修正內容細節尚未明朗。"
+  "progress_excerpt": "【訴訟進展（截至 2026/4/8）】\n\n• 2026/3/17：BMG 在 N.D. Cal. 提起訴訟，由 Magistrate Judge Alex G. Tse 受理。\n• 2026/3/20：Anthropic 送達完成，答辯截止日為 2026/4/10。\n• 2026/4/6：BMG 聲請本案與 Concord Music v. Anthropic（同法院）合併審理，回應期限 2026/4/10。\n• 2026/4/7：Anthropic 正式出庭，委任 WilmerHale 律師事務所（Sonal Mehta、Ari Holtzblatt 等），並提交公司揭露聲明，列明 Amazon、Google/Alphabet、AWS 為其關係企業。雙方已提交聯合排程協議草案。\n• 初次案件管理會議（Case Management Conference）定於 2026/6/26 下午 2 時（視訊）。\n\n⚠️ 【2026/4/10】Anthropic 答辯狀截止，密切關注是否提出駁回動議。\n\n【2026/9/10】提出第一次修正訴狀（First Amended Complaint）；案件已與 Concord Music、Sony Music 音樂出版商集團訴訟併案，統一由 Eumi K. Lee 法官審理，修正內容細節尚未明朗。\n\n【2026/10/16】Anthropic 聲請"
  },
  {
   "case_id": 45,
@@ -464,12 +464,12 @@
  {
   "case_id": 48,
   "name": "Ted Entertainment v. Apple",
-  "court": "C.D. Cal.",
-  "judge": "Edward J. Davila",
+  "court": "N.D. Cal.",
+  "judge": "Richard Seeborg",
   "status": "active",
   "primary_docket_id": 71972050,
   "secondary_docket_ids": [],
-  "progress_excerpt": "案件於 2026 年 4 月初提起。Ted Entertainment 已累計提起 7 件 DMCA 反規避訴訟，針對多家科技巨頭。此一訴訟策略值得密切關注。"
+  "progress_excerpt": "案件於 2026 年 4 月初提起。Ted Entertainment 已累計提起 7 件 DMCA 反規避訴訟，針對多家科技巨頭。此一訴訟策略值得密切關注。\n\n【2026/10/9】N.D. Cal.（3:26-cv-02936）Seeborg 法官裁定駁回 Apple 駁回聲請，認 YouTube rolling cipher、proof-of-origin tokens 等措施構成 DMCA 保護之 access control，案件續行\n\n【2026/10/29】原告公司 Ted Entertainment 無附帶偏見撤回本訴（未附理由），個人原告 Matt Fisher 續列名原告，訴訟續行"
  },
  {
   "case_id": 49,
@@ -479,7 +479,7 @@
   "status": "active",
   "primary_docket_id": 72074891,
   "secondary_docket_ids": [],
-  "progress_excerpt": "案件於 2026 年 4 月初提起。與同系列其他案件同步推進。"
+  "progress_excerpt": "案件於 2026 年 4 月初提起。與同系列其他案件同步推進。\n\n【2026/10/29】原告公司 Ted Entertainment 無附帶偏見撤回本訴（未附理由），個人原告 Matt Fisher 續列名原告，訴訟續行"
  },
  {
   "case_id": 50,
@@ -489,17 +489,17 @@
   "status": "active",
   "primary_docket_id": 72075006,
   "secondary_docket_ids": [],
-  "progress_excerpt": "案件於 2026 年 4 月初提起。合計 Ted Entertainment 已對 NVIDIA、Meta、Snap、Bytedance、Apple、OpenAI、Amazon 七家公司提起訴訟。"
+  "progress_excerpt": "案件於 2026 年 4 月初提起。合計 Ted Entertainment 已對 NVIDIA、Meta、Snap、Bytedance、Apple、OpenAI、Amazon 七家公司提起訴訟。\n\n【2026/10/29】原告公司 Ted Entertainment 無附帶偏見撤回本訴（未附理由），個人原告 Matt Fisher 續列名原告，訴訟續行"
  },
  {
   "case_id": 51,
   "name": "Ted Entertainment v. Bytedance (TikTok)",
-  "court": "C.D. Cal.",
+  "court": "N.D. Cal.",
   "judge": "Jacqueline Scott Corley",
   "status": "active",
   "primary_docket_id": 72075006,
   "secondary_docket_ids": [],
-  "progress_excerpt": "Bytedance 已提出駁回動議（motion to dismiss），主張 DMCA 反規避條款不適用於 AI 訓練行為。此駁回動議的裁定將對 Ted Entertainment 其他六件案件產生重大影響。"
+  "progress_excerpt": "Bytedance 已提出駁回動議（motion to dismiss），主張 DMCA 反規避條款不適用於 AI 訓練行為。此駁回動議的裁定將對 Ted Entertainment 其他六件案件產生重大影響。\n\n【2026/10/2】N.D. Cal.（3:25-cv-10933）Corley 法官裁定駁回 ByteDance 全部駁回聲請，認原告就 YouTube 存取控制措施遭規避已充分陳述 DMCA §1201(a) 請求權要件，案件續行\n\n【2026/10/29】原告公司 Ted Entertainment 無附帶偏見撤回本訴（未附理由），個人原告 Matt Fisher 續列名原告，訴訟續行"
  },
  {
   "case_id": 52,
@@ -799,7 +799,7 @@
   "status": "active",
   "primary_docket_id": 72074891,
   "secondary_docket_ids": [],
-  "progress_excerpt": "Tigar 法官審理中。Ted Entertainment 對多個社交媒體與技術平台提起類似訴訟，本案為其中之一。2026 年進行中。"
+  "progress_excerpt": "Tigar 法官審理中。Ted Entertainment 對多個社交媒體與技術平台提起類似訴訟，本案為其中之一。2026 年進行中。\n\n【2026/10/29】原告公司 Ted Entertainment 無附帶偏見撤回本訴（未附理由），個人原告 Matt Fisher 續列名原告，訴訟續行"
  },
  {
   "case_id": 83,
@@ -1174,12 +1174,12 @@
  {
   "case_id": 158,
   "name": "S.A. Jamendo v. NVIDIA Corporation",
-  "court": "N.D. Cal. 5:26-cv-06206",
+  "court": "N.D. Cal.",
   "judge": "待分派",
-  "status": "dismissed",
-  "primary_docket_id": 73517096,
+  "status": "active",
+  "primary_docket_id": "N.D. Cal. 5:26-cv-11754",
   "secondary_docket_ids": [],
-  "progress_excerpt": "【2026/6/22】Jamendo 於加州北區聯邦地院對 NVIDIA 提起訴訟，主張 Fugatto 與 Audio Flamingo 未經授權以 MTG-Jamendo 資料集商業訓練，構成直接著作權侵害、CC 非商業授權違約、不當得利及不公平競爭，求償約 US$2,030 萬。Jamendo 稱 2024 年因 NVIDIA 於技術論文公開承認引用該資料集而知悉侵權。\n\n【2026/10/9】Jamendo 向法院提出自願撤回訴狀，撤告原因未附具說明，為其繼 2026/8 撤回對 Suno 訴訟後第二件主動撤告之 MTG-Jamendo 資料集案件"
+  "progress_excerpt": "【2026/6/22】Jamendo 於加州北區聯邦地院對 NVIDIA 提起訴訟，主張 Fugatto 與 Audio Flamingo 未經授權以 MTG-Jamendo 資料集商業訓練，構成直接著作權侵害、CC 非商業授權違約、不當得利及不公平競爭，求償約 US$2,030 萬。Jamendo 稱 2024 年因 NVIDIA 於技術論文公開承認引用該資料集而知悉侵權。\n\n【2026/10/9】Jamendo 向法院提出自願撤回訴狀，撤告原因未附具說明，為其繼 2026/8 撤回對 Suno 訴訟後第二件主動撤告之 MTG-Jamendo 資料集案件\n\n【2026/10/12】撤回原訴（5:26-cv-06206）三日後，以近乎相同主張對 NVIDIA 重新提起訴訟，新案號 5:26-cv-11754，重訴理由未附具說明"
  },
  {
   "case_id": 159,

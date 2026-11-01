@@ -1,6 +1,6 @@
 # Case 83 — Youngblood v. Meta Platforms, Inc.
 
-> 最後更新（CourtListener fetch）：2026-10-01 01:36 UTC
+> 最後更新（CourtListener fetch）：2026-11-01 01:38 UTC
 
 ---
 
@@ -129,4 +129,4 @@ CERTIFICATION of Conflicts and Interested Entities or Persons Pursuant to F.R.C.
 
 ---
 
-*產生時間：2026-10-01 01:36 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-11-01 01:38 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

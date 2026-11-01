@@ -1,6 +1,6 @@
 # Case 97 — Disney Enterprises Inc. v. Midjourney Inc.
 
-> 最後更新（CourtListener fetch）：2026-10-01 01:45 UTC
+> 最後更新（CourtListener fetch）：2026-11-01 01:45 UTC
 
 ---
 
@@ -14,7 +14,7 @@
 | Judge Assigned | John A. Kronstadt |
 | Judge Referred | A. Joel Richlin |
 | Date Filed | 2025-06-11 |
-| Date Last Filing | 2026-09-29 |
+| Date Last Filing | 2026-10-30 |
 | Cause | 17:501 Copyright Infringement |
 | Nature of Suit | 820 Copyright |
 | Jury Demand | Plaintiff |
@@ -34,15 +34,207 @@
 
 - ⚠️ Court 可能不一致：dashboard 寫「N.D. Cal.」，CourtListener 為「C.D. California」
 - ✅ Judge 一致：dashboard 寫「John A. Kronstadt」，CourtListener 為「John A. Kronstadt」
-- ⚠️ Dashboard progress **落後 144 天**：dashboard 最新日期 2026-05-08，CourtListener 最後 entry 2026-09-29——建議查看新近 entries 並補充 progress
+- ⚠️ Dashboard progress **落後 175 天**：dashboard 最新日期 2026-05-08，CourtListener 最後 entry 2026-10-30——建議查看新近 entries 並補充 progress
 
 ## 3. Docket Entries（最新優先，已過濾程序性 entries）
 
-**實質性 entries**：189 筆／**已過濾程序性 entries**：11 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+**實質性 entries**：194 筆／**已過濾程序性 entries**：6 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+
+### 📄 Doc #243 — 2026-10-30
+
+Intent to Request Redaction from Electronic Court Recording/Court Smart
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70513159/243/disney-enterprises-inc-v-midjourney-inc/)
+
+### 📄 Doc #242 — 2026-10-29
+
+ORDER GRANTING JOINT STIPULATION TO EXTEND PLAINTIFFS' DEADLINE TO RESPOND TO MIDJOURNEY'S BRIEF IN RESPONSE TO TENTATIVE ORDER RE: SOURCE CODE PRODUCTION (DKT. 223 ) by Magistrate Judge A. Joel Richlin. IT IS HEREBY ORDERED THAT: 1. The Parties' Joint Stipulation is hereby GRANTED; and 2. Plaintiffs' deadline to respond to Midjourney's Brief in Response to Tentative Order re: Source Code Production (Dkt. 223 ) is extended from October 30, 2026 to November 6, 2026. IT IS SO ORDERED. (nth) (Entered: 10/29/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70513159/242/disney-enterprises-inc-v-midjourney-inc/)
+
+### 📄 Doc #241 — 2026-10-28
+
+TRANSCRIPT ORDER as to Plaintiffs Disney Enterprises Inc., DreamWorks Animation L.L.C., Lucasfilm Ltd. LLC, MVL Film Finance LLC, Marvel Characters Inc., Twentieth Century Fox Film Corporation, Universal City Studios Productions LLLP for Court Smart (CS). Court will contact Alonso Ponce at aponce@jenner.com with further instructions regarding this order. Transcript preparation will not begin until payment has been satisfied with the transcription company. (Singer, David) (Entered: 10/28/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70513159/241/disney-enterprises-inc-v-midjourney-inc/)
+
+### 📄 Doc #240 — 2026-10-28
+
+MINUTES OF INFORMAL DISCOVERY CONFERENCE held before Magistrate Judge A. Joel Richlin. On October 26, 2026, the Court held a further informal discovery conference limited to a discussion of the four remaining issues. The Court received extensive oral argument from the parties at the hearing and then took the four issues under submission. Based on the discussion with the parties and the parties' Joint Status Update, the Court directs the parties as follows regarding Plaintiffs' Issue No. 2: Midjourney's "Attorneys' Eyes Only" Designation of the Stealth Sample Report and Outputs [Dkt. 160 ; Dkt. 46 §§ 2.9, 5.1, 6.3], Midjourney's Issue No. 2: Documents Regarding License and Settlement Agreements, Midjourney's Issue No. 4: Plaintiffs' Response to Interrogatory No. 5 Regarding Plaintiffs' Claim of Copyright, and Midjourney's Issue No. 5: Plaintiffs' Use of Midjourney and Scraping of Midjourney Content. [SEE ORDER FOR DETAILS.] IT IS SO ORDERED. (nth) (Entered: 10/28/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70513159/240/disney-enterprises-inc-v-midjourney-inc/)
+
+### 📄 Doc #239 — 2026-10-28
+
+TRANSCRIPT ORDER as to Defendant Midjourney Inc. for Court Smart (CS). Court will contact Jessica Alvarez-Lopez at jalvarezlopez@cooley.com with further instructions regarding this order. Transcript preparation will not begin until payment has been satisfied with the transcription company. (Sharma, Aastha) (Entered: 10/28/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70513159/239/disney-enterprises-inc-v-midjourney-inc/)
+
+### 📄 Doc #238 — 2026-10-28
+
+SEALED DOCUMENT re Order on Motion for Leave to File Document Under Seal,,, 236 filed by Defendant Midjourney Inc..(Sharma, Aastha) (Entered: 10/28/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70513159/238/disney-enterprises-inc-v-midjourney-inc/)
+
+### 📄 Doc #237 — 2026-10-28
+
+Joint STIPULATION for Extension of Time to File Reply as to Response 223 filed by Plaintiffs DC Comics, Disney Enterprises Inc., DreamWorks Animation L.L.C., Hanna-Barbera Productions, Inc., Lucasfilm Ltd. LLC, MVL Film Finance LLC, Marvel Characters Inc., The Cartoon Network, Inc., Turner Entertainment Co., Twentieth Century Fox Film Corporation, Universal City Studios Productions LLLP, Warner Bros. Entertainment Inc.. (Attachments: # 1 Proposed Order)(Singer, David) Modified on 10/29/2026 (nth). (Entered: 10/28/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70513159/237/disney-enterprises-inc-v-midjourney-inc/)
+
+### 📄 Doc #235 — 2026-10-26
+
+NOTICE OF MOTION AND MOTION for Order. Pursuant to Docket 234, an Informal Discovery Conference has been set for 11/9/2026, at 10:00 AM before Magistrate Judge A. Joel Richlin. This hearing will be held via Zoom Videoconference. The Courtroom Deputy will email the parties the Zoom login credentials. (nth) (Entered: 10/26/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70513159/235/disney-enterprises-inc-v-midjourney-inc/)
+
+### 📄 Doc #234 — 2026-10-26
+
+MINUTES OF INFORMAL DISCOVERY VIDEOCONFERENCE AND ORDER SCHEDULING FURTHER INFORMAL DISCOVERY VIDEOCONFERENCES held before Magistrate Judge A. Joel Richlin. On October 19, 2026, the Court held an informal discovery conference by Zoom to discuss various discovery disputes. In advance of the hearing, the parties submitted a Joint Status Update by email (the "Joint Status Update"). Based on the discussion with the parties, the Court directed as follows regarding Deposition Scheduling, Plaintiff's Issue No. 1, Midjourney's Issue No. 1, 3, 2, 4, and 5, and Next Steps. [SEE ORDER FOR DETAILS, DEADLINES, AND INSTRUCTIONS.] The Court scheduled a further informal discovery conference by Zoom for Monday October 16, 2026, from 2:00 p.m. to 4:00 p.m. to address the remaining issues set forth above. This hearing will be limited to the foregoing issues or updates on the issues addressed in this Order. The parties do not need to provide any written status update, but can provide an oral update at the …(truncated)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70513159/234/disney-enterprises-inc-v-midjourney-inc/)
+
+### 📄 Doc #231 — 2026-10-23
+
+NOTICE OF FILING TRANSCRIPT filed for proceedings 10/19/2026 re Transcript 230 THERE IS NO PDF DOCUMENT ASSOCIATED WITH THIS ENTRY. (ryo) TEXT ONLY ENTRY (Entered: 10/23/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70513159/231/disney-enterprises-inc-v-midjourney-inc/)
+
+### 📄 Doc #233 — 2026-10-23
+
+NOTICE OF MOTION AND MOTION for Order. An Informal Discovery Conference has been set for 10/26/2026, at 02:00 PM before Magistrate Judge A. Joel Richlin. This hearing will be held via Zoom Videoconference. The Courtroom Deputy will email the parties the Zoom login credentials. (nth) (Entered: 10/23/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70513159/233/disney-enterprises-inc-v-midjourney-inc/)
+
+### 📄 Doc #232 — 2026-10-23
+
+TRANSCRIPT ORDER as to Defendant Midjourney Inc. for Court Reporter. Court will contact Jessica Alvarez-Lopez at jalvarezlopez@cooley.com with further instructions regarding this order. Transcript preparation will not begin until payment has been satisfied with the court reporter. (Sharma, Aastha) (Entered: 10/23/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70513159/232/disney-enterprises-inc-v-midjourney-inc/)
+
+### 📄 Doc #230 — 2026-10-23
+
+TRANSCRIPT for proceedings held on 10/19/2026. Court Reporter/Electronic Court Recorder: Exceptional Reporting Services, Inc., phone number 361 949-2988. Transcript may be viewed at the court public terminal or purchased through the Court Reporter/Electronic Court Recorder before the deadline for Release of Transcript Restriction. After that date it may be obtained through PACER. Notice of Intent to Redact due within 7 days of this date. Redaction Request due 11/13/2026. Redacted Transcript Deadline set for 11/23/2026. Release of Transcript Restriction set for 1/21/2027. (ryo) (Entered: 10/23/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70513159/230/disney-enterprises-inc-v-midjourney-inc/)
+
+### 📄 Doc #— — 2026-10-23
+
+Notice of Filing Transcript
+
+### 📄 Doc #227 — 2026-10-22
+
+NOTICE OF FILING TRANSCRIPT filed for proceedings MONDAY, AUGUST 17,2026 re Transcript 226 THERE IS NO PDF DOCUMENT ASSOCIATED WITH THIS ENTRY. (mci) TEXT ONLY ENTRY (Entered: 10/22/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70513159/227/disney-enterprises-inc-v-midjourney-inc/)
+
+### 📄 Doc #229 — 2026-10-22
+
+SEALED DOCUMENT re Order on Motion for Leave to File Document,,, 224 filed by Defendant Midjourney Inc..(Sharma, Aastha) (Entered: 10/22/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70513159/229/disney-enterprises-inc-v-midjourney-inc/)
+
+### 📄 Doc #228 — 2026-10-22
+
+TRANSCRIPT ORDER as to Plaintiffs DC Comics, Disney Enterprises Inc., DreamWorks Animation L.L.C., Hanna-Barbera Productions, Inc., Lucasfilm Ltd. LLC, MVL Film Finance LLC, Marvel Characters Inc., The Cartoon Network, Inc., Turner Entertainment Co., Twentieth Century Fox Film Corporation, Universal City Studios Productions LLLP, Warner Bros. Entertainment Inc. for Court Reporter. Court will contact Alonso Ponce at aponce@jenner.com with further instructions regarding this order. Transcript preparation will not begin until payment has been satisfied with the court reporter. (Singer, David) (Entered: 10/22/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70513159/228/disney-enterprises-inc-v-midjourney-inc/)
+
+### 📄 Doc #226 — 2026-10-22
+
+TRANSCRIPT for proceedings held on MONDAY, AUGUST 17,2026. Court Reporter: MARIA R. BUSTILLOS OFFICIAL COURT REPORTER C.S.R. 12254, email madamcourtreporter@gmail.com. Transcript may be viewed at the court public terminal or purchased through the Court Reporter before the deadline for Release of Transcript Restriction. After that date it may be obtained through PACER. Notice of Intent to Redact due within 7 days of this date. Redaction Request due 11/12/2026. Redacted Transcript Deadline set for 11/23/2026. Release of Transcript Restriction set for 1/20/2027. (mci) (Entered: 10/22/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70513159/226/disney-enterprises-inc-v-midjourney-inc/)
+
+### 📄 Doc #— — 2026-10-22
+
+Notice of Filing Transcript
+
+### 📄 Doc #— — 2026-10-22
+
+Leave to File Document Under Seal
+
+### 📄 Doc #236 — 2026-10-21
+
+ORDER GRANTING DEFENDANT MIDJOURNEY, INC.'S APPLICATION FOR LEAVE TO FILE UNDER SEAL PORTIONS OF SEPTEMBER 22, 2026 IDC TRANSCRIPT by Magistrate Judge A. Joel Richlin. HAVING CONSIDERED Defendant Midjourney, Inc.'s Application for Leave to File Under Seal Portions of September 22, 2026 IDC Transcript (the "Application"), and the Declaration of Aastha Sharma in support thereof, the Court finds good cause exists for allowing certain confidential information to be maintained under seal. Accordingly, it is hereby ORDERED that the Application is GRANTED in its entirety. The following portions of the Transcript are FURTHER ORDERED to be redacted from the public record in accordance with the Application and the highlighting reflected in the exhibit to the Declaration of Aastha Sharma in support of the Application. [SEE ORDER FOR DETAILS.] IT IS SO ORDERED. (nth) (Entered: 10/27/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70513159/236/disney-enterprises-inc-v-midjourney-inc/)
+
+### 📄 Doc #225 — 2026-10-21
+
+ORDER by Magistrate Judge A. Joel Richlin. The Court has reviewed Docket 214 and 215 and finds that they are duplicative. Having ruled on Docket 214 (see Docket 224 ), the Court will find Docket 215 as moot. IT IS SO ORDERED. [THERE IS NO PDF ATTACHED, TEXT ONLY ENTRY.] (nth) (Entered: 10/22/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70513159/225/disney-enterprises-inc-v-midjourney-inc/)
+
+### 📄 Doc #224 — 2026-10-21
+
+ORDER GRANTING DEFENDANT MIDJOURNEY,INC.'S APPLICATION FOR LEAVE TO FILE UNDER SEAL PORTIONS OF SEPTEMBER 14, 2026 IDC TRANSCRIPT by Magistrate Judge A. Joel Richlin. HAVING CONSIDERED Defendant Midjourney, Inc.'s Application for Leave to File Under Seal Portions of September 14, 2026 IDC Transcript (the "Application"), and the Declaration of Aastha Sharma in support thereof, the Court finds good cause exists for allowing certain confidential information to be maintained under seal. Accordingly, it is hereby ORDERED that the Application is GRANTED in its entirety. The following portions of the Transcript are FURTHER ORDERED to be redacted from the public record in accordance with the Application and the highlighting reflected in the exhibit to the Declaration of Aastha Sharma in support of the Application (nth) (Entered: 10/22/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70513159/224/disney-enterprises-inc-v-midjourney-inc/)
+
+### 📄 Doc #223 — 2026-10-21
+
+RESPONSE filed by Defendant Midjourney Inc.to Order on Motion for Order re Discovery Matter,,,,,,, Discovery Hearing,,,,,, 218 (Attachments: # 1 Declaration of C. Kruse)(Lauter, Judd) (Entered: 10/21/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70513159/223/1/disney-enterprises-inc-v-midjourney-inc/)
+
+### 📄 Doc #221 — 2026-10-19
+
+PROOF OF SERVICE filed by Defendant Midjourney Inc., re Sealed Declaration in SupportDeclaration 220 served on 10/19/2026. (Sharma, Aastha) (Entered: 10/19/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70513159/221/disney-enterprises-inc-v-midjourney-inc/)
+
+### 📄 Doc #219 — 2026-10-19
+
+APPLICATION to file document Portions of 9/22 IDC Transcript under seal filed by Defendant Midjourney Inc.. (Attachments: # 1 Proposed Order, # 2 Redacted Document 9/22 IDC Transcript)(Sharma, Aastha) (Entered: 10/19/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70513159/219/disney-enterprises-inc-v-midjourney-inc/)
+
+### 📄 Doc #220 — 2026-10-19
+
+SEALED DECLARATION IN SUPPORT OF APPLICATION to file document Portions of 9/22 IDC Transcript under seal 219 filed by Defendant Midjourney Inc.. (Attachments: # 1 Unredacted Document 9/22 IDC Transcript)(Sharma, Aastha) (Entered: 10/19/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70513159/220/disney-enterprises-inc-v-midjourney-inc/)
+
+### 📄 Doc #218 — 2026-10-13
+
+MINUTES OF INFORMAL DISCOVERY VIDEOCONFERENCE AND ORDER SCHEDULING FURTHER INFORMAL DISCOVERY CONFERENCE 190 held before Magistrate Judge A. Joel Richlin: On September 22, 2026, the Court held a continued Informal Discovery Conference by Zoom to discuss the remaining discovery disputes from the prior Informal Discovery Conference on September 14, 2026. The Court scheduled a further Informal Discovery Conference via Zoom Videoconference for October 19, 2026, at 2:00 p.m. The Courtroom Deputy Clerk will send the parties an email with the Zoom login credentials. The Court understands that this date and time are subject to confirmation from the parties and may need to be adjusted. The purpose of this next Informal Discovery Conference is to resolve outstanding written discovery disputes, primarily focused on completing document productions, with the goal of beginning depositions. Therefore, the parties are directed to meet and confer on these issues and can raise any remaining dispute with …(truncated)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70513159/218/disney-enterprises-inc-v-midjourney-inc/)
+
+### 📄 Doc #217 — 2026-10-07
+
+PROOF OF SERVICE filed by Defendant Midjourney Inc., re Sealed Declaration in SupportDeclaration 216 served on 10/07/2026. (Sharma, Aastha) (Entered: 10/07/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70513159/217/disney-enterprises-inc-v-midjourney-inc/)
+
+### 📄 Doc #215 — 2026-10-07
+
+APPLICATION to file document Portions of September 14, 2026 IDC Transcript under seal filed by Defendant Midjourney Inc.. (Attachments: # 1 Proposed Order Granting Application for Leave to File Under Seal Portions of September 14, 2026 IDC Transcript, # 2 Redacted Document)(Sharma, Aastha) (Entered: 10/07/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70513159/215/disney-enterprises-inc-v-midjourney-inc/)
+
+### 📄 Doc #216 — 2026-10-07
+
+SEALED DECLARATION IN SUPPORT OF APPLICATION to file document Portions of September 14, 2026 IDC Transcript under seal 215 filed by Defendant Midjourney Inc.. (Attachments: # 1 Unredacted Document)(Sharma, Aastha) (Entered: 10/07/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70513159/216/disney-enterprises-inc-v-midjourney-inc/)
+
+### 📄 Doc #214 — 2026-10-07
+
+APPLICATION for Leave to file Under Seal Portions of September 14, 2026 IDC Transcript filed by Defendant Midjourney Inc.. (Attachments: # 1 Proposed Order Granting Application for Leave to File Under Seal Portions of September 14, 2026 IDC Transcript, # 2 Redacted Document) (Sharma, Aastha) (Entered: 10/07/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70513159/214/disney-enterprises-inc-v-midjourney-inc/)
+
+### 📄 Doc #213 — 2026-10-05
+
+NOTICE of Intent to Request Redaction from Court Smart (CS), filed by Defendant Midjourney Inc., re Transcript 210 . (Sharma, Aastha) (Entered: 10/05/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70513159/213/disney-enterprises-inc-v-midjourney-inc/)
 
 ### 📄 Doc #212 — 2026-09-29
 
-Order
+ORDER ON JOINT STIPULATION AND TRAINING DATA PRODUCTION by Magistrate Judge A. Joel Richlin. IT IS ORDERED that the foregoing Agreement is approved. [SEE ORDER FOR DETAILS]. IT IS SO ORDERED. (nth) (Entered: 09/29/2026)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/70513159/212/disney-enterprises-inc-v-midjourney-inc/)
 
@@ -972,179 +1164,18 @@ TRANSCRIPT ORDER as to Defendant Midjourney Inc. for Court Smart (CS). Court wil
 
 [CourtListener 連結](https://www.courtlistener.com/docket/70513159/64/disney-enterprises-inc-v-midjourney-inc/)
 
-### 📄 Doc #63 — 2026-04-17
-
-TRANSCRIPT ORDER as to Plaintiffs DC Comics, Disney Enterprises Inc., DreamWorks Animation L.L.C., Hanna-Barbera Productions, Inc., Lucasfilm Ltd. LLC, MVL Film Finance LLC, Marvel Characters Inc., The Cartoon Network, Inc., Turner Entertainment Co., Twentieth Century Fox Film Corporation, Universal City Studios Productions LLLP, Warner Bros. Entertainment Inc. for Court Smart (CS). Court will contact Christal May at CMay@jenner.com with further instructions regarding this order. Transcript preparation will not begin until payment has been satisfied with the transcription company. (Singer, David) (Entered: 04/17/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/70513159/63/disney-enterprises-inc-v-midjourney-inc/)
-
-### 📄 Doc #61 — 2026-04-16
-
-MINUTES OF INFORMAL DISCOVERY VIDEOCONFERENCE held before Magistrate Judge A. Joel Richlin: The Court scheduled a further informal discovery conference by Zoom for May 12, 2026, at 9:30 a.m. The Courtroom Deputy Clerk will email a link to the parties to join by Zoom. The Court directs the parties to provide a joint status update by email no later than May 8, 2026. [SEE ORDER FOR DETAILS AND DEADLINES.] (asi) (Entered: 04/16/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/70513159/61/disney-enterprises-inc-v-midjourney-inc/)
-
-### 📄 Doc #62 — 2026-04-16
-
-MOTION RE: INFORMAL DISCOVERY DISPUTE - Video Conference set for hearing on 5/12/2026 at 9:30 AM before Magistrate Judge A. Joel Richlin. (asi) Modified on 5/11/2026 (asi). (Entered: 04/16/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/70513159/62/disney-enterprises-inc-v-midjourney-inc/)
-
-### 📄 Doc #— — 2026-04-16
-
-Discovery Hearing AND For Order re Discovery Matter
-
-### 📄 Doc #60 — 2026-04-10
-
-Opposition re: MOTION to Compel Plaintiffs to Produce Further Documents in Response to Requests for Production 55 filed by Consol Plaintiffs DC Comics, Hanna-Barbera Productions, Inc., Plaintiffs Disney Enterprises Inc., DreamWorks Animation L.L.C., Lucasfilm Ltd. LLC, MVL Film Finance LLC, Marvel Characters Inc.. (Singer, David) (Entered: 04/10/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/70513159/60/disney-enterprises-inc-v-midjourney-inc/)
-
-### 📄 Doc #59 — 2026-04-09
-
-MOTION RE: INFORMAL DISCOVERY DISPUTE - Video Conference set for hearing on 4/16/2026 at 9:30 AM before Magistrate Judge A. Joel Richlin. (asi) (Entered: 04/09/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/70513159/59/disney-enterprises-inc-v-midjourney-inc/)
-
-### 📄 Doc #— — 2026-04-09
-
-Text Only Scheduling Notice
-
-### 📄 Doc #58 — 2026-04-09
-
-SCHEDULING NOTICE TEXT ONLY ENTRY by Magistrate Judge A. Joel Richlin: The scheduled Informal Discovery Conference set for Tuesday, April 7, 2026, at 1:30 p.m. has been CONTINUED at the request of the parties. The Court has rescheduled the Informal Discovery Conference to Thursday, April 16, at 9:30 a.m. via Zoom. The Courts Courtroom Deputy Clerk will email counsel the link to join the videoconference. The Court further orders the parties to provide a joint update via email that sets the Informal Discovery Conference agenda NO LATER THAN April 15, 2026, at 12:00 p.m. IT IS SO ORDERED.THERE IS NO PDF DOCUMENT ASSOCIATED WITH THIS ENTRY. (asi) TEXT ONLY ENTRY (Entered: 04/09/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/70513159/58/disney-enterprises-inc-v-midjourney-inc/)
-
-### 📄 Doc #57 — 2026-03-30
-
-NOTICE OF FILING TRANSCRIPT filed for proceedings 3/12/2026 at 1:30pm re Transcript 56 THERE IS NO PDF DOCUMENT ASSOCIATED WITH THIS ENTRY. (mg) TEXT ONLY ENTRY (Entered: 03/30/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/70513159/57/disney-enterprises-inc-v-midjourney-inc/)
-
-### 📄 Doc #56 — 2026-03-30
-
-TRANSCRIPT for proceedings held on 3/12/2026 at 1:30pm. Court Reporter/Electronic Court Recorder: JAMS Certified Transcription, phone number (661) 609-4528. Transcript may be viewed at the court public terminal or purchased through the Court Reporter/Electronic Court Recorder before the deadline for Release of Transcript Restriction. After that date it may be obtained through PACER. Notice of Intent to Redact due within 7 days of this date. Redaction Request due 4/20/2026. Redacted Transcript Deadline set for 4/30/2026. Release of Transcript Restriction set for 6/29/2026. (mg) (Entered: 03/30/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/70513159/56/disney-enterprises-inc-v-midjourney-inc/)
-
-### 📄 Doc #— — 2026-03-30
-
-Notice of Filing Transcript
-
-### 📄 Doc #55 — 2026-03-27
-
-NOTICE OF MOTION AND MOTION to Compel Plaintiffs to Produce Further Documents in Response to Requests for Production filed by Defendant Midjourney Inc.. Motion set for hearing on 4/27/2026 at 01:30 PM before Magistrate Judge A. Joel Richlin. (Attachments: # 1 Memorandum of Points and Authorities, # 2 Proposed Order, # 3 Declaration of S. Schuyler, # 4 Exhibit 1, # 5 Exhibit 2, # 6 Exhibit 3, # 7 Exhibit 4, # 8 Exhibit 5, # 9 Exhibit 6, # 10 Exhibit 7, # 11 Exhibit 8)(Ghajar, Bobby) (Entered: 03/27/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/70513159/55/11/disney-enterprises-inc-v-midjourney-inc/)
-
-### 📄 Doc #54 — 2026-03-20
-
-TRANSCRIPT ORDER as to Defendant Midjourney Inc. for Court Smart (CS). Court will contact Linda Lozano at llozano@cooley.com with further instructions regarding this order. Transcript preparation will not begin until payment has been satisfied with the transcription company. (Ghajar, Bobby) (Entered: 03/20/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/70513159/54/disney-enterprises-inc-v-midjourney-inc/)
-
-### 📄 Doc #53 — 2026-03-19
-
-TRANSCRIPT ORDER as to Plaintiffs DC Comics, Disney Enterprises Inc., DreamWorks Animation L.L.C., Hanna-Barbera Productions, Inc., Lucasfilm Ltd. LLC, MVL Film Finance LLC, Marvel Characters Inc., The Cartoon Network, Inc., Turner Entertainment Co., Twentieth Century Fox Film Corporation, Universal City Studios Productions LLLP, Warner Bros. Entertainment Inc. for Court Smart (CS). Court will contact Christal May at CMay@jenner.com with further instructions regarding this order. Transcript preparation will not begin until payment has been satisfied with the transcription company. (Singer, David) (Entered: 03/19/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/70513159/53/disney-enterprises-inc-v-midjourney-inc/)
-
-### 📄 Doc #— — 2026-03-18
-
-Appear Pro Hac Vice
-
-### 📄 Doc #49 — 2026-03-13
-
-MINUTES OF INFORMAL DISCOVERY CONFERENCE AND ORDER SCHEDULING FURTHER INFORMAL DISCOVERY CONFERENCE held before Magistrate Judge A. Joel Richlin. The Court scheduled a further informal discovery conference by video for April 7, 2026 at 1:30 p.m. The Courtroom Deputy Clerk will circulate a link to the parties to join the hearing by Zoom. The parties are directed to provide a joint status update by email no later than April 3, 2026. SEE ORDER FOR DETAILS. Court Reporter: c/s 3/12/2026. Tape #: n/a. Court Recorder: c/s 3/12/2026. (vam) (Entered: 03/13/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/70513159/49/disney-enterprises-inc-v-midjourney-inc/)
-
-### 📄 Doc #50 — 2026-03-13
-
-MOTION RE: INFORMAL DISCOVERY DISPUTE - Video Conference set for hearing on 4/7/2026 at 1:30 PM before Magistrate Judge A. Joel Richlin. (vam) Modified on 4/9/2026 (asi). (Entered: 03/13/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/70513159/50/disney-enterprises-inc-v-midjourney-inc/)
-
-### 📄 Doc #48 — 2026-03-06
-
-MOTION RE: INFORMAL DISCOVERY DISPUTE - Video Conference set for hearing on 3/12/2026 at 1:30 PM before Magistrate Judge A. Joel Richlin (asi) (Entered: 03/09/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/70513159/48/disney-enterprises-inc-v-midjourney-inc/)
-
-### 📄 Doc #46 — 2026-02-12
-
-STIPULATED PROTECTIVE ORDER by Magistrate Judge A. Joel Richlin (SEE DOCUMENT FOR DETAILS) (sh) (Entered: 02/13/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/70513159/46/disney-enterprises-inc-v-midjourney-inc/)
-
-### 📄 Doc #47 — 2026-02-12
-
-ORDER RE: DISCOVERY OF ELECTRONICALLY STORED INFORMATION by Magistrate Judge A. Joel Richlin, re Stipulation for Order 45 (SEE DOCUMENT FOR DETAILS) (sh) (Entered: 02/13/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/70513159/47/disney-enterprises-inc-v-midjourney-inc/)
-
-### 📄 Doc #44 — 2026-02-11
-
-STIPULATION for Protective Order filed by Defendant Midjourney Inc..(Ghajar, Bobby) (Entered: 02/11/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/70513159/44/disney-enterprises-inc-v-midjourney-inc/)
-
-### 📄 Doc #45 — 2026-02-11
-
-STIPULATION for Order re: Discovery of Electronically Stored Information filed by Defendant Midjourney Inc..(Ghajar, Bobby) (Entered: 02/11/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/70513159/45/disney-enterprises-inc-v-midjourney-inc/)
-
-### 📄 Doc #43 — 2026-01-12
-
-SCHEDULING NOTICE TEXT ONLY ENTRY by Magistrate Judge A. Joel Richlin: The Court has reviewed the parties' Joint Status Update stating that the parties have resolved their current disputes related to discovery. (Dkt. 42 .) The parties also advise that they are aware of the Court's procedures for informal discovery conferences should they have a dispute in the future. Accordingly, at the request of the parties, the Court VACATES the informal discovery conference scheduled for January 12, 2026. IT IS SO ORDERED. THERE IS NO PDF DOCUMENT ASSOCIATED WITH THIS ENTRY. (cgm) TEXT ONLY ENTRY (Entered: 01/12/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/70513159/43/disney-enterprises-inc-v-midjourney-inc/)
-
-### 📄 Doc #— — 2026-01-12
-
-Text Only Scheduling Notice
-
-### 📄 Doc #42 — 2026-01-08
-
-STATUS REPORT / Joint Status Update re Informal Discovery Conference Pursuant to Order 40 filed by Consol Plaintiffs DC Comics, Hanna-Barbera Productions, Inc., The Cartoon Network, Inc., Turner Entertainment Co., Warner Bros. Entertainment Inc., Plaintiffs Disney Enterprises Inc., DreamWorks Animation L.L.C., Lucasfilm Ltd. LLC, MVL Film Finance LLC, Marvel Characters Inc., Twentieth Century Fox Film Corporation, Universal City Studios Productions LLLP. (Singer, David) (Entered: 01/08/2026)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/70513159/42/disney-enterprises-inc-v-midjourney-inc/)
-
-### 📄 Doc #41 — 2025-12-30
-
-MOTION RE: INFORMAL DISCOVERY DISPUTE - Video Conference set for hearing set for hearing on 1/12/2026 at 12:00 PM before Magistrate Judge A. Joel Richlin. (cgm) (Entered: 12/30/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/70513159/41/disney-enterprises-inc-v-midjourney-inc/)
-
-### 📄 Doc #40 — 2025-12-29
-
-(In Chambers): ORDER SCHEDULING INFORMAL DISCOVERY CONFERENCE by Magistrate Judge A. Joel Richlin. The Court schedules an informal discovery conference to be held by videoconference on Monday, January 12, 2026, at 12:00 p.m. The Court's Courtroom Deputy Clerk will email counsel the link to join the videoconference. [SEE ORDER FOR FURTHER DETAILS AND DEADLINES.] (san) (Entered: 12/29/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/70513159/40/disney-enterprises-inc-v-midjourney-inc/)
-
-### 📄 Doc #— — 2025-12-23
-
-Appear Pro Hac Vice
-
 <details>
-<summary>已過濾的 11 筆程序性 entries（點擊展開）</summary>
+<summary>已過濾的 6 筆程序性 entries（點擊展開）</summary>
 
+- **Doc #222** (2026-10-20): CORPORATE DISCLOSURE STATEMENT and Certificate of Interested Parties (Amended) filed by Consol Plaintiffs DC Comics, Hanna-Barbera Productions, Inc., The Cartoon Network, Inc., Turner Entertainment Co…
 - **Doc #164** (2026-08-14): NOTICE of Appearance filed by attorney Aastha Rajdeep Sharma on behalf of Defendant Midjourney Inc. (Attorney Aastha Rajdeep Sharma added to party Midjourney Inc.(pty:dft))(Sharma, Aastha) (Entered: 0…
 - **Doc #140** (2026-07-22): ORDER by Judge John A. Kronstadt GRANTING 138 Non-Resident Attorney Kayla E. Blaker's Application to Appear Pro Hac Vice on behalf of Midjourney, Inc., and designating Bobby A. Ghajar as local counsel…
 - **Doc #138** (2026-07-21): APPLICATION of Non-Resident Attorney Kayla E. Blaker to Appear Pro Hac Vice on behalf of Defendant Midjourney Inc. (Pro Hac Vice Fee - $450 Fee Paid, Receipt No. ACACDC-42844775) filed by Defendant Mi…
 - **Doc #73** (2026-05-22): Notice of Appearance or Withdrawal of Counsel: for attorney Andrew Gregory Sullivan counsel for Consol Plaintiffs DC Comics, Hanna-Barbera Productions, Inc., The Cartoon Network, Inc., Turner Entertai…
 - **Doc #72** (2026-05-22): Notice of Appearance or Withdrawal of Counsel: for attorney Andrew Jackson Thomas counsel for Consol Plaintiffs DC Comics, Hanna-Barbera Productions, Inc., The Cartoon Network, Inc., Turner Entertainm…
-- **Doc #52** (2026-03-18): ORDER by Judge John A. Kronstadt: granting 51 Non-Resident Attorney Gianni P. Servodidio APPLICATION to Appear Pro Hac Vice on behalf of Plaintiffs Disney Enterprises Inc., DreamWorks Animation L.L.C.…
-- **Doc #51** (2026-03-17): APPLICATION of Non-Resident Attorney Gianni P. Servodidio to Appear Pro Hac Vice on behalf of Plaintiffs Disney Enterprises Inc., DreamWorks Animation L.L.C., Lucasfilm Ltd. LLC, MVL Film Finance LLC,…
-- **Doc #39** (2025-12-23): ORDER by Judge John A. Kronstadt: granting 37 Non-Resident Attorney Zachary A. Marino APPLICATION to Appear Pro Hac Vice on behalf of Plaintiffs DC Comics, Hanna-Barbera Productions, Inc., The Cartoon…
-- **Doc #38** (2025-12-23): ORDER by Judge John A. Kronstadt: granting 36 Non-Resident Attorney Kara V. Brandeisky APPLICATION to Appear Pro Hac Vice on behalf of Plaintiffs MVL Film Finance LLC, Marvel Characters Inc., Twentiet…
-- **Doc #36** (2025-12-22): NOTICE OF MOTION AND MOTION of Non-Resident Attorney Kara V. Brandeisky to Appear Pro Hac Vice on behalf of Plaintiffs MVL Film Finance LLC, Marvel Characters Inc., Twentieth Century Fox Film Corporat…
-- **Doc #37** (2025-12-22): NOTICE OF MOTION AND MOTION of Non-Resident Attorney Zachary A. Marino to Appear Pro Hac Vice on behalf of Consol Plaintiffs DC Comics, Hanna-Barbera Productions, Inc., The Cartoon Network, Inc., Turn…
 
 </details>
 
 ---
 
-*產生時間：2026-10-01 01:45 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-11-01 01:45 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

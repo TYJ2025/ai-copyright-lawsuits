@@ -1,6 +1,6 @@
 # Case 44 — BMG Rights Management (US) LLC v. Anthropic PBC
 
-> 最後更新（CourtListener fetch）：2026-10-01 01:25 UTC
+> 最後更新（CourtListener fetch）：2026-11-01 01:25 UTC
 
 ---
 
@@ -12,9 +12,9 @@
 | Docket Number | `5:26-cv-02334` |
 | Court | District Court, N.D. California (`cand`) |
 | Judge Assigned | Eumi K. Lee |
-| Judge Referred | Susan Van Keulen |
+| Judge Referred | Susan van Keulen |
 | Date Filed | 2026-03-17 |
-| Date Last Filing | 2026-09-29 |
+| Date Last Filing | 2026-10-22 |
 | Cause | 17:101 Copyright Infringement |
 | Nature of Suit | 820 Copyright |
 | Jury Demand | Plaintiff |
@@ -34,29 +34,41 @@
 
 - ✅ Court 一致：dashboard 寫「N.D. Cal.」，CourtListener 為「N.D. California」
 - ⚠️ Judge 可能不一致：dashboard 寫「Alex G. Tse (Magistrate Judge)」，CourtListener 為「Eumi K. Lee」
-- ℹ️ Dashboard progress 略落後 19 天：dashboard 最新日期 2026-09-10，CourtListener 最後 entry 2026-09-29
+- ⚠️ Dashboard progress **落後 42 天**：dashboard 最新日期 2026-09-10，CourtListener 最後 entry 2026-10-22——建議查看新近 entries 並補充 progress
 
 ## 3. Docket Entries（最新優先，已過濾程序性 entries）
 
-**實質性 entries**：41 筆／**已過濾程序性 entries**：31 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+**實質性 entries**：43 筆／**已過濾程序性 entries**：34 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
 
-### 📄 Doc #60 — 2026-09-29
+### 📄 Doc #65 — 2026-10-22
 
-Order on Motion for Pro Hac Vice
+ADR Certification (ADR L.R. 3-5 b) of discussion of ADR options (Mehta, Sonal) (Filed on 10/22/2026) (Entered: 10/22/2026)
 
-[CourtListener 連結](https://www.courtlistener.com/docket/72505829/60/bmg-rights-management-us-llc-v-anthropic-pbc/)
+[CourtListener 連結](https://www.courtlistener.com/docket/72505829/65/bmg-rights-management-us-llc-v-anthropic-pbc/)
 
-### 📄 Doc #59 — 2026-09-29
+### 📄 Doc #64 — 2026-10-16
 
-Pro Hac Vice
+NOTICE by GFP Co-Invest, LP, RH Carlin Holdings LLC, Round Hill Music LP, Round Hill Music Royalty Fund II, LP, Round Hill Music Royalty Fund III Plus, LP, Round Hill Music Royalty Fund III, LP of Filing Objection to Joint Case Management Statement Filed in Related Cases (Attachments: # 1 Exhibit A)(Busch, Richard) (Filed on 10/16/2026) (Entered: 10/16/2026)
 
-[CourtListener 連結](https://www.courtlistener.com/docket/72505829/59/bmg-rights-management-us-llc-v-anthropic-pbc/)
+[CourtListener 連結](https://www.courtlistener.com/docket/72505829/64/bmg-rights-management-us-llc-v-anthropic-pbc/)
 
-### 📄 Doc #58 — 2026-09-29
+### 📄 Doc #63 — 2026-10-13
 
-Order on Motion for Pro Hac Vice
+MOTION to Dismiss (Partial Dismissal) filed by Anthropic PBC. Motion to Dismiss Hearing set for 2/24/2027 10:00 AM. Responses due by 11/12/2026. Replies due by 12/3/2026. (Attachments: # 1 Declaration of Robin Burrell in Support, # 2 Exhibit A, # 3 Proposed Order)(Mehta, Sonal) (Filed on 10/13/2026) (Entered: 10/13/2026)
 
-[CourtListener 連結](https://www.courtlistener.com/docket/72505829/58/bmg-rights-management-us-llc-v-anthropic-pbc/)
+[CourtListener 連結](https://www.courtlistener.com/docket/72505829/63/3/bmg-rights-management-us-llc-v-anthropic-pbc/)
+
+### 📄 Doc #62 — 2026-10-13
+
+ADR Certification (ADR L.R. 3-5 b) of discussion of ADR options on behalf of BMG Rights Management (US) LLC (Miller, Corey) (Filed on 10/13/2026) (Entered: 10/13/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72505829/62/bmg-rights-management-us-llc-v-anthropic-pbc/)
+
+### 📄 Doc #61 — 2026-09-30
+
+CASE MANAGEMENT STATEMENT filed by BMG Rights Management (US) LLC. (Miller, Corey) (Filed on 9/30/2026) (Entered: 09/30/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72505829/61/bmg-rights-management-us-llc-v-anthropic-pbc/)
 
 ### 📄 Doc #48 — 2026-09-21
 
@@ -68,7 +80,7 @@ ORDER Granting Stipulations Regarding Parties' Proposed Coordination and Case Ma
 
 STIPULATION WITH PROPOSED ORDER Regarding Parties' Proposed Coordination and Case Management Order filed by Anthropic PBC. (Attachments: # 1 Declaration of Robin C. Burrell in Support)(Mehta, Sonal) (Filed on 9/18/2026) (Entered: 09/18/2026)
 
-[CourtListener 連結](https://www.courtlistener.com/docket/72505829/47/bmg-rights-management-us-llc-v-anthropic-pbc/)
+[CourtListener 連結](https://www.courtlistener.com/docket/72505829/47/1/bmg-rights-management-us-llc-v-anthropic-pbc/)
 
 ### 📄 Doc #46 — 2026-09-11
 
@@ -261,8 +273,11 @@ Proposed Summons. (Jacobs, Robert) (Filed on 3/17/2026) (Entered: 03/17/2026)
 [CourtListener 連結](https://www.courtlistener.com/docket/72505829/2/bmg-rights-management-us-llc-v-anthropic-pbc/)
 
 <details>
-<summary>已過濾的 31 筆程序性 entries（點擊展開）</summary>
+<summary>已過濾的 34 筆程序性 entries（點擊展開）</summary>
 
+- **Doc #60** (2026-09-29): ORDER Granting 59 Motion for Pro Hac Vice as to attorney Michelle Gomez-Reichman. Signed by Judge Eumi K. Lee. (lrt, COURT STAFF) (Filed on 9/29/2026) (Entered: 09/29/2026)
+- **Doc #59** (2026-09-29): MOTION for leave to appear in Pro Hac Vice ( Filing fee $ 328, receipt number ACANDC-22525877.) filed by BMG Rights Management (US) LLC. (Gomez-Reichman, Michelle) (Filed on 9/29/2026) (Entered: 09/29…
+- **Doc #58** (2026-09-29): ORDER Granting 57 Motion for Pro Hac Vice as to attorney Corey Miller. Signed by Judge Eumi K. Lee. (lrt, COURT STAFF) (Filed on 9/29/2026) (Entered: 09/29/2026)
 - **Doc #57** (2026-09-28): MOTION for leave to appear in Pro Hac Vice ( Filing fee $ 328, receipt number ACANDC-22522740.) filed by BMG Rights Management (US) LLC. (Miller, Corey) (Filed on 9/28/2026) (Entered: 09/28/2026)
 - **Doc #55** (2026-09-28): ORDER Granting 53 Motion for Pro Hac Vice as to attorney Timothy S. Chung. Signed by Judge Eumi K. Lee. (lrt, COURT STAFF) (Filed on 9/28/2026) (Entered: 09/28/2026)
 - **Doc #56** (2026-09-28): ORDER Granting 54 Motion for Pro Hac Vice as to attorney Bret Matera. Signed by Judge Eumi K. Lee. (lrt, COURT STAFF) (Filed on 9/28/2026) (Entered: 09/28/2026)
@@ -299,4 +314,4 @@ Proposed Summons. (Jacobs, Robert) (Filed on 3/17/2026) (Entered: 03/17/2026)
 
 ---
 
-*產生時間：2026-10-01 01:25 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-11-01 01:25 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

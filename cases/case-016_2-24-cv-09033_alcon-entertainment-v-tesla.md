@@ -1,6 +1,6 @@
 # Case 16 — Alcon Entertainment, LLC v. Tesla, Inc.
 
-> 最後更新（CourtListener fetch）：2026-10-01 01:12 UTC
+> 最後更新（CourtListener fetch）：2026-11-01 01:13 UTC
 
 ---
 
@@ -14,7 +14,7 @@
 | Judge Assigned | George H Wu |
 | Judge Referred | Rozella A. Oliver |
 | Date Filed | 2024-10-21 |
-| Date Last Filing | 2026-09-30 |
+| Date Last Filing | 2026-10-30 |
 | Cause | 17:501 Copyright Infringement |
 | Nature of Suit | 820 Copyright |
 | Jury Demand | Plaintiff |
@@ -28,33 +28,219 @@
 > - Court=C.D. Cal.
 > - Judge=George H. Wu
 > - Status=active
-> - Progress=案件由 Wu 法官審理中，目前處於審理前程序階段。Tesla 尚未提出合理使用抗辯的具體論述。 【2026/9/19】Warner Bros. Discovery 就其部分與 Alcon 達成和解，具狀請求法院以有偏見駁回（with prejudice）並保留和解條款管轄權；對共同被告 Musk、Tesla 之 AI 生成影像侵權訴訟仍繼續進行
+> - Progress=案件由 Wu 法官審理中，目前處於審理前程序階段。Tesla 尚未提出合理使用抗辯的具體論述。 【2026/9/19】Warner Bros. Discovery 就其部分與 Alcon 達成和解，具狀請求法院以有偏見駁回（with prejudice）並保留和解條款管轄權；對共同被告 Musk、Tesla 之 AI 生成影像侵權訴訟仍繼續進行 【2026/10/29】雙方就是否應傳喚被告 Elon Musk 就其疑似使用近似《銀翼殺手 2049》圖像一事進行證詞開示提交狀況報告，爭點尚未解決
 
 **自動比對結果：**
 
 - ✅ Court 一致：dashboard 寫「C.D. Cal.」，CourtListener 為「C.D. California」
 - ✅ Judge 一致：dashboard 寫「George H. Wu」，CourtListener 為「George H Wu」
-- ℹ️ Dashboard progress 略落後 11 天：dashboard 最新日期 2026-09-19，CourtListener 最後 entry 2026-09-30
+- ℹ️ Dashboard progress 略落後 1 天：dashboard 最新日期 2026-10-29，CourtListener 最後 entry 2026-10-30
 
 ## 3. Docket Entries（最新優先，已過濾程序性 entries）
 
-**實質性 entries**：161 筆／**已過濾程序性 entries**：39 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+**實質性 entries**：162 筆／**已過濾程序性 entries**：38 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+
+### 📄 Doc #— — 2026-10-30
+
+Order
+
+### 📄 Doc #245 — 2026-10-30
+
+Appear Pro Hac Vice (G-64)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/69280385/245/alcon-entertainment-llc-v-tesla-inc/)
+
+### 📄 Doc #244 — 2026-10-30
+
+Appear Pro Hac Vice (G-64)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/69280385/244/alcon-entertainment-llc-v-tesla-inc/)
+
+### 📄 Doc #242 — 2026-10-28
+
+STATUS REPORT JOINTLY SUBMITTED BY PLAINTIFF AND DEFENDANTS ELON MUSK AND TESLA, INC. Per October 21, 2026 Order filed by Plaintiff Alcon Entertainment, LLC. (Attachments: # 1 Exhibit A)(Anderson, Edward) (Entered: 10/28/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/69280385/242/1/alcon-entertainment-llc-v-tesla-inc/)
+
+### 📄 Doc #238 — 2026-10-26
+
+SEALED DOCUMENT re Order on Motion for Leave to File Document Under Seal 233 filed by Defendants Elon Musk, Tesla, Inc.. (Attachments: # 1 Declaration of Arwen Johnosn ISO Letter Brief UNDER SESL Court Order, # 2 Exhibit B to Johnson Declaration UNDER SEAL Court Order, # 3 Exhibit C to Johnson Declaration UNDER SEAL Court Order, # 4 Exhibit D to Johnson Declaration UNDER SEAL Court Order, # 5 Exhibit E to Johnson Declaration UNDER SEAL Court Order, # 6 Exhibit F to Johnson Declaration UNDER SEAL Court Order, # 7 Exhibit G to Johnson Declaration UNDER SEAL Court Order, # 8 Exhibit H to Johnson Declaration UNDER SEAL Court Order, # 9 Exhibit I to Johnson Declaration UNDER SEAL Court Order, # 10 Exhibit M to Johnson Declaration UNDER SEAL Court Order, # 11 Exhibit N to Johnson Declaration UNDER SEAL Court Order)(Johnson, Arwen) (Entered: 10/26/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/69280385/238/alcon-entertainment-llc-v-tesla-inc/)
+
+### 📄 Doc #236 — 2026-10-23
+
+SEALED DOCUMENT EXHIBITS 6-16 AND 18-19 re Brief (non-motion non-appeal),, 222, Order on Motion for Leave to File Document Under Seal, 234 filed by Plaintiff Alcon Entertainment, LLC. (Attachments: # 1 Exhibit 6 SEALED, # 2 Exhibit 7 SEALED, # 3 Exhibit 8 SEALED, # 4 Exhibit 9 SEALED, # 5 Exhibit 10 SEALED, # 6 Exhibit 11 UNREDACTED SEALED, # 7 Exhibit 12 UNREDACTED SEALED, # 8 Exhibit 13 UNREDACTED SEALED, # 9 Exhibit 14 SEALED, # 10 Exhibit 15 SEALED, # 11 Exhibit 16 SEALED, # 12 Exhibit 18 SEALED, # 13 Exhibit 19 SEALED)(Anderson, Edward) (Entered: 10/23/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/69280385/236/alcon-entertainment-llc-v-tesla-inc/)
+
+### 📄 Doc #235 — 2026-10-22
+
+ORDER GRANTING JOINT STIPULATION AND REQUEST FOR EXTENSION OF EXPERT DISCOVERY CUTOFF 227 by Judge George H Wu. The Stipulation is GRANTED. The Court ORDERS as follows: 1. The expert-discovery cutoff set in Dkt. 164 shall be extended from November 13, 2026, to November 19, 2026. (aco) (Entered: 10/22/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/69280385/235/alcon-entertainment-llc-v-tesla-inc/)
+
+### 📄 Doc #234 — 2026-10-22
+
+ORDER GRANTING PLAINTIFF ALCON ENTERTAINMENT, LLC'S APPLICATION FOR LEAVE TO FILE UNDER SEAL EXHIBITS 6-10, 14-16, 18-19 AND PORTIONS OF EXHIBITS 11-13 TO PLAINTIFF'S LETTER BRIEF RE RENEWED REQUEST FOR ORDERED DEPOSITIONS OF FRANZ VON HOLZHAUSEN AND ELON MUSK by Magistrate Judge Rozella A. Oliver: granting 223 APPLICATION to Seal Document (mrv) (Entered: 10/22/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/69280385/234/alcon-entertainment-llc-v-tesla-inc/)
+
+### 📄 Doc #233 — 2026-10-22
+
+ORDER GRANTING DEFENDANT TESLA, INC.'S AND ELON MUSK'S APPLICATION TO FILE UNDER SEAL by Magistrate Judge Rozella A. Oliver: granting 218 APPLICATION to Seal Document. (SEE DOCUMENT FOR DETAILS). (mrv) (Entered: 10/22/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/69280385/233/alcon-entertainment-llc-v-tesla-inc/)
+
+### 📄 Doc #232 — 2026-10-21
+
+(In Chambers) Order by Magistrate Judge Rozella A. Oliver. The Court has reviewed the October 15 Further Joint Status Report 217 . Tesla may disclose the settlement agreement to the one additional expert Tesla identified to the non-parties on October 12, 2026, so long as Peugeot does not have any conflicts with that expert, and under the conditions set forth in the Court's October 13, 2026 order. The Court considers the request for special hearing 210 filed on October 1, 2026 to be resolved at this time. (TEXT ONLY ENTRY) (RAO) (Entered: 10/21/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/69280385/232/alcon-entertainment-llc-v-tesla-inc/)
+
+### 📄 Doc #231 — 2026-10-21
+
+(In Chambers) Order by Magistrate Judge Rozella A. Oliver. The Court has reviewed the briefing on Alcon's request for apex depositions of Elon Musk and Franz von Holzhausen. In light of Alcon's statement that the parties have expressed mutual willingness to continue to meet and confer, the Court provides a tentative ruling on the dispute and directs the parties to meet and confer in an effort to reach a compromise without a further written order. The Court is inclined to grant Alcon's request for a short deposition of von Holzhausen and to deny Alcon's request for a deposition of Musk. Additionally, Tesla should strongly consider correcting the deficiencies of its interrogatory responses as set forth by Alcon, particularly with respect to missing verifications. Although the applicable discovery cut-off may have passed, the Court believes such corrections may be made under Tesla's duty to supplement under Federal Rule of Civil Procedure 26(e). And if there is any additional information  …(truncated)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/69280385/231/alcon-entertainment-llc-v-tesla-inc/)
+
+### 📄 Doc #— — 2026-10-21
+
+Special Hearing
+
+### 📄 Doc #230 — 2026-10-21
+
+(IN CHAMBERS) ORDER TAKING MATTER OFF CALENDAR AND UNDER SUBMISSION by Magistrate Judge Rozella A. Oliver. On its own motion, the Court takes Plaintiff's Renewed Application for Musk and Von Holzhausen Depositions 222 224 set for hearing on Wednesday, October 28, 2026, off calendar and under submission. (TEXT ONLY ENTRY. There is no PDF associated with this entry.) (RAO) (Entered: 10/21/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/69280385/230/alcon-entertainment-llc-v-tesla-inc/)
+
+### 📄 Doc #— — 2026-10-21
+
+Order
+
+### 📄 Doc #227 — 2026-10-20
+
+Joint STIPULATION to Extend Discovery Cut-Off Date to November 19, 2026 filed by Defendants Elon Musk, Tesla, Inc.. (Attachments: # 1 Declaration of Arwen Johnson ISO Joint Stipulation, # 2 Proposed Order)(Johnson, Arwen) (Entered: 10/20/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/69280385/227/2/alcon-entertainment-llc-v-tesla-inc/)
+
+### 📄 Doc #229 — 2026-10-20
+
+SUPPLEMENTAL BRIEF filed by Plaintiff Alcon Entertainment, LLC. re Renewed Request for Ordered Depositions of Elon Musk and Franz von Holzhausen regarding Order on Motion for Order re Discovery Matter, 211 . (Anderson, Edward) (Entered: 10/20/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/69280385/229/alcon-entertainment-llc-v-tesla-inc/)
+
+### 📄 Doc #228 — 2026-10-20
+
+Reply to Plaintiffs Letter Brief Regarding Request for Apex Depositions BRIEF filed by Defendants Elon Musk, Tesla, Inc.. (Johnson, Arwen) (Entered: 10/20/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/69280385/228/alcon-entertainment-llc-v-tesla-inc/)
+
+### 📄 Doc #226 — 2026-10-19
+
+DECLARATION of Terry Ahearn In Support of Plaintiff's Application to Seal re APPLICATION to file document Exhibits 6-16 and 18-19 to Letter Brief re Renewed Motion for Orders re Musk and Von Holzhausen Depositions under seal 223 filed by Defendants Elon Musk, Tesla, Inc.. (Johnson, Arwen) (Entered: 10/19/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/69280385/226/alcon-entertainment-llc-v-tesla-inc/)
+
+### 📄 Doc #220 — 2026-10-15
+
+Letter Brief re Apex Depositions filed by Defendants Elon Musk, Tesla, Inc. re: Sealed Declaration in SupportDeclaration,,, 219 (Attachments: # 1 Declaration of Arwen Johnson ISO Letter Brief - Redacted, # 2 Exhibit A to Johnson Declaration, # 3 Exhibit B to Johnson Declaration SLIPSHEET UNDERSEAL, # 4 Exhibit C to Johnson Declaration SLIPSHEET UNDERSEAL, # 5 Exhibit D to Johnson Declaration SLIPSHEET UNDERSEAL, # 6 Exhibit E to Johnson Declaration SLIPSHEET UNDERSEAL, # 7 Exhibit F to Johnson Declaration SLIPSHEET UNDERSEAL, # 8 Exhibit G to Johnson Declaration SLIPSHEET UNDERSEAL, # 9 Exhibit H to Johnson Declaration SLIPSHEET UNDERSEAL, # 10 Exhibit I to Johnson Declaration SLIPSHEET UNDERSEAL, # 11 Exhibit J to Johnson Declaration, # 12 Exhibit K to Johnson Declaration, # 13 Exhibit L to Johnson Declaration, # 14 Exhibit M to Johnson Declaration SLIPSHEET UNDERSEAL, # 15 Exhibit N to Johnson Declaration REDACTED)(Johnson, Arwen) (Entered: 10/15/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/69280385/220/15/alcon-entertainment-llc-v-tesla-inc/)
+
+### 📄 Doc #218 — 2026-10-15
+
+APPLICATION to file document under seal filed by Defendants Elon Musk, Tesla, Inc.. (Attachments: # 1 Proposed Order)(Johnson, Arwen) (Entered: 10/15/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/69280385/218/1/alcon-entertainment-llc-v-tesla-inc/)
+
+### 📄 Doc #222 — 2026-10-15
+
+BRIEF filed by Plaintiff Alcon Entertainment, LLC. re Musk and Von Holzhausen Depositions regarding Order on Motion for Order re Discovery Matter, 211 . (Attachments: # 1 Exhibit 1, # 2 Exhibit 2, # 3 Exhibit 3, # 4 Exhibit 4, # 5 Exhibit 5, # 6 Exhibit 6, # 7 Exhibit 7, # 8 Exhibit 8, # 9 Exhibit 9, # 10 Exhibit 10, # 11 Exhibit 11, # 12 Exhibit 12, # 13 Exhibit 13, # 14 Exhibit 14, # 15 Exhibit 15, # 16 Exhibit 16, # 17 Exhibit 17, # 18 Exhibit 18, # 19 Exhibit 19, # 20 Exhibit 20, # 21 Exhibit 21, # 22 Exhibit 22, # 23 Exhibit 23)(Anderson, Edward) (Entered: 10/15/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/69280385/222/alcon-entertainment-llc-v-tesla-inc/)
+
+### 📄 Doc #223 — 2026-10-15
+
+APPLICATION to file document Exhibits 6-16 and 18-19 to Letter Brief re Renewed Motion for Orders re Musk and Von Holzhausen Depositions under seal filed by Plaintiff Alcon Entertainment, LLC. (Attachments: # 1 Exhibit 11 REDACTED, # 2 Exhibit 12 REDACTED, # 3 Exhibit 13 REDACTED, # 4 Proposed Order Proposed Order)(Anderson, Edward) (Entered: 10/15/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/69280385/223/alcon-entertainment-llc-v-tesla-inc/)
+
+### 📄 Doc #224 — 2026-10-15
+
+SEALED DECLARATION IN SUPPORT OF APPLICATION to file document Exhibits 6-16 and 18-19 to Letter Brief re Renewed Motion for Orders re Musk and Von Holzhausen Depositions under seal 223 filed by Plaintiff Alcon Entertainment, LLC. (Attachments: # 1 Exhibit 6 SEALED VERSION, # 2 Exhibit 7 SEALED VERSION, # 3 Exhibit 8 SEALED VERSION, # 4 Exhibit 9 SEALED VERSION, # 5 Exhibit 10 SEALED VERSION, # 6 Exhibit 11 UNREDACTED VERSION, # 7 Exhibit 12 UNREDACTED VERSION, # 8 Exhibit 13 UNREDACTED VERSION, # 9 Exhibit 14 SEALED VERSION, # 10 Exhibit 15 SEALED VERSION, # 11 Exhibit 16 SEALED VERSION, # 12 Exhibit 18 SEALED VERSION, # 13 Exhibit 19 SEALED VERSION)(Anderson, Edward) (Entered: 10/15/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/69280385/224/alcon-entertainment-llc-v-tesla-inc/)
+
+### 📄 Doc #219 — 2026-10-15
+
+SEALED DECLARATION IN SUPPORT OF APPLICATION to file document under seal 218 filed by Defendants Elon Musk, Tesla, Inc.. (Attachments: # 1 Defendant Tesla Letter Brief UNDER SEAL, # 2 Declaration of Arwen Johnson ISO Letter Brief UNDER SEAL, # 3 Exhibit B to Johnson Declaration UNDER SEAL, # 4 Exhibit C to Johnson Declaration UNDER SEAL, # 5 Exhibit D to Johnson Declaration UNDER SEAL, # 6 Exhibit E to Johnson Declaration UNDER SEAL, # 7 Exhibit F to Johnson Declaration UNDER SEAL, # 8 Exhibit G to Johnson Declaration UNDER SEAL, # 9 Exhibit H to Johnson Declaration UNDER SEAL, # 10 Exhibit I to Johnson Declaration UNDER SEAL, # 11 Exhibit M to Johnson Declaration UNDER SEAL, # 12 Exhibit N to Johnson Declaration UNDER SEAL)(Johnson, Arwen) (Entered: 10/15/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/69280385/219/alcon-entertainment-llc-v-tesla-inc/)
+
+### 📄 Doc #217 — 2026-10-15
+
+STATUS REPORT PURSUANT TO OCTOBER 13, 2026 ORDER [Dkt 216] filed by Defendants Elon Musk, Tesla, Inc.. (Johnson, Arwen) (Entered: 10/15/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/69280385/217/alcon-entertainment-llc-v-tesla-inc/)
+
+### 📄 Doc #216 — 2026-10-13
+
+ORDER by Magistrate Judge Rozella A. Oliver: Language for Disclosure of Settlement Agreement to Expert. See document for details. (RAO) (Entered: 10/13/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/69280385/216/alcon-entertainment-llc-v-tesla-inc/)
+
+### 📄 Doc #215 — 2026-10-09
+
+STATUS REPORT Joint Status Report from the Non-Parties, Defendant Tesla, and Plaintiff Alcon Pursuant to the Courts October 5, 2026 Minute Order [ECF 214] filed by Defendants Elon Musk, Tesla, Inc.. (Raygor, Kent) (Entered: 10/09/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/69280385/215/alcon-entertainment-llc-v-tesla-inc/)
+
+### 📄 Doc #214 — 2026-10-06
+
+MINUTES OF Discovery Hearing held before Magistrate Judge Rozella A. Oliver: The Court and counsel discussed Tesla's request to disclose to Tesla's expert a settlement agreement between Alcon and the non-parties. The parties and non-parties agreed to an interim compromise that would allow Tesla's outside counsel to disclose the settlement agreement to Tesla's expert, and the parties would engage in further meet and confer and/or briefing if the expert would like to use the settlement agreement in the expert's analysis and report. As stated on the record, the parties and non-parties shall file a joint status report by October 9,2026, with their proposed language. See document for details. Tape #: CS 10/6/2026. Court Recorder: CourtSmart. (RAO) (Entered: 10/06/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/69280385/214/alcon-entertainment-llc-v-tesla-inc/)
+
+### 📄 Doc #213 — 2026-10-05
+
+MOTION RE: INFORMAL DISCOVERY DISPUTE. Hearing required. Hearing set for 10/06/2026 at 10:00 a.m. via Zoom. Court Clerk to send out link via email. The Court will address ECF no. 210 - REQUEST for Special Hearing re Reply 206 filed by Non Parties AUTOMOBILES PEUGEOT S.A. (FRANCE), PUBLICIS MEDIA FRANCE, S.A. (cio) (Entered: 10/05/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/69280385/213/alcon-entertainment-llc-v-tesla-inc/)
+
+### 📄 Doc #211 — 2026-10-02
+
+ORDER GRANTING JOINT STIPULATION AND REQUEST FOR EXTENSION OF DEADLINES SET IN DKT. 205 by Magistrate Judge Rozella A. Oliver. [SEE ORDER FOR DETAILS.] (san) (Entered: 10/02/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/69280385/211/alcon-entertainment-llc-v-tesla-inc/)
+
+### 📄 Doc #210 — 2026-10-01
+
+REQUEST for Special Hearing re Reply 206 filed by Non-Parties AUTOMOBILES PEUGEOT S.A. (FRANCE), PUBLICIS MEDIA FRANCE, S.A.. (Raygor, Kent) (Entered: 10/01/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/69280385/210/alcon-entertainment-llc-v-tesla-inc/)
 
 ### 📄 Doc #208 — 2026-09-30
 
-Amend/Correct
+Joint STIPULATION to Request for Extension of Deadlines MOTION for Order 205 filed by Defendants Elon Musk, Tesla, Inc.. (Attachments: # 1 Declaration of Terry Ahearn ISO Joint Stipulation, # 2 Proposed Order)(Johnson, Arwen) Modified on 10/2/2026 (cio). (Entered: 09/30/2026)
 
-[CourtListener 連結](https://www.courtlistener.com/docket/69280385/208/alcon-entertainment-llc-v-tesla-inc/)
+[CourtListener 連結](https://www.courtlistener.com/docket/69280385/208/2/alcon-entertainment-llc-v-tesla-inc/)
+
+### 📄 Doc #209 — 2026-09-30
+
+ORDER GRANTING JOINT STIPULATION AND REQUEST FOR LIMITED MODIFICATION OF FACT DISCOVERY CUTOFF DATES 207 by Judge George H Wu. The Stipulation is GRANTED. The Court ORDERS as follows: 1. The October 2, 2026 fact-discovery cutoff set in Dkt. 164, shall be extended from October 2, 2026, to October 9, 2026 solely as to Defendant Elon Musk's deadline to serve supplemental responses to Plaintiff's Requests for Admission Nos. 20, 21, and 3538, and Interrogatory Nos. 10-13, and 17. (See document for further details). (aco) Modified on 10/2/2026 (aco). (Entered: 10/01/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/69280385/209/alcon-entertainment-llc-v-tesla-inc/)
 
 ### 📄 Doc #207 — 2026-09-30
 
-Proposed Order
+Joint STIPULATION to Modify filed by Defendants Elon Musk, Tesla, Inc.. (Attachments: # 1 Declaration of Terry Ahearn ISO Joint Stipulation, # 2 Proposed Order)(Johnson, Arwen) (Entered: 09/30/2026)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/69280385/207/2/alcon-entertainment-llc-v-tesla-inc/)
 
 ### 📄 Doc #206 — 2026-09-29
 
-Reply
+REPLY filed by Defendants Elon Musk, Tesla, Inc. to Brief (non-motion non-appeal) 193 (Johnson, Arwen) (Entered: 09/29/2026)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/69280385/206/alcon-entertainment-llc-v-tesla-inc/)
 
@@ -800,187 +986,17 @@ TEXT-ONLY ENTRY - IN CHAMBERS: by Senior District Judge George H. Wu: The partie
 
 Text Only Scheduling Notice
 
-### 📄 Doc #— — 2025-04-01
-
-Appear Pro Hac Vice
-
-### 📄 Doc #56 — 2025-03-24
-
-REPLY IN SUPPORT OF NOTICE OF MOTION AND MOTION to Dismiss Case 48 filed by Defendants Elon Musk, Tesla, Inc.. (McCallion, Kristen) (Entered: 03/24/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/69280385/56/alcon-entertainment-llc-v-tesla-inc/)
-
-### 📄 Doc #57 — 2025-03-24
-
-REPLY IN SUPPORT OF NOTICE OF MOTION AND MOTION to Dismiss Case 49 filed by Defendant Warner Bros Discovery Inc. (McCallion, Kristen) (Entered: 03/24/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/69280385/57/alcon-entertainment-llc-v-tesla-inc/)
-
-### 📄 Doc #54 — 2025-03-17
-
-MEMORANDUM in Opposition to NOTICE OF MOTION AND MOTION to Dismiss Case 49 filed by Plaintiff Alcon Entertainment, LLC. (Anderson, Edward) (Entered: 03/17/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/69280385/54/alcon-entertainment-llc-v-tesla-inc/)
-
-### 📄 Doc #55 — 2025-03-17
-
-OBJECTION in opposition re: NOTICE OF MOTION AND MOTION to Dismiss Case 49 filed by Plaintiff Alcon Entertainment, LLC. (Anderson, Edward) (Entered: 03/17/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/69280385/55/alcon-entertainment-llc-v-tesla-inc/)
-
-### 📄 Doc #52 — 2025-03-17
-
-MEMORANDUM in Opposition to NOTICE OF MOTION AND MOTION to Dismiss Case 48 filed by Plaintiff Alcon Entertainment, LLC. (Anderson, Edward) (Entered: 03/17/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/69280385/52/alcon-entertainment-llc-v-tesla-inc/)
-
-### 📄 Doc #53 — 2025-03-17
-
-OBJECTION in opposition re: NOTICE OF MOTION AND MOTION to Dismiss Case 48 filed by Plaintiff Alcon Entertainment, LLC. (Anderson, Edward) (Entered: 03/17/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/69280385/53/alcon-entertainment-llc-v-tesla-inc/)
-
-### 📄 Doc #49 — 2025-03-06
-
-NOTICE OF MOTION AND MOTION to Dismiss Case filed by Defendant Warner Bros Discovery Inc. Motion set for hearing on 4/7/2025 at 08:30 AM before Judge George H Wu. (Attachments: # 1 Memorandum ISO Motion to Dismiss First Amended Complaint, # 2 Proposed Order Granting Motion to Dismiss First Amended Complaint) (McCallion, Kristen) (Entered: 03/06/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/69280385/49/2/alcon-entertainment-llc-v-tesla-inc/)
-
-### 📄 Doc #48 — 2025-03-06
-
-NOTICE OF MOTION AND MOTION to Dismiss Case filed by Defendants Tesla, Inc., Elon Musk. Motion set for hearing on 4/7/2025 at 08:30 AM before Judge George H Wu. (Attachments: # 1 Memorandum of Points and Authorities, # 2 Proposed Order) (McCallion, Kristen) (Entered: 03/06/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/69280385/48/2/alcon-entertainment-llc-v-tesla-inc/)
-
-### 📄 Doc #50 — 2025-03-06
-
-DECLARATION of Kristen McCallion In Support of NOTICE OF MOTION AND MOTION to Dismiss Case 49, NOTICE OF MOTION AND MOTION to Dismiss Case 48 filed by Defendants Tesla, Inc., Elon Musk, Warner Bros Discovery Inc. (Attachments: # 1 Exhibit 3 to Omnibus Declaration of McCallion, # 2 Exhibit 4 to Omnibus Declaration of McCallion)(McCallion, Kristen) (Entered: 03/06/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/69280385/50/2/alcon-entertainment-llc-v-tesla-inc/)
-
-### 📄 Doc #51 — 2025-03-06
-
-NOTICE OF LODGING filed re Declaration (Motion related), 50 (McCallion, Kristen) (Entered: 03/06/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/69280385/51/alcon-entertainment-llc-v-tesla-inc/)
-
-### 📄 Doc #— — 2025-03-03
-
-Appear Pro Hac Vice
-
-### 📄 Doc #43 — 2025-02-24
-
-ORDER GRANTING JOINT STIPULATION TO EXTEND TIME FOR DEFENDANTS TO RESPOND TO PLAINTIFF'S FIRST AMENDED COMPLAINT by Judge George H Wu. It is hereby ORDERED as follows: 1. The Stipulation is GRANTED. 2. Defendants' deadline to respond to Plaintiff's First Amended Complaint (Dkt. No. 37) is extended from February 27, 2025 to March 6, 2025. RE: Stipulation Extending Time to Answer, 42 . (aco) (Entered: 02/24/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/69280385/43/alcon-entertainment-llc-v-tesla-inc/)
-
-### 📄 Doc #42 — 2025-02-20
-
-Joint STIPULATION Extending Time to Answer the complaint as to All Defendants, re Amended Complaint/Petition 37 filed by Defendants Warner Bros Discovery Inc, Elon Musk, Tesla, Inc.. (Attachments: # 1 Proposed Order Granting Joint Stipulation to Extend Time for Defendants to Respond to First Amended Complain)(McCallion, Kristen) (Entered: 02/20/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/69280385/42/1/alcon-entertainment-llc-v-tesla-inc/)
-
-### 📄 Doc #40 — 2025-02-14
-
-MINUTES IN CHAMBERS - ORDER by Judge George H Wu. On February 13, 2025, Plaintiff Alcon Entertainment, LLC filed a First Amended Complaint. In light of that filing, the Operative Complaint is no longer the original complaint. As such, the Court VACATES Defendants Tesla, Inc. and Elon Musk's Motion to Dismiss 22, and Defendant Warner Bros. Discovery, Inc.'s Motion to Dismiss 23, both filed on February 4, 2025, and set for hearing on March 6, 2025. (aco) (Entered: 02/14/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/69280385/40/alcon-entertainment-llc-v-tesla-inc/)
-
-### 📄 Doc #— — 2025-02-14
-
-Appear Pro Hac Vice
-
-### 📄 Doc #37 — 2025-02-13
-
-FIRST AMENDED COMPLAINT against Defendants All Defendants amending Complaint (Attorney Civil Case Opening), 1, filed by Plaintiff Alcon Entertainment, LLC (Attachments: # 1 Exhibit A, # 2 Exhibit B, # 3 Exhibit C)(Anderson, Edward) (Entered: 02/13/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/69280385/37/3/alcon-entertainment-llc-v-tesla-inc/)
-
-### 📄 Doc #39 — 2025-02-13
-
-MEMORANDUM in Opposition to NOTICE OF MOTION AND MOTION to Dismiss Plaintiffs second claim for relief of vicarious copyright infringement and fourth claim for relief of false endorsement in violation of 15 U.S.C. § 1125(a)(1)(A) from the Complaint 23 filed by Plaintiff Alcon Entertainment, LLC. (Anderson, Edward) (Entered: 02/13/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/69280385/39/alcon-entertainment-llc-v-tesla-inc/)
-
-### 📄 Doc #38 — 2025-02-13
-
-MEMORANDUM in Opposition to NOTICE OF MOTION AND MOTION to Dismiss Case 22 filed by Plaintiff Alcon Entertainment, LLC. (Anderson, Edward) (Entered: 02/13/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/69280385/38/alcon-entertainment-llc-v-tesla-inc/)
-
-### 📄 Doc #35 — 2025-02-12
-
-SEALED DOCUMENT Defendants' Sealed Exhibit 1 of the Jennings Declaration Filed with Defendants' Motions to Dismiss re NOTICE OF MOTION AND MOTION to Dismiss Plaintiffs second claim for relief of vicarious copyright infringement and fourth claim for relief of false endorsement in violation of 15 U.S.C. § 1125(a)(1)(A) from the Complaint 23, Order on Motion for Leave to File Document Under Seal,,, 34 filed by Defendants Tesla, Inc., Elon Musk, Warner Bros Discovery Inc. (Attachments: # 1 Exhibit 1)(Marchese, Christopher) (Entered: 02/12/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/69280385/35/alcon-entertainment-llc-v-tesla-inc/)
-
-### 📄 Doc #34 — 2025-02-10
-
-ORDER GRANTING DEFENDANTS TESLA, INC., ELON MUSK, AND WARNER BROS. DISCOVERY, INC.'S UNOPPOSED APPLICATION TO FILE UNDER SEAL CERTAIN PORTIONS OF ONE EXHIBIT IN SUPPORT OF MOTIONS TO DISMISS PURSUANT TO L.R. 79- 5.2.2(a)-(b) by Judge George H Wu. Having considered Defendants Tesla, Inc., Elon Musk and Warner Bros. Discovery, Inc.'s (collectively, "Defendants") Unopposed Application for Leave to File Under Seal, Pursuant to L.R. 79-5.2.2(a)-(b), Certain Portions of One Exhibit Filed with Defendants' Motions to Dismiss, this Court GRANTS the Application. IT IS HEREBY ORDERED that specific redacted portions in the contract contained in Exhibit 1 of the Jennings Declaration, which was filed with Defendants' Motions to Dismiss, can be filed under seal.; granting 32 APPLICATION to file document Certain Portions of One Exhibit Filed with Defendants' Motions to Dismiss under seal. (aco) (Entered: 02/12/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/69280385/34/alcon-entertainment-llc-v-tesla-inc/)
-
-### 📄 Doc #32 — 2025-02-07
-
-APPLICATION to file document Certain Portions of One Exhibit Filed with Defendants' Motions to Dismiss under seal filed by Defendants Tesla, Inc., Elon Musk, Warner Bros Discovery Inc. (Attachments: # 1 Exhibit 1 - Redacted, # 2 Proposed Order)(Marchese, Christopher) (Entered: 02/07/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/69280385/32/2/alcon-entertainment-llc-v-tesla-inc/)
-
-### 📄 Doc #33 — 2025-02-07
-
-SEALED DECLARATION IN SUPPORT OF APPLICATION to file document Certain Portions of One Exhibit Filed with Defendants' Motions to Dismiss under seal 32 filed by Defendants Tesla, Inc., Elon Musk, Warner Bros Discovery Inc. (Attachments: # 1 Exhibit 1 - Unredacted, # 2 Proof of Service)(Marchese, Christopher) (Entered: 02/07/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/69280385/33/alcon-entertainment-llc-v-tesla-inc/)
-
-### 📄 Doc #— — 2025-02-07
-
-Appear Pro Hac Vice
-
-### 📄 Doc #29 — 2025-02-05
-
-NOTICE of Interested Parties filed by Defendant Warner Bros Discovery Inc, (Marchese, Christopher) (Entered: 02/05/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/69280385/29/alcon-entertainment-llc-v-tesla-inc/)
-
-### 📄 Doc #28 — 2025-02-05
-
-NOTICE of Interested Parties filed by Defendant Tesla, Inc., (Marchese, Christopher) (Entered: 02/05/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/69280385/28/alcon-entertainment-llc-v-tesla-inc/)
-
-### 📄 Doc #26 — 2025-02-05
-
-NOTICE TO FILER OF DEFICIENCIES in Electronic Filed Document RE: NOTICE OF MOTION AND MOTION to Dismiss Case 22 . The following error(s) was/were found: Local Rule 7-1.1 no notice of interested parties. In response to this notice, the Court may: (1) order an amended or correct document to be filed; (2) order the document stricken; or (3) take other action as the Court deems appropriate. You need not take any action in response to this notice unless and until the Court directs you to do so. (aco) (Entered: 02/05/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/69280385/26/alcon-entertainment-llc-v-tesla-inc/)
-
-### 📄 Doc #27 — 2025-02-05
-
-NOTICE TO FILER OF DEFICIENCIES in Electronic Filed Document RE: NOTICE OF MOTION AND MOTION to Dismiss Plaintiffs second claim for relief of vicarious copyright infringement and fourth claim for relief of false endorsement in violation of 15 U.S.C. 1125(a)(1)(A) from the Complaint 23 . The following error(s) was/were found: Local Rule 7-1.1 no notice of interested parties. In response to this notice, the Court may: (1) order an amended or correct document to be filed; (2) order the document stricken; or (3) take other action as the Court deems appropriate. You need not take any action in response to this notice unless and until the Court directs you to do so. (aco) (Entered: 02/05/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/69280385/27/alcon-entertainment-llc-v-tesla-inc/)
-
-### 📄 Doc #22 — 2025-02-04
-
-NOTICE OF MOTION AND MOTION to Dismiss Case filed by Defendants Tesla, Inc., Elon Musk. Motion set for hearing on 3/6/2025 at 08:30 AM before Judge George H Wu. (Attachments: # 1 Memorandum of Points and Authorities, # 2 Proposed Order) (Marchese, Christopher) (Entered: 02/04/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/69280385/22/2/alcon-entertainment-llc-v-tesla-inc/)
-
-### 📄 Doc #24 — 2025-02-04
-
-DECLARATION of Christopher S. Marchese in support of NOTICE OF MOTION AND MOTION to Dismiss Plaintiffs second claim for relief of vicarious copyright infringement and fourth claim for relief of false endorsement in violation of 15 U.S.C. § 1125(a)(1)(A) from the Complaint 23, NOTICE OF MOTION AND MOTION to Dismiss Case 22 filed by Defendants Tesla, Inc., Elon Musk, Warner Bros Discovery Inc. (Attachments: # 1 Exhibit 1, # 2 Exhibit 2)(Marchese, Christopher) (Entered: 02/04/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/69280385/24/2/alcon-entertainment-llc-v-tesla-inc/)
-
-### 📄 Doc #23 — 2025-02-04
-
-NOTICE OF MOTION AND MOTION to Dismiss Plaintiffs second claim for relief of vicarious copyright infringement and fourth claim for relief of false endorsement in violation of 15 U.S.C. § 1125(a)(1)(A) from the Complaint filed by Defendant Warner Bros Discovery Inc. Motion set for hearing on 3/6/2025 at 08:30 AM before Judge George H Wu. (Attachments: # 1 Memorandum of Points and Authorities, # 2 Declaration of Rachel Jennings, # 3 Exhibit 1 to Declaration of Rachel Jennings [Redacted], # 4 Proposed Order) (Marchese, Christopher) (Entered: 02/04/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/69280385/23/4/alcon-entertainment-llc-v-tesla-inc/)
-
 <details>
-<summary>已過濾的 39 筆程序性 entries（點擊展開）</summary>
+<summary>已過濾的 38 筆程序性 entries（點擊展開）</summary>
 
+- **Doc #243** (2026-10-29): Notice of Appearance or Withdrawal of Counsel: for attorney Kelly L Perigoe counsel for Defendants Elon Musk, Tesla, Inc.. Adding Kelly L. Perigoe as counsel of record for Defendants for the reason in…
+- **Doc #241** (2026-10-28): Notice of Appearance or Withdrawal of Counsel: for attorney David Arthur Turner counsel for Plaintiff Alcon Entertainment, LLC. Adding Nicholas J. Pappas as counsel of record for Plaintiff Alcon Enter…
+- **Doc #240** (2026-10-28): Notice of Appearance or Withdrawal of Counsel: for attorney David Arthur Turner counsel for Plaintiff Alcon Entertainment, LLC. Adding David A. Turner as counsel of record for Plaintiff Alcon Entertai…
+- **Doc #239** (2026-10-26): CERTIFICATE OF SERVICE filed by Defendants Elon Musk, Tesla, Inc., re Sealed Document,,, 238 served on 10/26/2026. (Johnson, Arwen) (Entered: 10/26/2026)
+- **Doc #237** (2026-10-23): CERTIFICATE OF SERVICE filed by Plaintiff Alcon Entertainment, LLC, re Sealed Document,, 236 served on October 23, 2026. (Anderson, Edward) (Entered: 10/23/2026)
+- **Doc #225** (2026-10-15): CERTIFICATE OF SERVICE filed by Plaintiff Alcon Entertainment, LLC, re Sealed Declaration in SupportDeclaration,, 224 served on October 15, 2026. (Anderson, Edward) (Entered: 10/15/2026)
+- **Doc #221** (2026-10-15): CERTIFICATE OF SERVICE filed by Defendants Elon Musk, Tesla, Inc., re Sealed Declaration in SupportDeclaration,,, 219 served on 10/15/2026. (Johnson, Arwen) (Entered: 10/15/2026)
+- **Doc #212** (2026-10-02): Notice of Appearance or Withdrawal of Counsel: for attorney A. Louis Dorny counsel for Defendant Tesla, Inc.. Helen Trac is no longer counsel of record for the aforementioned party in this case for th…
 - **Doc #199** (2026-09-18): CERTIFICATE OF SERVICE filed by Plaintiff Alcon Entertainment, LLC, re Sealed Declaration in SupportDeclaration, 198 served on September 18, 2026. (Anderson, Edward) (Entered: 09/18/2026)
 - **Doc #194** (2026-09-17): Notice of Appearance or Withdrawal of Counsel: for attorney James W Irey counsel for Plaintiff Alcon Entertainment, LLC. Celeste Sofia Del Rio is no longer counsel of record for the aforementioned par…
 - **Doc #183** (2026-08-17): ORDER by Judge George H Wu: granting 181 Non-Resident Attorney Betsy G. Zyrkowski APPLICATION to Appear Pro Hac Vice on behalf of Movant PUBLICIS MEDIA FRANCE, S.A., designating Brennen J. Sharp-Polos…
@@ -1011,18 +1027,9 @@ NOTICE OF MOTION AND MOTION to Dismiss Plaintiffs second claim for relief of vic
 - **Doc #111** (2026-03-13): Notice of Appearance or Withdrawal of Counsel: for attorney Christopher S. Marchese counsel for Defendants Elon Musk, Tesla, Inc.. Adding Helen Trac as counsel of record for Tesla, Inc. and Elon Musk …
 - **Doc #92** (2026-01-15): Notice of Appearance or Withdrawal of Counsel: for attorney Christopher S. Marchese counsel for Defendants Elon Musk, Tesla, Inc.. Krista M. Carter is no longer counsel of record for the aforementione…
 - **Doc #59** (2025-04-01): ORDER by Judge George H Wu: granting 58 Non-Resident Attorney John S. Goetz APPLICATION to Appear Pro Hac Vice on behalf of Defendants Elon Musk, Tesla, Inc., Warner Bros Discovery Inc, designating Ch…
-- **Doc #58** (2025-03-27): APPLICATION of Non-Resident Attorney John S. Goetz to Appear Pro Hac Vice on behalf of Defendants Elon Musk, Tesla, Inc., Warner Bros Discovery Inc (Pro Hac Vice Fee - $500 Fee Paid, Receipt No. ACACD…
-- **Doc #47** (2025-03-03): ORDER by Judge George H Wu: granting 45 Non-Resident Attorney Kayleigh E. McGlynn APPLICATION to Appear Pro Hac Vice on behalf of Defendants Tesla, Inc., Elon Musk, Warner Bros Discovery Inc, designat…
-- **Doc #46** (2025-03-03): ORDER by Judge George H Wu: granting 44 Non-Resident Attorney Matthew A. Colvin APPLICATION to Appear Pro Hac Vice on behalf of Defendants Tesla, Inc., Elon Musk, Warner Bros Discovery Inc, designatin…
-- **Doc #44** (2025-02-28): APPLICATION of Non-Resident Attorney Matthew A. Colvin to Appear Pro Hac Vice on behalf of Defendants Tesla, Inc., Elon Musk, Warner Bros Discovery Inc (Pro Hac Vice Fee - $500 Fee Paid, Receipt No. A…
-- **Doc #45** (2025-02-28): APPLICATION of Non-Resident Attorney Kayleigh E. McGlynn to Appear Pro Hac Vice on behalf of Defendants Tesla, Inc., Elon Musk, Warner Bros Discovery Inc (Pro Hac Vice Fee - $500 Fee Paid, Receipt No.…
-- **Doc #41** (2025-02-14): ORDER by Judge George H Wu: granting 36 Non-Resident Attorney Vivian Cheng APPLICATION to Appear Pro Hac Vice on behalf of Defendants Tesla, Inc., Elon Musk, Warner Bros Discovery Inc, designating Chr…
-- **Doc #36** (2025-02-13): APPLICATION of Non-Resident Attorney Vivian Cheng to Appear Pro Hac Vice on behalf of Defendants Tesla, Inc., Elon Musk, Warner Bros Discovery Inc (Pro Hac Vice Fee - $500 Fee Paid, Receipt No. ACACDC…
-- **Doc #31** (2025-02-07): ORDER by Judge George H Wu: granting 30 Non-Resident Attorney Kristen McCallion APPLICATION to Appear Pro Hac Vice on behalf of Defendants Tesla, Inc., Elon Musk, Warner Bros Discovery Inc, designatin…
-- **Doc #30** (2025-02-06): APPLICATION of Non-Resident Attorney Kristen McCallion to Appear Pro Hac Vice on behalf of Defendants Tesla, Inc., Elon Musk, Warner Bros Discovery Inc (Pro Hac Vice Fee - $500 Fee Paid, Receipt No. A…
 
 </details>
 
 ---
 
-*產生時間：2026-10-01 01:12 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-11-01 01:13 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

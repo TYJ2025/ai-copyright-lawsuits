@@ -1,6 +1,6 @@
 # Case 28 — Hendrix v. Apple Inc
 
-> 最後更新（CourtListener fetch）：2026-09-01 01:16 UTC
+> 最後更新（CourtListener fetch）：2026-11-01 01:17 UTC
 
 ---
 
@@ -14,7 +14,7 @@
 | Judge Assigned | Yvonne Gonzalez Rogers |
 | Judge Referred | Ajay S. Krishnan |
 | Date Filed | 2025-09-05 |
-| Date Last Filing | 2026-08-25 |
+| Date Last Filing | 2026-09-08 |
 | Cause | 17:501 Copyright Infringement |
 | Nature of Suit | 820 Copyright |
 | Jury Demand | Both |
@@ -34,11 +34,29 @@
 
 - ✅ Court 一致：dashboard 寫「N.D. Cal.」，CourtListener 為「N.D. California」
 - ✅ Judge 一致：dashboard 寫「Yvonne Gonzalez Rogers」，CourtListener 為「Yvonne Gonzalez Rogers」
-- ℹ️ Dashboard progress 內找不到【YYYY/M/D】格式日期；CourtListener 最後 entry: 2026-08-25
+- ℹ️ Dashboard progress 內找不到【YYYY/M/D】格式日期；CourtListener 最後 entry: 2026-09-08
 
 ## 3. Docket Entries（最新優先，已過濾程序性 entries）
 
-**實質性 entries**：102 筆／**已過濾程序性 entries**：49 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+**實質性 entries**：105 筆／**已過濾程序性 entries**：49 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+
+### 📄 Doc #129 — 2026-09-08
+
+ORDER DENYING 128 Stipulation Regarding Training Data Inspection Protocol Without Prejudice. Signed by Magistrate Judge Ajay Krishnan on 9/8/2026. (kmm2, COURT STAFF) (Filed on 9/8/2026) (Entered: 09/08/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71279155/129/hendrix-v-apple-inc/)
+
+### 📄 Doc #128 — 2026-09-02
+
+STIPULATION WITH PROPOSED ORDER Regarding Training Data Inspection Protocol filed by Grady Hendrix, John Hornor Jacobs, Eboni McKinnon, Jennifer Roberson. (Nath, Rohit) (Filed on 9/2/2026) (Entered: 09/02/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71279155/128/hendrix-v-apple-inc/)
+
+### 📄 Doc #127 — 2026-09-01
+
+Transcript of Proceedings held on August 25, 2026, before Judge Ajay Krishnan. Court Reporter/Transcriber Velvet Quill Communications, telephone number info@velvetquill.com. Per General Order No. 59 and Judicial Conference policy, this transcript may be viewed only at the Clerk's Office public terminal or may be purchased through the Court Reporter/Transcriber until the deadline for the Release of Transcript Restriction. After that date it may be obtained through PACER. Any Notice of Intent to Request Redaction, if required, is due no later than 5 business days from date of this filing. (Re 125 Transcript Order ) Release of Transcript Restriction set for 11/30/2026. (Related documents(s) 125 ) (Bazier, Jaquetta) (Filed on 9/1/2026) (Entered: 09/01/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71279155/127/hendrix-v-apple-inc/)
 
 ### 📄 Doc #124 — 2026-08-25
 
@@ -64,7 +82,7 @@ Discovery Hearing
 
 ### 📄 Doc #123 — 2026-08-21
 
-ORDER RE:  119  JOINT DISCOVERY LETTER BRIEF. Signed by Magistrate Judge Ajay Krishnan on 8/21/2026. Discovery Hearing on  119  set for 8/25/2026, 02:00 PM in Oakland - via Zoom webinar before Magistrate Judge Ajay Krishnan. Webinar Ac cess: All counsel, members of the public, and  media may access the webinar information at https://cand.uscourts.gov/judges/ask/krishnan-ajay-sCiv LR 77-3(d) . Persons granted access to court proceedings held by telephone or videoconference are reminded that photographing, recording, and rebroadcasting of court proceedings, including screenshots or other visual copying of a hearing, is absolutely prohibited.Zoom Guidance and Setup: https://cand.uscourts.gov/zoom.(kmm2, COURT STAFF) (Filed on 8/21/2026)
+ORDER RE: 119 JOINT DISCOVERY LETTER BRIEF. Signed by Magistrate Judge Ajay Krishnan on 8/21/2026. Discovery Hearing on 119 set for 8/25/2026, 02:00 PM in Oakland - via Zoom webinar before Magistrate Judge Ajay Krishnan. Webinar Access: All counsel, members of the public, and media may access the webinar information at https://cand.uscourts.gov/judges/ask/krishnan-ajay-sCiv LR 77-3(d). Persons granted access to court proceedings held by telephone or videoconference are reminded that photographing, recording, and rebroadcasting of court proceedings, including screenshots or other visual copying of a hearing, is absolutely prohibited.Zoom Guidance and Setup: https://cand.uscourts.gov/zoom.(kmm2, COURT STAFF) (Filed on 8/21/2026) (Entered: 08/21/2026)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/71279155/123/hendrix-v-apple-inc/)
 
@@ -665,4 +683,4 @@ Proposed Summons. (Gould, Benjamin) (Filed on 9/5/2025) (Entered: 09/05/2025)
 
 ---
 
-*產生時間：2026-09-01 01:16 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-11-01 01:17 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

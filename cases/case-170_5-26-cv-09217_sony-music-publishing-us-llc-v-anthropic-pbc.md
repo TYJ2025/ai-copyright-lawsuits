@@ -1,6 +1,6 @@
 # Case 170 — Sony Music Publishing (US) LLC v. Anthropic PBC
 
-> 最後更新（CourtListener fetch）：2026-10-01 01:53 UTC
+> 最後更新（CourtListener fetch）：2026-11-01 01:52 UTC
 
 ---
 
@@ -13,7 +13,7 @@
 | Court | District Court, N.D. California (`cand`) |
 | Judge Assigned | Eumi K. Lee |
 | Date Filed | 2026-08-28 |
-| Date Last Filing | 2026-09-29 |
+| Date Last Filing | 2026-10-27 |
 | Cause | 17:101 Copyright Infringement |
 | Nature of Suit | 820 Copyright |
 | Jury Demand | Plaintiff |
@@ -33,11 +33,29 @@
 
 - ✅ Court 一致：dashboard 寫「N.D. Cal.」，CourtListener 為「N.D. California」
 - ✅ Judge 一致：dashboard 寫「Eumi K. Lee」，CourtListener 為「Eumi K. Lee」
-- ℹ️ Dashboard progress 內找不到【YYYY/M/D】格式日期；CourtListener 最後 entry: 2026-09-29
+- ℹ️ Dashboard progress 內找不到【YYYY/M/D】格式日期；CourtListener 最後 entry: 2026-10-27
 
 ## 3. Docket Entries（最新優先，已過濾程序性 entries）
 
-**實質性 entries**：18 筆／**已過濾程序性 entries**：31 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+**實質性 entries**：21 筆／**已過濾程序性 entries**：31 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+
+### 📄 Doc #46 — 2026-10-27
+
+ORDER GRANTING 45 JOINT STIPULATION REGARDING DEADLINES FOR AMENDED COMPLAINT AND BRIEFING SCHEDULE FOR MOTION TO DISMISS. Signed by Judge Eumi K. Lee. (lrt, COURT STAFF) (Filed on 10/27/2026) (Entered: 10/27/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/74720572/46/sony-music-publishing-us-llc-v-anthropic-pbc/)
+
+### 📄 Doc #45 — 2026-10-26
+
+STIPULATION WITH PROPOSED ORDER Regarding Deadlines for Amended Complaint and Briefing Schedule for Motion to Dismiss (Joint) filed by Anthropic PBC. (Mehta, Sonal) (Filed on 10/26/2026) (Entered: 10/26/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/74720572/45/sony-music-publishing-us-llc-v-anthropic-pbc/)
+
+### 📄 Doc #44 — 2026-10-16
+
+NOTICE of Filing Objection to Joint Case Management Statement Filed in Related Cases by Round Hill Music LP, Round Hill Music Royalty Fund II, LP, Round Hill Music Royalty Fund III Plus, LP, Round Hill Music Royalty Fund III, LP, Round Hill Royalty Fund III Plus, LP, GFP Co-Invest, LP, RH Carlin Holdings LLC (Attachments: # 1 Exhibit A)(Busch, Richard) (Filed on 10/16/2026) Modified on 10/21/2026 (kmg, COURT STAFF). (Entered: 10/16/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/74720572/44/1/sony-music-publishing-us-llc-v-anthropic-pbc/)
 
 ### 📄 Doc #— — 2026-09-29
 
@@ -174,4 +192,4 @@ Proposed Summons. (Akley, Benjamin) (Filed on 8/28/2026) (Entered: 08/28/2026)
 
 ---
 
-*產生時間：2026-10-01 01:53 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-11-01 01:52 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

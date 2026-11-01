@@ -1,6 +1,6 @@
 # Case 112 — THALER v. PERLMUTTER
 
-> 最後更新（CourtListener fetch）：2026-10-01 01:49 UTC
+> 最後更新（CourtListener fetch）：2026-11-01 01:48 UTC
 
 ---
 
@@ -236,4 +236,4 @@ COMPLAINT against SHIRA PERLMUTTER, THE UNITED STATES COPYRIGHT OFFICE ( Filing 
 
 ---
 
-*產生時間：2026-10-01 01:49 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-11-01 01:48 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

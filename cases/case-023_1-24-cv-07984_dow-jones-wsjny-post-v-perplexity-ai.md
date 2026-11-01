@@ -1,6 +1,6 @@
 # Case 23 — Dow Jones & Company, Inc. v. Perplexity AI, Inc.
 
-> 最後更新（CourtListener fetch）：2026-10-01 01:15 UTC
+> 最後更新（CourtListener fetch）：2026-11-01 01:16 UTC
 
 ---
 
@@ -13,7 +13,7 @@
 | Court | District Court, S.D. New York (`nysd`) |
 | Judge Assigned | Katherine Polk Failla |
 | Date Filed | 2024-10-21 |
-| Date Last Filing | 2026-09-23 |
+| Date Last Filing | 2026-10-30 |
 | Cause | 17:101 Copyright Infringement |
 | Nature of Suit | 820 Copyright |
 | Jury Demand | Plaintiff |
@@ -27,17 +27,89 @@
 > - Court=S.D.N.Y.
 > - Judge=Katherine Polk Failla
 > - Status=active
-> - Progress=案件由 Polk Failla 法官審理中，處於初步程序階段。與 NYT v. Perplexity 等案共同構成對 Perplexity 的多線訴訟壓力。
+> - Progress=案件由 Polk Failla 法官審理中，處於初步程序階段。與 NYT v. Perplexity 等案共同構成對 Perplexity 的多線訴訟壓力。 【2026/10/19】專家證據開示期限 10/19 屆至，雙方均估計審判將進行 10 至 14 日，案件邁向陪審團審理
 
 **自動比對結果：**
 
 - ✅ Court 一致：dashboard 寫「S.D.N.Y.」，CourtListener 為「S.D. New York」
 - ✅ Judge 一致：dashboard 寫「Katherine Polk Failla」，CourtListener 為「Katherine Polk Failla」
-- ℹ️ Dashboard progress 內找不到【YYYY/M/D】格式日期；CourtListener 最後 entry: 2026-09-23
+- ℹ️ Dashboard progress 略落後 11 天：dashboard 最新日期 2026-10-19，CourtListener 最後 entry 2026-10-30
 
 ## 3. Docket Entries（最新優先，已過濾程序性 entries）
 
 **實質性 entries**：161 筆／**已過濾程序性 entries**：39 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+
+### 📄 Doc #228 — 2026-10-30
+
+Letter
+
+[CourtListener 連結](https://www.courtlistener.com/docket/69280523/228/dow-jones-company-inc-v-perplexity-ai-inc/)
+
+### 📄 Doc #226 — 2026-10-30
+
+Order on Motion to Compel
+
+[CourtListener 連結](https://www.courtlistener.com/docket/69280523/226/dow-jones-company-inc-v-perplexity-ai-inc/)
+
+### 📄 Doc #227 — 2026-10-29
+
+ORDER: On October 29, 2026, the Court filed and provided to the parties an unredacted copy of a Sealed Order resolving the parties' most recent discovery dispute. (Dkt. #218). For the reasons set forth in that Order, Plaintiffs' motion to compel discovery is GRANTED in full. The Clerk of Court is directed to terminate the pending motion at docket entry  218. SO ORDERED.    (Signed by Judge Katherine Polk Failla on 10/29/2026)   (mml)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/69280523/227/dow-jones-company-inc-v-perplexity-ai-inc/)
+
+### 📄 Doc #225 — 2026-10-28
+
+ORDER granting  221  Letter Motion to Seal. Application GRANTED. The Clerk of Court is directed to maintain under seal docket entries 222, 222-1, and 222-2. Further, the Clerk of Court is directed to terminate the pending motion at docket entry 221.  (Signed by Judge Katherine Polk Failla on 10/28/2026)    (rro)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/69280523/225/dow-jones-company-inc-v-perplexity-ai-inc/)
+
+### 📄 Doc #222 — 2026-10-27
+
+***SEALED***LETTER RESPONSE in Opposition to Motion addressed to Judge Katherine Polk Failla from Andrew H. Schapiro dated October 27, 2026 re: 218 LETTER MOTION to Compel addressed to Judge Katherine Polk Failla from Susan J. Kohlmann dated October 22, 2026. . Document filed by Perplexity AI, Inc.. (Attachments: # 1 Exhibit 1-Email Correspondence Excerpt, # 2 Exhibit 2-Breakdown of Perplexity's October 15 Production)Motion or Order to File Under Seal: 221 .(Schapiro, Andrew) (Entered: 10/27/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/69280523/222/dow-jones-company-inc-v-perplexity-ai-inc/)
+
+### 📄 Doc #223 — 2026-10-27
+
+LETTER RESPONSE in Opposition to Motion addressed to Judge Katherine Polk Failla from Andrew H. Schapiro dated October 27, 2026 re: 218 LETTER MOTION to Compel addressed to Judge Katherine Polk Failla from Susan J. Kohlmann dated October 22, 2026. . Document filed by Perplexity AI, Inc.. (Attachments: # 1 Exhibit 1-Email Correspondence Excerpt, # 2 Exhibit 2-Breakdown of Perplexity's October 15 Production).(Schapiro, Andrew) (Entered: 10/27/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/69280523/223/dow-jones-company-inc-v-perplexity-ai-inc/)
+
+### 📄 Doc #221 — 2026-10-27
+
+LETTER MOTION to Seal addressed to Judge Katherine Polk Failla from Andrew H. Schapiro dated October 27, 2026. Document filed by Perplexity AI, Inc...(Schapiro, Andrew) (Entered: 10/27/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/69280523/221/dow-jones-company-inc-v-perplexity-ai-inc/)
+
+### 📄 Doc #219 — 2026-10-23
+
+ORDER granting  217  Letter Motion to Seal. Application GRANTED. The Clerk of Court is directed to maintain under seal docket entry 218. Further, the Clerk of Court is directed to terminate the pending motion at docket entry 217.    (Signed by Judge Katherine Polk Failla on 10/23/2026)    (rro)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/69280523/219/dow-jones-company-inc-v-perplexity-ai-inc/)
+
+### 📄 Doc #218 — 2026-10-22
+
+***SEALED*** LETTER MOTION to Compel addressed to Judge Katherine Polk Failla from Susan J. Kohlmann dated October 22, 2026. Document filed by Dow Jones & Company, Inc., NYP Holdings, Inc.. (Attachments: # 1 Exhibit A, # 2 Exhibit B, # 3 Exhibit C, # 4 Exhibit D)Motion or Order to File Under Seal: 217 .(Kohlmann, Susan) (Entered: 10/22/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/69280523/218/dow-jones-company-inc-v-perplexity-ai-inc/)
+
+### 📄 Doc #217 — 2026-10-22
+
+LETTER MOTION to Seal addressed to Judge Katherine Polk Failla from Susan J. Kohlmann dated October 22, 2026. Document filed by Dow Jones & Company, Inc., NYP Holdings, Inc...(Kohlmann, Susan) (Entered: 10/22/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/69280523/217/dow-jones-company-inc-v-perplexity-ai-inc/)
+
+### 📄 Doc #216 — 2026-10-06
+
+MEMO ENDORSEMENT on re: 215 Letter, filed by Encyclopaedia Britannica, Inc., Merriam-Webster, Inc. ENDORSEMENT: By way of background, on September 15, 2026, this Court resolved the most recent motion to compel of Plaintiffs Dow Jones & Company, Inc. and NYP Holdings, Inc. (collectively, "Dow Jones"). (See September 15, 2026 Minute Entry; see also Dkt. #191, 195). The contents of the parties' briefing on this motion, as well as the transcript of the September 15, 2026 conference, is currently maintained under seal. Non-Parties Encyclopaedia Britannica, Inc. and Merriam-Webster, Inc. (collectively, Britannica) are plaintiffs in a pending lawsuit against Perplexity AI, Inc. ("Perplexity") in substantially similar lawsuit in this District regarding copyright infringement claims. See Encyclopaedia Britannica, Inc. v. Perplexity AI, Inc., No. 25 Civ. 7546 (JLR) (SLC) (S.D.N.Y.). The Britannica parties convened for a pretrial conference before Magistrate Judge Sarah Cave on September 29, 2026 …(truncated)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/69280523/216/dow-jones-company-inc-v-perplexity-ai-inc/)
+
+### 📄 Doc #215 — 2026-10-05
+
+LETTER addressed to Judge Katherine Polk Failla from Y. Gloria Park dated October 5, 2026 re: Non-Party Britannica's Request for Access to Sealed Documents. Document filed by Encyclopaedia Britannica, Inc., Merriam-Webster, Inc.. (Attachments: # 1 Exhibit A).(Park, Yoonhee) (Entered: 10/05/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/69280523/215/dow-jones-company-inc-v-perplexity-ai-inc/)
 
 ### 📄 Doc #— — 2026-09-23
 
@@ -125,7 +197,7 @@ ORDER: Based on recent correspondence, the Court understands that Plaintiffs' Au
 
 ### 📄 Doc #190 — 2026-08-28
 
-***STRICKEN DOCUMENT. Document number  190  has been stricken from the case record. The document was stricken from this case pursuant to   193   Order .   ORDER granting  187  Letter Motion to Seal.     Application GRA NTED. The Clerk of Court is directed to maintain docket entry 188 under seal, viewable only to the parties and the Court. Further, the Clerk of Court is directed to terminate the pending motion at docket entry 187. SO ORDERED.    (Signed by Judge Katherine Polk Failla on 8/28/2026)    (vfr) Modified on 8/31/2026 (rro).
+***STRICKEN DOCUMENT. Document number 190 has been stricken from the case record. The document was stricken from this case pursuant to 193 Order . ORDER granting 187 Letter Motion to Seal. Application GRANTED. The Clerk of Court is directed to maintain docket entry 188 under seal, viewable only to the parties and the Court. Further, the Clerk of Court is directed to terminate the pending motion at docket entry 187. SO ORDERED. (Signed by Judge Katherine Polk Failla on 8/28/2026) (vfr) Modified on 8/31/2026 (rro). (Entered: 08/28/2026)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/69280523/190/dow-jones-company-inc-v-perplexity-ai-inc/)
 
@@ -889,81 +961,11 @@ PROPOSED STIPULATION AND ORDER. Document filed by Dow Jones & Company, Inc., NYP
 
 [CourtListener 連結](https://www.courtlistener.com/docket/69280523/61/dow-jones-company-inc-v-perplexity-ai-inc/)
 
-### 📄 Doc #56 — 2025-03-25
-
-REPLY to Response to Motion re: 47 MOTION to Dismiss or, in the Alternative, to Transfer Venue. . Document filed by Perplexity AI, Inc...(Day, James) (Entered: 03/25/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/69280523/56/dow-jones-company-inc-v-perplexity-ai-inc/)
-
-### 📄 Doc #53 — 2025-03-11
-
-FILING ERROR - WRONG EVENT TYPE SELECTED FROM MENU - RESPONSE in Opposition to Motion re: 47 MOTION to Dismiss or, in the Alternative, to Transfer Venue. . Document filed by Dow Jones & Company, Inc., NYP Holdings, Inc.. (Attachments: # 1 Affidavit of Alexander Gibson).(Cappuccio, Paul) Modified on 3/12/2025 (lb). (Entered: 03/11/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/69280523/53/1/dow-jones-company-inc-v-perplexity-ai-inc/)
-
-### 📄 Doc #54 — 2025-03-11
-
-MEMORANDUM OF LAW in Opposition re: 47 MOTION to Dismiss or, in the Alternative, to Transfer Venue. . Document filed by Dow Jones & Company, Inc., NYP Holdings, Inc...(Cappuccio, Paul) (Entered: 03/11/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/69280523/54/dow-jones-company-inc-v-perplexity-ai-inc/)
-
-### 📄 Doc #55 — 2025-03-11
-
-DECLARATION of Alexander Gibson in Opposition re: 47 MOTION to Dismiss or, in the Alternative, to Transfer Venue.. Document filed by Dow Jones & Company, Inc., NYP Holdings, Inc...(Cappuccio, Paul) (Entered: 03/11/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/69280523/55/dow-jones-company-inc-v-perplexity-ai-inc/)
-
-### 📄 Doc #52 — 2025-02-19
-
-ORDER terminating 50 Letter Motion for Oral Argument. The Court is in receipt of Defendant's request for oral argument concerning Defendant's Motion to Dismiss or, in the Alternative, to Transfer Venue. If the Court determines that oral argument would be useful, it will promptly reach out to the parties. The Clerk of Court is directed to terminate the pending motion at docket entry 50. (Signed by Judge Katherine Polk Failla on 2/19/2025) (rro) (Entered: 02/19/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/69280523/52/dow-jones-company-inc-v-perplexity-ai-inc/)
-
-### 📄 Doc #51 — 2025-02-18
-
-BRIEF re: 47 MOTION to Dismiss or, in the Alternative, to Transfer Venue. (Request for Judicial Notice). Document filed by Perplexity AI, Inc.. (Attachments: # 1 Affidavit Declaration of Michelle Kao, # 2 Exhibit A, # 3 Exhibit B, # 4 Exhibit C, # 5 Exhibit D, # 6 Exhibit E, # 7 Exhibit F, # 8 Exhibit G, # 9 Exhibit H, # 10 Exhibit I, # 11 Exhibit J, # 12 Exhibit K).(Day, James) (Entered: 02/18/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/69280523/51/12/dow-jones-company-inc-v-perplexity-ai-inc/)
-
-### 📄 Doc #47 — 2025-02-18
-
-MOTION to Dismiss or, in the Alternative, to Transfer Venue. Document filed by Perplexity AI, Inc.. Responses due by 3/11/2025 Return Date set for 3/25/2025 at 11:59 PM..(Day, James) (Entered: 02/18/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/69280523/47/dow-jones-company-inc-v-perplexity-ai-inc/)
-
-### 📄 Doc #48 — 2025-02-18
-
-MEMORANDUM OF LAW in Support re: 47 MOTION to Dismiss or, in the Alternative, to Transfer Venue. . Document filed by Perplexity AI, Inc...(Day, James) (Entered: 02/18/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/69280523/48/dow-jones-company-inc-v-perplexity-ai-inc/)
-
-### 📄 Doc #49 — 2025-02-18
-
-DECLARATION of Liane Pham in Support re: 47 MOTION to Dismiss or, in the Alternative, to Transfer Venue.. Document filed by Perplexity AI, Inc...(Day, James) (Entered: 02/18/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/69280523/49/dow-jones-company-inc-v-perplexity-ai-inc/)
-
-### 📄 Doc #50 — 2025-02-18
-
-LETTER MOTION for Oral Argument addressed to Judge Katherine Polk Failla from James Day dated 02/18/2025. Document filed by Perplexity AI, Inc...(Day, James) (Entered: 02/18/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/69280523/50/dow-jones-company-inc-v-perplexity-ai-inc/)
-
-### 📄 Doc #46 — 2025-01-28
-
-SECOND AMENDED COMPLAINT amending 36 Amended Complaint,, against Perplexity AI, Inc. with JURY DEMAND.Document filed by Dow Jones & Company, Inc., NYP Holdings, Inc.. Related document: 36 Amended Complaint,,. (Attachments: # 1 Appendix 1: Letter to Perplexity, # 2 Appendix 2: Email from Perplexity, # 3 Appendix 3: WSJ Copyright Registration Nos., # 4 Appendix 4: NYP Copyright Registration Nos., # 5 Appendix 5: NYP June 2024 Article, # 6 Appendix 6: WSJ July 2024 Article, # 7 Appendix 7: NYP August 2024 Article).(Cappuccio, Paul) (Entered: 01/28/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/69280523/46/7/dow-jones-company-inc-v-perplexity-ai-inc/)
-
-### 📄 Doc #44 — 2025-01-21
-
-TRANSCRIPT of Proceedings re: CONFERNECE held on 1/14/2025 before Judge Katherine Polk Failla. Court Reporter/Transcriber: Alena Lynch, (212) 805-0300. Transcript may be viewed at the court public terminal or purchased through the Court Reporter/Transcriber before the deadline for Release of Transcript Restriction. After that date it may be obtained through PACER. Redaction Request due 2/11/2025. Redacted Transcript Deadline set for 2/21/2025. Release of Transcript Restriction set for 4/21/2025..(McGuirk, Kelly) (Entered: 01/21/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/69280523/44/dow-jones-company-inc-v-perplexity-ai-inc/)
-
 <details>
 <summary>已過濾的 39 筆程序性 entries（點擊展開）</summary>
 
+- **Doc #224** (2026-10-27): CERTIFICATE OF SERVICE of ECF No. 222. Document filed by Perplexity AI, Inc...(Schapiro, Andrew) (Entered: 10/27/2026)
+- **Doc #220** (2026-10-23): CERTIFICATE OF SERVICE of 218 Plaintiffs' Letter Motion to Compel served on Perplexity AI on 10/22/2026. Document filed by Dow Jones & Company, Inc., NYP Holdings, Inc...(Kohlmann, Susan) (Entered: 10…
 - **Doc #213** (2026-09-23): ORDER GRANTING MOTION TO ADMIT COUNSEL PRO HAC VICE granting 212 Motion for Brett M. Sandford to Appear Pro Hac Vice. The Clerk of Court is directed to terminate the pending motion at docket entry 212…
 - **Doc #214** (2026-09-23): ORDER GRANTING MOTION TO ADMIT COUNSEL PRO HAC VICE granting 211 Motion for Andrew M. Gass to Appear Pro Hac Vice. The Clerk of Court is directed to terminate the pending motion at docket entry 211.. …
 - **Doc #—** (2026-09-23): >>>NOTICE REGARDING PRO HAC VICE MOTION. Regarding Document No. 212 MOTION for Brett M. Sandford to Appear Pro Hac Vice . Filing fee $ 200.00, receipt number ANYSDC-33480234. Motion and supporting pap…
@@ -1001,11 +1003,9 @@ TRANSCRIPT of Proceedings re: CONFERNECE held on 1/14/2025 before Judge Katherin
 - **Doc #75** (2025-09-10): NOTICE OF APPEARANCE by Dylan I Scher on behalf of Perplexity AI, Inc...(Scher, Dylan) (Entered: 09/10/2025)
 - **Doc #69** (2025-09-01): NOTICE OF APPEARANCE by Andrew H. Schapiro on behalf of Perplexity AI, Inc...(Schapiro, Andrew) (Entered: 09/01/2025)
 - **Doc #57** (2025-05-06): NOTICE OF APPEARANCE by Alison Irene Stein on behalf of Dow Jones & Company, Inc., NYP Holdings, Inc...(Stein, Alison) (Entered: 05/06/2025)
-- **Doc #58** (2025-05-06): NOTICE OF APPEARANCE by Susan Joan Kohlmann on behalf of Dow Jones & Company, Inc., NYP Holdings, Inc...(Kohlmann, Susan) (Entered: 05/06/2025)
-- **Doc #59** (2025-05-06): NOTICE OF APPEARANCE by Gianni P. Servodidio on behalf of Dow Jones & Company, Inc., NYP Holdings, Inc...(Servodidio, Gianni) (Entered: 05/06/2025)
 
 </details>
 
 ---
 
-*產生時間：2026-10-01 01:15 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-11-01 01:16 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

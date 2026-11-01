@@ -1,6 +1,6 @@
 # Case 52 — Concord Music Group, Inc. v. Anthropic PBC
 
-> 最後更新（CourtListener fetch）：2026-10-01 01:27 UTC
+> 最後更新（CourtListener fetch）：2026-11-01 01:28 UTC
 
 ---
 
@@ -14,7 +14,7 @@
 | Judge Assigned | Eumi K. Lee |
 | Judge Referred | Susan Van Keulen |
 | Date Filed | 2026-01-28 |
-| Date Last Filing | 2026-09-29 |
+| Date Last Filing | 2026-10-16 |
 | Cause | 17:101 Copyright Infringement |
 | Nature of Suit | 820 Copyright |
 | Jury Demand | Both |
@@ -34,11 +34,29 @@
 
 - ⚠️ Court 可能不一致：dashboard 寫「N.D. Cal. (5:26-cv-00880)」，CourtListener 為「N.D. California」
 - ✅ Judge 一致：dashboard 寫「Eumi K. Lee」，CourtListener 為「Eumi K. Lee」
-- ℹ️ Dashboard progress 略落後 20 天：dashboard 最新日期 2026-09-09，CourtListener 最後 entry 2026-09-29
+- ⚠️ Dashboard progress **落後 37 天**：dashboard 最新日期 2026-09-09，CourtListener 最後 entry 2026-10-16——建議查看新近 entries 並補充 progress
 
 ## 3. Docket Entries（最新優先，已過濾程序性 entries）
 
-**實質性 entries**：91 筆／**已過濾程序性 entries**：63 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+**實質性 entries**：94 筆／**已過濾程序性 entries**：64 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+
+### 📄 Doc #134 — 2026-10-16
+
+NOTICE by GFP Co-Invest, LP, RH Carlin Holdings LLC, Round Hill Music LP, Round Hill Music Royalty Fund II, LP, Round Hill Music Royalty Fund III Plus, LP, Round Hill Music Royalty Fund III, LP of Filing Objection to Joint Case Management Statement Filed in Related Cases (Attachments: # 1 Exhibit A)(Busch, Richard) (Filed on 10/16/2026) (Entered: 10/16/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72199828/134/concord-music-group-inc-v-anthropic-pbc/)
+
+### 📄 Doc #133 — 2026-09-30
+
+JOINT CASE MANAGEMENT STATEMENT filed by ABKCO Legs Music, Inc., ABKCO Music, Inc., Capitol CMG, Inc., Concord Music Group, Inc., Polygram Publishing, Inc., Songs of Universal, Inc., Universal Music MGB NA LLC, Universal Music Z Tunes LLC, Universal Music Corp., Universal Music Publishing AB, Universal Music Publishing BL Ltd., Universal Music Publishing International Ltd., Universal Music Publishing International MGB Ltd., Universal Music Publishing Ltd., Universal Music Publishing MGB Ltd., Universal Musica, Inc., Universal/Dick James Music Limited, Universal/Island Music Ltd., Universal/MCA Music Ltd.. (Miller, Corey) (Filed on 9/30/2026) Modified on 10/1/2026 (jnk, COURT STAFF). (Entered: 09/30/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72199828/133/concord-music-group-inc-v-anthropic-pbc/)
+
+### 📄 Doc #131 — 2026-09-29
+
+NOTICE of Withdrawal: Attorney Hayk Esaghoulan no longer representing Benjamin Mann, Dario Amodei in this case (Yang, Grace) (Filed on 9/29/2026) Modified text on 9/30/2026 to conform to filing (jnk, COURT STAFF). (Entered: 09/29/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72199828/131/concord-music-group-inc-v-anthropic-pbc/)
 
 ### 📄 Doc #— — 2026-09-29
 
@@ -46,7 +64,7 @@ Notice of Appearance/Substitution/Change/Withdrawal of Attorney
 
 ### 📄 Doc #130 — 2026-09-22
 
-AMENDED ANSWER to 93 Amended Complaint,,, by Benjamin Mann. (Attachments: # 1 Exhibit A - Redline Comparison of Amended Answer to Initial Answer)(Yang, Grace) (Filed on 9/22/2026) (Entered: 09/22/2026)
+AMENDED ANSWER to Second Amended Complaint 93 Amended Complaint, by Benjamin Mann. (Attachments: # 1 Exhibit A - Redline Comparison of Amended Answer to Initial Answer) (Yang, Grace) (Filed on 9/22/2026) (Entered: 09/22/2026)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/72199828/130/1/concord-music-group-inc-v-anthropic-pbc/)
 
@@ -537,8 +555,9 @@ Proposed Summons. (Knowles, Jeffrey) (Filed on 1/28/2026) (Entered: 01/28/2026)
 [CourtListener 連結](https://www.courtlistener.com/docket/72199828/2/concord-music-group-inc-v-anthropic-pbc/)
 
 <details>
-<summary>已過濾的 63 筆程序性 entries（點擊展開）</summary>
+<summary>已過濾的 64 筆程序性 entries（點擊展開）</summary>
 
+- **Doc #132** (2026-09-29): NOTICE of Appearance filed by Felipe Corredor on behalf of Benjamin Mann, Dario Amodei (Corredor, Felipe) (Filed on 9/29/2026) (Entered: 09/29/2026)
 - **Doc #128** (2026-09-22): Certificate of Interested Entities by Dario Amodei (Yang, Grace) (Filed on 9/22/2026) (Entered: 09/22/2026)
 - **Doc #129** (2026-09-22): Certificate of Interested Entities by Benjamin Mann (Yang, Grace) (Filed on 9/22/2026) (Entered: 09/22/2026)
 - **Doc #112** (2026-08-28): NOTICE of Appearance filed by Richard Steven Busch on behalf of Round Hill Music LP, Round Hill Music Royalty Fund II, LP, Round Hill Music Royalty Fund III Plus, LP, Round Hill Music Royalty Fund III…
@@ -607,4 +626,4 @@ Proposed Summons. (Knowles, Jeffrey) (Filed on 1/28/2026) (Entered: 01/28/2026)
 
 ---
 
-*產生時間：2026-10-01 01:27 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-11-01 01:28 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

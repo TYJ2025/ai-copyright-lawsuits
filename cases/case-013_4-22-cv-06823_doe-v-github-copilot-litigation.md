@@ -1,6 +1,6 @@
 # Case 13 — DOE 1 v. GitHub, Inc.
 
-> 最後更新（CourtListener fetch）：2026-10-01 01:10 UTC
+> 最後更新（CourtListener fetch）：2026-11-01 01:09 UTC
 
 ---
 
@@ -14,7 +14,7 @@
 | Judge Assigned | Jon S. Tigar |
 | Judge Referred | Ajay S. Krishnan |
 | Date Filed | 2022-11-03 |
-| Date Last Filing | 2026-09-16 |
+| Date Last Filing | 2026-10-28 |
 | Cause | 28:1331 Fed. Question: Breach of Contract |
 | Nature of Suit | 190 Contract: Other |
 | Jury Demand | Plaintiff |
@@ -34,11 +34,27 @@
 
 - ⚠️ Court 可能不一致：dashboard 寫「N.D. Cal. 4:22-cv-06823 → 9th Cir. 24-6136（§1292(b) 許可上訴）／24-7700（本案上訴審）」，CourtListener 為「N.D. California」
 - ⚠️ Judge 可能不一致：dashboard 寫「Tigar（N.D. Cal. 原審）／9th Cir. panel: S. Thomas、Miller、Blumenfeld」，CourtListener 為「Jon S. Tigar」
-- ✅ Dashboard progress 同步：dashboard 最新日期 2026-09-16，CourtListener 最後 entry 2026-09-16（dashboard 不落後）
+- ⚠️ Dashboard progress **落後 42 天**：dashboard 最新日期 2026-09-16，CourtListener 最後 entry 2026-10-28——建議查看新近 entries 並補充 progress
 
 ## 3. Docket Entries（最新優先，已過濾程序性 entries）
 
 **實質性 entries**：179 筆／**已過濾程序性 entries**：21 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+
+### 📄 Doc #— — 2026-10-28
+
+Clerk's Notice Setting Zoom Hearing
+
+### 📄 Doc #298 — 2026-10-26
+
+Notice (Other)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/65669506/298/doe-1-v-github-inc/)
+
+### 📄 Doc #297 — 2026-10-08
+
+MANDATE of USCA as to 283 Petition for Permission to Appeal. Case Number 24-6136 Ninth Circuit (dhm, COURT STAFF) (Filed on 10/8/2026) (Entered: 10/08/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/65669506/297/doe-1-v-github-inc/)
 
 ### 📄 Doc #296 — 2026-09-16
 
@@ -1018,24 +1034,6 @@ OPPOSITION/RESPONSE (re 108 MOTION to Dismiss Portions of the First Amended Comp
 
 [CourtListener 連結](https://www.courtlistener.com/docket/65669506/140/doe-1-v-github-inc/)
 
-### 📄 Doc #141 — 2023-07-27
-
-*Filing Error. See dkt 142 for Corrections*OPPOSITION/RESPONSE (re 110 MOTION to Dismiss ) filed by J. DOE 1, J. DOE 2, J. Doe 3, J. Doe 4, J. Doe 5. (Saveri, Joseph) (Filed on 7/27/2023) Modified on 7/28/2023 (sfb, COURT STAFF). (Entered: 07/27/2023)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/65669506/141/doe-1-v-github-inc/)
-
-### 📄 Doc #139 — 2023-07-27
-
-STIPULATION WITH PROPOSED ORDER Regarding Briefing Schedule For Responding To Second Corrected First Amended Complaint filed by GitHub, Inc., Microsoft Corporation. (Hurst, Annette) (Filed on 7/27/2023) (Entered: 07/27/2023)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/65669506/139/doe-1-v-github-inc/)
-
-### 📄 Doc #138 — 2023-07-26
-
-ORDER RE: DISCOVERY DISPUTE. Motions terminated: 71 MOTION MAINTAIN CONFIDENTIALITY DESIGNATIONS FOR PLAINTIFFS TRUE NAMES PURSUANT TO SECTION 6.3 OF THE STIPULATED PROTECTIVE ORDER (ECF NO. 63) filed by J. DOE 1, J. Doe 4, J. Doe 3, J. DOE 2. Signed by Judge Jon S. Tigar on July 26, 2023. (mll, COURT STAFF) (Filed on 7/26/2023) (Entered: 07/26/2023)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/65669506/138/doe-1-v-github-inc/)
-
 <details>
 <summary>已過濾的 21 筆程序性 entries（點擊展開）</summary>
 
@@ -1065,4 +1063,4 @@ ORDER RE: DISCOVERY DISPUTE. Motions terminated: 71 MOTION MAINTAIN CONFIDENTIAL
 
 ---
 
-*產生時間：2026-10-01 01:10 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-11-01 01:09 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

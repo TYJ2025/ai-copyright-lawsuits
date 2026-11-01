@@ -1,6 +1,6 @@
 # Case 37 — Justice v. Uncharted Labs, Inc.
 
-> 最後更新（CourtListener fetch）：2026-10-01 01:21 UTC
+> 最後更新（CourtListener fetch）：2026-11-01 01:20 UTC
 
 ---
 
@@ -13,7 +13,7 @@
 | Court | District Court, S.D. New York (`nysd`) |
 | Judge Assigned | Alvin K. Hellerstein |
 | Date Filed | 2025-06-16 |
-| Date Last Filing | 2026-09-17 |
+| Date Last Filing | 2026-10-15 |
 | Cause | 17:101 Copyright Infringement |
 | Nature of Suit | 820 Copyright |
 | Jury Demand | Plaintiff |
@@ -33,11 +33,29 @@
 
 - ✅ Court 一致：dashboard 寫「S.D.N.Y.」，CourtListener 為「S.D. New York」
 - ✅ Judge 一致：dashboard 寫「Alvin K. Hellerstein」，CourtListener 為「Alvin K. Hellerstein」
-- ⚠️ Dashboard progress **落後 31 天**：dashboard 最新日期 2026-08-17，CourtListener 最後 entry 2026-09-17——建議查看新近 entries 並補充 progress
+- ⚠️ Dashboard progress **落後 59 天**：dashboard 最新日期 2026-08-17，CourtListener 最後 entry 2026-10-15——建議查看新近 entries 並補充 progress
 
 ## 3. Docket Entries（最新優先，已過濾程序性 entries）
 
-**實質性 entries**：88 筆／**已過濾程序性 entries**：48 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+**實質性 entries**：91 筆／**已過濾程序性 entries**：48 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+
+### 📄 Doc #87 — 2026-10-15
+
+Stipulation and Order AND ~Util - Set Deadlines/Hearings
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70549282/87/justice-v-uncharted-labs-inc/)
+
+### 📄 Doc #86 — 2026-10-15
+
+Adjourn Conference
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70549282/86/justice-v-uncharted-labs-inc/)
+
+### 📄 Doc #85 — 2026-10-14
+
+Scheduling Order
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70549282/85/justice-v-uncharted-labs-inc/)
 
 ### 📄 Doc #84 — 2026-09-17
 
@@ -549,4 +567,4 @@ FILING ERROR - DEFICIENT PLEADING - SUMMONS REQUEST PDF ERROR - REQUEST FOR ISSU
 
 ---
 
-*產生時間：2026-10-01 01:21 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-11-01 01:20 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

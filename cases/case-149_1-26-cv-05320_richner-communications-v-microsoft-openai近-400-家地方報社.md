@@ -1,6 +1,6 @@
 # Case 149 — Richner Communications, Inc. v. Microsoft Corporation
 
-> 最後更新（CourtListener fetch）：2026-10-01 01:51 UTC
+> 最後更新（CourtListener fetch）：2026-11-01 01:51 UTC
 
 ---
 
@@ -13,7 +13,7 @@
 | Court | District Court, S.D. New York (`nysd`) |
 | Judge Assigned | — |
 | Date Filed | 2026-06-24 |
-| Date Last Filing | 2026-09-24 |
+| Date Last Filing | 2026-10-30 |
 | Cause | 17:501 Copyright Infringement |
 | Nature of Suit | 820 Copyright |
 | Jury Demand | Plaintiff |
@@ -33,11 +33,269 @@
 
 - ⚠️ Court 可能不一致：dashboard 寫「S.D.N.Y. 1:26-cv-05320」，CourtListener 為「S.D. New York」
 - ⚠️ Judge 可能不一致：dashboard 寫「待確認」，CourtListener 為「」
-- ⚠️ Dashboard progress **落後 92 天**：dashboard 最新日期 2026-06-24，CourtListener 最後 entry 2026-09-24——建議查看新近 entries 並補充 progress
+- ⚠️ Dashboard progress **落後 128 天**：dashboard 最新日期 2026-06-24，CourtListener 最後 entry 2026-10-30——建議查看新近 entries 並補充 progress
 
 ## 3. Docket Entries（最新優先，已過濾程序性 entries）
 
-**實質性 entries**：70 筆／**已過濾程序性 entries**：4 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+**實質性 entries**：114 筆／**已過濾程序性 entries**：4 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+
+### 📄 Doc #106 — 2026-10-30
+
+Proposed Order Proposed Order
+
+[CourtListener 連結](https://www.courtlistener.com/docket/73528019/106/2/richner-communications-inc-v-microsoft-corporation/)
+
+### 📄 Doc #96 — 2026-10-30
+
+Exhibit - Proposed Order for Admission Pro Hac Vice
+
+[CourtListener 連結](https://www.courtlistener.com/docket/73528019/96/3/richner-communications-inc-v-microsoft-corporation/)
+
+### 📄 Doc #90 — 2026-10-30
+
+Proposed Order Exhibit B - Proposed Order
+
+[CourtListener 連結](https://www.courtlistener.com/docket/73528019/90/2/richner-communications-inc-v-microsoft-corporation/)
+
+### 📄 Doc #103 — 2026-10-30
+
+Exhibit 2[Proposed] Order Granting Gregory Leppert's Motion for Leave to Fi
+
+[CourtListener 連結](https://www.courtlistener.com/docket/73528019/103/2/richner-communications-inc-v-microsoft-corporation/)
+
+### 📄 Doc #105 — 2026-10-30
+
+Proposed Order [Proposed] Order Granting Leave to File Amicus Curiae Brief of AI
+
+[CourtListener 連結](https://www.courtlistener.com/docket/73528019/105/2/richner-communications-inc-v-microsoft-corporation/)
+
+### 📄 Doc #104 — 2026-10-30
+
+Exhibit IIPSJ Amici Curiae Brief
+
+[CourtListener 連結](https://www.courtlistener.com/docket/73528019/104/1/richner-communications-inc-v-microsoft-corporation/)
+
+### 📄 Doc #100 — 2026-10-30
+
+Proposed Order Proposed Order Granting Leave to File Brief of Professor Joseph S
+
+[CourtListener 連結](https://www.courtlistener.com/docket/73528019/100/2/richner-communications-inc-v-microsoft-corporation/)
+
+### 📄 Doc #99 — 2026-10-30
+
+File Amicus Brief
+
+[CourtListener 連結](https://www.courtlistener.com/docket/73528019/99/richner-communications-inc-v-microsoft-corporation/)
+
+### 📄 Doc #101 — 2026-10-30
+
+Notice of Appearance
+
+[CourtListener 連結](https://www.courtlistener.com/docket/73528019/101/richner-communications-inc-v-microsoft-corporation/)
+
+### 📄 Doc #102 — 2026-10-30
+
+Memorandum of Law in Support of Motion
+
+[CourtListener 連結](https://www.courtlistener.com/docket/73528019/102/richner-communications-inc-v-microsoft-corporation/)
+
+### 📄 Doc #94 — 2026-10-30
+
+Exhibit B - Proposed Order
+
+[CourtListener 連結](https://www.courtlistener.com/docket/73528019/94/2/richner-communications-inc-v-microsoft-corporation/)
+
+### 📄 Doc #95 — 2026-10-30
+
+Proposed Order Proposed Order
+
+[CourtListener 連結](https://www.courtlistener.com/docket/73528019/95/3/richner-communications-inc-v-microsoft-corporation/)
+
+### 📄 Doc #97 — 2026-10-30
+
+Proposed Order ([Proposed] Order)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/73528019/97/2/richner-communications-inc-v-microsoft-corporation/)
+
+### 📄 Doc #98 — 2026-10-30
+
+Memorandum of Law in Support of Motion
+
+[CourtListener 連結](https://www.courtlistener.com/docket/73528019/98/richner-communications-inc-v-microsoft-corporation/)
+
+### 📄 Doc #92 — 2026-10-30
+
+Exhibit Proposed Brief of Amicus Curiae
+
+[CourtListener 連結](https://www.courtlistener.com/docket/73528019/92/1/richner-communications-inc-v-microsoft-corporation/)
+
+### 📄 Doc #87 — 2026-10-30
+
+Exhibit Proposed Brief of Amici Curiae
+
+[CourtListener 連結](https://www.courtlistener.com/docket/73528019/87/1/richner-communications-inc-v-microsoft-corporation/)
+
+### 📄 Doc #89 — 2026-10-30
+
+Notice of Appearance
+
+[CourtListener 連結](https://www.courtlistener.com/docket/73528019/89/richner-communications-inc-v-microsoft-corporation/)
+
+### 📄 Doc #91 — 2026-10-30
+
+Memorandum of Law in Support of Motion
+
+[CourtListener 連結](https://www.courtlistener.com/docket/73528019/91/richner-communications-inc-v-microsoft-corporation/)
+
+### 📄 Doc #93 — 2026-10-30
+
+Order
+
+[CourtListener 連結](https://www.courtlistener.com/docket/73528019/93/richner-communications-inc-v-microsoft-corporation/)
+
+### 📄 Doc #86 — 2026-10-30
+
+Exhibit B - Proposed Order
+
+[CourtListener 連結](https://www.courtlistener.com/docket/73528019/86/2/richner-communications-inc-v-microsoft-corporation/)
+
+### 📄 Doc #88 — 2026-10-30
+
+Memorandum of Law in Support of Motion
+
+[CourtListener 連結](https://www.courtlistener.com/docket/73528019/88/richner-communications-inc-v-microsoft-corporation/)
+
+### 📄 Doc #85 — 2026-10-30
+
+Exhibit Proposed Order
+
+[CourtListener 連結](https://www.courtlistener.com/docket/73528019/85/2/richner-communications-inc-v-microsoft-corporation/)
+
+### 📄 Doc #81 — 2026-10-29
+
+Proposed Order Proposed Order
+
+[CourtListener 連結](https://www.courtlistener.com/docket/73528019/81/3/richner-communications-inc-v-microsoft-corporation/)
+
+### 📄 Doc #84 — 2026-10-29
+
+Exhibit A - Proposed Amicus Brief
+
+[CourtListener 連結](https://www.courtlistener.com/docket/73528019/84/1/richner-communications-inc-v-microsoft-corporation/)
+
+### 📄 Doc #83 — 2026-10-29
+
+Proposed Order Proposed Order
+
+[CourtListener 連結](https://www.courtlistener.com/docket/73528019/83/2/richner-communications-inc-v-microsoft-corporation/)
+
+### 📄 Doc #82 — 2026-10-29
+
+Memorandum of Law in Support of Motion
+
+[CourtListener 連結](https://www.courtlistener.com/docket/73528019/82/richner-communications-inc-v-microsoft-corporation/)
+
+### 📄 Doc #80 — 2026-10-29
+
+Proposed Order Granting Leave to File Brief of Professor Matthew Sag as Amicus C
+
+[CourtListener 連結](https://www.courtlistener.com/docket/73528019/80/2/richner-communications-inc-v-microsoft-corporation/)
+
+### 📄 Doc #— — 2026-10-29
+
+Notice Regarding Pro Hac Vice Motion
+
+### 📄 Doc #78 — 2026-10-28
+
+Proposed Order for Admission Pro Hac Vice
+
+[CourtListener 連結](https://www.courtlistener.com/docket/73528019/78/3/richner-communications-inc-v-microsoft-corporation/)
+
+### 📄 Doc #76 — 2026-10-28
+
+Proposed Order on Amazon.com, Inc.'s Motion to Seal
+
+[CourtListener 連結](https://www.courtlistener.com/docket/73528019/76/1/richner-communications-inc-v-microsoft-corporation/)
+
+### 📄 Doc #79 — 2026-10-28
+
+Proposed Order for Admission Pro Hac Vice
+
+[CourtListener 連結](https://www.courtlistener.com/docket/73528019/79/3/richner-communications-inc-v-microsoft-corporation/)
+
+### 📄 Doc #77 — 2026-10-28
+
+Declaration in Support of Motion
+
+[CourtListener 連結](https://www.courtlistener.com/docket/73528019/77/richner-communications-inc-v-microsoft-corporation/)
+
+### 📄 Doc #— — 2026-10-28
+
+Notice to Attorney to Re-File Document - Deficient Docket Entry Error
+
+### 📄 Doc #75 — 2026-10-28
+
+File Amicus Brief
+
+[CourtListener 連結](https://www.courtlistener.com/docket/73528019/75/richner-communications-inc-v-microsoft-corporation/)
+
+### 📄 Doc #74 — 2026-10-28
+
+File Amicus Brief
+
+[CourtListener 連結](https://www.courtlistener.com/docket/73528019/74/richner-communications-inc-v-microsoft-corporation/)
+
+### 📄 Doc #73 — 2026-10-27
+
+Proposed Order Granting Pro Hac Vice
+
+[CourtListener 連結](https://www.courtlistener.com/docket/73528019/73/3/richner-communications-inc-v-microsoft-corporation/)
+
+### 📄 Doc #— — 2026-10-26
+
+Notice Regarding Pro Hac Vice Motion
+
+### 📄 Doc #72 — 2026-10-26
+
+Proposed Order for Admission Pro Hac Vice
+
+[CourtListener 連結](https://www.courtlistener.com/docket/73528019/72/4/richner-communications-inc-v-microsoft-corporation/)
+
+### 📄 Doc #71 — 2026-10-23
+
+Oral Argument
+
+[CourtListener 連結](https://www.courtlistener.com/docket/73528019/71/richner-communications-inc-v-microsoft-corporation/)
+
+### 📄 Doc #70 — 2026-10-23
+
+Exhibit Declaration of Lucky Vidmar in Support
+
+[CourtListener 連結](https://www.courtlistener.com/docket/73528019/70/1/richner-communications-inc-v-microsoft-corporation/)
+
+### 📄 Doc #69 — 2026-10-23
+
+Notice of Appearance
+
+[CourtListener 連結](https://www.courtlistener.com/docket/73528019/69/richner-communications-inc-v-microsoft-corporation/)
+
+### 📄 Doc #68 — 2026-10-14
+
+Stipulation and Order
+
+[CourtListener 連結](https://www.courtlistener.com/docket/73528019/68/richner-communications-inc-v-microsoft-corporation/)
+
+### 📄 Doc #67 — 2026-10-07
+
+Order on Motion for Leave to File Document
+
+[CourtListener 連結](https://www.courtlistener.com/docket/73528019/67/richner-communications-inc-v-microsoft-corporation/)
+
+### 📄 Doc #66 — 2026-10-06
+
+Exhibit A - Sample Format
+
+[CourtListener 連結](https://www.courtlistener.com/docket/73528019/66/1/richner-communications-inc-v-microsoft-corporation/)
 
 ### 📄 Doc #65 — 2026-09-24
 
@@ -451,4 +709,4 @@ STATEMENT OF RELATEDNESS re: that this action be filed as related to 25-md-3143.
 
 ---
 
-*產生時間：2026-10-01 01:51 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-11-01 01:51 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

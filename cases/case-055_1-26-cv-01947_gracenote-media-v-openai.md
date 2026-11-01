@@ -1,6 +1,6 @@
 # Case 55 — Gracenote Media Services, LLC v. OpenAI Foundation
 
-> 最後更新（CourtListener fetch）：2026-10-01 01:27 UTC
+> 最後更新（CourtListener fetch）：2026-11-01 01:29 UTC
 
 ---
 
@@ -13,7 +13,7 @@
 | Court | District Court, S.D. New York (`nysd`) |
 | Judge Assigned | Sidney H. Stein |
 | Date Filed | 2026-03-10 |
-| Date Last Filing | 2026-09-24 |
+| Date Last Filing | 2026-10-30 |
 | Cause | 17:501 Copyright Infringement |
 | Nature of Suit | 820 Copyright |
 | Jury Demand | Plaintiff |
@@ -33,135 +33,337 @@
 
 - ✅ Court 一致：dashboard 寫「S.D.N.Y.」，CourtListener 為「S.D. New York」
 - ✅ Judge 一致：dashboard 寫「Sidney H. Stein」，CourtListener 為「Sidney H. Stein」
-- ℹ️ Dashboard progress 內找不到【YYYY/M/D】格式日期；CourtListener 最後 entry: 2026-09-24
+- ℹ️ Dashboard progress 內找不到【YYYY/M/D】格式日期；CourtListener 最後 entry: 2026-10-30
 
 ## 3. Docket Entries（最新優先，已過濾程序性 entries）
 
-**實質性 entries**：93 筆／**已過濾程序性 entries**：16 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+**實質性 entries**：129 筆／**已過濾程序性 entries**：31 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+
+### 📄 Doc #113 — 2026-10-30
+
+Proposed Order Proposed Order
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72384605/86/2/gracenote-media-services-llc-v-openai-foundation/)
+
+### 📄 Doc #103 — 2026-10-30
+
+Exhibit - Proposed Order for Admission Pro Hac Vice
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72384605/103/3/gracenote-media-services-llc-v-openai-foundation/)
+
+### 📄 Doc #97 — 2026-10-30
+
+Proposed Order Exhibit B - Proposed Order
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72384605/97/2/gracenote-media-services-llc-v-openai-foundation/)
+
+### 📄 Doc #110 — 2026-10-30
+
+Exhibit 2[Proposed] Order Granting Gregory Leppert's Motion for Leave to Fi
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72384605/110/2/gracenote-media-services-llc-v-openai-foundation/)
+
+### 📄 Doc #112 — 2026-10-30
+
+Proposed Order [Proposed] Order Granting Leave to File Amicus Curiae Brief of AI
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72384605/112/2/gracenote-media-services-llc-v-openai-foundation/)
+
+### 📄 Doc #111 — 2026-10-30
+
+Exhibit IIPSJ Amici Curiae Brief
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72384605/111/1/gracenote-media-services-llc-v-openai-foundation/)
+
+### 📄 Doc #107 — 2026-10-30
+
+Proposed Order Proposed Order Granting Leave to File Brief of Professor Joseph S
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72384605/107/2/gracenote-media-services-llc-v-openai-foundation/)
+
+### 📄 Doc #106 — 2026-10-30
+
+File Amicus Brief
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72384605/106/gracenote-media-services-llc-v-openai-foundation/)
+
+### 📄 Doc #108 — 2026-10-30
+
+Notice of Appearance
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72384605/108/gracenote-media-services-llc-v-openai-foundation/)
+
+### 📄 Doc #109 — 2026-10-30
+
+Memorandum of Law in Support of Motion
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72384605/109/gracenote-media-services-llc-v-openai-foundation/)
+
+### 📄 Doc #101 — 2026-10-30
+
+Exhibit B - Proposed Order
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72384605/101/2/gracenote-media-services-llc-v-openai-foundation/)
+
+### 📄 Doc #102 — 2026-10-30
+
+Proposed Order Proposed Order
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72384605/102/3/gracenote-media-services-llc-v-openai-foundation/)
+
+### 📄 Doc #104 — 2026-10-30
+
+Proposed Order ([Proposed] Order)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72384605/104/2/gracenote-media-services-llc-v-openai-foundation/)
+
+### 📄 Doc #105 — 2026-10-30
+
+Memorandum of Law in Support of Motion
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72384605/105/gracenote-media-services-llc-v-openai-foundation/)
+
+### 📄 Doc #99 — 2026-10-30
+
+Exhibit Proposed Brief of Amicus Curiae
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72384605/99/1/gracenote-media-services-llc-v-openai-foundation/)
+
+### 📄 Doc #94 — 2026-10-30
+
+Exhibit Proposed Brief of Amici Curiae
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72384605/94/1/gracenote-media-services-llc-v-openai-foundation/)
+
+### 📄 Doc #96 — 2026-10-30
+
+Notice of Appearance
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72384605/96/gracenote-media-services-llc-v-openai-foundation/)
+
+### 📄 Doc #98 — 2026-10-30
+
+Memorandum of Law in Support of Motion
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72384605/98/gracenote-media-services-llc-v-openai-foundation/)
+
+### 📄 Doc #100 — 2026-10-30
+
+Order
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72384605/100/gracenote-media-services-llc-v-openai-foundation/)
+
+### 📄 Doc #93 — 2026-10-30
+
+Exhibit B - Proposed Order
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72384605/93/2/gracenote-media-services-llc-v-openai-foundation/)
+
+### 📄 Doc #95 — 2026-10-30
+
+Memorandum of Law in Support of Motion
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72384605/95/gracenote-media-services-llc-v-openai-foundation/)
+
+### 📄 Doc #92 — 2026-10-30
+
+Exhibit Proposed Order
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72384605/92/2/gracenote-media-services-llc-v-openai-foundation/)
+
+### 📄 Doc #88 — 2026-10-29
+
+Proposed Order Proposed Order
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72384605/88/3/gracenote-media-services-llc-v-openai-foundation/)
+
+### 📄 Doc #91 — 2026-10-29
+
+Exhibit A - Proposed Amicus Brief
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72384605/91/1/gracenote-media-services-llc-v-openai-foundation/)
+
+### 📄 Doc #90 — 2026-10-29
+
+Proposed Order Proposed Order
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72384605/90/2/gracenote-media-services-llc-v-openai-foundation/)
+
+### 📄 Doc #89 — 2026-10-29
+
+Memorandum of Law in Support of Motion
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72384605/89/gracenote-media-services-llc-v-openai-foundation/)
+
+### 📄 Doc #86 — 2026-10-29
+
+Proposed Order Granting Leave to File Brief of Professor Matthew Sag as Amicus C
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72384605/86/2/gracenote-media-services-llc-v-openai-foundation/)
+
+### 📄 Doc #87 — 2026-10-29
+
+Order on Motion to Appear Pro Hac Vice
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72384605/87/gracenote-media-services-llc-v-openai-foundation/)
+
+### 📄 Doc #— — 2026-10-29
+
+Notice Regarding Pro Hac Vice Motion
+
+### 📄 Doc #84 — 2026-10-28
+
+Proposed Order for Admission Pro Hac Vice
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72384605/84/3/gracenote-media-services-llc-v-openai-foundation/)
+
+### 📄 Doc #82 — 2026-10-28
+
+Proposed Order on Amazon.com, Inc.'s Motion to Seal
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72384605/82/1/gracenote-media-services-llc-v-openai-foundation/)
+
+### 📄 Doc #85 — 2026-10-28
+
+Proposed Order for Admission Pro Hac Vice
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72384605/85/3/gracenote-media-services-llc-v-openai-foundation/)
+
+### 📄 Doc #83 — 2026-10-28
+
+Declaration in Support of Motion
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72384605/83/gracenote-media-services-llc-v-openai-foundation/)
+
+### 📄 Doc #— — 2026-10-28
+
+Notice to Attorney to Re-File Document - Deficient Docket Entry Error
+
+### 📄 Doc #81 — 2026-10-28
+
+File Amicus Brief
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72384605/81/gracenote-media-services-llc-v-openai-foundation/)
+
+### 📄 Doc #80 — 2026-10-28
+
+File Amicus Brief
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72384605/80/gracenote-media-services-llc-v-openai-foundation/)
+
+### 📄 Doc #79 — 2026-10-27
+
+Proposed Order Granting Pro Hac Vice
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72384605/79/3/gracenote-media-services-llc-v-openai-foundation/)
+
+### 📄 Doc #— — 2026-10-26
+
+Notice Regarding Pro Hac Vice Motion
+
+### 📄 Doc #77 — 2026-10-23
+
+LETTER MOTION for Oral Argument re Microsoft's Oppositions to Books Plaintiffs and News Plaintiffs Motions for Partial Summary Judgment addressed to Judge Sidney H. Stein from Annette L. Hurst dated 10/23/2026. Document filed by Microsoft Corporation.Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Hurst, Annette) (Entered: 10/23/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72384605/77/gracenote-media-services-llc-v-openai-foundation/)
+
+### 📄 Doc #76 — 2026-10-23
+
+MOTION to Seal . Document filed by Microsoft Corporation. (Attachments: # 1 Exhibit Declaration of Lucky Vidmar in Support)Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Simpson, Lisa) (Entered: 10/23/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72384605/76/1/gracenote-media-services-llc-v-openai-foundation/)
+
+### 📄 Doc #74 — 2026-10-13
+
+AMENDED STIPULATED OMNIBUS SEALING ORDER FOR SUMMARY JUDGMENT AND DAUBERT BRIEFING: IT IS HEREBY ORDERED that sealing issues relating to summary judgment and Daubert briefing will be handled as follows: 1. The Parties may provisionally seal portions of briefing and exhibits (including expert reports and declarations) relating to Daubert briefing that contain or refer to material produced in this case that is designated Protected Discovery Material. 2. The Parties may provisionally seal exhibits ( or portions thereof) relating to summary judgment briefing (including expert reports and declarations) that contain or refer to material produced in this case that is designated Protected Discovery Material.7. Any response to any omnibus motion to seal shall be filed by January 20, 2027.8. By January 27, 2027, the Parties must publicly file any Provisionally SealedMaterial that no Party or third party moved to seal by January 13, 2027. 10. Nothing herein prevents any Party from challenging ano …(truncated)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72384605/74/gracenote-media-services-llc-v-openai-foundation/)
+
+### 📄 Doc #73 — 2026-10-07
+
+ORDER in case 1:23-cv-08292-SHS-OTW; granting (2091) Letter Motion for Leave to File Document in case 1:25-md-03143-SHS-OTW. Request granted. SO ORDERED. (Signed by Judge Sidney H. Stein on 10/7/2026) Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al. (jca) (Entered: 10/07/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72384605/73/gracenote-media-services-llc-v-openai-foundation/)
+
+### 📄 Doc #72 — 2026-10-06
+
+LETTER MOTION for Leave to File Defendants' responses to Plaintiffs' Local Civil Rule 56.1 statements in a format that deviates from the format specified in Local Civil Rule 56.1 addressed to Judge Sidney H. Stein from Annette L. Hurst and Allison Blanco dated October 6, 2026. Document filed by Microsoft Corporation. (Attachments: # 1 Exhibit A - Sample Format)Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Hurst, Annette) (Entered: 10/06/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72384605/72/1/gracenote-media-services-llc-v-openai-foundation/)
+
+### 📄 Doc #— — 2026-09-24
+
+Set/Reset Deadlines: Brief due by 10/30/2026. Responses due by 10/23/2026 Replies due by 11/20/2026. Associated Cases: 1:25-md-03143-SHS-OTW et al.(jca)
 
 ### 📄 Doc #71 — 2026-09-24
 
-Order on Motion for Extension of Time to File
+ORDER in case 1:23-cv-08292-SHS-OTW; granting (2041) Letter Motion for Extension of Time to File in case 1:25-md-03143-SHS-OTW.The schedule as set forth above is granted. SO ORDERED.. (Signed by Judge Sidney H. Stein on 9/24/2026) Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al. (jca) (Entered: 09/24/2026)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/72384605/71/gracenote-media-services-llc-v-openai-foundation/)
 
-### 📄 Doc #69 — 2026-09-14
-
-Notice of Appearance
-
-[CourtListener 連結](https://www.courtlistener.com/docket/72384605/69/gracenote-media-services-llc-v-openai-foundation/)
-
-### 📄 Doc #70 — 2026-09-14
-
-Notice of Appearance
-
-[CourtListener 連結](https://www.courtlistener.com/docket/72384605/70/gracenote-media-services-llc-v-openai-foundation/)
-
 ### 📄 Doc #68 — 2026-09-11
 
-Order
+NOTICE TO THE PARTIES: It has come to my attention that I own stock in Microsoft Corporation. My ownership of this stock has not affected or impacted any decision in this case. Although my ownership of this stock would ordinarily require recusal, Canon 3C(4) of the Code of Conduct for United States Judges states that a magistrate judge is not disqualified because of "a financial interest in a party" if the magistrate judge "divests the interest that provides the grounds for disqualification," unless the interest could be substantially affected by the outcome of the proceeding. Advisory Opinion No. 69 from the Judicial Conference's Committee on Codes of Conduct explains that a magistrate judge may divest the disqualifying interest under Canon 3C(4) at the beginning of the case, after the judge has spent substantial time on the case, or anytime in between. Based on the issues presented in this case, I have concluded that my interest in Microsoft Corporation could not be substantially aff …(truncated)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/72384605/68/gracenote-media-services-llc-v-openai-foundation/)
 
 ### 📄 Doc #67 — 2026-09-04
 
-Redacted Document
+REDACTION to (1700 in 1:25-md-03143-SHS-OTW) MOTION for Summary Judgment . by Daily News LP, The New York Times Company, Ziff Davis Inc.Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Crosby, Ian) (Entered: 09/04/2026)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/72384605/67/gracenote-media-services-llc-v-openai-foundation/)
 
 ### 📄 Doc #66 — 2026-09-03
 
-Stipulation and Order AND ~Util - Set Deadlines
+STIPULATED OMNIBUS SEALING ORDER FOR SUMMARY JUDGMENT AND DAUBERT BRIEFING: IT IS HEREBY ORDERED that sealing issues relating to summary judgment and Daubert briefing will be handled as follows: 1. The Parties may provisionally seal portions of briefing and exhibits (including expert reports and declarations) relating to Daubert briefing that contain or refer to material produced in this case that is designated Protected Discovery Material. 2. The Parties may provisionally seal exhibits ( or portions thereof) relating to summary judgment briefing (including expert reports and declarations) that contain or refer to material produced in this case that is designated Protected Discovery Material. 3. For the material addressed in paragraphs 1 and 2 above (the "Provisionally Sealed Material"), the Parties are relieved from the requirement set forth in paragraph 5(8) of Judge Stein's Individual Practices to file a motion to seal contemporaneously with the sealed filings, and the Parties and t …(truncated)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/72384605/66/gracenote-media-services-llc-v-openai-foundation/)
 
 ### 📄 Doc #65 — 2026-09-01
 
-Letter
+LETTER addressed to Judge Sidney H. Stein from United States of America dated September 1, 2026 re: STATEMENT OF INTEREST OF UNITED STATES OF AMERICA. Document filed by United States of America.Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Weisbuch, Michael) (Entered: 09/01/2026)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/72384605/65/gracenote-media-services-llc-v-openai-foundation/)
 
-### 📄 Doc #64 — 2026-08-12
+### 📄 Doc #64 — 2026-08-11
 
-Memo Endorsement
+MEMO ENDORSEMENT granting on re: (1383 in 1:23-cv-11195-SHS-OTW, 1162 in 1:23-cv-08292-SHS-OTW, 527 in 1:25-cv-04315-SHS-OTW) MOTION for Rose S. Lee to Withdraw as Attorney . filed by OpenAI, Inc., OpenAI GP LLC, OpenAI Startup Fund GP I LLC, OpenAI LP, OAI Corporation LLC, OpenAI Group PBC, OpenAI OpCo, L.L.C., OpenAI Startup Fund I LP, OpenAI GP, LLC, OpenAI Holdings LLC, OpenAI OpCo LLC, OpenAI, LLC, OpenAI Holdings, LLC, OpenAI Global LLC, OpenAI Inc., OpenAI LLC, OpenAI Startup Fund Management LLC, OpenAI Global, L.L.C., OAI Corporation, OAI Corporation, LLC. ENDORSEMENT: Accordingly, Rose S. Lee requests that her withdrawal as counsel be granted and that she be removed from this actions electronic case filing (ECF) service list. Application GRANTED. SO ORDERED. (Signed by Magistrate Judge Ona T. Wang on 8/11/2026) (jjc) (Entered: 08/12/2026)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/72384605/64/gracenote-media-services-llc-v-openai-foundation/)
 
 ### 📄 Doc #62 — 2026-08-07
 
-Order AND ~Util - Set Deadlines
+ORDER: Anyone wishing to file an amicus brief in connection with the summary judgment motions in this multidistrict litigation shall file a motion requesting leave to file an amicus brief no later than October 16, 2026. The motion requesting such leave shall include the proposed amicus brief, which shall be no more than 6,000 words. SO ORDERED. (Motions due by 10/16/2026.) (Signed by Judge Sidney H. Stein on 8/7/2026) Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al. (jca) (Entered: 08/07/2026)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/72384605/62/gracenote-media-services-llc-v-openai-foundation/)
 
 ### 📄 Doc #63 — 2026-08-07
 
-Order AND ~Util - Set Deadlines
+ORDER: The following word limits shall apply to summary judgment motions in the News Cases: Opening Briefs: 8,750 words for Microsoft; 8,750 words for OpenAI; 17,500 words for News Plaintiffs/ divided as they see fit. Opposition Briefs: 17,500 words for defendants, divided as they see fit; 17,500 words for News Plaintiffs, divided as they see fit. Reply Briefs: 8,750 words for defendants, divided as they see fit; 8,750 words for News Plaintiffs, divided as they see fit. The following limits shall apply to summary judgment motions in the consolidated class cases: Class plaintiffs, OpenAI, and Microsoft may each make only one motion for summary judgment. Class plaintiffs, OpenAI, and Microsoft shall each have 12,500 words for opening and opposition briefs, and 7,500 words each for replies. The following limits and schedule shall apply for Daubert motions in all cases: The Court adopts plaintiffs' proposal for a global word count to cover all Dabuert motions, with all plaintiffs sharing a …(truncated)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/72384605/63/gracenote-media-services-llc-v-openai-foundation/)
 
 ### 📄 Doc #60 — 2026-08-05
 
-Letter
+JOINT LETTER addressed to Judge Sidney H. Stein from Davida Brook, Justin A. Nelson, Lisa T. Simpson & R. James Slaughter dated 08/05/2026 re: word limits for summary judgment briefs on class plaintiffs' claims and limitations on Daubert briefs. Document filed by The New York Times Company.Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Brook, Davida) (Entered: 08/05/2026)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/72384605/60/gracenote-media-services-llc-v-openai-foundation/)
 
 ### 📄 Doc #61 — 2026-08-05
 
-Proposed Stipulation and Order
+PROPOSED STIPULATION AND ORDER. Document filed by The New York Times Company..(Brook, Davida) (Entered: 08/05/2026)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/72384605/61/gracenote-media-services-llc-v-openai-foundation/)
 
-### 📄 Doc #55 — 2026-07-21
+### 📄 Doc #50 — 2026-07-14
 
-Summons Returned Executed
+ORDER in case 1:23-cv-08292-SHS-OTW; granting (1617) Letter Motion for Leave to File Document in case 1:25-md-03143-SHS-OTW. Leave to file excess pages in regards to the motion for sanctions is GRANTED. (HEREBY ORDERED by Magistrate Judge Ona T. Wang)(Text Only Order) Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al. (Entered: 07/14/2026)
 
-[CourtListener 連結](https://www.courtlistener.com/docket/72384605/55/gracenote-media-services-llc-v-openai-foundation/)
-
-### 📄 Doc #56 — 2026-07-21
-
-Summons Returned Executed
-
-[CourtListener 連結](https://www.courtlistener.com/docket/72384605/56/gracenote-media-services-llc-v-openai-foundation/)
-
-### 📄 Doc #57 — 2026-07-21
-
-Summons Returned Executed
-
-[CourtListener 連結](https://www.courtlistener.com/docket/72384605/57/gracenote-media-services-llc-v-openai-foundation/)
-
-### 📄 Doc #58 — 2026-07-21
-
-Summons Returned Executed
-
-[CourtListener 連結](https://www.courtlistener.com/docket/72384605/58/gracenote-media-services-llc-v-openai-foundation/)
-
-### 📄 Doc #59 — 2026-07-21
-
-Summons Returned Executed
-
-[CourtListener 連結](https://www.courtlistener.com/docket/72384605/59/gracenote-media-services-llc-v-openai-foundation/)
-
-### 📄 Doc #52 — 2026-07-21
-
-Summons Returned Executed
-
-[CourtListener 連結](https://www.courtlistener.com/docket/72384605/52/gracenote-media-services-llc-v-openai-foundation/)
-
-### 📄 Doc #53 — 2026-07-21
-
-Summons Returned Executed
-
-[CourtListener 連結](https://www.courtlistener.com/docket/72384605/53/gracenote-media-services-llc-v-openai-foundation/)
-
-### 📄 Doc #54 — 2026-07-21
-
-Summons Returned Executed
-
-[CourtListener 連結](https://www.courtlistener.com/docket/72384605/54/gracenote-media-services-llc-v-openai-foundation/)
+[CourtListener 連結](https://www.courtlistener.com/docket/72384605/50/gracenote-media-services-llc-v-openai-foundation/)
 
 ### 📄 Doc #51 — 2026-07-14
 
-Order
+ORDER: The Court is in receipt of News Plaintiffs' motion for sanctions against Defendant OpenAI at ECF 1618. Parties are directed to meet and confer and file a proposed briefing schedule for the reply and response briefs by Friday, July 17, 2026. (Signed by Magistrate Judge Ona T. Wang on 7/14/2026) Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al. (rro) (Entered: 07/14/2026)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/72384605/51/gracenote-media-services-llc-v-openai-foundation/)
 
@@ -173,35 +375,33 @@ Order on Motion for Leave to File Document
 
 Notice Regarding Pro Hac Vice Motion
 
-### 📄 Doc #49 — 2026-07-10
-
-Proposed Order admitting Johnathan J. Vaknin Pro Hac Vice
-
-[CourtListener 連結](https://www.courtlistener.com/docket/72384605/49/3/gracenote-media-services-llc-v-openai-foundation/)
-
 ### 📄 Doc #48 — 2026-07-10
 
-Summons Issued
+ELECTRONIC AMENDED SUMMONS ISSUED as to OAI Corporation, LLC, OpenAI Foundation, OpenAI GP, LLC, OpenAI Global, LLC, OpenAI Group PBC, OpenAI Holdings, LLC, OpenAI OpCo, LLC, OpenAI, LLC..(gp) (Entered: 07/10/2026)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/72384605/48/gracenote-media-services-llc-v-openai-foundation/)
 
 ### 📄 Doc #47 — 2026-07-09
 
-Request for Issuance of Amended Summons
+REQUEST FOR ISSUANCE OF AMENDED SUMMONS as to OPENAI FOUNDATION (f/k/a OPENAI, INC.), OPENAI GROUP PBC, OPENAI GP, LLC, OPENAI, LLC, OPENAI OPCO, LLC, OPENAI GLOBAL, LLC, OAI CORPORATION, LLC, and OPENAI HOLDINGS, LLC, re: 1 Complaint,. Document filed by Gracenote Media Services, LLC..(Wang, Xiaoming) (Entered: 07/09/2026)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/72384605/47/gracenote-media-services-llc-v-openai-foundation/)
 
 ### 📄 Doc #45 — 2026-07-01
 
-Transcript
+TRANSCRIPT of Proceedings re: conference held on 5/12/2026 before Magistrate Judge Ona T. Wang. Court Reporter/Transcriber: Rebecca Forman, (212) 805-0300. Transcript may be viewed at the court public terminal or purchased through the Court Reporter/Transcriber before the deadline for Release of Transcript Restriction. After that date it may be obtained through PACER. Redaction Request due 7/22/2026. Redacted Transcript Deadline set for 8/3/2026. Release of Transcript Restriction set for 9/29/2026.Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Moya, Goretti) (Entered: 07/01/2026)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/72384605/45/gracenote-media-services-llc-v-openai-foundation/)
 
 ### 📄 Doc #46 — 2026-07-01
 
-Notice of Filing Transcript
+NOTICE OF FILING OF OFFICIAL TRANSCRIPT Notice is hereby given that an official transcript of a conference proceeding held on 5/12/26 has been filed by the court reporter/transcriber in the above-captioned matter. The parties have seven (7) calendar days to file with the court a Notice of Intent to Request Redaction of this transcript. If no such Notice is filed, the transcript may be made remotely electronically available to the public without redaction after 90 calendar days...Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Moya, Goretti) (Entered: 07/01/2026)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/72384605/46/gracenote-media-services-llc-v-openai-foundation/)
+
+### 📄 Doc #— — 2026-06-29
+
+***NOTICE TO ATTORNEY REGARDING DEFICIENT REQUEST FOR ISSUANCE OF SUMMONS. Notice to Attorney Xiaoming Wang to RE-FILE Document No. 44 Request for Issuance of Amended Summons,. The filing is deficient for the following reason(s): the PDF attached to the docket entry for the issuance of summons is not correct; OAI INTERNATIONAL, INC. (f/k/a OPENAI, LLC) is not a party listed on the complaint caption title. (pc)
 
 ### 📄 Doc #— — 2026-06-29
 
@@ -209,9 +409,13 @@ Notice to Attorney Regarding Deficient Request for Issuance of Summons
 
 ### 📄 Doc #44 — 2026-06-24
 
-Request for Issuance of Amended Summons
+FILING ERROR - DEFICIENT PLEADING - SUMMONS REQUEST PDF ERROR - REQUEST FOR ISSUANCE OF AMENDED SUMMONS as to OPENAI FOUNDATION (f/k/a OPENAI, INC.), OPENAI GROUP PBC, OPENAI GP, LLC, OAI INTERNATIONAL, INC. (f/k/a OPENAI, LLC), OPENAI OPCO, LLC, OPENAI GLOBAL, LLC, OAI CORPORATION (f/k/a, OAI CORPORATION, LLC), and OPENAI HOLDINGS, LLC, re: 1 Complaint,. Document filed by Gracenote Media Services, LLC..(Wang, Xiaoming) Modified on 6/29/2026 (pc). (Entered: 06/24/2026)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/72384605/44/gracenote-media-services-llc-v-openai-foundation/)
+
+### 📄 Doc #— — 2026-06-23
+
+***NOTICE TO ATTORNEY REGARDING DEFICIENT REQUEST FOR ISSUANCE OF SUMMONS. Notice to Attorney Xiaoming Wang to RE-FILE Document No. 43 Request for Issuance of Amended Summons. The filing is deficient for the following reason(s): the PDF attached to the docket entry for the issuance of summons is not correct; caption error, if all names do not fit in the space provided, name the first listed defendant on the pleading followed by 'et al'. Re-file the document using the event type Request for Issuance of Summons found under the event list Service of Process - select the correct filer/filers - and attach the correct summons form PDF. (sj)
 
 ### 📄 Doc #— — 2026-06-23
 
@@ -227,7 +431,7 @@ Notice to Attorney Regarding Deficient Request for Issuance of Summons
 
 ### 📄 Doc #43 — 2026-06-18
 
-REQUEST FOR ISSUANCE OF AMENDED SUMMONS as to OPENAI FOUNDATION (f/k/a OPENAI, INC.), OPENAI GROUP PBC, OPENAI GP, LLC, OAI INTERNATIONAL, INC. (f/k/a OPENAI, LLC), OPENAI OPCO, LLC, OPENAI GLOBAL, LLC, OAI CORPORATION (f/k/a OAI CORPORATION, LLC), and OPENAI HOLDINGS, LLC, re: 1 Complaint,. Document filed by Gracenote Media Services, LLC..(Wang, Xiaoming) (Entered: 06/18/2026)
+FILING ERROR - DEFICIENT SUMMONS REQUEST - PDF ERROR REQUEST FOR ISSUANCE OF AMENDED SUMMONS as to OPENAI FOUNDATION (f/k/a OPENAI, INC.), OPENAI GROUP PBC, OPENAI GP, LLC, OAI INTERNATIONAL, INC. (f/k/a OPENAI, LLC), OPENAI OPCO, LLC, OPENAI GLOBAL, LLC, OAI CORPORATION (f/k/a OAI CORPORATION, LLC), and OPENAI HOLDINGS, LLC, re: 1 Complaint. Document filed by Gracenote Media Services, LLC..(Wang, Xiaoming) Modified on 6/23/2026 (sj). (Entered: 06/18/2026)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/72384605/43/gracenote-media-services-llc-v-openai-foundation/)
 
@@ -534,8 +738,23 @@ AO 121 FORM COPYRIGHT - NOTICE OF SUBMISSION BY ATTORNEY. AO 121 Form Copyright 
 [CourtListener 連結](https://www.courtlistener.com/docket/72384605/4/gracenote-media-services-llc-v-openai-foundation/)
 
 <details>
-<summary>已過濾的 16 筆程序性 entries（點擊展開）</summary>
+<summary>已過濾的 31 筆程序性 entries（點擊展開）</summary>
 
+- **Doc #—** (2026-10-26): >>>NOTICE REGARDING PRO HAC VICE MOTION. Regarding Document No. (973 in 1:24-cv-03285-SHS-OTW, 52 in 1:26-cv-08892-SHS, 141 in 1:26-cv-03625-SHS, 881 in 1:23-cv-10211-SHS-OTW, 78 in 1:26-cv-01947-SHS,…
+- **Doc #78** (2026-10-26): MOTION for Anna B. Chauvet to Appear Pro Hac Vice . Motion and supporting papers to be reviewed by Clerk's Office staff. Document filed by A.I. Progress, Inc.. (Attachments: # 1 Affidavit of Anna B. C…
+- **Doc #75** (2026-10-23): NOTICE OF APPEARANCE by Matthew Carl Berntsen on behalf of A.I. Progress, Inc.. Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Berntsen, Matthew) (Entered: 10/23/2026)
+- **Doc #69** (2026-09-14): NOTICE OF APPEARANCE by Marc Holden Axelbaum on behalf of Benjamin Chess. Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Axelbaum, Marc) (Entered: 09/14/2026)
+- **Doc #70** (2026-09-14): NOTICE OF APPEARANCE by Marc Holden Axelbaum on behalf of Ermira Murati. Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Axelbaum, Marc) (Entered: 09/14/2026)
+- **Doc #55** (2026-07-21): SUMMONS RETURNED EXECUTED Summons and Complaint, served. OpenAI GP, LLC served on 7/14/2026, answer due 8/4/2026. Service was accepted by Elias Green, authorized to accept service for The Corporation …
+- **Doc #56** (2026-07-21): SUMMONS RETURNED EXECUTED Summons and Complaint, served. OpenAI Group PBC served on 7/14/2026, answer due 8/4/2026. Service was accepted by Elias Green, authorized to accept service for The Corporatio…
+- **Doc #57** (2026-07-21): SUMMONS RETURNED EXECUTED Summons and Complaint, served. OpenAI Global, LLC served on 7/14/2026, answer due 8/4/2026. Service was accepted by Elias Green, authorized to accept service for The Corporat…
+- **Doc #58** (2026-07-21): SUMMONS RETURNED EXECUTED Summons and Complaint, served. OAI Corporation, LLC served on 7/14/2026, answer due 8/4/2026. Service was accepted by Elias Green, authorized to accept service for The Corpor…
+- **Doc #59** (2026-07-21): SUMMONS RETURNED EXECUTED Summons and Complaint, served. OpenAI Holdings, LLC served on 7/14/2026, answer due 8/4/2026. Service was accepted by Elias Green, authorized to accept service for The Corpor…
+- **Doc #52** (2026-07-21): SUMMONS RETURNED EXECUTED Summons and Complaint, served. OpenAI Foundation served on 7/14/2026, answer due 8/4/2026. Service was accepted by Elias Green, authorized to accept service for The Corporati…
+- **Doc #53** (2026-07-21): SUMMONS RETURNED EXECUTED Summons and Complaint, served. OpenAI OpCo, LLC served on 7/14/2026, answer due 8/4/2026. Service was accepted by Elias Green, authorized to accept service for The Corporatio…
+- **Doc #54** (2026-07-21): SUMMONS RETURNED EXECUTED Summons and Complaint, served. OpenAI, LLC served on 7/14/2026, answer due 8/4/2026. Service was accepted by Elias Green, authorized to accept service for The Corporation Tru…
+- **Doc #—** (2026-07-13): >>>NOTICE REGARDING PRO HAC VICE MOTION. Regarding Document No. (615 in 1:24-cv-04872-SHS-OTW, 43 in 1:26-cv-02097-SHS, 440 in 1:24-cv-01514-SHS-OTW, 306 in 1:25-cv-03483-SHS-OTW, 144 in 1:25-cv-06286…
+- **Doc #49** (2026-07-10): MOTION for Johnathan J. Vaknin to Appear Pro Hac Vice . Filing fee $ 200.00, receipt number NYSDC-33120648. Motion and supporting papers to be reviewed by Clerk's Office staff. Document filed by Micro…
 - **Doc #41** (2026-06-16): NOTICE OF APPEARANCE by Xiaoming Wang on behalf of Gracenote Media Services, LLC..(Wang, Xiaoming) (Entered: 06/16/2026)
 - **Doc #—** (2026-04-09): >>>NOTICE REGARDING PRO HAC VICE MOTION. Regarding Document No. 28 MOTION for Davida Brook to Appear Pro Hac Vice . Motion and supporting papers to be reviewed by Clerk's Office staff.. The document h…
 - **Doc #—** (2026-04-08): >>>NOTICE REGARDING PRO HAC VICE MOTION. Regarding Document No. 27 MOTION for Elise Lyle Miller to Appear Pro Hac Vice . Motion and supporting papers to be reviewed by Clerk's Office staff.. The docum…
@@ -557,4 +776,4 @@ AO 121 FORM COPYRIGHT - NOTICE OF SUBMISSION BY ATTORNEY. AO 121 Form Copyright 
 
 ---
 
-*產生時間：2026-10-01 01:27 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-11-01 01:29 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

@@ -1,6 +1,6 @@
 # Case 64 — James v. Together Computer, Inc.
 
-> 最後更新（CourtListener fetch）：2026-10-01 01:30 UTC
+> 最後更新（CourtListener fetch）：2026-11-01 01:32 UTC
 
 ---
 
@@ -13,7 +13,7 @@
 | Court | District Court, N.D. California (`cand`) |
 | Judge Assigned | Rita F. Lin |
 | Date Filed | 2025-11-06 |
-| Date Last Filing | 2026-09-30 |
+| Date Last Filing | 2026-10-23 |
 | Cause | 17:501 Copyright Infringement |
 | Nature of Suit | 820 Copyright |
 | Jury Demand | Plaintiff |
@@ -33,23 +33,29 @@
 
 - ✅ Court 一致：dashboard 寫「N.D. Cal.」，CourtListener 為「N.D. California」
 - ✅ Judge 一致：dashboard 寫「Rita F. Lin」，CourtListener 為「Rita F. Lin」
-- ℹ️ Dashboard progress 內找不到【YYYY/M/D】格式日期；CourtListener 最後 entry: 2026-09-30
+- ℹ️ Dashboard progress 內找不到【YYYY/M/D】格式日期；CourtListener 最後 entry: 2026-10-23
 
 ## 3. Docket Entries（最新優先，已過濾程序性 entries）
 
-**實質性 entries**：45 筆／**已過濾程序性 entries**：28 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+**實質性 entries**：46 筆／**已過濾程序性 entries**：32 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
 
-### 📄 Doc #58 — 2026-09-30
+### 📄 Doc #61 — 2026-10-20
 
-Order on Motion for Pro Hac Vice
+Order by Judge Rita F. Lin granting 60 Stipulation to Amend the Discovery Cutoff. Close of Fact Discovery due by 5/17/2027. (bxs, COURT STAFF) (Filed on 10/20/2026) (Entered: 10/20/2026)
 
-[CourtListener 連結](https://www.courtlistener.com/docket/71883095/58/james-v-together-computer-inc/)
+[CourtListener 連結](https://www.courtlistener.com/docket/71883095/61/james-v-together-computer-inc/)
 
-### 📄 Doc #57 — 2026-09-30
+### 📄 Doc #60 — 2026-10-19
 
-Pro Hac Vice
+STIPULATION WITH PROPOSED ORDER to Amend the Discovery Cutoff (Joint) filed by Josie Brown, Jacinda Townsend Gides, Katia Lief. (Attachments: # 1 Declaration of Daniel M. Hutchinson)(Hutchinson, Daniel) (Filed on 10/19/2026) (Entered: 10/19/2026)
 
-[CourtListener 連結](https://www.courtlistener.com/docket/71883095/57/james-v-together-computer-inc/)
+[CourtListener 連結](https://www.courtlistener.com/docket/71883095/60/james-v-together-computer-inc/)
+
+### 📄 Doc #59 — 2026-10-07
+
+STIPULATION to voluntary dismissal of claims by Darius H. James filed by Darius H. James. (Frysinger, Jordan) (Filed on 10/7/2026) (Entered: 10/07/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71883095/59/james-v-together-computer-inc/)
 
 ### 📄 Doc #54 — 2026-06-03
 
@@ -282,8 +288,12 @@ REPORT on the filing or determination of an action regarding a copyright (cc: fo
 [CourtListener 連結](https://www.courtlistener.com/docket/71883095/3/james-v-together-computer-inc/)
 
 <details>
-<summary>已過濾的 28 筆程序性 entries（點擊展開）</summary>
+<summary>已過濾的 32 筆程序性 entries（點擊展開）</summary>
 
+- **Doc #63** (2026-10-23): Order by Judge Rita F. Lin granting 62 Motion for Pro Hac Vice as to Donald Cuba. (bxs, COURT STAFF) (Filed on 10/23/2026) (Entered: 10/23/2026)
+- **Doc #62** (2026-10-23): Third MOTION for leave to appear in Pro Hac Vice ( Filing fee $ 328, receipt number ACANDC-21465010.) Filing fee previously paid on 12/18/2025 filed by Josie Brown, Katia Lief, Jacinda Townsend Gides.…
+- **Doc #58** (2026-09-30): ORDER signed by Judge Rita F. Lin on 09/30/2026 granting 57 Motion for Pro Hac Vice as to Elizabeth Hunt. (spp, COURT STAFF) (Filed on 9/30/2026) (Entered: 09/30/2026)
+- **Doc #57** (2026-09-30): MOTION for leave to appear in Pro Hac Vice ( Filing fee $ 328, receipt number ACANDC-22532164.) filed by Josie Brown, Darius H. James, Jacinda Townsend Gides. (Attachments: # 1 Certificate of Good Sta…
 - **Doc #56** (2026-06-30): ORDER by Judge Rita F. Lin granting 55 Motion for Pro Hac Vice For Betsy Sugar. (spp, COURT STAFF) (Filed on 6/30/2026) (Entered: 06/30/2026)
 - **Doc #55** (2026-06-30): MOTION for leave to appear in Pro Hac Vice ( Filing fee $ 328, receipt number ACANDC-22158388.) Filing fee previously paid on 6/30/2026 filed by Josie Brown, Darius H. James, Jacinda Townsend Gides. (…
 - **Doc #41** (2026-03-25): MOTION for leave to appear in Pro Hac Vice ( Filing fee $ 328, receipt number ACANDC-21795232.) filed by Darius H. James. (Attachments: # 1 Certificate of Good Standing)(Geman, Rachel) (Filed on 3/25/…
@@ -317,4 +327,4 @@ REPORT on the filing or determination of an action regarding a copyright (cc: fo
 
 ---
 
-*產生時間：2026-10-01 01:30 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-11-01 01:32 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

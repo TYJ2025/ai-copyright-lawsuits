@@ -1,6 +1,6 @@
 # Case 157 — American Federation of Musicians of the United States and Canada v. Warner Music Group Corp.
 
-> 最後更新（CourtListener fetch）：2026-10-01 01:52 UTC
+> 最後更新（CourtListener fetch）：2026-11-01 01:51 UTC
 
 ---
 
@@ -357,4 +357,4 @@ RULE 7.1 CORPORATE DISCLOSURE STATEMENT. No Corporate Parent. Document filed by 
 
 ---
 
-*產生時間：2026-10-01 01:52 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-11-01 01:51 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

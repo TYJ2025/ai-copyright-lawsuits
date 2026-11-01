@@ -1,6 +1,6 @@
 # Case 169 — The Seattle Times Company v. OpenAI Inc.
 
-> 最後更新（CourtListener fetch）：2026-10-01 01:52 UTC
+> 最後更新（CourtListener fetch）：2026-11-01 01:52 UTC
 
 ---
 
@@ -262,4 +262,4 @@ FILING ERROR - DEFICIENT PLEADING - SIGNATURE ERROR - COMPLAINT against Microsof
 
 ---
 
-*產生時間：2026-10-01 01:52 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-11-01 01:52 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

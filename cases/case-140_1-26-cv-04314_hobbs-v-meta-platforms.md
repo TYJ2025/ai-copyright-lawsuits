@@ -1,6 +1,6 @@
 # Case 140 — Hobbs v. Meta Platforms, Inc.
 
-> 最後更新（CourtListener fetch）：2026-10-01 01:50 UTC
+> 最後更新（CourtListener fetch）：2026-11-01 01:49 UTC
 
 ---
 
@@ -13,7 +13,7 @@
 | Court | District Court, S.D. New York (`nysd`) |
 | Judge Assigned | Paul A. Engelmayer |
 | Date Filed | 2026-05-22 |
-| Date Last Filing | 2026-09-23 |
+| Date Last Filing | 2026-10-19 |
 | Cause | 17:501 Copyright Infringement |
 | Nature of Suit | 820 Copyright |
 | Jury Demand | Plaintiff |
@@ -33,11 +33,37 @@
 
 - ⚠️ Court 可能不一致：dashboard 寫「S.D.N.Y. 1:26-cv-04314」，CourtListener 為「S.D. New York」
 - ⚠️ Judge 可能不一致：dashboard 寫「Gregory H. Woods」，CourtListener 為「Paul A. Engelmayer」
-- ℹ️ Dashboard progress 略落後 12 天：dashboard 最新日期 2026-09-11，CourtListener 最後 entry 2026-09-23
+- ⚠️ Dashboard progress **落後 38 天**：dashboard 最新日期 2026-09-11，CourtListener 最後 entry 2026-10-19——建議查看新近 entries 並補充 progress
 
 ## 3. Docket Entries（最新優先，已過濾程序性 entries）
 
-**實質性 entries**：48 筆／**已過濾程序性 entries**：1 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+**實質性 entries**：53 筆／**已過濾程序性 entries**：1 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+
+### 📄 Doc #— — 2026-10-19
+
+Received Acknowledgment (Electronic Case Transfer)
+
+### 📄 Doc #36 — 2026-10-05
+
+Stipulation and Order
+
+[CourtListener 連結](https://www.courtlistener.com/docket/73384790/36/hobbs-v-meta-platforms-inc/)
+
+### 📄 Doc #— — 2026-10-05
+
+Case Transferred Out - District Transfer
+
+### 📄 Doc #35 — 2026-10-05
+
+Memo Endorsement
+
+[CourtListener 連結](https://www.courtlistener.com/docket/73384790/35/hobbs-v-meta-platforms-inc/)
+
+### 📄 Doc #34 — 2026-10-02
+
+Letter
+
+[CourtListener 連結](https://www.courtlistener.com/docket/73384790/34/hobbs-v-meta-platforms-inc/)
 
 ### 📄 Doc #32 — 2026-09-23
 
@@ -304,4 +330,4 @@ COMPLAINT against John Does 1-100, GUILLAUME LAMPLE, JOELLE PINEAU, META PLATFOR
 
 ---
 
-*產生時間：2026-10-01 01:50 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-11-01 01:49 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

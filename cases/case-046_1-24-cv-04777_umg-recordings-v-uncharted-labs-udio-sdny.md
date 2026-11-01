@@ -1,6 +1,6 @@
 # Case 46 — UMG Recordings, Inc. v. Uncharted Labs, Inc.
 
-> 最後更新（CourtListener fetch）：2026-10-01 01:26 UTC
+> 最後更新（CourtListener fetch）：2026-11-01 01:26 UTC
 
 ---
 
@@ -13,7 +13,7 @@
 | Court | District Court, S.D. New York (`nysd`) |
 | Judge Assigned | Alvin K. Hellerstein |
 | Date Filed | 2024-06-24 |
-| Date Last Filing | 2026-09-28 |
+| Date Last Filing | 2026-10-20 |
 | Cause | 17:101 Copyright Infringement |
 | Nature of Suit | 820 Copyright |
 | Jury Demand | Plaintiff |
@@ -33,11 +33,29 @@
 
 - ✅ Court 一致：dashboard 寫「S.D.N.Y.」，CourtListener 為「S.D. New York」
 - ✅ Judge 一致：dashboard 寫「Alvin K. Hellerstein」，CourtListener 為「Alvin K. Hellerstein」
-- ⚠️ Dashboard progress **落後 91 天**：dashboard 最新日期 2026-06-29，CourtListener 最後 entry 2026-09-28——建議查看新近 entries 並補充 progress
+- ⚠️ Dashboard progress **落後 113 天**：dashboard 最新日期 2026-06-29，CourtListener 最後 entry 2026-10-20——建議查看新近 entries 並補充 progress
 
 ## 3. Docket Entries（最新優先，已過濾程序性 entries）
 
-**實質性 entries**：155 筆／**已過濾程序性 entries**：45 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+**實質性 entries**：157 筆／**已過濾程序性 entries**：43 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+
+### 📄 Doc #190 — 2026-10-20
+
+SCHEDULING ORDER: The conference scheduled for October 23, 2026 is adjourned to December 11, 2026 at 10:00 a.m., which will be held via the following call-in number: Call-in number: 646-453-4442 Conference ID: 434 289 979# To ensure that the call proceeds smoothly and to avoid disruption, the Court directs those calling in (other than counsel) to mute their telephones. Additionally, all participants are directed to call in 5 minutes prior to the start of the conference. No later than December 8, 2026, at 12:00 p.m., the parties shall jointly submit to the court (via the email address HellersteinNYSDChambers@nysd.uscourts.gov) a list of all counsel expected to appear on the record, along with their contact information. (Signed by Judge Alvin K. Hellerstein on 10/20/2026) Status Conference set for 12/11/2026 at 10:00 AM before Judge Alvin K. Hellerstein. (ar) (Entered: 10/20/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68878697/190/umg-recordings-inc-v-uncharted-labs-inc/)
+
+### 📄 Doc #189 — 2026-10-15
+
+ORDER granting 188 Letter Motion for Extension of Time. SO ORDERED. (Signed by Judge Alvin K. Hellerstein on 10/15/2026) (ar) (Entered: 10/15/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68878697/189/umg-recordings-inc-v-uncharted-labs-inc/)
+
+### 📄 Doc #188 — 2026-10-14
+
+JOINT LETTER MOTION for Extension of Time to Produce Prompt and Output Logs Sample addressed to Judge Alvin K. Hellerstein dated October 14, 2026. Document filed by Uncharted Labs, Inc., d/b/a Udio.com..(Lovejoy, Brittany) (Entered: 10/14/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68878697/188/umg-recordings-inc-v-uncharted-labs-inc/)
 
 ### 📄 Doc #187 — 2026-09-28
 
@@ -911,14 +929,8 @@ SCHEDULING ORDER : The parties are hereby ordered to appear for an initial pretr
 
 [CourtListener 連結](https://www.courtlistener.com/docket/68878697/29/umg-recordings-inc-v-uncharted-labs-inc/)
 
-### 📄 Doc #26 — 2024-08-01
-
-ANSWER to 9 Complaint,. Document filed by Uncharted Labs, Inc., d/b/a Udio.com..(Feldman, Steven) (Entered: 08/01/2024)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68878697/26/umg-recordings-inc-v-uncharted-labs-inc/)
-
 <details>
-<summary>已過濾的 45 筆程序性 entries（點擊展開）</summary>
+<summary>已過濾的 43 筆程序性 entries（點擊展開）</summary>
 
 - **Doc #150** (2026-01-07): ORDER GRANTING MOTION TO ADMIT COUNSEL PRO HAC VICE granting 149 Motion for Christopher Campbell to Appear Pro Hac Vice. IT IS HEREBY ORDERED that Applicant is admitted to practice pro hac vice in the…
 - **Doc #—** (2026-01-07): >>>NOTICE REGARDING PRO HAC VICE MOTION. Regarding Document No. 149 MOTION for Christopher Campbell to Appear Pro Hac Vice . Motion and supporting papers to be reviewed by Clerk's Office staff.. The d…
@@ -963,11 +975,9 @@ ANSWER to 9 Complaint,. Document filed by Uncharted Labs, Inc., d/b/a Udio.com..
 - **Doc #30** (2024-08-13): FILING ERROR - DEFICIENT DOCKET ENTRY - MOTION for Robert N. Klieger to Appear Pro Hac Vice . Motion and supporting papers to be reviewed by Clerk's Office staff. Document filed by Arista Music, Arist…
 - **Doc #28** (2024-08-07): ORDER GRANTING MOTION TO ADMIT COUNSEL PRO HAC VICE granting 20 Motion for Brittany N. Lovejoy to Appear Pro Hac Vice. The motion of Brittany N. Lovejoy for admission to practice pro hac vice in the a…
 - **Doc #27** (2024-08-07): ORDER GRANTING MOTION TO ADMIT COUNSEL PRO HAC VICE granting 19 Motion for Andrew M. Gass to Appear Pro Hac Vice. The motion of Andrew M. Gass for admission to practice pro hac vice in the above-capti…
-- **Doc #23** (2024-07-31): NOTICE OF APPEARANCE by Alex Spiro on behalf of Uncharted Labs, Inc., d/b/a Udio.com..(Spiro, Alex) (Entered: 07/31/2024)
-- **Doc #24** (2024-07-31): NOTICE OF APPEARANCE by Andrew H. Schapiro on behalf of Uncharted Labs, Inc., d/b/a Udio.com..(Schapiro, Andrew) (Entered: 07/31/2024)
 
 </details>
 
 ---
 
-*產生時間：2026-10-01 01:26 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-11-01 01:26 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

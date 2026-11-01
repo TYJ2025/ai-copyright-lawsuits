@@ -1,6 +1,6 @@
 # Case 27 — Entrepreneur Media, LLC v. Meta Platforms, Inc.
 
-> 最後更新（CourtListener fetch）：2026-09-01 01:16 UTC
+> 最後更新（CourtListener fetch）：2026-11-01 01:16 UTC
 
 ---
 
@@ -14,7 +14,7 @@
 | Judge Assigned | Vince Chhabria |
 | Judge Referred | Thomas S. Hixson |
 | Date Filed | 2025-11-06 |
-| Date Last Filing | 2026-08-27 |
+| Date Last Filing | 2026-10-30 |
 | Cause | 17:101 Copyright Infringement |
 | Nature of Suit | 820 Copyright |
 | Jury Demand | Both |
@@ -34,11 +34,279 @@
 
 - ✅ Court 一致：dashboard 寫「N.D. Cal.」，CourtListener 為「N.D. California」
 - ✅ Judge 一致：dashboard 寫「Vince Chhabria」，CourtListener 為「Vince Chhabria」
-- ℹ️ Dashboard progress 內找不到【YYYY/M/D】格式日期；CourtListener 最後 entry: 2026-08-27
+- ℹ️ Dashboard progress 內找不到【YYYY/M/D】格式日期；CourtListener 最後 entry: 2026-10-30
 
 ## 3. Docket Entries（最新優先，已過濾程序性 entries）
 
-**實質性 entries**：142 筆／**已過濾程序性 entries**：34 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+**實質性 entries**：168 筆／**已過濾程序性 entries**：32 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+
+### 📄 Doc #184 — 2026-10-30
+
+Transcript Order
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71883091/184/entrepreneur-media-llc-v-meta-platforms-inc/)
+
+### 📄 Doc #181 — 2026-10-29
+
+TRANSCRIPT ORDER for proceedings held on 10/29/2026 before Judge Vince Chhabria by Meta Platforms, Inc., for Court Reporter Marla Knox. (Stameshkin, Elizabeth) (Filed on 10/29/2026) (Entered: 10/29/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71883091/181/entrepreneur-media-llc-v-meta-platforms-inc/)
+
+### 📄 Doc #180 — 2026-10-27
+
+JOINT CASE MANAGEMENT STATEMENT filed by Entrepreneur Media, LLC. (Linderman, Lee) (Filed on 10/27/2026) (Entered: 10/27/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71883091/180/entrepreneur-media-llc-v-meta-platforms-inc/)
+
+### 📄 Doc #179 — 2026-10-27
+
+Discovery Order  re  178   Status Report. The Court ORDERS the parties to file a further joint discovery letter brief concerning any remaining disputes over interrogatories 12, 19, 22 and 23 by November 17, 2026, or alternatively a notice that no disputes remain.   Signed by Judge Thomas S. Hixson on 10/27/2026.  (tshlc1, COURT STAFF) (Filed on 10/27/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71883091/179/entrepreneur-media-llc-v-meta-platforms-inc/)
+
+### 📄 Doc #178 — 2026-10-26
+
+STATUS REPORT (Joint) re Interrogatory Nos. 12, 19, 22, and 23 pursuant to Dkt. No. 176 by Entrepreneur Media, LLC. (Linderman, Lee) (Filed on 10/26/2026) (Entered: 10/26/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71883091/178/entrepreneur-media-llc-v-meta-platforms-inc/)
+
+### 📄 Doc #177 — 2026-10-21
+
+NOTICE by Jeff Hobbs, THOMAS DOOLEY, Alfred Douglas Stone Copy of Administrative Motion to Consider Whether Cases Should Be Related, filed in Kadrey v. Meta Platforms, Inc., No. 3:23-cv-03417-VC (Dkt. No. 875), filed pursuant to Civil L.R. 3-12(b) by Plaintiffs in Hobbs v. Meta Platforms, Inc., No. 3:26-cv-11420-PHK (Attachments: # 1 Declaration, # 2 Exhibit, # 3 Proposed Order)(Inscore, Daniel) (Filed on 10/21/2026) (Entered: 10/21/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71883091/177/entrepreneur-media-llc-v-meta-platforms-inc/)
+
+### 📄 Doc #176 — 2026-10-19
+
+Discovery Order by Magistrate Judge Thomas S. Hixson re: ECF Nos. 847, 852, 856, 858 in 3:23-cv-03417-VCECF Nos. 154, 155, 170, 172 in 3:25-cv-09579-VCECF Nos. 138, 159 in 3:26-cv-02333-VCECF Nos. 279 in 3:26-cv-03725-VC ECF Nos. 139 in 3:26-cv-04053-VC (tshlc1, COURT STAFF) (Filed on 10/19/2026)Any non-CM/ECF Participants have been served by First Class Mail to the addresses of record listed on the Notice of Electronic Filing (NEF) (Entered: 10/19/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71883091/176/entrepreneur-media-llc-v-meta-platforms-inc/)
+
+### 📄 Doc #— — 2026-10-15
+
+Set Deadlines/Hearings: Pretrial Conference set for 4/20/2027 at 01:00 PM in San Francisco, Courtroom 03, 17th Floor before Judge Vince Chhabria. Jury Selection/Trial set for 5/3/2027 at 09:00 AM in San Francisco, Courtroom 03, 17th Floor before Judge Vince Chhabria. (bxs, COURT STAFF) (Filed on 10/15/2026)
+
+### 📄 Doc #— — 2026-10-15
+
+Set Deadlines/Hearings
+
+### 📄 Doc #175 — 2026-10-14
+
+ORDER. The Court has considered the concerns expressed by Meta's lead trial counsel about a potential trial conflict in the Western District of Washington, where she will be representing Amazon in a class action trial scheduled for June 2027. In an effort to alleviate the conflict, the trial date for the Entrepreneur Media case (and for any of the other individual cases, if Entrepreneur Media settles) will now be May 3, 2027 (rather than May 24, 2027). The pretrial conference will take place on April 20, 2027 at 1pm. The hearing on dispositive motions remains February 25. If Meta's lead trial counsel is concerned that this is still not enough time between the two trials, she should ask the Western District of Washington for a continuance of the June class action trial. If that request is denied, the Court apologizes, but this case is going to trial on May 3. Signed by Judge Vince Chhabria on 10/14/2026. (This is a text-only entry generated by the court. There is no document associated  …(truncated)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71883091/175/entrepreneur-media-llc-v-meta-platforms-inc/)
+
+### 📄 Doc #— — 2026-10-14
+
+Order
+
+### 📄 Doc #172 — 2026-10-07
+
+Joint Discovery Letter Brief Re: Non-Party Fox Corp.'s Motion for Protective Order filed by Fox Corporation. (Attachments: # 1 Declaration of Susan Shelton Vigon, # 2 Exhibit A)(Yee, Juliana) (Filed on 10/7/2026) (Entered: 10/07/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71883091/172/entrepreneur-media-llc-v-meta-platforms-inc/)
+
+### 📄 Doc #— — 2026-10-07
+
+Notice of Appearance/Substitution/Change/Withdrawal of Attorney
+
+### 📄 Doc #170 — 2026-10-06
+
+Joint Discovery Letter Briefre Dkt. 168 filed by Entrepreneur Media, LLC. (Attachments: # 1 Exhibit A)(Linderman, Lee) (Filed on 10/6/2026) (Entered: 10/06/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71883091/170/1/entrepreneur-media-llc-v-meta-platforms-inc/)
+
+### 📄 Doc #169 — 2026-10-06
+
+NOTICE by Meta Platforms, Inc. of Transfer Order (Attachments: # 1 Exhibit A - Transfer Stipulation)(Phillips, Jessica) (Filed on 10/6/2026) (Entered: 10/06/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71883091/169/entrepreneur-media-llc-v-meta-platforms-inc/)
+
+### 📄 Doc #167 — 2026-09-29
+
+TRANSCRIPT ORDER for proceedings held on 9/25/2026 before Judge Vince Chhabria for Court Reporter Hilda Lopez. (mkl, COURT STAFF) (Filed on 9/29/2026) (Entered: 09/29/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71883091/167/entrepreneur-media-llc-v-meta-platforms-inc/)
+
+### 📄 Doc #168 — 2026-09-29
+
+Discovery Order re 154 Joint Discovery Letter Brief, 155 Joint Discovery Letter Brief. Signed by Judge Thomas S. Hixson on 9/29/2026. (tshlc1, COURT STAFF) (Filed on 9/29/2026) (Entered: 09/29/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71883091/168/entrepreneur-media-llc-v-meta-platforms-inc/)
+
+### 📄 Doc #163 — 2026-09-25
+
+Minute Entry for proceedings held before Judge Vince Chhabria: Further Case Management Conference held via Zoom on 9/25/2026 in case 3:23-cv-03417-VC; 3:25-cv-09579-VC; 3:26-cv-02333-VC; 3:26-cv-03725-VC; :26-cv-04053-VC; 3:26-cv-06793-VC. Court granted request to continue the deadline for Meta to file a motion to compel in Cognella . Motion due by 10/2/2026. Court denied Motion for Relief from Nondispositive Pretrial Order of Magistrate Judge for the reasons as stated on the record. Court put parties on notice about potentially advancing the May 2027 trial date by a few weeks. Motion to Appoint Counsel for Putative Class in Sullivan to be continued to the 2:00PM Zoom calendar on 10/29/2026. In Sullivan, parties to meet and confer and file a stipulated proposed schedule re a hearing on both summary judgment and class certification in spring of 2028. Case Management Statement due by 10/27/2026. Further Case Management Conference set for 10/29/2026 at 02:00 PM by Videoconference Only. To …(truncated)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71883091/163/entrepreneur-media-llc-v-meta-platforms-inc/)
+
+### 📄 Doc #166 — 2026-09-25
+
+TRANSCRIPT ORDER for proceedings held on 09/25/2026 before Judge Vince Chhabria by Entrepreneur Media, LLC, for Court Reporter Hilda Lopez. (Kaba, Moez) (Filed on 9/25/2026) (Entered: 09/25/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71883091/166/entrepreneur-media-llc-v-meta-platforms-inc/)
+
+### 📄 Doc #165 — 2026-09-25
+
+NOTICE by Meta Platforms, Inc. of Transfer Order (Attachments: # 1 Exhibit A - SDNY Order Granting Motion to Transfer)(Smith, Kyle) (Filed on 9/25/2026) (Entered: 09/25/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71883091/165/entrepreneur-media-llc-v-meta-platforms-inc/)
+
+### 📄 Doc #164 — 2026-09-25
+
+TRANSCRIPT ORDER for proceedings held on 09/25/2026 before Judge Vince Chhabria by Meta Platforms, Inc., for Court Reporter Hilda Lopez. (Stameshkin, Elizabeth) (Filed on 9/25/2026) (Entered: 09/25/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71883091/164/entrepreneur-media-llc-v-meta-platforms-inc/)
+
+### 📄 Doc #— — 2026-09-25
+
+Case Management Conference - Further AND Order on Motion for Miscellaneous Relief AND Order on Motion for Miscellaneous Relief AND Order on Motion for Miscellaneous Relief AND ~Util - Set Deadlines/Hearings
+
+### 📄 Doc #162 — 2026-09-23
+
+JOINT CASE MANAGEMENT STATEMENT filed by Meta Platforms, Inc.. (Morton, Phillip) (Filed on 9/23/2026) (Entered: 09/23/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71883091/162/entrepreneur-media-llc-v-meta-platforms-inc/)
+
+### 📄 Doc #161 — 2026-09-18
+
+NOTICE of Filing Unredacted Exhibit to Joint Plaintiff's Discovery Status Statement Pursuant to Court Order dkt 144 re 108 Administrative Motion to Consider Whether Another Partys Material Should be Sealed filed by Entrepreneur Media, LLC. (Attachments: # 1 Exhibit 1 - Unredacted)(Linderman, Lee) (Filed on 9/18/2026) Modified text on 9/21/2026 to conform to filing (jnk, COURT STAFF). (Entered: 09/18/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71883091/161/entrepreneur-media-llc-v-meta-platforms-inc/)
+
+### 📄 Doc #160 — 2026-09-16
+
+Order by Judge Vince Chhabria granting 157 Stipulation TO EXTEND EXPERT REPORT DEADLINES. Opening Reports due by 10/2/2026.Rebuttal Reports due by 10/30/2026.Reply Expert Reports due by 11/13/2026.Close of Expert Discovery due by 12/2/2026. Summary Judgment Brief 1 (Plaintiff's Opening Brief) due by 12/16/2026.Summary Judgment Brief 2 (Defendant's Opening Brief & Opposition) due by 1/12/2027. (bxs, COURT STAFF) (Filed on 9/16/2026) (Entered: 09/16/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71883091/160/entrepreneur-media-llc-v-meta-platforms-inc/)
+
+### 📄 Doc #159 — 2026-09-16
+
+Order by Judge Vince Chhabria granting Stipulation Extending Time to Present Privilege Log Disputes. Associated Cases: 3:25-cv-09579-VC, 3:26-cv-02333-VC, 3:26-cv-03725-VC, 3:26-cv-04053-VC. (bxs, COURT STAFF) (Filed on 9/16/2026) (Entered: 09/16/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71883091/159/entrepreneur-media-llc-v-meta-platforms-inc/)
+
+### 📄 Doc #158 — 2026-09-15
+
+TRANSCRIPT ORDER for proceedings held on 09/09/2026 before Judge Vince Chhabria for Court Reporter Stephen Franklin (Franklin, Stephen) (Filed on 9/15/2026) (Entered: 09/15/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71883091/158/entrepreneur-media-llc-v-meta-platforms-inc/)
+
+### 📄 Doc #157 — 2026-09-14
+
+Stipulation and Proposed [Order] to Extend Expert Report Deadlines filed by Meta Platforms, Inc.. (Morton, Phillip) (Filed on 9/14/2026) (Entered: 09/14/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71883091/157/entrepreneur-media-llc-v-meta-platforms-inc/)
+
+### 📄 Doc #156 — 2026-09-14
+
+Transcript of Proceedings held on 09/09/2026, before Judge Vince Chhabria. Court Reporter/Transcriber Stephen W. Franklin, telephone number (561)313-8439. Per General Order No. 59 and Judicial Conference policy, this transcript may be viewed only at the Clerk's Office public terminal or may be purchased through the Court Reporter/Transcriber until the deadline for the Release of Transcript Restriction. After that date it may be obtained through PACER. Any Notice of Intent to Request Redaction, if required, is due no later than 5 business days from date of this filing. (Re (149 in 3:25-cv-09579-VC) Transcript Order, (148 in 3:25-cv-09579-VC) Transcript Order ) Release of Transcript Restriction set for 12/14/2026. (Franklin, Stephen) (Filed on 9/14/2026) (Entered: 09/14/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71883091/156/entrepreneur-media-llc-v-meta-platforms-inc/)
+
+### 📄 Doc #155 — 2026-09-11
+
+Joint Discovery Letter Brief filed by Entrepreneur Media, LLC. (Attachments: # 1 Exhibit A, # 2 Exhibit B, # 3 Exhibit C, # 4 Exhibit D, # 5 Exhibit E, # 6 Exhibit F)(Linderman, Lee) (Filed on 9/11/2026) (Entered: 09/11/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71883091/155/6/entrepreneur-media-llc-v-meta-platforms-inc/)
+
+### 📄 Doc #154 — 2026-09-11
+
+Joint Discovery Letter Brief filed by Entrepreneur Media, LLC. (Attachments: # 1 Exhibit A, # 2 Exhibit B, # 3 Exhibit C, # 4 Exhibit D, # 5 Exhibit E, # 6 Exhibit F)(Linderman, Lee) (Filed on 9/11/2026) (Entered: 09/11/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71883091/154/6/entrepreneur-media-llc-v-meta-platforms-inc/)
+
+### 📄 Doc #153 — 2026-09-11
+
+Stipulation and Proposed Order Extending Time to Present Privilege Log Disputes filed by Meta Platforms, Inc.. (Stameshkin, Elizabeth) (Filed on 9/11/2026) (Entered: 09/11/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71883091/153/entrepreneur-media-llc-v-meta-platforms-inc/)
+
+### 📄 Doc #— — 2026-09-11
+
+Case Management Conference - Further AND ~Util - Set Deadlines/Hearings
+
+### 📄 Doc #152 — 2026-09-11
+
+Discovery Order re 140 Discovery Letter. (tshlc1, COURT STAFF) (Filed on 9/11/2026) (Entered: 09/11/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71883091/152/entrepreneur-media-llc-v-meta-platforms-inc/)
+
+### 📄 Doc #150 — 2026-09-10
+
+Discovery Order re (100 in 3:26-cv-04053-VC) Status Report, (127 in 3:26-cv-02333-VC) Status Report, (255 in 3:26-cv-03725-VC) Status Report, (142 in 3:25-cv-09579-VC) Status Report, (103 in 3:26-cv-04053-VC) Status Report, (250 in 3:26-cv-03725-VC) Status Report, (124 in 3:26-cv-02333-VC) Status Report, (143 in 3:25-cv-09579-VC) Status Report (tshlc1, COURT STAFF) (Filed on 9/10/2026) (Entered: 09/10/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71883091/150/entrepreneur-media-llc-v-meta-platforms-inc/)
+
+### 📄 Doc #151 — 2026-09-09
+
+Minute Entry for proceedings held before Judge Vince Chhabria: Further Case Management Conference held via Zoom on 9/9/2026. Discussion held regarding issues teed up in the joint case management statements. Discussion held regarding whether to proceed with summary judgment or class certification first in Sullivan . Court provided In the next case management statement, parties to provide concrete examples of how effort would be duplicated by proceeding in two phases as opposed to one. Court will make a final decision at the next case management conference. Case Management Statement due by 9/23/2026. Further Case Management Conference set for 9/25/2026 at 09:00 AM by Videoconference Only. Total Time in Court: 1 hour. Court Reporter: Stephen Franklin. Plaintiff Attorney: Karen Dunn, Mark Weinstein, Phil Morton, Kyle Smith, Meryl Governsk. Defendant Attorney: Margaux Poueymirou, David Simons (Kadrey) Lee Linderman, Harlye Carlton, Moez Kaba (Entrepreneur) Kyle Roche, Elizabeth Brannen (Chi …(truncated)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71883091/151/entrepreneur-media-llc-v-meta-platforms-inc/)
+
+### 📄 Doc #149 — 2026-09-09
+
+TRANSCRIPT ORDER for proceedings held on 09/09/2026 before Judge Vince Chhabria by Entrepreneur Media, LLC, for Court Reporter Stephen Franklin. (Kaba, Moez) (Filed on 9/9/2026) (Entered: 09/09/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71883091/149/entrepreneur-media-llc-v-meta-platforms-inc/)
+
+### 📄 Doc #148 — 2026-09-09
+
+TRANSCRIPT ORDER for proceedings held on 09/09/2026 before Judge Vince Chhabria by Meta Platforms, Inc., for Court Reporter Stephen Franklin. (Stameshkin, Elizabeth) (Filed on 9/9/2026) (Entered: 09/09/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71883091/148/entrepreneur-media-llc-v-meta-platforms-inc/)
+
+### 📄 Doc #146 — 2026-09-09
+
+**CORRECTED Transcript of Proceedings held on August 14, 2026, before Judge Vince Chhabria. Court Reporter, Marla F. Knox, RPR, CRR, RMR, telephone number (602) 391-6990/email marla_knox@cand.uscourts.gov. Per General Order No. 59 and Judicial Conference policy, this transcript may be viewed only at the Clerk's Office public terminal or may be purchased through the Court Reporter/Transcriber until the deadline for the Release of Transcript Restriction. After that date it may be obtained through PACER. Any Notice of Intent to Request Redaction, if required, is due no later than 5 business days from date of this filing. (Re 124 Transcript Order, 123 Transcript Order ) Release of Transcript Restriction set for 12/8/2026. (Related documents(s) 124, 123 ) (Knox, Marla) (Filed on 9/9/2026) (Entered: 09/09/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71883091/146/entrepreneur-media-llc-v-meta-platforms-inc/)
+
+### 📄 Doc #147 — 2026-09-09
+
+**CORRECTED Transcript of Proceedings held on August 14, 2026, before Judge Vince Chhabria. Court Reporter, Marla F. Knox, RPR, CRR, RMR, telephone number (602) 391-6990/email marla_knox@cand.uscourts.gov. Per General Order No. 59 and Judicial Conference policy, this transcript may be viewed only at the Clerk's Office public terminal or may be purchased through the Court Reporter/Transcriber until the deadline for the Release of Transcript Restriction. After that date it may be obtained through PACER. Any Notice of Intent to Request Redaction, if required, is due no later than 5 business days from date of this filing. (Re 124 Transcript Order, 123 Transcript Order ) Release of Transcript Restriction set for 12/8/2026. (Related documents(s) 124, 123 ) (Knox, Marla) (Filed on 9/9/2026) (Entered: 09/09/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71883091/147/entrepreneur-media-llc-v-meta-platforms-inc/)
+
+### 📄 Doc #145 — 2026-09-08
+
+CASE MANAGEMENT STATEMENT [JOINT] filed by Entrepreneur Media, LLC. (Linderman, Lee) (Filed on 9/8/2026) (Entered: 09/08/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71883091/145/entrepreneur-media-llc-v-meta-platforms-inc/)
+
+### 📄 Doc #144 — 2026-09-08
+
+ORDER by Judge Thomas S. Hixson denying 108 Administrative Motion to File Under Seal. Plaintiff shall file Exhibit 1 in the public record without redaction no sooner than five days from today and no later than 10 days from today. (tshlc1, COURT STAFF) (Filed on 9/8/2026) (Entered: 09/08/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71883091/144/entrepreneur-media-llc-v-meta-platforms-inc/)
+
+### 📄 Doc #143 — 2026-09-02
+
+STATUS REPORT by Entrepreneur Media, LLC. (Linderman, Lee) (Filed on 9/2/2026) (Entered: 09/02/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71883091/143/entrepreneur-media-llc-v-meta-platforms-inc/)
+
+### 📄 Doc #142 — 2026-09-02
+
+STATUS REPORT by Meta Platforms, Inc.. (Dunn, Karen) (Filed on 9/2/2026) (Entered: 09/02/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71883091/142/entrepreneur-media-llc-v-meta-platforms-inc/)
+
+### 📄 Doc #141 — 2026-09-01
+
+NOTICE of Withdrawal filed by Kathleen R. Hartnett, no longer appearing on behalf of Meta Platforms, Inc. in this case (Hartnett, Kathleen) (Filed on 9/1/2026) (Entered: 09/01/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71883091/141/entrepreneur-media-llc-v-meta-platforms-inc/)
+
+### 📄 Doc #— — 2026-09-01
+
+Notice of Appearance/Substitution/Change/Withdrawal of Attorney
+
+### 📄 Doc #140 — 2026-09-01
+
+Letter from Karen L. Dunn RFA Discovery Dispute. (Attachments: # 1 Exhibit 1 - 2026-05-22 EM Responses and Objections to Meta RFAs Set One, # 2 Exhibit 2 - 2026-07-20 Plaintiff's Responses to Meta's Request for Admission, Set Three, # 3 Exhibit 3 - 2026-07-31 - EM Amended Responses & Objections to Meta's RFA Set One)(Dunn, Karen) (Filed on 9/1/2026) (Entered: 09/01/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71883091/140/3/entrepreneur-media-llc-v-meta-platforms-inc/)
 
 ### 📄 Doc #139 — 2026-08-27
 
@@ -708,119 +976,14 @@ JOINT CASE MANAGEMENT STATEMENT filed by Entrepreneur Media, LLC. (Linderman, Le
 
 Notice of Appearance/Substitution/Change/Withdrawal of Attorney
 
-### 📄 Doc #18 — 2025-11-25
-
-REASSIGNED CASE - NOTICE OF NEW HEARING DATE: You are notified that the Court has scheduled an Initial Case Management Conference before Judge Vince Chhabria upon reassignment. For a copy of Judge Chhabria's Standing Order and other information, please refer to the Court's website at www.cand.uscourts.gov. Joint Case Management Statement due by 12/12/2025. Initial Case Management Conference set for 12/19/2025 at 10:00 AM by Videoconference Only. This proceeding will be held via a Zoom webinar.Webinar Access: All counsel, members of the public, and media may access the webinar information at https://www.cand.uscourts.gov/vc Court Appearances: Advanced notice is required of counsel or parties who wish to be identified by the court as making an appearance or will be participating in the argument at the hearing. One list of names of all counsel appearing for all parties must be sent in one email to the CRD at vccrd@cand.uscourts.gov no later than Friday, December 12, 2025, by no later than …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/71883091/18/entrepreneur-media-llc-v-meta-platforms-inc/)
-
-### 📄 Doc #— — 2025-11-25
-
-CASE REFERRED to Magistrate Judge Thomas S. Hixson for Discovery. (jnk, COURT STAFF) (Filed on 11/25/2025)
-
-### 📄 Doc #17 — 2025-11-25
-
-ORDER REASSIGNING CASE IT IS ORDERED that this case is directly assigned to Judge Vince Chhabria. Judge Beth Labson Freeman no longer assigned to the case. Counsel are instructed that all future filings shall bear the updated judicial initials immediately after the case number. Counsel are reminded to verify the location of the judge on the court website. All hearing and trial dates presently scheduled are vacated. However, existing briefing schedules for motions remain unchanged. Motions must be renoticed for hearing before the judge to whom the case has been reassigned, but the renoticing of the hearing does not affect the prior briefing schedule. Other deadlines such as those for ADR compliance and discovery cutoff also remain unchanged. Notice: The assigned judge participates in the Cameras in the Courtroom Pilot Project. See General Order 65 and cand.uscourts.gov/cameras. Mark B. Busby Clerk, United States District Court (This is a text-only entry generated by the court. There is  …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/71883091/17/entrepreneur-media-llc-v-meta-platforms-inc/)
-
-### 📄 Doc #19 — 2025-11-25
-
-NOTICE OF REFERRAL FOR DISCOVERY. Signed by Judge Thomas S. Hixson on 11/25/2025. (tshlc1, COURT STAFF) (Filed on 11/25/2025) (Entered: 11/25/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/71883091/19/entrepreneur-media-llc-v-meta-platforms-inc/)
-
-### 📄 Doc #— — 2025-11-25
-
-Clerk's Notice AND ~Util - Teleconference Zoom
-
-### 📄 Doc #— — 2025-11-25
-
-Case Assigned/Reassigned
-
-### 📄 Doc #— — 2025-11-25
-
-Case Referred to Magistrate Judge for Discovery
-
-### 📄 Doc #16 — 2025-11-25
-
-ORDER RELATING CASES: 23-cv-03417-VC & 25-cv-09579-BLF. Signed by Judge Vince Chhabria on 11/25/2025. (bxs, COURT STAFF) (Filed on 11/25/2025) (Entered: 11/25/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/71883091/16/entrepreneur-media-llc-v-meta-platforms-inc/)
-
-### 📄 Doc #15 — 2025-11-19
-
-ORDER APPROVING 14 STIPULATION REGARDING DEFENDANT META PLATFORMS, INC.'S DEADLINE TO RESPOND TO COMPLAINT. Signed by Judge Beth Labson Freeman on November 19, 2025. (blflc2, COURT STAFF) (Filed on 11/19/2025) (Entered: 11/19/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/71883091/15/entrepreneur-media-llc-v-meta-platforms-inc/)
-
-### 📄 Doc #13 — 2025-11-18
-
-NOTICE by Entrepreneur Media, LLC of filing of Administrative Motion to Relate Case (Attachments: # 1 Declaration, # 2 Proposed Order)(Kaba, Moez) (Filed on 11/18/2025) (Entered: 11/18/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/71883091/13/2/entrepreneur-media-llc-v-meta-platforms-inc/)
-
-### 📄 Doc #14 — 2025-11-18
-
-STIPULATION Re Defendant's Deadline to Respond to Complaint filed by Entrepreneur Media, LLC. (Kaba, Moez) (Filed on 11/18/2025) (Entered: 11/18/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/71883091/14/entrepreneur-media-llc-v-meta-platforms-inc/)
-
-### 📄 Doc #11 — 2025-11-11
-
-Initial Case Management Scheduling Order with ADR Deadlines: Notice: The assigned judge participates in the Cameras in the Courtroom Pilot Project. See General Order 65 and cand.uscourts.gov/cameras. Case Management Statement due by 2/26/2026. Initial Case Management Conference set for 3/5/2026 11:00 AM in San Jose, - Videoconference Only. (Attachments: # 1 Notice of Eligibility for Video Recording) (gba, COURT STAFF) (Filed on 11/11/2025) (Entered: 11/11/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/71883091/11/1/entrepreneur-media-llc-v-meta-platforms-inc/)
-
-### 📄 Doc #— — 2025-11-10
-
-CASE REFERRED to Magistrate Judge Virginia K. DeMarchi for Discovery. (jnk, COURT STAFF) (Filed on 11/10/2025)
-
-### 📄 Doc #— — 2025-11-10
-
-Case Referred to Magistrate Judge for Discovery
-
-### 📄 Doc #4 — 2025-11-07
-
-REPORT on the filing of an action regarding a Copyright (cc: form mailed to register). (Attachments: # 1 Exhibit Infringed Works)(Kaba, Moez) (Filed on 11/7/2025) (Entered: 11/07/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/71883091/4/1/entrepreneur-media-llc-v-meta-platforms-inc/)
-
-### 📄 Doc #— — 2025-11-07
-
-Notice of Appearance/Substitution/Change/Withdrawal of Attorney
-
-### 📄 Doc #5 — 2025-11-07
-
-Rule 7.1 Corporate Disclosure Statement by Entrepreneur Media, LLC (Kaba, Moez) (Filed on 11/7/2025) (Entered: 11/07/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/71883091/5/entrepreneur-media-llc-v-meta-platforms-inc/)
-
-### 📄 Doc #3 — 2025-11-06
-
-Case assigned to Judge Beth Labson Freeman. Counsel for plaintiff or the removing party is responsible for serving the Complaint or Notice of Removal, Summons and the assigned judge's standing orders and all other new case documents upon the opposing parties. For information, visit E-Filing A New Civil Case at http://cand.uscourts.gov/ecf/caseopening.Standing orders can be downloaded from the court's web page at www.cand.uscourts.gov/judges. Upon receipt, the summons will be issued and returned electronically. A scheduling order will be sent by Notice of Electronic Filing (NEF) within two business days. (as, COURT STAFF) (Filed on 11/6/2025) (Entered: 11/06/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/71883091/3/entrepreneur-media-llc-v-meta-platforms-inc/)
-
-### 📄 Doc #— — 2025-11-06
-
-~Util - Case Assigned by Intake
-
-### 📄 Doc #1 — 2025-11-06
-
-COMPLAINT for Copyright Infringement and Violation of the Digital Millennium Copyright Act against Meta Platforms, Inc. (Filing fee $ 405, receipt number ACANDC-21321065.). Filed by Entrepreneur Media, LLC. (Attachments: # 1 Exhibit A) (Kaba, Moez) (Filed on 11/6/2025) (Entered: 11/06/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/71883091/1/1/entrepreneur-media-llc-v-meta-platforms-inc/)
-
-### 📄 Doc #2 — 2025-11-06
-
-Proposed Summons. (Kaba, Moez) (Filed on 11/6/2025) (Entered: 11/06/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/71883091/2/entrepreneur-media-llc-v-meta-platforms-inc/)
-
 <details>
-<summary>已過濾的 34 筆程序性 entries（點擊展開）</summary>
+<summary>已過濾的 32 筆程序性 entries（點擊展開）</summary>
 
+- **Doc #183** (2026-10-30): MOTION for leave to appear in Pro Hac Vice ( Filing fee $ 328, receipt number ACANDC-22661968.) filed by Meta Platforms, Inc.. (Attachments: # 1 Certificate/Proof of Service Certificate of Good Standi…
+- **Doc #182** (2026-10-30): MOTION for leave to appear in Pro Hac Vice ( Filing fee $ 328, receipt number ACANDC-22661949.) filed by Meta Platforms, Inc.. (Attachments: # 1 Certificate/Proof of Service Certificate of Good Standi…
+- **Doc #174** (2026-10-07): NOTICE of Appearance filed by Connor Hoge on behalf of Fox Corporation (Hoge, Connor) (Filed on 10/7/2026) (Entered: 10/07/2026)
+- **Doc #173** (2026-10-07): NOTICE of Appearance filed by Malcolm A. Heinicke on behalf of Fox Corporation (Heinicke, Malcolm) (Filed on 10/7/2026) (Entered: 10/07/2026)
+- **Doc #171** (2026-10-07): NOTICE of Appearance filed by Juliana Mariko Yee on behalf of Fox Corporation (Yee, Juliana) (Filed on 10/7/2026) (Entered: 10/07/2026)
 - **Doc #135** (2026-08-20): Order by Judge Vince Chhabria granting 134 Motion for Pro Hac Vice as to Isha Agarwal. (bxs, COURT STAFF) (Filed on 8/20/2026)Any non-CM/ECF Participants have been served by First Class Mail to the ad…
 - **Doc #134** (2026-08-20): MOTION for leave to appear in Pro Hac Vice ( Filing fee $ 328, receipt number ACANDC-22363304.) filed by Meta Platforms, Inc.. (Agarwal, Isha) (Filed on 8/20/2026) (Entered: 08/20/2026)
 - **Doc #112** (2026-08-06): Order by Judge Vince Chhabria granting 110 Motion for Pro Hac Vice as to Taiyee Chien. (bxs, COURT STAFF) (Filed on 8/6/2026)Any non-CM/ECF Participants have been served by First Class Mail to the add…
@@ -848,16 +1011,9 @@ Proposed Summons. (Kaba, Moez) (Filed on 11/6/2025) (Entered: 11/06/2025)
 - **Doc #23** (2025-12-12): NOTICE of Appearance filed by Benjamin Patrick Pugh on behalf of Entrepreneur Media, LLC (Pugh, Benjamin) (Filed on 12/12/2025) (Entered: 12/12/2025)
 - **Doc #20** (2025-12-12): MOTION for leave to appear in Pro Hac Vice ( Filing fee $ 328, receipt number ACANDC-21444635.) filed by Meta Platforms, Inc.. (Dunn, Karen) (Filed on 12/12/2025) (Entered: 12/12/2025)
 - **Doc #21** (2025-12-12): MOTION for leave to appear in Pro Hac Vice ( Filing fee $ 328, receipt number ACANDC-21445421.) filed by Meta Platforms, Inc.. (Phillips, Jessica) (Filed on 12/12/2025) (Entered: 12/12/2025)
-- **Doc #22** (2025-12-12): MOTION for leave to appear in Pro Hac Vice ( Filing fee $ 328, receipt number BCANDC-21445532.) filed by Meta Platforms, Inc.. (Smith, Kyle) (Filed on 12/12/2025) (Entered: 12/12/2025)
-- **Doc #12** (2025-11-11): Summons Issued as to Meta Platforms, Inc. (gba, COURT STAFF) (Filed on 11/11/2025) (Entered: 11/11/2025)
-- **Doc #10** (2025-11-10): SUMMONS Returned Executed by Entrepreneur Media, LLC. Meta Platforms, Inc. served on 11/7/2025, answer due 11/28/2025. (Linderman, Lee) (Filed on 11/10/2025) (Entered: 11/10/2025)
-- **Doc #9** (2025-11-07): NOTICE of Appearance filed by Michael Purpura on behalf of Entrepreneur Media, LLC (Purpura, Michael) (Filed on 11/7/2025) (Entered: 11/07/2025)
-- **Doc #8** (2025-11-07): NOTICE of Appearance filed by Brittnee Bui on behalf of Entrepreneur Media, LLC (Bui, Brittnee) (Filed on 11/7/2025) (Entered: 11/07/2025)
-- **Doc #7** (2025-11-07): NOTICE of Appearance filed by Lee Linderman on behalf of Entrepreneur Media, LLC (Linderman, Lee) (Filed on 11/7/2025) (Entered: 11/07/2025)
-- **Doc #6** (2025-11-07): Certificate of Interested Entities by Entrepreneur Media, LLC (Kaba, Moez) (Filed on 11/7/2025) (Entered: 11/07/2025)
 
 </details>
 
 ---
 
-*產生時間：2026-09-01 01:16 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-11-01 01:16 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

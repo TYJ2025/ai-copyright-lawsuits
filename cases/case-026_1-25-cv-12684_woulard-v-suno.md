@@ -1,6 +1,6 @@
 # Case 26 — Woulard v. Suno, Inc.
 
-> 最後更新（CourtListener fetch）：2026-10-01 01:16 UTC
+> 最後更新（CourtListener fetch）：2026-11-01 01:16 UTC
 
 ---
 
@@ -13,7 +13,7 @@
 | Court | District Court, N.D. Illinois (`ilnd`) |
 | Judge Assigned | Andrea R. Wood |
 | Date Filed | 2025-10-16 |
-| Date Last Filing | 2026-08-24 |
+| Date Last Filing | 2026-10-13 |
 | Cause | 17:101 Copyright Infringement |
 | Nature of Suit | 820 Copyright |
 | Jury Demand | Both |
@@ -33,11 +33,17 @@
 
 - ⚠️ Court 可能不一致：dashboard 寫「N.D. Ill. (1:25-cv-12684)」，CourtListener 為「N.D. Illinois」
 - ✅ Judge 一致：dashboard 寫「Andrea Robin Wood」，CourtListener 為「Andrea R. Wood」
-- ℹ️ Dashboard progress 內找不到【YYYY/M/D】格式日期；CourtListener 最後 entry: 2026-08-24
+- ℹ️ Dashboard progress 內找不到【YYYY/M/D】格式日期；CourtListener 最後 entry: 2026-10-13
 
 ## 3. Docket Entries（最新優先，已過濾程序性 entries）
 
-**實質性 entries**：35 筆／**已過濾程序性 entries**：7 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+**實質性 entries**：36 筆／**已過濾程序性 entries**：7 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+
+### 📄 Doc #42 — 2026-10-13
+
+MINUTE entry before the Honorable Andrea R. Wood: Telephonic status hearing set for 10/14/2026 is stricken and reset for 11/17/2026 at 9:45 AM. The call-in number is (650) 479-3207 and the access code is 1808131170. To ensure public access to court proceedings, members of the public and media may call in to listen to telephonic hearings. Persons granted remote access to proceedings are reminded of the general prohibition against photographing, recording, and rebroadcasting of court proceedings. Violation of these prohibitions may result in sanctions, including removal of court-issued media credentials, restricted entry to future hearings, denial of entry to future hearings, or any other sanctions deemed necessary by the Court. Mailed notice (lma, ) (Entered: 10/13/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71671876/42/woulard-v-suno-inc/)
 
 ### 📄 Doc #41 — 2026-08-24
 
@@ -260,4 +266,4 @@ COMPLAINT filed by Hamza Jilani, Stan Burjek, Maatkara Wilson, Magnus Fiennes, A
 
 ---
 
-*產生時間：2026-10-01 01:16 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-11-01 01:16 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

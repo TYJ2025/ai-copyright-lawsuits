@@ -1,6 +1,6 @@
 # Case 1 — Thomson Reuters Enterprise Centre GmbH v. ROSS Intelligence Inc.
 
-> 最後更新（CourtListener fetch）：2026-10-01 01:00 UTC
+> 最後更新（CourtListener fetch）：2026-11-01 01:00 UTC
 
 ---
 
@@ -1051,4 +1051,4 @@ ORAL ORDER: In response to Thomson Reuters' letter at D.I. 665 requesting additi
 
 ---
 
-*產生時間：2026-10-01 01:00 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-11-01 01:00 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

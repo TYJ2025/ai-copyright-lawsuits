@@ -1,11 +1,11 @@
 # Cases Verification Index
 
-> 由 `scripts/rebuild_case_index.py` 自動重生於 2026-10-01 09:53。**不要手改**。
+> 由 `scripts/rebuild_case_index.py` 自動重生於 2026-11-01 09:53。**不要手改**。
 
-- cases.json 案件數：**167**
-- 已有 case .md 之案件：**129**（合計 12310 筆 docket entries）
-- 有差異需人工確認：**133**
-- fetch 日期早於本月者：**11**
+- cases.json 案件數：**168**
+- 已有 case .md 之案件：**131**（合計 12989 筆 docket entries）
+- 有差異需人工確認：**137**
+- fetch 日期早於本月者：**21**
 
 比對規則：Judge 取姓氏比對、Court 取代碼交集、docket id 逐字比對、並檢查 CourtListener 最後書狀日是否晚於 cases.json 的 updatedAt。
 
@@ -13,103 +13,103 @@
 |---:|---|---|---|
 | 1 | Thomson Reuters v. ROSS Intelligence | 2026-04-27 | ⚠️ Judge 不符：dashboard「Bibas（D. Del. 原審）／3d Cir. panel: Restrepo、Montgomery-Reeves、Bove」／CL「—」；Court 待確認：dashboard「D. Del. 1:20-cv-00613 → 3d Cir. 25-2153（merits appeal）」／CL「Court of Appeals for the Third Circuit (`ca3`)」（無法正規化，需人工看）；docket id 不符：cases.json 17131648／case .md 70622297 |
 | 2 | Getty Images v. Stability AI (US) | 2026-04-27 | ✅ 一致 |
-| 3 | Andersen v. Stability AI (Artists Class Acti | 2026-10-01 | ⚠️ CL 有較新書狀（2026-09-30）而 cases.json 停在 2026-09-29 |
-| 4 | In re Google Generative AI Copyright Litigat | 2026-10-01 | ⚠️ CL 有較新書狀（2026-09-29）而 cases.json 停在 2026-08-05 |
-| 5 | Kadrey v. Meta Platforms (LLaMA Training) | 2026-10-01 | ⚠️ CL 有較新書狀（2026-09-30）而 cases.json 停在 2026-08-05 |
-| 6 | Bartz v. Anthropic (Claude AI — $1.5B Settle | 2026-10-01 | ⚠️ CL 有較新書狀（2026-09-29）而 cases.json 停在 2026-09-06 |
+| 3 | Andersen v. Stability AI (Artists Class Acti | 2026-11-01 | ⚠️ CL 有較新書狀（2026-10-26）而 cases.json 停在 2026-09-29 |
+| 4 | In re Google Generative AI Copyright Litigat | 2026-11-01 | ⚠️ CL 有較新書狀（2026-10-23）而 cases.json 停在 2026-08-05 |
+| 5 | Kadrey v. Meta Platforms (LLaMA Training) | 2026-11-01 | ⚠️ CL 有較新書狀（2026-10-30）而 cases.json 停在 2026-10-22 |
+| 6 | Bartz v. Anthropic (Claude AI — $1.5B Settle | 2026-10-01 | ✅ 一致 |
 | 7 | Concord Music v. Anthropic (AI Lyrics) | 2026-04-27 | ✅ 一致 |
 | 8 | Authors Guild v. OpenAI (Authors Action — MD | 2026-10-01 | ⚠️ CL 有較新書狀（2026-09-25）而 cases.json 停在 2026-09-16 |
-| 9 | New York Times v. Microsoft / OpenAI (Newspa | 2026-10-01 | ✅ 一致 |
-| 10 | In re OpenAI Copyright Infringement Litigati | 2026-10-01 | ⚠️ CL 有較新書狀（2026-09-30）而 cases.json 停在 2026-09-08 |
+| 9 | New York Times v. Microsoft / OpenAI (Newspa | 2026-11-01 | ⚠️ CL 有較新書狀（2026-10-30）而 cases.json 停在 2026-10-17 |
+| 10 | In re OpenAI Copyright Infringement Litigati | 2026-11-01 | ✅ 一致 |
 | 11 | Disney v. Midjourney | 2026-04-27 | ✅ 一致 |
-| 12 | UMG Recordings v. Suno | 2026-10-01 | ⚠️ Judge 不符：dashboard「Saylor IV / Hellerstein / Garnett」／CL「F. Dennis Saylor, IV」；CL 有較新書狀（2026-09-30）而 cases.json 停在 2026-09-20 |
-| 13 | Doe v. GitHub (Copilot Litigation) | 2026-10-01 | ✅ 一致 |
-| 14 | Raw Story Media v. OpenAI (DMCA CMI — Second | 2026-10-01 | ⚠️ Judge 不符：dashboard「McMahon（S.D.N.Y. 原審）／2d Cir. panel: Jacobs、Wesley、E. Lee」／CL「Sidney H. Stein」；CL 有較新書狀（2026-09-24）而 cases.json 停在 2026-08-16 |
+| 12 | UMG Recordings v. Suno | 2026-11-01 | ⚠️ CL 有較新書狀（2026-10-30）而 cases.json 停在 2026-10-24 |
+| 13 | Doe v. GitHub (Copilot Litigation) | 2026-11-01 | ⚠️ CL 有較新書狀（2026-10-28）而 cases.json 停在 2026-09-18 |
+| 14 | Raw Story Media v. OpenAI (DMCA CMI — Second | 2026-11-01 | ⚠️ Judge 不符：dashboard「McMahon（S.D.N.Y. 原審）／2d Cir. panel: Jacobs、Wesley、E. Lee」／CL「Sidney H. Stein」；CL 有較新書狀（2026-10-30）而 cases.json 停在 2026-08-16 |
 | 15 | New York Times v. Perplexity AI | 2026-10-01 | ⚠️ CL 有較新書狀（2026-08-31）而 cases.json 停在 2026-08-05 |
-| 16 | Alcon Entertainment v. Tesla | 2026-10-01 | ⚠️ CL 有較新書狀（2026-09-30）而 cases.json 停在 2026-09-20 |
-| 17 | Strike 3 Holdings v. Meta | 2026-10-01 | ⚠️ CL 有較新書狀（2026-09-04）而 cases.json 停在 2026-08-05 |
-| 18 | Huckabee v. Meta Platforms | 2026-10-01 | ⚠️ Court 不符：dashboard「N.D. Cal.」（cand）／CL「District Court, S.D. New York (`nysd`)」（nysd） |
-| 19 | Reddit v. SerpAPI, Perplexity | 2026-10-01 | ⚠️ CL 有較新書狀（2026-09-30）而 cases.json 停在 2026-08-06 |
-| 20 | Lehrman v. Lovo, Inc. (AI Voice) | 2026-10-01 | ✅ 一致 |
-| 21 | Vacker v. Eleven Labs (AI Voice — SETTLED) | 2026-10-01 | ✅ 一致 |
-| 22 | In re Mosaic LLM Litigation (Databricks) | 2026-10-01 | ⚠️ CL 有較新書狀（2026-09-21）而 cases.json 停在 2026-08-05 |
-| 23 | Dow Jones (WSJ/NY Post) v. Perplexity AI | 2026-10-01 | ⚠️ CL 有較新書狀（2026-09-23）而 cases.json 停在 2026-08-05 |
-| 24 | James v. Snowflake Inc. | 2026-10-01 | ⚠️ CL 有較新書狀（2026-08-28）而 cases.json 停在 2026-08-05 |
+| 16 | Alcon Entertainment v. Tesla | 2026-11-01 | ✅ 一致 |
+| 17 | Strike 3 Holdings v. Meta | 2026-11-01 | ⚠️ CL 有較新書狀（2026-10-28）而 cases.json 停在 2026-08-05 |
+| 18 | Huckabee v. Meta Platforms | 2026-11-01 | ⚠️ Court 不符：dashboard「N.D. Cal.」（cand）／CL「District Court, S.D. New York (`nysd`)」（nysd） |
+| 19 | Reddit v. SerpAPI, Perplexity | 2026-11-01 | ⚠️ CL 有較新書狀（2026-10-29）而 cases.json 停在 2026-10-24 |
+| 20 | Lehrman v. Lovo, Inc. (AI Voice) | 2026-11-01 | ✅ 一致 |
+| 21 | Vacker v. Eleven Labs (AI Voice — SETTLED) | 2026-11-01 | ✅ 一致 |
+| 22 | In re Mosaic LLM Litigation (Databricks) | 2026-11-01 | ⚠️ CL 有較新書狀（2026-10-15）而 cases.json 停在 2026-08-05 |
+| 23 | Dow Jones (WSJ/NY Post) v. Perplexity AI | 2026-11-01 | ⚠️ CL 有較新書狀（2026-10-30）而 cases.json 停在 2026-10-24 |
+| 24 | James v. Snowflake Inc. | 2026-11-01 | ⚠️ CL 有較新書狀（2026-10-27）而 cases.json 停在 2026-08-05 |
 | 25 | Advance Local Media v. Cohere | 2026-10-01 | ⚠️ CL 有較新書狀（2026-09-30）而 cases.json 停在 2026-08-05 |
-| 26 | Woulard v. Suno | 2026-10-01 | ⚠️ CL 有較新書狀（2026-08-24）而 cases.json 停在 2026-08-05 |
-| 27 | Entrepreneur Media v. Meta | 2026-09-01 | ⚠️ CL 有較新書狀（2026-08-27）而 cases.json 停在 2026-08-05 |
-| 28 | Hendrix v. Apple | 2026-09-01 | ✅ 一致 |
-| 29 | Tanzer v. Salesforce | 2026-10-01 | ✅ 一致 |
-| 30 | Disney v. MiniMax | 2026-10-01 | ⚠️ CL 有較新書狀（2026-09-16）而 cases.json 停在 2026-08-05 |
-| 31 | Ted Entertainment v. NVIDIA (DGX Cloud) | 2026-10-01 | ⚠️ CL 有較新書狀（2026-09-23）而 cases.json 停在 2026-08-11 |
-| 32 | Pierce v. Photobucket (AI Image Training) | 2026-10-01 | ✅ 一致 |
-| 33 | Chicago Tribune v. Perplexity AI | 2026-10-01 | ⚠️ CL 有較新書狀（2026-08-31）而 cases.json 停在 2026-08-11 |
-| 34 | Encyclopaedia Britannica v. Perplexity AI | 2026-10-01 | ⚠️ CL 有較新書狀（2026-09-29）而 cases.json 停在 2026-09-21 |
-| 35 | Intercept Media v. OpenAI | 2026-10-01 | ⚠️ CL 有較新書狀（2026-09-24）而 cases.json 停在 2026-09-03 |
-| 36 | Justice v. Suno | 2026-09-01 | ✅ 一致 |
-| 37 | Justice v. Uncharted Labs (Udio) | 2026-10-01 | ⚠️ CL 有較新書狀（2026-09-17）而 cases.json 停在 2026-08-29 |
-| 38 | Nazemian v. NVIDIA Corp. | 2026-10-01 | ⚠️ CL 有較新書狀（2026-09-30）而 cases.json 停在 2026-08-11 |
-| 39 | Warner Bros. v. Midjourney | 2026-10-01 | ✅ 一致 |
+| 26 | Woulard v. Suno | 2026-11-01 | ⚠️ CL 有較新書狀（2026-10-13）而 cases.json 停在 2026-08-05 |
+| 27 | Entrepreneur Media v. Meta | 2026-11-01 | ⚠️ CL 有較新書狀（2026-10-30）而 cases.json 停在 2026-08-05 |
+| 28 | Hendrix v. Apple | 2026-11-01 | ✅ 一致 |
+| 29 | Tanzer v. Salesforce | 2026-11-01 | ✅ 一致 |
+| 30 | Disney v. MiniMax | 2026-11-01 | ⚠️ CL 有較新書狀（2026-10-20）而 cases.json 停在 2026-08-05 |
+| 31 | Ted Entertainment v. NVIDIA (DGX Cloud) | 2026-10-01 | ✅ 一致 |
+| 32 | Pierce v. Photobucket (AI Image Training) | 2026-11-01 | ✅ 一致 |
+| 33 | Chicago Tribune v. Perplexity AI | 2026-11-01 | ⚠️ CL 有較新書狀（2026-10-21）而 cases.json 停在 2026-08-11 |
+| 34 | Encyclopaedia Britannica v. Perplexity AI | 2026-11-01 | ⚠️ CL 有較新書狀（2026-10-29）而 cases.json 停在 2026-09-21 |
+| 35 | Intercept Media v. OpenAI | 2026-11-01 | ⚠️ CL 有較新書狀（2026-10-30）而 cases.json 停在 2026-09-03 |
+| 36 | Justice v. Suno | 2026-11-01 | ⚠️ CL 有較新書狀（2026-10-30）而 cases.json 停在 2026-08-27 |
+| 37 | Justice v. Uncharted Labs (Udio) | 2026-11-01 | ⚠️ CL 有較新書狀（2026-10-15）而 cases.json 停在 2026-08-29 |
+| 38 | Nazemian v. NVIDIA Corp. | 2026-11-01 | ⚠️ CL 有較新書狀（2026-10-30）而 cases.json 停在 2026-08-11 |
+| 39 | Warner Bros. v. Midjourney | 2026-11-01 | ✅ 一致 |
 | 41 | Daily News v. Microsoft/OpenAI | 2026-10-01 | ⚠️ CL 有較新書狀（2026-09-24）而 cases.json 停在 2026-08-11 |
-| 42 | Ziff Davis v. OpenAI | 2026-10-01 | ⚠️ Court 不符：dashboard「MDL Before Judge Stein (Originally D. Del.)」（ded）／CL「District Court, S.D. New York (`nysd`)」（nysd）；CL 有較新書狀（2026-09-24）而 cases.json 停在 2026-08-27 |
-| 43 | U.S. News & World Report v. OpenAI | 2026-10-01 | ⚠️ CL 有較新書狀（2026-09-24）而 cases.json 停在 2026-08-11 |
-| 44 | BMG Rights Management v. Anthropic | 2026-10-01 | ⚠️ Judge 不符：dashboard「Alex G. Tse (Magistrate Judge)」／CL「Eumi K. Lee」；CL 有較新書狀（2026-09-29）而 cases.json 停在 2026-09-12 |
-| 45 | Huckabee v. Bloomberg | 2026-10-01 | ✅ 一致 |
-| 46 | UMG Recordings v. Uncharted Labs (Udio) — SD | 2026-10-01 | ⚠️ CL 有較新書狀（2026-09-28）而 cases.json 停在 2026-08-11 |
-| 47 | Denial v. OpenAI | 2026-10-01 | ⚠️ Court 不符：dashboard「MDL Before Judge Stein (Originally N.D. Cal.)」（cand）／CL「District Court, S.D. New York (`nysd`)」（nysd）；CL 有較新書狀（2026-09-24）而 cases.json 停在 2026-08-11 |
-| 48 | Ted Entertainment v. Apple | 2026-10-01 | ⚠️ Court 不符：dashboard「C.D. Cal.」（cacd）／CL「District Court, N.D. California (`cand`)」（cand）；CL 有較新書狀（2026-09-23）而 cases.json 停在 2026-08-11 |
-| 49 | Ted Entertainment v. OpenAI | 2026-10-01 | ⚠️ Court 不符：dashboard「C.D. Cal.」（cacd）／CL「District Court, N.D. California (`cand`)」（cand）；CL 有較新書狀（2026-09-28）而 cases.json 停在 2026-08-11 |
-| 50 | Ted Entertainment v. Amazon | 2026-10-01 | ⚠️ Court 不符：dashboard「C.D. Cal.」（cacd）／CL「District Court, N.D. California (`cand`)」（cand）；CL 有較新書狀（2026-09-30）而 cases.json 停在 2026-08-11 |
-| 51 | Ted Entertainment v. Bytedance (TikTok) | 2026-10-01 | ⚠️ Court 不符：dashboard「C.D. Cal.」（cacd）／CL「District Court, N.D. California (`cand`)」（cand）；CL 有較新書狀（2026-09-30）而 cases.json 停在 2026-08-11 |
-| 52 | Concord Music v. Anthropic II (Torrenting Cl | 2026-10-01 | ⚠️ CL 有較新書狀（2026-09-29）而 cases.json 停在 2026-09-10 |
-| 53 | Encyclopaedia Britannica v. OpenAI | 2026-10-01 | ⚠️ CL 有較新書狀（2026-09-24）而 cases.json 停在 2026-08-11 |
-| 54 | Merriam-Webster v. OpenAI | 2026-10-01 | ⚠️ CL 有較新書狀（2026-09-24）而 cases.json 停在 2026-08-18 |
-| 55 | Gracenote Media v. OpenAI | 2026-10-01 | ⚠️ CL 有較新書狀（2026-09-24）而 cases.json 停在 2026-08-18 |
-| 56 | Cambronne (Carreyrou) v. Anthropic | 2026-10-01 | ✅ 一致 |
+| 42 | Ziff Davis v. OpenAI | 2026-11-01 | ⚠️ Court 不符：dashboard「MDL Before Judge Stein (Originally D. Del.)」（ded）／CL「District Court, S.D. New York (`nysd`)」（nysd）；CL 有較新書狀（2026-10-30）而 cases.json 停在 2026-08-27 |
+| 43 | U.S. News & World Report v. OpenAI | 2026-11-01 | ⚠️ CL 有較新書狀（2026-10-30）而 cases.json 停在 2026-08-11 |
+| 44 | BMG Rights Management v. Anthropic | 2026-11-01 | ⚠️ Judge 不符：dashboard「Alex G. Tse (Magistrate Judge)」／CL「Eumi K. Lee」；CL 有較新書狀（2026-10-22）而 cases.json 停在 2026-10-17 |
+| 45 | Huckabee v. Bloomberg | 2026-11-01 | ✅ 一致 |
+| 46 | UMG Recordings v. Uncharted Labs (Udio) — SD | 2026-11-01 | ⚠️ CL 有較新書狀（2026-10-20）而 cases.json 停在 2026-08-11 |
+| 47 | Denial v. OpenAI | 2026-11-01 | ⚠️ Court 不符：dashboard「MDL Before Judge Stein (Originally N.D. Cal.)」（cand）／CL「District Court, S.D. New York (`nysd`)」（nysd）；CL 有較新書狀（2026-10-30）而 cases.json 停在 2026-08-11 |
+| 48 | Ted Entertainment v. Apple | 2026-11-01 | ⚠️ Judge 不符：dashboard「Richard Seeborg」／CL「Edward J. Davila」 |
+| 49 | Ted Entertainment v. OpenAI | 2026-11-01 | ⚠️ Court 不符：dashboard「C.D. Cal.」（cacd）／CL「District Court, N.D. California (`cand`)」（cand） |
+| 50 | Ted Entertainment v. Amazon | 2026-11-01 | ⚠️ Court 不符：dashboard「C.D. Cal.」（cacd）／CL「District Court, N.D. California (`cand`)」（cand） |
+| 51 | Ted Entertainment v. Bytedance (TikTok) | 2026-11-01 | ✅ 一致 |
+| 52 | Concord Music v. Anthropic II (Torrenting Cl | 2026-11-01 | ⚠️ CL 有較新書狀（2026-10-16）而 cases.json 停在 2026-10-04 |
+| 53 | Encyclopaedia Britannica v. OpenAI | 2026-11-01 | ⚠️ CL 有較新書狀（2026-10-30）而 cases.json 停在 2026-08-11 |
+| 54 | Merriam-Webster v. OpenAI | 2026-11-01 | ⚠️ CL 有較新書狀（2026-10-30）而 cases.json 停在 2026-08-18 |
+| 55 | Gracenote Media v. OpenAI | 2026-11-01 | ⚠️ CL 有較新書狀（2026-10-30）而 cases.json 停在 2026-08-18 |
+| 56 | Cambronne (Carreyrou) v. Anthropic | 2026-11-01 | ⚠️ CL 有較新書狀（2026-10-19）而 cases.json 停在 2026-10-04 |
 | 57 | case-057_3-25-cv-10897_carreyrou-v-anthropic | 2026-04-27 | ⚠️ case .md 存在但 cases.json 無此 id（案件已刪除？） |
 | 58 | Chicken Soup for the Soul v. Multiple AI Com | 2026-04-27 | ✅ 一致 |
-| 59 | Amazon.com Services v. Perplexity AI | 2026-10-01 | ⚠️ CL 有較新書狀（2026-09-30）而 cases.json 停在 2026-08-18 |
-| 60 | Getty Images v. Stability AI (N.D. Cal.) | 2026-10-01 | ⚠️ Court 不符：dashboard「N.D. Cal.」（cand）／CL「District Court, D. Delaware (`ded`)」（ded） |
-| 61 | Anders v. Stability AI | 2026-10-01 | ✅ 一致 |
-| 62 | Lyon v. Adobe | 2026-10-01 | ⚠️ CL 有較新書狀（2026-09-30）而 cases.json 停在 2026-08-18 |
-| 63 | Kleiner v. Adobe | 2026-10-01 | ⚠️ CL 有較新書狀（2026-09-30）而 cases.json 停在 2026-08-18 |
-| 64 | James v. Together Compute | 2026-10-01 | ⚠️ CL 有較新書狀（2026-09-30）而 cases.json 停在 2026-08-18 |
-| 65 | James v. Cerebras Systems | 2026-10-01 | ⚠️ CL 有較新書狀（2026-09-30）而 cases.json 停在 2026-08-18 |
+| 59 | Amazon.com Services v. Perplexity AI | 2026-11-01 | ⚠️ CL 有較新書狀（2026-10-30）而 cases.json 停在 2026-08-18 |
+| 60 | Getty Images v. Stability AI (N.D. Cal.) | 2026-11-01 | ⚠️ Court 不符：dashboard「N.D. Cal.」（cand）／CL「District Court, D. Delaware (`ded`)」（ded） |
+| 61 | Anders v. Stability AI | 2026-11-01 | ✅ 一致 |
+| 62 | Lyon v. Adobe | 2026-11-01 | ⚠️ CL 有較新書狀（2026-10-06）而 cases.json 停在 2026-08-18 |
+| 63 | Kleiner v. Adobe | 2026-11-01 | ⚠️ CL 有較新書狀（2026-10-06）而 cases.json 停在 2026-08-18 |
+| 64 | James v. Together Compute | 2026-11-01 | ⚠️ CL 有較新書狀（2026-10-23）而 cases.json 停在 2026-08-18 |
+| 65 | James v. Cerebras Systems | 2026-11-01 | ⚠️ CL 有較新書狀（2026-10-27）而 cases.json 停在 2026-08-18 |
 | 66 | David Greene v. Google | 2026-10-01 | ⚠️ CL 有較新書狀（2026-09-29）而 cases.json 停在 2026-08-18 |
-| 67 | Carreyrou v. OpenAI | 2026-10-01 | ⚠️ CL 有較新書狀（2026-09-24）而 cases.json 停在 2026-08-18 |
-| 68 | Millette v. Google | 2026-10-01 | ✅ 一致 |
-| 69 | Millette v. NVIDIA | 2026-10-01 | ✅ 一致 |
+| 67 | Carreyrou v. OpenAI | 2026-11-01 | ⚠️ CL 有較新書狀（2026-10-19）而 cases.json 停在 2026-08-18 |
+| 68 | Millette v. Google | 2026-11-01 | ✅ 一致 |
+| 69 | Millette v. NVIDIA | 2026-11-01 | ✅ 一致 |
 | 70 | Millette v. OpenAI | 2026-10-01 | ⚠️ Judge 不符：dashboard「Davila/Stein」／CL「Sidney H. Stein」；Court 不符：dashboard「N.D. Cal. (MDL)」（cand）／CL「District Court, S.D. New York (`nysd`)」（nysd）；CL 有較新書狀（2026-09-30）而 cases.json 停在 2026-08-18 |
 | 71 | Basbanes v. Microsoft | 2026-10-01 | ⚠️ CL 有較新書狀（2026-09-24）而 cases.json 停在 2026-08-18 |
-| 72 | Center for Investigative Reporting v. OpenAI | 2026-10-01 | ⚠️ CL 有較新書狀（2026-09-24）而 cases.json 停在 2026-08-18 |
-| 73 | Bird v. Microsoft | 2026-10-01 | ✅ 一致 |
-| 74 | California Newspaper Partnership v. Microsof | 2026-10-01 | ⚠️ CL 有較新書狀（2026-09-24）而 cases.json 停在 2026-08-18 |
-| 75 | Apress Media v. Anna's Archive | 2026-10-01 | ✅ 一致 |
-| 76 | Kogon v. Google | 2026-10-01 | ⚠️ Court 不符：dashboard「N.D. Ill.」（ilnd）／CL「District Court, N.D. California (`cand`)」（cand）；CL 有較新書狀（2026-09-29）而 cases.json 停在 2026-08-18 |
+| 72 | Center for Investigative Reporting v. OpenAI | 2026-11-01 | ⚠️ CL 有較新書狀（2026-10-30）而 cases.json 停在 2026-08-18 |
+| 73 | Bird v. Microsoft | 2026-11-01 | ✅ 一致 |
+| 74 | California Newspaper Partnership v. Microsof | 2026-11-01 | ⚠️ CL 有較新書狀（2026-10-30）而 cases.json 停在 2026-08-18 |
+| 75 | Apress Media v. Anna's Archive | 2026-11-01 | ✅ 一致 |
+| 76 | Kogon v. Google | 2026-11-01 | ⚠️ Court 不符：dashboard「N.D. Ill.」（ilnd）／CL「District Court, N.D. California (`cand`)」（cand）；CL 有較新書狀（2026-10-23）而 cases.json 停在 2026-08-18 |
 | 77 | Businessing v. Runway AI | 2026-04-27 | ⚠️ Court 不符：dashboard「SDNY」（nysd）／CL「District Court, C.D. California (`cacd`)」（cacd） |
-| 78 | Gardner v. Runway AI | 2026-10-01 | ⚠️ Court 不符：dashboard「N.D. Cal.」（cand）／CL「District Court, C.D. California (`cacd`)」（cacd） |
-| 79 | Ted Entertainment v. Snap | 2026-10-01 | ⚠️ CL 有較新書狀（2026-09-28）而 cases.json 停在 2026-09-01 |
-| 80 | Chmura v. Snap | 2026-10-01 | ⚠️ Court 不符：dashboard「C.D. Cal.」（cacd）／CL「District Court, N.D. California (`cand`)」（cand） |
-| 81 | Google v. SerpApi | 2026-10-01 | ⚠️ CL 有較新書狀（2026-09-29）而 cases.json 停在 2026-09-01 |
-| 82 | Ted Entertainment v. Meta | 2026-10-01 | ⚠️ CL 有較新書狀（2026-09-28）而 cases.json 停在 2026-09-01 |
-| 83 | Youngblood v. Meta | 2026-10-01 | ✅ 一致 |
-| 84 | Youngblood v. NVIDIA | 2026-10-01 | ⚠️ CL 有較新書狀（2026-09-30）而 cases.json 停在 2026-09-01 |
-| 85 | Atlantic Recording Corp. v. Anna's Archive | 2026-10-01 | ✅ 一致 |
-| 86 | Beaulier v. NVIDIA Corporation (3D Models) | 2026-10-01 | ⚠️ CL 有較新書狀（2026-09-04）而 cases.json 停在 2026-09-01 |
-| 87 | Beaulier v. Meta Platforms (3D Models) | 2026-10-01 | ⚠️ CL 有較新書狀（2026-09-04）而 cases.json 停在 2026-09-01 |
-| 88 | Beaulier v. Roblox (3D Models) | 2026-10-01 | ⚠️ CL 有較新書狀（2026-09-04）而 cases.json 停在 2026-09-01 |
-| 89 | Beaulier v. Microsoft (3D Models) | 2026-10-01 | ⚠️ Court 不符：dashboard「W.D. Wash.」（wawd）／CL「District Court, N.D. California (`cand`)」（cand） |
-| 90 | Martinez-Conde v. Apple (split from consolid | 2026-09-01 | ✅ 一致 |
-| 91 | Alexander v. Apple (split from consolidated  | 2026-10-01 | ⚠️ CL 有較新書狀（2026-09-30）而 cases.json 停在 2026-09-01 |
-| 92 | Alexander v. Salesforce (split from In re Sa | 2026-10-01 | ⚠️ CL 有較新書狀（2026-09-29）而 cases.json 停在 2026-09-01 |
+| 78 | Gardner v. Runway AI | 2026-11-01 | ⚠️ Court 不符：dashboard「N.D. Cal.」（cand）／CL「District Court, C.D. California (`cacd`)」（cacd） |
+| 79 | Ted Entertainment v. Snap | 2026-11-01 | ⚠️ CL 有較新書狀（2026-10-23）而 cases.json 停在 2026-09-01 |
+| 80 | Chmura v. Snap | 2026-11-01 | ⚠️ Court 不符：dashboard「C.D. Cal.」（cacd）／CL「District Court, N.D. California (`cand`)」（cand） |
+| 81 | Google v. SerpApi | 2026-11-01 | ⚠️ CL 有較新書狀（2026-10-12）而 cases.json 停在 2026-09-01 |
+| 82 | Ted Entertainment v. Meta | 2026-11-01 | ✅ 一致 |
+| 83 | Youngblood v. Meta | 2026-11-01 | ✅ 一致 |
+| 84 | Youngblood v. NVIDIA | 2026-11-01 | ⚠️ CL 有較新書狀（2026-10-30）而 cases.json 停在 2026-09-01 |
+| 85 | Atlantic Recording Corp. v. Anna's Archive | 2026-11-01 | ✅ 一致 |
+| 86 | Beaulier v. NVIDIA Corporation (3D Models) | 2026-11-01 | ⚠️ CL 有較新書狀（2026-10-30）而 cases.json 停在 2026-09-01 |
+| 87 | Beaulier v. Meta Platforms (3D Models) | 2026-11-01 | ⚠️ CL 有較新書狀（2026-10-30）而 cases.json 停在 2026-09-01 |
+| 88 | Beaulier v. Roblox (3D Models) | 2026-11-01 | ⚠️ CL 有較新書狀（2026-10-30）而 cases.json 停在 2026-09-01 |
+| 89 | Beaulier v. Microsoft (3D Models) | 2026-11-01 | ⚠️ Court 不符：dashboard「W.D. Wash.」（wawd）／CL「District Court, N.D. California (`cand`)」（cand）；CL 有較新書狀（2026-10-30）而 cases.json 停在 2026-10-01 |
+| 90 | Martinez-Conde v. Apple (split from consolid | 2026-11-01 | ⚠️ CL 有較新書狀（2026-10-30）而 cases.json 停在 2026-09-01 |
+| 91 | Alexander v. Apple (split from consolidated  | 2026-11-01 | ⚠️ CL 有較新書狀（2026-10-30）而 cases.json 停在 2026-09-01 |
+| 92 | Alexander v. Salesforce (split from In re Sa | 2026-11-01 | ⚠️ CL 有較新書狀（2026-10-23）而 cases.json 停在 2026-09-01 |
 | 93 | Zhang v. Google (split from In re Google Gen | 2026-10-01 | ⚠️ CL 有較新書狀（2026-09-29）而 cases.json 停在 2026-09-01 |
-| 94 | Leovy v. Google (split from In re Google Gen | 2026-10-01 | ⚠️ CL 有較新書狀（2026-09-29）而 cases.json 停在 2026-09-01 |
+| 94 | Leovy v. Google (split from In re Google Gen | 2026-11-01 | ⚠️ CL 有較新書狀（2026-10-23）而 cases.json 停在 2026-09-01 |
 | 95 | Chabon v. Meta Platforms (split from Kadrey  | 2026-10-01 | ⚠️ CL 有較新書狀（2026-09-30）而 cases.json 停在 2026-09-01 |
-| 96 | Farnsworth v. Meta Platforms (split from Kad | 2026-10-01 | ⚠️ CL 有較新書狀（2026-09-30）而 cases.json 停在 2026-09-01 |
-| 97 | Dubus v. NVIDIA Corp. (split from Nazemian v | 2026-10-01 | ⚠️ Court 不符：dashboard「N.D. Cal.」（cand）／CL「District Court, C.D. California (`cacd`)」（cacd）；CL 有較新書狀（2026-09-29）而 cases.json 停在 2026-09-01 |
-| 98 | Makkai v. Databricks (split from In re Mosai | 2026-10-01 | ⚠️ Court 不符：dashboard「N.D. Cal.」（cand）／CL「District Court, S.D. New York (`nysd`)」（nysd） |
-| 99 | Alter v. OpenAI / Microsoft (split from Auth | 2026-10-01 | ⚠️ CL 有較新書狀（2026-09-25）而 cases.json 停在 2026-09-08 |
-| 100 | Ace Cam v. Runway AI (split from Businessing | 2026-10-01 | ⚠️ CL 有較新書狀（2026-09-30）而 cases.json 停在 2026-09-08 |
+| 96 | Farnsworth v. Meta Platforms (split from Kad | 2026-11-01 | ⚠️ CL 有較新書狀（2026-10-30）而 cases.json 停在 2026-09-01 |
+| 97 | Dubus v. NVIDIA Corp. (split from Nazemian v | 2026-11-01 | ⚠️ Court 不符：dashboard「N.D. Cal.」（cand）／CL「District Court, C.D. California (`cacd`)」（cacd）；CL 有較新書狀（2026-10-30）而 cases.json 停在 2026-09-01 |
+| 98 | Makkai v. Databricks (split from In re Mosai | 2026-11-01 | ⚠️ Court 不符：dashboard「N.D. Cal.」（cand）／CL「District Court, S.D. New York (`nysd`)」（nysd） |
+| 99 | Alter v. OpenAI / Microsoft (split from Auth | 2026-11-01 | ⚠️ CL 有較新書狀（2026-10-30）而 cases.json 停在 2026-09-08 |
+| 100 | Ace Cam v. Runway AI (split from Businessing | 2026-11-01 | ⚠️ CL 有較新書狀（2026-10-29）而 cases.json 停在 2026-09-08 |
 | 101 | Getty Images v. Stability AI (UK) | — | ⚠️ 無 case .md（尚未 fetch） |
 | 102 | GEMA v. OpenAI | — | ⚠️ 無 case .md（尚未 fetch） |
 | 103 | Canadian News Publishers v. OpenAI | — | ⚠️ 無 case .md（尚未 fetch） |
@@ -119,9 +119,9 @@
 | 107 | Like Company v. Google Ireland | — | ⚠️ 無 case .md（尚未 fetch） |
 | 108 | French Competition Authority v. Google | — | ⚠️ 無 case .md（尚未 fetch） |
 | 109 | GEMA v. Suno AI | — | ⚠️ 無 case .md（尚未 fetch） |
-| 110 | Carreyrou v. xAI et al. (Multiple Authors) | 2026-10-01 | ⚠️ CL 有較新書狀（2026-09-24）而 cases.json 停在 2026-09-08 |
+| 110 | Carreyrou v. xAI et al. (Multiple Authors) | 2026-11-01 | ⚠️ CL 有較新書狀（2026-10-19）而 cases.json 停在 2026-09-08 |
 | 111 | Like Company v. Google (CJEU) | — | ⚠️ 無 case .md（尚未 fetch） |
-| 112 | Thaler v. Perlmutter (Supreme Court Cert Den | 2026-10-01 | ✅ 一致 |
+| 112 | Thaler v. Perlmutter (Supreme Court Cert Den | 2026-11-01 | ✅ 一致 |
 | 113 | Kneschke v. LAION e.V. | — | ⚠️ 無 case .md（尚未 fetch） |
 | 114 | DPCMO v. OpenAI (Danish Publishers) | — | ⚠️ 無 case .md（尚未 fetch） |
 | 115 | KBS, MBC, SBS v. OpenAI (Korean Broadcasters | — | ⚠️ 無 case .md（尚未 fetch） |
@@ -145,38 +145,39 @@
 | 133 | EVOX Productions v. The Leland Stanford Juni | — | ✅ 一致 |
 | 134 | Reddit, Inc. v. Anthropic PBC | — | ✅ 一致 |
 | 135 | Cruz v. Anthropic PBC（Bartz 和解 opt-out 28 作者 | — | ⚠️ Court 不符：dashboard「N.D. Cal.（案號待 PACER 確認，3:26-cv-XXXXX）」（cand）／CL「U.S. District Court, Northern District of California」（cad） |
-| 136 | Wixen Music Publishing v. Meta Platforms | 2026-10-01 | ⚠️ CL 有較新書狀（2026-09-25）而 cases.json 停在 2026-09-08 |
-| 137 | Poseidon Wave Media v. Suno | 2026-10-01 | ✅ 一致 |
-| 138 | Elsevier / Hachette / Macmillan / McGraw Hil | — | ✅ 一致 |
-| 139 | CNN v. Perplexity AI | 2026-10-01 | ✅ 一致 |
-| 140 | Hobbs v. Meta Platforms | 2026-10-01 | ⚠️ Judge 不符：dashboard「Gregory H. Woods」／CL「Paul A. Engelmayer」；CL 有較新書狀（2026-09-23）而 cases.json 停在 2026-09-13 |
-| 141 | Kwon v. Anthropic | 2026-10-01 | ⚠️ Judge 不符：dashboard「Laurel Beeler」／CL「P. Casey Pitts」；CL 有較新書狀（2026-09-23）而 cases.json 停在 2026-09-08 |
-| 142 | Gilbert v. Anthropic | 2026-10-01 | ⚠️ Judge 不符：dashboard「Christopher L. Morgan」／CL「Mark G. Mastroianni」；CL 有較新書狀（2026-09-28）而 cases.json 停在 2026-09-15 |
-| 143 | Cambronne, Inc. v. Google | 2026-10-01 | ✅ 一致 |
-| 144 | Tanzer v. Adobe | 2026-10-01 | ⚠️ Judge 不符：dashboard「Haywood S. Gilliam Jr.」／CL「Jacqueline Scott Corley」；CL 有較新書狀（2026-09-23）而 cases.json 停在 2026-09-08 |
-| 145 | Woulard v. Uncharted Labs (Udio) | 2026-10-01 | ⚠️ CL 有較新書狀（2026-09-14）而 cases.json 停在 2026-09-08 |
-| 146 | Shakespeare v. Anthropic PBC | 2026-10-01 | ⚠️ CL 有較新書狀（2026-09-29）而 cases.json 停在 2026-09-08 |
-| 147 | SCI SPARK LLC v. Schedule A | 2026-10-01 | ⚠️ CL 有較新書狀（2026-09-28）而 cases.json 停在 2026-09-08 |
-| 148 | Will-Burn Recordings & Publishing Co. v. UMG | 2026-10-01 | ⚠️ CL 有較新書狀（2026-09-14）而 cases.json 停在 2026-09-08 |
-| 149 | Richner Communications v. Microsoft / OpenAI | 2026-10-01 | ⚠️ CL 有較新書狀（2026-09-24）而 cases.json 停在 2026-09-08 |
-| 150 | Hachette Book Group v. Google | 2026-10-01 | ✅ 一致 |
+| 136 | Wixen Music Publishing v. Meta Platforms | 2026-11-01 | ⚠️ CL 有較新書狀（2026-10-09）而 cases.json 停在 2026-09-08 |
+| 137 | Poseidon Wave Media v. Suno | 2026-11-01 | ✅ 一致 |
+| 138 | Elsevier / Hachette / Macmillan / McGraw Hil | 2026-11-01 | ⚠️ Court 不符：dashboard「N.D. Cal. 4:26-cv-11415（2026/10/6 自 S.D.N.Y. 1:26-cv-03689 移轉；caption：Elsevier Inc. v. Meta Platforms, Inc.）」（nysd）／CL「District Court, N.D. California (`cand`)」（cand）；docket id 不符：cases.json 74936906／case .md 74936906；CL 有較新書狀（2026-10-29）而 cases.json 停在 2026-10-13 |
+| 139 | CNN v. Perplexity AI | 2026-11-01 | ⚠️ CL 有較新書狀（2026-10-26）而 cases.json 停在 2026-10-01 |
+| 140 | Hobbs v. Meta Platforms | 2026-11-01 | ⚠️ Judge 不符：dashboard「Gregory H. Woods」／CL「Paul A. Engelmayer」；CL 有較新書狀（2026-10-19）而 cases.json 停在 2026-09-13 |
+| 141 | Kwon v. Anthropic | 2026-11-01 | ⚠️ Judge 不符：dashboard「Laurel Beeler」／CL「P. Casey Pitts」；CL 有較新書狀（2026-09-23）而 cases.json 停在 2026-09-08 |
+| 142 | Gilbert v. Anthropic | 2026-11-01 | ⚠️ Judge 不符：dashboard「Christopher L. Morgan」／CL「Mark G. Mastroianni」；CL 有較新書狀（2026-10-26）而 cases.json 停在 2026-09-15 |
+| 143 | Cambronne, Inc. v. Google | 2026-11-01 | ✅ 一致 |
+| 144 | Tanzer v. Adobe | 2026-11-01 | ⚠️ Judge 不符：dashboard「Haywood S. Gilliam Jr.」／CL「Jacqueline Scott Corley」；CL 有較新書狀（2026-10-27）而 cases.json 停在 2026-09-08 |
+| 145 | Woulard v. Uncharted Labs (Udio) | 2026-11-01 | ⚠️ CL 有較新書狀（2026-09-14）而 cases.json 停在 2026-09-08 |
+| 146 | Shakespeare v. Anthropic PBC | 2026-10-01 | ✅ 一致 |
+| 147 | SCI SPARK LLC v. Schedule A | 2026-11-01 | ⚠️ CL 有較新書狀（2026-10-20）而 cases.json 停在 2026-09-08 |
+| 148 | Will-Burn Recordings & Publishing Co. v. UMG | 2026-11-01 | ⚠️ CL 有較新書狀（2026-09-14）而 cases.json 停在 2026-09-08 |
+| 149 | Richner Communications v. Microsoft / OpenAI | 2026-11-01 | ⚠️ CL 有較新書狀（2026-10-30）而 cases.json 停在 2026-09-08 |
+| 150 | Hachette Book Group v. Google | 2026-11-01 | ⚠️ CL 有較新書狀（2026-10-29）而 cases.json 停在 2026-10-01 |
 | 151 | Sullivan v. Meta Platforms & Zuckerberg | — | ⚠️ 無 case .md（尚未 fetch） |
 | 152 | EVOX Productions v. Stability AI, Runway, De | — | ⚠️ 無 case .md（尚未 fetch） |
 | 153 | SEIU Pension Plan Master Trust v. Adobe（股東代位 | — | ⚠️ 無 case .md（尚未 fetch） |
 | 154 | Hirschberger v. Narayen（Adobe 股東代位） | — | ⚠️ 無 case .md（尚未 fetch） |
 | 155 | City of St. Clair Shores Police & Fire Retir | — | ⚠️ 無 case .md（尚未 fetch） |
 | 156 | Anderson v. Nadella（Microsoft 股東代位） | — | ⚠️ 無 case .md（尚未 fetch） |
-| 157 | American Federation of Musicians v. Warner M | 2026-10-01 | ✅ 一致 |
-| 158 | S.A. Jamendo v. NVIDIA Corporation | 2026-10-01 | ✅ 一致 |
-| 159 | S.A. Jamendo v. Suno, Inc. | 2026-10-01 | ✅ 一致 |
-| 160 | AAP 13 家出版商 v. WeLib（盜版影子圖書館） | — | ⚠️ 無 case .md（尚未 fetch） |
+| 157 | American Federation of Musicians v. Warner M | 2026-11-01 | ✅ 一致 |
+| 158 | S.A. Jamendo v. NVIDIA Corporation | 2026-10-01 | ⚠️ docket id 不符：cases.json N.D. Cal. 5:26-cv-11754／case .md 73517096 |
+| 159 | S.A. Jamendo v. Suno, Inc. | 2026-11-01 | ✅ 一致 |
+| 160 | AAP 13 家出版商 v. WeLib（盜版影子圖書館） | 2026-11-01 | ⚠️ docket id 不符：cases.json 73488419／case .md 73488419 |
 | 162 | Sony Music Entertainment v. Uncharted Labs ( | — | ⚠️ 無 case .md（尚未 fetch） |
-| 163 | Round Hill Music v. Anthropic | 2026-10-01 | ⚠️ Judge 不符：dashboard「Nathanael M. Cousins」／CL「Charles R. Breyer」；CL 有較新書狀（2026-09-09）而 cases.json 停在 2026-08-19 |
+| 163 | Round Hill Music v. Anthropic | 2026-11-01 | ⚠️ Judge 不符：dashboard「Nathanael M. Cousins」／CL「Eumi K. Lee」；CL 有較新書狀（2026-10-23）而 cases.json 停在 2026-08-19 |
 | 164 | Round Hill Music v. Suno & Bright Data | 2026-10-01 | ⚠️ Judge 不符：dashboard「Joseph C. Spero」／CL「Rita F. Lin」；CL 有較新書狀（2026-09-29）而 cases.json 停在 2026-08-19 |
-| 165 | Sullivan v. OpenAI (Textbook Authors Class A | 2026-10-01 | ⚠️ CL 有較新書狀（2026-09-24）而 cases.json 停在 2026-08-19 |
+| 165 | Sullivan v. OpenAI (Textbook Authors Class A | 2026-11-01 | ⚠️ CL 有較新書狀（2026-10-30）而 cases.json 停在 2026-08-19 |
 | 166 | Folha de S.Paulo v. Perplexity AI（巴西） | — | ⚠️ 無 case .md（尚未 fetch） |
-| 167 | Gerencia 360 Music, Inc. v. Suno, Inc. | 2026-10-01 | ⚠️ CL 有較新書狀（2026-09-30）而 cases.json 停在 2026-09-22 |
-| 168 | UMG Recordings, Inc. v. Suno, Inc. | 2026-10-01 | ✅ 一致 |
-| 169 | The Seattle Times Company v. OpenAI, Inc. | 2026-10-01 | ⚠️ Judge 不符：dashboard「Jed Saul Rakoff」／CL「Sidney H. Stein」；CL 有較新書狀（2026-09-29）而 cases.json 停在 2026-09-22 |
-| 170 | Sony Music Publishing (US) LLC v. Anthropic  | 2026-10-01 | ⚠️ CL 有較新書狀（2026-09-29）而 cases.json 停在 2026-09-22 |
+| 167 | Gerencia 360 Music, Inc. v. Suno, Inc. | 2026-11-01 | ⚠️ CL 有較新書狀（2026-10-19）而 cases.json 停在 2026-09-22 |
+| 168 | UMG Recordings, Inc. v. Suno, Inc. | 2026-11-01 | ⚠️ CL 有較新書狀（2026-10-30）而 cases.json 停在 2026-09-22 |
+| 169 | The Seattle Times Company v. OpenAI, Inc. | 2026-11-01 | ⚠️ Judge 不符：dashboard「Jed Saul Rakoff」／CL「Sidney H. Stein」；CL 有較新書狀（2026-09-29）而 cases.json 停在 2026-09-22 |
+| 170 | Sony Music Publishing (US) LLC v. Anthropic  | 2026-11-01 | ⚠️ CL 有較新書狀（2026-10-27）而 cases.json 停在 2026-09-22 |
+| 171 | USA Today Co., Inc. v. OpenAI Foundation | 2026-11-01 | ⚠️ CL 有較新書狀（2026-10-30）而 cases.json 停在 2026-10-13 |
 

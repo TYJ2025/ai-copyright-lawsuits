@@ -1,6 +1,6 @@
 # Case 139 — Cable News Network Inc v. Perplexity AI, Inc.
 
-> 最後更新（CourtListener fetch）：2026-10-01 01:50 UTC
+> 最後更新（CourtListener fetch）：2026-11-01 01:48 UTC
 
 ---
 
@@ -13,7 +13,7 @@
 | Court | District Court, S.D. New York (`nysd`) |
 | Judge Assigned | Loretta A. Preska |
 | Date Filed | 2026-05-28 |
-| Date Last Filing | 2026-09-29 |
+| Date Last Filing | 2026-10-26 |
 | Cause | 17:501 Copyright Infringement |
 | Nature of Suit | 820 Copyright |
 | Jury Demand | Plaintiff |
@@ -33,11 +33,35 @@
 
 - ⚠️ Court 可能不一致：dashboard 寫「S.D.N.Y. 1:26-cv-04427」，CourtListener 為「S.D. New York」
 - ✅ Judge 一致：dashboard 寫「Loretta A. Preska」，CourtListener 為「Loretta A. Preska」
-- ⚠️ Dashboard progress **落後 124 天**：dashboard 最新日期 2026-05-28，CourtListener 最後 entry 2026-09-29——建議查看新近 entries 並補充 progress
+- ⚠️ Dashboard progress **落後 151 天**：dashboard 最新日期 2026-05-28，CourtListener 最後 entry 2026-10-26——建議查看新近 entries 並補充 progress
 
 ## 3. Docket Entries（最新優先，已過濾程序性 entries）
 
-**實質性 entries**：39 筆／**已過濾程序性 entries**：25 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+**實質性 entries**：43 筆／**已過濾程序性 entries**：25 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+
+### 📄 Doc #43 — 2026-10-26
+
+Proposed Case Management Plan
+
+[CourtListener 連結](https://www.courtlistener.com/docket/73402641/43/cable-news-network-inc-v-perplexity-ai-inc/)
+
+### 📄 Doc #41 — 2026-10-23
+
+Reply Memorandum of Law in Support of Motion
+
+[CourtListener 連結](https://www.courtlistener.com/docket/73402641/41/cable-news-network-inc-v-perplexity-ai-inc/)
+
+### 📄 Doc #42 — 2026-10-23
+
+Oral Argument
+
+[CourtListener 連結](https://www.courtlistener.com/docket/73402641/42/cable-news-network-inc-v-perplexity-ai-inc/)
+
+### 📄 Doc #40 — 2026-10-20
+
+Rule 7.1 Corporate Disclosure Statement
+
+[CourtListener 連結](https://www.courtlistener.com/docket/73402641/40/cable-news-network-inc-v-perplexity-ai-inc/)
 
 ### 📄 Doc #39 — 2026-09-29
 
@@ -268,4 +292,4 @@ RULE 7.1 CORPORATE DISCLOSURE STATEMENT. Identifying Corporate Parent Warner Bro
 
 ---
 
-*產生時間：2026-10-01 01:50 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-11-01 01:48 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

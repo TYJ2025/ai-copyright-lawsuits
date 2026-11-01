@@ -1,6 +1,6 @@
 # Case 74 — California Newspapers Partnership v. Microsoft Corporation
 
-> 最後更新（CourtListener fetch）：2026-10-01 01:35 UTC
+> 最後更新（CourtListener fetch）：2026-11-01 01:36 UTC
 
 ---
 
@@ -13,7 +13,7 @@
 | Court | District Court, S.D. New York (`nysd`) |
 | Judge Assigned | Sidney H. Stein |
 | Date Filed | 2025-11-26 |
-| Date Last Filing | 2026-09-24 |
+| Date Last Filing | 2026-10-30 |
 | Cause | 17:501 Copyright Infringement |
 | Nature of Suit | 820 Copyright |
 | Jury Demand | Plaintiff |
@@ -33,11 +33,269 @@
 
 - ⚠️ Court 可能不一致：dashboard 寫「SDNY」，CourtListener 為「S.D. New York」
 - ✅ Judge 一致：dashboard 寫「Sidney H. Stein」，CourtListener 為「Sidney H. Stein」
-- ℹ️ Dashboard progress 內找不到【YYYY/M/D】格式日期；CourtListener 最後 entry: 2026-09-24
+- ℹ️ Dashboard progress 內找不到【YYYY/M/D】格式日期；CourtListener 最後 entry: 2026-10-30
 
 ## 3. Docket Entries（最新優先，已過濾程序性 entries）
 
-**實質性 entries**：152 筆／**已過濾程序性 entries**：29 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+**實質性 entries**：175 筆／**已過濾程序性 entries**：25 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+
+### 📄 Doc #175 — 2026-10-30
+
+Proposed Order Proposed Order
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71969115/175/2/california-newspapers-partnership-v-microsoft-corporation/)
+
+### 📄 Doc #165 — 2026-10-30
+
+Exhibit - Proposed Order for Admission Pro Hac Vice
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71969115/165/3/california-newspapers-partnership-v-microsoft-corporation/)
+
+### 📄 Doc #159 — 2026-10-30
+
+Proposed Order Exhibit B - Proposed Order
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71969115/159/2/california-newspapers-partnership-v-microsoft-corporation/)
+
+### 📄 Doc #172 — 2026-10-30
+
+Exhibit 2[Proposed] Order Granting Gregory Leppert's Motion for Leave to Fi
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71969115/172/2/california-newspapers-partnership-v-microsoft-corporation/)
+
+### 📄 Doc #174 — 2026-10-30
+
+Proposed Order [Proposed] Order Granting Leave to File Amicus Curiae Brief of AI
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71969115/174/2/california-newspapers-partnership-v-microsoft-corporation/)
+
+### 📄 Doc #173 — 2026-10-30
+
+Exhibit IIPSJ Amici Curiae Brief
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71969115/173/1/california-newspapers-partnership-v-microsoft-corporation/)
+
+### 📄 Doc #169 — 2026-10-30
+
+Proposed Order Proposed Order Granting Leave to File Brief of Professor Joseph S
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71969115/169/2/california-newspapers-partnership-v-microsoft-corporation/)
+
+### 📄 Doc #168 — 2026-10-30
+
+File Amicus Brief
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71969115/168/california-newspapers-partnership-v-microsoft-corporation/)
+
+### 📄 Doc #170 — 2026-10-30
+
+Notice of Appearance
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71969115/170/california-newspapers-partnership-v-microsoft-corporation/)
+
+### 📄 Doc #171 — 2026-10-30
+
+Memorandum of Law in Support of Motion
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71969115/171/california-newspapers-partnership-v-microsoft-corporation/)
+
+### 📄 Doc #163 — 2026-10-30
+
+Exhibit B - Proposed Order
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71969115/163/2/california-newspapers-partnership-v-microsoft-corporation/)
+
+### 📄 Doc #164 — 2026-10-30
+
+Proposed Order Proposed Order
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71969115/164/3/california-newspapers-partnership-v-microsoft-corporation/)
+
+### 📄 Doc #166 — 2026-10-30
+
+Proposed Order ([Proposed] Order)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71969115/166/2/california-newspapers-partnership-v-microsoft-corporation/)
+
+### 📄 Doc #167 — 2026-10-30
+
+Memorandum of Law in Support of Motion
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71969115/167/california-newspapers-partnership-v-microsoft-corporation/)
+
+### 📄 Doc #161 — 2026-10-30
+
+Exhibit Proposed Brief of Amicus Curiae
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71969115/161/1/california-newspapers-partnership-v-microsoft-corporation/)
+
+### 📄 Doc #156 — 2026-10-30
+
+Exhibit Proposed Brief of Amici Curiae
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71969115/156/1/california-newspapers-partnership-v-microsoft-corporation/)
+
+### 📄 Doc #158 — 2026-10-30
+
+Notice of Appearance
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71969115/158/california-newspapers-partnership-v-microsoft-corporation/)
+
+### 📄 Doc #160 — 2026-10-30
+
+Memorandum of Law in Support of Motion
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71969115/160/california-newspapers-partnership-v-microsoft-corporation/)
+
+### 📄 Doc #162 — 2026-10-30
+
+Order
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71969115/162/california-newspapers-partnership-v-microsoft-corporation/)
+
+### 📄 Doc #155 — 2026-10-30
+
+Exhibit B - Proposed Order
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71969115/155/2/california-newspapers-partnership-v-microsoft-corporation/)
+
+### 📄 Doc #157 — 2026-10-30
+
+Memorandum of Law in Support of Motion
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71969115/157/california-newspapers-partnership-v-microsoft-corporation/)
+
+### 📄 Doc #154 — 2026-10-30
+
+Exhibit Proposed Order
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71969115/154/2/california-newspapers-partnership-v-microsoft-corporation/)
+
+### 📄 Doc #150 — 2026-10-29
+
+Proposed Order Proposed Order
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71969115/150/3/california-newspapers-partnership-v-microsoft-corporation/)
+
+### 📄 Doc #153 — 2026-10-29
+
+Exhibit A - Proposed Amicus Brief
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71969115/153/1/california-newspapers-partnership-v-microsoft-corporation/)
+
+### 📄 Doc #152 — 2026-10-29
+
+Proposed Order Proposed Order
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71969115/152/2/california-newspapers-partnership-v-microsoft-corporation/)
+
+### 📄 Doc #151 — 2026-10-29
+
+Memorandum of Law in Support of Motion
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71969115/151/california-newspapers-partnership-v-microsoft-corporation/)
+
+### 📄 Doc #149 — 2026-10-29
+
+Proposed Order Granting Leave to File Brief of Professor Matthew Sag as Amicus C
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71969115/149/2/california-newspapers-partnership-v-microsoft-corporation/)
+
+### 📄 Doc #— — 2026-10-29
+
+Notice Regarding Pro Hac Vice Motion
+
+### 📄 Doc #147 — 2026-10-28
+
+Proposed Order for Admission Pro Hac Vice
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71969115/147/3/california-newspapers-partnership-v-microsoft-corporation/)
+
+### 📄 Doc #148 — 2026-10-28
+
+Proposed Order for Admission Pro Hac Vice
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71969115/148/3/california-newspapers-partnership-v-microsoft-corporation/)
+
+### 📄 Doc #145 — 2026-10-28
+
+Proposed Order on Amazon.com, Inc.'s Motion to Seal
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71969115/145/1/california-newspapers-partnership-v-microsoft-corporation/)
+
+### 📄 Doc #146 — 2026-10-28
+
+Declaration in Support of Motion
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71969115/146/california-newspapers-partnership-v-microsoft-corporation/)
+
+### 📄 Doc #— — 2026-10-28
+
+Notice to Attorney to Re-File Document - Deficient Docket Entry Error
+
+### 📄 Doc #144 — 2026-10-28
+
+File Amicus Brief
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71969115/144/california-newspapers-partnership-v-microsoft-corporation/)
+
+### 📄 Doc #143 — 2026-10-28
+
+File Amicus Brief
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71969115/143/california-newspapers-partnership-v-microsoft-corporation/)
+
+### 📄 Doc #142 — 2026-10-27
+
+Proposed Order Granting Pro Hac Vice
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71969115/142/3/california-newspapers-partnership-v-microsoft-corporation/)
+
+### 📄 Doc #— — 2026-10-26
+
+Notice Regarding Pro Hac Vice Motion
+
+### 📄 Doc #141 — 2026-10-26
+
+Proposed Order for Admission Pro Hac Vice
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71969115/141/4/california-newspapers-partnership-v-microsoft-corporation/)
+
+### 📄 Doc #140 — 2026-10-23
+
+Oral Argument
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71969115/140/california-newspapers-partnership-v-microsoft-corporation/)
+
+### 📄 Doc #139 — 2026-10-23
+
+Exhibit Declaration of Lucky Vidmar in Support
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71969115/139/1/california-newspapers-partnership-v-microsoft-corporation/)
+
+### 📄 Doc #138 — 2026-10-23
+
+Notice of Appearance
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71969115/138/california-newspapers-partnership-v-microsoft-corporation/)
+
+### 📄 Doc #137 — 2026-10-14
+
+Stipulation and Order
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71969115/137/california-newspapers-partnership-v-microsoft-corporation/)
+
+### 📄 Doc #136 — 2026-10-07
+
+Order on Motion for Leave to File Document
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71969115/136/california-newspapers-partnership-v-microsoft-corporation/)
+
+### 📄 Doc #135 — 2026-10-06
+
+Exhibit A - Sample Format
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71969115/135/1/california-newspapers-partnership-v-microsoft-corporation/)
 
 ### 📄 Doc #134 — 2026-09-24
 
@@ -757,114 +1015,8 @@ COMPLAINT against Microsoft Corporation, OAI Corporation, LLC, OpenAI Foundation
 
 [CourtListener 連結](https://www.courtlistener.com/docket/71969115/16/9/california-newspapers-partnership-v-microsoft-corporation/)
 
-### 📄 Doc #— — 2025-12-01
-
-***NOTICE TO ATTORNEY TO SUBMIT AO 121 FORM COPYRIGHT. Notice to Attorney Steven M Lieberman to submit a completed AO 121 Form Copyright to court for review. Use the event type AO 121 Copyright - Notice of Submission by Attorney found under the event list Other Documents. (sj)
-
-### 📄 Doc #— — 2025-12-01
-
-CASE REFERRED to Judge Sidney H. Stein as possibly related to 1:25cv3143. (sj)
-
-### 📄 Doc #— — 2025-12-01
-
-Case Designated ECF. (sj)
-
-### 📄 Doc #— — 2025-12-01
-
-CASE OPENING INITIAL ASSIGNMENT NOTICE: The above-entitled action is assigned to Judge Unassigned. (sj)
-
-### 📄 Doc #— — 2025-12-01
-
-***NOTICE TO ATTORNEY REGARDING CIVIL. CASE OPENING STATISTICAL ERROR CORRECTION: Notice to attorney Steven M Lieberman. The following case opening statistical information was erroneously selected/entered: Fee Status code due (due). The following correction(s) have been made to your case entry: the Fee Status code has been modified to pd (paid). (sj)
-
-### 📄 Doc #— — 2025-12-01
-
-***NOTICE TO ATTORNEY REGARDING DEFICIENT PLEADING. Notice to Attorney Steven M Lieberman to RE-FILE Document No. 1 Complaint. The filing is deficient for the following reason(s): the wrong party/parties whom the pleading is against were selected. Re-file the pleading using the event type Complaint found under the event list Complaints and Other Initiating Documents - attach the correct signed PDF - select the individually named filer/filers - select the individually named party/parties the pleading is against. (sj)
-
-### 📄 Doc #— — 2025-12-01
-
-Notice to Attorney Regarding Deficient Pleading
-
-### 📄 Doc #— — 2025-12-01
-
-Notice to Attorney Regarding Case Opening Statistical Error Correction
-
-### 📄 Doc #— — 2025-12-01
-
-Case Opening Initial Assignment Notice
-
-### 📄 Doc #— — 2025-12-01
-
-Notice to Attorney to Submit AO 120 Form/AO 121 Form
-
-### 📄 Doc #6 — 2025-11-26
-
-RULE 7.1 CORPORATE DISCLOSURE STATEMENT. Identifying Corporate Parent ORB Publishing, LLC, Corporate Parent ORBE, LLC for MNG-BH Acquisition LLC. Document filed by MNG-BH Acquisition LLC..(Lieberman, Steven) (Entered: 11/26/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/71969115/6/california-newspapers-partnership-v-microsoft-corporation/)
-
-### 📄 Doc #7 — 2025-11-26
-
-RULE 7.1 CORPORATE DISCLOSURE STATEMENT. Identifying Corporate Parent Tribune Publishing Company, LLC, Corporate Parent Tribune Publishing Company, Corporate Parent Tribune Intermediate Holdco, LLC, Corporate Parent Tribune Holdco, LLC for Hartford Courant Company. Document filed by Hartford Courant Company..(Lieberman, Steven) (Entered: 11/26/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/71969115/7/california-newspapers-partnership-v-microsoft-corporation/)
-
-### 📄 Doc #8 — 2025-11-26
-
-RULE 7.1 CORPORATE DISCLOSURE STATEMENT. Identifying Corporate Parent Tribune Publishing Company, LLC, Corporate Parent Tribune Publishing Company, Corporate Parent Tribune Intermediate Holdco, LLC, Corporate Parent Tribune Holdco, LLC for The Daily Press LLC. Document filed by The Daily Press LLC..(Lieberman, Steven) (Entered: 11/26/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/71969115/8/california-newspapers-partnership-v-microsoft-corporation/)
-
-### 📄 Doc #9 — 2025-11-26
-
-RULE 7.1 CORPORATE DISCLOSURE STATEMENT. Identifying Corporate Parent Tribune Publishing Company, LLC, Corporate Parent Tribune Publishing Company, Corporate Parent Tribune Intermediate Holdco, LLC, Corporate Parent Tribune Holdco, LLC for The Morning Call, LLC. Document filed by The Morning Call, LLC..(Lieberman, Steven) (Entered: 11/26/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/71969115/9/california-newspapers-partnership-v-microsoft-corporation/)
-
-### 📄 Doc #10 — 2025-11-26
-
-RULE 7.1 CORPORATE DISCLOSURE STATEMENT. Identifying Corporate Parent Tribune Publishing Company, LLC, Corporate Parent Tribune Publishing Company, Corporate Parent Tribune Intermediate Holdco, LLC, Corporate Parent Tribune Holdco, LLC for Virginian-Pilot Media Companies. Document filed by Virginian-Pilot Media Companies..(Lieberman, Steven) (Entered: 11/26/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/71969115/10/california-newspapers-partnership-v-microsoft-corporation/)
-
-### 📄 Doc #11 — 2025-11-26
-
-RULE 7.1 CORPORATE DISCLOSURE STATEMENT. Identifying Corporate Parent MNG Enterprises, Inc., Corporate Parent MediaNews Group, Inc. for Los Angeles Daily News Publishing Company. Document filed by Los Angeles Daily News Publishing Company..(Lieberman, Steven) (Entered: 11/26/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/71969115/11/california-newspapers-partnership-v-microsoft-corporation/)
-
-### 📄 Doc #12 — 2025-11-26
-
-RULE 7.1 CORPORATE DISCLOSURE STATEMENT. Identifying Corporate Parent MNG Enterprises, Inc., Corporate Parent MediaNews Group, Inc. for The San Diego Union-Tribune, LLC. Document filed by The San Diego Union-Tribune, LLC..(Lieberman, Steven) (Entered: 11/26/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/71969115/12/california-newspapers-partnership-v-microsoft-corporation/)
-
-### 📄 Doc #1 — 2025-11-26
-
-FILING ERROR - DEFICIENT PLEADING - FILED AGAINST PARTY ERROR COMPLAINT against Virginian-Pilot Media Companies, Prairie Mountain Publishing Company LLP, California Newspapers Partnership, The Morning Call, LLC, MNG-BH Acquisition LLC, The San Diego Union-Tribune, LLC, Los Angeles Daily News Publishing Company, Hartford Courant Company, The Daily Press LLC. (Filing Fee $ 405.00, Receipt Number ANYSDC-32054105) Document filed by Virginian-Pilot Media Companies, Prairie Mountain Publishing Company LLP, California Newspapers Partnership, The Morning Call, LLC, MNG-BH Acquisition LLC, The San Diego Union-Tribune, LLC, Los Angeles Daily News Publishing Company, Hartford Courant Company, The Daily Press LLC. (Attachments: # 1 Exhibit A - The San Bernardino Sun, # 2 Exhibit B - Daily Camera, # 3 Exhibit C - Boston Herald, # 4 Exhibit D - Hartford Courant, # 5 Exhibit E - Daily Press, # 6 Exhibit F - Morning Call, # 7 Exhibit G - Virginian-Pilot, # 8 Exhibit H - LA Daily New, # 9 Exhibit I - S …(truncated)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/71969115/1/9/california-newspapers-partnership-v-microsoft-corporation/)
-
-### 📄 Doc #5 — 2025-11-26
-
-RULE 7.1 CORPORATE DISCLOSURE STATEMENT. Identifying Corporate Parent MNG Enterprises, Inc., Corporate Parent The Denver Post Corporation, Corporate Parent MediaNews Group, Inc., Corporate Parent Eastern Colorado Publishing Company, Corporate Parent DP Media Network LLC for Prairie Mountain Publishing Company LLP. Document filed by Prairie Mountain Publishing Company LLP..(Lieberman, Steven) (Entered: 11/26/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/71969115/5/california-newspapers-partnership-v-microsoft-corporation/)
-
-### 📄 Doc #4 — 2025-11-26
-
-RULE 7.1 CORPORATE DISCLOSURE STATEMENT. Identifying Corporate Parent MNG Enterprises, Inc., Corporate Parent MNG Partnership Holdings, LLC, Corporate Parent MediaNews Group, Inc., Corporate Parent West Coast MediaNews LLC, Corporate Parent MediaNews Group Interactive, Inc. for California Newspapers Partnership. Document filed by California Newspapers Partnership..(Lieberman, Steven) (Entered: 11/26/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/71969115/4/california-newspapers-partnership-v-microsoft-corporation/)
-
-### 📄 Doc #3 — 2025-11-26
-
-STATEMENT OF RELATEDNESS re: that this action be filed as related to 1:25-md-3143. Document filed by California Newspapers Partnership, Hartford Courant Company, Los Angeles Daily News Publishing Company, MNG-BH Acquisition LLC, Prairie Mountain Publishing Company LLP, The Daily Press LLC, The Morning Call, LLC, The San Diego Union-Tribune, LLC, Virginian-Pilot Media Companies..(Lieberman, Steven) (Entered: 11/26/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/71969115/3/california-newspapers-partnership-v-microsoft-corporation/)
-
 <details>
-<summary>已過濾的 29 筆程序性 entries（點擊展開）</summary>
+<summary>已過濾的 25 筆程序性 entries（點擊展開）</summary>
 
 - **Doc #132** (2026-09-14): NOTICE OF APPEARANCE by Marc Holden Axelbaum on behalf of Benjamin Chess. Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Axelbaum, Marc) (Entered: 09/14/2026)
 - **Doc #133** (2026-09-14): NOTICE OF APPEARANCE by Marc Holden Axelbaum on behalf of Ermira Murati. Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Axelbaum, Marc) (Entered: 09/14/2026)
@@ -891,13 +1043,9 @@ STATEMENT OF RELATEDNESS re: that this action be filed as related to 1:25-md-314
 - **Doc #41** (2026-01-07): NOTICE OF APPEARANCE by Zachary Scott Newman on behalf of OAI Corporation, LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Holdings, LLC, OpenAI LP, OpenAI OpCo LLC(a Delaware limited liability corpora…
 - **Doc #34** (2025-12-18): REQUEST FOR ISSUANCE OF SUMMONS as to MICROSOFT CORPORATION; OPENAI, INC.; OPENAI LP; OPENAI GP, LLC; OPENAI, LLC; OPENAI OPCO, LLC; OPENAI GLOBAL, LLC; OAI CORPORATION, LLC; OPENAI HOLDINGS, LLC; OPE…
 - **Doc #31** (2025-12-11): ORDER: It has come to the Court's attention that there are multiple outstanding motions in the above-captioned cases that have already been addressed at the Court's periodic discovery status conferenc…
-- **Doc #13** (2025-11-26): NOTICE OF APPEARANCE by Steven M Lieberman on behalf of California Newspapers Partnership, Hartford Courant Company, Los Angeles Daily News Publishing Company, MNG-BH Acquisition LLC, Prairie Mountain…
-- **Doc #14** (2025-11-26): NOTICE OF APPEARANCE by Jennifer Maisel on behalf of California Newspapers Partnership, Hartford Courant Company, Los Angeles Daily News Publishing Company, MNG-BH Acquisition LLC, Prairie Mountain Pu…
-- **Doc #15** (2025-11-26): NOTICE OF APPEARANCE by Bryan Berkeley Thompson on behalf of California Newspapers Partnership, Hartford Courant Company, Los Angeles Daily News Publishing Company, MNG-BH Acquisition LLC, Prairie Mou…
-- **Doc #2** (2025-11-26): CIVIL COVER SHEET filed..(Lieberman, Steven) (Entered: 11/26/2025)
 
 </details>
 
 ---
 
-*產生時間：2026-10-01 01:35 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-11-01 01:36 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

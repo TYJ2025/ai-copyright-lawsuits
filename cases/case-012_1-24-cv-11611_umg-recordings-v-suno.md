@@ -1,6 +1,6 @@
 # Case 12 — UMG Recordings, Inc. v. Suno, Inc.
 
-> 最後更新（CourtListener fetch）：2026-10-01 01:09 UTC
+> 最後更新（CourtListener fetch）：2026-11-01 01:09 UTC
 
 ---
 
@@ -11,10 +11,10 @@
 | Case Name | UMG Recordings, Inc. v. Suno, Inc. |
 | Docket Number | `1:24-cv-11611` |
 | Court | District Court, D. Massachusetts (`mad`) |
-| Judge Assigned | F. Dennis Saylor, IV |
+| Judge Assigned | F. Dennis Saylor IV |
 | Judge Referred | Paul G. Levenson |
 | Date Filed | 2024-06-24 |
-| Date Last Filing | 2026-09-30 |
+| Date Last Filing | 2026-10-30 |
 | Cause | 17:101 Copyright Infringement |
 | Nature of Suit | 820 Copyright |
 | Jury Demand | Plaintiff |
@@ -33,12 +33,94 @@
 **自動比對結果：**
 
 - ✅ Court 一致：dashboard 寫「D. Mass.」，CourtListener 為「D. Massachusetts」
-- ✅ Judge 一致：dashboard 寫「Saylor IV / Hellerstein / Garnett」，CourtListener 為「F. Dennis Saylor, IV」
-- ⚠️ Dashboard progress **落後 142 天**：dashboard 最新日期 2026-05-11，CourtListener 最後 entry 2026-09-30——建議查看新近 entries 並補充 progress
+- ✅ Judge 一致：dashboard 寫「Saylor IV / Hellerstein / Garnett」，CourtListener 為「F. Dennis Saylor IV」
+- ⚠️ Dashboard progress **落後 172 天**：dashboard 最新日期 2026-05-11，CourtListener 最後 entry 2026-10-30——建議查看新近 entries 並補充 progress
 
 ## 3. Docket Entries（最新優先，已過濾程序性 entries）
 
 **實質性 entries**：172 筆／**已過濾程序性 entries**：28 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+
+### 📄 Doc #— — 2026-10-30
+
+Order on Motion to Amend
+
+### 📄 Doc #302 — 2026-10-30
+
+District Judge F. Dennis Saylor, IV: ELECTRONIC ORDER entered granting 290 Joint MOTION to Amend the Amended Scheduling Order.AMENDED ORDERED DEADLINES:Deadline for completion of thirdy-party depositions not implicated by § 1201 claim: 11/20/2026.Close of fact discovery related to Plaintiffs' § 1201 claim: 11/20/2026. serve RFAs: 12/4/2026. Trial expert dislcosure and initial expert reports: 1/28/2027. Rebuttal Expert Reports: 2/25/27.Reply Expert Reports: 3/25/27.Trial Expert Depositions: 5/20/27.Dispositive Motions: 6/22/27. (MMM) (Entered: 10/30/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68878608/302/umg-recordings-inc-v-suno-inc/)
+
+### 📄 Doc #301 — 2026-10-28
+
+Magistrate Judge Paul G. Levenson: ELECTRONIC ORDER entered. The Court will hold its Order Regarding Discovery Disputes [ECF No. 300] temporarily under seal for 14 days. Because the Order contains references to materials that have not been filed on the public docket, the parties may notify the Court, during this 14-day period, if there is anything within the Order that requires redaction and the grounds for such redaction. After 14 days, the Order will become public absent such notification by the parties. (CEH) (Entered: 10/28/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68878608/301/umg-recordings-inc-v-suno-inc/)
+
+### 📄 Doc #— — 2026-10-28
+
+Order
+
+### 📄 Doc #299 — 2026-10-28
+
+Magistrate Judge Paul G. Levenson: ELECTRONIC ORDER entered. Suno is directed to submit both unredacted copies, and copies with transparent redactions to indicate clearly what has been redacted, of the following documents (along with the complete document families for each, to provide context) to the Court for in camera review by 5:00 p.m. on Friday, October 30, 2026: Amended Log Nos. 26, 77, 78, 82, 88, 92, 99, 297, 317, 318, 333, 387, 620, 624, and 639. Documents to be submitted to Chief Magistrate Judge Levenson via Dropbox link as well as courtesy copies delivered to the Court. (AT) (Entered: 10/28/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68878608/299/umg-recordings-inc-v-suno-inc/)
+
+### 📄 Doc #— — 2026-10-27
+
+Order on Motion for Leave to Appear
+
+### 📄 Doc #296 — 2026-10-27
+
+ELECTRONIC NOTICE of Hearing. Status Conference set for 11/10/2026 at 10:00 AM in Courtroom 25 (Remote hearing; no public remote access - held in courtroom) before Magistrate Judge Paul G. Levenson, re: discovery disputes. (AT) (Entered: 10/27/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68878608/296/umg-recordings-inc-v-suno-inc/)
+
+### 📄 Doc #— — 2026-10-27
+
+Notice of Hearing
+
+### 📄 Doc #— — 2026-10-26
+
+Order on Motion to Take Deposition
+
+### 📄 Doc #294 — 2026-10-26
+
+Magistrate Judge Paul G. Levenson: ELECTRONIC ORDER entered granting 293 MOTION to Take Deposition from CC Gong (Unopposed). Plaintiff may serve a Rule 30(b)(1) deposition subpoena on nonparty CC Gong depose her within 30 days of this order. (CEH) (Entered: 10/26/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68878608/294/umg-recordings-inc-v-suno-inc/)
+
+### 📄 Doc #293 — 2026-10-23
+
+MOTION to Take Deposition from CC Gong (Unopposed) by Capitol Records, LLC, Sony Music Entertainment, UMG Recordings, Inc.. (Attachments: # 1 Affidavit of Joseph T. Aronsohn in Support of Plaintiffs' Unopposed Motion for Leave to Serve Subpoena, # 2 Exhibit A - Deposition Subpoena to CC Gong, # 3 Exhibit B - CC Gong X Post, # 4 Exhibit C - Deposition Subpoena to Menlo Ventures, # 5 Exhibit D - Conferral Correspondence)(Aronsohn, Joseph) (Entered: 10/23/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68878608/293/5/umg-recordings-inc-v-suno-inc/)
+
+### 📄 Doc #— — 2026-10-23
+
+Order on Motion for Leave to Appear
+
+### 📄 Doc #290 — 2026-10-22
+
+Joint MOTION to Amend the Amended Scheduling Order by Capitol Records, LLC, Sony Music Entertainment, UMG Recordings, Inc..(Kaba, Moez) (Entered: 10/22/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68878608/290/umg-recordings-inc-v-suno-inc/)
+
+### 📄 Doc #— — 2026-10-05
+
+Notice of Filing of Official Transcript
+
+### 📄 Doc #288 — 2026-10-05
+
+NOTICE is hereby given that an official transcript of a proceeding has been filed by the court reporter in the above-captioned matter. Counsel are referred to the Court's Transcript Redaction Policy, available on the court website at https://www.mad.uscourts.gov/caseinfo/transcripts.htm (DRK) (Entered: 10/05/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68878608/288/umg-recordings-inc-v-suno-inc/)
+
+### 📄 Doc #287 — 2026-10-05
+
+Transcript of Status Conference (Digital Recording) held on September 30, 2026, before Chief Magistrate Judge Paul G. Levenson. The Transcript may be purchased through the Court Reporter, viewed at the public terminal, or viewed through PACER after it is released. Court Reporter Name and Contact Information: Kristin Kelley at kmob929@gmail.com. Redaction Request due 10/26/2026. Redacted Transcript Deadline set for 11/5/2026. Release of Transcript Restriction set for 1/4/2027. (DRK) (Entered: 10/05/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/68878608/287/umg-recordings-inc-v-suno-inc/)
 
 ### 📄 Doc #— — 2026-09-30
 
@@ -882,95 +964,15 @@ Magistrate Judge Paul G. Levenson: ELECTRONIC ORDER entered GRANTING in part and
 
 Order on Motion to Seal
 
-### 📄 Doc #152 — 2025-10-22
-
-Magistrate Judge Paul G. Levenson: ELECTRONIC ORDER entered granting 150 Motion to Seal. Counsel will receive an email within twenty-four (24) hours of this order with instructions for submitting sealed documents for which leave has been granted in accordance with the Local Rules of the U.S. District Court of Massachusetts. Counsel must include - Leave to file granted on (date of order)- in the caption of the document. (AT) (Entered: 10/22/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68878608/152/umg-recordings-inc-v-suno-inc/)
-
-### 📄 Doc #151 — 2025-10-21
-
-DECLARATION re 150 MOTION to Seal by Suno, Inc.. (Lovejoy, Brittany) (Entered: 10/21/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68878608/151/umg-recordings-inc-v-suno-inc/)
-
-### 📄 Doc #150 — 2025-10-21
-
-MOTION to Seal by Suno, Inc.. (Attachments: # 1 Exhibit)(Lovejoy, Brittany) (Entered: 10/21/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68878608/150/1/umg-recordings-inc-v-suno-inc/)
-
-### 📄 Doc #— — 2025-10-21
-
-Notice of Filing of Official Transcript
-
-### 📄 Doc #149 — 2025-10-21
-
-NOTICE is hereby given that an official transcript of a proceeding has been filed by the court reporter in the above-captioned matter. Counsel are referred to the Court's Transcript Redaction Policy, available on the court website at https://www.mad.uscourts.gov/caseinfo/transcripts.htm (DRK) (Entered: 10/21/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68878608/149/umg-recordings-inc-v-suno-inc/)
-
-### 📄 Doc #148 — 2025-10-21
-
-Transcript of Status Conference held on October 15, 2025, before Judge F. Dennis Saylor IV. The Transcript may be purchased through the Court Reporter, viewed at the public terminal, or viewed through PACER after it is released. Court Reporter Name and Contact Information: Richard Romanow at rhr3tubas@aol.com. Redaction Request due 11/12/2025. Redacted Transcript Deadline set for 11/21/2025. Release of Transcript Restriction set for 1/20/2026. (DRK) (Entered: 10/21/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68878608/148/umg-recordings-inc-v-suno-inc/)
-
-### 📄 Doc #147 — 2025-10-20
-
-REPLY to Response to 126 MOTION to Amend 1 Complaint,, filed by Atlantic Recording Corporation, Atlantic Records Group LLC, Capitol Records, LLC, Rhino Entertainment LLC, Sony Music Entertainment, The All Blacks U.S.A., Inc., UMG Recordings, Inc., Warner Music International Services Limited, Warner Records Inc.. (Kaba, Moez) (Entered: 10/20/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68878608/147/umg-recordings-inc-v-suno-inc/)
-
-### 📄 Doc #— — 2025-10-15
-
-Order on Motion for Extension of Time to File Response/Reply AND Status Conference AND ~Util - Set Motion and R&R Deadlines/Hearings
-
-### 📄 Doc #146 — 2025-10-15
-
-Electronic Clerk's Notes for proceedings held before District Judge F. Dennis Saylor, IV: granting Motion for Extension of Time to File Response/Reply ; Status Conference held by telephone on 10/15/2025. Case called; Court granted 137 MOTION for Extension of Time to October 20, 2025 to File Response/Reply. Deadlines to remain in place re D. 132.NOTICE OF HEARING: Motion Hearing set for 10/30/2025 11:00 AM by video before District Judge F. Dennis Saylor IV. (Court Reporter: Richard Romanow at rhr3tubas@aol.com.)(Attorneys present: Moez Kaba, Alexander Perry and Mariah Rivera for the plaintiffs. Andrew Gass and Brittany Lovejoy for the defendants.) (MMM) (Entered: 10/15/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68878608/146/umg-recordings-inc-v-suno-inc/)
-
-### 📄 Doc #— — 2025-10-15
-
-Notice of Filing of Official Transcript
-
-### 📄 Doc #145 — 2025-10-14
-
-NOTICE is hereby given that an official transcript of a proceeding has been filed by the court reporter in the above-captioned matter. Counsel are referred to the Court's Transcript Redaction Policy, available on the court website at https://www.mad.uscourts.gov/caseinfo/transcripts.htm (DRK) (Entered: 10/15/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68878608/145/umg-recordings-inc-v-suno-inc/)
-
-### 📄 Doc #144 — 2025-10-14
-
-SEALED Transcript of Hearing (Digital Recording) held on October 10, 2025, before Magistrate Judge Paul G. Levenson. The Transcript may be purchased through the Court Reporter, viewed at the public terminal, or viewed through PACER after it is released. Court Reporter Name and Contact Information: Kristin Kelley at kmob929@gmail.com. Redaction Request due 11/4/2025. Redacted Transcript Deadline set for 11/14/2025. Release of Transcript Restriction set for 1/12/2026. (DRK) Modified on 10/22/2025: Main document replaced with corrected transcript from Court Reporter (DRK). (Additional attachment(s) added on 1/12/2026: # 1 REDACTED Transcript) (DRK). Modified on 1/12/2026: Redacted transcript added to entry pursuant to Electronic Order [#177] (DRK). (Entered: 10/15/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68878608/144/umg-recordings-inc-v-suno-inc/)
-
-### 📄 Doc #— — 2025-10-10
-
-Status Conference
-
-### 📄 Doc #143 — 2025-10-10
-
-Electronic Clerk's Notes for proceedings held before Magistrate Judge Paul G. Levenson: Status Conference held on 10/10/2025. The parties are to confer regarding potential redactions to the discovery letter prior to its entry on the record. They discussed the status of the case and outstanding discovery issues. The Court will issue an order. Within the next two weeks, the parties are to confer and propose a schedule for discovery related to fair use defenses based on specific license agreements and raise any outstanding issues with the Court. (Court Reporter: Digital Recording.) To order a copy of this Digital Recording, please go to https://forms.mad.uscourts.gov/Audio.html. For a transcript of this proceeding, contact mad_transcripts@mad.uscourts.gov.(Attorneys present: Attorney Rayburn and Attorney Perry for the plaintiff. Attorney Gass and Attorney Lovejoy for the defendant.) (AT) (Entered: 10/10/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68878608/143/umg-recordings-inc-v-suno-inc/)
-
-### 📄 Doc #— — 2025-10-09
-
-Order on Motion for Leave to Appear
-
-### 📄 Doc #137 — 2025-10-08
-
-MOTION for Extension of Time to October 20, 2025 to File Response/Reply as to 126 MOTION to Amend 1 Complaint,, by Atlantic Recording Corporation, Atlantic Records Group LLC, Capitol Records, LLC, Rhino Entertainment LLC, Sony Music Entertainment, The All Blacks U.S.A., Inc., UMG Recordings, Inc., Warner Music International Services Limited, Warner Records Inc..(Perry, Alexander) (Entered: 10/08/2025)
-
-[CourtListener 連結](https://www.courtlistener.com/docket/68878608/137/umg-recordings-inc-v-suno-inc/)
-
 <details>
 <summary>已過濾的 28 筆程序性 entries（點擊展開）</summary>
 
+- **Doc #298** (2026-10-27): NOTICE of Appearance by Harrison Meyer on behalf of Capitol Records, LLC, Sony Music Entertainment, UMG Recordings, Inc. (Meyer, Harrison) (Entered: 10/27/2026)
+- **Doc #297** (2026-10-27): District Judge F. Dennis Saylor, IV: ELECTRONIC ORDER entered granting 295 Motion for Leave to Appear Pro Hac Vice re Harrison Meyer. Attorneys admitted Pro Hac Vice must have an individual PACER acco…
+- **Doc #295** (2026-10-27): Assented to MOTION for Leave to Appear Pro Hac Vice for admission of Harrison Meyer Filing fee: $ 125, receipt number AMADC-12140205 by Atlantic Recording Corporation, Atlantic Records Group LLC, Capi…
+- **Doc #292** (2026-10-23): NOTICE of Appearance by Khoa Nguyen on behalf of Capitol Records, LLC, Sony Music Entertainment, UMG Recordings, Inc. (Nguyen, Khoa) (Entered: 10/23/2026)
+- **Doc #291** (2026-10-23): District Judge F. Dennis Saylor, IV: ELECTRONIC ORDER entered granting 289 Motion for Leave to Appear Pro Hac Vice re Khoa D. Nguyen. Attorneys admitted Pro Hac Vice must have an individual PACER acco…
+- **Doc #289** (2026-10-22): Assented to MOTION for Leave to Appear Pro Hac Vice for admission of Khoa D. Nguyen Filing fee: $ 125, receipt number AMADC-12130941 by Atlantic Recording Corporation, Atlantic Records Group LLC, Capi…
 - **Doc #279** (2026-08-26): Magistrate Judge Paul G. Levenson: ELECTRONIC ORDER entered granting 278 Motion for Leave to Appear Pro Hac Vice Added Ashley Artmann. Attorneys admitted Pro Hac Vice must have an individual PACER acc…
 - **Doc #278** (2026-08-26): Assented to MOTION for Leave to Appear Pro Hac Vice for admission of Ashley Artmann Filing fee: $ 125, receipt number AMADC-11985439 by Atlantic Recording Corporation, Atlantic Records Group LLC, Capi…
 - **Doc #248** (2026-06-17): NOTICE of Appearance by Alexis Kellert Godfrey on behalf of Suno, Inc. (Godfrey, Alexis) (Entered: 06/17/2026)
@@ -993,15 +995,9 @@ MOTION for Extension of Time to October 20, 2025 to File Response/Reply as to 12
 - **Doc #167** (2025-11-17): District Judge F. Dennis Saylor, IV: ELECTRONIC ORDER entered GRANTING 166 Motion for Leave to Appear Pro Hac Vice Added Christopher B. Campbell. Attorneys admitted Pro Hac Vice must have an individua…
 - **Doc #166** (2025-11-17): MOTION for Leave to Appear Pro Hac Vice for admission of Christopher B. Campbell Filing fee: $ 125, receipt number AMADC-11362997 by Suno, Inc.. (Attachments: # 1 Certification of Christopher B. Campb…
 - **Doc #161** (2025-10-30): Assented to MOTION for Leave to Appear Pro Hac Vice for admission of Joseph T. Aronsohn Filing fee: $ 125, receipt number AMADC-11331197 by Atlantic Recording Corporation, Atlantic Records Group LLC, …
-- **Doc #142** (2025-10-10): NOTICE of Appearance by Christina Von der Ahe Rayburn on behalf of Atlantic Recording Corporation, Atlantic Records Group LLC, Capitol Records, LLC, Rhino Entertainment LLC, Sony Music Entertainment, …
-- **Doc #141** (2025-10-10): NOTICE of Appearance by Grace McLaughlin on behalf of Suno, Inc. (McLaughlin, Grace) (Entered: 10/10/2025)
-- **Doc #140** (2025-10-09): District Judge F. Dennis Saylor, IV: ELECTRONIC ORDER entered GRANTING 139 Motion for Leave to Appear Pro Hac Vice Added Grace McLaughlin. Attorneys admitted Pro Hac Vice must have an individual PACER…
-- **Doc #139** (2025-10-09): Assented to MOTION for Leave to Appear Pro Hac Vice for admission of Grace McLaughlin Filing fee: $ 125, receipt number AMADC-11289888 by Suno, Inc.. (Attachments: # 1 Certification of Grace McLaughli…
-- **Doc #138** (2025-10-08): District Judge F. Dennis Saylor, IV: ELECTRONIC ORDER entered GRANTING 136 Motion for Leave to Appear Pro Hac Vice Added Christina V. Rayburn. Attorneys admitted Pro Hac Vice must have an individual P…
-- **Doc #136** (2025-10-08): Assented to MOTION for Leave to Appear Pro Hac Vice for admission of Christina V. Rayburn Filing fee: $ 125, receipt number AMADC-11288354 by Atlantic Recording Corporation, Atlantic Records Group LLC…
 
 </details>
 
 ---
 
-*產生時間：2026-10-01 01:09 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-11-01 01:09 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

@@ -1,6 +1,6 @@
 # Case 17 — Strike 3 Holdings, LLC v. Meta Platforms, Inc.
 
-> 最後更新（CourtListener fetch）：2026-10-01 01:13 UTC
+> 最後更新（CourtListener fetch）：2026-11-01 01:13 UTC
 
 ---
 
@@ -14,7 +14,7 @@
 | Judge Assigned | Eumi K. Lee |
 | Judge Referred | Susan Van Keulen |
 | Date Filed | 2025-07-23 |
-| Date Last Filing | 2026-09-04 |
+| Date Last Filing | 2026-10-28 |
 | Cause | 17:101 Copyright Infringement |
 | Nature of Suit | 820 Copyright |
 | Jury Demand | Plaintiff |
@@ -34,39 +34,57 @@
 
 - ✅ Court 一致：dashboard 寫「N.D. Cal.」，CourtListener 為「N.D. California」
 - ✅ Judge 一致：dashboard 寫「Eumi K. Lee」，CourtListener 為「Eumi K. Lee」
-- ℹ️ Dashboard progress 內找不到【YYYY/M/D】格式日期；CourtListener 最後 entry: 2026-09-04
+- ℹ️ Dashboard progress 內找不到【YYYY/M/D】格式日期；CourtListener 最後 entry: 2026-10-28
 
 ## 3. Docket Entries（最新優先，已過濾程序性 entries）
 
-**實質性 entries**：91 筆／**已過濾程序性 entries**：15 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+**實質性 entries**：94 筆／**已過濾程序性 entries**：15 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+
+### 📄 Doc #85 — 2026-10-28
+
+Declaration in Support
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70899478/85/strike-3-holdings-llc-v-meta-platforms-inc/)
+
+### 📄 Doc #84 — 2026-10-21
+
+Administrative Motion to Consider Whether Another Party's Material Should Be Sealed regarding Second Case Management Statement (ECF 83) filed by Counterlife Media, LLC, Strike 3 Holdings, LLC. (Attachments: # 1 Exhibit 1 - Proposed Order, # 2 Exhibit 2 - Unredacted Version of CMS)(Waugh, Christian) (Filed on 10/21/2026) (Entered: 10/21/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70899478/84/1/strike-3-holdings-llc-v-meta-platforms-inc/)
+
+### 📄 Doc #83 — 2026-10-21
+
+CASE MANAGEMENT STATEMENT per Court's Order ECF 77 filed by Counterlife Media, LLC, Strike 3 Holdings, LLC. (Waugh, Christian) (Filed on 10/21/2026) (Entered: 10/21/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/70899478/83/strike-3-holdings-llc-v-meta-platforms-inc/)
 
 ### 📄 Doc #82 — 2026-09-04
 
-Order on Administrative Motion per Civil Local Rule 7-11 AND Order on Administrative Motion per Civil Local Rule 7-11
+ORDER Denying 78, 79 Administrative Motions without prejudice. Signed by Judge Eumi K. Lee.(lrt, COURT STAFF) (Filed on 9/4/2026) (Entered: 09/04/2026)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/70899478/82/strike-3-holdings-llc-v-meta-platforms-inc/)
 
 ### 📄 Doc #81 — 2026-09-03
 
-Proposed Order
+RESPONSE re 79 ADMINISTRATIVE MOTION to Consider Whether Another Party's Material Should Be Sealed re 78 ADMINISTRATIVE MOTION to Consider Whether Cases Should Be Related by Meta Platforms, Inc.. (Attachments: # 1 Proposed Order)(Dunning, Angela) (Filed on 9/3/2026) (Entered: 09/03/2026)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/70899478/81/1/strike-3-holdings-llc-v-meta-platforms-inc/)
 
 ### 📄 Doc #80 — 2026-09-01
 
-Opposition/Response to Motion
+OPPOSITION/RESPONSE (re 78 ADMINISTRATIVE MOTION to Consider Whether Cases Should Be Related ) filed byMeta Platforms, Inc.. (Dunning, Angela) (Filed on 9/1/2026) (Entered: 09/01/2026)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/70899478/80/strike-3-holdings-llc-v-meta-platforms-inc/)
 
 ### 📄 Doc #79 — 2026-08-30
 
-Administrative Motion per Civil Local Rule 7-11
+ADMINISTRATIVE MOTION to Consider Whether Another Party's Material Should Be Sealed re 78 ADMINISTRATIVE MOTION to Consider Whether Cases Should Be Related filed by Counterlife Media, LLC, Strike 3 Holdings, LLC. Responses due by 9/3/2026. (Attachments: # 1 Declaration of Christian W. Waugh, # 2 Proposed Order)(Waugh, Christian) (Filed on 8/30/2026) (Entered: 08/30/2026)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/70899478/79/strike-3-holdings-llc-v-meta-platforms-inc/)
 
 ### 📄 Doc #78 — 2026-08-28
 
-Proposed Order Granting Motion
+ADMINISTRATIVE MOTION to Consider Whether Cases Should Be Related filed by Strike 3 Holdings, LLC. Responses due by 9/1/2026. (Attachments: # 1 Exhibit A - Declaration of Emilie Kennedy, # 2 Declaration of Christian W. Waugh, # 3 Proposed Order Granting Motion)(Waugh, Christian) (Filed on 8/28/2026) (Entered: 08/28/2026)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/70899478/78/3/strike-3-holdings-llc-v-meta-platforms-inc/)
 
@@ -98,7 +116,7 @@ Certification of ADR Session
 
 ### 📄 Doc #74 — 2026-07-27
 
-ORDER Re Protective Order for Non-Party Discovery re Dkt.  72 . Signed by Judge Susan van Keulen on July 27, 2026.  (svklc2, COURT STAFF) (Filed on 7/27/2026)
+ORDER Re Protective Order for Non-Party Discovery re Dkt. 72 . Signed by Judge Susan van Keulen on July 27, 2026. (svklc2, COURT STAFF) (Filed on 7/27/2026) (Entered: 07/27/2026)
 
 [CourtListener 連結](https://www.courtlistener.com/docket/70899478/74/strike-3-holdings-llc-v-meta-platforms-inc/)
 
@@ -561,4 +579,4 @@ Rule 7.1 Disclosures by Strike 3 Holdings, LLC, Counterlife Media, LLC identifyi
 
 ---
 
-*產生時間：2026-10-01 01:13 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-11-01 01:13 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

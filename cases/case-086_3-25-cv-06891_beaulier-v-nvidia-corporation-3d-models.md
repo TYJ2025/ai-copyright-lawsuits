@@ -1,6 +1,6 @@
 # Case 86 — Getty Images (US), Inc. v. Stability AI, Ltd.
 
-> 最後更新（CourtListener fetch）：2026-10-01 01:37 UTC
+> 最後更新（CourtListener fetch）：2026-11-01 01:39 UTC
 
 ---
 
@@ -14,7 +14,7 @@
 | Judge Assigned | Trina L. Thompson |
 | Judge Referred | Sallie Kim |
 | Date Filed | 2025-08-14 |
-| Date Last Filing | 2026-09-04 |
+| Date Last Filing | 2026-10-30 |
 | Cause | 17:501 Copyright Infringement |
 | Nature of Suit | 820 Copyright |
 | Jury Demand | Plaintiff |
@@ -34,11 +34,31 @@
 
 - ✅ Court 一致：dashboard 寫「N.D. Cal.」，CourtListener 為「N.D. California」
 - ✅ Judge 一致：dashboard 寫「Trina L. Thompson」，CourtListener 為「Trina L. Thompson」
-- ℹ️ Dashboard progress 內找不到【YYYY/M/D】格式日期；CourtListener 最後 entry: 2026-09-04
+- ℹ️ Dashboard progress 內找不到【YYYY/M/D】格式日期；CourtListener 最後 entry: 2026-10-30
 
 ## 3. Docket Entries（最新優先，已過濾程序性 entries）
 
-**實質性 entries**：75 筆／**已過濾程序性 entries**：20 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+**實質性 entries**：79 筆／**已過濾程序性 entries**：20 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+
+### 📄 Doc #— — 2026-10-30
+
+Order on Administrative Motion per Civil Local Rule 7-11
+
+### 📄 Doc #— — 2026-10-30
+
+Set Deadlines/Hearings
+
+### 📄 Doc #80 — 2026-10-29
+
+Joint Case Management Statement
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71112094/80/getty-images-us-inc-v-stability-ai-ltd/)
+
+### 📄 Doc #79 — 2026-10-29
+
+Administrative Motion per Civil Local Rule 7-11
+
+[CourtListener 連結](https://www.courtlistener.com/docket/71112094/79/getty-images-us-inc-v-stability-ai-ltd/)
 
 ### 📄 Doc #76 — 2026-08-27
 
@@ -484,4 +504,4 @@ COMPLAINT against Stability AI US Services Corporation, Stability AI, Inc., Stab
 
 ---
 
-*產生時間：2026-10-01 01:37 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-11-01 01:39 UTC | Script: `scripts/fetch_courtlistener_docket.py`*

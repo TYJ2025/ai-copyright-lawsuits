@@ -1,6 +1,6 @@
 # Case 81 — Google LLC v. SerpApi, LLC
 
-> 最後更新（CourtListener fetch）：2026-10-01 01:36 UTC
+> 最後更新（CourtListener fetch）：2026-11-01 01:38 UTC
 
 ---
 
@@ -13,7 +13,7 @@
 | Court | District Court, N.D. California (`cand`) |
 | Judge Assigned | Yvonne Gonzalez Rogers |
 | Date Filed | 2025-12-19 |
-| Date Last Filing | 2026-09-29 |
+| Date Last Filing | 2026-10-12 |
 | Cause | 28:1338 Copyright Infringement |
 | Nature of Suit | 820 Copyright |
 | Jury Demand | Plaintiff |
@@ -33,11 +33,23 @@
 
 - ✅ Court 一致：dashboard 寫「N.D. Cal.」，CourtListener 為「N.D. California」
 - ✅ Judge 一致：dashboard 寫「Yvonne Gonzalez Rogers」，CourtListener 為「Yvonne Gonzalez Rogers」
-- ℹ️ Dashboard progress 內找不到【YYYY/M/D】格式日期；CourtListener 最後 entry: 2026-09-29
+- ℹ️ Dashboard progress 內找不到【YYYY/M/D】格式日期；CourtListener 最後 entry: 2026-10-12
 
 ## 3. Docket Entries（最新優先，已過濾程序性 entries）
 
-**實質性 entries**：64 筆／**已過濾程序性 entries**：17 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+**實質性 entries**：66 筆／**已過濾程序性 entries**：17 筆（pro hac vice、certificate of service、notice of appearance/change of address、disclosure statement 等）
+
+### 📄 Doc #61 — 2026-10-12
+
+STATEMENT OF RECENT DECISION pursuant to Civil Local Rule 7-3.d filed byGoogle LLC. (Attachments: # 1 Exhibit A)(Kramer, David) (Filed on 10/12/2026) (Entered: 10/12/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72059948/61/1/google-llc-v-serpapi-llc/)
+
+### 📄 Doc #60 — 2026-10-05
+
+ORDER VACATING HEARING Re: 49 MOTION to Dismiss the Amended Complaint. Hearing previously set for 10/13/2026, is vacated and will be reset or decided on the papers as appropriate. Signed by Chief Judge Yvonne Gonzalez Rogers on 10/5/2026. (eac, COURT STAFF) (Filed on 10/5/2026) (Entered: 10/05/2026)
+
+[CourtListener 連結](https://www.courtlistener.com/docket/72059948/60/google-llc-v-serpapi-llc/)
 
 ### 📄 Doc #59 — 2026-09-29
 
@@ -408,4 +420,4 @@ Proposed Summons. (Kramer, David) (Filed on 12/19/2025) (Entered: 12/19/2025)
 
 ---
 
-*產生時間：2026-10-01 01:36 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
+*產生時間：2026-11-01 01:38 UTC | Script: `scripts/fetch_courtlistener_docket.py`*
