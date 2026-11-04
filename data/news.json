@@ -6,6 +6,11 @@
   "data": {
     "items": [
       {
+        "addedAt": "2026-11-05",
+        "text": "【2026/11/4】Concord Music v. Anthropic II（N.D. Cal. 5:26-cv-00880，Eumi Lee 法官）：法院就 Anthropic 與 CEO Dario Amodei 之一部駁回動議開庭後裁定，駁回原告對 Amodei 個人就 20,517 首歌曲 BitTorrent 盜版 torrenting 直接侵權之指控（欠缺具體核准盜版行為之事實基礎），但准原告修正訴狀重新主張；Amodei 可能仍面臨 Anthropic 未爭執之代位／輔助侵權追訴",
+        "url": "https://www.courthousenews.com/music-publishers-suffer-setback-in-copyright-case-against-anthropic/"
+      },
+      {
         "addedAt": "2026-11-04",
         "text": "【2026/11/3】Isbell v. Suno（D. Mass.）：Suno 就 Jason Isbell、David Lowery 等音樂人提起之公開權／人格權集體訴訟聲請駁回，主張「模仿某藝人風格」不構成著作權或商標混淆，核心非著作權訴因",
         "url": "https://www.billboard.com/pro/suno-responds-jason-isbell-ai-music-lawsuit/"
@@ -39,7 +44,9 @@
         "addedAt": "2026-11-03",
         "text": "【2026/11/2】New York Times 等媒體 v. Brave Software（S.D.N.Y.）：紐時、Daily News 等多家新聞媒體對瀏覽器業者 Brave 提起新訴，指其大規模爬取新聞內容後轉售摘要 API 予 Anthropic、Perplexity 等 AI 公司訓練與檢索使用，主張著作權侵害及 DMCA 規避技術保護措施，為美國第 160 件 AI 著作權訴訟",
         "url": "https://techcrunch.com/2026/11/02/new-york-times-and-other-outlets-sue-web-browser-brave-over-alleged-content-scraping/"
-      },
+      }
+    ],
+    "archive": [
       {
         "addedAt": "2026-11-02",
         "text": "【2026/10/30】Rosen v. Pichai 等（N.D. Ill.）：股東 Phil Rosen 對 Google CEO Sundar Pichai 及 Larry Page、Sergey Brin 等董事提起股東代位訴訟，主張渠等明知 AI 訓練涉著作權侵害及 BIPA 生物辨識隱私違規仍未作為，為繼 Rosen v. Cook（Apple）後同一律師之第二件科技公司代位訴訟",
@@ -54,9 +61,7 @@
         "addedAt": "2026-11-02",
         "text": "【2026/10/29】Kadrey v. Meta（N.D. Cal. MDL）：Chhabria 法官裁定將 Hobbs、Older、Sheard 三件書籍作者訴訟關連併入 Kadrey MDL，並預告 Winspear、Reno、Levine 三案將接續併案，統合逾 290 名作者對 Meta LLaMA／Muse 訓練之個別訴訟",
         "url": "https://chatgptiseatingtheworld.com/2026/10/29/judge-chhabria-relates-hobbs-older-sheard-to-kadrey-v-meta-expect-winspear-reno-levine-to-follow/"
-      }
-    ],
-    "archive": [
+      },
       {
         "addedAt": "2026-11-01",
         "text": "【2026/10/29】挪威媒體聯盟 v. Meta（奧斯陸地院）：NRK、Schibsted、Amedia、Polaris、Aller、NTB 等十家媒體提起訴訟，法院暫時禁止 Meta 新版商業帳戶條款蒐集出版商文章與圖像供 AI 訓練",
@@ -955,5 +960,5 @@
     ]
   },
   "lastUpdatedBy": "add_news.py",
-  "lastUpdatedAt": "2026-11-04T07:13:27.778727+08:00"
+  "lastUpdatedAt": "2026-11-05T07:12:31.660853+08:00"
 }
