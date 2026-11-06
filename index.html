@@ -1951,7 +1951,7 @@
 </div>
 
 <footer>
-  &copy; 2026 AI Copyright Litigation Tracker &mdash; 案件資料來源：美國聯邦法院公開紀錄、CourtListener   每日快訊最近更新: 2026-11-06
+  &copy; 2026 AI Copyright Litigation Tracker &mdash; 案件資料來源：美國聯邦法院公開紀錄、CourtListener   每日快訊最近更新: 2026-11-07
 </footer>
 
 <script>
@@ -14199,6 +14199,11 @@ buildRegionMap();
 // 每筆需含 addedAt（YYYY-MM-DD，台北時區），代表「條目加入 dashboard 之日期」
 const newsItems = [
   {
+    "addedAt": "2026-11-07",
+    "text": "【2026/10/30】In re OpenAI Copyright Infringement Litigation（S.D.N.Y. MDL）：好萊塢經紀公司 WME 提交法庭之友意見書，加入 CAA、Human Consent Foundation、SAG-AFTRA、WGA 等陣營，主張 AI 業者使用創作者內容須符合倫理並給予適當授權與報酬",
+    "url": "https://deadline.com/2026/11/openai-lawsuit-copyright-wme-nwe-york-times-ai-1237211006/"
+  },
+  {
     "addedAt": "2026-11-05",
     "text": "【2026/11/4】Concord Music v. Anthropic II（N.D. Cal. 5:26-cv-00880，Eumi Lee 法官）：法院就 Anthropic 與 CEO Dario Amodei 之一部駁回動議開庭後裁定，駁回原告對 Amodei 個人就 20,517 首歌曲 BitTorrent 盜版 torrenting 直接侵權之指控（欠缺具體核准盜版行為之事實基礎），但准原告修正訴狀重新主張；Amodei 可能仍面臨 Anthropic 未爭執之代位／輔助侵權追訴",
     "url": "https://www.courthousenews.com/music-publishers-suffer-setback-in-copyright-case-against-anthropic/"
@@ -14207,7 +14212,12 @@ const newsItems = [
     "addedAt": "2026-11-04",
     "text": "【2026/11/3】Isbell v. Suno（D. Mass.）：Suno 就 Jason Isbell、David Lowery 等音樂人提起之公開權／人格權集體訴訟聲請駁回，主張「模仿某藝人風格」不構成著作權或商標混淆，核心非著作權訴因",
     "url": "https://www.billboard.com/pro/suno-responds-jason-isbell-ai-music-lawsuit/"
-  },
+  }
+];
+
+// newsArchive: 已超過 3 天而從 newsItems 移除之歷史快訊（新者在上）
+// 由 daily-brief.sh 每日自動 prepend；展開於畫面下方「歷史快訊 Archive」區塊
+const newsArchive = [
   {
     "addedAt": "2026-11-04",
     "text": "【2026/11/3】Hendrix v. Apple（N.D. Cal., Gonzalez Rogers 法官）：作者方提出第一次修正後合併集體訴訟訴狀，指控 Apple 以 Books3 影子圖書館資料訓練 OpenELM 及 Apple Intelligence 基礎模型，未取得授權亦未付費",
@@ -14237,12 +14247,7 @@ const newsItems = [
     "addedAt": "2026-11-03",
     "text": "【2026/11/2】New York Times 等媒體 v. Brave Software（S.D.N.Y.）：紐時、Daily News 等多家新聞媒體對瀏覽器業者 Brave 提起新訴，指其大規模爬取新聞內容後轉售摘要 API 予 Anthropic、Perplexity 等 AI 公司訓練與檢索使用，主張著作權侵害及 DMCA 規避技術保護措施，為美國第 160 件 AI 著作權訴訟",
     "url": "https://techcrunch.com/2026/11/02/new-york-times-and-other-outlets-sue-web-browser-brave-over-alleged-content-scraping/"
-  }
-];
-
-// newsArchive: 已超過 3 天而從 newsItems 移除之歷史快訊（新者在上）
-// 由 daily-brief.sh 每日自動 prepend；展開於畫面下方「歷史快訊 Archive」區塊
-const newsArchive = [
+  },
   {
     "addedAt": "2026-11-02",
     "text": "【2026/10/30】Rosen v. Pichai 等（N.D. Ill.）：股東 Phil Rosen 對 Google CEO Sundar Pichai 及 Larry Page、Sergey Brin 等董事提起股東代位訴訟，主張渠等明知 AI 訓練涉著作權侵害及 BIPA 生物辨識隱私違規仍未作為，為繼 Rosen v. Cook（Apple）後同一律師之第二件科技公司代位訴訟",
