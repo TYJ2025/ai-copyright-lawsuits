@@ -1951,7 +1951,7 @@
 </div>
 
 <footer>
-  &copy; 2026 AI Copyright Litigation Tracker &mdash; 案件資料來源：美國聯邦法院公開紀錄、CourtListener   每日快訊最近更新: 2026-11-07
+  &copy; 2026 AI Copyright Litigation Tracker &mdash; 案件資料來源：美國聯邦法院公開紀錄、CourtListener   每日快訊最近更新: 2026-11-08
 </footer>
 
 <script>
@@ -14199,10 +14199,30 @@ buildRegionMap();
 // 每筆需含 addedAt（YYYY-MM-DD，台北時區），代表「條目加入 dashboard 之日期」
 const newsItems = [
   {
+    "addedAt": "2026-11-08",
+    "text": "【2026/11/5】原告律所 Stris & Maher 代表 Cognella、Cambronne（即 Carreyrou）、Chicken Soup for the Soul 三家原告對 SpaceX Superintelligence（xAI／Grok 母公司）提起 3 件新著作權訴訟，主張掃描合法持有書籍製作數位版供 AI 訓練不構成合理使用，使 2026 年全美 AI 著作權訴訟總數達 88 件；該所並超越 Joseph Saveri Law Firm 成為提告最多之原告律所",
+    "url": "https://chatgptiseatingtheworld.com/2026/11/05/stris-maher-takes-lead-in-filing-ai-copyright-suits-with-3-new-suits-v-elon-musks-company-spacex-superintelligence/"
+  },
+  {
+    "addedAt": "2026-11-08",
+    "text": "【2026/11/6】Elvis Presley Enterprises／Authentic Brands Group、Raleigh Music Publishing v. Suno（加州聯邦法院）：主張 Suno 容許使用者生成模仿 Presley 嗓音之歌曲，侵害含《Can't Help Falling in Love》等 6 首歌曲著作權，另援引田納西州 ELVIS Act 主張聲音人格權受侵害，為音樂著作權與聲音肖像權併列主張之新類型訴訟",
+    "url": "https://www.billboard.com/pro/elvis-presley-ai-voice-cloning-lawsuit-suno/"
+  },
+  {
+    "addedAt": "2026-11-08",
+    "text": "【2026/11/6】Eight Mile Style v. Suno（N.D. Cal., 舊金山聯邦法院）：Eminem 音樂發行商 Eight Mile Style 提起新訴，主張 Suno 使用其代管 269 首 Eminem 作品訓練模型並移除著作權管理資訊，另指 Suno 經第三方服務自 YouTube Music、Deezer、Genius 大量擷取歌曲與歌詞，求償約 4,100 萬美元",
+    "url": "https://variety.com/2026/music/news/elvis-eminem-sue-suno-ai-music-generator-1236941798/"
+  },
+  {
     "addedAt": "2026-11-07",
     "text": "【2026/10/30】In re OpenAI Copyright Infringement Litigation（S.D.N.Y. MDL）：好萊塢經紀公司 WME 提交法庭之友意見書，加入 CAA、Human Consent Foundation、SAG-AFTRA、WGA 等陣營，主張 AI 業者使用創作者內容須符合倫理並給予適當授權與報酬",
     "url": "https://deadline.com/2026/11/openai-lawsuit-copyright-wme-nwe-york-times-ai-1237211006/"
-  },
+  }
+];
+
+// newsArchive: 已超過 3 天而從 newsItems 移除之歷史快訊（新者在上）
+// 由 daily-brief.sh 每日自動 prepend；展開於畫面下方「歷史快訊 Archive」區塊
+const newsArchive = [
   {
     "addedAt": "2026-11-05",
     "text": "【2026/11/4】Concord Music v. Anthropic II（N.D. Cal. 5:26-cv-00880，Eumi Lee 法官）：法院就 Anthropic 與 CEO Dario Amodei 之一部駁回動議開庭後裁定，駁回原告對 Amodei 個人就 20,517 首歌曲 BitTorrent 盜版 torrenting 直接侵權之指控（欠缺具體核准盜版行為之事實基礎），但准原告修正訴狀重新主張；Amodei 可能仍面臨 Anthropic 未爭執之代位／輔助侵權追訴",
@@ -14212,12 +14232,7 @@ const newsItems = [
     "addedAt": "2026-11-04",
     "text": "【2026/11/3】Isbell v. Suno（D. Mass.）：Suno 就 Jason Isbell、David Lowery 等音樂人提起之公開權／人格權集體訴訟聲請駁回，主張「模仿某藝人風格」不構成著作權或商標混淆，核心非著作權訴因",
     "url": "https://www.billboard.com/pro/suno-responds-jason-isbell-ai-music-lawsuit/"
-  }
-];
-
-// newsArchive: 已超過 3 天而從 newsItems 移除之歷史快訊（新者在上）
-// 由 daily-brief.sh 每日自動 prepend；展開於畫面下方「歷史快訊 Archive」區塊
-const newsArchive = [
+  },
   {
     "addedAt": "2026-11-04",
     "text": "【2026/11/3】Hendrix v. Apple（N.D. Cal., Gonzalez Rogers 法官）：作者方提出第一次修正後合併集體訴訟訴狀，指控 Apple 以 Books3 影子圖書館資料訓練 OpenELM 及 Apple Intelligence 基礎模型，未取得授權亦未付費",
