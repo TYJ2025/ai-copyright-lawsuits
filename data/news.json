@@ -6,6 +6,11 @@
   "data": {
     "items": [
       {
+        "addedAt": "2026-11-09",
+        "text": "【2026/11/6】Meta 無限期暫緩原訂 11/20 生效之新版商業帳戶條款（原可爬取 Meta Business 帳戶所屬網站供 AI 訓練），因挪威、巴西法院相繼核准假處分禁止適用、英國 CMA 另啟調查之跨國法律壓力下撤回；該條款原訂 10/30 生效，已因挪威媒體聯盟訴訟（詳 10/29 快訊）等多起法律挑戰延後至 11/20，最終全面暫緩",
+        "url": "https://ppc.land/meta-halts-its-nov-20-terms-that-would-let-it-crawl-business-websites/"
+      },
+      {
         "addedAt": "2026-11-08",
         "text": "【2026/11/5】原告律所 Stris & Maher 代表 Cognella、Cambronne（即 Carreyrou）、Chicken Soup for the Soul 三家原告對 SpaceX Superintelligence（xAI／Grok 母公司）提起 3 件新著作權訴訟，主張掃描合法持有書籍製作數位版供 AI 訓練不構成合理使用，使 2026 年全美 AI 著作權訴訟總數達 88 件；該所並超越 Joseph Saveri Law Firm 成為提告最多之原告律所",
         "url": "https://chatgptiseatingtheworld.com/2026/11/05/stris-maher-takes-lead-in-filing-ai-copyright-suits-with-3-new-suits-v-elon-musks-company-spacex-superintelligence/"
@@ -980,5 +985,5 @@
     ]
   },
   "lastUpdatedBy": "add_news.py",
-  "lastUpdatedAt": "2026-11-08T07:10:16.621111+08:00"
+  "lastUpdatedAt": "2026-11-09T07:09:10.464240+08:00"
 }
