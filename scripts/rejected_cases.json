@@ -918,5 +918,32 @@
     "decidedAt": "2026-11-02T08:00:09+08:00",
     "appliedAt": "2026-11-02T08:00:09+08:00",
     "decidedBy": "auto-triage"
+  },
+  {
+    "title": "Zabel v. Brennan",
+    "url": "https://www.courtlistener.com/docket/75079354/zabel-v-brennan/",
+    "subtitle": "District Court, D. Arizona · 4:26-cv-00584 · filed 2026-11-05",
+    "note": "自動分流：起訴狀全文無任何 AI 關鍵詞（非 AI 案）",
+    "decidedAt": "2026-11-09T08:00:10+08:00",
+    "appliedAt": "2026-11-09T08:00:10+08:00",
+    "decidedBy": "auto-triage"
+  },
+  {
+    "title": "Vargo v. O'Connor",
+    "url": "https://www.courtlistener.com/docket/75067894/vargo-v-oconnor/",
+    "subtitle": "District Court, N.D. Ohio · 1:26-cv-02900 · filed 2026-11-03",
+    "note": "自動分流：起訴狀全文無任何 AI 關鍵詞（非 AI 案）",
+    "decidedAt": "2026-11-09T08:00:10+08:00",
+    "appliedAt": "2026-11-09T08:00:10+08:00",
+    "decidedBy": "auto-triage"
+  },
+  {
+    "title": "Mapes v. Meta Platforms, Inc.",
+    "url": "https://www.courtlistener.com/docket/75057119/mapes-v-meta-platforms-inc/",
+    "subtitle": "District Court, S.D. New York · 1:26-cv-09559 · filed 2026-11-02",
+    "note": "自動分流：起訴狀全文無任何 AI 關鍵詞（非 AI 案）",
+    "decidedAt": "2026-11-09T08:00:10+08:00",
+    "appliedAt": "2026-11-09T08:00:10+08:00",
+    "decidedBy": "auto-triage"
   }
 ]

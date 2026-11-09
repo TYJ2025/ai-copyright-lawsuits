@@ -170,5 +170,32 @@
     "decidedAt": "2026-10-26T08:00:11+08:00",
     "appliedAt": "2026-10-26T08:00:11+08:00",
     "decidedBy": "auto-triage"
+  },
+  {
+    "title": "UMG Recordings, Inc. v. Suno, Inc.",
+    "url": "https://www.courtlistener.com/docket/75083547/umg-recordings-inc-v-suno-inc/",
+    "subtitle": "District Court, D. Massachusetts · 1:26-mc-91602 · filed 2026-11-06",
+    "note": "自動分流：當事人含 AI 業者：Suno",
+    "decidedAt": "2026-11-09T08:00:10+08:00",
+    "appliedAt": "2026-11-09T08:00:10+08:00",
+    "decidedBy": "auto-triage"
+  },
+  {
+    "title": "Daily News LP v. Brave Software, Inc.",
+    "url": "https://www.courtlistener.com/docket/75056336/daily-news-lp-v-brave-software-inc/",
+    "subtitle": "District Court, S.D. New York · 1:26-cv-09554 · filed 2026-11-02",
+    "note": "自動分流：起訴狀含 AI 關鍵詞：generative×2、artificial intelligence×1、large language model×1、training data×1",
+    "decidedAt": "2026-11-09T08:00:10+08:00",
+    "appliedAt": "2026-11-09T08:00:10+08:00",
+    "decidedBy": "auto-triage"
+  },
+  {
+    "title": "The New York Times Co. v. Brave Software, Inc.",
+    "url": "https://www.courtlistener.com/docket/75055933/the-new-york-times-co-v-brave-software-inc/",
+    "subtitle": "District Court, S.D. New York · 1:26-cv-09549 · filed 2026-11-02",
+    "note": "自動分流：起訴狀含 AI 關鍵詞：generative×2、artificial intelligence×1、large language model×1、training data×1",
+    "decidedAt": "2026-11-09T08:00:10+08:00",
+    "appliedAt": "2026-11-09T08:00:10+08:00",
+    "decidedBy": "auto-triage"
   }
 ]
