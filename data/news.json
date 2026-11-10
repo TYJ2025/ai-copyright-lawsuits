@@ -6,6 +6,11 @@
   "data": {
     "items": [
       {
+        "addedAt": "2026-11-11",
+        "text": "【2026/11/3】NYT v. OpenAI 及 In re OpenAI MDL（S.D.N.Y., Stein 法官）：好萊塢演員與創作團體提交逾 50 份法庭之友意見書聲援紐時，Anne Hathaway、Bette Midler、Madonna 等聯署；雙方即決判決補充書狀訂 11/20 提出",
+        "url": "https://www.axios.com/2026/11/03/hollywood-new-york-times-openai-microsoft"
+      },
+      {
         "addedAt": "2026-11-10",
         "text": "【2026/11/9】Disney/Warner Bros. v. Midjourney（C.D. Cal., Kronstadt 法官）：專家 discovery 11/9 截止，即決判決聽證延至 11/23；Midjourney 要求片廠揭露自身 AI 訓練資料與模型權重以佐合理使用抗辯。",
         "url": "https://variety.com/2026/film/news/midjourney-studios-ai-copyright-discovery-1236800902/"
@@ -19,7 +24,9 @@
         "addedAt": "2026-11-09",
         "text": "【2026/11/6】Meta 無限期暫緩原訂 11/20 生效之新版商業帳戶條款（原可爬取 Meta Business 帳戶所屬網站供 AI 訓練），因挪威、巴西法院相繼核准假處分禁止適用、英國 CMA 另啟調查之跨國法律壓力下撤回；該條款原訂 10/30 生效，已因挪威媒體聯盟訴訟（詳 10/29 快訊）等多起法律挑戰延後至 11/20，最終全面暫緩",
         "url": "https://ppc.land/meta-halts-its-nov-20-terms-that-would-let-it-crawl-business-websites/"
-      },
+      }
+    ],
+    "archive": [
       {
         "addedAt": "2026-11-08",
         "text": "【2026/11/5】原告律所 Stris & Maher 代表 Cognella、Cambronne（即 Carreyrou）、Chicken Soup for the Soul 三家原告對 SpaceX Superintelligence（xAI／Grok 母公司）提起 3 件新著作權訴訟，主張掃描合法持有書籍製作數位版供 AI 訓練不構成合理使用，使 2026 年全美 AI 著作權訴訟總數達 88 件；該所並超越 Joseph Saveri Law Firm 成為提告最多之原告律所",
@@ -34,9 +41,7 @@
         "addedAt": "2026-11-08",
         "text": "【2026/11/6】Eight Mile Style v. Suno（N.D. Cal., 舊金山聯邦法院）：Eminem 音樂發行商 Eight Mile Style 提起新訴，主張 Suno 使用其代管 269 首 Eminem 作品訓練模型並移除著作權管理資訊，另指 Suno 經第三方服務自 YouTube Music、Deezer、Genius 大量擷取歌曲與歌詞，求償約 4,100 萬美元",
         "url": "https://variety.com/2026/music/news/elvis-eminem-sue-suno-ai-music-generator-1236941798/"
-      }
-    ],
-    "archive": [
+      },
       {
         "addedAt": "2026-11-07",
         "text": "【2026/10/30】In re OpenAI Copyright Infringement Litigation（S.D.N.Y. MDL）：好萊塢經紀公司 WME 提交法庭之友意見書，加入 CAA、Human Consent Foundation、SAG-AFTRA、WGA 等陣營，主張 AI 業者使用創作者內容須符合倫理並給予適當授權與報酬",
@@ -995,5 +1000,5 @@
     ]
   },
   "lastUpdatedBy": "add_news.py",
-  "lastUpdatedAt": "2026-11-10T07:10:39.090572+08:00"
+  "lastUpdatedAt": "2026-11-11T07:10:34.350852+08:00"
 }
