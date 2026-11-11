@@ -6,6 +6,26 @@
   "data": {
     "items": [
       {
+        "addedAt": "2026-11-12",
+        "text": "【2026/11/10】Reddit v. SerpAPI, Perplexity AI（S.D.N.Y., Engelmayer 法官）：Perplexity 撤回聲請由 Proskauer Rose 代理應訴之動議，法院未就利益衝突爭議作出裁定；Engelmayer 法官轉而要求釐清 Perplexity 原代理律所 Keker Van Nest 是否仍續行代理。",
+        "url": "https://chatgptiseatingtheworld.com/2026/11/10/perplexity-withdraws-attempt-to-hire-proskauer-firm-without-ruling-on-potential-conflict-issue/"
+      },
+      {
+        "addedAt": "2026-11-12",
+        "text": "【2026/11/9】Google v. SerpApi（N.D. Cal., Gonzalez Rogers 法官）：法院裁定駁回 Google 第一次修正訴狀之 DMCA 反規避主張，就不受著作權保護之搜尋結果部分不准再修正，惟涉及 Knowledge Panel 內受著作權保護內容部分，准 Google 於 21 日內再提出修正訴狀證明已獲著作權人授權。",
+        "url": "https://www.seroundtable.com/google-lawsuit-serpapi-dismissed-41731.html"
+      },
+      {
+        "addedAt": "2026-11-12",
+        "text": "【2026/11/10-11】UMG／Sony v. Suno（D. Mass.）：discovery 會議中 Suno 提出音樂公司或無權將錄音授權供 AI 訓練之抗辯，質疑現行授權市場是否存在；NVIDIA 另具狀聲請撤銷 UMG v. Suno 案中對其核發之傳票，主張範圍過廣、負擔過重。",
+        "url": "https://www.digitalmusicnews.com/2026/11/10/umg-v-suno-discovery-dispute/"
+      },
+      {
+        "addedAt": "2026-11-12",
+        "text": "【2026/11/11】Getty Images v. Stability AI（英國上訴法院，UK Court of Appeal）：Getty 主張 Stability AI 之影像生成模型即便未內含受保護影像本身，仍可構成「侵權重製物」，應著重訓練階段之重製行為而非成品模型；Stability 以「蛋糕類比」反駁，稱此主張形同認定食譜照片使蛋糕成為「侵權重製物」，庭期續行至 11/12。",
+        "url": "https://www.mlex.com/mlex/intellectual-property/articles/2548997"
+      },
+      {
         "addedAt": "2026-11-11",
         "text": "【2026/11/3】NYT v. OpenAI 及 In re OpenAI MDL（S.D.N.Y., Stein 法官）：好萊塢演員與創作團體提交逾 50 份法庭之友意見書聲援紐時，Anne Hathaway、Bette Midler、Madonna 等聯署；雙方即決判決補充書狀訂 11/20 提出",
         "url": "https://www.axios.com/2026/11/03/hollywood-new-york-times-openai-microsoft"
@@ -19,14 +39,14 @@
         "addedAt": "2026-11-10",
         "text": "【2026/11/9】Entrepreneur Media v. Meta（N.D. Cal., Chhabria 法官）：原告提出修正訴狀，指控 Zuckerberg 等 Meta 高層指示透過影子圖書館大規模侵權訓練 Llama，新增逾 400 本書籍與 140 期雜誌主張，審判定於 2027/5/3。",
         "url": "https://www.mlex.com/mlex/intellectual-property/articles/2548011"
-      },
+      }
+    ],
+    "archive": [
       {
         "addedAt": "2026-11-09",
         "text": "【2026/11/6】Meta 無限期暫緩原訂 11/20 生效之新版商業帳戶條款（原可爬取 Meta Business 帳戶所屬網站供 AI 訓練），因挪威、巴西法院相繼核准假處分禁止適用、英國 CMA 另啟調查之跨國法律壓力下撤回；該條款原訂 10/30 生效，已因挪威媒體聯盟訴訟（詳 10/29 快訊）等多起法律挑戰延後至 11/20，最終全面暫緩",
         "url": "https://ppc.land/meta-halts-its-nov-20-terms-that-would-let-it-crawl-business-websites/"
-      }
-    ],
-    "archive": [
+      },
       {
         "addedAt": "2026-11-08",
         "text": "【2026/11/5】原告律所 Stris & Maher 代表 Cognella、Cambronne（即 Carreyrou）、Chicken Soup for the Soul 三家原告對 SpaceX Superintelligence（xAI／Grok 母公司）提起 3 件新著作權訴訟，主張掃描合法持有書籍製作數位版供 AI 訓練不構成合理使用，使 2026 年全美 AI 著作權訴訟總數達 88 件；該所並超越 Joseph Saveri Law Firm 成為提告最多之原告律所",
@@ -1000,5 +1020,5 @@
     ]
   },
   "lastUpdatedBy": "add_news.py",
-  "lastUpdatedAt": "2026-11-11T07:10:34.350852+08:00"
+  "lastUpdatedAt": "2026-11-12T07:09:07.262391+08:00"
 }

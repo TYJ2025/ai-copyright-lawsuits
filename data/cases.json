@@ -818,7 +818,7 @@
    ],
    "defendants": "Suno, Inc.",
    "issues": "UMG、Sony 及 Warner 三大唱片公司對 AI 音樂生成平台 Suno 及 Udio 提起著作權侵害訴訟，主張被告未經授權使用受保護的錄音著作訓練 AI 模型生成音樂。\n\n核心爭點：(1) AI 模型生成的音樂是否構成「實質近似」的侵權複製品；(2) AI 音樂訓練是否構成合理使用；(3) 是否違反 DMCA 反規避條款（§1201(a)）。",
-   "progress": "【Udio 和解】2025 年 10 月，UMG 與 Udio 達成和解，雙方將合作建立「經授權的 AI 音樂創作平台」，預計 2026 年推出。UMG 藝術家及詞曲作者可選擇加入（opt-in）。\n\n【Suno 案持續審理】三大唱片公司對 Suno 的訴訟仍在進行中，目前處於事證開示階段。即決判決現已推至 2027 年 1 月 8 日。本案在 2026 年不太可能獲得合理使用判決。\n\n【2026/4/9】Warner 已和解退出，但 Suno 與 UMG、Sony 的授權談判因 AI 生成音樂的下載與分享權分歧而陷入僵局。唱片公司堅持限制用戶下載 AI 生成歌曲至 App 外，Suno 則認為此限制將嚴重削弱產品吸引力。此分歧涉及數十億音樂版稅分配格局。\n\n【2026/4/7】The Verge 實測 Suno 著作權過濾機制，發現仍可生成高度近似受保護歌曲的內容，引發對 Suno 自我監管能力的質疑。此測試結果可能在訴訟中作為唱片公司的有利證據。\n\n【2026/5/11】Suno 正式反對 UMG 與 Sony 之 discovery 請求，拒交其 2025/11/25 與 Warner Music 達成之和解協議全文；Paul Levenson 治安法官 4 月已先行裁示該文件「攸關性微弱、揭露恐致冷卻和解動機」予以保護，Suno 5/4 進一步對 UMG/Sony 之異議提出反駁。\n\n【2026/5/21】UMG 與 Sony Music 向麻州聯邦地院（Denise J. Casper 法官）聲請准提第二次修正起訴狀，依 discovery 中音訊指紋比對結果，將起訴範圍自原約 2,500 件擴增至 61,026 件錄音（並稱僅為所擁有「數百萬件」遭未授權使用作品之一小部分），並主張 Suno 訓練語料來源為自 YouTube 串流側錄之未授權音檔。\n\n【2026/6/1】Suno 向麻州聯邦地院提交動議，聲請將其訓練生成式音樂模型所用「全部音檔總數」此一單一數字排除於公開卷宗外，CTO Georg Kucsko 具結聲明公開將致對手以該基準為錨點更快更廉價開發競品；Udio 6/2 於 S.D.N.Y. 提交雷同聲請。Inner City Press 已遞交反對書狀主張解封。\n\n【2026/6/3】Suno 宣布完成 Bond Capital 領投之 4 億美元 D 輪募資、post-money 估值 54 億美元（較 2025/11 Series C 之 24.5 億七個月內翻倍），並揭露將推出「首件與音樂產業合作建構之 AI 音樂模型」，與本案及 GEMA、Justice、Poseidon Wave 等多線訴訟形成「資本市場樂觀 vs 法院持續壓力」對照。\n\n【2026/6/30】Chief Judge F. Dennis Saylor IV 核發修正排程令：fact discovery 截止日訂為 2026/9/30、dispositive motions 截止日延至 2027/4/9，較先前預估之 2027/1/8 即決判決期程再度後延。原界「2026 夏季可能出現合理使用實體裁定」預期已不成立；唱片公司追加 61,026 件錄音之修正起訴狀動議尚未獲裁定。\n\n【2026/7/5】Sony Music 在 Udio 案（UMG Recordings v. Uncharted Labs, S.D.N.Y. 1:24-cv-04777，Hellerstein 法官）追加 3 萬餘件著作物之動議遭法院拒絕，Suno 旋即援引該裁定向麻州聯邦地院主張：同一邏輯下應駁回 Sony 追加 61,026 件錄音之聲請。Suno 以「Udio 裁定作為可採認侵權作品判準先例」開闢新攻防軸線。\n\n【2026/8/18】Saylor 法官核准原告增列 DMCA §1201(a) 規避訴因（主張 Suno 透過 YouTube 串流盜錄取得訓練素材），惟駁回原告擴增訴訟至 61,026 件錄音之聲請，維持原 560 件\n\n【2026/9/1】【2026/9/1】Suno 提出答辯狀首度承認以數千萬筆錄音訓練模型、並以 yt-dlp 工具自 YouTube 取得音源，但抗辯原告就串流盜錄主張欠缺當事人適格\n\n【2026/9/18】Sony Music／UMG 對 Suno 提起第二起訴訟（D. Mass. 1:26-cv-14275），主張標榜「已授權」之新款 v6 模型仍承繼舊模型侵權訓練資料（毒樹之果理論），列名逾 6 萬件錄音，求償逾 90 億美元\n\n【2026/10/20】Suno 於 44 頁答辯狀中承認尚未刪除全部用於訓練之錄音母帶，回應 UMG／Sony「洗版（laundering）」侵權主張",
+   "progress": "【Udio 和解】2025 年 10 月，UMG 與 Udio 達成和解，雙方將合作建立「經授權的 AI 音樂創作平台」，預計 2026 年推出。UMG 藝術家及詞曲作者可選擇加入（opt-in）。\n\n【Suno 案持續審理】三大唱片公司對 Suno 的訴訟仍在進行中，目前處於事證開示階段。即決判決現已推至 2027 年 1 月 8 日。本案在 2026 年不太可能獲得合理使用判決。\n\n【2026/4/9】Warner 已和解退出，但 Suno 與 UMG、Sony 的授權談判因 AI 生成音樂的下載與分享權分歧而陷入僵局。唱片公司堅持限制用戶下載 AI 生成歌曲至 App 外，Suno 則認為此限制將嚴重削弱產品吸引力。此分歧涉及數十億音樂版稅分配格局。\n\n【2026/4/7】The Verge 實測 Suno 著作權過濾機制，發現仍可生成高度近似受保護歌曲的內容，引發對 Suno 自我監管能力的質疑。此測試結果可能在訴訟中作為唱片公司的有利證據。\n\n【2026/5/11】Suno 正式反對 UMG 與 Sony 之 discovery 請求，拒交其 2025/11/25 與 Warner Music 達成之和解協議全文；Paul Levenson 治安法官 4 月已先行裁示該文件「攸關性微弱、揭露恐致冷卻和解動機」予以保護，Suno 5/4 進一步對 UMG/Sony 之異議提出反駁。\n\n【2026/5/21】UMG 與 Sony Music 向麻州聯邦地院（Denise J. Casper 法官）聲請准提第二次修正起訴狀，依 discovery 中音訊指紋比對結果，將起訴範圍自原約 2,500 件擴增至 61,026 件錄音（並稱僅為所擁有「數百萬件」遭未授權使用作品之一小部分），並主張 Suno 訓練語料來源為自 YouTube 串流側錄之未授權音檔。\n\n【2026/6/1】Suno 向麻州聯邦地院提交動議，聲請將其訓練生成式音樂模型所用「全部音檔總數」此一單一數字排除於公開卷宗外，CTO Georg Kucsko 具結聲明公開將致對手以該基準為錨點更快更廉價開發競品；Udio 6/2 於 S.D.N.Y. 提交雷同聲請。Inner City Press 已遞交反對書狀主張解封。\n\n【2026/6/3】Suno 宣布完成 Bond Capital 領投之 4 億美元 D 輪募資、post-money 估值 54 億美元（較 2025/11 Series C 之 24.5 億七個月內翻倍），並揭露將推出「首件與音樂產業合作建構之 AI 音樂模型」，與本案及 GEMA、Justice、Poseidon Wave 等多線訴訟形成「資本市場樂觀 vs 法院持續壓力」對照。\n\n【2026/6/30】Chief Judge F. Dennis Saylor IV 核發修正排程令：fact discovery 截止日訂為 2026/9/30、dispositive motions 截止日延至 2027/4/9，較先前預估之 2027/1/8 即決判決期程再度後延。原界「2026 夏季可能出現合理使用實體裁定」預期已不成立；唱片公司追加 61,026 件錄音之修正起訴狀動議尚未獲裁定。\n\n【2026/7/5】Sony Music 在 Udio 案（UMG Recordings v. Uncharted Labs, S.D.N.Y. 1:24-cv-04777，Hellerstein 法官）追加 3 萬餘件著作物之動議遭法院拒絕，Suno 旋即援引該裁定向麻州聯邦地院主張：同一邏輯下應駁回 Sony 追加 61,026 件錄音之聲請。Suno 以「Udio 裁定作為可採認侵權作品判準先例」開闢新攻防軸線。\n\n【2026/8/18】Saylor 法官核准原告增列 DMCA §1201(a) 規避訴因（主張 Suno 透過 YouTube 串流盜錄取得訓練素材），惟駁回原告擴增訴訟至 61,026 件錄音之聲請，維持原 560 件\n\n【2026/9/1】【2026/9/1】Suno 提出答辯狀首度承認以數千萬筆錄音訓練模型、並以 yt-dlp 工具自 YouTube 取得音源，但抗辯原告就串流盜錄主張欠缺當事人適格\n\n【2026/9/18】Sony Music／UMG 對 Suno 提起第二起訴訟（D. Mass. 1:26-cv-14275），主張標榜「已授權」之新款 v6 模型仍承繼舊模型侵權訓練資料（毒樹之果理論），列名逾 6 萬件錄音，求償逾 90 億美元\n\n【2026/10/20】Suno 於 44 頁答辯狀中承認尚未刪除全部用於訓練之錄音母帶，回應 UMG／Sony「洗版（laundering）」侵權主張\n\n【2026/11/10】discovery 會議中 Suno 抗辯 UMG／Sony 可能未取得將錄音授權供 AI 訓練之權利，質疑現行授權市場是否存在；NVIDIA 另具狀聲請撤銷本案對其核發之傳票，主張範圍過廣。",
    "taiwan": "本案對台灣的啟示：\n\n1. 台灣的 MÜST、ARCO 等音樂著作權集管團體應關注 Udio 的授權模式，思考如何建立 AI 音樂生成的授權機制。\n2. UMG v. Suno 的合理使用裁定若不利於 AI 公司，將影響台灣 AI 音樂新創（如 KKBOX 旗下的 AI 音樂服務）的商業模式。\n3. 台灣著作權法第 91 條對錄音著作的保護是否足以涵蓋 AI 生成音樂的情境，值得立法機關檢討。",
    "jurisdiction": "us",
    "country": "🇺🇸 美國",
@@ -829,7 +829,7 @@
    "sourceCount": 4,
    "docket": 68878608,
    "filedAt": null,
-   "updatedAt": "2026-10-24",
+   "updatedAt": "2026-11-12",
    "claimsDetail": [
     {
      "count": "FIRST",
@@ -1282,7 +1282,7 @@
    ],
    "defendants": "SerpAPI, Perplexity AI",
    "issues": "Reddit 於 2025 年 10 月控告 SerpAPI 及 Perplexity AI，主張其進行「工業規模」的資料爬取，抓取 Reddit 使用者生成內容用於 AI 訓練及「答案引擎」服務，違反著作權法及 DMCA 反規避條款。\n\nReddit 指控 Perplexity 在收到 2024 年 5 月的停止函後，引用 Reddit 內容的情形反增 40 倍。",
-   "progress": "2026 年 1 月，Perplexity 提出駁回動議，主張其位於資料蒐集的「下游」，不應承擔 DMCA 反規避責任。案件審理中。\n\n【2026/7/31】S.D.N.Y. Engelmayer 法官裁定准許 Reddit 對 Perplexity、SerpAPI 之 DMCA § 1201(a) 反規避主張續行（認定 Google SearchGuard 屬受保護接觸控制措施），但駁回 SerpAPI 之 trafficking 主張及不正競爭、不當得利州法請求，案件進入證據開示階段。\n\n【2026/10/9】Reddit 具狀聲請不准 Proskauer Rose 代理 Perplexity 應訴，主張該所代理 Reddit 處理告發人案件時取得與 Google、OpenAI 授權協議之機密資訊且曾承諾退場後不代理 Perplexity，聲請尚待 Engelmayer 法官裁定\n\n【2026/10/10】承辦 Perplexity 應訴之 Proskauer 律所具狀聲請准其代理，惟該所先前曾於另件告發人案件代理原告 Reddit，Reddit 尚未同意拋棄利益衝突異議。",
+   "progress": "2026 年 1 月，Perplexity 提出駁回動議，主張其位於資料蒐集的「下游」，不應承擔 DMCA 反規避責任。案件審理中。\n\n【2026/7/31】S.D.N.Y. Engelmayer 法官裁定准許 Reddit 對 Perplexity、SerpAPI 之 DMCA § 1201(a) 反規避主張續行（認定 Google SearchGuard 屬受保護接觸控制措施），但駁回 SerpAPI 之 trafficking 主張及不正競爭、不當得利州法請求，案件進入證據開示階段。\n\n【2026/10/9】Reddit 具狀聲請不准 Proskauer Rose 代理 Perplexity 應訴，主張該所代理 Reddit 處理告發人案件時取得與 Google、OpenAI 授權協議之機密資訊且曾承諾退場後不代理 Perplexity，聲請尚待 Engelmayer 法官裁定\n\n【2026/10/10】承辦 Perplexity 應訴之 Proskauer 律所具狀聲請准其代理，惟該所先前曾於另件告發人案件代理原告 Reddit，Reddit 尚未同意拋棄利益衝突異議。\n\n【2026/11/10】Perplexity 撤回聲請由 Proskauer Rose 代理應訴之動議，法院未就先前代理 Reddit 之利益衝突爭議作出裁定；Engelmayer 法官轉而要求釐清原代理律所 Keker Van Nest 是否仍續行代理。",
    "taiwan": "台灣啟示：\n\n1. 台灣的 PTT、Dcard 等使用者生成內容平台面臨類似風險。平台對使用者內容的著作權主張在台灣法律下的可行性值得探討。\n2. DMCA §1201(a) 的反規避條款在本案中的適用，可與台灣著作權法第 80-2 條的「防盜拷措施」保護類比分析。",
    "jurisdiction": "us",
    "country": "🇺🇸 美國",
@@ -1293,7 +1293,7 @@
    "sourceCount": 3,
    "docket": 71720563,
    "filedAt": null,
-   "updatedAt": "2026-10-24",
+   "updatedAt": "2026-11-12",
    "claimsDetail": [
     {
      "count": "I",
@@ -4477,7 +4477,7 @@
    ],
    "defendants": "SerpApi Inc.",
    "issues": "本案具有特殊性：Google 是訴訟人而非被告。Google 控告 API 資料聚合平台 SerpApi 違反 DMCA §1201(a)，主張 SerpApi 規避了 Google 搜尋結果的技術保護。\n\n爭點：(1) Google 搜尋結果是否受 DMCA 保護；(2) SerpApi 的資料抓取行為是否構成「規避」；(3) 大型科技公司使用 DMCA 條款進行市場壟斷的風險。",
-   "progress": "Gonzalez Rogers 法官審理中。本案具有重要的市場競爭與技術規避交叉的意義。Google 作為訴訟人在此案中尋求 DMCA 保護其搜尋結果。2026 年進行中。",
+   "progress": "Gonzalez Rogers 法官審理中。本案具有重要的市場競爭與技術規避交叉的意義。Google 作為訴訟人在此案中尋求 DMCA 保護其搜尋結果。2026 年進行中。\n\n【2026/11/9】Gonzalez Rogers 法官裁定駁回 Google 第一次修正訴狀之 DMCA 反規避主張：不受著作權保護之搜尋結果部分不准再修正；涉及 Knowledge Panel 受著作權保護內容部分，准 21 日內再提修正訴狀證明已獲授權。",
    "taiwan": "台灣啟示：(1) 本案顯示 DMCA §1201(a) 被大型科技公司用於市場保護，而非傳統的著作權保護目的。台灣在制定類似規定時應警惕此風險。(2) 搜尋引擎結果資料的法律保護地位在台灣尚未充分討論，本案提供重要參考。(3) Google 在台灣的搜尋業務同樣面臨 API 聚合平台的競爭，本案結果將影響 Google 在台灣的訴訟策略。",
    "jurisdiction": "us",
    "country": "🇺🇸 美國",
@@ -4488,7 +4488,7 @@
    "sourceCount": 2,
    "docket": 72059948,
    "filedAt": null,
-   "updatedAt": "2026-09-01",
+   "updatedAt": "2026-11-12",
    "claimsDetail": [
     {
      "count": "FIRST",
@@ -5739,7 +5739,7 @@
    ],
    "defendants": "Stability AI Ltd.",
    "issues": "蓋蒂圖片公司控告 Stability AI 使用 1,200 萬張蓋蒂照片訓練 Stable Diffusion，主張次級著作權侵權、商標侵權（浮水印複製）及資料庫權利侵害。蓋蒂最初聲稱初級著作權侵權，但因無法證明訓練行為（複製/儲存）發生在英國而放棄該主張。本案核心爭點為：AI 模型權重是否構成著作權法意義上的「複製品」。\n\n與傳統著作權複製概念的衝突：模型權重是統計值，是否應視為著作權作品的實質複製？",
-   "progress": "2025年11月4日，英國高等法院作出里程碑判決——英國首件 AI 著作權判決。法院駁回蓋蒂的次級著作權侵權主張，認定 AI 模型權重不構成 CDPA 意義下的「複製品」。訓練所得參數僅為統計數值，非照片的儲存複製。然而法院認定蓋蒂在商標侵權方面部分勝訴：Stable Diffusion 生成的圖像展示了蓋蒂浮水印。蓋蒂被判賠償 69.4% 的訴訟費用（約 440 萬英鎊），使商標勝利變為慘淡勝利。2025年12月，法院准許蓋蒂就次級著作權裁定提起上訴。上訴案件於 2026 年待審。\n\n【2025/12/16】Joanna Smith 法官於 consequentials 聽證准許 Getty 就次級侵權（secondary infringement）部分上訴，認該爭點為純法律問題（成文法解釋），上訴具實質勝訴可能，上訴法院有可能作成不同結論；Getty 應於 2026/2/3 前提起上訴。核心爭點為未曾含有著作重製物之「物品」可否構成 CDPA 意義下之 infringing copy。\n\n【2026/6/22】Getty 宣布與 OpenAI 簽署多年「顯示合作（display partnership）」，ChatGPT 搜尋與探索功能將整合 Getty 逾 4 億影像資產，明確排除訓練用途，Getty 股價應聲飆漲 145%。本合作於本案上訴進行中達成，為首件主要圖庫以顯示授權（而非訓練授權）與 AI 公司達成之商業合作，對合理使用第四因素「可行授權市場」攻防構成重要語境。",
+   "progress": "2025年11月4日，英國高等法院作出里程碑判決——英國首件 AI 著作權判決。法院駁回蓋蒂的次級著作權侵權主張，認定 AI 模型權重不構成 CDPA 意義下的「複製品」。訓練所得參數僅為統計數值，非照片的儲存複製。然而法院認定蓋蒂在商標侵權方面部分勝訴：Stable Diffusion 生成的圖像展示了蓋蒂浮水印。蓋蒂被判賠償 69.4% 的訴訟費用（約 440 萬英鎊），使商標勝利變為慘淡勝利。2025年12月，法院准許蓋蒂就次級著作權裁定提起上訴。上訴案件於 2026 年待審。\n\n【2025/12/16】Joanna Smith 法官於 consequentials 聽證准許 Getty 就次級侵權（secondary infringement）部分上訴，認該爭點為純法律問題（成文法解釋），上訴具實質勝訴可能，上訴法院有可能作成不同結論；Getty 應於 2026/2/3 前提起上訴。核心爭點為未曾含有著作重製物之「物品」可否構成 CDPA 意義下之 infringing copy。\n\n【2026/6/22】Getty 宣布與 OpenAI 簽署多年「顯示合作（display partnership）」，ChatGPT 搜尋與探索功能將整合 Getty 逾 4 億影像資產，明確排除訓練用途，Getty 股價應聲飆漲 145%。本合作於本案上訴進行中達成，為首件主要圖庫以顯示授權（而非訓練授權）與 AI 公司達成之商業合作，對合理使用第四因素「可行授權市場」攻防構成重要語境。\n\n【2026/11/11】上訴法院開庭：Getty 主張 AI 模型訓練階段之重製行為應獨立於成品模型判斷侵權，模型即便不含受保護影像仍可構成「侵權重製物」；Stability 以蛋糕類比反駁，庭期續行至 11/12，尚未裁定。",
    "taiwan": "1) 英國判決認定「模型權重≠複製品」挑戰了傳統複製概念。台灣智慧財產法院需考慮模型參數是否落入《台灣著作權法》第 3 條「重製」定義範疇。2) 商標/浮水印議題攸關《台灣商標法》第 68 條。3) 對台灣著作權人的跨境訴訟策略啟示。",
    "jurisdiction": "uk",
    "country": "🇬🇧 英國",
@@ -5750,7 +5750,7 @@
    "sourceCount": 3,
    "docket": null,
    "filedAt": null,
-   "updatedAt": "2026-08-16",
+   "updatedAt": "2026-11-12",
    "rulings": {
     "fairUse": "na",
     "fairUseNote": "英國法無合理使用制度，爭點為模型權重是否構成複製品",
