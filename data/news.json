@@ -6,6 +6,21 @@
   "data": {
     "items": [
       {
+        "addedAt": "2026-11-14",
+        "text": "【2026/11/12】Getty Images v. Stability AI（英國上訴法院）：兩日言詞辯論終結，合議庭對 Getty 主張「訓練模型即為侵權重製物」之理論提出尖銳質疑，暗示該主張可能過度擴張，裁判預期延至 2027 年初公布",
+        "url": "https://www.mlex.com/mlex/artificial-intelligence/articles/2549525"
+      },
+      {
+        "addedAt": "2026-11-14",
+        "text": "【2026/11/12】Thomson Reuters v. ROSS Intelligence（3d Cir. 25-2153）：多方法庭之友同步提交意見書聲援 ROSS 全院合議庭重審聲請，質疑原合議庭就 merger doctrine 與轉化性使用之認定",
+        "url": "https://chatgptiseatingtheworld.com/2026/11/12/amici-briefs-support-ross-intelligences-bid-for-en-banc-review-by-third-circuit/"
+      },
+      {
+        "addedAt": "2026-11-14",
+        "text": "【2026/11/13】Canadian News Publishers v. OpenAI（Ontario 上訴法院）：法院駁回 OpenAI 就管轄權異議之上訴，維持安大略高等法院得就本案行使管轄權之裁定，並命 OpenAI 給付出版商聯盟 10 萬加幣訴訟費用；為首件觸及 AI 訓練著作權爭議之加拿大案件",
+        "url": "https://www.ctvnews.ca/sci-tech/article/court-allows-news-publishers-copyright-lawsuit-against-openai-to-go-ahead/"
+      },
+      {
         "addedAt": "2026-11-13",
         "text": "【2026/11/12】Bartz v. Anthropic 15 億和解（N.D. Cal. 3:24-cv-05417）：媒體報導首波對無爭議著作之理賠款將延至 11/23 當週發放，較先前預估之 11/15 延後",
         "url": "https://writerbeware.blog/2026/11/06/anthropic-copyright-settlement-some-things-weve-learned/"
@@ -34,14 +49,14 @@
         "addedAt": "2026-11-12",
         "text": "【2026/11/11】Getty Images v. Stability AI（英國上訴法院，UK Court of Appeal）：Getty 主張 Stability AI 之影像生成模型即便未內含受保護影像本身，仍可構成「侵權重製物」，應著重訓練階段之重製行為而非成品模型；Stability 以「蛋糕類比」反駁，稱此主張形同認定食譜照片使蛋糕成為「侵權重製物」，庭期續行至 11/12。",
         "url": "https://www.mlex.com/mlex/intellectual-property/articles/2548997"
-      },
+      }
+    ],
+    "archive": [
       {
         "addedAt": "2026-11-11",
         "text": "【2026/11/3】NYT v. OpenAI 及 In re OpenAI MDL（S.D.N.Y., Stein 法官）：好萊塢演員與創作團體提交逾 50 份法庭之友意見書聲援紐時，Anne Hathaway、Bette Midler、Madonna 等聯署；雙方即決判決補充書狀訂 11/20 提出",
         "url": "https://www.axios.com/2026/11/03/hollywood-new-york-times-openai-microsoft"
-      }
-    ],
-    "archive": [
+      },
       {
         "addedAt": "2026-11-10",
         "text": "【2026/11/9】Disney/Warner Bros. v. Midjourney（C.D. Cal., Kronstadt 法官）：專家 discovery 11/9 截止，即決判決聽證延至 11/23；Midjourney 要求片廠揭露自身 AI 訓練資料與模型權重以佐合理使用抗辯。",
@@ -1030,5 +1045,5 @@
     ]
   },
   "lastUpdatedBy": "add_news.py",
-  "lastUpdatedAt": "2026-11-13T07:10:47.392621+08:00"
+  "lastUpdatedAt": "2026-11-14T07:08:45.055538+08:00"
 }
