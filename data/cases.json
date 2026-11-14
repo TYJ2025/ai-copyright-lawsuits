@@ -8113,7 +8113,7 @@
    ],
    "defendants": "WeLib（welib.org、welib.st、welib-public.org 之營運者）",
    "issues": "由美國出版商協會（AAP）統籌，Big Five（Hachette、HarperCollins、Macmillan、Penguin Random House、Simon & Schuster）加上 Cengage、Elsevier、McGraw Hill、Pearson、Taylor & Francis、Wiley 等共 13 家貿易、教育與學術出版商，於 2026/6/16 對盜版平台 WeLib 提起著作權侵權訴訟。起訴狀指控 WeLib「直接複製 Anna's Archive 原始碼及大部分內容」運作營利型盜版平台，提供逾 4,300 萬本書與 9,800 萬篇學術論文之高速下載，並以「捐款」名義收費。\n\nAI 層面關鍵：起訴狀明指 WeLib 向 AI 公司募集「捐款」以換取供 AI 訓練之高速盜版書籍存取權，與 Anna's Archive 同屬 AI 訓練語料之盜版供應端。本案為繼 Apress Media v. Anna's Archive（5/19 Rakoff 法官 $1,950 萬預設判決暨全球域名下架禁制令）後之第二波，求償結構與救濟請求（對 Cloudflare、Tucows、Public Interest Registry 等註冊商與 ISP 核發全球下架永久禁制令）雷同。",
-   "progress": "【2026/6/16】13 家出版商經 AAP 統籌於紐約南區聯邦地院對 WeLib 提起著作權侵權訴訟，指控其複製 Anna's Archive 原始碼與內容營運營利型盜版平台、託管逾 4,300 萬本書與 9,800 萬篇論文，並向 AI 公司募款換取供訓練之高速存取；請求對逾 20 家域名註冊商與 ISP 核發全球域名下架永久禁制令。",
+   "progress": "【2026/6/16】13 家出版商經 AAP 統籌於紐約南區聯邦地院對 WeLib 提起著作權侵權訴訟，指控其複製 Anna's Archive 原始碼與內容營運營利型盜版平台、託管逾 4,300 萬本書與 9,800 萬篇論文，並向 AI 公司募款換取供訓練之高速存取；請求對逾 20 家域名註冊商與 ISP 核發全球域名下架永久禁制令。\n\n【2026/11/9】Marrero 法官就缺席應訊之 WeLib 裁定預設判決，判賠 1,950 萬美元並發永久禁制令，命登記機構／ISP 全面封鎖其網域。",
    "taiwan": "1) 出版商對「AI 訓練資料供應端」之系統性執法模式（先取得對盜版站之預設判決與全球禁制令，再回頭主張 AI 業者明知盜版來源），值得台灣出版業者參考。2) 台灣《著作權法》第 87 條第 1 項第 7 款及第 88 條之 1 就提供侵權工具與防止侵害請求權，可對應本案之下架禁制令救濟。3) 涉及跨國域名下架時，台灣 TWNIC 與 ISP 之協力義務為實務難點。",
    "jurisdiction": "us",
    "country": "🇺🇸 美國",
@@ -8124,7 +8124,7 @@
    "sourceCount": 3,
    "docket": "73488419",
    "filedAt": "2026-06-16",
-   "updatedAt": "2026-10-20",
+   "updatedAt": "2026-11-15",
    "claimsDetail": [
     {
      "count": "I",

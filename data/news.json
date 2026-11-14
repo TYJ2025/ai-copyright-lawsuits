@@ -6,6 +6,26 @@
   "data": {
     "items": [
       {
+        "addedAt": "2026-11-15",
+        "text": "【2026/11/6-12】In re OpenAI Copyright MDL（S.D.N.Y., Stein 法官）：法院准許 56 份法庭之友意見書（含創作產業聯盟力挺原告、美國政府力挺 OpenAI），另訂原告若欲就「grounding／輸出」理論聲請即決判決之補充期程（11/25 具狀、12/11 答辯），原即決判決案答辯期訂 11/20。",
+        "url": "https://ppc.land/openai-quotes-20-briefs-us-government-included-against-new-york-times/"
+      },
+      {
+        "addedAt": "2026-11-15",
+        "text": "【2026/10/29】EVOX Productions v. ByteDance（C.D. Cal. 5:26-cv-06428）：汽車攝影公司 EVOX 新提訴狀，主張 ByteDance 以其圖片訓練 AI 構成著作權侵害，為 EVOX 繼 Stanford、Google、Stability AI 等公司後再添一件 AI 訓練著作權訴訟。",
+        "url": "https://chatgptiseatingtheworld.com/2026/11/14/evox-files-another-ai-copyright-suit-this-one-v-bytedance/"
+      },
+      {
+        "addedAt": "2026-11-15",
+        "text": "【2026/11/4】Concord Music v. Anthropic II（N.D. Cal., Lee 法官）：法院認輸出侵權部分欠缺具體指摘而駁回、另駁回對 CEO Dario Amodei 個人之直接侵權主張（均准予補正），雙方已就修正訴狀時程達成協議。",
+        "url": "https://www.courthousenews.com/music-publishers-suffer-setback-in-copyright-case-against-anthropic/"
+      },
+      {
+        "addedAt": "2026-11-15",
+        "text": "【2026/11/9】AAP 等 13 大出版商 v. WeLib（S.D.N.Y.）：Marrero 法官就不應訊之 WeLib 裁定缺席判決，判賠 1,950 萬美元並發永久禁制令，命登記機構／ISP 全面封鎖 welib.org 等網域。",
+        "url": "https://www.publishersweekly.com/pw/by-topic/industry-news/publisher-news/article/101735-court-orders-pirate-site-welib-to-pay-publishers-19-5-million.html"
+      },
+      {
         "addedAt": "2026-11-14",
         "text": "【2026/11/12】Getty Images v. Stability AI（英國上訴法院）：兩日言詞辯論終結，合議庭對 Getty 主張「訓練模型即為侵權重製物」之理論提出尖銳質疑，暗示該主張可能過度擴張，裁判預期延至 2027 年初公布",
         "url": "https://www.mlex.com/mlex/artificial-intelligence/articles/2549525"
@@ -29,7 +49,9 @@
         "addedAt": "2026-11-13",
         "text": "【2026/11/12】Reservoir Media v. Suno、Reservoir Media v. Anthropic（N.D. Cal.）：音樂出版商 Reservoir 修正訴狀大幅增列侵權作品數，Suno 案增至 1,368 首（原 1,050 首）、Anthropic 案增至 1,143 首（原 853 首），兩案合計求償逾 3.7 億美元",
         "url": "https://www.digitalmusicnews.com/2026/11/12/reservoir-suno-lawsuit-anthropic-amended/"
-      },
+      }
+    ],
+    "archive": [
       {
         "addedAt": "2026-11-12",
         "text": "【2026/11/10】Reddit v. SerpAPI, Perplexity AI（S.D.N.Y., Engelmayer 法官）：Perplexity 撤回聲請由 Proskauer Rose 代理應訴之動議，法院未就利益衝突爭議作出裁定；Engelmayer 法官轉而要求釐清 Perplexity 原代理律所 Keker Van Nest 是否仍續行代理。",
@@ -49,9 +71,7 @@
         "addedAt": "2026-11-12",
         "text": "【2026/11/11】Getty Images v. Stability AI（英國上訴法院，UK Court of Appeal）：Getty 主張 Stability AI 之影像生成模型即便未內含受保護影像本身，仍可構成「侵權重製物」，應著重訓練階段之重製行為而非成品模型；Stability 以「蛋糕類比」反駁，稱此主張形同認定食譜照片使蛋糕成為「侵權重製物」，庭期續行至 11/12。",
         "url": "https://www.mlex.com/mlex/intellectual-property/articles/2548997"
-      }
-    ],
-    "archive": [
+      },
       {
         "addedAt": "2026-11-11",
         "text": "【2026/11/3】NYT v. OpenAI 及 In re OpenAI MDL（S.D.N.Y., Stein 法官）：好萊塢演員與創作團體提交逾 50 份法庭之友意見書聲援紐時，Anne Hathaway、Bette Midler、Madonna 等聯署；雙方即決判決補充書狀訂 11/20 提出",
@@ -1045,5 +1065,5 @@
     ]
   },
   "lastUpdatedBy": "add_news.py",
-  "lastUpdatedAt": "2026-11-14T07:08:45.055538+08:00"
+  "lastUpdatedAt": "2026-11-15T07:09:54.970477+08:00"
 }
