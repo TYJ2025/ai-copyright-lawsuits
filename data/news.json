@@ -6,6 +6,16 @@
   "data": {
     "items": [
       {
+        "addedAt": "2026-11-17",
+        "text": "【2026/11/14】Elvis Presley Enterprises／Authentic Brands Group、Raleigh Music Publishing v. Suno：原告提出修正訴狀，侵權作品數由 6 首大幅擴增至 859 首，請求法定賠償最高 1.2885 億美元，另就 DMCA CMI 移除部分請求 2,362 萬美元。",
+        "url": "https://www.digitalmusicnews.com/2026/11/16/elvis-presley-enterprises-amended-suno-lawsuit/"
+      },
+      {
+        "addedAt": "2026-11-17",
+        "text": "【2026/11/16】Reddit v. SerpAPI, Perplexity AI（S.D.N.Y., Engelmayer 法官）：Perplexity 改聘 Mayer Brown 律師 Allison Aviki、Elisabeth Anderson 代理應訴，取代先前擬聘用但已撤回動議之 Proskauer Rose，利益衝突爭議暫告落幕。",
+        "url": "https://chatgptiseatingtheworld.com/2026/11/16/perplexity-swtiches-to-mayer-brown-attorneys-allison-aviki-elisabeth-anderson-in-reddit-v-serpapi/"
+      },
+      {
         "addedAt": "2026-11-15",
         "text": "【2026/11/6-12】In re OpenAI Copyright MDL（S.D.N.Y., Stein 法官）：法院准許 56 份法庭之友意見書（含創作產業聯盟力挺原告、美國政府力挺 OpenAI），另訂原告若欲就「grounding／輸出」理論聲請即決判決之補充期程（11/25 具狀、12/11 答辯），原即決判決案答辯期訂 11/20。",
         "url": "https://ppc.land/openai-quotes-20-briefs-us-government-included-against-new-york-times/"
@@ -24,7 +34,9 @@
         "addedAt": "2026-11-15",
         "text": "【2026/11/9】AAP 等 13 大出版商 v. WeLib（S.D.N.Y.）：Marrero 法官就不應訊之 WeLib 裁定缺席判決，判賠 1,950 萬美元並發永久禁制令，命登記機構／ISP 全面封鎖 welib.org 等網域。",
         "url": "https://www.publishersweekly.com/pw/by-topic/industry-news/publisher-news/article/101735-court-orders-pirate-site-welib-to-pay-publishers-19-5-million.html"
-      },
+      }
+    ],
+    "archive": [
       {
         "addedAt": "2026-11-14",
         "text": "【2026/11/12】Getty Images v. Stability AI（英國上訴法院）：兩日言詞辯論終結，合議庭對 Getty 主張「訓練模型即為侵權重製物」之理論提出尖銳質疑，暗示該主張可能過度擴張，裁判預期延至 2027 年初公布",
@@ -49,9 +61,7 @@
         "addedAt": "2026-11-13",
         "text": "【2026/11/12】Reservoir Media v. Suno、Reservoir Media v. Anthropic（N.D. Cal.）：音樂出版商 Reservoir 修正訴狀大幅增列侵權作品數，Suno 案增至 1,368 首（原 1,050 首）、Anthropic 案增至 1,143 首（原 853 首），兩案合計求償逾 3.7 億美元",
         "url": "https://www.digitalmusicnews.com/2026/11/12/reservoir-suno-lawsuit-anthropic-amended/"
-      }
-    ],
-    "archive": [
+      },
       {
         "addedAt": "2026-11-12",
         "text": "【2026/11/10】Reddit v. SerpAPI, Perplexity AI（S.D.N.Y., Engelmayer 法官）：Perplexity 撤回聲請由 Proskauer Rose 代理應訴之動議，法院未就利益衝突爭議作出裁定；Engelmayer 法官轉而要求釐清 Perplexity 原代理律所 Keker Van Nest 是否仍續行代理。",
@@ -1065,5 +1075,5 @@
     ]
   },
   "lastUpdatedBy": "add_news.py",
-  "lastUpdatedAt": "2026-11-15T07:09:54.970477+08:00"
+  "lastUpdatedAt": "2026-11-17T07:11:50.222363+08:00"
 }
