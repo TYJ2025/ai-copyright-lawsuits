@@ -6,6 +6,16 @@
   "data": {
     "items": [
       {
+        "addedAt": "2026-11-18",
+        "text": "【2026/11/14】UMG／Sony Music v. Suno（D. Mass. 第二訴）：兩大唱片公司具狀反對 Suno 全案停審（stay）請求，主張全面停審恐使案件凍結至 2028 年，提出折衷方案容許就新模型與授權談判先行證據開示。",
+        "url": "https://www.musicbusinessworldwide.com/universal-and-sony-fight-sunos-bid-to-freeze-second-lawsuit-warning-its-latest-ai-models-could-escape-scrutiny-until-at-least-2028/"
+      },
+      {
+        "addedAt": "2026-11-18",
+        "text": "【2026/11/17】Concord Music v. Anthropic（N.D. Cal., Lee 法官）：法院將新案 Reservoir Media Management v. Anthropic 及 ABG EPE IP LLC v. Anthropic 併為關聯案件（related cases），音樂出版商對 Anthropic 之歌詞著作權訴訟累計達 7 件。",
+        "url": "https://chatgptiseatingtheworld.com/2026/11/17/judge-lee-relates-reservoir-media-mngmt-v-and-abg-epe-ip-v-anthropic-cases-to-concord-music-v-anthropic/"
+      },
+      {
         "addedAt": "2026-11-17",
         "text": "【2026/11/14】Elvis Presley Enterprises／Authentic Brands Group、Raleigh Music Publishing v. Suno：原告提出修正訴狀，侵權作品數由 6 首大幅擴增至 859 首，請求法定賠償最高 1.2885 億美元，另就 DMCA CMI 移除部分請求 2,362 萬美元。",
         "url": "https://www.digitalmusicnews.com/2026/11/16/elvis-presley-enterprises-amended-suno-lawsuit/"
@@ -14,7 +24,9 @@
         "addedAt": "2026-11-17",
         "text": "【2026/11/16】Reddit v. SerpAPI, Perplexity AI（S.D.N.Y., Engelmayer 法官）：Perplexity 改聘 Mayer Brown 律師 Allison Aviki、Elisabeth Anderson 代理應訴，取代先前擬聘用但已撤回動議之 Proskauer Rose，利益衝突爭議暫告落幕。",
         "url": "https://chatgptiseatingtheworld.com/2026/11/16/perplexity-swtiches-to-mayer-brown-attorneys-allison-aviki-elisabeth-anderson-in-reddit-v-serpapi/"
-      },
+      }
+    ],
+    "archive": [
       {
         "addedAt": "2026-11-15",
         "text": "【2026/11/6-12】In re OpenAI Copyright MDL（S.D.N.Y., Stein 法官）：法院准許 56 份法庭之友意見書（含創作產業聯盟力挺原告、美國政府力挺 OpenAI），另訂原告若欲就「grounding／輸出」理論聲請即決判決之補充期程（11/25 具狀、12/11 答辯），原即決判決案答辯期訂 11/20。",
@@ -34,9 +46,7 @@
         "addedAt": "2026-11-15",
         "text": "【2026/11/9】AAP 等 13 大出版商 v. WeLib（S.D.N.Y.）：Marrero 法官就不應訊之 WeLib 裁定缺席判決，判賠 1,950 萬美元並發永久禁制令，命登記機構／ISP 全面封鎖 welib.org 等網域。",
         "url": "https://www.publishersweekly.com/pw/by-topic/industry-news/publisher-news/article/101735-court-orders-pirate-site-welib-to-pay-publishers-19-5-million.html"
-      }
-    ],
-    "archive": [
+      },
       {
         "addedAt": "2026-11-14",
         "text": "【2026/11/12】Getty Images v. Stability AI（英國上訴法院）：兩日言詞辯論終結，合議庭對 Getty 主張「訓練模型即為侵權重製物」之理論提出尖銳質疑，暗示該主張可能過度擴張，裁判預期延至 2027 年初公布",
@@ -1075,5 +1085,5 @@
     ]
   },
   "lastUpdatedBy": "add_news.py",
-  "lastUpdatedAt": "2026-11-17T07:11:50.222363+08:00"
+  "lastUpdatedAt": "2026-11-18T07:12:22.056071+08:00"
 }
