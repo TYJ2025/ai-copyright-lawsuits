@@ -6,6 +6,16 @@
   "data": {
     "items": [
       {
+        "addedAt": "2026-11-19",
+        "text": "【2026/11/16】Getty Images v. Stability AI（英國上訴法院）：英國唱片業協會（BPI）介入聲援 Getty，警告若維持原判恐使 AI 業者藉境外訓練規避英國著作權法，波及音樂與創意產業，裁判預期延至 2027 年初。",
+        "url": "https://www.resultsense.com/news/2026-11-16-getty-stability-court-of-appeal-bpi-offshore-training/"
+      },
+      {
+        "addedAt": "2026-11-19",
+        "text": "【2026/11/16】Cambronne (Carreyrou) v. Anthropic（N.D. Cal., Pitts 法官）：Bartz 和解 opt-out 作者 Cambronne 提交反對意見書，答辯 Anthropic 9/24 提出之駁回動議（含時效抗辯等多項法律異議），裁定尚待作出。",
+        "url": "https://chatgptiseatingtheworld.com/2026/11/17/bartz-opt-out-case-put-to-the-test-by-anthropics-motion-to-dismiss/"
+      },
+      {
         "addedAt": "2026-11-18",
         "text": "【2026/11/14】UMG／Sony Music v. Suno（D. Mass. 第二訴）：兩大唱片公司具狀反對 Suno 全案停審（stay）請求，主張全面停審恐使案件凍結至 2028 年，提出折衷方案容許就新模型與授權談判先行證據開示。",
         "url": "https://www.musicbusinessworldwide.com/universal-and-sony-fight-sunos-bid-to-freeze-second-lawsuit-warning-its-latest-ai-models-could-escape-scrutiny-until-at-least-2028/"
@@ -1085,5 +1095,5 @@
     ]
   },
   "lastUpdatedBy": "add_news.py",
-  "lastUpdatedAt": "2026-11-18T07:12:22.056071+08:00"
+  "lastUpdatedAt": "2026-11-19T07:11:30.381650+08:00"
 }
