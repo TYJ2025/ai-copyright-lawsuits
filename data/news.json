@@ -6,6 +6,16 @@
   "data": {
     "items": [
       {
+        "addedAt": "2026-11-20",
+        "text": "【2026/11/19】In re OpenAI Copyright MDL（S.D.N.Y.）：12 名民主黨眾議員（Pingree、Balint、Ross 領銜）致函司法部，質疑其 9 月力挺 OpenAI／Microsoft 合理使用立場之意見書未諮詢著作權局等智財機關，要求揭露撰稿過程及是否受外部業者影響。",
+        "url": "https://www.axios.com/2026/11/17/democrats-probe-doj-openai-microsoft-copyright"
+      },
+      {
+        "addedAt": "2026-11-20",
+        "text": "【2026/11/19】Gilbert v. Anthropic（D. Mass.）：Bartz 和解退出原告 Gilbert 與 Anthropic 就使用 LibGen 盜版資料庫及掃描計畫相關事實提交共同事實陳述書（stipulation），內容未見意外爭點。",
+        "url": "https://chatgptiseatingtheworld.com/2026/11/19/gilbert-and-anthropic-stipulate-to-facts-related-to-use-of-libgen-v-scanning-project/"
+      },
+      {
         "addedAt": "2026-11-19",
         "text": "【2026/11/16】Getty Images v. Stability AI（英國上訴法院）：英國唱片業協會（BPI）介入聲援 Getty，警告若維持原判恐使 AI 業者藉境外訓練規避英國著作權法，波及音樂與創意產業，裁判預期延至 2027 年初。",
         "url": "https://www.resultsense.com/news/2026-11-16-getty-stability-court-of-appeal-bpi-offshore-training/"
@@ -24,7 +34,9 @@
         "addedAt": "2026-11-18",
         "text": "【2026/11/17】Concord Music v. Anthropic（N.D. Cal., Lee 法官）：法院將新案 Reservoir Media Management v. Anthropic 及 ABG EPE IP LLC v. Anthropic 併為關聯案件（related cases），音樂出版商對 Anthropic 之歌詞著作權訴訟累計達 7 件。",
         "url": "https://chatgptiseatingtheworld.com/2026/11/17/judge-lee-relates-reservoir-media-mngmt-v-and-abg-epe-ip-v-anthropic-cases-to-concord-music-v-anthropic/"
-      },
+      }
+    ],
+    "archive": [
       {
         "addedAt": "2026-11-17",
         "text": "【2026/11/14】Elvis Presley Enterprises／Authentic Brands Group、Raleigh Music Publishing v. Suno：原告提出修正訴狀，侵權作品數由 6 首大幅擴增至 859 首，請求法定賠償最高 1.2885 億美元，另就 DMCA CMI 移除部分請求 2,362 萬美元。",
@@ -34,9 +46,7 @@
         "addedAt": "2026-11-17",
         "text": "【2026/11/16】Reddit v. SerpAPI, Perplexity AI（S.D.N.Y., Engelmayer 法官）：Perplexity 改聘 Mayer Brown 律師 Allison Aviki、Elisabeth Anderson 代理應訴，取代先前擬聘用但已撤回動議之 Proskauer Rose，利益衝突爭議暫告落幕。",
         "url": "https://chatgptiseatingtheworld.com/2026/11/16/perplexity-swtiches-to-mayer-brown-attorneys-allison-aviki-elisabeth-anderson-in-reddit-v-serpapi/"
-      }
-    ],
-    "archive": [
+      },
       {
         "addedAt": "2026-11-15",
         "text": "【2026/11/6-12】In re OpenAI Copyright MDL（S.D.N.Y., Stein 法官）：法院准許 56 份法庭之友意見書（含創作產業聯盟力挺原告、美國政府力挺 OpenAI），另訂原告若欲就「grounding／輸出」理論聲請即決判決之補充期程（11/25 具狀、12/11 答辯），原即決判決案答辯期訂 11/20。",
@@ -1095,5 +1105,5 @@
     ]
   },
   "lastUpdatedBy": "add_news.py",
-  "lastUpdatedAt": "2026-11-19T07:11:30.381650+08:00"
+  "lastUpdatedAt": "2026-11-20T07:11:31.349361+08:00"
 }
