@@ -6,6 +6,21 @@
   "data": {
     "items": [
       {
+        "addedAt": "2026-11-22",
+        "text": "【2026/11/19】Carlson LLC v. Anthropic, Meta（N.D. Cal. 3:26-cv-14248）：《Don't Sweat the Small Stuff》作者版權公司（Bartz 和解 opt-out）對 Anthropic 與 Meta 提起新訴，主張兩公司共用 Books3、LibGen、Z-Library、Anna's Archive 等影子圖書館資料訓練模型，構成著作權侵害。",
+        "url": "https://www.vitallaw.com/news/copyright-news-anthropic-and-meta-self-helped-themselves-to-ai-training-materials-new-lawsuit-asserts/ipm01eea3882904794aa786ea89a4f8e8a780"
+      },
+      {
+        "addedAt": "2026-11-22",
+        "text": "【2026/11/20】In re OpenAI Copyright MDL（S.D.N.Y., Stein 法官）：即決判決答辯書狀依期提交，法院指新聞原告未就「輸出」與「grounding」侵權理論充分論述，命其 11/25 前補充；逾 50 份聲援原告之法庭之友意見書同步送達。",
+        "url": "https://chatgptiseatingtheworld.com/2026/11/21/openai-mdl-reply-briefs-are-in-but-briefing-is-not-done/"
+      },
+      {
+        "addedAt": "2026-11-22",
+        "text": "【2026/11/20】Bartz v. Anthropic 15 億和解（N.D. Cal. 3:24-cv-05417）：無爭議著作理賠款爭議期限 11/20 屆至，逾期視為放棄異議；首波理賠款（每件約 2,203.56 美元，約為預估總額 7 成）確定於 11/23 當週發放。",
+        "url": "https://authorsguild.org/news/anthropic-settlement-update-check-your-claim-by-november-20/"
+      },
+      {
         "addedAt": "2026-11-21",
         "text": "【2026/11/19】Eight Mile Style v. Suno（M.D. Tenn. 3:26-cv-13399）：Eminem 音樂發行商就 Suno 擷取其代管 269 首歌曲訓練 AI 一案提出增補訴狀，新增 108 則疑似侵權輸出範例（涵蓋 26 首原曲）並主張違反 DMCA，累計求償 4,780 萬美元。",
         "url": "https://www.digitalmusicnews.com/2026/11/20/eight-mile-style-v-suno-amended-suit/"
@@ -19,7 +34,9 @@
         "addedAt": "2026-11-20",
         "text": "【2026/11/19】Gilbert v. Anthropic（D. Mass.）：Bartz 和解退出原告 Gilbert 與 Anthropic 就使用 LibGen 盜版資料庫及掃描計畫相關事實提交共同事實陳述書（stipulation），內容未見意外爭點。",
         "url": "https://chatgptiseatingtheworld.com/2026/11/19/gilbert-and-anthropic-stipulate-to-facts-related-to-use-of-libgen-v-scanning-project/"
-      },
+      }
+    ],
+    "archive": [
       {
         "addedAt": "2026-11-19",
         "text": "【2026/11/16】Getty Images v. Stability AI（英國上訴法院）：英國唱片業協會（BPI）介入聲援 Getty，警告若維持原判恐使 AI 業者藉境外訓練規避英國著作權法，波及音樂與創意產業，裁判預期延至 2027 年初。",
@@ -29,9 +46,7 @@
         "addedAt": "2026-11-19",
         "text": "【2026/11/16】Cambronne (Carreyrou) v. Anthropic（N.D. Cal., Pitts 法官）：Bartz 和解 opt-out 作者 Cambronne 提交反對意見書，答辯 Anthropic 9/24 提出之駁回動議（含時效抗辯等多項法律異議），裁定尚待作出。",
         "url": "https://chatgptiseatingtheworld.com/2026/11/17/bartz-opt-out-case-put-to-the-test-by-anthropics-motion-to-dismiss/"
-      }
-    ],
-    "archive": [
+      },
       {
         "addedAt": "2026-11-18",
         "text": "【2026/11/14】UMG／Sony Music v. Suno（D. Mass. 第二訴）：兩大唱片公司具狀反對 Suno 全案停審（stay）請求，主張全面停審恐使案件凍結至 2028 年，提出折衷方案容許就新模型與授權談判先行證據開示。",
@@ -1110,5 +1125,5 @@
     ]
   },
   "lastUpdatedBy": "add_news.py",
-  "lastUpdatedAt": "2026-11-21T07:10:54.139941+08:00"
+  "lastUpdatedAt": "2026-11-22T07:10:45.072235+08:00"
 }
