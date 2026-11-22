@@ -6,6 +6,11 @@
   "data": {
     "items": [
       {
+        "addedAt": "2026-11-23",
+        "text": "【2026/11/21】Disney/Universal/Warner Bros. v. Midjourney（C.D. Cal., Kronstadt 法官）：片廠聯合提出動議，要求法院裁定命 Midjourney 依先前協議與法院命令提出 v8 影像模型原始碼及 torch aesthetic-redux 元件資料，隨附多處遭遮蔽之專家與律師宣誓書。",
+        "url": "https://variety.com/2026/film/news/midjourney-studios-ai-copyright-discovery-1236800902/"
+      },
+      {
         "addedAt": "2026-11-22",
         "text": "【2026/11/19】Carlson LLC v. Anthropic, Meta（N.D. Cal. 3:26-cv-14248）：《Don't Sweat the Small Stuff》作者版權公司（Bartz 和解 opt-out）對 Anthropic 與 Meta 提起新訴，主張兩公司共用 Books3、LibGen、Z-Library、Anna's Archive 等影子圖書館資料訓練模型，構成著作權侵害。",
         "url": "https://www.vitallaw.com/news/copyright-news-anthropic-and-meta-self-helped-themselves-to-ai-training-materials-new-lawsuit-asserts/ipm01eea3882904794aa786ea89a4f8e8a780"
@@ -24,7 +29,9 @@
         "addedAt": "2026-11-21",
         "text": "【2026/11/19】Eight Mile Style v. Suno（M.D. Tenn. 3:26-cv-13399）：Eminem 音樂發行商就 Suno 擷取其代管 269 首歌曲訓練 AI 一案提出增補訴狀，新增 108 則疑似侵權輸出範例（涵蓋 26 首原曲）並主張違反 DMCA，累計求償 4,780 萬美元。",
         "url": "https://www.digitalmusicnews.com/2026/11/20/eight-mile-style-v-suno-amended-suit/"
-      },
+      }
+    ],
+    "archive": [
       {
         "addedAt": "2026-11-20",
         "text": "【2026/11/19】In re OpenAI Copyright MDL（S.D.N.Y.）：12 名民主黨眾議員（Pingree、Balint、Ross 領銜）致函司法部，質疑其 9 月力挺 OpenAI／Microsoft 合理使用立場之意見書未諮詢著作權局等智財機關，要求揭露撰稿過程及是否受外部業者影響。",
@@ -34,9 +41,7 @@
         "addedAt": "2026-11-20",
         "text": "【2026/11/19】Gilbert v. Anthropic（D. Mass.）：Bartz 和解退出原告 Gilbert 與 Anthropic 就使用 LibGen 盜版資料庫及掃描計畫相關事實提交共同事實陳述書（stipulation），內容未見意外爭點。",
         "url": "https://chatgptiseatingtheworld.com/2026/11/19/gilbert-and-anthropic-stipulate-to-facts-related-to-use-of-libgen-v-scanning-project/"
-      }
-    ],
-    "archive": [
+      },
       {
         "addedAt": "2026-11-19",
         "text": "【2026/11/16】Getty Images v. Stability AI（英國上訴法院）：英國唱片業協會（BPI）介入聲援 Getty，警告若維持原判恐使 AI 業者藉境外訓練規避英國著作權法，波及音樂與創意產業，裁判預期延至 2027 年初。",
@@ -1125,5 +1130,5 @@
     ]
   },
   "lastUpdatedBy": "add_news.py",
-  "lastUpdatedAt": "2026-11-22T07:10:45.072235+08:00"
+  "lastUpdatedAt": "2026-11-23T07:11:15.445556+08:00"
 }
