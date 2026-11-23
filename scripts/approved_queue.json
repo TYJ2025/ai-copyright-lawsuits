@@ -197,5 +197,14 @@
     "decidedAt": "2026-11-09T08:00:10+08:00",
     "appliedAt": "2026-11-09T08:00:10+08:00",
     "decidedBy": "auto-triage"
+  },
+  {
+    "title": "Carlson LLC v. Anthropic PBC",
+    "url": "https://www.courtlistener.com/docket/75148502/carlson-llc-v-anthropic-pbc/",
+    "subtitle": "District Court, N.D. California · 3:26-cv-14248 · filed 2026-11-19",
+    "note": "自動分流：當事人含 AI 業者：Anthropic",
+    "decidedAt": "2026-11-23T08:00:07+08:00",
+    "appliedAt": "2026-11-23T08:00:07+08:00",
+    "decidedBy": "auto-triage"
   }
 ]
